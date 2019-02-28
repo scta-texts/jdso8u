@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 1, Prologus, Pars 3, Quaestio 1 [Vat Lat. 874 Transcription]</title>
+        <author>John Duns Scouts</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 1, Prologus, Pars 3, Quaestio 1 [Vat Lat. 874 Transcription]</title>
+          <date when="2019-02-05">February 10, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Vc" n="cod-nvi3v4">Vat Lat. 874</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-02-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Vc" n="6-v"/>
+        <cb ed="#Vc" n="b"/>
+        <lb ed="#Vc" n="37"/> <!-- needs dbcheck -->
+        
+      </div>
+    </front>
+    <body>
+      <div>
+        <p>
+          <lb ed="#Vc"/>Quaeritur utrum theologia sit de deo tamquam de subiecto primo
+        </p>
+        <p>
+          quod non arguitur 
+          <lb ed="#Vc"/>duabus viis prima est ostendere negativam istam in se quae probatur 
+          <lb ed="#Vc"/>primo per auctoritatem in <name>boetium</name> 
+          
+<!--          quod aliud sit subiectum theologiae igitur non istud antecedens probatur multipliciter</p>
+        
+        <p>primo sic per augustinum de doctrina christiana libro i cap 1 omnis scriptura est de rebus vel de signis igitur res vel signa sunt subiectum</p>
+        
+        <p> item scriptura habet quattuor sensus anagogicum tropologicum allegoricum et historicum vel litteralem cuilibet autem sensui correspondet aliquod subiectum primum sicut alii scientiae tantum habenti unum sensum correspondet subiectum secundum illum sensum igitur hic sunt quattuor subiecta</p>
+        
+        <p> item quod homo sit subiectum probatur auctoritate commentatoris i ethicorum in prologo quia secundum eum ibi scientia moralis est de homine quoad animam medicinalis est de homine quoad corpus ex hoc accipitur illa propositio 'omnis practica scientia habet pro obiecto primo illud cui acquiritur finis practicae scientiae et non ipsum finem' sed finis huius scientiae acquiritur homini non deo ergo homo est subiectum huius scientiae et non deus</p>
+        
+        <p>item aliter sed quasi redit in idem finis scientiae est per actum suum attingere obiectum primum inducendo in illud formam principaliter a scientia intentam puta ut in speculativa inducere in illud 'esse cognitum' quia cognitio ibi principaliter intenditur in practica inducere formam ad quam ordinatur eius praxis finis autem hic intentus est bonitas moralis quae non intenditur induci in deo sed in homine ergo homo est primum obiectum eius</p>
+        
+        <p>secunda via ad propositum est ostendere quod deus non sit eius primum subiectum quod primo probatur auctoritate boethii de trinitate forma inquit simplex subiectum esse non potest</p>
+        
+        <p>item materia non coincidit cum aliis causis - ii physicorum neque in idem numero neque in idem specie deus autem est finis huius scientiae et efficiens non igitur materia</p>
+        
+        <p>item ex i posteriorum subiectum scientiae habet partes principia et passiones deus autem non habet partes integrales cum sit omnino simplex nec subiectivas cum sit singularis ex se nec habet principia cum sit primum principium nec passiones quia passio inest subiecto ita quod est extra eius essentiam sic nihil inest deo</p>
+        
+        <p>contra augustinus viii de civitate cap 1 theologia est sermo vel ratio de deo</p>
+        
+        <p>secundo quaeritur utrum theologia sit de deo sub aliqua ratione speciali quod sic arguitur hugo de sacramentis in principio vult quod opera restaurationis sint subiectum igitur si deus est hic subiectum hoc erit sub aliqua ratione eius speciali in quantum scilicet est restaurator</p>
+        
+        <p>item cassiodorus super psalterium vult quod christus sit subiectum caput cum membris igitur specialiter ut incarnatus sive ut caput ecclesiae erit subiectum</p>
+        
+        <p>item deus absolute est subiectum metaphysicae igitur si est hic subiectum hoc erit sub aliqua ratione speciali consequentia probatur quia non sub eadem ratione omnino est subiectum hic et ibi antecedens probatur per philosophum vi metaphysicae honorabilissimam scientiam oportet esse circa honorabilissimum > genus subiectum illa secundum ipsum est honorabilissima hoc etiam confirmatur quia vocat ibi metaphysicam theologiam</p>
+        
+        <p>item averroes i physicorum ultimo commento dicit quod avicenna multum peccavit ponendo metaphysicam probare primam causam esse cum genus substantiarum separatarum sit ibi subiectum et nulla scientia probat suum subiectum esse sed ratio illa averrois non valeret nisi intelligeret quod deus esset primum subiectum ibi ergo etc</p>
+        
+        <p>item ista scientia est honorabilissima ergo est de subiecto nobilissimo sub ratione nobilissima huiusmodi est ratio finis et boni de fine probatur per avicennam vi metaphysicae si scientia esset de causis quae esset de fine esset nobilissima ex hoc concluditur de bono quia - secundum philosophum ii metaphysicae qui ponit infinitatem in finibus destruit naturam boni quia destruit naturam finis ex hoc accipitur quod ratio boni est ratio finis </p>
+        
+        <p>contra cognitio contracta supponit cognitionem absolutam absoluta autem cognitio est certior ex i metaphysicae igitur si ista est de deo sub ratione aliqua speciali erit aliqua alia prior et certior de deo absolute sumpto talis non ponitur igitur etc</p>
+        
+        <p>quaeritur utrum scientia ista sit de omnibus ex attributione eorum ad primum eius subiectum quod sic iv metaphysicae eadem est scientia de aliquo et de attributis ad ipsum sicut exemplificat ibi de sano sed omnia alia essentialiter attribuuntur ad subiectum primum huius igitur etc </p>
+        
+        <p>contra xiv de trinitate cap 1 neque huic scientiae attribuendum est etc</p>-->
+      </div>
+    </body>
+  </text>
+</TEI>
