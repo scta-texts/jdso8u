@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transription Editor; TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev-master">
+          <title>Quaestio 2</title>
+          <date when="2021-07-22">July 22, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="W" n="cod-W61xza">Wadding, Lyon 1639, v. 6.1</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-07-22" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#W" n="188"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-"> <!-- q. 6 in Wadding; b2d2p2q2 in Vat ordinatio -->
+        <head xml:id="jdso8u--Hd1e103">Quaestio 2</head>
+        <p xml:id="jdso8u--d1e106"><!-- scotus-p0 -->
+          <lb ed="#W" n="30" type="fixed=188"/>QVAESTIOVI.: 
+          <lb ed="#W" n="31"/>Angeli sit determinatus, punctualis, 
+          <lb ed="#W" n="32"/>An locus; 
+          <lb ed="#W" n="33"/>maximus, &amp; minimus 
+        </p>
+        <p xml:id="jdso8u--d1e118"><!-- soctus-p1 -->
+          <lb ed="#W" n="39"/>SEXTO iuxta hoc quaero sine argumentis. Utrum Angelus requirat 
+          de<lb ed="#W" n="40" break="no"/>terminatum locum, ita quod nec in maiori, nec in minori possit esse, sed  
+          <lb ed="#W" n="41"/>praecise in tanto loco? &amp; includitur hic: Utrum possit esse in loco 
+          pun<lb ed="#W" n="42" break="no"/>ctuali: Et, Vtrum in quantumcunque magno loco, &amp; in 
+          quantumcun<lb ed="#W" n="43" break="no"/>que paruo
+        </p>
+          
+        <p xml:id="jdso8u--d1e132"><!-- scotus-p2 -->
+          <lb ed="#W" n="7"/>AD primam: quaestionem dicitur, quod Angelus est in loco per operationem 
+          <lb ed="#W" n="8"/>praecise, ad quod probandum adducitur <ref xml:id="jdso8u--Rd1e139">Damasc cap. 13.</ref> <quote xml:id="jdso8u--Qd1e142">Incorpores (inquit) 
+            na<lb ed="#W" n="9" break="no"/>tura ubi adest, &amp; operatur non corporaliter, sed spiritualiter continetur</quote>, &amp; <ref xml:id="jdso8u--Rd1e147">infra eodem cap.</ref>  
+          <lb ed="#W" n="10"/><quote xml:id="jdso8u--Qd1e152">Intelligentia dicitur circumscribi, ubi adest intellectualiter &amp; operatur</quote>, &amp; <ref xml:id="jdso8u--Rd1e155">cap.16.</ref> 
+          intelle<lb ed="#W" n="11" break="no"/>ctualiter adesse &amp; operari, ubi vtique missi fuerint. Ita quod semper videtur cum esse 
+          <lb ed="#W" n="12"/>Angeli in loco, adiungere operati, quasi hoc sit angelum esse in loco ipsum operati 
+          <lb ed="#W" n="13"/>in loco.
+        </p>
+        <p xml:id="jdso8u--d1e166">
+          <lb ed="#W" n="14"/><pc type="indent"/>Contra hoc est, quia istud videtur esse damnatum, sicut <ref xml:id="jdso8u--Rd1e171" target="http://scta.info/resource/z88d99-avn8u2-d1e1767">quidam articulus 
+            dam<lb ed="#W" n="15" break="no"/>natus ab <name xml:id="jdso8u--Nd1e175" ref="#per-x84nST">Episcopo Parisiensi</name>, &amp; excommunicatus</ref>. Quod si dicatur, quod 
+          excom<lb ed="#W" n="16" break="no"/>municatio non transeat mare, vel dioecesim. Si tamen fuit articulus condemnatus 
+          <lb ed="#W" n="17"/>sicut articulus haereticus, vbique est condemnatus sicut haereticus, non auctoritate 
+          <lb ed="#W" n="18"/>dioecesani tantum, sed etiam auctoritate Papae, <ref xml:id="jdso8u--Rd1e186" target="http://scta.info/resource/cice-l5t7-d1e240">extra de haere. cap. Ad abolendam</ref>, vel 
+          <lb ed="#W" n="19"/>saltem sententia est suspecta quando in aliqua vniuersitate solemniter est damnata.
+        </p>
+        <p xml:id="jdso8u--d1e192">
+          <lb ed="#W" n="20"/><pc type="indent"/>Alij autem S nolentes verbo suspecto vti, Angelum, videlicet, esse in loco 
+          per<lb ed="#W" n="21" break="no"/>operationem; dicunt ipsum esse in loco per applicationem eius ad locum.¬
+        </p>
+        <p xml:id="jdso8u--d1e200">
+          <lb ed="#W" n="22"/><pc type="indent"/>Sed illi videntur idem dicendo, sub alio vocabulo occultare: non enim videtur? 
+          <lb ed="#W" n="23"/>applicatio posse intelligi aliquid esse, nisi sit actus primus, vel actus secundus: non 
+          <lb ed="#W" n="24"/>actus primus, patet: nec actus secundus; quia si intelligitur actus secundus, ergo 
+          ope<lb ed="#W" n="25" break="no"/>ratio: &amp; non immanens, vt intellectio, vel volitio, quia operatio eius immanens ita 
+          <lb ed="#W" n="26"/>abstrahit a loco, sicut essentia Angeli: igitur applicatio est operatio transiens in 
+          cor<lb ed="#W" n="27" break="no"/>pus: &amp; ita erit in loco per operationem eius circa corpus in loco. 
+        </p>
+        <p xml:id="jdso8u--d1e217"><!-- scotus-p3 -->
+          <lb ed="#W" n="34"/>COntra conclusionem huius opinionis arguitur primo, quod sic ponens 
+          con<lb ed="#W" n="35" break="no"/>tradicat sibiipsi: quia <ref xml:id="jdso8u--Rd1e224" target="http://scta.info/resource/TAca84-d1e87-d1e162">in quaest. illa: an Deus sit ubique</ref>, probat quod sic per hoc,  
+          <lb ed="#W" n="36"/>quia secundum <ref xml:id="jdso8u--Rd1e229">Philosophum 7. Physic.</ref> <quote xml:id="jdso8u--Qd1e233" source="http://scta.info/resource/aristdp-d1e97-d1e520@72-78">Mouens est simul cum moto</quote>, &amp; Deus est primum 
+          <lb ed="#W" n="37"/>efficiens: &amp; ideo potens mouere omne mobile: ex hoc concludit quod est in omnibus. 
+          <lb ed="#W" n="38"/>&amp; praesens omnibus.
+        </p>
+        <p xml:id="jdso8u--d1e241"><!-- para break here in Wadding; but I prefer break here; see reference to this section in Cajetan -->
+          Quaero quid intendit per hoc concludere? Aut esse praesentem. 
+          <lb ed="#W" n="39"/>omnibus, hoc est monentem, &amp; tunc est petitio principij: quia idem est praemissa, &amp; 
+          <lb ed="#W" n="40"/>conclusio, &amp; nihil ad propositum: quia ibi intendit concludere immensitatem Dei, 
+          <lb ed="#W" n="41"/>secundum quam Deus est praesens omnibus.
+          <!-- paragraph brak here in wadding -->  
+          <lb ed="#W" n="42"/><pc type="indent"/>Aut intendit concludere illam praesentiam, quae competit Deo, inquantum est 
+          im<lb ed="#W" n="43" break="no"/>mensus: &amp; tunc ex operatione alicubi, secundum ipsum sequitur praesentia illa, quae 
+          <lb ed="#W" n="44"/>pertinet ad immensitatem diuinam, quae est Dei, inquantum Dei, ita quod prius 
+          <lb ed="#W" n="45"/>naturaliter erit praesens inquantum immensus, quam inquantum operans: &amp; hoc 
+          con<lb ed="#W" n="46" break="no"/>cluditur ex hoc, quod est in omnibus per operationem, sicut ex posteriori: igitur a 
+          si<lb ed="#W" n="47" break="no"/>mili in proposito, prius naturaliter est Angelus praesens alicui loco secundum 
+          essen<lb ed="#W" n="48" break="no"/>tiam, quam sit praesens secundum suam operationem.
+        </p>
+        <p xml:id="jdso8u--d1e270">
+          <lb ed="#W" n="49"/><pc type="indent"/>Confirmatur ratio e quia minus videtur de Deo, quod oporteat ipsum esse prae 
+          <lb ed="#W" n="50"/>sentem ei, in quod agat per praesentiam, siue per essentiam, quam Angelus: quia illud 
+          <lb ed="#W" n="51"/>quod est illimitatae potentie videtur posse agere in quantumcunque distans: sed illud 
+          <lb ed="#W" n="52"/>quod est determinatae, &amp; limitatae virtutis, requirit determinatam approximationem 
+          <lb ed="#W" n="53"/>passi, ad hoc quod agat in ipsum Nullum enim videtur agens virtutis limitatae, &amp; de 
+          <!--209.xml-->
+          <pb ed="#W" n="209"/>
+          <lb ed="#W" n="1"/>terminatae, cuius actio non possit impediri, per nimiam distantiam ad passum, &amp; 
+          ita<lb ed="#W" n="2" break="no"/>magis videtur necessario ponere Angelum esse praesentem ad hoc, quod agat.
+        </p>
+        <p xml:id="jdso8u--d1e294">
+          <lb ed="#W" n="3"/><pc type="indent"/>Confirmatur etiam5, quia si actio aliqua est in corpore ab Angelo, quaero 
+          quomo<lb ed="#W" n="4" break="no"/>do se habet actio ista ad virtutem illam, a qua procedit: aut mediate, aut immediate. 
+          <lb ed="#W" n="5"/>Si est immediata illi, a qua procedit: igitur immediate est Angelus in tali corpore, vel  
+          <lb ed="#W" n="6"/>iuxta tale corpus. Si mediata igitur est ab illa virtute per aliud medium: &amp; de illo 
+          me<lb ed="#W" n="7" break="no"/>diofiat eadem quaestio, &amp; tunc oportebit stare ad hoc quod illud, quod primo est a 
+          ta<lb ed="#W" n="8" break="no"/>li virtute immediatum est tali virtuti, &amp; per consequens illi, cuius est talis virtus, &amp; 
+          ita<lb ed="#W" n="9" break="no"/>econnerso erit praesens ibi
+        </p>
+        <p xml:id="jdso8u--d1e313">
+          <lb ed="#W" n="10"/>Praeterea secundo sequitur, quod Angelus aliquando, imo frequenter nusquam  
+          <lb ed="#W" n="11"/>sit: nihil enim operatur in coeloempyreo, quia illud non est mutabile nec mobile: 
+          igi<lb ed="#W" n="12" break="no"/>tur nusquam Angelus est in coelo empyreo, vbi tamen est vt plurimum.
+        </p>
+        <p xml:id="jdso8u--d1e322">
+          <lb ed="#W" n="13"/><pc type="indent"/>Item si transeat de coelo ad terram, potest operati in locis extremis, nihil agendo 
+          <lb ed="#W" n="14"/>in omnibus locis intermediis, quia potest esse aliquis Angelus, qui non est motor 
+          ali<lb ed="#W" n="15" break="no"/>cuius orbis intermedij: igitur nec ille tunc erit in coelo, nec in terra, nec in medio.
+        </p>
+        <p xml:id="jdso8u--d1e332">
+          <lb ed="#W" n="16"/><pc type="indent"/>Praeterea tertio si Angelus est in loco per operationem: ergo ibi primo est, vbi 
+          pri<lb ed="#W" n="17" break="no"/>mo operatur. Sed primo operatur in toto edlo: totum enim coelum est primo 
+          propor<lb ed="#W" n="18" break="no"/>tionatum virtuti Angeli, ita quod totum primo monet, &amp; ita proportionatum 
+          secun<lb ed="#W" n="19" break="no"/>dum Philosophum secundo de Caelo &amp; Mundo. Quod si adderetur vna stella, moneret. 
+          <lb ed="#W" n="20"/>cum poena, &amp; labore: &amp; tamen non est: primo in toto coelo: ergo, &amp;c.
+        </p>
+        <p xml:id="jdso8u--d1e346">
+          <lb ed="#W" n="21"/><pc type="indent"/>Si eas, quod primo monet aliquam vnam partem, &amp; ibi est, &amp; per motum illius 
+          par<lb ed="#W" n="22" break="no"/>tis monet aliam partem, quasi impellendo, vel trahendo.
+        </p>
+        <p xml:id="jdso8u--d1e354">
+          <lb ed="#W" n="23"/><pc type="indent"/>Contra hoc licet Philosophus imaginetur illum rusticum habere pedes, &amp; caput  
+          <lb ed="#W" n="24"/>in polis, &amp; brachia protensa, &amp; extensa ad Orientem, &amp; Occidentem: secundum 
+          <lb ed="#W" n="25"/>veritatem tamen si primum coelum ponatur mobile, &amp; non quiescens, nullus punctus 
+          <lb ed="#W" n="26"/>est in coelo magis oriens quam alius, sed quilibet punctus est oriens successiue. Nullus 
+          <lb ed="#W" n="27"/>etiam punctus est magis capax motus, quam alius secundum veritatem: &amp; ideo non 
+          <lb ed="#W" n="28"/>est in coelo ex natura rei dextrum, &amp; sinistrum, sicut in animali. Pars enim dextra, 
+          <lb ed="#W" n="29"/>quae est in animali, magis capax est virtutis animae quam pars finistra: in nulla parte: 
+          <lb ed="#W" n="30"/>potest poni Angelus primo, ex hoc quod primo illam partem moneat.
+        </p>
+        <p xml:id="jdso8u--d1e376">
+          <lb ed="#W" n="31"/>Hoc etiam confirmatur, quia si esset in aliqua parte, quasi quiescens per se, motus. 
+          <lb ed="#W" n="32"/>tamen per accidens, sicut nauta in nani, ita quod semper citcumferretur cum illo 
+          mo<lb ed="#W" n="33" break="no"/>tu, videretur inconueniens talem motum attribuere Ange lo mouenti orbem. Nec 
+          <lb ed="#W" n="34"/>etiam potest potest! poni quasi per se quiescens, &amp; quod iuxta illum sit fluens pars &amp; 
+          <lb ed="#W" n="35"/>pars ipsius coeli, &amp; quod partem magis illi praesentem semperprimo moueat: non enim 
+          <lb ed="#W" n="36"/>est assignate in quo quiescat ille Angelus, cum continue mnueat partem praesentem, 
+          <lb ed="#W" n="37"/>&amp; existendo in aliquo inquantum est motum non erit quiescens in eo, vt videtur. 
+        </p>
+        <p xml:id="jdso8u--d1e394">
+          <lb ed="#W" n="38"/>Praeterea, illud quod est ratio Angelo existendi in in loco, est in eo formaliter, 
+          alio<lb ed="#W" n="39" break="no"/>quin Angelus nullo modo erit formaliter in loco: operatio autem transiens in corpus 
+          <lb ed="#W" n="40"/>non est formaliter in Angelo: ergo, &amp;c.
+        </p>
+        <p xml:id="jdso8u--d1e403">
+          <lb ed="#W" n="41"/>Praeterea, illa operatioν est commensuratiue in loco per accidens: igitur si per eam 
+          <lb ed="#W" n="42"/>Angelus est in loco, &amp; nullo alio modo, est ibi commensuratiue
+        </p>
+        <p xml:id="jdso8u--d1e410">
+          <lb ed="#W" n="43"/>Praeterea Damas. cui maxime innituntur, non est proeis. Tum. quia omnes 
+          au<lb ed="#W" n="44" break="no"/>ctoritates communiter semper copulant, ad esse &amp; operanim, vbi esset superfluitas, nisi 
+          <lb ed="#W" n="45"/>aliud esset formaliter Angelum esse in loco, quam ipsum operati in loco. Dicit enim 
+          <lb ed="#W" n="46"/>in prima auctoritate, ubi adest, &amp; operatur, &amp; in secunda auctoritate dicitur Angelum 
+          <lb ed="#W" n="47"/>esse in loco propter adesse intellectualiter, &amp; operari, &amp; in tertia, intellectualiter adesse, &amp; 
+          ope<lb ed="#W" n="48" break="no"/>rari, ubi viique fuerunt missi, fimilitet idem Damas cap. 20. dicit, quod caelumest 
+          continen<lb ed="#W" n="49" break="no"/>tia visibilium, &amp; inuisibilium creaturarum, &amp; infra ipsum Angelorum virtutes includuntur.  
+          <lb ed="#W" n="50"/>Ita igitur secundum ipsum, sunt modo Angeli in coelo, quod includuntur intra coelum: 
+          <lb ed="#W" n="51"/>non sic autem includebantur in principio suae creationis, quia ipse cap. 17. X videtur  
+          <lb ed="#W" n="52"/>assentire Greg. Theologo, quod conditi fuerunt ante corporalem creaturam: tuc enim 
+          <lb ed="#W" n="53"/>non erant in loco sicut modo sunt, quia modo continentur in loco: tunc autem non 
+          <lb ed="#W" n="54"/>continebantur, &amp; tamen tunc potuerunt intelligere creaturam2 corporalem, 
+          secun<lb ed="#W" n="55" break="no"/>dum <ref xml:id="jdso8u--Rd1e440"><name xml:id="jdso8u--Nd1e441">Augustinum</name> super Gen.</ref> quia prius habuerunt cognitionem maturinam, iquam 
+          <lb ed="#W" n="56"/>vespertinam: &amp; potuerunt intelligere objectum ex parte objecti sub eadem ratione 
+          <lb ed="#W" n="57"/>qua modo intelligunt illudiergo per solam intellectionem objectis, non ponit eos 
+          Da<lb ed="#W" n="58" break="no"/>mascenus esse praesentes objecto
+        </p>
+        <p xml:id="jdso8u--d1e452"><!-- socuts-p4 -->
+          <lb ed="#W" n="63"/>AD quaestionem, igitur illam soluendam. Primo videndum est de loco 
+          corpo<lb ed="#W" n="64" break="no"/>Dris: cuilibecenim corpori praeter vitimum, cuius non est aliud extra continens, 
+          <lb ed="#W" n="65"/>sex conneniunt. Primo esse in loco: secundo esse in loco actuali: tertio esse in loco 
+          de<lb ed="#W" n="66" break="no"/>terminato, quia aequali: quarto esse in loco commensuratiue quinto esse in loco 
+          de<lb ed="#W" n="67" break="no"/>terminate hoc vel illo: sexto esse in loco naturaliter, vel violenter. Quatuor  
+          <lb ed="#W" n="68"/>prima conueniunt corpori inquantum quantum, vel inquantum corpus. Quintum 
+          <lb ed="#W" n="69"/>conuenit sibi ab agente, Ultimum conuenit sibi inquantum est corpus naturale. Licet. 
+          <lb ed="#W" n="70"/>enim nullum quantum existat, nisi ipsum sit quale: tamen existens, prius naturaliter 
+          <lb ed="#W" n="71"/>est quantum, quam quale, &amp; secundum hoc prius naturaliter est Mathematicum, quam 
+          <lb ed="#W" n="72"/>quale, hoc est tale, quale primo consideratur a Mathematico per se &amp; primo, &amp; hoc  
+          <lb ed="#W" n="73"/>intelligit <ref xml:id="jdso8u--Rd1e479">Philos 4. Physic. cap. de vacuo</ref>, vbi vult, quod si corpus cubum ponatur i 
+          <lb ed="#W" n="74"/>aere vel aqua, licet nuliam habeat passionem naturalem tantum: tamen facit? 
+          <lb ed="#W" n="75"/>distare latera corporis continentis quantum est ipsum corpus ibi positum: ita quod  
+          <lb ed="#W" n="76"/>quantum est ipsum corpus, tantum facit distare, &amp; hoc non conuenit sibi 
+          inquan<lb ed="#W" n="77" break="no"/>tum est naturale tantum, sed inquantum est quantum praecise, &amp; ita 
+          Mathema<lb ed="#W" n="78" break="no"/>ticum.
+        </p>
+        <p xml:id="jdso8u--d1e493">
+          <lb ed="#W" n="79"/>Exponendo? autem ista per ordinem, dico, quod omne corpus tale aliud a 
+          primo<lb ed="#W" n="80" break="no"/>Primo est in loco, hoc est, in continente praecise, etiam immobili: hoc enim intelligitur? 
+          <lb ed="#W" n="81"/>per illam definitionem Philosophi quam ponit <ref xml:id="jdso8u--Rd1e501">4. Physic. de loco</ref> scilicet, locus est 
+          vl<lb ed="#W" n="82" break="no"/>timum corporis continentis immobile primum, &amp;c. Diuisibile enim secundum illam 
+          di<lb ed="#W" n="83" break="no"/>mensionem, secundum quam est diuisibile, non potest immediate esse applicatum 
+          <lb ed="#W" n="84"/>alicui vt continens ipsum; sed praecisum continens alicuius est indiuisibile. Nihil 
+          au<lb ed="#W" n="85" break="no"/>tem indiuisibile de genere Quantitatis per se existit, sed in aliquo diuisibili, &amp; ideo 
+          se<lb ed="#W" n="86" break="no"/>quitur illud praecisum continens esse vitimum alicuius diuisibilis continentis, 
+          <lb ed="#W" n="87"/>ista autem vitimitas non est de ratione loci, sicut est de ratione continentis praecise. 
+          <lb ed="#W" n="88"/>. 
+          <!--212.xml-->
+          <pb ed="#W" n="212"/>
+          <cb ed="#W" n=""/>
+          <lb ed="#W" n="1"/>quia si posset indiuisibile per se esse, &amp; nullius diuisibilis vitimum, illud indiuisibile 
+          <lb ed="#W" n="2"/>vere manens per se posset esse praecisum continens.
+        </p>
+        <p xml:id="jdso8u--d1e532">
+          <lb ed="#W" n="3"/>Vltra autem istam continentiam praecisam, addit locus immobilitatem, qua 
+          distin<lb ed="#W" n="4" break="no"/>guitur a vase, secundum <ref xml:id="jdso8u--Rd1e538">Philosophum. 4. Physicor.</ref> quam immobilitatem X visi sunt 
+          di<lb ed="#W" n="5" break="no"/>uersi diuersimode saluare per respectum ad polos, &amp; ad centrum.
+        </p>
+        <p xml:id="jdso8u--d1e544">
+          <lb ed="#W" n="6"/>Sed breuiter dico quod si subjectum non maneat idem, nullum accidens 
+          absolu<lb ed="#W" n="7" break="no"/>tum, vel respectiuum manet idem, secundum Philosophum: &amp; ideo cum manifestum 
+          <lb ed="#W" n="8"/>sit omnem substantiam, quae continet hoc corpus, posse moueri localiter, &amp; non 
+          ma<lb ed="#W" n="9" break="no"/>nere idem numero: patet, omne accidens absolutum, &amp; respectiuum, quod est in 
+          con<lb ed="#W" n="10" break="no"/>tinente istud corpus, manere non posse idem numero: &amp; ideo nec locum, siue locus 
+          <lb ed="#W" n="11"/>ponatur esse aliquid absolutum m tali corpore, siue respectiuum.
+        </p>
+        <p xml:id="jdso8u--d1e560">
+          <lb ed="#W" n="12"/>Et si dicatur, quod est a vltimum totius vniuersi, &amp; licet vt est vitimum continentis: 
+          <lb ed="#W" n="13"/>varietur, tamen vt est vitimum vniuersi non variatur, nec hoc saluat, quia non est 
+          viti<lb ed="#W" n="14" break="no"/>mum totius vniuersi, nisi quia primo est vltimum alicuius partis eius: &amp; ideo si est aliud 
+          <lb ed="#W" n="15"/>&amp; aliud, vt est alterius &amp; alterius partis, non est idem, vt est totius vniuersi: licet enim 
+          <lb ed="#W" n="16"/>in aliquo toto sint multae partes, tamen quod competit sibi per vnam partem 
+          primo<lb ed="#W" n="17" break="no"/>praecise, &amp; post aliam praecise, non est idem numero.
+        </p>
+        <p xml:id="jdso8u--d1e576">
+          <lb ed="#W" n="18"/>Dico igitur quod locus habet immobilitatem oppositam motui locali omnino, &amp; 
+          <lb ed="#W" n="19"/>incorruptibilitatem secundum aequiualentiam per comparationem ad motum 
+          loca<lb ed="#W" n="20" break="no"/>lem. Primum patet, quia si est aliquo modo mobile localiter, quantumcunque 
+          acci<lb ed="#W" n="21" break="no"/>piatur per accidens, posset dici esse in loco per accidens, &amp; ei assignari alius &amp; alius 
+          <lb ed="#W" n="22"/>locus: sicut licet similitudo moneatur quasi accidentaliter per accidens, quia scilicet,  
+          <lb ed="#W" n="23"/>in quarto, vel in quinto gradu, quia primo corpus, &amp; per hoc superficies, &amp; per hoc 
+          al<lb ed="#W" n="24" break="no"/>bedo, &amp; per hoc similitudo: tamen superficies vel albedo, vel similitudo, vere est, 
+          <lb ed="#W" n="25"/>quando monetur in toto corpore in alio &amp; alio loco. Similiter tanc aliquid quiescens. 
+          <lb ed="#W" n="26"/>posset moueri localiter: nam quod habet alium &amp; alium locum successiue, localiter  
+          <lb ed="#W" n="27"/>mouetur: fixum autem posset habere alium, &amp; alium locum continentem, si moueret 
+          <lb ed="#W" n="28"/>tur locus per accidens. 
+        </p>
+        <p xml:id="jdso8u--d1e602">
+          <lb ed="#W" n="29"/>Secundum probo, quia licet locus corrumpatur moto eius subjecto localiter, ita 
+          <lb ed="#W" n="30"/>quod moto aere localiter non manet in eo eadem ratio loci, quae prius, sicut patet ex 
+          <lb ed="#W" n="31"/>iam probato: nec eadem ratio loci potest manere in T aqua succedente, quia idem 
+          ac<lb ed="#W" n="32" break="no"/>dens numero non potest manere in duobus subjectis: tamen illa ratio loci succedens, 
+          <lb ed="#W" n="33"/>quae est alia a ratione praecedenti secudum veritatem, est eadem praecedenti per 
+          aequi<lb ed="#W" n="34" break="no"/>ualentiam, quantum ad motum localem: nam ita incompossibile est localem motum 
+          <lb ed="#W" n="35"/>esse ab hoc loco in hunc locum; sicut si esset omnino idem locus numero.
+        </p>
+        <p xml:id="jdso8u--d1e620">
+          <lb ed="#W" n="36"/>Nullus autem idem motus localis potest esse ab vno vbi ad aliud vbi, quae duo 
+          ubi<lb ed="#W" n="37" break="no"/>non correspondeant duobus locis differentibus specie propter spatium interceptum: 
+          <lb ed="#W" n="38"/>quia habentibus alium respectum non tantum numero, sed etiam specie ad totum 
+          <lb ed="#W" n="39"/>yniuersum: ex hoc illi respectus, qui sunt tantum numero alij, videntur vnus 
+          nu<lb ed="#W" n="40" break="no"/>mero, quia ita sunt indistincti respectu motus localis, sicut si tantum esset vnus 
+          <lb ed="#W" n="41"/>respectus.
+        </p>
+        <p xml:id="jdso8u--d1e637">
+          <lb ed="#W" n="42"/>Exemplum huius patet aliqualiter in nominibus significatiuis: quia haec vox homo, 
+          <lb ed="#W" n="43"/>quotiescunque prolata dicitur vna vox numero, &amp; distingui ab hac voce lapis 
+          nume<lb ed="#W" n="44" break="no"/>to: cum tamen non possit eadem vox numero bis proferri, ita quod quot sunt 
+          prola<lb ed="#W" n="45" break="no"/>tiones, tot sunt voces distinctae numero: &amp; haec vox homo, &amp; haec vox lapis, non 
+          <lb ed="#W" n="46"/>tantum numero, sed etiam specie distinguuntur: tamen quia ad finem vocis, scilicete  
+          <lb ed="#W" n="47"/>ad exprimendum conceptum per aequiualentiam, sunt idem numero homo &amp; homo, 
+          <lb ed="#W" n="48"/>lapis &amp; lapis quotiescunque prolata: ideo dicuntur esse vna vox numero respectu 
+          il<lb ed="#W" n="49" break="no"/>lius finis.
+        </p>
+        <p xml:id="jdso8u--d1e657">
+          <lb ed="#W" n="50"/>Sic dico in proposito, quod locus est immobilis per se, &amp; per accidens localiter: est 
+          <lb ed="#W" n="51"/>tamen corruptibilis moto subjecto localiter, quia tunc amplius non manet in eo illa 
+          <lb ed="#W" n="52"/>telatio: &amp; tamen non est corruptibilis in se, &amp; secundum aequinalentiam, quia 
+          ne<lb ed="#W" n="53" break="no"/>cessario succedit illi corpori, in quo fuit ista ratio loci aliud corpus, in quo est alia 
+          ratio<lb ed="#W" n="54" break="no"/>loci numero a praecedenti, &amp; tamen eadem praecedenti secundum aequiualentiam 
+          per<lb ed="#W" n="55" break="no"/>comparationem ad motum localem.
+        </p>
+        <p xml:id="jdso8u--d1e673">
+          <lb ed="#W" n="56"/>Sed nunquid omne corpus aliud a primo corpore, necessario est in loco, quia 
+          <lb ed="#W" n="57"/>quantum? Philosophus diceret, quod sic, quia diceret non posse esse aliquod corpus 
+          <lb ed="#W" n="58"/>aliud a corpore caelesti quin sit in sphaera actiuorum, &amp; passiuorum: &amp; diceret illud 
+          ne<lb ed="#W" n="59" break="no"/>cessario contineri sub aliquo praecise continente. 
+          <!--213.xml-->
+          <pb ed="#W" n="213"/>
+          <cb ed="#W" n="a"/>
+          <!--TODO column order error: lines numbers will need adjustment -->
+          <lb ed="#W" n="79"/>Tamen oppositum videtur verum secundum Catholicos, quia Deus posset faceret 
+          <lb ed="#W" n="80"/>lapidem non existente aliquo alio corpore locante, &amp; lapidem existentem separatum 
+          <lb ed="#W" n="81"/>ab omni alio corpore: quia posset illum facere extra vniuersum, &amp; vtroque modo esset 
+          <lb ed="#W" n="82"/>non in loco, &amp; tamen esset idem secundum omne absolutum in se. Per nihil igitur  
+          <lb ed="#W" n="83"/>absolutum in se necessario requitit esse in loco, sed tantum habet necessario 
+          poten<lb ed="#W" n="84" break="no"/>tiam passiuam, qua possit esse in loco, &amp; hoc, posito loco in existentia actuali, &amp; posita 
+          <lb ed="#W" n="85"/>praesentia eius respectu alicuius corporis locantis.
+        </p>
+        <p xml:id="jdso8u--d1e708">
+          <lb ed="#W" n="86"/>h. De secundo dico, quod ssupposito primo) corpus quantum est in loco in actu, 
+          <lb ed="#W" n="87"/>quia in praeciso continente actualiter: non enim potest esse in loco, quin istud 
+          vlti<lb ed="#W" n="88" break="no"/>mum, quod est proximum continens, faciat illud esse actu, quia facit latera corporis 
+          <lb ed="#W" n="89"/>continentis distare: secus est de parte in toto, quae non facit superficiem in potentia 
+          <lb ed="#W" n="90"/>continentem ipsam esse in actu: &amp; ideo non est pars in toto, sicut locatum in loco <ref xml:id="jdso8u--Rd1e721">4 
+            <lb ed="#W" n="91"/>Physic.</ref> 
+        </p>
+        <p xml:id="jdso8u--d1e727">
+          <lb ed="#W" n="92"/>De tertio dico, i quod propter eandem quantitatem necessario exigit corpus 
+          lo<lb ed="#W" n="93" break="no"/>cum sibi coaequalem De quarto dico, quod propter hoc idem, est in loco 
+          commen<lb ed="#W" n="94" break="no"/>suratiue, ita quod pars superficiei contenti correspondet parti superficiei continentis, 
+          <lb ed="#W" n="95"/>&amp; totum toti Quintum competit corpori ex determinato loco locante.
+        </p>
+        <p xml:id="jdso8u--d1e738">
+          <lb ed="#W" n="96"/>II Sextum competit sibi inquantum est corpus naturale, ex hoc scilicet quod 
+          in<lb ed="#W" n="97" break="no"/>quantum habet formam substantialem determinatam, &amp; qualitates determinatas, 
+          na<lb ed="#W" n="98" break="no"/>tum est ab aliquo locante conseruari, &amp; saluari, &amp; ab aliquo corrumpi: &amp; quando 
+          con<lb ed="#W" n="99" break="no"/>tinetur ab vltimo illius, quod natum est ipsum saluare, dicitur esse in loco naturali, 
+          li<lb ed="#W" n="100" break="no"/>cet naturalitas multum accidat rationi loci: pro tanto igitur est in loco naturali quia 
+          <lb ed="#W" n="101"/>est in locante naturaliter id est, est in vitimo alicuius continentis, quod natum est 
+          sal<lb ed="#W" n="102" break="no"/>uare contentum. 
+        </p>
+        
+        <p xml:id="jdso8u--d1e757"><!-- scotus-p5 -->
+          <!--217.xml-->
+          <cb ed="#W" n="d"/><!-- doesn't really need to be a column break here -->
+          <lb ed="#W" n="43"/>AD propositum a igitur ista applicando de Angelo, dico, quod Angelus non 
+          ne<lb ed="#W" n="44" break="no"/>ecessario est in loco: quia multo magis posset fieri Angelu: sine creatione 
+          creatu<lb ed="#W" n="45" break="no"/>rae corporalis, vel facta creatura corporali posset fieri, &amp; esse extra omnem creaturam 
+          <lb ed="#W" n="46"/>corporalem: &amp; tamen in Angelo est potentia passiua, qua posset esse in loco. Et ista 
+          po<lb ed="#W" n="47" break="no"/>tentia, vel fundatur immediate in eius substantia, qua posset esse in loco, vel in ipsa, 
+          in<lb ed="#W" n="48" break="no"/>quantum est natura limitata actualiter existens, vel in aliquo extrinseco ipsi Angelo, 
+          <lb ed="#W" n="49"/>quidquid sit illud: &amp; ideo non oportet quaerere aliquam intrinsecam rationem 
+          essendi<lb ed="#W" n="50" break="no"/>Angelum in loco necessario, quia ibi nulla est: sed tantummodo est in ipso 
+          potentiali<lb ed="#W" n="51" break="no"/>tas passina, qua potest esse in loco, quia non repugnat sibi.
+        </p>
+        <p xml:id="jdso8u--d1e786">
+          <lb ed="#W" n="52"/>Supposito igitur isto? primo, non oportet, quod sit in loco in actu, quia non oportet, 
+          <lb ed="#W" n="53"/>quod sit in aliquo continente indiuisibili actualiter existente: non enim facit 
+          latera<lb ed="#W" n="54" break="no"/>continentis distare: &amp; ideo non facit superficiem continentem in actu. 
+          <lb ed="#W" n="55"/>De tertio est dubium, &amp; de hoc mota est secunda quaestio. Conceditur tamen 
+          com<lb ed="#W" n="56" break="no"/>muniter quod non potest esse in loco quantumcunque magno, quia hoc est proprium 
+          <lb ed="#W" n="57"/>Dei: &amp; ex hoc videtur non posse esse in loco quantumcunque paruo, ex 35. primi 
+          Eu<lb ed="#W" n="58" break="no"/>clidis, vbi vult quod quidquid potest esse in vno aequalium, &amp; in reliquo, si sibi 
+          figu<lb ed="#W" n="59" break="no"/>ratio non repugnat. 
+        </p>
+        <p xml:id="jdso8u--d1e806">
+          <lb ed="#W" n="60"/>Ex hoc arguo sic: Quidquide potest esse in vno aequali, potest esse in altero, si 
+          si<lb ed="#W" n="61" break="no"/>ibi non repugnat figuratio aliqua, secundum quam vnum distinguitur ab alio: sed 
+          An<lb ed="#W" n="62" break="no"/>gelo nulla figuratio loci, in quo est, repugnat: igitur si potest esse in vno aequali: &amp; in 
+          al<lb ed="#W" n="63" break="no"/>tero: &amp; per consequens si potest esse in quadrato quantumcunque paruo, vel stricto, 
+          <lb ed="#W" n="64"/>quod oportet ponere dicendo, quod non repugnat sibi esse in quantocunque loco 
+          se<lb ed="#W" n="65" break="no"/>quitur, quod non repugnat sibi esse in loco quantumcunque longo, quia quadrangulus 
+          <lb ed="#W" n="66"/>est aequalis isti quadrato paruo, in quo potest esse. Illud declaratur / per oppositum in 
+          <lb ed="#W" n="67"/>corpore naturali: ideo enim aqua, quae potest esse in quadrato, non potest esse in 
+          qua<lb ed="#W" n="68" break="no"/>drangulo quantumcunque longo, quia non potest esse in loco quantumcunque stricto, 
+          <lb ed="#W" n="69"/>&amp; ideo non potest quantumcunque protendi secundum magnitudinem: non enim 
+          po<lb ed="#W" n="70" break="no"/>test protendi secundum longitudinem, nisi constringatur secundum latitudinem: &amp; 
+          si<lb ed="#W" n="71" break="no"/>non potest in infinitum constringi secundum latitudinem, non potest in infinitum 
+          pro<lb ed="#W" n="72" break="no"/>tendi secundum longitudinem. Oppositum est in proposito: si enim Angelus non 
+          de<lb ed="#W" n="73" break="no"/>terminet quantumcunque locum in minus, tunc poterit esse in loco quantumcunque 
+          <lb ed="#W" n="74"/>strictiori, &amp; strictiori: hoc est falsum: ergo, &amp;c.
+        </p>
+        <p xml:id="jdso8u--d1e841">
+          <lb ed="#W" n="75"/>Praeterea, si quantitas  aliqua virtutis est in Angelo, secundum quam potest esse in 
+          <!--218.xml-->
+          <pb ed="#W" n="218"/>
+          <lb ed="#W" n="1"/>aliquo loco proportionabiliter secundum vltimum potentiae suae, puta isto tantum, 
+          <lb ed="#W" n="2"/>&amp; illo tantum, posset tamen secundum vltimum potentiae suae facere se in minori 
+          lo<lb ed="#W" n="3" break="no"/>co isto quantumcunque sibi adaequato: hoc autem posse est alicuius virtutis actiuae in 
+          <lb ed="#W" n="4"/>eo, quia in potestate sua est, vt posset vti ea ad effectum sibi adaequatum, vel non: 
+          igi<lb ed="#W" n="5" break="no"/>tur magis posse habere istam quantitatem in potestate sua est perfectius, quia 
+          maio<lb ed="#W" n="6" break="no"/>rem habet virtutem actiuam, &amp; ita est potens vti illa virture actiua in infinitum ad 
+          es<lb ed="#W" n="7" break="no"/>sendum in minori, &amp; minori loco, quam sit ille locus sibi adaequatus: igitur habet 
+          po<lb ed="#W" n="8" break="no"/>tentiam infinitam. Consequens est inconuentens, igitur &amp; antecedens: sicut igitur si 
+          <lb ed="#W" n="9"/>posset in infinitum esse in maiori, &amp; maiori loco, concluderetur infinitas virtutis suae: 
+          <lb ed="#W" n="10"/>ita concluderetur infinitas virtutis suae, si posset esse in infinitum in minori, &amp; minori. 
+          <lb ed="#W" n="11"/>T Si tamen posset esse in puncto, vel non, non videtur ratio necessaria nec ad vnam 
+          <lb ed="#W" n="12"/>partem nec ad aliam: quia licet Angelus sit indiuisibilis, non habet tamen 
+          indiuisibili<lb ed="#W" n="13" break="no"/>tatem limitatam sicut punctus: &amp; ideo non oportet ipsum esse in puncto sicut in 
+          loco<lb ed="#W" n="14" break="no"/>Nec forte repugnat sibi esse in puncto sicut in loco: quia nullum 
+          inconue<lb ed="#W" n="15" break="no"/>niens videtur ex hoc inferri, quia si ex esse in puncto sicut in loco hoc inferatur,  
+          <lb ed="#W" n="16"/>quod non posset moneri localiter, nisi spatium esset ex punctis: non sequitur. Posset 
+          <lb ed="#W" n="17"/>enim immediate ex loco punctuali ferre se in continuum, cuius continui punctus 
+          <lb ed="#W" n="18"/>est terminus.
+        </p>
+        <p xml:id="jdso8u--d1e889">
+          <lb ed="#W" n="19"/>De isto S igitur articulo videtur concludendum, quod habet locum determinatum: 
+          <lb ed="#W" n="20"/>indeterminate tamen hoc modo, quia aliquis locus est, quo maiorem non posset 
+          ha<lb ed="#W" n="21" break="no"/>bere: &amp; aliquis, quo non posset habere minorem, loquendo de loco continuo, licet 
+          for<lb ed="#W" n="22" break="no"/>te posset esse in puncto.
+        </p>
+        <p xml:id="jdso8u--d1e900">
+          <lb ed="#W" n="23"/>Vtrum autem? determinatum locum requirat, &amp; determinate, ita quod habens 
+          <lb ed="#W" n="24"/>tantam virtutem, si est praesens loco de necessitate est praesens tanto loco, nec in 
+          pote<lb ed="#W" n="25" break="no"/>state sua est, quod sit praesens maiori, &amp; minori loco: sicut est de corporibus, quia 
+          quod<lb ed="#W" n="26" break="no"/>libet est necessario in loco sibi aequali: anima etiam intellectiua necessario est in 
+          loco<lb ed="#W" n="27" break="no"/>totius corporis animati, ita quod non est in potestate eius esse in loco maiori, vel minori. 
+          <lb ed="#W" n="28"/>Hoc enim dubium est, quia nec videtur posse faciliter probari vna pars nec alia. Quod  
+          <lb ed="#W" n="29"/>quidem inconueniens est, si quantitas sua virtualis, per quam potest esse praesens alicui  
+          <lb ed="#W" n="30"/>loco, sit naturalis ratio essendi in tanto loco suo modo, sicut quantitas corporis est 
+          <lb ed="#W" n="31"/>naturalis ratio essendi in tanto loco suo modo: ita quod licet in potestate mea sit 
+          <lb ed="#W" n="32"/>me esse in hoc loco, vel in illo loco, non tamen est in potestate mea esse in tanto loco. 
+          <lb ed="#W" n="33"/>vel in tanto: quia iste effectus est naturaliter consequens quantitatem, quae non subest, 
+          <lb ed="#W" n="34"/>potestati meae: sicut nec in se, ita nec quantum ad istum effectum, esse scilicet intanto, 
+          <lb ed="#W" n="35"/>loco, vel tanto. Nihil ergo videtur sequi inconueniens si ita poneretur in Angelis. 
+          <lb ed="#W" n="36"/>Vel si ponatur, quod quantitas eorum habeat aliquem locum adaequatum, quo 
+          ma<lb ed="#W" n="37" break="no"/>iorem non posset habere secundum conditiones suae virtutis, &amp; essentiae: licet tamen 
+          <lb ed="#W" n="38"/>ipsa subsit voluntati Angeli, vt possit non semper habere illum locum, sed maiorem, 
+          <lb ed="#W" n="39"/>vel minorem; non sequitur inconueniens. 
+        </p>
+        <p xml:id="jdso8u--d1e940">
+          <lb ed="#W" n="40"/>De quarto patet, quod non est in loco commensuratiue, quia non habet partem, &amp; 
+          <lb ed="#W" n="41"/>partem cum partibus 
+        </p>
+        <p xml:id="jdso8u--d1e947">
+          loci<lb ed="#W" n="42" break="no"/>De quinto. dico, quod est in hoc loco vel illo, quia non est ubique, &amp; huius 
+          ratio<lb ed="#W" n="43" break="no"/>quaerendum est, dico igitur, quod si aliquid posset esse secundum se in potentia passiva. 
+          <lb ed="#W" n="44"/>determinate ad aliquod genus physicum, &amp; non est determinate in potentia passiua ad 
+          <lb ed="#W" n="45"/>aliquam speciem illius generis; tunc ab eodem reducitur illud ad actum illius 
+          gene<lb ed="#W" n="46" break="no"/>ris, &amp; speciei, sicut si superfieies, uvnde superficies sit ex sese determinata ad 
+          calo<lb ed="#W" n="47" break="no"/>rem, &amp; non sit ex se determinata ad albedinem, vel nigredinem: tamen ab eodem 
+          <lb ed="#W" n="48"/>agente reduciturad actum coloris, &amp; alicuius coloris: quia non est colorata, nisi quia sic 
+          <lb ed="#W" n="49"/>est colorata. 
+        </p>
+        <p xml:id="jdso8u--d1e967">
+          <lb ed="#W" n="50"/>Ita dico hic, quod licet Angelus sit in potentia ad ubi in communi, &amp; non ex se 
+          de<lb ed="#W" n="51" break="no"/>terminatus ad hoc ubi vel illud: tamen ab eodem agente reducitur ad hoc vt sit 
+          actua<lb ed="#W" n="52" break="no"/>liter in loco, &amp; in hoc loco, vel illo, illud autem, quo primo potest esse in loco, est a Deo 
+          <lb ed="#W" n="53"/>producente ipsum super creaturam corporalem continentem: sed ex tunc potest 
+          re<lb ed="#W" n="54" break="no"/>ducere seipsum ad actum istum, sicut patebit in quaestione de motu 
+          Angeli<lb ed="#W" n="55" break="no"/>TDe sexto dico, quod non est in aliquo loco naturaliter, quia tunc esset in aliquo 
+          <lb ed="#W" n="56"/>loco violenter, tunc etiam aliquod corpus haberet naturalem aptitudinem ad ipsum 
+          <lb ed="#W" n="57"/>conseruandum in loco: &amp; aliquod corpus ad ipsum corrumpendum. 
+        </p>
+        <p xml:id="jdso8u--d1e987">
+          <lb ed="#W" n="58"/>Et confirmatur ratio per <ref xml:id="jdso8u--Rd1e991">Auic. 9. Metaph.</ref> vbi vult, quod motus caeli non est 
+          natu<lb ed="#W" n="59" break="no"/>talis: quia tunc terminaretur ad quietem naturalem, &amp; motus ab illa quiete esset vio¬ 
+          <!--219.xml-->
+          <pb ed="#W" n="219"/>
+          <cb ed="#W" n="a"/>
+          <lb ed="#W" n="1"/>lentus, &amp; ita est in proposito: &amp; hoc accipiendo naturalitem proprie, sicut illud dicitur  
+          <lb ed="#W" n="2"/>moueri naturaliter, quod inelinatur naturaliter ad motum 
+        </p>
+        <p xml:id="jdso8u--d1e1008">
+          <lb ed="#W" n="3"/>m Ex isto sexto patet, quod illa potentia passiua, quae est in Angelo ad essendum 
+          <lb ed="#W" n="4"/>in loco, non est naturalis, nec violenta sed neutra; quia nec istud passum inclinatur ex 
+          <lb ed="#W" n="5"/>se naturaliter ad istam formam, nec ad oppositum: sed neutro modo se habet ad ista, 
+          <lb ed="#W" n="6"/>sicut superficies ad albedinem, &amp; nigredinem indifferenter se habet.
+        </p>
+        <p xml:id="jdso8u--d1e1019">
+          <lb ed="#W" n="7"/>n. Ad argumenta, omnes auctoritates, quae negant Angelum esse in loco, sunt 
+          ex<lb ed="#W" n="8" break="no"/>ponendae, quod verum dicunt ipsum non esse in loco citcumscriptiue, 
+          circumscriptio<lb ed="#W" n="9" break="no"/>autem includit esse in loco actu, &amp; aequali, &amp; commensuratiue, iuxta secundam, 
+          ter<lb ed="#W" n="10" break="no"/>tiam, &amp; quartam conditiones X locati, quae non conueniunt Angelo. 
+        </p>
+        <p xml:id="jdso8u--d1e1031">
+          <lb ed="#W" n="11"/>OAd illud Philosophi, potest concedi, quod superficies aliqua corporis continet 
+          <lb ed="#W" n="12"/>Angelum: non tamen ex hoc sequitur quod sit agens influens, vel continens respectus 
+          <lb ed="#W" n="13"/>eius; quia continentia loci est alterius rationis a continentia formae vel speciei, talis 
+          <lb ed="#W" n="14"/>enim, continentia nihil aliud est hic, nisi contentum esse intra hanc superficiem 
+          con<lb ed="#W" n="15" break="no"/>tinentem, &amp; nihil eius esse extra, &amp; hoc verum est in quocunque contento difinitiue, 
+          <lb ed="#W" n="16"/>quia nihil eius est extra locum ambientem. 
+        </p>
+        <p xml:id="jdso8u--d1e1047">
+          <lb ed="#W" n="17"/>PAd illud de situ, siue vt accipitur pro differentia quantitatis, siue vt est 
+          Praedica<lb ed="#W" n="18" break="no"/>cum 
+          <lb ed="#W" n="19"/>mentum, si illud praedicamentum praesupponat quantitatem, neutro modo maior est 
+          <lb ed="#W" n="20"/>vera: quia non oportet omne ens in loco habere situm altero illorum modorum, nisi sit  
+          <lb ed="#W" n="21"/>in loco circumscriptiue. 
+        </p>
+        <p xml:id="jdso8u--d1e1060">
+          <lb ed="#W" n="22"/>Ad secundam quaest. patet ex dictis in 3 artic. scilicet de loco determinato. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
