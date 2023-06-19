@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Scotus">John Duns Scotus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-06-19">June 19, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-u78xV9">Vives, Paris, 1891, volume 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-19" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="824"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jdso8u-d1e772"><!-- jdso8u-b1d11q1 -->
+            <head xml:id="jdso8u-d1e772-Hd1e101">Quaestio 1</head>
+            <head xml:id="jdso8u-d1e772-Hd1e103" type="question-title">
+      Utrum Spiritus sanctus procedat a Patre et Filio
+    </head>
+            <p xml:id="jdso8u-d1e772-d1e106"><!-- jdso-l1d11q1-n1 -->
+               <lb ed="#V" n="35"/>QUESTIO I. 
+      <lb ed="#V" n="36"/>Utrum Spiritus sanctus procedat a 
+      Pa<lb ed="#V" break="no" n="37"/>tre et Filio? 
+    </p>
+            <p xml:id="jdso8u-d1e772-d1e116">
+               <lb ed="#V" n="38"/>Alensis 1. part. quest. 43. m. 4. D. Thom. 1. p. 
+      <lb ed="#V" n="39"/>quest. 36. art. 2.et 3. Richard. hic quest. 1. 
+      <lb ed="#V" n="40"/>D. Bonavent. quest. 1. Henric. Quodlib. 5. 
+      <lb ed="#V" n="41"/>quest. 9. Bassolis hic quest. unic. Durand. .1. 
+      <lb ed="#V" n="42"/>.Suarez 1. p. tract. 3. lib. 10. c. 1. Bellarm. 
+      <!--0824.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="43"/>lib. 2. de Christo, c. 22. et segg. Vasq. 1. p. 
+      <lb ed="#V" n="44"/>d. 146. Mayron. hic Bacon. d. 12. q. 1. 
+    </p>
+            <p xml:id="jdso8u-d1e772-d1e138">
+               <lb ed="#V" n="45"/>Circa distinctionem undecimam 
+      <lb ed="#V" n="46"/>quaero duo. Primo, utrum Spiritus 
+      <lb ed="#V" n="47"/>sanctus procedat a Patre et Filio. 
+      <lb ed="#V" n="48"/>Quod non, Damascenus lib. 1. c. 8. 
+      <lb ed="#V" n="49"/>A Patre procedentem et in Filio 
+      qui<lb ed="#V" break="no" n="50"/>escentem, Spiritum sanctum dicimus. 
+      <lb ed="#V" n="51"/>Item, cap. 11. Spiritum sanctum 
+      dici<lb ed="#V" break="no" n="52"/>mus ex Patre, ex Filio non dicimus. 
+      <lb ed="#V" n="53"/>Item idem in epistola de Trisagio 
+      <lb ed="#V" n="54"/>ad Jordanum Archimandritam in 
+      <lb ed="#V" n="55"/>fine : Pater et Verbum et Spiritus 
+      san<lb ed="#V" break="no" n="56"/>ctus, et subdit : ex Patre quidem, Filii 
+      <lb ed="#V" n="57"/>autem, et non ex Filio, sed Spiritus oris 
+      <lb ed="#V" n="58"/>Dei. 
+    </p>
+            <p xml:id="jdso8u-d1e772-d1e172">
+               <lb ed="#V" n="59"/>Item, per rationem Grecorum, 
+      <lb ed="#V" n="60"/>nihil tenendum est, ut articulus 
+      <lb ed="#V" n="61"/>fidei, nisi quod continetur in 
+      <lb ed="#V" n="62"/>Evangelio, quod complete 
+      conti<lb ed="#V" break="no" n="63"/>net fidem, aut saltem in Scriptura 
+      <lb ed="#V" n="64"/>novi Testamenti; sed non videtur 
+      <lb ed="#V" n="65"/>expressum in novo Testamento, 
+      <lb ed="#V" n="66"/>quod Spiritus sanctus procedat a 
+      <lb ed="#V" n="67"/>Filio, ergo, eto. 
+    </p>
+            <p xml:id="jdso8u-d1e772-d1e194">
+               <lb ed="#V" n="68"/>Item, dilectio in nobis non 
+      proce<lb ed="#V" break="no" n="69"/>dit a Verbo, quia notitia non habet 
+      <lb ed="#V" n="70"/>causalitatem respectu volitionis; 
+      <lb ed="#V" n="71"/>igitur similiter nec in prototypo. 
+    </p>
+            <!-- Additio -->
+            <p xml:id="jdso8u-d1e772-d1e207">
+               <lb ed="#V" n="72"/>Item, voluntas ponitur tertia pars 
+      ima<lb ed="#V" break="no" n="73"/>ginis, 15. de Trinit. cap. ultim. Igitur 
+      <lb ed="#V" n="74"/>non est principium producendi, sed 
+      pro<lb ed="#V" break="no" n="75"/>ductum. Respondeo, dilectio vocatur 
+      vo<lb ed="#V" break="no" n="76"/>luntas, sed voluntas potentia pertinet ad 
+      <lb ed="#V" n="77"/>parenem, licet non constituat parentem, 
+      <lb ed="#V" n="78"/>sed quasi advenit, sicut secunda 
+      fecun<lb ed="#V" break="no" n="79"/>ditas in Patre. 
+    </p>
+            <!-- End Additio -->
+            <p xml:id="jdso8u-d1e772-d1e229">
+               <lb ed="#V" n="80"/>Item, spiratio passiva est 
+      pro<lb ed="#V" break="no" n="81"/>pria uni personae in divinis; igitur 
+      <lb ed="#V" n="82"/>et activa. Probatio consequentiae, 
+      <lb ed="#V" n="83"/>utraque enim videtur aeque 
+      perfe<lb ed="#V" break="no" n="84"/>cta et aeque incommunicabilis. 
+    </p>
+            <p xml:id="jdso8u-d1e772-d1e243">
+               <lb ed="#V" n="85"/>Contra in Symbolo Niceno: <quote xml:id="jdso8u-d1e772-Qd1e247">Ex 
+      <lb ed="#V" n="86"/>Patre Filioque procedit</quote>. Athanasius 
+      <!--0825.xml-->
+      <pb ed="#V" n="825"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>etiam in Symbolo : <quote xml:id="jdso8u-d1e772-Qd1e261">Spiritus sanctus 
+      <lb ed="#V" n="2"/>a Patre et Filio</quote>. 
+    </p>
+            <p xml:id="jdso8u-d1e772-d1e267"><!-- jdso-l1d11q1-n2 -->
+               <lb ed="#V" n="31"/>In ista quaestione dicuntur Greci 
+      <lb ed="#V" n="32"/>discordare a Latinis, ut videntur 
+      <lb ed="#V" n="33"/>auctoritates Damasceni sonare; 
+      <lb ed="#V" n="34"/>sed de ista discordia dicit <name xml:id="jdso8u-d1e772-Nd1e278">
+      Linco<lb ed="#V" break="no" n="35"/>niensis</name> in notula quadam super 
+      <lb ed="#V" n="36"/>finem Epistolae de <name xml:id="jdso8u-d1e772-Nd1e286">Trisagio</name>, quod 
+      <lb ed="#V" n="37"/>sententia Graecorum est, quod 
+      Spi<lb ed="#V" break="no" n="38"/>ritus sanctus est Spiritus Filii, 
+      <lb ed="#V" n="39"/>sed non procedens a Filio, sed a 
+      <lb ed="#V" n="40"/>solo Patre per Filium tamen. Et 
+      <lb ed="#V" n="41"/>videtur haec sententia contraria 
+      <lb ed="#V" n="42"/>nostrae, quia dicimus Spiritum 
+      <lb ed="#V" n="43"/>sanctum a Patre et Filio 
+      proce<lb ed="#V" break="no" n="44"/>dentem. 
+    </p>
+            <p xml:id="jdso8u-d1e772-d1e306">
+               <lb ed="#V" n="45"/>Sed forte si duo sapientes, unus 
+      <lb ed="#V" n="46"/>Graecus et alter Latinus, uterque 
+      <!--0825.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="47"/>verus amator veritatis et non 
+      pro<lb ed="#V" break="no" n="48"/>priae dictionis, unde propria est, 
+      <lb ed="#V" n="49"/>de hac visa contrarietate 
+      disquire<lb ed="#V" break="no" n="50"/>rent; pateret utique tandem ipsam 
+      <lb ed="#V" n="51"/>contrarietatem non esse veraciter 
+      <lb ed="#V" n="52"/>realem, sicut est vocalis, alioquin 
+      <lb ed="#V" n="53"/>vel ipsi Graeci vel nos Latini 
+      su<lb ed="#V" break="no" n="54"/>mus vere heretici. Sed quis audet 
+      <lb ed="#V" n="55"/>hunc auctorem, Joannem scilicet 
+      <lb ed="#V" n="56"/>Damascenum et Beatos, scilicet 
+      <lb ed="#V" n="57"/>Basilium, Gregorium Theologum, 
+      <lb ed="#V" n="58"/>Gregorium Nazianzenum, 
+      Cyril<lb ed="#V" break="no" n="59"/>lum et similes Patres Graecos 
+      ar<lb ed="#V" break="no" n="60"/>guere hereseos? Quis iterum 
+      ar<lb ed="#V" break="no" n="61"/>gueret hereseos B. Hieronymum, 
+      <lb ed="#V" n="62"/>Augustinum et Ambrosium, 
+      Hila<lb ed="#V" break="no" n="63"/>rium et consimiles Latinos ? 
+      Veri<lb ed="#V" break="no" n="64"/>simile igitur est, quod non subest 
+      <lb ed="#V" n="65"/>dictis verbis contrariis 
+      contrari<lb ed="#V" break="no" n="66"/>orum Sanctorum sententia 
+      dis<lb ed="#V" break="no" n="67"/>cors; multipliciter (a) enim 
+      dici<lb ed="#V" break="no" n="68"/>tur, sicut hoc hujus, sic hoc ex 
+      <lb ed="#V" n="69"/>illo vel ab illo, qua multiplicitate 
+      <lb ed="#V" n="70"/>forte intellecta et distincta, 
+      pa<lb ed="#V" break="no" n="71"/>teret contrariorum verborum non 
+      <lb ed="#V" n="72"/>discors sententia. Quidquid sit de 
+      <lb ed="#V" n="73"/>eis, ex quo Ecclesia Catholica 
+      de<lb ed="#V" break="no" n="74"/>claravit hoc esse tenendum, sicut 
+      <lb ed="#V" n="75"/>de substantia fidei, sicut patet, 
+      Ex<lb ed="#V" break="no" n="76"/>tra de summ. Trinit. et fid. Catholica, 
+      <lb ed="#V" n="77"/>cap. firmiter, tenendum est quod 
+      <lb ed="#V" n="78"/>Spiritus sanctus procedat ab 
+      utro<lb ed="#V" break="no" n="79"/>que. 
+    </p>
+            <p xml:id="jdso8u-d1e772-d1e389">
+               <lb ed="#V" n="80"/>Ad hoc est ratio talis (b) : 
+      Ha<lb ed="#V" break="no" n="81"/>bens principium perfectum 
+      produ<lb ed="#V" break="no" n="82"/>ctivum prius quam intelligatur 
+      <lb ed="#V" n="83"/>habere productum, potest illo 
+      <lb ed="#V" n="84"/>principio producere, quando 
+      scili<lb ed="#V" break="no" n="85"/>cet principium est ita perfectum, 
+      <lb ed="#V" n="86"/>quod non dependet a passivo, nec 
+      <lb ed="#V" n="87"/>potest per aliquid impediri; sed 
+      <lb ed="#V" n="88"/>Filius habet voluntatem, quae est 
+      <lb ed="#V" n="89"/>principium productivum amoris 
+      <lb ed="#V" n="90"/>adaequati, et habet eam, ut praein- 
+      <!-- TODO: correct column order in ocr4all; already corrected in exporte file--> 
+    
+      <!--0826.xml-->
+          <pb ed="#V" n="826"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>telligitur producto, actu 
+      volunta<lb ed="#V" break="no" n="2"/>tis; ergo potest ea producere, 
+          <lb ed="#V" n="3"/>igitur et ea producit. Probo 
+      mino<lb ed="#V" break="no" n="4"/>rem, generatio et spiratio habent 
+          <lb ed="#V" n="5"/>aliquem ordinem inter se, ita quod 
+          <lb ed="#V" n="6"/>aliquo modo generatio est prius 
+          <lb ed="#V" n="7"/>spiratione, in illo priori 
+      commu<lb ed="#V" break="no" n="8"/>nicatur genito omnis perfectio 
+          <lb ed="#V" n="9"/>divina, quae sibi non repugnat, et 
+          <lb ed="#V" n="10"/>ita voluntas; ergo habet tunc 
+      vo<lb ed="#V" break="no" n="11"/>luatatem, ut priorem producto 
+          <lb ed="#V" n="12"/>per actum voluntatis, quia adhuc 
+          <lb ed="#V" n="13"/>non intelligitur productio aliqua 
+          <lb ed="#V" n="14"/>facta per modum vel actum 
+      volun<lb ed="#V" break="no" n="15"/>tatis.
+        </p>
+            <p xml:id="jdso8u-d1e772-d1e456">
+               <lb ed="#V" n="16"/>Assumptum etiam de ordine 
+      ista<lb ed="#V" break="no" n="17"/>rum productionum, (licet videatur 
+          <lb ed="#V" n="18"/>esse manifestum ex ordine 
+      poten<lb ed="#V" break="no" n="19"/>tiarum,) probatur tamen per hoc, 
+          <lb ed="#V" n="20"/>quod quando duo actus primi 
+      ha<lb ed="#V" break="no" n="21"/>bent ordinem in aliquo, si uterque 
+          <lb ed="#V" n="22"/>sit perfecte activus, habebunt 
+          <lb ed="#V" n="23"/>etiam consimilem ordinem in 
+      eli<lb ed="#V" break="no" n="24"/>ciendo suos actus. Addidi autem 
+          <lb ed="#V" n="25"/>perfecte activus, ad excludendam 
+      for<lb ed="#V" break="no" n="26"/>mam substantialem et qualitatem 
+          <lb ed="#V" n="27"/>in corporibus,' ubi licet forma 
+          <lb ed="#V" n="28"/>substantialis sit activa et qualitas 
+          <lb ed="#V" n="29"/>similiter, et forma substantialis 
+          <lb ed="#V" n="30"/>sit prior qualitate, tamen qualitas 
+          <lb ed="#V" n="31"/>habet actum suum prius, sed hoc 
+          <lb ed="#V" n="32"/>est ex imperfectione activitatis 
+          <lb ed="#V" n="33"/>formae substantialis. In Patre 
+      au<lb ed="#V" break="no" n="34"/>tem intellectus et voluntas sunt 
+          <lb ed="#V" n="35"/>perfecte principia activa, et 
+      ha<lb ed="#V" break="no" n="36"/>bent ordinem quemdam, quia 
+      fe<lb ed="#V" break="no" n="37"/>cunditas intellectus constituit 
+          <lb ed="#V" n="38"/>ipsum Patrem, non autem 
+      fecun<lb ed="#V" break="no" n="39"/>ditas voluntatis; ergo ista 
+      fe<lb ed="#V" break="no" n="40"/>cunditas intellectus aliquo modo 
+          <lb ed="#V" n="41"/>prius habebit actum suum, quam 
+          <lb ed="#V" n="42"/>fecunditas voluntatis actum suum. 
+        </p>
+            <p xml:id="jdso8u-d1e772-d1e517">
+               <lb ed="#V" n="43"/>Probant alii istum (c) ordinem 
+          <lb ed="#V" n="44"/>productionis ad productionem, per 
+          <!--0826.xml-->
+          <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>hoc quod sicut se habet intelligere 
+          <lb ed="#V" n="46"/>ad velle, ita dicere ad spirare. Sed ista 
+          <lb ed="#V" n="47"/>probatio videtur deficere. Velle 
+          <lb ed="#V" n="48"/>enim praesupponit intelligere, quia 
+          <lb ed="#V" n="49"/>per illud intelligere, objectum illud 
+          <lb ed="#V" n="50"/>circa quod dicitur esse dilectio, 
+          <lb ed="#V" n="51"/>est sufficienter praesens, et absque 
+          <lb ed="#V" n="52"/>illa intellectione non esset 
+      suffi<lb ed="#V" break="no" n="53"/>cienter praesens voluntati ut 
+      pos<lb ed="#V" break="no" n="54"/>set velle, sed per actum dicendi 
+          <lb ed="#V" n="55"/>non est praesens voluntati praecise 
+          <lb ed="#V" n="56"/>objectum, cujus amor spiratur, 
+          <lb ed="#V" n="57"/>quia sic Pater voluntate spirat; in 
+          <lb ed="#V" n="58"/>eo tamen non habetur objectum 
+          <lb ed="#V" n="59"/>praesens formaliter per notitiam 
+          <lb ed="#V" n="60"/>genitam, quia nihil novit notitia 
+          <lb ed="#V" n="61"/>genita, ut dicit Augustinus 13. de 
+          <lb ed="#V" n="62"/>Trinitate, sed intellectione sibi 
+      in<lb ed="#V" break="no" n="63"/>genita habet objectum sibi 
+      prae<lb ed="#V" break="no" n="64"/>sens, et ista est notitia, quae 
+      prae<lb ed="#V" break="no" n="65"/>supponitur actui spirandi; ergo 
+          <lb ed="#V" n="66"/>non est similis necessitas, quod 
+          <lb ed="#V" n="67"/>generatio praesupponatur 
+      spira<lb ed="#V" break="no" n="68"/>tioni, sicut quod intellectio 
+      prae<lb ed="#V" break="no" n="69"/>supponatur volitioni. 
+        </p>
+            <p xml:id="jdso8u-d1e772-d1e583">
+               <lb ed="#V" n="70"/>Concedo, quod instantia bene 
+          <lb ed="#V" n="71"/>probat quod non est similis 
+      neces<lb ed="#V" break="no" n="72"/>sitas, sed inter intellectionem et 
+          <lb ed="#V" n="73"/>volitionem est ordo propter duo. 
+          <lb ed="#V" n="74"/>Unum est propter praesentiam jam 
+          <lb ed="#V" n="75"/>dictam ; aliud est propter istarum 
+          <lb ed="#V" n="76"/>potentiarum ordinem in operando, 
+          <lb ed="#V" n="77"/>quia istae potentiae tales sunt, 
+          <lb ed="#V" n="78"/>quod una est naturaliter ordinata 
+          <lb ed="#V" n="79"/>prius operari quam alia. Prima 
+          <lb ed="#V" n="80"/>ratio non est ratio prioritatis 
+      ge<lb ed="#V" break="no" n="81"/>nerationis ad spirationem, sed 
+      se<lb ed="#V" break="no" n="82"/>cunda. Sicut enim inquantum sunt 
+          <lb ed="#V" n="83"/>potentiae operative, est aliquis 
+          <lb ed="#V" n="84"/>ordo inter operationes earum, ita 
+          <lb ed="#V" n="85"/>inquantum sunt potentie 
+      produ<lb ed="#V" break="no" n="86"/>ctive, est aliquis ordo 
+      producti<lb ed="#V" break="no" n="87"/>onis earum, licet non sit ordo ne- 
+      <!--0827.xml-->
+      <pb ed="#V" n="827"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>cessitatis propter praesentiam 
+      ob<lb ed="#V" break="no" n="2"/>jecti talem habendam. 
+    </p>
+            <p xml:id="jdso8u-d1e772-d1e635">
+               <lb ed="#V" n="3"/>Exemplum hujus est : si in igne 
+      <lb ed="#V" n="4"/>calor et siccitas sint causae vel 
+      po<lb ed="#V" break="no" n="5"/>tentie active, natae tamen 
+      ordina<lb ed="#V" break="no" n="6"/>te elicere actus suos, ita quod 
+      sic<lb ed="#V" break="no" n="7"/>citas non possit desiccare, nisi 
+      <lb ed="#V" n="8"/>calor prius calefaciat; ista 
+      neces<lb ed="#V" break="no" n="9"/>sitas ordinis non est, quia per 
+      <lb ed="#V" n="10"/>calefactionem fit objectum 
+      desic<lb ed="#V" break="no" n="11"/>cabile praesens sicco ut desiccet, 
+      <lb ed="#V" n="12"/>sed propter naturam istarum 
+      <lb ed="#V" n="13"/>potentiarum activarum. Et si in 
+      <lb ed="#V" n="14"/>illo priori, in quo calidum calore 
+      <lb ed="#V" n="15"/>calefacit, communicaret calefacto 
+      <lb ed="#V" n="16"/>vel produceret in calefacto, non 
+      <lb ed="#V" n="17"/>tantum calorem, sed etiam 
+      siccita<lb ed="#V" break="no" n="18"/>tem quam habuit ; calefactum 
+      <lb ed="#V" n="19"/>eadem siccitate desiccaret cum 
+      <lb ed="#V" n="20"/>calefaciente, quia in illo instanti 
+      <lb ed="#V" n="21"/>nature in quo est desiccatio, una 
+      <lb ed="#V" n="22"/>siccitas est in calefaciente et 
+      cale<lb ed="#V" break="no" n="23"/>facto. Ita intelligendum est hic 
+      <lb ed="#V" n="24"/>quod in illo signo originis, in quo 
+      <lb ed="#V" n="25"/>Pater producit actum voluntatis, 
+      <lb ed="#V" n="26"/>principium productivum idem est 
+      <lb ed="#V" n="27"/>in Patre et Filio, et ideo Filius 
+      <lb ed="#V" n="28"/>eadem productione producit 
+      Spiri<lb ed="#V" break="no" n="29"/>tum sanctum cum Patre. 
+    </p>
+            <p xml:id="jdso8u-d1e772-d1e696">
+               <lb ed="#V" n="30"/>Ad auctoritates Damasceni 
+      vide<lb ed="#V" break="no" n="31"/>tur posse responderi per notulam 
+      <lb ed="#V" n="32"/>illam in Linconiensi, de qua 
+      <lb ed="#V" n="33"/>dictum est. Prima tamen 
+      auctori<lb ed="#V" break="no" n="34"/>tas ejus posset exponi, si loquatur 
+      <lb ed="#V" n="35"/>de voluntate et non de Spiritu 
+      <lb ed="#V" n="36"/>sancto, quia tunc posset dici quod 
+      <lb ed="#V" n="37"/>voluntas, quae est principium 
+      spi<lb ed="#V" break="no" n="38"/>randi, ipsa est a Patre in Filium, 
+      <lb ed="#V" n="39"/>quia Pater communicat eam Filio 
+      <lb ed="#V" n="40"/>et quiescit in Filio, hoc est, non 
+      <lb ed="#V" n="41"/>ulterius communicatur sua ratio 
+      <lb ed="#V" n="42"/>principii fecundi, licet eadem 
+      vo<lb ed="#V" break="no" n="43"/>luntas communicetur Spiritui 
+      san<lb ed="#V" break="no" n="44"/>cto in se; sed littera Damasceni 
+      <!--0827.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>ibidem videtur loqui de persona 
+      <lb ed="#V" n="46"/>Spiritus sancti, et non de 
+      volun<lb ed="#V" break="no" n="47"/>tate qua spiratur. 
+    </p>
+            <p xml:id="jdso8u-d1e772-d1e742">
+               <lb ed="#V" n="48"/>Ad rationem illam de Evangelio, 
+      <lb ed="#V" n="49"/>dico quod Christum descendisse 
+      <lb ed="#V" n="50"/>ad inferna, non docetur in 
+      Evan<lb ed="#V" break="no" n="51"/>gelio, et tamen tenendum est sicut 
+      <lb ed="#V" n="52"/>articulus fidei, quia ponitur in 
+      <lb ed="#V" n="53"/>Symbolo Apostolorum ; ita multa 
+      <lb ed="#V" n="54"/>alia de Sacramentis Ecclesiae non, 
+      <lb ed="#V" n="55"/>sunt expressa in Evangelio, et 
+      ta<lb ed="#V" break="no" n="56"/>men Ecclesia tenet illa esse 
+      tradi<lb ed="#V" break="no" n="57"/>ta certitudinaliter ab Apostolis, et 
+      <lb ed="#V" n="58"/>periculosum esset errare circa 
+      <lb ed="#V" n="59"/>illa quae non tantum ab Apostolis 
+      <lb ed="#V" n="60"/>descendunt per scripta, sed etiam 
+      <lb ed="#V" n="61"/>quae per consuetudinem 
+      universa<lb ed="#V" break="no" n="62"/>lis Ecclesie tenenda sunt, nec 
+      <lb ed="#V" n="63"/>Christus in Evangelio docuit 
+      om<lb ed="#V" break="no" n="64"/>nia pertinentia ad dispensationem 
+      <lb ed="#V" n="65"/>Sacramentorum. Dixit enim 
+      disci<lb ed="#V" break="no" n="66"/>pulis suis in Joanne : Adhuc habeo 
+      <lb ed="#V" n="67"/>multa vocis dicere, sed non potestis 
+      por<lb ed="#V" break="no" n="68"/>tare modo, cum autem venerit ille 
+      Spiri<lb ed="#V" break="no" n="69"/>tus veritatis, docebit vos omnem 
+      verita<lb ed="#V" break="no" n="70"/>tem. Multa igitur docuit eos 
+      Spiri<lb ed="#V" break="no" n="71"/>tus sanctus, quao non sunt scripta 
+      <lb ed="#V" n="72"/>in Evangelio, et illa multa 
+      quae<lb ed="#V" break="no" n="73"/>dam per Scripturam, quaedam per 
+      <lb ed="#V" n="74"/>consuetudinem tradiderunt. 
+      Simi<lb ed="#V" break="no" n="75"/>liter diversa symboladiversis 
+      tem<lb ed="#V" break="no" n="76"/>poribus sunt edita contra diversas 
+      <lb ed="#V" n="77"/>hereses de novo orientes, quia 
+      <lb ed="#V" n="78"/>quando insurgebat nova heresis, 
+      <lb ed="#V" n="79"/>necessarium erat declarare 
+      verita<lb ed="#V" break="no" n="80"/>tem, contra quam erat illa 
+      haere<lb ed="#V" break="no" n="81"/>sis; quae veritas, etsi prius erat 
+      <lb ed="#V" n="82"/>de fide, non tamen erat prius 
+      tan<lb ed="#V" break="no" n="83"/>tum declarata, sicut tunc contra 
+      <lb ed="#V" n="84"/>errorem illorum, qui eam 
+      nega<lb ed="#V" break="no" n="85"/>hant. 
+    </p>
+            <p xml:id="jdso8u-d1e772-d1e827">
+               <lb ed="#V" n="86"/>Ad aliud de verbo nostro, dico 
+      <lb ed="#V" n="87"/>quod illud imperfectionis est in 
+      <lb ed="#V" n="88"/>imagine creata, quia verbo non 
+      <!--0828.xml-->
+      <pb ed="#V" n="828"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>communicatur eadem natura cum 
+      <lb ed="#V" n="2"/>mente, et ideo nec libertas 
+      forma<lb ed="#V" break="no" n="3"/>liter. Verbo autem divino 
+      commu<lb ed="#V" break="no" n="4"/>nicatur natura Patris, et eadem 
+      <lb ed="#V" n="5"/>voluntas cum Patre, et ideo habet 
+      <lb ed="#V" n="6"/>eam ut fecundam, respectu 
+      pro<lb ed="#V" break="no" n="7"/>ductionis Spiritus sancti, quia 
+      in<lb ed="#V" break="no" n="8"/>telligitur ordine originis 
+      preha<lb ed="#V" break="no" n="9"/>bere illam, antequam Spiritus 
+      <lb ed="#V" n="10"/>sanctus spiretur. 
+    </p>
+            <p xml:id="jdso8u-d1e772-d1e864">
+               <lb ed="#V" n="11"/>Ad ultimum dico quod non 
+      sequi<lb ed="#V" break="no" n="12"/>tur, quia non potest natura divina 
+      <lb ed="#V" n="13"/>pluribus productionibus haberi in 
+      <lb ed="#V" n="14"/>una persona, sicut patebit in 
+      se<lb ed="#V" break="no" n="15"/>quenti quaestione, quia utraque 
+      <lb ed="#V" n="16"/>productione haberet naturam et 
+      <lb ed="#V" n="17"/>neutra haberet; tamen una 
+      perso<lb ed="#V" break="no" n="18"/>na potest pluribus productionibus 
+      <lb ed="#V" n="19"/>communicare naturam, et plures 
+      <lb ed="#V" n="20"/>personae possunt una productione 
+      <lb ed="#V" n="21"/>producere personam, et ideo si 
+      <lb ed="#V" n="22"/>passiva sit tantum in uno, non 
+      se<lb ed="#V" break="no" n="23"/>quitur quod etiam activa sit 
+      tan<lb ed="#V" break="no" n="24"/>tum in uno. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

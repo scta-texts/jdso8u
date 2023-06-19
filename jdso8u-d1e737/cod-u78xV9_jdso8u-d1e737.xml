@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Scotus">John Duns Scotus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-06-19">June 19, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-u78xV9">Vives, Paris, 1891, volume 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-19" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="773"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jdso8u-d1e737"><!-- jdso8u-b1d9q1 -->
+            <head xml:id="jdso8u-d1e737-Hd1e101">Quaestio 1</head>
+            <head xml:id="jdso8u-d1e737-Hd1e103" type="question-title">
+      Utrum generatio Filii in Divinis sit aeterna
+    </head>
+            <p xml:id="jdso8u-d1e737-d1e106"><!-- jdso-l1d9q1-n1 -->
+               <lb ed="#V" n="18"/>QUAESTIO UNICA. 
+      <lb ed="#V" n="19"/>Utrum generatio Filii in Divinis sit 
+      <lb ed="#V" n="20"/>aeterna ? 
+    </p>
+            <p xml:id="jdso8u-d1e737-d1e116">
+               <lb ed="#V" n="21"/>Alensis 1. p. q. 42. m. 4. art. 1. D. Thom. 1. 
+      <lb ed="#V" n="22"/>p. g. 42. art. 2. D. Bonavent. hic q. . 3. 
+      <lb ed="#V" n="23"/>Richardus art. 2. q. 1. Durand. q. 4. Suarez 1. 
+      <lb ed="#V" n="24"/>p. tract. 3. lib. 4. cap. 15. Vide Scot. 8. 
+      <lb ed="#V" n="25"/>Met. g. 1. et 2. Vasq. 1. p. disp. 167. Mayron. 
+      <lb ed="#V" n="26"/>hic q. 1. 
+    </p>
+            <p xml:id="jdso8u-d1e737-d1e132">
+               <lb ed="#V" n="27"/>Circa distinctionem nonam 
+      quae<lb ed="#V" break="no" n="28"/>ritur unum, scilicet : Utrum 
+      gene<lb ed="#V" break="no" n="29"/>ratio Filii sit aeterna in divinis? 
+      <lb ed="#V" n="30"/>Quod non, quia ubi idem est esse 
+      <lb ed="#V" n="31"/>et duratio, si aliquid est 
+      princi<lb ed="#V" break="no" n="32"/>pium esse et durationis; sed Pater 
+      <lb ed="#V" n="33"/>est principium esse Filii, quia 
+      <lb ed="#V" n="34"/>principium divinitatis secundum 
+      <lb ed="#V" n="35"/>Augustinum i. de Trin. cap. 17. ergo 
+      <lb ed="#V" n="36"/>est principium durationis Filii. 
+    </p>
+            <p xml:id="jdso8u-d1e737-d1e157">
+               <lb ed="#V" n="37"/>Praeterea <ref xml:id="jdso8u-d1e737-Rd1e161">Augustinus 15. de Trin. 
+      <lb ed="#V" n="38"/>cap. 15.</ref> Imperfectionis est in verbo 
+      <lb ed="#V" n="39"/>nostro, quod est formabile 
+      ante<lb ed="#V" break="no" n="40"/>quam formetur; ergo 
+      imperfecti<lb ed="#V" break="no" n="41"/>onis videtur in verbo, quod est 
+      <!--0773.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="42"/>formari; hoc igitur non competit 
+      <lb ed="#V" n="43"/>Verbo divino. 
+    </p>
+            <p xml:id="jdso8u-d1e737-d1e182">
+               <lb ed="#V" n="44"/>Praeterea : Si generatio Filii est 
+      <lb ed="#V" n="45"/>eterna; ergo Filius semper 
+      ge<lb ed="#V" break="no" n="46"/>neratur; ergo Filius nunquam 
+      ge<lb ed="#V" break="no" n="47"/>nitus est, et ita nunquam est 
+      Fi<lb ed="#V" break="no" n="48"/>lius. He duae consequentie 
+      pro<lb ed="#V" break="no" n="49"/>bantur <ref xml:id="jdso8u-d1e737-Rd1e197">per Augustinum 83. - 
+        <lb ed="#V" n="50"/>q. 37.</ref>
+               <quote xml:id="jdso8u-d1e737-Qd1e202" source="http://scta.info/resource/a83-q37-d1e108@9-15">Qui semper nascitur, nunquam 
+      <lb ed="#V" n="51"/>natus est</quote>; ergo si Filius semper 
+      <lb ed="#V" n="52"/>nascitur, nunquam natus est. 
+      <lb ed="#V" n="53"/>Ultra, quod nunquam natum est, 
+      <lb ed="#V" n="54"/>nunquam est Filius; igitur si 
+      Fi<lb ed="#V" break="no" n="55"/>lius semper nascitur, ergo 
+      nun<lb ed="#V" break="no" n="56"/>quam est Filius. 
+    </p>
+            <p xml:id="jdso8u-d1e737-d1e219">
+               <lb ed="#V" n="57"/>Oppositum,Ambrosius 1. de Trin. 
+      <lb ed="#V" n="58"/>cap. 6. et ponitur in littera. Si Pater 
+      <lb ed="#V" n="59"/>prius erat Deus, et postea genuit, 
+      gene<lb ed="#V" break="no" n="60"/>atiois accessione mutatus est : avertat 
+      <lb ed="#V" n="61"/>Deus hanc amentiam, semper igitur 
+      <lb ed="#V" n="62"/>habuit Filium. 
+    </p>
+            <p xml:id="jdso8u-d1e737-d1e235">
+               <lb ed="#V" n="63"/>Similiter auctoritas Hilarii in 
+      <lb ed="#V" n="64"/>littera : Inter gignere et gigni nullum 
+      <lb ed="#V" n="65"/>est medium, scilicet durationis; si 
+      <lb ed="#V" n="66"/>igitur proprium est Patri semper 
+      <lb ed="#V" n="67"/>genuisse, proprium est Filio quod 
+      <lb ed="#V" n="68"/>semper genitus est. 
+    </p>
+            <p xml:id="jdso8u-d1e737-d1e251"><!-- jdso-l1d9q1-n2 -->
+               <lb ed="#V" n="80"/>Ad quaestionem (a) dico, quod 
+      <lb ed="#V" n="81"/>sic, quia generatio non est ibi sub 
+      <lb ed="#V" n="82"/>ratione mutationis, sicut dictum 
+      <lb ed="#V" n="83"/>est dist. 5. q. 2. ideo non habet 
+      ter<lb ed="#V" break="no" n="84"/>minos correspondentes terminis 
+      <!--0774.xml-->
+      <pb ed="#V" n="774"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>generationis mutationis, scilicet 
+      <lb ed="#V" n="2"/>esse post non esse, propter quos 
+      <lb ed="#V" n="3"/>terminos repugnat generationi 
+      <lb ed="#V" n="4"/>mutationi, eternitas, quia non 
+      <lb ed="#V" n="5"/>possunt simul esse, sed alterum 
+      <lb ed="#V" n="6"/>ante alterum; ergo non eternitas, 
+      <lb ed="#V" n="7"/>sed tantum est ibi generatio 
+      pro<lb ed="#V" break="no" n="8"/>ductio in esse substantie per 
+      mo<lb ed="#V" break="no" n="9"/>dum nature. 
+    </p>
+            <p xml:id="jdso8u-d1e737-d1e291">
+               <lb ed="#V" n="10"/>Ex hoc ostendo (b), quod sit 
+      <lb ed="#V" n="11"/>.aeterna, quia agens omnino 
+      suffi<lb ed="#V" break="no" n="12"/>ciens, hoc est, a nullo dependens, 
+      <lb ed="#V" n="13"/>et producens per modum nature 
+      <lb ed="#V" n="14"/>habet productionem sibi coevam, 
+      <lb ed="#V" n="15"/>et etiam productum perfectum, si 
+      <lb ed="#V" n="16"/>non agit per motum; sed Pater 
+      <lb ed="#V" n="17"/>generans producit per modum 
+      <lb ed="#V" n="18"/>nature, et est agens omnino 
+      suffi<lb ed="#V" break="no" n="19"/>ciens a nullo dependens; igitur 
+      <lb ed="#V" n="20"/>habet generationem sibi coevam; 
+      <lb ed="#V" n="21"/>igitur et genitum, quia non 
+      pro<lb ed="#V" break="no" n="22"/>ducit per motum. Major apparet, 
+      <lb ed="#V" n="23"/>quia quod producens praecederet 
+      <lb ed="#V" n="24"/>suam productionem, hoc non 
+      pos<lb ed="#V" break="no" n="25"/>set esse, ut videtur, nisi quia, vel 
+      <lb ed="#V" n="26"/>in potestate ejus esset agere et non 
+      <lb ed="#V" n="27"/>agere; vel quia si ex se 
+      determi<lb ed="#V" break="no" n="28"/>naretur ad agendum, tamen posset 
+      <lb ed="#V" n="29"/>impediri propter defectum 
+      alicu<lb ed="#V" break="no" n="30"/>jus, a quo dependet in agendo. 
+      <lb ed="#V" n="31"/>Haec omnia excluduntur per ea, 
+      <lb ed="#V" n="32"/>quae posita sunt in majore, 
+      scili<lb ed="#V" break="no" n="33"/>cet esse agens sufficiens et 
+      produ<lb ed="#V" break="no" n="34"/>cere naturaliter. Si etiam non 
+      <lb ed="#V" n="35"/>istis positis praecederet 
+      produ<lb ed="#V" break="no" n="36"/>ctum, hoc esset, quia producens 
+      <lb ed="#V" n="37"/>produceret per motum; igitur 
+      <lb ed="#V" n="38"/>istis amotis et motu, non tantum 
+      <lb ed="#V" n="39"/>productio est sibi coaeva 
+      produ<lb ed="#V" break="no" n="40"/>centi, sed etiam productum. Minor 
+      <lb ed="#V" n="41"/>apparet quantum ad omnes 
+      con<lb ed="#V" break="no" n="42"/>ditiones, quia generans naturaliter 
+      <lb ed="#V" n="43"/>generat, et est producens omnino 
+      <lb ed="#V" n="44"/>primum; igitur a nullo alio de- 
+      <!--0774.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>pendet in producendo, et naturam 
+      <lb ed="#V" n="46"/>suam nullo modo communicat per 
+      <lb ed="#V" n="47"/>motum, quia non potest esse 
+      mo<lb ed="#V" break="no" n="48"/>tus in natura illa. 
+    </p>
+            <p xml:id="jdso8u-d1e737-d1e383">
+               <lb ed="#V" n="49"/>Per istam (c) rationem tenet 
+      <lb ed="#V" n="50"/>illud exemplum <ref xml:id="jdso8u-d1e737-Rd1e389">Augustini 6. de 
+      <lb ed="#V" n="51"/>Trinitate cap. 1. de magnis, vel 2. 
+      <lb ed="#V" n="52"/>de parvis</ref>, de igne et splendore, 
+      <lb ed="#V" n="53"/>quod <quote xml:id="jdso8u-d1e737-Qd1e398" source="http://scta.info/resource/adt-l6-d1e779@116-133">si ignis esset aeternus , haberet 
+      <lb ed="#V" n="54"/>splendorem sibi coaevum</quote>. Istud 
+      exem<lb ed="#V" break="no" n="55"/>plum declaro sic : Quandocumque 
+      <lb ed="#V" n="56"/>concurrunt in aliquo, ratio 
+      com<lb ed="#V" break="no" n="57"/>munioris et minus communis, 
+      <lb ed="#V" n="58"/>quidquid in illo sequitur per se 
+      <lb ed="#V" n="59"/>rationem communioris, sequitur 
+      <lb ed="#V" n="60"/>etiam eam ubi invenitur absque 
+      <lb ed="#V" n="61"/>ratione minus communi. Hoc 
+      ap<lb ed="#V" break="no" n="62"/>paret in omnibus communibus 
+      <lb ed="#V" n="63"/>habentibus proprias passiones, et 
+      <lb ed="#V" n="64"/>eorum inferioribus. Igitur si in; 
+      <lb ed="#V" n="65"/>creatura concurrat ratio 
+      causan<lb ed="#V" break="no" n="66"/>tis naturaliter, et ratio 
+      producen<lb ed="#V" break="no" n="67"/>tis naturaliter, quidquid sequitur 
+      <lb ed="#V" n="68"/>creaturam, ratione hujus 
+      commu<lb ed="#V" break="no" n="69"/>nioris, quod est producere 
+      natu<lb ed="#V" break="no" n="70"/>raliter, sequitur etiam eam ubi 
+      <lb ed="#V" n="71"/>invenitur sine causatione 
+      natura<lb ed="#V" break="no" n="72"/>liter. Sed quod ignis habeat 
+      splen<lb ed="#V" break="no" n="73"/>dorem sibi coaevum, hoc non 
+      se<lb ed="#V" break="no" n="74"/>quitur ipsum praecise per hoc, 
+      <lb ed="#V" n="75"/>quod est causans naturaliter, sed 
+      <lb ed="#V" n="76"/>ex hoc quod est producens 
+      natura<lb ed="#V" break="no" n="77"/>liter, quia si (per impossibile) non 
+      <lb ed="#V" n="78"/>causaret illum, sed produceret, 
+      <lb ed="#V" n="79"/>ita quod splendor esset ejusdem 
+      <lb ed="#V" n="80"/>naturae cum igne, adhuc non 
+      mi<lb ed="#V" break="no" n="81"/>nus sequeretur coaevitas; igitur 
+      <lb ed="#V" n="82"/>ubi est vere ratio producentis 
+      na<lb ed="#V" break="no" n="83"/>turaliter sine ratione causantis 
+      <lb ed="#V" n="84"/>naturaliter, sicut est in divinis, 
+      <lb ed="#V" n="85"/>ibi vere sequitur producens 
+      habe<lb ed="#V" break="no" n="86"/>re productum naturaliter sibi 
+      <lb ed="#V" n="87"/>coaevuI. 
+    </p>
+            <p xml:id="jdso8u-d1e737-d1e476">
+               <lb ed="#V" n="88"/>Ista solutio (d) etiam confirma- 
+      <!--0775.xml-->
+      <pb ed="#V" n="775"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>tur, accipiendo illud quod 
+      reperi<lb ed="#V" break="no" n="2"/>tur perfectionis sparsim in 
+      gene<lb ed="#V" break="no" n="3"/>rationibus diversarum 
+      creatura<lb ed="#V" break="no" n="4"/>rum, et relinquendo ea, quae sunt 
+      <lb ed="#V" n="5"/>imperfectionis. In generationibus 
+      <lb ed="#V" n="6"/>enim successivorum, hoc est, 
+      per<lb ed="#V" break="no" n="7"/>fectionis in eis quod dum fiunt, 
+      <lb ed="#V" n="8"/>sunt ; imperfectionis est in eis 
+      <lb ed="#V" n="9"/>quod non manent, sed habent esse 
+      <lb ed="#V" n="10"/>tantum in fluxu partis post 
+      par<lb ed="#V" break="no" n="11"/>tem; in generatione 
+      permanen<lb ed="#V" break="no" n="12"/>tium, hoc est, perfectionis, quod 
+      <lb ed="#V" n="13"/>manent, et imperfectionis, quod 
+      <lb ed="#V" n="14"/>non sunt, dum fiunt, quia hoc 
+      po<lb ed="#V" break="no" n="15"/>nit imperfectionem in faciente, 
+      <lb ed="#V" n="16"/>quia non est perfectum faciens. 
+      <lb ed="#V" n="17"/>Similiter in facto, quod necessario 
+      <lb ed="#V" n="18"/>habet esse post non esse in 
+      indivisi<lb ed="#V" break="no" n="19"/>bilibus successivorum, hoc est, 
+      <lb ed="#V" n="20"/>perfectionis, quod dum fiunt, sunt, 
+      <lb ed="#V" n="21"/>et tota simul sunt, sed 
+      imperfecti<lb ed="#V" break="no" n="22"/>onis, quod raptim transeunt. 
+      Ag<lb ed="#V" break="no" n="23"/>gregando igitur perfectiones 
+      ha<lb ed="#V" break="no" n="24"/>bebitur genitum, quod simul 
+      ge<lb ed="#V" break="no" n="25"/>nerabitur et erit, et permanenter 
+      <lb ed="#V" n="26"/>erit, hoc est genitum generari, et 
+      <lb ed="#V" n="27"/>perfecte esse in nunc perfecte 
+      stan<lb ed="#V" break="no" n="28"/>te, quod est nunc eternitatis, hoc 
+      <lb ed="#V" n="29"/>est propositum. 
+    </p>
+            <p xml:id="jdso8u-d1e737-d1e550"><!-- jdso-l1d9q1-n3 -->
+               <lb ed="#V" n="39"/>Ad primum (a) argumentum dico, 
+      <lb ed="#V" n="40"/>quod principium dicitur 
+      multiplici<lb ed="#V" break="no" n="41"/>ter, sicut apparet 5. Metaph. cap. 1. 
+      <lb ed="#V" n="42"/>et si accipitur eodem modo, bene 
+      <!--0780.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="43"/>potest concedi quod si sit 
+      princi<lb ed="#V" break="no" n="44"/>pium alicujus, quod sit 
+      princi<lb ed="#V" break="no" n="45"/>pium illius, quod est idem ipsi.' 
+      <lb ed="#V" n="46"/>Sed principium non consuevit 
+      <lb ed="#V" n="47"/>construi cum hoc, quod est 
+      dura<lb ed="#V" break="no" n="48"/>tionis pro principio originis, sed 
+      <lb ed="#V" n="49"/>tantum pro principio, quod sit 
+      <lb ed="#V" n="50"/>quasi terminus illius durationis, 
+      <lb ed="#V" n="51"/>a quo, sicut instans dicitur 
+      prin<lb ed="#V" break="no" n="52"/>cipium temporis; et sive hoc sit 
+      <lb ed="#V" n="53"/>ex usu sermonis vel ex virtute 
+      <lb ed="#V" n="54"/>sermonis, non concederetur ista: 
+      <lb ed="#V" n="55"/>Pater est principium durationis Filii, 
+      <lb ed="#V" n="56"/>sine determinatione, sed bene 
+      con<lb ed="#V" break="no" n="57"/>cederetur ista : Pater est principium 
+      <lb ed="#V" n="58"/>originativum ceternitatis Filii. 
+    </p>
+            <p xml:id="jdso8u-d1e737-d1e601">
+               <lb ed="#V" n="59"/>Quando igitur arguis per 
+      iden<lb ed="#V" break="no" n="60"/>titatem esse et durationis, quia 
+      <lb ed="#V" n="61"/>quidquid est principium unius, et 
+      <lb ed="#V" n="62"/>alterius, concedo, si principium 
+      <lb ed="#V" n="63"/>uniformiter accipitur respectu esse 
+      <lb ed="#V" n="64"/>et durationis. Sed ly principium, 
+      <lb ed="#V" n="65"/>non construitur cum ly 
+      dura<lb ed="#V" break="no" n="66"/>tionis, in ratione talis principii, 
+      <lb ed="#V" n="67"/>ly principium construitur cum ly 
+      <lb ed="#V" n="68"/>esse, quia respectu esse est 
+      princi<lb ed="#V" break="no" n="69"/>pium originativum, et ideo non 
+      <lb ed="#V" n="70"/>sequitur, sed est fallacia 
+      aequi<lb ed="#V" break="no" n="71"/>vocationis , vel amphibologie. 
+      <lb ed="#V" n="72"/>Sed ad hoc, ut consequentia 
+      te<lb ed="#V" break="no" n="73"/>neat, oportet determinare 
+      princi<lb ed="#V" break="no" n="74"/>pium in consequente per hoc, quod 
+      <lb ed="#V" n="75"/>est originans vel originale, sic, 
+      <lb ed="#V" n="76"/>Pater est principium originale 
+      <lb ed="#V" n="77"/>duratiouis Filii, quod concedo, ut 
+      <lb ed="#V" n="78"/>dictum est. 
+    </p>
+            <p xml:id="jdso8u-d1e737-d1e647">
+               <lb ed="#V" n="79"/>Ad secundum dico (b), quod 
+      <lb ed="#V" n="80"/>verbum nostrum est dupliciter 
+      <lb ed="#V" n="81"/>in feri: uno modo est in fieri, 
+      <lb ed="#V" n="82"/>quod est propria gignitio ipsius 
+      <lb ed="#V" n="83"/>verbi. Alio modo est in fieri quod 
+      <lb ed="#V" n="84"/>est propria inquisitio praecedens 
+      <lb ed="#V" n="85"/>illam gignitionem illius verbi, 
+      <lb ed="#V" n="86"/>quam inquisitionem Augustinus 
+      <!--0781.xml-->
+      <pb ed="#V" n="781"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>vocat cogitationem volubilem. 
+      <lb ed="#V" n="2"/>Quod verbum nostrum sit in fieri 
+      <lb ed="#V" n="3"/>hoc secundo modo, hoc est 
+      im<lb ed="#V" break="no" n="4"/>perfectionis et ex parte verbi, 
+      <lb ed="#V" n="5"/>quia ponit novitatem ; et ex parte 
+      <lb ed="#V" n="6"/>intellectus nostri, quia ponit 
+      im<lb ed="#V" break="no" n="7"/>perfectam causalitatem, et hoc 
+      <lb ed="#V" n="8"/>modo verbum divinum non est 
+      <lb ed="#V" n="9"/>in fieri, et ideo concedit 
+      Augusti<lb ed="#V" break="no" n="10"/>nus verbum nostrum cogitatione 
+      <lb ed="#V" n="11"/>formari, ita quod prius sit 
+      for<lb ed="#V" break="no" n="12"/>mabile quam formatum, in illa 
+      <lb ed="#V" n="13"/>inquisitione prima. Sed quod 
+      ver<lb ed="#V" break="no" n="14"/>bum nostrum sit in fieri quantum 
+      <lb ed="#V" n="15"/>ad gignitionem,non est 
+      imperfectio<lb ed="#V" break="no" n="16"/>nis, imo est necessarium ad per se 
+      <lb ed="#V" n="17"/>rationem verbi, et erit etiam in 
+      <lb ed="#V" n="18"/>patria, et ita non est 
+      imperfecti<lb ed="#V" break="no" n="19"/>onis in Verbo aeterno, semper 
+      <lb ed="#V" n="20"/>esse in fieri, id est, gigni absque 
+      <lb ed="#V" n="21"/>omni inquisitione praevia. 
+    </p>
+            <p xml:id="jdso8u-d1e737-d1e719">
+               <lb ed="#V" n="22"/>Ad tertium dico (c), quod 
+      Au<lb ed="#V" break="no" n="23"/>gustinus videtur negare Filium 
+      <lb ed="#V" n="24"/>semper nasci in quaestione 
+      preal<lb ed="#V" break="no" n="25"/>legata, cum tamen Origenes dicat 
+      <lb ed="#V" n="26"/>oppositum, sicut allegat Magister 
+      <lb ed="#V" n="27"/>in littera super illud Jeremiae, 11. 
+      <lb ed="#V" n="28"/>Inventa est. Gregorius tamen 
+      Mo<lb ed="#V" break="no" n="29"/>ralium 29. super illud Job. 38. 
+      <lb ed="#V" n="30"/>Sciebas quando nasciturus, videtur 
+      di<lb ed="#V" break="no" n="31"/>cere aliqua, quibus possunt ista 
+      <lb ed="#V" n="32"/>dicta concordari: Non possumus (
+      in<lb ed="#V" break="no" n="33"/>quit) dicere semper nascitur, ne 
+      im<lb ed="#V" break="no" n="34"/>perfectum aliquid videatur, ne, inquit, 
+      <lb ed="#V" n="35"/>aliquid videatur imperfectum. Non 
+      <lb ed="#V" n="36"/>dixit, (imperfectio est si dicatur 
+      <lb ed="#V" n="37"/>semper nasci,) sed videtur 
+      signi<lb ed="#V" break="no" n="38"/>ficari imperfectio, hoc est, iste 
+      <lb ed="#V" n="39"/>serm0, semper nascitur, non 
+      signi<lb ed="#V" break="no" n="40"/>ficat generationem esse ita 
+      per<lb ed="#V" break="no" n="41"/>fectam, sicut sermo iste significat 
+      <lb ed="#V" n="42"/>eamdem esse perfectam, semper est 
+      <lb ed="#V" n="43"/>natus ; ista enim, semper est natus, 
+      <lb ed="#V" n="44"/>magis exprimit veritatem, quam 
+      <!--0781.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>sita, semper nascitur, licet utraque 
+      <lb ed="#V" n="46"/>sit vera. 
+    </p>
+            <p xml:id="jdso8u-d1e737-d1e781">
+               <lb ed="#V" n="47"/>Ad cujus intellectum (d) 
+      scien<lb ed="#V" break="no" n="48"/>dum est, quod verba 
+      cujuscum<lb ed="#V" break="no" n="49"/>que temporis dicuntur de Deo vere, 
+      <lb ed="#V" n="50"/>sive significent actus personales, 
+      <lb ed="#V" n="51"/>sive essentiales, sicut patet per 
+      <lb ed="#V" n="52"/>Augustinum super Joannem hom. 
+      <lb ed="#V" n="53"/>99. super illud Joan. 16. Non enim 
+      <lb ed="#V" n="54"/>loquetur a semetipso, sed quecumque 
+      <lb ed="#V" n="55"/>audiet, loquetur. Audiet, inquit 
+      Au<lb ed="#V" break="no" n="56"/>gustinus de Spiritu, quod utique 
+      au<lb ed="#V" break="no" n="57"/>divit et audit, quia Spiritum sanctum 
+      <lb ed="#V" n="58"/>audire est a Patre Filioque procedere, 
+      <lb ed="#V" n="59"/>et per consequens quod audiet, audivit 
+      <lb ed="#V" n="60"/>et audit, sicut quod scit, scivit et sciet; 
+      <lb ed="#V" n="61"/>igitur vult ipse dicere, quod 
+      ver<lb ed="#V" break="no" n="62"/>ba omnium temporum vere 
+      di<lb ed="#V" break="no" n="63"/>cuntur de Deo, et illud apparet 
+      <lb ed="#V" n="64"/>per illud quod adducit Magister 
+      <lb ed="#V" n="65"/>in littera dist. 8. cap. 2. 
+    </p>
+            <p xml:id="jdso8u-d1e737-d1e825">
+               <lb ed="#V" n="66"/>Sed quid significant ista verba 
+      <lb ed="#V" n="67"/>(e) diversorum temporum, cum 
+      <lb ed="#V" n="68"/>dicuntur de Deo ? Respondeo, 
+      ma<lb ed="#V" break="no" n="69"/>gis proprie possunt dici 
+      consi<lb ed="#V" break="no" n="70"/>gnificare nunc aeternitatis quam 
+      <lb ed="#V" n="71"/>differentias temporis, non tamen 
+      <lb ed="#V" n="72"/>illud nunc absolute, quia non esset 
+      <lb ed="#V" n="73"/>variatio tunc diversorum modorum 
+      <lb ed="#V" n="74"/>significandi temporis, sed inquan 
+      <lb ed="#V" n="75"/>tum coexistit partibus temporis 
+      <lb ed="#V" n="76"/>ut cum dicitur : Deus genuit, 
+      <lb ed="#V" n="77"/>consignificatur nunc aeternitatis, 
+      <lb ed="#V" n="78"/>ut sic sit sensus : Deus habet 
+      <lb ed="#V" n="79"/>actum generationis in nunc 
+      aeter<lb ed="#V" break="no" n="80"/>nitatis, inquantum illud nunc 
+      coe<lb ed="#V" break="no" n="81"/>xistebat praeterito. Deus generat, 
+      <lb ed="#V" n="82"/>hoc est, habet actum in nunc 
+      <lb ed="#V" n="83"/>eternitatis , inquantum nunc 
+      <lb ed="#V" n="84"/>eternitatis coexistit praesenti; 
+      <lb ed="#V" n="85"/>et ex hoc patet, quod cum illud 
+      <lb ed="#V" n="86"/>nunc vere coexistat cuilibet 
+      dif<lb ed="#V" break="no" n="87"/>ferentie temporis, vere dicimus 
+      <!--0782.xml-->
+      <pb ed="#V" n="782"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>de Deo differentias omnium 
+      tem<lb ed="#V" break="no" n="2"/>porum. 
+    </p>
+            <p xml:id="jdso8u-d1e737-d1e886">
+               <lb ed="#V" n="3"/>Expressius tamen secundum B. 
+      <lb ed="#V" n="4"/>Gregorium significatur divinae 
+      ge<lb ed="#V" break="no" n="5"/>nerationis veritas per hunc 
+      ser<lb ed="#V" break="no" n="6"/>monem : semper natus est, am pe 
+      <lb ed="#V" n="7"/>istum sermonem : semper nascitur, 
+      <lb ed="#V" n="8"/>quia per ly natus, significatur 
+      na<lb ed="#V" break="no" n="9"/>tivitas ut perfecta; sed cum ly 
+      <lb ed="#V" n="10"/>semper, significatur ut perfecta 
+      <lb ed="#V" n="11"/>cum omni parte temporis 
+      coexi<lb ed="#V" break="no" n="12"/>stere, et ita non tantum 
+      signifi<lb ed="#V" break="no" n="13"/>catur omni parti temporis 
+      coe<lb ed="#V" break="no" n="14"/>xistere, sicut significatur per 
+      <lb ed="#V" n="15"/>istam : semper gignitur, sed 
+      signifi<lb ed="#V" break="no" n="16"/>catur etiam omni parti temporis 
+      <lb ed="#V" n="17"/>coexistere sub ratione perfecta, 
+      <lb ed="#V" n="18"/>et in hoc videtur expressissime 
+      si<lb ed="#V" break="no" n="19"/>gnificari veritas hujus 
+      processi<lb ed="#V" break="no" n="20"/>onis. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,2626 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Scotus">John Duns Scotus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-06-19">June 19, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-u78xV9">Vives, Paris, 1891, volume 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-19" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="232"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jdso8u-d1e487"><!-- jdso8u-b1d3p3q1 -->
+            <head xml:id="jdso8u-d1e487-Hd1e101">Quaestio 1<!--Quaestio 6--></head>
+            <head xml:id="jdso8u-d1e487-Hd1e105" type="question-title">
+      Utrum in parte intellectiva sit 
+      memoria proprie sumpta, id est, 
+      intellectus habens speciem intelligibilem 
+      priorem naturaliter actu intelligendi
+    </head>
+            <p xml:id="jdso8u-d1e487-d1e108"><!-- jdso-l1d3q6-n1 or p3, q. 1 -->
+               <lb ed="#V" n="28"/>QUESTIO VI. 
+      <lb ed="#V" n="29"/>De memoria. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e116">
+               <lb ed="#V" n="30"/>Utrum (a) in parte intellectiva sit 
+      me<lb ed="#V" break="no" n="31"/>moria proprie sumpta, id est, 
+      intel<lb ed="#V" break="no" n="32"/>lectus habens speciem intelligibilem 
+      <lb ed="#V" n="33"/>priorem naturaliter actu intelligendi ? 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e127">
+               <lb ed="#V" n="34"/>Aristot. 3. de Anima cap. 4. text. 15. Alensis 2. 
+      <lb ed="#V" n="35"/>par. q. 24. m. 2. et 3. D. Thom. 1. P. . 55. 
+      <lb ed="#V" n="36"/>art. 1. 2. Bonav. D 2. d. 3. p. 2. art. 2 q. 1. 
+      <lb ed="#V" n="37"/>Richard. ort. 6. q. 1. et 2. Herv. q. 4. arl. 2. 
+      <lb ed="#V" n="38"/>Egid. ibi 2. p. art. 1. hi cum communi 
+      <lb ed="#V" n="39"/>admittunt species. Sequentes negant. Durand. 
+      <lb ed="#V" n="40"/>2. d. 3. q. . Bactionus q. 2. prol. Goffr. quodl. 
+      <lb ed="#V" n="41"/>9. q. 19. Henr. quodl. 4. q. 7. 8. et 21. et quodl. 
+      <lb ed="#V" n="42"/>5. g. 14. de quo Scot. 2. d. 3. q. 10. S 
+      <lb ed="#V" n="43"/>ad quest. Vasquez 1. p. d. 200. Vide Scot. 1. 
+      <!--0232.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="44"/>Met. q. 6. 7. Met. q. 18. et 9. Met. g. 10. et i. 
+      <lb ed="#V" n="45"/>Phys. q. 22. conc. 2. et fin.
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e161">
+               <lb ed="#V" n="46"/>Circa tertiam partem 
+      distincti<lb ed="#V" break="no" n="47"/>onis, in qua Magister agit de 
+      ima<lb ed="#V" break="no" n="48"/>gine, quaero primo de memoria : 
+      <lb ed="#V" n="49"/>Utrum in parte intellectiva 
+      pro<lb ed="#V" break="no" n="50"/>prie sumpta sit memoria proprie, 
+      <lb ed="#V" n="51"/>id est, intellectus habens speciem 
+      <lb ed="#V" n="52"/>intelligibilem priorem naturaliter 
+      <lb ed="#V" n="53"/>actu intelligendi? 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e181">
+               <lb ed="#V" n="54"/>Et videtur quod non, quia omnis 
+      <lb ed="#V" n="55"/>species impressa ab objecto 
+      re<lb ed="#V" break="no" n="56"/>praesentat illud sub illa ratione 
+      <lb ed="#V" n="57"/>qua imprimitur ab eo; si 
+      impri<lb ed="#V" break="no" n="58"/>mitur ab alio, adhuc representat 
+      <lb ed="#V" n="59"/>sub eadem ratione, sub qua 
+      re<lb ed="#V" break="no" n="60"/>praesentaret si imprimeretur ab 
+      <lb ed="#V" n="61"/>objecto, alioquin non esset vera 
+      <lb ed="#V" n="62"/>species ejus; sed species quando 
+      <lb ed="#V" n="63"/>imprimitur ab objecto, 
+      imprimi<lb ed="#V" break="no" n="64"/>tur ab eo ut singulare est, quia 
+      <lb ed="#V" n="65"/>actio est singularis; ergo species 
+      <lb ed="#V" n="66"/>impressa a quocumque non potest 
+      <lb ed="#V" n="67"/>repraesentare universale, quale 
+      re<lb ed="#V" break="no" n="68"/>praesentatur intellectui; ergo nulla 
+      <lb ed="#V" n="69"/>species impressa repraesentat 
+      in<lb ed="#V" break="no" n="70"/>telligibile sub ratione intelligibilis 
+      <lb ed="#V" n="71"/>vel universalis. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e223">
+               <lb ed="#V" n="72"/>Secundo sic, praesentia objecti 
+      <lb ed="#V" n="73"/>est causa praesentiae speciei, et 
+      <lb ed="#V" n="74"/>non e contra; non enim quia 
+      spe<lb ed="#V" break="no" n="75"/>cies est in oculo, ideo objectum 
+      <lb ed="#V" n="76"/>est presens, sed e converso; ergo 
+      <lb ed="#V" n="77"/>prima representatio objecti non 
+      <lb ed="#V" n="78"/>est per speciem; ergo superflue 
+      <lb ed="#V" n="79"/>ponitur species propter 
+      praesen<lb ed="#V" break="no" n="80"/>tiam objecti.
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e245">
+               <lb ed="#V" n="81"/>Tertio sic, quaelibet species si 
+      <lb ed="#V" n="82"/>esset in intellectu, esset forma 
+      na<lb ed="#V" break="no" n="83"/>turaliter agens ad intellectionem, 
+      <lb ed="#V" n="84"/>sed multae possunt esse in 
+      intelle<lb ed="#V" break="no" n="85"/>ctu simul, si una ponitur; ergo 
+      <lb ed="#V" n="86"/>omnes ille naturaliter agerent ad 
+      <lb ed="#V" n="87"/>intellectiones sibi corresponden- 
+      <!--0233.xml-->
+      <pb ed="#V" n="233"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>tes ; ergo simul essent plures 
+      in<lb ed="#V" break="no" n="2"/>tellectiones in intellectu, corres 
+      <lb ed="#V" n="3"/>pondentes illis pluribus speciebus. 
+      <lb ed="#V" n="4"/>Si enim aliqua illarum ageret 
+      natu<lb ed="#V" break="no" n="5"/>raliter, et tamen non esset 
+      intel<lb ed="#V" break="no" n="6"/>lectio secundum eam, sequeretur 
+      <lb ed="#V" n="7"/>quod nunquam posset esse 
+      intel<lb ed="#V" break="no" n="8"/>lectio secundum eai, quia causa 
+      <lb ed="#V" n="9"/>naturaliter agens quando agit, agit 
+      <lb ed="#V" n="10"/>secundum ultimum potentie suae, 
+      <lb ed="#V" n="11"/>sed si tunc non potest habere 
+      effe<lb ed="#V" break="no" n="12"/>ctum, nunquam habebit. 
+      Plurali<lb ed="#V" break="no" n="13"/>tas autem ista specierum qae 
+      se<lb ed="#V" break="no" n="14"/>quitur ex hypothesi, improbatur 
+      <lb ed="#V" n="15"/>per illam rationem Algazelis 4. 
+      <lb ed="#V" n="16"/>Metaph. quia sicut unum corpus 
+      <lb ed="#V" n="17"/>non potest simul figurari diversis 
+      <lb ed="#V" n="18"/>figuris, ita non videtur idem 
+      intel<lb ed="#V" break="no" n="19"/>lectus posse figurari simul 
+      diver<lb ed="#V" break="no" n="20"/>sis objectis, quod tamen 
+      sequere<lb ed="#V" break="no" n="21"/>tur, ponendo simul plures species 
+      <lb ed="#V" n="22"/>intelligibiles. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e317">
+               <lb ed="#V" n="23"/>Quarto sic, quia tunc videtur 
+      <lb ed="#V" n="24"/>sequi quod intellectus non 
+      patie<lb ed="#V" break="no" n="25"/>tur ab intelligibili inquantum 
+      in<lb ed="#V" break="no" n="26"/>telligibile, sed tantum patietur 
+      <lb ed="#V" n="27"/>passione reali, recipiendo 
+      quam<lb ed="#V" break="no" n="28"/>dam formam, quae erit sicut 
+      per<lb ed="#V" break="no" n="29"/>fectio ejus realis; recipit enim 
+      <lb ed="#V" n="30"/>speciem illam,ut subjectum recipit 
+      <lb ed="#V" n="31"/>accidens reale, et ita non patitur 
+      <lb ed="#V" n="32"/>intellectus inquantum intellectus 
+      <lb ed="#V" n="33"/>ab intelligibili inquantum 
+      intelli<lb ed="#V" break="no" n="34"/>gibile, et ex hoc sequitur quod 
+      <lb ed="#V" n="35"/>intelligere non erit motus rei ad 
+      <lb ed="#V" n="36"/>animam, imo omnis intellectio. 
+      <lb ed="#V" n="37"/>erit actio ejus absoluta, sicut 
+      <lb ed="#V" n="38"/>forma stans non habens aliquem 
+      <lb ed="#V" n="39"/>terminum extra. 
+    </p>
+            <!-- Additio -->
+            <p xml:id="jdso8u-d1e487-d1e359">
+               <lb ed="#V" n="40"/>Item, posset conservari species illa sine 
+      <lb ed="#V" n="41"/>actt, et ita no necessaria conversio ad 
+      <lb ed="#V" n="42"/>phantasmata. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e368">
+               <lb ed="#V" n="43"/>Item, voluntas habet objectum 
+      suffi<lb ed="#V" break="no" n="44"/>cienter sibi presens ut circa illud possit 
+      <!--0233.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>agere, licet nihil recipiat in se ab objecto; 
+      <lb ed="#V" n="46"/>igitur ita potest esse in proposito 
+      inquan<lb ed="#V" break="no" n="47"/>tum objectum est terminativum actus. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e386">
+               <lb ed="#V" n="48"/>Confirmatur, sicut est presens 
+      volun<lb ed="#V" break="no" n="49"/>tati, quia in intellectu quare non ita de 
+      <lb ed="#V" n="50"/>intellectu et phantasmate. 
+    </p>
+            <!-- end additio -->
+            <p xml:id="jdso8u-d1e487-d1e397">
+               <lb ed="#V" n="51"/>Ad oppositum, intellectus 
+      quan<lb ed="#V" break="no" n="52"/>doque est in potentia propinqua et 
+      <lb ed="#V" n="53"/>accidentali ad intelligendum, qui 
+      <lb ed="#V" n="54"/>prius fuit in potentia essentiali et 
+      <lb ed="#V" n="55"/>remota : istud autem non est in 
+      <lb ed="#V" n="56"/>intellectu nisi per aliquam 
+      muta<lb ed="#V" break="no" n="57"/>tionem, non objecti, patet, quia 
+      <lb ed="#V" n="58"/>in objecto tantum est relatio 
+      ra<lb ed="#V" break="no" n="59"/>tionis, ergo ipsius intellectus; 
+      igi<lb ed="#V" break="no" n="60"/>tur ista mutatio, quae fit ad talem 
+      <lb ed="#V" n="61"/>potentiam propinquam, videtur 
+      <lb ed="#V" n="62"/>esse ad aliquam formam per quam 
+      <lb ed="#V" n="63"/>objectum intelligibile, est praesons 
+      <lb ed="#V" n="64"/>intellectui, quae forma erit prior 
+      <lb ed="#V" n="65"/>naturaliter actu intelligendi, quia 
+      <lb ed="#V" n="66"/>prior est natura potentia 
+      propin<lb ed="#V" break="no" n="67"/>qua, qua quis est potens 
+      intellige<lb ed="#V" break="no" n="68"/>re quam sit actus intelligendi; illa 
+      <lb ed="#V" n="69"/>autem forma per quam objectum 
+      <lb ed="#V" n="70"/>est sic praesens, vocatur species, 
+      <lb ed="#V" n="71"/>ergo in intellectu est ponere 
+      spe<lb ed="#V" break="no" n="72"/>ciem intelligibilem. 
+    </p>
+            <!-- additio -->
+            <p xml:id="jdso8u-d1e487-d1e450">
+               <lb ed="#V" n="73"/>Aliter deducitur argumentum 
+      prece<lb ed="#V" break="no" n="74"/>dens sic, quia aliter se habet intellectus 
+      <lb ed="#V" n="75"/>quando est in potentia essentiali ante 
+      <lb ed="#V" n="76"/>addiscere, et aliter quando se habet in 
+      <lb ed="#V" n="77"/>potentia accidentali ante intelligere. 
+      Ob<lb ed="#V" break="no" n="78"/>jectum autem se non habet aliter, sed 
+      <lb ed="#V" n="79"/>eodem modo, intellectus igitur se habet 
+      <lb ed="#V" n="80"/>aliter per hoc quod est mutatus, sed 
+      <lb ed="#V" n="81"/>omnis mutatio terminatur ad aliquam 
+      <lb ed="#V" n="82"/>formam , ergo aliqua precedit actum 
+      <lb ed="#V" n="83"/>intellectionis, istam non voco nisi 
+      spe<lb ed="#V" break="no" n="84"/>ciem. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e479"><!-- jdso-l1d3q6-n2 -->
+               <lb ed="#V" n="50"/>(a) In ista quaestione negatur 
+      <lb ed="#V" n="51"/>omnis species intelligibilis 
+      praece<lb ed="#V" break="no" n="52"/>dens naturaliter actum 
+      intelligen<lb ed="#V" break="no" n="53"/>di propter rationes positas ad 
+      pri<lb ed="#V" break="no" n="54"/>mam partem quaestionis. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e493">
+               <lb ed="#V" n="55"/>Modus autem ponendi est iste, 
+      <lb ed="#V" n="56"/>habita impressione speciei 
+      sensibi<lb ed="#V" break="no" n="57"/>lis in organum sensus, et toto illo 
+      <lb ed="#V" n="58"/>processu usque ad virtutem 
+      phan<lb ed="#V" break="no" n="59"/>tasticam, intellectus agens 
+      abstra<lb ed="#V" break="no" n="60"/>hit ab ipso objecto in 
+      phantasma<lb ed="#V" break="no" n="61"/>te, et immutat intellectum 
+      possi<lb ed="#V" break="no" n="62"/>bilem ad simplicem 
+      apprehensio<lb ed="#V" break="no" n="63"/>nem essentiae, ita tamen quod 
+      <lb ed="#V" n="64"/>intellectus possibilis nullam 
+      spe<lb ed="#V" break="no" n="65"/>ciem impressam recipit a 
+      phanta<lb ed="#V" break="no" n="66"/>smate, nec est objectum praesens 
+      <lb ed="#V" n="67"/>intellectui, nisi quia specics 
+      prae<lb ed="#V" break="no" n="68"/>sens est in imaginatione, et hoc 
+      <lb ed="#V" n="69"/>probatur ex ista deductione. 
+      Sen<lb ed="#V" break="no" n="70"/>sus enim recipit speciem aliam ab 
+      <lb ed="#V" n="71"/>actu, quia organum est ejusdem 
+      <lb ed="#V" n="72"/>rationis cum medio, vel quia 
+      spe<lb ed="#V" break="no" n="73"/>cies illa recepta est dispositio 
+      <lb ed="#V" n="74"/>propinqua ad actum sentiendi 
+      re<lb ed="#V" break="no" n="75"/>cipiendum, neutrum istorum 
+      con<lb ed="#V" break="no" n="76"/>currit in intellectu; est enim 
+      in<lb ed="#V" break="no" n="77"/>tellectus virtus non organica, et 
+      <lb ed="#V" n="78"/>de se summe disposita ad actum 
+      <lb ed="#V" n="79"/>intelligendi, igitur intellectus 
+      nul<lb ed="#V" break="no" n="80"/>lam speciem recipit priorem actu. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e552">
+               <lb ed="#V" n="81"/>Haec dicitur esse intentio 
+      Aristo<lb ed="#V" break="no" n="82"/>telis 3. de Anima, ubi commendat 
+      <lb ed="#V" n="83"/>antiquos dicentes animam esse 
+      <lb ed="#V" n="84"/>locum specierum non totan, sed 
+      <lb ed="#V" n="85"/>intellectivam; haec autem 
+      distin<lb ed="#V" break="no" n="86"/>ctio Aristotelis non videtur esse 
+      <lb ed="#V" n="87"/>bona, intelligendo quod aliae 
+      par<lb ed="#V" break="no" n="88"/>tes non habent species, sunt enim 
+      <!--0235.xml-->
+      <pb ed="#V" n="235"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>species in parte sensitiva; sed quia 
+      <lb ed="#V" n="2"/>aliae partes non habent species ut 
+      <lb ed="#V" n="3"/>loca, sed ut subjectum habent 
+      ac<lb ed="#V" break="no" n="4"/>cidentia, intellectus autem habet 
+      <lb ed="#V" n="5"/>eas ut locus, quia ut formam 
+      ex<lb ed="#V" break="no" n="6"/>pressam non impressam. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e591">
+               <lb ed="#V" n="7"/>Hoc etiam accipitur ex eo quod 
+      <lb ed="#V" n="8"/>dicitur <ref xml:id="jdso8u-d1e487-Rd1e597">tertio de Anima</ref>, quod 
+      spe<lb ed="#V" break="no" n="9"/>culamur quod quid est in 
+      phantasmati<lb ed="#V" break="no" n="10"/>bus, et quod phantasmata se habent ad 
+      <lb ed="#V" n="11"/>intellectum sicut sensibilia ad sensum, et 
+      <lb ed="#V" n="12"/>quod nihil intelligimus sine 
+      phantasma<lb ed="#V" break="no" n="13"/>te, et plura similia dicit 
+      Philoso<lb ed="#V" break="no" n="14"/>phus. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e613">
+               <lb ed="#V" n="15"/>Ex his concludit, quod nullam 
+      <lb ed="#V" n="16"/>ponit speciem intelligibilem, quia 
+      <lb ed="#V" n="17"/>si ipsa poneretur, intellectus non 
+      <lb ed="#V" n="18"/>specularetur quod quid est in 
+      phan<lb ed="#V" break="no" n="19"/>tasmatibus, sed in specie 
+      intelli<lb ed="#V" break="no" n="20"/>gibili. Similiter non oporteret 
+      in<lb ed="#V" break="no" n="21"/>tellectum converti ad 
+      phantasma<lb ed="#V" break="no" n="22"/>ta, sed suficeret species 
+      intelligi<lb ed="#V" break="no" n="23"/>bilis in qua haberet objectum 
+      <lb ed="#V" n="24"/>praesens ad quam converteretur. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e638">
+               <lb ed="#V" n="25"/>Si arguitur contra hoc, quia per 
+      <lb ed="#V" n="26"/>Philosophum ibidem necesse est, 
+      <lb ed="#V" n="27"/>quod aut res sint in anima, aut 
+      <lb ed="#V" n="28"/>species earum, et res non sunt, 
+      <lb ed="#V" n="29"/>ergo species. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e651">
+               <lb ed="#V" n="30"/>Dicit, quod ex parte intellectus 
+      <lb ed="#V" n="31"/>est species impressa, quae est 
+      ha<lb ed="#V" break="no" n="32"/>bitus vel actus, vel species 
+      expres<lb ed="#V" break="no" n="33"/>sa quae est species in phantasmate, 
+      <lb ed="#V" n="34"/>vel quidditas, quae quidditas 
+      relu<lb ed="#V" break="no" n="35"/>cens in phantasmate, est species 
+      <lb ed="#V" n="36"/>respectu singularis; non enim hic 
+      <lb ed="#V" n="37"/>lapis est in anima, sed quidditas, 
+      <lb ed="#V" n="38"/>quae est species respectu hujus 
+      la<lb ed="#V" break="no" n="39"/>pidis. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e675">
+               <lb ed="#V" n="40"/>Haec etiam ponitur intentio 
+      Au<lb ed="#V" break="no" n="41"/>gustini, qui vult quod verbum 
+      <lb ed="#V" n="42"/>gignitur non ex specie intelligibili, 
+      <lb ed="#V" n="43"/>sed ex habitu, dicit enim <ref xml:id="jdso8u-d1e487-Rd1e685">15. de 
+      <lb ed="#V" n="44"/>Trinitate cap. 10 et 24.</ref>
+               <quote xml:id="jdso8u-d1e487-Qd1e691">Quod ex ipsa 
+      <!--0235.xml-->
+      <cb ed="#V" n="b"/>
+                  <lb ed="#V" n="45"/>scientia, quam memoria tenemus, 
+      asci<lb ed="#V" break="no" n="46"/>tur verbum</quote>, et <ref xml:id="jdso8u-d1e487-Rd1e702">eodem lib. cap. 2. et 
+      <lb ed="#V" n="47"/>18</ref>. <quote xml:id="jdso8u-d1e487-Qd1e707">Gignitur verbum de scientia que 
+      <lb ed="#V" n="48"/>manet in animo</quote>. Idem ponit Doctor 
+      <lb ed="#V" n="49"/>quidam negando speciem 
+      intelli<lb ed="#V" break="no" n="50"/>gibilem, et pertractat illam 
+      ra<lb ed="#V" break="no" n="51"/>tionem de organo, que tacta est 
+      <lb ed="#V" n="52"/>in positione ista. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e722">
+               <lb ed="#V" n="53"/>Ponit etiam aliam rationem 
+      ta<lb ed="#V" break="no" n="54"/>lem, quia quaecumque potentia est 
+      <lb ed="#V" n="55"/>in potentia primo ordinata ad 
+      <lb ed="#V" n="56"/>aliquem actnm, primo perficitur 
+      <lb ed="#V" n="57"/>secundum talem actum ab agente 
+      <lb ed="#V" n="58"/>proportionato presente; sed 
+      po<lb ed="#V" break="no" n="59"/>tentia apprehensiva est potentia 
+      <lb ed="#V" n="60"/>pr'imo ordinata ad hunc actum, 
+      <lb ed="#V" n="61"/>scilicet apprehensionem ; ergo ab 
+      <lb ed="#V" n="62"/>agente proportionato primo 
+      po<lb ed="#V" break="no" n="63"/>tentia perficitur secundum actum 
+      <lb ed="#V" n="64"/>istum, qui est apprehendere, et 
+      <lb ed="#V" n="65"/>per consequens intellectus ab 
+      ob<lb ed="#V" break="no" n="66"/>jecto proportionato recipit 
+      cogni<lb ed="#V" break="no" n="67"/>tionem et non speciem. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e757"><!-- jdso-l1d3q6-n3 -->
+               <lb ed="#V" n="19"/>Contra istam (a) opinionem 
+      ar<lb ed="#V" break="no" n="20"/>guo sic: sive intelligatur singulare 
+      <lb ed="#V" n="21"/>sive non, non est cura ad 
+      proposi<lb ed="#V" break="no" n="22"/>tum ; certum est enim quod 
+      uni<lb ed="#V" break="no" n="23"/>versale potest ab intellectu 
+      intelli<lb ed="#V" break="no" n="24"/>gi, et magis ponitur a Philosophis, 
+      <lb ed="#V" n="25"/>quod intellectus est potentia 
+      di<lb ed="#V" break="no" n="26"/>stincta a potentia sensitiva 
+      pro<lb ed="#V" break="no" n="27"/>pter intellectionem universalis, et 
+      <lb ed="#V" n="28"/>propter compositionem et 
+      divisi<lb ed="#V" break="no" n="29"/>onem, et propter syllogizationem 
+      <lb ed="#V" n="30"/>quam propter cognitionem, 
+      sin<lb ed="#V" break="no" n="31"/>gularis, si posset intelligere 
+      sin<lb ed="#V" break="no" n="32"/>gulare. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e791">
+               <lb ed="#V" n="33"/>Ex hoc igitur manifesto, quod 
+      <lb ed="#V" n="34"/>intellectus potest intelligere 
+      uni<lb ed="#V" break="no" n="35"/>versale, accipio hanc 
+      propositi<lb ed="#V" break="no" n="36"/>onem. Intellectus potest habere 
+      ob<lb ed="#V" break="no" n="37"/>jectum actu universale, perfecte 
+      <lb ed="#V" n="38"/>sibi praesens in ratione objecti 
+      pri<lb ed="#V" break="no" n="39"/>us naturaliter quam actu 
+      intelli<lb ed="#V" break="no" n="40"/>gat; ex hoc sequitur propositum, 
+      <lb ed="#V" n="41"/>quod in illo priori habet objec'um 
+      <lb ed="#V" n="42"/>sibi presens in specie intelligibili, 
+      <lb ed="#V" n="43"/>et ita habet speciem 
+      intelligibi<lb ed="#V" break="no" n="44"/>lem priorem actu. Antecedens 
+      as<lb ed="#V" break="no" n="45"/>sumptum (b) videtur satis manife- 
+      <!--0236.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="46"/>stum, quia objectum in ratione 
+      <lb ed="#V" n="47"/>objecti est prius naturaliter actu; 
+      <lb ed="#V" n="48"/>igitur universalitas, quae est 
+      pro<lb ed="#V" break="no" n="49"/>pria conditio objecti inquantum 
+      <lb ed="#V" n="50"/>objectum, praecedit actum 
+      intelli<lb ed="#V" break="no" n="51"/>gendi, et sub illa ratione oportet 
+      <lb ed="#V" n="52"/>objectum esse praesens, quia 
+      prae<lb ed="#V" break="no" n="53"/>sentia objecti praecedit naturaliter 
+      <lb ed="#V" n="54"/>actum intelligendi. 
+      Consequenti<lb ed="#V" break="no" n="55"/>am probo, primo ex parte 
+      univer<lb ed="#V" break="no" n="56"/>salitatis objecti. Secundo ex parte 
+      <lb ed="#V" n="57"/>praesentiae. Ex parte 
+      universalita<lb ed="#V" break="no" n="58"/>tis objecti arguo sex viis, quarum 
+      <lb ed="#V" n="59"/>due primae sumuntur ex parte 
+      <lb ed="#V" n="60"/>phantasmatis repraesentantis, et 
+      <lb ed="#V" n="61"/>duae ex parte intellectus agentis, 
+      <lb ed="#V" n="62"/>et duae ex parte communioris et 
+      <lb ed="#V" n="63"/>minus communis. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e866">
+               <lb ed="#V" n="64"/>Primo arguo sic (c), species ex 
+      <lb ed="#V" n="65"/>hoc quod talis species habet 
+      ta<lb ed="#V" break="no" n="66"/>lem rationem repraesentandi, et 
+      <lb ed="#V" n="67"/>hoc respectu objecti sub tali 
+      rati<lb ed="#V" break="no" n="68"/>one repraesentabilis ; ergo eadem 
+      <lb ed="#V" n="69"/>species manens, non habet duas 
+      <lb ed="#V" n="70"/>rationes repraesentativas, nec est 
+      <lb ed="#V" n="71"/>respectu duarum rationum 
+      reprae<lb ed="#V" break="no" n="72"/>sentabilium. Sed 
+      repraesentareob<lb ed="#V" break="no" n="73"/>jectum sub ratione universalis et 
+      <lb ed="#V" n="74"/>singularis, requirit duplicem 
+      ra<lb ed="#V" break="no" n="75"/>tionem repraesentativam, et est 
+      <lb ed="#V" n="76"/>respectu duplicis rationis repraes 
+      <lb ed="#V" n="77"/>sentabilis formaliter; igitur idem 
+      <lb ed="#V" n="78"/>manens idem non repraesentat sic 
+      <lb ed="#V" n="79"/>et sic; ergo phantasma quod de se 
+      <lb ed="#V" n="80"/>representat objectum sub 
+      rati<lb ed="#V" break="no" n="81"/>one singularis, non potest ipsum 
+      <lb ed="#V" n="82"/>representare sub ratione 
+      univer<lb ed="#V" break="no" n="83"/>salis. 
+    </p>
+            <!-- additio -->
+            <p xml:id="jdso8u-d1e487-d1e914">
+               <lb ed="#V" n="84"/>Vel potest sic formari ratio : Eadem 
+      <lb ed="#V" n="85"/>species et ejusdem rationis, non est per 
+      <lb ed="#V" n="86"/>se representativa objecti sub oppositis 
+      ra<lb ed="#V" break="no" n="87"/>tionibus representabilis; ratio singularis 
+      <lb ed="#V" n="88"/>et ratio universalis sunt opposite 
+      rati<lb ed="#V" break="no" n="89"/>ones in cognoscibili et representabili, er- 
+      <!--0237.xml-->
+      <pb ed="#V" n="237"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>o nulla eadem species et unius rationis, 
+      <lb ed="#V" n="2"/>potest esse representativa alicujus objecti 
+      <lb ed="#V" n="3"/>sub ratione universalis et singularis . 
+      <lb ed="#V" n="4"/>pecies in phantasmate representat 
+      sin<lb ed="#V" break="no" n="5"/>gulare sub ratione singularis; ergo non 
+      <lb ed="#V" n="6"/>potest representare sub ratione 
+      universa<lb ed="#V" break="no" n="7"/>lis idem objectum. Major probatur, quia 
+      <lb ed="#V" n="8"/>species sub illa ratione representat 
+      obje<lb ed="#V" break="no" n="9"/>ctum ua mensuratur ab objecto; sed 
+      <lb ed="#V" n="10"/>idem non potest mensurari duabus 
+      mensu<lb ed="#V" break="no" n="11"/>is oppositis, nec e converso; tunc enim 
+      <lb ed="#V" n="12"/>idem bis diceretur secundum 
+      Philoso<lb ed="#V" break="no" n="13"/>phum 5. Metaphysice; ergo eadem 
+      spe<lb ed="#V" break="no" n="14"/>cies non potest representare duo objecta 
+      <lb ed="#V" n="15"/>Opposita, ee idem sub diversis 
+      rationi<lb ed="#V" break="no" n="16"/>bus objectivis oppositis. 
+    </p>
+            <!-- End Additio -->
+            <p xml:id="jdso8u-d1e487-d1e973">
+               <lb ed="#V" n="17"/>Respondetur quod spevies eadem 
+      <lb ed="#V" n="18"/>sub alio et alio lumiae 
+      repraesen<lb ed="#V" break="no" n="19"/>tat objectum sub alia et alia 
+      rati<lb ed="#V" break="no" n="20"/>one, sicut nocte lucentia in 
+      lumi<lb ed="#V" break="no" n="21"/>ne di i repraesentant se sub rati 
+      <lb ed="#V" n="22"/>one coloratorum, in lumine autem 
+      <lb ed="#V" n="23"/>noctis sub ratione lucenfium. Sic 
+      <lb ed="#V" n="24"/>in proposito, per lumen 
+      intel<lb ed="#V" break="no" n="25"/>lectus et phantasiae eadem species 
+      <lb ed="#V" n="26"/>potest repraesentare opposita in 
+      <lb ed="#V" n="27"/>objecto. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e999">
+               <lb ed="#V" n="28"/>Contra (e), repraesentativum 
+      <lb ed="#V" n="29"/>prius naturaliter est aliquid in se, 
+      <lb ed="#V" n="30"/>quam in tali lumine vel tali 
+      re<lb ed="#V" break="no" n="31"/>praesentet, quia enim est talis 
+      spe<lb ed="#V" break="no" n="32"/>ces, ideo congruit sibi lumen in 
+      <lb ed="#V" n="33"/>quo representet unum et non 
+      <lb ed="#V" n="34"/>aliud; alioquin posset poni quod 
+      <lb ed="#V" n="35"/>eadem species repraesentaret 
+      colo<lb ed="#V" break="no" n="36"/>rem et sonum, quia species illa ut 
+      <lb ed="#V" n="37"/>in aere tremulo repraesentaret 
+      <lb ed="#V" n="38"/>sonum , quae secundum quod 
+      con<lb ed="#V" break="no" n="39"/>currit medium extrinsecum 
+      me<lb ed="#V" break="no" n="40"/>dio connaturali, conjungitur 
+      or<lb ed="#V" break="no" n="41"/>gano auditus ut in aere illuminato 
+      <lb ed="#V" n="42"/>et perspicuo, et secundum quod 
+      <lb ed="#V" n="43"/>est conveni ns organo visus 
+      <lb ed="#V" n="44"/>repraesentaret colorem, et ita non 
+      <!--0237.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>posset ostendi aliqua distinctio 
+      re<lb ed="#V" break="no" n="46"/>praesentativorum. In illo igitur 
+      <lb ed="#V" n="47"/>priori oportet intelligere 
+      unita<lb ed="#V" break="no" n="48"/>tem speciei in se quam 
+      consequi<lb ed="#V" break="no" n="49"/>tur unitas repraesentationis, et 
+      ob<lb ed="#V" break="no" n="50"/>jecti repraesentabilis per ipsam 
+      in<lb ed="#V" break="no" n="51"/>quantum per ipsam 
+      repraesenta<lb ed="#V" break="no" n="52"/>tur; et ita aliquid quod est idem in 
+      <lb ed="#V" n="53"/>isto priori, non potest habere 
+      di<lb ed="#V" break="no" n="54"/>versam rationem repraesentandi, 
+      <lb ed="#V" n="55"/>nec potest repraesentare idem sub 
+      <lb ed="#V" n="56"/>alia et alia ratione 
+      repraesentabi<lb ed="#V" break="no" n="57"/>lis. 
+    </p>
+            <!-- Additio -->
+            <p xml:id="jdso8u-d1e487-d1e1074">
+               <lb ed="#V" n="58"/>Vel forma sic rationem : lumen non 
+      <lb ed="#V" n="59"/>representat, quia lumen in medio est 
+      <lb ed="#V" n="60"/>ejusdem rationis, sive videam nigrum 
+      si<lb ed="#V" break="no" n="61"/>ve album ; quid ergo distinguit 
+      essentia<lb ed="#V" break="no" n="62"/>liter representativum a representativo? 
+      <lb ed="#V" n="63"/>Altera est species et representativum albi 
+      <lb ed="#V" n="64"/>etnigri,et per se consequens distinctio 
+      lu<lb ed="#V" break="no" n="65"/>minis on causat distinclam rationem 
+      re<lb ed="#V" break="no" n="66"/>presentandi vel representati; sed 
+      manen<lb ed="#V" break="no" n="67"/>le eadem natura represenlalivi semper 
+      re<lb ed="#V" break="no" n="68"/>presentat idem representabile et 
+      ejus<lb ed="#V" break="no" n="69"/>dem ration.s, non est ergo eadem sub 
+      <lb ed="#V" n="70"/>diversis rationibus 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e1105">
+               <lb ed="#V" n="71"/>Confirmatur ratio, quia 
+      representati<lb ed="#V" break="no" n="72"/>vum in lumine perfectiori non 
+      represen<lb ed="#V" break="no" n="73"/>lat aliud, sed representat idem, clarius 
+      <lb ed="#V" n="74"/>tamen, ut patet in lumine Solis quam 
+      Lu<lb ed="#V" break="no" n="75"/>ne; ergo licet species in organo 
+      phanta<lb ed="#V" break="no" n="76"/>stico in lumine intellectus agentis, clarius 
+      <lb ed="#V" n="77"/>represenlet singulare, ut intellectus 
+      pos<lb ed="#V" break="no" n="78"/>sit melius illud intelligere quam in 
+      lumi<lb ed="#V" break="no" n="79"/>he proprio scilicet phantasmate, 
+      nun<lb ed="#V" break="no" n="80"/>Qam tamen representabit objectum 
+      uni<lb ed="#V" break="no" n="81"/>versale sub ratione universali per 
+      quod<lb ed="#V" break="no" n="82"/>cumque lumen. Eemplum eorum de 
+      no<lb ed="#V" break="no" n="83"/>cte lucentibus non valet, sed concludit 
+      <lb ed="#V" n="84"/>Oppositum. Nam quero, an eodem 
+      repre<lb ed="#V" break="no" n="85"/>senlativo representat illa diversimode 
+      <lb ed="#V" n="86"/>de die et de nocle, an alio et alio '
+      epre<lb ed="#V" break="no" n="87"/>sentativo' non eodem, quia illa tu c 
+      re<lb ed="#V" break="no" n="88"/>prcesentarentur de die sicut de nocle quia 
+      <!--0238.xml-->
+      <pb ed="#V" n="238"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>representativum prius est aliquid in se 
+      <lb ed="#V" n="2"/>quam in tali vel tali lumine 
+      represen<lb ed="#V" break="no" n="3"/>tet; si in alio et alio representativo, 
+      <lb ed="#V" n="4"/>representantur diversa in nocte 
+      lu<lb ed="#V" break="no" n="5"/>centia, habe/r propositum, sive idem sit 
+      <lb ed="#V" n="6"/>lumen sive diversum. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e1166">
+               <lb ed="#V" n="7"/>Confirmatur,qtia lumen non repr 
+      sen<lb ed="#V" break="no" n="8"/>tatur formaliter, nec est ra/io formalis 
+      <lb ed="#V" n="9"/>representativi,sed tantum est illud in quo 
+      <lb ed="#V" n="10"/>aliquid representatur. Videtur ergo, 
+      <lb ed="#V" n="11"/>quod quanto lmen est perfectius, tanto 
+      <lb ed="#V" n="12"/>in ipso precisius et distinctius relucet 
+      il<lb ed="#V" break="no" n="13"/>lud, quod representativm representat. 
+    </p>
+            <!-- end additio -->
+            <p xml:id="jdso8u-d1e487-d1e1186">
+               <lb ed="#V" n="14"/>Nec exemplum valet ad 
+      proposi<lb ed="#V" break="no" n="15"/>tum, imo est ad oppositum, quia 
+      <lb ed="#V" n="16"/>vel duae qualitates sunt in tali 
+      <lb ed="#V" n="17"/>corpore ut lux et color, quarum 
+      <lb ed="#V" n="18"/>altera multiplicat se in lumine 
+      <lb ed="#V" n="19"/>majori praesente, alia in minori 
+      <lb ed="#V" n="20"/>quando nihil aliud eficacius 
+      mo<lb ed="#V" break="no" n="21"/>vens movet, vel utraque multipli- 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e1206">
+               <lb ed="#V" n="22"/>cat se simul in luce majori; sed 
+      <lb ed="#V" n="23"/>eficacius movens tantum 
+      per<lb ed="#V" break="no" n="24"/>cipitur, et minus efficaciter 
+      mo<lb ed="#V" break="no" n="25"/>vens non percipitur, sicut stellae 
+      <lb ed="#V" n="26"/>de die multiplicant radios suos, 
+      <lb ed="#V" n="27"/>sed non videntur, quia aliud 
+      lumi<lb ed="#V" break="no" n="28"/>nosius efficacius movet visum. Vel 
+      <lb ed="#V" n="29"/>si una est qualitas sensibilis in 
+      ta<lb ed="#V" break="no" n="30"/>li corpore, ipsa virtualiter 
+      conti<lb ed="#V" break="no" n="31"/>net duo representativa; color 
+      e<lb ed="#V" break="no" n="32"/>nim quodam modo continet lucem, 
+      <lb ed="#V" n="33"/>cum sit lux in corpore terminato, 
+      <lb ed="#V" n="34"/>et ideo in alio et alio lumine 
+      cau<lb ed="#V" break="no" n="35"/>sat diversa repraesentativa, aliud 
+      <lb ed="#V" n="36"/>scilicet in majore, et aliud in 
+      mi<lb ed="#V" break="no" n="37"/>nore, et ita semper stat, quod non 
+      <lb ed="#V" n="38"/>sit idem repraesentativum objecti 
+      <lb ed="#V" n="39"/>sub diversa ratione 
+      representabi<lb ed="#V" break="no" n="40"/>lis, quantumcumque aliud lumen 
+      <lb ed="#V" n="41"/>et aliud concurrat. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e1253">
+               <lb ed="#V" n="42"/>Si respondeatur (f) quod idem 
+      <lb ed="#V" n="43"/>secundum eamdem qualitatem 
+      po<lb ed="#V" break="no" n="44"/>test esse simile diversis, sicut 
+      <!--0238.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>unum album secundum eamdem 
+      <lb ed="#V" n="46"/>albedinem, est simile diversis 
+      al<lb ed="#V" break="no" n="47"/>bis; hoc nihil est ad propositum, 
+      <lb ed="#V" n="48"/>quia in relationibus ordinis essen-, 
+      <lb ed="#V" n="49"/>tialis, non potest esse alia et alia 
+      <lb ed="#V" n="50"/>dependentia in aliquo ad duo in 
+      eo<lb ed="#V" break="no" n="51"/>dem ordine, ut puta ejusdem 
+      men<lb ed="#V" break="no" n="52"/>surati ad duas mensuras in eo 
+      <lb ed="#V" n="53"/>dem ordine, nec ejusdem 
+      partici<lb ed="#V" break="no" n="54"/>pantis ad duo participata, nec 
+      e<lb ed="#V" break="no" n="55"/>jusdem effectus ad duas causas 
+      <lb ed="#V" n="56"/>totales in eodem ordine, sicnt 
+      <lb ed="#V" n="57"/>probatum est in quaestione de 
+      uni<lb ed="#V" break="no" n="58"/>tate Dei; ergo in ista relatione, 
+      <lb ed="#V" n="59"/>ubi non est tantummodo 
+      similitu<lb ed="#V" break="no" n="60"/>do, sed imitafio et exemplatio 
+      pas<lb ed="#V" break="no" n="61"/>siva, impossibile est idem 
+      absolu<lb ed="#V" break="no" n="62"/>tum referri ad diversa, et ita non 
+      <lb ed="#V" n="63"/>potest esse eadem species in 
+      ra<lb ed="#V" break="no" n="64"/>tione repraesentativi diversorum 
+      <lb ed="#V" n="65"/>sub ratione diversorum. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e1312">
+               <lb ed="#V" n="66"/>Secundo (g) ad istud primum 
+      <lb ed="#V" n="67"/>membrum arguo sic, quia 
+      reprae<lb ed="#V" break="no" n="68"/>sentativum secundum totam 
+      vir<lb ed="#V" break="no" n="69"/>tutem suam repraesentans 
+      obje<lb ed="#V" break="no" n="70"/>ctum aliquod sub una ratione, non 
+      <lb ed="#V" n="71"/>potest simul repraesentare idem, 
+      <lb ed="#V" n="72"/>vel aliud sub alia ratione objecti, 
+      <lb ed="#V" n="73"/>sed phantasma in eodem instanti 
+      <lb ed="#V" n="74"/>in quo intelligitur universale, 
+      se<lb ed="#V" break="no" n="75"/>cundum totam virtutem suam 
+      re<lb ed="#V" break="no" n="76"/>praesentat objectum ut singulare 
+      <lb ed="#V" n="77"/>virtuti phantasticae, quia tunc est 
+      <lb ed="#V" n="78"/>actualis imaginatio illius objecti in 
+      <lb ed="#V" n="79"/>singulari; et patet, quod secundum 
+      <lb ed="#V" n="80"/>totam virtutem phantasmatis, 
+      <lb ed="#V" n="81"/>quia alias virtus phantastica, non 
+      <lb ed="#V" n="82"/>posset habere per phantasma ita 
+      <lb ed="#V" n="83"/>perfectum actum circa objectum, 
+      <lb ed="#V" n="84"/>sicut objectum natum est 
+      reprae<lb ed="#V" break="no" n="85"/>sentari per illud phantasma, 
+      igi<lb ed="#V" break="no" n="86"/>tur tunc non potest repraesentare 
+      <lb ed="#V" n="87"/>objectum sub alia ratione 
+      reprae<lb ed="#V" break="no" n="88"/>sentabilis.
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e1364"><!-- jdso-l1d3q6-n4 -->
+               <lb ed="#V" n="29"/>Ex alio membro (a) arguitur sic: 
+      <lb ed="#V" n="30"/>intellectus agens est potentia 
+      me<lb ed="#V" break="no" n="31"/>re activa secundum Philosophos, 
+      <lb ed="#V" n="32"/>quia est illud quo est omnia facere, 
+      sic<lb ed="#V" break="no" n="33"/>ut possibilis est quo est omnia fieri, et 
+      <lb ed="#V" n="34"/>secundum Philosophum, est sicut 
+      <lb ed="#V" n="35"/>ars ad materiam, id est, ita 
+      compara<lb ed="#V" break="no" n="36"/>tur ad intellectum possibilem 
+      sic<lb ed="#V" break="no" n="37"/>ut ars ad materiam:omnis 
+      au<lb ed="#V" break="no" n="38"/>tem actio realis habet aliquem 
+      ter<lb ed="#V" break="no" n="39"/>minum realem et unum; ille 
+      au<lb ed="#V" break="no" n="40"/>tem terminus realis non est in 
+      <lb ed="#V" n="41"/>phantasmate, quia intellectus 
+      a<lb ed="#V" break="no" n="42"/>gens nihil causat in 
+      phantasmati<lb ed="#V" break="no" n="43"/>bus, quia illud receptum esset 
+      ex<lb ed="#V" break="no" n="44"/>tensum, et ita intellectus (b) agens 
+      <!--0243.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>non transferret objectum ab 
+      ordi<lb ed="#V" break="no" n="46"/>ne in ordinem, nec illud esset 
+      ma<lb ed="#V" break="no" n="47"/>gis proportionatum intellectui 
+      pos<lb ed="#V" break="no" n="48"/>sibili quam phantasma ; ergo est 
+      <lb ed="#V" n="49"/>in intellectu possibili, quia nihil 
+      <lb ed="#V" n="50"/>recipitur in intellectu agente. 
+      Il<lb ed="#V" break="no" n="51"/>lud autem primum causatum non 
+      <lb ed="#V" n="52"/>potest poni actus intelligendi, quia 
+      <lb ed="#V" n="53"/>primus terminus actionis 
+      intelle<lb ed="#V" break="no" n="54"/>ctus agentis, est universale in 
+      a<lb ed="#V" break="no" n="55"/>ctu ; universale autem in actu 
+      prae<lb ed="#V" break="no" n="56"/>cedit actum intelligendi, sicut 
+      prae<lb ed="#V" break="no" n="57"/>dictum est in antecedente, quia 
+      ob<lb ed="#V" break="no" n="58"/>jectum sub ratione objecti 
+      praece<lb ed="#V" break="no" n="59"/>dit actum. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e1439">
+               <lb ed="#V" n="60"/>Et confirmatur ratio (c), quia 
+      <lb ed="#V" n="61"/>intellectus agentis est facere de 
+      <lb ed="#V" n="62"/>non universali universale, vel de 
+      <lb ed="#V" n="63"/>intellecto in potentia intellectum 
+      <lb ed="#V" n="64"/>in actu, sicut dicunt auctoritates 
+      <lb ed="#V" n="65"/>Philosophi; et Commentator 3. de 
+      <lb ed="#V" n="66"/>anima, dicit qod si essentie 
+      re<lb ed="#V" break="no" n="67"/>rum essent universales, sicut 
+      p0<lb ed="#V" break="no" n="68"/>suit Plato, non indigeremus, 
+      se<lb ed="#V" break="no" n="69"/>cundum ipsum, intellectu agente. 
+      <lb ed="#V" n="70"/>Cum antem universale inquantum 
+      <lb ed="#V" n="71"/>universale nihil sit in existentia, 
+      <lb ed="#V" n="72"/>sed tantum sit in aliquo, ut 
+      re<lb ed="#V" break="no" n="73"/>praesentante ipsum objectum sub 
+      <lb ed="#V" n="74"/>tali ratione, ista verba nullum 
+      in<lb ed="#V" break="no" n="75"/>tellectum habent, nisi quia 
+      intel<lb ed="#V" break="no" n="76"/>lectus agens facit aliquid 
+      repre<lb ed="#V" break="no" n="77"/>sentativum universalis, de eo quod 
+      <lb ed="#V" n="78"/>fuit repraesentativum singularis, 
+      <lb ed="#V" n="79"/>quomodocumque illud de 
+      intelliga<lb ed="#V" break="no" n="80"/>tur, materialiter vel virtualiter, 
+      <lb ed="#V" n="81"/>hoc realiter est facere 
+      repraesen<lb ed="#V" break="no" n="82"/>tativum sub ratione universalis, 
+      <lb ed="#V" n="83"/>quia actio talis non terminatur 
+      ni<lb ed="#V" break="no" n="84"/>si ad repraesentativum objecti sub 
+      <lb ed="#V" n="85"/>ratione universalis ; ergo talis 
+      a<lb ed="#V" break="no" n="86"/>ctio intellectus agentis terminatur 
+      <lb ed="#V" n="87"/>ad formam aliquam realem in 
+      exi<lb ed="#V" break="no" n="88"/>stentia, quae formaliter repraesen- 
+      <!--0244.xml-->
+      <pb ed="#V" n="244"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>tat universale inquantum 
+      univer<lb ed="#V" break="no" n="2"/>sale, quia aliter non posset 
+      termi<lb ed="#V" break="no" n="3"/>nari actio ejus aduniversale sub 
+      <lb ed="#V" n="4"/>ratione universalis. 
+    </p>
+            <!-- additio -->
+            <p xml:id="jdso8u-d1e487-d1e1521">
+               <lb ed="#V" n="5"/>Dicetur quod terminus actionis 
+      intel<lb ed="#V" break="no" n="6"/>lectus agentis, est objectum universale sub 
+      <lb ed="#V" n="7"/>ratione universalis lucens in 
+      phanta<lb ed="#V" break="no" n="8"/>smate. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e1533">
+               <lb ed="#V" n="9"/>Contra, universale objectum sub 
+      ratio<lb ed="#V" break="no" n="10"/>ne universalis lucens in phantasmate, non 
+      <lb ed="#V" n="11"/>habet nisi esse diminutum quia esse 
+      <lb ed="#V" n="12"/>representatum in imagine ; sed si 
+      ali<lb ed="#V" break="no" n="13"/>quod esse habet, hoc est inquantum 
+      <lb ed="#V" n="14"/>in aliquo, ut in representante ipsum 
+      <lb ed="#V" n="15"/>sub illa ratione universalis, ita 
+      sci<lb ed="#V" break="no" n="16"/>licet quod intellectus, agens sicut dictum 
+      <lb ed="#V" n="17"/>est, facit aliquod representativum 
+      uni<lb ed="#V" break="no" n="18"/>versalis de eo quod fuit representativum 
+      <lb ed="#V" n="19"/>singularis, cum terminus actonis realis 
+      <lb ed="#V" n="20"/>non sit objectum habens esse diminutum 
+      <lb ed="#V" n="21"/>ut esse cognitum vel representatum, 
+      <lb ed="#V" n="22"/>sed quid reale, sequitur quod talis actio 
+      <lb ed="#V" n="23"/>intellectus agentis terminatur ad formam 
+      <lb ed="#V" n="24"/>realem in existentia, qua formaliter 
+      re<lb ed="#V" break="no" n="25"/>presentatur universale ut universale, et 
+      <lb ed="#V" n="26"/>quam formam realem concomitatur 
+      ter<lb ed="#V" break="no" n="27"/>minus intentionalis, ut objectum 
+      univer<lb ed="#V" break="no" n="28"/>sale secundum esse representatum, quod 
+      <lb ed="#V" n="29"/>habet in specie. 
+    </p>
+            <!-- END additio -->
+            <p xml:id="jdso8u-d1e487-d1e1583">
+               <lb ed="#V" n="30"/>Item secundo, secundum istam 
+      <lb ed="#V" n="31"/>(d) viam sic, intellectus agens in 
+      <lb ed="#V" n="32"/>ratione activi non excedit 
+      possibi<lb ed="#V" break="no" n="33"/>lem in ratione passivi; ergo 
+      quid<lb ed="#V" break="no" n="34"/>quid causatur ab intellectu agente 
+      <lb ed="#V" n="35"/>recipitur in possibili, ergo primus 
+      <lb ed="#V" n="36"/>terminus actionis intellectus 
+      agen<lb ed="#V" break="no" n="37"/>tis recipitur in possibili, et ita 
+      <lb ed="#V" n="38"/>cum prima actio intellectus 
+      agen<lb ed="#V" break="no" n="39"/>tis sit ad universale in actu, illud 
+      <lb ed="#V" n="40"/>universale vel illud quo ipsum 
+      ha<lb ed="#V" break="no" n="41"/>bet esse tale, recipietur in 
+      intel<lb ed="#V" break="no" n="42"/>lectu possibili.
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e1614"><!-- jdso-l1d3q6-n5 -->
+               <lb ed="#V" n="59"/>Secundum tertiam viam (a) 
+      ar<lb ed="#V" break="no" n="60"/>guitur primo sic: habitus minus 
+      <lb ed="#V" n="61"/>universalis et magis universalis 
+      <lb ed="#V" n="62"/>sunt distincti habitus proprii,
+      alio<lb ed="#V" break="no" n="63"/>quin Metaphysica ut 
+      Metaphysi<lb ed="#V" break="no" n="64"/>ca non esset habitus distinctus 
+      <lb ed="#V" n="65"/>intellectus, quia esset de 
+      univer<lb ed="#V" break="no" n="66"/>salissimo objecto ad omnia alia 
+      <lb ed="#V" n="67"/>objecta ; habitu autem 
+      universa<lb ed="#V" break="no" n="68"/>liori contingit uti, non utendo 
+      <lb ed="#V" n="69"/>aliquo alio habitu minus 
+      uni<lb ed="#V" break="no" n="70"/>versali, ergo contingit habere 
+      a<lb ed="#V" break="no" n="71"/>ctum circa universalius, eo modo 
+      <lb ed="#V" n="72"/>quo respicitur ab habitu illo 
+      uni<lb ed="#V" break="no" n="73"/>versaliori, non habendo actum 
+      <lb ed="#V" n="74"/>circa minus universale; sed non 
+      <lb ed="#V" n="75"/>habetur actus intelligendi circa 
+      <lb ed="#V" n="76"/>universalius, nisi ipsum sub tali 
+      <lb ed="#V" n="77"/>ratione sit praesens intellectui 
+      <lb ed="#V" n="78"/>sub ratione praesentis, et non 
+      ha<lb ed="#V" break="no" n="79"/>betur actus intelligendi circa 
+      ip<lb ed="#V" break="no" n="80"/>sum in ratione praesentis nisi 
+      <lb ed="#V" n="81"/>sub ratione universalis ; ergo 
+      <lb ed="#V" n="82"/>universalius potest esse presens 
+      <lb ed="#V" n="83"/>intellectui absque praesentia 
+      ali<lb ed="#V" break="no" n="84"/>cujus minus universalis. Sed si 
+      <lb ed="#V" n="85"/>praecise intelligeretur objectum 
+      <lb ed="#V" n="86"/>in phantasmate, nunquam esset 
+      <!--0248.xml-->
+      <pb ed="#V" n="248"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>majus universale presens nisi in 
+      <lb ed="#V" n="2"/>minus universali, quia nunquam 
+      <lb ed="#V" n="3"/>nisi in singulari phantasiabili ; 
+      <lb ed="#V" n="4"/>ergo est praesens in specie 
+      intelli<lb ed="#V" break="no" n="5"/>gibili existente in intellectu. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e1696">
+               <lb ed="#V" n="6"/>Item, ultimo (b) quoad hanc 
+      vi<lb ed="#V" break="no" n="7"/>am arguo sic : Universalius 
+      nun<lb ed="#V" break="no" n="8"/>quam apprehenditur quantum ad 
+      <lb ed="#V" n="9"/>suam indifferentiam totam, 
+      quan<lb ed="#V" break="no" n="10"/>do apprehenditur in suo inferiori; 
+      <lb ed="#V" n="11"/>tota enim indifferentia 
+      universa<lb ed="#V" break="no" n="12"/>lioris est secundum quod ipsum 
+      <lb ed="#V" n="13"/>ut conceptum, est idem cuilibet 
+      <lb ed="#V" n="14"/>inferiori; nunquam autem 
+      com<lb ed="#V" break="no" n="15"/>munius, ut conceptum tantum in 
+      <lb ed="#V" n="16"/>inferiori aliquo, est idem 
+      cuili<lb ed="#V" break="no" n="17"/>bet inferiori suo, sed praecise illi 
+      <lb ed="#V" n="18"/>in quo concipitur; ergo 
+      quodcum<lb ed="#V" break="no" n="19"/>que universale conceptum in 
+      sin<lb ed="#V" break="no" n="20"/>gulari, vel communius in minus 
+      <lb ed="#V" n="21"/>communi, non concipitur 
+      secun<lb ed="#V" break="no" n="22"/>dum totam suam indifferentiam. 
+      <lb ed="#V" n="23"/>Potest autem intellectus 
+      con<lb ed="#V" break="no" n="24"/>cipere illud secundum totam suam 
+      <lb ed="#V" n="25"/>indifferentiam; ergo non 
+      conci<lb ed="#V" break="no" n="26"/>pitur praecise communius in 
+      mi<lb ed="#V" break="no" n="27"/>nus communi, vel universale in 
+      sin<lb ed="#V" break="no" n="28"/>gulari ; et ita non precise 
+      con<lb ed="#V" break="no" n="29"/>cipitur universale in 
+      phantasma<lb ed="#V" break="no" n="30"/>te, phantasma enim non est 
+      pro<lb ed="#V" break="no" n="31"/>prie nisi ipsius singularis, et 
+      <lb ed="#V" n="32"/>hoc inquantum est singulare 
+      spe<lb ed="#V" break="no" n="33"/>ciei specialissimae, et hoc si 
+      phan<lb ed="#V" break="no" n="34"/>tasma sit sibi impressum ab 
+      ali<lb ed="#V" break="no" n="35"/>quo debite propinquato. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e1764"><!-- jdso-l1d3q6-n6 -->
+               <lb ed="#V" n="18"/>De secundo membro (a), scilicet 
+      <lb ed="#V" n="19"/>praesentia objecti, probatur illa 
+      <lb ed="#V" n="20"/>consequentia prima, primo sic : 
+      <lb ed="#V" n="21"/>Aut intellectus potest habere 
+      obje<lb ed="#V" break="no" n="22"/>ctum sibi praesens in ratione 
+      obje<lb ed="#V" break="no" n="23"/>cti intelligibilis absque hoc, quod 
+      <lb ed="#V" n="24"/>sit praesens alicui potentiae 
+      inferio<lb ed="#V" break="no" n="25"/>ri,aut non. Sinon,igitur non potest 
+      <lb ed="#V" n="26"/>habere aliquam operationem sibi 
+      <lb ed="#V" n="27"/>propriam sine potentiis 
+      inferiori<lb ed="#V" break="no" n="28"/>bus, quia si non potest habere 
+      ob<lb ed="#V" break="no" n="29"/>jectum suum sibi praesens sine eis, 
+      <lb ed="#V" n="30"/>non potest habere operationem 
+      si<lb ed="#V" break="no" n="31"/>ne eis, igitur nec esse sine eis 
+      se<lb ed="#V" break="no" n="32"/>cundum argumentum Philosophi 
+      <lb ed="#V" n="33"/>in 1. lib. de Anima, unde non 
+      contin<lb ed="#V" break="no" n="34"/>geret intellectum separari a 
+      cor<lb ed="#V" break="no" n="35"/>pore sicut perpetuum a 
+      corru<lb ed="#V" break="no" n="36"/>ptibili, nisi posset habere 
+      opera<lb ed="#V" break="no" n="37"/>tionem propriam non dependentem 
+      <lb ed="#V" n="38"/>a parte sensitiva. Si autem potest 
+      <lb ed="#V" n="39"/>habere objectum preesens absque 
+      <lb ed="#V" n="40"/>ejus praesentia potentiae inferiori; 
+      <lb ed="#V" n="41"/>ergo habet (b). Hec consequentia 
+      <lb ed="#V" n="42"/>probatur, quia agentia talis 
+      prae<lb ed="#V" break="no" n="43"/>sentie objecti, scilicet phantasma 
+      <lb ed="#V" n="44"/>et intellectus agens sunt 
+      sufficien<lb ed="#V" break="no" n="45"/>ter appropinquata intellectui pos- 
+      <!--0250.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="46"/>sibili, et agunt per modum naturae, 
+      <lb ed="#V" n="47"/>et ita causant necessario in illo 
+      <lb ed="#V" n="48"/>praesentiam cujus est receptivus; 
+      <lb ed="#V" n="49"/>modo objectum non est praesens 
+      <lb ed="#V" n="50"/>intellectui possibili in cognitione 
+      <lb ed="#V" n="51"/>abstractiva ante actum elicitum, 
+      <lb ed="#V" n="52"/>nisi per aliquod repraesentativum, 
+      <lb ed="#V" n="53"/>quod voco speciem, et sic habeo 
+      <lb ed="#V" n="54"/>propositum. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e1853">
+               <lb ed="#V" n="55"/>Secundo sic: Alie potentiae 
+      co<lb ed="#V" break="no" n="56"/>gnitivae habent objectum praesens 
+      <lb ed="#V" n="57"/>eis, non solum praesentialitate 
+      se<lb ed="#V" break="no" n="58"/>cundaria, scilicet quia illa sunt 
+      <lb ed="#V" n="59"/>praesentia aliis potentiis 
+      inferiori<lb ed="#V" break="no" n="60"/>bus, sed propria praesentialitate, 
+      <lb ed="#V" n="61"/>sicut sensus communis habet 
+      colo<lb ed="#V" break="no" n="62"/>rem sibi presentem, non tantum 
+      <lb ed="#V" n="63"/>inquantum est presens visui, sed 
+      <lb ed="#V" n="64"/>quia habet speciem ejus 
+      praesen<lb ed="#V" break="no" n="65"/>tem in organo sensus communis; 
+      <lb ed="#V" n="66"/>ergo cum hoc sit perfectionis in 
+      <lb ed="#V" n="67"/>potentia cognitiva, scilicet posse 
+      <lb ed="#V" n="68"/>habere objectum sibi praesens sub 
+      <lb ed="#V" n="69"/>ratione, qua est objectum talis 
+      po<lb ed="#V" break="no" n="70"/>tentiae, sequitur quod 
+      intellectus<lb ed="#V" break="no" n="71"/>non tantum potest habere 
+      obje<lb ed="#V" break="no" n="72"/>ctum sibi praesens, quia praesens 
+      <lb ed="#V" n="73"/>est virtuti phantasticae, sed 
+      pro<lb ed="#V" break="no" n="74"/>pria presentialitate, inquantum 
+      <lb ed="#V" n="75"/>scilicet relucet intellectui per 
+      ali<lb ed="#V" break="no" n="76"/>quod, quod est in intellectu. Item 
+      <lb ed="#V" n="77"/>(c) potentia non potens habere 
+      <lb ed="#V" n="78"/>actum nisi circa objectum sibi 
+      <lb ed="#V" n="79"/>praesens, si non potest habere illud 
+      <lb ed="#V" n="80"/>praesens, nisi per aliquam aliam 
+      <lb ed="#V" n="81"/>potentiam, cui conjungitur 
+      con<lb ed="#V" break="no" n="82"/>tingenter, dependet in operatione 
+      <lb ed="#V" n="83"/>sua a tali potentia sibi 
+      contingen<lb ed="#V" break="no" n="84"/>ter conjuncta,et ita est imperfecta. 
+      <lb ed="#V" n="85"/>Intellectus, certum est quod non 
+      <lb ed="#V" n="86"/>potest habere operationem nisi 
+      <lb ed="#V" n="87"/>circa objectum sibi praesens, et 
+      <lb ed="#V" n="88"/>per te non potest habere objectum 
+      <lb ed="#V" n="89"/>presens sibi nisi in virtute phan- 
+      <!--0251.xml-->
+      <pb ed="#V" n="251"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>tastica ; virtus autem phantastica 
+      <lb ed="#V" n="2"/>contingenter conjungitur 
+      intelle<lb ed="#V" break="no" n="3"/>ctui, inquantum potentia est; 
+      <lb ed="#V" n="4"/>igitur intellectus in operatione 
+      <lb ed="#V" n="5"/>sua dependet ab illa potentia, cui 
+      <lb ed="#V" n="6"/>contingenter conjungitur, et ita 
+      <lb ed="#V" n="7"/>haec positio ponit in ea 
+      imperfe<lb ed="#V" break="no" n="8"/>ctionem potentie cognitivae. Nulla 
+      <lb ed="#V" n="9"/>autem imperfectio est ponenda in 
+      <lb ed="#V" n="10"/>aliqua natura, nisi necessitas 
+      ap<lb ed="#V" break="no" n="11"/>pareat in tali natura; ergo 
+      impre<lb ed="#V" break="no" n="12"/>fectio talis non est ponenda in 
+      in<lb ed="#V" break="no" n="13"/>tellectu. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e1966">
+               <lb ed="#V" n="14"/>Si objicias, pluralitas non est 
+      <lb ed="#V" n="15"/>ponenda nisi ubi est necessitas; 
+      <lb ed="#V" n="16"/>hic autem non est necessitas, cum 
+      <lb ed="#V" n="17"/>ita bene possit poni intellectum 
+      <lb ed="#V" n="18"/>habere actum sine specie, sicut 
+      <lb ed="#V" n="19"/>cum specie ; ergo non est ponenda 
+      <lb ed="#V" n="20"/>talis species. Respondeo, 
+      necessi<lb ed="#V" break="no" n="21"/>tas est, quando perfectio naturae 
+      <lb ed="#V" n="22"/>hoc requirit. Licet autem hoc 
+      sup<lb ed="#V" break="no" n="23"/>positum quod est homo, posset 
+      ha<lb ed="#V" break="no" n="24"/>bere objectum sibi presens in 
+      <lb ed="#V" n="25"/>phantasmate, quia homo est, 
+      ta<lb ed="#V" break="no" n="26"/>men natura intellectualis hominis 
+      <lb ed="#V" n="27"/>ut intellectualis est, non habet 
+      <lb ed="#V" n="28"/>objectum suficienter sibi presens, 
+      <lb ed="#V" n="29"/>si non habet ipsum, nisi praesentia 
+      <lb ed="#V" n="30"/>mendicata a virtute phantastica. 
+      <lb ed="#V" n="31"/>Hoc igitur multum vilificat 
+      natu<lb ed="#V" break="no" n="32"/>ram intellectivam ut intellectiva 
+      <lb ed="#V" n="33"/>est, quia removetur ab ea illud 
+      <lb ed="#V" n="34"/>quod est perfectionis in potentia 
+      <lb ed="#V" n="35"/>cognitiva, et invenitur in potentia 
+      <lb ed="#V" n="36"/>sensitiva ut in virtute 
+      phantasti<lb ed="#V" break="no" n="37"/>ca; ponitur igitur hec pluralitas 
+      <lb ed="#V" n="38"/>propter necessitatem, quia 
+      pro<lb ed="#V" break="no" n="39"/>pter perfectionem naturae 
+      perfe<lb ed="#V" break="no" n="40"/>ctioris salvandam, majorem quam 
+      <lb ed="#V" n="41"/>sit nature imperfectioris, vel 
+      sal<lb ed="#V" break="no" n="42"/>tem aequalem. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e2031"><!-- jdso-l1d3q6-n7 -->
+               <lb ed="#V" n="78"/>Ad quaestionem (a) ergo dico, 
+      <lb ed="#V" n="79"/>quod est necesse ponere in 
+      intelle<lb ed="#V" break="no" n="80"/>ctu speciem intelligibilem,priorem 
+      <lb ed="#V" n="81"/>naturaliter actu intelligendi 
+      pro<lb ed="#V" break="no" n="82"/>pter rationes jam positas ex 
+      par<lb ed="#V" break="no" n="83"/>te objecti, inquantum universale 
+      <lb ed="#V" n="84"/>et inquantum presens intellectui, 
+      <lb ed="#V" n="85"/>quae due conditiones, 
+      universali<lb ed="#V" break="no" n="86"/>tas scilicet et presentia praece- 
+      <!--0253.xml-->
+      <pb ed="#V" n="253"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>dunt naturaliter intellectionem. 
+      <lb ed="#V" n="2"/>Haec etiam videtur intentio 
+      Aristo<lb ed="#V" break="no" n="3"/>telis, qui tertio de Anima, volens quod 
+      <lb ed="#V" n="4"/>anima sit quodammodo omnia, 
+      <lb ed="#V" n="5"/>quasi probando, exponit se, quod 
+      <lb ed="#V" n="6"/>est per sensus sensibilia, et per 
+      <lb ed="#V" n="7"/>intellectum vel scientiam scibilia, 
+      <lb ed="#V" n="8"/>quod aliqui exponunt quod non 
+      lo<lb ed="#V" break="no" n="9"/>quitur uniformiter hic et ibi, quia 
+      <lb ed="#V" n="10"/>de sensu loquitur quantum ad 
+      spe<lb ed="#V" break="no" n="11"/>ciem impressam, de intellectu 
+      au<lb ed="#V" break="no" n="12"/>tem quantum ad habitum 
+      scien<lb ed="#V" break="no" n="13"/>tiae. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e2089">
+               <lb ed="#V" n="14"/>Sed hec expositio (b) non 
+      vide<lb ed="#V" break="no" n="15"/>tur esse ad intentionem 
+      Philoso<lb ed="#V" break="no" n="16"/>phi, quia sicut antiqui posuerunt 
+      <lb ed="#V" n="17"/>animam esse omnia realiter, ut 
+      <lb ed="#V" n="18"/>omnia cognosceret, sic 
+      Philoso<lb ed="#V" break="no" n="19"/>phus ponit eam esse omnia non 
+      <lb ed="#V" n="20"/>realiter, sed per quamdam 
+      simili<lb ed="#V" break="no" n="21"/>tudinem. Si autem per sensus esset 
+      <lb ed="#V" n="22"/>sensibilia propter similitudines 
+      <lb ed="#V" n="23"/>impressas, et per intellectum esset 
+      <lb ed="#V" n="24"/>intelligibilia, aut hoc esset 
+      pro<lb ed="#V" break="no" n="25"/>pter scientiam quae est in 
+      intelle<lb ed="#V" break="no" n="26"/>ctu,et ita non esset scibiliapropter 
+      <lb ed="#V" n="27"/>similitudinem, quia scientia de se 
+      <lb ed="#V" n="28"/>non est similitudo intelligibilis, 
+      <lb ed="#V" n="29"/>circumscripta omni alia 
+      specieob<lb ed="#V" break="no" n="30"/>jectum repraesentante ; aut 
+      pro<lb ed="#V" break="no" n="31"/>pter aliquod phantasma 
+      repraesen<lb ed="#V" break="no" n="32"/>tans objectum intelligibile, et tunc 
+      <lb ed="#V" n="33"/>non esset anima intelligibilia 
+      om<lb ed="#V" break="no" n="34"/>nia per intellectum, sed omnia per 
+      <lb ed="#V" n="35"/>phantasma, nihil enim esset ibi 
+      <lb ed="#V" n="36"/>repraesentans intelligibile nisi 
+      <lb ed="#V" n="37"/>phantasma tantum, secundum 
+      po<lb ed="#V" break="no" n="38"/>sitionem istam. 
+    </p>
+            <!-- additio -->
+            <p xml:id="jdso8u-d1e487-d1e2148">
+               <lb ed="#V" n="39"/>Item Aristoteles 8. Physicorum ponit 
+      <lb ed="#V" n="40"/>quod acquisita scientia reducitur 
+      intel<lb ed="#V" break="no" n="41"/>lectus de potentia essentiali ad 
+      acciden<lb ed="#V" break="no" n="42"/>talem, quero quid intelligat per 
+      scien<lb ed="#V" break="no" n="43"/>tiam ? non habitum sequentem actum, 
+      <lb ed="#V" n="44"/>qwia quando intellectus egit, non fuit 
+      <!--0253.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>in potentia essentiali; manifestum est 
+      <lb ed="#V" n="46"/>igitur quod formam precedentem actum, 
+      <lb ed="#V" n="47"/>ergo speciem intelligibilem. Probatio, 
+      <lb ed="#V" n="48"/>tum quia phantasma non reducit 
+      intel<lb ed="#V" break="no" n="49"/>lectum de poten/ia essentiali ad 
+      pbten<lb ed="#V" break="no" n="50"/>tiam accidentalem. Tum quia omnis 
+      <lb ed="#V" n="51"/>illa scientia, que dicitur habitus 
+      quid<lb ed="#V" break="no" n="52"/>ditatis primi objecti, esset in phantasia. 
+      <lb ed="#V" n="53"/>ergo ibi esset omnis habitus de eodem, 
+      <lb ed="#V" n="54"/>quia secundum Philosophum 9. Metaph. 
+      <lb ed="#V" n="55"/>idem habitus intellectus et scientia. 
+    </p>
+            <!-- end additio -->
+            <p xml:id="jdso8u-d1e487-d1e2195">
+               <lb ed="#V" n="56"/>Expressius tamen est ad istud 
+      <lb ed="#V" n="57"/>intentio Augustini. Quod deduco 
+      <lb ed="#V" n="58"/>sic: nihil enim sufficienter 
+      na<lb ed="#V" break="no" n="59"/>tum est gignere notitiam 
+      actu<lb ed="#V" break="no" n="60"/>alem, nisi ipsum habeat objectum 
+      <lb ed="#V" n="61"/>prius naturaliter quam actum, 
+      <lb ed="#V" n="62"/>praesens sibi in se vel in aliquo 
+      <lb ed="#V" n="63"/>repraesentante ipsum ; sed 
+      negan<lb ed="#V" break="no" n="64"/>do speciem intelligibilem, tota 
+      <lb ed="#V" n="65"/>pars intellectiva non habet ante 
+      <lb ed="#V" n="66"/>actum intelligendi, objectum sibi 
+      <lb ed="#V" n="67"/>praesens in se, nec in aliquo 
+      re<lb ed="#V" break="no" n="68"/>praesentante; ergo negando 
+      spe<lb ed="#V" break="no" n="69"/>ciem intelligibilem, nihil in 
+      intel<lb ed="#V" break="no" n="70"/>lectiva parte erit suficienter 
+      na<lb ed="#V" break="no" n="71"/>tum gignere actum intelligendi, 
+      <lb ed="#V" n="72"/>et ita nihil in parte intellectiva 
+      <lb ed="#V" n="73"/>erit sufficienter memoria 
+      respe<lb ed="#V" break="no" n="74"/>ctu talium intellectionum vel 
+      gi<lb ed="#V" break="no" n="75"/>gnitionum, quod negat 
+      Augusti<lb ed="#V" break="no" n="76"/>nus 12. de Trin. c. 14. Si 
+      re<lb ed="#V" break="no" n="77"/>spondeas (c), quod memoria est 
+      <lb ed="#V" n="78"/>in parte intellectiva proprie 
+      sum<lb ed="#V" break="no" n="79"/>pta per hoc, quod intellectus 
+      fa<lb ed="#V" break="no" n="80"/>ctus est in actu primo 
+      intelligen<lb ed="#V" break="no" n="81"/>di, et sic est activus respectu 
+      se<lb ed="#V" break="no" n="82"/>cundi actus intelligendi, ita quod 
+      <lb ed="#V" n="83"/>habens notitiam primam 
+      confu<lb ed="#V" break="no" n="84"/>sam, activus est respectu notitiae 
+      <lb ed="#V" n="85"/>secundae distinctae. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e2263">
+               <lb ed="#V" n="86"/>Contra, hoc est contra 
+      opinio<lb ed="#V" break="no" n="87"/>nem istam et contra 
+      Augusti<lb ed="#V" break="no" n="88"/>num.
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e2272">
+      <!--0254.xml-->
+               <pb ed="#V" n="254"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>Contra opinionem (d) : Quia 
+      <lb ed="#V" n="2"/>ponit quod universale ut in 
+      phan<lb ed="#V" break="no" n="3"/>tasmate, est ibi quasi in 
+      memo<lb ed="#V" break="no" n="4"/>ria, ut autem movens actum 
+      in<lb ed="#V" break="no" n="5"/>telligendi, est ibi praesens quasi 
+      <lb ed="#V" n="6"/>in intelligentia ; ergo per istam 
+      <lb ed="#V" n="7"/>opinionem nullus actus 
+      intelligen<lb ed="#V" break="no" n="8"/>di est memorie, sed 
+      intelligen<lb ed="#V" break="no" n="9"/>tiae. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e2301">
+               <lb ed="#V" n="10"/>Est etiam hoc (e) contra <ref xml:id="jdso8u-d1e487-Rd1e2305">
+      Augu<lb ed="#V" break="no" n="11"/>stinum, ut apparet de Trinit 15. 
+      <lb ed="#V" n="12"/>c. 21.</ref>
+               <quote xml:id="jdso8u-d1e487-Qd1e2312">Memorie (inquit) tribuentes omne 
+      <lb ed="#V" n="13"/>quod scimus, et si non inde cogitemus, 
+      <lb ed="#V" n="14"/>intelligentie vero proprio modo quodam, 
+      <lb ed="#V" n="15"/>tribuentes cogitationis informationem</quote>; 
+      <lb ed="#V" n="16"/>et<ref xml:id="jdso8u-d1e487-Rd1e2323"> lib. eodem. 15. et 7.</ref>
+               <quote xml:id="jdso8u-d1e487-Qd1e2326">Nihil 
+      intelli<lb ed="#V" break="no" n="17"/>gimus nisi per intelligentiam</quote>. 
+      Simili<lb ed="#V" break="no" n="18"/>ter arguitur ratione (f), quia actus 
+      <lb ed="#V" n="19"/>ille, quod memoria est in actu 
+      pri<lb ed="#V" break="no" n="20"/>mo, aut est idem cum illo actu 
+      in<lb ed="#V" break="no" n="21"/>telligentiae, et tunc idem erit ratio 
+      <lb ed="#V" n="22"/>gignendi se; aut erit alius, et tunc 
+      <lb ed="#V" n="23"/>vel erit simul cum actu 
+      intelligen<lb ed="#V" break="no" n="24"/>tiae, et tunc duo actus erunt simul 
+      <lb ed="#V" n="25"/>aut non, et tunc memoria 
+      forma<lb ed="#V" break="no" n="26"/>liter, quando non erit. Est enim 
+      <lb ed="#V" n="27"/>memoria formaliter per te, per 
+      il<lb ed="#V" break="no" n="28"/>lud quod non est, quando gignitur 
+      <lb ed="#V" n="29"/>actus secundus. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e2358">
+               <lb ed="#V" n="30"/>Si etiam (g) dicas, quod memoria 
+      <lb ed="#V" n="31"/>est memoria per habitum 
+      scientia<lb ed="#V" break="no" n="32"/>lem, hoc non stat cum opinione. 
+      <lb ed="#V" n="33"/>Quia dicit quod per habitum, non 
+      <lb ed="#V" n="34"/>est objectum praesens nisi in 
+      phan<lb ed="#V" break="no" n="35"/>tasmate,et ideo habentem habitum 
+      <lb ed="#V" n="36"/>oportet recurrere ad phantasma 
+      <lb ed="#V" n="37"/>ad hoc,ut actu intelligat; ergo non 
+      <lb ed="#V" n="38"/>est objectum praesens per habitum 
+      <lb ed="#V" n="39"/>scientialem praecise, sed per 
+      phan<lb ed="#V" break="no" n="40"/>tasma, quod non est in parte 
+      intel<lb ed="#V" break="no" n="41"/>lectiva, et hoc magis patebit 
+      re<lb ed="#V" break="no" n="42"/>spondendo ad auctoritates 
+      Augus<lb ed="#V" break="no" n="43"/>tini ponentisscientiam in memoria, 
+      <lb ed="#V" n="44"/>et non speciem impressam in in- 
+      <!--0254.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>tellectu, sicut arguitur ex verbis 
+      <lb ed="#V" n="46"/>ejus. 
+    </p>
+            <!-- additio -->
+            <p xml:id="jdso8u-d1e487-d1e2405">
+               <lb ed="#V" n="47"/>Ad questionem ergo dico, quod 
+      opor<lb ed="#V" break="no" n="48"/>tet ponere in intellectu ut habet rationem 
+      <lb ed="#V" n="49"/>memorie, speciem intelligibilem 
+      repre<lb ed="#V" break="no" n="50"/>sentantem universale, priorem actu 
+      in<lb ed="#V" break="no" n="51"/>telligendi naturaliter, et hujus 
+      necessi<lb ed="#V" break="no" n="52"/>tas est duplex. Una ex conditione per 
+      <lb ed="#V" n="53"/>se objecti, que est universalitas, que ut 
+      <lb ed="#V" n="54"/>per se ratio objecti, semper precedit 
+      <lb ed="#V" n="55"/>actum, quod non esset, nisi esset species 
+      <lb ed="#V" n="56"/>impressa in intellectu. Alia est conditio 
+      <lb ed="#V" n="57"/>et dignitas potentice superioris, ne ipsa 
+      <lb ed="#V" n="58"/>vilificetur, quomodo autem vilificaretur, 
+      <lb ed="#V" n="59"/>dictum est supra. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e2436">
+               <lb ed="#V" n="60"/>Ad evidentiam ergo questionis, 
+      scien<lb ed="#V" break="no" n="61"/>dum quod memoria potest accipi 
+      <lb ed="#V" n="62"/>tripliciter, vel intellectus sub ratione 
+      <lb ed="#V" n="63"/>memorie. Uno modo ut est 
+      conser<lb ed="#V" break="no" n="64"/>valiva specierum preteritorum ut 
+      prete<lb ed="#V" break="no" n="65"/>rita sunt, et isto modo loquitur 
+      Philoso<lb ed="#V" break="no" n="66"/>phus in de Memoria et reminiscentia. 
+      <lb ed="#V" n="67"/>Alio modo ut est conservativa specierum 
+      <lb ed="#V" n="68"/>representantium objecta in se, sive sint 
+      <lb ed="#V" n="69"/>realiter sive non, et hoc modo 
+      loquen<lb ed="#V" break="no" n="70"/>do de memoria, dico quod oportet ponere 
+      <lb ed="#V" n="71"/>speciem in intellectu ut habet rationem 
+      <lb ed="#V" n="72"/>memorie, tum propter universalitatem, 
+      <lb ed="#V" n="73"/>tum propter dignitatem potentie. Tertio 
+      <lb ed="#V" n="74"/>modo accipitur prout habet aliquod 
+      prin<lb ed="#V" break="no" n="75"/>cipium eliciendi aliquam notitiam 
+      actua<lb ed="#V" break="no" n="76"/>lem, quod tamen non manet sine actu 
+      <lb ed="#V" n="77"/>secundo, quomodo posuit Avicenna 
+      spe<lb ed="#V" break="no" n="78"/>ciem in intellectu nostro, et de ista 
+      dice<lb ed="#V" break="no" n="79"/>tur in questione sequenti. Hec, que 
+      su<lb ed="#V" break="no" n="80"/>pra probavi, videtur esse intentio 
+      Phi<lb ed="#V" break="no" n="81"/>losophi, 3. de Anima, ubi dicit, quod 
+      <lb ed="#V" n="82"/>anima est quodammodo omnia 
+      <lb ed="#V" n="83"/>intelligibilia per intellectum, sicut 
+      <lb ed="#V" n="84"/>sensibilia per sensum, quod non 
+      <lb ed="#V" n="85"/>potest intelligi per habitum, quia non est 
+      <lb ed="#V" n="86"/>similitudo representativa objecti, quia 
+      se<lb ed="#V" break="no" n="87"/>quitur actum aliquem habitus omnis. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e2499">
+               <lb ed="#V" n="88"/>Et confirmatur hoc, quia habitus scien- 
+      <!--0255.xml-->
+      <pb ed="#V" n="255"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>tie, per quam reducitur intellectus de 
+      <lb ed="#V" n="2"/>potentia essentiali ad potentiam 
+      acciden<lb ed="#V" break="no" n="3"/>talem respectu actuum, de quo loquitur 
+      <lb ed="#V" n="4"/>Philosophus 2. de Anima, et 8. Physic. 
+      <lb ed="#V" n="5"/>ecessario precedit actum intelligendi ; 
+      <lb ed="#V" n="6"/>scientia autem que habitus est sequitur 
+      <lb ed="#V" n="7"/>actum,eo quod generatur ex actibus. 
+      Un<lb ed="#V" break="no" n="8"/>de ista scientia que reducit intellectum 
+      <lb ed="#V" n="9"/>de potentia essentiali ad potentiam 
+      acci<lb ed="#V" break="no" n="10"/>dentalem, est species que vere est 
+      habi<lb ed="#V" break="no" n="11"/>tus, quia nata radicari et firmari in 
+      in<lb ed="#V" break="no" n="12"/>tellectu. Sed tamen non omnis habitus 
+      <lb ed="#V" n="13"/>est species, quia habitus actualiter 
+      radi<lb ed="#V" break="no" n="14"/>catus et firmatus, non est species que 
+      <lb ed="#V" n="15"/>precedit actum, nata radicari et firmari, 
+      <lb ed="#V" n="16"/>quia ista postea firmatur per actum. 
+      <lb ed="#V" n="17"/>Item, secundum istos, non videtur aliquis 
+      <lb ed="#V" n="18"/>habitus ponendus in intellectu nostro, 
+      <lb ed="#V" n="19"/>sed tantum in virtute phantastica, quia 
+      <lb ed="#V" n="20"/>secundum quemcumque modum essendi 
+      <lb ed="#V" n="21"/>est objectum in aliqua potentia, 
+      secun<lb ed="#V" break="no" n="22"/>dum eumdem modum essendi sunt omnia 
+      <lb ed="#V" n="23"/>que continentur in ipso objecto 
+      virtuali<lb ed="#V" break="no" n="24"/>ter; igitur si objectum non sit per suum 
+      <lb ed="#V" n="25"/>representativum in intellectu, sed in 
+      vir<lb ed="#V" break="no" n="26"/>tute phantastica, omnia explicanda et 
+      <lb ed="#V" n="27"/>explicabilia de illo objecto erunt ibidem, 
+      <lb ed="#V" n="28"/>et ita non erit nisi habitus phantasticus 
+      <lb ed="#V" n="29"/>(precipue si phantasmata ordinate 
+      con<lb ed="#V" break="no" n="30"/>currant) explicans omnes veritates scibiles 
+      <lb ed="#V" n="31"/>de illo objecto; et omnis scientia erit in 
+      <lb ed="#V" n="32"/>phantasia et perfectio ejus, et non erit 
+      <lb ed="#V" n="33"/>perfectio intellectus contra Philosophum, 
+      <lb ed="#V" n="34"/>et sic cum ista species in phantasia, 
+      vir<lb ed="#V" break="no" n="35"/>tute sua contineat actum intellectus; ergo 
+      <lb ed="#V" n="36"/>actus ille erit in phantasia. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e2588">
+               <lb ed="#V" n="37"/>Item, Aug. 13. de Trin. c. 4. et 15. c. 3. 
+      <lb ed="#V" n="38"/>investigat Trinitatem, ubi dicit quod 
+      <lb ed="#V" n="39"/>impossibile est accipere imaginem 
+      Trini<lb ed="#V" break="no" n="40"/>tatis ex anima nostra vel in mente, nisi 
+      <lb ed="#V" n="41"/>per hoc quod aliquid est in memoria ex 
+      <lb ed="#V" n="42"/>quo eprimitur aliud. Tunc arguo sic: si 
+      <lb ed="#V" n="43"/>in mente est aliquid exprimens verbum, 
+      <lb ed="#V" n="44"/>oportet quod hoc sit per aliquid intrinse- 
+      <!--0255.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>cum sive eistens in memoria, sed non 
+      <lb ed="#V" n="46"/>est' eprimens verbum,nisi memoria 
+      ha<lb ed="#V" break="no" n="47"/>bens objectum menti presens intra se, 
+      <lb ed="#V" n="48"/>alias non erit exprimens, ergo cum 
+      ob<lb ed="#V" break="no" n="49"/>jectum non sit presens in memoria 
+      qutid<lb ed="#V" break="no" n="50"/>ditative et realiter, nec ut est in 
+      phanta<lb ed="#V" break="no" n="51"/>smate,necessario erit presens per speciem 
+      <lb ed="#V" n="52"/>intelligibilem. 
+    </p>
+            <!-- end additio -->
+            <p xml:id="jdso8u-d1e487-d1e2632">
+               <lb ed="#V" n="53"/>Ad argumenta (h) in oppositum 
+      <lb ed="#V" n="54"/>principalia, primo apparet quod 
+      <lb ed="#V" n="55"/>illud argumentum primum non 
+      <lb ed="#V" n="56"/>cogit, quia si valeret, concluderet 
+      <lb ed="#V" n="57"/>contra omnem opinionem quod 
+      <lb ed="#V" n="58"/>nullo modo possit intelligi 
+      univer<lb ed="#V" break="no" n="59"/>sale, quidquid enim sit illud per 
+      <lb ed="#V" n="60"/>quod universale representatur, 
+      si<lb ed="#V" break="no" n="61"/>militer repraesentabit, sicut si 
+      es<lb ed="#V" break="no" n="62"/>set impressum ab objecto ; sed 
+      <lb ed="#V" n="63"/>si imprimeretur ab objecto, 
+      im<lb ed="#V" break="no" n="64"/>primeretur a singulari, quia actus 
+      <lb ed="#V" n="65"/>est singularis, sicut argumentum 
+      <lb ed="#V" n="66"/>dicit. Ideo respondeo, quod alia 
+      <lb ed="#V" n="67"/>potest esset ratio agendi et alia 
+      <lb ed="#V" n="68"/>ratio agentis. Singularitas est 
+      con<lb ed="#V" break="no" n="69"/>ditio agentis,non ratio agendi, sed 
+      <lb ed="#V" n="70"/>ratio agendi est ipsa forma 
+      exi<lb ed="#V" break="no" n="71"/>stens in singulari, secundum quam 
+      <lb ed="#V" n="72"/>singulare agit, cum ergo 
+      acci<lb ed="#V" break="no" n="73"/>pitur quod quaecumque species 
+      <lb ed="#V" n="74"/>gignitur ab aliquo, 
+      repraesen<lb ed="#V" break="no" n="75"/>tat ipsum secundum illam 
+      rati<lb ed="#V" break="no" n="76"/>onem secundum quam gignitur ab 
+      <lb ed="#V" n="77"/>eo; si intelligatur de ratione 
+      gi<lb ed="#V" break="no" n="78"/>gnentis, falsa est; si de ratione 
+      gi<lb ed="#V" break="no" n="79"/>gnendi,concedi potest, et tunc non 
+      <lb ed="#V" n="80"/>sequitur quod repraesentat eum 
+      <lb ed="#V" n="81"/>sub ratione singularis, sed sub 
+      <lb ed="#V" n="82"/>ratione naturae, quia ratio naturae 
+      <lb ed="#V" n="83"/>est ratio gignendi. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e2703">
+               <lb ed="#V" n="84"/>Sed ista responsio non videtur 
+      <lb ed="#V" n="85"/>sufficere, quia ita videretur, quod 
+      <lb ed="#V" n="86"/>species in sensu repraesentaret 
+      <lb ed="#V" n="87"/>universale et non singulare, quia 
+      <lb ed="#V" n="88"/>ratio gignendi speciem in sensu 
+      <!--0256.xml-->
+      <pb ed="#V" n="256"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>non est singularitas, sed ratio 
+      na<lb ed="#V" break="no" n="2"/>turae. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e2727">
+               <lb ed="#V" n="3"/>Ideo generaliter respondeo, quod 
+      <lb ed="#V" n="4"/>quando species gignitur ab 
+      ali<lb ed="#V" break="no" n="5"/>quo sicut a totali causa, 
+      reprae<lb ed="#V" break="no" n="6"/>sentat ipsum sub illa ratione sub 
+      <lb ed="#V" n="7"/>qua gignitur, loquendo de ratione 
+      <lb ed="#V" n="8"/>gignendi; et etiam repraesentat 
+      <lb ed="#V" n="9"/>ipsum concomitanter sub ratione 
+      <lb ed="#V" n="10"/>gignentis, aut saltem non sub 
+      ra<lb ed="#V" break="no" n="11"/>tione opposita rationi gignentis, 
+      <lb ed="#V" n="12"/>et ideo species in sensu non 
+      repre<lb ed="#V" break="no" n="13"/>sentat objectum sub ratione 
+      uni<lb ed="#V" break="no" n="14"/>versalis, quae est conditio opposita 
+      <lb ed="#V" n="15"/>rationi gignentis singularis. Sed 
+      <lb ed="#V" n="16"/>in proposito objectum non est 
+      cau<lb ed="#V" break="no" n="17"/>sa totalis gignens respectu speciei 
+      <lb ed="#V" n="18"/>intelligibilis, quia cum ipso agit 
+      <lb ed="#V" n="19"/>intellectus agens sicut partialis 
+      <lb ed="#V" n="20"/>causa,et ideo genitum ab istis 
+      dua<lb ed="#V" break="no" n="21"/>bus causis,potest representare 
+      ob<lb ed="#V" break="no" n="22"/>jectum sub opposita ratione 
+      singu<lb ed="#V" break="no" n="23"/>laritatis, quae est ratio gignontis. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e2775">
+               <lb ed="#V" n="24"/>Ad secundum (k) de presentia 
+      <lb ed="#V" n="25"/>ista, dico quod objectum respectu 
+      <lb ed="#V" n="26"/>potentiae habet primo praesentiam 
+      <lb ed="#V" n="27"/>realem, scilicet approximationem 
+      <lb ed="#V" n="28"/>talem, ut possit gigncre speciem 
+      <lb ed="#V" n="29"/>talem in intellectu, quae est forma 
+      <lb ed="#V" n="30"/>intellectus'. Secundo, per istam 
+      <lb ed="#V" n="31"/>speciem genitam, que est imago 
+      <lb ed="#V" n="32"/>gignentis, est objectum praesens 
+      <lb ed="#V" n="33"/>sub ratione cognoscibilis sive 
+      re<lb ed="#V" break="no" n="34"/>praesentati. Prima praesentia 
+      prae<lb ed="#V" break="no" n="35"/>cedit naturaliter secundam, quia 
+      <lb ed="#V" n="36"/>praecedit naturaliter 
+      impressio<lb ed="#V" break="no" n="37"/>nem speciei, per quam est 
+      forma<lb ed="#V" break="no" n="38"/>liter secunda presentia. Quando 
+      <lb ed="#V" n="39"/>igitur accipitur quod species in 
+      <lb ed="#V" n="40"/>intellectu non est causa 
+      praesen<lb ed="#V" break="no" n="41"/>tiae objecti, dico quod falsum est 
+      <lb ed="#V" n="42"/>de praesentia sub ratione 
+      cognosci<lb ed="#V" break="no" n="43"/>bilis, saltem in cognitione 
+      abstra<lb ed="#V" break="no" n="44"/>ctiva de qua modo loquimur, et 
+      <!--0256.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>cum probatur, quia prius est 
+      ob<lb ed="#V" break="no" n="46"/>jectum praesens quam species ibi, 
+      <lb ed="#V" n="47"/>hoc est verum de praesentia reali, 
+      <lb ed="#V" n="48"/>qua agens est praesens passo, et 
+      in<lb ed="#V" break="no" n="49"/>telligo sic quod in primo signo 
+      na<lb ed="#V" break="no" n="50"/>turae est objectum in se, vel in 
+      <lb ed="#V" n="51"/>phantasmate praesens intellectui 
+      <lb ed="#V" n="52"/>agenti; in secundo signo naturae 
+      <lb ed="#V" n="53"/>in quo illa sunt presentia 
+      intelle<lb ed="#V" break="no" n="54"/>ctui possibili ut agentia passo, 
+      gi<lb ed="#V" break="no" n="55"/>gnitur species in intellectu 
+      possi<lb ed="#V" break="no" n="56"/>bili; et tunc in tertio per speciem 
+      <lb ed="#V" n="57"/>est objectum praesens sub ratione 
+      <lb ed="#V" n="58"/>cognoscibilis. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e2858">
+               <lb ed="#V" n="59"/>Ad tertium (l) Augustinus 6. de 
+      <lb ed="#V" n="60"/>Trinit. ponit memoriam esse 
+      mul<lb ed="#V" break="no" n="61"/>torum simul cognitorum 
+      habitu<lb ed="#V" break="no" n="62"/>aliter,sicut patet ibi de perito 
+      mul<lb ed="#V" break="no" n="63"/>tarum disciplinarum; ergo 
+      opor<lb ed="#V" break="no" n="64"/>tet secundum omnem opinionem, 
+      <lb ed="#V" n="65"/>ponere multa cognita in memoria 
+      <lb ed="#V" n="66"/>habitualiter, et illa ut sunt ibi sunt 
+      <lb ed="#V" n="67"/>aliquo modo causa notitiae genitae 
+      <lb ed="#V" n="68"/>secundum Augustinum, et non nisi 
+      <lb ed="#V" n="69"/>causa naturaliter, quatenus 
+      prae<lb ed="#V" break="no" n="70"/>cedunt actum voluntatis; igitur si 
+      <lb ed="#V" n="71"/>argumentum valet, secundum 
+      om<lb ed="#V" break="no" n="72"/>nem opinionem concluderet 
+      actu<lb ed="#V" break="no" n="73"/>alem cognitionem plurium simul. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e2893">
+               <lb ed="#V" n="74"/>Ideo respondeo, sicut dictum est 
+      <lb ed="#V" n="75"/>de primo cognito secunda 
+      quaesti<lb ed="#V" break="no" n="76"/>one hujus tertie distinctionis, quia 
+      <lb ed="#V" n="77"/>cujuscumque speciei singulare 
+      for<lb ed="#V" break="no" n="78"/>tius primo movet sensum, ejus 
+      <lb ed="#V" n="79"/>phantasma efficacius imprimitur 
+      <lb ed="#V" n="80"/>et primo movet intellectum, et 
+      <lb ed="#V" n="81"/>quoad istum primum actum non 
+      <lb ed="#V" n="82"/>est in potestate nostra, quin 
+      intel<lb ed="#V" break="no" n="83"/>ligamus secundum Augustinum, 
+      <lb ed="#V" n="84"/>3. de libero arbitrio. Non est in 
+      po<lb ed="#V" break="no" n="85"/>testate nostra quin visis tangamur. Sed 
+      <lb ed="#V" n="86"/>isto posito actu, in potestate 
+      no<lb ed="#V" break="no" n="87"/>stra est cognitio actualis cujuslibet 
+      <lb ed="#V" n="88"/>habitualiter noti, de hoc dist. 6. di-
+      <!-- TODO: correct column order in ocr4all; already corrected in export files  -->
+      <!--0257.xml-->
+      <pb ed="#V" n="257"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>cetur. Cum igitur dicit, aut potest 
+      <lb ed="#V" n="2"/>movere ista species ad 
+      intellecti<lb ed="#V" break="no" n="3"/>onem, aut non, dico quod potest. Sed 
+      <lb ed="#V" n="4"/>si alia species fortius movet, ista 
+      <lb ed="#V" n="5"/>impeditur ne modo moveat, potest 
+      <lb ed="#V" n="6"/>autem postea per imperium 
+      volun<lb ed="#V" break="no" n="7"/>tatis imperantis movere ad 
+      cogni<lb ed="#V" break="no" n="8"/>tionem istius, et cujuslibet alterius 
+      <lb ed="#V" n="9"/>objecti habitualiter cogniti. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e2956">
+               <lb ed="#V" n="10"/>Ad <name xml:id="jdso8u-d1e487-Nd1e2960">Algazelem</name> dico quod 
+      simili<lb ed="#V" break="no" n="11"/>tudo nihil valet, quia hic tollitur 
+      <lb ed="#V" n="12"/>illud quod est ibi ratio 
+      impossibi<lb ed="#V" break="no" n="13"/>litatis, quod probatur per 
+      Aristo<lb ed="#V" break="no" n="14"/>telem et Commentatorem 7. 
+      Meta<lb ed="#V" break="no" n="15"/>phys. ubi volunt quod rationes 
+      oppo<lb ed="#V" break="no" n="16"/>sitorum non sunt opposite in 
+      in<lb ed="#V" break="no" n="17"/>tellectu.
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e2979">
+               <lb ed="#V" n="18"/>Ad (m) quartum dico, quod non 
+          <lb ed="#V" n="19"/>tantum intellectus patitur ab 
+      ob<lb ed="#V" break="no" n="20"/>jecto reali imprimente talem 
+      spe<lb ed="#V" break="no" n="21"/>ciem realem, sed ab illo objecto 
+          <lb ed="#V" n="22"/>ut in specie intelligibili, patitur 
+          <lb ed="#V" n="23"/>passione intentionali, et illa passio 
+          <lb ed="#V" n="24"/>est receptio intellectionis, quae est 
+          <lb ed="#V" n="25"/>ab intelligibili inquantum 
+      intelligi<lb ed="#V" break="no" n="26"/>bile est, relucens in specie 
+      intelli<lb ed="#V" break="no" n="27"/>gibili, et istud pati est intelligere, 
+          <lb ed="#V" n="28"/>sicut patebit in quaestione 
+      proxi<lb ed="#V" break="no" n="29"/>ma. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e3008">
+               <lb ed="#V" n="30"/>Cum ultra deducis, quod tunc 
+      in<lb ed="#V" break="no" n="31"/>tellectio non est motus rei ad 
+      ani<lb ed="#V" break="no" n="32"/>mam, non sequitur, quia 
+      impres<lb ed="#V" break="no" n="33"/>sio speciei est quidam motus rei 
+          <lb ed="#V" n="34"/>ad animam, quatenus res habet 
+      es<lb ed="#V" break="no" n="35"/>se in illa specie. Intellectio etiam 
+          <lb ed="#V" n="36"/>sequens speciem impressam, est 
+          <lb ed="#V" n="37"/>motus rei ad animam, quatenus 
+          <lb ed="#V" n="38"/>per intellectionem objectum habet 
+          <lb ed="#V" n="39"/>esse in anima actualiter cognitum, 
+          <lb ed="#V" n="40"/>quod prius tantum habuit esse 
+      habi<lb ed="#V" break="no" n="41"/>tualiter cognitum, etc. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e3037"><!-- jdso-l1d3q6-n8 -->
+               <lb ed="#V" n="11"/>Ad rationes (a) alterius 
+      opini<lb ed="#V" break="no" n="12"/>onis, cum primo arguitur in prima 
+      <lb ed="#V" n="13"/>opinione, quod recipere speciem 
+      <lb ed="#V" n="14"/>convenit sensui praecise, quia 
+      po<lb ed="#V" break="no" n="15"/>tentia est organica, dico quod hoc 
+      <lb ed="#V" n="16"/>est falsum, quia illud non est 
+      <lb ed="#V" n="17"/>praeecisa causa; sed precisa 
+      cau<lb ed="#V" break="no" n="18"/>sa cujuscumque potentiae 
+      haben<lb ed="#V" break="no" n="19"/>di speciem praesentem, 
+      reprae<lb ed="#V" break="no" n="20"/>sentantem objectum suum, est, 
+      <lb ed="#V" n="21"/>quia ipsa est cognitiva, et 
+      na<lb ed="#V" break="no" n="22"/>tura dedit sibi ut possit habere 
+      ob<lb ed="#V" break="no" n="23"/>jectum prius naturaliter sibi 
+      pre<lb ed="#V" break="no" n="24"/>sens quam cognoscat. Sed 
+      poten<lb ed="#V" break="no" n="25"/>tie organice dedit ut objectum 
+      <lb ed="#V" n="26"/>sit praesens, non in potentia ipsa, 
+      <lb ed="#V" n="27"/>sed in organo, hoc est, in parte 
+      <lb ed="#V" n="28"/>corporis quam perficit potentia 
+      <lb ed="#V" n="29"/>organica, et illa praesentia sufficit, 
+      <lb ed="#V" n="30"/>quia totum compositum ex parte 
+      <lb ed="#V" n="31"/>corporis sic mixta et ex potentia 
+      <lb ed="#V" n="32"/>habet speciem, et huic toti 
+      suffi<lb ed="#V" break="no" n="33"/>cienter objectum est praesens, 
+      <lb ed="#V" n="34"/>quando species est in illa parte 
+      <lb ed="#V" n="35"/>corporis; cum igitur intellectui 
+      ni<lb ed="#V" break="no" n="36"/>hil perfectionis auferatur, 
+      inquan<lb ed="#V" break="no" n="37"/>tum potentia cognitiva est, ex hoc 
+      <lb ed="#V" n="38"/>quod non est organicus, imo 
+      ma<lb ed="#V" break="no" n="39"/>gis additur sibi perfectio, sequitur 
+      <lb ed="#V" n="40"/>quod sibi possit esse objectum 
+      <lb ed="#V" n="41"/>praesens ante actum, sicut aliis 
+      <lb ed="#V" n="42"/>potentiis ; sed illa praesentia non 
+      <!--0272.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="43"/>rit per aliquid impressum orga 
+      <lb ed="#V" n="44"/>no, quia non habet organum, ergo 
+      <lb ed="#V" n="45"/>erit per aliquid impressum illi 
+      po<lb ed="#V" break="no" n="46"/>tentiae ; tale autem impressum 
+      re<lb ed="#V" break="no" n="47"/>presentans praecedens in 
+      poten<lb ed="#V" break="no" n="48"/>tia intellectiva actum intelligendi, 
+      <lb ed="#V" n="49"/>voco speciem intelligibilem. 
+      Bre<lb ed="#V" break="no" n="50"/>viter igitur dico, quod sensus 
+      ha<lb ed="#V" break="no" n="51"/>bet objectum praesens in illa 
+      par<lb ed="#V" break="no" n="52"/>te corporis, quae dicitur organum 
+      <lb ed="#V" n="53"/>illius sensus, sed intellectus tam 
+      <lb ed="#V" n="54"/>illam praesentiam priorem actu 
+      <lb ed="#V" n="55"/>quam ipsum actum, habet ratione 
+      <lb ed="#V" n="56"/>ejusdem receptivi, et ideo falsum 
+      <lb ed="#V" n="57"/>accipitur quod species talis non 
+      <lb ed="#V" n="58"/>est nisi precise propter organum. 
+      <lb ed="#V" n="59"/>Natura enim causat talem partem 
+      <lb ed="#V" n="60"/>talis corporis sic mixtam, ut sit 
+      <lb ed="#V" n="61"/>perfectibilis a tali potentia animae 
+      <lb ed="#V" n="62"/>et congruat operationi ejus, quia 
+      <lb ed="#V" n="63"/>materia est propter formam, et 
+      <lb ed="#V" n="64"/>non e converso, ex 2. Physicor. Et 
+      <lb ed="#V" n="65"/>Commentator primo de Anima : 
+      <lb ed="#V" n="66"/>membra leonis non differunt a membris 
+      <lb ed="#V" n="67"/>cervi, nisi quia anima differt ab anima. 
+      <lb ed="#V" n="68"/>Non igitur forma est propter 
+      ma<lb ed="#V" break="no" n="69"/>teriam, sed e converso, et ideo 
+      ta<lb ed="#V" break="no" n="70"/>lis pars facta est talis speciei 
+      re<lb ed="#V" break="no" n="71"/>ceptiva, ut per talem speciem sit 
+      <lb ed="#V" n="72"/>objectum presens toti composito, 
+      <lb ed="#V" n="73"/>quod est totum organum; unde 
+      <lb ed="#V" n="74"/>prima causa presentiae objecti in 
+      <lb ed="#V" n="75"/>specie, non est talis dispositio 
+      cor<lb ed="#V" break="no" n="76"/>poris, sed prior causa est, ut 
+      po<lb ed="#V" break="no" n="77"/>tentia apprehensiva habeat 
+      obje<lb ed="#V" break="no" n="78"/>ctum actu cognoscibile sibi 
+      prae<lb ed="#V" break="no" n="79"/>sens, vel in se ipsa vel in aliquo, 
+      <lb ed="#V" n="80"/>quod est pars ipsius organi in tali 
+      <lb ed="#V" n="81"/>operatione. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e3199">
+               <lb ed="#V" n="82"/>Ad aliud (b) de <ref xml:id="jdso8u-d1e487-Rd1e3203">Philosopho 3. de 
+      <lb ed="#V" n="83"/>Anima</ref> : quod <quote xml:id="jdso8u-d1e487-Qd1e3208">intellectus est locus 
+      spe<lb ed="#V" break="no" n="84"/>cierum</quote>, potest exponi quod 
+      intelle<lb ed="#V" break="no" n="85"/>ctus dicitur locus specierum, quia 
+      <lb ed="#V" n="86"/>salvans, sicut dicitur, quod ipsius 
+      <!--0273.xml-->
+      <pb ed="#V" n="273"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>loci est servare locatum, et 
+      orga<lb ed="#V" break="no" n="2"/>na sensitivae potentiae, non sunt 
+      <lb ed="#V" n="3"/>loca, quia non ita salvant 
+      spe<lb ed="#V" break="no" n="4"/>cies receptas in eis. Species 
+      quip<lb ed="#V" break="no" n="5"/>pe intelligibiles non videntur 
+      <lb ed="#V" n="6"/>deleri sicut species sensibiles, 
+      <lb ed="#V" n="7"/>quia species sensibilis ita est 
+      <lb ed="#V" n="8"/>in organo, quod potest corrumpi 
+      <lb ed="#V" n="9"/>per contrarium formaliter, vel 
+      <lb ed="#V" n="10"/>per dispositionem in susceptivo 
+      <lb ed="#V" n="11"/>disconvenientem tali potentiae, 
+      sic<lb ed="#V" break="no" n="12"/>ut patet per Philosophum de 
+      Me<lb ed="#V" break="no" n="13"/>moria et reminiscentia : Senes et 
+      <lb ed="#V" n="14"/>juvenes, id est, pueri, sunt male 
+      <lb ed="#V" n="15"/>reminiscitivi propter abundantiam 
+      <lb ed="#V" n="16"/>humorum nimiam, et etiam 
+      pro<lb ed="#V" break="no" n="17"/>pter indispositionem et laesionem 
+      <lb ed="#V" n="18"/>organi ; isto utroque modo, non 
+      <lb ed="#V" n="19"/>est species intelligibilis in 
+      in<lb ed="#V" break="no" n="20"/>tellectu, ut per se deleatur per 
+      a<lb ed="#V" break="no" n="21"/>liquod contrarium ad ipsam seu 
+      <lb ed="#V" n="22"/>per indispositionem receptivi. 
+      A<lb ed="#V" break="no" n="23"/>lie multae congruentiae possent 
+      as<lb ed="#V" break="no" n="24"/>signari circa illud vocabulum locus, 
+      <lb ed="#V" n="25"/>circa quod non oportet multum 
+      <lb ed="#V" n="26"/>immorari. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e3281">
+               <lb ed="#V" n="27"/>Quod additur (c) de Philosopho, 
+      <lb ed="#V" n="28"/>quod speculamur quod quid est in 
+      phan<lb ed="#V" break="no" n="29"/>tasmatibus, eto. pro omnibus talibus 
+      <lb ed="#V" n="30"/>auctoritatibus, dico quod talis est 
+      <lb ed="#V" n="31"/>connexio istarum potentiarum,
+      sci<lb ed="#V" break="no" n="32"/>licet phantasie et intellectus pro 
+      <lb ed="#V" n="33"/>statu isto, quod nihil intelligimus 
+      <lb ed="#V" n="34"/>in universali nisi cujus singulare 
+      <lb ed="#V" n="35"/>phantasiamur; nec est alia 
+      conver<lb ed="#V" break="no" n="36"/>sio ad phantasma nisi quod 
+      intelli<lb ed="#V" break="no" n="37"/>gens universale imaginatur 
+      sin<lb ed="#V" break="no" n="38"/>gulare ejus, nec intellectus videt 
+      <lb ed="#V" n="39"/>quod quid est in phantasmatibus 
+      <lb ed="#V" n="40"/>sicut in ratione videndi; sed 
+      intel<lb ed="#V" break="no" n="41"/>ligens, quod quid est relucens in 
+      <lb ed="#V" n="42"/>specie intelligibili, videt illud in 
+      <lb ed="#V" n="43"/>suo singulari viso per virtutem 
+      <lb ed="#V" n="44"/>phantasticam in phantasmate.
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e3323">
+      <!--0273.xml-->
+               <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>Quod adducitur (d) de Augustino 
+      <lb ed="#V" n="46"/>quod non ponit speciem 
+      intelligibi<lb ed="#V" break="no" n="47"/>lem in memoria, sed scientiam. 
+      <lb ed="#V" n="48"/>Respondeo et dico, quod ubi ponit 
+      <lb ed="#V" n="49"/>scientiam, statim ponit aliquid 
+      <lb ed="#V" n="50"/>quod includit speciem 
+      intelligibi<lb ed="#V" break="no" n="51"/>lem,licet non utatur isto vocabulo, 
+      <lb ed="#V" n="52"/>quia, 15. de Trin. cap. 10. cum 
+      prae<lb ed="#V" break="no" n="53"/>isisset, ex ipsa scientia quam 
+      memo<lb ed="#V" break="no" n="54"/>ria tenemus, gignitur verbum, subdit, 
+      <lb ed="#V" n="55"/>quod formata cogitatio ab ea re quam 
+      <lb ed="#V" n="56"/>scimus, verbum est; et ibi com. 15. 
+      <lb ed="#V" n="57"/>cum praemisisset, simillima est visio 
+      <lb ed="#V" n="58"/>cogitationis visioni scientie, subdit,
+      quan<lb ed="#V" break="no" n="59"/>do ergo quod est in notitia, hoc est in 
+      <lb ed="#V" n="60"/>verbo, tunc est verum verbum; et Ca, 
+      <lb ed="#V" n="61"/>12. tunc enim est verbum simillimum rei 
+      <lb ed="#V" n="62"/>note de qua gignitur, et imago ejus, 
+      <lb ed="#V" n="63"/>quando de visione scientie, visio 
+      cogita<lb ed="#V" break="no" n="64"/>tionis exoritur, subdit, nec interest, 
+      <lb ed="#V" n="65"/>quando id didicerit, qi quod scit, 
+      loqui<lb ed="#V" break="no" n="66"/>tur; similiter, cap. 22. quando ad 
+      me<lb ed="#V" break="no" n="67"/>moriam meam, aciem cogitationis mee 
+      <lb ed="#V" n="68"/>adverto, ac si in corde meo dico quod 
+      <lb ed="#V" n="69"/>scio, etc. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e3385">
+               <lb ed="#V" n="70"/>Item <ref xml:id="jdso8u-d1e487-Rd1e3389">15. de Trin. 21.</ref>
+               <quote xml:id="jdso8u-d1e487-Qd1e3391">Quando loquitur 
+      <lb ed="#V" n="71"/>de luce in qua videntur vera</quote>, ipsa, 
+      in<lb ed="#V" break="no" n="72"/>quit, ostendit verbum verum esse 
+      <lb ed="#V" n="73"/>in te, qando de scientia tua 
+      gigni<lb ed="#V" break="no" n="74"/>tur, id est, quando quod scimus 
+      <lb ed="#V" n="75"/>dicimus. Haec ille. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e3406">
+               <lb ed="#V" n="76"/>Ex istis omnibus apparet, quod 
+      <lb ed="#V" n="77"/>illud, quod Augustinus tribuit 
+      <lb ed="#V" n="78"/>memoriae, ratione scientiae ut 
+      <lb ed="#V" n="79"/>gignenti, exponit se semper de 
+      <lb ed="#V" n="80"/>objecto praesente in memoria, 
+      <lb ed="#V" n="81"/>non est autem objectum 
+      prae<lb ed="#V" break="no" n="82"/>sens in memoria, ut memoria 
+      <lb ed="#V" n="83"/>intellectiva est per scientiam, ut 
+      <lb ed="#V" n="84"/>est habitus distinctus a specie; 
+      er<lb ed="#V" break="no" n="85"/>go oportet quod illam praesentiam 
+      <lb ed="#V" n="86"/>esse intelligat per speciem 
+      intelli<lb ed="#V" break="no" n="87"/>gibilem, et sub illa ratione sub qua 
+      <lb ed="#V" n="88"/>distinguitur ab habitu scientiae 
+      <!--0274.xml-->
+      <pb ed="#V" n="274"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>proprie sumptae ; et hoc modo 
+      eti<lb ed="#V" break="no" n="2"/>am debet accipi illud verbum 
+      Phi<lb ed="#V" break="no" n="3"/>losophi tertio de Anima, qui cum 
+      <lb ed="#V" n="4"/>praemisisset, quod anima est 
+      quodam<lb ed="#V" break="no" n="5"/>modo omnia, subdit quod per sensum 
+      <lb ed="#V" n="6"/>est sensibilia, et per scientiam scibilia. 
+      <lb ed="#V" n="7"/>Scientia quippe ibi tam apud 
+      Phi<lb ed="#V" break="no" n="8"/>losophum quam apud Augustinum 
+      <lb ed="#V" n="9"/>in locis praedictis, accipitur pro 
+      <lb ed="#V" n="10"/>ipsa praesentia habituali objecti in 
+      <lb ed="#V" n="11"/>memoria intellectiva, quae 
+      praesen<lb ed="#V" break="no" n="12"/>tia habitualis,est virtualiter 
+      scien<lb ed="#V" break="no" n="13"/>tia, quia in objecto (e) sic praesente 
+      <lb ed="#V" n="14"/>concipitur virtualiter tota scientia 
+      <lb ed="#V" n="15"/>de tali objecto. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e3476">
+               <lb ed="#V" n="16"/>Hec species (f) est illa scientia, 
+      <lb ed="#V" n="17"/>quae reducit intellectum de 
+      poten<lb ed="#V" break="no" n="18"/>tia essentiali ad acoidentalem 
+      se<lb ed="#V" break="no" n="19"/>cundum Aristotelem 8. Physicorum, 
+      <lb ed="#V" n="20"/>et 2. de Anima, non autem illa, quae 
+      <lb ed="#V" n="21"/>proprie dicitur scientia, quae est 
+      <lb ed="#V" n="22"/>habilitas quaedam derelicta ab 
+      a<lb ed="#V" break="no" n="23"/>ctibus. Nam ante istam ad primum 
+      <lb ed="#V" n="24"/>actum considerandi requiritur, 
+      <lb ed="#V" n="25"/>quod sit jam reductus intellectus 
+      <lb ed="#V" n="26"/>de potentia essentiali ad 
+      acciden<lb ed="#V" break="no" n="27"/>talem, alioquin non operaretur 
+      <lb ed="#V" n="28"/>tunc magis quam prius. Unde in 
+      <lb ed="#V" n="29"/>cognitione, species in qua relucet 
+      <lb ed="#V" n="30"/>quidditas, dicitur scientia, non 
+      <lb ed="#V" n="31"/>tantum virtualiter, quia totam 
+      <lb ed="#V" n="32"/>continet, sed formaliter potest 
+      di<lb ed="#V" break="no" n="33"/>ci habitus cognitivus, quia est 
+      <lb ed="#V" n="34"/>qualitas mansiva in intellectu 
+      dis<lb ed="#V" break="no" n="35"/>ponens ipsum ad actum. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e3522">
+               <lb ed="#V" n="36"/>Et ex hoc habetur argumentum 
+      <lb ed="#V" n="37"/>pro specie intelligibili, quia non 
+      <lb ed="#V" n="38"/>videtur quomodo aliqua scientia 
+      <lb ed="#V" n="39"/>tota dici possit una ratione primi 
+      <lb ed="#V" n="40"/>objecti, nisi quatenus illa scientia 
+      <lb ed="#V" n="41"/>continetur virtualiter in illo 
+      pri<lb ed="#V" break="no" n="42"/>mo objecto intelligibili. Non enim 
+      <lb ed="#V" n="43"/>tota illa scientia dicitur una ab 
+      ob<lb ed="#V" break="no" n="44"/>jeoto quatenus relucet in phanta- 
+      <!--0274.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>smate, quia illa non esset unitas 
+      a<lb ed="#V" break="no" n="46"/>licujus habitus intellectualis, sed 
+      <lb ed="#V" n="47"/>alicujus imaginabilis. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e3555">
+               <lb ed="#V" n="48"/>Quod arguitur post in secunda 
+      <lb ed="#V" n="49"/>opinione quod potentia, quee est 
+      <lb ed="#V" n="50"/>ad aliquem actum ordinata 
+      aotu<lb ed="#V" break="no" n="51"/>atur primo per illum actum, dico 
+      <lb ed="#V" n="52"/>quod quaelibet potentia 
+      apprehen<lb ed="#V" break="no" n="53"/>siva ut apprehensiva est, est in 
+      <lb ed="#V" n="54"/>potentia ad apprehendere primo 
+      <lb ed="#V" n="55"/>primitate perfectionis, licet non 
+      <lb ed="#V" n="56"/>primo primitate generationis, et 
+      <lb ed="#V" n="57"/>quandoque primo primitate 
+      gene<lb ed="#V" break="no" n="58"/>rationis, quando scilicet objectum 
+      <lb ed="#V" n="59"/>in se, est praesens tali potentiae ut 
+      <lb ed="#V" n="60"/>actu cognoscibile ab ea. Tunc enim 
+      <lb ed="#V" n="61"/>non oportet ante actum in 
+      poten<lb ed="#V" break="no" n="62"/>tia aliquid fieri, in quo ipsum 
+      ob<lb ed="#V" break="no" n="63"/>jectum sit praesens, sed primum 
+      <lb ed="#V" n="64"/>quod fit ab eo est actus. Quando 
+      <lb ed="#V" n="65"/>autem objectum non est natum in 
+      <lb ed="#V" n="66"/>se esse praesens, sub ratione actu 
+      <lb ed="#V" n="67"/>cognoscibilis a tali potentia, tunc 
+      <lb ed="#V" n="68"/>quelibet potentia apprehensiva, 
+      <lb ed="#V" n="69"/>est in potentia ad 
+      apprehensi<lb ed="#V" break="no" n="70"/>onem, et ad illud in quo 
+      cognosci<lb ed="#V" break="no" n="71"/>bile erit praesens, et prius ordine 
+      <lb ed="#V" n="72"/>originis est in potentia ad 
+      ha<lb ed="#V" break="no" n="73"/>bendum istam presentiam quam 
+      <lb ed="#V" n="74"/>ad habendum actum, et ita est in 
+      <lb ed="#V" n="75"/>proposito. Sensibilia enim non 
+      <lb ed="#V" n="76"/>sunt nata in se esse praesentia 
+      in<lb ed="#V" break="no" n="77"/>tellectui, sub ratione actu 
+      intelligi<lb ed="#V" break="no" n="78"/>bilium, sed tantum in specie 
+      intel<lb ed="#V" break="no" n="79"/>ligibili possunt sic esse praesentia; 
+      <lb ed="#V" n="80"/>et hoc quantum ad intellectionem 
+      <lb ed="#V" n="81"/>abstrac'ivam, de qua est sermo in 
+      <lb ed="#V" n="82"/>proposito, et ideo potentia 
+      appre<lb ed="#V" break="no" n="83"/>hensiva respectu talium, est in 
+      po<lb ed="#V" break="no" n="84"/>tentia ad duplicem actum et ab 
+      <lb ed="#V" n="85"/>agente approximato. Prius ordine 
+      <lb ed="#V" n="86"/>originis recipiet priorem actum 
+      <lb ed="#V" n="87"/>quam posteriorem, nec tamen 
+      in<lb ed="#V" break="no" n="88"/>telligo ita istos actus esse ordina- 
+      <!--0275.xml-->
+      <pb ed="#V" n="275"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>tos, quod prior sit ratio 
+      recipien<lb ed="#V" break="no" n="2"/>di respectu posterioris, sicut 
+      sci<lb ed="#V" break="no" n="3"/>licet superficies est ratio 
+      reci<lb ed="#V" break="no" n="4"/>piendi albedinem, tunc enim 
+      intel<lb ed="#V" break="no" n="5"/>lectus respectu nullius 
+      intelligibi<lb ed="#V" break="no" n="6"/>lis recipere posset actum 
+      secun<lb ed="#V" break="no" n="7"/>dum, qui est intellectio, nisi prius 
+      <lb ed="#V" n="8"/>haberet actum primum ut speciem 
+      <lb ed="#V" n="9"/>ejusdem objecti. Sed intelligo quod 
+      <lb ed="#V" n="10"/>intellectus de se, est ratio 
+      imme<lb ed="#V" break="no" n="11"/>diata recipiendi utrumque actum; 
+      <lb ed="#V" n="12"/>ipsi actus tamen inter se sunt 
+      or<lb ed="#V" break="no" n="13"/>dinati, quando objectum non est 
+      <lb ed="#V" n="14"/>natum esse praesens in se, quia 
+      <lb ed="#V" n="15"/>tunc oportet prius naturaliter 
+      es<lb ed="#V" break="no" n="16"/>se illum actum, quo objectum est 
+      <lb ed="#V" n="17"/>praesens ut intelligibile, quam 
+      il<lb ed="#V" break="no" n="18"/>lum qui elicitur circa objectum 
+      <lb ed="#V" n="19"/>intelligibile ut presens. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e3694">
+               <lb ed="#V" n="20"/>Si instetur contra istam 
+      solu<lb ed="#V" break="no" n="21"/>tionem, quia nunquam pluralitas 
+      <lb ed="#V" n="22"/>est ponenda nisi propter 
+      necessi<lb ed="#V" break="no" n="23"/>tatem primo Physicorum, hic autem 
+      <lb ed="#V" n="24"/>non videtur necessitas, quia 
+      ob<lb ed="#V" break="no" n="25"/>jectum videtur sufficienter 
+      pree<lb ed="#V" break="no" n="26"/>sens in phantasmate; ergo non est 
+      <lb ed="#V" n="27"/>ponenda ista species in intellectu. 
+      <lb ed="#V" n="28"/>Respondeo, quod necessitas est 
+      <lb ed="#V" n="29"/>semper dignificare naturam 
+      nobi<lb ed="#V" break="no" n="30"/>lem, quando non apparet aliquid 
+      <lb ed="#V" n="31"/>manifeste repugnans, sed magna 
+      <lb ed="#V" n="32"/>vilificatio naturae intellective ut 
+      <lb ed="#V" n="33"/>intellectiva est, videtur esse quod 
+      <lb ed="#V" n="34"/>non possit habere objectum suum 
+      <lb ed="#V" n="35"/>sibi praesens in se, absque 
+      mendi<lb ed="#V" break="no" n="36"/>oata praesentia a potentiis 
+      inferi<lb ed="#V" break="no" n="37"/>oribus, cum quibus contingenter 
+      <lb ed="#V" n="38"/>conjungitur in ratione potentiae, 
+      <lb ed="#V" n="39"/>et tamen qnod potentie alie 
+      infe<lb ed="#V" break="no" n="40"/>riores possint habere objectum 
+      <lb ed="#V" n="41"/>sibi praesens ut in se, et si 
+      intel<lb ed="#V" break="no" n="42"/>lectus possit habere objectum sibi 
+      <lb ed="#V" n="43"/>praesens in potentia inferiori, non 
+      <lb ed="#V" n="44"/>tamen summa praesentialitate 
+      <!--0275.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>possibili, praecedere actum 
+      intel<lb ed="#V" break="no" n="46"/>ligendi; et sicut aliis potentiis 
+      co<lb ed="#V" break="no" n="47"/>gnitivis, ita multo magis isti 
+      po<lb ed="#V" break="no" n="48"/>tentiae debet concedi objectum esse 
+      <lb ed="#V" n="49"/>summe praesens, quantum potest 
+      <lb ed="#V" n="50"/>esse presens ante actum 
+      cogno<lb ed="#V" break="no" n="51"/>scendi, et hoc non salvatur nisi in 
+      <lb ed="#V" n="52"/>specie intelligibili.Non etiam 
+      poni<lb ed="#V" break="no" n="53"/>tur perfectio summa possibilis 
+      po<lb ed="#V" break="no" n="54"/>tentiae cognitive, nisi ponatur eam 
+      <lb ed="#V" n="55"/>posse conservare speciem 
+      intelligi<lb ed="#V" break="no" n="56"/>bilem praeter actum, et ita habere 
+      <lb ed="#V" n="57"/>objectum suum praesens 
+      eonser<lb ed="#V" break="no" n="58"/>vatum sine actu, quia hoc 
+      concedi<lb ed="#V" break="no" n="59"/>tur sensitive, et perfectionis est in 
+      <lb ed="#V" n="60"/>cognitiva, quod non dependeat ab 
+      <lb ed="#V" n="61"/>aliquo in cognitione sua, sed quod 
+      <lb ed="#V" n="62"/>possit habere objectum praesens 
+      <lb ed="#V" n="63"/>sine dependentia ad aliam 
+      poten<lb ed="#V" break="no" n="64"/>tiam. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e3799"><!-- jdso-l1d3q6-n9 -->
+               <lb ed="#V" n="59"/>Secundo quaero : Utrum (a) 
+      me<lb ed="#V" break="no" n="60"/>moria intellectiva sit 
+      conservati<lb ed="#V" break="no" n="61"/>va speciei intelligibilis, cessante 
+      <lb ed="#V" n="62"/>actu intelligendi. Videtur quod 
+      <lb ed="#V" n="63"/>non, quia si conservaret unam 
+      <lb ed="#V" n="64"/>speciem, pari ratione et aliam 
+      <lb ed="#V" n="65"/>speciem alterius objecti, et sic 
+      <lb ed="#V" n="66"/>multas simul, consequens est 
+      fal<lb ed="#V" break="no" n="67"/>sum, ergo et antecedens. Probatio, 
+      <lb ed="#V" n="68"/>falsitatis consequentis, quia 
+      spe<lb ed="#V" break="no" n="69"/>cies non est nisi quedam 
+      configu<lb ed="#V" break="no" n="70"/>ratio intelligibilis in intellectu; 
+      <lb ed="#V" n="71"/>sed in corporalibus, est 
+      impossi<lb ed="#V" break="no" n="72"/>bile idem corpus figurari diversis 
+      <lb ed="#V" n="73"/>figuris, ergo similiter impossibile 
+      <lb ed="#V" n="74"/>est intellectum simul sic 
+      configu<lb ed="#V" break="no" n="75"/>rari diversis objectis per diversas 
+      <lb ed="#V" n="76"/>species, et haec est ratio 
+      Algaze<lb ed="#V" break="no" n="77"/>lis. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e3844">
+               <lb ed="#V" n="78"/>Secundo sic : Omnis qualitas 
+      <lb ed="#V" n="79"/>disponens intellectum ad 
+      operan<lb ed="#V" break="no" n="80"/>dum vel ad operationem, et 
+      mansi<lb ed="#V" break="no" n="81"/>va in eo est habitus 
+      intellectua<lb ed="#V" break="no" n="82"/>lis; sed species est qualitas 
+      que<lb ed="#V" break="no" n="83"/>dam disponens intellectum ad 
+      ope<lb ed="#V" break="no" n="84"/>rationem, igitur si est mansiva 
+      <lb ed="#V" n="85"/>post actum intelligendi, sequitur 
+      <lb ed="#V" n="86"/>quod esset habitus intellectualis; 
+      <lb ed="#V" n="87"/>sed hoc est falsum, quia species 
+      <lb ed="#V" n="88"/>intelligibilis praecedit actum natu- 
+      <!--0280.xml-->
+      <pb ed="#V" n="280"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>raliter, et habitus sequitur, nam 
+      <lb ed="#V" n="2"/>generatur ex actibus ; ergo, etc. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e3881">
+               <lb ed="#V" n="3"/>Contra, intellectus est in 
+      poten<lb ed="#V" break="no" n="4"/>tia accidentali, non nisi quando 
+      <lb ed="#V" n="5"/>habet speciem intelligibilem, patet 
+      <lb ed="#V" n="6"/>ex Philosopho 2. de Anima, et 8. 
+      Phy<lb ed="#V" break="no" n="7"/>sicorm. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e3894">
+               <lb ed="#V" n="8"/>Hic est una (b) opinio, quae 
+      po<lb ed="#V" break="no" n="9"/>nitur ab Avicenna 6. Naturalium 
+      par<lb ed="#V" break="no" n="10"/>te 5. cap. 6. vel 7. quod ipse 
+      sense<lb ed="#V" break="no" n="11"/>rit speciem intelligibilem non 
+      ha<lb ed="#V" break="no" n="12"/>bere esse mansivum in anima post 
+      <lb ed="#V" n="13"/>actualem considerationem; et 
+      di<lb ed="#V" break="no" n="14"/>cunt ipsum hoc probare per hoc, 
+      <lb ed="#V" n="15"/>quod in organo sensus (quia non 
+      <lb ed="#V" n="16"/>est virtus cognitiva) potest esse 
+      <lb ed="#V" n="17"/>species repraesentativa objecti, 
+      <lb ed="#V" n="18"/>hoc est, quia organum non est 
+      <lb ed="#V" n="19"/>natum cognoscere objectum 
+      sen<lb ed="#V" break="no" n="20"/>sibiliter; sed in intellectu, ex quo 
+      <lb ed="#V" n="21"/>est virtus naturaliter cognitiva, 
+      <lb ed="#V" n="22"/>non erit aliqua species 
+      repraesen<lb ed="#V" break="no" n="23"/>tans objectum, nisi ipsum 
+      obje<lb ed="#V" break="no" n="24"/>ctum sit ibi intellectualiter, et 
+      se<lb ed="#V" break="no" n="25"/>cundum actualem 
+      considerati<lb ed="#V" break="no" n="26"/>onem vel intellectionem. Hanc 
+      ra<lb ed="#V" break="no" n="27"/>tionem dicunt ipsum innuere, cap. 5. 
+      <lb ed="#V" n="28"/>post medium, cum dicit, 
+      impossi<lb ed="#V" break="no" n="29"/>bile est formam esse in anima in 
+      effe<lb ed="#V" break="no" n="30"/>ctu perfecte, et non intelligi ab ea in 
+      ef<lb ed="#V" break="no" n="31"/>fectu perfecte. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e3949">
+               <lb ed="#V" n="32"/>Dicunt quidam quod haec opinio 
+      <lb ed="#V" n="33"/>fuit Avicennae, quod nnlla species 
+      <lb ed="#V" n="34"/>manet in parte intellectiva post 
+      <lb ed="#V" n="35"/>actum intelligendi, quod videtur, 
+      <lb ed="#V" n="36"/>quia 6. Maturalium parte 5. cap. 6. 
+      di<lb ed="#V" break="no" n="37"/>cit quod in organo sensus 
+      conser<lb ed="#V" break="no" n="38"/>vatur species post recessum 
+      sen<lb ed="#V" break="no" n="39"/>sibilis, et hoc solum, quia 
+      orga<lb ed="#V" break="no" n="40"/>num non est natum cognoscere 
+      <lb ed="#V" n="41"/>objectum. Sed intellectus non est 
+      <lb ed="#V" n="42"/>potentia organica, et ideo de se 
+      <lb ed="#V" n="43"/>est dispositus ad recipiendum, non 
+      <lb ed="#V" n="44"/>autem ad conservandum, quia in 
+      <!--0280.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>ipso non potest fieri talis 
+      impres<lb ed="#V" break="no" n="46"/>sio aliqua, sed tantum 
+      intellectua<lb ed="#V" break="no" n="47"/>lis immutatio. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e3991">
+               <lb ed="#V" n="48"/>Modus (c) suus est, quod posuit 
+      <lb ed="#V" n="49"/>ordinem in Intelligentiis, et dixit 
+      <lb ed="#V" n="50"/>ultimam Intelligentiam influere 
+      <lb ed="#V" n="51"/>speciem in intellectum nostrum, 
+      <lb ed="#V" n="52"/>ita quod sicut Plato posuit, quod 
+      <lb ed="#V" n="53"/>er conversionem intellectus 
+      no<lb ed="#V" break="no" n="54"/>stri ad ideam alicujus rei, 
+      habea<lb ed="#V" break="no" n="55"/>mus scientiam alicujus rei. Ita 
+      <lb ed="#V" n="56"/>Avicenna posuit, quod per 
+      conver<lb ed="#V" break="no" n="57"/>sionem intellectus nostri ad illam 
+      <lb ed="#V" n="58"/>Intelligentiam naturaliter 
+      influen<lb ed="#V" break="no" n="59"/>tem, habemus notitiam et 
+      scien<lb ed="#V" break="no" n="60"/>tiam rei, quam ad sensum eramus 
+      <lb ed="#V" n="61"/>dispositi cogitare. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e4025">
+               <lb ed="#V" n="62"/>Quod si contra eum tunc 
+      dice<lb ed="#V" break="no" n="63"/>retur, quod secundum hoc 
+      nun<lb ed="#V" break="no" n="64"/>quam haberemus habitum 
+      scien<lb ed="#V" break="no" n="65"/>tiae, ex quo species non manebant 
+      <lb ed="#V" n="66"/>in intellectu nostro nisi in actuali 
+      <lb ed="#V" n="67"/>consideratione, quod tantum erat 
+      <lb ed="#V" n="68"/>in actuali conversione ad illam 
+      <lb ed="#V" n="69"/>Intelligentiam. Respondebat (
+      se<lb ed="#V" break="no" n="70"/>cundum quod sibi imponitur) 
+      <lb ed="#V" n="71"/>quod ex frequenti conversione 
+      <lb ed="#V" n="72"/>ad illam Intelligentiam, 
+      ge<lb ed="#V" break="no" n="73"/>neratur quaedam habilitas in 
+      ho<lb ed="#V" break="no" n="74"/>mine, quae habitus potest 
+      di<lb ed="#V" break="no" n="75"/>ci per quam erat facilis et 
+      habi<lb ed="#V" break="no" n="76"/>lis ad se convertendum, et per 
+      <lb ed="#V" n="77"/>consequens ad actum 
+      conside<lb ed="#V" break="no" n="78"/>ranli secundum scientiam. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e4064">
+               <lb ed="#V" n="79"/>An hoc (d) senserit Avicenna an 
+      <lb ed="#V" n="80"/>non, non curo, tamen posset bene 
+      <lb ed="#V" n="81"/>excusari. Nam ipse dicit ibidem 
+      <lb ed="#V" n="82"/>cap. 6. quod aliquis de questione sibi 
+      <lb ed="#V" n="83"/>proposita, potest habere certitudinem, 
+      <lb ed="#V" n="84"/>quod scit eam solvere, et tamen on 
+      ha<lb ed="#V" break="no" n="85"/>bet in promptu solutionem. qu0d non 
+      <lb ed="#V" n="86"/>esset nisi apud, se haberet speciem 
+      <lb ed="#V" n="87"/>intelligibilem. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e4086">
+               <lb ed="#V" n="88"/>Item, ap. 5. vult quod singula- 
+      <!--0281.xml-->
+      <pb ed="#V" n="281"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>ria non faciunt aliquam 
+      diversita<lb ed="#V" break="no" n="2"/>tem ad intelligendum, unde vult 
+      <lb ed="#V" n="3"/>quod facta abstractione 
+      quiddita<lb ed="#V" break="no" n="4"/>tis ab uno singulari, non oportet 
+      <lb ed="#V" n="5"/>quod fiat ab aliis ejusdem speciei 
+      <lb ed="#V" n="6"/>concurrentibus, ipse expresse ibi 
+      <lb ed="#V" n="7"/>ponit abstractionem speciei a 
+      sin<lb ed="#V" break="no" n="8"/>gulari. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e4115">
+               <lb ed="#V" n="9"/>Item parte 4. cap. 1. dicit quod 
+      <lb ed="#V" n="10"/>thesaurus intellectus est memoria, q0d 
+      <lb ed="#V" n="11"/>nihil est dictu, nisi species ibi 
+      con<lb ed="#V" break="no" n="12"/>servarentur; et 5. Metaph, dicit 
+      <lb ed="#V" n="13"/>qu0d species in intellectu respectu 
+      intel<lb ed="#V" break="no" n="14"/>lectus est singularis, sed respectu objecti 
+      <lb ed="#V" n="15"/>est universalis. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e4133">
+               <lb ed="#V" n="16"/>Qui ergo vellet salvare 
+      Avicen<lb ed="#V" break="no" n="17"/>nam, diceret (ut videtur esse ejus 
+      <lb ed="#V" n="18"/>intentio,) quod duplex est species 
+      <lb ed="#V" n="19"/>in intellectu; una quae 
+      abstrahi<lb ed="#V" break="no" n="20"/>tur a sensibilibus, et haec manet 
+      <lb ed="#V" n="21"/>actu intellectus transeunte; alia 
+      <lb ed="#V" n="22"/>quae habetur ex influxu 
+      Intelli<lb ed="#V" break="no" n="23"/>gentie ad quam convertitur, et 
+      <lb ed="#V" n="24"/>haec non manet, actu intellectus 
+      <lb ed="#V" n="25"/>non manente; nec est necesse, 
+      <lb ed="#V" n="26"/>quod maneat illa, quia semper 
+      In<lb ed="#V" break="no" n="27"/>telligentia illa naturaliter influit 
+      <lb ed="#V" n="28"/>species in intellectum ad se 
+      con<lb ed="#V" break="no" n="29"/>versum, per modum quo aliqui 
+      di<lb ed="#V" break="no" n="30"/>cunt intellectum separatum 
+      intel<lb ed="#V" break="no" n="31"/>ligere, sed per influxum 
+      specie<lb ed="#V" break="no" n="32"/>rum a Deo non ab Intelligentia. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e4172"><!-- jdso-l1d3q6-n10 -->
+               <lb ed="#V" n="54"/>Contra illam (a) opinionem, quae 
+      <lb ed="#V" n="55"/>diceret quod non manent species, 
+      <lb ed="#V" n="56"/>sicut imponitur Avicenne, arguo 
+      <lb ed="#V" n="57"/>sic : intellectus habens habitum 
+      <lb ed="#V" n="58"/>scientiae et non considerans actu, 
+      <lb ed="#V" n="59"/>est in potentia accidentali ex 
+      secun<lb ed="#V" break="no" n="60"/>do de Anima ; sed supposita 
+      hypo<lb ed="#V" break="no" n="61"/>thesi, non considerans actu, est 
+      <lb ed="#V" n="62"/>in potentia essentiali respectu 
+      <lb ed="#V" n="63"/>illius, et vocatur potentia 
+      essen<lb ed="#V" break="no" n="64"/>tialis, quando ad hoc quod exeat in 
+      <lb ed="#V" n="65"/>actum, necessario praeexigitur 
+      <lb ed="#V" n="66"/>quod acquirat aliquam formam 
+      <lb ed="#V" n="67"/>per quam exeat in actum. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e4207">
+               <lb ed="#V" n="68"/>Secundo sic : nihil praecedens 
+      <lb ed="#V" n="69"/>actionem magis requirit actionem 
+      <lb ed="#V" n="70"/>coexistentem quam principiun 
+      il<lb ed="#V" break="no" n="71"/>lius actionis, ex quo est prius 
+      acti<lb ed="#V" break="no" n="72"/>one sicut et principium agendi; 
+      <lb ed="#V" n="73"/>sed principium agendi non 
+      neces<lb ed="#V" break="no" n="74"/>sario requirit coexistentiam 
+      acti<lb ed="#V" break="no" n="75"/>onis, quia omnia principia 
+      natura<lb ed="#V" break="no" n="76"/>lium possunt impediri ab 
+      actioni<lb ed="#V" break="no" n="77"/>bus suis, ut propter 
+      indispositi<lb ed="#V" break="no" n="78"/>onem subjecti, instrumenti vel 
+      or<lb ed="#V" break="no" n="79"/>gani, et tamen stabunt principia; 
+      <lb ed="#V" n="80"/>ergo cum species sit naturaliter 
+      <lb ed="#V" n="81"/>prior actione intelligendi, ut patet 
+      <lb ed="#V" n="82"/>ex praedictis, non coexigit 
+      existen<lb ed="#V" break="no" n="83"/>tiam actionis, et sic transeunte 
+      <lb ed="#V" n="84"/>vel non existente actu 
+      intellecti<lb ed="#V" break="no" n="85"/>onis, manebit species intelligibilis.
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e4249">
+      <!--0286.xml-->
+               <pb ed="#V" n="286"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>Tertio sic: prius natura potest 
+      <lb ed="#V" n="2"/>esse sine posteriori, nisi in priori 
+      <lb ed="#V" n="3"/>sit necessitas respectu 
+      posteri<lb ed="#V" break="no" n="4"/>oris, ut est in subjecto respectu 
+      <lb ed="#V" n="5"/>proprii accidentis, sed species est 
+      <lb ed="#V" n="6"/>prior actu intelligendi, et non facit 
+      <lb ed="#V" n="7"/>necessitatem respectu actus 
+      intel<lb ed="#V" break="no" n="8"/>ligendi; tum quia intellectio est 
+      <lb ed="#V" n="9"/>voluntaria per participationem, 
+      <lb ed="#V" n="10"/>quia intelligimus cum volumus, 
+      <lb ed="#V" n="11"/>tertio de Anima; tum quia non 
+      ob<lb ed="#V" break="no" n="12"/>stante, quod intellectus habeat 
+      spe<lb ed="#V" break="no" n="13"/>ciem intelligibilem, potest 
+      impe<lb ed="#V" break="no" n="14"/>diri ab actione, sicut dictum est; 
+      <lb ed="#V" n="15"/>ergo, ete. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e4291">
+               <lb ed="#V" n="16"/>Quarto sic : quod est perfectionis 
+      <lb ed="#V" n="17"/>in inferiori, est eminentius in 
+      su<lb ed="#V" break="no" n="18"/>periori ejusdem rationis et 
+      gene<lb ed="#V" break="no" n="19"/>ris; sed transeunte actu 
+      imagina<lb ed="#V" break="no" n="20"/>tionis sive sensitivae partis, 
+      retine<lb ed="#V" break="no" n="21"/>re species est perfectionis, ergo 
+      <lb ed="#V" n="22"/>eminentius hoc erit in parte 
+      intel<lb ed="#V" break="no" n="23"/>lectiva; est enim intellectiva 
+      ejus<lb ed="#V" break="no" n="24"/>dem generis cum sensitiva pro 
+      <lb ed="#V" n="25"/>tanto, quia cognitiva sicut 
+      sensiti<lb ed="#V" break="no" n="26"/>va eminentior tamen. Minor 
+      pro<lb ed="#V" break="no" n="27"/>batur, nam in quolibet 
+      perfecti<lb ed="#V" break="no" n="28"/>onis est quanto minus indiget 
+      ali<lb ed="#V" break="no" n="29"/>quo extrinseco in sua operatione; 
+      <lb ed="#V" n="30"/>sed ceteris paribus, retinendo 
+      spe<lb ed="#V" break="no" n="31"/>cies sensus minus indiget 
+      extrin<lb ed="#V" break="no" n="32"/>secis in operatione sua, ergo hoc 
+      <lb ed="#V" n="33"/>est perfectionis in eo. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e4333">
+               <lb ed="#V" n="34"/>Probatur etiam ex alio, quia 
+      <lb ed="#V" n="35"/>omne illud quod arguit 
+      indepen<lb ed="#V" break="no" n="36"/>dentiam, est perfectionis; sed 
+      ha<lb ed="#V" break="no" n="37"/>bere speciem et non intueri, vel 
+      <lb ed="#V" n="38"/>actu intelligere, arguit quod 
+      intel<lb ed="#V" break="no" n="39"/>lectus non dependet ab actu 
+      intel<lb ed="#V" break="no" n="40"/>ligendi; ergo, etc. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e4351">
+               <lb ed="#V" n="41"/>Aliqui adducunt unam (b) 
+      rati<lb ed="#V" break="no" n="42"/>onem ad propositum, quae magis 
+      <lb ed="#V" n="43"/>congruentia est quam ratio, et est 
+      <lb ed="#V" n="44"/>talis : uniuscujusque permanentia 
+      <!--0286.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>attenditur penes nobilitatem, vel 
+      <lb ed="#V" n="46"/>ex parte nobilitatis illius quod 
+      re<lb ed="#V" break="no" n="47"/>cipit sive recipientis, nam omne 
+      <lb ed="#V" n="48"/>quod recipitur, recipitur per modum rei 
+      <lb ed="#V" n="49"/>recipientis, non per modum ei 
+      re<lb ed="#V" break="no" n="50"/>ceptae. Cum igitur species sit res 
+      <lb ed="#V" n="51"/>nobilis, et recipiatur in intellectu, 
+      <lb ed="#V" n="52"/>qui est inoorruptibilis; ergo ipsa 
+      <lb ed="#V" n="53"/>manebit, actu non manente. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e4386">
+               <lb ed="#V" n="54"/>Respondeo, non valet, nam actus 
+      <lb ed="#V" n="55"/>est res nobilior quam species,et 
+      re<lb ed="#V" break="no" n="56"/>cipitur in intellectu; ergo in 
+      intel<lb ed="#V" break="no" n="57"/>lectu seipso non manente, non 
+      se<lb ed="#V" break="no" n="58"/>quitur. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e4400"><!-- jdso-l1d3q6-n11 -->
+               <lb ed="#V" n="52"/>Ad questionem (a) igitur 
+      dicen<lb ed="#V" break="no" n="53"/>dum, quod manent species in 
+      me<lb ed="#V" break="no" n="54"/>moria, aotu intelligendi non 
+      ma<lb ed="#V" break="no" n="55"/>nente. Cujus ratio est, quia ut 
+      ha<lb ed="#V" break="no" n="56"/>betur tertio de Anima, intellectus 
+      <lb ed="#V" n="57"/>inuanfum intellectus, potest esse 
+      sa<lb ed="#V" break="no" n="58"/>piens de se; sed de se nullo modo 
+      <lb ed="#V" n="59"/>esset sapiens de aliquo subjecto, 
+      <lb ed="#V" n="60"/>nisi inquantum esset sibi praesens 
+      <lb ed="#V" n="61"/>in ratione cognoscibilis, sed hoe 
+      <lb ed="#V" n="62"/>non contingit nisi per speciem 
+      in<lb ed="#V" break="no" n="63"/>telligibilem; ergo. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e4430">
+               <lb ed="#V" n="64"/>Sed tunc (b) restat una 
+      difficul<lb ed="#V" break="no" n="65"/>tas, oum ex qto habet speciem in 
+      <lb ed="#V" n="66"/>qua relucet objectum, qare in 
+      a<lb ed="#V" break="no" n="67"/>ctu intelligendi oportet intellectum 
+      <lb ed="#V" n="68"/>converti ad phantasmata, et quod 
+      <lb ed="#V" n="69"/>oporteat converti dicit 
+      Philoso<lb ed="#V" break="no" n="70"/>phus 3. de Anim, dicit enim quod 
+      <lb ed="#V" n="71"/>quidqnid intelligimus, necesse est 
+      <lb ed="#V" n="72"/>simul phantasmata speculari. Hoc 
+      <lb ed="#V" n="73"/>etiam ostenditur experientia, alias 
+      <lb ed="#V" n="74"/>leso organo phantasiae posset 
+      <lb ed="#V" n="75"/>esse intellectus in actu recto 
+      intel<lb ed="#V" break="no" n="76"/>ligendi, ex quo species habuisset, 
+      <lb ed="#V" n="77"/>cujus contrarium videmus. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e4463">
+               <lb ed="#V" n="78"/>Ad hoc respondent quidam, quod 
+      <lb ed="#V" n="79"/>pro tanto oportet fieri 
+      conversi<lb ed="#V" break="no" n="80"/>onem ad phantasmata, quia 
+      pro<lb ed="#V" break="no" n="81"/>prium objectum intellectus 
+      con<lb ed="#V" break="no" n="82"/>juncti est quidditas rei materialis, 
+      <lb ed="#V" n="83"/>quae non est nisi in hoc singulari 
+      <lb ed="#V" n="84"/>vel in illo, ideo non cognoscitur 
+      <lb ed="#V" n="85"/>perfecte, nisi existens in hoc vel 
+      <lb ed="#V" n="86"/>in particulari vel singulari. 
+      Singu<lb ed="#V" break="no" n="87"/>larium autem est phantasma, et 
+      <!--0292.xml-->
+      <pb ed="#V" n="292"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>ideo oportet quod ad hoc, quod 
+      <lb ed="#V" n="2"/>intellectus intelligat objectum 
+      <lb ed="#V" n="3"/>suum, convertat se ad 
+      phan<lb ed="#V" break="no" n="4"/>tasma, ut speculetur naturam 
+      <lb ed="#V" n="5"/>universalem existentem in 
+      parti<lb ed="#V" break="no" n="6"/>culari. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e4507">
+               <lb ed="#V" n="7"/>Sed haec responsio nulla est, 
+      <lb ed="#V" n="8"/>quia aut cognovit primo 
+      singula<lb ed="#V" break="no" n="9"/>re vel universale. Non singulare, 
+      <lb ed="#V" n="10"/>quia tantum cognovit singulare 
+      <lb ed="#V" n="11"/>per reflexionem, secundum eos. 
+      <lb ed="#V" n="12"/>Si universale, tunc arguo sic : 
+      <lb ed="#V" n="13"/>nunquam secundum totam suam 
+      <lb ed="#V" n="14"/>indifferentiam, potest universale 
+      <lb ed="#V" n="15"/>cognosci in inferiori, nec tanquam 
+      <lb ed="#V" n="16"/>in objecto, nec tanquam in 
+      re<lb ed="#V" break="no" n="17"/>praesentativo.
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e4533">
+               <lb ed="#V" n="18"/>Praeterea, dato quod verum 
+      es<lb ed="#V" break="no" n="19"/>set, quod quidditas rei materialis 
+      <lb ed="#V" n="20"/>esset proprium objectum 
+      intelle<lb ed="#V" break="no" n="21"/>ctus conjuncti, quod tamen falsum 
+      <lb ed="#V" n="22"/>est, ut supra est ostensum, tamen 
+      <lb ed="#V" n="23"/>ratio sua non est vera; nam 
+      secun<lb ed="#V" break="no" n="24"/>dum suam rationem, Angelus cum 
+      <lb ed="#V" n="25"/>cognoscat perfecte quidditatem 
+      <lb ed="#V" n="26"/>rei materialis, oportet quod 
+      ip<lb ed="#V" break="no" n="27"/>sam aspiciat in phantasmate, 
+      <lb ed="#V" n="28"/>quod est falsum. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e4559">
+               <lb ed="#V" n="29"/>Preterea, species Angeli sive 
+      <lb ed="#V" n="30"/>quidditas Angelica, non minus 
+      <lb ed="#V" n="31"/>existit in supposito suae speciei, 
+      <lb ed="#V" n="32"/>quam quidditas rei materialis in 
+      <lb ed="#V" n="33"/>individuo ejus; si ergo Angelus 
+      <lb ed="#V" n="34"/>non abstrahit, nullo modo 
+      intelli<lb ed="#V" break="no" n="35"/>git quidditatem suae speciei sub 
+      <lb ed="#V" n="36"/>ratione universalis. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e4580">
+               <lb ed="#V" n="37"/>Licet ergo quidditas non existat 
+      <lb ed="#V" n="38"/>nisi in supposito vel singulari, 
+      <lb ed="#V" n="39"/>potest tamen intelligi ab 
+      intelle<lb ed="#V" break="no" n="40"/>ctu, non intelligendo quod existat 
+      <lb ed="#V" n="41"/>in eo, et sic falsum est quod 
+      assu<lb ed="#V" break="no" n="42"/>mit, scilicet quod non possit 
+      in<lb ed="#V" break="no" n="43"/>telligi quidditas, nisi ut existens in 
+      <lb ed="#V" n="44"/>singulari intelligatur. Non enim 
+      <!--0292.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>est de ratione quidditatis, ut 
+      quid<lb ed="#V" break="no" n="46"/>ditas est, quod in singulari existat, 
+      <lb ed="#V" n="47"/>licet non nisi in eo existat 
+      rea<lb ed="#V" break="no" n="48"/>liter. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e4613">
+               <lb ed="#V" n="49"/>Ideo dicendum (c) quod duplex 
+      <lb ed="#V" n="50"/>est necessitas conversionis 
+      intel<lb ed="#V" break="no" n="51"/>lectus ad phantasma. Una est 
+      con<lb ed="#V" break="no" n="52"/>formitas actionum potentiae 
+      in<lb ed="#V" break="no" n="53"/>tellective et phantasiae, quia 
+      quid<lb ed="#V" break="no" n="54"/>quid intelligimus in universali, 
+      <lb ed="#V" n="55"/>illud idem phantasiamur in suo 
+      <lb ed="#V" n="56"/>singulari et simul necessario. Ex 
+      <lb ed="#V" n="57"/>quo accidit, quod impedita 
+      opera<lb ed="#V" break="no" n="58"/>tione phantasiae impeditur 
+      intel<lb ed="#V" break="no" n="59"/>lectus, sicut simul operatio 
+      sen<lb ed="#V" break="no" n="60"/>sus communis et particularis, 
+      <lb ed="#V" n="61"/>et impedita operatione sensus 
+      <lb ed="#V" n="62"/>particularis, impeditur operatio 
+      <lb ed="#V" n="63"/>sensus communis. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e4648">
+               <lb ed="#V" n="64"/>Quoad causam secundam vel 
+      ne<lb ed="#V" break="no" n="65"/>cessitatem, est intelligendum quod 
+      <lb ed="#V" n="66"/>species intelligibilis abstrahitur 
+      <lb ed="#V" n="67"/>a phantasmate, ut actu per ipsum 
+      <lb ed="#V" n="68"/>phantasiatur objectum particulare 
+      <lb ed="#V" n="69"/>phantasia. Antequam igitur 
+      intel<lb ed="#V" break="no" n="70"/>lectus habeat speciem, 
+      neces<lb ed="#V" break="no" n="71"/>sario oportet ipsum converti ad 
+      <lb ed="#V" n="72"/>phantasmata, sicut proprium 
+      pas<lb ed="#V" break="no" n="73"/>sivum convertitur ad suum 
+      pro<lb ed="#V" break="no" n="74"/>prium activum, a quo simul 
+      <lb ed="#V" n="75"/>et ab intellectu agente recipit 
+      <lb ed="#V" n="76"/>speciem intelligibilem, et si eam 
+      <lb ed="#V" n="77"/>habet recipit intensionem actus, 
+      <lb ed="#V" n="78"/>quia clarius videt objectum. 
+      <lb ed="#V" n="79"/>Stante enim voluntate ad hoc, et 
+      <lb ed="#V" n="80"/>phantasia non fatigata, quanto 
+      <lb ed="#V" n="81"/>ipsa est magis in actu ordinato, 
+      <lb ed="#V" n="82"/>intellectus intensius videt 
+      obje<lb ed="#V" break="no" n="83"/>ctum suum proprium. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e4694">
+               <lb ed="#V" n="84"/>Sed dices, si actus est intensior, 
+      <lb ed="#V" n="85"/>quanto plus phantasia est in actu; 
+      <lb ed="#V" n="86"/>ergo videtur quod non habeat 
+      ter<lb ed="#V" break="no" n="87"/>minum, cujus falsitas patet in 
+      <lb ed="#V" n="88"/>patria. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e4707">
+      <!--0293.xml-->
+               <pb ed="#V" n="293"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>Dicendum, quod generaliter in 
+      <lb ed="#V" n="2"/>his, quae suscipiunt magis et 
+      mi<lb ed="#V" break="no" n="3"/>nus sicut in habitibus, non 
+      qui<lb ed="#V" break="no" n="4"/>libet actus auget habitum, vel 
+      sal<lb ed="#V" break="no" n="5"/>tem ille actus, qui non virtualiter 
+      <lb ed="#V" n="6"/>continet ipsum generatum, unde 
+      <lb ed="#V" n="7"/>aquam calidam non facit 
+      calidi<lb ed="#V" break="no" n="8"/>orem modicus ignis, vel modicus 
+      <lb ed="#V" n="9"/>calor, puta tepidus, sed calor 
+      in<lb ed="#V" break="no" n="10"/>tensior, puta calor, qui virtute 
+      <lb ed="#V" n="11"/>est talis. Si autem forme tales 
+      <lb ed="#V" n="12"/>habent terminum, non amplius 
+      <lb ed="#V" n="13"/>illi actus intendunt habitum, ita 
+      <lb ed="#V" n="14"/>est in proposito. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e4746">
+               <lb ed="#V" n="15"/>(d) Ad argumentum primum 
+      di<lb ed="#V" break="no" n="16"/>cendum, quod sunt ibi plures 
+      si<lb ed="#V" break="no" n="17"/>mul. Ad probationem dicendum, 
+      <lb ed="#V" n="18"/>quod secundum Philosophum 4. 
+      <lb ed="#V" n="19"/>Metaph. et Commtentatorem, ea quae 
+      <lb ed="#V" n="20"/>oppositionem habent in re, non 
+      <lb ed="#V" n="21"/>habent oppositionem in mente. 
+      <lb ed="#V" n="22"/>Nam species contrariorum simul 
+      <lb ed="#V" n="23"/>sunt in anima, cum tamen 
+      con<lb ed="#V" break="no" n="24"/>traria simul esse non possint in 
+      <lb ed="#V" n="25"/>eodem subjecto ; possunt 
+      ta<lb ed="#V" break="no" n="26"/>men aliqualiter esse idem in esse 
+      <lb ed="#V" n="27"/>cognito, nam unum est ratio 
+      co<lb ed="#V" break="no" n="28"/>gnoscendi alterum, sicut rectum 
+      <lb ed="#V" n="29"/>est judex sui et obliqui 1. de Anima. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e4782">
+               <lb ed="#V" n="30"/>Ad secundum dicitur, quod illa 
+      <lb ed="#V" n="31"/>species dicitur, et est habitus, non 
+      <lb ed="#V" n="32"/>tamen ejusdem rationis cum illo, 
+      <lb ed="#V" n="33"/>qui per actus acquiritur. Nam ex 
+      <lb ed="#V" n="34"/>actibus, non acquiritur nisi 
+      habili<lb ed="#V" break="no" n="35"/>tas ad actus consimiles, nunquam 
+      <lb ed="#V" n="36"/>tamen per illam habilitatem fit 
+      ob<lb ed="#V" break="no" n="37"/>jectum in intellectu praesens, per 
+      <lb ed="#V" n="38"/>habitum autem qui est species, fit 
+      <lb ed="#V" n="39"/>praesens. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e4806">
+      <!--0303.xml-->
+      <!-- jdso-l1d3q6-n12 -->
+               <cb ed="#V" n="b"/>
+               <lb ed="#V" n="43"/>(a) Queritur utrum in intellectu 
+      <lb ed="#V" n="44"/>nostro sit actualis notitia genita 
+      <lb ed="#V" n="45"/>vel producta. Arguo quod non : 
+      <lb ed="#V" n="46"/>actionis non est actio, nec ut 
+      <lb ed="#V" n="47"/>termini, nec 'ut subjecti, nec 
+      pas<lb ed="#V" break="no" n="48"/>sionis est passio 5. Physic. sed 
+      <lb ed="#V" n="49"/>notitia actualis est actio vel 
+      pas<lb ed="#V" break="no" n="50"/>sio; ergo ipsa non est genita vel 
+      <lb ed="#V" n="51"/>producta, quia hoc esset alia 
+      pas<lb ed="#V" break="no" n="52"/>sione vel actione, et ita esset 
+      <lb ed="#V" n="53"/>terminus actionis vel  passionis. 
+      <lb ed="#V" n="54"/>Minorem probo primo sic : noti-. 
+      <lb ed="#V" n="55"/>tia est actus secundus, sed omnis 
+      <lb ed="#V" n="56"/>actus secundus est actio vel 
+      pas<lb ed="#V" break="no" n="57"/>sio; ergo. Secundo sic : nullum 
+      <lb ed="#V" n="58"/>entium consistit praecise in fieri 
+      <lb ed="#V" n="59"/>et successione, nisi sit actio vel 
+      <lb ed="#V" n="60"/>passio; notitia non est 
+      permanen<lb ed="#V" break="no" n="61"/>tium, ergo, etc. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e4856">
+               <lb ed="#V" n="62"/>Tertio sic, Philosophus 9. Metaph. 
+      <lb ed="#V" n="63"/>distinguit actionem in 
+      immanen<lb ed="#V" break="no" n="64"/>tem et transeuntem ; sed notitia 
+      <lb ed="#V" n="65"/>est operatio immanens, ergo est 
+      <lb ed="#V" n="66"/>actio, quia continetur sub una 
+      <lb ed="#V" n="67"/>spevie actionis scilicet 
+      immanen<lb ed="#V" break="no" n="68"/>tis. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e4874">
+               <lb ed="#V" n="69"/>Secundo sic ad principale : <ref xml:id="jdso8u-d1e487-Rd1e4878">
+      Au<lb ed="#V" break="no" n="70"/>gustinus 4. super Genes. cap. 8.</ref> dicit 
+      <lb ed="#V" n="71"/>quod <quote xml:id="jdso8u-d1e487-Qd1e4885">aer presente lumine non est 
+      <lb ed="#V" n="72"/>factus lucidus; sed fit</quote>, quia si factus 
+      <lb ed="#V" n="73"/>esset lucidus, et non fieret,absente 
+      <lb ed="#V" n="74"/>corpore luminoso maneret 
+      luci<lb ed="#V" break="no" n="75"/>dus. Ex his habeo, quod illud quod 
+      <lb ed="#V" n="76"/>factum est, intranee et de se 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e4900">
+               <lb ed="#V" n="77"/>manet; sed illa notitia non manet, 
+      <lb ed="#V" n="78"/>ergo non est facta, nec est genita. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e4907">
+               <lb ed="#V" n="79"/>Tertio sic, Philosophus 7. 
+      Meta<lb ed="#V" break="no" n="80"/>physic. probat quod formae non est 
+      <lb ed="#V" n="81"/>generatio, sed tantum compositi; 
+      <lb ed="#V" n="82"/>sed notitia non dicit compositum, 
+      <lb ed="#V" n="83"/>sed tantum formam, ergo, etc. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e4921">
+               <lb ed="#V" n="84"/>Contra, <ref xml:id="jdso8u-d1e487-Rd1e4925">Augustinus de Trinit. 
+      <lb ed="#V" n="85"/>cap. 12. et 13.</ref>
+               <quote xml:id="jdso8u-d1e487-Qd1e4930">Liquido tenendum est, 
+      <lb ed="#V" n="86"/>quod omnis res qamcmque cognosci- 
+      <!--0304.xml-->
+      <pb ed="#V" n="304"/>
+                  <cb ed="#V" n="a"/>
+                  <lb ed="#V" n="1"/>mus, congenerat in nobis notitiam sui. 
+      <lb ed="#V" n="2"/>Ab utroque enim notitia paritur, et a 
+      <lb ed="#V" n="3"/>cognoscente et a cognito</quote>, et 
+      aliquan<lb ed="#V" break="no" n="4"/>tulum infra : <quote xml:id="jdso8u-d1e487-Qd1e4950">partum mentis antecedit 
+      <lb ed="#V" n="5"/>appetitus quidam, quo id quod nosse 
+      vo<lb ed="#V" break="no" n="6"/>lumus querendo et inveniendo, nascitur 
+      <lb ed="#V" n="7"/>proles, notitia ipsa</quote>. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e4960"><!-- jdso-l1d3q6-n13 -->
+               <lb ed="#V" n="48"/>Hic sunt tres breves (a) 
+      quae<lb ed="#V" break="no" n="49"/>stiones; prima, cujusmodi entitas 
+      <lb ed="#V" n="50"/>sit intellectio et volitio, et 
+      hujus<lb ed="#V" break="no" n="51"/>modi operationes immanentes. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e4972">
+               <lb ed="#V" n="52"/>Ubi intelligendum est, quod ut 
+      <lb ed="#V" n="53"/>ex divisione entis patet, non sunt 
+      <lb ed="#V" n="54"/>substantiae, quia intellectio adest 
+      <lb ed="#V" n="55"/>et abest praeter subjecti 
+      corru<lb ed="#V" break="no" n="56"/>ptionem; nec quantitas, quia non 
+      <lb ed="#V" n="57"/>est nisi in corporibus vel in 
+      plu<lb ed="#V" break="no" n="58"/>ribus realiter distinctis, ut 
+      nume<lb ed="#V" break="no" n="59"/>rus; nec sunt habitus, nec positio, 
+      <lb ed="#V" n="60"/>nec quando, nec ubi, quia haec 
+      <lb ed="#V" n="61"/>dicunt habitudinem ad corpora; 
+      <lb ed="#V" n="62"/>vel sunt passiones corporalium, 
+      <lb ed="#V" n="63"/>nec aliquid aliorum, ut actio vel 
+      <lb ed="#V" n="64"/>passio, aut relatio; ergo qualitas. 
+      <lb ed="#V" n="65"/>Quod autem dico de intellectione, 
+      <lb ed="#V" n="66"/>hoc idem dico de volitione, 
+      visi<lb ed="#V" break="no" n="67"/>one, auditione, et sic de aliis 
+      ope<lb ed="#V" break="no" n="68"/>rationibus immanentibus. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e5011">
+               <lb ed="#V" n="69"/>Et primo probo, quod non sit 
+      <lb ed="#V" n="70"/>relatio, nec actio, nec passio, 
+      <lb ed="#V" n="71"/>quia operatio immanens est 
+      ulti<lb ed="#V" break="no" n="72"/>ma perfectio naturae absolute 
+      <lb ed="#V" n="73"/>operantis; sed nulla relatio, actio 
+      <lb ed="#V" n="74"/>vel passio est hujusmodi, ergo, 
+      <lb ed="#V" n="75"/>etc. tamen bene potest importare 
+      <lb ed="#V" n="76"/>relationem. Minor patet, quod 
+      <lb ed="#V" n="77"/>scilicet ultima perfectio naturae 
+      <lb ed="#V" n="78"/>non sit relatio; relatio enim 
+      per<lb ed="#V" break="no" n="79"/>fectionem non importat 
+      inquan<lb ed="#V" break="no" n="80"/>tum hujusmodi, et quod ultima 
+      <lb ed="#V" n="81"/>perfectio esset relatio 
+      repugnan<lb ed="#V" break="no" n="82"/>tiam includit. Nec est actio, quia 
+      <lb ed="#V" n="83"/>actio non perficit agentem, sed 
+      <lb ed="#V" n="84"/>passum. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e5048">
+               <lb ed="#V" n="85"/>Praeterea, actionis est aliqualis 
+      <!--0306.xml-->
+      <pb ed="#V" n="306"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>sed compositum, tam in generatione 
+      <lb ed="#V" n="2"/>substantiali quam secundum quid ; 
+      <lb ed="#V" n="3"/>et sua ratio est, quia omne quod 
+      <lb ed="#V" n="4"/>fit, fit ex materia tanquam ex eo 
+      <lb ed="#V" n="5"/>quod est pars ipsius quod fit; cum 
+      <lb ed="#V" n="6"/>igitur materia non sit pars nisi 
+      <lb ed="#V" n="7"/>compositi, generatio per se 
+      so<lb ed="#V" break="no" n="8"/>lius erit compositi. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e5077">
+               <lb ed="#V" n="9"/>Praeterea, generatio cum sit via 
+      <lb ed="#V" n="10"/>de non esse ad esse, illius per se est 
+      <lb ed="#V" n="11"/>generatio, cujus per se est esse; 
+      <lb ed="#V" n="12"/>compositi autem sive suppositi 
+      <lb ed="#V" n="13"/>per se est esse, ergo, etc. 
+      secun<lb ed="#V" break="no" n="14"/>dum ergo intentionem Philosophi, 
+      <lb ed="#V" n="15"/>quod per se generatur, est 
+      divi<lb ed="#V" break="no" n="16"/>sibile in duo, scilicet in materiam 
+      <lb ed="#V" n="17"/>et formam, et ideo dixerunt 
+      qui<lb ed="#V" break="no" n="18"/>dam, quod forma accidentalis 
+      ha<lb ed="#V" break="no" n="19"/>bet suum potentiale ex quo fit, et 
+      <lb ed="#V" n="20"/>suum formale tanquam 
+      intrinse<lb ed="#V" break="no" n="21"/>ca sui generis. Quod non videtur, 
+      <lb ed="#V" n="22"/>quia accidentia non habent 
+      mate<lb ed="#V" break="no" n="23"/>riam ex qua, sed in qua; nec est 
+      <lb ed="#V" n="24"/>ad intentionem Philosophi, quia 
+      <lb ed="#V" n="25"/>ipse intelligit, quod compositum 
+      <lb ed="#V" n="26"/>in generatione per accidens per 
+      <lb ed="#V" n="27"/>se generatur, compositum dico ex 
+      <lb ed="#V" n="28"/>subjecto et accidente, sicut sua 
+      <lb ed="#V" n="29"/>exempla ostendunt, et ratio sua 
+      <lb ed="#V" n="30"/>est, quod generatur, ex eo 
+      gene<lb ed="#V" break="no" n="31"/>ratur quod praeexistebat. Ergo 
+      <lb ed="#V" n="32"/>dicendum, quod etsi notitia possit 
+      <lb ed="#V" n="33"/>esse terminus mutationis, non 
+      ta<lb ed="#V" break="no" n="34"/>men generatur, nec produoitur, 
+      <lb ed="#V" n="35"/>sed per se intellectus noscens vel 
+      <lb ed="#V" n="36"/>potius homo noscens, quia 
+      acti<lb ed="#V" break="no" n="37"/>ones sunt suppositorum, quare, 
+      <lb ed="#V" n="38"/>etc. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e5146">
+               <lb ed="#V" n="39"/>Contra hoc arguo, quod 
+      intel<lb ed="#V" break="no" n="40"/>ectus noscens non per se 
+      gene<lb ed="#V" break="no" n="41"/>ratur, quia non est ens per se, 
+      <lb ed="#V" n="42"/>sed per accidens; ergo non est 
+      <lb ed="#V" n="43"/>per se terminus generationis. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e5159">
+               <lb ed="#V" n="44"/>Item, notitia est per se termi- 
+      <!--0306.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>nus productionis, quia 
+      mutati<lb ed="#V" break="no" n="46"/>onis; sed omne tale producitur, 
+      <lb ed="#V" n="47"/>ergo notitia producitur et 
+      gene<lb ed="#V" break="no" n="48"/>ratur. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e5177">
+               <lb ed="#V" n="49"/>Ad primum dicendum, quod ens 
+      <lb ed="#V" n="50"/>secundum quid, et per acoidens est 
+      <lb ed="#V" n="51"/>simpliciter per accidens et 
+      secun<lb ed="#V" break="no" n="52"/>dum quid, sicut homo mortuus 
+      <lb ed="#V" n="53"/>est homo secundum quid, 
+      simpli<lb ed="#V" break="no" n="54"/>citer autem dicitur mortuus; 
+      ge<lb ed="#V" break="no" n="55"/>neratio ergo simpliciter est in 
+      <lb ed="#V" n="56"/>substantia, secundum quid vero in 
+      <lb ed="#V" n="57"/>accidentibus, primo de Generatione; 
+      <lb ed="#V" n="58"/>generatio ergo entis per accidens 
+      <lb ed="#V" n="59"/>et secundum quid, est generatio 
+      <lb ed="#V" n="60"/>simpliciter per accidens et 
+      secun<lb ed="#V" break="no" n="61"/>dum quid. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e5208">
+               <lb ed="#V" n="62"/>Ad secundum dicendum, quod est 
+      <lb ed="#V" n="63"/>terminus alterationis et 
+      mutati<lb ed="#V" break="no" n="64"/>onis, terminus autem alterationis 
+      <lb ed="#V" n="65"/>est forma, et similiter mutationis, 
+      <lb ed="#V" n="66"/>non tamen productionis, ubi 
+      intel<lb ed="#V" break="no" n="67"/>ligendum quod mutatio est per se 
+      <lb ed="#V" n="68"/>mutabilis, alteratio alterabilis, et 
+      <lb ed="#V" n="69"/>motus mobilis. Illud autem dicitur 
+      <lb ed="#V" n="70"/>proprie alterari et mutari, quod 
+      <lb ed="#V" n="71"/>de non tali fit tale, puta de non 
+      <lb ed="#V" n="72"/>albo album, de non noscente 
+      <lb ed="#V" n="73"/>noscens; forma ergo qua fit 
+      ta<lb ed="#V" break="no" n="74"/>le, proprie est terminus 
+      mutati<lb ed="#V" break="no" n="75"/>onis, non tamen mutatur, sed 
+      <lb ed="#V" n="76"/>tantum mutabile mutatur. 
+      Produ<lb ed="#V" break="no" n="77"/>ctio autem proprie est solius 
+      ter<lb ed="#V" break="no" n="78"/>mini, cui per productionem 
+      ac<lb ed="#V" break="no" n="79"/>quiritur esse; cum ergo forma, 
+      <lb ed="#V" n="80"/>quae est mutationis terminus, non 
+      <lb ed="#V" n="81"/>habeat esse proprie, sed sit illud 
+      <lb ed="#V" n="82"/>quo compositum habet esse, ideo 
+      <lb ed="#V" n="83"/>ipsa non dicitur produci, nec esse 
+      <lb ed="#V" n="84"/>terminus productionis, sed 
+      tan<lb ed="#V" break="no" n="85"/>tum compositum, sive illud 
+      com<lb ed="#V" break="no" n="86"/>positum sit ens per se, sive per 
+      <lb ed="#V" n="87"/>accidens. Et hujusmodi differentia 
+      <lb ed="#V" n="88"/>patet, quia de termino mutationis 
+      <!--0307.xml-->
+      <pb ed="#V" n="307"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>vel de forma, non dicitur quod 
+      <lb ed="#V" n="2"/>mutetur vel alteretur, sed est 
+      <lb ed="#V" n="3"/>terminus mutationis tantum; de 
+      <lb ed="#V" n="4"/>termino autem generationis et 
+      <lb ed="#V" n="5"/>productionis dicitur, quod est 
+      ge<lb ed="#V" break="no" n="6"/>neratus et produotus, sive 
+      genera<lb ed="#V" break="no" n="7"/>tur et producitur. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e5291">
+               <lb ed="#V" n="8"/>Ex his corollarie potest 
+      conclu<lb ed="#V" break="no" n="9"/>di, quod intelligere et velle in Deo 
+      <lb ed="#V" n="10"/>non sunt actus productivi, nec per 
+      <lb ed="#V" n="11"/>consequens principia actuum 
+      no<lb ed="#V" break="no" n="12"/>tionalium, qui sunt generare et 
+      spi<lb ed="#V" break="no" n="13"/>rare. Intelligere enim et velle in Deo 
+      <lb ed="#V" n="14"/>actus operativi sunt, quibus ipse 
+      <lb ed="#V" n="15"/>beatus quasi perficitur, non autem 
+      <lb ed="#V" n="16"/>sunt productivi. Ex quo patet, 
+      <lb ed="#V" n="17"/>quod nec notitia simplex, nec 
+      <lb ed="#V" n="18"/>amor simplex, sunt rationes 
+      pro<lb ed="#V" break="no" n="19"/>ductive, sine quibus personae non 
+      <lb ed="#V" n="20"/>producuntur, ut quidam dicit, et 
+      <lb ed="#V" n="21"/>superius est improbatum. Unde 
+      <lb ed="#V" n="22"/>intelligere et velle in nobis, non sunt 
+      <lb ed="#V" n="23"/>actiones vel passiones, ut dictum 
+      <lb ed="#V" n="24"/>est, dicere autem sive 
+      intellectio<lb ed="#V" break="no" n="25"/>nem producere, et spirare seu 
+      <lb ed="#V" n="26"/>amorem elicere, sunt actiones in 
+      <lb ed="#V" n="27"/>nobis, et de genere actionis, vel 
+      <lb ed="#V" n="28"/>quasi de genere actionis; 
+      qua<lb ed="#V" break="no" n="29"/>re, etc. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e5341">
+               <lb ed="#V" n="30"/>Ad argumenta principalia. Ad 
+      <lb ed="#V" n="31"/>primum dicendum, quod major est 
+      <lb ed="#V" n="32"/>vera, sed minor est falsa. Ad 
+      evi<lb ed="#V" break="no" n="33"/>dentiam autem ejus et 
+      argumen<lb ed="#V" break="no" n="34"/>torum, quibus ipsa minor 
+      proba<lb ed="#V" break="no" n="35"/>tur, intelligendum quod actio 
+      pro<lb ed="#V" break="no" n="36"/>prie sumpta tres habet 
+      proprieta<lb ed="#V" break="no" n="37"/>tes. Una est quod est in continuo 
+      <lb ed="#V" n="38"/>fieri e ie enim dep endet ab 
+      agen<lb ed="#V" break="no" n="39"/>te in secundo et ultimo instanti, et 
+      <lb ed="#V" n="40"/>in primo, imo in quolibet quantum 
+      <lb ed="#V" n="41"/>durat. Secunda proprietas est, 
+      <lb ed="#V" n="42"/>quod est circa aliquid circa quod 
+      <lb ed="#V" n="43"/>operatur, in quo est ut in subjecto, 
+      <lb ed="#V" n="44"/>nam actio non est in agente, sed 
+      <!--0307.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>in passo. Tertia proprietas est, 
+      <lb ed="#V" n="46"/>quod est circa aliquem terminum 
+      <lb ed="#V" n="47"/>ad quem terminatur, qui esse 
+      acci<lb ed="#V" break="no" n="48"/>pit per eam, idem intelligit de 
+      pas<lb ed="#V" break="no" n="49"/>sione. Operationes ergo 
+      immanen<lb ed="#V" break="no" n="50"/>tes assimilantur actioni et 
+      passi<lb ed="#V" break="no" n="51"/>oni in prima conditione et 
+      secun<lb ed="#V" break="no" n="52"/>da, non autem in tertia quae est 
+      <lb ed="#V" n="53"/>completiva. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e5401">
+               <lb ed="#V" n="54"/>Ad argumentum ergo primu m, 
+      <lb ed="#V" n="55"/>quo predicta minor probatur, 
+      <lb ed="#V" n="56"/>concedo quod est actus secundus, 
+      <lb ed="#V" n="57"/>nego tamen quod omnis actus 
+      se<lb ed="#V" break="no" n="58"/>cundus, sit actio vel passio, imo 
+      <lb ed="#V" n="59"/>est qualitas. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e5417">
+               <lb ed="#V" n="60"/>Ad secundum dicendum, quod 
+      <lb ed="#V" n="61"/>assimilatur in prima conditione, 
+      <lb ed="#V" n="62"/>unde lumen etsi fit etiam continue, 
+      <lb ed="#V" n="63"/>non tamen est actio, sed actionis 
+      <lb ed="#V" n="64"/>terminus. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e5430">
+               <lb ed="#V" n="65"/>Ad tertium, dicendum, quod 
+      di<lb ed="#V" break="no" n="66"/>visio actionis quaedam est 
+      imma<lb ed="#V" break="no" n="67"/>nens, quedam transiens; uno 
+      <lb ed="#V" n="68"/>modo est aequivoci sive vocis in 
+      <lb ed="#V" n="69"/>sua significata; alio modo univoci' 
+      <lb ed="#V" n="70"/>sive generis in suas species. Si 
+      <lb ed="#V" n="71"/>enim accipiatur actio transiens et 
+      <lb ed="#V" n="72"/>operatio immanens, quae est 
+      intel<lb ed="#V" break="no" n="73"/>ligere, velle, videre, et hujusmodi, 
+      <lb ed="#V" n="74"/>significata sunt unius vocis 
+      tan<lb ed="#V" break="no" n="75"/>tum, scilicet actionis et nullius 
+      <lb ed="#V" n="76"/>univoci. Si autem dicatur, actio 
+      <lb ed="#V" n="77"/>quaedam est transiens, quaedam 
+      <lb ed="#V" n="78"/>immanens, ut elicitio 
+      intellecti<lb ed="#V" break="no" n="79"/>onis quae immanet, sicut et ipsa 
+      <lb ed="#V" n="80"/>intellectio, tunc est divisio 
+      univo<lb ed="#V" break="no" n="81"/>ci in suas species. . 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e5469">
+               <lb ed="#V" n="82"/>Ad secundum principale 
+      dicen<lb ed="#V" break="no" n="83"/>dum, quod non intendit Augustinus 
+      <lb ed="#V" n="84"/>negare lumen esse, ut fieri ab 
+      a<lb ed="#V" break="no" n="85"/>gente et factum esse simul, sed 
+      <lb ed="#V" n="86"/>non permanet sine presentia 
+      a<lb ed="#V" break="no" n="87"/>gentis, siout nec oreatura 
+      ratio<lb ed="#V" break="no" n="88"/>nalis conservatur in gratia sine 
+      <!--0308.xml-->
+      <pb ed="#V" n="308"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>divina praesentia, nam ad hoc, 
+      <lb ed="#V" n="2"/>ipse eam inducit. 
+    </p>
+            <p xml:id="jdso8u-d1e487-d1e5498">
+               <lb ed="#V" n="3"/>Ad tertium patet per praedicta 
+      <lb ed="#V" n="4"/>in tertia questione, quare, etc. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

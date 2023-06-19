@@ -1,0 +1,2346 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#Scotus">John Duns Scotus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-06-19">June 19, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-u78xV9">Vives, Paris, 1891, volume 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-06-19" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="580"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jdso8u-d1e691"><!-- jdso8u-b1d8p1q3 -->
+            <head xml:id="jdso8u-d1e691-Hd1e101">Quaestio 3</head>
+            <head xml:id="jdso8u-d1e691-Hd1e103" type="question-title">
+      Utrum Deus sit in genere
+    </head>
+            <p xml:id="jdso8u-d1e691-d1e106"><!-- jdso-l1d8q3-n1 -->
+               <lb ed="#V" n="31"/>QUESTIO III. 
+      <lb ed="#V" n="32"/>Utrum Deus sit in genere?
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e114">
+               <lb ed="#V" n="33"/>D. Thom. 1. part. quest. 3. art. 5. Alens. 1. p. 
+      <lb ed="#V" n="34"/>q. 48. m. 4. art. 1. Henric. sum. art. 22. g. 1. 
+      <lb ed="#V" n="35"/>et 2. D. Bonav. hic. 2. part. art. 1. quest. 4. 
+      <lb ed="#V" n="36"/>Richard. art. 4. q. 2. Argenlina q. 1. art. 1. 
+      <lb ed="#V" n="37"/>Egid. art. 1. q. 3. Occham qust. 1. Suar. 1. 
+      <lb ed="#V" n="38"/>p. art. 1. lib. 1. c. 4. negant. Gregor. hic q. 3. 
+      <lb ed="#V" n="39"/>Gabr. q. 1. Marsil. 1. g. 12. art. 2. affirmant, 
+      <lb ed="#V" n="40"/>vide Scot. in Universalib. qust. 16. et 17. et 7. 
+      <lb ed="#V" n="41"/>Met. q. 18. et de primo princ. c. 4. concl. 1. 9. 
+      <lb ed="#V" n="42"/>10. Baccon d. 9. q. 1.
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e138">
+               <lb ed="#V" n="43"/>Tertio quaero, scilicet utrum cum 
+      <lb ed="#V" n="44"/>simplicitate divina stet quod Deus, 
+      <!--0580.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>vel aliquid formaliter dictum 
+      <lb ed="#V" n="46"/>de Deo, sit ingenere? Quod sic, 
+      <lb ed="#V" n="47"/>quia Deus formaliter est ens; ens 
+      <lb ed="#V" n="48"/>autem dicit conceptum dictum de 
+      <lb ed="#V" n="49"/>Deo in quid, et iste conceptus non 
+      <lb ed="#V" n="50"/>est proprius Deo, sed communis 
+      <lb ed="#V" n="51"/>sibi et creaturis, sicut dictum fuit 
+      <lb ed="#V" n="52"/>distinctione tertia; ergo oportet ad 
+      <lb ed="#V" n="53"/>hoc quod fiat proprius, quod 
+      de<lb ed="#V" break="no" n="54"/>terminetur per aliquem 
+      conee<lb ed="#V" break="no" n="55"/>ptum determinantem; ille 
+      determi<lb ed="#V" break="no" n="56"/>nans se habet ad conceptum entis, 
+      <lb ed="#V" n="57"/>sicut conceptus qualis ad 
+      conce<lb ed="#V" break="no" n="58"/>ptum quid, et per consequens, ut 
+      <lb ed="#V" n="59"/>conceptus Differentie ad 
+      conce<lb ed="#V" break="no" n="60"/>ptum Generis. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e185">
+               <lb ed="#V" n="61"/>Preterea <ref xml:id="jdso8u-d1e691-Rd1e189">Avicenna 2. Metaph. 
+      <lb ed="#V" n="62"/>C. 1.</ref>
+               <quote xml:id="jdso8u-d1e691-Qd1e194">Ens in subjecto et ens non in 
+      sub<lb ed="#V" break="no" n="63"/>jecto, non habent medium</quote>, et videtur 
+      <lb ed="#V" n="64"/>loqui secundum quod ens non in 
+      <lb ed="#V" n="65"/>subjecto est ratio substantiae, et 
+      <lb ed="#V" n="66"/>ens in subjecto est ratio accidentis. 
+      <lb ed="#V" n="67"/>Deus igitur cum sit ens formaliter, 
+      <lb ed="#V" n="68"/>et non ens in subjecto, ergo est 
+      <lb ed="#V" n="69"/>ens formaliter, non in subjecto, 
+      er<lb ed="#V" break="no" n="70"/>go substantia. Substantia autem, 
+      <lb ed="#V" n="71"/>ut substantia, est genus. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e217">
+               <lb ed="#V" n="72"/>Praeterea : Ubi est species, ibi est 
+      <lb ed="#V" n="73"/>genus, secundum Porphyrium, quia 
+      <lb ed="#V" n="74"/>sunt correlativa; sed natura 
+      divi<lb ed="#V" break="no" n="75"/>na est species respectu divinarum 
+      <lb ed="#V" n="76"/>personarum, secundum 
+      Damasce<lb ed="#V" break="no" n="77"/>num, c. 5. ergo Deus est in genere. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e233">
+               <lb ed="#V" n="78"/>Item, sapientia formaliter 
+      dici<lb ed="#V" break="no" n="79"/>tur de Deo, et hoc secundum 
+      eam<lb ed="#V" break="no" n="80"/>dem rationem, secundum quam 
+      <lb ed="#V" n="81"/>dicitur de nobis, quia illae rationes, 
+      <lb ed="#V" n="82"/>quae dictae sunt dist. 3. quest. 2. de 
+      <lb ed="#V" n="83"/>univocatione entis, concludunt de 
+      <lb ed="#V" n="84"/>univocatione sapientiae; igitur 
+      se<lb ed="#V" break="no" n="85"/>cundum illam rationem, secundum 
+      <lb ed="#V" n="86"/>quam sapientia dicitur de Deo, est 
+      <lb ed="#V" n="87"/>species generis. Et hoc- probatur 
+      <lb ed="#V" n="88"/>per dictum antiquorum Doctorum, 
+      <!--0581.xml-->
+      <pb ed="#V" n="581"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>qui dicunt, quod species 
+      transfer<lb ed="#V" break="no" n="2"/>tur ad divina, quia dicit 
+      perfecti<lb ed="#V" break="no" n="3"/>onem, licet non genus, quia dicit 
+      <lb ed="#V" n="4"/>imperfectionem, ut sapientia 
+      <lb ed="#V" n="5"/>transfertur ad divina, licet non 
+      <lb ed="#V" n="6"/>qualitas. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e279">
+               <lb ed="#V" n="7"/>Contra est Magister in littera, 
+      <lb ed="#V" n="8"/>et adducit Augustinum, et ostendit 
+      <lb ed="#V" n="9"/>per eum, quod removentur a Deo 
+      <lb ed="#V" n="10"/>illa Praedicamenta artis 
+      Diale<lb ed="#V" break="no" n="11"/>cticae. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e292"><!-- jdso-l1d8q3-n2 -->
+               <lb ed="#V" n="17"/>Hic sunt duae opiniones 
+      extre<lb ed="#V" break="no" n="18"/>mae, una negativa, quae dicit quod 
+      <lb ed="#V" n="19"/>cum simplicitate divina non stat, 
+      <lb ed="#V" n="20"/>quod aliquis sit conceptus 
+      commu<lb ed="#V" break="no" n="21"/>nis univocus Deo et creaturae, de 
+      <lb ed="#V" n="22"/>qua dictum est supra dist. 3. 
+      <lb ed="#V" n="23"/>quest. 2. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e311">
+               <lb ed="#V" n="24"/>Ad hoc ponuntur quedam 
+      ratio<lb ed="#V" break="no" n="25"/>nes prius non tactae. Prima est ista: 
+      <lb ed="#V" n="26"/>Illis quae sunt totaliter et 
+      imme<lb ed="#V" break="no" n="27"/>diate sub extremis contradictionis, 
+      <lb ed="#V" n="28"/>nihil' est commune univocum; Deus 
+      <lb ed="#V" n="29"/>et oreatura sunt totaliter et 
+      imme<lb ed="#V" break="no" n="30"/>diate sub extremis contradictionis, 
+      <lb ed="#V" n="31"/>scilicet dependere, non dependere; 
+      <lb ed="#V" n="32"/>causatum et non causatum; esse ab 
+      <lb ed="#V" n="33"/>alio et non ab alio; ergo nihil est 
+      <lb ed="#V" n="34"/>eis commune univocum. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e338">
+               <lb ed="#V" n="35"/>Item secundo sic, (et est 
+      confir<lb ed="#V" break="no" n="36"/>matio illius rationis,) omnis 
+      con<lb ed="#V" break="no" n="37"/>ceptus communis est neuter 
+      re<lb ed="#V" break="no" n="38"/>spectu illorum, quibus est 
+      com<lb ed="#V" break="no" n="39"/>munis; sed nullus est conceptus 
+      <lb ed="#V" n="40"/>neuter respectu 
+      contradictori<lb ed="#V" break="no" n="41"/>orum, quia est alter eorum ; 
+      er<lb ed="#V" break="no" n="42"/>go, etc.
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e358">
+      <!--0581.xml-->
+               <cb ed="#V" n="b"/>
+               <lb ed="#V" n="43"/>Item tertio sic : Quia primo 
+      di<lb ed="#V" break="no" n="44"/>versa in nullo conveniunt; sed 
+      <lb ed="#V" n="45"/>Deus est primo diversus a 
+      qua<lb ed="#V" break="no" n="46"/>cumque creatura, alioquin haberet 
+      <lb ed="#V" n="47"/>quo conveniret et quo differret, 
+      <lb ed="#V" n="48"/>et ita non esset simpliciter 
+      sim<lb ed="#V" break="no" n="49"/>plex; ergo Deus in nullo convenit 
+      <lb ed="#V" n="50"/>cum creatura, et ita nec in aliquo 
+      <lb ed="#V" n="51"/>conceptu communi. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e384">
+               <lb ed="#V" n="52"/>Item quarto sic : Ubi tantum est 
+      <lb ed="#V" n="53"/>unitas attributionis, non potest 
+      <lb ed="#V" n="54"/>esse unitas univocationis; sed 
+      <lb ed="#V" n="55"/>oportet ponere unitatem 
+      attribu<lb ed="#V" break="no" n="56"/>tionis creaturae ad Deum in 
+      rati<lb ed="#V" break="no" n="57"/>one entis, ergo in hoc non est 
+      uni<lb ed="#V" break="no" n="58"/>vocatio. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e402">
+               <lb ed="#V" n="59"/>Ad hoc etiam adducitur intentio 
+      <lb ed="#V" n="60"/>Dionysii de Divinis nominibus, qui 
+      po<lb ed="#V" break="no" n="61"/>nit tres gradus cognoscendi Deum, 
+      <lb ed="#V" n="62"/>scilicet per eminentiam, per 
+      cau<lb ed="#V" break="no" n="63"/>salitatem, et per abnegationem; et 
+      <lb ed="#V" n="64"/>ponit illam cognitionem per 
+      abne<lb ed="#V" break="no" n="65"/>gationem esse ultimam, quando 
+      <lb ed="#V" n="66"/>removentur a Deo omnia illa, quae 
+      <lb ed="#V" n="67"/>sunt communia creaturis; ergo non 
+      <lb ed="#V" n="68"/>intelligit ipse, quod aliquis 
+      conce<lb ed="#V" break="no" n="69"/>ptus, qui est abstractus a 
+      creatu<lb ed="#V" break="no" n="70"/>ris, remaneat in Deo, secundum 
+      <lb ed="#V" n="71"/>quod fuit communis creaturae. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e433">
+               <lb ed="#V" n="72"/>Ad hoc etiam est <ref xml:id="jdso8u-d1e691-Rd1e437">Augustinus 8. 
+        <lb ed="#V" n="73"/>de Trin. c. 3.</ref>
+               <quote xml:id="jdso8u-d1e691-Qd1e442" source="http://scta.info/resource/adt-l8-d1e958@10-69">Cum itaque (inquit) 
+      au<lb ed="#V" break="no" n="74"/>dis, bonum hoc et bonum illud, que 
+      pos<lb ed="#V" break="no" n="75"/>sunt alias dici etiam non bona, si 
+      po<lb ed="#V" break="no" n="76"/>tueris sine illis, que participatione boni 
+      <lb ed="#V" n="77"/>bona sunt, perspicere ipsum bonum, ctjus 
+      <lb ed="#V" n="78"/>participatione bona sunt. Simul enim, et 
+      <lb ed="#V" n="79"/>ipsum intelligis, cum audis, hoc aut illud 
+      <lb ed="#V" n="80"/>bonum. Si ergo potueris illis detractis 
+      <lb ed="#V" n="81"/>perspicere per se bonum, perspeeris 
+      <lb ed="#V" n="82"/>Deum, et si amore adheseris, continuo 
+      <lb ed="#V" n="83"/>beatificaberis</quote>. Haec ille. Igitur vult 
+      <lb ed="#V" n="84"/>dicere, quod intelligendo hoc 
+      bo<lb ed="#V" break="no" n="85"/>num et illud bonum, intelligo illud 
+      <lb ed="#V" n="86"/>bonum, cujus participatione illa 
+      <!--0582.xml-->
+      <pb ed="#V" n="582"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>sunt bona; hoc autem est bonum 
+      <lb ed="#V" n="2"/>infinitum; ergo non habeo tantum 
+      <lb ed="#V" n="3"/>ibi conceptum boni in communi, 
+      <lb ed="#V" n="4"/>sed etiam boni per essentiam. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e489"><!-- jdso-l1d8q3-n3 -->
+               <lb ed="#V" n="10"/>Contra istam positionem sunt 
+      <lb ed="#V" n="11"/>duae rationes, quae tactae sunt 
+      supe<lb ed="#V" break="no" n="12"/>rius dist. 3.quest. 1. Una, quia tunc 
+      <lb ed="#V" n="13"/>non posset conceptus ille proprius 
+      <lb ed="#V" n="14"/>Deo causari in intellectu nostro. 
+      <lb ed="#V" n="15"/>Quidquid enim est naturaliter 
+      mo<lb ed="#V" break="no" n="16"/>vens intellectum nostrum pro 
+      sta<lb ed="#V" break="no" n="17"/>tu isto, sive intellectus agens, sive 
+      <lb ed="#V" n="18"/>phantasma, sive species rei 
+      intelli<lb ed="#V" break="no" n="19"/>gibilis, habet pro effectu adaequato 
+      <lb ed="#V" n="20"/>causare in nobis conceptum illius 
+      <lb ed="#V" n="21"/>quidditatis et eorum, quae 
+      conti<lb ed="#V" break="no" n="22"/>nentur in tali quidditate 
+      essenti<lb ed="#V" break="no" n="23"/>aliter vel virtualiter; conceptus 
+      <lb ed="#V" n="24"/>autem ille proprius Deo, nentro 
+      <lb ed="#V" n="25"/>modo continetur in ista quidditate, 
+      <lb ed="#V" n="26"/>nec essentialiter, nec virtualiter. 
+      <lb ed="#V" n="27"/>Quod non essentialiter, patet, quia 
+      <lb ed="#V" n="28"/>negas univocationem; quod non 
+      <lb ed="#V" n="29"/>virtualiter probo, quia perfectius 
+      <lb ed="#V" n="30"/>nunquam continetur in minus 
+      per<lb ed="#V" break="no" n="31"/>fecto ; ergo nunquam habetur in 
+      <lb ed="#V" n="32"/>via conceptus proprius Deo, quod 
+      <lb ed="#V" n="33"/>falsum est; ergo conceptus 
+      univo<lb ed="#V" break="no" n="34"/>cus Deo et creature potest haberi. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e548">
+               <lb ed="#V" n="35"/>Responsio (a) aliquorum ad hanc 
+      <lb ed="#V" n="36"/>rationem est, quod ens ratum facit 
+      <lb ed="#V" n="37"/>notitiam de se, inquantum ens 
+      ra<lb ed="#V" break="no" n="38"/>tum est, hoc est, inquantum est 
+      <lb ed="#V" n="39"/>relatum ad primum ens, et ita 
+      <lb ed="#V" n="40"/>concipere illud sub ratione illa, 
+      <lb ed="#V" n="41"/>non est concipere illud sub ratione 
+      <lb ed="#V" n="42"/>absoluta, sed sub ratione relata ad 
+      <!--0582.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="43"/>primum ens. Relatio autem habet 
+      <lb ed="#V" n="44"/>causare in intellectu conceptum 
+      <lb ed="#V" n="45"/>correlativi sive relationis 
+      corre<lb ed="#V" break="no" n="46"/>spondentis ; et cum non 
+      conci<lb ed="#V" break="no" n="47"/>piatur, ut in se subsistens, relatio 
+      <lb ed="#V" n="48"/>correspondens, concipietur aliquo 
+      <lb ed="#V" n="49"/>modo virtute istius fundamentum 
+      <lb ed="#V" n="50"/>illius relationis. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e590">
+               <lb ed="#V" n="51"/>Contra (b), istud argumentum 
+      <lb ed="#V" n="52"/>videtur stare, quia si est dare 
+      ali<lb ed="#V" break="no" n="53"/>quod adaequatum pro objecto a 
+      <lb ed="#V" n="54"/>nobis naturaliter cognoscibili et 
+      <lb ed="#V" n="55"/>intelligibili, qualitercumque sit 
+      <lb ed="#V" n="56"/>praesens intellectui nostro, posset 
+      <lb ed="#V" n="57"/>facere conceptum de se et de his 
+      <lb ed="#V" n="58"/>que includit essentialiter vel 
+      vir<lb ed="#V" break="no" n="59"/>tualiter, et secundum jam dicta, 
+      <lb ed="#V" n="60"/>nullo modo includitur illud 
+      absolu<lb ed="#V" break="no" n="61"/>tum, quod est fundamentum 
+      rela<lb ed="#V" break="no" n="62"/>tionis in Deo, ut probabo; ergo 
+      <lb ed="#V" n="63"/>sequitur quod nullo modo fiat in 
+      <lb ed="#V" n="64"/>nobis conceptus illius absoluti, et 
+      <lb ed="#V" n="65"/>ita nullum conceptum alicujus 
+      ab<lb ed="#V" break="no" n="66"/>soluti poterimus de Deo habere 
+      <lb ed="#V" n="67"/>naturaliter. Probatio assumpti, 
+      <lb ed="#V" n="68"/>quia licet dicta responsio 
+      suppo<lb ed="#V" break="no" n="69"/>nat, quod relatio in creaturis prius 
+      <lb ed="#V" n="70"/>naturaliter concipiatur quam 
+      rela<lb ed="#V" break="no" n="71"/>tio sibi correspondens, vel 
+      funda<lb ed="#V" break="no" n="72"/>mentum relationis 
+      corresponden<lb ed="#V" break="no" n="73"/>tis, quod credo esse falsum, quia 
+      <lb ed="#V" n="74"/>terminus relationis naturaliter 
+      <lb ed="#V" n="75"/>praeintelligitur relationi sicut 
+      fun<lb ed="#V" break="no" n="76"/>damentum, licet etiam supponat, 
+      <lb ed="#V" n="77"/>quod res creata rata non 
+      intelligi<lb ed="#V" break="no" n="78"/>tur a nobis nisi inquantum relata, 
+      <lb ed="#V" n="79"/>quod improbatum est distinctione 3. 
+      <lb ed="#V" n="80"/>quest. de Vestigio, et videtur esse 
+      <lb ed="#V" n="81"/>contra <ref xml:id="jdso8u-d1e691-Rd1e659">Augustinum 7. de Trinitate, 
+        <lb ed="#V" n="82"/>C. 4.</ref>
+               <quote xml:id="jdso8u-d1e691-Qd1e664" source="http://scta.info/resource/adt-l7-d1e899@294-303">Omnis res ad se subsistit, quanto 
+      <lb ed="#V" n="83"/>magis Deus?</quote> Loquitur autem ibi de 
+      <lb ed="#V" n="84"/>subsistentia, ut qua naturaliter est 
+      <lb ed="#V" n="85"/>res creata et naturaliter in se 
+      sub<lb ed="#V" break="no" n="86"/>sistit, alioquin non esset argumen- 
+      <!--0583.xml-->
+      <pb ed="#V" n="583"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>tum, si omnis res ad se subsistit, 
+      <lb ed="#V" n="2"/>quanto magis Deus, si idem 
+      acci<lb ed="#V" break="no" n="3"/>piatur in praemissa, et in 
+      conclu<lb ed="#V" break="no" n="4"/>sione. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e692">
+               <lb ed="#V" n="5"/>His, inquam, (c) omissis, (quae 
+      <lb ed="#V" n="6"/>forte ab adversario negarentur) 
+      <lb ed="#V" n="7"/>arguo sic: Relatio in creatura, 
+      li<lb ed="#V" break="no" n="8"/>cet habeat in virtute sua causare 
+      <lb ed="#V" n="9"/>conceptum relationis sibi 
+      corre<lb ed="#V" break="no" n="10"/>spondentis, tamen illa relatio 
+      cor<lb ed="#V" break="no" n="11"/>respondens sibi, non includit in se 
+      <lb ed="#V" n="12"/>aliquem conceptum absolutum in 
+      <lb ed="#V" n="13"/>quo fundetur, quia relatio Dei ad 
+      <lb ed="#V" n="14"/>creaturam, quae est tantum 
+      rati<lb ed="#V" break="no" n="15"/>onis, non includit in se essentiam 
+      <lb ed="#V" n="16"/>divinam vel aliquam perfectionem 
+      <lb ed="#V" n="17"/>absolutam in Deo, que perfectio 
+      <lb ed="#V" n="18"/>realiter est ipsa essentia ; quam 
+      <lb ed="#V" n="19"/>tamen essentiam vel perfectionem 
+      <lb ed="#V" n="20"/>absolutam, oportet ponere esse 
+      <lb ed="#V" n="21"/>fundamentum relationis Dei ad 
+      <lb ed="#V" n="22"/>creaturam, et ita non posset per 
+      <lb ed="#V" n="23"/>relationes istas causari in nobis 
+      <lb ed="#V" n="24"/>aliquis conceptus de 
+      perfectioni<lb ed="#V" break="no" n="25"/>bus absolutis, nisi relatio altera 
+      <lb ed="#V" n="26"/>haberet in se virtualiter illud 
+      ab<lb ed="#V" break="no" n="27"/>solutum quod est propria 
+      perfe<lb ed="#V" break="no" n="28"/>ctio Dei, quod est impossibile. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e747">
+               <lb ed="#V" n="29"/>Istud etiam (d) probatur, quia 
+      <lb ed="#V" n="30"/>secundum eos, essentia divina non 
+      <lb ed="#V" n="31"/>est nata facere de se nisi 
+      conce<lb ed="#V" break="no" n="32"/>ptum unicum in intellectu; ergo 
+      <lb ed="#V" n="33"/>non est natus haberi de ea nisi 
+      uni<lb ed="#V" break="no" n="34"/>cus conceptus realis. Hec 
+      conse<lb ed="#V" break="no" n="35"/>quentia probatur, quia omnem 
+      <lb ed="#V" n="36"/>conceptum realem natum haberi 
+      <lb ed="#V" n="37"/>de ea quantum ad intelligentiam 
+      <lb ed="#V" n="38"/>simplicem, ipsa nata est facere in 
+      <lb ed="#V" n="39"/>intellectu, hoc enim competit 
+      ob<lb ed="#V" break="no" n="40"/>jectis imperfectioribus. Ulterius 
+      <lb ed="#V" n="41"/>infero, ergo quodcumque 
+      obje<lb ed="#V" break="no" n="42"/>ctum natum est facere de illa 
+      es<lb ed="#V" break="no" n="43"/>sentia aliquem conceptum realem, 
+      <lb ed="#V" n="44"/>natum est facere illum unicum, 
+      <!--0583.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>qui natus est haberi de ea, quia si 
+      <lb ed="#V" n="46"/>non illum, tunc nullum de ea ; sed 
+      <lb ed="#V" n="47"/>nulla creatura potest illum 
+      uni<lb ed="#V" break="no" n="48"/>cum causare, quia tunc ex 
+      creatu<lb ed="#V" break="no" n="49"/>ra posset cognosci sub ratione, 
+      <lb ed="#V" n="50"/>qua est haec essentia singularis; 
+      <lb ed="#V" n="51"/>ergo per nullam creaturam, 
+      secun<lb ed="#V" break="no" n="52"/>dum illam opinionem, potest 
+      ha<lb ed="#V" break="no" n="53"/>beri aliquis conceptus 
+      singula<lb ed="#V" break="no" n="54"/>ris de essentia divina. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e810">
+               <lb ed="#V" n="55"/>Secunda ratio tacta in 
+      quaesti<lb ed="#V" break="no" n="56"/>one predicta erat de conceptu uno 
+      <lb ed="#V" n="57"/>certo, et duobus dubiis, qui certus 
+      <lb ed="#V" n="58"/>est communis illis. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e821">
+               <lb ed="#V" n="59"/>Respondetur ibi tripliciter. 
+      Pri<lb ed="#V" break="no" n="60"/>mo quod aliquis conceptus idem 
+      <lb ed="#V" n="61"/>est certus et dubius, ut conceptus 
+      <lb ed="#V" n="62"/>Socratis et Platonis dubius est, 
+      <lb ed="#V" n="63"/>conceptus alicujus hominis est 
+      <lb ed="#V" n="64"/>certus, et tamen iste et ille est 
+      <lb ed="#V" n="65"/>idem. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e840">
+               <lb ed="#V" n="66"/>Hoc nihil est (e), quia licet 
+      con<lb ed="#V" break="no" n="67"/>ceptus idem posset diversificari 
+      <lb ed="#V" n="68"/>penes modos Grammaticales et' 
+      <lb ed="#V" n="69"/>Logicales; Grammaticales, ut pe-' 
+      <lb ed="#V" n="70"/>nes quoscumque modos 
+      significan<lb ed="#V" break="no" n="71"/>di; Logicales, ut penes 
+      quoscum<lb ed="#V" break="no" n="72"/>que modos considerandi diversos, 
+      <lb ed="#V" n="73"/>sicut penes universale et 
+      particu<lb ed="#V" break="no" n="74"/>lare, vel penes explicite et 
+      impli<lb ed="#V" break="no" n="75"/>cite; explicite, sicut definitio 
+      ex<lb ed="#V" break="no" n="76"/>primit; implicite, sicut definitum 
+      <lb ed="#V" n="77"/>exprimit. Et per istas differentias 
+      <lb ed="#V" n="78"/>possunt poni non tantum certitudo 
+      <lb ed="#V" n="79"/>et incevtitudo, sed etiam veritas et 
+      <lb ed="#V" n="80"/>falsitas, congruitas et 
+      incongrui<lb ed="#V" break="no" n="81"/>tas; tamen, quod idem conceptus 
+      <lb ed="#V" n="82"/>eodem modo conceptus, quantum 
+      <lb ed="#V" n="83"/>ad istos modos, sit certus et 
+      dubi<lb ed="#V" break="no" n="84"/>us, hoc est idem omnino affirmare 
+      <lb ed="#V" n="85"/>et negare; ergo si conceptus de 
+      <lb ed="#V" n="86"/>ente est certus, et conceptus de 
+      <lb ed="#V" n="87"/>ente creato et increato est dubius, 
+      <lb ed="#V" n="88"/>non est hoc propter modos signifi- 
+      <!--0584.xml-->
+      <pb ed="#V" n="584"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>candi diversos Grammaticales, nec 
+      <lb ed="#V" n="2"/>penes diversos modos concipiendi 
+      <lb ed="#V" n="3"/>Logicales; vel igitur erit 
+      simplici<lb ed="#V" break="no" n="4"/>ter alius conceptus et alius, quod 
+      <lb ed="#V" n="5"/>est propositum; vel conceptus 
+      di<lb ed="#V" break="no" n="6"/>versificatur penes modum 
+      conci<lb ed="#V" break="no" n="7"/>piendi particularis et communis, 
+      <lb ed="#V" n="8"/>quod est etiam propositum. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e916">
+               <lb ed="#V" n="9"/>Aliter dicitur (f), quod sunt duo 
+      <lb ed="#V" n="10"/>conceptus, propinqui tamen, et 
+      <lb ed="#V" n="11"/>propter istam propinquitatem 
+      vi<lb ed="#V" break="no" n="12"/>dentur esse unus; et est certus de 
+      <lb ed="#V" n="13"/>uno, hoc est, de illis duobus 
+      con<lb ed="#V" break="no" n="14"/>fuse conceptis, vel certus est de 
+      <lb ed="#V" n="15"/>illis sub unitate conceptis; dubius 
+      <lb ed="#V" n="16"/>est autem de illis duobus distincte 
+      <lb ed="#V" n="17"/>conceptis. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e938">
+               <lb ed="#V" n="18"/>Contra, quando non possunt 
+      ali<lb ed="#V" break="no" n="19"/>qui conceptus concipi sub unitate, 
+      <lb ed="#V" n="20"/>nisi simul vel prius naturaliter 
+      <lb ed="#V" n="21"/>concipiantur sub distinctione 
+      pro<lb ed="#V" break="no" n="22"/>pria sibi, quae presupponitur illi 
+      <lb ed="#V" n="23"/>unitati, non potest intellectus esse 
+      <lb ed="#V" n="24"/>certus de eis inquantum habent 
+      il<lb ed="#V" break="no" n="25"/>lam unitatem, et dubius de eis 
+      in<lb ed="#V" break="no" n="26"/>quantum sunt distincti. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e960">
+               <lb ed="#V" n="27"/>Sed intellectus concipiens ens 
+      <lb ed="#V" n="28"/>dictum de Deo et creatura, (si sint 
+      <lb ed="#V" n="29"/>duo conceptus,) non potest habere 
+      <lb ed="#V" n="30"/>conceptus istos secundum aliquam 
+      <lb ed="#V" n="31"/>unitatem, nisi prius naturaliter 
+      <lb ed="#V" n="32"/>habeat eos, vel simul sub 
+      rati<lb ed="#V" break="no" n="33"/>one distinctorum; ergo non posset 
+      <lb ed="#V" n="34"/>esse certus de eis sub ratione 
+      uni<lb ed="#V" break="no" n="35"/>us, dubitando de eis sub 
+      rati<lb ed="#V" break="no" n="36"/>one multorum. Probatio majoris, 
+      <lb ed="#V" n="37"/>quia si certitudo esset de aliquo 
+      <lb ed="#V" n="38"/>conceptu vel de aliquibus 
+      conce<lb ed="#V" break="no" n="39"/>ptibus, dubitando de A et B, vel 
+      <lb ed="#V" n="40"/>oum dubitatione de A et B, ille unus 
+      <lb ed="#V" n="41"/>vel illi duo conceptus 
+      conciperen<lb ed="#V" break="no" n="42"/>tur prius naturaliter sub ea 
+      rati<lb ed="#V" break="no" n="43"/>one, sub qua esset certitudo de illo 
+      <lb ed="#V" n="44"/>vel de illis, quam concipiantur A 
+      <!--0584.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>et B; ergo per oppositum, si non 
+      <lb ed="#V" n="46"/>potest concipi aliquid de A et B, 
+      <lb ed="#V" n="47"/>nisi sub distinctione sibi propria 
+      <lb ed="#V" n="48"/>concipiantur, non potest 
+      intelle<lb ed="#V" break="no" n="49"/>ctus esse certus de eis sub ratione 
+      <lb ed="#V" n="50"/>alicujus unius, et dubius sub 
+      rati<lb ed="#V" break="no" n="51"/>one distinctionis. Probatio 
+      mino<lb ed="#V" break="no" n="52"/>ris, ens in Deo et ens in creatura, 
+      <lb ed="#V" n="53"/>(si sunt duo conceptus habentes 
+      <lb ed="#V" n="54"/>attributionem) non possunt 
+      conci<lb ed="#V" break="no" n="55"/>pi inquantum habent unitatem 
+      at<lb ed="#V" break="no" n="56"/>tributionis, nisi prius natura, vel 
+      <lb ed="#V" n="57"/>saltem simul concipiatur iste et 
+      <lb ed="#V" n="58"/>ille inquantum distincti; puta iste 
+      <lb ed="#V" n="59"/>sub propria ratione, et ille sub 
+      <lb ed="#V" n="60"/>propria ratione, quia isti sub 
+      pro<lb ed="#V" break="no" n="61"/>priis rationibus sunt fundamenta 
+      <lb ed="#V" n="62"/>unitatis ordinis et attributionis. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e1045">
+               <lb ed="#V" n="63"/>Confirmatur per istud (g) 
+      argu<lb ed="#V" break="no" n="64"/>mentum Philosophi secundo de 
+      Ani<lb ed="#V" break="no" n="65"/>ma, de sensu communi, quem 
+      con<lb ed="#V" break="no" n="66"/>cludit esse communem per 
+      cogni<lb ed="#V" break="no" n="67"/>tionem differentiae albi et dulcis, 
+      <lb ed="#V" n="68"/>ex cujus differentiae cognitione 
+      <lb ed="#V" n="69"/>concludit quod cognoscit extrema. 
+      <lb ed="#V" n="70"/>Si enim posset cognoscere ista 
+      <lb ed="#V" n="71"/>sub ratione hujus respectus, qui 
+      <lb ed="#V" n="72"/>est differentia, absque hoc quod ea 
+      <lb ed="#V" n="73"/>cognosceret sub propria ratione, 
+      <lb ed="#V" n="74"/>tunc argumentum suum non 
+      vale<lb ed="#V" break="no" n="75"/>ret; ergo similiter in proposito 
+      <lb ed="#V" n="76"/>non possunt simul cognosci A et B, 
+      <lb ed="#V" n="77"/>sub ratione illius unitatis ordinis, 
+      <lb ed="#V" n="78"/>nisi cognoscatur A sub propria 
+      ra<lb ed="#V" break="no" n="79"/>tione, et B sub propria ratione,. 
+      <lb ed="#V" n="80"/>cum per te, nihil sit eis commune, 
+      <lb ed="#V" n="81"/>et ita quicumque intellectus 
+      con<lb ed="#V" break="no" n="82"/>cipit istos duos sub unitate 
+      ordi<lb ed="#V" break="no" n="83"/>nis, concipit eos distincte ut 
+      di<lb ed="#V" break="no" n="84"/>stinctos in se. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e1095">
+               <lb ed="#V" n="85"/>Tertio modo (h) respondetur, 
+      <lb ed="#V" n="86"/>quod non est certitudo de conceptu 
+      <lb ed="#V" n="87"/>aliquo uno, et dubitatio de 
+      duo<lb ed="#V" break="no" n="88"/>bus; sed est certitudo de duobus 
+      <!--0585.xml-->
+      <pb ed="#V" n="585"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>disjunctis, et dubitatio de alterutro 
+      <lb ed="#V" n="2"/>illorum, ut puta certus sum quod 
+      <lb ed="#V" n="3"/>hoc ens, est substantia vel 
+      acci<lb ed="#V" break="no" n="4"/>dens; dubitando tamen 
+      determina<lb ed="#V" break="no" n="5"/>te, utrum sit hoc ens ut 
+      substan<lb ed="#V" break="no" n="6"/>tia, vel illud ens quod est accidens. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e1127">
+               <lb ed="#V" n="7"/>Contra, ista certitudo precedit 
+      <lb ed="#V" n="8"/>omnem apprehensionem 
+      quorum<lb ed="#V" break="no" n="9"/>cumque dividentium ipsum ens; 
+      <lb ed="#V" n="10"/>ergo praecedit certitudinem de toto 
+      <lb ed="#V" n="11"/>disjuncto. Antecedens probatur, 
+      <lb ed="#V" n="12"/>quia non oportet in prima 
+      appre<lb ed="#V" break="no" n="13"/>hensione, qua scitur hoc esse 
+      ali<lb ed="#V" break="no" n="14"/>quid vel ens, apprehendere a se 
+      <lb ed="#V" n="15"/>vel ab alio, per se vel in alio, et 
+      <lb ed="#V" n="16"/>sic de aliis disjunctis. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e1151">
+               <lb ed="#V" n="17"/>Contra, istud etiam est tertium 
+      <lb ed="#V" n="18"/>argumentum superius dictum, 
+      <lb ed="#V" n="19"/>quod erat de inquisitione 
+      intelle<lb ed="#V" break="no" n="20"/>ctus, quam habemus de Deo per 
+      <lb ed="#V" n="21"/>naturalem investigationem, in qua 
+      <lb ed="#V" n="22"/>illas rationes creaturae, que 
+      di<lb ed="#V" break="no" n="23"/>cunt perfectionem de se, 
+      separa<lb ed="#V" break="no" n="24"/>mus ab imperfectione cum qua 
+      <lb ed="#V" n="25"/>sunt in creaturis, et eas secundum 
+      <lb ed="#V" n="26"/>se acceptas consideramus ut 
+      in<lb ed="#V" break="no" n="27"/>differentes, et eis attribuimus 
+      per<lb ed="#V" break="no" n="28"/>fectionem summam; et sic 
+      acce<lb ed="#V" break="no" n="29"/>ptas in summo attribuimus eas 
+      <lb ed="#V" n="30"/>oreatori ut proprias sibi, et ita 
+      ar<lb ed="#V" break="no" n="31"/>guit <ref xml:id="jdso8u-d1e691-Rd1e1185">Augustinus 15. de Trinitate, 
+        <lb ed="#V" n="32"/>Cap. 4.</ref>
+               <quote xml:id="jdso8u-d1e691-Qd1e1190" source="http://scta.info/resource/adt-l15-d1e1728@95-115">Ac per hoc, quoniam rebus 
+      crea<lb ed="#V" break="no" n="33"/>tis creatorem suum sine dubitatione 
+      pre<lb ed="#V" break="no" n="34"/>ponimus, oportet eum et summe vivere, et 
+      <lb ed="#V" n="35"/>cuncta sentire atque intelligere</quote>. Hoc 
+      <lb ed="#V" n="36"/>probat ipse ex hoc quod dixit <ref xml:id="jdso8u-d1e691-Rd1e1202">ante 
+        <lb ed="#V" n="37"/>Cap. eodem</ref> : <quote xml:id="jdso8u-d1e691-Qd1e1207" source="http://scta.info/resource/adt-l15-d1e1728@62-94">Quod viventia non 
+      viven<lb ed="#V" break="no" n="38"/>tibus, sensu predita non sentientibus, 
+      in<lb ed="#V" break="no" n="39"/>telligentia non intelligentibus, 
+      immorta<lb ed="#V" break="no" n="40"/>lia mortalibus, bona malis, 
+      incorruptibi<lb ed="#V" break="no" n="41"/>lia corruptibilibus, immutabilia 
+      mutabili<lb ed="#V" break="no" n="42"/>bus, invisibilia visibilibus, incorporalia 
+      <lb ed="#V" n="43"/>corporalibus, beata miseris, preferenda 
+      <lb ed="#V" n="44"/>judicamus</quote>. Quod argumentum non 
+      <!--0585.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>videtur valere, si talia ut 
+      reperi<lb ed="#V" break="no" n="46"/>untur in creaturis, non essent 
+      ejus<lb ed="#V" break="no" n="47"/>dem rationis cum illis, quae talia 
+      <lb ed="#V" n="48"/>in summo attribuuntur Deo. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e1239">
+               <lb ed="#V" n="49"/>Consimilia argumenta 
+      frequen<lb ed="#V" break="no" n="50"/>ter habentur a Doctoribus et 
+      San<lb ed="#V" break="no" n="51"/>ctis. Ita enim formaliter ponitur 
+      <lb ed="#V" n="52"/>in Deo intellectus et voluntas, et 
+      <lb ed="#V" n="53"/>non tantum absolute, sed cum 
+      infi<lb ed="#V" break="no" n="54"/>nitate; ita et potentia, sapientia et 
+      <lb ed="#V" n="55"/>liberum arbitrium ponitur in Deo. 
+      <lb ed="#V" n="56"/>Et Anselmus de libero arbitrio capite 
+      <lb ed="#V" n="57"/>primo, reprehendit illam 
+      definiti<lb ed="#V" break="no" n="58"/>onem de libero arbitrio, quae dicit 
+      <lb ed="#V" n="59"/>quod est potestas peccandi, quia 
+      <lb ed="#V" n="60"/>secundum eum, tunc secundum 
+      <lb ed="#V" n="61"/>hoo non esset in Deo liberum 
+      arbi<lb ed="#V" break="no" n="62"/>trium, quod est falsum; quae 
+      im<lb ed="#V" break="no" n="63"/>probatio nulla esset, si secundum 
+      <lb ed="#V" n="64"/>aliam rationem omnino diceretur 
+      <lb ed="#V" n="65"/>liberum arbitrium de Deo et 
+      crea<lb ed="#V" break="no" n="66"/>tura. Haec est etiam via D. 
+      Diony<lb ed="#V" break="no" n="67"/>sii, quia quando in tertio gradu 
+      <lb ed="#V" n="68"/>pervenitur ad istam cognitionem 
+      <lb ed="#V" n="69"/>per remotionem, quero an 
+      preci<lb ed="#V" break="no" n="70"/>se cognoscatur ibi illa negatio, et 
+      <lb ed="#V" n="71"/>tunc non plus cognoscitur Deus 
+      <lb ed="#V" n="72"/>quam chimaera, quia illa negatio 
+      <lb ed="#V" n="73"/>est communis enti et non enti; aut 
+      <lb ed="#V" n="74"/>etiam ibi cognoscitur aliquid 
+      posi<lb ed="#V" break="no" n="75"/>tivum cui attribuitur illa negatio 
+      <lb ed="#V" n="76"/>el tunc de illo positivo quaero, 
+      quo<lb ed="#V" break="no" n="77"/>modo conceptus ejus habetur in 
+      in<lb ed="#V" break="no" n="78"/>tellectu. Si enim non habetur in 
+      <lb ed="#V" n="79"/>intellectu per viam causalitatis et 
+      <lb ed="#V" n="80"/>eminentiae aliquis conceptus prius 
+      <lb ed="#V" n="81"/>causatus in intellectu, nihil 
+      omni<lb ed="#V" break="no" n="82"/>no positivum cognoscetur cui 
+      at<lb ed="#V" break="no" n="83"/>tribuatur ista negatio. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e1317">
+               <lb ed="#V" n="84"/>Confirmatur etiam ista ratio, 
+      <lb ed="#V" n="85"/>quia non dicimus Deum 
+      formali<lb ed="#V" break="no" n="86"/>tes lapidem, sed formaliter 
+      sapien<lb ed="#V" break="no" n="87"/>tem, et tamen si praecise 
+      conside<lb ed="#V" break="no" n="88"/>retur attributio conceptus ad con- 
+      <!--0586.xml-->
+      <pb ed="#V" n="586"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>ceptum, ita potest formaliter 
+      la<lb ed="#V" break="no" n="2"/>pis attribui ad aliquid in Deo ut 
+      <lb ed="#V" n="3"/>ad ideam suam, sicut sapientia. 
+    </p>
+            <!-- Additio -->
+            <p xml:id="jdso8u-d1e691-d1e1345">
+               <lb ed="#V" n="4"/>Respondetur, Deus non dicitur sapiens, 
+      <lb ed="#V" n="5"/>quia est in ipso idea sapientie, sed quia 
+      <lb ed="#V" n="6"/>est in ipso perfectio simpliciter talis, sed 
+      <lb ed="#V" n="7"/>alterius rationis a sapientia creata. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e1357">
+               <lb ed="#V" n="8"/>Contra, illius sapientie est sapientia 
+      <lb ed="#V" n="9"/>creata nostra quedam participatio, 
+      si<lb ed="#V" break="no" n="10"/>militer et idee, idem autem non 
+      partici<lb ed="#V" break="no" n="11"/>pat essentialiter, nisi unicam 
+      perfecti<lb ed="#V" break="no" n="12"/>0hem. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e1370">
+               <lb ed="#V" n="13"/>Item, relatio ideati ad ideam est 
+      men<lb ed="#V" break="no" n="14"/>surati ad mensuram, unicum 
+      mensura<lb ed="#V" break="no" n="15"/>tum non nisi ad unam mensuram 
+      refer<lb ed="#V" break="no" n="16"/>tur, idea autem est mensura ejus; erg0 
+      <lb ed="#V" n="17"/>sapientia qua Deus dicitur sapiens, cum 
+      <lb ed="#V" n="18"/>sit mensura ejusdem non distinguitur ab 
+      <lb ed="#V" n="19"/>idea. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e1388">
+               <lb ed="#V" n="20"/>Respondeo, idea est mensura propria 
+      <lb ed="#V" n="21"/>et participatum proprium, vel magis 
+      <lb ed="#V" n="22"/>relatio mensure, et participata sapientia 
+      <lb ed="#V" n="23"/>non sic, sed est magis fundamentum 
+      rela<lb ed="#V" break="no" n="24"/>tionis mensure et participati, et 
+      commu<lb ed="#V" break="no" n="25"/>ne, non proprium, quia ita participat una 
+      <lb ed="#V" n="26"/>creatura illam perfectionem, sicut alia. 
+    </p>
+            <!-- END additio -->
+            <p xml:id="jdso8u-d1e691-d1e1408">
+               <lb ed="#V" n="27"/>Et si dicas, quod de Deo 
+      con<lb ed="#V" break="no" n="28"/>cludimus aliquid per rationem 
+      <lb ed="#V" n="29"/>effectus, ubi sufficit tantum 
+      pro<lb ed="#V" break="no" n="30"/>portio, et non similitudo : 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e1419">
+               <lb ed="#V" n="31"/>Hoc non respondet, sed 
+      confir<lb ed="#V" break="no" n="32"/>mat argumentum, quia 
+      conside<lb ed="#V" break="no" n="33"/>rando Deum sub ratione causae ex 
+      <lb ed="#V" n="34"/>creaturis bene cognoscitur 
+      pro<lb ed="#V" break="no" n="35"/>portionaliter; sed hoc modo non 
+      <lb ed="#V" n="36"/>cognoscitur aliqua perfectio de 
+      <lb ed="#V" n="37"/>Deo, quae est in creatura 
+      formali<lb ed="#V" break="no" n="38"/>ter, sed causaliter, scilicet quod 
+      <lb ed="#V" n="39"/>Deus sit causa talis perfectionis; 
+      <lb ed="#V" n="40"/>attributa autem sunt perfectiones 
+      <lb ed="#V" n="41"/>simpliciter dictae de Deo 
+      formali<lb ed="#V" break="no" n="42"/>ter; ergo talia cognoscuntur de 
+      <lb ed="#V" n="43"/>Deo, non solum per viam 
+      propor<lb ed="#V" break="no" n="44"/>tionis, sed etiam per viam simili- 
+      <!--0586.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>tudinis, ita quod oportet ponere 
+      <lb ed="#V" n="46"/>aliquem conceptum communem in 
+      <lb ed="#V" n="47"/>talibus Deo et creaturae, qualis 
+      <lb ed="#V" n="48"/>non est communis in prima via, 
+      <lb ed="#V" n="49"/>cognoscendo Deum per viam 
+      cau<lb ed="#V" break="no" n="50"/>salitatis. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e1470">
+               <lb ed="#V" n="51"/>(i) Ad istud est auctoritas 
+      Philo<lb ed="#V" break="no" n="52"/>sophi 2. Metaph. qui arguit 
+      princi<lb ed="#V" break="no" n="53"/>pia sempiternorum esse verissima, 
+      <lb ed="#V" n="54"/>et probat hoc per istam majorem, 
+      <lb ed="#V" n="55"/>quia Unumquodque est maime tale per 
+      <lb ed="#V" n="56"/>quod aliis inest univocatio, et 
+      exem<lb ed="#V" break="no" n="57"/>plificat de igne, et ex hoc concludit 
+      <lb ed="#V" n="58"/>quod sempiternorum principia 
+      ne<lb ed="#V" break="no" n="59"/>cesse est esse verissima. Ista 
+      con<lb ed="#V" break="no" n="60"/>sequentia non valet, nisi virtute 
+      <lb ed="#V" n="61"/>istius minoris, quod principia illa 
+      <lb ed="#V" n="62"/>sempiterna sunt causa univoca 
+      ve<lb ed="#V" break="no" n="63"/>ritatis in aliis. Si enim accipitur 
+      <lb ed="#V" n="64"/>in minori, quod illa principia sunt 
+      <lb ed="#V" n="65"/>principia aequivoca vel analoga, 
+      <lb ed="#V" n="66"/>erunt quatuor termini in 
+      Syllogi<lb ed="#V" break="no" n="67"/>smo Philosophi, quod non est 
+      veri<lb ed="#V" break="no" n="68"/>simile. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e1512"><!-- jdso-l1d8q3-n4 -->
+               <lb ed="#V" n="16"/>Ad argumenta (a) opinionis 
+      op<lb ed="#V" break="no" n="17"/>posite. Ad primum, aut intelligit 
+      <lb ed="#V" n="18"/>in minori quod illa sunt sub 
+      ex<lb ed="#V" break="no" n="19"/>tremis contradictionis totaliter, 
+      <lb ed="#V" n="20"/>hoc est, quod praecise sunt illa 
+      ex<lb ed="#V" break="no" n="21"/>trema contradictionis, et sic 
+      mi<lb ed="#V" break="no" n="22"/>nor est falsa. Deus enim non est 
+      <lb ed="#V" n="23"/>praecise hoc, scilicet non ab alio, 
+      <lb ed="#V" n="24"/>quia ista negatio dicitur de 
+      Chi<lb ed="#V" break="no" n="25"/>mera; nec creatura est precise 
+      <lb ed="#V" n="26"/>ista negatio, scilicet non necesse esse, 
+      <lb ed="#V" n="27"/>quia hoc etiam convenit Chimaerae; 
+      <lb ed="#V" n="28"/>sed tam Deus quam creatura est 
+      <lb ed="#V" n="29"/>aliquid cui convenit alterum 
+      extre<lb ed="#V" break="no" n="30"/>mum contradictionis. Accipe tunc 
+      <lb ed="#V" n="31"/>majorem, quod quaecumque sunt 
+      <lb ed="#V" n="32"/>talia quibus conveniunt extrema 
+      <lb ed="#V" n="33"/>contradictionis,, ipsa non 
+      univo<lb ed="#V" break="no" n="34"/>cantur in aliquo, ista major est 
+      <lb ed="#V" n="35"/>falsa. Nam omnia per se dividentia 
+      <lb ed="#V" n="36"/>aliquod commune, sunt talia, quod 
+      <lb ed="#V" n="37"/>de ipsis dicuntur extrema 
+      contra<lb ed="#V" break="no" n="38"/>dictionis, et tamen univocantur in 
+      <lb ed="#V" n="39"/>ipso diviso. Ita in proposito, 
+      pos<lb ed="#V" break="no" n="40"/>sunt ista secundum se tota 
+      recipe<lb ed="#V" break="no" n="41"/>re praedicationem contradictionis, 
+      <lb ed="#V" n="42"/>et tamen possunt habere aliquid 
+      <lb ed="#V" n="43"/>substratum illis extremis illius 
+      <!--0590.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="44"/>contradictionis, quod est 
+      commu<lb ed="#V" break="no" n="45"/>ne ambobus. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e1585">
+               <lb ed="#V" n="46"/>Ad confirmationem de neutro, 
+      <lb ed="#V" n="47"/>dico, quod conceptus (b) communis 
+      <lb ed="#V" n="48"/>duobus, est neuter formaliter; et 
+      <lb ed="#V" n="49"/>ita concedo conclusionem, quod 
+      <lb ed="#V" n="50"/>conceptus entis non est 
+      forma<lb ed="#V" break="no" n="51"/>liter conceptus creati, neo 
+      in<lb ed="#V" break="no" n="52"/>creati. Si autem intelligatur, 
+      <lb ed="#V" n="53"/>quod iste conceptus est ita neuter, 
+      <lb ed="#V" n="54"/>quod neutrum contradictoriorum 
+      <lb ed="#V" n="55"/>dicatur de eo, falsum est. Ita est in 
+      <lb ed="#V" n="56"/>rationali et irrationali, quod 
+      con<lb ed="#V" break="no" n="57"/>ceptus animalis neuter est 
+      forma<lb ed="#V" break="no" n="58"/>liter, et tamen illud quod 
+      concipi<lb ed="#V" break="no" n="59"/>tur, non est neutrum, sed vere est 
+      <lb ed="#V" n="60"/>alterum istorum; alterum enim 
+      <lb ed="#V" n="61"/>contradictoriorum dicitur de 
+      quoli<lb ed="#V" break="no" n="62"/>bet, et tamen non oportet 
+      quemli<lb ed="#V" break="no" n="63"/>bet conceptum esse formaliter 
+      al<lb ed="#V" break="no" n="64"/>terum conceptum 
+      contradictori<lb ed="#V" break="no" n="65"/>orum. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e1631">
+               <lb ed="#V" n="66"/>Ad secundum patebit in secundo 
+      <lb ed="#V" n="67"/>articulo, quod Deus (c) et creatura, 
+      <lb ed="#V" n="68"/>non sunt primo diversa in 
+      conce<lb ed="#V" break="no" n="69"/>ptibus, tamen sunt primo diversa 
+      <lb ed="#V" n="70"/>in realitate, quia in nulla 
+      reali<lb ed="#V" break="no" n="71"/>tate conveniunt, et quomodo esse 
+      <lb ed="#V" n="72"/>possit conseptus communis sine 
+      <lb ed="#V" n="73"/>convenientia in re vel in realitate, 
+      <lb ed="#V" n="74"/>in sequenti dicetur. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e1653">
+               <lb ed="#V" n="75"/>(d) Ad aliud de attributione, 
+      di<lb ed="#V" break="no" n="76"/>co quod attributio sola non ponit 
+      <lb ed="#V" n="77"/>unitatem univocationis, quia 
+      uni<lb ed="#V" break="no" n="78"/>tas attributionis minor est unitate 
+      <lb ed="#V" n="79"/>univocationis, et minor unitas non 
+      <lb ed="#V" n="80"/>concludit majorem, tamen minor 
+      <lb ed="#V" n="81"/>unitas potest stare cum majore 
+      <lb ed="#V" n="82"/>unitate, sicut que sunt unum 
+      gene<lb ed="#V" break="no" n="83"/>re, sunt unum specie, licet unitas 
+      <lb ed="#V" n="84"/>generis sit minor quam unitas 
+      spe<lb ed="#V" break="no" n="85"/>ciei. Ita hic concedo, quod unitas 
+      <lb ed="#V" n="86"/>attributionis non ponit unitatem 
+      <lb ed="#V" n="87"/>univocationis, potest tamen stare 
+      <!--0591.xml-->
+      <pb ed="#V" n="591"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>cum ea, licet haec formaliter non 
+      <lb ed="#V" n="2"/>sit illa. Exemplum, species 
+      ejus<lb ed="#V" break="no" n="3"/>dem generis habent essentialem 
+      <lb ed="#V" n="4"/>ordinem sive attributionem ad 
+      pri<lb ed="#V" break="no" n="5"/>mum illius generis ex 10. Metaph. 
+      <lb ed="#V" n="6"/>et tamen cum hoc stat unitas 
+      uni<lb ed="#V" break="no" n="7"/>vocationis rationis generis in 
+      ip<lb ed="#V" break="no" n="8"/>sis speciebus; ita et multo magis 
+      <lb ed="#V" n="9"/>oportet esse in proposito, quod in 
+      <lb ed="#V" n="10"/>ratione entis in qua est unitas 
+      at<lb ed="#V" break="no" n="11"/>tributionis, attributa habeant 
+      uni<lb ed="#V" break="no" n="12"/>tatem univocationis, quia 
+      nun<lb ed="#V" break="no" n="13"/>quam aliqua comparantur ut 
+      men<lb ed="#V" break="no" n="14"/>surata ad mensuram, vel excessa 
+      <lb ed="#V" n="15"/>ad excedens, nisi in aliquo uno 
+      <lb ed="#V" n="16"/>conveniant. Sicut enim 
+      compara<lb ed="#V" break="no" n="17"/>tio simpliciter est in simpliciter 
+      <lb ed="#V" n="18"/>univoco, 7. Physic. ita omnis 
+      com<lb ed="#V" break="no" n="19"/>paratio est in aliqualiter univoco. 
+      <lb ed="#V" n="20"/>Quando enim dicitur, hoc est 
+      per<lb ed="#V" break="no" n="21"/>fectius illo; si quaeratur quid 
+      per<lb ed="#V" break="no" n="22"/>fectius, oportet ibi assignare 
+      ali<lb ed="#V" break="no" n="23"/>quid commune utrique, ita quod 
+      <lb ed="#V" n="24"/>omnis comparativi determinabile 
+      <lb ed="#V" n="25"/>commune est utrique extremo 
+      <lb ed="#V" n="26"/>comparationis; non enim homo est 
+      <lb ed="#V" n="27"/>perfectior homo quam asinus, sed 
+      <lb ed="#V" n="28"/>perfectius animal. Et ita si 
+      ali<lb ed="#V" break="no" n="29"/>qua comparantur in entitate, 
+      <lb ed="#V" n="30"/>in qua est attributio unius 
+      <lb ed="#V" n="31"/>ad alterum, hoc perfectius est 
+      <lb ed="#V" n="32"/>illo. Quid perfectius? ens 
+      perfe<lb ed="#V" break="no" n="33"/>ctius, ergo oportet entitatem esse 
+      <lb ed="#V" n="34"/>aliquo modo eommunem 
+      utri<lb ed="#V" break="no" n="35"/>que extremo; ita etiam posset 
+      ar<lb ed="#V" break="no" n="36"/>gui de numero vel de distinctione, 
+      <lb ed="#V" n="37"/>quia omnia numerata vel' discreta, 
+      <lb ed="#V" n="38"/>habent aliquid commune, sicut vult 
+      <lb ed="#V" n="39"/>
+               <ref xml:id="jdso8u-d1e691-Rd1e1774">Augustinus 7. de Trin. cap. 4.</ref>
+               <quote xml:id="jdso8u-d1e691-Qd1e1776" source="http://scta.info/resource/adt-l7-d1e893@96-106">Si 
+      <lb ed="#V" n="40"/>tres persone, commune est eis illud quod 
+      <lb ed="#V" n="41"/>est persona</quote>, ita quod determinabile 
+      <lb ed="#V" n="42"/>termini numeralis semper est 
+      <lb ed="#V" n="43"/>commune omnibus numeratis, 
+      se<lb ed="#V" break="no" n="44"/>cundum Augustinum. 
+      <!--0591.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>Et cum arguitur de Dionysio, 
+      <lb ed="#V" n="46"/>patet prius in tertio articulo, quod 
+      <lb ed="#V" n="47"/>intentio Dionysii est ad oppositum, 
+      <lb ed="#V" n="48"/>quia in tertio gradu non statur in 
+      <lb ed="#V" n="49"/>sola negatione, sed in aliquo 
+      posi<lb ed="#V" break="no" n="50"/>tivo conceptu a creatura accepto 
+      <lb ed="#V" n="51"/>cui attribuitur illa negatio. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e1810">
+               <lb ed="#V" n="52"/>Ad Augustinum, respondeo, 
+      <lb ed="#V" n="53"/>quod illud bonum, cujus 
+      parti<lb ed="#V" break="no" n="54"/>cipatione alia bona sunt, quod 
+      <lb ed="#V" n="55"/>intelligitur intelligendo hoc 
+      bo<lb ed="#V" break="no" n="56"/>num vel illud; vel potest poni 
+      uni<lb ed="#V" break="no" n="57"/>versale ad omnia bona, et tune 
+      <lb ed="#V" n="58"/>ejus participatione sunt alia bona, 
+      <lb ed="#V" n="59"/>sicut species participant genus, 
+      <lb ed="#V" n="60"/>vel aliquod inferius participat 
+      <lb ed="#V" n="61"/>superius; vel potest intelligi 
+      bo<lb ed="#V" break="no" n="62"/>num per essentiam, cujus ut 
+      cau<lb ed="#V" break="no" n="63"/>se, participatione alia bona sunt, 
+      <lb ed="#V" n="64"/>et tunc verum est quod 
+      intelligen<lb ed="#V" break="no" n="65"/>do illud bonum, intelligo bonum 
+      <lb ed="#V" n="66"/>per essentiam in universali, sicut 
+      <lb ed="#V" n="67"/>intelligendo hoc ens, intelligo ens 
+      <lb ed="#V" n="68"/>ut partem conceptus, et in ente 
+      in<lb ed="#V" break="no" n="69"/>telligo quodcumque ens in 
+      univer<lb ed="#V" break="no" n="70"/>sali. Et cum subdit, si potes illud 
+      <lb ed="#V" n="71"/>er se nosse, dico quod ly per se 
+      <lb ed="#V" n="72"/>si refertur non ad actum 
+      cogno<lb ed="#V" break="no" n="73"/>scendi, sed ad objectum, puta quod 
+      <lb ed="#V" n="74"/>cognoscatur illud bonum, quod 
+      co<lb ed="#V" break="no" n="75"/>gnosco in universali cum ista 
+      deter<lb ed="#V" break="no" n="76"/>minatione per se, scilicet quod 
+      con<lb ed="#V" break="no" n="77"/>ciperem bonum cum tali 
+      determi<lb ed="#V" break="no" n="78"/>natione, quod sit bonum non 
+      de<lb ed="#V" break="no" n="79"/>pendens et bonum per essentiam, 
+      <lb ed="#V" n="80"/>intelligo Deum, non tantum in 
+      <lb ed="#V" n="81"/>conceptu communi, sed in 
+      conce<lb ed="#V" break="no" n="82"/>ptu proprio; et tunc per hoc quod 
+      <lb ed="#V" n="83"/>dicitur, per se contrahitur bonam 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e1883">
+               <lb ed="#V" n="84"/>quod erat commune et sit 
+      pro<lb ed="#V" break="no" n="85"/>prium Deo, et isti inhaerendo per 
+      <lb ed="#V" n="86"/>fruitionem est beatitudo, loquendo 
+      <lb ed="#V" n="87"/>de beatitudine viae, quia iste 
+      con<lb ed="#V" break="no" n="88"/>ceptus est perfectissimus, uem 
+      <!--0592.xml-->
+      <pb ed="#V" n="592"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>possumus habere in via, 
+      conci<lb ed="#V" break="no" n="2"/>piendo Deum naturaliter. Et ista 
+      <lb ed="#V" n="3"/>apparet esse intentio <ref xml:id="jdso8u-d1e691-Rd1e1908">Augustini 8. 
+        <lb ed="#V" n="4"/>de Trin. c. 3.</ref> ubi dicitur: <quote xml:id="jdso8u-d1e691-Qd1e1914" source="http://scta.info/resource/adt-l8-d1e949@46-71">Noli 
+      que<lb ed="#V" break="no" n="5"/>rere quid sit veritas, statim enim se 
+      op<lb ed="#V" break="no" n="6"/>ponunt caligines imaginum corporalium, 
+      <lb ed="#V" n="7"/>et nubila phantasmatum, et perturbant 
+      <lb ed="#V" n="8"/>serenitatem, que primo ictu diluxit tibi 
+      <lb ed="#V" n="9"/>cum dicerem, veritas</quote>. Quod non esset 
+      <lb ed="#V" n="10"/>verum, si omnino esset alius 
+      con<lb ed="#V" break="no" n="11"/>ceptus entis vel boni in Deo a 
+      con<lb ed="#V" break="no" n="12"/>ceptu illorum in creaturas. Tunc 
+      <lb ed="#V" n="13"/>enim bene esset quaerendum quid 
+      <lb ed="#V" n="14"/>veritas, quia tunc esset veritas 
+      <lb ed="#V" n="15"/>quaerenda, quae est propria Deo, 
+      <lb ed="#V" n="16"/>nec objicerent se illi phantasmata 
+      <lb ed="#V" n="17"/>perturbantia conceptum veritatis, 
+      <lb ed="#V" n="18"/>ut est propria Deo, quia iste 
+      con<lb ed="#V" break="no" n="19"/>ceptus non habet phantasmata 
+      <lb ed="#V" n="20"/>sibi correspondentia; perturbant 
+      <lb ed="#V" n="21"/>enim conceptum veritatis, ut 
+      con<lb ed="#V" break="no" n="22"/>venit Deo (loquendo de veritate 
+      <lb ed="#V" n="23"/>in communi), sicut alias 
+      exposi<lb ed="#V" break="no" n="24"/>tum est. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e1960">
+               <lb ed="#V" n="25"/>Si autem aliqui proterviant, 
+      <lb ed="#V" n="26"/>unum esse conceptum entis, et 
+      ta<lb ed="#V" break="no" n="27"/>men nullum esse univocum isti et 
+      <lb ed="#V" n="28"/>illi, illud non est ad intentionem 
+      <lb ed="#V" n="29"/>istius questionis, quia 
+      quantum<lb ed="#V" break="no" n="30"/>cumque illud quod concipitur, sit 
+      <lb ed="#V" n="31"/>secundum attributionem vel 
+      ordi<lb ed="#V" break="no" n="32"/>nem in diversi, si tamen de se 
+      <lb ed="#V" n="33"/>conceptus unus est, ita quod non 
+      <lb ed="#V" n="34"/>habet aliam rationem, secundum 
+      <lb ed="#V" n="35"/>quam dicitur de hoc et de illo, ille 
+      <lb ed="#V" n="36"/>conceptus est univocus. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e1989">
+               <lb ed="#V" n="37"/>Si etiam alio modo proterviat 
+      <lb ed="#V" n="38"/>aliquis, quod conceptus 
+      denomina<lb ed="#V" break="no" n="39"/>tivus non est univocus, quia ratio 
+      <lb ed="#V" n="40"/>subjecti non est ratio praedicati : 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e2000">
+               <lb ed="#V" n="41"/>Hec videtur instantia puerilis, 
+      <lb ed="#V" n="42"/>quia uno modo praedicatum 
+      deno<lb ed="#V" break="no" n="43"/>minativum est medium inter 
+      pree<lb ed="#V" break="no" n="44"/>dicatum univocum et aequivocum. 
+      <!--0592.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>Alio modo univocum et 
+      aequivo<lb ed="#V" break="no" n="46"/>cum sunt immediata apud 
+      Logi<lb ed="#V" break="no" n="47"/>CuI. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e2022">
+               <lb ed="#V" n="48"/>Primum verum est, accipiendo 
+      <lb ed="#V" n="49"/>praedicatum univocum, et quod 
+      <lb ed="#V" n="50"/>univoce praedicatur, hoc est, 
+      scili<lb ed="#V" break="no" n="51"/>cet quod ratio ejus sit ratio 
+      subje<lb ed="#V" break="no" n="52"/>cti, et isto modo denominativum 
+      <lb ed="#V" n="53"/>non est univocum. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e2038">
+               <lb ed="#V" n="54"/>Secundum etiam verum est, 
+      in<lb ed="#V" break="no" n="55"/>telligendo de unitate rationis ejus 
+      <lb ed="#V" n="56"/>quod praedicatur. Sic univocum est 
+      <lb ed="#V" n="57"/>cujus ratio est in se una, sive illa 
+      <lb ed="#V" n="58"/>ratio sit ratio subjecti, sive 
+      deno<lb ed="#V" break="no" n="59"/>minet subjectum, sive per 
+      acci<lb ed="#V" break="no" n="60"/>dens dicatur de subjecto. 
+      HEquivo<lb ed="#V" break="no" n="61"/>cum autem, cujus ratio est alia, 
+      <lb ed="#V" n="62"/>quomodocumque illa ratio se 
+      ha<lb ed="#V" break="no" n="63"/>beat ad subjectum. Exemplum, 
+      <lb ed="#V" n="64"/>animal est univocum non tantum 
+      <lb ed="#V" n="65"/>ut dicitur de speciebus suis, sed ut 
+      <lb ed="#V" n="66"/>determinatur per differentias, quia 
+      <lb ed="#V" n="67"/>habet unum conceptum 
+      determina<lb ed="#V" break="no" n="68"/>bilem per eas; et tamen non 
+      dici<lb ed="#V" break="no" n="69"/>tur de differentiis univoce, hoc 
+      <lb ed="#V" n="70"/>est, in quid, ita quod ratio ejus sit 
+      <lb ed="#V" n="71"/>ratio differentiarum, quomodo 
+      <lb ed="#V" n="72"/>univoce dicitur de speciebus. Ista 
+      <lb ed="#V" n="73"/>etiam altercatio nihil est ad 
+      propo<lb ed="#V" break="no" n="74"/>situm, quia si ens dicatur 
+      secun<lb ed="#V" break="no" n="75"/>dum unum conceptum sui de Deo 
+      <lb ed="#V" n="76"/>et creatura, oportet dicere quod 
+      <lb ed="#V" n="77"/>ratio entis sit ratio subjecti; 
+      dice<lb ed="#V" break="no" n="78"/>tur enim de utroque in quid, et ita 
+      <lb ed="#V" n="79"/>erit univocum utroque modo. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e2098"><!-- jdso-l1d8q3-n5 -->
+               <lb ed="#V" n="15"/>Alia est opinio (a) affirmativa in 
+      <lb ed="#V" n="16"/>alio extremo, quae ponit Deum in 
+      <lb ed="#V" n="17"/>genere, et habet pro se 
+      auctorita<lb ed="#V" break="no" n="18"/>tem <ref xml:id="jdso8u-d1e691-Rd1e2109">Damasceni in Elementario, 
+      <lb ed="#V" n="19"/>cap. 8. Substantia,</ref> etc. Item, Boetii 
+      <lb ed="#V" n="20"/>in libello suo de Trinitate, ubi 
+      <lb ed="#V" n="21"/>videtur dicere quod duo genera 
+      <lb ed="#V" n="22"/>manent in divinis, hoc non potest 
+      <lb ed="#V" n="23"/>intelligi tantum secundum modum 
+      <lb ed="#V" n="24"/>aliquem similem praedicandi, quia 
+      <lb ed="#V" n="25"/>
+               <ref xml:id="jdso8u-d1e691-Rd1e2128">15. de Trin. c. 5.</ref> dicit Augustinus 
+      <lb ed="#V" n="26"/>sic : <quote xml:id="jdso8u-d1e691-Qd1e2132" source="http://scta.info/resource/adt-l15-d1e1737@2-30">Si dicam, eternus, immortalis, 
+      in<lb ed="#V" break="no" n="27"/>corruptibilis, immutabilis, vivus, sapiens, 
+      <lb ed="#V" n="28"/>potens, speciosus, justus, bonus, beatus, 
+      <lb ed="#V" n="29"/>spiritus, horum omnium novissimum 
+      <lb ed="#V" n="30"/>uod posui, quasi tantum videtur signare 
+      <lb ed="#V" n="31"/>substantiam, cetera vero hujus substantie 
+      <lb ed="#V" n="32"/>qualitates</quote>. Item, <ref xml:id="jdso8u-d1e691-Rd1e2148">5. de Trin. c. 8</ref>. 
+      vi<lb ed="#V" break="no" n="33"/>detur dicere quod actio 
+      propriissi<lb ed="#V" break="no" n="34"/>me conveniat Deo; ergo non 
+      tan<lb ed="#V" break="no" n="35"/>tum manent modi praedicandi 
+      simi<lb ed="#V" break="no" n="36"/>les duobus istis generibus, et ita 
+      <lb ed="#V" n="37"/>videtur quod oporteat intelligere 
+      <lb ed="#V" n="38"/>Boetium de illis duobus generibus 
+      <lb ed="#V" n="39"/>in se, quod maneant. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e2166">
+               <lb ed="#V" n="40"/>Ad hoc videtur (b) auctoritas 
+      <lb ed="#V" n="41"/>
+               <ref xml:id="jdso8u-d1e691-Rd1e2172">Averrois 10. Met. com. 7.</ref> et incipit 
+      <lb ed="#V" n="42"/>textus : <quote xml:id="jdso8u-d1e691-Qd1e2176">Dicuntur autem aequaliter ens 
+      <!--0594.xml-->
+      <cb ed="#V" n="b"/>
+                  <lb ed="#V" n="43"/>et unum</quote>, ubi Philosophus dicit 
+      ali<lb ed="#V" break="no" n="44"/>quam esse unam primam 
+      substan<lb ed="#V" break="no" n="45"/>tiam, quae sit mensura aliarum. 
+      <lb ed="#V" n="46"/>Commentator vult quod ille sit 
+      <lb ed="#V" n="47"/>primus motor, ergo sicut in aliis 
+      <lb ed="#V" n="48"/>generibus primum est aliquid 
+      il<lb ed="#V" break="no" n="49"/>lius generis, ita primus motor 
+      <lb ed="#V" n="50"/>est aliquid de genere 
+      substan<lb ed="#V" break="no" n="51"/>tiae. Ad hoc ratio prima ponitur 
+      <lb ed="#V" n="52"/>talis, quia potest concipi 
+      substan<lb ed="#V" break="no" n="53"/>tia creata et substantia increata, 
+      <lb ed="#V" n="54"/>et neuter conceptus est 
+      simpli<lb ed="#V" break="no" n="55"/>citer simplex ; ergo resolvendo, 
+      <lb ed="#V" n="56"/>remanebit ratio substantiae 
+      indif<lb ed="#V" break="no" n="57"/>ferens ad utrumque contrahens, 
+      <lb ed="#V" n="58"/>et sic indifferenter accepta videtur 
+      <lb ed="#V" n="59"/>esse ratio generis. Secunda ratio 
+      <lb ed="#V" n="60"/>est, quia multa entia simplicia 
+      po<lb ed="#V" break="no" n="61"/>nuntur in genere, sicut Angeli 
+      se<lb ed="#V" break="no" n="62"/>cundum ponentes eos esse 
+      imma<lb ed="#V" break="no" n="63"/>teriales, accidentia etiam 
+      secun<lb ed="#V" break="no" n="64"/>dum ponentes ea esse simplicia; 
+      <lb ed="#V" n="65"/>ergo simplicitas Dei non excludit 
+      <lb ed="#V" n="66"/>ab eo rationem generis. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e2236"><!-- jdso-l1d8q3-n6 -->
+               <lb ed="#V" n="51"/>Teneo opinionem (a) meam 
+      me<lb ed="#V" break="no" n="52"/>diam, quod cum simplicitate Dei 
+          <lb ed="#V" n="53"/>stat, quod aliquis sit conceptus 
+          <lb ed="#V" n="54"/>communis sibi et creaturae, non 
+          <lb ed="#V" n="55"/>tamen communis ut generis. 
+      Pri<lb ed="#V" break="no" n="56"/>ma pars probata est arguendo 
+      con<lb ed="#V" break="no" n="57"/>tra primam opinionem. Secundam 
+          <lb ed="#V" n="58"/>partem probo per <ref xml:id="jdso8u-d1e691-Rd1e2256">Augustinum 7. 
+          <lb ed="#V" n="59"/>de Tin. c. 5.</ref>
+               <quote xml:id="jdso8u-d1e691-Qd1e2261">Manifestum est Deum 
+      abu<lb ed="#V" break="no" n="60"/>sive substantiam vocari</quote>. Ratio sua ibi 
+          <lb ed="#V" n="61"/>est, quia substantia dicitur quod 
+          <lb ed="#V" n="62"/>substt accidentibus; absurdum 
+          <lb ed="#V" n="63"/>vero est, quod Deus alicui 
+      acciden<lb ed="#V" break="no" n="64"/>ti substet. Haec ratio sic tenet: non 
+          <lb ed="#V" n="65"/>enim intelligit, quod ratio 
+      substan<lb ed="#V" break="no" n="66"/>tie sit substare accidentibus; sed 
+          <lb ed="#V" n="67"/>ut substantia est genus,quia 
+      praemi<lb ed="#V" break="no" n="68"/>sit ibi quod absurdum est quod 
+      sub<lb ed="#V" break="no" n="69"/>stantia relative dicatur, sed 
+      sub<lb ed="#V" break="no" n="70"/>stantia, ut est genus, est limitata, 
+          <lb ed="#V" n="71"/>sicut statim postea probatur; 
+      om<lb ed="#V" break="no" n="72"/>nis autem substantia limitata 
+      ca<lb ed="#V" break="no" n="73"/>pax est accidentis, ergo substantia 
+          <lb ed="#V" n="74"/>quaecumque quae est in genere, 
+      po<lb ed="#V" break="no" n="75"/>test substare alicui accidenti, Deus 
+          <lb ed="#V" n="76"/>non, ergo, etc. Item arguit 
+      Avicen<lb ed="#V" break="no" n="77"/>na 8. Metaph. c. 4. quod Deus non 
+          <lb ed="#V" n="78"/>est in genere, quia genus est pars, 
+          <lb ed="#V" n="79"/>Deus autem simplex est n onha 
+          <lb ed="#V" n="80"/>bens partem et partem; ergo Deus 
+          <lb ed="#V" n="81"/>non est in genere. Istae duae pro 
+          <lb ed="#V" n="82"/>bationes sunt simul per 
+      auctorita<lb ed="#V" break="no" n="83"/>tem et per rationem. Nunc 
+      osten<lb ed="#V" break="no" n="84"/>do propositum duobus mediis, et 
+          <lb ed="#V" n="85"/>declarantur ex his que sunt 
+      pro<lb ed="#V" break="no" n="86"/>pria Deo; primo ex ratione infini- 
+    <!--0596.xml-->
+      <pb ed="#V" n="596"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>tatis ; secundo ex ratione necesse 
+      <lb ed="#V" n="2"/>esse. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e2334">
+               <lb ed="#V" n="3"/>Ex primo arguo dupliciter. 
+      Pri<lb ed="#V" break="no" n="4"/>mo sic : conceptus habens 
+      indiffe<lb ed="#V" break="no" n="5"/>rentiam ad aliqua, ad quae non 
+      <lb ed="#V" n="6"/>potest conceptus generis esse 
+      in<lb ed="#V" break="no" n="7"/>differens, non potest esse 
+      conce<lb ed="#V" break="no" n="8"/>ptus generis; sed quidquid dicitur 
+      <lb ed="#V" n="9"/>communiter de Deo et creatura, 
+      <lb ed="#V" n="10"/>est indifferens ad finitum et 
+      infini<lb ed="#V" break="no" n="11"/>tum (loquendo de essentialibus,) 
+      <lb ed="#V" n="12"/>vel saltem ad finitum et non 
+      fini<lb ed="#V" break="no" n="13"/>tum, (loquendo de quibuscumque,) 
+      <lb ed="#V" n="14"/>quia relatio divina, nec est finita, 
+      <lb ed="#V" n="15"/>nec infinita; nullum autem genus 
+      <lb ed="#V" n="16"/>potest esse indifferens ad finitum, 
+      <lb ed="#V" n="17"/>et infinitum ; ergo,etc. Prima pars 
+      <lb ed="#V" n="18"/>minoris patef, quia quidquid est 
+      <lb ed="#V" n="19"/>in Deo perfectio essentialis, est 
+      <lb ed="#V" n="20"/>formaliter infinitum, in creatura 
+      <lb ed="#V" n="21"/>vero finitum. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e2378">
+               <lb ed="#V" n="22"/>Secundam partem (b) minoris 
+      <lb ed="#V" n="23"/>probo, quia genus sumitur ab 
+      ali<lb ed="#V" break="no" n="24"/>qua realitate,quae secundum se est 
+      <lb ed="#V" n="25"/>potentialis ad realitatem a qua 
+      ac<lb ed="#V" break="no" n="26"/>cipitur differentia; sed nullum 
+      in<lb ed="#V" break="no" n="27"/>finitum est potentiale ad aliquid, 
+      <lb ed="#V" n="28"/>ut patet ex dictis in quaestione 
+      <lb ed="#V" n="29"/>praecedenti. Assumptum hoc patet 
+      <lb ed="#V" n="30"/>auctoritate Aristotelis 8. Met. cap. 
+      <lb ed="#V" n="31"/>5. Oportet terminum, id est, definitionem 
+      <lb ed="#V" n="32"/>esse rationem longam, quia significat 
+      ali<lb ed="#V" break="no" n="33"/>quid de aliquo, ita quod oportet illud 
+      es<lb ed="#V" break="no" n="34"/>se materiam et illud formam. Apparet 
+      <lb ed="#V" n="35"/>etiam per rationem, quia si illa 
+      <lb ed="#V" n="36"/>realitas a qua accipitur genus, 
+      es<lb ed="#V" break="no" n="37"/>set vere tota quidditas rei, solum 
+      <lb ed="#V" n="38"/>genus complete definiret; genus 
+      <lb ed="#V" n="39"/>etiam et differentia non definirent, 
+      <lb ed="#V" n="40"/>quia ratio ex eis non indicaret 
+      pri<lb ed="#V" break="no" n="41"/>mo idem definito; unaquaeque 
+      <lb ed="#V" n="42"/>cnim res est semel ipsa, et ideo 
+      il<lb ed="#V" break="no" n="43"/>la ratio quae bis exprimeret eam, 
+      <!--0596.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="44"/>non indicaret primo idem definito 
+      <lb ed="#V" n="45"/>vel quidditati illius rei. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e2437">
+               <lb ed="#V" n="46"/>Hanc rationem (o) aliqualiter 
+      <lb ed="#V" n="47"/>pertractando intelligo sic, quod in 
+      <lb ed="#V" n="48"/>aliquibus creaturis genus et 
+      diffe<lb ed="#V" break="no" n="49"/>rentia accipiuntur ab alia et alia 
+      <lb ed="#V" n="50"/>re, sicut ponendo plures formas in 
+      <lb ed="#V" n="51"/>homine, animal accipitur a 
+      sen<lb ed="#V" break="no" n="52"/>sitiva, et rationale ab intellectiva; 
+      <lb ed="#V" n="53"/>et tunc illa res, a qua accipitur 
+      <lb ed="#V" n="54"/>genus,vere est potentialis et 
+      perfe<lb ed="#V" break="no" n="55"/>ctibilis ab illa re, a qua accipitur 
+      <lb ed="#V" n="56"/>differentia. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e2464">
+               <lb ed="#V" n="57"/>Aliquando ibi non sunt res et 
+      <lb ed="#V" n="58"/>res, sicut in aoccidentibus, 
+      sal<lb ed="#V" break="no" n="59"/>tem in una re est aliqua prima 
+      re<lb ed="#V" break="no" n="60"/>alitas a qua sumitur genus, et alia 
+      <lb ed="#V" n="61"/>realitas a qua sumitur 
+      diffe<lb ed="#V" break="no" n="62"/>rentia; dicatur prima A, secunda B, 
+      <lb ed="#V" n="63"/>A secundum se est potentiale ad B, 
+      <lb ed="#V" n="64"/>ita quod praecise intelligendo A, et 
+      <lb ed="#V" n="65"/>praecise intelligendo B, A ut 
+      intel<lb ed="#V" break="no" n="66"/>ligitur in primo instanti naturae, 
+      <lb ed="#V" n="67"/>in quo praecise est ipsum, est 
+      per<lb ed="#V" break="no" n="68"/>fectibile per B, sicut si esset res 
+      <lb ed="#V" n="69"/>alia; sed quod non perficitur 
+      re<lb ed="#V" break="no" n="70"/>aliter per B, hoc est, propter 
+      iden<lb ed="#V" break="no" n="71"/>titatem A et B ad aliquod totum, 
+      <lb ed="#V" n="72"/>cui realiter primo sunt eadem, 
+      <lb ed="#V" n="73"/>quod quidem totum primo 
+      produ<lb ed="#V" break="no" n="74"/>citur, et in ipso toto ambe istae 
+      <lb ed="#V" n="75"/>realitates producuntur. Si tamen 
+      <lb ed="#V" n="76"/>altera istarum sine altera 
+      produ<lb ed="#V" break="no" n="77"/>ceretur, vere esset potentialis ad 
+      <lb ed="#V" n="78"/>eam et vere esset imperfecta sine 
+      <lb ed="#V" n="79"/>alia. Ista autem compositio 
+      reali<lb ed="#V" break="no" n="80"/>tatum potentialis et actualis, 
+      mi<lb ed="#V" break="no" n="81"/>nima est, quae sufficit ad rationem 
+      <lb ed="#V" n="82"/>generis et differentiae; et ista non 
+      <lb ed="#V" n="83"/>stat cum hoc quod quaelibet 
+      re<lb ed="#V" break="no" n="84"/>alitas in aliquo sit infinita; 
+      rea<lb ed="#V" break="no" n="85"/>litas enim si esset de se infinita, 
+      <lb ed="#V" n="86"/>quantumcumque praecise sumpta, 
+      <lb ed="#V" n="87"/>non esset in potentia ad aliquam 
+      <!--0597.xml-->
+      <pb ed="#V" n="597"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>realitatem ; igitur cum in Deo 
+      <lb ed="#V" n="2"/>quaecumque realitas essentialis sit 
+      <lb ed="#V" n="3"/>formaliter infinita, nulla est a 
+      <lb ed="#V" n="4"/>qua formaliter possit accipi ratio 
+      <lb ed="#V" n="5"/>generis. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e2551">
+               <lb ed="#V" n="6"/>(d) Secundo ex eodem medio sic : 
+      <lb ed="#V" n="7"/>conceptus speciei non est tantum 
+      <lb ed="#V" n="8"/>conceptus realitatis et modi 
+      in<lb ed="#V" break="no" n="9"/>trinseci ejusdem realitatis, quia 
+      <lb ed="#V" n="10"/>tunc albedo posset esse genus, et 
+      <lb ed="#V" n="11"/>gradus intrinseci albedinis possent 
+      <lb ed="#V" n="12"/>esse differentiae specifice; illa 
+      <lb ed="#V" n="13"/>autem per que commune aliquod 
+      <lb ed="#V" n="14"/>contrahitur ad Deum et creaturam 
+      <lb ed="#V" n="15"/>sunt finitum et infinitum, quae 
+      di<lb ed="#V" break="no" n="16"/>cunt gradus intrinsecos ipsius; 
+      er<lb ed="#V" break="no" n="17"/>go ista contrahentia non possunt 
+      <lb ed="#V" n="18"/>esse vere differentiae, nec cum 
+      <lb ed="#V" n="19"/>contracto constituunt ita 
+      compo<lb ed="#V" break="no" n="20"/>situm conceptum, sicut oportet 
+      <lb ed="#V" n="21"/>conceptum speciei esse 
+      composi<lb ed="#V" break="no" n="22"/>tum; imo conceptus ex tali 
+      con<lb ed="#V" break="no" n="23"/>tracto et contrahente, est 
+      simpli<lb ed="#V" break="no" n="24"/>cior quam possit esse conceptus 
+      <lb ed="#V" n="25"/>speciei.
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e2597">
+               <lb ed="#V" n="26"/>Ex istis mediis de infinitate 
+      ha<lb ed="#V" break="no" n="27"/>bet evidentiam ratio Augustini 
+      <lb ed="#V" n="28"/>superius tacta de substare 
+      acciden<lb ed="#V" break="no" n="29"/>ti. Habet etiam evidentiam ratio 
+      <lb ed="#V" n="30"/>Avicennae 8 Met. de partialitate 
+      <lb ed="#V" n="31"/>generis supra tacta, quia 
+      nun<lb ed="#V" break="no" n="32"/>quam est genus sine aliqua 
+      par<lb ed="#V" break="no" n="33"/>tiali realitate in specie, quae non 
+      <lb ed="#V" n="34"/>potest esse in vere simplici. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e2619">
+               <lb ed="#V" n="35"/>Arguo tertio (e) ex secundo 
+      me<lb ed="#V" break="no" n="36"/>dio, scilicet ex ratione necesse esse, 
+      <lb ed="#V" n="37"/>et est argumentum Avicennae 8. 
+      <lb ed="#V" n="38"/>Met. cap. 4. Si necesse esse habet 
+      ge<lb ed="#V" break="no" n="39"/>nus, ergo intentio generis, vel erit 
+      <lb ed="#V" n="40"/>ex se necesse esse, vel non. Si primo 
+      <lb ed="#V" n="41"/>modo, tunc non cessabit quousque 
+      <lb ed="#V" n="42"/>sit ibi differentia, hoc intelligo 
+      <lb ed="#V" n="43"/>sic : quod genus tunc includeret 
+      <lb ed="#V" n="44"/>differentiam, quia sine illa non est. 
+      <!--0597.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>in actu ultimo, et necesse esse ex se 
+      <lb ed="#V" n="46"/>est in actu ultimo. Si autem 
+      ge<lb ed="#V" break="no" n="47"/>nus includat differentiam, tunc 
+      <lb ed="#V" n="48"/>non est genus; si detur secundum 
+      <lb ed="#V" n="49"/>membrum, sequitur quod necesse 
+      <lb ed="#V" n="50"/>esse esset constitutum ex eo quod 
+      <lb ed="#V" n="51"/>nOn eSt necesse esse. 
+    </p>
+            <!-- additio -->
+            <p xml:id="jdso8u-d1e691-d1e2665">
+               <lb ed="#V" n="52"/>Sed hec ratio probat, quod necesse 
+      <lb ed="#V" n="53"/>esse nihil commune habet cum alio, quia 
+      <lb ed="#V" n="54"/>illa intentio communis est O0  eCesse 
+      <lb ed="#V" n="55"/>esse. Unde respondeo, intentio 
+      intelle<lb ed="#V" break="no" n="56"/>cta non includit necessitatem, nec 
+      possi<lb ed="#V" break="no" n="57"/>bilitatem, sed est indifferens. Illud autem 
+      <lb ed="#V" n="58"/>in re quod correspondet intentioni, in 
+      <lb ed="#V" n="59"/>hoc est necesse esse, in illo vero 
+      possi<lb ed="#V" break="no" n="60"/>bile. Hoc improbatur, si intentioni 
+      gene<lb ed="#V" break="no" n="61"/>ris correspondet propria realitas, et non 
+      <lb ed="#V" n="62"/>sic alii intentioni communi, sicut dicetur 
+      <lb ed="#V" n="63"/>infra, quando respondebitur ad dubium 
+      <lb ed="#V" n="64"/>adductum contra solutionem primi 
+      ar<lb ed="#V" break="no" n="65"/>gumenti principalis. 
+    </p>
+            <!-- End additio -->
+            <p xml:id="jdso8u-d1e691-d1e2701">
+               <lb ed="#V" n="66"/>Quo autem ad illud quod additur. 
+      <lb ed="#V" n="67"/>in quaestione, de quocumque for-' 
+      <lb ed="#V" n="68"/>maliter dicto de Deo, dico quod, 
+      <lb ed="#V" n="69"/>nihil tale est in genere propter 
+      <lb ed="#V" n="70"/>idem, quia nihil dicitur de Deo for-; 
+      <lb ed="#V" n="71"/>maliter, quod est limitatum; 
+      quid<lb ed="#V" break="no" n="72"/>quid autem est alicujus generis, 
+      <lb ed="#V" n="73"/>quomodocumque sit illius generis, 
+      <lb ed="#V" n="74"/>est necessario limitatum. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e2723">
+               <lb ed="#V" n="75"/>Sed tunc (f) est dubium, qualia 
+      <lb ed="#V" n="76"/>sunt illa praedicata, quae dicuntur 
+      <lb ed="#V" n="77"/>de Deo formaliter, ut sapiens, 
+      bo<lb ed="#V" break="no" n="78"/>nus, etc. Respondeo, quod cns 
+      <lb ed="#V" n="79"/>prius dividitur in infinitum et 
+      fini<lb ed="#V" break="no" n="80"/>tum quam in decem Genera, quia 
+      <lb ed="#V" n="81"/>alterum istorum, scilicet ens 
+      fini<lb ed="#V" break="no" n="82"/>tum, est commune ad decem 
+      Gene<lb ed="#V" break="no" n="83"/>ra; ergo quaecumque conveniunt 
+      <lb ed="#V" n="84"/>enti, ut indifferens ad finitum et 
+      <lb ed="#V" n="85"/>infinitum, vel ut est proprium 
+      <lb ed="#V" n="86"/>enti infinito, conveniunt sibi, non 
+      <lb ed="#V" n="87"/>ut determinatur ad genus, sed ut 
+      <lb ed="#V" n="88"/>prius, et per consequens ut est. 
+      <!--0598.xml-->
+      <pb ed="#V" n="598"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>transcendens et extra omne 
+      ge<lb ed="#V" break="no" n="2"/>nus; quaecumque sunt communia 
+      <lb ed="#V" n="3"/>Deo et creaturae, sunt talia que 
+      <lb ed="#V" n="4"/>conveniunt enti, ut est indifferens 
+      <lb ed="#V" n="5"/>ad finitum et infinitum. Ut enim 
+      <lb ed="#V" n="6"/>conveniunt Deo sunt infinita, ut 
+      <lb ed="#V" n="7"/>creaturae sunt finita; ergo illa per 
+      <lb ed="#V" n="8"/>prius conveniunt enti quam ens 
+      <lb ed="#V" n="9"/>dividatur in decem genera, et per 
+      <lb ed="#V" n="10"/>consequens quodcumque tale est 
+      <lb ed="#V" n="11"/>transcendens. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e2786">
+               <lb ed="#V" n="12"/>(g) Sed tunc est aliud dubium, 
+      <lb ed="#V" n="13"/>quomodo ponitur sapientia 
+      tran<lb ed="#V" break="no" n="14"/>scendens, cum non sit communis 
+      <lb ed="#V" n="15"/>omnibus entibus, et 
+      transcenden<lb ed="#V" break="no" n="16"/>tia videntur communia omnibus. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e2799">
+               <lb ed="#V" n="17"/>Respondeo, sicut de ratione 
+      ge<lb ed="#V" break="no" n="18"/>neris generalissimi non est in se 
+      <lb ed="#V" n="19"/>habere plures sub se species, sed 
+      <lb ed="#V" n="20"/>non habere aliud superveniens 
+      ge<lb ed="#V" break="no" n="21"/>nus, sicut hoc praedicamentum 
+      <lb ed="#V" n="22"/>quando, (quia non habet 
+      superve<lb ed="#V" break="no" n="23"/>niens genus,) est generalissim um, 
+      <lb ed="#V" n="24"/>licet paucas habeat species, aut 
+      <lb ed="#V" n="25"/>nullas; ita transcendens 
+      quodcum<lb ed="#V" break="no" n="26"/>que nullum habet genus sub quo 
+      <lb ed="#V" n="27"/>contineatur, sed quod ipsum sit 
+      <lb ed="#V" n="28"/>commune ad multa inferiora, hoo 
+      <lb ed="#V" n="29"/>accidit. Hoc patet ex alio, quia ens 
+      <lb ed="#V" n="30"/>non tantum habet passiones 
+      con<lb ed="#V" break="no" n="31"/>vertibiles simplices, sicut unum, 
+      <lb ed="#V" n="32"/>verum, bonum, etc. sed habct 
+      ali<lb ed="#V" break="no" n="33"/>quas passiones, ubi opposita 
+      distin<lb ed="#V" break="no" n="34"/>guuntur contra se, sicut necesse esse 
+      <lb ed="#V" n="35"/>vel possibile, actus vel potentia, et 
+      <lb ed="#V" n="36"/>hujusmodi. Sicut autem passiones 
+      <lb ed="#V" n="37"/>convertibiles sunt transcendentes, 
+      <lb ed="#V" n="38"/>quia consequuntur ens non 
+      in<lb ed="#V" break="no" n="39"/>quantum determinatur ad aliquod 
+      <lb ed="#V" n="40"/>genus, ita et passiones disjuncte 
+      <lb ed="#V" n="41"/>sunt transcendentes, et utrumque 
+      <lb ed="#V" n="42"/>membrum illius disjuncti est 
+      <lb ed="#V" n="43"/>transcendens, quia neutrum 
+      deter<lb ed="#V" break="no" n="44"/>minat suum determinabile ad cer- 
+      <!--0598.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>tum genus; et tamen unum 
+      mem<lb ed="#V" break="no" n="46"/>brum illius disjuncti est speciale 
+      <lb ed="#V" n="47"/>formaliter non conveniens nisi uni 
+      <lb ed="#V" n="48"/>enti, sicut necesse est in ista 
+      divi<lb ed="#V" break="no" n="49"/>sione, necesse vel possibile, et 
+      simi<lb ed="#V" break="no" n="50"/>liter infinitum in ista divisione, 
+      <lb ed="#V" n="51"/>finitum vel infinitum, etc. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e2882">
+               <lb ed="#V" n="52"/>Ita etiam potest sapientia esse 
+      <lb ed="#V" n="53"/>transcendens et quodcumque 
+      a<lb ed="#V" break="no" n="54"/>liud, quando est commune et Deo 
+      <lb ed="#V" n="55"/>et creaturae, licet aliquod tale 
+      di<lb ed="#V" break="no" n="56"/>catur de solo Deo et de nulla 
+      crea<lb ed="#V" break="no" n="57"/>tura, aliquod autem de Deo et 
+      <lb ed="#V" n="58"/>oreatura aliqua. Non oportet 
+      er<lb ed="#V" break="no" n="59"/>go transcendens ut transcendens, 
+      <lb ed="#V" n="60"/>dici de quocumque ente, nisi sit 
+      <lb ed="#V" n="61"/>convertibile cum primo 
+      transcen<lb ed="#V" break="no" n="62"/>dente, scilicet cum ente. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e2908"><!-- jdso-l1d8q3-n7 -->
+               <lb ed="#V" n="47"/>Alii probant (a) quarto modo, 
+      <lb ed="#V" n="48"/>Deum non esse in genere, quia 
+      <lb ed="#V" n="49"/>continet in se perfectiones 
+      om<lb ed="#V" break="no" n="50"/>nium generum. Sed istud 
+      argu<lb ed="#V" break="no" n="51"/>mentum non valet, quia continens 
+      <lb ed="#V" n="52"/>aliquid, continet illud per modum 
+      <lb ed="#V" n="53"/>sui. Substantia enim, quae modo 
+      <lb ed="#V" n="54"/>est genus generalissimum, ut 
+      ac<lb ed="#V" break="no" n="55"/>cipitur pro omnibus speciebus 
+      <lb ed="#V" n="56"/>inferioribus, continet virtualiter 
+      <lb ed="#V" n="57"/>omnia accidentia, ita quod si Deus 
+      <lb ed="#V" n="58"/>sola individua substantiarum 
+      cau<lb ed="#V" break="no" n="59"/>saret, illa haberent in se virtutem 
+      <lb ed="#V" n="60"/>unde causarent omnia accidentia. 
+      <lb ed="#V" n="61"/>Et tamen non propter hoc 
+      negan<lb ed="#V" break="no" n="62"/>tur substantiae create esse in 
+      <lb ed="#V" n="63"/>genere, quia continent 
+      virtuali<lb ed="#V" break="no" n="64"/>ter accidentia per modum sui, 
+      <lb ed="#V" n="65"/>non per modum accidentium ; 
+      <lb ed="#V" n="66"/>igitur ex hoc solo quod Deus 
+      <lb ed="#V" n="67"/>continet perfectiones omnium 
+      ge<lb ed="#V" break="no" n="68"/>nerum, non sequitur ipsum non 
+      <lb ed="#V" n="69"/>esse in genere, (quia sic 
+      conti<lb ed="#V" break="no" n="70"/>nere non excludit finitatem, illa 
+      <lb ed="#V" n="71"/>enim continere virtualiter non 
+      <lb ed="#V" n="72"/>est esse infinitum) sed ex 
+      abso<lb ed="#V" break="no" n="73"/>luta infinitate Dei hoc sequitur, 
+      <lb ed="#V" n="74"/>sicut prius dictum est. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e2973">
+               <lb ed="#V" n="75"/>Sed contra hoc instatur (b), quod 
+      <lb ed="#V" n="76"/>infinitas simpliciter non concludit 
+      <lb ed="#V" n="77"/>propositum, quia <ref xml:id="jdso8u-d1e691-Rd1e2981">Philosophus 6. 
+      <lb ed="#V" n="78"/>Topic.</ref> increpat definitionem lineae 
+      <lb ed="#V" n="79"/>recte, hanc scilicet : linea recte 
+      <lb ed="#V" n="80"/>est, cujus medium non eit extrema, 
+      <lb ed="#V" n="81"/>per hoc quod si infinita linea 
+      <lb ed="#V" n="82"/>esset, recta esse posset, non 
+      <lb ed="#V" n="83"/>autem haberet tunc medium nec 
+      <lb ed="#V" n="84"/>extrema; non est autem aliqua 
+      <lb ed="#V" n="85"/>definitio increpanda, quia non 
+      <lb ed="#V" n="86"/>convenit illi quod impossibile est 
+      <lb ed="#V" n="87"/>esse in genere, ergo non est im- 
+      <!--0614.xml-->
+      <pb ed="#V" n="614"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>possibile lineam infinitam esse in 
+      <lb ed="#V" n="2"/>genere, et per consequens 
+      infi<lb ed="#V" break="no" n="3"/>nitas non necessario excluditur 
+      <lb ed="#V" n="4"/>a genere. Respondeo primo (c) ad 
+      <lb ed="#V" n="5"/>intentionem Aristotelis, quod 
+      li<lb ed="#V" break="no" n="6"/>nea recta est quoddam totum per 
+      <lb ed="#V" n="7"/>accidens; et si hoc totum 
+      defi<lb ed="#V" break="no" n="8"/>niatur, assignabitur una definitio 
+      <lb ed="#V" n="9"/>correspondens lineae et alia 
+      cor<lb ed="#V" break="no" n="10"/>respondens rectae. Illud quod 
+      cor<lb ed="#V" break="no" n="11"/>respondebit recto loco definitionis, 
+      <lb ed="#V" n="12"/>non contradicet formaliter 
+      infini<lb ed="#V" break="no" n="13"/>to, quia rectum non contradicit 
+      <lb ed="#V" n="14"/>formaliter infinito, et cuicumque 
+      <lb ed="#V" n="15"/>repugnat formaliter definitio, 
+      ei<lb ed="#V" break="no" n="16"/>dem repugnabit et definitum; quod 
+      <lb ed="#V" n="17"/>autem in definitione illa, quam 
+      <lb ed="#V" n="18"/>increpat Philosophus assignatur 
+      <lb ed="#V" n="19"/>tanquam definitio recti, est hoc 
+      <lb ed="#V" n="20"/>habere medium intra extrema, 
+      <lb ed="#V" n="21"/>istud formaliter repugnat 
+      infini<lb ed="#V" break="no" n="22"/>to; ergo oportet, quod si definitio 
+      <lb ed="#V" n="23"/>ista esset bona, quod rectum 
+      for<lb ed="#V" break="no" n="24"/>maliter repugnaret infinito. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e3065">
+               <lb ed="#V" n="25"/>Sed hoc est falsum, licet 
+      vir<lb ed="#V" break="no" n="26"/>tualiter repugnet infinito 
+      quate<lb ed="#V" break="no" n="27"/>nus subjectum suum, scilicet 
+      <lb ed="#V" n="28"/>linea formaliter repugnat 
+      infini<lb ed="#V" break="no" n="29"/>to; non ergo intendit dicere 
+      Phi<lb ed="#V" break="no" n="30"/>losophus quod linea infinita potest 
+      <lb ed="#V" n="31"/>esse in genere, sed quod rationi 
+      <lb ed="#V" n="32"/>recti non repugnat formaliter 
+      <lb ed="#V" n="33"/>infinitas. Et ideo illa definitio, 
+      <lb ed="#V" n="34"/>cui repugnat formaliter infinitas, 
+      <lb ed="#V" n="35"/>non est recti inquantum rectum, 
+      <lb ed="#V" n="36"/>non enim increpasset istam : 
+      Li<lb ed="#V" break="no" n="37"/>nea recta est longitudo sine latitudine, 
+      <lb ed="#V" n="38"/>cujus extrema sunt duo puncta ceque 
+      <lb ed="#V" n="39"/>protensa, quia hic esset aliquid 
+      re<lb ed="#V" break="no" n="40"/>pugnans infinitati; sed illud 
+      assi<lb ed="#V" break="no" n="41"/>gnaretur tanquam ratio lineae, 
+      <lb ed="#V" n="42"/>non tanquam ratio recti, et tunc 
+      <lb ed="#V" n="43"/>bene assignaretur, quia cum ipsi 
+      <lb ed="#V" n="44"/>lineae repugnet infinitas, bene as- 
+      <!--0614.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>signaretur definitio sibi 
+      corre<lb ed="#V" break="no" n="46"/>spondens cui repugnat infinitas. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e3120">
+               <lb ed="#V" n="47"/>Sed (d) alia est difficultas ad 
+      <lb ed="#V" n="48"/>rem, utrum linea infinita possit. 
+      <lb ed="#V" n="49"/>esse in genere Quantitatis, et si 
+      <lb ed="#V" n="50"/>sic, non videntur valere duae 
+      ra<lb ed="#V" break="no" n="51"/>tiones sumptae ex infinitate.
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e3133">
+               <lb ed="#V" n="52"/>Respondeo, nunquam ad 
+      sum<lb ed="#V" break="no" n="53"/>mum in inferiori sequitur 
+      sum<lb ed="#V" break="no" n="54"/>mum in superiori, nisi illud 
+      in<lb ed="#V" break="no" n="55"/>ferius sit nobilissimum contentum 
+      <lb ed="#V" n="56"/>sub illo superiori, sicut non 
+      se<lb ed="#V" break="no" n="57"/>quitur, perfectissimus asinus, 
+      er<lb ed="#V" break="no" n="58"/>go perfectissimum animal; sed 
+      <lb ed="#V" n="59"/>gratia materie sequitur, 
+      perfe<lb ed="#V" break="no" n="60"/>ctissimus homo, ergo 
+      perfectis<lb ed="#V" break="no" n="61"/>simum animal, quia homo est 
+      <lb ed="#V" n="62"/>perfectissimum animalium, 
+      igi<lb ed="#V" break="no" n="63"/>tur non sequitur, optimum sive 
+      <lb ed="#V" n="64"/>perfectissimum ens, ad 
+      perfe<lb ed="#V" break="no" n="65"/>ctissimum aliquid eorum, quae 
+      <lb ed="#V" n="66"/>continentur sub ente, nisi illud 
+      <lb ed="#V" n="67"/>sit simpliciter perfectissimum sub 
+      <lb ed="#V" n="68"/>ente. Quantitas autem non est tale, 
+      <lb ed="#V" n="69"/>nec aliquid alicujus generis, quia 
+      <lb ed="#V" n="70"/>quodlibet est limitatum, imo nihil 
+      <lb ed="#V" n="71"/>est tale, nisi quod est perfectio 
+      <lb ed="#V" n="72"/>simpliciter, quod ex se potest 
+      <lb ed="#V" n="73"/>esse infinitum, et ideo non 
+      sequi<lb ed="#V" break="no" n="74"/>tur, perfectissima quantitas, ergo 
+      <lb ed="#V" n="75"/>perfectissimum ens. Nec etiam 
+      <lb ed="#V" n="76"/>sequitur de aliqua re alicujus 
+      <lb ed="#V" n="77"/>generis, sed tamen sequitur, 
+      per<lb ed="#V" break="no" n="78"/>fectissima veritas vel bonitas, 
+      <lb ed="#V" n="79"/>ergo perfectissimum ens. Ita 
+      er<lb ed="#V" break="no" n="80"/>go, cum infinitum ens non tantum 
+      <lb ed="#V" n="81"/>dicat perfectionem summam, sed 
+      <lb ed="#V" n="82"/>etiam non possibilem excedi, non 
+      <lb ed="#V" n="83"/>sequitur infinitum ens, nisi 
+      prae<lb ed="#V" break="no" n="84"/>cise ad infinitum tale quod est 
+      <lb ed="#V" n="85"/>perfectissimum, in quo est ratio 
+      <lb ed="#V" n="86"/>entis, quod scilicet dicit 
+      perfe<lb ed="#V" break="no" n="87"/>ctionem simpliciter; et ideo 
+      li<lb ed="#V" break="no" n="88"/>cet esset quantitas infinita in- 
+      <!--0615.xml-->
+      <pb ed="#V" n="615"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>ratione quantitatis, cum tamen 
+      <lb ed="#V" n="2"/>quantitas non sit perfectio 
+      sim<lb ed="#V" break="no" n="3"/>pliciter, non sequitur quod sit 
+      <lb ed="#V" n="4"/>infinitum ens, quia non sequitur 
+      <lb ed="#V" n="5"/>quod sit ens, quod non potest 
+      <lb ed="#V" n="6"/>excedi in perfectione. Esset 
+      igi<lb ed="#V" break="no" n="7"/>tur infinita linea in genere 
+      Quan<lb ed="#V" break="no" n="8"/>titatis, quia esset limitatum 
+      <lb ed="#V" n="9"/>ens simpliciter et excessum 
+      sim<lb ed="#V" break="no" n="10"/>pliciter a perfectiori ente, sed 
+      <lb ed="#V" n="11"/>infinitum ens simpliciter non 
+      po<lb ed="#V" break="no" n="12"/>test esse in genere. Et hoc est, 
+      <lb ed="#V" n="13"/>quia prima infinitas non tollit 
+      <lb ed="#V" n="14"/>omnem potentialitatem quam 
+      re<lb ed="#V" break="no" n="15"/>quirit ratio generis, sed tantum 
+      <lb ed="#V" n="16"/>ponit infinitatem secundum quid 
+      <lb ed="#V" n="17"/>alicujus imperfectae entitatis, in 
+      <lb ed="#V" n="18"/>qua ut illa est, bene potest esse 
+      <lb ed="#V" n="19"/>compositio, in quocumque gradu 
+      <lb ed="#V" n="20"/>illa ponitur, sed secunda 
+      neces<lb ed="#V" break="no" n="21"/>sario tollit omnem 
+      potentialita<lb ed="#V" break="no" n="22"/>tem, sicut prius declaratum est. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e3270">
+               <lb ed="#V" n="23"/>Contra ista (e) objicitur, quia 
+      <lb ed="#V" n="24"/>tunc ponuntur contradictoria, 
+      con<lb ed="#V" break="no" n="25"/>cedendo conceptum communem 
+      <lb ed="#V" n="26"/>dictum in quid de Deo et creatura, 
+      <lb ed="#V" n="27"/>et negando Deum esse in genere. 
+      <lb ed="#V" n="28"/>Omnis enim conceptus dictus in 
+      <lb ed="#V" n="29"/>quid, si est conceptus communis, 
+      <lb ed="#V" n="30"/>vel est conceptus generis vel 
+      <lb ed="#V" n="31"/>definitionis, alioquin erunt plura 
+      <lb ed="#V" n="32"/>praedicata, quam docuit 
+      Aristo<lb ed="#V" break="no" n="33"/>teles in 1. Topic. Ad istud dico quod 
+      <lb ed="#V" n="34"/>non sunt contradictoria, quod 
+      <lb ed="#V" n="35"/>patet auctoritatibus <ref xml:id="jdso8u-d1e691-Rd1e3300">Augustini 7. 
+      <lb ed="#V" n="36"/>de Trin. c. ubi prius</ref>, ubi negat 
+      <lb ed="#V" n="37"/>Deum esse substantiam, et tamen 
+      <lb ed="#V" n="38"/>concedit quod proprie et vere est 
+      <lb ed="#V" n="39"/>essentia ; sed si esset conceptus 
+      <lb ed="#V" n="40"/>aliquis aequivocus essentiae, ut 
+      <lb ed="#V" n="41"/>convenit Deo et creaturae, ita 
+      <lb ed="#V" n="42"/>posset esse conceptus aequivocus 
+      <lb ed="#V" n="43"/>substantiae, et posset dici 
+      substan<lb ed="#V" break="no" n="44"/>tia sicut essentia. Similiter (f) Avi- 
+      <!--0615.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>cenna 8. Met. c. 4. ubi negat Deum 
+      <lb ed="#V" n="46"/>esse in genere, concedit ipsum ibi 
+      <lb ed="#V" n="47"/>esse substantiam, id est, ens non 
+      <lb ed="#V" n="48"/>in alio. Et quod accipiat ens non 
+      <lb ed="#V" n="49"/>equivoce ab illo conceptu, 
+      se<lb ed="#V" break="no" n="50"/>cundum quem dicitur de creatura, 
+      <lb ed="#V" n="51"/>videtur per ipsum 1. Met. ubi dicit 
+      <lb ed="#V" n="52"/>quod ens in se non habet principium. 
+      <lb ed="#V" n="53"/>Quapropter scientia non inquiret 
+      <lb ed="#V" n="54"/>principia entis absolute, sed 
+      ali<lb ed="#V" break="no" n="55"/>cujus entis. Si autem ens haberet 
+      <lb ed="#V" n="56"/>alium conceptum in Deo et 
+      erea<lb ed="#V" break="no" n="57"/>tura, bene entis esset principium 
+      <lb ed="#V" n="58"/>secundum se, quia entis secundum 
+      <lb ed="#V" n="59"/>unum conceptum esset ipsum ens 
+      <lb ed="#V" n="60"/>principium, seoundum alium 
+      con<lb ed="#V" break="no" n="61"/>ceptum. Cum autem arguis, si est 
+      <lb ed="#V" n="62"/>dictum in quid, igitur est genus 
+      <lb ed="#V" n="63"/>vel definitio, respondeo (g), 
+      Aristo<lb ed="#V" break="no" n="64"/>teles 8. Met. docet quale 
+      praedica<lb ed="#V" break="no" n="65"/>tum dictum in quid sit definitio. 
+      In<lb ed="#V" break="no" n="66"/>ducit enim ibi contra ideas 
+      Plato<lb ed="#V" break="no" n="67"/>nis dicta Antisthenicorum, quos, 
+      <lb ed="#V" n="68"/>in hoc approbat, dicentes termi-, 
+      <lb ed="#V" n="69"/>num esserationem longam, et post 
+      <lb ed="#V" n="70"/>subdit : quare substantia est cujus 
+      con<lb ed="#V" break="no" n="71"/>tingit esse terminum et ratiohem, puta 
+      <lb ed="#V" n="72"/>composita sive sensibilis fuerit sive 
+      intel<lb ed="#V" break="no" n="73"/>lectualis, primorum autem, ex quibus 
+      <lb ed="#V" n="74"/>hec, non est, supple definitio, et subdit 
+      <lb ed="#V" n="75"/>rationem : si quidem aliquid de 
+      ali<lb ed="#V" break="no" n="76"/>quo significat ratio definitiva. 
+      <lb ed="#V" n="77"/>Hoc debet intelligi virtualiter, 
+      <lb ed="#V" n="78"/>non formaliter, sicut alias dictum 
+      <lb ed="#V" n="79"/>est. Et subdit, oportet hoc quidem esse 
+      <lb ed="#V" n="80"/>ut materiam, illud vero ut formam. EXx 
+      <lb ed="#V" n="81"/>quo videtur ibi arguere, quod idea 
+      <lb ed="#V" n="82"/>si poneretur, non esset definibilis, 
+      <lb ed="#V" n="83"/>et si ratio sua aliquo. modo 
+      vale<lb ed="#V" break="no" n="84"/>ret propter simplicitatem ideae, 
+      <lb ed="#V" n="85"/>multo magis negaret ipse 
+      defini<lb ed="#V" break="no" n="86"/>tionem a Deo, cujus est summa 
+      <lb ed="#V" n="87"/>simplicitas; sequitur igitur ex 
+      au<lb ed="#V" break="no" n="88"/>ctoritate ejus quod nihil est di- 
+      <!--0616.xml-->
+      <pb ed="#V" n="616"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>ctum in quid de Deo, ut definitio. 
+      <lb ed="#V" n="2"/>Ex eodem sequitur, quod nihil 
+      om<lb ed="#V" break="no" n="3"/>nino dicitur de Deo in quid, ut 
+      <lb ed="#V" n="4"/>genus; quidquid enim habet 
+      ge<lb ed="#V" break="no" n="5"/>nus, potest habere differentiam et 
+      <lb ed="#V" n="6"/>definitionem, quia <ref xml:id="jdso8u-d1e691-Rd1e3442">7. Met. com. 23.</ref>
+               <lb ed="#V" n="7"/>
+               <quote xml:id="jdso8u-d1e691-Qd1e3446">Aut genus nihil est preter species, aut 
+      <lb ed="#V" n="8"/>si est, est quidem ut materia</quote>, et tunc 
+      <lb ed="#V" n="9"/>cujus est genus, oportet ipsum 
+      <lb ed="#V" n="10"/>ponere posse habere differentiam 
+      <lb ed="#V" n="11"/>tanquam formam. Si igitur aliquid 
+      <lb ed="#V" n="12"/>est dictum de Deo in quid, 
+      arguen<lb ed="#V" break="no" n="13"/>do ex auctoritate Aristotelis 
+      con<lb ed="#V" break="no" n="14"/>structive, non destructive, 
+      sequi<lb ed="#V" break="no" n="15"/>tur quod illud non sit genus, nec 
+      <lb ed="#V" n="16"/>definitio. Sed cum infers, est genus 
+      <lb ed="#V" n="17"/>vel definitio, quia Aristoteles non 
+      <lb ed="#V" n="18"/>dixit esse alia praedicata in quid 
+      <lb ed="#V" n="19"/>dicta, ergo non sunt alia, arguis 
+      <lb ed="#V" n="20"/>ab auctoritate destructive, et est 
+      <lb ed="#V" n="21"/>fallacia consequentis. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e3480">
+               <lb ed="#V" n="22"/>Sed dices, tunc Aristoteles non 
+      <lb ed="#V" n="23"/>tradidit sufficienter omnia 
+      praedi<lb ed="#V" break="no" n="24"/>cata in quid dicta. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e3490">
+               <lb ed="#V" n="25"/>Respondeo (h), Philosophus in 
+      <lb ed="#V" n="26"/>1. Topic. distinxit praedicata 
+      pro<lb ed="#V" break="no" n="27"/>pter distinctionem problematum, 
+      <lb ed="#V" n="28"/>quia diversa problemata habent 
+      <lb ed="#V" n="29"/>diversum modum terminandi ex 
+      <lb ed="#V" n="30"/>diversitate praedicatorum; non 
+      er<lb ed="#V" break="no" n="31"/>go enumerat ibi omnia praedicata, 
+      <lb ed="#V" n="32"/>quia non differentiam specificam, 
+      <lb ed="#V" n="33"/>licet differentiam generalem 
+      col<lb ed="#V" break="no" n="34"/>locaverit sub genere, et tamen 
+      <lb ed="#V" n="35"/>differentia specifica habet 
+      pro<lb ed="#V" break="no" n="36"/>priam rationem predicati. 
+      Spe<lb ed="#V" break="no" n="37"/>cies etiam habet propriam 
+      rati<lb ed="#V" break="no" n="38"/>onem predicati aliam a 
+      definiti<lb ed="#V" break="no" n="39"/>one, alioquin male poneret 
+      Por<lb ed="#V" break="no" n="40"/>phyrius quinque Universalia. Non 
+      <lb ed="#V" n="41"/>igitur sufficienter distinxit ibi 
+      Ari<lb ed="#V" break="no" n="42"/>stoteles praedicata, quia distinxit 
+      <lb ed="#V" n="43"/>omnia, de quibus problemata 
+      quae<lb ed="#V" break="no" n="44"/>renda requirunt specialem artem 
+      <!--0616.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>terminandi, quam ibi intendebat 
+      <lb ed="#V" n="46"/>tradere. Transcendentia autem non 
+      <lb ed="#V" n="47"/>sunt talia praedicata, quia non 
+      <lb ed="#V" n="48"/>sunt de eis specialia problemata. 
+      <lb ed="#V" n="49"/>Problema enim praesupponit 
+      ali<lb ed="#V" break="no" n="50"/>quid certum et querit dubium, ex 
+      <lb ed="#V" n="51"/>7. Metaph. comment. ultim. Ens autem 
+      <lb ed="#V" n="52"/>et res imprimuntur in anima 
+      pri<lb ed="#V" break="no" n="53"/>ma impressione secundum 
+      Avi<lb ed="#V" break="no" n="54"/>cennam, 1. Metaph. comm. 5. et ideo 
+      <lb ed="#V" n="55"/>de conceptibus illis 
+      communissi<lb ed="#V" break="no" n="56"/>mis, non sunt problemata per se 
+      <lb ed="#V" n="57"/>terminabilia ; non enim igitur 
+      <lb ed="#V" n="58"/>oportuit ea numerari inter 
+      prae<lb ed="#V" break="no" n="59"/>dicata problematum. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e3573">
+               <lb ed="#V" n="60"/>Sed numquid Aristoteles ista 
+      <lb ed="#V" n="61"/>praedicata generalia nusquam 
+      do<lb ed="#V" break="no" n="62"/>cuit? Rospondeo, e 8. Metaph. 
+      do<lb ed="#V" break="no" n="63"/>cuit nihil dici de Deo ut genus, ex 
+      <lb ed="#V" n="64"/>auctoritate praeallegata, et 
+      ta<lb ed="#V" break="no" n="65"/>men docuit univoce dici de Deo et 
+      <lb ed="#V" n="66"/>creatura veritatem 2. Metaph. sicut 
+      <lb ed="#V" n="67"/>supra allegatnm est, principia 
+      <lb ed="#V" n="68"/>sempiternorum esse verissima, et 
+      <lb ed="#V" n="69"/>in hoc docuit entitatem univoce 
+      <lb ed="#V" n="70"/>dici de Deo et creatura, quia subdit 
+      <lb ed="#V" n="71"/>ibi 2. Metaph. quod sicut 
+      unumquod<lb ed="#V" break="no" n="72"/>que se habet ad esse, sic ad veritatem. 
+      <lb ed="#V" n="73"/>Patet etiam secundum eum quod 
+      <lb ed="#V" n="74"/>si ens dicatur de Deo, quod hoc 
+      <lb ed="#V" n="75"/>erit in quid; ergo in istis 
+      do<lb ed="#V" break="no" n="76"/>cuit implicite aliquod praedicatum 
+      <lb ed="#V" n="77"/>transcendens dici in quid, et non 
+      <lb ed="#V" n="78"/>esse genus, nec definitionem; et 
+      <lb ed="#V" n="79"/>aliqua praedicata transcendentia, 
+      <lb ed="#V" n="80"/>dici in quale, ut verum, et non esse 
+      <lb ed="#V" n="81"/>propria, nec tamen accidentia, 
+      <lb ed="#V" n="82"/>secundum quod ista universalia 
+      <lb ed="#V" n="83"/>competunt speciebus aliquorum 
+      <lb ed="#V" n="84"/>generum, quia nihil quod est 
+      ali<lb ed="#V" break="no" n="85"/>cujus generis convenit Deo aliquo 
+      <lb ed="#V" n="86"/>modo. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e3634">
+               <lb ed="#V" n="87"/>Docuit etiam idem aliquo modo 
+      <lb ed="#V" n="88"/>4. Topic. in fine, si sequitur aliquid 
+      <!--0617.xml-->
+      <pb ed="#V" n="617"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>semper et non convertitur, difficile est 
+      <lb ed="#V" n="2"/>separare quod non sit genus, et 
+      sub<lb ed="#V" break="no" n="3"/>dit : potest uti eo ut genere, quod 
+      sem<lb ed="#V" break="no" n="4"/>per est consequens, ctm non convertatur, 
+      <lb ed="#V" n="5"/>quasi dicat,hoc expedit opponenti; 
+      <lb ed="#V" n="6"/>et subdit deinde: alio autem 
+      proten<lb ed="#V" break="no" n="7"/>dente non in omnibus obedire, qasi 
+      <lb ed="#V" n="8"/>dicat, hoc expedit respondenti non 
+      <lb ed="#V" n="9"/>concedere omne consequens non 
+      <lb ed="#V" n="10"/>convertibile, esse praedicatum ut 
+      <lb ed="#V" n="11"/>genus. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e3671">
+               <lb ed="#V" n="12"/>Et si non loqueretur de 
+      praedica<lb ed="#V" break="no" n="13"/>to dicto in quid, non haberet 
+      appa<lb ed="#V" break="no" n="14"/>rentiam illud, quod ipse docet 
+      <lb ed="#V" n="15"/>opponentem uti tali ut genere; 
+      <lb ed="#V" n="16"/>ergo innuit ibi, quod aliquid est 
+      <lb ed="#V" n="17"/>commune predicatum dictum in 
+      <lb ed="#V" n="18"/>quid, quod non est genus. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e3689">
+               <lb ed="#V" n="19"/>Et quod loquitur de 
+      praedicati<lb ed="#V" break="no" n="20"/>one in quid, videtur per exempla 
+      <lb ed="#V" n="21"/>sua : tranquillitas est quies; 
+      praedica<lb ed="#V" break="no" n="22"/>tio enim in abstractis, non est 
+      <lb ed="#V" n="23"/>praedicatio in quale, vel 
+      denomina<lb ed="#V" break="no" n="24"/>tiva, ergo, etc. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e3705"><!-- jdso-l1d8q3-n8 -->
+               <lb ed="#V" n="41"/>Ad argumenta (a) pro secunda 
+      <lb ed="#V" n="42"/>opinione.
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e3714">
+      <!--0622.xml-->
+               <cb ed="#V" n="b"/>
+               <lb ed="#V" n="43"/>Ad Damascenum respondeo, 
+      li<lb ed="#V" break="no" n="44"/>cet multa verba dicat in diversis 
+      <lb ed="#V" n="45"/>locis, quae videntur dicere Deum 
+      <lb ed="#V" n="46"/>esse in genere, unum tamen 
+      ver<lb ed="#V" break="no" n="47"/>bum quod dicit in Elementario, c. 8. 
+      <lb ed="#V" n="48"/>solvit omnia; ibi enim dicit sic: 
+      <lb ed="#V" n="49"/>Substantia que continet 
+      supersubstantia<lb ed="#V" break="no" n="50"/>liter increatam Deitatem, cognoscibiliter 
+      <lb ed="#V" n="51"/>autem et contentive omnem creaturam, 
+      <lb ed="#V" n="52"/>generalissimum est genus; non igitur 
+      <lb ed="#V" n="53"/>dicit substantiam, quae est 
+      genera<lb ed="#V" break="no" n="54"/>lissimum, continere contentive 
+      <lb ed="#V" n="55"/>Deitatem, sicut continet 
+      creatu<lb ed="#V" break="no" n="56"/>ram, sed supersubstantialiter, hoc 
+      <lb ed="#V" n="57"/>est, accipiendo illud, quod est 
+      per<lb ed="#V" break="no" n="58"/>fectionis in substantia, quae est 
+      <lb ed="#V" n="59"/>genus, et relinquendo illud quod 
+      <lb ed="#V" n="60"/>est imperfectionis, quomodo dicit 
+      <lb ed="#V" n="61"/>Avicenna 9. Metaph. Deum esse ens 
+      <lb ed="#V" n="62"/>per se. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e3764">
+               <lb ed="#V" n="63"/>Ad Boetium (b) dico, quod 
+      nus<lb ed="#V" break="no" n="64"/>quam invenitur dicere in libello 
+      <lb ed="#V" n="65"/>illo, quod duo genera manent in 
+      <lb ed="#V" n="66"/>divinis, nec breviter genera, neo 
+      <lb ed="#V" n="67"/>differentiae generum, nec etiam 
+      <lb ed="#V" n="68"/>modi eorum, nec rationes eorum 
+      <lb ed="#V" n="69"/>manent ibi. Quia sicut genera, et 
+      <lb ed="#V" n="70"/>ea quae in eis sunt, limitata sunt, 
+      <lb ed="#V" n="71"/>ita et modi et rationes eorum, 
+      <lb ed="#V" n="72"/>loquendo de rationibus prime 
+      in<lb ed="#V" break="no" n="73"/>tentionis, quae fundantur in istis, 
+      <lb ed="#V" n="74"/>quia in limitato non potest aliquid 
+      <lb ed="#V" n="75"/>fundari nisi limitatum; dicit 
+      ta<lb ed="#V" break="no" n="76"/>men Boetius in libello suo de Trin. 
+      <lb ed="#V" n="77"/>cap. 6. quod enumeratis 
+      Praedica<lb ed="#V" break="no" n="78"/>mentis : IIec si quis in divinam 
+      <lb ed="#V" n="79"/>predicationem convertit, omnia 
+      mutan<lb ed="#V" break="no" n="80"/>tur que mutari possunt ad aliquid vero 
+      <lb ed="#V" n="81"/>omnino, non mutatur ibi, et infra, 
+      <lb ed="#V" n="82"/>essentia continet unitatem, relatio 
+      multi<lb ed="#V" break="no" n="83"/>plicat Trinitatem. Et ex istis 
+      accipi<lb ed="#V" break="no" n="84"/>tur, quod innuat substantiam et 
+      <lb ed="#V" n="85"/>relationem manere in divinis. Sed 
+      <lb ed="#V" n="86"/>expresse dicit ibi, quod nec sub- 
+      <!--0623.xml-->
+      <pb ed="#V" n="623"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>stantia, que est genus, nec aliquid 
+      <lb ed="#V" n="2"/>ejus manet ibi; dicit enim, cum 
+      <lb ed="#V" n="3"/>dicimus Deus, substantiam significare 
+      <lb ed="#V" n="4"/>videmur, sed eam, quae sit ultra 
+      <lb ed="#V" n="5"/>substantiam, quomodo 
+      Damasce<lb ed="#V" break="no" n="6"/>nus substantiam dixit 
+      supersub<lb ed="#V" break="no" n="7"/>stantialiter. Intendit ergo, quod 
+      <lb ed="#V" n="8"/>duo modi praedicandi sunt in 
+      divi<lb ed="#V" break="no" n="9"/>nis, scilicet praedicati relativi et 
+      <lb ed="#V" n="10"/>essentialis, quos modos 
+      Augusti<lb ed="#V" break="no" n="11"/>nus magis exprimit 5. de Trin. cap. 
+      <lb ed="#V" n="12"/>6. ad se et ad aliud, et omnia 
+      prae<lb ed="#V" break="no" n="13"/>dicata formaliter dicta de Deo, sub 
+      <lb ed="#V" n="14"/>altero istorum membrorum 
+      conti<lb ed="#V" break="no" n="15"/>nentur. Sed sub primo membro 
+      <lb ed="#V" n="16"/>continentur multa predicata, quae 
+      <lb ed="#V" n="17"/>habent similem modum 
+      praedican<lb ed="#V" break="no" n="18"/>di qualitati et quantitati, non 
+      au<lb ed="#V" break="no" n="19"/>tem sola illa, quae habent similem 
+      <lb ed="#V" n="20"/>modum predicandi illis, que sunt 
+      <lb ed="#V" n="21"/>de predicamento Substantiae; sub 
+      <lb ed="#V" n="22"/>secundo autem membro 
+      continen<lb ed="#V" break="no" n="23"/>tur omnia quae habent similem 
+      <lb ed="#V" n="24"/>modum praedicandi quibuscumque 
+      <lb ed="#V" n="25"/>relativis, sive sint relativa ,
+      pro<lb ed="#V" break="no" n="26"/>pria, sive non. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e3881">
+               <lb ed="#V" n="27"/>Sed quare omnia essentialia 
+      di<lb ed="#V" break="no" n="28"/>cantur praecise praedicari 
+      secun<lb ed="#V" break="no" n="29"/>dum substantiam, et contra ea 
+      <lb ed="#V" n="30"/>distinguantur praedicata dicta ad 
+      <lb ed="#V" n="31"/>aliquid, cum tamen illa praedicata 
+      <lb ed="#V" n="32"/>dicta ad aliquid, transeant per 
+      i<lb ed="#V" break="no" n="33"/>dentitatem in substantiam, sicut et 
+      <lb ed="#V" n="34"/>alia. Ratio assignabitur in 
+      sequen<lb ed="#V" break="no" n="35"/>ti quaestione de attributis, 
+      dubita<lb ed="#V" break="no" n="36"/>tione secunda contra solutionem 
+      <lb ed="#V" n="37"/>principalem. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e3907">
+               <lb ed="#V" n="38"/>(c) Ad Averroem dico, quod non 
+      <lb ed="#V" n="39"/>videtur habere intentionem 
+      magi<lb ed="#V" break="no" n="40"/>stri sui Aristotelis, quia 
+      Aristote<lb ed="#V" break="no" n="41"/>les in cap. 3. illius decimi, quaerit, an 
+      <lb ed="#V" n="42"/>in substantiis sit aliquid unum, 
+      <lb ed="#V" n="43"/>quod sit mensura aliorum, an hoc 
+      <lb ed="#V" n="44"/>ipsum unum. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e3925">
+      <!--0623.xml-->
+               <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>Et probat ex intentione contra 
+      <lb ed="#V" n="46"/>Platonem, quod non sit ipsum 
+      <lb ed="#V" n="47"/>unum, sed aliquid cui convenit 
+      <lb ed="#V" n="48"/>ipsum unum, sicut est de omnibus 
+      <lb ed="#V" n="49"/>aliis generibus loquendo de uno et 
+      <lb ed="#V" n="50"/>de omnibus aliis mensuratis in 
+      <lb ed="#V" n="51"/>illis generibus. Et concludit in 
+      <lb ed="#V" n="52"/>fine :<quote xml:id="jdso8u-d1e691-Qd1e3948"> Quare siquidem in passionibus, 
+      <lb ed="#V" n="53"/>et qualitatibus et quantitatibus, ipsum 
+      <lb ed="#V" n="54"/>unum aliquid unum, sed non hoc ipsius 
+      <lb ed="#V" n="55"/>substantie, sed in substantiis necesse est 
+      <lb ed="#V" n="56"/>similiter se habere, similiter enim se 
+      <lb ed="#V" n="57"/>habet in omnibus</quote>. Super quam 
+      litte<lb ed="#V" break="no" n="58"/>ram ponit Commentator verba 
+      <lb ed="#V" n="59"/>praeallegata. Sed si primus motor 
+      <lb ed="#V" n="60"/>poneretur mensura ipsius generis 
+      <lb ed="#V" n="61"/>substantiae, hoc ipsum unum 
+      pone<lb ed="#V" break="no" n="62"/>retur mensura, quia primus motor 
+      <lb ed="#V" n="63"/>propter simplicitatem suam multo 
+      <lb ed="#V" n="64"/>verius esset hoc ipsuin unum 
+      <lb ed="#V" n="65"/>quam idea Platonis. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e3980">
+               <lb ed="#V" n="66"/>Quid igitur est mensura prima 
+      <lb ed="#V" n="67"/>illius generis ? 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e3988">
+               <lb ed="#V" n="68"/>Respondeo, aliqua substantia 
+      <lb ed="#V" n="69"/>illius generis prima cui convenit 
+      <lb ed="#V" n="70"/>unitas, non est autem primus 
+      mo<lb ed="#V" break="no" n="71"/>tor mensura intrinseca illius 
+      ge<lb ed="#V" break="no" n="72"/>neris, sicut nec aliorum; quatenus 
+      <lb ed="#V" n="73"/>tamen etiam est mensura 
+      extrin<lb ed="#V" break="no" n="74"/>seca omnium, aliquo modo est 
+      <lb ed="#V" n="75"/>immediatius mensura 
+      substantia<lb ed="#V" break="no" n="76"/>rum, que sunt perfectiora entia, 
+      <lb ed="#V" n="77"/>quam accidentium, quae sunt 
+      re<lb ed="#V" break="no" n="78"/>motiora ab ipsa, nullius tamen 
+      <lb ed="#V" n="79"/>generis est mensura intrinseca. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e4017">
+               <lb ed="#V" n="80"/>Ad primam rationem dico, quod 
+      <lb ed="#V" n="81"/>si substantiam abstrahas a creata 
+      <lb ed="#V" n="82"/>et increata, non accipitur ibi 
+      sub<lb ed="#V" break="no" n="83"/>stantia ut est conceptus generis 
+      <lb ed="#V" n="84"/>generalissimi, quia increata 
+      re<lb ed="#V" break="no" n="85"/>pugnat substantie hoc modo, quia 
+      <lb ed="#V" n="86"/>substantia hoc modo includit 
+      limi<lb ed="#V" break="no" n="87"/>tationem; sed accipitur ibi 
+      substan<lb ed="#V" break="no" n="88"/>tia pro ente in se, et non ente in 
+      <!--0624.xml-->
+      <pb ed="#V" n="624"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>alio, cujus conceptus prior est, et 
+      <lb ed="#V" n="2"/>communior conceptu substantiae, 
+      <lb ed="#V" n="3"/>ut est genus, sicut patuit per 
+      Avi<lb ed="#V" break="no" n="4"/>cennam ubi supra. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e4054">
+               <lb ed="#V" n="5"/>(d) Ad aliam rationem concedo, 
+      <lb ed="#V" n="6"/>quod compositio rei et rei non 
+      <lb ed="#V" n="7"/>requiritur in ente in genere, sed 
+      <lb ed="#V" n="8"/>requiritur compositio realitatis 
+      <lb ed="#V" n="9"/>et realitatis, quarum altera 
+      prae<lb ed="#V" break="no" n="10"/>cise sumpta in primo signo 
+      natu<lb ed="#V" break="no" n="11"/>rae, est in potentia ad alteram et 
+      <lb ed="#V" n="12"/>perfectibilis per alteram. Talis 
+      <lb ed="#V" n="13"/>autem compositio non potest esse 
+      <lb ed="#V" n="14"/>realitatis infinitae ad realitatem 
+      <lb ed="#V" n="15"/>infinitam; omnis autem realitas in 
+      <lb ed="#V" n="16"/>Deo est infinita formaliter, sicut 
+      <lb ed="#V" n="17"/>supra declaratum est, ergo, etc. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e4085"><!-- jdso-l1d8q3-n9 -->
+               <lb ed="#V" n="31"/>Ad primum (a) argumentum 
+      <lb ed="#V" n="32"/>principale, concedo quod iste 
+      con<lb ed="#V" break="no" n="33"/>ceptus dictus de Deo et de 
+      crea<lb ed="#V" break="no" n="34"/>tura in quid, contrahitur per 
+      ali<lb ed="#V" break="no" n="35"/>quos conceptus dicentes quale 
+      con<lb ed="#V" break="no" n="36"/>trahentes. Sed ipse conceptus 
+      <lb ed="#V" n="37"/>dictus in quid non est conceptus 
+      <lb ed="#V" n="38"/>generis, nec illi conceptus dicentes 
+      <lb ed="#V" n="39"/>quale sunt conceptus differentiarum, 
+      <lb ed="#V" n="40"/>quia iste conceptus quidditativus 
+      <lb ed="#V" n="41"/>ost communis ad finitum et 
+      in<lb ed="#V" break="no" n="42"/>finitum, quee communitas non po 
+      <!--0626.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="43"/>test esse in conceptu generis. Isti 
+      <lb ed="#V" n="44"/>etiam (b) conceptus contrahentes 
+      <lb ed="#V" n="45"/>dicunt modum intrinsecum ipsius 
+      <lb ed="#V" n="46"/>contracti, et non aliquam 
+      reali<lb ed="#V" break="no" n="47"/>tatem perficientem illam. 
+      Diffe<lb ed="#V" break="no" n="48"/>rentie autem non dicunt modum 
+      <lb ed="#V" n="49"/>intrinsecum realitatis alicujus 
+      <lb ed="#V" n="50"/>generis, quia in quocumque 
+      gra<lb ed="#V" break="no" n="51"/>du intelligatur animalitas, non 
+      <lb ed="#V" n="52"/>propter hoc invenitur rationalitas 
+      <lb ed="#V" n="53"/>vel irrationalitas esse modus 
+      <lb ed="#V" n="54"/>intrinsecus animalitatis; sed 
+      ad<lb ed="#V" break="no" n="55"/>huc intelligitur animalitas in tali 
+      <lb ed="#V" n="56"/>gradu, ut perfectibilis a 
+      rationa<lb ed="#V" break="no" n="57"/>litate vel irrationalitate. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e4151">
+               <lb ed="#V" n="58"/>Sed hic est unum (c) dubium : 
+      <lb ed="#V" n="59"/>Quomodo potest conceptus 
+      com<lb ed="#V" break="no" n="60"/>munis Deo et creaturae realis 
+      ac<lb ed="#V" break="no" n="61"/>cipi, nisi ab aliqua realitate 
+      <lb ed="#V" n="62"/>ejusdem generis; et tunc videtur, 
+      <lb ed="#V" n="63"/>quod sit potentialis ad illam 
+      <lb ed="#V" n="64"/>realitatem a qua accipitur 
+      conce<lb ed="#V" break="no" n="65"/>ptus distinguens tanquam 
+      diffe<lb ed="#V" break="no" n="66"/>rentiae, sicut prius argutum est 
+      <lb ed="#V" n="67"/>de conceptu generis et differentiae, 
+      <lb ed="#V" n="68"/>et tunc stat argumentum 
+      supe<lb ed="#V" break="no" n="69"/>rius factum pro prima opinione 
+      <lb ed="#V" n="70"/>quod si esset aliqua realitas 
+      <lb ed="#V" n="71"/>distinguens in re et alia 
+      distin<lb ed="#V" break="no" n="72"/>cta, videtur quod res sit 
+      com<lb ed="#V" break="no" n="73"/>posita, quia habet aliquid quo 
+      <lb ed="#V" n="74"/>conveniat, et quo differat. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e4190">
+               <lb ed="#V" n="75"/>Respondeo (d), quod quando 
+      in<lb ed="#V" break="no" n="76"/>telligitur aliqua realitas cum 
+      mo<lb ed="#V" break="no" n="77"/>do intrinseco suo, ille conceptus 
+      <lb ed="#V" n="78"/>non est ita simpliciter simplex, 
+      <lb ed="#V" n="79"/>quin possit concipi illa realitas 
+      <lb ed="#V" n="80"/>absque modo illo, sed tunc est 
+      <lb ed="#V" n="81"/>conceptus imperfectus illius rei; 
+      <lb ed="#V" n="82"/>potest etiam concipi sub illo 
+      mo<lb ed="#V" break="no" n="83"/>do, et tunc est conceptus 
+      perfe<lb ed="#V" break="no" n="84"/>ctus illius rei. Exemplum, si esset 
+      <lb ed="#V" n="85"/>albedo sub decimo gradu 
+      inten<lb ed="#V" break="no" n="86"/>sionis, quantumcumque esset sim- 
+      <!--0627.xml-->
+      <pb ed="#V" n="627"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>plex omnino in re, posset tamen 
+      <lb ed="#V" n="2"/>concipi sub ratione albedinis 
+      tan<lb ed="#V" break="no" n="3"/>te, et tunc perfecte conciperetur 
+      <lb ed="#V" n="4"/>conceptu adaequato illi rei; vel 
+      <lb ed="#V" n="5"/>posset concipi precise sub 
+      ra<lb ed="#V" break="no" n="6"/>tione albedinis, et tunc 
+      concipe<lb ed="#V" break="no" n="7"/>retur conceptu imperfecto, et 
+      de<lb ed="#V" break="no" n="8"/>ficiente a perfectione rei; 
+      conce<lb ed="#V" break="no" n="9"/>ptus autem imperfectus posset 
+      <lb ed="#V" n="10"/>esse communis illi albedini et 
+      <lb ed="#V" n="11"/>ali, et conceptus perfectus 
+      pro<lb ed="#V" break="no" n="12"/>prius esset; requiritur igitur 
+      di<lb ed="#V" break="no" n="13"/>stinctio inter illud a quo 
+      accipi<lb ed="#V" break="no" n="14"/>tur conceptus proprius, non ut 
+      <lb ed="#V" n="15"/>distinctio realitatis et realitatis, 
+      <lb ed="#V" n="16"/>sed ut distinctio realitatis, et 
+      mo<lb ed="#V" break="no" n="17"/>di proprii et intrinseci ejusdem; 
+      <lb ed="#V" n="18"/>quae distinctio sufficit ad 
+      haben<lb ed="#V" break="no" n="19"/>dum perfectum conceptum vel 
+      <lb ed="#V" n="20"/>imperfectum de eodem, quorum 
+      <lb ed="#V" n="21"/>imperfectus sit communis et 
+      per<lb ed="#V" break="no" n="22"/>fectus sit proprius; sed conceptus 
+      <lb ed="#V" n="23"/>generis et differentiae requirunt 
+      <lb ed="#V" n="24"/>distinctiones realitatum, non 
+      tan<lb ed="#V" break="no" n="25"/>tum ejusdem realitatis perfecte et 
+      <lb ed="#V" n="26"/>imperfecte conceptae. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e4282">
+               <lb ed="#V" n="27"/>Istud potest sic declarari: Si 
+      <lb ed="#V" n="28"/>ponamus aliquem intellectum 
+      per<lb ed="#V" break="no" n="29"/>fecte moveri a colore ad 
+      intelli<lb ed="#V" break="no" n="30"/>gendum realitatem coloris et 
+      rea<lb ed="#V" break="no" n="31"/>litatem differentiae, 
+      quantumcum<lb ed="#V" break="no" n="32"/>que habeat perfectum conceptum 
+      <lb ed="#V" n="33"/>adaequatum primae realitati, non 
+      <lb ed="#V" n="34"/>tamen habet in hoc conceptum 
+      <lb ed="#V" n="35"/>realitatis a quo accipitur 
+      diffe<lb ed="#V" break="no" n="36"/>rentia, nec e converso, sed habet 
+      <lb ed="#V" n="37"/>ibi duo objecta formalia, quae 
+      na<lb ed="#V" break="no" n="38"/>ta sunt terminare conceptus 
+      pro<lb ed="#V" break="no" n="39"/>prios distinctos. Si autem (e) 
+      <lb ed="#V" n="40"/>tantum essct distinctio in re sicut 
+      <lb ed="#V" n="41"/>realitatis et sui  modi intvinscci, 
+      <lb ed="#V" n="42"/>non posset intellectus habere 
+      pro<lb ed="#V" break="no" n="43"/>prium conceptum illius realitatis, 
+      <lb ed="#V" n="44"/>et non habere conceptum illius 
+      <!--0627.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>modi intrinseci rei, saltem ut 
+      mo<lb ed="#V" break="no" n="46"/>di sub quo conciperetur, licet ille 
+      <lb ed="#V" n="47"/>modus non conciperetur, sicut 
+      <lb ed="#V" n="48"/>de singularitate concepta, et 
+      mo<lb ed="#V" break="no" n="49"/>do sub quo dicitur concipi, ut 
+      pa<lb ed="#V" break="no" n="50"/>tet alibi, sed in illo perfecto 
+      con<lb ed="#V" break="no" n="51"/>ceptu haberet unum objectum 
+      <lb ed="#V" n="52"/>adequatum illi, scilicet rem sub 
+      <lb ed="#V" n="53"/>modo. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e4347">
+               <lb ed="#V" n="54"/>Et sic dicas, (f) saltem 
+      conce<lb ed="#V" break="no" n="55"/>ptus communis est 
+      indetermina<lb ed="#V" break="no" n="56"/>tus et potentialis ad specialem 
+      <lb ed="#V" n="57"/>conceptum, ut realitas ad 
+      realita<lb ed="#V" break="no" n="58"/>tem, vel saltem non erit 
+      infini<lb ed="#V" break="no" n="59"/>tus, quia nullum infinitum est 
+      <lb ed="#V" n="60"/>potentiale ad aliquid. Concedo 
+      <lb ed="#V" n="61"/>quod conceptus ille communis 
+      <lb ed="#V" n="62"/>Deo et creaturae est finitus, hoc 
+      <lb ed="#V" n="63"/>est, non est de se infinitus 
+      posi<lb ed="#V" break="no" n="64"/>tive, ita quod de se includat 
+      in<lb ed="#V" break="no" n="65"/>finitatem, quia si esset infinitus, 
+      <lb ed="#V" n="66"/>non esset communis de se finito 
+      <lb ed="#V" n="67"/>et infinito; nec est de se finitus 
+      <lb ed="#V" n="68"/>positive, ita quod de se includat 
+      <lb ed="#V" n="69"/>finitatem, quia tunc non 
+      compe<lb ed="#V" break="no" n="70"/>teret infinito, sed est de se 
+      indif<lb ed="#V" break="no" n="71"/>ferens ad finitum et infinitum, et 
+      <lb ed="#V" n="72"/>ideo est finitus negative, id est, 
+      <lb ed="#V" n="73"/>non ponens infinitatem, et tali 
+      <lb ed="#V" n="74"/>finitate est determinabilis per 
+      ali<lb ed="#V" break="no" n="75"/>quem conceptum. 
+    </p>
+            <!-- Additio -->
+            <p xml:id="jdso8u-d1e691-d1e4399">
+               <lb ed="#V" n="76"/>Contra, conceptus ille non est infinitus 
+      <lb ed="#V" n="77"/>actus, sed est objectum formale si est 
+      <lb ed="#V" n="78"/>determinabile ; igitur formaliter 
+      fini<lb ed="#V" break="no" n="79"/>tum et potentiale, igitur non est 
+      com<lb ed="#V" break="no" n="80"/>munis rei infinitce. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e4412">
+               <lb ed="#V" n="81"/>Ultima consequentia est neganda, 
+      <lb ed="#V" n="82"/>quia rei ininita imperfecte intelligitur 
+      <lb ed="#V" n="83"/>in objecto formali finito, pro quanto 
+      <lb ed="#V" n="84"/>illud objectum infinitum natum esset 
+      <lb ed="#V" n="85"/>facere in intellectu tale objectum 
+      for<lb ed="#V" break="no" n="86"/>male, si diminule mveret, sicut et 
+      ob<lb ed="#V" break="no" n="87"/>jecum creatum diminute movens, 
+      na<lb ed="#V" break="no" n="88"/>tum est facere idem, et ideo est com- 
+      <!--0628.xml-->
+      <pb ed="#V" n="628"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>mune utrique quasi similitudo communis 
+      <lb ed="#V" n="2"/>et imperfecta. 
+      <lb ed="#V" n="3"/>Contra, res infinita non est aliquid 
+      <lb ed="#V" n="4"/>finitum, Deus est illud objectum, si 
+      <lb ed="#V" n="5"/>illud predicatur in quid de Deo, 
+      sic<lb ed="#V" break="no" n="6"/>ut homo est animal, similiter Deus 
+      <lb ed="#V" n="7"/>non est aliquid potentiale. 
+      <lb ed="#V" n="8"/>Respondeo, quamvis compositio apud 
+      <lb ed="#V" n="9"/>intellectum sit conceputm, tamen est 
+      <lb ed="#V" n="10"/>pro re etra, sicut signa occipiuntur 
+      <lb ed="#V" n="11"/>pro significatis, et sicut plures 
+      conce<lb ed="#V" break="no" n="12"/>ptus possunt esse signa ejusdem rei, licet 
+      <lb ed="#V" n="13"/>unum commune, aliud proprium. Ita 
+      <lb ed="#V" n="14"/>compositio illorum conceptuum est 
+      si<lb ed="#V" break="no" n="15"/>gnum identitatis signatorum er ipsos 
+      <lb ed="#V" n="16"/>conceptus, quia ergo significatum per 
+      <lb ed="#V" n="17"/>conceptum finitm, ut per signum 
+      com<lb ed="#V" break="no" n="18"/>mune, est id ipsum quod significatur per 
+      <lb ed="#V" n="19"/>conceptum Dei, ideo hec est vera : Deus 
+      <lb ed="#V" n="20"/>est enS, componendo conceptum 
+      fini<lb ed="#V" break="no" n="21"/>tum apud intellectum conceptui Dei, 
+      <lb ed="#V" n="22"/>sed non est pro finito significalo, sed 
+      <lb ed="#V" n="23"/>pro infinilo communiter signalo. Tunc 
+      <lb ed="#V" n="24"/>ad istam propositionem : Deus est hoc 
+      <lb ed="#V" n="25"/>objectum ens, respondeo, Deus est 
+      <lb ed="#V" n="26"/>illud quod per hoc signum ens, ut 
+      <lb ed="#V" n="27"/>per signum commune signatur, et ideo 
+      <lb ed="#V" n="28"/>apud intellectum hec compositio est 
+      ve<lb ed="#V" break="no" n="29"/>a : Deus est ens, que compositio 
+      <lb ed="#V" n="30"/>est signum illius identitatis. Cum dicis, 
+      <lb ed="#V" n="31"/>Deus non est aliquod finitum, verum 
+      <lb ed="#V" n="32"/>est loquendo de identitate in re, que 
+      <lb ed="#V" n="33"/>scilicet est significata et significatorum ; 
+      <lb ed="#V" n="34"/>loquendo autem de eSSe, ut'est 
+      compo<lb ed="#V" break="no" n="35"/>sitio apud intellectum, quod de Deo in 
+      <lb ed="#V" n="36"/>compositione nihil potest predicari, quod 
+      <lb ed="#V" n="37"/>est apud intellectum signum finilum, 
+      <lb ed="#V" n="38"/>falsum est. Exemplum hujus : homo 
+      <lb ed="#V" n="39"/>est animal,. animal apud intellectum, 
+      <lb ed="#V" n="40"/>ut est ibi objectum formale, est ens 
+      <lb ed="#V" n="41"/>diminutum. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e4527">
+               <lb ed="#V" n="42"/>Contra, nullum ens diminulum est 
+      <lb ed="#V" n="43"/>verum de Socrate existente in re; igi- 
+      <!--0628.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="44"/>tur hec est falsa : Socrates 
+      exi<lb ed="#V" break="no" n="45"/>stens est animal. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e4544">
+               <lb ed="#V" n="46"/>Respondeo, compositio semper fit 
+      con<lb ed="#V" break="no" n="47"/>ceptuum, et est signorum et 
+      signalo<lb ed="#V" break="no" n="48"/>rum, sed est pro objectis materialibus, 
+      <lb ed="#V" n="49"/>que significantur per conceptus, et pro 
+      <lb ed="#V" n="50"/>identilate que signatur per 
+      compositi<lb ed="#V" break="no" n="51"/>onem, ita quod si identitas est 
+      signato<lb ed="#V" break="no" n="52"/>rum, id est, objectorum materialium, 
+      <lb ed="#V" n="53"/>compositio est vera conceptuum, qi 
+      <lb ed="#V" n="54"/>sunt formalia objecta. 
+    </p>
+            <!-- END additio -->
+            <p xml:id="jdso8u-d1e691-d1e4568">
+               <lb ed="#V" n="55"/>Sed si arguas (g), ergo realitas 
+      <lb ed="#V" n="56"/>a qua accipitur, est finita, non 
+      <lb ed="#V" n="57"/>sequitur; non enim accipitur ab 
+      <lb ed="#V" n="58"/>aliqua realitate, ut conceptus 
+      <lb ed="#V" n="59"/>adaequatus realitati, sive ut 
+      per<lb ed="#V" break="no" n="60"/>fectus conceptus illi realitati 
+      a<lb ed="#V" break="no" n="61"/>dequatus, sed ut diminitus vel 
+      <lb ed="#V" n="62"/>imperfectus. In tantum etiam, 
+      <lb ed="#V" n="63"/>quod si illa realitas a qua 
+      acci<lb ed="#V" break="no" n="64"/>pitur, videtur perfecte et 
+      intuiti<lb ed="#V" break="no" n="65"/>ve, intuens ibi non haberet 
+      di<lb ed="#V" break="no" n="66"/>stincta objecta formalia, scilicet 
+      <lb ed="#V" n="67"/>realitatem et modum, sed idem 
+      <lb ed="#V" n="68"/>objectum formale; tamen 
+      intelli<lb ed="#V" break="no" n="69"/>gens intellectione abstractiva, 
+      <lb ed="#V" n="70"/>propter intellectionis illius 
+      im<lb ed="#V" break="no" n="71"/>perfectionem potest unum habere 
+      <lb ed="#V" n="72"/>pro objecto formali, licet non 
+      ha<lb ed="#V" break="no" n="73"/>beat alterum. Istud etiam (h) 
+      <lb ed="#V" n="74"/>potest ulterius declarari, si 
+      cu<lb ed="#V" break="no" n="75"/>juslibet universalis ponitur esse 
+      <lb ed="#V" n="76"/>proprium individuum, puta in re 
+      <lb ed="#V" n="77"/>proprium individuum animalis, 
+      <lb ed="#V" n="78"/>proprium individuum hominis, 
+      <lb ed="#V" n="79"/>etc. tunc non tantum conceptus 
+      <lb ed="#V" n="80"/>generis est potentialis ad 
+      conce<lb ed="#V" break="no" n="81"/>ptum differentiae, sed proprium 
+      <lb ed="#V" n="82"/>individuum generis est potentiale 
+      <lb ed="#V" n="83"/>ad proprium individuum 
+      differen<lb ed="#V" break="no" n="84"/>tiae. Si autem accipiamus 
+      pro<lb ed="#V" break="no" n="85"/>prium individuum hujus 
+      conce<lb ed="#V" break="no" n="86"/>ptus ens, quod individuum est 
+      <lb ed="#V" n="87"/>in Deo, et proprium indivi- 
+      <!--0629.xml-->
+      <pb ed="#V" n="629"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>duum hujus quod est infinitum, 
+      <lb ed="#V" n="2"/>idem individuum est, nec est 
+      <lb ed="#V" n="3"/>potentiale ad se ipsum. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e4655">
+               <lb ed="#V" n="4"/>Sed saltem quaeres (i), quare 
+      en<lb ed="#V" break="no" n="5"/>titas non habet proprium 
+      indivi<lb ed="#V" break="no" n="6"/>duum in re, quod sit in potentia 
+      <lb ed="#V" n="7"/>ad individuum determinantis, ut 
+      <lb ed="#V" n="8"/>primo intelligatur hoc ens quam 
+      <lb ed="#V" n="9"/>infinitum ? 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e4671">
+               <lb ed="#V" n="10"/>Respondeo, quod quando aliquid 
+      <lb ed="#V" n="11"/>est de se esse et non tantum 
+      ca<lb ed="#V" break="no" n="12"/>pax illius esse, tunc etiam est de 
+      <lb ed="#V" n="13"/>se habens quamlihet conditionem 
+      <lb ed="#V" n="14"/>nccessario requisitam ad esse; ens 
+      <lb ed="#V" n="15"/>autem ut convenit Deo, scilicet 
+      <lb ed="#V" n="16"/>ens per essentiam, est ipsum esse 
+      <lb ed="#V" n="17"/>infinitum et non aliquid, cui tantum 
+      <lb ed="#V" n="18"/>convenit ipsum esse, et ideo ex se 
+      <lb ed="#V" n="19"/>est hoc, et ex se infinitum, ut 
+      <lb ed="#V" n="20"/>quasi per prius intelligatur 
+      ali<lb ed="#V" break="no" n="21"/>qu0 modo infinitas esse modus 
+      en<lb ed="#V" break="no" n="22"/>titatis per essentiam quam ipsum 
+      <lb ed="#V" n="23"/>intelligatur esse hoc; et ideo non 
+      <lb ed="#V" n="24"/>oportet quaerere quomodo hoc ens 
+      <lb ed="#V" n="25"/>sit infinitum, quasi prius conveniat 
+      <lb ed="#V" n="26"/>sibi singularitas quam infinitas, 
+      <lb ed="#V" n="27"/>et ita est universaliter in his, 
+      <lb ed="#V" n="28"/>quae possunt esse entia per 
+      essen<lb ed="#V" break="no" n="29"/>tiam, non per participationem. 
+      <lb ed="#V" n="30"/>Tale primo determinatur ex se ut 
+      <lb ed="#V" n="31"/>sit tale per essentiam, ut sit 
+      in<lb ed="#V" break="no" n="32"/>finitum tale, et ut sit hoc de se. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e4723">
+               <lb ed="#V" n="33"/>Et si arguis, individuum 
+      inclu<lb ed="#V" break="no" n="34"/>dit individuum, ergo commune 
+      <lb ed="#V" n="35"/>includit commune; ergo, si hoc 
+      <lb ed="#V" n="36"/>ens includit infinitatem hanc, et ens 
+      <lb ed="#V" n="37"/>in communi includet infinitatem 
+      <lb ed="#V" n="38"/>in communi. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e4740">
+               <lb ed="#V" n="39"/>Respondeo, consequentia non 
+      <lb ed="#V" n="40"/>valet, quia individuum includit 
+      <lb ed="#V" n="41"/>perfectionem aliquam, quam non 
+      <lb ed="#V" n="42"/>includit commune, et per illam 
+      <lb ed="#V" n="43"/>perfectionem potest formaliter 
+      <lb ed="#V" n="44"/>includere infinitum, et tamen 
+      <!--0629.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>commune ex ratione conceptus 
+      <lb ed="#V" n="46"/>communis, non includit illum ut 
+      <lb ed="#V" n="47"/>conceptum inclusum, sed est 
+      ali<lb ed="#V" break="no" n="48"/>quo modo determinabile per ipsum. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e4769">
+               <lb ed="#V" n="49"/>Ad Avicennam 2. Metaph. patet 
+      <lb ed="#V" n="50"/>per ipsum, 8. Metaph. ut dictum 
+      <lb ed="#V" n="51"/>est. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e4778">
+               <lb ed="#V" n="52"/>Ad Damascenum 5. cap. patet 
+      <lb ed="#V" n="53"/>per Magistrum dist. 9. quia 
+      po<lb ed="#V" break="no" n="54"/>nit ibi speciem pro aliqua 
+      similitu<lb ed="#V" break="no" n="55"/>dine speciei ad individua. Est 
+      ta<lb ed="#V" break="no" n="56"/>men major dissimilitndo 
+      secun<lb ed="#V" break="no" n="57"/>dum Augustinum, et ideo 
+      Au<lb ed="#V" break="no" n="58"/>gistinus de Trinitate negat ibi 
+      <lb ed="#V" n="59"/>specicm sicut et genus. Uude illa 
+      <lb ed="#V" n="60"/>definitio Porphyrii : Species dicitur, 
+      <lb ed="#V" n="61"/>que predicatur de pluribus in qvid, 
+      <lb ed="#V" n="62"/>debet intelligi, quod in illis 
+      pluri<lb ed="#V" break="no" n="63"/>bus plurificetur species secundum 
+      <lb ed="#V" n="64"/>naturam, in personis autem 
+      divi<lb ed="#V" break="no" n="65"/>nis non plurificatur natura divina. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e4811">
+               <lb ed="#V" n="66"/>Specics otiam secundum se 
+      ha<lb ed="#V" break="no" n="67"/>bet realitatem correspondentem 
+      <lb ed="#V" n="68"/>sibi potentialem ad propriam 
+      rea<lb ed="#V" break="no" n="69"/>litatem individui, essentia 
+      divi<lb ed="#V" break="no" n="70"/>na nullo modo est potentialis 
+      <lb ed="#V" n="71"/>ad relationem, sicvt dictum fuit 
+      su<lb ed="#V" break="no" n="72"/>pra dist. 5. q. 2. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e4829">
+               <lb ed="#V" n="73"/>Ad ultimum de sapientia (k) dico, 
+      <lb ed="#V" n="74"/>quod non est species generis ut 
+      <lb ed="#V" n="75"/>transfertur ad divina, nec 
+      secun<lb ed="#V" break="no" n="76"/>dum illam rationem transfertur, 
+      <lb ed="#V" n="77"/>sed secundum rationem sapientie, 
+      <lb ed="#V" n="78"/>ut est transcendens ; quomodo 
+      au<lb ed="#V" break="no" n="79"/>tem tale potest esse transcendens, 
+      <lb ed="#V" n="80"/>dictum est superius in solutione 
+      <lb ed="#V" n="81"/>principali art. 3. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e4851">
+               <lb ed="#V" n="82"/>Dubium tamen est de hac 
+      sapien<lb ed="#V" break="no" n="83"/>tia quae est in nobis, utrum sit 
+      in<lb ed="#V" break="no" n="84"/>dividuum sapientie transcendentis 
+      <lb ed="#V" n="85"/>et qualitatis, an alterius tantum. 
+      <lb ed="#V" n="86"/>Quod non utriusque videtur, quia 
+      <lb ed="#V" n="87"/>nihil idem continetur sub diversis 
+      <lb ed="#V" n="88"/>praedicatis dictis in quid de eo non 
+      <!--0630.xml-->
+      <pb ed="#V" n="630"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>subalternis; sapientia autem 
+      <lb ed="#V" n="2"/>transcendens et qualitas, non 
+      <lb ed="#V" n="3"/>subalterna sunt, ergo, etc. Item, 
+      <lb ed="#V" n="4"/>sapientia transcendens est passio 
+      <lb ed="#V" n="5"/>entis; ergo ens non dicitur de ea 
+      <lb ed="#V" n="6"/>in quid, nec e converso, ex dist. 3. 
+      <lb ed="#V" n="7"/>igitur nec aliquid in quo 
+      includi<lb ed="#V" break="no" n="8"/>tur sapientia transcendens 
+      inclu<lb ed="#V" break="no" n="9"/>dit ens in quid, quia tunc illud esset 
+      <lb ed="#V" n="10"/>ens per accidens, includeret enim 
+      <lb ed="#V" n="11"/>essentialiter rationem subjecti et 
+      <lb ed="#V" n="12"/>passionis, quae non faciunt aliquid 
+      <lb ed="#V" n="13"/>unum per se, sed tantum per 
+      acci<lb ed="#V" break="no" n="14"/>dens. 
+    </p>
+            <p xml:id="jdso8u-d1e691-d1e4907">
+               <lb ed="#V" n="15"/>Si haec argumenta valent, unum 
+      <lb ed="#V" n="16"/>videtur dandum, scilicet quod 
+      sa<lb ed="#V" break="no" n="17"/>pientia in nobis, vel sit tantum 
+      <lb ed="#V" n="18"/>individuum sapiontiae 
+      transcen<lb ed="#V" break="no" n="19"/>dentis vel tantum generis 
+      qualita<lb ed="#V" break="no" n="20"/>tis. Non videtur dandum 
+      secun<lb ed="#V" break="no" n="21"/>dum, quia tunc non esset in nobis 
+      <lb ed="#V" n="22"/>perfectio simpliciter, quod videtur 
+      <lb ed="#V" n="23"/>dandum contra Augustinum 15. de 
+      <lb ed="#V" n="24"/>Trinit. cap. 4. Omnis crca nos 
+      cre<lb ed="#V" break="no" n="25"/>atura clamat, etc. Si primum detur; 
+      <lb ed="#V" n="26"/>ergo non omnis habitus formaliter 
+      <lb ed="#V" n="27"/>est in genere Qualitatis, sed 
+      om<lb ed="#V" break="no" n="28"/>nes sunt transcendentes, quae 
+      im<lb ed="#V" break="no" n="29"/>portant perfectionem simpliciter. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>
