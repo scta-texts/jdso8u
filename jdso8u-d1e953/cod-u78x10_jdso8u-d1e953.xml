@@ -1,0 +1,850 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2024-03-24">March 24, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x10">Vives, Paris, 1893, volume 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="198"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e953">
+        <head xml:id="jdso8u-d1e953-Hd1e100">Quaestio 1</head>
+        <div xml:id="jdso8u-d1e953-Dd1e102"><!-- scotus-d20q1-p1 -->
+          <p xml:id="jdso8u-d1e953-d1e105">
+            <lb ed="#V" n="4" type="fixed=198"/>QUAESTIO UNICA.
+            <lb ed="#V" n="5"/>Utrum tres persona sint aequales in 
+            po<lb break="no" ed="#V" n="6"/>tentia ?
+          </p>
+          <p xml:id="jdso8u-d1e953-d1e114">
+            <lb ed="#V" n="7"/>Alensis 1. p. q. 47. m. 5. D. Thom. 1. p. q. 42.
+            <lb ed="#V" n="8"/>art. 6. Richard. Aic q. 1. D. Bonav. q. 1.
+            <lb ed="#V" n="9"/>Durand. d. 24. q. 1. Vasq. 1. p. d. 169. Suar.
+            <lb ed="#V" n="10"/>4. p. tract. 3. lib. 4. c. 9. 10. Vide Scot. 1.
+            <lb ed="#V" n="11"/>Phys. q. A4. et 15. ubi agit an potentia activa
+            <lb ed="#V" n="12"/>terminetur per maximum quod potest producere.
+            <lb ed="#V" n="13"/>Mayron d. 24. et 25.
+          </p>
+          <p xml:id="jdso8u-d1e953-d1e132"><!-- ordination para 1 -->
+            <lb ed="#V" n="14"/>Circa istam distinctionem 
+            vigesi<lb break="no" ed="#V" n="15"/>mam, quaero unum : Utrum tres
+            <lb ed="#V" n="16"/>persone sint aequales in. potentia ?
+            <lb ed="#V" n="17"/>Arguo quod non, quia tunc sicut
+            <lb ed="#V" n="18"/>Pater potest generare, ita Filius
+            <lb ed="#V" n="19"/>posset generare. Probatio hujus
+            <lb ed="#V" n="20"/>consequentice ; tum quia Augustinus
+            <lb ed="#V" n="21"/>contra Maximinum hb. 3. S7 Pater
+            <lb ed="#V" n="22"/>non potest generare sibi Filium
+            <lb ed="#V" n="23"/>equalem, est impotens ; ergo e 
+            con<lb break="no" ed="#V" n="24"/>verso, si non est impotens, sed 
+            om<lb break="no" ed="#V" n="25"/>nipotens, potest generare Filium, et
+            <lb ed="#V" n="26"/>per consequens posse generare 
+            per<lb break="no" ed="#V" n="27"/>tinet ad omnipotentiam, et ita si 
+            Fi<lb break="no" ed="#V" n="28"/>lius non potest generare, non est
+            <lb ed="#V" n="29"/>eque potens vel aequalis potentiae
+            <lb ed="#V" n="30"/>cum Patre ; tum quia Filius non
+            <lb ed="#V" n="31"/>esset omnisciens si non sciret 
+            gene<lb break="no" ed="#V" n="32"/>rationem Patris, igitur nec 
+            omnipo<lb break="no" ed="#V" n="33"/>tens si non posset in istam 
+            genera<lb break="no" ed="#V" n="34"/>tionem.
+          </p>
+          <p xml:id="jdso8u-d1e953-d1e181">
+            <lb ed="#V" n="35"/>Praeterea, Richardus 2. de Trin.
+            <lb ed="#V" n="36"/>cap. ultimo probat, quod non 
+            pos<lb break="no" ed="#V" n="37"/>sunt esse plures omnipotentes, quia
+            <lb ed="#V" n="38"/>tunc unus posset facere alium 
+            nulli<lb break="no" ed="#V" n="39"/>potentem ; ergo a simili videtur 
+            ar<lb break="no" ed="#V" n="40"/>gui in proposito, si ponantur plures
+            <lb ed="#V" n="41"/>persone divina) cue potentes, el
+            <lb ed="#V" n="42"/>sic ista consequentia Richardi fuit
+            <lb ed="#V" n="43"/>declarata dist. 2. per duas vias. Con-
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="44"/>similibus viis etiam declaro in. 
+            pro<lb break="no" ed="#V" n="45"/>posito de duabus personis. Primo,
+            <lb ed="#V" n="46"/>quia una persona posset suo velle
+            <lb ed="#V" n="47"/>producere omnia possibilia, et eis
+            <lb ed="#V" n="48"/>productis in esse, persona alia non
+            <lb ed="#V" n="49"/>posset ea producere, eadem enim
+            <lb ed="#V" n="50"/>non possunt bis totaliter produci.
+          </p>
+          <p xml:id="jdso8u-d1e953-d1e220">
+            <lb ed="#V" n="51"/>Et confirmatur ista probatio, quia
+            <lb ed="#V" n="52"/>Pater prius ordine originis habet
+            <lb ed="#V" n="53"/>velle creaturarum quam Filius, et 
+            Fi<lb break="no" ed="#V" n="54"/>lius secundum Hilarium est potens
+            <lb ed="#V" n="55"/>per se, licet non a se, ; igitur prius
+            <lb ed="#V" n="56"/>origine quam Filius producat, 
+            intel<lb break="no" ed="#V" n="57"/>ligitur Pater producere, et ita in isto
+            <lb ed="#V" n="58"/>signo in quo Filius intelligitur. 
+            de<lb break="no" ed="#V" n="59"/>bere producere, nulla sunt ibi 
+            pos<lb break="no" ed="#V" n="60"/>sibilia.
+          </p>
+          <p xml:id="jdso8u-d1e953-d1e245">
+            <lb ed="#V" n="61"/>Secundo, quia omnipotens potest
+            <lb ed="#V" n="62"/>suo velle impedire omnia. possibilia
+            <lb ed="#V" n="63"/>alterius omnipotentis si esset, quia
+            <lb ed="#V" n="64"/>non est necesse voluntates eorum
+            <lb ed="#V" n="65"/>concordare in aliis a se, quia ista
+            <lb ed="#V" n="66"/>omnia contingenter volunt ; ita hoc
+            <lb ed="#V" n="67"/>non videtur necessarium esse, quod
+            <lb ed="#V" n="68"/>voluntas unius persones concordel
+            <lb ed="#V" n="69"/>in actu volendi alterius personae.
+          </p>
+          <p xml:id="jdso8u-d1e953-d1e267">
+            <lb ed="#V" n="70"/>Quod si dicas eamdem esse 
+            volun<lb break="no" ed="#V" n="71"/>tatem eorum, et ideo concordare in
+            <lb ed="#V" n="72"/>aliis volendo eadem. Contra, forma
+            <lb ed="#V" n="73"/>quae est principium agendi si est in
+            <lb ed="#V" n="74"/>pluribus, eodem modo est 
+            princi<lb break="no" ed="#V" n="75"/>pium agendi unicuique eorum, 
+            si<lb break="no" ed="#V" n="76"/>cut si esset in uno tantum, sicut si
+            <lb ed="#V" n="77"/>albedo esset in duabus 
+            superficie<lb break="no" ed="#V" n="78"/>bus, esset eis principium 
+            disgregan<lb break="no" ed="#V" n="79"/>di eodem modo, sicut si esset in uno
+            <lb ed="#V" n="80"/>tantum. Sed si voluntas esset in 
+            so<lb break="no" ed="#V" n="81"/>lo Filio, esset principium volendi
+            <lb ed="#V" n="82"/>contingenter lapidem esse, ita quod
+            <lb ed="#V" n="83"/>illa voluntate posset Filius velle
+            <lb ed="#V" n="84"/>eque lapidem esse vel non esse ;
+            <lb ed="#V" n="85"/>igitur posito. quod sit in Patre, erit
+            <lb ed="#V" n="86"/>principium in Filio contingenter 
+            vo<lb break="no" ed="#V" n="87"/>lendi vel non volendi lapidem, et ita.
+            <pb ed="#V" n="199"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>quidquid ponatur in Patre, Filius
+            <lb ed="#V" n="2"/>potest aeque velle lapidem esse, vel
+            <lb ed="#V" n="3"/>non esse, et ita si Pater vellet 
+            lapi<lb break="no" ed="#V" n="4"/>dem esse et Filius non, unus 
+            omni<lb break="no" ed="#V" n="5"/>potens faciet. alium nulli potentem,
+            <lb ed="#V" n="6"/>impediendo omnia possibilia volita
+            <lb ed="#V" n="7"/>ab eo.
+          </p>
+          <p xml:id="jdso8u-d1e953-d1e328">
+            <lb ed="#V" n="8"/>Item, prima causa plus causat
+            <lb ed="#V" n="9"/>quam secunda, propositione prima
+            <lb ed="#V" n="10"/>de causis, et 2. Metaph. 1. Post. sed
+            <lb ed="#V" n="11"/>Pater dat Filio virtutem creandi, et
+            <lb ed="#V" n="12"/>none converso ; ergo Pater plus
+            <lb ed="#V" n="13"/>potest.
+          </p>
+          <p xml:id="jdso8u-d1e953-d1e344">
+            <lb ed="#V" n="14"/>Contra, Magister distinctione
+            <lb ed="#V" n="15"/>praesenti in littera, et adducit 
+            Au<lb break="no" ed="#V" n="16"/>gustinum de Fide ad Petr. cap. 2.
+          </p>
+          <p xml:id="jdso8u-d1e953-d1e353">
+            <lb ed="#V" n="17"/>Item, Augustinus contra 
+            Maximi<lb break="no" ed="#V" n="18"/>num lib. 3. probat istam 
+            conclusio<lb break="no" ed="#V" n="19"/>nem tripliciter. Primo auctoritate
+            <lb ed="#V" n="20"/>Salvatoris in. Evangelio Joannis
+            <lb ed="#V" n="21"/>Omnia quae habet. Pater, mea sunt.
+            <lb ed="#V" n="22"/>Secundo per rationem, quia si non
+            <lb ed="#V" n="23"/>potuit dare potentiam aequalem, fuit
+            <lb ed="#V" n="24"/>impotens ; si noluit, fuit invidus.
+            <lb ed="#V" n="25"/>Tertio, per simile, quia Pater 
+            corpo<lb break="no" ed="#V" n="26"/>ralis generaret sibi Filium aequalem
+            <lb ed="#V" n="27"/>si posset, vel majorem ; ergo multo
+            <lb ed="#V" n="28"/>magis in proposito.
+          </p>
+        </div>
+        <div xml:id="jdso8u-d1e953-Dd1e383"><!-- scotus-d20q1-p2 -->
+          <p xml:id="jdso8u-d1e953-d1e386">
+            <lb ed="#V" n="29" type="fixed=199"/>SCHOLIUM.
+          </p>
+          <p xml:id="jdso8u-d1e953-d1e391">
+            <lb ed="#V" n="30"/>Ponit varias potentiae acceptiones, de quo
+            <lb ed="#V" n="31"/>supra dist. 7. et supposito quod in Deo sit 
+            po<lb break="no" ed="#V" n="32"/>tentia activa, ex d, 2. q. 2. qua necessario est
+            <lb ed="#V" n="33"/>aequalis in omnibus personis quoad omnia
+            <lb ed="#V" n="34"/>possibilia, difficultas solum est de actionibus
+            <lb ed="#V" n="35"/>notionalibus earumque terminis, quia a 
+            quali<lb break="no" ed="#V" n="36"/>bet persona non sunt producibiles, et ideo
+            <lb ed="#V" n="37"/>AEgidius dicit Patrem respectu generationis esse
+            <lb ed="#V" n="38"/>omnipotentem, quia ei non repugnat, Filium
+            <lb ed="#V" n="39"/>non, quia ei repugnat. Quod probat tripliciter.
+            <lb ed="#V" n="40"/>Hoc refutat Scotus unica ratione, quia si 
+            gene<lb break="no" ed="#V" n="41"/>rare, ut est termini geniti, est aliquid ad quod
+            <lb ed="#V" n="42"/>nata est esse potentia ; ergo carens tali 
+            poten<lb break="no" ed="#V" n="43"/>tia ut Filius, non habet omnipotentiam 
+            abso<lb break="no" ed="#V" n="44"/>lute, et solvit rationes /Egidii.
+          </p>
+          <p xml:id="jdso8u-d1e953-d1e426"><!-- ordinatio para 11 -->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>Respondeo (a) omittendo 
+            poten<lb break="no" ed="#V" n="46"/>tuam Logicam, qua dicit modum
+            <lb ed="#V" n="47"/>compositionis ab intellectu facte, et
+            <lb ed="#V" n="48"/>potentiam metaphorice dictam, 
+            qua<lb break="no" ed="#V" n="49"/>lis est in. Geometricis, secundum
+            <lb ed="#V" n="50"/>quod ipsi Geometre imaginantur
+            <lb ed="#V" n="51"/>punctum esse in potentia ad lineam,
+            <lb ed="#V" n="52"/>et lineam ad. superficiem ; hic 
+            po<lb break="no" ed="#V" n="53"/>lentia sumitur proprie. Uno modo
+            <lb ed="#V" n="54"/>sicut dictum est. dist. 1. prout est
+            <lb ed="#V" n="55"/>differentia entis opposita actui. Alio
+            <lb ed="#V" n="56"/>modo secundum quod significat
+            <lb ed="#V" n="57"/>idem quod principium, sicut 
+            loqui<lb break="no" ed="#V" n="58"/>tur de ea Philosophus 5. Metaph. c.
+            <lb ed="#V" n="59"/>9. Et. potentia isto secundo modo
+            <lb ed="#V" n="60"/>sumpta, dividitur in potentiam 
+            acti<lb break="no" ed="#V" n="61"/>vam et passivam, etsi utrolibet 
+            mo<lb break="no" ed="#V" n="62"/>do sumatur, potest intelligi, aut pro
+            <lb ed="#V" n="63"/>ipsa relatione principii quam 
+            signi<lb break="no" ed="#V" n="64"/>ficat, aut pro fundamento proximo
+            <lb ed="#V" n="65"/>istius relationis.
+          </p>
+          <p xml:id="jdso8u-d1e953-d1e477">
+            <lb ed="#V" n="66"/>Ad propositum planum est quod
+            <lb ed="#V" n="67"/>in Deo oportet ponere potentiam 
+            ac<lb break="no" ed="#V" n="68"/>tivam cum sit principium efficiens,
+            <lb ed="#V" n="69"/>ex dist. 2. et aequalem, sicut de ista
+            <lb ed="#V" n="70"/>loquitur Magister ds. ?sia. Et 
+            hu<lb break="no" ed="#V" n="71"/>jusmodi aequalitas — potest intelligi
+            <lb ed="#V" n="72"/>dupliciter, aut secundum 
+            extensio<lb break="no" ed="#V" n="73"/>nem objectorum possibilium ad qua
+            <lb ed="#V" n="74"/>se extendit potentia, aut secundum
+            <lb ed="#V" n="75"/>intensionem illius potentiae in se.
+            <lb ed="#V" n="76"/>Exemplum, potentia calefactiva 
+            di<lb break="no" ed="#V" n="77"/>citur aequalis extensive, si ad 
+            aequa<lb break="no" ed="#V" n="78"/>lia calefactibilia se extendat, sic
+            <lb ed="#V" n="79"/>omnis charitas est aequalis, quia 
+            ex<lb break="no" ed="#V" n="80"/>tendit se ad. omnia diligibilia ex
+            <lb ed="#V" n="81"/>charitate secundum intensionem, si
+            <lb ed="#V" n="82"/>eque perfecta sit potentia et eeque
+            <lb ed="#V" n="83"/>perfectum actum possit elicere, licet
+            <lb ed="#V" n="84"/>non tot possibilia sibi subessent, 
+            si<lb break="no" ed="#V" n="85"/>cut subessent alii potentiae, ut. patet
+            <lb ed="#V" n="86"/>posito isto casu, qui ponitur dis£. 1.
+            <lb ed="#V" n="87"/>quod calor productione sibi 
+            ada<lb break="no" ed="#V" n="88"/>quala produceret alium calorem ; et
+            <pb ed="#V" n="200"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>ise due aequalitates frequenter
+            <lb ed="#V" n="2"/>concomilanturse, potest tamen 
+            in<lb break="no" ed="#V" n="3"/>telligi utvalibet sine altera. 
+            Loquen<lb break="no" ed="#V" n="4"/>do autem de aequalitate extensionis,
+            <lb ed="#V" n="5"/>non est difficultas, nisi de actibus
+            <lb ed="#V" n="6"/>nolionalibus et de terminis istarum
+            <lb ed="#V" n="7"/>actionum, quia illi duo termini non
+            <lb ed="#V" n="8"/>sunt producibiles ab omnibus 
+            per<lb break="no" ed="#V" n="9"/>sonis, sed Filius a solo Patre, 
+            Spi<lb break="no" ed="#V" n="10"/>rilus sanctus autem a Patre et 
+            Fi<lb break="no" ed="#V" n="11"/>lio.
+          </p>
+          <p xml:id="jdso8u-d1e953-d1e558">
+            <lb ed="#V" n="12"/>Unde quoad hoc dicitur sic, quod
+            <lb ed="#V" n="13"/>potentia generandi pertinet ad om-.
+            <lb ed="#V" n="14"/>nipotentiam in Patre, non in Filio.
+            <lb ed="#V" n="15"/>Quod declaratur dupliciter. Primo,
+            <lb ed="#V" n="16"/>quia omnipotentia est ad omne quod
+            <lb ed="#V" n="17"/>non includit. contradictionem, sed
+            <lb ed="#V" n="18"/>Patrem generare non includit 
+            con<lb break="no" ed="#V" n="19"/>tradichonem, Filium autem 
+            gene<lb break="no" ed="#V" n="20"/>rare includit contradictionem ; 
+            er<lb break="no" ed="#V" n="21"/>go, etc.
+          </p>
+          <p xml:id="jdso8u-d1e953-d1e583">
+            <lb ed="#V" n="22"/>Praeterea secundo, aliter. est de
+            <lb ed="#V" n="23"/>actionibus transeuntibus ad extra,
+            <lb ed="#V" n="24"/>et aliter actionibus immanentibus
+            <lb ed="#V" n="25"/>intra. Possibilitas actionis 
+            transeun<lb break="no" ed="#V" n="26"/>tis judicatur ex ratione actionis in se
+            <lb ed="#V" n="27"/>et termini ejus ; possibilitas autem
+            <lb ed="#V" n="28"/>actionis immanentis non judicatur
+            <lb ed="#V" n="29"/>ex his praecise, sed cum hoc in 
+            com<lb break="no" ed="#V" n="30"/>paratione ad agens in quo manet 
+            ta<lb break="no" ed="#V" n="31"/>lis actio. Cum igitur. generatio sit
+            <lb ed="#V" n="32"/>actio immanens, possibilitas ejus
+            <lb ed="#V" n="33"/>judicanda est, non tantum ex se
+            <lb ed="#V" n="34"/>ipsa in se, et cum hoc ex termino
+            <lb ed="#V" n="35"/>ejus, sed quia est possibilis illi 
+            sup<lb break="no" ed="#V" n="36"/>posito agenti in quo debet manere,
+            <lb ed="#V" n="37"/>esi autem compossibilis generatio
+            <lb ed="#V" n="38"/>Patri et non Filio ; igitur idem quod
+            <lb ed="#V" n="39"/>prius.
+          </p>
+          <p xml:id="jdso8u-d1e953-d1e625">
+            <lb ed="#V" n="40"/>Tertia declaratio additur, quia
+            <lb ed="#V" n="41"/>omnipotens dicitur quod potest in
+            <lb ed="#V" n="42"/>omne illud ad quod habet formam
+            <lb ed="#V" n="43"/>per quam potest, et non dicitur
+            <lb ed="#V" n="44"/>impotens, si non potest in aliquam
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>actionem ad quam se non extendit
+            <lb ed="#V" n="46"/>sua forma ; sicut 1gnis non dicitur
+            <lb ed="#V" n="47"/>impotens,quia non potest frigefacere,
+            <lb ed="#V" n="48"/>quia non habet potentiam ad 
+            frige<lb break="no" ed="#V" n="49"/>faciendum. Pater autem habet 
+            for<lb break="no" ed="#V" n="50"/>mam convenientem generationi, et
+            <lb ed="#V" n="51"/>Filius non ; igitur Pater non esi
+            <lb ed="#V" n="52"/>omnipotens si non potest generare ;
+            <lb ed="#V" n="53"/>non autem Filius est impotens si
+            <lb ed="#V" n="54"/>non potest generare, et ita posse
+            <lb ed="#V" n="55"/>generare perünet ad omnipotentiam
+            <lb ed="#V" n="56"/>Patris, et non. ad omnipotentiam
+            <lb ed="#V" n="57"/>Filii.
+          </p>
+          <p xml:id="jdso8u-d1e953-d1e669">
+            <lb ed="#V" n="58"/>Contra (b) istud, (non comparando
+            <lb ed="#V" n="59"/>generare ad aliquod suppositum,)
+            <lb ed="#V" n="60"/>quaero, aut illud, ut. est geniü 
+            tan<lb break="no" ed="#V" n="61"/>quam termini, est aliquid. ad quod
+            <lb ed="#V" n="62"/>nala est esse aliqua potentia activa,
+            <lb ed="#V" n="63"/>aut non ? Si sic, ergo in quocumque
+            <lb ed="#V" n="64"/>non est potentia ad illud, non est in
+            <lb ed="#V" n="65"/>eo omnipotentia, hoc est, non est
+            <lb ed="#V" n="66"/>potentia ad omne illud ad quod 
+            na<lb break="no" ed="#V" n="67"/>ta est esse potentia. Si non, ergo in
+            <lb ed="#V" n="68"/>nullo est potentia ad illud, et ita
+            <lb ed="#V" n="69"/>non perlinet ad omnipotentiam  
+            Pa<lb break="no" ed="#V" n="70"/>iris.
+          </p>
+          <p xml:id="jdso8u-d1e953-d1e700">
+            <lb ed="#V" n="71"/>Confirmationes etiam non valent.
+            <lb ed="#V" n="72"/>Prima non, quia omnipotens potest
+            <lb ed="#V" n="73"/>in omne illud quod est terminus 
+            po<lb break="no" ed="#V" n="74"/>tentiae simpliciter, et hoc 
+            producen<lb break="no" ed="#V" n="75"/>do illud in eo in quo natum est 
+            pro<lb break="no" ed="#V" n="76"/>duci, si natum est produci in aliquo,
+            <lb ed="#V" n="77"/>vel producendo ipsum in se 
+            subsis<lb break="no" ed="#V" n="78"/>tens, si non est natum produci iu
+            <lb ed="#V" n="79"/>aliquo. Non autem oportet. quod
+            <lb ed="#V" n="80"/>posset producere omne tale 
+            formali<lb break="no" ed="#V" n="81"/>ter in se, sicut potest producere 
+            cur<lb break="no" ed="#V" n="82"/>sum animalis in animali, ut in 
+            ho<lb break="no" ed="#V" n="83"/>mine vel asino, in quo natus est
+            <lb ed="#V" n="84"/>esse cursus ; sed hoc non potest
+            <lb ed="#V" n="85"/>producere in se, nec potest 
+            formali<lb break="no" ed="#V" n="86"/>ter currere, quia tunc per illud 
+            ver<lb break="no" ed="#V" n="87"/>bum neutrum significaretur quod
+            <lb ed="#V" n="88"/>talis forma esset in ipso formaliter.
+            <pb ed="#V" n="201"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Licet igitur Filius non possit 
+            forma<lb break="no" ed="#V" n="2"/>liter generare, ut generatio sit in
+            <lb ed="#V" n="3"/>ipso, nec possit principiare 
+            genera<lb break="no" ed="#V" n="4"/>tionem in seipso, tamen si istud sit
+            <lb ed="#V" n="5"/>terminus omnipotentiaee, oportet 
+            di<lb break="no" ed="#V" n="6"/>cere quod Filius possit principiare
+            <lb ed="#V" n="7"/>generationem in eo in quo nata est
+            <lb ed="#V" n="8"/>esse. Nullo autem modo Filius 
+            po<lb break="no" ed="#V" n="9"/>test principiare generationem in se,
+            <lb ed="#V" n="10"/>nec in isto, in quonon est nata esse,
+            <lb ed="#V" n="11"/>tamen omnipotens est, et potest 
+            ac<lb break="no" ed="#V" n="12"/>tionem illam causare in eo quod 
+            po<lb break="no" ed="#V" n="13"/>test eam recipere, sicut non esset
+            <lb ed="#V" n="14"/>omnipolens si non posset causare
+            <lb ed="#V" n="15"/>intellectionem in intellectu potente
+            <lb ed="#V" n="16"/>recipere eam. Generare autem non
+            <lb ed="#V" n="17"/>potest aliquo modo esse a Filio, nec
+            <lb ed="#V" n="18"/>ut in Filio nec in alio ; igitur si
+            <lb ed="#V" n="19"/>generare est terminus omnipotentiaee
+            <lb ed="#V" n="20"/>simpliciter, Filius non erit 
+            omnipo<lb break="no" ed="#V" n="21"/>tens.
+          </p>
+          <p xml:id="jdso8u-d1e953-d1e791">
+            <lb ed="#V" n="22"/>Secunda etiam non valet, quia
+            <lb ed="#V" n="23"/>quod habet formam limitatam ad
+            <lb ed="#V" n="24"/>agendum, non est omnipotens ad
+            <lb ed="#V" n="25"/>agendum. Licet enim ignis sit 
+            po<lb break="no" ed="#V" n="26"/>tens ignire et calefacere, si non 
+            pos<lb break="no" ed="#V" n="27"/>sit frigefacere, non esset simpliciter
+            <lb ed="#V" n="28"/>omnipotens, quia forma ejus 
+            limita<lb break="no" ed="#V" n="29"/>ta ad unum actum, concludit ipsum
+            <lb ed="#V" n="30"/>non esse simpliciter potentem ; ergo
+            <lb ed="#V" n="31"/>Filium non habere formam 
+            conve<lb break="no" ed="#V" n="32"/>nienfem omni actioni, quam 
+            actio<lb break="no" ed="#V" n="33"/>nem nafa sit potentia simpliciter
+            <lb ed="#V" n="34"/>respicere, concluderet Filium non
+            <lb ed="#V" n="35"/>esse simpliciter omnipotentem.
+          </p>
+          <p xml:id="jdso8u-d1e953-d1e824"><!-- ordinatio para 23 -->
+            <lb ed="#V" n="36"/>Item, ista via non salvat, 
+            quomo<lb break="no" ed="#V" n="37"/>do Pater et Filius sint aeque 
+            poten<lb break="no" ed="#V" n="38"/>tes, quia Pater potest in actum 
+            gene<lb break="no" ed="#V" n="39"/>rationis, qui, per te, est terminus
+            <lb ed="#V" n="40"/>potentiae simpliciter, in quem actum
+            <lb ed="#V" n="41"/>non potest Filius, et ita non erunt
+            <lb ed="#V" n="42"/>eque potentes quantum ad 
+            exten<lb break="no" ed="#V" n="43"/>sionem.
+          </p>
+        </div>
+        <div xml:id="jdso8u-d1e953-Dd1e846"><!-- scotus-d20q1-p3 -->
+          <p xml:id="jdso8u-d1e953-d1e849">
+            <lb ed="#V" n="9" type="fixed=202"/>SCHOLIUM
+          </p>
+          <p xml:id="jdso8u-d1e953-d1e854">
+            <lb ed="#V" n="10"/>Resolvit correlativum potentiae activa esse
+            <lb ed="#V" n="11"/>possibile, ut opponitur necessario, atque adeo
+            <lb ed="#V" n="12"/>cum omne quod est in Deo sit necessarium,
+            <lb ed="#V" n="13"/>nihil ibi est correlativum potentia activa,
+            <lb ed="#V" n="14"/>cumque prius procedant persona divinae quam
+            <lb ed="#V" n="15"/>ula creatura habeat esse, ex 2. d. 1. q. 1.
+            <lb ed="#V" n="16"/>sequitur quod potentia sit aequalis intensive et
+            <lb ed="#V" n="17"/>extensive in tribus personis Loquitur Scotus
+            <lb ed="#V" n="18"/>de possibili objective, non de possibili-
+            subje<lb break="no" ed="#V" n="19"/>ctive, quia hoc, cum sit materia vel subjectum,
+            <lb ed="#V" n="20"/>est correlativum potentia» activa: imperfecte
+            <lb ed="#V" n="21"/>seu transmutantlis, quae tantum convenit 
+            crea<lb break="no" ed="#V" n="22"/>ture, quia nihil facit ex nihilo. Explicat 
+            quo<lb break="no" ed="#V" n="23"/>modo potentia generativa sit potentia, licet non
+            <lb ed="#V" n="24"/>respiciat possibile proprie dictum, et negat esse
+            <lb ed="#V" n="25"/>potentiam proprie dictam. In solutione 
+            argu<lb break="no" ed="#V" n="26"/>mentorum ponit singulares doctrinas.
+          </p>
+          <p xml:id="jdso8u-d1e953-d1e893"><!-- ordinatio para 24 -->
+            <lb ed="#V" n="27"/>Quantum ergo (c) ad istum 
+            arti<lb break="no" ed="#V" n="28"/>culum, dico aliter quod potentiae
+            <lb ed="#V" n="29"/>activae primum correlativum est 
+            pos<lb break="no" ed="#V" n="30"/>sibile, non communiter sumptum,
+            <lb ed="#V" n="31"/>ut opponitur impossibili, quia hoc
+            <lb ed="#V" n="32"/>modo possibile est Deum esse et 
+            ta<lb break="no" ed="#V" n="33"/>men illud possibile non est 
+            termi<lb break="no" ed="#V" n="34"/>nus alicujus potentia activa ; ergo
+            <lb ed="#V" n="35"/>oportet quod possibile, ut est 
+            poten<lb break="no" ed="#V" n="36"/>tide actives correlativum, sumatur 
+            de<lb break="no" ed="#V" n="37"/>terminatius. Hoc autem non videtur
+            <lb ed="#V" n="38"/>nisi secundum quod Avicenna accipit
+            <lb ed="#V" n="39"/>possibile 6. Metaph. et alibi 
+            frequen<lb break="no" ed="#V" n="40"/>ter, prout opponitur ei, quod est 
+            ne<lb break="no" ed="#V" n="41"/>cessarium ex se. Et tunc cum 
+            quodli<lb break="no" ed="#V" n="42"/>bet intrinsecum Deo, sit in se 
+            forma<lb break="no" ed="#V" n="43"/>liter necessarium, vel per 
+            identita<lb break="no" ed="#V" n="44"/>tem eum essentia, quae est formali-
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>ter ex se necessaria, nihil. 
+            intrinse<lb break="no" ed="#V" n="46"/>cum Deo eri terminus potentiae
+            <lb ed="#V" n="47"/>proprie dictae ; et si hoc est, cum ad
+            <lb ed="#V" n="48"/>omnia alia ab essentia divina 
+            eam<lb break="no" ed="#V" n="49"/>dem rationem principii habeant tres
+            <lb ed="#V" n="50"/>persona, quia prius intelligitur
+            <lb ed="#V" n="51"/>principium illud producendi 
+            crea<lb break="no" ed="#V" n="52"/>turas communicatum tribus quam
+            <lb ed="#V" n="53"/>possit habere actum producendi ista
+            <lb ed="#V" n="54"/>alia, sequitur quod aequalis erit 
+            po<lb break="no" ed="#V" n="55"/>lentia trium. personarum quantum
+            <lb ed="#V" n="56"/>ad numerum possibiium. 
+            Assum<lb break="no" ed="#V" n="57"/>ptum autem declaratur in quaestione
+            <lb ed="#V" n="58"/>illa de ordine productionum 
+            extrin<lb break="no" ed="#V" n="59"/>secarum ad intrinsecas 2. lib. q. 1.
+            <lb ed="#V" n="60"/>et breviter patet ex hoc. quod si sit
+            <lb ed="#V" n="61"/>principium necessarium respectu
+            <lb ed="#V" n="62"/>unius productionis, et contingens
+            <lb ed="#V" n="63"/>respectu alterius productionis, prius
+            <lb ed="#V" n="64"/>est principium producendi 
+            necessa<lb break="no" ed="#V" n="65"/>rium quam contingens. Quidquid
+            <lb ed="#V" n="66"/>autem est principium producendi
+            <lb ed="#V" n="67"/>personas, necessario se habet ad
+            <lb ed="#V" n="68"/>productionem illarum ; contingenter
+            <lb ed="#V" n="69"/>autem se habet principium 
+            produ<lb break="no" ed="#V" n="70"/>cendi creaturas ad ipsas creaturas ;
+            <lb ed="#V" n="71"/>prius igitur communicatur tribus
+            <lb ed="#V" n="72"/>personis quam possit habere actum
+            <lb ed="#V" n="73"/>respectu possibilium extra.
+          </p>
+          <p xml:id="jdso8u-d1e953-d1e1001">
+            <lb ed="#V" n="74"/>Ex hoc apparet quod potentia est
+            <lb ed="#V" n="75"/>aequalis in personis divinis, non 
+            tan<lb break="no" ed="#V" n="76"/>tum quantum ad extensionem, sed
+            <lb ed="#V" n="77"/>etiam quantum ad intensionem ; 
+            si<lb break="no" ed="#V" n="78"/>ve enim potentia accipiatur pro 
+            ab<lb break="no" ed="#V" n="79"/>soluto, quod est fundamentum 
+            rela<lb break="no" ed="#V" n="80"/>tionis principi, patet quod illud 
+            se<lb break="no" ed="#V" n="81"/>cundum eamdem magnitudinem est
+            <lb ed="#V" n="82"/>in tribus, non tantum secundum
+            <lb ed="#V" n="83"/>eamdem .magnitudinem secundum
+            <lb ed="#V" n="84"/>quid, sed simpliciter, sicut. dictum
+            <lb ed="#V" n="85"/>est in questione praecedente de
+            <lb ed="#V" n="86"/>equalitate magnitudinis; sive 
+            aeci<lb break="no" ed="#V" n="87"/>piatur pro relatione fundata super
+            <lb ed="#V" n="88"/>illud absolutum. eadem relatio est
+            <pb ed="#V" n="203"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>trium, et si quam habet 
+            magnitudi<lb break="no" ed="#V" n="2"/>nem, eadem est magnitudo illius 
+            re<lb break="no" ed="#V" n="3"/>lationis in tribus, et ita omni modo
+            <lb ed="#V" n="4"/>est aequalitas potentice, et secundum
+            <lb ed="#V" n="5"/>extensionem et secundum 
+            intensio<lb break="no" ed="#V" n="6"/>nem.
+          </p>
+          <p xml:id="jdso8u-d1e953-d1e1053">
+            <lb ed="#V" n="7"/>Quod autem dictum est de primo
+            <lb ed="#V" n="8"/>correlativo polenltie. activae, quod
+            <lb ed="#V" n="9"/>! sit. possibile, intelligendum est de
+            <lb ed="#V" n="10"/>possibili objective, scilicet quod est
+            <lb ed="#V" n="11"/>terminus potentia, non de possibili
+            <lb ed="#V" n="12"/>subjective, quia illud non est 
+            corre<lb break="no" ed="#V" n="13"/>lativum convertibile respectu 
+            po<lb break="no" ed="#V" n="14"/>tentiae activae. Non enim omnis 
+            po<lb break="no" ed="#V" n="15"/>tentia. activa habet aliquod sic 
+            pos<lb break="no" ed="#V" n="16"/>sibile sibi correspondens, sed solum
+            <lb ed="#V" n="17"/>illi potentia activa, quae est 
+            transmu<lb break="no" ed="#V" n="18"/>tativa; aequatur igitur possibile 
+            ob<lb break="no" ed="#V" n="19"/>jective, ut. correlativum potentiae
+            <lb ed="#V" n="20"/>activae, non autem possibile 
+            subje<lb break="no" ed="#V" n="21"/>ctive, et tale est illud posszbile, de
+            <lb ed="#V" n="22"/>quo adductus est Avicenna, quod
+            <lb ed="#V" n="23"/>opponitur ex se zecessario 
+            formali<lb break="no" ed="#V" n="24"/>ter. Quod autem istud differat a. 
+            ze<lb break="no" ed="#V" n="25"/>cessario ex se formaliter sive a 
+            pro<lb break="no" ed="#V" n="26"/>ducente, posset confirmari per 
+            Phi<lb break="no" ed="#V" n="27"/>losophum 5. JMe(aphys. ubi vult
+            <lb ed="#V" n="28"/>quod principium et causa 
+            conver<lb break="no" ed="#V" n="29"/>tuntur realiter ; omme autem 
+            causa<lb break="no" ed="#V" n="30"/>ium est aliud a causa, ergo et 
+            possi<lb break="no" ed="#V" n="31"/>bile, hoc est, principiatum est aliud
+            <lb ed="#V" n="32"/>secundum eum a principio.
+            <lb ed="#V" n="33"/>Confirmatur etiam per rationem
+            <lb ed="#V" n="34"/>potentiae aclivee positam in 5. 
+            Me<lb break="no" ed="#V" n="35"/>faph. quod ?psa est principium 
+            trans<lb break="no" ed="#V" n="36"/>mutandi aliud. inquantum. aliud. ;
+            <lb ed="#V" n="37"/>ergo multo magis est principium
+            <lb ed="#V" n="38"/>producendi aliud, quia non potest
+            <lb ed="#V" n="39"/>causatum ita esse idem cause, sicut
+            <lb ed="#V" n="40"/>activum potest esse idem passivo in
+            <lb ed="#V" n="41"/>creaturis.
+          </p>
+          <p xml:id="jdso8u-d1e953-d1e1132">
+            <lb ed="#V" n="42"/>Sed tunc restat dubitatio (d), 
+            quo<lb break="no" ed="#V" n="43"/>modo potentia generandi dicatur 
+            po<lb break="no" ed="#V" n="44"/>tentia, cum non sit respectu ali-
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>cujus possibilis secundum  
+            praedi<lb break="no" ed="#V" n="46"/>cta.
+          </p>
+          <p xml:id="jdso8u-d1e953-d1e1148">
+            <lb ed="#V" n="47"/>Respondeo, possibile potest sumi
+            <lb ed="#V" n="48"/>adhuc magis extendendo nomen,
+            <lb ed="#V" n="49"/>quam ut opponitur necessario ex se,
+            <lb ed="#V" n="50"/>dicendo illud esse possibile, quod.
+            <lb ed="#V" n="51"/>opponitur necessario esse a se, et
+            <lb ed="#V" n="52"/>hoc modo esse originatum esset 
+            pos<lb break="no" ed="#V" n="53"/>sibile. Sed nec sic (e) videntur 
+            San<lb break="no" ed="#V" n="54"/>cti communiter loqui, nec etiam
+            <lb ed="#V" n="55"/>Philosophi, et hoc modo posset 
+            con<lb break="no" ed="#V" n="56"/>cedi Filium esse possibilem, quia 
+            ori<lb break="no" ed="#V" n="57"/>ginatum, et ita potentiam 
+            correspon<lb break="no" ed="#V" n="58"/>dentem activam huic termino esse
+            <lb ed="#V" n="59"/>potentiam.
+          </p>
+          <p xml:id="jdso8u-d1e953-d1e1179">
+            <lb ed="#V" n="60"/>Ulterius tamen conceditur Filium ,
+            <lb ed="#V" n="61"/>esse principiatum et non possibilem, |
+            <lb ed="#V" n="62"/>in Patre tamen conceditur potentia
+            <lb ed="#V" n="63"/>activa generandi, quia potentia 
+            acti<lb break="no" ed="#V" n="64"/>va in creaturis aliquam dicit 
+            per<lb break="no" ed="#V" n="65"/>fectionem ; possibilitas autem sibi
+            <lb ed="#V" n="66"/>correspondens, quae repugnat 
+            neces<lb break="no" ed="#V" n="67"/>sitali, ex se dicit imperfectionem.
+            <lb ed="#V" n="68"/>Transfertur igitur ad divina nomen
+            <lb ed="#V" n="69"/>unius, quod significat perfectionem ;
+            <lb ed="#V" n="70"/>nomen autem alterius correlativi
+            <lb ed="#V" n="71"/>quod dicit imperfectionem,non 
+            trans<lb break="no" ed="#V" n="72"/>fertur in se, sed in aliquo 
+            commu<lb break="no" ed="#V" n="73"/>niore se, ut sic ex parte 
+            producen<lb break="no" ed="#V" n="74"/>lis dicatur esse potentia, et tamen
+            <lb ed="#V" n="75"/>ex parte producti non dicatur esse
+            <lb ed="#V" n="76"/>possibilitas, sed. tantum ratio 
+            prin<lb break="no" ed="#V" n="77"/>cipiati.
+          </p>
+          <p xml:id="jdso8u-d1e953-d1e1221">
+            <lb ed="#V" n="78"/>Ex hoc apparet irrationabilitas
+            <lb ed="#V" n="79"/>illius dieti, quod sub: oruipotentig
+            <lb ed="#V" n="80"/>de virtute sermonis, contineatur ntl |
+            <lb ed="#V" n="81"/>tentia generandi, non autem 
+            secun<lb break="no" ed="#V" n="82"/>dum usum Sanctorum. Quia etel. :
+            <lb ed="#V" n="83"/>aliquando Sancti vel Doctores dicant
+            <lb ed="#V" n="84"/>potentiam generandi esse potentiam,
+            <lb ed="#V" n="85"/>et generari esse terminum potentiae,
+            <lb ed="#V" n="86"/>tamen de virtute sermonis neutra
+            <lb ed="#V" n="87"/>est vera, simpliciter loquendo de 
+            po<lb break="no" ed="#V" n="88"/>tentia, prout respicit terminum pos-
+            <pb ed="#V" n="204"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>sibilem, sed ampliando rationem 
+            po<lb break="no" ed="#V" n="2"/>tentiae ad rationem principii, prout.
+            <lb ed="#V" n="3"/>in communi respicit principiabile.
+          </p>
+          <p xml:id="jdso8u-d1e953-d1e1258">
+            <lb ed="#V" n="4"/>Hoc modo loquendo ad. 
+            questio<lb break="no" ed="#V" n="5"/>nem (f) de aequalitate potentiae in 
+            di<lb break="no" ed="#V" n="6"/>vinis personis, respondeo et dico
+            <lb ed="#V" n="7"/>quod etiam sic sunt aequales, quia
+            <lb ed="#V" n="8"/>secundum Magistrum dist. 7. hujus
+            <lb ed="#V" n="9"/>libri, eadem est potentia, qua Pater
+            <lb ed="#V" n="10"/>potest generare et Filius potest 
+            ge<lb break="no" ed="#V" n="11"/>nerari. Sed. tunc ista aequalitas 
+            po<lb break="no" ed="#V" n="12"/>tentiae, non est ad idem, sicut si
+            <lb ed="#V" n="13"/>poneretur aequalitas potentiae in. co--
+            <lb ed="#V" n="14"/>lore ad immutandum visum, et in
+            <lb ed="#V" n="15"/>sapore ad immutandum gustum ; 
+            es<lb break="no" ed="#V" n="16"/>sent quidem ista duo aequalis 
+            po<lb break="no" ed="#V" n="17"/>tentiae, non tamen haberent eamdem
+            <lb ed="#V" n="18"/>potentiam, nec ad idem. Ita in 
+            pro<lb break="no" ed="#V" n="19"/>posito, loquendo de potentia hoc
+            <lb ed="#V" n="20"/>modo extensive ad actum 
+            notiona<lb break="no" ed="#V" n="21"/>lem, aequales sunt Pater et Filius in
+            <lb ed="#V" n="22"/>potentia extensive et intensive, quia
+            <lb ed="#V" n="23"/>potentia quae est in Patre ad. actum
+            <lb ed="#V" n="24"/>generandi, est aeque perfecta in 
+            Fi<lb break="no" ed="#V" n="25"/>lio et ad aequalia objecta, non tamen
+            <lb ed="#V" n="26"/>est hoc modo omnino eadem 
+            poten<lb break="no" ed="#V" n="27"/>lia, sicut. potentia. est eadem, quae
+            <lb ed="#V" n="28"/>est respectu ejusdem possibilis. Et
+            <lb ed="#V" n="29"/>hoc modo concedendum est, quod
+            <lb ed="#V" n="30"/>in Filio non est omnis potentia,
+            <lb ed="#V" n="31"/>vel non est in eo potentia ad 
+            om<lb break="no" ed="#V" n="32"/>ne, accipiendo. sic potentiam 
+            exten<lb break="no" ed="#V" n="33"/>sive, licet in ipso sit omnipotentia,
+            <lb ed="#V" n="34"/>quae dicit potentiam ad omnia 
+            pos<lb break="no" ed="#V" n="35"/>sibilia.
+          </p>
+          <p xml:id="jdso8u-d1e953-d1e1330">
+            <lb ed="#V" n="36"/>Etsi quaeras, si idem absolutum
+            <lb ed="#V" n="37"/>est in Patre et Filio, super quod
+            <lb ed="#V" n="38"/>fundatur potentia aequalis 
+            secun<lb break="no" ed="#V" n="39"/>dum extensionem et intensionem,
+            <lb ed="#V" n="40"/>etiam illa qua est ad intra, quare
+            <lb ed="#V" n="41"/>non est potentia omnis eadem in
+            <lb ed="#V" n="42"/>utroque ?
+          </p>
+          <p xml:id="jdso8u-d1e953-d1e1349">
+            <lb ed="#V" n="43"/>Respondeo, dico quod etsi idem
+            <lb ed="#V" n="44"/>absolutum, quod est potentia sit in
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>Patre et Filio, non tamen sub 
+            ratio<lb break="no" ed="#V" n="46"/>ne potentiae quantum. ad actum 
+            no<lb break="no" ed="#V" n="47"/>tionalem est in utroque, quia non
+            <lb ed="#V" n="48"/>est sub ratione prioris ad illum
+            <lb ed="#V" n="49"/>actum, et potentia sive principium
+            <lb ed="#V" n="50"/>requirit ordinem prioritatis ad -
+            ter<lb break="no" ed="#V" n="51"/>minum.
+          </p>
+          <p xml:id="jdso8u-d1e953-d1e1373">
+            <lb ed="#V" n="52"/>Ad argumenta principalia (g) Ad
+            <lb ed="#V" n="53"/>primum, dico negando illam 
+            conse<lb break="no" ed="#V" n="54"/>quentiam primam, quantum est ex
+            <lb ed="#V" n="55"/>forma consequentia. Cum probatur
+            <lb ed="#V" n="56"/>per Augustinum contra Maximinum,
+            <lb ed="#V" n="57"/>respondeo, quod illud argumentum
+            <lb ed="#V" n="58"/>Augustini non tenet per locum 
+            in<lb break="no" ed="#V" n="59"/>irinsecum, quasi per locum a toto
+            <lb ed="#V" n="60"/>in quantitate ad partem totius in
+            <lb ed="#V" n="61"/>quantitate, quasi posse 
+            genera<lb break="no" ed="#V" n="62"/>re sitaliquod posse, sed tenet per
+            <lb ed="#V" n="63"/>multas propositiones subintellectas,
+            <lb ed="#V" n="64"/>et habet illud argumentum reduci
+            <lb ed="#V" n="65"/>ad multos Syllogismos. Hoc modo
+            <lb ed="#V" n="66"/>concessit Maximinus Patrem Filium
+            <lb ed="#V" n="67"/>generare, sed non aequalem.
+          </p>
+          <p xml:id="jdso8u-d1e953-d1e1410">
+            <lb ed="#V" n="68"/>Contra Augustinus arguit sic : S7
+            <lb ed="#V" n="69"/>genuit et non potuit generare Filium
+            <lb ed="#V" n="70"/>aqualem sibi ; ergo fuit impotens.
+            <lb ed="#V" n="71"/>Probatio hujus consequentia, ex
+            <lb ed="#V" n="72"/>quo dedit Filio Deitatem (etiam 
+            se<lb break="no" ed="#V" n="73"/>cundum Maximinum, quia aliter non
+            <lb ed="#V" n="74"/>esset generatio) sed Deitatem  
+            mi<lb break="no" ed="#V" n="75"/>norem secundum eum Deitate 
+            Pa<lb break="no" ed="#V" n="76"/>tris; ergo Deitas non est infinita
+            <lb ed="#V" n="77"/>ex se, quia infinito non potest esse
+            <lb ed="#V" n="78"/>aliquid majus, nec infinitum potest
+            <lb ed="#V" n="79"/>minui. Et si Deitas non est infinita ;
+            <lb ed="#V" n="80"/>ergo habens eam non est 
+            omnipo<lb break="no" ed="#V" n="81"/>tens, nihil enim est omnipotens,
+            <lb ed="#V" n="82"/>(cum omnipotentia requirat 
+            poten<lb break="no" ed="#V" n="83"/>liam infinitam) nisi habeat 
+            infini<lb break="no" ed="#V" n="84"/>tam essentiam. Non igitur tenet 
+            con<lb break="no" ed="#V" n="85"/>sequentia hie, quasi sub ista 
+            uni<lb break="no" ed="#V" n="86"/>versali conuüneatur istud singulare,
+            <lb ed="#V" n="87"/>sed quia istud universale, quod est
+            <lb ed="#V" n="88"/>omnipotens, concomitatur infinitas
+            <pb ed="#V" n="205"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>essentiae, et ita communicabilitas in
+            <lb ed="#V" n="2"/>equalitate. Et similiter sequitur, si
+            <lb ed="#V" n="3"/>Pater non potest intelligere, Pater
+            <lb ed="#V" n="4"/>non est omnipotens, sed non 
+            sequi<lb break="no" ed="#V" n="5"/>tur per locum intrinsecum, quasi
+            <lb ed="#V" n="6"/>intelligere Patris sit terminus 
+            omni<lb break="no" ed="#V" n="7"/>potentiaee. Sed per istas propositiones
+            <lb ed="#V" n="8"/>subintellectas, quod non potest 
+            in<lb break="no" ed="#V" n="9"/>telligere, non habet omnem 
+            perfe<lb break="no" ed="#V" n="10"/>ctionem simpliciter, et tunc non est
+            <lb ed="#V" n="11"/>infinitae essentiae, ac per hoc nec
+            <lb ed="#V" n="12"/>omnipotens.
+          </p>
+          <p xml:id="jdso8u-d1e953-d1e1488">
+            <lb ed="#V" n="13"/>Cum arguitur postea de 
+            omni<lb break="no" ed="#V" n="14"/>sciente, dico quod scientia non 
+            re<lb break="no" ed="#V" n="15"/>quirit ordinem determinatum ad
+            <lb ed="#V" n="16"/>scibilia, nec ordinem prioris, nec
+            <lb ed="#V" n="17"/>ordinem posterioris, quia potest 
+            es<lb break="no" ed="#V" n="18"/>se sive respectu prioris, ut objecti,
+            <lb ed="#V" n="19"/>sive posterioris. Potentia autem 
+            re<lb break="no" ed="#V" n="20"/>quirit. determinatum ordinem ad
+            <lb ed="#V" n="21"/>terminum, ut prioris ad posterius,
+            <lb ed="#V" n="22"/>et ideo scientia de necessitate 
+            exten<lb break="no" ed="#V" n="23"/>dit se ad omne ens, quia omne ens
+            <lb ed="#V" n="24"/>est scibile. Potentia autem non 
+            ex<lb break="no" ed="#V" n="25"/>tendit se (ut ad objectum) ad omne
+            <lb ed="#V" n="26"/>ens, sed tantum ad ens possibile,
+            <lb ed="#V" n="27"/>quod, quomodocumque sumendo
+            <lb ed="#V" n="28"/>possibile, natum est esse posterius,
+            <lb ed="#V" n="29"/>et ideo non est ad illud quod non est
+            <lb ed="#V" n="30"/>natum esse posterius, et ideo non ad
+            <lb ed="#V" n="31"/>illud quod est natum esse in. 
+            perso<lb break="no" ed="#V" n="32"/>na infinita idem illi persone.
+          </p>
+          <p xml:id="jdso8u-d1e953-d1e1534">
+            <lb ed="#V" n="33"/>Cum postea arguitur per 
+            Richar<lb break="no" ed="#V" n="34"/>dum, dico quod argumentum valet,
+            <lb ed="#V" n="35"/>si ponerentur duo dii per 
+            impossibi<lb break="no" ed="#V" n="36"/>le, sicut declaratum est dis£inct. 2.
+            <lb ed="#V" n="37"/>non autem de duabus personis eque
+            <lb ed="#V" n="38"/>potentibus.
+          </p>
+          <p xml:id="jdso8u-d1e953-d1e1550">
+            <lb ed="#V" n="39"/>Cum probatur primo, quod una
+            <lb ed="#V" n="40"/>persona posset facere aliam 
+            nullipo<lb break="no" ed="#V" n="41"/>tentem, volendo omnia possibilia et
+            <lb ed="#V" n="42"/>ponendo ea in esse, dico quod non
+            <lb ed="#V" n="43"/>potest velle ista, alia persona non
+            <lb ed="#V" n="44"/>volente, et ita. non ponerentur in
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>esse ab una persona, alia persona
+            <lb ed="#V" n="46"/>non volente et ea in esse non 
+            ponen<lb break="no" ed="#V" n="47"/>te. Sed sicut in eodem instanti 
+            na<lb break="no" ed="#V" n="48"/>ture intelliguntur tres personae 
+            ha<lb break="no" ed="#V" n="49"/>bere principium sufficiens ponendi
+            <lb ed="#V" n="50"/>ea in esse, ita in eodem instanti 
+            in<lb break="no" ed="#V" n="51"/>telhguntur habere actum, quo 
+            po<lb break="no" ed="#V" n="52"/>nuntur ista in esse.
+          </p>
+          <p xml:id="jdso8u-d1e953-d1e1586">
+            <lb ed="#V" n="53"/>Sed si ponerentur duo dii unus 
+            <lb ed="#V" n="54"/>propria actione posset omnia 
+            pone<lb break="no" ed="#V" n="55"/>re in esse, et alius non posset 
+            produ<lb break="no" ed="#V" n="56"/>cere ista eadem productione ; ergo
+            <lb ed="#V" n="57"/>vel ista eadem non posset 
+            produce<lb break="no" ed="#V" n="58"/>re, et ideo non esset omnipotens ;
+            <lb ed="#V" n="59"/>vel posset producere illa alia 
+            actio<lb break="no" ed="#V" n="60"/>ne, et ita idem posset bis accipere
+            <lb ed="#V" n="61"/>esse, quod est impossibile.
+          </p>
+          <p xml:id="jdso8u-d1e953-d1e1608">
+            <lb ed="#V" n="62"/>Ad secundam probationem, quod
+            <lb ed="#V" n="63"/>unus omnipotens posset impedire
+            <lb ed="#V" n="64"/>alia volita ab alio, dico quod illa
+            <lb ed="#V" n="65"/>probatio bona est de duabus 
+            volun<lb break="no" ed="#V" n="66"/>tatibus, quia per impossibile habens
+            <lb ed="#V" n="67"/>suam voluntatem posset uli ea 
+            con<lb break="no" ed="#V" n="68"/>tingenter ad quodlibet aliud 
+            objec<lb break="no" ed="#V" n="69"/>tum a se; non sic autem est de 
+            duo<lb break="no" ed="#V" n="70"/>bus habentibus eamdem voluntatem,
+            <lb ed="#V" n="71"/>quia propter eamdem necessitatem,
+            <lb ed="#V" n="72"/>est. unus usus voluntatis propter
+            <lb ed="#V" n="73"/>quam voluntas est una. Et ideo non
+            <lb ed="#V" n="74"/>potest una persona ista voluntate
+            <lb ed="#V" n="75"/>velle et alia non velle, sicut non 
+            po<lb break="no" ed="#V" n="76"/>lest una persona habere istam 
+            vo<lb break="no" ed="#V" n="77"/>luntatem et alia non habere illam.
+          </p>
+          <p xml:id="jdso8u-d1e953-d1e1645">
+            <lb ed="#V" n="78"/>Cum objicitur contra istam 
+            respon<lb break="no" ed="#V" n="79"/>sionem de forma, quae est in 
+            duo<lb break="no" ed="#V" n="80"/>bus, quod sit principium operandi.
+            <lb ed="#V" n="81"/>eodem modo. utrique, sicut si esset.
+            <lb ed="#V" n="82"/>in uno solo. Concedo quod Filius
+            <lb ed="#V" n="83"/>non quasi naturaliter vel coaete vult
+            <lb ed="#V" n="84"/>voluntate ista, quasi Pater volens
+            <lb ed="#V" n="85"/>predeterminavit Filium ad 
+            volen<lb break="no" ed="#V" n="86"/>dum idem, et non sit in potestate
+            <lb ed="#V" n="87"/>Fili idem velle, sicut erat in 
+            po<lb break="no" ed="#V" n="88"/>testate Patris. Sed in eodem instan-
+            <pb ed="#V" n="206"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>ti nature Pater et Filius 
+            intelligun<lb break="no" ed="#V" n="2"/>tur habere voluntatem, et aeque 
+            li<lb break="no" ed="#V" n="3"/>bere quemlibet actum volendi 
+            habe<lb break="no" ed="#V" n="4"/>re, ut est illius objecti, sicut si alius
+            <lb ed="#V" n="5"/>non haberet istam voluntatem. Est
+            <lb ed="#V" n="6"/>igitur. illa forma cuilibet habenti
+            <lb ed="#V" n="7"/>principium uniformiter operandi,
+            <lb ed="#V" n="8"/>sicut esset si ille solus haberet eam,
+            <lb ed="#V" n="9"/>sed non est alieui habenti 
+            princi<lb break="no" ed="#V" n="10"/>pium operandi, et alii principium
+            <lb ed="#V" n="11"/>non operandi operatione, qua est
+            <lb ed="#V" n="12"/>eadem illi voluntatü!, sicut ista non
+            <lb ed="#V" n="13"/>est eadem voluntas et non 
+            volun<lb break="no" ed="#V" n="14"/>tas. Unde necessitas istius 
+            conse<lb break="no" ed="#V" n="15"/>quentiae, si Pater vult hoc, Filius
+            <lb ed="#V" n="16"/>vult haec, non est contra libertatem
+            <lb ed="#V" n="17"/>volitionis Filii, sicut nec contra 
+            li<lb break="no" ed="#V" n="18"/>bertatem volitionis mec, est ista
+            <lb ed="#V" n="19"/>consequentia, s! volo, volo, ita nec
+            <lb ed="#V" n="20"/>ibi, si Pater vult A, Filius vult A,
+            <lb ed="#V" n="21"/>quia idem velle est Patris et Filii.
+          </p>
+          <p xml:id="jdso8u-d1e953-d1e1721"><!-- ordinatio para 41 -->
+            <lb ed="#V" n="22"/>Ad aliud de causa prima et 
+            secun<lb break="no" ed="#V" n="23"/>da responsum est dist. 12. quod ista
+            <lb ed="#V" n="24"/>propositio veritatem habet propter
+            <lb ed="#V" n="25"/>aliam virtutem sive vim causandi in
+            <lb ed="#V" n="26"/>causa priori et posteriori, illa quae
+            <lb ed="#V" n="27"/>est prior est principalior; et hoc 
+            fal<lb break="no" ed="#V" n="28"/>lit in principio priori secundum 
+            ori<lb break="no" ed="#V" n="29"/>ginem, et posteriori, in quibus est
+            <lb ed="#V" n="30"/>eadem vis vel virtus causandi 
+            res<lb break="no" ed="#V" n="31"/>pectu tertii, cujus vis est in 
+            propo<lb break="no" ed="#V" n="32"/>sito, et ideo in proposito non valet.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

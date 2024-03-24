@@ -1,0 +1,755 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2024-03-24">March 24, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x10">Vives, Paris, 1893, volume 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="257"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e1004">
+        <head xml:id="jdso8u-d1e1004-Hd1e100">Quaestio 1</head>
+        <div xml:id="jdso8u-d1e1004-Dd1e102"><!-- scotus-d23q1-p1 -->
+          <p xml:id="jdso8u-d1e1004-d1e105">
+            <lb ed="#V" n="22" type="fixed=257"/>QUAESTIO UNICA.
+          </p>
+          <p xml:id="jdso8u-d1e1004-d1e110">
+            <lb ed="#V" n="23"/>Utrum persona secundum quod dicit 
+            ali<lb break="no" ed="#V" n="24"/>quid commune Patri, Filio et 
+            Spiri<lb break="no" ed="#V" n="25"/>tui sancto, dicat praecise aliquid 
+            se<lb break="no" ed="#V" n="26"/>cunda intentionis ?
+          </p>
+          <p xml:id="jdso8u-d1e1004-d1e121">
+            <lb ed="#V" n="27"/>Alensis 1. p. q. 56. m. 4. art. 2. D. Thom. 1. p.
+            <lb ed="#V" n="28"/>q. 29. art. 4. et q. 30. art, 4. et hic q. 1. art.
+            <lb ed="#V" n="29"/>3. D. Bonav. dist. 25. art. 1. q. 1. Richard. d.
+            <lb ed="#V" n="30"/>Eum xg. 1. eb 2. etd. 26. art. 1. q. 2.
+            <lb ed="#V" n="31"/>Gabr. hic. q. unic. dub. 1. et 3. d. 1. q. 1. art.
+            <lb ed="#V" n="32"/>1. Durand. q 1. etd. 25. q. 1. Henr. Quodl. 5.
+            <lb ed="#V" n="33"/>q. 6. Suar. 1. p. tract 3. l. 1. c. 8. Vide Scot.
+            <lb ed="#V" n="34"/>1. Phys. q. 7. ubi deunivocatione entis ad. 
+            sub<lb break="no" ed="#V" n="35"/>stantiam et accidens. Mayr. d. 24. q. 2. Bacon.
+            <lb ed="#V" n="36"/>19:9: 1.
+          </p>
+          <p xml:id="jdso8u-d1e1004-d1e145"><!-- ordinato para 1 -->
+            <lb ed="#V" n="37"/>Circa istam. distinctionem 
+            vigesi<lb break="no" ed="#V" n="38"/>mam tertiam, quaero unum, utrum
+            <lb ed="#V" n="39"/>persona secundum quod dicit aliquid
+            <lb ed="#V" n="40"/>commune Patri, Filio et Spiritui
+            <lb ed="#V" n="41"/>sancto, dicat praecise aliquid 
+            secun<lb break="no" ed="#V" n="42"/>dee intentionis ?
+          </p>
+          <p xml:id="jdso8u-d1e1004-d1e162">
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43"/>Quod non, probo, quia persona
+            <lb ed="#V" n="44"/>est terminus productionis realis, et
+            <lb ed="#V" n="45"/>adoratur ; secunda intentio non 
+            ter<lb break="no" ed="#V" n="46"/>minat productionem realem, nec
+            <lb ed="#V" n="47"/>adoratur ; ergo, etc.
+          </p>
+          <p xml:id="jdso8u-d1e1004-d1e179">
+            <lb ed="#V" n="48"/>Praeterea, Trinitas in. divinis non
+            <lb ed="#V" n="49"/>est tantum conceptuum, sed rerum,
+            <lb ed="#V" n="50"/>contra errorem Sabelli.
+          </p>
+          <p xml:id="jdso8u-d1e1004-d1e188">
+            <lb ed="#V" n="51"/>Contra, omne commune pluribus
+            <lb ed="#V" n="52"/>univocum et distinctum et 
+            plurifica<lb break="no" ed="#V" n="53"/>tum in eis, dicitur de eis secundum
+            <lb ed="#V" n="54"/>aliquam rationem universalis. 
+            Per<lb break="no" ed="#V" n="55"/>sona est commune univocum Patri
+            <lb ed="#V" n="56"/>et Filio et Spiritui sancto, et 
+            pluri<lb break="no" ed="#V" n="57"/>ficatum in eis etiam. secundum 
+            Au<lb break="no" ed="#V" n="58"/>gustinum 7. de Trinit, cap. ^4. et 6.
+            <lb ed="#V" n="59"/>ergo dicitur de eis secundum 
+            ali<lb break="no" ed="#V" n="60"/>quem rationem universalis. Et si
+            <lb ed="#V" n="61"/>dicat aliquam intentionem 
+            secun<lb break="no" ed="#V" n="62"/>dam, vere est in divinis aliqua ratio
+            <lb ed="#V" n="63"/>universalis, quod non videtur 
+            con<lb break="no" ed="#V" n="64"/>veniens. 5i vero dicat intentionem
+            <lb ed="#V" n="65"/>primam, erit in divinis universale
+            <lb ed="#V" n="66"/>reale commune, et ita aliqua 
+            reali<lb break="no" ed="#V" n="67"/>tas potentialis, quod videtur 
+            incon<lb break="no" ed="#V" n="68"/>veniens.
+          </p>
+          <p xml:id="jdso8u-d1e1004-d1e230">
+            <lb ed="#V" n="69"/>Hic dicitur quod persona tantum
+            <lb ed="#V" n="70"/>dicit intentionem. secundam, quia
+            <lb ed="#V" n="71"/>sicut individuum reperitur 
+            commu<lb break="no" ed="#V" n="72"/>niter in omni natura substantiali,
+            <lb ed="#V" n="73"/>et persona in natura intellectuali ;
+            <lb ed="#V" n="74"/>sed individuum et suppositum 
+            di<lb break="no" ed="#V" n="75"/>cunt tantum rem secunde 
+            intentio<lb break="no" ed="#V" n="76"/>nis; ergo et persona dicit tantum
+            <lb ed="#V" n="77"/>rem secunde intentionis.
+          </p>
+          <p xml:id="jdso8u-d1e1004-d1e252">
+            <lb ed="#V" n="78"/>Confirmatur ratio, quia natura, in
+            <lb ed="#V" n="79"/>qua sunt ista, ut essentia, nou est
+            <lb ed="#V" n="80"/>de per se ratione istorum. Ponitur
+            <lb ed="#V" n="81"/>enim in definitione istorum, ut 
+            ad<lb break="no" ed="#V" n="82"/>ditum ; igitur non variat. rationes
+            <lb ed="#V" n="83"/>formales istorum.
+          </p>
+          <p xml:id="jdso8u-d1e1004-d1e268">
+            <lb ed="#V" n="84"/>Item, omne commune dictum de
+            <lb ed="#V" n="85"/>pluribus, dicitur de eis secundum
+            <lb ed="#V" n="86"/>rationem alicujus universalis ; ergo
+            <pb ed="#V" n="258"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>si persona significet rem. prime 
+            in<lb break="no" ed="#V" n="2"/>tentionis communem tribus, illa 
+            di<lb break="no" ed="#V" n="3"/>cetur de eis sub ratione generis 
+            ge<lb break="no" ed="#V" n="4"/>neralissimi aut. alicujus intermedii,
+            <lb ed="#V" n="5"/>aul secundum rationem speeiel 
+            spe<lb break="no" ed="#V" n="6"/>cialissimcs, quorum opposita sunl
+            <lb ed="#V" n="7"/>manifesta. Quod non sit species
+            <lb ed="#V" n="8"/>specialissima, manifestum est, quia
+            <lb ed="#V" n="9"/>iunc sequeretur quod duc erunt
+            <lb ed="#V" n="10"/>quasi species specialissime respectu
+            <lb ed="#V" n="11"/>earumdem . personarum, — Aeitas
+            <lb ed="#V" n="12"/>enim, secundum Damascenum cap.
+            <lb ed="#V" n="13"/>5. notat quasi speciem 
+            circumplecti<lb break="no" ed="#V" n="14"/>vam hypostaseon, et persona etiam
+            <lb ed="#V" n="15"/>notabit speciem specialissimam 
+            res<lb break="no" ed="#V" n="16"/>pectu earumdem ; ergo, etc.
+            <lb ed="#V" n="17"/>Additur huic opinioni, quod licet
+            <lb ed="#V" n="18"/>persona dicat aliquid secunde. 
+            in<lb break="no" ed="#V" n="19"/>tentionis, non tamen dicitur. illud
+            <lb ed="#V" n="20"/>in abstracto, sed in concreto, et
+            <lb ed="#V" n="21"/>ideo potest predieari de re primae
+            <lb ed="#V" n="22"/>intentionis et supponere pro ea.
+            <lb ed="#V" n="23"/>Exemplum, species est secunda
+            <lb ed="#V" n="24"/>intentio, ibi accipitur species pro
+            <lb ed="#V" n="25"/>ipsa intentione in se, et species 
+            prae<lb break="no" ed="#V" n="26"/>dicatur de pluribus differentibus 
+            nu<lb break="no" ed="#V" n="27"/>mero, ibi accipitur species pro re
+            <lb ed="#V" n="28"/>quam denominat. Non enim 
+            praedi<lb break="no" ed="#V" n="29"/>catur hiec haec intentio species de
+            <lb ed="#V" n="30"/>pluribus, ut videtur, sed homo vel
+            <lb ed="#V" n="31"/>asinus, de quibus dicitur haec inten-
+          </p>
+        </div>
+        <div xml:id="jdso8u-d1e1004-Dd1e350"><!-- scotus-d23q1-p2 -->
+          <p xml:id="jdso8u-d1e1004-d1e353">
+            <lb ed="#V" n="32" type="fixed=258"/>SCHOLIUM.
+          </p>
+          <p xml:id="jdso8u-d1e1004-d1e358">
+            <lb ed="#V" n="33"/>Sententia AEgidii (et videtur Henrici) est, 
+            per<lb break="no" ed="#V" n="34"/>sonam, quia est communis tribus, esse 
+            secun<lb break="no" ed="#V" n="35"/>dam intentionem, sicut. est. individuum, quod
+            <lb ed="#V" n="36"/>est ejus superius, additur, quod dicit secundam
+            <lb ed="#V" n="37"/>intentionem in concreto, et ideo potest dici de
+            <lb ed="#V" n="38"/>re prime intentionis. Hanc refutat Doctor.
+            <lb ed="#V" n="39"/>Primo, ad hominem, et postea variis 
+            rationi<lb break="no" ed="#V" n="40"/>bus. Prima, quia persona esset relatio rationis.
+            <lb ed="#V" n="41"/>Secunda, quia unitas individui et person: est
+            <lb ed="#V" n="42"/>maxime realis. Tertia, ex Augustino, personae
+            <lb ed="#V" n="43"/>suni res et res non est secunda intentio. Quar-
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="44"/>ta, supponendo ex dist. 5. quist. 1. concretum
+            <lb ed="#V" n="45"/>esse sicpe adjectivum, persona in concreto erit
+            <lb ed="#V" n="46"/>adjectivum, et sic non terminabit dependentiam
+            <lb ed="#V" n="47"/>termini numeralis tres, quietiam est adjectivus,
+            <lb ed="#V" n="48"/>nisi subintelligatur substantivum, quod juxta
+            <lb ed="#V" n="49"/>hanc opinionem non potest assignari. De hoc
+            <lb ed="#V" n="50"/>actum est dist. 12. quaest. 1. quaerendo quare
+            <lb ed="#V" n="51"/>admittimus plures spirantes, sed non plures
+            <lb ed="#V" n="52"/>spiratores.
+          </p>
+          <p xml:id="jdso8u-d1e1004-d1e406">
+            <lb ed="#V" n="53"/>Contra istud, et primo contra 
+            opi<lb break="no" ed="#V" n="54"/>nantem, quandocumque a 
+            formali<lb break="no" ed="#V" n="55"/>bus constitutivis aliquorum potest
+            <lb ed="#V" n="56"/>abstrahi aliquod. commune primae
+            <lb ed="#V" n="57"/>intentionis, pari. ratione. vel majori,
+            <lb ed="#V" n="58"/>potest abstrahi aliquid commune a
+            <lb ed="#V" n="59"/>consütutis per illa; personce autem
+            <lb ed="#V" n="60"/>diving? secundum istos 
+            constituun<lb break="no" ed="#V" n="61"/>tur per relationes . formaliter, ab
+            <lb ed="#V" n="62"/>illis autem constitulivis potest 
+            ab<lb break="no" ed="#V" n="63"/>strahi aliquid commune reale. 
+            pri<lb break="no" ed="#V" n="64"/>mo intentionis. Paternitas enim
+            <lb ed="#V" n="65"/>est relatio, filiatio est relatio, et hoc
+            <lb ed="#V" n="66"/>univoce sumendo relationem, quia
+            <lb ed="#V" n="67"/>potest esse cerüiludo de conceptu
+            <lb ed="#V" n="68"/>relationis ad intra, dubitando de
+            <lb ed="#V" n="69"/>quolibet conceptu speciali, et talis
+            <lb ed="#V" n="70"/>sic certus non tantum habet 
+            certitu<lb break="no" ed="#V" n="71"/>dinem de voce, sed de conceptu
+            <lb ed="#V" n="72"/>aliquo; ergo conceptus ille de 
+            rela<lb break="no" ed="#V" n="73"/>lione in communi alius est a 
+            con<lb break="no" ed="#V" n="74"/>ceptu illius in speciali. Ergo multo
+            <lb ed="#V" n="75"/>magis a constitutis per istas 
+            relatio<lb break="no" ed="#V" n="76"/>nes poterit abstrahi aliqua res .
+            pri<lb break="no" ed="#V" n="77"/>mae intentionis. Assumptum autem
+            <lb ed="#V" n="78"/>de univocatione relationis magis
+            <lb ed="#V" n="79"/>patebit inferius in ista questione.
+          </p>
+          <p xml:id="jdso8u-d1e1004-d1e467">
+            <lb ed="#V" n="80"/>Contra opinionem in se (a), quia.
+            <lb ed="#V" n="81"/>omnis intentio secunda est relatio :
+            <lb ed="#V" n="82"/>rationis, non quaecumque, sed 
+            per<lb break="no" ed="#V" n="83"/>ünens ad extremum, vel actum,
+            <lb ed="#V" n="84"/>intellectus componentis vel divi--
+            <lb ed="#V" n="85"/>dentis. vel saltem conferentis unum '
+            <lb ed="#V" n="86"/>ad alterum. Hoc patet, quia intentio
+            <lb ed="#V" n="87"/>secunda, secundum omnes, 
+            causa<lb break="no" ed="#V" n="88"/>tur per actum intellectus negotian-
+            <pb ed="#V" n="259"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>tis circa rem primae intentionis, qui
+            <lb ed="#V" n="2"/>non potest causare circa objectum,
+            <lb ed="#V" n="3"/>nisi tantum relationem rationis, et
+            <lb ed="#V" n="4"/>praecipue non dicit relationem 
+            perti<lb break="no" ed="#V" n="5"/>nentem ad actum intellectus 
+            compa<lb break="no" ed="#V" n="6"/>rantis.
+          </p>
+          <p xml:id="jdso8u-d1e1004-d1e506">
+            <lb ed="#V" n="7"/>Quod autem non dicat aliquam
+            <lb ed="#V" n="8"/>relationem rationis, videtur, quia
+            <lb ed="#V" n="9"/>tunc saltem necessario coexigeret
+            <lb ed="#V" n="10"/>correlativum ad quod referretur,
+            <lb ed="#V" n="11"/>quia impossibile est intelligere 
+            re<lb break="no" ed="#V" n="12"/>lationem, et non esse ad aliquem
+            <lb ed="#V" n="13"/>terminum et correlativum. Sicut
+            <lb ed="#V" n="14"/>omnis intentio secunda requirit 
+            cor<lb break="no" ed="#V" n="15"/>relativum ad quod refertur, ut 
+            spe<lb break="no" ed="#V" n="16"/>cies respicit genus pro suo 
+            corre<lb break="no" ed="#V" n="17"/>lativo, et particulare universale pro
+            <lb ed="#V" n="18"/>suo correlativo, et sic-de aliis; 
+            per<lb break="no" ed="#V" n="19"/>sona autem non dicitur alicujus 
+            per<lb break="no" ed="#V" n="20"/>sona, vel saltem non dicit 
+            extre<lb break="no" ed="#V" n="21"/>mum intellectus conferenüs.
+          </p>
+          <p xml:id="jdso8u-d1e1004-d1e542">
+            <lb ed="#V" n="22"/>Item, duco rationem eorum ad
+            <lb ed="#V" n="23"/>oppositum, quia unitas est passio
+            <lb ed="#V" n="24"/>entis, sicut patet 4. Metaph. et
+            <lb ed="#V" n="25"/>per consequens consequitur rem ex
+            <lb ed="#V" n="26"/>natura rei. Et maxime est verum de
+            <lb ed="#V" n="27"/>illa unitate, qua est vera unitas,
+            <lb ed="#V" n="28"/>cujusmodi est unitas individui;
+            <lb ed="#V" n="29"/>ergo talis unitas non. dicit. 
+            intentio<lb break="no" ed="#V" n="30"/>nem secundam, et sicut non unitas
+            <lb ed="#V" n="31"/>in communi, ita nec unitas in 
+            natu<lb break="no" ed="#V" n="32"/>ra intellectuali. 31 igitur. persona
+            <lb ed="#V" n="33"/>dicat unitatem in natura 
+            intellec<lb break="no" ed="#V" n="34"/>tuali, sicut individuum in communi,
+            <lb ed="#V" n="35"/>sequitur oppositum — conclusionis
+            <lb ed="#V" n="36"/>eorum,
+          </p>
+          <p xml:id="jdso8u-d1e1004-d1e577">
+            <lb ed="#V" n="37"/>Praeterea (b) contra rationem 
+            se<lb break="no" ed="#V" n="38"/>cundum Augustinum de doctrina
+            <lb ed="#V" n="39"/>Christiana, et ponitur in littera dist.
+            <lb ed="#V" n="40"/>Ec! dist. 223. primi. librt, dicit :
+            <lb ed="#V" n="41"/>quod res quibus fruendum est, sunt
+            <lb ed="#V" n="42"/>Pater, Filius et Spiritus sanctus. 
+            Un<lb break="no" ed="#V" n="43"/>de secundum ipsum, tres persone
+            <lb ed="#V" n="44"/>sunt tres res, res autem non videtur
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>dicere secundam intentionem, et 
+            ta<lb break="no" ed="#V" n="46"/>men est commune tribus personis et
+            <lb ed="#V" n="47"/>numeratur in eis ; ergo non oportet
+            <lb ed="#V" n="48"/>dicere personam significare 
+            secun<lb break="no" ed="#V" n="49"/>dam intentionem, quia est 
+            commu<lb break="no" ed="#V" n="50"/>ne numeratum in multis. Magister
+            <lb ed="#V" n="51"/>etiam dist. 25. cap. 8. exponit. tres
+            <lb ed="#V" n="52"/>personas per tres subsistentias vel
+            <lb ed="#V" n="53"/>tres subsistentes ; subsistentia 
+            au<lb break="no" ed="#V" n="54"/>tem non videtur significare rem 
+            se<lb break="no" ed="#V" n="55"/>cunda intentionis, et. tamen est
+            <lb ed="#V" n="56"/>comimnune tribus et numeratur in
+            <lb ed="#V" n="57"/>eis.
+          </p>
+          <p xml:id="jdso8u-d1e1004-d1e627">
+            <lb ed="#V" n="58"/>Item, praedicta opinio quaerit 
+            quo<lb break="no" ed="#V" n="59"/>modo persona possit univoce 
+            pra<lb break="no" ed="#V" n="60"/>dicari de pluribus individuis, nisi
+            <lb ed="#V" n="61"/>sit universale, sed eamdem  
+            difficul<lb break="no" ed="#V" n="62"/>tatem pelit de relatione, et eodem
+            <lb ed="#V" n="63"/>modo sequitur; magis enim videtur,
+            <lb ed="#V" n="64"/>quod a constitutis possit. abstrahi
+            <lb ed="#V" n="65"/>commune quam a constituentibus.
+            <lb ed="#V" n="66"/>Sed quomodo potest abstrahi aliquod
+            <lb ed="#V" n="67"/>commune prime intentionis, et 
+            ta<lb break="no" ed="#V" n="68"/>men non universale reale, dicetur
+            <lb ed="#V" n="69"/>dist. 26.
+          </p>
+          <p xml:id="jdso8u-d1e1004-d1e656">
+            <lb ed="#V" n="70"/>Praeterea (c) contra additum. 
+            ar<lb break="no" ed="#V" n="71"/>guo sic: Adjectivum non 
+            determi<lb break="no" ed="#V" n="72"/>nat aliquid, nisi illud ad quod 
+            termi<lb break="no" ed="#V" n="73"/>natur ejus dependentia, sed 
+            adjec<lb break="no" ed="#V" n="74"/>tivum non potest lerminare 
+            depen<lb break="no" ed="#V" n="75"/>dentiam alterius adjectivi, quia
+            <lb ed="#V" n="76"/>equaliter. dependent et ambo sunt
+            <lb ed="#V" n="77"/>eque dependentia, ergo neutrum
+            <lb ed="#V" n="78"/>determinat alterum ; ergo si hoc 
+            no<lb break="no" ed="#V" n="79"/>men, persona, sib tale. concretum,
+            <lb ed="#V" n="80"/>non potest terminare dependentiam
+            <lb ed="#V" n="81"/>alterius, cujusmodi est ille terminus
+            <lb ed="#V" n="82"/>numeralis /res. Igitur non. bene 
+            di<lb break="no" ed="#V" n="83"/>ceretur quod sunt tres personae, nisi
+            <lb ed="#V" n="84"/>intelligendo aliquod substantivum,
+            <lb ed="#V" n="85"/>quod determinetur per utrumque
+            <lb ed="#V" n="86"/>adjectivum, sed non est dare aliquod
+            <lb ed="#V" n="87"/>substantivum tale subintellectum ;
+            <lb ed="#V" n="88"/>ergo, etc.
+          </p>
+        </div>
+        <div xml:id="jdso8u-d1e1004-Dd1e701"><!-- scotus-d23q1-p3 -->
+          <p xml:id="jdso8u-d1e1004-d1e704">
+            <lb ed="#V" n="58" type="fixed=260"/>SCHOLIUM.
+          </p>
+          <p xml:id="jdso8u-d1e1004-d1e709">
+            <lb ed="#V" n="59"/>Resolvit personam non esse secundam 
+            inten<lb break="no" ed="#V" n="60"/>tionem, ex definitione Richardi communiter
+            <lb ed="#V" n="61"/>recepta; et explicat quomodo ei competat 
+            du<lb break="no" ed="#V" n="62"/>pliciter incommunicabilitas, opposita duplici
+            <lb ed="#V" n="63"/>communicabilitati convenienti Deiltati, quia
+            <lb ed="#V" n="64"/>hie communicatur pluribus, quibus est idem,
+            <lb ed="#V" n="65"/>et ut forma dans esse. Occasione objectionum
+            <lb ed="#V" n="66"/>explicat quomodo negatio sit communis tribus
+            <lb ed="#V" n="67"/>sine eo quod affirmatio, in qua fundatur, sit
+            <lb ed="#V" n="68"/>communis eisdem. Nec contradicit sibi supra
+            <lb ed="#V" n="69"/>dist. 3. quasst. 1. num. 2. quia ibi dicit tantum
+            <lb ed="#V" n="70"/>negationem non praedicari de aliquo, nisi 
+            sup<lb break="no" ed="#V" n="71"/>ponat in eo aliquam affirmationem seu 
+            positi<lb break="no" ed="#V" n="72"/>vum, quia negatio asini convenit homini, quia
+            <lb ed="#V" n="73"/>tale positivum habet, tamen negatio communis
+            <lb ed="#V" n="74"/>non pelit positivum commune in his quibus
+            <lb ed="#V" n="75"/>convenit, quia non Deus convenit enti et non
+            <lb ed="#V" n="76"/>enti. Ultra resolvit, conceptum communem po -
+            <lb ed="#V" n="77"/>sitivum, saltem quidditativum, non esse 
+            abstra<lb break="no" ed="#V" n="78"/>hibilem ab ultimis constitutivis, de quo supra
+            <lb ed="#V" n="79"/>dist. 3. quaest. 1. num. 15. Admittit tamen 
+            abs<lb break="no" ed="#V" n="80"/>trahi a personis conceptum communem 
+            negati<lb break="no" ed="#V" n="81"/>vum, et dubitative quarit in fine, an modus
+            <lb ed="#V" n="82"/>aliquis positivus communis ab eis sit 
+            abstrahi<lb break="no" ed="#V" n="83"/>bilis, de quo latius 3. dist, 1. quaest 4. art. 3.
+            <lb ed="#V" n="84"/>et infra dist: 25. si admittatur tale positivum
+            <lb ed="#V" n="85"/>commune, non erit species, sed instar proprii,
+            <lb ed="#V" n="86"/>ut risibile est commune individuis hominis.
+          </p>
+          <p xml:id="jdso8u-d1e1004-d1e772"><!-- ordinatio para 15 -->
+            <lb ed="#V" n="87"/>Ad questionem respondeo (d),
+            <lb ed="#V" n="88"/>quod accipiendo definitionem perso-
+            <pb ed="#V" n="261"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>nae, quam ponit Richardus 4. de
+            <lb ed="#V" n="2"/>Trinit. cap. 22. quod est 
+            intellectua<lb break="no" ed="#V" n="3"/>lis nature incommunicabilis. 
+            exis<lb break="no" ed="#V" n="4"/>tentia, per quam definitionem 
+            expo<lb break="no" ed="#V" n="5"/>nitur vel corrigitur definitio. Doetu
+            <lb ed="#V" n="6"/>dicentis, quod persona est rationalis
+            <lb ed="#V" n="7"/>nature individua substantia, quia
+            <lb ed="#V" n="8"/>sic sequeretur animam esse 
+            perso<lb break="no" ed="#V" n="9"/>nam et Deitatem esse personam, et
+            <lb ed="#V" n="10"/>etiam non conveniret proprie Deo,
+            <lb ed="#V" n="11"/>quia individuum non est nisi ubi
+            <lb ed="#V" n="12"/>est dividuum, quod non convenit
+            <lb ed="#V" n="13"/>Deo. Similiter tantum proprie 
+            no<lb break="no" ed="#V" n="14"/>men persone conveniret. homini,
+            <lb ed="#V" n="15"/>qui consimiliter solus proprie 
+            di<lb break="no" ed="#V" n="16"/>citur rationalis, quod est 
+            inconve<lb break="no" ed="#V" n="17"/>niens. Dico quod nihil proprie est in
+            <lb ed="#V" n="18"/>hac definitione Richardi quod 
+            signi<lb break="no" ed="#V" n="19"/>licet intentionem secundam, quia ex
+            <lb ed="#V" n="20"/>natura rei sine omni operatione 
+            in<lb break="no" ed="#V" n="21"/>tellectus, est in Patre natura 
+            intel<lb break="no" ed="#V" n="22"/>lectualis et entitas 
+            incommunicabi<lb break="no" ed="#V" n="23"/>lis; ista autem incommunicabilitas
+            <lb ed="#V" n="24"/>duplex est, quod potest intelligi ex
+            <lb ed="#V" n="25"/>supra dictis in dist. 2. quia 
+            commu<lb break="no" ed="#V" n="26"/>nicabile pluribus dicitur. dupliciter.
+            <lb ed="#V" n="27"/>Uno modo dicitur. communicabile
+            <lb ed="#V" n="28"/>pluribus, quod est idem cuilibet
+            <lb ed="#V" n="29"/>eorum, ita quod quodlibet sit 
+            ip<lb break="no" ed="#V" n="30"/>sum, sicut. universale dicitur 
+            com<lb break="no" ed="#V" n="31"/>municari  suls inferioribus. Alio
+            <lb ed="#V" n="32"/>modo communicatur alicui ut forma,
+            <lb ed="#V" n="33"/>qua aliquid est tale secundum
+            <lb ed="#V" n="34"/>ipsum, sed non est ipsum, ut anima
+            <lb ed="#V" n="35"/>communicatur corpori; et utroque
+            <lb ed="#V" n="36"/>modo Deitas est communicabilis, et
+            <lb ed="#V" n="37"/>neutro modo persona est 
+            communi<lb break="no" ed="#V" n="38"/>cabilis. Et ita duplex est 
+            incommu<lb break="no" ed="#V" n="39"/>nicabilitas pertinens ad rationem
+            <lb ed="#V" n="40"/>persone, propter quod anima 
+            sepa<lb break="no" ed="#V" n="41"/>rata, licet habeat primam 
+            incommu<lb break="no" ed="#V" n="42"/>nicabilitatem, tamen. non est 
+            perso<lb break="no" ed="#V" n="43"/>na, quia non habet secundam; et
+            <lb ed="#V" n="44"/>utraque incommunicabilitas requi-
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>ritur ad rationem persona, et est
+            <lb ed="#V" n="46"/>in re ex natura rei, et ita nihil. de
+            <lb ed="#V" n="47"/>ratione personae. dicit. intentionem
+            <lb ed="#V" n="48"/>secundam.
+          </p>
+          <p xml:id="jdso8u-d1e1004-d1e890">
+            <lb ed="#V" n="49"/>Contra istud potest objiei, quia 
+            se<lb break="no" ed="#V" n="50"/>cundum istud videtur quod persona
+            <lb ed="#V" n="51"/>tantum significet duplicem 
+            negatio<lb break="no" ed="#V" n="52"/>nem duplicis communicabilitatis.
+          </p>
+          <p xml:id="jdso8u-d1e1004-d1e901">
+            <lb ed="#V" n="53"/>liem, arguo sic, si. persona dicit
+            <lb ed="#V" n="54"/>formaliter incommunicabilitatem ;
+            <lb ed="#V" n="55"/>ergo formaliter. dicit. negationem,
+            <lb ed="#V" n="56"/>sed negatio est secunda intentio cum
+            <lb ed="#V" n="57"/>sib. ens rationis; ergo persona dicit
+            <lb ed="#V" n="58"/>rem secunde intentionis, quod est
+            <lb ed="#V" n="59"/>propositum.
+          </p>
+          <p xml:id="jdso8u-d1e1004-d1e920">
+            <lb ed="#V" n="60"/>Respondeo, quod persona non
+            <lb ed="#V" n="61"/>tantum dicit incommunicabilitatem,
+            <lb ed="#V" n="62"/>sed dat intelligere naturam 
+            intellec<lb break="no" ed="#V" n="63"/>Lualeim in. qua est, sicut individuum
+            <lb ed="#V" n="64"/>naturam in communi. Dubito 
+            ta<lb break="no" ed="#V" n="65"/>men, si dicat existentiam 
+            formali<lb break="no" ed="#V" n="66"/>ter cum duplici 
+            incommunicabilita<lb break="no" ed="#V" n="67"/>te, aut dicat tantum formaliter 
+            in<lb break="no" ed="#V" n="68"/>communicabilitatem, et existentiam
+            <lb ed="#V" n="69"/>in concreto tanquam modum 
+            haben<lb break="no" ed="#V" n="70"/>di naturam, ut sit sensus: Persona
+            <lb ed="#V" n="71"/>est. incommunicabilis habens. 
+            exis<lb break="no" ed="#V" n="72"/>Lentiam in natura. intellectuali; et
+            <lb ed="#V" n="73"/>posito quod. sic esset, adhuc dico,
+            <lb ed="#V" n="74"/>quod persona non dicit intentionem
+            <lb ed="#V" n="75"/>secundam, quia secunda intentio
+            <lb ed="#V" n="76"/>solum causatur. per. intellectum 
+            ne<lb break="no" ed="#V" n="77"/>qgotiantem circa objectum. Quidquid
+            <lb ed="#V" n="78"/>igitur movet intellectum ad 
+            intellec<lb break="no" ed="#V" n="79"/>tionem ante negotiationem, non est
+            <lb ed="#V" n="80"/>intentio secunda; sed res movens
+            <lb ed="#V" n="81"/>intellectum. movet ad negotiationem
+            <lb ed="#V" n="82"/>si. objecti ante negoliationem 
+            intel<lb break="no" ed="#V" n="83"/>lectus, quia negatio talis 
+            consequi<lb break="no" ed="#V" n="84"/>tur rem ex natura rei ante 
+            negotia<lb break="no" ed="#V" n="85"/>tionem. Et hoc ideo est, quia unum
+            <lb ed="#V" n="86"/>oppositorum movet ad. notitiam sui
+            <lb ed="#V" n="87"/>oppositi ante  negotiationem 
+            intel<lb break="no" ed="#V" n="88"/>lectus, propter quod dicit Philoso-
+            <pb ed="#V" n="262"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>phus, quod eadem est scientia 
+            oppo<lb break="no" ed="#V" n="2"/>sitorum. Ideo quamvis ponatur per
+            <lb ed="#V" n="3"/>sonam tantum dicere formaliter 
+            ne<lb break="no" ed="#V" n="4"/>gationem, non. tamen. intentionem
+            <lb ed="#V" n="5"/>secundam, quia negatio, quae 
+            con<lb break="no" ed="#V" n="6"/>sequitur. ex natura ret, non est 
+            se<lb break="no" ed="#V" n="7"/>cunda intentio, et praecipue negatio
+            <lb ed="#V" n="8"/>in genere, cujus est 
+            incommunicabi<lb break="no" ed="#V" n="9"/>litas.
+          </p>
+          <p xml:id="jdso8u-d1e1004-d1e1009">
+            <lb ed="#V" n="10"/>Quando igitur dicitur, quod 
+            nega<lb break="no" ed="#V" n="11"/>tio est ens rationis, dico quod est
+            <lb ed="#V" n="12"/>negativa entitas ex natura rei, sicut
+            <lb ed="#V" n="13"/>enim Socrates est homo er natura
+            <lb ed="#V" n="14"/>rei, i(a est non asinus ex natura
+            <lb ed="#V" n="15"/>ret. Sunt autem negationes in 
+            intel<lb break="no" ed="#V" n="16"/>lectu entitatis, quia prima motio 
+            in<lb break="no" ed="#V" n="17"/>lellectus non. ante. affirmationem,
+            <lb ed="#V" n="18"/>sed negotiationem, est ad 
+            apprehen<lb break="no" ed="#V" n="19"/>sionem negationis. Sic igitur teneo,
+            <lb ed="#V" n="20"/>quod persona non sit nomen 
+            secun<lb break="no" ed="#V" n="21"/>dee intentionis, sed prime, et quod
+            <lb ed="#V" n="22"/>formaliter significet duplicem 
+            nega<lb break="no" ed="#V" n="23"/>tionem communicabilitatis, et quod
+            <lb ed="#V" n="24"/>importet naturam intellectualem, et
+            <lb ed="#V" n="25"/>forte formaliter etiam importat 
+            exi<lb break="no" ed="#V" n="26"/>stentiam persone; et tunc non 
+            tan<lb break="no" ed="#V" n="27"/>tum. negationem communicabilitatis
+            <lb ed="#V" n="28"/>importat, sed etiam positivum 
+            ali<lb break="no" ed="#V" n="29"/>quod vel forte non dicit formaliter
+            <lb ed="#V" n="30"/>existentiam, et tunc. de formali 
+            si<lb break="no" ed="#V" n="31"/>gnificalo est tantum. duplex negatio,
+            <lb ed="#V" n="32"/>dans intelligere duplex positivum,
+            <lb ed="#V" n="33"/>scilicet naturam. et modum habendi
+            <lb ed="#V" n="34"/>naturam. Et per hoc quacumque via
+            <lb ed="#V" n="35"/>data patet. ad. argumenta, quod si
+            <lb ed="#V" n="36"/>persona dicat existentiam in abstrac.
+            <lb ed="#V" n="37"/>to, et modum habendi naturam in
+            <lb ed="#V" n="38"/>concreto, est formaliter positivum,
+            <lb ed="#V" n="39"/>et  tunc persona est formaliter. 
+            exis<lb break="no" ed="#V" n="40"/>lentiaincommunicabilis habens 
+            natu<lb break="no" ed="#V" n="41"/>ram. intellectualem. Si autem 
+            tan<lb break="no" ed="#V" n="42"/>lum. formaliter importat 
+            negatio<lb break="no" ed="#V" n="43"/>nem, (unc connotat existentiam in
+            <lb ed="#V" n="44"/>natura. intellectuali, et sic stat pro
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>illo, quod est incommunicabile, et
+            <lb ed="#V" n="46"/>sic adoratur, et est lerminus 
+            produc<lb break="no" ed="#V" n="47"/>tionis realis.
+          </p>
+          <p xml:id="jdso8u-d1e1004-d1e1096">
+            <lb ed="#V" n="48"/>Ad aliud argumentum patet dist.
+            <lb ed="#V" n="49"/>25 alibi.
+          </p>
+          <p xml:id="jdso8u-d1e1004-d1e1103">
+            <lb ed="#V" n="50"/>Etsi hoc sit verum, tunc videtur
+            <lb ed="#V" n="51"/>dubium, quomodo negatio possit 
+            es<lb break="no" ed="#V" n="52"/>se communis tribus personis, nisi
+            <lb ed="#V" n="53"/>alfirmatio aliqua sit eis communis
+            <lb ed="#V" n="54"/>propter quam insit eis talis negatio,
+            <lb ed="#V" n="55"/>quia negatio non videtur tribus 
+            con<lb break="no" ed="#V" n="56"/>venire, nisi consequatur 
+            affirmatio<lb break="no" ed="#V" n="57"/>nem. Non est autem Deitas ista
+            <lb ed="#V" n="58"/>affirmatio, quia ipsa non 
+            numera<lb break="no" ed="#V" n="59"/>tur in tribus ; ergo oportet dare 
+            ali<lb break="no" ed="#V" n="60"/>quod commune- positivum prius ab
+            <lb ed="#V" n="61"/>eis abstractum quam sit. negatio
+            <lb ed="#V" n="62"/>talis, et  tunc habetur propositum.
+            <lb ed="#V" n="63"/>81 etiam dicat persona talem 
+            nega<lb break="no" ed="#V" n="64"/>lionem praecise, non videtur dicere
+            <lb ed="#V" n="65"/>lolam rationem persona, quia 
+            per<lb break="no" ed="#V" n="66"/>sona dicit. rem ad dignitatem vel ad
+            <lb ed="#V" n="67"/>perfectionem pertinentem, negatio
+            <lb ed="#V" n="68"/>autem nullam dignitatem vel 
+            perfec<lb break="no" ed="#V" n="69"/>tionem ponit. Videtur etiam. quod
+            <lb ed="#V" n="70"/>dicat. relationem rationis per hoc
+            <lb ed="#V" n="71"/>quod suum oppositum, scilicet 
+            com<lb break="no" ed="#V" n="72"/>municabile tantum dicit relationem
+            <lb ed="#V" n="73"/>rationis in. essentia divina. Est
+            <lb ed="#V" n="74"/>enim essentia communicabilis Filio,
+            <lb ed="#V" n="75"/>et tamen essentia non refertur 
+            reali<lb break="no" ed="#V" n="76"/>ter ad. Filium ; ergo 
+            incommunica<lb break="no" ed="#V" n="77"/>bile dicit relationem rationis.
+          </p>
+          <p xml:id="jdso8u-d1e1004-d1e1166">
+            <lb ed="#V" n="78"/>Ad primum istorum dico (e),
+            <lb ed="#V" n="79"/>quod ab ultimis distinctivis et 
+            cons<lb break="no" ed="#V" n="80"/>üitutivis. personarum nihil. potest
+            <lb ed="#V" n="81"/>abstrahi commune dictum de eis
+            <lb ed="#V" n="82"/>in quid, quia 1lla sunt primo 
+            diver<lb break="no" ed="#V" n="83"/>sa, Id est, nihil idem realiter 
+            inclu<lb break="no" ed="#V" n="84"/>dentia, tunc enim esset quaerere de
+            <lb ed="#V" n="85"/>els per quid distinguerentur ; et ideo
+            <lb ed="#V" n="86"/>omne commune abstractum ab eis,
+            <lb ed="#V" n="87"/>vel est conceptus omnino negalivus,
+            <lb ed="#V" n="88"/>vel saltem non est  quidditativus
+            <pb ed="#V" n="263"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>conceptus unius rationis. Certum
+            <lb ed="#V" n="2"/>est autem, quod aliqua negatio 
+            com<lb break="no" ed="#V" n="3"/>munis potest abstrahi ab illis 
+            ulti<lb break="no" ed="#V" n="4"/>mis, et hoc unius rationis, quia 
+            ne<lb break="no" ed="#V" n="5"/>gatio est unius rationis per hoc
+            <lb ed="#V" n="6"/>quod repugnat affirmation! unius
+            <lb ed="#V" n="7"/>rationis. Quibuscumque igitur 
+            re<lb break="no" ed="#V" n="8"/>pugnat affirmatio unius rationis,
+            <lb ed="#V" n="9"/>convenit negatio unius rationis, et
+            <lb ed="#V" n="10"/>ita tribus personis, et etiam 
+            distinc<lb break="no" ed="#V" n="11"/>üivis illarum ultimis potest 
+            compe<lb break="no" ed="#V" n="12"/>tere negatio aliqua communis, si
+            <lb ed="#V" n="13"/>illa dicatur esse incommunicabilitas.
+            <lb ed="#V" n="14"/>Et $i ponatur incommunicabilitatem
+            <lb ed="#V" n="15"/>solam esse de per se ratione 
+            consti<lb break="no" ed="#V" n="16"/>tulivi persona, ita quod 
+            personali<lb break="no" ed="#V" n="17"/>las sit. incommunicabilitas. 
+            subsis<lb break="no" ed="#V" n="18"/>tentis in. natura intellectual, et ita
+            <lb ed="#V" n="19"/>omnia alia praeter primum sint 
+            addi<lb break="no" ed="#V" n="20"/>tain ratione persona, tunc persona
+            <lb ed="#V" n="21"/>proprie non diceret aliquem 
+            concep<lb break="no" ed="#V" n="22"/>tum proprie positivum.
+          </p>
+          <p xml:id="jdso8u-d1e1004-d1e1244">
+            <lb ed="#V" n="23"/>Sed tamen non dicet aliquem
+            <lb ed="#V" n="24"/>conceptum secunde intentionis,
+            <lb ed="#V" n="25"/>omnis enim conceptus est 
+            intentio<lb break="no" ed="#V" n="26"/>nis prime, qui natus est fieri 
+            im<lb break="no" ed="#V" n="27"/>mediate a re sine opere vel actu 
+            in<lb break="no" ed="#V" n="28"/>tellectus negoliantis, qualis est 
+            con<lb break="no" ed="#V" n="29"/>ceptus non (tantum positivus, sed
+            <lb ed="#V" n="30"/>negalivus.
+          </p>
+          <p xml:id="jdso8u-d1e1004-d1e1265">
+            <lb ed="#V" n="31"/>Tamen dubitatur (f), quomodo
+            <lb ed="#V" n="32"/>potest negatio esse cominunis sine
+            <lb ed="#V" n="33"/>positivo cui insit.
+          </p>
+          <p xml:id="jdso8u-d1e1004-d1e1274">
+            <lb ed="#V" n="34"/>Respondeo, quantumcumque 
+            di<lb break="no" ed="#V" n="35"/>versis, si nihil etiam commune 
+            ha<lb break="no" ed="#V" n="36"/>berent, potest esse negatio 
+            commu<lb break="no" ed="#V" n="37"/>nis ; sicut non Socrates est commune
+            <lb ed="#V" n="38"/>univocum ad omnia alia a Socrate,
+            <lb ed="#V" n="39"/>entia et non entia ; et licet illa, 
+            qui<lb break="no" ed="#V" n="40"/>bus negatio est communis, habeant
+            <lb ed="#V" n="41"/>aliquod positivum commune, non 
+            ta<lb break="no" ed="#V" n="42"/>men oportet quod per illud 
+            com<lb break="no" ed="#V" n="43"/>mune insit eis negatio communis.
+            <lb ed="#V" n="44"/>Non rationalitas enim. convenit ulti-
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>me differentiae asini et equi, et non
+            <lb ed="#V" n="46"/>per aliquid commune in illis, quibus
+            <lb ed="#V" n="47"/>convenit ista negatio, quia vel nihil
+            <lb ed="#V" n="48"/>es. commune differ entiis ultimis,
+            <lb ed="#V" n="49"/>vel si entitas est eis communis, non
+            <lb ed="#V" n="50"/>propter entitatem convenit eis talis
+            <lb ed="#V" n="51"/>negatio, sicut nec propter entitatem
+            <lb ed="#V" n="52"/>repugnat eis talis affirmatio. Et sic
+            <lb ed="#V" n="53"/>dicendum quod major est falsa, quia
+            <lb ed="#V" n="54"/>negatio est unius rationis, quia 
+            op<lb break="no" ed="#V" n="55"/>ponitur affirmationi unius rationis,
+            <lb ed="#V" n="56"/>et non quia consequitur 
+            alfirmatio<lb break="no" ed="#V" n="57"/>nem unius rationis. Von /iomo enim
+            <lb ed="#V" n="58"/>est unius rationis, quia homo cui
+            <lb ed="#V" n="59"/>opponitur, est unius rationis, et non
+            <lb ed="#V" n="60"/>quia consequitur — affirmationem
+            <lb ed="#V" n="61"/>unius rationis. .Von homo enim
+            <lb ed="#V" n="62"/>commune est enti et non enti, 
+            qui<lb break="no" ed="#V" n="63"/>bus nihil affirmativum sive 
+            posili<lb break="no" ed="#V" n="64"/>vum, est commune.
+          </p>
+          <p xml:id="jdso8u-d1e1004-d1e1346">
+            <lb ed="#V" n="65"/>Cum secundo objicitur (g) quod
+            <lb ed="#V" n="66"/>negatio  non dicit aliquid ad. 
+            dignita<lb break="no" ed="#V" n="67"/>tem pertinens, et ad hoc etiam  
+            pos<lb break="no" ed="#V" n="68"/>sunt adduci rationes ad. principale,
+            <lb ed="#V" n="69"/>quia negatio non adoratur nec
+            <lb ed="#V" n="70"/>etiam est terminus actionis realis.
+            <lb ed="#V" n="71"/>Posset dici, quod negatio in genere
+            <lb ed="#V" n="72"/>differt a negatione extra genus et a
+            <lb ed="#V" n="73"/>privatione. Privatio quippe requirit
+            <lb ed="#V" n="74"/>subjectum aptum vel secundum se,
+            <lb ed="#V" n="75"/>si est privatio secundum se ; vel 
+            se<lb break="no" ed="#V" n="76"/>cundum genus, si est privatio 
+            se<lb break="no" ed="#V" n="77"/>cundum genus, sicut. talpa dicitur
+            <lb ed="#V" n="78"/>caeca 5. Met. c. de Privatione. 
+            Ne<lb ed="#V" n="79" break="no"/>gatio extra genus absolute nihil. re--
+            <lb ed="#V" n="80"/>quirif, quia aequaliter. dicitur. de
+            <lb ed="#V" n="81"/>ente et de non ente. Negatio autem
+            <lb ed="#V" n="82"/>in genere quasi medial, quia 
+            requi<lb break="no" ed="#V" n="83"/>rit subjectum de quo dicatur, non
+            <lb ed="#V" n="84"/>tamen aptitudinem ad formam. 
+            Ta<lb break="no" ed="#V" n="85"/>lem forte negationem importat 
+            di<lb break="no" ed="#V" n="86"/>versitfas, de quo alias, quia negat
+            <lb ed="#V" n="87"/>identitatem. vel notat non 
+            identita<lb break="no" ed="#V" n="88"/>tem talem in ente ; ergo talem po-
+            <pb ed="#V" n="264"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>test nominare incommunicabilitas,
+            <lb ed="#V" n="2"/>ut importatur in. persona, quia 
+            no<lb break="no" ed="#V" n="3"/>lat negationem duplicis 
+            communica<lb break="no" ed="#V" n="4"/>bilitatis in natura intellectuali. Nec
+            <lb ed="#V" n="5"/>(amen dicit" aptitudinem ad. 
+            ali<lb break="no" ed="#V" n="6"/>quam communicabilitatem, sed. 
+            ne<lb break="no" ed="#V" n="7"/>eationem illam in natura positiva
+            <lb ed="#V" n="8"/>intellectuali ; et ita dicit aliquid 
+            per<lb break="no" ed="#V" n="9"/>tinens ad dignitatem, non ratione
+            <lb ed="#V" n="10"/>significali, sed ratione connotati et
+            <lb ed="#V" n="11"/>subjecti, et sic posset concedi 
+            perso<lb break="no" ed="#V" n="12"/>nam generari et adorari, sicut ca
+            <lb ed="#V" n="13"/>cus ambulat vel amatur, non quod
+            <lb ed="#V" n="14"/>ciecilas sit. ratio. ambulandi, sed
+            <lb ed="#V" n="15"/>quod illud in quo est talis privatio,
+            <lb ed="#V" n="16"/>sit subjectum respectu talis. 
+            praedi<lb break="no" ed="#V" n="17"/>cati.
+          </p>
+          <p xml:id="jdso8u-d1e1004-d1e1442">
+            <lb ed="#V" n="18"/>Cum arguitur de communicabili
+            <lb ed="#V" n="19"/>et. incommunicabili, dico — quod
+            <lb ed="#V" n="20"/>unum opposituin potest esse relatio
+            <lb ed="#V" n="21"/>rationis, et alterum relatio realis,
+            <lb ed="#V" n="22"/>vel saltem negatio vel privatio realis
+            <lb ed="#V" n="23"/>alicujus relationis, sicut zdem  
+            per<lb break="no" ed="#V" n="24"/>fecta identitate: dicit relationem 
+            ra<lb break="no" ed="#V" n="25"/>tionis 5. .Met. c. de Eodem, et 
+            ta<lb break="no" ed="#V" n="26"/>men diversum, quod negat istam
+            <lb ed="#V" n="27"/>identitatem, convenit rei absque 
+            ac<lb break="no" ed="#V" n="28"/>tu rationis et intellectus. Et ratio
+            <lb ed="#V" n="29"/>est, quia licet aliquid non conveniat
+            <lb ed="#V" n="30"/>rei, nisi ex opere vel actu 
+            intellec<lb break="no" ed="#V" n="31"/>tus, tamen potest repugnare rei ex
+            <lb ed="#V" n="32"/>se sine actu intellectus. Sic Socrati
+            <lb ed="#V" n="33"/>universalitas repugnat, qua tamen
+            <lb ed="#V" n="34"/>non convenit homini, nisi per actum
+            <lb ed="#V" n="35"/>intellectus operantis et negotiantis
+            <lb ed="#V" n="36"/>circa hominem.
+          </p>
+          <p xml:id="jdso8u-d1e1004-d1e1486">
+            <lb ed="#V" n="37"/>Et si igitur communicabilitas 
+            di<lb break="no" ed="#V" n="38"/>cat tantum relationem rationis in
+            <lb ed="#V" n="39"/>essentia, tamen potest repugnare
+            <lb ed="#V" n="40"/>person ex aliquo quod est in re, et
+            <lb ed="#V" n="41"/>propter idem potest sibi 
+            incommuni<lb break="no" ed="#V" n="42"/>cabilitas competere.
+          </p>
+          <p xml:id="jdso8u-d1e1004-d1e1502"><!-- ordinatio para 24 -->
+            <lb ed="#V" n="43"/>Ista igitur via supposita sicut 
+            cer<lb break="no" ed="#V" n="44"/>ta, quod a personis potest abs-
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>trahi aliquis conceptus negativus
+            <lb ed="#V" n="46"/>negationis in genere, et hoc non
+            <lb ed="#V" n="47"/>solum a personis quasi constitutis,
+            <lb ed="#V" n="48"/>sed etiam a formalibus constitutivis
+            <lb ed="#V" n="49"/>earum, est dubitatio ulterior (h) :
+            <lb ed="#V" n="50"/>Utrum tale commune solummodo
+            <lb ed="#V" n="51"/>negativum sit abstrahibile ab eis,
+            <lb ed="#V" n="52"/>vel aliquod commune positivum. Et C
+            <lb ed="#V" n="53"/>videtur quod oporteat ponere ali- ^1
+            <lb ed="#V" n="54"/>quod positivum possibile abstrahi 3.
+            <lb ed="#V" n="55"/>ab eis propter verbum Augustini de
+            <lb ed="#V" n="56"/>Doctrina Christiana, et verbum 
+            Ma<lb break="no" ed="#V" n="57"/>eistri in littera dist. 25. quae 
+            adduc<lb break="no" ed="#V" n="58"/>la sunt contra opinionem. <!-- ordination para 25 --> Potest
+            <lb ed="#V" n="59"/>dici, quod ab individuis non 
+            tan<lb break="no" ed="#V" n="60"/>tum potest abstrahi species, quae
+            <lb ed="#V" n="61"/>dicit quidditatem individuorum, sed
+            <lb ed="#V" n="62"/>etiam aliquid quasi proprium.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

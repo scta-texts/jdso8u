@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2024-03-24">March 24, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x10">Vives, Paris, 1893, volume 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="210"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e970">
+        <head xml:id="jdso8u-d1e970-Hd1e100">Quaestio 1</head>
+        <div xml:id="jdso8u-d1e970-Dd1e102"><!-- scotus-d21q1-p1 -->
+          <p xml:id="jdso8u-d1e970-d1e105">
+            <lb ed="#V" n="14" type="fixed=210"/>QUAESTIO UNICA.
+            <lb ed="#V" n="15"/>Utrum hac sit vera : solus Pater est
+            <lb ed="#V" n="16"/>Deus?
+          </p>
+          <p xml:id="jdso8u-d1e970-d1e114">
+            <lb ed="#V" n="17"/>Alensis 1. p. q. 60. m. 3. art. 1. et 3. D. Thom.
+            <lb ed="#V" n="18"/>hicq. 4. ari. 3. et 4. p. g. 34. art. 2. Richard.
+            <lb ed="#V" n="19"/>q. 3. D. Bonavent. art. 1. q. 1. et 2. Durand.
+            <lb ed="#V" n="20"/>q. 1. Vasquez 1. p. d. 131. ubi agit 
+            denomini<lb break="no" ed="#V" n="21"/>bus, idem, alius, unus, triplex, solus. Suarez
+            <lb ed="#V" n="22"/>1. part. tract. 3. lib. 2. cap. 4. Mayron. Aic
+            <lb ed="#V" n="23"/>quast. 1.
+          </p>
+          <p xml:id="jdso8u-d1e970-d1e132"><!--ordinatio para 1 -->
+            <lb ed="#V" n="24"/>Circa istam distinctionem. 
+            vigesi<lb break="no" ed="#V" n="25"/>mam primam quaero unum : Utrum
+            <lb ed="#V" n="26"/>haec sit vera <mentioned>Solus Pater est Deus?</mentioned>
+          </p>
+          <p xml:id="jdso8u-d1e970-d1e144">
+            <lb ed="#V" n="27"/>Quod sic : Solus Deus, qui est
+            <lb ed="#V" n="28"/>Pater est Deus ; ergo solus Pater
+            <lb ed="#V" n="29"/>est Deus. Antecedens patet, quia 
+            so<lb break="no" ed="#V" n="30"/>lus Deus qui est Pater, est Trinitas.
+            <lb ed="#V" n="31"/>Consequentia probatur per simile,
+            <lb ed="#V" n="32"/>quia sequitur solum animal, quod
+            <lb ed="#V" n="33"/>est homo, currit ; ergo solus homo
+            <lb ed="#V" n="34"/>currit.
+          </p>
+          <p xml:id="jdso8u-d1e970-d1e164">
+            <lb ed="#V" n="35"/>Item, solus Deus (a) est Pater ;
+            <lb ed="#V" n="36"/>ergo solus Pater est Deus. 
+            Antece<lb break="no" ed="#V" n="37"/>dens palet per exponentes. 
+            Conse<lb break="no" ed="#V" n="38"/>quentia probatur per conversionem
+            <lb ed="#V" n="39"/>exelusivae.
+          </p>
+          <p xml:id="jdso8u-d1e970-d1e178">
+            <lb ed="#V" n="40"/>Item, solus (b) Deus est Deus ;
+            <lb ed="#V" n="41"/>ergo solus Pater est Deus. Tum quia
+            <lb ed="#V" n="42"/>in antecedente stat — personaliter,
+            <lb ed="#V" n="43"/>quia est indefinita ; similiter proba-
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="44"/>tur consequentia, quia antecedens
+            <lb ed="#V" n="45"/>infert utramque exponentem 
+            conse<lb break="no" ed="#V" n="46"/>quentis. Et. quod. inferat. 
+            exponen<lb break="no" ed="#V" n="47"/>tem. affirmativam, probo, quia 
+            se<lb break="no" ed="#V" n="48"/>quitur, solus Deus est Deus, ergo
+            <lb ed="#V" n="49"/>omnis Deus est Deus, et ita. Pater
+            <lb ed="#V" n="50"/>est Deus, ergo sequitur. affirmativa
+            <lb ed="#V" n="51"/>exponens consequens.  Sequitur
+            <lb ed="#V" n="52"/>etiam, solus Deus est Deus, ergo
+            <lb ed="#V" n="53"/>non alius a Deo est -Deus ; ergo
+            <lb ed="#V" n="54"/>non alius a. Patre est Deus. Probatio
+            <lb ed="#V" n="55"/>hujus consequenti, hic videtur
+            <lb ed="#V" n="56"/>fallacia consequentis, alius a Deo ;
+            <lb ed="#V" n="57"/>ergo alius a Patre, ergo arguendo
+            <lb ed="#V" n="58"/>negative eodem ordine, erit bonum
+            <lb ed="#V" n="59"/>argumentum. Probatio assumpti,
+            <lb ed="#V" n="60"/>quia si alius a Deo inferret alium a
+            <lb ed="#V" n="61"/>Patre, hoc esset. propter 
+            distributio<lb break="no" ed="#V" n="62"/>nem termini relationis diversitatis,
+            <lb ed="#V" n="63"/>sed non distribuitur. Probatio, quia
+            <lb ed="#V" n="64"/>tunc esset. omnis propositio falsa,
+            <lb ed="#V" n="65"/>ubi praedicaretur relativum 
+            diversi<lb break="no" ed="#V" n="66"/>tatis de aliquo, puta quaecumque 
+            ta<lb break="no" ed="#V" n="67"/>lis, homo est diversus vel aliud.
+            <lb ed="#V" n="68"/>Datur enim hic intelligi 
+            correlati<lb break="no" ed="#V" n="69"/>vum primum hujus relativi, et. per
+            <lb ed="#V" n="70"/>consequens sequeretur, quod homo
+            <lb ed="#V" n="71"/>esset alius ab alio, et si terminus 
+            re<lb break="no" ed="#V" n="72"/>lationis. distribuatur, sequitur quod
+            <lb ed="#V" n="73"/>sit alius a quocumque alio. ; igitur
+            <lb ed="#V" n="74"/>alius a se.
+          </p>
+          <p xml:id="jdso8u-d1e970-d1e259">
+            <lb ed="#V" n="75"/>Oppositum patet per Augustinum
+            <lb ed="#V" n="76"/>6. de Trinit. cap. 8.
+          </p>
+        </div>
+        <div xml:id="jdso8u-d1e970-Dd1e468"><!-- scotus-d21q1-p2 -->
+          <p xml:id="jdso8u-d1e970-d1e471">
+            <lb ed="#V" n="77" type="fixed=211"/>SCHOLIUM.
+          </p>
+          <p xml:id="jdso8u-d1e970-d1e476">
+            <lb ed="#V" n="78"/>Praeenotando ly solus dupliciter sumi per
+            <lb ed="#V" n="79"/>illam regulam, affirmativa exclusiva, etc. 
+            pro<lb break="no" ed="#V" n="80"/>bat illam propositionem esse falsam, quia 
+            se<lb break="no" ed="#V" n="81"/>queretur omnem personam divinam esse 
+            Pa<lb break="no" ed="#V" n="82"/>trem. Regulam ipsam probat et explicat, quia
+            <lb ed="#V" n="83"/>exclusio denotat commensurationem 
+            extremo<lb break="no" ed="#V" n="84"/>rum, et sic quando est affirmativa zquivalet
+            <lb ed="#V" n="85"/>universali affirmativae de terminis 
+            transposi<lb break="no" ed="#V" n="86"/>tis, quod confirmat ex variis regulis Logicalibus.
+            <lb ed="#V" n="87"/>Rejicit instantiam aliorum, qui putant illam,
+            <lb ed="#V" n="88"/>solus Pater est Deus, concedendam, quia Pater
+            <lb ed="#V" n="89"/>non excludit correlativa.
+          </p>
+          <p xml:id="jdso8u-d1e970-d1e505"><!-- ordinatio para 7 -->
+            <pb ed="#V" n="212"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Ad quaestionem (c) potest fieri
+            <lb ed="#V" n="2"/>distinctio sicut distinguitur 
+            commu<lb break="no" ed="#V" n="3"/>niter et bene, quod solus potest. 
+            te<lb break="no" ed="#V" n="4"/>neri categorematice et 
+            syncategore<lb break="no" ed="#V" n="5"/>malice. Solus quippe significat
+            <lb ed="#V" n="6"/>idem, quod non cum alio, sicut 
+            pa<lb break="no" ed="#V" n="7"/>tet per Philosophum r. elenchorum ;
+            <lb ed="#V" n="8"/>ista autem  negatio associationis,
+            <lb ed="#V" n="9"/>potest intelligi. determinare aliquid
+            <lb ed="#V" n="10"/>in se sive in natura rei, vel 
+            determi<lb break="no" ed="#V" n="11"/>nare aliquid, ut est extremum 
+            com<lb break="no" ed="#V" n="12"/>positionis in habitudine ad aliud 
+            ex<lb break="no" ed="#V" n="13"/>tremum, puta negando 
+            associatio<lb break="no" ed="#V" n="14"/>nem alterius ab. isto. in recipiendo
+            <lb ed="#V" n="15"/>praedicationem falis praedicati. 
+            Pri<lb break="no" ed="#V" n="16"/>mo modo non admittitur in divinis
+            <lb ed="#V" n="17"/>hocnomen solus, quia nihil est ibi
+            <lb ed="#V" n="18"/>solitarium. Secundo modo 
+            concedi<lb break="no" ed="#V" n="19"/>tdur quandoeumque non associatur
+            <lb ed="#V" n="20"/>subjecto aliquid, de quo dicatur
+            <lb ed="#V" n="21"/>idem praedicatum. ita non est 
+            prae<lb break="no" ed="#V" n="22"/>dicando essentiale de personali, quia
+            <lb ed="#V" n="23"/>essentiale convenit alii ab isto 
+            in<lb break="no" ed="#V" n="24"/>cluso, et ideo talis propositio 
+            nega<lb break="no" ed="#V" n="25"/>tur.
+          </p>
+          <p xml:id="jdso8u-d1e970-d1e567">
+            <lb ed="#V" n="26"/>Declaratio istorum, scilicet 
+            quali<lb break="no" ed="#V" n="27"/>ler syncategorema disponit. 
+            extre<lb break="no" ed="#V" n="28"/>mum intellectus componentis et 
+            divi<lb break="no" ed="#V" n="29"/>dentis respectu alterius extremi, et
+            <lb ed="#V" n="30"/>quomodo differat syncategorema ab
+            <lb ed="#V" n="31"/>intentione secunda, et quomodo 
+            di<lb break="no" ed="#V" n="32"/>verso determinationes 
+            syncaltegore<lb break="no" ed="#V" n="33"/>matieee inter se differunt, longuin
+            <lb ed="#V" n="34"/>(ractatum requireret, sed non 
+            opor<lb break="no" ed="#V" n="35"/>tet hic immorari propter alia magis
+            <lb ed="#V" n="36"/>necessaria.
+          </p>
+          <p xml:id="jdso8u-d1e970-d1e593">
+            <lb ed="#V" n="37"/>Probatur etiam falsitas 
+            propositio<lb break="no" ed="#V" n="38"/>nis (d) propositae per illam. 
+            commu<lb break="no" ed="#V" n="39"/>nem regulam in sophismatibus. 
+            Af<lb break="no" ed="#V" n="40"/>firmativa exclusiva infert 
+            universa<lb break="no" ed="#V" n="41"/>lem affirmativam de terminis 
+            trans<lb break="no" ed="#V" n="42"/>positis ; igitur ista : solus Pater est
+            <lb ed="#V" n="43"/>Deus, infert istam : omnis Deus est
+            <lb ed="#V" n="44"/>Pater, vel omnis persona. divina est
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>Pater. Regula ista probatur ex 
+            ra<lb break="no" ed="#V" n="46"/>lione exclusionis, quae videlicet 
+            no<lb break="no" ed="#V" n="47"/>lat praecisionem in illo cui. additur,
+            <lb ed="#V" n="48"/>respectu alterius extremi, sive pra
+            <lb ed="#V" n="49"/>cisam  commensurationem, scilicet
+            <lb ed="#V" n="50"/>quod alterum extremum non 
+            exce<lb break="no" ed="#V" n="51"/>dat illud. Et hoc. notat ista. 
+            univer<lb break="no" ed="#V" n="52"/>salis affirmativa de terminis 
+            transpo<lb break="no" ed="#V" n="53"/>silis, et maxime in. terminis 
+            com<lb break="no" ed="#V" n="54"/>munibus, ubi potest utrumque 
+            ex<lb break="no" ed="#V" n="55"/>tremum accipi universaliter.
+          </p>
+          <p xml:id="jdso8u-d1e970-d1e640">
+            <lb ed="#V" n="56"/>Probatur etiam Logice per unam
+            <lb ed="#V" n="57"/>propositionem, quae exprimit. totum
+            <lb ed="#V" n="58"/>intellectum. exclusives. Ista. enim : '
+            <lb ed="#V" n="59"/>Tantum homo est. risibilis, licet 
+            po<lb break="no" ed="#V" n="60"/>natur comniuniter habere duas ex-:
+            <lb ed="#V" n="61"/>ponentes, sufficienter tamen 
+            expri<lb break="no" ed="#V" n="62"/>mitur per istam : /Vullus non. homo*
+            <lb ed="#V" n="63"/>est risibilis. Ex qua sequitur : 
+            zul<lb break="no" ed="#V" n="64"/>lum risibile est non homo, per 
+            con<lb break="no" ed="#V" n="65"/>versionem. Et ultra : gitur nullum
+            <lb ed="#V" n="66"/>risibile non est homo, per illud 
+            se<lb break="no" ed="#V" n="67"/>cundi Perihermenias :. Aa negativa
+            <lb ed="#V" n="68"/>de praedicato (e) infinito, sequatur
+            <lb ed="#V" n="69"/>affirmativa de praedicato finito, et
+            <lb ed="#V" n="70"/>negativa de praedicato negato, quod
+            <lb ed="#V" n="71"/>probatur per primum principium :-
+            <lb ed="#V" n="72"/>De quolibet affirmatio vel negatio,
+            <lb ed="#V" n="73"/>etc. et hoc in praedicatis simplicibus,
+            <lb ed="#V" n="74"/>quia negando istam consequentiam,
+            <lb ed="#V" n="75"/>negantur utraque opposita ab. 
+            eo<lb break="no" ed="#V" n="76"/>dem, et ultra, ergo omne risibile est
+            <lb ed="#V" n="77"/>homo, per acquipollentiam ; ergo a
+            <lb ed="#V" n="78"/>primo ad ultimum, etc.
+          </p>
+          <p xml:id="jdso8u-d1e970-d1e692">
+            <lb ed="#V" n="79"/>(f) Hic aliqui instant. quasi uno
+            <lb ed="#V" n="80"/>correlative incluso, aliud non 
+            exclu<lb break="no" ed="#V" n="81"/>ditur, quia unum est communiter de
+            <lb ed="#V" n="82"/>intellectu. alterius, quia posita se
+            <lb ed="#V" n="83"/>ponunt, etc. et sunt simul natura.
+          </p>
+          <p xml:id="jdso8u-d1e970-d1e705"><!-- ordinatio para 13 -->
+            <lb ed="#V" n="84"/>Sed hoc est contra intentionem
+            <lb ed="#V" n="85"/>Philosophi r. PAysic. arguentis ibi :
+            <lb ed="#V" n="86"/>si tantum principium est, 
+            principia<lb break="no" ed="#V" n="87"/>tum non est ; ergo correlativum non
+            <lb ed="#V" n="88"/>est de intellectu correlativi sicut ali-
+            <pb ed="#V" n="213"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>quid ejus, puta pars essentialis vel
+            <lb ed="#V" n="2"/>integralis, sed sicut aliquid ad quod
+            <lb ed="#V" n="3"/>terminatur intellectus ejus, et tale
+            <lb ed="#V" n="4"/>est sufficienter diversum. ab incluso
+            <lb ed="#V" n="5"/>tanta diversitate, quanta diversitas
+            <lb ed="#V" n="6"/>requiritur ad hoc quod ipsum 
+            exclu<lb break="no" ed="#V" n="7"/>datur.
+          </p>
+        </div>
+        <div xml:id="jdso8u-d1e970-Dd1e740"><!-- scotus-d21q1-p3 -->
+          <p xml:id="jdso8u-d1e970-d1e743">
+            <lb ed="#V" n="16" type="fixed=214"/>SCHOLIUM.
+          </p>
+          <p xml:id="jdso8u-d1e970-d1e748">
+            <lb ed="#V" n="17"/>In solutione argumentorum habet Doctor 
+            Lo<lb break="no" ed="#V" n="18"/>gicalia exquisitissima ad mysterium Trinitatis
+            <lb ed="#V" n="19"/>tuendum maxime necessaria. Ad primum 
+            expli<lb break="no" ed="#V" n="20"/>cat, quare sicut in creatis sequitur, solum 
+            ani<lb break="no" ed="#V" n="21"/>mal quod est homo currit, ergo solus homo
+            <lb ed="#V" n="22"/>currit, non similiter in divinis solus Deus, qui
+            <lb ed="#V" n="23"/>est Pater est Deus, ergo solus Pater est Deus.
+            <lb ed="#V" n="24"/>Et ratio est, quia ly animal, cum sua 
+            determi<lb break="no" ed="#V" n="25"/>natione in sensu compositionis et divisionis,
+            <lb ed="#V" n="26"/>supponit pro numerato et diviso, et non pro se,
+            <lb ed="#V" n="27"/>ut abstrahit a rationali ; at in hae : solus Deus qui
+            <lb ed="#V" n="28"/>cst Pater est. Deus, in sensu composito stat pro
+            <lb ed="#V" n="29"/>Patre, etideohzoc est falsa: Solus Pater est Deus.
+            <lb ed="#V" n="30"/>Ad secundum ostendit non sequi, solus Deus
+            <lb ed="#V" n="31"/>est Pater, ergo solus Pater est Deus, quia haec,
+            <lb ed="#V" n="32"/>non est conversa illius, sed conversa exclusive
+            <lb ed="#V" n="33"/>est universalis affirmativa de terminis 
+            transpo<lb break="no" ed="#V" n="34"/>sitis, ut solus homo est risibilis; ergo omne
+            <lb ed="#V" n="35"/>risibile est homo. Ad tertium ostendit differens,
+            <lb ed="#V" n="36"/>non habere differens in communi pro 
+            correla<lb break="no" ed="#V" n="37"/>tivo, sed referri realiter ad hoc differens quod
+            <lb ed="#V" n="38"/>non est ipsum, et idem est de omni alia 
+            rela<lb break="no" ed="#V" n="39"/>tione communi. Item ostendit Logice quare non
+            <lb ed="#V" n="40"/>sequitur, alius a Deo, ergo alius a. Patre, quia
+            <lb ed="#V" n="41"/>ly Deus supponit confuse tantum, et sic non 
+            li<lb break="no" ed="#V" n="42"/>cet sub eo descendere, de quo late Tartaret.
+            <lb ed="#V" n="43"/>tract. 13. de Exponibilibus, pag. 170. et seq. et
+            <lb ed="#V" n="44"/>Bonav. hic artic. 1. q. r. et vide Alensem1. p. q.
+            <lb ed="#V" n="45"/>44, ubi agit de nomine diversitatis, separationis
+            <lb ed="#V" n="46"/>et unionis.
+          </p>
+          <p xml:id="jdso8u-d1e970-d1e816"><!-- ordinatio para 14 -->
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="47"/>Ad primum argumentum (g), 
+            ante<lb break="no" ed="#V" n="48"/>cedens distinguitur secundum 
+            com<lb break="no" ed="#V" n="49"/>positionem et divisionem, sicut ista :
+            <lb ed="#V" n="50"/>omnis homo, qui est albus, currit ;
+            <lb ed="#V" n="51"/>sensus compositionis falsus est, quia
+            <lb ed="#V" n="52"/>ibi Deus determinatur ad. standum
+            <lb ed="#V" n="53"/>pro Patre per istam. implicationem,
+            <lb ed="#V" n="54"/>qui est. Pater, sicut. determinatur
+            <lb ed="#V" n="55"/>homo ad standum pro homine albo
+            <lb ed="#V" n="56"/>in sensu compositionis. ibi : homo
+            <lb ed="#V" n="57"/>qui est albus, et tunc. consequentia
+            <lb ed="#V" n="58"/>tenet. Sensus tamen divisionis verus
+            <lb ed="#V" n="59"/>est, quia  tunc enuntiantur duo 
+            prae<lb break="no" ed="#V" n="60"/>dicata de eodem subjecto de quo 
+            am<lb break="no" ed="#V" n="61"/>bo sunt vera, scilicet de eo esse
+            <lb ed="#V" n="62"/>Patrem et esse Deum, quasi 
+            enuntia<lb break="no" ed="#V" n="63"/>rentur ista duo in duabus 
+            propositio<lb break="no" ed="#V" n="64"/>nibus categoricis coputatis sibi 
+            invi<lb break="no" ed="#V" n="65"/>cem, quarum neutra specificare 
+            al<lb break="no" ed="#V" n="66"/>teram,et  tunc consequentia non 
+            va<lb break="no" ed="#V" n="67"/>let a superiori ad suum inferius eum
+            <lb ed="#V" n="68"/>exclusione.
+          </p>
+          <p xml:id="jdso8u-d1e970-d1e869">
+            <lb ed="#V" n="69"/>Et si objicitur (h) quod. similis
+            <lb ed="#V" n="70"/>consequentia tenet in creaturis in
+            <lb ed="#V" n="71"/>sensu divisionis. Respondeo, si 
+            eom<lb break="no" ed="#V" n="72"/>mune idem innumeratum  possit'
+            <lb ed="#V" n="73"/>competere pluribus inferioribus, :
+            <lb ed="#V" n="74"/>non teneret ita consequentia im,
+            <lb ed="#V" n="75"/>sensu divisionis ; tenet enim ibi prae- €
+            <lb ed="#V" n="76"/>cise, quia illud animal. quod est ra--
+            <lb ed="#V" n="77"/>tionale, dividendo non est aliud ab *
+            <lb ed="#V" n="78"/>animali quod est rationale in 
+            compo<lb break="no" ed="#V" n="79"/>nendo.
+          </p>
+          <p xml:id="jdso8u-d1e970-d1e895">
+            <lb ed="#V" n="80"/>In proposito autem ratio. illa non
+            <lb ed="#V" n="81"/>tenet, quia iste idem Deus qui est
+            <lb ed="#V" n="82"/>Pater in sensu compositionis, non
+            <lb ed="#V" n="83"/>est Filius qui. distinguitur a Patre,
+            <lb ed="#V" n="84"/>et ita. Deus qui est Pater in. sensu
+            <lb ed="#V" n="85"/>divisionis, potest dici vere de aliquo
+            <lb ed="#V" n="86"/>de quo non dicitur in sensu 
+            compo<lb break="no" ed="#V" n="87"/>sitionis. Non sic autem. de animali
+            <lb ed="#V" n="88"/>quod est homo, quia illud in sensu
+            <lb ed="#V" n="89"/>divisionis de nullo vere praedicatur,
+            <lb ed="#V" n="90"/>de quo vere non praedicatur idem
+            <pb ed="#V" n="215"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>in  sensu compositionis, vel e
+            <lb ed="#V" n="2"/>converso, et ideo praedicatur ibi 
+            in<lb break="no" ed="#V" n="3"/>differenter. Non sic hic, cum non
+            <lb ed="#V" n="4"/>sit idem antecedens secundum 
+            com<lb break="no" ed="#V" n="5"/>positionem et divisionem.
+          </p>
+          <p xml:id="jdso8u-d1e970-d1e938">
+            <lb ed="#V" n="6"/>Aliqui etiam distinguunt (1) 
+            prin<lb break="no" ed="#V" n="7"/>cipalem propositionem, quasi ista :
+            <lb ed="#V" n="8"/>Solus Pater est Deus, possit. habere
+            <lb ed="#V" n="9"/>sensum compositionis falsum,et 
+            sen<lb break="no" ed="#V" n="10"/>sum divisionis verum, adducentes
+            <lb ed="#V" n="11"/>illud Prisciani secundo constructio
+            <lb ed="#V" n="12"/>num : Inter exigens et exactum 
+            ca<lb break="no" ed="#V" n="13"/>dit aliquid medium.
+          </p>
+          <p xml:id="jdso8u-d1e970-d1e958">
+            <lb ed="#V" n="14"/>Sed istud non est Logice dictum
+            <lb ed="#V" n="15"/>nec Grammatice. Logice non, quia
+            <lb ed="#V" n="16"/>tunc non posset aliquid contrahi
+            <lb ed="#V" n="17"/>vel determinari per aliquam 
+            contra<lb break="no" ed="#V" n="18"/>ctionem vel determinationem. 
+            Quan<lb break="no" ed="#V" n="19"/>tumcumque enim immediate 
+            adde<lb break="no" ed="#V" n="20"/>retur alicui. determinatio 
+            categore<lb break="no" ed="#V" n="21"/>matica vel syncategorematiea, ut
+            <lb ed="#V" n="22"/>homo albus currit, vel omnis homo
+            <lb ed="#V" n="23"/>albus currit, adhuc restaret 
+            distin<lb break="no" ed="#V" n="24"/>guere, sicut hie, in sensu 
+            composi<lb break="no" ed="#V" n="25"/>lionis et divisionis, et in utroque
+            <lb ed="#V" n="26"/>sensu restaret ulterius distinguere,
+            <lb ed="#V" n="27"/>etsic in infinitum, nec posset 
+            ali<lb break="no" ed="#V" n="28"/>quis sensus determinate exprimi.
+            <lb ed="#V" n="29"/>Nec docuit Philosophus in talibus
+            <lb ed="#V" n="30"/>multiplieitatem secundum 
+            composi<lb break="no" ed="#V" n="31"/>tionem et divisionem, sed tantum in
+            <lb ed="#V" n="32"/>illis ubi eadem materialia composita
+            <lb ed="#V" n="33"/>et divisa diversum sensum faciunt.
+            <lb ed="#V" n="34"/>Ista autem materialia : omnis liomo
+            <lb ed="#V" n="35"/>currit vel omnis homo albus currit,
+            <lb ed="#V" n="36"/>composita et divisa, nullum alium
+            <lb ed="#V" n="37"/>sensum faciunt. Secus est hic : Zs/e
+            <lb ed="#V" n="38"/>videt nunc me currere, componendo
+            <lb ed="#V" n="39"/>nunc adverbium cum verbo 
+            praece<lb break="no" ed="#V" n="40"/>dente vel sequente.
+          </p>
+          <p xml:id="jdso8u-d1e970-d1e1019">
+            <lb ed="#V" n="41"/>Nec etiam est dictum 
+            Grammati<lb break="no" ed="#V" n="42"/>ce, quia exigens et exactum dicuntur
+            <lb ed="#V" n="43"/>construetibilia, quorum alterum 
+            di<lb break="no" ed="#V" n="44"/>citur a Prisciano regere, alterum ex
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>vi aliqua. Non est autem. 
+            syncate<lb break="no" ed="#V" n="46"/>gorematicum construclibile 
+            respe<lb break="no" ed="#V" n="47"/>clu categorematici, quasi unum 
+            re<lb break="no" ed="#V" n="48"/>eat aliud ex aliqua vi, et. ideo licet
+            <lb ed="#V" n="49"/>hic cadat medium vel implicatio
+            <lb ed="#V" n="50"/>media, cappa Socratis, id est, cappa,
+            <lb ed="#V" n="51"/>qua est Socratis, non tamen hic :
+            <lb ed="#V" n="52"/>homo albus, omnis homo albus.
+          </p>
+          <p xml:id="jdso8u-d1e970-d1e1050">
+            <lb ed="#V" n="53"/>() Ad secundum dico quod illa
+            <lb ed="#V" n="54"/>non estsua conversa, nec illa 
+            con<lb break="no" ed="#V" n="55"/>sequentia tenet, sed est fallacia 
+            con<lb break="no" ed="#V" n="56"/>sequenlis, quia, sicut. probatum est
+            <lb ed="#V" n="57"/>in solutione quaestionis, exclusiva
+            <lb ed="#V" n="58"/>est convertibilis cum universali 
+            af<lb break="no" ed="#V" n="59"/>firmativa de terminis transpositis ;
+            <lb ed="#V" n="60"/>ergo inferre exclusivam ex exclusiva
+            <lb ed="#V" n="61"/>de terminis transpositis dequivaleret
+            <lb ed="#V" n="62"/>illationi universalis affirmativee ex
+            <lb ed="#V" n="63"/>universali affirmativa de terminis
+            <lb ed="#V" n="64"/>transpositis. In tali autem illatione
+            <lb ed="#V" n="65"/>universalis ex universali, est 
+            falla<lb break="no" ed="#V" n="66"/>cia consequentis : omnis homo est
+            <lb ed="#V" n="67"/>animal; ergo omne animal est 
+            ho<lb break="no" ed="#V" n="68"/>mo, a superiori ad suum inferius
+            <lb ed="#V" n="69"/>affirmando.
+          </p>
+          <p xml:id="jdso8u-d1e970-d1e1089">
+            <lb ed="#V" n="70"/>ita est in proposito et probatur,
+            <lb ed="#V" n="71"/>quia semper ex vi sermonis 
+            procedi<lb break="no" ed="#V" n="72"/>tur ab inferiori ad. superius cum
+            <lb ed="#V" n="73"/>distributione.  Predicatum — enim
+            <lb ed="#V" n="74"/>universalis affirmative non notatur
+            <lb ed="#V" n="75"/>esse converlibile, sed stat quod sit
+            <lb ed="#V" n="76"/>superius ad subjectum ; ergo ex 
+            dis<lb break="no" ed="#V" n="77"/>tributione subjecti universalis non
+            <lb ed="#V" n="78"/>sequitur distributio praedicati 
+            res<lb break="no" ed="#V" n="79"/>pectu ejusdem, nec potest sequi 
+            dis<lb break="no" ed="#V" n="80"/>tributio praedicati respectu inferioris
+            <lb ed="#V" n="81"/>ad aliquid, si non sequitur 
+            distribu<lb break="no" ed="#V" n="82"/>lio praedicati respectu superioris ad.
+            <lb ed="#V" n="83"/>illud. Arguendo ergo sic : Omne B.
+            <lb ed="#V" n="84"/>est A ; ergo omne M est B, est falla-.
+            <lb ed="#V" n="85"/>cia consequentis, quia ex distribu-.
+            <lb ed="#V" n="86"/>tione ejus quod notatur esse inferius.
+            <lb ed="#V" n="87"/>non sequitur distributio superioris,
+            <lb ed="#V" n="88"/>et hoc respectu praedicati, quod no-
+            <pb ed="#V" n="216"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>tatur esse inferius ad. praedicatum
+            <lb ed="#V" n="2"/>superius, sed est fallacia 
+            consequen<lb break="no" ed="#V" n="3"/>lis, sicut argueretur : omnis homo
+            <lb ed="#V" n="4"/>est animal, ergo omne animal est
+            <lb ed="#V" n="5"/>Socrates.
+          </p>
+          <p xml:id="jdso8u-d1e970-d1e1148">
+            <lb ed="#V" n="6"/>Sed eum probatur (k) illa 
+            conse<lb break="no" ed="#V" n="7"/>quentia per conversionem 
+            proposi<lb break="no" ed="#V" n="8"/>tionis exclusivas, respondeo, non
+            <lb ed="#V" n="9"/>omnis illatio in terminis 
+            transposi<lb break="no" ed="#V" n="10"/>tjs, notat tantam unionem 
+            extremo<lb break="no" ed="#V" n="11"/>rum, quanta haberi potest virtute
+            <lb ed="#V" n="12"/>prima ; unde universalis negativa
+            <lb ed="#V" n="13"/>non convertitur in particularem 
+            ne<lb break="no" ed="#V" n="14"/>gativam in terminis transposilis, 
+            li<lb break="no" ed="#V" n="15"/>cet inferat eara.
+          </p>
+          <p xml:id="jdso8u-d1e970-d1e1173">
+            <lb ed="#V" n="16"/>Ad propositum dico quod illa de
+            <lb ed="#V" n="17"/>lerminis transposilis, qua tantum
+            <lb ed="#V" n="18"/>capit de intellectu exclusivee. 
+            affir<lb break="no" ed="#V" n="19"/>mativae, quantum aliqua. potest 
+            ca<lb break="no" ed="#V" n="20"/>pere de terminis transposilis, est
+            <lb ed="#V" n="21"/>universalis affirmativa, sicut. 
+            proba<lb break="no" ed="#V" n="22"/>' [um est in secunda ratione ad 
+            solu<lb break="no" ed="#V" n="23"/>, onem principalem ; ergo talis 
+            ex<lb break="no" ed="#V" n="24"/>clusiva affirmativa convertitur in
+            <lb ed="#V" n="25"/>universalem affirmativam, et pari
+            <lb ed="#V" n="26"/>ratione e converso, universalis 
+            affir<lb break="no" ed="#V" n="27"/>mativa in exclusivam affirmativam.
+          </p>
+          <p xml:id="jdso8u-d1e970-d1e1202">
+            <lb ed="#V" n="28"/>Et si objicias (l), ergo Aristoteles
+            <lb ed="#V" n="29"/>male docuit et insufficienter 
+            con<lb break="no" ed="#V" n="30"/>versiones, non docendo 
+            universa<lb break="no" ed="#V" n="31"/>lem affirmativam convertendam in
+            <lb ed="#V" n="32"/>exclusivam affirmativam.
+          </p>
+          <p xml:id="jdso8u-d1e970-d1e1215">
+            <lb ed="#V" n="33"/>hespondeo quod conversiones
+            <lb ed="#V" n="34"/>docuit, propter perficiendam 
+            imper<lb break="no" ed="#V" n="35"/>fectionem imperfectorum  
+            Syllogis<lb break="no" ed="#V" n="36"/>morum, non autem exclusiva alium
+            <lb ed="#V" n="37"/>locum teneret in. perficiendo 
+            Syllo<lb break="no" ed="#V" n="38"/>gismum imperfectum quam alia 
+            in<lb break="no" ed="#V" n="39"/>definita non exclusiva, quia non
+            <lb ed="#V" n="40"/>aliam. conclusionem inferret. quam
+            <lb ed="#V" n="41"/>prius inferebatur in. Syllogismo 
+            im<lb break="no" ed="#V" n="42"/>perfecto, et ideo bene et sufficienter
+            <lb ed="#V" n="43"/>docuit conversiones quantum 
+            neces<lb break="no" ed="#V" n="44"/>sarium sibi fuit ad. propositum.
+          </p>
+          <p xml:id="jdso8u-d1e970-d1e1244">
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>Ad tertium dico, (m) quod ex 
+            ne<lb break="no" ed="#V" n="46"/>gütiva exponente antecedens, non
+            <lb ed="#V" n="47"/>sequitur negativa exponens 
+            conse<lb break="no" ed="#V" n="48"/>quens. Cum probatur, quia non 
+            se<lb break="no" ed="#V" n="49"/>quitur, alius «a Deo, ergo alius a
+            <lb ed="#V" n="50"/>Patre, nego, quia illa consequentia
+            <lb ed="#V" n="51"/>est bona.
+          </p>
+          <p xml:id="jdso8u-d1e970-d1e1264">
+            <lb ed="#V" n="52"/>Et cum ulterius probatur. (n) quod
+            <lb ed="#V" n="53"/>lerminus hujus alietatis non. 
+            distri<lb break="no" ed="#V" n="54"/>buitur, quia tunc esset, 
+            impossibili<lb break="no" ed="#V" n="55"/>las enuntiandi tale relativum de 
+            ali<lb break="no" ed="#V" n="56"/>quo. Respondeo, quod in omnibus
+            <lb ed="#V" n="57"/>relativis acquiparantics, commune 
+            se<lb break="no" ed="#V" n="58"/>cundum se acceptum, ut commune
+            <lb ed="#V" n="59"/>est, non refertur, quia ex quo; uf
+            <lb ed="#V" n="60"/>commune est, abstrahitur ab. 
+            omni<lb break="no" ed="#V" n="61"/>bus relativis sive terminis 
+            relatio<lb break="no" ed="#V" n="62"/>num, quia relatio realis non est nisi
+            <lb ed="#V" n="63"/>distincti ad distinctum ; sed si ut sic
+            <lb ed="#V" n="64"/>referretur, oporteret ibi dare 
+            ter<lb break="no" ed="#V" n="65"/>minum sibi relatum distinctum, et
+            <lb ed="#V" n="66"/>ideo non referretur ad aliquid. 
+            ejus<lb break="no" ed="#V" n="67"/>dem rationis cum relato, sed. 
+            refer<lb break="no" ed="#V" n="68"/>retur ad aliquid alterius rationis,
+            <lb ed="#V" n="69"/>refertur igitur tale relativum tantum
+            <lb ed="#V" n="70"/>pro suo inferiori, sicut. simile non
+            <lb ed="#V" n="71"/>refertur pro simili in. communi. ad
+            <lb ed="#V" n="72"/>simile, sed pro aliquo inferiori, quod
+            <lb ed="#V" n="73"/>potest distingui a simili ad quod. 
+            re<lb break="no" ed="#V" n="74"/>fertur. lta. etiam. est de differenti,
+            <lb ed="#V" n="75"/>non enim refertur ad differens in
+            <lb ed="#V" n="76"/>communi quasi ad primum 
+            correlati<lb break="no" ed="#V" n="77"/>vum, quasi essent duo extrema 
+            pri<lb break="no" ed="#V" n="78"/>ma relationis, et utrumque 
+            commu<lb break="no" ed="#V" n="79"/>nissimum ad omne differens, sed 
+            dif<lb break="no" ed="#V" n="80"/>ferens est differens ab hoc different.
+          </p>
+          <p xml:id="jdso8u-d1e970-d1e1329">
+            <lb ed="#V" n="81"/>Et si objicias, quod relativum dat
+            <lb ed="#V" n="82"/>primo intelligere suum correlativum
+            <lb ed="#V" n="83"/>commune.
+          </p>
+          <p xml:id="jdso8u-d1e970-d1e1339">
+            <lb ed="#V" n="84"/>Respondeo, non est tale 
+            correlati<lb break="no" ed="#V" n="85"/>vum ejus ut commune, nisi ipsum
+            <lb ed="#V" n="86"/>ut sumptum pro aliquo inferiori pro
+            <lb ed="#V" n="87"/>quo distingui potest a. correlativo.
+            <lb ed="#V" n="88"/>Exemplum hujus est in. rebus, quia
+            <pb ed="#V" n="217"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>si tota natura ignis esset in uno 
+            in<lb break="no" ed="#V" n="2"/>dividuo, illud individuum non 
+            pos<lb break="no" ed="#V" n="3"/>set generare, quia si sic, tunc 
+            ge<lb break="no" ed="#V" n="4"/>neraret alium ignem in quo esset 
+            to<lb break="no" ed="#V" n="5"/>ta natura ignis, etessent quasi duce
+            <lb ed="#V" n="6"/>species ignis, quod est impossibile,
+            <lb ed="#V" n="7"/>et tamen nunc in uno individuo 
+            na<lb break="no" ed="#V" n="8"/>[ura ignis est ratio generandi, quia
+            <lb ed="#V" n="9"/>habet unitatem — sufficientem — pro
+            <lb ed="#V" n="10"/>principio activo et distinctionem 
+            suf<lb break="no" ed="#V" n="11"/>ficientem. Ita haec. similitudo bene
+            <lb ed="#V" n="12"/>est ratio alicui. referendi. vel 
+            termi<lb break="no" ed="#V" n="13"/>nandi relationem, sed nec refertur
+            <lb ed="#V" n="14"/>nec terminat, nisi accipiatur pro 
+            dis<lb break="no" ed="#V" n="15"/>tineto in quo sit, ita quod nec 
+            uni<lb break="no" ed="#V" n="16"/>tas nec distinctio est per accidens,
+            <lb ed="#V" n="17"/>sed utrumque per se respectu talis
+            <lb ed="#V" n="18"/>relationis, sicut dictum est in 
+            quae<lb break="no" ed="#V" n="19"/>tione decireumincessione. Non enim
+            <lb ed="#V" n="20"/>sequitur : non alius a. Deo, ergo
+            <lb ed="#V" n="21"/>non alius a Patre, sed in affirmativa
+            <lb ed="#V" n="22"/>est bona consequentia ratione 
+            distri<lb break="no" ed="#V" n="23"/>butionis termini hujus relationis,
+            <lb ed="#V" n="24"/>propter negationem inclusam in
+            <lb ed="#V" n="25"/>ratione alietatis.
+          </p>
+          <p xml:id="jdso8u-d1e970-d1e1411">
+            <lb ed="#V" n="26"/>Ad aliam probationem (0) cum 
+            di<lb break="no" ed="#V" n="27"/>citur: solus Deus, ergo solus Pater
+            <lb ed="#V" n="28"/>vel solus Filius. Respondetur, quod
+            <lb ed="#V" n="29"/>subjectum exclusivas potest 
+            compa<lb break="no" ed="#V" n="30"/>rari vel ad exclusionem vel ad 
+            pre<lb break="no" ed="#V" n="31"/>dicatum. Primo modo habet 
+            suppo<lb break="no" ed="#V" n="32"/>silionem simplicem, quia exclusio
+            <lb ed="#V" n="33"/>fit ab eo, ratione significati. Secundo
+            <lb ed="#V" n="34"/>modo habet suppositionem 
+            persona<lb break="no" ed="#V" n="35"/>lem, quia praedicatum attribuitur
+            <lb ed="#V" n="36"/>sibi pro supposito. Contra istud,
+            <lb ed="#V" n="37"/>unum (p) extremum in uno actu
+            <lb ed="#V" n="38"/>componendi et dividendi habet 
+            ra<lb break="no" ed="#V" n="39"/>tionem unam, secundum quam 
+            ac<lb break="no" ed="#V" n="40"/>cipitur respectu alterius extremi,
+            <lb ed="#V" n="41"/>quia diverse rationes. accipiendi
+            <lb ed="#V" n="42"/>idem extremum respectu ejusdem
+            <lb ed="#V" n="43"/>termini non videntur stare cum 
+            uni<lb break="no" ed="#V" n="44"/>tate actus componendi.
+          </p>
+          <p xml:id="jdso8u-d1e970-d1e1455">
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>Et si dicatur, quod respectu 
+            exclu<lb break="no" ed="#V" n="46"/>sionis supponeret sub una ratione,
+            <lb ed="#V" n="47"/>et ut accipitur sub exclusione 
+            respe<lb break="no" ed="#V" n="48"/>ctu praedicati supponit sub alia 
+            ra<lb break="no" ed="#V" n="49"/>lione.
+          </p>
+          <p xml:id="jdso8u-d1e970-d1e1471">
+            <lb ed="#V" n="50"/>Contra, subjectum non supponit
+            <lb ed="#V" n="51"/>respectu suae. dispositionis, sed 
+            res<lb break="no" ed="#V" n="52"/>pectu praedicati, et ita praecise habet
+            <lb ed="#V" n="53"/>illam. suppositionem, quam  
+            intelli<lb break="no" ed="#V" n="54"/>gitur habere respectu praedicati, ut
+            <lb ed="#V" n="55"/>accipitur sub sua. dispositione.
+          </p>
+          <p xml:id="jdso8u-d1e970-d1e1487">
+            <lb ed="#V" n="56"/>Ideo dico, aliter, (qQ) quod 
+            sub<lb break="no" ed="#V" n="57"/>jectum affirmativee exelusivee 
+            suppo<lb break="no" ed="#V" n="58"/>nit confuse tantum, sicut et praedi-:
+            <lb ed="#V" n="59"/>catum universalis affirmative, quod '
+            <lb ed="#V" n="60"/>probatur ex convertibilitate earum, ,
+            <lb ed="#V" n="61"/>et sub termino sic stante confuse
+            <lb ed="#V" n="62"/>tantum non licet descendere.
+          </p>
+          <p xml:id="jdso8u-d1e970-d1e1505"><!-- ordinatio para 31 -->
+            <lb ed="#V" n="63"/>Posset tamen dici in proposito 
+            ali<lb break="no" ed="#V" n="64"/>ter quam in creaturis, videlicet quod
+            <lb ed="#V" n="65"/>Deus sub exclusione stat pro hoc
+            <lb ed="#V" n="66"/>Deo, qui communis est tribus 
+            perso<lb break="no" ed="#V" n="67"/>nis, quae responsio facta est dist. 4.
+            <lb ed="#V" n="68"/>pro quo stat ibi subjectum : Deus est
+            <lb ed="#V" n="69"/>Pater et. Filius ae Spiritus sanctus,
+            <lb ed="#V" n="70"/>et posset etiam valere, disf. 12. 
+            quid<lb break="no" ed="#V" n="71"/>quid est illud subjectum, cui primo
+            <lb ed="#V" n="72"/>convenit agere respectu 
+            creatura<lb break="no" ed="#V" n="73"/>rum, quia hic. Deus, ut est hac 
+            Dei<lb break="no" ed="#V" n="74"/>tate Deus, non intelligendo aliquam
+            <lb ed="#V" n="75"/>personalem proprietatem, licet 
+            om<lb break="no" ed="#V" n="76"/>ne praedicatum, quod verum est de
+            <lb ed="#V" n="77"/>hoc praedicato primo, verum sit de
+            <lb ed="#V" n="78"/>Patre per se, sed non de solo Patre,
+            <lb ed="#V" n="79"/>sed de Filio et Spiritu Sancto.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

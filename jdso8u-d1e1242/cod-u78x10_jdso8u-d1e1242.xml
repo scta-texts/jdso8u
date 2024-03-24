@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2024-03-24">March 24, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x10">Vives, Paris, 1893, volume 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="531"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e1242">
+        <head xml:id="jdso8u-d1e1242-Hd1e100">Quaestio 1</head>
+        <!-- dbcheck whether there are three questions and title should be questiones 1-3; or update edf-->
+        <div xml:id="jdso8u-d1e1242-Dd1e104"><!-- scotus-d33et34q1-p1 -->
+          <p xml:id="jdso8u-d1e1242-d1e107">
+            <lb ed="#V" n="28" type="fixed=531"/>QUAESTIO UNICA.
+            <lb ed="#V" n="29"/>An persona sit idem cum essentia ?
+          </p>
+          <p xml:id="jdso8u-d1e1242-d1e114">
+            <lb ed="#V" n="30"/>De his. quaestionibus, scilicet de distinctione in
+            <lb ed="#V" n="31"/>divinis agunt D. Thom. 1. p. q. 28. art. 2. et
+            <lb ed="#V" n="32"/>39. art. 6. et q. 1. de veritate arl. 6. Aleusis,
+            <lb ed="#V" n="33"/>150.9... 68. m. 5. art. 2 et 6. 8. 3. D. Bonav.
+            <lb ed="#V" n="34"/>1. d. 33. q. 1. et 2. Richard. bid. art. 2. 9.4.
+            <lb ed="#V" n="35"/>Capreol. 1. d. 2. q. 3. Durand. q. 2. Gabr.
+            <lb ed="#V" n="36"/>quast. 1. et2. Henr. sum. art. 56. et quodl. 5.
+            <lb ed="#V" n="37"/>q. 6. Suar. 4. p. tract. 3. lib. 4. cap. 2. et ^.
+          </p>
+          <p xml:id="jdso8u-d1e1242-d1e134">
+            <lb ed="#V" n="38"/>Circa distinctionem  trigesimam
+            <lb ed="#V" n="39"/>tertiam, quaero duo sine argumen-
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="40"/>tis. Primo : Utrum proprietas sit
+            <lb ed="#V" n="41"/>idem eum persona ? Secundo :
+            <lb ed="#V" n="42"/>Utrum proprietas sit idem cum
+            <lb ed="#V" n="43"/>essentia ?
+          </p>
+          <p xml:id="jdso8u-d1e1242-d1e152"><!-- ord vat para 1 -->
+            <lb ed="#V" n="44"/>Circa distinctionem  trigesimam
+            <lb ed="#V" n="45"/>quartam, quaero unum sine 
+            argu<lb break="no" ed="#V" n="46"/>mentis: An persona sit idem cum
+            <lb ed="#V" n="47"/>essentia.
+          </p>
+        </div>
+        <div xml:id="jdso8u-d1e1242-Dd1e165"><!-- scotus-d33et34q1-p1 -->
+          <p xml:id="jdso8u-d1e1242-d1e168">
+            <lb ed="#V" n="48" type="fixed=531"/>SCHOLIUM.
+          </p>
+          <p xml:id="jdso8u-d1e1242-d1e173">
+            <lb ed="#V" n="49"/>Scotus in his tribus quaestionibus non 
+            im<lb break="no" ed="#V" n="50"/>moratur, quia saepius eas tractavit. De prima
+            <lb ed="#V" n="51"/>egit d. 26. n. 2. contra Prapositivum. De 
+            se<lb break="no" ed="#V" n="52"/>cunda et tertia egit d. 2. p. 2. q. 1. 8 Sed Aic
+            <lb ed="#V" n="53"/>restat num. 41. et d. 8. q. 4. $ Ad quaestionem,
+            <lb ed="#V" n="54"/>et d. 13. num. 7. et d. 23. n. 4. et d. 26. n. 8.
+            <lb ed="#V" n="55"/>et alibi saepius Ejus sententia est in divinis
+            <lb ed="#V" n="56"/>esse distinctionem actualem, formalem ex 
+            na<lb break="no" ed="#V" n="57"/>tura rei, ante opus intellectus, non tamen 
+            ad<lb break="no" ed="#V" n="58"/>mitlit distinctionem absolute realem, quod
+            <lb ed="#V" n="59"/>prater omnes Scotistas, tenet Durandus hic d.
+            <lb ed="#V" n="60"/>qd q etd. 25. q. 2.et 3. dist. 4. q.. 2:
+            <lb ed="#V" n="61"/>Occham 1. q. 1. Gabr. 1. d. 2- q. 4. art. 1. et 3.
+            <lb ed="#V" n="62"/>Marsil. 1. q. 6. art. 2. concl. 4.
+          </p>
+          <p xml:id="jdso8u-d1e1242-d1e206"><!-- ord vat para 2 -->
+            <lb ed="#V" n="63"/>Circa istas tres quaestiones non
+            <lb ed="#V" n="64"/>oportet immorari, quia earum 
+            solu<lb break="no" ed="#V" n="65"/>tio patet ex dictis alibi supra dist. 2.
+            <lb ed="#V" n="66"/>q. illa : Utrum cum unitate 
+            essen<lb break="no" ed="#V" n="67"/>tiae stet pluralitas personarum ? ubi
+            <lb ed="#V" n="68"/>ostensum est qualiter proprietas
+            <lb ed="#V" n="69"/>personalis non est idem formaliter
+            <lb ed="#V" n="70"/>cum essentia; dist. etiam 26. contra
+            <lb ed="#V" n="71"/>Prepositivum ostensum est, 
+            quali<lb break="no" ed="#V" n="72"/>ter proprietas non est idem 
+            formali<lb break="no" ed="#V" n="73"/>ter cum persona. Illud etiam quod
+            <lb ed="#V" n="74"/>dictum est de non identitate formali
+            <lb ed="#V" n="75"/>proprietatis cum essentia, concludit
+            <lb ed="#V" n="76"/>quod persona non est idem primo
+            <lb ed="#V" n="77"/>formaliter cum essentia.
+          </p>
+          <p xml:id="jdso8u-d1e1242-d1e242">
+            <lb ed="#V" n="78"/>Et quod aliqui distinguunt inter
+            <lb ed="#V" n="79"/>omnia ista, quod tantum differant
+            <lb ed="#V" n="80"/>ratione, improbatum est dist. 2. et
+            <lb ed="#V" n="81"/>dist. 8. in consimili de attributis, et
+            <lb ed="#V" n="82"/>dist. 143. de distinctione 
+            emanatio<lb break="no" ed="#V" n="83"/>num in divinis et alias, et tamen
+            <pb ed="#V" n="532"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>cum hoc, quod istud non est idem
+            <lb ed="#V" n="2"/>formaliter illi, stat, quod vere et
+            <lb ed="#V" n="3"/>simpliciter sit idem. sibi. lino. hoc
+            <lb ed="#V" n="4"/>est necessarium propter perfectam
+            <lb ed="#V" n="5"/>simplicitatem divinam, quia 
+            sequi<lb break="no" ed="#V" n="6"/>tur ex perfecta infinitate. illius. 
+            es<lb break="no" ed="#V" n="7"/>senlide, propter quam simplicitatem
+            <lb ed="#V" n="8"/>et infinitatem, non potest illa 
+            essen<lb break="no" ed="#V" n="9"/>tia esse in aliquo cum aliqua 
+            reali<lb break="no" ed="#V" n="10"/>tate in eodem, nisi illa realitas sit
+            <lb ed="#V" n="11"/>perfecte eadem sibi. Et istud 
+            dic<lb break="no" ed="#V" n="12"/>tum est confirmatum per commune
+            <lb ed="#V" n="13"/>dictum antiquorum, qui 
+            concesse<lb break="no" ed="#V" n="14"/>runt multas  praedicationes esse
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="15"/>veras in divinis per identitatem non
+            <lb ed="#V" n="16"/>formaliter, quod non videtur 
+            intelli<lb break="no" ed="#V" n="17"/>gibile, nisi per hoc quod 
+            praedica<lb break="no" ed="#V" n="18"/>tum erat vere idem cum subjecto,
+            <lb ed="#V" n="19"/>et ex hoc erat propositio affirmativa
+            <lb ed="#V" n="20"/>vera per identitatem, et tamen 
+            prae<lb break="no" ed="#V" n="21"/>dicatum non erat idem formaliter
+            <lb ed="#V" n="22"/>cum subjecto, et propter hoc non
+            <lb ed="#V" n="23"/>erat ibi praedicatio formalis. Et quae
+            <lb ed="#V" n="24"/>sit distinctio 1identitlatis formalis ab
+            <lb ed="#V" n="25"/>identitate simpliciter, tactum est
+            <lb ed="#V" n="26"/>dist. 8. qg. de attributis et alias 
+            fre<lb break="no" ed="#V" n="27"/>quenter, et ideo nunc transeo.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
