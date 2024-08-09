@@ -1,0 +1,2030 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestiones 1 et 2</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestiones 1 et 2</title>
+          <date when="2024-08-09">August 09, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x12">Vives, Paris, 1893, volume 12</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-08-09" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="293"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e1841"><!-- alias="jdso8u-b2d4-5q1et2" alias2="scotus-l2d4et5q1et2-p1" -->
+        <head xml:id="jdso8u-d1e1841-Hd1e101">Quaestiones 1 et 2</head>
+        <!-- distinction 4 and 5 seem to be grouped together in ordinatio; 
+          might also be wise to treat questions 1 and 2 as 1 item, 
+          since both questions are introduced but question one is answered after question 2
+        -->
+        <div xml:id="jdso8u-d1e1841-Dd1e105">
+          <head xml:id="jdso8u-d1e1841-Hd1e107">Quaestio 1</head>
+          <head xml:id="jdso8u-d1e1841-Hd1e109" type="question-title">Utrum inter creationem et beatitudinem angeli boni fuerit aliqua 
+            mora</head>
+          <p xml:id="jdso8u-d1e1841-d1e112">
+            <pb ed="#L" n="294"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1" type="fixed=294"/>QUAESTIO UNICA.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e121">
+            <lb ed="#L" n="2"/>Utrum inter creationem et beatitudinem
+            <lb ed="#L" n="3"/>Angeli boni fuerit aliqua mora ?
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e128">
+            <lb ed="#L" n="4"/>Alens. D. Thom. D. Bonaventura, Richard. Durand.
+            <lb ed="#L" n="5"/>Gabr. Vasquez dist. seq. quest. 1. citandi.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e136">
+            <lb ed="#L" n="6"/>Circa distinctionem quartam,
+            <lb ed="#L" n="7"/>ubi Magister tractat, quales 
+            An<lb ed="#L" break="no" n="8"/>geli creati fuerunt perfecti vel 
+            im<lb ed="#L" break="no" n="9"/>perfecti, beati an miseri, quaero :
+            <lb ed="#L" n="10"/>Utrum inter creationem et 
+            beati<lb ed="#L" break="no" n="11"/>tudinem Angeli boni fuerit aliqua
+            <lb ed="#L" n="12"/>mora? Quod non, quia sine 
+            mo<lb ed="#L" break="no" n="13"/>ra habuit beatitudinem naturalem;
+            <lb ed="#L" n="14"/>ergo et supernaturalem.  
+            Pro<lb ed="#L" break="no" n="15"/>batio antecedentis, statim enim
+            <lb ed="#L" n="16"/>creatus Angelus habuit 
+            spe<lb ed="#L" break="no" n="17"/>clem  illam, de qua dictum
+            <lb ed="#L" n="18"/>est distinctione — tertia, in — qua
+            <lb ed="#L" n="19"/>fuit objectum beatitudinis 
+            na<lb ed="#L" break="no" n="20"/>turalis praesens, et. potentiam, et
+            <lb ed="#L" n="21"/>per consequens non impeditus 
+            po<lb ed="#L" break="no" n="22"/>tuit uti illa specie, considerando
+            <lb ed="#L" n="23"/>essentiam divinam sub illa ratione
+            <lb ed="#L" n="24"/>(neque enim erat impeditus) et
+            <lb ed="#L" n="25"/>etiam, illa species movebat super
+            <lb ed="#L" n="26"/>omnes alias; in considerando 
+            au<lb ed="#L" break="no" n="27"/>tem essentiam divinam, sub illo
+            <lb ed="#L" n="28"/>modo essentiam divinam intelli-
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="29"/>gendo, et eam diligendo, erat bea.
+            <lb ed="#L" n="30"/>titudo naturalis. Probatio 
+            conse<lb ed="#L" break="no" n="31"/>quentiae, quia causa naturalis
+            <lb ed="#L" n="32"/>non est perfectior ad producen-
+            <lb ed="#L" n="33"/>dum suum effectum, quam causa
+            <lb ed="#L" n="34"/>supernaturalis ad producendum
+            <lb ed="#L" n="35"/>suum, sed causa naturalis statim
+            <lb ed="#L" n="36"/>habuit effectum suum, scilicet 
+            bea<lb ed="#L" break="no" n="37"/>titudinem naturalem, ergo et 
+            su<lb ed="#L" break="no" n="38"/>pernaturalis suum, scilicet 
+            super<lb ed="#L" break="no" n="39"/>naturalem beatitudinem.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e214">
+            <lb ed="#L" n="40"/>Praeterea, <ref xml:id="jdso8u-d1e1841-Rd1e218">Augustinus 12. de Civit.
+              <lb ed="#L" n="41"/>cap. 9.</ref> Simul condens naturam et 
+            lar<lb ed="#L" break="no" n="42"/>giens gratiam ; ergo statim habuit
+            <lb ed="#L" n="43"/>Angelus creatus gratiam, sed 
+            si<lb ed="#L" break="no" n="44"/>mul habuit gratiam et  
+            beatitudi<lb ed="#L" break="no" n="45"/>nem. Probatio, quia simul in
+            <lb ed="#L" n="46"/>malis fuit culpa et poena, 
+            alio<lb ed="#L" break="no" n="47"/>quin culpa eorum esset 
+            remedia<lb ed="#L" break="no" n="48"/>bilis.
+          </p>
+          <!--</div>
+            <!-\- no commentary here -\->
+            <div alias="scotus-l2d4q1-p2">-->
+          <p xml:id="jdso8u-d1e1841-d1e241">
+            <lb ed="#L" n="49" type="fixed=294"/>SCHOLIUM.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e246">
+            <lb ed="#L" n="50"/>Posita ratione probante inter creationem
+            <lb ed="#L" n="51"/>et beatitudinem Angelorum, aliquam fuisse
+            <lb ed="#L" n="52"/>moram, remittit resolutionem ad <ref xml:id="jdso8u-d1e1841-Rd1e254">quaest. 1.
+              <lb ed="#L" n="53"/>dist. seq. num. 5.</ref>
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e260">
+            <lb ed="#L" n="54"/>Contra,<ref xml:id="jdso8u-d1e1841-Rd1e264"> Augustinus super 
+              Ge<lb ed="#L" break="no" n="55"/>nesim</ref> : Angelus primo est factus. infor-.
+            <lb ed="#L" n="56"/>mis, secundo lux ; ergo, et caetera, et
+            <lb ed="#L" n="57"/>quia solutio hujus quaestionis 
+            de<lb ed="#L" break="no" n="58"/>pendet ex solutione questionis 
+            sequen<lb ed="#L" break="no" n="59"/>lis, ideo solvetur post illam.
+          </p>
+        </div>
+        <div xml:id="jdso8u-d1e1841-Dd1e280">
+          <head xml:id="jdso8u-d1e1841-Hd1e282">Quaestio 2</head>
+          <!--</div> <div xml:id="jdso8u-d1e1852"> scotus-l2d5q1-p1 -->
+          <head xml:id="jdso8u-d1e1841-Hd1e286" type="question-title">Utrum angelus prius meruerit beatitudinem quam eam acceperit</head>
+          <p xml:id="jdso8u-d1e1841-d1e289">
+            <lb ed="#L" n="20" type="fixed=297"/>QUAESTIO I.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e294">
+            <lb ed="#L" n="21"/>Utrum Angelus prius meruerit 
+            beatitudi<lb ed="#L" break="no" n="22"/>nem, quam eam acceperit ?
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e302">
+            <lb ed="#L" n="23"/>Drum. dp. g..62. art. 1.et A. et q. 63. art.
+            <lb ed="#L" n="24"/>9. D. Bonavent. hic d. 4. q. 1. art. 1. Alens.
+            <lb ed="#L" n="25"/>2.p. quast. 19. memb. 2. Füchard. hic d. 4. art.
+            <lb ed="#L" n="26"/>2. p. 1. Durand. q. 1. Gabriel. g. un. Vasq. 1. p.
+            <lb ed="#L" n="27"/>d. 226. et 229. Augustin. de correct. et gratia c.
+            <lb ed="#L" n="28"/>11. Mayr. hic d. 4. et 5. q. 5.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e318">
+            <lb ed="#L" n="29"/>Circa distinctionem quintam
+            <lb ed="#L" n="30"/>quaero: Utrum Angelus prius 
+            me<lb ed="#L" break="no" n="31"/>ruerit beatitudinem, quam eam
+            <lb ed="#L" n="32"/>acceperit. Quod non, quia aliquis
+            <lb ed="#L" n="33"/>solum meretur aliquid ex 
+            obse<lb ed="#L" break="no" n="34"/>quiis impensis homini; non autem
+            <lb ed="#L" n="35"/>meretur aliquid quod expectet,
+            <lb ed="#L" n="36"/>quia spes quae differtur affligit animam,
+            <lb ed="#L" n="37"/>igitur illud quod meretur jam 
+            ha<lb ed="#L" break="no" n="38"/>bet; hoc autem non esset nisi jam
+            <lb ed="#L" n="39"/>haberet illam beatitudinem, quam
+            <lb ed="#L" n="40"/>meretur pro obsequio.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e347">
+            <lb ed="#L" n="41"/>Praeterea, majus praemium 
+            re<lb ed="#L" break="no" n="42"/>quirii maius meritum, secundum
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="43"/>rectam regulam; sed Angeli 
+            majo<lb ed="#L" break="no" n="44"/>rem gloriam habent multis 
+            homi<lb ed="#L" break="no" n="45"/>nibus electis, ergo requiritur 
+            ma<lb ed="#L" break="no" n="46"/>jus meritum in eis. Homo autem
+            <lb ed="#L" n="47"/>est viator magno tempore, et 
+            ha<lb ed="#L" break="no" n="48"/>bet multa opera bona et merita et
+            <lb ed="#L" n="49"/>opera difficilia, ergo sic ista 
+            re<lb ed="#L" break="no" n="50"/>quirit. praemmium Angelorum, sed
+            <lb ed="#L" n="51"/>tanta mora non fuit ante 
+            beatitudi<lb ed="#L" break="no" n="52"/>nem Angelorum ; ergo, etc.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e378">
+            <lb ed="#L" n="53"/>Item, meritum requirit 
+            difficul<lb ed="#L" break="no" n="54"/>tatem, est enim opus laudabile; in
+            <lb ed="#L" n="55"/>Angelis autem non fuit aliqua 
+            diffi<lb ed="#L" break="no" n="56"/>cultas ad bonum, igitur, etc.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e389">
+            <lb ed="#L" n="57"/>Ad oppositum est Augustinus
+            <lb ed="#L" n="58"/>de correctione et gratia: Angeli
+            <lb ed="#L" n="59"/>sancti, qui perstiterunt, meruerunt
+            <lb ed="#L" n="60"/>illius vitae mercedem recipere ; sed non
+            <lb ed="#L" n="61"/>meruerunt illud recipere 
+            post<lb ed="#L" break="no" n="62"/>quam receperunt, erpo prius, etc.
+            <lb ed="#L" n="63"/>quaere ibi.
+          </p>
+          <!--</div>
+            <div alias="scotus-l2d5q1-p2">-->
+          <p xml:id="jdso8u-d1e1841-d1e410">
+            <lb ed="#L" n="64" type="fixed=297"/>SCHOLIUM.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e415">
+            <lb ed="#L" n="65"/>Sententia Magistri, Angelos non meruisse
+            <lb ed="#L" n="66"/>quod bearentur, antequam fuissent beati;
+            <lb ed="#L" n="67"/>sed datam eis beatitudinem, propter bona
+            <lb ed="#L" n="68"/>opera postea fienda, sicut miles meretur
+            <lb ed="#L" n="69"/>equum per servitia praestanda per 
+            eum<lb ed="#L" break="no" n="70"/>dem. Rhefutatur primo, quia falsum est
+            <lb ed="#L" n="71"/>quod ait, Angelum non posse mereri, nisi
+            <lb ed="#L" n="72"/>per actum extrinsecum exercitum circa 
+            ho<lb ed="#L" break="no" n="73"/>minem. Secundo, si propter opera provisa
+            <lb ed="#L" n="74"/>daretur meritum, gratia non esset gratia.
+            <lb ed="#L" n="75"/>Tertio, status beatitudinis non esset ita
+            <lb ed="#L" n="76"/>certus.
+          </p>
+        </div>
+        <div xml:id="jdso8u-d1e1841-Dd1e445">
+          <head xml:id="jdso8u-d1e1841-Hd1e447">Responsiones</head>
+          <p xml:id="jdso8u-d1e1841-d1e449">
+            <lb ed="#L" n="77"/>In ista quaestione (a) secunda,
+            <lb ed="#L" n="78"/>non tenetur Magister, qui 7n fine
+            <lb ed="#L" n="79"/>hujus quinte distinctionis, magis 
+            il<lb ed="#L" break="no" n="80"/>lam opinionem approbat, quae di--
+            <lb ed="#L" n="81"/>cit ipsos fuisse beatos, antequam.
+            <lb ed="#L" n="82"/>ipsi eam meruerunt; sed 
+            meren<lb ed="#L" break="no" n="83"/>tur eam modo per obsequia 
+            im<lb ed="#L" break="no" n="84"/>pensa electis, sicut. miles 
+            mere<lb ed="#L" break="no" n="85"/>tur equum bene militaturus per
+            <pb ed="#L" n="298"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>eum, sed non tenetur hoc. Primo,
+            <lb ed="#L" n="2"/>quia si homo non fuisset 
+            crea<lb ed="#L" break="no" n="3"/>tus, Angelus non habuisset 
+            bea<lb ed="#L" break="no" n="4"/>titudinem, quia non habuisset
+            <lb ed="#L" n="5"/>actum extrinsecum, per quem 
+            me<lb ed="#L" break="no" n="6"/>reretur sibi secundum istos. Hoc
+            <lb ed="#L" n="7"/>autem videtur inconveniens, quia
+            <lb ed="#L" n="8"/>Angelus non dependet ab homine
+            <lb ed="#L" n="9"/>in merendo, similiter actus 
+            in<lb ed="#L" break="no" n="10"/>trinsecus est meritorius 
+            circum<lb ed="#L" break="no" n="11"/>scripto actu exirinseco; igitur
+            <lb ed="#L" n="12"/>per illum potuerunt mereri.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e501">
+            <lb ed="#L" n="13"/>Praeterea, per hoc (b) quod 
+            ali<lb ed="#L" break="no" n="14"/>quis praevidetur bene usurus 
+            ac<lb ed="#L" break="no" n="15"/>cepto, non meretur accipere illud,
+            <lb ed="#L" n="16"/>tunc enim posset homo mereri
+            <lb ed="#L" n="17"/>primam gratiam, quia pr:
+            evide<lb ed="#L" break="no" n="18"/>tur a Deo dante eam, bene 
+            usu<lb ed="#L" break="no" n="19"/>rus ea, et tunc gratia non esset
+            <lb ed="#L" n="20"/>gratia, quia esset ex meritis, 
+            li<lb ed="#L" break="no" n="21"/>cet non positis in effectu, tamen
+            <lb ed="#L" n="22"/>previsis; igitur Angelus non
+            <lb ed="#L" n="23"/>meruit beatitudinem, si tantum
+            <lb ed="#L" n="24"/>habuit eam propter bonum usum
+            <lb ed="#L" n="25"/>previsum ipsius in obsequendo
+            <lb ed="#L" n="26"/>circa electos.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e534">
+            <lb ed="#L" n="27"/>Item, nunc status (c) 
+            beatitudi<lb ed="#L" break="no" n="28"/>nis non esset ex se certus, nam
+            <lb ed="#L" n="29"/>licet de facto mundus finietur, et
+            <lb ed="#L" n="30"/>ex hoc numerus obsequiorum sit
+            <lb ed="#L" n="31"/>finitus, quaede impenduntur a 
+            quibus<lb ed="#L" break="no" n="32"/>cumque Angelis electis, tamen
+            <lb ed="#L" n="33"/>posset mundus diutius durare plus
+            <lb ed="#L" n="34"/>quam per mille annos, vel 
+            quan<lb ed="#L" break="no" n="35"/>tumeumque duret, non propter
+            <lb ed="#L" n="36"/>hoc status beatitudinis esset 
+            mi<lb ed="#L" break="no" n="37"/>nus certus; sed hoc posito, non
+            <lb ed="#L" n="38"/>esset certitudo meriti quantum 
+            es<lb ed="#L" break="no" n="39"/>set; ergo istud praemium de se 
+            cer<lb ed="#L" break="no" n="40"/>tum, non correspondet illi merito,
+            <lb ed="#L" n="41"/>quod de se non est certum, 
+            inquan<lb ed="#L" break="no" n="42"/>tum meritum.
+          </p>
+          <!--</div>
+            <div alias="scotus-l2d5q1-p3">-->
+          <p xml:id="jdso8u-d1e1841-d1e574">
+            <pb ed="#L" n="300"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1" type="fixed=300"/>SCHOLIUM.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e583">
+            <lb ed="#L" n="2"/>Resolvit Angelos meruisse, et hoc 
+            an<lb ed="#L" break="no" n="3"/>tequam essent beati. Primum probat, quia
+            <lb ed="#L" n="4"/>omnis natura consequitur operatione 
+            pro<lb ed="#L" break="no" n="5"/>pria suam perfectionem ; ergo et finem
+            <lb ed="#L" n="6"/>suum, faciendo eum si potest, vel 
+            meren<lb ed="#L" break="no" n="7"/>do, si non potest. Secundum, rejecta ratione
+            <lb ed="#L" n="8"/>D. Thom. probat, quia ad meritum 
+            requi<lb ed="#L" break="no" n="9"/>ritur quod operans possit in oppositum.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e603">
+            <lb ed="#L" n="10"/>Ideo tenetur (a) quod Angeli
+            <lb ed="#L" n="11"/>meruerunt beatitudinem suam,
+            <lb ed="#L" n="12"/>et prius quam receperunt eam.
+            <lb ed="#L" n="13"/>Primum declaratur, quia omnis
+            <lb ed="#L" n="14"/>natura consequitur suam  
+            perfe<lb ed="#L" break="no" n="15"/>ctionem per operationem 
+            pro<lb ed="#L" break="no" n="16"/>priam, sed perfectio et finis 
+            cujus<lb ed="#L" break="no" n="17"/>libet creature rationalis, est 
+            bea<lb ed="#L" break="no" n="18"/>titudo, quae: soli Deo est 
+            natura<lb ed="#L" break="no" n="19"/>lis; omnis autem operatio talis in
+            <lb ed="#L" n="20"/>finem ducens, vel est factiva finis,
+            <lb ed="#L" n="21"/>, quando scilicet finis non excedit
+            <lb ed="#L" n="22"/>virtutem operantis propter finem,
+            <lb ed="#L" n="23"/>sicut medicatio respectu sanitatis;
+            <lb ed="#L" n="24"/>vel est meritoria finis, quando 
+            sci<lb ed="#L" break="no" n="25"/>licet. finis excedit virtutem 
+            ope<lb ed="#L" break="no" n="26"/>rantis propter finem, et tunc 
+            ex<lb ed="#L" break="no" n="27"/>pectatur finis ex dono alterius ;
+            <lb ed="#L" n="28"/>"beatitudo autem excedit omnem
+            <lb ed="#L" n="29"/>naturam creatam, ideo tam 
+            Ange<lb ed="#L" break="no" n="30"/>lus quam homo, meruit suam
+            <lb ed="#L" n="31"/>beatitudinem.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e653">
+            <lb ed="#L" n="32"/>Secundum declaratur sic, (b)
+            <lb ed="#L" n="33"/>non potest idem esse,ex gratia
+            <lb ed="#L" n="34"/>perfecta et imperfecta; meritum
+            <lb ed="#L" n="35"/>autem est ex gratia inperfecta,
+            <lb ed="#L" n="36"/>praemium ex gratia perfecta.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e666">
+            <lb ed="#L" n="37"/>Sed ista ratio (c) non videtur 
+            co<lb ed="#L" break="no" n="38"/>gere, quia est possibile aliquam
+            <lb ed="#L" n="39"/>animam habere tantam gratiam
+            <lb ed="#L" n="40"/>in via, quantam habet in patria,
+            <lb ed="#L" n="41"/>licet non modo possit habere ita
+            <lb ed="#L" n="42"/>perfectum usum ejus, sicut habebit
+            <lb ed="#L" n="43"/>in patria; unde idem habitus ma-
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="44"/>nebit, et posset aequalis manere,
+            <lb ed="#L" n="45"/>sed non idem actus.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e690">
+            <lb ed="#L" n="46"/>Ideo aliter declaro (d) secundum,
+            <lb ed="#L" n="47"/>quia voluntas non simul vult 
+            mu<lb ed="#L" break="no" n="48"/>tabiliter, et immutabiliter sive 
+            fi<lb ed="#L" break="no" n="49"/>xe, ita quod nunc inquantum 
+            eli<lb ed="#L" break="no" n="50"/>cit actum, non posset velle 
+            oppo<lb ed="#L" break="no" n="51"/>situm, et. non fixe, ita quod nunc
+            <lb ed="#L" n="52"/>inquantum elicit actum, posset
+            <lb ed="#L" n="53"/>velle oppositum. Quando autem
+            <lb ed="#L" n="54"/>premiatur, vult immutabiliter,
+            <lb ed="#L" n="55"/>hoc est inquantum consideratur
+            <lb ed="#L" n="56"/>ut jam eliciens actum, et per 
+            con<lb ed="#L" break="no" n="57"/>sequens ut prius naturaliter ipso
+            <lb ed="#L" n="58"/>actu comparatur ad illam; sed
+            <lb ed="#L" n="59"/>quando meretur non sic 
+            immuta<lb ed="#L" break="no" n="60"/>biliter vult, sed ut eliciens actum,
+            <lb ed="#L" n="61"/>contingenter videtur elicere.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e728">
+            <lb ed="#L" n="62"/>Ad hoc etiam adducuntur 
+            con<lb ed="#L" break="no" n="63"/>gruentiae, quia dispositio debet
+            <lb ed="#L" n="64"/>praecedere illud ad quod est, et via
+            <lb ed="#L" n="65"/>terminum ; meritum est 
+            disposi<lb ed="#L" break="no" n="66"/>tio, et via respectu beatitudinis ;
+            <lb ed="#L" n="67"/>quare, etc.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e744">
+            <lb ed="#L" n="68"/>Ad argumenta. (c) Ad primum
+            <lb ed="#L" n="69"/>conceditur, quod per illa obsequia !
+            <lb ed="#L" n="70"/>meretur aliquam beatitudinem 
+            ac<lb ed="#L" break="no" n="71"/>cidentalem. Imo obsequia sunt:
+            <lb ed="#L" n="72"/>quadam opera redundantia ex
+            <lb ed="#L" n="73"/>perfectione beatitudinis,et non sunt.
+            <lb ed="#L" n="74"/>ordinata ad ulteriorem 
+            perfecti<lb ed="#L" break="no" n="75"/>onem, sicut est de actibus 
+            genera<lb ed="#L" break="no" n="76"/>tis et procedentibus ab habitu 
+            ge<lb ed="#L" break="no" n="77"/>nerato perfecto; illi enim nullam:
+            <lb ed="#L" n="78"/>perfectionem generant, neque 
+            in<lb ed="#L" break="no" n="79"/>tendunt habitum, quia non est 
+            in<lb ed="#L" break="no" n="80"/>tensibilis, sed tantum procedunt ex
+            <lb ed="#L" n="81"/>plena perfectione ipsius, habitus;
+            <lb ed="#L" n="82"/>ita hie. Eo autem modo, quo 
+            me<lb ed="#L" break="no" n="83"/>rentur beatitudinem aecidentalem,
+            <lb ed="#L" n="84"/>concedo, quod non habent illam,
+            <lb ed="#L" n="85"/>quando merentur, nec ex hoc est
+            <lb ed="#L" n="86"/>afflietio. quia habent beatitudinem
+            <pb ed="#L" n="301"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>essentialem, quam maxime volunt.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e794">
+            <lb ed="#L" n="2"/>(f) Ad secundum dico, quod 
+            maxi<lb ed="#L" break="no" n="3"/>mum meritum fuit Angelorum
+            <lb ed="#L" n="4"/>volendo finem ultimum motu 
+            in<lb ed="#L" break="no" n="5"/>trinseco, quando mali aversi erant
+            <lb ed="#L" n="6"/>a fine isto superbiendo, sicut 
+            pate<lb ed="#L" break="no" n="7"/>bit <ref xml:id="jdso8u-d1e1841-Rd1e809">dist. 6.</ref> Non autem ad magnum
+            <lb ed="#L" n="8"/>praemium requiritur multitudo
+            <lb ed="#L" n="9"/>meritorum, sed multo magis 
+            re<lb ed="#L" break="no" n="10"/>quiritur unum meritum intensum,
+            <lb ed="#L" n="11"/>quam centum millia remissa, et in
+            <lb ed="#L" n="12"/>eis fuit motus meriti valde 
+            inten<lb ed="#L" break="no" n="13"/>sus pro ista morula qua 
+            mereban<lb ed="#L" break="no" n="14"/>tur, in tantum forte, quod nullus
+            <lb ed="#L" n="15"/>homo secundum communem ]
+            le<lb ed="#L" break="no" n="16"/>gem, posset habere ita intensum
+            <lb ed="#L" n="17"/>actum meriti, sicut ipsi 
+            habue<lb ed="#L" break="no" n="18"/>runt.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e836">
+            <lb ed="#L" n="19"/>Ad aliud dicendum, quod 
+            diffi<lb ed="#L" break="no" n="20"/>cultas aliquando accidit in aliquo
+            <lb ed="#L" n="21"/>opere ex inclinatione voluntatis
+            <lb ed="#L" n="22"/>ad oppositum ; aliquando aceidit
+            <lb ed="#L" n="23"/>difficultas in opere propter hoc,
+            <lb ed="#L" n="24"/>quod illud circa quod operatur,
+            <lb ed="#L" n="25"/>excedit naturam operantis ; isto
+            <lb ed="#L" n="26"/>modo fuit consecutio beatitudinis
+            <lb ed="#L" n="27"/>difficilis et laudabilis in Angelis,
+            <lb ed="#L" n="28"/>non autem primo modo, quia non
+            <lb ed="#L" n="29"/>inelinabant ad oppositum.
+          </p>
+          <!--</div>
+            <div alias="scotus-l2d5q1-p4">-->
+          <p xml:id="jdso8u-d1e1841-d1e864">
+            <lb ed="#L" n="49" type="fixed=304"/>SCHOLIUM.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e870">
+            <lb ed="#L" n="50"/>Quoad quaestionem praeced. dist. 4. prima
+            <lb ed="#L" n="51"/>opin. est D. Thom. p. q. 63. a. 5. duas esse
+            <lb ed="#L" n="52"/>Angelorum moras ; unam, qua creati sunt
+            <lb ed="#L" n="53"/>in gratia; alteram, termini ipsorum. 
+            Secun<lb ed="#L" break="no" n="54"/>da opinio, tres esse moras. H:e tripliciter
+            <lb ed="#L" n="55"/>explieatur : Primo, quod in prima mora
+            <lb ed="#L" n="56"/>omnes fuerunt in naturalibus; in secunda
+            <lb ed="#L" n="57"/>mali peecarunt, et boni de congruo 
+            merue<lb ed="#L" break="no" n="58"/>runt; in tertia omnes fuerunt in termimb.
+            <lb ed="#L" n="59"/>Tertia opinio ponit quatuor moras, quae
+            <lb ed="#L" n="60"/>etiam dupliciter explicatur.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e896">
+            <lb ed="#L" n="61"/>Ad quaestionem praecedentis 
+            di<lb ed="#L" break="no" n="62"/>stinctionis, quae dependet ex solu-
+            <lb ed="#L" n="63"/>tione istius, duo sunt videnda. Pri-
+            <lb ed="#L" n="64"/>mo, quot erant more ponendae
+            <lb ed="#L" n="65"/>circa Angelos. Secundo, quae sunt
+            <lb ed="#L" n="66"/>illa more. Quantum ad 
+            pri<lb ed="#L" break="no" n="67"/>mum, (a) potest dici 
+            multiplici<lb ed="#L" break="no" n="68"/>ter, possunt enim poni duae 
+            morze<lb ed="#L" break="no" n="69"/>Una scilicet, in qua sint in 
+            termi<lb ed="#L" break="no" n="70"/>no, et alia sola praecedens, in qua
+            <lb ed="#L" n="71"/>sunt in via; et ita ponit quidam
+            <lb ed="#L" n="72"/>Doctor, quod simul erant creati
+            <lb ed="#L" n="73"/>in gratia omnes in primo instanti,
+            <lb ed="#L" n="74"/>et in illo omnes meruerunt; in 
+            se<lb ed="#L" break="no" n="75"/>cundo instanti isti meruerunt, et
+            <lb ed="#L" n="76"/>non illi, quia posuerunt obicem,
+            <lb ed="#L" n="77"/>ita quod si non posuissent, 
+            fuis<lb ed="#L" break="no" n="78"/>sent praeemiati sicut alii.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e938">
+            <lb ed="#L" n="79"/>Possunt tamen poni tres mor:e,
+            <lb ed="#L" n="80"/>et hoc multipliciter. Uno modo,
+            <lb ed="#L" n="81"/>quod in prima mora, fuerunt 
+            om<lb ed="#L" break="no" n="82"/>res in naturalibus suis; in 
+            seeun<lb ed="#L" break="no" n="83"/>da mali in peecato, et justi in
+            <lb ed="#L" n="84"/>merito; in tertia, in gratia, et 
+            fue<lb ed="#L" break="no" n="85"/>runt bonisimul, et in praemio et
+            <lb ed="#L" n="86"/>in gloria, et mali in poena. Et haec
+            <lb ed="#L" n="87"/>videtur via Masistri. aui videtur
+            <pb ed="#L" n="305"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>dicere quod mali demeruerunt a 
+            p<lb ed="#L" break="no" n="2"/>poni sibi gratiam, quando 
+            appone<lb ed="#L" break="no" n="3"/>batur bonis, quasi jam peecassent
+            <lb ed="#L" n="4"/>in secunda mora, antequam in
+            <lb ed="#L" n="5"/>lertia,in qua gratia imponebatur
+            <lb ed="#L" n="6"/>bonis, et tunc in tertia mora boni
+            <lb ed="#L" n="7"/>simul duratione habuerunt 
+            era<lb ed="#L" break="no" n="8"/>tiam et gloriam.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e982">
+            <lb ed="#L" n="9"/>Alio modo ponendo tres moras,
+            <lb ed="#L" n="10"/>quod scilicet in prima omnes fue.
+            <lb ed="#L" n="11"/>runt in naturalibus; in secunda
+            <lb ed="#L" n="12"/>boni in gratia et in merito, et mali
+            <lb ed="#L" n="13"/>in demerito; in tertia et isti, et
+            <lb ed="#L" n="14"/>illi in termino. Tertio modo 
+            po<lb ed="#L" break="no" n="15"/>nendo tres moras, ita quod omnes
+            <lb ed="#L" n="16"/>in prima mora fuerunt creati in
+            <lb ed="#L" n="17"/>gratia, et. meruerunt; in secunda
+            <lb ed="#L" n="18"/>mora, boni steterunt in merito, et
+            <lb ed="#L" n="19"/>mali ceeiderunt; in tertia fuerunt
+            <lb ed="#L" n="20"/>isti, et illi in termino.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e1011">
+            <lb ed="#L" n="21"/>Alio modo possunt poni quatuor
+            <lb ed="#L" n="22"/>morae, et haec dupliciter. Uno 
+            mo<lb ed="#L" break="no" n="23"/>do, quod omnes in prima mora
+            <lb ed="#L" n="24"/>fuerunt in naturalibus; in secunda
+            <lb ed="#L" n="25"/>mali peccaverunt, et boni 
+            persti<lb ed="#L" break="no" n="26"/>terunt; in tertia, quod bonis 
+            ap<lb ed="#L" break="no" n="27"/>posita sit gratia, et meruerunt: in
+            <lb ed="#L" n="28"/>quarta boni praemiati sunt, et mali
+            <lb ed="#L" n="29"/>similiter condemnati. Alio modo,
+            <lb ed="#L" n="30"/>quod in prima mora omnmnes 
+            fue<lb ed="#L" break="no" n="31"/>runt in naturalibus; in secunda
+            <lb ed="#L" n="32"/>omnes in gratia; in tertia boni 
+            ste<lb ed="#L" break="no" n="33"/>terunt, et meruerunt in gratia, et
+            <lb ed="#L" n="34"/>mali deliquerupt; in quarta, et hi
+            <lb ed="#L" n="35"/>ct illi in termino,
+          </p>
+          <!--</div>
+            <div alias="scotus-l2d5q1-p5">-->
+          <p xml:id="jdso8u-d1e1841-d1e1049">
+            <lb ed="#L" n="61" type="fixed=305"/>SCHOLIUM.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e1054">
+            <lb ed="#L" n="62"/>Explicat quaestionem de moris per sex
+            <lb ed="#L" n="63"/>propositiones, Per primam refutat D. Thom.
+            <lb ed="#L" n="64"/>quia si mali Angeli usque ad nunc 
+            praemia<lb ed="#L" break="no" n="65"/>tionis mererentur, bearentur, quia aequales
+            <lb ed="#L" n="66"/>in merito :equaliter praeemiantur. Per 
+            secun<lb ed="#L" break="no" n="67"/>dam rejieit primum modum ponendi tres
+            <lb ed="#L" n="68"/>moras, quia non ponit meritum eondigni
+            <lb ed="#L" n="69"/>pracessisse duratione praemium. Tertia est,
+            <lb ed="#L" n="70"/>viam omnium fuisse aequalem. Quarta,
+            <lb ed="#L" n="71"/>quando boni ultimo meruerunt, mali 
+            deme<lb ed="#L" break="no" n="72"/>ruerunt. Quinta, omnes ereati uniformes,
+            <lb ed="#L" n="73"/>Secundum has ait ad minus ponendas tres
+            <lb ed="#L" n="74"/>moras; primam, qua omnes sunt in 
+            termi<lb ed="#L" break="no" n="75"/>n0; secundam, qua boni ultimo merentur,
+            <lb ed="#L" n="76"/>et mali demerentur; tertiam, qua omnes
+            <lb ed="#L" n="77"/>uniformes sunt creati; et non resolvit an
+            <lb ed="#L" n="78"/>in gratia necne, sed problematicus videtur,
+            <lb ed="#L" n="79"/>ut Alens. 2. p. q. 19. m. 2. Negant Magist.
+            <lb ed="#L" n="80"/>D. Bonav. Richard. Henrie. Hugo: Viet: 1,
+            <lb ed="#L" n="81"/>de sacram. p. 5.6.29. Affirmant D. Thom.
+            <lb ed="#L" n="82"/>et alii.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e1102">
+            <lb ed="#L" n="83"/>Adinquirendum (a) de istis viis,
+            <lb ed="#L" n="84"/>ponsupendae sunt sex 
+            propositi<lb ed="#L" break="no" n="85"/>ones probabiles, quarum prima
+            <lb ed="#L" n="86"/>est haec : Merentes usaue ad aunc
+            <pb ed="#L" n="306"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>praemiationis, in illo mwnc 
+            pre<lb ed="#L" break="no" n="2"/>miati sunt. Hoc probatur, quia in
+            <lb ed="#L" n="3"/>isto mime non sunt in via, quia illud
+            <lb ed="#L" n="4"/>nunc, est nunc proemii; ergo in isto
+            <lb ed="#L" n="5"/>nunc, nullus potest demereri, quia
+            <lb ed="#L" n="6"/>illud non potest impediri quin 
+            red<lb ed="#L" break="no" n="7"/>datur sibi praemium debitum pro
+            <lb ed="#L" n="8"/>merito pro tota duratione meriti
+            <lb ed="#L" n="9"/>protraeta usque ad illud »unc. 
+            Con<lb ed="#L" break="no" n="10"/>firmatur: homo enim in tota vita
+            <lb ed="#L" n="11"/>sua existens in merito in instanti
+            <lb ed="#L" n="12"/>mortis non potest demereri, nec
+            <lb ed="#L" n="13"/>ponere obicem quin praemietur;
+            <lb ed="#L" n="14"/>meruit enim, ut tunc daretur sibi
+            <lb ed="#L" n="15"/>impeccabilitas, ne tunc posset 
+            po<lb ed="#L" break="no" n="16"/>nere obicem ; et ideo de 
+            merenti<lb ed="#L" break="no" n="17"/>bus per totam moram vise, non
+            <lb ed="#L" n="18"/>potest dici quod ille in instanti
+            <lb ed="#L" n="19"/>remunerationis ponat obicem, et
+            <lb ed="#L" n="20"/>ille non. Hoc enim videtur 
+            pone<lb ed="#L" break="no" n="21"/>pe, quod instans praemii non sit
+            <lb ed="#L" n="22"/>terminus, sed quod tunc sit In via,
+            <lb ed="#L" n="23"/>aut saltem ille, qui potest. ponere
+            <lb ed="#L" n="24"/>obicem est in via, et. 
+            irrationabili<lb ed="#L" break="no" n="25"/>ter videtur ponere obicem. Et ex
+            <lb ed="#L" n="26"/>hocc improbatur statim prima 
+            opi<lb ed="#L" break="no" n="27"/>nio, quod non possunt tantum poni
+            <lb ed="#L" n="28"/>duse mors, sicut illa ponit.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e1178">
+            <lb ed="#L" n="29"/>Secunda propositio (b) est ista,
+            <lb ed="#L" n="30"/>quod meritum  praecessit 
+            durati<lb ed="#L" break="no" n="31"/>one praemium, qui probatur ex
+            <lb ed="#L" n="32"/>probatione  praecedentis 
+            quaesti<lb ed="#L" break="no" n="33"/>onis. Item (c) ex hoc improbatur
+            <lb ed="#L" n="34"/>prima via ponendi tres moras.
+            <lb ed="#L" n="35"/>Tertia propositio est ista, quod
+            <lb ed="#L" n="36"/>tota mora vise prefixo  
+            quibus<lb ed="#L" break="no" n="37"/>cumque Angelis erat eis sequalis,
+            <lb ed="#L" n="38"/>hoc enim est verisimile, quia sicut
+            <lb ed="#L" n="39"/>tota mora prafixa homini est us:
+            <lb ed="#L" n="40"/>que ad instans mortis, ita etiam
+            <lb ed="#L" n="41"/>istis et illis, praefixa est. aequalis
+            <lb ed="#L" n="42"/>mora essendi in via. Et ex istis
+            <lb ed="#L" n="43"/>sequitur quarta, quando boni ulti
+            <lb ed="#L" n="44"/>minate meruerunt in eodem instan.
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="45"/>ti, tunc mali demeruerunt. Nam si
+            <lb ed="#L" n="46"/>nondemeruerunt, aut tunc 
+            merue<lb ed="#L" break="no" n="47"/>runt, et per consequens eum bonis
+            <lb ed="#L" n="48"/>premiati fuissent, ex propositione
+            <lb ed="#L" n="49"/>prima; aut tunc fuissent in 
+            termi<lb ed="#L" break="no" n="50"/>no, et hoc est contra tertiam 
+            pro<lb ed="#L" break="no" n="51"/>positionem, quia tunc boni erant
+            <lb ed="#L" n="52"/>in via; aut tune. fuissent in puris
+            <lb ed="#L" n="53"/>naturalibus, et ita adhuc in mora
+            <lb ed="#L" n="54"/>sequente fuissent in via, in qua
+            <lb ed="#L" n="55"/>tamen boni erant in termino, et
+            <lb ed="#L" n="56"/>hoc est contra tertiam  
+            proposi<lb ed="#L" break="no" n="57"/>tionem.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e1246">
+            <lb ed="#L" n="58"/>Quinta propositio est, quod 
+            om<lb ed="#L" break="no" n="59"/>nes creati sunt. uniformes. Et ex
+            <lb ed="#L" n="60"/>istis propositionibus, sequitur,
+            <lb ed="#L" n="61"/>quod necesse sit ponere ad minus
+            <lb ed="#L" n="62"/>tres moras, unam scilicet, in qua
+            <lb ed="#L" n="63"/>omnes in termino sunt; et aliam
+            <lb ed="#L" n="64"/>in qua boni ultimate merentur, et
+            <lb ed="#L" n="65"/>mali demerentur; tertiam, in qua
+            <lb ed="#L" n="66"/>omnes creati sunt. uniformes, ex
+            <lb ed="#L" n="67"/>quinta propositione, et tunc si
+            <lb ed="#L" n="68"/>ponatur quod omnes fuerunt 
+            ere<lb ed="#L" break="no" n="69"/>ati in gratia, tenetur ultimus 
+            mo<lb ed="#L" break="no" n="70"/>dus ponendi tres moras. Possunt
+            <lb ed="#L" n="71"/>etiam poni probabiliter quatuor
+            <lb ed="#L" n="72"/>mors secundum ponentes quatuor
+            <lb ed="#L" n="73"/>moras.
+          </p>
+          <!--</div>
+            <div alias="scotus-l2d5q1-p6">-->
+          <p xml:id="jdso8u-d1e1841-d1e1286">
+            <lb ed="#L" n="29" type="fixed=307"/>SCHOLIUM.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e1291">
+            <lb ed="#L" n="30"/>Sexta propositio Doctoris, probabile est,
+            <lb ed="#L" n="31"/>omnes Angelos habuisse gratiam, sive 
+            fue<lb ed="#L" break="no" n="32"/>rint in ea ereati, sive non, quam Suadet ex
+            <lb ed="#L" n="33"/>Augustino. Hoc tenendo ait; primam moram
+            <lb ed="#L" n="34"/>fuisse omnium in gratia; secundam 
+            malo<lb ed="#L" break="no" n="35"/>rum in demerito, bonorum in merito; 
+            ter<lb ed="#L" break="no" n="36"/>tiam omnium in termino. Si vero teneatur
+            <lb ed="#L" n="37"/>eos fuisse aliquando in puris naturalibus,
+            <lb ed="#L" n="38"/>erunt quatuor mors, prima in naturalibus,
+            <lb ed="#L" n="39"/>reliquae ut jam dixi.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e1315">
+            <lb ed="#L" n="40"/>Sed ad inquirendum ulterius de
+            <lb ed="#L" n="41"/>dispositione eorum in moris istis,
+            <lb ed="#L" n="42"/>videtur ponenda propositio sexta
+            <lb ed="#L" n="43"/>probabilis, et est : Quod quilibet
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="44"/>Angelus aliquando fuerit in gratia;
+            <lb ed="#L" n="45"/>sive in instanti creationis, sive 
+            po<lb ed="#L" break="no" n="46"/>stea ; nam etsi non sit necesse,
+            <lb ed="#L" n="47"/>(sicut. alias forte dicetur) quod ad
+            <lb ed="#L" n="48"/>hoc, quod aliquis peccet, prius 
+            ha<lb ed="#L" break="no" n="49"/>buit, gratiam, tamen congruum
+            <lb ed="#L" n="50"/>est, quod illi noa. solum non 
+            fue<lb ed="#L" break="no" n="51"/>runt injusti, quia acceperunt 
+            li<lb ed="#L" break="no" n="52"/>bertatem naturalem, per quam
+            <lb ed="#L" n="53"/>potuerunt salvare justitiam 
+            natu<lb ed="#L" break="no" n="54"/>ralem, sed quod acceperunt 
+            justi<lb ed="#L" break="no" n="55"/>tiam gratuitam secundum 
+            Ansel<lb ed="#L" break="no" n="56"/>mum de Casu diaboli, 19. et 16. 
+            Si<lb ed="#L" break="no" n="57"/>militer videtur illa sexta 
+            proposi<lb ed="#L" break="no" n="58"/>tio probari ex propositione 
+            qua<lb ed="#L" break="no" n="59"/>dam septima, quod Deus non
+            <lb ed="#L" n="60"/>discernit inter istos et illos, 
+            ante<lb ed="#L" break="no" n="61"/>quam ipsi se per actus suos 
+            discre<lb ed="#L" break="no" n="62"/>verint, quia secundum 
+            Augusti<lb ed="#L" break="no" n="63"/>num 11. super Genesim,quaere ibi ; et
+            <lb ed="#L" n="64"/>ponitur dist. 4. hujus secundi, quare
+            <lb ed="#L" n="65"/>isti discernebantur et. non illi,
+            <lb ed="#L" n="66"/>quaere ibi. Non enim Deus est prius
+            <lb ed="#L" n="67"/>ultor, quam aliquis sit peccator ; igitur
+            <lb ed="#L" n="68"/>usque ad instans meriti et 
+            demeri<lb ed="#L" break="no" n="69"/>ti, erant omnes uniformes, et si
+            <lb ed="#L" n="70"/>tunc primo gratia apponebatur
+            <lb ed="#L" n="71"/>bonis, videtur etiam tune, quod
+            <lb ed="#L" n="72"/>debuerit etiam apponi aliis, nam
+            <lb ed="#L" n="73"/>ante illud instans non 
+            demerue<lb ed="#L" break="no" n="74"/>runt ; quare igitur non debuit eis
+            <lb ed="#L" n="75"/>apponi gratia sicut aliis, qui 
+            me<lb ed="#L" break="no" n="76"/>ruerunt? Si autem istam fuissent
+            <lb ed="#L" n="77"/>demeriti; igitur prius eam 
+            habue<lb ed="#L" break="no" n="78"/>runt, quia gratia et culpa non sunt
+            <lb ed="#L" n="79"/>simul; igitur si concedatur ista
+            <lb ed="#L" n="80"/>propositio sexta, quod quilibet 
+            pec<lb ed="#L" break="no" n="81"/>cans aliquando fuit in gratia, 
+            se<lb ed="#L" break="no" n="82"/>quitur ergo necessario, quod ille
+            <lb ed="#L" n="83"/>tres morc si ponantur, erunt istae.
+            <lb ed="#L" n="84"/>Prima mora est omnium in 
+            gra<lb ed="#L" break="no" n="85"/>tia ; et secunda istorum bonorum
+            <lb ed="#L" n="86"/>in merito, et istorum malorum in
+            <lb ed="#L" n="87"/>demerito; in tertia, omnes in ter-
+            <pb ed="#L" n="308"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>mino. Vel si dicatur eos aliquando
+            <lb ed="#L" n="2"/>fuisse in puris naturalibus, 
+            neces<lb ed="#L" break="no" n="3"/>se est tunc ponere quatuor moras,
+            <lb ed="#L" n="4"/>ita quod omnes in prima mora
+            <lb ed="#L" n="5"/>fuerunt in puris naturalibus; in
+            <lb ed="#L" n="6"/>secunda, omnes in gratia, et 
+            me<lb ed="#L" break="no" n="7"/>ruerunt boni, et mali 
+            demerue<lb ed="#L" break="no" n="8"/>runt; in tertia boni 
+            perseverave<lb ed="#L" break="no" n="9"/>runt in bono, et mali in malo ; in
+            <lb ed="#L" n="10"/>quarta et isti et illi in termino.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e1450">
+            <lb ed="#L" n="11"/>Et ista ultima via de quatuor
+            <lb ed="#L" n="12"/>moris salvat plures status in eis, et
+            <lb ed="#L" n="13"/>plures affirmativas auctoritates
+            <lb ed="#L" n="14"/>quae pluralitas si non placeat, quia
+            <lb ed="#L" n="15"/>non habet necessitatem  
+            eviden<lb ed="#L" break="no" n="16"/>tem, saltem ad minus tres istas
+            <lb ed="#L" n="17"/>moras prius assignatas probabile
+            <lb ed="#L" n="18"/>est, ponere.
+          </p>
+          <!--</div>
+            <!-\- no commentary here -\->
+            <div alias="scotus-l2d5q1-p7">-->
+          <p xml:id="jdso8u-d1e1841-d1e1472">
+            <lb ed="#L" n="19" type="fixed=308"/>SCHOLIUM.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e1478">
+            <lb ed="#L" n="20"/>De quantitate harum morarum, dicit 
+            Do<lb ed="#L" break="no" n="21"/>ctor quod prima mora potuit coexistere
+            <lb ed="#L" n="22"/>tempori, et ejus instanti ultimo, vel tantum
+            <lb ed="#L" n="23"/>unieo instanti, et utroque modo secunda
+            <lb ed="#L" n="24"/>mora non habuit primum instans in nostro
+            <lb ed="#L" n="25"/>tempore, cui corresponderet. Potuit etiam
+            <lb ed="#L" n="26"/>prima mora coexistere tempori, et non ejus
+            <lb ed="#L" n="27"/>instanti ultimo, et tunc secunda mora 
+            habe<lb ed="#L" break="no" n="28"/>ret primum instans, et conformiter ad hoc
+            <lb ed="#L" n="29"/>die de tertia mora respectu secundae, quod
+            <lb ed="#L" n="30"/>secunda fuerit coexistens tempori; colligit
+            <lb ed="#L" n="31"/>ex illa pugna inter Michaelem et Draconem,
+            <lb ed="#L" n="32"/>quae non potuit esse in instanti.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e1509">
+            <lb ed="#L" n="33"/>(a) De secundo articulo, scilicet,
+            <lb ed="#L" n="34"/>a quante fuerunt istae, morae, 
+            quam<lb ed="#L" break="no" n="35"/>vis aliqui ponant eas esse diversa
+            <lb ed="#L" n="36"/>instantia temporis discreti, tamen
+            <lb ed="#L" n="37"/>ex disi. 9. patet, quod propter nihil
+            <lb ed="#L" n="38"/>in Angelis oportet ponere tempus
+            <lb ed="#L" n="39"/>discretum, sed diversa nunc zevi.
+            <lb ed="#L" n="40"/>Sed quibus correspondebant ista
+            <lb ed="#L" n="41"/>nune zevi in tempore nostro 
+            conti<lb ed="#L" break="no" n="42"/>nuo? Dico quod ultima mora, 
+            scili<lb ed="#L" break="no" n="43"/>cel existendi in termino, corre:
+            <lb ed="#L" n="44"/>spondet toti tempori post instans
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="45"/>primum beatitudinis bonorum, et
+            <lb ed="#L" n="46"/>damnationis malorum. Mora 
+            ta<lb ed="#L" break="no" n="47"/>men prima, in qua erant 
+            unifor<lb ed="#L" break="no" n="48"/>mes, potest poni coextitisse 
+            in<lb ed="#L" break="no" n="49"/>stanti nostro, vel parti temporis
+            <lb ed="#L" n="50"/>nostri, et secundum hoc 
+            conse<lb ed="#L" break="no" n="51"/>quenter oportet ponere de 
+            secun<lb ed="#L" break="no" n="52"/>da mora; si enim prima mora
+            <lb ed="#L" n="53"/>coextitit tempori, et ultimo 
+            instan<lb ed="#L" break="no" n="54"/>ti ejus, igitur secunda mora non
+            <lb ed="#L" n="55"/>habuit aliquod primum instans in
+            <lb ed="#L" n="56"/>tem pore nostro correspondens 
+            si<lb ed="#L" break="no" n="57"/>bi. Et licet (b) videatur quibusdam
+            <lb ed="#L" n="58"/>quod necesse fuit Angelum primo
+            <lb ed="#L" n="59"/>peecasse in instanti, vel cum 
+            in<lb ed="#L" break="no" n="60"/>stanti temporis nostri, et aliis 
+            vi<lb ed="#L" break="no" n="61"/>deatur, quod necessario oporteat
+            <lb ed="#L" n="62"/>ipsum peccasse cum tempore 
+            no<lb ed="#L" break="no" n="63"/>stro: Primi habent pro se, quia inter
+            <lb ed="#L" n="64"/>privative opposita circa subjectum
+            <lb ed="#L" n="65"/>aptum natum, non est medium; et
+            <lb ed="#L" n="66"/>quando est subjectum indivisibile,
+            <lb ed="#L" n="67"/>nulla est causa successionis a 
+            ter<lb ed="#L" break="no" n="68"/>mino in terminum, neque ex parte
+            <lb ed="#L" n="69"/>terminorum neque ex parte 
+            mobi<lb ed="#L" break="no" n="70"/>lis. Secundi autem (c) habent pro
+            <lb ed="#L" n="71"/>se, quod nulla virtus creata agit
+            <lb ed="#L" n="72"/>in instanti, quia Lune major virtus
+            <lb ed="#L" n="73"/>ageret in minori quam in instanti.
+            <lb ed="#L" n="74"/>Neutre tamen rationes 
+            conclu<lb ed="#L" break="no" n="75"/>dunt, de prima patebit lib. 3. dist. 3.
+            <lb ed="#L" n="76"/>ubi respondebitur ad istas rationes,
+            <lb ed="#L" n="77"/>sustinendo quod anima Beatae 
+            Vir<lb ed="#L" break="no" n="78"/>ginis potuit praecise esse in 
+            pee<lb ed="#L" break="no" n="79"/>cato per instans, et postea fuisse
+            <lb ed="#L" n="80"/>munda. Nec etiam secunda 
+            conclu<lb ed="#L" break="no" n="81"/>dit, et responsum est ad eam prius
+            <lb ed="#L" n="82"/>dist. 9. hujus 2. utroque ergo modo
+            <lb ed="#L" n="83"/>potuit esse, et quod prima illa 
+            mo<lb ed="#L" break="no" n="84"/>ra innocentiae coexisteret tempori,
+            <lb ed="#L" n="85"/>et non ultimo ejus instanti, et tunc
+            <lb ed="#L" n="86"/>secunda mora habuit primum 
+            in<lb ed="#L" break="no" n="87"/>stans temporis coexistens sibi; vel
+            <lb ed="#L" n="88"/>auod nrima mora eoexisteret tem-
+            <pb ed="#L" n="309"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>pori, et ultimo instanti ejus, aut
+            <lb ed="#L" n="2"/>soli instanti uni temporis, et tunc
+            <lb ed="#L" n="3"/>secunda mora non habuit aliquod
+            <lb ed="#L" n="4"/>primum instans sibi 
+            correspon<lb ed="#L" break="no" n="5"/>dens, sicut. non est dare primam
+            <lb ed="#L" n="6"/>mutationem in motu continuo ex 6.
+            <lb ed="#L" n="7"/>Physicorum.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e1655">
+            <lb ed="#L" n="8"/>Sed qualis erat secunda mora in
+            <lb ed="#L" n="9"/>se? Numquid instantanea vel 
+            indi<lb ed="#L" break="no" n="10"/>visibilis ? Videtur quod non, 
+            pro<lb ed="#L" break="no" n="11"/>pter duo. Primo, quia Angeli mali
+            <lb ed="#L" n="12"/>peecaverunt pluribus peccatis 
+            di<lb ed="#L" break="no" n="13"/>versa speciei, et non habuerunt
+            <lb ed="#L" n="14"/>simul omnes actus illos; igitur
+            <lb ed="#L" n="15"/>habuerunt unum post alium, et in
+            <lb ed="#L" n="16"/>tota mora, in qua habuerunt actus
+            <lb ed="#L" n="17"/>istos, fuerunt in via, alioquin
+            <lb ed="#L" n="18"/>actus eorum posteriores non 
+            fuis<lb ed="#L" break="no" n="19"/>sent eis demeritorii, sed quasi 
+            pce<lb ed="#L" break="no" n="20"/>na existentium in termino.
+            <lb ed="#L" n="21"/>Secundo, quia Angelis bonis pro
+            <lb ed="#L" n="22"/>magno merito adscribitur, quod
+            <lb ed="#L" n="23"/>vicerunt prelium 'tentationis, 
+            A<lb ed="#L" break="no" n="24"/>poc. 13. Factum est prelium magnum
+            <lb ed="#L" n="25"/>in celo, Hichael et Angeli ejus 
+            prcelia<lb ed="#L" break="no" n="26"/>bantur cum. dracone, etc. SY enim 
+            prae<lb ed="#L" break="no" n="27"/>cise esset unum instans, in quo
+            <lb ed="#L" n="28"/>mali demeruerunt, et boni 
+            merue<lb ed="#L" break="no" n="29"/>runt, in illo non fuisset ista 
+            pu<lb ed="#L" break="no" n="30"/>£na, nec victoria tentationis, et
+            <lb ed="#L" n="31"/>ita non adscriberetur ista victoria
+            <lb ed="#L" n="32"/>eis in laudem, et excellens 
+            meri<lb ed="#L" break="no" n="33"/>tum eorum. Assumptum probatur,
+            <lb ed="#L" n="34"/>quia si tantum fuisset unum 
+            in<lb ed="#L" break="no" n="35"/>stans, simul peccassent mali, et
+            <lb ed="#L" n="36"/>boni meruissent. Sed in illo 
+            in<lb ed="#L" break="no" n="37"/>stanti naturae, in quo mali 
+            pecoea<lb ed="#L" break="no" n="38"/>verunt, peccatum eorum non 
+            ten<lb ed="#L" break="no" n="39"/>tavit bonos, nec enim tentavit eos
+            <lb ed="#L" n="40"/>nisi posterius* natura quam fuit
+            <lb ed="#L" n="41"/>commissum a malis; posterius
+            <lb ed="#L" n="42"/>igitur vicerunt boni tentationem,
+            <lb ed="#L" n="43"/>quam mali peecaverunt, ex quo
+            <lb ed="#L" n="44"/>concluditur, quod mora demeriti
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="45"/>malorum non erat indivisibilis.
+            <lb ed="#L" n="46"/>Et ex hoc sequitur, quod nec mora
+            <lb ed="#L" n="47"/>meriti bonorum, quia erant :
+            equa<lb ed="#L" break="no" n="48"/>les, ex propositione tertia ; et 
+            se<lb ed="#L" break="no" n="49"/>cunda via hoc specialiter 
+            conclu<lb ed="#L" break="no" n="50"/>dit de mora meriti bonorum.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e1753">
+            <lb ed="#L" n="51"/>Ad argumenta (d) Ad primum
+            <lb ed="#L" n="52"/>dico, quod consequentia non valet.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e1760">
+            <lb ed="#L" n="53"/>Ad probationem consequentis, di-
+            <lb ed="#L" n="54"/>co quod Deus potuisset eis 
+            de<lb ed="#L" break="no" n="55"/>disse beatitudinem in instanti
+            <lb ed="#L" n="56"/>creationis, si voluisset, sed 
+            glo<lb ed="#L" break="no" n="57"/>riosius est, eam habere ex merito,
+            <lb ed="#L" n="58"/>et ita disposuit sua sapientia, 
+            me<lb ed="#L" break="no" n="59"/>ritum autem istud, non potuit 
+            es<lb ed="#L" break="no" n="60"/>se supposita liberalitate divina,
+            <lb ed="#L" n="61"/>qua creavit omnes eaequales, nisi
+            <lb ed="#L" n="62"/>ad minus duabus moris 
+            praeceden<lb ed="#L" break="no" n="63"/>tibus ipsam beatitudinem.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e1786">
+            <lb ed="#L" n="64"/>Ad aliud licet negetur similitudo
+            <lb ed="#L" n="65"/>de gratia et gloria ad culpam et
+            <lb ed="#L" n="66"/>poenam ; tamen (e) dico, quod non,
+            <lb ed="#L" n="67"/>simul erant mali, demeritorie et ;
+            <lb ed="#L" n="68"/>culpabiliter damnati, quia non 
+            si<lb ed="#L" break="no" n="69"/>mul erant ipsi in via et in termino,
+            <lb ed="#L" n="70"/>sicut nec boni; et licet modo sint
+            <lb ed="#L" n="71"/>in culpa, non tamen demerentur ut
+            <lb ed="#L" n="72"/>viatores, elieiendo actum, quem
+            <lb ed="#L" n="73"/>elicere imputetur eis ad 
+            demeri<lb ed="#L" break="no" n="74"/>tum.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e1813">
+            <lb ed="#L" n="75"/>Ad probationem, quae innuitur
+            <lb ed="#L" n="76"/>pro opinione, quae» ponit duas 
+            mo<lb ed="#L" break="no" n="77"/>ras tantum, scilicet quia 
+            intelli<lb ed="#L" break="no" n="78"/>gunt sine discursu, et ita 
+            acqui<lb ed="#L" break="no" n="79"/>runt perfectionem suam ; 
+            respon<lb ed="#L" break="no" n="80"/>deo, si ex hoc fuissent statim
+            <lb ed="#L" n="81"/>beati post unum actum, sequeretur
+            <lb ed="#L" n="82"/>quod mali, qui, secundum eum,
+            <lb ed="#L" n="83"/>meruerunt in primo instanti, 
+            fuis<lb ed="#L" break="no" n="84"/>sent beatiet nunquam peccassent,
+            <lb ed="#L" n="85"/>et ideo illud assumptum est falsum
+            <lb ed="#L" n="86"/>de perfectione Angelorum 
+            natura<lb ed="#L" break="no" n="87"/>li, sicut tactum est <ref xml:id="jdso8u-d1e1841-Rd1e1843">dist. 3. part. 9.
+              <lb ed="#L" n="88"/>q. 2. hujus libri</ref>, et multo falsius de
+            <pb ed="#L" n="310"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>perfectione supernaturali quam
+            <lb ed="#L" n="2"/>acquirunt meritorie. Illa enim est
+            <lb ed="#L" n="3"/>secundum acceptationem  
+            prcemi<lb ed="#L" break="no" n="4"/>antis, cujus lex est, quod qui 
+            perse<lb ed="#L" break="no" n="5"/>veraverit usque in finem, hic salvus erit,et
+            <lb ed="#L" n="6"/>qui ceciderit condemnabitur ; et ideo si
+            <lb ed="#L" n="7"/>aliquando meruerunt, et non 
+            per<lb ed="#L" break="no" n="8"/>severaverunt pro tota mora 
+            depu<lb ed="#L" break="no" n="9"/>tata vise, non sufficienter ad 
+            beati<lb ed="#L" break="no" n="10"/>tudinem aeternam meruerunt.
+          </p>
+          <!--</div>
+            <div alias="scotus-l2d5q2-p1">-->
+          <!-- marignal suggestion that this question might be part of reportatio or lectura -->
+          <p xml:id="jdso8u-d1e1841-d1e1879">
+            <lb ed="#L" n="16" type="fixed=313"/>QUAESTIO II.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e1884">
+            <lb ed="#L" n="17"/>Utrum Angeli boni fuerint beati in 
+            pri<lb ed="#L" break="no" n="18"/>mo instanti creationis sue, et Angeli
+            <lb ed="#L" n="19"/>mali miseri?
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e1893">
+            <lb ed="#L" n="20"/>Adens 240. q. 99. m. 1. d. 7. D. "Thom. 1. p.
+            <lb ed="#L" n="21"/>q. 63. a. 5. Henr. quodl. 8. q. 10. Capreol. 2.
+            <lb ed="#L" n="22"/>d. 4. q. 1. a. 1. Greg. hic q. 1. art. 2. Bassol.
+            <lb ed="#L" n="23"/>q. 1. a. 2. Marsil. 2 g. 3. a. 2. Vasq. 1. p.
+            <lb ed="#L" n="24"/>d. 2. 36. vide Scot. in Theorem. S in simul
+            <lb ed="#L" n="25"/>existentibus.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e1910">
+            <lb ed="#L" n="26"/>Quod sic videtur, nam in primo
+            <lb ed="#L" n="27"/>instanti fuerunt beati beatitudine
+            <lb ed="#L" n="28"/>naturali; ergo et beatitudine 
+            su<lb ed="#L" break="no" n="29"/>pernaturali. Probatio 
+            consequen<lb ed="#L" break="no" n="30"/>iie : Causa efficiens beatitudinis
+            <lb ed="#L" n="31"/>supernaturalis est efficacior causa
+            <lb ed="#L" n="32"/>efficiente beatitudinis naturalis ;
+            <lb ed="#L" n="33"/>ergo aeque Cito vel oitius, potest
+            <lb ed="#L" n="34"/>producere effectum suum. Probatio
+            <lb ed="#L" n="35"/>antecedentis, quia Angeli in primo
+            <lb ed="#L" n="36"/>instanti su: creationis habuerunt
+            <lb ed="#L" n="37"/>vel habere potuerunt intellectum
+            <lb ed="#L" n="38"/>perfectum, et voluntatem, et 
+            ob<lb ed="#L" break="no" n="39"/>jectum utriusque praesens ; ergo
+            <lb ed="#L" n="40"/>fuerunt, vel esse potuerunt beati
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="41"/>beatitudine naturali in primo 
+            in<lb ed="#L" break="no" n="42"/>stanti.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e1952">
+            <lb ed="#L" n="43"/>Item, boni fuerunt in primo 
+            in<lb ed="#L" break="no" n="44"/>stantiin gratia; ergo in primo 
+            in<lb ed="#L" break="no" n="45"/>stanti fuerunt beati. Probatio 
+            an<lb ed="#L" break="no" n="46"/>tecedentis per Augustinum 12.
+            <lb ed="#L" n="47"/>de Civitate, cap 9. dicentem quod
+            <lb ed="#L" n="48"/>Deus fuit simul condens naturam  
+            Ange<lb ed="#L" break="no" n="49"/>lorum, et largiens gratiam. Probatio
+            <lb ed="#L" n="50"/>consequentize,quia Angelus sine 
+            di<lb ed="#L" break="no" n="51"/>scursu statim consequitur suam
+            <lb ed="#L" n="52"/>perfectionem |. naturalem,  
+            habi<lb ed="#L" break="no" n="53"/>ta dispositione naturali requisita ;
+            <lb ed="#L" n="54"/>ergo et habita dispositione 
+            super<lb ed="#L" break="no" n="55"/>naturali, quae est gratia, statim 
+            si<lb ed="#L" break="no" n="56"/>ne discursu consequitur suam 
+            per<lb ed="#L" break="no" n="57"/>fectionem supernaturalem, quia
+            <lb ed="#L" n="58"/>dispositio supernaturalis quae est
+            <lb ed="#L" n="59"/>gratia, non magis repugnat, vel
+            <lb ed="#L" n="60"/>non minus convenit perfectioni
+            <lb ed="#L" n="61"/>supernaturali ad illam 
+            inducen<lb ed="#L" break="no" n="62"/>dam, quam dispositio naturalis
+            <lb ed="#L" n="63"/>perfectioni naturali ad quam dis:
+            <lb ed="#L" n="64"/>ponit.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e2002">
+            <lb ed="#L" n="65"/>Item, quod mali ab initio fuerunt
+            <lb ed="#L" n="66"/>miseri, probatio Augustini super
+            <lb ed="#L" n="67"/>Genesim lib. 11. capit. 16. et habetur
+            <lb ed="#L" n="68"/>dist. 3. cap. illo : putaverunt quidam, etc.
+            <lb ed="#L" n="69"/>Et probatur ibi, ut videtur hoc per
+            <lb ed="#L" n="70"/>illam auctoritatem Joan. 8. Ille 
+            ho<lb ed="#L" break="no" n="71"/>micida erat ab initio, et in veritate non
+            <lb ed="#L" n="72"/>stetit.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e2022">
+            <lb ed="#L" n="73"/>Item Augustinus, ubi supra, et
+            <lb ed="#L" n="74"/>ponitur distinct. 3. eod. cap. quo 
+            pri<lb ed="#L" break="no" n="75"/>us allegat auctoritatem Job. 40. ubi
+            <lb ed="#L" n="76"/>dicitur de diabolo : Hic est, inquit,
+            <lb ed="#L" n="77"/>initium figmenti Dei, et nostra 
+            trans<lb ed="#L" break="no" n="78"/>latio habet, ipse est principium viarum
+            <lb ed="#L" n="79"/>Dei ; et ibidem allegatur auctoritas
+            <lb ed="#L" n="80"/>Psal. Draco iste, quem formasti ad il- :
+            <lb ed="#L" n="81"/>ludendum ei; ergo in principio fuit
+            <lb ed="#L" n="82"/>malus.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e2046">
+            <lb ed="#L" n="83"/>Oppositum de bonis. Augustinus
+            <lb ed="#L" n="84"/>lib. 1. cap. 9. super Genesim, et poni-
+            <pb ed="#L" n="314"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>tur distinct. 3. cap illo, aliis autem
+            <lb ed="#L" n="2"/>videtur, etc. Angelicam, inquit, 
+            na<lb ed="#L" break="no" n="3"/>turam. primo ' informatam creatam,
+            <lb ed="#L" n="4"/>et. colum — dictam, postea formalam,
+            <lb ed="#L" n="5"/>et lucem appellatam, quando scilicet ad
+            <lb ed="#L" n="6"/>crealorem est. conversa perfecta 
+            dilecti<lb ed="#L" break="no" n="7"/>one sibi inhcerens.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e2072">
+            <lb ed="#L" n="8"/>Item de malis, quod non statim
+            <lb ed="#L" n="9"/>fuerunt mali probatur per 
+            aucto<lb ed="#L" break="no" n="10"/>ritatem Origenis in glossa super
+            <lb ed="#L" n="11"/>Ezechielem, et ponitur distinct. 3.
+            <lb ed="#L" n="12"/>cap. adhuc autem videtur, etc. ubi 
+            dici<lb ed="#L" break="no" n="13"/>iu: Serpens hostis contrarius veritati,
+            <lb ed="#L" n="14"/>non tamen a principio super pectus suum
+            <lb ed="#L" n="15"/>et ventrem ambulavit, sicut nec Eva, nec
+            <lb ed="#L" n="16"/>Adam statim peccaverunt, et loquitur
+            <lb ed="#L" n="17"/>de diabolo sub nomine serpentis.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e2097">
+            <lb ed="#L" n="18"/>Item Ezech. 98. dicitur: Tu 
+            signa<lb ed="#L" break="no" n="19"/>culum. similitudinis plenus sapientia, et
+            <lb ed="#L" n="20"/>perfectus decore in. deliciis Paradisi Dei
+            <lb ed="#L" n="21"/>f"isti ; ergo non statim in miseria.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e2108">
+            <lb ed="#L" n="22"/>Respondeo, (a) primo videndum
+            <lb ed="#L" n="23"/>est de possibili, sequendo 
+            rati<lb ed="#L" break="no" n="24"/>onem ; secundo de facto, sequendo
+            <lb ed="#L" n="25"/>auctoritatem. Primo ergo 
+            viden<lb ed="#L" break="no" n="26"/>dum est an in primo instanti, 
+            po<lb ed="#L" break="no" n="27"/>tuerunt esse beati, vel miseri. Et
+            <lb ed="#L" n="28"/>dico, quod boni potuerunt in primo
+            <lb ed="#L" n="29"/>instanti esse beati, cujus ratio est
+            <lb ed="#L" n="30"/>ista, quia beatitudo non potest
+            <lb ed="#L" n="31"/>inesse alieui creatura capaci 
+            bea<lb ed="#L" break="no" n="32"/>titudinis nisi a Deo ; ergo pro 
+            quo<lb ed="#L" break="no" n="33"/>cumque instanti est beatitudo 
+            pos<lb ed="#L" break="no" n="34"/>sibilis dari a Deo, et in esse 
+            crea<lb ed="#L" break="no" n="35"/>turae capaci illius, pro illo instanti
+            <lb ed="#L" n="36"/>est simpliciter possibilis; sed pro
+            <lb ed="#L" n="37"/>quocumque instanti Deus potuit
+            <lb ed="#L" n="38"/>illam dare, ita bene in primo, 
+            sic<lb ed="#L" break="no" n="39"/>ut in.secoundo, vel.in, tertio 
+            in<lb ed="#L" break="no" n="40"/>stanti; et. Angelus bonus pro 
+            quo<lb ed="#L" break="no" n="41"/>eumque instanti fuit capax, quia
+            <lb ed="#L" n="42"/>per naturam est imago Dei, qua
+            <lb ed="#L" n="43"/>esb capax Dei, et illam plenam ha-
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="44"/>buit naturam et perfectam in 
+            na<lb ed="#L" break="no" n="45"/>turalibus, quare, etc.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e2165">
+            <lb ed="#L" n="46"/>(b) Utrum autem in primo 
+            in<lb ed="#L" break="no" n="47"/>stanti potuerunt esse miseri, 
+            di<lb ed="#L" break="no" n="48"/>stinguitur de miseria; est enim
+            <lb ed="#L" n="49"/>duplex, scilicet poenae et culpae. De
+            <lb ed="#L" n="50"/>miseria poenae quantum ad illud
+            <lb ed="#L" n="51"/>quod est, scilicet quantum ad illud
+            <lb ed="#L" n="52"/>incommodum, quod nunc infligitur
+            <lb ed="#L" n="53"/>vel infligetur pro culpa, potuerunt
+            <lb ed="#L" n="54"/>esse miseri in primo instanti, quia
+            <lb ed="#L" n="55"/>non videtur contradictio, quod in
+            <lb ed="#L" n="56"/>primo instanti insit, vel in fuisset
+            <lb ed="#L" n="57"/>nature Angeli. Potuit etiam 
+            im<lb ed="#L" break="no" n="58"/>mediate dari a Deo pro illo primo
+            <lb ed="#L" n="59"/>instanti, sicut et beatitudo, dicente
+            <lb ed="#L" n="60"/>Augustino 3. de lib. arb. Si Deus ab
+            <lb ed="#L" n="61"/>inilio fecisset hominem in pena, non 
+            es<lb ed="#L" break="no" n="62"/>sel. propter hoc vituperandus Deus, nec
+            <lb ed="#L" n="63"/>injustus, sed. si ab initio mon. fuissel. in
+            <lb ed="#L" n="64"/>poena, et postea fecisset eum in pena sine
+            <lb ed="#L" n="65"/>suo demerito, vituperandus esset.
+          </p>
+          <!--</div>
+            <div alias="scotus-l2d5q2-p2">-->
+          <p xml:id="jdso8u-d1e1841-d1e2213">
+            <lb ed="#L" n="32" type="fixed=315"/>SCHOLIUM.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e2218">
+            <lb ed="#L" n="33"/>Postquam Doctor resolvit potuisse 
+            Ange<lb ed="#L" break="no" n="34"/>lum primo instanti esse beatum, ac etiam
+            <lb ed="#L" n="35"/>miserum, loquendo de miseria poenae, ponit
+            <lb ed="#L" n="36"/>sententiam D. Thom: negantis eum potuisse
+            <lb ed="#L" n="37"/>habere miseriam eulps: in primo instanti,
+            <lb ed="#L" n="38"/>quia operatio, quae simul est esse rei, e:t
+            <lb ed="#L" n="39"/>effective a producente rem. Hanc rationem
+            <lb ed="#L" n="40"/>refutat Scotus tribus rationibus; alias octo
+            <lb ed="#L" n="41"/>rationes, pro illa conclusione, celare refutat,
+            <lb ed="#L" n="42"/>ex quibus fere praecipuas deducit ad 
+            oppo<lb ed="#L" break="no" n="43"/>situm. miscendo selectas doctrinas.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e2245">
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="44"/>De miseria (b) culpae dicitur,
+            <lb ed="#L" n="45"/>quod non potuit in primo instanti
+            <lb ed="#L" n="46"/>peecasse. Et ratio unius Doctoris
+            <lb ed="#L" n="47"/>prima est haec,quia illud peccatum
+            <lb ed="#L" n="48"/>in primo illo instanti aut eis 
+            ines<lb ed="#L" break="no" n="49"/>set a Deo creante, quod non est
+            <lb ed="#L" n="50"/>verum, quia Deus non est auctor
+            <lb ed="#L" n="51"/>mali culpa, nec potest esse causa
+            <lb ed="#L" n="52"/>defectiva respectu  eulpse; aut
+            <lb ed="#L" n="53"/>inesset. eis per proprium actum
+            <lb ed="#L" n="54"/>voluntatis suze, sed hoc non potest
+            <lb ed="#L" n="55"/>esse. Probatio, quia omnis 
+            opera<lb ed="#L" break="no" n="56"/>tio, quae simul ineipit eum esse
+            <lb ed="#L" n="57"/>rei, est effective a causa 
+            producen<lb ed="#L" break="no" n="58"/>te rem in esse. Exemplum, quia 
+            de<lb ed="#L" break="no" n="59"/>scensus gravis simul incipit cum
+            <lb ed="#L" n="60"/>esse ejus, ideo descensus ille 
+            cau<lb ed="#L" break="no" n="61"/>satur a generante grave. Ponitur
+            <lb ed="#L" n="62"/>etiam exemplum de tibia clauda ;
+            <lb ed="#L" n="63"/>cum igitur, nec a Deo effective,
+            <lb ed="#L" n="64"/>quia Deus non potest esse causa,
+            <lb ed="#L" n="65"/>vel auctor mali, nec a proprio actu
+            <lb ed="#L" n="66"/>sua voluntatis, vel a propria 
+            vo<lb ed="#L" break="no" n="67"/>luntate effective in primo instanti,
+            <lb ed="#L" n="68"/>potuerunt habere peccatum, vel
+            <lb ed="#L" n="69"/>actum talem vitiosum,  
+            sequi<lb ed="#L" break="no" n="70"/>Dupneto:
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e2308">
+            <lb ed="#L" n="71"/>Sed haec ratio (c) non valet, quia.
+            <lb ed="#L" n="72"/>secundum Augustinum 41. de Civit.
+            <lb ed="#L" n="73"/>Dei cap. 13. ubi dicit: qui dicunt 
+            Ange<lb ed="#L" break="no" n="74"/>los a principio fuisse malos, non sentiunt
+            <lb ed="#L" n="75"/>cum Manicheis, qui ponebant unum
+            <lb ed="#L" n="76"/>Deum malum immediate esse causam 
+            ma<lb ed="#L" break="no" n="77"/>li, et alterum esse immediate causam 
+            bo<lb ed="#L" break="no" n="78"/>ni; ergo secundum Augustinum
+            <lb ed="#L" n="79"/>non sequitur:ipsi fuerunt mali a
+            <lb ed="#L" n="80"/>principio; ergo eorum malitia fuit
+            <lb ed="#L" n="81"/>causata a Deo.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e2334">
+            <lb ed="#L" n="82"/>Item, defectus causae (d) 
+            secun<lb ed="#L" break="no" n="83"/>de in agendo inquantum defectus
+            <lb ed="#L" n="84"/>est, non est effectus causae prima ;
+            <lb ed="#L" n="85"/>ergo defectus procedens a-
+            volun<lb ed="#L" break="no" n="86"/>tate Angeli in illo primo instanti,
+            <lb ed="#L" n="87"/>$1 fuisset, non fuisset a Deo, vel a
+            <pb ed="#L" n="316"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>causa prima, sicut nunc est.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e2356">
+            <lb ed="#L" n="2"/>Item, secunda (e) causa, scilicet
+            <lb ed="#L" n="3"/>voluntas, semper aequaliter 
+            causa<lb ed="#L" break="no" n="4"/>tur a Deo, non solum quantum ad
+            <lb ed="#L" n="5"/>conservari, sed quantum ad 
+            causa<lb ed="#L" break="no" n="6"/>rl, secundum Augustinum 8. super
+            <lb ed="#L" n="7"/>Genesim, volentem, quod Sol sicut
+            <lb ed="#L" n="8"/>causat lucem in aere, quod aer
+            <lb ed="#L" n="9"/>semper sit lucidus a Sole quamdiu
+            <lb ed="#L" n="10"/>lux est in aere; sic Deus semper
+            <lb ed="#L" n="11"/>causat unum, nam conservari 
+            con<lb ed="#L" break="no" n="12"/>tinue ab ipso est continue causari;
+            <lb ed="#L" n="13"/>sicut ergo defectus caus:e secundae
+            <lb ed="#L" n="14"/>infuisset a Deo in primo 
+            instan<lb ed="#L" break="no" n="15"/>ti, cum Deus nunc causet. 
+            volunta<lb ed="#L" break="no" n="16"/>tem sicut in primo instanti, nunc
+            <lb ed="#L" n="17"/>causaret peccatum, sicut in 
+            prin<lb ed="#L" break="no" n="18"/>cipio.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e2395">
+            <lb ed="#L" n="19"/>Arguitur etiam (f) ad eamdem
+            <lb ed="#L" n="20"/>conclusionem secundo sic: Á
+            nge<lb ed="#L" break="no" n="21"/>lus non potest habere primum
+            <lb ed="#L" n="22"/>velle a se, sed ab alio; sed tale
+            <lb ed="#L" n="23"/>velle non faceret Angelum 
+            peccea<lb ed="#L" break="no" n="24"/>re, vel esse in culpa, quare, etc.
+            <lb ed="#L" n="25"/>Probatio assumpti per Anselmum
+            <lb ed="#L" n="26"/>de casu Diaboli, cap. 13. quia 
+            secun<lb ed="#L" break="no" n="27"/>dum eum: Si primum velle a se 
+            ha<lb ed="#L" break="no" n="28"/>bet, aut hoc est nolens, aut. volens ; si
+            <lb ed="#L" n="29"/>volens, igitur illud non est primum
+            <lb ed="#L" n="30"/>velle ; si nolens, idem sequitur, quia
+            <lb ed="#L" n="31"/>ante illud velle, moluit illud ; igitur
+            <lb ed="#L" n="32"/>voluit 3llud non esse, igitur aliquid 
+            vo<lb ed="#L" break="no" n="33"/>luit. Cum igitur per positum, 
+            pec<lb ed="#L" break="no" n="34"/>catum fuerit in primo instanti,
+            <lb ed="#L" n="35"/>non fuit ab actu voluntatis 
+            pro<lb ed="#L" break="no" n="36"/>prie, nec a Deo; igitur nullo
+            <lb ed="#L" n="37"/>modo.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e2439">
+            <lb ed="#L" n="38"/>Dico ad istud (g) argumentum,
+            <lb ed="#L" n="39"/>supposito quod voluntas possit 
+            es<lb ed="#L" break="no" n="40"/>se causa activa suc volitionis, 
+            ob<lb ed="#L" break="no" n="41"/>jeeto sibi praeostenso et praesente,
+            <lb ed="#L" n="42"/>dieo tune, quod potest esse causa
+            <lb ed="#L" n="43"/>prime volitionis, sicut et secundae,
+            <lb ed="#L" n="44"/>eum sinf eiusdem rationis: 1mo se-
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="45"/>cundum sic ponentes, esset 
+            proces<lb ed="#L" break="no" n="46"/>sus in infinitum, nisi haberet 
+            pri<lb ed="#L" break="no" n="47"/>mum velle a se primo. Nam 
+            quae<lb ed="#L" break="no" n="48"/>ro a quo primum habet velle? aut
+            <lb ed="#L" n="49"/>a se, et habetur propositum ; aut
+            <lb ed="#L" n="50"/>ab alio, et tunc hoc erit per aliud
+            <lb ed="#L" n="51"/>velle; et de isto quaero a quo 
+            ha<lb ed="#L" break="no" n="52"/>bet? si a se, habetur propositum ;
+            <lb ed="#L" n="53"/>si ab alio, erit processus in 
+            infi<lb ed="#L" break="no" n="54"/>nitum.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e2482">
+            <lb ed="#L" n="55"/>Ad Anselmum, dico: (h) q*od
+            <lb ed="#L" n="56"/>ipse finxit unum Angelum, qui
+            <lb ed="#L" n="57"/>prius esset una essentia nuda,
+            <lb ed="#L" n="58"/>non habens formaliter potentiam
+            <lb ed="#L" n="59"/>volitivam, quam ipse vocavit 
+            in<lb ed="#L" break="no" n="60"/>strumentum; iste Angelus sic
+            <lb ed="#L" n="61"/>imaginatus secundum Anselmum,
+            <lb ed="#L" n="62"/>non potest habere primum velle
+            <lb ed="#L" n="63"/>a se, qu!a oportet ipsum reduci
+            <lb ed="#L" n="64"/>ad actum primum, scilicet, quod
+            <lb ed="#L" n="65"/>habeat voluntatem antequam 
+            eli<lb ed="#L" break="no" n="66"/>clat volitionem, et hoc non 
+            po<lb ed="#L" break="no" n="67"/>test a se esse. Et tunc cum 
+            di<lb ed="#L" break="no" n="68"/>eltur, si habet a se, aut volens,
+            <lb ed="#L" n="69"/>aut nolens, dicendum quod nec
+            <lb ed="#L" n="70"/>volens, nec nolens habet primum
+            <lb ed="#L" n="71"/>velle. Vel si dieamus (i) illum 
+            An<lb ed="#L" break="no" n="72"/>gelum habere instrumentum, 
+            scili<lb ed="#L" break="no" n="73"/>cet potentiam volitivam, tamen 
+            fin<lb ed="#L" break="no" n="74"/>gimus ipsum sine affectione 
+            com<lb ed="#L" break="no" n="75"/>modi vel incommodi,vel justi vel 
+            in<lb ed="#L" break="no" n="76"/>justi,tunc non potest habere velle a
+            <lb ed="#L" n="77"/>se, sed a Deo secundum primam 
+            af<lb ed="#L" break="no" n="78"/>fectionem commodi vel 
+            incommo<lb ed="#L" break="no" n="79"/>di, qua superadditur nature sus,
+            <lb ed="#L" n="80"/>sed habita affectione commodi,
+            <lb ed="#L" n="81"/>prima volitio elicita est a se. Et
+            <lb ed="#L" n="82"/>isto modo intelligit Anselmus.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e2545">
+            <lb ed="#L" n="83"/>Arguit tertio (1) ad istam 
+            conclu<lb ed="#L" break="no" n="84"/>sionem sic: Si voluntas Angeli 
+            pec<lb ed="#L" break="no" n="85"/>cat in primo instanti; ergo non
+            <lb ed="#L" n="86"/>peccat. Probatio consequentiw,
+            <lb ed="#L" n="87"/>quia si in primo instanti peccavit,
+            <lb ed="#L" n="88"/>non pofuit non npeeeare. eraeo ne-
+            <pb ed="#L" n="317"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>cessario peccavit. Probatio istius
+            <lb ed="#L" n="2"/>consequentice, quia si potuit. non
+            <lb ed="#L" n="3"/>peccare, aut potentia ante actum,
+            <lb ed="#L" n="4"/>quod falsum est; nam ante primum
+            <lb ed="#L" n="5"/>instans non fuit potentia in ipso,
+            <lb ed="#L" n="6"/>nec potentia cum actu, quia in isto
+            <lb ed="#L" n="7"/>instanti in quo peccavit, non 
+            po<lb ed="#L" break="no" n="8"/>tuit non peccare, et ideo per illam
+            <lb ed="#L" n="9"/>potentiam non potuit non peccare.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e2584">
+            <lb ed="#L" n="10"/>(K) Sed hoc argumentum non
+            <lb ed="#L" n="11"/>valet: solutum enim est distinct. 1.
+            <lb ed="#L" n="12"/>libri secundi, inm questione de 
+            aeterni<lb ed="#L" break="no" n="13"/>iate mundi, et in. primo libro de 
+            prede<lb ed="#L" break="no" n="14"/>stinatione, quia ut dictum est ibi,
+            <lb ed="#L" n="15"/>causa non causat effectum, nisi ut
+            <lb ed="#L" n="16"/>prior natura, non prior 
+            durati<lb ed="#L" break="no" n="17"/>one, nam etsi non sit duratione
+            <lb ed="#L" n="18"/>prior causa quam causans, tamen
+            <lb ed="#L" n="19"/>prior fuit natura; ergo si omnis
+            <lb ed="#L" n="20"/>causa dum causat, necessario 
+            cau<lb ed="#L" break="no" n="21"/>Sal, omnis causa necessario 
+            cau<lb ed="#L" break="no" n="22"/>But.let. tune. -nihil- contingenter
+            <lb ed="#L" n="23"/>eveniet, quia causa non est 
+            contin<lb ed="#L" break="no" n="24"/>genter causans antequam causet.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e2619">
+            <lb ed="#L" n="25"/>Item, omnis libertas arbitrii
+            <lb ed="#L" n="26"/>tolletur, nam voluntas in isto
+            <lb ed="#L" n="27"/>instanti non elieit. actum |li5ere,
+            <lb ed="#L" n="28"/>et non elicit illum libere 
+            ante<lb ed="#L" break="no" n="29"/>quam eliciat; si ergo nunc elicit
+            <lb ed="#L" n="30"/>de necessitate per te, quia pro
+            <lb ed="#L" n="31"/>nune non potest non elicere; ergo
+            <lb ed="#L" n="32"/>nunquam libere eliciet.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e2639">
+            <lb ed="#L" n="33"/>Hoc etiam esset contra eos qui
+            <lb ed="#L" n="34"/>dieunt, quod voluntas necessario
+            <lb ed="#L" n="35"/>vult finem, non autem ea qua
+            <lb ed="#L" n="36"/>sunt ad finem; sl ergo necessario
+            <lb ed="#L" n="37"/>vult quando vult, tunc ita 
+            neces<lb ed="#L" break="no" n="38"/>sario vult ea qua sunt ad finem
+            <lb ed="#L" n="39"/>sicut finem, quia neutrum vult
+            <lb ed="#L" n="40"/>antequam velit, et ideo utrumque
+            <lb ed="#L" n="41"/>uolet -vel vult necessario, ut
+            <lb ed="#L" n="42"/>dictum est.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e2663">
+            <lb ed="#L" n="43"/>(l) Ideo dico, quod potentia 
+            con<lb ed="#L" break="no" n="44"/>tradietionis non necessario est
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="45"/>potentia ante actum, nam cuilibet
+            <lb ed="#L" n="46"/>contingenti propositioni de 
+            futu<lb ed="#L" break="no" n="47"/>rO, correspondet sua de praesenti
+            <lb ed="#L" n="48"/>contingens similiter, sic ista: Tu
+            <lb ed="#L" n="49"/>sedes, est vera contingens de 
+            prae<lb ed="#L" break="no" n="50"/>senti, sicut fuit illa sibi correspon-:
+            <lb ed="#L" n="51"/>dens contingens de futuro: Tu
+            <lb ed="#L" n="52"/>sedebis; sed de praesenti est. magis.
+            <lb ed="#L" n="53"/>determinata, ista de futuro 
+            mi<lb ed="#L" break="no" n="54"/>nus. Unde Aristoteles primo 
+            Peri<lb ed="#L" break="no" n="55"/>herm. dicit in propositionibus de
+            <lb ed="#L" n="56"/>prasentiaesse veritatem 
+            determi<lb ed="#L" break="no" n="57"/>natam etl non necessariam. Cum
+            <lb ed="#L" n="58"/>ergo dicis, aut potuit potentia 
+            an<lb ed="#L" break="no" n="59"/>te actum, aut potentia cum actu ;
+            <lb ed="#L" n="60"/>dico, quod potuit peccasse 
+            poten<lb ed="#L" break="no" n="61"/>tia ante actum anterioritate, vel
+            <lb ed="#L" n="62"/>ordine nature, non prius 
+            dura<lb ed="#L" break="no" n="63"/>tione necessario ; et si ista glossa
+            <lb ed="#L" n="64"/>non valet, Deus nullum 
+            contin<lb ed="#L" break="no" n="65"/>genter, sed necessario 
+            praedesti<lb ed="#L" break="no" n="66"/>navit, quia non est dare instans
+            <lb ed="#L" n="67"/>vel tempus durationis ante 
+            prae<lb ed="#L" break="no" n="68"/>destinationem, ideo secundum 
+            il<lb ed="#L" break="no" n="69"/>lud non potuit non praedestinasse,
+            <lb ed="#L" n="70"/>quod falsum est; suf(üicit enim ad
+            <lb ed="#L" n="71"/>hoc, quod causa contingenter 
+            pro<lb ed="#L" break="no" n="72"/>ducat, quod prius ordine naturz
+            <lb ed="#L" n="73"/>sit, quam effectus productus, nec
+            <lb ed="#L" n="74"/>requiritur necessario prius 
+            dura<lb ed="#L" break="no" n="75"/>tione hoc, quod contingenter Deus
+            <lb ed="#L" n="76"/>aliquid producat extra se.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e2742">
+            <lb ed="#L" n="77"/>Arguitur etiam (m) quarto sic
+            <lb ed="#L" n="78"/>ad dictam conclusionem: Angelus
+            <lb ed="#L" n="79"/>non potuit in primo instanti 
+            ha<lb ed="#L" break="no" n="80"/>bere deliberationem ; ergo nec
+            <lb ed="#L" n="81"/>peccare. Consequentia patet. 
+            Pro<lb ed="#L" break="no" n="82"/>batio antecedentis, quia in primo
+            <lb ed="#L" n="83"/>instanti non potuit simul multa
+            <lb ed="#L" n="84"/>intelligere distincte, quod tamen
+            <lb ed="#L" n="85"/>oportebat, si deliberasset. Nec ista
+            <lb ed="#L" n="86"/>ratio valet (n), nam volitio quando
+            <lb ed="#L" n="87"/>elieitur a volente, non requirit
+            <lb ed="#L" n="88"/>nisi unam  intellectionem, si sit
+            <pb ed="#L" n="318"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>volitio unica ; intellectionem dico
+            <lb ed="#L" n="2"/>unieam distinctam, quia plures
+            <lb ed="#L" n="3"/>intellectiones distinctz?e simul non
+            <lb ed="#L" n="4"/>possunt esse in intellectu, et si
+            <lb ed="#L" n="5"/>possent esse, tamen una sufficeret
+            <lb ed="#L" n="6"/>ad unam volitionem eliciendam,
+            <lb ed="#L" n="7"/>ita posset esse una intellectio 
+            di<lb ed="#L" break="no" n="8"/>stinecta, etiamsi deliberatio non
+            <lb ed="#L" n="9"/>pracederet, sicut si multae 
+            prae<lb ed="#L" break="no" n="10"/>cessissent; ergo deliberatio 
+            respi<lb ed="#L" break="no" n="11"/>ciens plures intellectiones, non
+            <lb ed="#L" n="12"/>requiritur ad unam  volitionem,
+            <lb ed="#L" n="13"/>sed in una sola volitione potest esse
+            <lb ed="#L" n="14"/>obliquitas, et peccatum, quare, eto.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e2805">
+            <lb ed="#L" n="15"/>Rationes etiam praetactae sunt
+            <lb ed="#L" n="16"/>contra ipsos, quia ponunt quod
+            <lb ed="#L" n="17"/>Angelus in primo instanti potuit
+            <lb ed="#L" n="18"/>mereri. Major enim prime 
+            rati<lb ed="#L" break="no" n="19"/>onis eorum ad illam opinionem
+            <lb ed="#L" n="20"/>fuit ista: prima operatio rei 
+            si<lb ed="#L" break="no" n="21"/>inul existens cum re, est a 
+            produ<lb ed="#L" break="no" n="22"/>cente rem ; tunc subdit minorem
+            <lb ed="#L" n="23"/>sub ista sic: sed operatio Angeli
+            <lb ed="#L" n="24"/>non sua, non potest sibi esse 
+            me<lb ed="#L" break="no" n="25"/>ritoria; ergo non potuit mereri
+            <lb ed="#L" n="26"/>in primo instanti.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e2834">
+            <lb ed="#L" n="27"/>Item tertia ratio est contra eos,
+            <lb ed="#L" n="28"/>quia in illo instanti non potest
+            <lb ed="#L" n="29"/>mereri, in quo non potest 
+            pecca<lb ed="#L" break="no" n="30"/>re, quia in quocumque instanti
+            <lb ed="#L" n="31"/>potuit peccare, in eodem potuit
+            <lb ed="#L" n="32"/>mereri, et e contra; sed per 
+            il<lb ed="#L" break="no" n="33"/>lam rationem, si in primo instanti
+            <lb ed="#L" n="34"/>non elieciat actum  meritorium,
+            <lb ed="#L" n="35"/>vel bonum, non potest peccare,
+            <lb ed="#L" n="36"/>secundum eos, quia non potentia
+            <lb ed="#L" n="37"/>ante actum, etc.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e2860">
+            <lb ed="#L" n="38"/>Item, alia ratio videtur adduci
+            <lb ed="#L" n="39"/>contra eos: aequaliter enim 
+            vide<lb ed="#L" break="no" n="40"/>tur requiri deliberatio, vel magis
+            <lb ed="#L" n="41"/>ad bene operandum, sicut ad male.
+            <lb ed="#L" n="42"/>Dona enim operatio non potest
+            <lb ed="#L" n="43"/>esse nisi concurrentibus circum.
+            <lb ed="#L" n="44"/>stantiis debitis omnibus, sed mala.
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="45"/>quacumque deficiente; ergo si 
+            si<lb ed="#L" break="no" n="46"/>ne deliberatione posset meritorie
+            <lb ed="#L" n="47"/>agere, multo fortius male.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e2886">
+            <lb ed="#L" n="48"/>Si instetur de Christo, qui 
+            po<lb ed="#L" break="no" n="49"/>tuit mereri, et tamen non potuit
+            <lb ed="#L" n="50"/>peeeare, patebit de hoc Ub. 3. 
+            Vi<lb ed="#L" break="no" n="51"/>detur autem ille Doctor concedere,
+            <lb ed="#L" n="52"/>quod Christus potuit peccare 
+            de<lb ed="#L" break="no" n="53"/>nominative, non autem effective.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e2902">
+            <lb ed="#L" n="54"/>Arguitur etiam (o) quinto sic
+            <lb ed="#L" n="55"/>ad conclusionem: Motus naturalis
+            <lb ed="#L" n="56"/>voluntatis Angeli in primo 
+            instan<lb ed="#L" break="no" n="57"/>ti fuit rectissimus; ergo in illo
+            <lb ed="#L" n="58"/>instanti non potuit esse malus
+            <lb ed="#L" n="59"/>actus, vel motus malus liberi
+            <lb ed="#L" n="60"/>arbitrii; si enim fuisset malus,
+            <lb ed="#L" n="61"/>remissum, et per consequens 
+            mi<lb ed="#L" break="no" n="62"/>nus rectum fecisset motum, vel
+            <lb ed="#L" n="63"/>actum naturalem voluntatis, et
+            <lb ed="#L" n="64"/>tunc non fuisset voluntas 
+            rectis<lb ed="#L" break="no" n="65"/>sima, vel actus ejus naturalis.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e2932">
+            <lb ed="#L" n="66"/>Nec illa ratio valet, (p) quia
+            <lb ed="#L" n="67"/>semper dum manet integra 
+            natu<lb ed="#L" break="no" n="68"/>ra voluntatis, manet inclinatio,
+            <lb ed="#L" n="69"/>vel motus naturalis integer rectus,
+            <lb ed="#L" n="70"/>ita bene in primo instanti sicut in
+            <lb ed="#L" n="71"/>secundo ; sed secundum  
+            Diony<lb ed="#L" break="no" n="72"/>sium, naturalia indamnatis 
+            Ange<lb ed="#L" break="no" n="73"/>lis manent splendidissima; ergo
+            <lb ed="#L" n="74"/>et inclinationes rectissimae.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e2954">
+            <lb ed="#L" n="75"/>Dico igitur, quod in primo 
+            in<lb ed="#L" break="no" n="76"/>stanti fuit natura rectissima, et.
+            <lb ed="#L" n="77"/>tamen potuit fuisse obliquitas in
+            <lb ed="#L" n="78"/>actu elicito a voluntate libera,
+            <lb ed="#L" n="79"/>quia rectitudo nature stat eum
+            <lb ed="#L" n="80"/>voluntate non recta.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e2970">
+            <lb ed="#L" n="81"/>Nec illa ratio valet, quia 
+            sequi<lb ed="#L" break="no" n="82"/>tur, quod sicut non posset 
+            pececa<lb ed="#L" break="no" n="83"/>re in primo instanti, sic nec in
+            <lb ed="#L" n="84"/>secundo, vel tertio, sicut enim
+            <lb ed="#L" n="85"/>peecatum nihil natur: adimit,
+            alio<lb ed="#L" break="no" n="86"/>quin tota posset consumi per
+            <lb ed="#L" n="87"/>peecata, sic etiam nihil 
+            inelinati<lb ed="#L" break="no" n="88"/>onis naturalis adimit.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e2990">
+            <pb ed="#L" n="319"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>Aliter arguitur, (q) et 
+            probabili<lb ed="#L" break="no" n="2"/>ter sic : In. habitu concreato ipsi
+            <lb ed="#L" n="3"/>Angelo, primo relucent quidditates
+            <lb ed="#L" n="4"/>intelligibiles ab Angelo; eum 
+            igi<lb ed="#L" break="no" n="5"/>tur intellectus Angelieus non 
+            in<lb ed="#L" break="no" n="6"/>telligat alia, nisi ut praeesentata in
+            <lb ed="#L" n="7"/>isto habitu, intelligit primo istas
+            <lb ed="#L" n="8"/>quidditates, et deinde specialia
+            <lb ed="#L" n="9"/>singularia, ideo in primo instanti
+            <lb ed="#L" n="10"/>non potuit habere cognitionem
+            <lb ed="#L" n="11"/>practicam; igitur nec peccare,
+            <lb ed="#L" n="12"/>quia  quidditates ists?e  
+            relucen<lb ed="#L" break="no" n="13"/>tes- an tali habitu seientiali;. ad
+            <lb ed="#L" n="14"/>quas primo habitus inclinat, sola
+            <lb ed="#L" n="15"/>speculativa cognitione 
+            intelligeun<lb ed="#L" break="no" n="16"/>iur.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e3032">
+            <lb ed="#L" n="17"/>Praeterea, istarum  
+            considera<lb ed="#L" break="no" n="18"/>tionem quidditatum consequitur
+            <lb ed="#L" n="19"/>primo quadam complacentia 
+            na<lb ed="#L" break="no" n="20"/>turalis, sicut cum considero 
+            Lu<lb ed="#L" break="no" n="21"/>nam, complacet mihi; igitur et
+            <lb ed="#L" n="22"/>in primo instanti, quando ista
+            <lb ed="#L" n="23"/>complacentia naturalis fuit, non
+            <lb ed="#L" n="24"/>potuit demereri vel peccare.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e3052">
+            <lb ed="#L" n="25"/>Hoc potest solvi, (r) quia velle
+            <lb ed="#L" n="26"/>coneupiscentic, praesupponit velle
+            <lb ed="#L" n="27"/>amicitie, nullus enim 
+            concupis<lb ed="#L" break="no" n="28"/>cil nisi magis a» met illud, eui 
+            con<lb ed="#L" break="no" n="29"/>cupiseit bonum concupitum, quam
+            <lb ed="#L" n="30"/>amet ipsum concupitum, et. prius
+            <lb ed="#L" n="31"/>aliquo modo; ergo prius amat
+            <lb ed="#L" n="32"/>quis se amore amicitie, quam 
+            ali<lb ed="#L" break="no" n="33"/>quod bonum sibi, et in isto priori
+            <lb ed="#L" n="34"/>potest, vel potuit esse inordinata
+            <lb ed="#L" n="35"/>volitio amicitie, plus scilicet
+            <lb ed="#L" n="36"/>amando se, quam juste debuisset
+            <lb ed="#L" n="37"/>amare, secundum rectam  
+            rati<lb ed="#L" break="no" n="38"/>onem; sed ista  volitio 
+            inordi<lb ed="#L" break="no" n="39"/>nata potuit esse in primo instanti
+            <lb ed="#L" n="40"/>creationis Angeli, quia in primo
+            <lb ed="#L" n="41"/>instanti, potuit sibi ostendi bonum
+            <lb ed="#L" n="42"/>diligibile sibi et aeque primo, vel
+            <lb ed="#L" n="43"/>prius natura potuit amare se in
+            <lb ed="#L" n="44"/>se; ergo potuit inordinate amare
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="45"/>se in primo instanti, prius etiam
+            <lb ed="#L" n="46"/>natura potest objectum bonum
+            <lb ed="#L" n="47"/>esse cognitum in se, et etiam 
+            ama<lb ed="#L" break="no" n="48"/>bile in se, quam ut  relucet in 
+            ha<lb ed="#L" break="no" n="49"/>bitu, quia non quietat amantem,
+            <lb ed="#L" n="50"/>nisi ut in se. Istud confirmatur
+            <lb ed="#L" n="51"/>per Augustinum, qui dicit, 14. de
+            <lb ed="#L" n="52"/>Civitate Dei cap. ultimo, quod 
+            civi<lb ed="#L" break="no" n="53"/>tatem diaboli fecit inordinatus
+            <lb ed="#L" n="54"/>amor sui; iste autem potuit
+            <lb ed="#L" n="55"/>esse in primo instanti, ut dictum
+            <lb ed="#L" n="56"/>est. Quod autem dicitur, de 
+            quid<lb ed="#L" break="no" n="57"/>ditate primo relucente in habitu
+            <lb ed="#L" n="58"/>illo; improbatum est supra.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e3131">
+            <lb ed="#L" n="59"/>Septimo arguitur, pro 
+            conoelu<lb ed="#L" break="no" n="60"/>sione sic: Nullus potest peccare,
+            <lb ed="#L" n="61"/>nisi debitor justitiee; sed in primo
+            <lb ed="#L" n="62"/>instanti non fuit Angelus debitor
+            <lb ed="#L" n="63"/>justitia:e, ergo, et estera. Major
+            <lb ed="#L" n="64"/>patet, quia justitia et pecatum
+            <lb ed="#L" n="65"/>sunt sicut habitus et privatio.
+            <lb ed="#L" n="66"/>Probatio minoris, quia sicut patet
+            <lb ed="#L" n="67"/>per Anselmum, in libro de casu 
+            dia<lb ed="#L" break="no" n="68"/>bol; -49:6U. O4. in primo instanti
+            <lb ed="#L" n="69"/>non accepit justitiam.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e3157">
+            <lb ed="#L" n="70"/>Nec istud valet: (s) duplex enim
+            <lb ed="#L" n="71"/>est justitia, scilicet acquisita et
+            <lb ed="#L" n="72"/>infusa, et de neutra concludit 
+            ra<lb ed="#L" break="no" n="73"/>tio. Justitia enim infusa, statim
+            <lb ed="#L" n="74"/>amittitur unico actu peccati, ergo
+            <lb ed="#L" n="75"/>is(a amissa non posset iste 
+            am<lb ed="#L" break="no" n="76"/>plius peccare, quia non est debitor
+            <lb ed="#L" n="77"/>justitie, cum non habeat 
+            justi<lb ed="#L" break="no" n="78"/>tiam. Similiter Saracenus, qui
+            <lb ed="#L" n="79"/>nunquam habuit justitiam  
+            infu<lb ed="#L" break="no" n="80"/>sam, non esset debitor justitis,
+            <lb ed="#L" n="81"/>et per consequens non posset 
+            pec<lb ed="#L" break="no" n="82"/>care, ideo de illa justitia non valet
+            <lb ed="#L" n="83"/>argumentum.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e3190">
+            <lb ed="#L" n="84"/>Item, manifestum est quod si
+            <lb ed="#L" n="85"/>non fuit in illo primo instanti 
+            de<lb ed="#L" break="no" n="86"/>bitor justitiae, quia non accepit
+            <lb ed="#L" n="87"/>eam, sequeretur quod semper
+            <lb ed="#L" n="88"/>existens in peecato mortali. nun-
+            <pb ed="#L" n="320"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>quam esset debitor justitiae, quia
+            <lb ed="#L" n="2"/>nunquam accepit eam. Ideo de ista
+            <lb ed="#L" n="3"/>justitia non valet argumentum,
+            <lb ed="#L" n="4"/>similiter nec de justitia acquisita,
+            <lb ed="#L" n="5"/>nam ista potest amitti multis 
+            ac<lb ed="#L" break="no" n="6"/>tibus injustitie elicitis; nec ille,
+            <lb ed="#L" n="7"/>qui nunquam fuit justus, 
+            morali<lb ed="#L" break="no" n="8"/>ter tenetur ad juste operari, si
+            <lb ed="#L" n="9"/>non esset debitor justitie, quia
+            <lb ed="#L" n="10"/>nunquam istam accepit.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e3229">
+            <lb ed="#L" n="11"/>Dico igitur quod justitia ista,
+            <lb ed="#L" n="12"/>ratione cujus debitor est.homo,
+            <lb ed="#L" n="13"/>vel Angelus, justitiee, non est nisi
+            <lb ed="#L" n="14"/>potentia naturalis voluntatis 
+            mo<lb ed="#L" break="no" n="15"/>derandi inclinationem naturalem,
+            <lb ed="#L" n="16"/>quae est contra justitiam 
+            infunden<lb ed="#L" break="no" n="17"/>dam, et illud est libertas, quae non
+            <lb ed="#L" n="18"/>est aliquid superadditum voluntati,
+            <lb ed="#L" n="19"/>imo de per se ratione ejus. Dico
+            <lb ed="#L" n="20"/>igitur quod illam justitiam 
+            natu<lb ed="#L" break="no" n="21"/>ralem, scilicet potentiam, qua 
+            po<lb ed="#L" break="no" n="22"/>tuit conservare justitiam infusam
+            <lb ed="#L" n="23"/>sibi, recepit Angelus,et per 
+            conse<lb ed="#L" break="no" n="24"/>quens potuit peccare in primo 
+            in<lb ed="#L" break="no" n="25"/>stanti, et ideo debitor justitis
+            <lb ed="#L" n="26"/>fuit.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e3266">
+            <lb ed="#L" n="27"/>Ad Anselmum dico, quod non
+            <lb ed="#L" n="28"/>accepit justitiam infusam, et hoc
+            <lb ed="#L" n="29"/>dicit Augustinus, undecimo super
+            <lb ed="#L" n="30"/>Genesim, et ponitur auctoritas in
+            <lb ed="#L" n="31"/>principio, tertia distinct. et est 
+            no<lb ed="#L" break="no" n="32"/>tanda.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e3282">
+            <lb ed="#L" n="33"/>Alia ratio (D) est:duae mutationes
+            <lb ed="#L" n="34"/>non sunt simul, quarum terminus
+            <lb ed="#L" n="35"/>ad quem unius, est terminus a quo
+            <lb ed="#L" n="36"/>alterius; sed creatio et peccatum
+            <lb ed="#L" n="37"/>sunt due mutationes, illo modo
+            <lb ed="#L" n="38"/>se habentes, quia mala volitio,
+            <lb ed="#L" n="39"/>vel peccatum praesupponit esse,
+            <lb ed="#L" n="40"/>quod est terminus ad quem 
+            ere<lb ed="#L" break="no" n="41"/>ationis; ergo non sunt simul.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e3305">
+            <lb ed="#L" n="42"/>Istud non valet (u) de 
+            passi<lb ed="#L" break="no" n="43"/>onibus et subjectis, quae 
+            conse<lb ed="#L" break="no" n="44"/>quuntur sse solum ordine natura,
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="45"/>quia possunt esse simul duratione,
+            <lb ed="#L" n="46"/>nam Luna in eodem instanti 
+            tem<lb ed="#L" break="no" n="47"/>poris, in quo accipit lumen a 
+            So<lb ed="#L" break="no" n="48"/>le, diffundit ipsum in alias partes
+            <lb ed="#L" n="49"/>medii.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e3327">
+            <lb ed="#L" n="50"/>Si tamen fiat vis, (x) de 
+            voca<lb ed="#L" break="no" n="51"/>bulo mutationis, dico, quod 
+            pec<lb ed="#L" break="no" n="52"/>catum, in primo instanti temporis,
+            <lb ed="#L" n="53"/>non est mutatio, sed est passio de
+            <lb ed="#L" n="54"/>genere Passionis, quia mutatio
+            <lb ed="#L" n="55"/>est a privatione in habitum, vel'
+            <lb ed="#L" n="56"/>e converso, quae non se compa-;
+            <lb ed="#L" n="57"/>tiuntur, in eodem instanti 
+            dura<lb ed="#L" break="no" n="58"/>tionis. Nec prius fuit duratione:
+            <lb ed="#L" n="59"/>iste habitus,cujus privatio est pec-.
+            <lb ed="#L" n="60"/>catum in voluntate Angeli, si
+            <lb ed="#L" n="61"/>peecavit in primo instanti, ideo
+            <lb ed="#L" n="62"/>non est mutatio, sed est passio
+            <lb ed="#L" n="63"/>de genere Passionis, de hoc in
+            <lb ed="#L" n="64"/>quarto, in materia de resurrectione.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e3362">
+            <lb ed="#L" n="65"/>Alia ratio ponitur talis : (v) Actio
+            <lb ed="#L" n="66"/>creature non potest esse in 
+            in<lb ed="#L" break="no" n="67"/>stanti; igitur in primo instanti
+            <lb ed="#L" n="68"/>non potuit habere actum aliquem
+            <lb ed="#L" n="69"/>per quem peccaret. Probatio 
+            an<lb ed="#L" break="no" n="70"/>tecedentis per rationem 
+            Aristo<lb ed="#L" break="no" n="71"/>telis 6. Physicor. ubi arguit sic:
+            <lb ed="#L" n="72"/>Si aliqua virtus potest movere
+            <lb ed="#L" n="73"/>in instanti, ergo major virtus
+            <lb ed="#L" n="74"/>potest in minori quam in instanti,
+            <lb ed="#L" n="75"/>hoc est impossibile ; sed omni 
+            vir<lb ed="#L" break="no" n="76"/>tute creata potest esse major, et
+            <lb ed="#L" n="77"/>est, ergo nulla virtus creata 
+            po<lb ed="#L" break="no" n="78"/>tes moveri in instanti.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e3395">
+            <lb ed="#L" n="79"/>Dico, quod ratio Aristotelis 
+            pro<lb ed="#L" break="no" n="80"/>cedit in his, in quibus potest esse
+            <lb ed="#L" n="81"/>excessus in mensura, quod 
+            scili<lb ed="#L" break="no" n="82"/>cet si aliqua virtus movet in 
+            ali<lb ed="#L" break="no" n="83"/>quo tempore, dupla virtus 
+            urove<lb ed="#L" break="no" n="84"/>bit in dimidia parte temporis, sed
+            <lb ed="#L" n="85"/>instans non potest excedi ab 
+            ali<lb ed="#L" break="no" n="86"/>qua mensura in parvitate, ideo
+            <lb ed="#L" n="87"/>non valet. Tamen de motu tenet
+            <lb ed="#L" n="88"/>aroumentum Aristotelis. auia mo-
+            <pb ed="#L" n="321"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>tus necessario habet mensuram 
+            di<lb ed="#L" break="no" n="2"/>visibilem, cum ipse sit. divisibilis,
+            <lb ed="#L" n="3"/>etl ideo si motus esset in instanti,
+            <lb ed="#L" n="4"/>necessario instans esset divisibile;
+            <lb ed="#L" n="5"/>ergo contingeret. dare mensuram
+            <lb ed="#L" n="6"/>minorem.
+          </p>
+          <!--</div>-->
+          <!--<div alias="scotus-l2d5q2-p3">-->
+          <p xml:id="jdso8u-d1e1841-d1e3442">
+            <lb ed="#L" n="47" type="fixed=326"/>SCHOLIUM.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e3447">
+            <lb ed="#L" n="48"/>Ex dictis concludit Scotus Angelum 
+            potuis<lb ed="#L" break="no" n="49"/>se primo instanti peccare, quia habuit 
+            poten<lb ed="#L" break="no" n="50"/>tiam non determinatam ad operationem
+            <lb ed="#L" n="51"/>rectam, et hoc quoad primum art. hujus
+            <lb ed="#L" n="52"/>quaestionis. Secundo ait resolutive nec 
+            bo<lb ed="#L" break="no" n="53"/>nos, nec malos Angelos fuisse beatos in primo
+            <lb ed="#L" n="54"/>instanti, de quo q. praeced. n. 5.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e3465">
+            <lb ed="#L" n="55"/>Teneo igitur, quod potuit in 
+            pri<lb ed="#L" break="no" n="56"/>mo instanti habere potentiam 
+            vo<lb ed="#L" break="no" n="57"/>litivam perfectam, et non 
+            limitaba<lb ed="#L" break="no" n="58"/>tur ad rectam operationem; non
+            <lb ed="#L" n="59"/>enim habuit in secundo instanti
+            <lb ed="#L" n="60"/>magis determinans, quam in 
+            pri<lb ed="#L" break="no" n="61"/>mo, ergo, etc. et hoc potuit esse,
+            <lb ed="#L" n="62"/>uf dictum est, quia in illo instanti
+            <lb ed="#L" n="63"/>potuit se amare amore amicitia
+            <lb ed="#L" n="64"/>ultra rectam rationem.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e3489">
+            <lb ed="#L" n="65"/>De secundo articulo : Utrum 
+            bo<lb ed="#L" break="no" n="66"/>ni de facto beati in primo instanti
+            <lb ed="#L" n="67"/>fuerunt, et mali damnati vel 
+            mise<lb ed="#L" break="no" n="68"/>ri. Dico primo de malis, quod mali
+            <lb ed="#L" n="69"/>non fuerunt beati in primo 
+            instan<lb ed="#L" break="no" n="70"/>ti. Probatio, quia tunc non 
+            fue<lb ed="#L" break="no" n="71"/>runt certi de beatitudine sua, sic
+            <lb ed="#L" n="72"/>enim postea non cecidissent; sed si
+            <lb ed="#L" n="73"/>non fuerunt certi de beatitudine,
+            <lb ed="#L" n="74"/>non fuerunt beati. Similiter sicut
+            <lb ed="#L" n="75"/>dicit; Augustinus ^4. super Gen. Non
+            <lb ed="#L" n="76"/>prius discernebat Deus bonos a malis,
+            <lb ed="#L" n="77"/>quam essent discreti inter se; non 
+            er<lb ed="#L" break="no" n="78"/>£go, qui mali modo sunt, in primo
+            <lb ed="#L" n="79"/>instanti fuerunt beati, quia fuerunt
+            <lb ed="#L" n="80"/>creati uniformes boni et mali; rec
+            <lb ed="#L" n="81"/>erant in primo instanti miseri vel
+            <lb ed="#L" n="82"/>mali, ut patet in littera ista 4.
+            <lb ed="#L" n="83"/>distinct. c. sed hoc magis, ut etiam
+            <lb ed="#L" n="84"/>dicit Augustinus 11. super Genes. ubi
+            <lb ed="#L" n="85"/>dicitur, quod Deus non est prius ultor,
+            <lb ed="#L" n="86"/>quam aliquis peccator.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e3539">
+            <pb ed="#L" n="327"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>Item 1saie 14. dicitur de malo
+            <lb ed="#L" n="2"/>Angelo : quomodo cecidisti Lucifer, qui
+            <lb ed="#L" n="3"/>mane oriebaris? et ponitur dist.6 .c. 1.
+            <lb ed="#L" n="4"/>ergo prius oriebatur et luxit, quam
+            <lb ed="#L" n="5"/>caderet.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e3557">
+            <lb ed="#L" n="6"/>Item Ezechielis. 28. et ponitur ubi
+            <lb ed="#L" n="7"/>supra: In deliciis paradisi fuisti; ergo
+            <lb ed="#L" n="8"/>non statim cecidit, ideo 
+            concludi<lb ed="#L" break="no" n="9"/>tur, quod mora fuit inter 
+            princi<lb ed="#L" break="no" n="10"/>pium creationis et damnationis. Et
+            <lb ed="#L" n="11"/>eodem modo, patet de bonis in 
+            lit<lb ed="#L" break="no" n="12"/>tera distinctione ista, c. 1. similiter
+            <lb ed="#L" n="13"/>disl. 9. cap. illo: Aliis autem videtur, etc.
+            <lb ed="#L" n="14"/>Vade ibi.
+          </p>
+          <!--</div>-->
+          <!-- no commentary here -->
+          <!--<div alias="scotus-l2d5q2-p4">-->
+          <p xml:id="jdso8u-d1e1841-d1e3586">
+            <lb ed="#L" n="15" type="fixed=327"/>SCHOLIUM.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e3591">
+            <lb ed="#L" n="16"/>Hic agit de morulis Angelorum bonorum
+            <lb ed="#L" n="17"/>et malorum, et latius explieat quaexe docuit q.
+            <lb ed="#L" n="18"/>praeced. a n 5. concludens contra D. Thom.
+            <lb ed="#L" n="19"/>necessario ponendas tres vel quatuor moras.
+            <lb ed="#L" n="20"/>Ex repetitione tam clara multorum quae 
+            an<lb ed="#L" break="no" n="21"/>tea dixit, bene apparet hanc questionem
+            <lb ed="#L" n="22"/>esse additam ex Reportatis, non autem de
+            <lb ed="#L" n="23"/>scripto Anglico.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e3611">
+            <lb ed="#L" n="24"/>De tertio articulo, quot fuerunt
+            <lb ed="#L" n="25"/>mors et quante, communiter 
+            di<lb ed="#L" break="no" n="26"/>eitur duas fuisse moras; una est in
+            <lb ed="#L" n="27"/>via, et alia in termino ; nam 
+            po<lb ed="#L" break="no" n="28"/>nitur, quod non simul 
+            praemiaban<lb ed="#L" break="no" n="29"/>tur et meruerunt, nec boni, nec
+            <lb ed="#L" n="30"/>mali.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e3629">
+            <lb ed="#L" n="31"/>Sed utrum prima mora in via
+            <lb ed="#L" n="32"/>fuisset. unica: dicit, unus Doctor,
+            <lb ed="#L" n="33"/>quod unica, quia omnes Angeli in
+            <lb ed="#L" n="34"/>primo instanti temporis discreti
+            <lb ed="#L" n="35"/>habuerunt gratiam, per quam in
+            <lb ed="#L" n="36"/>eodem instanti potuerunt elicere
+            <lb ed="#L" n="37"/>acetum meritorium, et per 
+            conse<lb ed="#L" break="no" n="38"/>quens in secundo instanti 
+            tempo<lb ed="#L" break="no" n="39"/>ris discreti, potuerunt pramiari,
+            <lb ed="#L" n="40"/>et praemiati sunt boni; sed mali in
+            <lb ed="#L" n="41"/>illo secundo instanti temporis 
+            di<lb ed="#L" break="no" n="42"/>secreti, posuerunt obicem, ideo non
+            <lb ed="#L" n="43"/>fuerunt »prsemiati. Ratio ad hoc
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="44"/>est, quia gratia non tollit 
+            natu<lb ed="#L" break="no" n="45"/>ram, sed perficit eam, sed natura
+            <lb ed="#L" n="46"/>Angeli acquirit suam perfectionem
+            <lb ed="#L" n="47"/>naturalem sine discursu; ergo et
+            <lb ed="#L" n="48"/>perfectionem, quam potest 
+            acqui<lb ed="#L" break="no" n="49"/>rere per gratiam, quae est 
+            beatitu<lb ed="#L" break="no" n="50"/>do, acquirit sine discursu; 
+            qua<lb ed="#L" break="no" n="51"/>re, etc. Mali autem non 
+            acquisi<lb ed="#L" break="no" n="52"/>erunt illam beatitudinem in 
+            seeun<lb ed="#L" break="no" n="53"/>do instanti, quia posuerunt 
+            obi<lb ed="#L" break="no" n="54"/>cem.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e3686">
+            <lb ed="#L" n="55"/>Contra illud, quieumque pro 
+            to<lb ed="#L" break="no" n="56"/>ta mora viae manet in merito, 
+            ne<lb ed="#L" break="no" n="57"/>cessario in termino erit beatus.
+            <lb ed="#L" n="58"/>Et haec patet ex Evangelio 
+            Mat<lb ed="#L" break="no" n="59"/>thsei 24. ubi dicitur : Qui 
+            perseverave<lb ed="#L" break="no" n="60"/>rit usque in finem, hic salvus erit ; in 
+            ul<lb ed="#L" break="no" n="61"/>timo enim instanti vie, in quo 
+            de<lb ed="#L" break="no" n="62"/>buit recipere beatitudinem, non
+            <lb ed="#L" n="63"/>potuit ponere obicem, aliter illud
+            <lb ed="#L" n="64"/>instans non fuisset terminus ; sed
+            <lb ed="#L" n="65"/>pro mora viae (per te) boni et mali
+            <lb ed="#L" n="66"/>fuerunt aequales in merito; ergo
+            <lb ed="#L" n="67"/>etin pramio.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e3717">
+            <lb ed="#L" n="68"/>Dico ergo, quod boni et mali
+            <lb ed="#L" n="69"/>fuerunt ad invicem discreti in via,
+            <lb ed="#L" n="70"/>aliter non fuissent discreti finali
+            <lb ed="#L" n="71"/>discretione in termino. In via ergo
+            <lb ed="#L" n="72"/>fuerunt necessario more dus:
+            <lb ed="#L" n="73"/>prima, in qua fuerunt uniformes
+            <lb ed="#L" n="74"/>in gratia (si volumus dicere quod
+            <lb ed="#L" n="75"/>mali habuerunt gratiam), vel 
+            uni<lb ed="#L" break="no" n="76"/>formes saltem in natura. Secunda
+            <lb ed="#L" n="77"/>mora, in qua adhuc in via 
+            existen<lb ed="#L" break="no" n="78"/>tes, fuerunt difformes, ita scilicet,
+            <lb ed="#L" n="79"/>quod isti ultimate meruerunt, et
+            <lb ed="#L" n="80"/>isti ultimate demeruerunt. Tertia
+            <lb ed="#L" n="81"/>mora fuit distinctio finalis unius
+            <lb ed="#L" n="82"/>ab alio necessario. Probabile est
+            <lb ed="#L" n="83"/>etiam, quod in secunda mora, in
+            <lb ed="#L" n="84"/>qua fuerunt difformes in via, 
+            fue<lb ed="#L" break="no" n="85"/>runt multe morule, quia mali
+            <lb ed="#L" n="86"/>peccaverunt multis speciebus 
+            pec<lb ed="#L" break="no" n="87"/>cati. scilicet, superbia. odio et in-
+            <pb ed="#L" n="328"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>vidia, et isti actus ordinate, et non
+            <lb ed="#L" n="2"/>in eodem instanti fuerunt eliciti,
+            <lb ed="#L" n="3"/>ut patet dist. 5. in principio, et est
+            <lb ed="#L" n="4"/>ibi auctoritas Augustini.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e3777">
+            <lb ed="#L" n="5"/>Hoc iterum patet per illud Apo:
+            <lb ed="#L" n="6"/>calypsis : Fiebat prelium magnum in
+            <lb ed="#L" n="7"/>etlo; et dicitur ibl, quod Hichael
+            <lb ed="#L" n="8"/>fecit victoriam, quae victoria 
+            ce<lb ed="#L" break="no" n="9"/>debat in laudem bonorum, haec non
+            <lb ed="#L" n="10"/>fuit, nisi quia peccatum malorum
+            <lb ed="#L" n="11"/>Angelorum fuit incentivum 
+            tenta<lb ed="#L" break="no" n="12"/>tionis in bonis, qui tentationem
+            <lb ed="#L" n="13"/>istam vicerunt. Cum igitur 
+            Ange<lb ed="#L" break="no" n="14"/>lus bonus non fuit prascius 
+            futu<lb ed="#L" break="no" n="15"/>rorum, prius fuit elicitum 
+            pecca<lb ed="#L" break="no" n="16"/>tum a malo Angelo, antequam per
+            <lb ed="#L" n="17"/>ipsum esset tentatio boni, et ideo
+            <lb ed="#L" n="18"/>in secunda mora fuerunt multae
+            <lb ed="#L" n="19"/>morule elicit: a malis.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e3812">
+            <lb ed="#L" n="20"/>Sed de prima mora, in qua 
+            fue<lb ed="#L" break="no" n="21"/>runt uniformes, potest probabiliter
+            <lb ed="#L" n="22"/>sustineri, quod in primo instanti,
+            <lb ed="#L" n="23"/>ifuerunt uniformes in statu 
+            natu<lb ed="#L" break="no" n="24"/>ra, creati sine gratia. Postea in
+            <lb ed="#L" n="25"/>secundo instanti erant in gratia
+            <lb ed="#L" n="26"/>uniformes; et postea in tertio 
+            in<lb ed="#L" break="no" n="27"/>stanti vie, mali multipliciter 
+            de<lb ed="#L" break="no" n="28"/>meruerunt, et boni multipliciter
+            <lb ed="#L" n="29"/>meruerunt; et in quarto fuerunt
+            <lb ed="#L" n="30"/>in termino. Et hoc videtur 
+            rationa<lb ed="#L" break="no" n="31"/>bile, qua sic experti erant de 
+            om<lb ed="#L" break="no" n="32"/>ni statu, et majorem occasionem
+            <lb ed="#L" n="33"/>habebant intensius eliciendi actum
+            <lb ed="#L" n="34"/>meritorium postea, cum simul 
+            ha<lb ed="#L" break="no" n="35"/>bebant gratiam ex hoc quod ex 
+            per<lb ed="#L" break="no" n="36"/>ti erant, quod ex naturalibus in
+            <lb ed="#L" n="37"/>primo instanti hoc non poterant.
+            <lb ed="#L" n="38"/>Vel potest dici, quod primo erant
+            <lb ed="#L" n="39"/>uniformes creati in gratia, et in
+            <lb ed="#L" n="40"/>secundo instanti boni meruerunt,
+            <lb ed="#L" n="41"/>et mali demeruerunt ante 
+            termi<lb ed="#L" break="no" n="42"/>num, quia Deus non discernit eos
+            <lb ed="#L" n="43"/>antequam fuissent inter se 
+            di<lb ed="#L" break="no" n="44"/>screti.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e3869">
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="45"/>Nec valet, quod dicebatur 
+            supe<lb ed="#L" break="no" n="46"/>rius, quod si stetissent in secundo
+            <lb ed="#L" n="47"/>instanti, debebant recepisse 
+            beati<lb ed="#L" break="no" n="48"/>tudinem, et ideo boni tunc fuerunt
+            <lb ed="#L" n="49"/>in termino; longior enim fuit via
+            <lb ed="#L" n="50"/>illorum, quam mora unius 
+            instan<lb ed="#L" break="no" n="51"/>tis, et forte per duo vel iria
+            <lb ed="#L" n="52"/>sequentia, non debebant habere
+            <lb ed="#L" n="53"/>beatitudinem. Si dicamus, quod
+            <lb ed="#L" n="54"/>tantum in primo instanti erant
+            <lb ed="#L" n="55"/>uniformes in naturalibus, ita quod
+            <lb ed="#L" n="56"/>nunquam fuerunt uniformes in
+            <lb ed="#L" n="57"/>gratia, tume oportet dici, quod in
+            <lb ed="#L" n="58"/>secundo instanti dabatur gratia
+            <lb ed="#L" n="59"/>non ponentibus obicem, et tunc
+            <lb ed="#L" n="60"/>fuisset data malis, si non 
+            apposuis<lb ed="#L" break="no" n="61"/>sent obicem. Et bene potuerunt po
+            <lb ed="#L" n="62"/>nere obicem respectu gratise 
+            reci<lb ed="#L" break="no" n="63"/>pienda, licet non respectu praemii
+            <lb ed="#L" n="64"/>recipiendi in instanti, in quo debuit
+            <lb ed="#L" n="65"/>recipi, quia tunc non est recipiens
+            <lb ed="#L" n="66"/>in via, sed in termino, et tunc ipsi
+            <lb ed="#L" n="67"/>demeruerunt, et boni meruerunt,
+            <lb ed="#L" n="68"/>omnes adhuc in statu vie 
+            existen<lb ed="#L" break="no" n="69"/>tes; et in termino isti erant beati,
+            <lb ed="#L" n="70"/>mali vero obstinati, ita quod non
+            <lb ed="#L" n="71"/>credo, quod omnino pares in via,
+            <lb ed="#L" n="72"/>fuissent dispares in termino.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e3934">
+            <lb ed="#L" n="73"/>Sed quanta sunt istae morze, 
+            di<lb ed="#L" break="no" n="74"/>cit unus Doctor, quod dicuntur
+            <lb ed="#L" n="75"/>esse instantia disereti temporis;
+            <lb ed="#L" n="76"/>dictum est autem, quod nulla est
+            <lb ed="#L" n="77"/>necessitas ponendi tempus 
+            disere<lb ed="#L" break="no" n="78"/>tum, secunda dist. hujus — libri,
+            <lb ed="#L" n="79"/>quest. prima et quarta, quaere ibi.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e3952">
+            <lb ed="#L" n="80"/>(a) Ad primum principale dico,
+            <lb ed="#L" n="81"/>quod causa efficacior non necessa- .
+            <lb ed="#L" n="82"/>rio producit effectum aeque cito
+            <lb ed="#L" n="83"/>sicut causa minus efficax, si illa
+            <lb ed="#L" n="84"/>efficacior sit agens voluntarium,
+            <lb ed="#L" n="85"/>quale est Deus respectu 
+            beatitudi<lb ed="#L" break="no" n="86"/>nis.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e3970">
+            <lb ed="#L" n="87"/>Ad secundum (b) dico quod du-.
+            <lb ed="#L" n="88"/>bium est utrum boni fuerunt in
+            <pb ed="#L" n="329"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>primo instanti in gratia. Et ad
+            <lb ed="#L" n="2"/>auctoritatem Augustini potest 
+            di<lb ed="#L" break="no" n="3"/>ci, quod intelligit de gratia gratis
+            <lb ed="#L" n="4"/>data, quae non facit ad propositum.
+            <lb ed="#L" n="5"/>Vel esto, quod fuerunt in gratia
+            <lb ed="#L" n="6"/>gratum faciente in primo instanti,
+            <lb ed="#L" n="7"/>adhuc non valet consequentia,
+            <lb ed="#L" n="8"/>quia licet sine diseursu statim
+            <lb ed="#L" n="9"/>Angeli habeant beatitudinem 
+            natu<lb ed="#L" break="no" n="10"/>ralem, tamen non oportet quod
+            <lb ed="#L" n="11"/>statim habeant, habita ista gratia,
+            <lb ed="#L" n="12"/>supernaturalem, quia diceretur,
+            <lb ed="#L" n="13"/>quod est quaedam dispositio in fier?
+            <lb ed="#L" n="14"/>tantum, non !n facto esse, remanens,
+            <lb ed="#L" n="15"/>requisita ad beatitudinem 
+            super<lb ed="#L" break="no" n="16"/>naturalem; et hujusmodi 
+            disposi<lb ed="#L" break="no" n="17"/>tio est actus meritorius respectu
+            <lb ed="#L" n="18"/>beatitudinis simpliciter, ideo non
+            <lb ed="#L" n="19"/>simul insunt Angelo; in naturali
+            <lb ed="#L" n="20"/>autem beatitudine non est 
+            hujus<lb ed="#L" break="no" n="21"/>modi dispositio requisita.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e4028">
+            <lb ed="#L" n="22"/>Ad aliud de auctoritate Joan. 8.
+            <lb ed="#L" n="23"/>respondet Augustinus 11. super Gen.
+            <lb ed="#L" n="24"/>cap. 31. et ponitur dist. 3. cap. illo.
+            <lb ed="#L" n="25"/>Deinde qualiter verba dominica,
+            <lb ed="#L" n="26"/>ubi dicit sic : Quod ab initio homicida
+            <lb ed="#L" n="27"/>fuit, et. in veritate non stetit, quia ex
+            <lb ed="#L" n="28"/>quo homo conditus fuit, ipsum per 
+            invi<lb ed="#L" break="no" n="29"/>diam in mortem —prccipitavit ; unde
+            <lb ed="#L" n="30"/>post initium temporis cecidit, ut et
+            <lb ed="#L" n="31"/>ibi dicitur, patet quod homieida
+            <lb ed="#L" n="32"/>non fuit in primo instanti suae 
+            crea<lb ed="#L" break="no" n="33"/>tionis respectu hominis, quem 
+            ten<lb ed="#L" break="no" n="34"/>tavit. Et quamvis etiam in primo
+            <lb ed="#L" n="35"/>instanti sucae creationis malus non
+            <lb ed="#L" n="36"/>fuit, sed satis cito post, tamen 
+            be<lb ed="#L" break="no" n="37"/>ne nunc dicitur, quod in veritate
+            <lb ed="#L" n="38"/>non stetit simpliciter loquendo.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e4067">
+            <lb ed="#L" n="39"/>Ad rationem factam (oe) in tertio
+            <lb ed="#L" n="40"/>articulo, posset negari quod 
+            An<lb ed="#L" break="no" n="41"/>gelus sequatur omnem suam 
+            per<lb ed="#L" break="no" n="42"/>fectionem naturalem sine discursu.
+            <lb ed="#L" n="43"/>Non est enim necesse quod simul
+            <lb ed="#L" n="44"/>copnoseat principium, et om-
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="45"/>nes conclusiones virtualiter con.
+            <lb ed="#L" n="46"/>tentas in principio, licet non ponat
+            <lb ed="#L" n="47"/>annum vel diem, vel non tantum
+            <lb ed="#L" n="48"/>sicut intellectus noster, pro statu
+            <lb ed="#L" n="49"/>isto. Vel esto quod non discurrat,
+            <lb ed="#L" n="50"/>sj unus actus meritorius sufficit in
+            <lb ed="#L" n="51"/>uno instanti tantum, ad hoc quod
+            <lb ed="#L" n="52"/>Angelus sequatur suam 
+            beatitudi<lb ed="#L" break="no" n="53"/>nem supernaturalem, quare ergo
+            <lb ed="#L" n="54"/>Angeli mali non habuerunt 
+            beati<lb ed="#L" break="no" n="55"/>tudinem, ex quo omnes, in illo 
+            pri<lb ed="#L" break="no" n="56"/>mo instanti  elieiebant unum
+            <lb ed="#L" n="57"/>actum meritorium, secundum 
+            il<lb ed="#L" break="no" n="58"/>lum Doctorem? Non enim videtur
+            <lb ed="#L" n="59"/>congruum, secundum justitiam
+            <lb ed="#L" n="60"/>commutativam, quod viatores 
+            eli<lb ed="#L" break="no" n="61"/>clant actus sequales pro toto statu
+            <lb ed="#L" n="62"/>vie, et quod unus pramietur in
+            <lb ed="#L" n="63"/>termino, et alius non.
+          </p>
+          <p xml:id="jdso8u-d1e1841-d1e4126">
+            <lb ed="#L" n="64"/>Ideo dico, quod unum opus 
+            su<lb ed="#L" break="no" n="65"/>pernaturale, et unus actus 
+            merito<lb ed="#L" break="no" n="66"/>rius, non est sufficienter 
+            inducti<lb ed="#L" break="no" n="67"/>vus ex congruo beatitudinis 
+            su<lb ed="#L" break="no" n="68"/>pernaturalis; si enim dispositio
+            <lb ed="#L" n="69"/>naturalis est, quod operando hoc
+            <lb ed="#L" n="70"/>post hoc, acquiratur beatitudo
+            <lb ed="#L" n="71"/>naturalis, multo magis requiritur
+            <lb ed="#L" n="72"/>in gratia, qua est dispositio 
+            re<lb ed="#L" break="no" n="73"/>spectu beatitudinis 
+            supernatura<lb ed="#L" break="no" n="74"/>lis, operatio hujus post hoc, in 
+            ac<lb ed="#L" break="no" n="75"/>quirendo beatitudinem 
+            supernatu<lb ed="#L" break="no" n="76"/>ralem.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

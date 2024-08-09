@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2024-08-09">August 09, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x12">Vives, Paris, 1893, volume 12</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-08-09" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="611"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e1995"><!-- scotus-l2d13q1-p1 -->
+        <head xml:id="jdso8u-d1e1995-Hd1e101">Quaestio 1</head>
+        <head xml:id="jdso8u-d1e1995-Hd1e103" type="question-title">Utrum lux gignat lumen tamquam propriam speciem sensibilem
+          sui</head>
+        <p xml:id="jdso8u-d1e1995-d1e106">
+          <lb ed="#L" n="46" type="fixed=611"/>QUESTIO UNICA.
+        </p>
+        <p xml:id="jdso8u-d1e1995-d1e111">
+          <lb ed="#L" n="47"/>Utrum lux gignat lumen tanquam  
+          pro<lb ed="#L" break="no" n="48"/>priam speciem sensibilem sui ?
+        </p>
+        <p xml:id="jdso8u-d1e1995-d1e118">
+          <lb ed="#L" n="49"/>Alensis 1. p. q. 2. m. 3. a. 1. et 2. p. q. 46. m. 5,
+          <lb ed="#L" n="50"/>D. Bonav. h$c a. 3. q. 1. Richard. 2. q. 1.2. 3.
+          <lb ed="#L" n="51"/>Henr. quod!. 3. g. 12. D. "Thom. 1. p. q. 67.
+          <lb ed="#L" n="52"/>a4. 2. 3. Dur. Mc q. 2. Ayic, 0. nat. po .5i
+          <lb ed="#L" n="53"/>c. 20. Arist. 1. de Anima c. 7. Conimbr. 2. de
+          <lb ed="#L" n="54"/>colo c. 1. q. 4.
+        </p>
+        <p xml:id="jdso8u-d1e1995-d1e135">
+          <lb ed="#L" n="55"/>Circa istam distinctionem 
+          deci<lb ed="#L" break="no" n="56"/>mam tertiam quaero simul de 
+          lu<lb ed="#L" break="no" n="57"/>ce et lumine, et prjmo qusro:
+          <lb ed="#L" n="58"/>utrum lux gignat lumen tanquam
+          <lb ed="#L" n="59"/>propriam speciem sensibilem sui?
+          <lb ed="#L" n="60"/>Quod non, Augustinus septimo 
+          su<lb ed="#L" break="no" n="61"/>per Genesim ad litteram : Anima
+          <lb ed="#L" n="62"/>illustrat corpus per lucem et. aerem, etc.
+        </p>
+        <p xml:id="jdso8u-d1e1995-d1e155">
+          <lb ed="#L" n="63"/>Praeterea, lumen gignit 
+          substan<lb ed="#L" break="no" n="64"/>tiam, ut patet de igne; ergo est
+          <lb ed="#L" n="65"/>substantia. Praeterea, lumen 
+          fran<lb ed="#L" break="no" n="66"/>gitur et reflectitur; ergo est 
+          cor<lb ed="#L" break="no" n="67"/>pus, quia istae sunt passiones 
+          cor<lb ed="#L" break="no" n="68"/>poris.
+        </p>
+        <p xml:id="jdso8u-d1e1995-d1e171">
+          <lb ed="#L" n="69"/>Praeterea, quod non sit. species,
+          <lb ed="#L" n="70"/>quia denominat medium, non sic
+          <lb ed="#L" n="71"/>species coloris. Excludit etiam 
+          op<lb ed="#L" break="no" n="72"/>positum, scilicet. tenebram, non
+          <lb ed="#L" n="73"/>ita speeles, simul enim sunt 
+          spe<lb ed="#L" break="no" n="74"/>cles oppositorum, ut simul sunt
+          <lb ed="#L" n="75"/>species albi et nigri in medio. 
+          Ter<lb ed="#L" break="no" n="76"/>tio, quia habet effectum realem in
+          <lb ed="#L" n="77"/>medio et organo, scilicet. visum
+          <lb ed="#L" n="78"/>corrumpere et gignere calorem;
+          <lb ed="#L" n="79"/>effectus realis non convenit 
+          spe<lb ed="#L" break="no" n="80"/>Ge el.
+        </p>
+        <p xml:id="jdso8u-d1e1995-d1e200">
+          <lb ed="#L" n="81"/>Contra, lux est de se sensibilis,
+          <lb ed="#L" n="82"/>secundo de Anima, ergo habet .
+          ali<lb ed="#L" break="no" n="83"/>quam speciem sensibilem, non 
+          ali<lb ed="#L" break="no" n="84"/>am a lumine; er2o, etc.
+        </p>
+        <p xml:id="jdso8u-d1e1995-d1e211">
+          <pb ed="#L" n="612"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>Hic tria sunt videnda. Primo
+          <lb ed="#L" n="2"/>quid sit lux. Secundo quid lumen.
+          <lb ed="#L" n="3"/>Tertio qualiter lumen a luce 
+          gi<lb ed="#L" break="no" n="4"/>gnatur.
+        </p>
+        <!--</div>
+          <div alias="scotus-l2d13q1-p2">-->
+        <p xml:id="jdso8u-d1e1995-d1e230">
+          <lb ed="#L" n="28" type="fixed=612"/>SCHOLIUM.
+        </p>
+        <p xml:id="jdso8u-d1e1995-d1e235">
+          <lb ed="#L" n="29"/>Lucem non esse substantiam . probatur.
+          <lb ed="#L" n="30"/>Primo, quia est sensibile. Secundo, in igne
+          <lb ed="#L" n="31"/>est accidens. Tertio, non est alia qualitas
+          <lb ed="#L" n="32"/>quae sequatur formam corporum coelestium.
+        </p>
+        <p xml:id="jdso8u-d1e1995-d1e246">
+          <lb ed="#L" n="33"/>De primo dico, (3) quod lux non
+          <lb ed="#L" n="34"/>potest poni substantia, quia est
+          <lb ed="#L" n="35"/>per se sensibilis; non sic 
+          substan<lb ed="#L" break="no" n="36"/>tia; ergo, etc. Lux etiam in aliquo
+          <lb ed="#L" n="37"/>est accidens; ergo in nullo est 
+          sub<lb ed="#L" break="no" n="38"/>stantia , quod enim vere est, nulli
+          <lb ed="#L" n="39"/>accidit, ex primo Phys. Antecedens
+          <lb ed="#L" n="40"/>patet. quia si in iene esset lux for-
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="41"/>ma substantialis, vel esset. ultima
+          <lb ed="#L" n="42"/>differentia specifica, vel aliqua 
+          im<lb ed="#L" break="no" n="43"/>perfectior, quae esset in potentia
+          <lb ed="#L" n="44"/>ad formam specificam. Non primo
+          <lb ed="#L" n="45"/>modo, quia tunc quaecumque 
+          habe<lb ed="#L" break="no" n="46"/>rent lucem, essent ejusdem spe.
+          <lb ed="#L" n="47"/>ciei. Non secundo modo, quia tunc
+          <lb ed="#L" n="48"/>ista forma esset imperfectior 
+          for<lb ed="#L" break="no" n="49"/>ma specifica ignis, et ita non esset
+          <lb ed="#L" n="50"/>forma substantialis alicujus 
+          cor<lb ed="#L" break="no" n="51"/>poris ecelestis, in quo nulla est 
+          for<lb ed="#L" break="no" n="52"/>ma substantialis imperfectior 
+          for<lb ed="#L" break="no" n="53"/>ma elementari.
+        </p>
+        <p xml:id="jdso8u-d1e1995-d1e296">
+          <lb ed="#L" n="54"/>Tertio est probabile formam
+          <lb ed="#L" n="55"/>substantialem corporis coelestis
+          <lb ed="#L" n="56"/>consequi aliquam formam  
+          acti<lb ed="#L" break="no" n="57"/>vam, sicut formas substantiales
+          <lb ed="#L" n="58"/>generabilium et corruptibilium
+          <lb ed="#L" n="59"/>consequuntur qualitates active.
+          <lb ed="#L" n="60"/>Non est autem alia qualitas 
+          conse<lb ed="#L" break="no" n="61"/>quens formam substantialem 
+          eor<lb ed="#L" break="no" n="62"/>poris ezelestis quam lux; 
+          econfir<lb ed="#L" break="no" n="63"/>matur per Damascenum Ub. 2.
+          <lb ed="#L" n="64"/>cap. 8. quaere.
+        </p>
+        <!--</div>
+          <div alias="scotus-l2d13q1-p3">-->
+        <p xml:id="jdso8u-d1e1995-d1e324">
+          <lb ed="#L" n="7" type="fixed=616"/>SCHOLIUM.
+        </p>
+        <p xml:id="jdso8u-d1e1995-d1e330">
+          <lb ed="#L" n="8"/>Lumen non esse substantiam completam
+          <lb ed="#L" n="9"/>vel incompletam, sed qualitatem de tertia
+          <lb ed="#L" n="10"/>specie, id est, lucis, sensibilem speciem, et
+          <lb ed="#L" n="11"/>explieat quid sit intentio.
+        </p>
+        <p xml:id="jdso8u-d1e1995-d1e341">
+          <lb ed="#L" n="12"/>De secundo dico, (b) quod lumen
+          <lb ed="#L" n="13"/>non est substantia completa, hoc
+          <lb ed="#L" n="14"/>est, per se subsistens, quia nec
+          <lb ed="#L" n="15"/>spiritualis,cum sit extensibilis,nec
+          <lb ed="#L" n="16"/>corporalis, quia tunc duo corpora
+          <lb ed="#L" n="17"/>essent simul, est enim lumen eum
+          <lb ed="#L" n="18"/>toto aere. Nec oportet aerem 
+          mo<lb ed="#L" break="no" n="19"/>veri localiter adveniente lumine,
+          <lb ed="#L" n="20"/>et non moveri recedente vel non
+          <lb ed="#L" n="21"/>adveniente lumine, quia tunc in
+          <lb ed="#L" n="22"/>medio illuminato non esset 
+          respi<lb ed="#L" break="no" n="23"/>ratio aeris, si illud corpus esset
+          <lb ed="#L" n="24"/>localiter motum propter lumen.
+          <lb ed="#L" n="25"/>Nec etiam lumen est forma 
+          sub<lb ed="#L" break="no" n="26"/>stantialis, quia illud eui advenit,
+          <lb ed="#L" n="27"/>manet perfectum in specie, illo
+          <lb ed="#L" n="28"/>recedente, sicut apparet de aere
+          <lb ed="#L" n="29"/>quandoque illuminato, quandoque
+          <lb ed="#L" n="30"/>tenebroso. Nec est materia, patet,
+          <lb ed="#L" n="31"/>nec aliquid pertinens ad genus 
+          Sub<lb ed="#L" break="no" n="32"/>stantiae, nec est verisimile quod
+          <lb ed="#L" n="33"/>ad aliquod aliud genus pertinea!
+          <lb ed="#L" n="34"/>praeterquam ad genus Qualitatis.
+          <lb ed="#L" n="35"/>;. Cum autem quantum ad tertiam
+          <lb ed="#L" n="36"/>"speciem distinguatur qualitas im
+          <lb ed="#L" n="37"/>qualitatem sensibilem, et in 
+          qua<lb ed="#L" break="no" n="38"/>litatem quae est species sive 
+          inten<lb ed="#L" break="no" n="39"/>tio qualitatis sensibilis, notandum
+          <lb ed="#L" n="40"/>est, quod intentio non dicitur hic
+          <lb ed="#L" n="41"/>illud in quod tendit. sensus, quia
+          <lb ed="#L" n="42"/>hoc modo ipsum obiectum esset in-
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="43"/>tentio; sed intentio hic dicitur illud
+          <lb ed="#L" n="44"/>per quod tanquam per principium
+          <lb ed="#L" n="45"/>formale,in objectum tendit sensus ;
+          <lb ed="#L" n="46"/>et sicut quidquid est signum, est
+          <lb ed="#L" n="47"/>res, secundum Augustinum de Doct.
+          <lb ed="#L" n="48"/>Christiana, licet. non e converso;
+          <lb ed="#L" n="49"/>et ideo in distinctione rei et signi,
+          <lb ed="#L" n="50"/>res accipitur pro illa re qua non
+          <lb ed="#L" n="51"/>est signum, licet illa quae est 
+          si<lb ed="#L" break="no" n="52"/>gnum sit etiam res ; ita in 
+          distincti<lb ed="#L" break="no" n="53"/>one rel et intentionis, licet intentio
+          <lb ed="#L" n="54"/>sit res, et forte sensibilis res, in
+          <lb ed="#L" n="55"/>quam possit sensus tendere, tamen
+          <lb ed="#L" n="56"/>illa dicitur intentio quae non est
+          <lb ed="#L" n="57"/>tantum res, in quam tendit sensus,
+          <lb ed="#L" n="58"/>sed est ratio tendendi in alterum,
+          <lb ed="#L" n="59"/>cujus est propria similitudo.
+        </p>
+        <p xml:id="jdso8u-d1e1995-d1e450">
+          <lb ed="#L" n="60"/>Hoc modo dico (c) quod lumen
+          <lb ed="#L" n="61"/>proprie est intentio, sive species
+          <lb ed="#L" n="62"/>sensibilis ipsius Lucis. Quod 
+          pro<lb ed="#L" break="no" n="63"/>batur, tum quia si non esset 
+          inten<lb ed="#L" break="no" n="64"/>tio, tunc positum supra sensum
+          <lb ed="#L" n="65"/>prohiberet sensum, quia quod est
+          <lb ed="#L" n="66"/>tantum sensibile et. non ratio 
+          sen<lb ed="#L" break="no" n="67"/>tiendi, si ponatur supra sensum,
+          <lb ed="#L" n="68"/>impedit sensationem, quia 
+          sen<lb ed="#L" break="no" n="69"/>sibile supra sensum positum, non
+          <lb ed="#L" n="70"/>sentitur, et ita lumen 
+          supraposi<lb ed="#L" break="no" n="71"/>tum oculo,impediret ipsum videre ;
+          <lb ed="#L" n="72"/>hoc autem est. falsum, et contra
+          <lb ed="#L" n="73"/>Commentatorem super de Sensu et
+          <lb ed="#L" n="74"/>Sensato, ubi vult quod necesse est
+          <lb ed="#L" n="75"/>lumen proprium in oculo esse, ad
+          <lb ed="#L" n="76"/>hoc ut recipiat species colorum,
+          <lb ed="#L" n="77"/>et videat.
+        </p>
+        <p xml:id="jdso8u-d1e1995-d1e492">
+          <lb ed="#L" n="78"/>Modus ponitur iste, (d) quod 
+          sic<lb ed="#L" break="no" n="79"/>ut lux, ut visibile, est prius 
+          natu<lb ed="#L" break="no" n="80"/>raliter colore, ita et species ejus
+          <lb ed="#L" n="81"/>est naturaliter prior specie 
+          colo<lb ed="#L" break="no" n="82"/>ris, et. ita tam in perfieiendo 
+          me<lb ed="#L" break="no" n="83"/>dium, ita quod medium non 
+          illumi<lb ed="#L" break="no" n="84"/>natum non sit capax ad 
+          pereipien<lb ed="#L" break="no" n="85"/>dum eolores, quam in perfieiendo
+          <lb ed="#L" n="86"/>visum, ita quod organum non illu-
+          <pb ed="#L" n="617"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>minatum non sit visivum 
+          proxi<lb ed="#L" break="no" n="2"/>me.
+        </p>
+        <!--</div>
+          <div alias="scotus-l2d13q1-p4">-->
+        <p xml:id="jdso8u-d1e1995-d1e525">
+          <lb ed="#L" n="34" type="fixed=623"/>SCHOLIUM.
+        </p>
+        <p xml:id="jdso8u-d1e1995-d1e531">
+          <lb ed="#L" n="35"/>Explicato tripliei radio luminosi, docet 
+          Iu<lb ed="#L" break="no" n="36"/>men immediate gigni secundum quemlibet
+          <lb ed="#L" n="37"/>radium a luce, et a lumine sic immediate a
+          <lb ed="#L" n="38"/>luce genito, aliud secundarium lumen gigni.
+          <lb ed="#L" n="39"/>Pro perfecta intelligentia hujus questionis,
+          <lb ed="#L" n="40"/>oporteret magnam partem perspectiv:ae 
+          lege<lb ed="#L" break="no" n="41"/>re. Vide Bassol. hic.
+        </p>
+        <p xml:id="jdso8u-d1e1995-d1e549">
+          <lb ed="#L" n="42"/>Quantum ad tertium (e) 
+          articu<lb ed="#L" break="no" n="43"/>lum. aui deelarat is£um secundum,
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="44"/>notandum est quod est dare 
+          tripli<lb ed="#L" break="no" n="45"/>cem radium, videlicet radium 
+          re<lb ed="#L" break="no" n="46"/>ctum et fractum'et reflexum, 
+          se<lb ed="#L" break="no" n="47"/>eundum ipsum Alacensem in 
+          Perspe<lb ed="#L" break="no" n="48"/>c(ivasua. Rectus radius est, qui
+          <lb ed="#L" n="49"/>diffunditur a luminoso in medio
+          <lb ed="#L" n="50"/>ejusdem diaphancitatis, quantum
+          <lb ed="#L" n="51"/>durat virtus luminosi. Radius 
+          re<lb ed="#L" break="no" n="52"/>flexus est,qui occurrente opaco,
+          an<lb ed="#L" break="no" n="53"/>tequam terminetur virtus activa
+          <lb ed="#L" n="54"/>luminosi, diffunditurin partem 
+          op<lb ed="#L" break="no" n="55"/>positam, non ex electione, sed quia
+          <lb ed="#L" n="56"/>naturale agens, cujus virtus activa
+          <lb ed="#L" n="57"/>non est totaliter exhausta, in 
+          dire<lb ed="#L" break="no" n="58"/>ctum agit quantum potest, et quod
+          <lb ed="#L" n="59"/>non potest in direetum agit in 
+          obli<lb ed="#L" break="no" n="60"/>quum. Radius fractus est, qui 
+          oc<lb ed="#L" break="no" n="61"/>currente medio alterius 
+          diaphanci<lb ed="#L" break="no" n="62"/>tatis, non tamen omnino opaco,
+          <lb ed="#L" n="63"/>multiplicatur in illo medio, sednon
+          <lb ed="#L" n="64"/>secundum lineam rectam, sed 
+          in<lb ed="#L" break="no" n="65"/>cidit ibi angulus. Quando autem 
+          oc<lb ed="#L" break="no" n="66"/>currit medium densius, frangitur
+          <lb ed="#L" n="67"/>radius ad perpendicularem, quia ex
+          <lb ed="#L" n="68"/>quo est perpendicularis, est 
+          fortis<lb ed="#L" break="no" n="69"/>simus in agendo. Unde cum 
+          fran<lb ed="#L" break="no" n="70"/>gitur ad agendum in medium 
+          den<lb ed="#L" break="no" n="71"/>sius, requiritur situs propinquior
+          <lb ed="#L" n="72"/>perpendiculari radio, talis est 
+          si<lb ed="#L" break="no" n="73"/>tus radii fracti ad 
+          perpendicula<lb ed="#L" break="no" n="74"/>rem. Quando autem occurrit 
+          me<lb ed="#L" break="no" n="75"/>dium rarius, frangitur radius a
+          <lb ed="#L" n="76"/>perpendieulari, propter oppositam
+          <lb ed="#L" n="77"/>causam.
+        </p>
+        <p xml:id="jdso8u-d1e1995-d1e632">
+          <lb ed="#L" n="78"/>Dico tunc quod lumen (f) 
+          multi<lb ed="#L" break="no" n="79"/>plieatum secundum istos tres 
+          ra<lb ed="#L" break="no" n="80"/>dios, immediate gignitur ab ipsa
+          <lb ed="#L" n="81"/>luce, et etiam immediate est 
+          spe<lb ed="#L" break="no" n="82"/>cies sensibilis ipsius lucis. De recto
+          <lb ed="#L" n="83"/>patet. De reflexo probatur; tum
+          <lb ed="#L" n="84"/>quia per illum radium videtur res
+          <lb ed="#L" n="85"/>in se, non autem aliqua species
+          <lb ed="#L" n="86"/>impressa speculo reflectente; tum
+          <lb ed="#L" n="87"/>quia eodem modo etiam per ra-
+          <pb ed="#L" n="624"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>dium fractum, videtur ipsa res
+          <lb ed="#L" n="2"/>multiplicans se, et non species 
+          ali<lb ed="#L" break="no" n="3"/>qua ipsius rei vise, et sicut ista
+          <lb ed="#L" n="4"/>lumina primaria multiplicatione
+          <lb ed="#L" n="5"/>diffusa, sunt immediate species
+          <lb ed="#L" n="6"/>lucis gignentis, forte ita 
+          immedia<lb ed="#L" break="no" n="7"/>te gignuntur ab ea, loquendo de
+          <lb ed="#L" n="8"/>inmmediatione ad causam, non 
+          ex<lb ed="#L" break="no" n="9"/>cludendo ordinem effectuum 
+          ordi<lb ed="#L" break="no" n="10"/>natorum respectu ejusdem cause.
+        </p>
+        <p xml:id="jdso8u-d1e1995-d1e682">
+          <lb ed="#L" n="11"/>Sed praeter ista, est aliud lumen
+          <lb ed="#L" n="12"/>secundarium (8), quod dicitur 
+          lu<lb ed="#L" break="no" n="13"/>men accidentale, quale est ubi est
+          <lb ed="#L" n="14"/>umbra. In hoc enim distinguitur
+          <lb ed="#L" n="15"/>umbra in actu a tenebra, quia 
+          te<lb ed="#L" break="no" n="16"/>nebra est privatio luminis tam 
+          pri<lb ed="#L" break="no" n="17"/>marii quam secundarii, umbra est
+          <lb ed="#L" n="18"/>privatio luminis primarii. Istud
+          <lb ed="#L" n="19"/>autem secundarium lumen, licet
+          <lb ed="#L" n="20"/>quandoque diffundatur per 
+          refle<lb ed="#L" break="no" n="21"/>xionem, non tamen a corpore 
+          po<lb ed="#L" break="no" n="22"/>lito, quia reflexio a tali corpore
+          <lb ed="#L" n="23"/>est gignitio radii primarii, quia
+          <lb ed="#L" n="24"/>est immediata species ipsius lucis
+          <lb ed="#L" n="25"/>gignentis, non autem sic istud 
+          lu<lb ed="#L" break="no" n="26"/>men. secundarium; imo gignitur
+          <lb ed="#L" n="27"/>ab ipso lumine primario, ita quod
+          <lb ed="#L" n="28"/>si, per impossibile, reflexio 
+          rema<lb ed="#L" break="no" n="29"/>neret sine lumine radii 
+          imprimen<lb ed="#L" break="no" n="30"/>tis, gigneret sphszrice vel 
+          he<lb ed="#L" break="no" n="31"/>misphaerice istud lumen 
+          secunda<lb ed="#L" break="no" n="32"/>rium ; non sic autem  gigneretur
+          <lb ed="#L" n="33"/>lumen reflexum a radio primario,
+          <lb ed="#L" n="34"/>qualis est, reflexio a corpore poli.
+          <lb ed="#L" n="35"/>to; est ergo omne lumen species,
+          <lb ed="#L" n="36"/>sed lumen primarium est species
+          <lb ed="#L" n="37"/>lucis gignentis, , lumen 
+          secunda<lb ed="#L" break="no" n="38"/>rium species luminis primarii.
+        </p>
+        <p xml:id="jdso8u-d1e1995-d1e745">
+          <lb ed="#L" n="39"/>Et ex hoc patet ad argumenta,
+          <lb ed="#L" n="40"/>quae (h) possunt fieri contra istam
+          <lb ed="#L" n="41"/>partem, quia cum lumen videatur,
+          <lb ed="#L" n="42"/>non erit species visibilis. 
+          Respon<lb ed="#L" break="no" n="43"/>deo, species aliqua intensa, non
+          <lb ed="#L" n="44"/>obstante quod sit intensio et spe-
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>cies alterius visibilis, potest tamen n
+          <lb ed="#L" n="46"/>in se esse visibilis, sicut dicit Com- nis
+          <lb ed="#L" n="47"/>mentator super de Sensu et Sensato, t5
+          <lb ed="#L" n="48"/>cap. primo, quia quando lumen 
+          re<lb ed="#L" break="no" n="49"/>flectitur ad virides plantas, 
+          colo<lb ed="#L" break="no" n="50"/>rantur parietes. Similiter species
+          <lb ed="#L" n="51"/>non sunt visibiles, nisi quando 
+          ter<lb ed="#L" break="no" n="52"/>minantur ad opaca, ita quod non
+          <lb ed="#L" n="53"/>contiguatae opacis, non possunt
+          <lb ed="#L" n="54"/>gignere species sui, quibus 
+          videan<lb ed="#L" break="no" n="55"/>tur, sicut species coloris dum est
+          <lb ed="#L" n="56"/>in medio, non videtur, sed quando
+          <lb ed="#L" n="57"/>contiguatur opaco, tunc videri 
+          po<lb ed="#L" break="no" n="58"/>test, sicut patet de radio 
+          transeun<lb ed="#L" break="no" n="59"/>te per virtum coloratum, apparet
+          <lb ed="#L" n="60"/>color in pariete, ubi terminatur
+          <lb ed="#L" n="61"/>radius ille, et videtur coloratus
+          <lb ed="#L" n="62"/>similiter sicut. vitrum, et tamen
+          <lb ed="#L" n="63"/>in medio non erit ille radius 
+          colo<lb ed="#L" break="no" n="64"/>ratus visibilis, nec tamen propter
+          <lb ed="#L" n="65"/>hoc negatur ille rubor esse species,
+          <lb ed="#L" n="66"/>qui apparet in pariete, quia oculus
+          <lb ed="#L" n="67"/>ibi existens, cui si supponeretur
+          <lb ed="#L" n="68"/>ille rubor, videret rubeum vitrum
+          <lb ed="#L" n="69"/>vel ruborem vitri.
+        </p>
+        <p xml:id="jdso8u-d1e1995-d1e817">
+          <lb ed="#L" n="70"/>Unde hae est falsa : illud quod
+          <lb ed="#L" n="71"/>est intentio objecti visibilis, non i
+          <lb ed="#L" n="72"/>est visibile, sed ista est vera .:
+          <lb ed="#L" n="73"/>omnis intentio non tantum est 
+          vi<lb ed="#L" break="no" n="74"/>sibilis, sed est etiam ratio videndi.
+          <lb ed="#L" n="75"/>Unde forma illuminans Lunam 1u-,
+          <lb ed="#L" n="76"/>men est et non lux, quia non est.
+          <lb ed="#L" n="77"/>corpus terminatum in Luna, et
+          <lb ed="#L" n="78"/>tamen est sensibilis, et. species 
+          lu<lb ed="#L" break="no" n="79"/>cis; similiter per Aristotelem in
+          <lb ed="#L" n="80"/>de Sensu et Sensato, fulgor emissus
+          <lb ed="#L" n="81"/>ab oculo moto in tenebris, visibilis
+          <lb ed="#L" n="82"/>est, et tamen est species lucis 
+          tan<lb ed="#L" break="no" n="83"/>tum. Et eodem modo lumen non
+          <lb ed="#L" n="84"/>terminatum ad opacum non 
+          vide<lb ed="#L" break="no" n="85"/>tur, quod patet; tum quia radii
+          <lb ed="#L" n="86"/>solares de nocte non apparent,
+          <lb ed="#L" n="87"/>qui tamen intereipiuntur inter nos
+          <lb ed="#L" n="88"/>et coelum, et supra conum pyra-
+          <pb ed="#L" n="625"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>midis umbrae terre; tum quia
+          <lb ed="#L" n="2"/>existens in carcere opaco et 
+          tene<lb ed="#L" break="no" n="3"/>broso, ubi per opposita foramina
+          <lb ed="#L" n="4"/>transiret radius solaris, non 
+          vide<lb ed="#L" break="no" n="5"/>ret, ita quod nusquam reflectente
+          <lb ed="#L" n="6"/>se ad opaeum, non videret illum
+          <lb ed="#L" n="7"/>radium, si corpuscula illa non
+          <lb ed="#L" n="8"/>frangantur. Similiter si medium
+          <lb ed="#L" n="9"/>illuminatum esset infinitum et non
+          <lb ed="#L" n="10"/>terminatam ad corpus opacum,
+          <lb ed="#L" n="11"/>Sole existente super Horizontem
+          <lb ed="#L" n="12"/>nihil videretur, quia non esset 
+          ter<lb ed="#L" break="no" n="13"/>minamns.
+        </p>
+        <p xml:id="jdso8u-d1e1995-d1e894">
+          <lb ed="#L" n="14"/>Eamdem ergo conditionem habet
+          <lb ed="#L" n="15"/>lumen, quam habent alie species
+          <lb ed="#L" n="16"/>principales colorum, quantum ad
+          <lb ed="#L" n="17"/>videri et non videri; sicut 
+          princi<lb ed="#L" break="no" n="18"/>pales species colorum, quae scilicet
+          <lb ed="#L" n="19"/>radiose multiplicantur, possunt
+          <lb ed="#L" n="20"/>generare alias secundarias 
+          acci<lb ed="#L" break="no" n="21"/>dentales non radiose 
+          multiplica<lb ed="#L" break="no" n="22"/>fas, et per illas videri, et tamen
+          <lb ed="#L" n="23"/>non negatur illas primas esse 
+          in<lb ed="#L" break="no" n="24"/>tentiones, pro eo quod simpliciter
+          <lb ed="#L" n="25"/>sunt similitudines illorum 
+          primo<lb ed="#L" break="no" n="26"/>rum colorum gignentium : ita in
+          <lb ed="#L" n="27"/>proposito.
+        </p>
+        <p xml:id="jdso8u-d1e1995-d1e927">
+          <lb ed="#L" n="28"/>Ad argumenta (i). Ad primum
+          <lb ed="#L" n="29"/>dico, quod Augustinus accipit ibl
+          <lb ed="#L" n="30"/>lucem pro corpore subtili, puta 
+          for<lb ed="#L" break="no" n="31"/>te pro igne, qui est corpus 
+          subti<lb ed="#L" break="no" n="32"/>lius in mixto, vel pro aliquo 
+          cor<lb ed="#L" break="no" n="33"/>pore subtili multum conveniente
+          <lb ed="#L" n="34"/>cum igne in natura, sicut et 
+          Scri<lb ed="#L" break="no" n="35"/>ptura dicit lucem factam fuisse
+          <lb ed="#L" n="36"/>prima die, non quod tunc fieret
+          <lb ed="#L" n="37"/>accidens sine subjecto, sed tunc
+          <lb ed="#L" n="38"/>fiebat corpus luminosum, cujus
+          <lb ed="#L" n="39"/>forma notior erat lux, et ideo 
+          de<lb ed="#L" break="no" n="40"/>scribitur subjectum ignotum per
+          <lb ed="#L" n="41"/>terminum notiorem.
+        </p>
+        <p xml:id="jdso8u-d1e1995-d1e960">
+          <lb ed="#L" n="42"/>Ad secundum dico, quod alterans
+          <lb ed="#L" n="43"/>in fine alterationis generat, non
+          <lb ed="#L" n="44"/>autem illa qualitas, qua alteravit.
+        </p>
+        <p xml:id="jdso8u-d1e1995-d1e969">
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>Ad tertium dico, quod ista sunt
+          <lb ed="#L" n="46"/>metaphorice dicta de lumine, sicut
+          <lb ed="#L" n="47"/>patet per Avicennam Sezto 
+          natura<lb ed="#L" break="no" n="48"/>liwn; non enim aliquid idem 
+          pro<lb ed="#L" break="no" n="49"/>cedit recte, quasi motu locali, et
+          <lb ed="#L" n="50"/>tamen quandoque obliquatur 
+          fran<lb ed="#L" break="no" n="51"/>gendo vel reflectendo; sed quando
+          <lb ed="#L" n="52"/>virtus activa non est totaliter
+          <lb ed="#L" n="53"/>exhausta, id est, non tantum 
+          cau<lb ed="#L" break="no" n="54"/>savit, quantum potest causare,
+          <lb ed="#L" n="55"/>tunc ulterius, si non potest 
+          secun<lb ed="#L" break="no" n="56"/>dum lineam rectam agere, 
+          secun<lb ed="#L" break="no" n="57"/>dum quam natura maxime agit,
+          <lb ed="#L" n="58"/>quia illa est brevissima et 
+          effica<lb ed="#L" break="no" n="59"/>cissima ad operandum, agit 
+          secun<lb ed="#L" break="no" n="60"/>dum aliam lineam isti 
+          propinqui<lb ed="#L" break="no" n="61"/>orem, et hoc fractam vel reflexam,
+          <lb ed="#L" n="62"/>si nihil potest agere ulterius 
+          re<lb ed="#L" break="no" n="63"/>agendo in idem passum, in quod
+          <lb ed="#L" n="64"/>prius egit, causando tamen ibi
+          <lb ed="#L" n="65"/>cum illo prius causato aliquid
+          <lb ed="#L" n="66"/>simpliciter imperfectius.
+        </p>
+        <p xml:id="jdso8u-d1e1995-d1e1021">
+          <lb ed="#L" n="67"/>Et si objicias, quod cum 
+          perfe<lb ed="#L" break="no" n="68"/>etiori causato priori, non potest
+          <lb ed="#L" n="69"/>esse causatum imperfectius 
+          poste<lb ed="#L" break="no" n="70"/>rius, et ita cum toto medio 
+          illumi<lb ed="#L" break="no" n="71"/>nato radio primario, non potest
+          <lb ed="#L" n="72"/>esse lux, nec etiam cum medio
+          <lb ed="#L" n="73"/>illuminato radio recto, potest esse
+          <lb ed="#L" n="74"/>radius reflexus, dico quod falsitas
+          <lb ed="#L" n="75"/>conclusionis apparet ad sensum.
+          <lb ed="#L" n="76"/>Patet enim, si radius Solis incidat
+          <lb ed="#L" n="77"/>in aquam, et re(lectatur in aliquem
+          <lb ed="#L" n="78"/>locum tenebrosum, ubi non est
+          <lb ed="#L" n="79"/>radius rectus, sensus dicit 
+          refle<lb ed="#L" break="no" n="80"/>xionem fieri, usque in locum illum
+          <lb ed="#L" n="81"/>tenebrosum, non autem illic fieret,
+          <lb ed="#L" n="82"/>nisi prius esset radius reflexus in
+          <lb ed="#L" n="83"/>medio illuminato radio recto. 
+          Eo<lb ed="#L" break="no" n="84"/>dem modo, dicit sensus lumen 
+          se<lb ed="#L" break="no" n="85"/>eundarium sive speciem luminis
+          <lb ed="#L" n="86"/>primarii diffundi a lumine 
+          prima<lb ed="#L" break="no" n="87"/>rio contiguato alicui corpori 
+          opa<lb ed="#L" break="no" n="88"/>eo. usque ad oeulum, alioquin non
+          <pb ed="#L" n="626"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>videretur illud lumen primarium,
+          <lb ed="#L" n="2"/>et tamen per totum, illud medium
+          <lb ed="#L" n="3"/>est lumen primarium. Tunc ergo
+          <lb ed="#L" n="4"/>illa propositio est neganda, ubi est
+          <lb ed="#L" n="5"/>forma perfectior, ibi non potest
+          <lb ed="#L" n="6"/>multiplicari aliqua imperfectior,
+          <lb ed="#L" n="7"/>sive species quae sit, forma 
+          imper<lb ed="#L" break="no" n="8"/>fectior.
+        </p>
+        <p xml:id="jdso8u-d1e1995-d1e1093">
+          <lb ed="#L" n="9"/>Ad alia, quae sunt contra 
+          spe<lb ed="#L" break="no" n="10"/>ciem (k), sive intentionem, dico ad
+          <lb ed="#L" n="11"/>primum, quod omne accidens 
+          for<lb ed="#L" break="no" n="12"/>te posset denominare subjectum
+          <lb ed="#L" n="13"/>suum in quo est, si esset 
+          denomi<lb ed="#L" break="no" n="14"/>nans, vel nomen impositum, quod
+          <lb ed="#L" n="15"/>significaret denominationem 
+          con<lb ed="#L" break="no" n="16"/>venientem forme, respectu talis
+          <lb ed="#L" n="17"/>subjecti ; haec modo non est 
+          de<lb ed="#L" break="no" n="18"/>nominativum impositum a 
+          speci<lb ed="#L" break="no" n="19"/>ebus colorum, quia denominativa
+          <lb ed="#L" n="20"/>imposita a coloribus denominant
+          <lb ed="#L" n="21"/>subjectum habens colores, 
+          secun<lb ed="#L" break="no" n="22"/>dum esse reale. Si autem esset
+          <lb ed="#L" n="23"/>denominativum impositum, quod
+          <lb ed="#L" n="24"/>denominaret subjectum habere 
+          for<lb ed="#L" break="no" n="25"/>mam, secundum esse 
+          intentiona<lb ed="#L" break="no" n="26"/>le, non secundum esse reale, bene
+          <lb ed="#L" n="27"/>posset medium denominari a tali
+          <lb ed="#L" n="28"/>nomine albi, et tale est impositum
+          <lb ed="#L" n="29"/>a lumine, et forte magis hic quam
+          <lb ed="#L" n="30"/>in eoloribus, propter majorem
+          <lb ed="#L" n="31"/>perfectionem et evidentiam hujus
+          <lb ed="#L" n="32"/>intentionis, quam aliarum 
+          inten<lb ed="#L" break="no" n="33"/>tionum visibilium.
+        </p>
+        <p xml:id="jdso8u-d1e1995-d1e1151">
+          <lb ed="#L" n="34"/>Quod additur secundo de 
+          opposi<lb ed="#L" break="no" n="35"/>to, dico quod lumen unum non
+          <lb ed="#L" n="36"/>exeludit aliud lumen alterius 
+          ra<lb ed="#L" break="no" n="37"/>tionis, sicut lumen Solis non 
+          exclu<lb ed="#L" break="no" n="38"/>dit lumen Luns» in eadem parte
+          <lb ed="#L" n="39"/>medii vel alterius stelle, sicut nec
+          <lb ed="#L" n="40"/>species nigri excludit speciem albi,
+          <lb ed="#L" n="41"/>vele converso in eadem parte 
+          me<lb ed="#L" break="no" n="42"/>dii, sed sicut. lumen quodcumque
+          <lb ed="#L" n="43"/>exeludit a medio tenebram, quc
+          <lb ed="#L" n="44"/>est eius privatio, non contrarium,
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>vel disparatum, ita species 
+          cujus<lb ed="#L" break="no" n="46"/>cumque coloris, excludit 
+          privati<lb ed="#L" break="no" n="47"/>onem illius coloris in medio.
+        </p>
+        <p xml:id="jdso8u-d1e1995-d1e1186">
+          <lb ed="#L" n="48"/>Ad tertium, concedo quod res
+          <lb ed="#L" n="49"/>est, et effectum realem habere
+          <lb ed="#L" n="50"/>potest, non tamen ita res quod
+          <lb ed="#L" n="51"/>possit non esse intentio, quia cum
+          <lb ed="#L" n="52"/>ratione sua stat, quod ipsa per se
+          <lb ed="#L" n="53"/>sit ratio tendendi in objectum, et
+          <lb ed="#L" n="54"/>hoc sufficit ad rationem 
+          intenti<lb ed="#L" break="no" n="55"/>onis. Quod autem (1) totus radius
+          <lb ed="#L" n="56"/>gienatur immediate ab ipsa luce,
+          <lb ed="#L" n="57"/>et non pars radii a parte, 
+          proba<lb ed="#L" break="no" n="58"/>tur, quia si ponatur quod lumen
+          <lb ed="#L" n="59"/>in aliqua parte medii gignat lumen
+          <lb ed="#L" n="60"/>ex se, quilibet punctus lucis 
+          multi<lb ed="#L" break="no" n="61"/>plicat se sphzerice, quia omne 
+          acti<lb ed="#L" break="no" n="62"/>vum naturale agit in medium 
+          cir<lb ed="#L" break="no" n="63"/>cumstans sphzerice, si sit ex omni :
+          <lb ed="#L" n="64"/>parte aeque dispositum, et si habeat
+          <lb ed="#L" n="65"/>opacum obstans ex una parte sui,
+          <lb ed="#L" n="66"/>saltem. multiplicat se 
+          hemisphae<lb ed="#L" break="no" n="67"/>rice; ergo eodem modo, si lumen
+          <lb ed="#L" n="68"/>esset gignens respectu alterius 
+          lu<lb ed="#L" break="no" n="69"/>minis, ex quo non habet opacum
+          <lb ed="#L" n="70"/>impediens ex aliqua parte sui,
+          <lb ed="#L" n="71"/>spherice se multiplieat, et ita
+          <lb ed="#L" n="72"/>sicut lumen principale gignit aliud
+          <lb ed="#L" n="73"/>lumen ulterius secundarium 
+          indi<lb ed="#L" break="no" n="74"/>rectum, ita gigneretur ex omni
+          <lb ed="#L" n="75"/>parte radii distantis, quod est 
+          con<lb ed="#L" break="no" n="76"/>tra sensum.
+        </p>
+        <p xml:id="jdso8u-d1e1995-d1e1251">
+          <lb ed="#L" n="77"/>Praeterea, aliquod luminare 
+          po<lb ed="#L" break="no" n="78"/>test agere in distans localiter, quia
+          <lb ed="#L" n="79"/>si non posset agere, nisi ubi est
+          <lb ed="#L" n="80"/>localiter, tantum posset 
+          illumina<lb ed="#L" break="no" n="81"/>re aliquod indivisibile ; quod si
+          <lb ed="#L" n="82"/>preiesens est in ratione agentis 
+          ali<lb ed="#L" break="no" n="83"/>cui distanti localiter, ergo et pari
+          <lb ed="#L" n="84"/>ratione toti medio, usque ad 
+          tan<lb ed="#L" break="no" n="85"/>tam distantiam ad quantam 
+          suffi<lb ed="#L" break="no" n="86"/>cit virtus ejus; et si praesens est
+          <lb ed="#L" n="87"/>illi toti, et potest in toto causare
+          <lb ed="#L" n="88"/>lumen, ergo causat, quia ipsum
+          <pb ed="#L" n="627"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>lumen genitum ab ipso, dato quod
+          <lb ed="#L" n="2"/>posset causare aliud lumen, tamen
+          <lb ed="#L" n="3"/>luminare praesens est majoris 
+          vir<lb ed="#L" break="no" n="4"/>tutis, quam lumen genitum, et ita
+          <lb ed="#L" n="5"/>praevenit ipsum lumen in agendo
+          <lb ed="#L" n="6"/>in partem remotam.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

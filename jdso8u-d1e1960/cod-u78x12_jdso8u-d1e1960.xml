@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2024-08-09">August 09, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x12">Vives, Paris, 1893, volume 12</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-08-09" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="522"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e1960"><!-- scotus-l2d10q1-p1 -->
+        <head xml:id="jdso8u-d1e1960-Hd1e101">Quaestio 1</head>
+        <head xml:id="jdso8u-d1e1960-Hd1e103" type="question-title">Utrum omnes angeli mittantur</head>
+        <p xml:id="jdso8u-d1e1960-d1e106">
+          <lb ed="#L" n="72" type="fixed=522"/>QUAESTIO UNICA.
+          <lb ed="#L" n="73"/>Utrum (a) Angeli mittantur ?
+        </p>
+        <p xml:id="jdso8u-d1e1960-d1e113">
+          <lb ed="#L" n="74"/>Alens.
+          <lb ed="#L" n="75"/>D. Thom. 1. p. q. 112. art.
+          <lb ed="#L" n="76"/>2. et q. 113. D. 
+          Bo<lb ed="#L" break="no" n="77"/>nav.Aic art.
+          <lb ed="#L" n="78"/>et 3. JEgid. q
+          <lb ed="#L" n="79"/>Vasq. 1. p. d. 244.
+        </p>
+        <p xml:id="jdso8u-d1e1960-d1e129">
+          <lb ed="#L" n="80"/>Circa distinctionem decimam,
+          <lb ed="#L" n="81"/>ubi quaerit Magister de missione
+          <lb ed="#L" n="82"/>Angelorum, quaero: Utrum omnes
+          <pb ed="#L" n="523"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>Angeli mittantur ? Quod non, 
+          Da<lb ed="#L" break="no" n="2"/>nielis septimo cap. Millia millium 
+          mini<lb ed="#L" break="no" n="3"/>strabant ei, et. decies centena millia 
+          assi<lb ed="#L" break="no" n="4"/>stebant ei; ergo, eto.
+        </p>
+        <p xml:id="jdso8u-d1e1960-d1e152">
+          <lb ed="#L" n="5"/>Contra, ad Hebraeos primo : Omnes
+          <lb ed="#L" n="6"/>sunt administratorii spiritus.
+        </p>
+        <!--</div>
+          <div alias="scotus-l2d10q1-p2">-->
+        <p xml:id="jdso8u-d1e1960-d1e161">
+          <lb ed="#L" n="7" type="fixed=523"/>SCHOLIUM.
+        </p>
+        <p xml:id="jdso8u-d1e1960-d1e166">
+          <lb ed="#L" n="8"/>Superiores Angeli communiter mittuntur
+          <lb ed="#L" n="9"/>ad intra illuminando alios, inferiores ad 
+          ex<lb ed="#L" break="no" n="10"/>tra, tamen ad ardua mittuntur quandoque
+          <lb ed="#L" n="11"/>superiores; sic missus est Gabriel ad 
+          annun<lb ed="#L" break="no" n="12"/>tiandum mysterium Incarnationis,quem 
+          pro<lb ed="#L" break="no" n="13"/>pterea vocant Archangelum Iren. l. 5. c. 25,
+          <lb ed="#L" n="14"/>Amb. de Spiritu sancto c. 7. Aug. serm. 14,
+          <lb ed="#L" n="15"/>de nativ. et Greg. hom. 34. in Evang. 
+          vo<lb ed="#L" break="no" n="16"/>cat eum summum Angelorum. An autem
+          <lb ed="#L" n="17"/>fuerit ex supremis incertum est; certum
+          <lb ed="#L" n="18"/>contra D. Thom. 1. p. q. 112. art. 2. ex 
+          supe<lb ed="#L" break="no" n="19"/>rioribus mitti, quia et Hichael missus est,
+          <lb ed="#L" n="20"/>Dan. 10. et patet ex altercatione de Moysis
+          <lb ed="#L" n="21"/>corpore, ex Epist. Jude ;et quod supremi
+          <lb ed="#L" n="22"/>mittantur, habetur ex Aug.in Psal. 56. et
+          <lb ed="#L" n="23"/>Bernard. serm. de Hichaele. Item Chrys. et
+          <lb ed="#L" n="24"/>Theophyl. in id Matth. 18. An4eti eorum, etc.
+          <lb ed="#L" n="25"/>exponunt de superioribus tanquam Deo
+          <lb ed="#L" n="26"/>proximis.
+        </p>
+        <p xml:id="jdso8u-d1e1960-d1e210">
+          <lb ed="#L" n="27"/>Respondeo, absolute concedenda
+          <lb ed="#L" n="28"/>est auctoritas Apostoli, sed 
+          di<lb ed="#L" break="no" n="29"/>stinguendum est, de missione 
+          in<lb ed="#L" break="no" n="30"/>Eracet exira; secundum enim
+          <lb ed="#L" n="31"/>communem processum et 
+          ordi<lb ed="#L" break="no" n="32"/>nem, revelantur majora Dei 
+          my<lb ed="#L" break="no" n="33"/>steria superioribus prius quam
+          <lb ed="#L" n="34"/>inferioribus, et ita superiores
+          <lb ed="#L" n="35"/>mittuntur ad inferiores, loquendo
+          <lb ed="#L" n="36"/>et illuminando eos interius; et
+          <lb ed="#L" n="37"/>alii inferiores mittuntur  
+          exte<lb ed="#L" break="no" n="38"/>rius, ad illa revelata nuntianda
+          <lb ed="#L" n="39"/>hominibus vel explenda, et ita
+          <lb ed="#L" n="40"/>non omnes communiter mittuntur
+          <lb ed="#L" n="41"/>extra, et sic possunt exponi omnes
+          <lb ed="#L" n="42"/>auctoritates, dicendo quod omnes
+          <lb ed="#L" n="43"/>mittuntur extra vel intra.
+        </p>
+        <p xml:id="jdso8u-d1e1960-d1e249">
+          <lb ed="#L" n="44"/>Videtur tamen, quod supremi
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>vel aliqui de supremis mittantur
+          <lb ed="#L" n="46"/>quandoque ad extra. Nam 
+          Incar<lb ed="#L" break="no" n="47"/>nationem nescierunt multi Angeli
+          <lb ed="#L" n="48"/>ante tempus Incarnationis vel
+          <lb ed="#L" n="49"/>passionis Christi, sicut patet per
+          <lb ed="#L" n="50"/>illud Isaie 63. ubi quaeritur in
+          <lb ed="#L" n="51"/>persona inferiorum Angelorum:
+          <lb ed="#L" n="52"/>Quis est iste, qui venit de Edom 
+          tin<lb ed="#L" break="no" n="53"/>ctus, etc. et per illud Psalm. Qui est
+          <lb ed="#L" n="54"/>iste rez glorie? Et respondet, 
+          Domi<lb ed="#L" break="no" n="55"/>nus fortis, etc. Apparet etiam per
+          <lb ed="#L" n="56"/>Apostolum ad Ephesios tertio : Ut 
+          in<lb ed="#L" break="no" n="57"/>notescat principibus potestatibus per 
+          Ee<lb ed="#L" break="no" n="58"/>clesiam, etc. Ubi glossa Hieronymi
+          <lb ed="#L" n="59"/>Angelicas potestates vel dignitates
+          <lb ed="#L" n="60"/>prefatum dicit mysterium 
+          Incar<lb ed="#L" break="no" n="61"/>nationis ad plenum neseisse, donec
+          <lb ed="#L" n="62"/>completa esset passio Christi et
+          <lb ed="#L" n="63"/>Apostolorum praedicatio fuisset
+          <lb ed="#L" n="64"/>gentibus dilatata. Quod tamen 
+          us<lb ed="#L" break="no" n="65"/>que tunc non latuit majores, 
+          se<lb ed="#L" break="no" n="66"/>cundum glossam Augustini ibidem
+          <lb ed="#L" n="67"/>dicentis: Constat autem, quod Angelum
+          <lb ed="#L" n="68"/>missum ad Beatam Virginem, ad hoc
+          <lb ed="#L" n="69"/>nuntiandum, non. latuit; ergo ille cui
+          <lb ed="#L" n="70"/>hocc patuit, erat de superioribus,
+          <lb ed="#L" n="71"/>et non de infimis, quos latuit illud
+          <lb ed="#L" n="72"/>sacrum mysterium. Perhoc patet
+          <lb ed="#L" n="73"/>(b) adillud Daniel. 7. distinguendum
+          <lb ed="#L" n="74"/>enim est de communiter 
+          assisten<lb ed="#L" break="no" n="75"/>tibus, et de communiter 
+          mini<lb ed="#L" break="no" n="76"/>strantibus. Auctoritas autem 
+          Apo<lb ed="#L" break="no" n="77"/>stoli concedenda est ad litteram,
+          <lb ed="#L" n="78"/>sed indistincte de missione ad 
+          in<lb ed="#L" break="no" n="79"/>taret ad extra.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

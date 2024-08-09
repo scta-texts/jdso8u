@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2024-08-09">August 09, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x12">Vives, Paris, 1893, volume 12</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-08-09" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="427"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e1932"><!-- scotus-l2d9q1-p1 -->
+        <head xml:id="jdso8u-d1e1932-Hd1e101">Quaestio 1</head>
+        <head xml:id="jdso8u-d1e1932-Hd1e103" type="question-title">Utrum angelus superior possit illuminare inferiorem</head>
+        <p xml:id="jdso8u-d1e1932-d1e106">
+          <pb ed="#L" n="427"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1" type="fixed=427"/>QUAESTIO I.
+        </p>
+        <p xml:id="jdso8u-d1e1932-d1e115">
+          <lb ed="#L" n="2"/>Utrum Angelus superior possit 
+          illu<lb ed="#L" break="no" n="3"/>minare inferiorem ?
+        </p>
+        <p xml:id="jdso8u-d1e1932-d1e122">
+          <lb ed="#L" n="4"/>Alensis 1. p. q. 38. mem. 3. D. Thom. 1. p
+          <lb ed="#L" n="5"/>DH wurt. 1. "D. Donav. 2. d. 10. ari: 2. 9. 9.
+          <lb ed="#L" n="6"/>hichard. Aic art. 1. q. 2. Capreol. ibi 2
+          <lb ed="#L" n="7"/>art. 1. Occham 2. q. 20. Vasq. 1. p. d. 216.
+          <lb ed="#L" n="8"/>217. Vide Scot. 8. Met. q. 3. Mayr. hic d. 12.q. 9.
+          <lb ed="#L" n="9"/>et d. 9. 10, et 11. quaest 2. Durand. dist. 2. q. 3
+        </p>
+        <p xml:id="jdso8u-d1e1932-d1e139">
+          <lb ed="#L" n="10"/>Circa distinctionem nonam, ubi
+          <lb ed="#L" n="11"/>Magister tractat de ordinibus 
+          An<lb ed="#L" break="no" n="12"/>gelorum, ubi dicit quod ad 
+          supe<lb ed="#L" break="no" n="13"/>riores Angelos pertinet inferiores
+          <lb ed="#L" n="14"/>illuminare, quaero primo: Utrum
+          <lb ed="#L" n="15"/>Angelus superior possit 
+          illumina<lb ed="#L" break="no" n="16"/>re inferiorem? Quod non, 
+          illu<lb ed="#L" break="no" n="17"/>minare, vel est lumen causare,
+          <lb ed="#L" n="18"/>vel est lumen causatum 
+          in<lb ed="#L" break="no" n="19"/>tendere ; neutrum autem potest
+          <lb ed="#L" n="20"/>aliquis Angelus. Primum non, quia
+          <lb ed="#L" n="21"/>lumen causare in alio non potest
+          <lb ed="#L" n="22"/>nis] per creationem; Angelus 
+          au<lb ed="#L" break="no" n="23"/>tem non potest creare, ut dicit 
+          Da<lb ed="#L" break="no" n="24"/>mascenus libro secundo, cap. 17. 
+          Se<lb ed="#L" break="no" n="25"/>cundum non, quia ab eodem 
+          ccausa<lb ed="#L" break="no" n="26"/>tur habitus, et intenditur, 
+          secun<lb ed="#L" break="no" n="27"/>dum Philosophum 2. Ethic.
+        </p>
+        <p xml:id="jdso8u-d1e1932-d1e181">
+          <lb ed="#L" n="28"/>Praeterea secundo, omnis 
+          muta<lb ed="#L" break="no" n="29"/>tio est inter opposita; ergo omne
+          <lb ed="#L" n="30"/>illud quod illuminatur, prius fuit
+          <lb ed="#L" n="31"/>tenebrosum; in Angelis autem
+          <lb ed="#L" n="32"/>beatis non est aliqua tenebra;
+          <lb ed="#L" n="33"/>Ereo, eto.
+        </p>
+        <p xml:id="jdso8u-d1e1932-d1e197">
+          <lb ed="#L" n="34"/>Praeterea tertio, Angelus 
+          supe<lb ed="#L" break="no" n="35"/>rior est lumen superius respectu
+          <lb ed="#L" n="36"/>inferioris ; sed in corporibus, 
+          ma<lb ed="#L" break="no" n="37"/>jus lumen obfuscat minus lumen,
+          <lb ed="#L" n="38"/>vel saltem impedit effectum suum,
+          <lb ed="#L" n="39"/>sicut patet, quia de die non 
+          viden<lb ed="#L" break="no" n="40"/>tur stellae in preiesentia Solis; ergo
+          <lb ed="#L" n="41"/>a simili in proposito, Angelus
+          <lb ed="#L" n="42"/>superior impedit inferiorem ab
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="43"/>operatione; ergo non perficit eum
+          <lb ed="#L" n="44"/>ipsum illuminando. Contra 
+          Da<lb ed="#L" break="no" n="45"/>mascenus lib. 9. cap. 17. et 18. etc.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

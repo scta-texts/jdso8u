@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2024-08-09">August 09, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x12">Vives, Paris, 1893, volume 12</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-08-09" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="641"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e2012"><!-- scotus-l2d14q1-p1 -->
+        <head xml:id="jdso8u-d1e2012-Hd1e101">Quaestio 1</head>
+        <head xml:id="jdso8u-d1e2012-Hd1e103" type="question-title">Utrum corpus caeleste sit essentia simplex</head>
+        <p xml:id="jdso8u-d1e2012-d1e106">
+          <pb ed="#L" n="641"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1" type="fixed=641"/>QUAESTIO I.
+        </p>
+        <p xml:id="jdso8u-d1e2012-d1e115">
+          <lb ed="#L" n="2"/>Utrum corpus — celeste sit — essentia
+          <lb ed="#L" n="3"/>simples ?
+        </p>
+        <p xml:id="jdso8u-d1e2012-d1e122">
+          <lb ed="#L" n="4"/>Alensis 2. p. q. 44. . 2. Aver. de subslant.
+          <lb ed="#L" n="5"/>orbis c. 2. et 8. Met. c. 4. D. Thom. 1. o. q. 66.
+          <lb ed="#L" n="6"/>8. 1. et 2. D. Bonav. 2. d: 19. ubi Richard.
+          <lb ed="#L" n="7"/>Capreol. J/Egid. Henr. quodl. 4. q. 16. CGoffr.
+          <lb ed="#L" n="8"/>quodl. 2. et 5. q. 2. Gabr. 2. d. 19. g. 2. Mayr.
+          <lb ed="#L" n="9"/>hic q. ?. Bassol. g. 1. Anton. Andreas 8. Met. q.
+          <lb ed="#L" n="10"/>4. Conimbricen. de coelo c. 2. q. 4. Vide Scot. 9.
+          <lb ed="#L" n="11"/>Phys. q. 4.
+        </p>
+        <p xml:id="jdso8u-d1e2012-d1e143">
+          <lb ed="#L" n="12"/>Circa distinctionem decimam
+          <lb ed="#L" n="13"/>quartam, quaero primo: Utrum
+          <lb ed="#L" n="14"/>corpus coeleste sit essentia 
+          sim<lb ed="#L" break="no" n="15"/>plex ?
+        </p>
+        <!--</div>
+          <div alias="scotus-l2d14q1-p2">-->
+        <p xml:id="jdso8u-d1e2012-d1e156">
+          <lb ed="#L" n="16" type="fixed=641"/>SCHOLIUM.
+        </p>
+        <p xml:id="jdso8u-d1e2012-d1e161">
+          <lb ed="#L" n="17"/>Colum, secundum Philosophos, non 
+          ha<lb ed="#L" break="no" n="18"/>bere materiam, sed esse substantiam 
+          sim<lb ed="#L" break="no" n="19"/>plicem, quia posuerunt esse necessarium,
+          <lb ed="#L" n="20"/>et omne materiatum, possibile, ex quo
+          <lb ed="#L" n="21"/>consequenter tenere debent colum non
+          <lb ed="#L" n="22"/>esse animatum, quidquid Avicenna sentiat
+          <lb ed="#L" n="23"/>Vide Conimbric. 2. de Coelo c. 1. q. 1.
+        </p>
+        <p xml:id="jdso8u-d1e2012-d1e179">
+          <lb ed="#L" n="24"/>Respondeo, (a) alia videtur 
+          res<lb ed="#L" break="no" n="25"/>ponsio danda secundum  
+          Theolo<lb ed="#L" break="no" n="26"/>gos, alia secundum Philosophos.
+          <lb ed="#L" n="27"/>Secundum intentionem Philosophi,
+          <lb ed="#L" n="28"/>cum omnis potentia passiva 
+          ma<lb ed="#L" break="no" n="29"/>teri sit potentia contradictionis,
+          <lb ed="#L" n="30"/>er nono Metaphysice et ibidem, cum
+          <lb ed="#L" n="31"/>quodcumque sempiternum sit 
+          ne<lb ed="#L" break="no" n="32"/>eessarium, et ita nullo modo in
+          <lb ed="#L" n="33"/>potentia contradietionis ; et 
+          cce<lb ed="#L" break="no" n="34"/>lum, secundum ipsum, sit 
+          sempi<lb ed="#L" break="no" n="35"/>ternum, sequitur, secundum 
+          ip<lb ed="#L" break="no" n="36"/>sum, quod nihil sit in ipso, quod
+          <lb ed="#L" n="37"/>sit in potentia contradictionis vel
+          <lb ed="#L" n="38"/>corruptionis, et per consequens
+          <lb ed="#L" n="39"/>nec habens materiam, quia si 
+          ha<lb ed="#L" break="no" n="40"/>beret materiam esset, formaliter
+          <lb ed="#L" n="41"/>corruptibile, sicut ienis. Dato
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="42"/>enim quod non esset aliquod agens
+          <lb ed="#L" n="43"/>extra, quod posset ipsum 
+          corrum<lb ed="#L" break="no" n="44"/>pere, quia non haberet 
+          contra<lb ed="#L" break="no" n="45"/>rium, haec non tolleret quin intra
+          <lb ed="#L" n="46"/>se haberet principium 
+          corrupti<lb ed="#L" break="no" n="47"/>onis, scilicet. materiam, quia res
+          <lb ed="#L" n="48"/>potest esse et non esse, sicut ignis;
+          <lb ed="#L" n="49"/>et in hoc videtur Averroes in 
+          tra<lb ed="#L" break="no" n="50"/>clatu de substantia orbis, melius 
+          ha<lb ed="#L" break="no" n="51"/>bere intentionem Philosophi quam
+          <lb ed="#L" n="52"/>alii ponentes in Coelo materiam.
+        </p>
+        <p xml:id="jdso8u-d1e2012-d1e247">
+          <lb ed="#L" n="53"/>Ad ostendendum tamen (b) 
+          in<lb ed="#L" break="no" n="54"/>corruptibilitatem coeli ex se, quae
+          <lb ed="#L" n="55"/>hic supponitur, oportet procedere
+          <lb ed="#L" n="56"/>secundum viam Aristotelis primo
+          <lb ed="#L" n="57"/>Celi et mundi, et in hoc ostendere
+          <lb ed="#L" n="58"/>quod non sit alicujus naturae 
+          ele<lb ed="#L" break="no" n="59"/>mentaris, qua incorruptibilitate
+          <lb ed="#L" n="60"/>ostensa, ostendetur carentia 
+          ma<lb ed="#L" break="no" n="61"/>teris, nisi forma incorruptibilis
+          <lb ed="#L" n="62"/>possel necessario actuare 
+          mate<lb ed="#L" break="no" n="63"/>riam potentialem et de se 
+          possi<lb ed="#L" break="no" n="64"/>bilem carere illa forma, ita quod
+          <lb ed="#L" n="65"/>habitudo non esset utriusque 
+          ne<lb ed="#L" break="no" n="66"/>cessaria, sed tantum ex parte
+          <lb ed="#L" n="67"/>forma ;e converso, quantum est
+          <lb ed="#L" n="68"/>ex parte materis, esset 
+          contin<lb ed="#L" break="no" n="69"/>gens, quare non est simile de 
+          ne<lb ed="#L" break="no" n="70"/>cessaria inhcerentia alicujus 
+          aeci<lb ed="#L" break="no" n="71"/>dentis subjecto, ubi necessitas est
+          <lb ed="#L" n="72"/>ex parte utriusque extremi.
+        </p>
+        <p xml:id="jdso8u-d1e2012-d1e294">
+          <lb ed="#L" n="73"/>Quod si dicatur (ec) materiam
+          <lb ed="#L" n="74"/>illam non esse ejusdem rationis
+          <lb ed="#L" n="75"/>cum materiis receptivis 
+          diversa<lb ed="#L" break="no" n="76"/>rum formarum, et ideo non posse
+          <lb ed="#L" n="77"/>quantum est ex se transmutari
+          <lb ed="#L" n="78"/>ab una forma ad aliam. Hoc 
+          vi<lb ed="#L" break="no" n="79"/>detur inconveniens, et primo 
+          qui<lb ed="#L" break="no" n="80"/>dem, quia tunc essent duzx 
+          mate<lb ed="#L" break="no" n="81"/>rie primes alterius et alterius
+          <lb ed="#L" n="82"/>rationis : consequens est falsum,
+          <lb ed="#L" n="83"/>ergo et antecedens. Probatio 
+          fal<lb ed="#L" break="no" n="84"/>sitatis consequentis: Non sunt
+          <lb ed="#L" n="85"/>duo fines primi, nec duo efficientes
+          <pb ed="#L" n="642"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>primi, alterius et alterius 
+          rati<lb ed="#L" break="no" n="2"/>onis; ergo nec similiter duce 
+          ma<lb ed="#L" break="no" n="3"/>terie prime alterius et alterius
+          <lb ed="#L" n="4"/>rationis. Item, videtur (d) difficile
+          <lb ed="#L" n="5"/>assignare, unde sit ista alteritas
+          <lb ed="#L" n="6"/>rationis in hac materia et in illa.
+        </p>
+        <p xml:id="jdso8u-d1e2012-d1e342">
+          <lb ed="#L" n="7"/>Secundo, (e) data hae alteritate,
+          <lb ed="#L" n="8"/>saltem ista materia est in 
+          poten<lb ed="#L" break="no" n="9"/>tia ad hanc formam et ad 
+          privati<lb ed="#L" break="no" n="10"/>onem hujus formae, ita quod ista
+          <lb ed="#L" n="11"/>materia dese est in potentia 
+          con<lb ed="#L" break="no" n="12"/>tradictionis, licet non ponatur, in
+          <lb ed="#L" n="13"/>qua potentia forma est; nunc
+          <lb ed="#L" n="14"/>autem non est materia per. se
+          <lb ed="#L" n="15"/>ratio corruptibilitatis, inquantum
+          <lb ed="#L" n="16"/>est in potentia ad formam aliam
+          <lb ed="#L" n="17"/>ab ea quam habet, sed inquantum
+          <lb ed="#L" n="18"/>est in potentia ad privationem
+          <lb ed="#L" n="19"/>formae quam habetz$imiliter 
+          Phi<lb ed="#L" break="no" n="20"/>losophus non ponit materiam,
+          <lb ed="#L" n="21"/>nisi propter  potentialitatem ad
+          <lb ed="#L" n="22"/>mutationem; in coelo non est 
+          po<lb ed="#L" break="no" n="23"/>tentialitas mutationis nisi ad ubi.
+        </p>
+        <p xml:id="jdso8u-d1e2012-d1e381">
+          <lb ed="#L" n="24"/>Si dicatur, (f) quod materia in
+          <lb ed="#L" n="25"/>coelo non est in potentia 
+          contra<lb ed="#L" break="no" n="26"/>dictionis, quia forma ejus complet
+          <lb ed="#L" n="27"/>totum suum appetitum ; contra,
+          <lb ed="#L" n="28"/>nulla forma complet totum 
+          appe<lb ed="#L" break="no" n="29"/>titum materie suc respectu 
+          alte<lb ed="#L" break="no" n="30"/>rius formae, nisi det actum 
+          oppo<lb ed="#L" break="no" n="31"/>situm  privationi illius forma;
+          <lb ed="#L" n="32"/>forma coeli non dat actum 
+          oppo<lb ed="#L" break="no" n="33"/>situm privationi cujuscumque 
+          for<lb ed="#L" break="no" n="34"/>ms alterius a se, puta forme
+          <lb ed="#L" n="35"/>ignis; ergo privatio form: ignis
+          <lb ed="#L" n="36"/>ibi manet. Probatio minoris, nulla
+          <lb ed="#L" n="37"/>forma dat actum oppositum 
+          pri<lb ed="#L" break="no" n="38"/>vationi cujuscumque formae, nisi
+          <lb ed="#L" n="39"/>in se contineat omnes formas
+          <lb ed="#L" n="40"/>saltem virtualiter ; sed forma coeli
+          <lb ed="#L" n="41"/>non sic continet formas, quia non
+          <lb ed="#L" n="42"/>animam intellectivam.
+        </p>
+        <p xml:id="jdso8u-d1e2012-d1e425">
+          <lb ed="#L" n="43"/>Ex hoc sequitur ulterius, (g)
+          <lb ed="#L" n="44"/>auod secundum Philosophos. coe-
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>lum non posset esse animatum.
+          <lb ed="#L" n="46"/>formaliter, quia tunc vel coelum
+          <lb ed="#L" n="47"/>erit essentialiter anima tantum,
+          <lb ed="#L" n="48"/>et hoc intellectiva, quia ipsi non
+          <lb ed="#L" n="49"/>posuerunt ibi animam nisi intel. .
+          <lb ed="#L" n="50"/>lectivam, et ita solus intellectus
+          <lb ed="#L" n="51"/>erit quantus, quod non est 
+          intelli<lb ed="#L" break="no" n="52"/>gibile, quia coelum, ut patet, est
+          <lb ed="#L" n="53"/>quantum formaliter, vel praeter
+          <lb ed="#L" n="54"/>animam, quae est de essentia coeli,
+          <lb ed="#L" n="55"/>erit aliquid aliud per se 
+          perfecti<lb ed="#L" break="no" n="56"/>bile per animam; et ita erit ibi
+          <lb ed="#L" n="57"/>potentia passiva et potentia 
+          con<lb ed="#L" break="no" n="58"/>tradictionis, et ita coelum non erit
+          <lb ed="#L" n="59"/>sempiternum et necessarium. 
+          Un<lb ed="#L" break="no" n="60"/>de sive Philosophus sive 
+          Commen<lb ed="#L" break="no" n="61"/>tator ponat colum animatum
+          <lb ed="#L" n="62"/>formaliter anima, quae sit per se
+          <lb ed="#L" n="63"/>de essentia coeli, videtur statim
+          <lb ed="#L" n="64"/>recedere a prima positione 
+          prae<lb ed="#L" break="no" n="65"/>habita.
+        </p>
+        <p xml:id="jdso8u-d1e2012-d1e480">
+          <lb ed="#L" n="66"/>Quidquid sit (h) de Averroe, non
+          <lb ed="#L" n="67"/>dicamus Aristotelem recessisse a
+          <lb ed="#L" n="68"/>positione prima, nec verba ejus
+          <lb ed="#L" n="69"/>cogunt hoc sibi imponere, quia
+          <lb ed="#L" n="70"/>ubieumque vocat animam coeli,
+          <lb ed="#L" n="71"/>exponatur quantum ad 
+          conditi<lb ed="#L" break="no" n="72"/>onem, qua anima est motrix, non
+          <lb ed="#L" n="73"/>qua est forma; et illa anima est
+          <lb ed="#L" n="74"/>Intelligentia propria motiva hujus
+          <lb ed="#L" n="75"/>orbis conjuncta huie, ut motrix
+          <lb ed="#L" n="76"/>propria, talis non est nisi unica
+          <lb ed="#L" n="77"/>unius. Improbaretur ab Avicenna
+          <lb ed="#L" n="78"/>hoc, qui plane distinguit inter
+          <lb ed="#L" n="79"/>primam intelligentiam — 
+          produe<lb ed="#L" break="no" n="80"/>tam et animam primi orbis. Sed
+          <lb ed="#L" n="81"/>nulla est necessitas tantse 
+          plura<lb ed="#L" break="no" n="82"/>litatis.
+        </p>
+        <p xml:id="jdso8u-d1e2012-d1e519">
+          <lb ed="#L" n="83"/>Pro hoc est Philosophus 8. 
+          Phy<lb ed="#L" break="no" n="84"/>sicor. qui motum ex se distinguit
+          <lb ed="#L" n="85"/>in duo, quorum unum est motum
+          <lb ed="#L" n="86"/>tantum, et reliquum movens 
+          tan<lb ed="#L" break="no" n="87"/>tum; illud distinguibile est 
+          com<lb ed="#L" break="no" n="88"/>positum ex duobus unitis, scilicet
+          <pb ed="#L" n="643"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>movente et mobili, et hoc vere
+          <lb ed="#L" n="2"/>movet, et illud vere movetur. Sed
+          <lb ed="#L" n="3"/>in nobis anima non movet, sed est
+          <lb ed="#L" n="4"/>ratio movendi tantum, ideo 
+          mo<lb ed="#L" break="no" n="5"/>vetur per accidens, quia est forma
+          <lb ed="#L" n="6"/>moti;ibi autem movens, nec per
+          <lb ed="#L" n="7"/>accidens, nec secundum se 
+          mo<lb ed="#L" break="no" n="8"/>vetur.
+        </p>
+        <!--</div>
+          <div alias="scotus-l2d14q1-p3">-->
+        <p xml:id="jdso8u-d1e2012-d1e559">
+          <lb ed="#L" n="10" type="fixed=647"/>SCHOLIUM.
+        </p>
+        <p xml:id="jdso8u-d1e2012-d1e564">
+          <lb ed="#L" n="11"/>Secundum Theologiam, ponendam in coelo
+          <lb ed="#L" n="12"/>materiam, eamque esse ejusdem rationis
+          <lb ed="#L" n="13"/>eum sublunari, et per consequens, coelum
+          <lb ed="#L" n="14"/>quantum est ex natura sua, corruptibile
+          <lb ed="#L" n="15"/>esse.
+        </p>
+        <p xml:id="jdso8u-d1e2012-d1e577">
+          <lb ed="#L" n="16"/>Secundum Theologos ponenda
+          <lb ed="#L" n="17"/>est materia ibi, quia illud chaos,
+          <lb ed="#L" n="18"/>quod ponitur ab eis attigisse 
+          us<lb ed="#L" break="no" n="19"/>que ad colum empyreum, erat
+          <lb ed="#L" n="20"/>materia omnium corporalium
+          <lb ed="#L" n="21"/>contentorum a coelo empyreo, et
+          <lb ed="#L" n="22"/>etiam ponetur materia secundum
+          <lb ed="#L" n="23"/>se, et quantum est ex se ejusdem
+          <lb ed="#L" n="24"/>rationis in quocumque, et ita 
+          ha<lb ed="#L" break="no" n="25"/>bent ipsi discordare a Philosopho
+          <lb ed="#L" n="26"/>in hae propositione : Celum est 
+          ne<lb ed="#L" break="no" n="27"/>cessarium et. incorruptibile. Quantum
+          <lb ed="#L" n="28"/>'enim est ex matura sua, esset
+          <lb ed="#L" n="29"/>simpliciter corruptibile, quia sibi
+          <lb ed="#L" n="30"/>inesset illa potentia ad 
+          contra<lb ed="#L" break="no" n="31"/>rium; quia tamen forma coeli non
+          <lb ed="#L" n="32"/>habet contrarium, potens vincere
+          <lb ed="#L" n="33"/>istam formam, ideo non potest
+          <lb ed="#L" n="34"/>eorrumpi ab agente naturali, a
+          <lb ed="#L" n="35"/>quo recipit istam formam, vel
+          <lb ed="#L" n="36"/>etiam corrumpi in ignem vel
+          <lb ed="#L" n="37"/>aquam. Sed tunc videtur, quod
+          <lb ed="#L" n="38"/>saltem coelum posset corrumpere
+          <lb ed="#L" n="39"/>et convertere ignem in coelum,
+          <lb ed="#L" n="40"/>quia virtus activa coeli excedit
+          <lb ed="#L" n="41"/>formam ignis, et materia ignis
+          <lb ed="#L" n="42"/>est etiam eapax forme eoceli; ervo
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="43"/>potest transmutari ad esse tale
+          <lb ed="#L" n="44"/>ab agente tali. Forte coelum non
+          <lb ed="#L" n="45"/>potest alterare elementum, ad
+          <lb ed="#L" n="46"/>qualitates convenientes tali 
+          cor<lb ed="#L" break="no" n="47"/>pori ecelesti, et tamen forma illa
+          <lb ed="#L" n="48"/>in tantum dominatur illi 
+          mate<lb ed="#L" break="no" n="49"/>rie, ut non possit ab aliquo alio
+          <lb ed="#L" n="50"/>alterari, recipiendo  peregrinas
+          <lb ed="#L" n="51"/>impressiones, et per consequens,
+          <lb ed="#L" n="52"/>nec corrumpi.
+        </p>
+        <!--</div>
+          <!-\- no commentary here -\->
+          <div alias="scotus-l2d14q1-p4">-->
+        <p xml:id="jdso8u-d1e2012-d1e664">
+          <lb ed="#L" n="53" type="fixed=647"/>SCHOLIUM.
+        </p>
+        <p xml:id="jdso8u-d1e2012-d1e669">
+          <lb ed="#L" n="54"/>Quoad animationem colorum videtur 
+          Au<lb ed="#L" break="no" n="55"/>gustinus dubius locis in littera citatis, tamen
+          <lb ed="#L" n="56"/>negat eis animam lib. de duab. animabus
+          <lb ed="#L" n="57"/>c. 4. dicens ideo muscam nobiliorem coelo.
+          <lb ed="#L" n="58"/>et 1l. 2. Retract. c. 7. Idem habet Hieronym.
+          <lb ed="#L" n="59"/>loco citato a Scoto, et in c. 1. et 45. Isaiae et
+          <lb ed="#L" n="60"/>epist. ad Pammaehium, ubi propter hoc, 
+          co<lb ed="#L" break="no" n="61"/>arguit Origenem. Soeotus, rejecta ratione D.
+          <lb ed="#L" n="62"/>Thome, fatetur ratione non concludi non
+          <lb ed="#L" n="63"/>esse animatos, ut tenuerunt multi Philosophi
+          <lb ed="#L" n="64"/>et Astrologi.
+        </p>
+        <p xml:id="jdso8u-d1e2012-d1e696">
+          <lb ed="#L" n="65"/>Quantum ad animationem, 
+          vide<lb ed="#L" break="no" n="66"/>tur esse dubium, quia Augustinus
+          <lb ed="#L" n="67"/>in Enchiridio cap. 42. loquitur 
+          dubi<lb ed="#L" break="no" n="68"/>tative : JVec illud certum habeo, utrum
+          <lb ed="#L" n="69"/>ad civitatem supernam pertineant Sol et
+          <lb ed="#L" n="70"/>Luna, et alia sidera, quamvis nonnullis
+          <lb ed="#L" n="71"/>corpora lucentia, non tamen intelligentia
+          <lb ed="#L" n="72"/>videantur. Similiter 2. super Genes. et
+          <lb ed="#L" n="73"/>primo Retract. cap. 8. quaere, ubi facit
+          <lb ed="#L" n="74"/>mentionem de eo quod dicitur cap. 5.
+          <lb ed="#L" n="75"/>videtur dicere coelum habere 
+          ani<lb ed="#L" break="no" n="76"/>mam, quod cap. 10. et 11. dicit non
+          <lb ed="#L" n="77"/>retractatum tanquam falsum, ubi
+          <lb ed="#L" n="78"/>dielt : Animal esse mundwm istum, nec
+          <lb ed="#L" n="79"/>auctoritate nec ratione indagare potui,
+          <lb ed="#L" n="80"/>non tamen propter hoc negat. Unde 
+          vi<lb ed="#L" break="no" n="81"/>detur manifeste, quod in nullo 
+          li<lb ed="#L" break="no" n="82"/>bro scripto ante librum 
+          Retracti<lb ed="#L" break="no" n="83"/>onum asseruit, quod in libro 
+          Re<lb ed="#L" break="no" n="84"/>tractationum retractet; ergo illa
+          <lb ed="#L" n="85"/>auctoritas. quae adducitur de libro
+          <pb ed="#L" n="648"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>Augustini, de agnitione verz vitse,
+          <lb ed="#L" n="2"/>nihil valet, scilicet : Qui autem dicunt
+          <lb ed="#L" n="3"/>celos esse rationales, ipsi merito sunl
+          <lb ed="#L" n="4"/>irrationales. Ostendit etiam illum
+          <lb ed="#L" n="5"/>librum non esse Augustini, vel
+          <lb ed="#L" n="6"/>quod illum fecerit post librum
+          <lb ed="#L" n="7"/>Retractationum, quia nusquam 
+          vi<lb ed="#L" break="no" n="8"/>detur Augustinus asseruisse, quod
+          <lb ed="#L" n="9"/>in libro Retractationum est 
+          nega<lb ed="#L" break="no" n="10"/>tum.
+        </p>
+        <p xml:id="jdso8u-d1e2012-d1e770">
+          <lb ed="#L" n="11"/>Sed Hieronymus super Psal.
+          <lb ed="#L" n="12"/>mum : Audite coeli, dicit, quod 
+          loqui<lb ed="#L" break="no" n="13"/>tur ad animata; sed alius Greecus,
+          <lb ed="#L" n="14"/>scilicet Damascenus asseruit coelos
+          <lb ed="#L" n="15"/>non esse animatos. Ratio ad hoc
+          <lb ed="#L" n="16"/>ponitur, quia illa anima frustra
+          <lb ed="#L" n="17"/>uniretur tali corpori, ex quo non
+          <lb ed="#L" n="18"/>habet sensum, nec per consequens
+          <lb ed="#L" n="19"/>aliquam perfectionem ex corpore
+          <lb ed="#L" n="20"/>acquirit. Sed illud non videtur 
+          con<lb ed="#L" break="no" n="21"/>erue dictum, ut forma uniatur
+          <lb ed="#L" n="22"/>materis, ut perfectionem accipiat
+          <lb ed="#L" n="23"/>a materia, sed magis ut 
+          perfecti<lb ed="#L" break="no" n="24"/>onem communicet materise, imc
+          <lb ed="#L" n="25"/>principalius, ut ex eis totum 
+          com<lb ed="#L" break="no" n="26"/>positum sit perfectum.
+        </p>
+        <p xml:id="jdso8u-d1e2012-d1e807">
+          <lb ed="#L" n="27"/>Respondeo, forma unita mate
+          <lb ed="#L" n="28"/>rie, ab ea recipit aliquam perfe:
+          <lb ed="#L" n="29"/>ctionem, alioquin anima beata 
+          fru<lb ed="#L" break="no" n="30"/>slra uniretur corpori, ex quo ex
+          <lb ed="#L" n="31"/>corpore non aaequireret perfecti.
+          <lb ed="#L" n="32"/>onem.
+        </p>
+        <p xml:id="jdso8u-d1e2012-d1e823">
+          <lb ed="#L" n="33"/>Breviter, si coeli non sunt anima.
+          <lb ed="#L" n="34"/>ti, hoc est creditum et non ratione
+          <lb ed="#L" n="35"/>conclusum, quia nulla est conditio
+          <lb ed="#L" n="36"/>in corpore illo ita perfecto, ma.
+          <lb ed="#L" n="37"/>nifeste apparens repugnare ani.
+          <lb ed="#L" n="38"/>mationi eorporis. IToe de isto.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

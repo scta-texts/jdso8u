@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2024-08-09">August 09, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x12">Vives, Paris, 1893, volume 12</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-08-09" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="333"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e1870"><!-- scotus-l2d6q1-p1 -->
+        <head xml:id="jdso8u-d1e1870-Hd1e101">Quaestio 1</head>
+        <head xml:id="jdso8u-d1e1870-Hd1e103" type="question-title">Utrum angelus malus potuerit appetere aequalitatem Dei</head>
+        <p xml:id="jdso8u-d1e1870-d1e106">
+          <lb ed="#L" n="47" type="fixed=333"/>QUAESTIO I
+        </p>
+        <p xml:id="jdso8u-d1e1870-d1e111">
+          <lb ed="#L" n="48"/>Utrum Angelus malus potuerit appetere
+          <lb ed="#L" n="49"/>aequalitatem Dei ?
+        </p>
+        <p xml:id="jdso8u-d1e1870-d1e118">
+          <lb ed="#L" n="50"/>Alensis 2. part. quaest. 109. m. 3. D. Thom. 1.
+          <lb ed="#L" n="51"/>part. quast. 63. art. 3. D. Bonav. 2. dist. 5. art.
+          <lb ed="#L" n="52"/>1. quaest. 2. Durand. ibi quast. 1. Mayr. quaest.
+          <lb ed="#L" n="53"/>3. Gabr. h?c quaest. 2. Bassol. q. 1. Vasq. 1.
+          <lb ed="#L" n="54"/>p. d. 234.
+        </p>
+        <p xml:id="jdso8u-d1e1870-d1e132">
+          <lb ed="#L" n="55"/>Circa istam distinctionem 
+          sex<lb ed="#L" break="no" n="56"/>tam, in qua Magister agit de 
+          Ange<lb ed="#L" break="no" n="57"/>lorum malorum aversione, 
+          quae<lb ed="#L" break="no" n="58"/>runtur duo: Primum est, utrum
+          <lb ed="#L" n="59"/>Angelus malus potuerit appetere
+          <lb ed="#L" n="60"/>equalitatem Dei? Quod non, 
+          in<lb ed="#L" break="no" n="61"/>tellectus intelligendo summum
+          <lb ed="#L" n="62"/>verum, non errat; ergo nec 
+          vo<lb ed="#L" break="no" n="63"/>luntas amando summum bonum
+          <lb ed="#L" n="64"/>peccat; ergo appetens 
+          aequalita<lb ed="#L" break="no" n="65"/>tem Dei non peccaret; ergo 
+          An<lb ed="#L" break="no" n="66"/>gelus in primo actu peccandi, non
+          <lb ed="#L" n="67"/>potuit appetere summum bonum.
+        </p>
+        <p xml:id="jdso8u-d1e1870-d1e163">
+          <lb ed="#L" n="68"/>Contra, Magister in littera.
+        </p>
+        <p xml:id="jdso8u-d1e1870-d1e168">
+          <lb ed="#L" n="69"/>Dicitur, quod non potuit 
+          aequa<lb ed="#L" break="no" n="70"/>litatem istam appetere, ad quod
+          <lb ed="#L" n="71"/>videntur esse quatuor rationes.
+          <lb ed="#L" n="72"/>Prima, quia non peccavit ex 
+          pas<lb ed="#L" break="no" n="73"/>sione, patet; nec ex ignorantia,
+          <lb ed="#L" n="74"/>quia poena non praecessit culpam,
+          <lb ed="#L" n="75"/>igitur ex electione, sed electio
+          <lb ed="#L" n="76"/>non est impossibilium, ex tertio, et
+          <lb ed="#L" n="77"/>hic; angelum autem esse z:equalem
+          <lb ed="#L" n="78"/>Deo, est impossibile; ergo, etc.
+          <lb ed="#L" n="79"/>Praeterea, Angelum esse 
+          aequa<lb ed="#L" break="no" n="80"/>lem Deo includit contradicti-
+          <pb ed="#L" n="334"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>onem; ergo non includit aliquam
+          <lb ed="#L" n="2"/>rationem entis; ergo non 
+          conti<lb ed="#L" break="no" n="3"/>netur aliquo modo sub primo 
+          ob<lb ed="#L" break="no" n="4"/>jeeto voluntatis vel intellectus;
+          <lb ed="#L" n="5"/>ergo non aliquo modo volibile.
+        </p>
+        <p xml:id="jdso8u-d1e1870-d1e212">
+          <lb ed="#L" n="6"/>Praeterea, nihil potest voluntas
+          <lb ed="#L" n="7"/>velle, nisi quod est 
+          preintelle<lb ed="#L" break="no" n="8"/>ctum; ergo Angelum esse 
+          squa<lb ed="#L" break="no" n="9"/>lem Deo oportuit esse 
+          preintel<lb ed="#L" break="no" n="10"/>lectum, vel praostensum ab 
+          in<lb ed="#L" break="no" n="11"/>tellectu; aut igitur ab intellectu
+          <lb ed="#L" n="12"/>errante, et tunc poena fuisset 
+          an<lb ed="#L" break="no" n="13"/>te culpam; vel ab intellectu non
+          <lb ed="#L" n="14"/>errante, et hoc est impossibile,
+          <lb ed="#L" n="15"/>quia intellectus non errans non
+          <lb ed="#L" n="16"/>potest ostendere illud,quod ineludit
+          <lb ed="#L" n="17"/>contradictionem.
+        </p>
+        <p xml:id="jdso8u-d1e1870-d1e241">
+          <lb ed="#L" n="18"/>Praeterea quarto, et videtur esse
+          <lb ed="#L" n="19"/>ratio Anselmi, de casu diaboli, 
+          capi<lb ed="#L" break="no" n="20"/>tulo quarto: Angelum esse aequalem
+          <lb ed="#L" n="21"/>Deo includit Angelum non esse,
+          <lb ed="#L" n="22"/>quia Angelus non potest esse
+          <lb ed="#L" n="23"/>Angelus, nisi sit inferior Deo ; sed
+          <lb ed="#L" n="24"/>nullus potest appetere se non 
+          es<lb ed="#L" break="no" n="25"/>se, per Augustinum 93. de lib. 
+          arbitr<lb ed="#L" break="no" n="26"/>ergo nullus inferior Deo, potest
+          <lb ed="#L" n="27"/>appetere aequalitatem Dei.
+        </p>
+        <p xml:id="jdso8u-d1e1870-d1e265">
+          <lb ed="#L" n="28"/>Anselmus, etiam de similitudinibus, 
+          ca<lb ed="#L" break="no" n="29"/>pitulo sexto: Si beato Petro par esse
+          <lb ed="#L" n="30"/>volueris, eris in gloria Dei, quia ut
+          <lb ed="#L" n="31"/>Petrus sis in persona tua, non 
+          po<lb ed="#L" break="no" n="32"/>teris, nam hoc si velles, teipsum
+          <lb ed="#L" n="33"/>nihil esse velles, quod velle 
+          nequi<lb ed="#L" break="no" n="34"/>bis.
+        </p>
+        <!--</div>
+          <div alias="scotus-l2d6q1-p2">-->
+        <p xml:id="jdso8u-d1e1870-d1e286">
+          <lb ed="#L" n="35" type="fixed=334"/>SCHOLIUM.
+        </p>
+        <p xml:id="jdso8u-d1e1870-d1e291">
+          <lb ed="#L" n="36"/>Sententiam positam D. Thomae tenentem
+          <lb ed="#L" n="37"/>Angelum non potuisse appetere aequalitatem
+          <lb ed="#L" n="38"/>Dei, probatam quatuor rationibus, refutat
+          <lb ed="#L" n="39"/>aliis quatuor satis claris, resolvendo 
+          Ange<lb ed="#L" break="no" n="40"/>lum potuisse volitione simpliei ineffieaci,
+          <lb ed="#L" n="41"/>seu conditionata (quae suffieit ad meritum, el
+          <lb ed="#L" n="42"/>demeritum) appetere :equalitatem Dei, el
+          <lb ed="#L" n="43"/>explieat in auo di(iTerunt istz:e volitiones.
+        </p>
+        <p xml:id="jdso8u-d1e1870-d1e311">
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="44"/>Quia tamen (a) istae rationes non
+          <lb ed="#L" n="45"/>cogunt, potest aliter ad 
+          quaesti<lb ed="#L" break="no" n="46"/>onem responderi, scilicet quod
+          <lb ed="#L" n="47"/>Angelus potuit appetere 
+          aequalita<lb ed="#L" break="no" n="48"/>tem Dei, quod persuadetur primo
+          <lb ed="#L" n="49"/>sie, quia voluntas habet duplicem
+          <lb ed="#L" n="50"/>actum amandi, scilicet. amorem
+          <lb ed="#L" n="51"/>amicitie, et actum concupiscendi
+          <lb ed="#L" n="52"/>aliquid amato; et secundum 
+          utrum<lb ed="#L" break="no" n="53"/>que acetum, habet totum ens pro
+          <lb ed="#L" n="54"/>objecto, ita quod sicut 
+          quodcum<lb ed="#L" break="no" n="55"/>que ens potest ipse amare amore
+          <lb ed="#L" n="56"/>amicitie, ita quodcumque ens 
+          po<lb ed="#L" break="no" n="57"/>test concupiscere ipsi amato; 
+          igi<lb ed="#L" break="no" n="58"/>tur cum Angelus potuerit se 
+          ama<lb ed="#L" break="no" n="59"/>re amore amicitia, potuit sibi 
+          con<lb ed="#L" break="no" n="60"/>cupiscere ,omne bonum 
+          coneupisci<lb ed="#L" break="no" n="61"/>bile, et ita cum aequalitas Dei sit
+          <lb ed="#L" n="62"/>bonum quoddam concupiscibile 
+          se<lb ed="#L" break="no" n="63"/>cundum se, sibi potuit illud bonum
+          <lb ed="#L" n="64"/>concupiscere.
+        </p>
+        <p xml:id="jdso8u-d1e1870-d1e361">
+          <lb ed="#L" n="65"/>Praeterea, si aequalitas (b) Dei
+          <lb ed="#L" n="66"/>esset possibilis Angelo, posset 
+          An<lb ed="#L" break="no" n="67"/>celus istam coneupiscere sibi, 
+          pla<lb ed="#L" break="no" n="68"/>num est; sed impossibilitas hujus
+          <lb ed="#L" n="69"/>non prohibet, quin posset Angelus
+          <lb ed="#L" n="70"/>hoc velle, quia voluntas potest 
+          es<lb ed="#L" break="no" n="71"/>se impossibilium secundum 
+          Philo<lb ed="#L" break="no" n="72"/>sophum tertio Ethic. et Damasce- :
+          <lb ed="#L" n="73"/>num. Hoc etiam probatur, quia ;
+          <lb ed="#L" n="74"/>damnati odiunt Deum, ex illo
+          <lb ed="#L" n="75"/>Psalm. Superbia eorum, qui te ode-t
+          <lb ed="#L" n="76"/>runt, etc. odiens autem vult oditum !
+          <lb ed="#L" n="77"/>non esse, secundum Philosophum
+          <lb ed="#L" n="78"/>2. Rhetor; ergo volunt Deum non
+          <lb ed="#L" n="79"/>esse, sed hoc est impossibile in se,
+          <lb ed="#L" n="80"/>et incompossibile; ergo 
+          impossibi<lb ed="#L" break="no" n="81"/>litas istius appetibilis non 
+          prohi<lb ed="#L" break="no" n="82"/>bet quin posset appeti a voluntate
+          <lb ed="#L" n="83"/>peecante. Hoc etiam confirmatur,
+          <lb ed="#L" n="84"/>quia voluntas peccans potuit velle
+          <lb ed="#L" n="85"/>Deum non esse, et potuit etiam
+          <lb ed="#L" n="86"/>cum hoc, velle illum gradum et
+          <lb ed="#L" n="87"/>illam eminentiam Dei esse in ali-
+          <pb ed="#L" n="335"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>quo; ergo potuit velle eam esse in
+          <lb ed="#L" n="2"/>se sicut in alio, et ita potuit velle
+          <lb ed="#L" n="3"/>sibi eminentiam Doi. -
+        </p>
+        <p xml:id="jdso8u-d1e1870-d1e424">
+          <lb ed="#L" n="4"/>Praeterea secundum <ref xml:id="jdso8u-d1e1870-Rd1e428">Augustinum
+            <lb ed="#L" n="5"/>83. quest. q. 30.</ref> Voluntas potest uti
+          <lb ed="#L" n="6"/>fruendis, et frui utendis, ergo potest
+          <lb ed="#L" n="7"/>frui se; cum ergo non debeat frui
+          <lb ed="#L" n="8"/>nisi summo bono, et potest frui
+          <lb ed="#L" n="9"/>se, potest sibi coneupiscere 
+          tan<lb ed="#L" break="no" n="10"/>tam bonum, quantum bonum 
+          po<lb ed="#L" break="no" n="11"/>test coneupiscere summo bono, et
+          <lb ed="#L" n="12"/>hoc est, aequalitas divina.
+        </p>
+        <p xml:id="jdso8u-d1e1870-d1e449">
+          <lb ed="#L" n="13"/>Respondeo ad questionem, (o)
+          <lb ed="#L" n="14"/>et dico, quod actus volendi duplex
+          <lb ed="#L" n="15"/>est: simplex et sub conditione,
+          <lb ed="#L" n="16"/>vel sub aliis verbis, quod est 
+          vo<lb ed="#L" break="no" n="17"/>litio efficax, et volitio 
+          complacen<lb ed="#L" break="no" n="18"/>ti». Exemplum, alio modo 
+          infir<lb ed="#L" break="no" n="19"/>mus sperans sanitatem vult 
+          sani<lb ed="#L" break="no" n="20"/>tatem, et alio modo infirmus 
+          de<lb ed="#L" break="no" n="21"/>Sperans de sanitate; vult enim
+          <lb ed="#L" n="22"/>sanitatem primus, quia sperat
+          <lb ed="#L" n="23"/>sanitatem sibi possibilem, et 
+          ha<lb ed="#L" break="no" n="24"/>bet respectu ejus volitionem 
+          effi<lb ed="#L" break="no" n="25"/>cacem et imperativam mediis 
+          in<lb ed="#L" break="no" n="26"/>ducentibus sanitatem. Sed 
+          despe<lb ed="#L" break="no" n="27"/>rans vult volitione complacentiae,
+          <lb ed="#L" n="28"/>1 sed non volitione efficaci, quia non
+          <lb ed="#L" n="29"/>quaerit media inducentia sanitatem
+          <lb ed="#L" n="30"/>pro eo quod non existimat illam
+          <lb ed="#L" n="31"/>posse sibi acquiri; et ista volitio
+          <lb ed="#L" n="32"/>secunda, quae est solum 
+          compla<lb ed="#L" break="no" n="33"/>centiae potest esse impossibilis,
+          <lb ed="#L" n="34"/>et hoc sufficit ad meritum et 
+          deme<lb ed="#L" break="no" n="35"/>ritum, quia etsi sit impossibile, 
+          ta<lb ed="#L" break="no" n="36"/>men potest consentire illi pleno
+          <lb ed="#L" n="37"/>consensu, et ista volitione 
+          po<lb ed="#L" break="no" n="38"/>tuit Angelus appetere aequalitatem
+          <lb ed="#L" n="39"/>divinam.
+        </p>
+        <p xml:id="jdso8u-d1e1870-d1e511">
+          <lb ed="#L" n="40"/>Sed de prima volitione, quae 
+          ef<lb ed="#L" break="no" n="41"/>fieax est, dico quod Angelus non
+          <lb ed="#L" n="42"/>potuit appetere; simplici tamen
+          <lb ed="#L" n="43"/>volitione potuit sibi coneupiscere
+          <lb ed="#L" n="44"/>tantum bonum, et tanto desiderio,
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>quanto concupisceret, si esset sibi
+          <lb ed="#L" n="46"/>possibile.
+        </p>
+        <p xml:id="jdso8u-d1e1870-d1e531">
+          <lb ed="#L" n="47"/>Ad argumenta pro opinione. (d)
+          <lb ed="#L" n="48"/>Ad primum dici potest, quod 
+          ele<lb ed="#L" break="no" n="49"/>ctio sequivoce accipitur. Uno
+          <lb ed="#L" n="50"/>modo pro actu voluntatis 
+          conse<lb ed="#L" break="no" n="51"/>quente plenam apprehensionem
+          <lb ed="#L" n="52"/>intellectus, quomodo dicitur quis
+          <lb ed="#L" n="53"/>peccare ex electione, quando non
+          <lb ed="#L" n="54"/>est passio perturbans intellectum,
+          <lb ed="#L" n="55"/>nec est ignorantia. Alio modo pro
+          <lb ed="#L" n="56"/>actu voluntatis consequente 
+          con<lb ed="#L" break="no" n="57"/>clusionem syllogismi  practici,
+          <lb ed="#L" n="58"/>qua electio non est nisi volitio
+          <lb ed="#L" n="59"/>efficax objecti, quae est ad 
+          inqui<lb ed="#L" break="no" n="60"/>rendum medium, per quod possit
+          <lb ed="#L" n="61"/>objectum attingi. Primo modo!
+          <lb ed="#L" n="62"/>electio est impossibilium, sicut!
+          <lb ed="#L" n="63"/>dicit Philosophus tertio Ethic. quod
+          <lb ed="#L" n="64"/>voluntas est impossibilium, non 
+          tan<lb ed="#L" break="no" n="65"/>tum voluntas errans, sed voluntas '
+          <lb ed="#L" n="66"/>preesupposita plena apprehensione
+          <lb ed="#L" n="67"/>intellectus. Secundo modo electio
+          <lb ed="#L" n="68"/>non est impossibilium, quia nullus
+          <lb ed="#L" n="69"/>de impossibilibus syllogizat 
+          pra<lb ed="#L" break="no" n="70"/>ctice. Syllogismus enim practicus
+          <lb ed="#L" n="71"/>ex fine eoneludit illud, quod est
+          <lb ed="#L" n="72"/>ad finem, ut per illud quod est ad
+          <lb ed="#L" n="73"/>finem, deveniatur ad finem ; et 
+          ta<lb ed="#L" break="no" n="74"/>lis diseursus nunquam habetur de
+          <lb ed="#L" n="75"/>impossibili.
+        </p>
+        <p xml:id="jdso8u-d1e1870-d1e596">
+          <lb ed="#L" n="76"/>Vel planius dici potest, quod
+          <lb ed="#L" n="77"/>electio uno modo prszeise dicit
+          <lb ed="#L" n="78"/>volitionem consequentem plenam
+          <lb ed="#L" n="79"/>apprehensionem ; alio modo 
+          voli<lb ed="#L" break="no" n="80"/>tionem efficacem sequentem 
+          syl<lb ed="#L" break="no" n="81"/>logismum practicum. Primo modo
+          <lb ed="#L" n="82"/>potest esse cujuseunque, cui 
+          pre<lb ed="#L" break="no" n="83"/>supponitur notitia perfecta 
+          obje<lb ed="#L" break="no" n="84"/>cti. Secundo modo non potest esse
+          <lb ed="#L" n="85"/>alicujus, nisi ad cujus esse 
+          ope<lb ed="#L" break="no" n="86"/>ratur voluntas quantum potest,
+          <lb ed="#L" n="87"/>quia nihil vult efficaciter, nisi ad
+          <lb ed="#L" n="88"/>quod disponit media per aus no-
+          <pb ed="#L" n="336"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>test deduci; et talis volitio efficax
+          <lb ed="#L" n="2"/>nunquam est alicujus 
+          impossibi<lb ed="#L" break="no" n="3"/>lis: nullus enim consiliatur de
+          <lb ed="#L" n="4"/>impossibilibus, nec praecipit 
+          intel<lb ed="#L" break="no" n="5"/>lectui practico ad inquirendum
+          <lb ed="#L" n="6"/>media ad illud; et hoc modo 
+          ha<lb ed="#L" break="no" n="7"/>bet intelligi verbum Philosophi:
+          <lb ed="#L" n="8"/>Electio non est impossibilium.
+        </p>
+        <p xml:id="jdso8u-d1e1870-d1e648">
+          <lb ed="#L" n="9"/>Hoc etiam modo Angeli non 
+          pec<lb ed="#L" break="no" n="10"/>caverunt ex electione, hoc est, ex
+          <lb ed="#L" n="11"/>volitione efficaci, per quam vellent
+          <lb ed="#L" n="12"/>niti ad consequendum propositum
+          <lb ed="#L" n="13"/>in pugnando et surripiendo sibi
+          <lb ed="#L" n="14"/>eminentiam Dei ; potuerunt tamen
+          <lb ed="#L" n="15"/>peeeare ex electione, hoc est, ex
+          <lb ed="#L" n="16"/>non surreptione, sed ex perfecta
+          <lb ed="#L" n="17"/>volitione illius sequalitatis.
+        </p>
+        <p xml:id="jdso8u-d1e1870-d1e670">
+          <lb ed="#L" n="18"/>Ad secundum (e) dico, quod sicut
+          <lb ed="#L" n="19"/>est duplex intellectio, scilicet 
+          ab<lb ed="#L" break="no" n="20"/>soluta et comparativa ; et absoluta
+          <lb ed="#L" n="21"/>quidem non est nisi alicujus 
+          ob<lb ed="#L" break="no" n="22"/>jecti simplicis contenti sub 
+          ob<lb ed="#L" break="no" n="23"/>jecto intel letus; et comparativa
+          <lb ed="#L" n="24"/>sive collativa potest esse ad 
+          quod<lb ed="#L" break="no" n="25"/>cumque, et. hoc sive ista 
+          compa<lb ed="#L" break="no" n="26"/>ratio sit possibilis sive 
+          impossi<lb ed="#L" break="no" n="27"/>bilis, nou enim intellectus tantum
+          <lb ed="#L" n="28"/>componit propositiones possibiles,
+          <lb ed="#L" n="29"/>sed impossibiles; ita etiam  
+          ali<lb ed="#L" break="no" n="30"/>qua. volitio est absoluta, et illa non
+          <lb ed="#L" n="31"/>est nisi alicujus objecti simplicis
+          <lb ed="#L" n="32"/>contenti sub primo objecto 
+          volibi<lb ed="#L" break="no" n="33"/>li. Aliqua est comparativa, et ita
+          <lb ed="#L" n="34"/>potest comparare quodcumque 
+          vo<lb ed="#L" break="no" n="35"/>liblle simplex ad quodcumque,
+          <lb ed="#L" n="36"/>licet in illa comparatione 
+          inclu<lb ed="#L" break="no" n="37"/>datur contradictio.
+        </p>
+        <p xml:id="jdso8u-d1e1870-d1e716">
+          <lb ed="#L" n="38"/>De prima volitione loquendo,
+          <lb ed="#L" n="39"/>hoc complexum non est volibile,
+          <lb ed="#L" n="40"/>quia non est, aliquid simplex 
+          inclu<lb ed="#L" break="no" n="41"/>dens in se rationem primi objecti,
+          <lb ed="#L" n="42"/>sed tantum est quaedam habitudo
+          <lb ed="#L" n="43"/>objecti simplieis ad aliud objectum,
+          <lb ed="#L" n="44"/>auomrum utrumque objectum sim-
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>plex est per se volibile, nam et
+          <lb ed="#L" n="46"/>illud quod vult, et illud cui vult,
+          <lb ed="#L" n="47"/>est per se volibile.
+        </p>
+        <p xml:id="jdso8u-d1e1870-d1e743">
+          <lb ed="#L" n="48"/>Quando ergo dicis, quod hoc 
+          to<lb ed="#L" break="no" n="49"/>tum non includit in se rationem
+          <lb ed="#L" n="50"/>primi objecti sui, falsum est 
+          lo<lb ed="#L" break="no" n="51"/>quendo de partibus totius; 
+          utra<lb ed="#L" break="no" n="52"/>que enim pars, scilicet quod et cui ,
+          <lb ed="#L" n="53"/>per se includit in se objectum 
+          vo<lb ed="#L" break="no" n="54"/>luntatis, et. hoc sufficit ad hoc
+          <lb ed="#L" n="55"/>quod voluntas velit unam partem
+          <lb ed="#L" n="56"/>in ordine ad aliam, sicut ad haec
+          <lb ed="#L" n="57"/>quod intellectus componat 
+          quod<lb ed="#L" break="no" n="58"/>cumque simplex cuicumque 
+          sim<lb ed="#L" break="no" n="59"/>pliei, sufficit quod utrumque 
+          sim<lb ed="#L" break="no" n="60"/>plex possit per se apprehendi ab
+          <lb ed="#L" n="61"/>intellectu.
+        </p>
+        <p xml:id="jdso8u-d1e1870-d1e776">
+          <lb ed="#L" n="62"/>(f) Ad tertium dico, quod 
+          intelle<lb ed="#L" break="no" n="63"/>ctus simplex potest apprehendere D
+          <lb ed="#L" n="64"/>sequalitatem Dei sine errore, er
+          <lb ed="#L" n="65"/>sufficit sola simplex apprehensio
+          <lb ed="#L" n="66"/>ad hoc quod appetitus appetat 
+          il<lb ed="#L" break="no" n="67"/>lud apprehensum alteri, sicut 
+          in<lb ed="#L" break="no" n="68"/>tellectus apprehendens albedinem,
+          <lb ed="#L" n="69"/>et apprehendens corvum, potest
+          <lb ed="#L" n="70"/>velle albedinem corvo; aequalitas
+          <lb ed="#L" n="71"/>autem Dei potest apprehendi sine
+          <lb ed="#L" n="72"/>errore, quia in aliquo est sine 
+          er<lb ed="#L" break="no" n="73"/>rore,nam Filius Dei est aequalis
+          <lb ed="#L" n="74"/>Patri, et ille potest apprehendi, vel
+          <lb ed="#L" n="75"/>sj nihil esset z:equale, adhuc 
+          aequa<lb ed="#L" break="no" n="76"/>litas posset apprehendi absolute.
+          <lb ed="#L" n="77"/>Nec in apprehensione illa simplici
+          <lb ed="#L" n="78"/>est error, nec aliqua falsitas,
+          <lb ed="#L" n="79"/>et tamen illa apprehensio simplex
+          <lb ed="#L" n="80"/>sufficit ad volitionem illius 
+          sim<lb ed="#L" break="no" n="81"/>plieis cuieumque intellecto — et
+          <lb ed="#L" n="82"/>amato.
+        </p>
+        <p xml:id="jdso8u-d1e1870-d1e824">
+          <lb ed="#L" n="83"/>Si igitur arguas, a quo 
+          intelle<lb ed="#L" break="no" n="84"/>ctu hoc ostenditur, errante vel!
+          <lb ed="#L" n="85"/>non errante? Dico, quod a non.
+          <lb ed="#L" n="86"/>errante, sed simplici, cujus non
+          <lb ed="#L" n="87"/>est errare, nec verum dicere 3
+          <lb ed="#L" n="88"/>istae enim sunt conditiones intellec-
+          <pb ed="#L" n="337"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>tus componentis et dividentis,
+          <lb ed="#L" n="2"/>et non oportet intellectum ante
+          <lb ed="#L" n="3"/>appetere, haec componere cum
+          <lb ed="#L" n="4"/>hoc, vel dividere hoc ab illo, sed
+          <lb ed="#L" n="5"/>suffieit ^ voluntatem comparare
+          <lb ed="#L" n="6"/>hoc ad illud, quia voluntas est vis
+          <lb ed="#L" n="7"/>collativa sicut intellectus, et per
+          <lb ed="#L" n="8"/>consequens potens conferre 
+          quae<lb ed="#L" break="no" n="9"/>cumque simplicia sibi ostensa, 
+          sic<lb ed="#L" break="no" n="10"/>ut intellectus potest.
+        </p>
+        <p xml:id="jdso8u-d1e1870-d1e866">
+          <lb ed="#L" n="11"/>Ad quartum (g) potest dici quod
+          <lb ed="#L" n="12"/>voluntas posset velle 
+          consequen<lb ed="#L" break="no" n="13"/>ler se non esse, quia quilibet 
+          pec<lb ed="#L" break="no" n="14"/>cans mortaliter, vult aliquid in
+          <lb ed="#L" n="15"/>quo non vult subesse Deo, et in
+          <lb ed="#L" n="16"/>hoc ex consequenti vult se non 
+          es<lb ed="#L" break="no" n="17"/>se, quia non potest esse nisi 
+          sub<lb ed="#L" break="no" n="18"/>sit Deo. Tamen ad formam 
+          argu<lb ed="#L" break="no" n="19"/>menti potest dici, quod non 
+          opor<lb ed="#L" break="no" n="20"/>tet quod velit consequens, et si
+          <lb ed="#L" n="21"/>vult antecedens, quando 
+          conse<lb ed="#L" break="no" n="22"/>quens non est de per se intellectu
+          <lb ed="#L" n="23"/>antecedentis, sicut. ponitur 
+          exem<lb ed="#L" break="no" n="24"/>plum quod aliquis potest 
+          appete<lb ed="#L" break="no" n="25"/>re Episcopatum non volendo 
+          Sa<lb ed="#L" break="no" n="26"/>cerdotium, cujus ratio est ista,
+          <lb ed="#L" n="27"/>quia sicut ad scire antecedens non
+          <lb ed="#L" n="28"/>sequitur scire consequens, nisi
+          <lb ed="#L" n="29"/>sciatur consequentia hujus ex illo,
+          <lb ed="#L" n="30"/>ita ex velle antecedentis non 
+          sequi<lb ed="#L" break="no" n="31"/>tur velle consequentis, nisi sit 
+          vel<lb ed="#L" break="no" n="32"/>le hujus consequentiz. Si enim vel
+          <lb ed="#L" n="33"/>nesciatur consequentia, vel non
+          <lb ed="#L" n="34"/>Sit velle consequentis», non 
+          opor<lb ed="#L" break="no" n="35"/>tet propter velle antecedens, velle
+          <lb ed="#L" n="36"/>consequens. Nunc autem in 
+          pro<lb ed="#L" break="no" n="37"/>posito, consequens non est de 
+          in<lb ed="#L" break="no" n="38"/>tellectu antecedentis, nec si esset,
+          <lb ed="#L" n="39"/>esset per se ista habitudo cognita
+          <lb ed="#L" n="40"/>vel volita, et ita potest non velle
+          <lb ed="#L" n="41"/>consequens.
+        </p>
+        <p xml:id="jdso8u-d1e1870-d1e936">
+          <lb ed="#L" n="42"/>Ad illud (h) Anselmi et de 
+          si<lb ed="#L" break="no" n="43"/>militudinibus dicitur, quod non
+          <lb ed="#L" n="44"/>potest quis ordinate velle se non
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>esse, quia ordinata voluntas non
+          <lb ed="#L" n="46"/>est volendo aliquid, et non volendo
+          <lb ed="#L" n="47"/>illud, quod necessario sequitur
+          <lb ed="#L" n="48"/>ad ipsum, sive sit sibi intrinsecum,
+          <lb ed="#L" n="49"/>sive non, sed de voluntate non
+          <lb ed="#L" n="50"/>ordinata non oportet.
+        </p>
+        <p xml:id="jdso8u-d1e1870-d1e960">
+          <lb ed="#L" n="51"/>Ad primum principale dico,
+          <lb ed="#L" n="52"/>quod intellectus intelligens 
+          sum<lb ed="#L" break="no" n="53"/>mum verum, de aliquo non 
+          sum<lb ed="#L" break="no" n="54"/>Io vero errat, sicut intelligendo
+          <lb ed="#L" n="55"/>lapidem esse summum yerum.
+          <lb ed="#L" n="56"/>non tamen errat, intelligendo 
+          lapi<lb ed="#L" break="no" n="57"/>dem in se intellectione simplici,
+          <lb ed="#L" n="58"/>vel intellectione collativa 
+          intelli<lb ed="#L" break="no" n="59"/>Sendo illud, cui ipsum convenit;
+          <lb ed="#L" n="60"/>ita voluntas volendo primum 
+          bo<lb ed="#L" break="no" n="61"/>num voluntate simplici, 
+          compla<lb ed="#L" break="no" n="62"/>cendo, non errat, nec volendo
+          <lb ed="#L" n="63"/>illud alicui, cui illud bonum 
+          con<lb ed="#L" break="no" n="64"/>venit; non autem congruit nisi
+          <lb ed="#L" n="65"/>Ipst. soli ccet^ ideo" volendo illud
+          <lb ed="#L" n="66"/>cuicumque alii a se, quasi 
+          voliti<lb ed="#L" break="no" n="67"/>one collativa, errat.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

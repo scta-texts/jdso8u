@@ -1,0 +1,799 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 7</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 7</title>
+          <date when="2024-08-09">August 09, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x12">Vives, Paris, 1893, volume 12</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-08-09" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="159"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e1784"><!-- scotus-l2d3q7-p1 -->
+        <head xml:id="jdso8u-d1e1784-Hd1e101">Quaestio 7</head>
+        <head xml:id="jdso8u-d1e1784-Hd1e103" type="question-title">Utrum sit possibile plures angelos esse in eadem specie</head>
+        <p xml:id="jdso8u-d1e1784-d1e106">
+          <lb ed="#L" n="13" type="fixed=159"/>QUAESTIO VII
+          <lb ed="#L" n="14"/>Utrum plures Angeli possint esse in
+          <lb ed="#L" n="15"/>eadem specie.
+        </p>
+        <p xml:id="jdso8u-d1e1784-d1e115">
+          <lb ed="#L" n="16"/>densis 29. 9. q. 20. 7n. 6. a. 2. D. Thom. 1. p.
+          <lb ed="#L" n="17"/>q. 50. aq. 4. D. Bonavent. A?c art. 2. q. 1. et
+          <lb ed="#L" n="18"/>uou. 1. q. 1. Richard. ert. 5. q. 1. 
+          Du<lb ed="#L" break="no" n="19"/>SN q. 3. Capreol. q. 1. a. 3. Gabr. qg. 1.
+          <lb ed="#L" n="20"/>a pus 2. q. 3. Vasq. 1. p.d. 181. Mayr. 2.
+          <lb ed="#L" n="21"/>3.
+        </p>
+        <p xml:id="jdso8u-d1e1784-d1e131">
+          <lb ed="#L" n="22"/>Ultimo quaero quantum ad istam
+          <lb ed="#L" n="23"/>materiam : Utrum sit possibile
+          <lb ed="#L" n="24"/>plures Angelos esse in eadem 
+          spe<lb ed="#L" break="no" n="25"/>cie ? Quod non, quia Philosophus
+          <lb ed="#L" n="26"/>7. Metaph. cap. de partibus definitionis,
+          <lb ed="#L" n="27"/>dicit quod in his, quae sunt sine
+          <lb ed="#L" n="28"/>materia, dem est quod quid est, elt
+          <lb ed="#L" n="29"/>illud ewjus est; igitur cum Angelus
+          <lb ed="#L" n="30"/>sil sine materia, quod quid est ejus
+          <lb ed="#L" n="31"/>est idem ipsi Angelo; ergo 
+          impos<lb ed="#L" break="no" n="32"/>sibile. est Angelum distingui ab
+          <lb ed="#L" n="33"/>Angelo, nisi quod quid est ejus 
+          di<lb ed="#L" break="no" n="34"/>stinguatur a quod qvid est alterius ;
+          <lb ed="#L" n="35"/>ergo non potest esse distinctio 
+          in<lb ed="#L" break="no" n="36"/>dividuorum in Angelis, manente
+          <lb ed="#L" n="37"/>eodem quod quid est.
+        </p>
+        <p xml:id="jdso8u-d1e1784-d1e169">
+          <lb ed="#L" n="38"/>Praeterea, Avicenna 9. Met. ponit
+          <lb ed="#L" n="39"/>ordinem Intelligentiarum, ubi 
+          vi<lb ed="#L" break="no" n="40"/>detur velle, quod Intelligentia in.
+          <lb ed="#L" n="41"/>ferior producitur a superiore 
+          qua<lb ed="#L" break="no" n="42"/>si ipsam creante, illa causalitas
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="43"/>non est in aliquo respectu 
+          alte<lb ed="#L" break="no" n="44"/>rius ejusdem speciei.
+        </p>
+        <p xml:id="jdso8u-d1e1784-d1e189">
+          <lb ed="#L" n="45"/>Praeterea, arguo per rationem:
+          <lb ed="#L" n="46"/>Omnis differentia formalis est 
+          dif<lb ed="#L" break="no" n="47"/>ferentia specifica; Angeli autem
+          <lb ed="#L" n="48"/>cum sint plures, et formae, 
+          diffe<lb ed="#L" break="no" n="49"/>runt aliqua differentia formali;
+          <lb ed="#L" n="50"/>ergo specifice. Probatio majoris
+          <lb ed="#L" n="51"/>sumitur ex 8. Metaphysice, ubi 
+          for<lb ed="#L" break="no" n="52"/>mco conparantur numeris, in 
+          qui<lb ed="#L" break="no" n="53"/>bus quodcumque additum, vel 
+          sub<lb ed="#L" break="no" n="54"/>tractum variat speciem, ita in
+          <lb ed="#L" n="55"/>formis ; igitur, etc.
+        </p>
+        <p xml:id="jdso8u-d1e1784-d1e215">
+          <lb ed="#L" n="56"/>Item 10. Metaphys. Masculus et 
+          fce<lb ed="#L" break="no" n="57"/>mina non differunt specie, quia. 
+          mascu<lb ed="#L" break="no" n="58"/>linitas et. faemineitas sunt differentia
+          <lb ed="#L" n="59"/>materiales forme  hunanitatis, ex hoc
+          <lb ed="#L" n="60"/>innuens quod differentiae 
+          forma<lb ed="#L" break="no" n="61"/>les omnes distinguant specie, quia
+          <lb ed="#L" n="62"/>forma et species idem sunt.
+        </p>
+        <p xml:id="jdso8u-d1e1784-d1e233">
+          <lb ed="#L" n="63"/>Praeterea, omnis forma 
+          separa<lb ed="#L" break="no" n="64"/>ta a materia in se habet totam
+          <lb ed="#L" n="65"/>perfectionem speciei illius ; ergo
+          <lb ed="#L" n="66"/>$81 ponatur aliqua talis forma in
+          <lb ed="#L" n="67"/>specie, ut forma hujus Angeli et
+          <lb ed="#L" n="68"/>illiug;:- illa: erit. ista,- et' ista
+          <lb ed="#L" n="69"/>erit illa, quia uterque Angelus
+          <lb ed="#L" n="70"/>est forma separata a  
+          mate<lb ed="#L" break="no" n="71"/>ria, et per consequens quilibet
+          <lb ed="#L" n="72"/>habet perfectionem totius speciei.
+          <lb ed="#L" n="73"/>Probatio antecedentis, quia quod
+          <lb ed="#L" n="74"/>forma non habet totam essentiam
+          <lb ed="#L" n="75"/>speciei, hoc est quia participat
+          <lb ed="#L" n="76"/>eam ; non autem habet essentiam
+          <lb ed="#L" n="77"/>forms per participationem, nisi
+          <lb ed="#L" n="78"/>ut est in materia; igitur etc.
+        </p>
+        <p xml:id="jdso8u-d1e1784-d1e270">
+          <lb ed="#L" n="79"/>Praeterea, in entibus perfectis
+          <lb ed="#L" n="80"/>nihil est quod non intendatur a
+          <lb ed="#L" n="81"/>natura, sed pluralitas numeralis
+          <lb ed="#L" n="82"/>non per se intenditur a natura,
+          <lb ed="#L" n="83"/>quia differentia numeralis 
+          quan<lb ed="#L" break="no" n="84"/>tum est ex se, potest intendi in
+          <lb ed="#L" n="85"/>infinitum ; infinitas autem non 
+          in<lb ed="#L" break="no" n="86"/>tenditur per se ab aliquo agente :
+          <pb ed="#L" n="160"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>qua autem sunt in Angelis, 
+          tan<lb ed="#L" break="no" n="2"/>quam in perfectissimis entibus
+          <lb ed="#L" n="3"/>universi, sunt per se intenta; erga
+          <lb ed="#L" n="4"/>non est in eis differentia 
+          numera<lb ed="#L" break="no" n="5"/>lis, sed solum specifica, in qua
+          <lb ed="#L" n="6"/>principaliter consistit pulchritudo
+          <lb ed="#L" n="7"/>universi.
+        </p>
+        <p xml:id="jdso8u-d1e1784-d1e309">
+          <lb ed="#L" n="8"/>Praeterea <ref xml:id="jdso8u-d1e1784-Rd1e313">2. de  Anima</ref>, videtur
+          <lb ed="#L" n="9"/>haberi quod multitudo 
+          individuo<lb ed="#L" break="no" n="10"/>rum non est nisi propter 
+          salva<lb ed="#L" break="no" n="11"/>tionem speciei; sed in 
+          inceorru<lb ed="#L" break="no" n="12"/>ptibilibus salvatur sufficienter 
+          na<lb ed="#L" break="no" n="13"/>tura in uno individuo, ergo, etc.
+        </p>
+        <p xml:id="jdso8u-d1e1784-d1e328">
+          <lb ed="#L" n="14"/>Confirmatur ex <ref xml:id="jdso8u-d1e1784-Rd1e332">primo Celi et
+            <lb ed="#L" n="15"/>mundi</ref>, quia in corporibus 
+          super<lb ed="#L" break="no" n="16"/>coelestibus, non est nisi unum
+          <lb ed="#L" n="17"/>individuum unius speciel, sicut
+          <lb ed="#L" n="18"/>unus Sol et. una Luna ; ergo, etc.
+        </p>
+        <p xml:id="jdso8u-d1e1784-d1e344">
+          <lb ed="#L" n="19"/>Oppositum arguitur per ]
+          Da<lb ed="#L" break="no" n="20"/>mascenum ::n Elementario. cap. 12.
+          <lb ed="#L" n="21"/>secundum unamquamque speciem, fecit
+          <lb ed="#L" n="22"/>Deus Angelos.
+        </p>
+        <!--</div>
+          <div alias="scotus-l2d3q7-p2">-->
+        <p xml:id="jdso8u-d1e1784-d1e357">
+          <lb ed="#L" n="23" type="fixed=160"/>SCHOLIUM.
+        </p>
+        <p xml:id="jdso8u-d1e1784-d1e362">
+          <lb ed="#L" n="24"/>Refert sententiam D. Thom. et aliorum
+          <lb ed="#L" n="25"/>juxta tractata in qq. praeced. maxime 
+          quar<lb ed="#L" break="no" n="26"/>ta et quinta, qui negant Angelos in eadem
+          <lb ed="#L" n="27"/>specie plurificabiles, quam refutat. 
+          Pri<lb ed="#L" break="no" n="28"/>mo, quia omnis quidditas est 
+          com<lb ed="#L" break="no" n="29"/>munieabilis. Secundo, omnis quidditas 
+          erea<lb ed="#L" break="no" n="30"/>ta potest concipi ut universalis. Tertio, non
+          <lb ed="#L" n="31"/>potest idem numero, secundum D. Thom.
+          <lb ed="#L" n="32"/>4. d. 44. q.1. resurgere; ergo annihilato
+          <lb ed="#L" n="33"/>uno Angelo, potest alter ejusdem speciei
+          <lb ed="#L" n="34"/>ereari. Quarto, animae rationales 
+          distinguun<lb ed="#L" break="no" n="35"/>tur numero. Quinto, secundum D. Thom.
+          <lb ed="#L" n="36"/>et Magistrum, nulla tota species damnatur.
+        </p>
+        <p xml:id="jdso8u-d1e1784-d1e393">
+          <lb ed="#L" n="37"/>Qui dicunt  ad (a) quaestiones
+          <lb ed="#L" n="38"/>praecedentes de  individuatione,
+          <lb ed="#L" n="39"/>principium individuationis esse
+          <lb ed="#L" n="40"/>quantitatem vel materiam, dicunt
+          <lb ed="#L" n="41"/>consequenter adistam quaestionem
+          <lb ed="#L" n="42"/>negative,scilicet quod non possunt
+          <lb ed="#L" n="43"/>esse plures Angeli in eadem 
+          spe<lb ed="#L" break="no" n="44"/>cie. quia non potest in Anecelis
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>ratio propria talis differentiae 
+          in<lb ed="#L" break="no" n="46"/>veniri, et habent dicere quod non
+          <lb ed="#L" n="47"/>tantum hoc est impossibile ex
+          <lb ed="#L" n="48"/>proprietate intrinseca, sed etiam
+          <lb ed="#L" n="49"/>ex proprietate extrinseca, quia
+          <lb ed="#L" n="50"/>simpliciter est incompossibile, ita
+          <lb ed="#L" n="51"/>quod nullo modo naturae isti 
+          po<lb ed="#L" break="no" n="52"/>test competere distinctio 
+          individua<lb ed="#L" break="no" n="53"/>lis, ex quo sibi repugnat illud,
+          <lb ed="#L" n="54"/>quod praecise potest esse 
+          princi<lb ed="#L" break="no" n="55"/>pium talis distinctionis; sicut 
+          im<lb ed="#L" break="no" n="56"/>possibile esset sub animali esse
+          <lb ed="#L" n="57"/>plures species, si repugnaret
+          <lb ed="#L" n="58"/>animali alia et alia actualitas,
+          <lb ed="#L" n="59"/>per quas species distinguerentur.
+          <lb ed="#L" n="60"/>Fundamenta autem istius 
+          opini<lb ed="#L" break="no" n="61"/>onis in aliis quaestionibus 
+          praede<lb ed="#L" break="no" n="62"/>dentibus dicta sunt.
+        </p>
+        <p xml:id="jdso8u-d1e1784-d1e455">
+          <lb ed="#L" n="63"/>Tenenda est ergo (b) conclusio
+          <lb ed="#L" n="64"/>simpliciter opposita, quod scilicet.
+          <lb ed="#L" n="65"/>simpliciter possibile est plures,
+          <lb ed="#L" n="66"/>Angelos esse in eadem specie,
+          <lb ed="#L" n="67"/>quod probatur. Primo, quia omnis
+          <lb ed="#L" n="68"/>quidditas quantum est de se 
+          com<lb ed="#L" break="no" n="69"/>munieabilis est, etiam quidditas
+          <lb ed="#L" n="70"/>divina, quia nec ex perfectione
+          <lb ed="#L" n="71"/>repugnat sibi, ut patet de 
+          essen<lb ed="#L" break="no" n="72"/>tia divina, nec ex imperfectione
+          <lb ed="#L" n="73"/>repugnat, quia convenit 
+          generabi<lb ed="#L" break="no" n="74"/>libus et corruptibilibus; nulla
+          <lb ed="#L" n="75"/>autem est. communicabilis in
+          <lb ed="#L" n="76"/>identitate numerali, nisi sit 
+          infi<lb ed="#L" break="no" n="77"/>nita ; ergo qualibet alia est 
+          com<lb ed="#L" break="no" n="78"/>munieabilis, et hoc cum 
+          distin<lb ed="#L" break="no" n="79"/>ctione numerali, et ita propositum.
+        </p>
+        <p xml:id="jdso8u-d1e1784-d1e494">
+          <lb ed="#L" n="80"/>Praeterea, quaelibet quidditas (c)
+          <lb ed="#L" n="81"/>creaturae potest intelligi sub ra-;
+          <lb ed="#L" n="82"/>tione universalis absque 
+          contra<lb ed="#L" break="no" n="83"/>dictione; si autem ipsa de se esset
+          <lb ed="#L" n="84"/>haec, contradietio esset intelligere
+          <lb ed="#L" n="85"/>eam sub ratione universalis, sicut
+          <lb ed="#L" n="86"/>est contradictio intelligere 
+          essen<lb ed="#L" break="no" n="87"/>tiam divinam sub ratione 
+          univer<lb ed="#L" break="no" n="88"/>salis, vel universalitatis. quia ra-
+          <pb ed="#L" n="161"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>tio intelligendi, repugnat omnino
+          <lb ed="#L" n="2"/>sub objecto intellecto, quod est
+          <lb ed="#L" n="3"/>intellectum esse falsum.
+        </p>
+        <p xml:id="jdso8u-d1e1784-d1e527">
+          <lb ed="#L" n="4"/>(d) Praeterea si Deus potest hunc
+          <lb ed="#L" n="5"/>Angelum in hac specie annihilare,
+          <lb ed="#L" n="6"/>isto annihilato, potest istam 
+          spe<lb ed="#L" break="no" n="7"/>ciem de novo producere in aliquo
+          <lb ed="#L" n="8"/>alio individuo, non autem in isto
+          <lb ed="#L" n="9"/>secundum illos, qui sunt istius
+          <lb ed="#L" n="10"/>opinionis, quia homo secundum
+          <lb ed="#L" n="11"/>istos, non posset resurgere idem
+          <lb ed="#L" n="12"/>numero, nisi anima intellectiva
+          <lb ed="#L" n="13"/>maneret eadem numero.
+        </p>
+        <p xml:id="jdso8u-d1e1784-d1e551">
+          <lb ed="#L" n="14"/>Item, animae intellectivae 
+          distin<lb ed="#L" break="no" n="15"/>guuntur numero in eadem specie,
+          <lb ed="#L" n="16"/>et tamen sunt forme purs, licet
+          <lb ed="#L" n="17"/>perfectivae materiae; igitur non est
+          <lb ed="#L" n="18"/>impossibilitas a parte formarum,
+          <lb ed="#L" n="19"/>quod distinguantur numero in 
+          ea<lb ed="#L" break="no" n="20"/>dem specie; quidquid enim 
+          con<lb ed="#L" break="no" n="21"/>cluderet istam impossibilitatem
+          <lb ed="#L" n="22"/>ratione forme in Angelis, 
+          con<lb ed="#L" break="no" n="23"/>cluderet in animabus.
+        </p>
+        <p xml:id="jdso8u-d1e1784-d1e575">
+          <lb ed="#L" n="24"/>Quod si dicas, quod anime 
+          ha<lb ed="#L" break="no" n="25"/>bent inclinationem — ad diversa
+          <lb ed="#L" n="26"/>corpora; igitur per hae 
+          distin<lb ed="#L" break="no" n="27"/>guuntur.
+        </p>
+        <p xml:id="jdso8u-d1e1784-d1e586">
+          <lb ed="#L" n="28"/>Contra, inclinatio non est 
+          enti<lb ed="#L" break="no" n="29"/>tas absoluta, quia non potest
+          <lb ed="#L" n="30"/>aliquid inelinari ad se, ergo 
+          prae<lb ed="#L" break="no" n="31"/>supponit aliquam entitatem 
+          abso<lb ed="#L" break="no" n="32"/>lutam et distinctam, quia enim est
+          <lb ed="#L" n="33"/>hee anima, ideo habet talem 
+          in<lb ed="#L" break="no" n="34"/>clinationem, et non e contra ; 
+          er<lb ed="#L" break="no" n="35"/>go hee inclinatio non est ratio
+          <lb ed="#L" n="36"/>essendi hanc animam, sed praesu 
+          p<lb ed="#L" break="no" n="37"/>ponit eam.
+        </p>
+        <p xml:id="jdso8u-d1e1784-d1e611">
+          <lb ed="#L" n="38"/>Et confirmatur hoc (e) etiam
+          <lb ed="#L" n="39"/>per aliquos, quibus est 
+          inconve<lb ed="#L" break="no" n="40"/>niens, quod aliqua species simul
+          <lb ed="#L" n="41"/>tota sit damnata naturae 
+          intelle<lb ed="#L" break="no" n="42"/>etualis simpliciter; multae autem
+          <lb ed="#L" n="43"/>species essent Angelorum, in 
+          qui<lb ed="#L" break="no" n="44"/>bus nulla esset salvata, posita ista
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>positione, igitur non est vera.
+        </p>
+        <p xml:id="jdso8u-d1e1784-d1e633">
+          <lb ed="#L" n="46"/>Et persuadetur (f) prima positic
+          <lb ed="#L" n="47"/>per hoc, quod dicit, Augustinus
+          <lb ed="#L" n="48"/>in Ench. cap. 28. Placuit — itaque
+          <lb ed="#L" n="49"/>universalitatis creatori, atque 
+          mode<lb ed="#L" break="no" n="50"/>ratori Deo, ut quoniam non. tota multi
+          <lb ed="#L" n="51"/>tudo Angelorum. Deum  deserendo 
+          perie<lb ed="#L" break="no" n="52"/>rat, illa. quae perierat in perditione 
+          per<lb ed="#L" break="no" n="53"/>petua remaneret, quae autem cum Deo,
+          <lb ed="#L" n="54"/>illa deserente perstiterat, de sua. 
+          certis<lb ed="#L" break="no" n="55"/>sime cognita, semper futura felicitate
+          <lb ed="#L" n="56"/>gauderet ; alia vero creatura rationalis,
+          <lb ed="#L" n="57"/>que in. hominibus erat, quoniam peccatis
+          <lb ed="#L" n="58"/>atque. suppliciis et. originalibus et 
+          pro<lb ed="#L" break="no" n="59"/>priis, tota perierat, ex ejus parte 
+          repa<lb ed="#L" break="no" n="60"/>rata, quod. Angelice societati ruina illa
+          <lb ed="#L" n="61"/>diabolica minuerat, suppleretur. Ista
+          <lb ed="#L" n="62"/>totalitas et partialitas in Angelis
+          <lb ed="#L" n="63"/>non videtur esse rationabilis, nisi
+          <lb ed="#L" n="64"/>ponatur quod nulla species 
+          angeli<lb ed="#L" break="no" n="65"/>ca quantum ad omnia individua
+          <lb ed="#L" n="66"/>totaliter perierat, et ita aliqui de
+          <lb ed="#L" n="67"/>quacumque specie corruerunt et
+          <lb ed="#L" n="68"/>aliqui perstiterunt; igitur, etc.
+        </p>
+        <p xml:id="jdso8u-d1e1784-d1e685">
+          <lb ed="#L" n="69"/>(g) Praeterea, si concedatur quod
+          <lb ed="#L" n="70"/>quidditas Angeli ex se in plura sit
+          <lb ed="#L" n="71"/>divisibilis, vel pluribus 
+          commu<lb ed="#L" break="no" n="72"/>nicabilis, et per consequens, 
+          quan<lb ed="#L" break="no" n="73"/>tum est de se in infinitum, quia
+          <lb ed="#L" n="74"/>non est ratio finitatis ex parte
+          <lb ed="#L" n="75"/>multitudinis numeralis, si per hoc
+          <lb ed="#L" n="76"/>quod ipsa natura producta est in
+          <lb ed="#L" n="77"/>ipso individuo, aufertur 
+          possibili<lb ed="#L" break="no" n="78"/>tas ejus essendi in pluribus ; est
+          <lb ed="#L" n="79"/>ergo in hoc individuo secundum
+          <lb ed="#L" n="80"/>totam communicabilitatem suam,
+          <lb ed="#L" n="81"/>et per consequens infinite, quia
+          <lb ed="#L" n="82"/>est infinite communicabilis 
+          secun<lb ed="#L" break="no" n="83"/>dum quidditatem suam ; igitur ille
+          <lb ed="#L" n="84"/>unus Angelus esset formaliter 
+          in<lb ed="#L" break="no" n="85"/>finitus ; consequens autem est 
+          in<lb ed="#L" break="no" n="86"/>conveniens ; igitur antecedens.
+        </p>
+        <p xml:id="jdso8u-d1e1784-d1e727">
+          <lb ed="#L" n="87"/>Dico igitur, quod omnis natura, .
+          <lb ed="#L" n="88"/>qua non est de se actus purus,,
+          <pb ed="#L" n="162"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>potest secundum illam realitatem,
+          <lb ed="#L" n="2"/>secundum quam est matura, esse
+          <lb ed="#L" n="3"/>potentialis ad realitatem illam
+          <lb ed="#L" n="4"/>qua est haec natura; et sicut de
+          <lb ed="#L" n="5"/>se non includit aliquam entitatem
+          <lb ed="#L" n="6"/>quasi singularem, ita non 
+          repu<lb ed="#L" break="no" n="7"/>gnant sibi quocumque tales 
+          enti<lb ed="#L" break="no" n="8"/>tates, et. ita potest in quotcumque
+          <lb ed="#L" n="9"/>talibus inveniri. In eo tamen quod
+          <lb ed="#L" n="10"/>est necesse esse ex se, est 
+          deter<lb ed="#L" break="no" n="11"/>minatio in natura ad esse hoo,
+          <lb ed="#L" n="12"/>quia tantum est, quantum potest
+          <lb ed="#L" n="13"/>esse, quia quidquid potest esse in
+          <lb ed="#L" n="14"/>natura, est ibi, ita quod 
+          determi<lb ed="#L" break="no" n="15"/>natio non potest esse per aliquod
+          <lb ed="#L" n="16"/>extrinseeum ad singularitatem, si
+          <lb ed="#L" n="17"/>possibilitas siin natura per se ad
+          <lb ed="#L" n="18"/>infinitatem, secus est in omni 
+          natu<lb ed="#L" break="no" n="19"/>ra possibili, ut potest, cadere 
+          mul<lb ed="#L" break="no" n="20"/>titudo.
+        </p>
+        <!--</div>
+          <div alias="scotus-l2d3q7-p3">-->
+        <p xml:id="jdso8u-d1e1784-d1e784">
+          <lb ed="#L" n="22" type="fixed=166"/>SCHOLIUM.
+        </p>
+        <p xml:id="jdso8u-d1e1784-d1e790">
+          <lb ed="#L" n="23"/>Quod Philosophus sumpsit materiam pro
+          <lb ed="#L" n="24"/>differentia individuali ostendit q. praeced.
+          <lb ed="#L" n="25"/>n. 20. Nunc admisso quod intellexerit 
+          alte<lb ed="#L" break="no" n="26"/>ram partem compositi per materiam, docet
+          <lb ed="#L" n="27"/>hoc eum ideo fecisse, quia indicavit 
+          intel<lb ed="#L" break="no" n="28"/>ligentias esse necessarias, in quo erravit;
+          <lb ed="#L" n="29"/>et sic melius est dissentire ab eo, in 
+          prin<lb ed="#L" break="no" n="30"/>cipio et conclusione simul, quam coneedendc
+          <lb ed="#L" n="31"/>falsum principium, negare conclusionem.
+          <lb ed="#L" n="32"/>Explicat quomodo differunt, distinctio 
+          for<lb ed="#L" break="no" n="33"/>marum, et formalis, in rigore Logico, el
+          <lb ed="#L" n="34"/>illud forme sunt sicut numeri, et alia 
+          so<lb ed="#L" break="no" n="35"/>lemnia loca ex Philosopho. Item quare 
+          Phi<lb ed="#L" break="no" n="36"/>losophus negavit corpus coeleste in tempore
+          <lb ed="#L" n="37"/>produci posse, et asseruit unum tantum
+          <lb ed="#L" n="38"/>posse esse individuum in singulis speciebus
+          <lb ed="#L" n="39"/>corporum ecclestium.
+        </p>
+        <p xml:id="jdso8u-d1e1784-d1e829">
+          <lb ed="#L" n="40"/>Ad primum (a) argumentum
+          <lb ed="#L" n="41"/>dico, quod licet Philosophus 
+          in<lb ed="#L" break="no" n="42"/>lelligat ibi per se de materia, hoc
+          <lb ed="#L" n="43"/>est, de entitate contrahente per
+          <lb ed="#L" n="44"/>se. quidditatbem, tamen applicando
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>ad habens materiam, quae est 
+          al<lb ed="#L" break="no" n="46"/>tera pars compositi, et non 
+          ha<lb ed="#L" break="no" n="47"/>bens, concedo intellectum  
+          Philo<lb ed="#L" break="no" n="48"/>sophi fuisse, quod omne non 
+          ha<lb ed="#L" break="no" n="49"/>bens materiam pro aliqua natura
+          <lb ed="#L" n="50"/>componente, est idem suo quod
+          <lb ed="#L" n="51"/>quid est. Primo, quia omne tale
+          <lb ed="#L" n="52"/>quod quid est ponit per se Aoc, et
+          <lb ed="#L" n="53"/>ratio ad hoc est, quia omne tale
+          <lb ed="#L" n="54"/>quod non habet materiam partem
+          <lb ed="#L" n="55"/>sui, posuit formaliter 
+          necessa<lb ed="#L" break="no" n="56"/>rium ; quidquid autem potest esse
+          <lb ed="#L" n="57"/>in natura formaliter necessaria,
+          <lb ed="#L" n="58"/>est in ea; ergo quodlibet quod
+          <lb ed="#L" n="59"/>potest habere illam quidditatem,
+          <lb ed="#L" n="60"/>habet eam, quia non est potentia
+          <lb ed="#L" n="61"/>distans ab actu; igitur omnem
+          <lb ed="#L" n="62"/>possibilitatem, quam posuit in
+          <lb ed="#L" n="63"/>tali natura ad supposita, posuit
+          <lb ed="#L" n="64"/>in actu ; si autem ibi esset 
+          possi<lb ed="#L" break="no" n="65"/>bilitas ad plura individua, esset
+          <lb ed="#L" n="66"/>possibilitas ad infinita; igitur
+          <lb ed="#L" n="67"/>essent infinita in actu; quare
+          <lb ed="#L" n="68"/>eum infinitas sit impossibilis in
+          <lb ed="#L" n="69"/>aliqua natura, igitur et in hac
+          <lb ed="#L" n="70"/>natura secundum eum, est 
+          impos<lb ed="#L" break="no" n="71"/>sibilitas ad infinitatem ; ideo est de
+          <lb ed="#L" n="72"/>se haec secundum ipsum.
+        </p>
+        <p xml:id="jdso8u-d1e1784-d1e905">
+          <lb ed="#L" n="73"/>(b Sed discordamus ab eo in
+          <lb ed="#L" n="74"/>hae proportione : Omnis quidditas:
+          <lb ed="#L" n="75"/>non habens materiam est formaliter |
+          <lb ed="#L" n="76"/>necessaria, et. ideo in conclusione.
+          <lb ed="#L" n="77"/>Rationabilius est. enim Theologo.
+          <lb ed="#L" n="78"/>discordanti a Philosopho in 
+          prin<lb ed="#L" break="no" n="79"/>cipio, propter quod tenet aliquam
+          <lb ed="#L" n="80"/>conclusionem, consequenter 
+          di<lb ed="#L" break="no" n="81"/>Scordare in conclusione, quam
+          <lb ed="#L" n="82"/>errare cum eo in conclusione, et
+          <lb ed="#L" n="83"/>discordare ab eo in principio,
+          <lb ed="#L" n="84"/>propter quod ipse erravit. Ita
+          <lb ed="#L" n="85"/>enim concordare eum eo, nec
+          <lb ed="#L" n="86"/>est philosophari, nec Theologiae
+          <lb ed="#L" n="87"/>sentire, quia talis non habet 
+          ra<lb ed="#L" break="no" n="88"/>tionem. au:sae valeat apud  Philoso-
+          <pb ed="#L" n="167"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>phum, quia nec Philosophus 
+          con<lb ed="#L" break="no" n="2"/>cederet conclusionem, nisi propter
+          <lb ed="#L" n="3"/>principium illud, nec ad 
+          conclu<lb ed="#L" break="no" n="4"/>sionem suam habet principium
+          <lb ed="#L" n="5"/>Theologicum, quia fprscise ad
+          <lb ed="#L" n="6"/>ea est principium philosophicum,
+          <lb ed="#L" n="7"/>quod ipse negat.
+        </p>
+        <p xml:id="jdso8u-d1e1784-d1e962">
+          <lb ed="#L" n="8"/>Per idem patet ad Avicennam;
+          <lb ed="#L" n="9"/>dico quod intentio ejus fuit quod
+          <lb ed="#L" n="10"/>tantum sit unus Angelus in una
+          <lb ed="#L" n="11"/>specie, sed propositio cui haec
+          <lb ed="#L" n="12"/>conclusio innititur, scilicet quod
+          <lb ed="#L" n="13"/>Angelus superior creat 
+          inferio<lb ed="#L" break="no" n="14"/>rem, a nullo Theologo vel 
+          Catho<lb ed="#L" break="no" n="15"/>lico. conceditur, quare nec ejus
+          <lb ed="#L" n="16"/>conclusio debet concedi ab aliquo
+          <lb ed="#L" n="17"/>Theologo.
+        </p>
+        <p xml:id="jdso8u-d1e1784-d1e986">
+          <lb ed="#L" n="18"/>(c) Ad rationem primam, alias
+          <lb ed="#L" n="19"/>fuit dictum quod differentia 
+          for<lb ed="#L" break="no" n="20"/>malis potest accipi pro differentia
+          <lb ed="#L" n="21"/>in forma, et hoc videtur proprie
+          <lb ed="#L" n="22"/>significare hoc quod dicetur 
+          dif<lb ed="#L" break="no" n="23"/>ferentia formalis; vel potest accipi
+          <lb ed="#L" n="24"/>differentia formalis, pro differentia
+          <lb ed="#L" n="25"/>formarum, licet non sit in forma,
+          <lb ed="#L" n="26"/>ut in ratione differendi. Primo
+          <lb ed="#L" n="27"/>modo potest concedi major, et
+          <lb ed="#L" n="28"/>sie est minor falsa. Probatio 
+          au<lb ed="#L" break="no" n="29"/>tem minoris, scilicet quod 
+          Ange<lb ed="#L" break="no" n="30"/>lus differt ab Angelo, qui est
+          <lb ed="#L" n="31"/>forma, ergo habent differentiam
+          <lb ed="#L" n="32"/>formalem , includit — fallaciam
+          <lb ed="#L" n="33"/>Consequentis; non enim 
+          sequi<lb ed="#L" break="no" n="34"/>tur : formae differunt, ergo 
+          for<lb ed="#L" break="no" n="35"/>maliter differunt, vel differunt in
+          <lb ed="#L" n="36"/>forma ; sicut. non sequitur, 
+          ho<lb ed="#L" break="no" n="37"/>mines plures differunt, igitur in
+          <lb ed="#L" n="38"/>humanitate differunt. Aliud. enim
+          <lb ed="#L" n="39"/>est aliquid distingui, et aliud 
+          ip<lb ed="#L" break="no" n="40"/>sum esse primam rationem 
+          di<lb ed="#L" break="no" n="41"/>stinguendi, vel distinctionis, quia
+          <lb ed="#L" n="42"/>cum haec quod ipsum sit 
+          distin<lb ed="#L" break="no" n="43"/>ctum, stat quod ipsum non sit
+          <lb ed="#L" n="44"/>ratio distineuendi; eum hoc autem
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>quod ipsum sit prima ratio distin:
+          <lb ed="#L" n="46"/>geuendi, non stat ipsum non essc
+          <lb ed="#L" n="47"/>distinctum.
+        </p>
+        <p xml:id="jdso8u-d1e1784-d1e1056">
+          <lb ed="#L" n="48"/>(d) Et ratio Logica est ad hoc,
+          <lb ed="#L" n="49"/>quia negatio inclusa in nomine
+          <lb ed="#L" n="50"/>differentiae, non tantum confundit
+          <lb ed="#L" n="51"/>terminum hujus relationis 
+          con<lb ed="#L" break="no" n="52"/>fuse et distributive, sed etiam
+          <lb ed="#L" n="53"/>illud quod specificat differentiam,
+          <lb ed="#L" n="54"/>ut in quo notatur esse differentia.
+          <lb ed="#L" n="55"/>Hoc quippe confunditur quantum
+          <lb ed="#L" n="56"/>ad negationem inclusam in hoc
+          <lb ed="#L" n="57"/>nomine differentia, quia si Socrates
+          <lb ed="#L" n="58"/>differt a Platone in albedine, non
+          <lb ed="#L" n="59"/>est idem sibi, nec in hac albedine,
+          <lb ed="#L" n="60"/>nec in illa albedine.
+        </p>
+        <p xml:id="jdso8u-d1e1784-d1e1088">
+          <lb ed="#L" n="61"/>(e) Si autem accipiatur major
+          <lb ed="#L" n="62"/>improprie, scilicet juxta 
+          secun<lb ed="#L" break="no" n="63"/>dum intellectum, nego majorem.
+          <lb ed="#L" n="64"/>Ad probationem dico, quod 
+          Phi<lb ed="#L" break="no" n="65"/>losophus loquitur in 8. Metaph. de
+          <lb ed="#L" n="66"/>forma, prout indicat quidditatem,
+          <lb ed="#L" n="67"/>quod apparet ex prima 
+          compara<lb ed="#L" break="no" n="68"/>tione formarum ad numeros. Dicit
+          <lb ed="#L" n="69"/>enim : Si enim (inquit) sunt 
+          aliqua<lb ed="#L" break="no" n="70"/>liter mumeri substantiae, sic sunt, nam
+          <lb ed="#L" n="71"/>definitio numerus quidam divisibilis est,
+          <lb ed="#L" n="72"/>etiam in indivisibilia, non enim infinite
+          <lb ed="#L" n="73"/>rationes, et numerus autem tale, hoc
+          <lb ed="#L" n="74"/>est, resolutio definitionum sic stat
+          <lb ed="#L" n="75"/>ad indivisibile, sicut resolutio 
+          nu<lb ed="#L" break="no" n="76"/>merorum ad indivisibile, et talis
+          <lb ed="#L" n="77"/>definitio est ejus, quod vocat 
+          sub<lb ed="#L" break="no" n="78"/>stantiam, hoc est quidditatis, non
+          <lb ed="#L" n="79"/>form: quae est altera pars ejus.
+          <lb ed="#L" n="80"/>Hoc autem modo dico, quod nihil
+          <lb ed="#L" n="81"/>additur formae, quin varlet 
+          spe<lb ed="#L" break="no" n="82"/>ciem; vel simpliciter, hoc est, de
+          <lb ed="#L" n="83"/>una specie aliam facit contrariam
+          <lb ed="#L" n="84"/>vel disparatam ; vel secundum
+          <lb ed="#L" n="85"/>quid, hoc est, de non tali specie
+          <lb ed="#L" n="86"/>faciet talem speciem, puta si 
+          ad<lb ed="#L" break="no" n="87"/>datur differentia pertinens ad esse
+          <lb ed="#L" n="88"/>auiddifativum eeneri, faciet spe-
+          <pb ed="#L" n="168"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>ciem specialissimam, et non 
+          prae<lb ed="#L" break="no" n="2"/>fuit talis species specialissima,
+          <lb ed="#L" n="3"/>sed tantum praefuit species 
+          inter<lb ed="#L" break="no" n="4"/>media. Et hoc modo dico, quod
+          <lb ed="#L" n="5"/>quidquid est circa naturam in
+          <lb ed="#L" n="6"/>inferioribus, nihil addit formae,
+          <lb ed="#L" n="7"/>sive sit proprietas individualis,
+          <lb ed="#L" n="8"/>sive magis vel minus, vel 
+          quod<lb ed="#L" break="no" n="9"/>cumque aliud quod non respicit
+          <lb ed="#L" n="10"/>naturam, et est in suo esse 
+          quid<lb ed="#L" break="no" n="11"/>ditativo, non aufert, nec addit
+          <lb ed="#L" n="12"/>aliquid substantiae hoc modo.
+        </p>
+        <p xml:id="jdso8u-d1e1784-d1e1182">
+          <lb ed="#L" n="13"/>Exemplum (f) hujus esset, si
+          <lb ed="#L" n="14"/>unitas inquantum pars ternarii
+          <lb ed="#L" n="15"/>esset pars praecise inquantum
+          <lb ed="#L" n="16"/>differentia numeralis vel 
+          indivi<lb ed="#L" break="no" n="17"/>dualis, et tamen ipsa posset in
+          <lb ed="#L" n="18"/>se intendi et remitti; ista 
+          differen<lb ed="#L" break="no" n="19"/>tia esset ejus per se et per 
+          acci<lb ed="#L" break="no" n="20"/>dens inquantum est pars ternarii,
+          <lb ed="#L" n="21"/>ideo non esset alius ternarius 
+          uni<lb ed="#L" break="no" n="22"/>tate intensa et remissa.
+        </p>
+        <p xml:id="jdso8u-d1e1784-d1e1206">
+          <lb ed="#L" n="23"/>Quando ergo dicis, quod 
+          quae<lb ed="#L" break="no" n="24"/>cumque distinctio formarum, est
+          <lb ed="#L" n="25"/>sicut distinctio numeri, falsum
+          <lb ed="#L" n="26"/>est, nisi sib. earum secundum. esse
+          <lb ed="#L" n="27"/>formale quod pertinet ad 
+          quiddi<lb ed="#L" break="no" n="28"/>talem per-se, eL, talis non est hic:
+        </p>
+        <p xml:id="jdso8u-d1e1784-d1e1222">
+          <lb ed="#L" n="29"/>Ad illud (g) de 10. Metaph. dico,
+          <lb ed="#L" n="30"/>quod est fallacia Consequentis,
+          <lb ed="#L" n="31"/>inferendo ex textu omnes formas
+          <lb ed="#L" n="32"/>differre specifice; vere enim 
+          Phi<lb ed="#L" break="no" n="33"/>losophus vult ibi, quod differentia
+          <lb ed="#L" n="34"/>;non est specifica, sed ex hoc non
+          <lb ed="#L" n="35"/>sequitur, quod omnis differentia
+          <lb ed="#L" n="36"/>formalis sit specifica; sed istud
+          <lb ed="#L" n="37"/>est quod isti volunt habere, sicut
+          <lb ed="#L" n="38"/>non sequitur in affirmativis 
+          sequi<lb ed="#L" break="no" n="39"/>pollentibus istis, quia universalis
+          <lb ed="#L" n="40"/>affirmativa non convertitur, 
+          ter<lb ed="#L" break="no" n="41"/>"minis eodem modo se habentibus.
+          <lb ed="#L" n="42"/>Philosopho igitur accipi potest,
+          <lb ed="#L" n="43"/>quod sola differentia formalis est
+          <lb ed="#L" n="44"/>speeifica, non quod omnis diffe-
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>rentia formalis est specifica, quia
+          <lb ed="#L" n="46"/>licet exclusiva inferat 
+          affirmati<lb ed="#L" break="no" n="47"/>vam de terminis transpositis, non
+          <lb ed="#L" n="48"/>tamen eodem modo de terminis
+          <lb ed="#L" n="49"/>non transpositis; sed est fallacia
+          <lb ed="#L" n="50"/>Consequentis, sicut convertendo
+          <lb ed="#L" n="51"/>indefinitam in universalem 
+          affir<lb ed="#L" break="no" n="52"/>mativam ;imo ex illo loco magis
+          <lb ed="#L" n="53"/>videtur accipi oppositum hujus
+          <lb ed="#L" n="54"/>propositionis : Omnis differentia 
+          for<lb ed="#L" break="no" n="55"/>marum est specifica ; differentia enim
+          <lb ed="#L" n="56"/>hominis albi et equi nigri est
+          <lb ed="#L" n="57"/>differentia formarum, et aliquo
+          <lb ed="#L" n="58"/>modo per formas. Non tamen 
+          spe<lb ed="#L" break="no" n="59"/>cifica differentia secundum eum
+          <lb ed="#L" n="60"/>ibi, quia illae formae respectu 
+          na<lb ed="#L" break="no" n="61"/>turarum in quibus sunt, non sunt
+          <lb ed="#L" n="62"/>formales, imo consequentes 
+          indi<lb ed="#L" break="no" n="63"/>vidua, non autem per se 
+          conse<lb ed="#L" break="no" n="64"/>quentes, vel per se determinantes
+          <lb ed="#L" n="65"/>esse quidditativum.
+        </p>
+        <p xml:id="jdso8u-d1e1784-d1e1307">
+          <lb ed="#L" n="66"/>Ad aliud dico (h) quod si aliquod
+          <lb ed="#L" n="67"/>individuum ex hoc solo, quod
+          <lb ed="#L" n="68"/>est sine materia, habet in se 
+          to<lb ed="#L" break="no" n="69"/>tam speciei perfectionem, qua
+          <lb ed="#L" n="70"/>ex se nata est esse in infinitis,
+          <lb ed="#L" n="71"/>quantum est ex se, igitur vide-:
+          <lb ed="#L" n="72"/>retur habere perfectionem 
+          infini<lb ed="#L" break="no" n="73"/>tam ex sola carentia materise;:
+          <lb ed="#L" n="74"/>quidquid autem potest habere 
+          per<lb ed="#L" break="no" n="75"/>fectionem infinitam, habet eam,
+          <lb ed="#L" n="76"/>et ita in qualibet specie esset 
+          per<lb ed="#L" break="no" n="77"/>fectio infinita, et per consequens
+          <lb ed="#L" n="78"/>perfectio speciei non esset finita
+          <lb ed="#L" n="79"/>vel determinata per 
+          determinati<lb ed="#L" break="no" n="80"/>onem, vel speeificationem, vel 
+          li<lb ed="#L" break="no" n="81"/>mitationem  differentiae  ultimee,
+          <lb ed="#L" n="82"/>qua ultimate speciem constituit,
+          <lb ed="#L" n="83"/>addita generi ; quod est falsum,
+          <lb ed="#L" n="84"/>et contra omnes Philosophos.
+          <lb ed="#L" n="85"/>Falsa est ergo ista propositio,
+          <lb ed="#L" n="86"/>quod scilicet illud individuum,
+          <lb ed="#L" n="87"/>quod potest esse sine materia ex
+          <lb ed="#L" n="88"/>hae sola causa privativa, quia
+          <pb ed="#L" n="169"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>est sine materia, habet totam 
+          perfe<lb ed="#L" break="no" n="2"/>ctionem speciei, quia si cum hoc 
+          po<lb ed="#L" break="no" n="3"/>natur, quod nihil positive fiat circa
+          <lb ed="#L" n="4"/>ipsum, sed sola separatio materiae,
+          <lb ed="#L" n="5"/>nihil ponitur, quod non praefuit.
+        </p>
+        <p xml:id="jdso8u-d1e1784-d1e1375">
+          <lb ed="#L" n="6"/>Si autem intelligatur, prout 
+          ha<lb ed="#L" break="no" n="7"/>bet aliquam probabilitatem, quod
+          <lb ed="#L" n="8"/>scilicet. forma si esset separata
+          <lb ed="#L" n="9"/>a materia, ipsa haberet totam
+          <lb ed="#L" n="10"/>perfectionem speciei, quia non
+          <lb ed="#L" n="11"/>participabilis a materia ; illa 
+          es<lb ed="#L" break="no" n="12"/>set falsa, et petit principium, nisi
+          <lb ed="#L" n="13"/>intelligatur prout materia dicit
+          <lb ed="#L" n="14"/>illam entitatem individualem 
+          con<lb ed="#L" break="no" n="15"/>trahentem formam. Hoc modo 
+          in<lb ed="#L" break="no" n="16"/>telligendo aequivocationem istius
+          <lb ed="#L" n="17"/>propositionis assumpte, omnis
+          <lb ed="#L" n="18"/>forma habet totam perfectionem
+          <lb ed="#L" n="19"/>speciei, et est de se hec, quae non
+          <lb ed="#L" n="20"/>est Pparticipabilis a materia, et
+          <lb ed="#L" n="21"/>tunc est minor subsumpta de 
+          An<lb ed="#L" break="no" n="22"/>gelo, simpliciter falsa, quia licet
+          <lb ed="#L" n="23"/>ista essentia non sit participabilis
+          <lb ed="#L" n="24"/>a materia, quas est altera pars
+          <lb ed="#L" n="25"/>compositi, est tamen 
+          participa<lb ed="#L" break="no" n="26"/>bilis a pluribus materialibus, id
+          <lb ed="#L" n="27"/>est, a pluribus individuis 
+          haben<lb ed="#L" break="no" n="28"/>tibus quidditates materiales, quae
+          <lb ed="#L" n="29"/>dicuntur materiales, sicut saepe
+          <lb ed="#L" n="30"/>dictum est respectu quidditatis
+          <lb ed="#L" n="31"/>contracts, prout quidditas dicitur
+          <lb ed="#L" n="32"/>forma.
+        </p>
+        <p xml:id="jdso8u-d1e1784-d1e1437">
+          <lb ed="#L" n="33"/>Ad aliud (1) dico, quod in forma
+          <lb ed="#L" n="34"/>arguendi est fallacia 
+          Consequen<lb ed="#L" break="no" n="35"/>tis; infinitas non intenditur ; 
+          igi<lb ed="#L" break="no" n="36"/>tur nec pluralitas numeralis. Non
+          <lb ed="#L" n="37"/>enim pluralitas numeralis est de
+          <lb ed="#L" n="38"/>se infinita, sed tantum stare 
+          po<lb ed="#L" break="no" n="39"/>test infinitas, ipsa non 
+          repugnan<lb ed="#L" break="no" n="40"/>te; licet ergo nullus intendat 
+          in<lb ed="#L" break="no" n="41"/>finitatem per se, tamen aliquis
+          <lb ed="#L" n="42"/>potest intendere multitudinem
+          <lb ed="#L" n="43"/>numeralem, quia de se non est
+          <lb ed="#L" n="44"/>infinita, quia sicut compatitur
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>secum .infinitatem, ita et 
+          fini<lb ed="#L" break="no" n="46"/>latem, et sic potest intelligi
+          <lb ed="#L" n="47"/>illud communiter dictum eorum.
+          <lb ed="#L" n="48"/>Et secundum veritatem, licet in
+          <lb ed="#L" n="49"/>toto universo principaliter ordo
+          <lb ed="#L" n="50"/>attenditur secundum distinctionem
+          <lb ed="#L" n="51"/>specierum, in quibus est 
+          impari<lb ed="#L" break="no" n="52"/>tas pertinens ad ordinem, tamen
+          <lb ed="#L" n="53"/>quia secundum Augustinum de
+          <lb ed="#L" n="54"/>Civit. lib. 19. cap. 13. Ordo est 
+          pa<lb ed="#L" break="no" n="55"/>rium  impariumque rerum unicuique
+          <lb ed="#L" n="56"/>loca sua distribuens, congrua dispositio;
+          <lb ed="#L" n="57"/>ab illo autem agente qui 
+          princi<lb ed="#L" break="no" n="58"/>paliter intendit ordinem universi,
+          <lb ed="#L" n="59"/>sicut. principale bonum  
+          intrinse<lb ed="#L" break="no" n="60"/>cum sibi, non tantum intenditur
+          <lb ed="#L" n="61"/>ista imparitas, quae est unum 
+          re<lb ed="#L" break="no" n="62"/>quisitum ad ordinem, scilicet 
+          spe<lb ed="#L" break="no" n="63"/>cierum, sed etiam paritas 
+          indi<lb ed="#L" break="no" n="64"/>viduorum in eadem specie, quae
+          <lb ed="#L" n="65"/>est aliud concurrens ad ordinem.
+          <lb ed="#L" n="66"/>Et similiter individua intenduntur
+          <lb ed="#L" n="67"/>ab ipso primo, prout ipsum 
+          in<lb ed="#L" break="no" n="68"/>tendit aliquid aliud a se, non ut
+          <lb ed="#L" n="69"/>finem, sed ut aliquid aliud ad 
+          fi<lb ed="#L" break="no" n="70"/>nem. Unde propter bonitatem
+          <lb ed="#L" n="71"/>suam communicandam s, et 
+          pro<lb ed="#L" break="no" n="72"/>pter suam beatitudinem, plura
+          <lb ed="#L" n="73"/>in eadem specie produxit; in 
+          prin<lb ed="#L" break="no" n="74"/>cipalibus autem entibus, est a Deo
+          <lb ed="#L" n="75"/>intentum individuum  
+          principali<lb ed="#L" break="no" n="76"/>ter, et cum hoc modo sumutur,
+          <lb ed="#L" n="77"/>non intenditur differentia 
+          nume<lb ed="#L" break="no" n="78"/>ralis, falsum est; et cum 
+          proba<lb ed="#L" break="no" n="79"/>tur, hoc modo potest esse 
+          infini<lb ed="#L" break="no" n="80"/>tas, non sequitur, potest esse
+          <lb ed="#L" n="81"/>infinitas, et ita infinitas non 
+          in<lb ed="#L" break="no" n="82"/>tenditur; ergo nulla differentia
+          <lb ed="#L" n="83"/>numeralis intenditur, non 
+          sequi<lb ed="#L" break="no" n="84"/>tur. Potest enim esse aliqua 
+          dif<lb ed="#L" break="no" n="85"/>ferentia numeralis finita, et est,
+          <lb ed="#L" n="86"/>et ista potest intendi et intenditur.
+        </p>
+        <p xml:id="jdso8u-d1e1784-d1e1559">
+          <lb ed="#L" n="87"/>Ad ultimum (k), licet 
+          Philoso<lb ed="#L" break="no" n="88"/>phus dicat, quod eeneratio est
+          <pb ed="#L" n="170"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>perpetua ad salvandum esse 
+          divi<lb ed="#L" break="no" n="2"/>num, et hoc in corruptibilibus.
+          <lb ed="#L" n="3"/>Unde ista est una causa 
+          multitu<lb ed="#L" break="no" n="4"/>dinis individuorum in eadem 
+          spe<lb ed="#L" break="no" n="5"/>cie, sed non praecipua causa, sed
+          <lb ed="#L" n="6"/>illa quae dicta est.
+        </p>
+        <p xml:id="jdso8u-d1e1784-d1e1583">
+          <lb ed="#L" n="7"/>Et quod additur, de corporibus
+          <lb ed="#L" n="8"/>coelestibus quod tantum in una
+          <lb ed="#L" n="9"/>Specie, est, unum singulare 
+          cor<lb ed="#L" break="no" n="10"/>pus
+        </p>
+        <p xml:id="jdso8u-d1e1784-d1e1594">
+          <lb ed="#L" n="11"/>Respondeo, sua ratio fuit, quod
+          <lb ed="#L" n="12"/>tale corpus singulare fuit ex tota
+          <lb ed="#L" n="13"/>materia illius speciei, et hoc non
+          <lb ed="#L" n="14"/>tantum actuali, sed etiam 
+          poten<lb ed="#L" break="no" n="15"/>tiali! secundum eum, quia secun
+          <lb ed="#L" n="16"/>dum eum, null erat materia
+          <lb ed="#L" n="17"/>possibilis, manente specie tali,
+          <lb ed="#L" n="18"/>quae non erat tota in uno 
+          singu<lb ed="#L" break="no" n="19"/>lari in tali specie; nihil enim
+          <lb ed="#L" n="20"/>posuit posse produci novum in
+          <lb ed="#L" n="21"/>immobilibus seu in sempiternis,
+          <lb ed="#L" n="22"/>secundum quod talia sunt, 
+          scili<lb ed="#L" break="no" n="23"/>cet immobilia et sempiterna; et
+          <lb ed="#L" n="24"/>quia .non eoneordani 'cum-.eo
+          <lb ed="#L" n="25"/>Theologi in hae propositione,
+          <lb ed="#L" n="26"/>omne corpus sempiternum est ex
+          <lb ed="#L" n="27"/>tota materia illius speciei actuali
+          <lb ed="#L" n="28"/>et potentiali, ideo non est 
+          con<lb ed="#L" break="no" n="29"/>cordandum cum in eo in 
+          conclu<lb ed="#L" break="no" n="30"/>sione.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

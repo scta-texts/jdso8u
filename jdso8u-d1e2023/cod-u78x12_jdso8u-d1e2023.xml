@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2024-08-09">August 09, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x12">Vives, Paris, 1893, volume 12</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-08-09" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="648"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e2023"><!-- scotus-l2d14q2-p1 -->
+        <head xml:id="jdso8u-d1e2023-Hd1e101">Quaestio 2</head>
+        <head xml:id="jdso8u-d1e2023-Hd1e103" type="question-title">Utrum aliquod sit caelum mobile, aliud a caelo stellato</head>
+        <p xml:id="jdso8u-d1e2023-d1e106">
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="39" type="fixed=648"/>QUAESTIO II.
+        </p>
+        <p xml:id="jdso8u-d1e2023-d1e113">
+          <lb ed="#L" n="40"/>Utrum aliquod. sit celum mobile, aliud. a
+          <lb ed="#L" n="41"/>coelo stellato?
+        </p>
+        <p xml:id="jdso8u-d1e2023-d1e120">
+          <lb ed="#L" n="42"/>Alensis 2. p. q. 18. m. 4. et q. 52. a. 4, Albert.
+          <lb ed="#L" n="43"/>tract. de 4. cozvis q. ^. a. 13. /Egid. 1. 2. 
+          Heza<lb ed="#L" break="no" n="44"/>emer. c. 36. Conimbric. 2. de calo. c. 5. q. 1.
+          <lb ed="#L" n="45"/>citantes multos.
+        </p>
+        <p xml:id="jdso8u-d1e2023-d1e132">
+          <lb ed="#L" n="46"/>Secundo quaero (a) de motu 
+          ecelo<lb ed="#L" break="no" n="47"/>rum : Utrum aliquod sit coelum
+          <lb ed="#L" n="48"/>mobile, aliud a coelo stellato? Quod
+          <lb ed="#L" n="49"/>non. Gen. 1. dicitur de stellis, quod
+          <lb ed="#L" n="50"/>posuit eas Deus in firmamento
+          <lb ed="#L" n="51"/>ecli; ergo omnes stelle sunt in
+          <lb ed="#L" n="52"/>uno firmamento.
+        </p>
+        <p xml:id="jdso8u-d1e2023-d1e150">
+          <lb ed="#L" n="53"/>Similiter per rationem : 
+          Conti<lb ed="#L" break="no" n="54"/>nuum est, cujus motus est unus,
+          <lb ed="#L" n="55"/>secundum Philosophum, 5. Metaph.
+          <lb ed="#L" n="56"/>motus autem cujuseumque coeli
+          <lb ed="#L" n="57"/>inferioris unus est in coelo 
+          supe<lb ed="#L" break="no" n="58"/>riorij quia quodcumque coelum
+          <lb ed="#L" n="59"/>inferius, si ponatur, movetur motu
+          <lb ed="#L" n="60"/>diurno, et etiam aliis motibus 
+          pro<lb ed="#L" break="no" n="61"/>priis coelis superioribus, si 
+          ponan<lb ed="#L" break="no" n="62"/>tur alii; ergo quodlibet inferius,
+          <lb ed="#L" n="63"/>sj ponatur, est continuum cum
+          <lb ed="#L" n="64"/>toto coelo superiori.
+        </p>
+        <p xml:id="jdso8u-d1e2023-d1e179">
+          <lb ed="#L" n="65"/>Item, totum coelum praeter 
+          stel<lb ed="#L" break="no" n="66"/>lam, secundum se est uniforme;
+          <lb ed="#L" n="67"/>ergo propter ipsum, non esset 
+          po<lb ed="#L" break="no" n="68"/>nere aliquem motum, quia idem
+          <lb ed="#L" n="69"/>facit una pars praesens, quod alia;
+          <lb ed="#L" n="70"/>non est ergo necessarius motus,
+          <lb ed="#L" n="71"/>nisi motus stellae; sed motus 
+          stel<lb ed="#L" break="no" n="72"/>larum proprii videntur posse 
+          sal<lb ed="#L" break="no" n="73"/>vari in uno colo, sicut et multi
+          <lb ed="#L" n="74"/>motus proprii possunt salvari in
+          <lb ed="#L" n="75"/>aqua vel aere, ergo; etc.
+        </p>
+        <p xml:id="jdso8u-d1e2023-d1e205">
+          <lb ed="#L" n="76"/>Oppositum, stellte. diversimode
+          <lb ed="#L" n="77"/>moventur; ergo habent diversos
+          <lb ed="#L" n="78"/>coelos, quia si non, stellae 
+          move<lb ed="#L" break="no" n="79"/>rentur proprio motu suo. sive mo-
+          <pb ed="#L" n="649"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>tu orbis, et ita vel esset in coelo
+          <lb ed="#L" n="2"/>vacuum, vel scissio orbis, vel duo
+          <lb ed="#L" n="3"/>corpora simul.
+        </p>
+        <p xml:id="jdso8u-d1e2023-d1e227">
+          <lb ed="#L" n="4"/>Ad videndum de numero 
+          coelo<lb ed="#L" break="no" n="5"/>rum, primo ostendendum est illud
+          <lb ed="#L" n="6"/>in quo omnes Astrologi 
+          concor<lb ed="#L" break="no" n="7"/>dant. Secundo, videndum est de illo
+          <lb ed="#L" n="8"/>in quo alii ab aliis discordant.
+        </p>
+        <!--</div>
+          <div alias="scotus-l2d14q2-p2">-->
+        <p xml:id="jdso8u-d1e2023-d1e243">
+          <lb ed="#L" n="29" type="fixed=649"/>SCHOLIUM.
+        </p>
+        <p xml:id="jdso8u-d1e2023-d1e248">
+          <lb ed="#L" n="30"/>Novem esse coelos secundum antiquos, et
+          <lb ed="#L" n="31"/>ponitur ratio qua colligitur iste numerus,
+          <lb ed="#L" n="32"/>scilicet ex distantia Planetarum inter se, et
+          <lb ed="#L" n="33"/>ad fixas, et stellarum fixarum ad polos, et
+          <lb ed="#L" n="34"/>motum diurnum, qui non est proprius coeli
+          <lb ed="#L" n="35"/>stellati, quia habet alium ; unde necesse est
+          <lb ed="#L" n="36"/>dare aliud superius eo, quod est primum
+          <lb ed="#L" n="37"/>mobile et nonum colum. Alii postea 
+          deci<lb ed="#L" break="no" n="38"/>mum posuerunt constituentes in stellato duo;
+          <lb ed="#L" n="39"/>non numerat Doctor Empyreum, quia ratio
+          <lb ed="#L" n="40"/>non scitur. Dari tamen tenent PP. Basil.hom.
+          <lb ed="#L" n="41"/>2. et 3. in Hexaem. Damas. 2. c. 6. Clem. 1.
+          <lb ed="#L" n="42"/>et 2. reeos. Hilar. in Psalm. 112. Theodor.
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="43"/>q. 11. in Gen. Athan. Chrys. Theophyl. in
+          <lb ed="#L" n="44"/>c. 8. ad Hebr,
+        </p>
+        <p xml:id="jdso8u-d1e2023-d1e285">
+          <lb ed="#L" n="45"/>Quantum ad primum (b), hic 
+          sup<lb ed="#L" break="no" n="46"/>ponendum est quod nulla stella
+          <lb ed="#L" n="47"/>habet proprium motum localem,
+          <lb ed="#L" n="48"/>id est, quod non movetur motu!
+          <lb ed="#L" n="49"/>alio, quam motu orbis in quo 
+          lo<lb ed="#L" break="no" n="50"/>catur; si enim ipsa partem illam
+          <lb ed="#L" n="51"/>orbis in qua est, relinqueret 
+          ali<lb ed="#L" break="no" n="52"/>quando, et ad aliquam aliam 
+          par<lb ed="#L" break="no" n="53"/>tem moveretur, vel sibi nihil 
+          suc<lb ed="#L" break="no" n="54"/>cederet, et ita esset vacuum; vel
+          <lb ed="#L" n="55"/>aliquid aliud sibi succederet, et ita
+          <lb ed="#L" n="56"/>corpus coeleste esset rarefactibile
+          <lb ed="#L" n="57"/>et condensabile, vel posset scindi,
+          <lb ed="#L" n="58"/>et recedente corpore scindente,
+          <lb ed="#L" n="59"/>rursum continuari ; vel si nullum
+          <lb ed="#L" n="60"/>istorum concedatur, sequitur quod
+          <lb ed="#L" n="61"/>stella mota semper sit simul cum
+          <lb ed="#L" n="62"/>alio corpore movente. Hsee est in--
+          <lb ed="#L" n="63"/>tentio Aristotelis 2. de Celo et 
+          Mun<lb ed="#L" break="no" n="64"/>do, si natura dedisset virtutem 
+          pro<lb ed="#L" break="no" n="65"/>gressivam, etc.
+        </p>
+        <p xml:id="jdso8u-d1e2023-d1e333">
+          <lb ed="#L" n="66"/>Hoc supposito (c), sequitur quod
+          <lb ed="#L" n="67"/>quaecumque stellae non sunt inter
+          <lb ed="#L" n="68"/>seaeque distantes, non sunt in 
+          eo<lb ed="#L" break="no" n="69"/>dem coelo, nam distantia alia et
+          <lb ed="#L" n="70"/>alia, diversis temporibus non 
+          po<lb ed="#L" break="no" n="71"/>test esse per proprium motum
+          <lb ed="#L" n="72"/>stellae, sed tantum per motum 
+          cce<lb ed="#L" break="no" n="73"/>li, in quo ipsa est, et si distet 
+          dif<lb ed="#L" break="no" n="74"/>formiter stella a stella, ergo 
+          cce<lb ed="#L" break="no" n="75"/>lum hujus difformiter movetur a:
+          <lb ed="#L" n="76"/>coelo illius, et ita aliud est coelum
+          <lb ed="#L" n="77"/>hujus et illius. Moventur autem
+          <lb ed="#L" n="78"/>septem stelle difformiter, ita quod
+          <lb ed="#L" n="79"/>non semper zque distant a stellis
+          <lb ed="#L" n="80"/>illis fixis, (quae ideo dicuntur fixae,
+          <lb ed="#L" n="81"/>quia semper inter se aeque suni
+          <lb ed="#L" n="82"/>distantes, et eumdem situm et 
+          figu<lb ed="#L" break="no" n="83"/>ram servantes) et ideo respectu
+          <lb ed="#L" n="84"/>omnium illarum fixarum non 
+          opor<lb ed="#L" break="no" n="85"/>tet ponere nisi unum coelum, nec
+          <pb ed="#L" n="650"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>illae septem inter se, semper aeque
+          <lb ed="#L" n="2"/>distant. Ista duo de insquali 
+          di<lb ed="#L" break="no" n="3"/>stantia Planetarum inter se, et ad
+          <lb ed="#L" n="4"/>alias quae dicuntur fixee 
+          supponan<lb ed="#L" break="no" n="5"/>tur, secundum considerationem
+          <lb ed="#L" n="6"/>Astronomorum. Possibile est enim
+          <lb ed="#L" n="7"/>de locis Planetarum certificari per
+          <lb ed="#L" n="8"/>instrumenta, de quorum uno, 
+          sci<lb ed="#L" break="no" n="9"/>licet Armilla, tractat Ptolemaus
+          <lb ed="#L" n="10"/>in Almagesto distinct. 5. cap. 2.
+        </p>
+        <p xml:id="jdso8u-d1e2023-d1e405">
+          <lb ed="#L" n="11"/>Et si objiciatur, quod radius 
+          vi<lb ed="#L" break="no" n="12"/>sualis frangitur propter 
+          diversita<lb ed="#L" break="no" n="13"/>tem mediorum, et ideo non 
+          certifi<lb ed="#L" break="no" n="14"/>cat de vero loco stellze, saltem 
+          cer<lb ed="#L" break="no" n="15"/>tificabit de loco visibili stellae; et
+          <lb ed="#L" n="16"/>si stellae secundum locum 
+          visibi<lb ed="#L" break="no" n="17"/>lem eorum sequaliter distent, ergo
+          <lb ed="#L" n="18"/>et secundum locum verum, quia
+          <lb ed="#L" n="19"/>loca visibilia nunc et tune, 
+          propor<lb ed="#L" break="no" n="20"/>tionabiliter se habent ad loea 
+          eo<lb ed="#L" break="no" n="21"/>rum vera nunc et tunc, aut saltem
+          <lb ed="#L" n="22"/>non ita improportionabiliter, ut
+          <lb ed="#L" n="23"/>posset esse tanta distantia 
+          loco<lb ed="#L" break="no" n="24"/>rum visibilium sine aliqua 
+          distan<lb ed="#L" break="no" n="25"/>tia locorum verorum, et ista 
+          di<lb ed="#L" break="no" n="26"/>stantia sufficit ad propositum.
+        </p>
+        <p xml:id="jdso8u-d1e2023-d1e442">
+          <lb ed="#L" n="27"/>Ad minus ergo praeter coelum,
+          <lb ed="#L" n="28"/>quod ponitur omnium stellarum
+          <lb ed="#L" n="29"/>fixarum, quae semper uniformiter
+          <lb ed="#L" n="30"/>distant, septem coeli proprii 
+          se<lb ed="#L" break="no" n="31"/>ptem Planetarum, qui difformiter
+          <lb ed="#L" n="32"/>moventur, et ab istis, et inter se
+          <lb ed="#L" n="33"/>sunt; ergo octo coeli.
+        </p>
+        <p xml:id="jdso8u-d1e2023-d1e461">
+          <lb ed="#L" n="34"/>Ulterius etiam, communiter (d)
+          <lb ed="#L" n="35"/>conceditur nonum coelum 
+          supe<lb ed="#L" break="no" n="36"/>rius. eclo stellato, quia unius
+          <lb ed="#L" n="37"/>corporis coelestis tantum est unus
+          <lb ed="#L" n="38"/>motus proprius; motus autem
+          <lb ed="#L" n="39"/>diurnus non est motus proprius
+          <lb ed="#L" n="40"/>coeli stellati, cum illud coelum 
+          mo<lb ed="#L" break="no" n="41"/>veatur alio motu, sicut probatum
+          <lb ed="#L" n="42"/>est, ex considerationibus. Nec enim
+          <lb ed="#L" n="43"/>quaecumque stella fixa semper
+          <lb ed="#L" n="44"/>aeque distat a polis immobilibus,
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>nec etiam semper in temporibus
+          <lb ed="#L" n="46"/>seequalibus :eque distat a capitibus
+          <lb ed="#L" n="47"/>Arietis et Libre; ergo iste motus
+          <lb ed="#L" n="48"/>diurnus est proprius alicujus 
+          alte<lb ed="#L" break="no" n="49"/>rius corporis, et non nisi 
+          supe<lb ed="#L" break="no" n="50"/>rioris, quia hoc motu movetur
+          <lb ed="#L" n="51"/>eolum oetavum; non autem 
+          mo<lb ed="#L" break="no" n="52"/>veretur aliquod coelum motu 
+          pro<lb ed="#L" break="no" n="53"/>prio alterius, nisi illud alterum sit
+          <lb ed="#L" n="54"/>superius; erit ergo aliquod 
+          mobi<lb ed="#L" break="no" n="55"/>le, quod uniformiter movetur 
+          mo<lb ed="#L" break="no" n="56"/>tu diurno, superius coelo stellato.
+          <lb ed="#L" n="57"/>Hoc dicit <ref xml:id="jdso8u-d1e2023-Rd1e517">Avicenna 9. Metaph. cap. 92.</ref>
+          <lb ed="#L" n="58"/>et <ref xml:id="jdso8u-d1e2023-Rd1e521">Ptolemzeus in Almag.</ref> quaere.
+        </p>
+        <!--</div>
+          <div alias="scotus-l2d14q2-p3">-->
+        <p xml:id="jdso8u-d1e2023-d1e526">
+          <lb ed="#L" n="32" type="fixed=655"/>SCHOLIUM.
+        </p>
+        <p xml:id="jdso8u-d1e2023-d1e531">
+          <lb ed="#L" n="33"/>Ostendit triplicem differentiam motuum
+          <lb ed="#L" n="34"/>eonvenientium Planetis, scilicet secundum
+          <lb ed="#L" n="35"/>longitudinem, quia diversimode currunt per
+          <lb ed="#L" n="36"/>Zodiacum; latitudinem, quia non :eque 
+          sem<lb ed="#L" break="no" n="37"/>per distant a polis; et elevationem, quia
+          <lb ed="#L" n="38"/>idem Planeta nunc magis, nunc minus a
+          <lb ed="#L" n="39"/>terra distat. Du:e prim: forte salvari 
+          pos<lb ed="#L" break="no" n="40"/>sent in uno et eodem orbe, pro quo 
+          Alpetra<lb ed="#L" break="no" n="41"/>gius.
+        </p>
+        <p xml:id="jdso8u-d1e2023-d1e553">
+          <lb ed="#L" n="42"/>(e) De secundo, in quo non 
+          con<lb ed="#L" break="no" n="43"/>cordant omnes traetantes de ista
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="44"/>materia, dubium est, an sufficiat
+          <lb ed="#L" n="45"/>unum coelum unicuique Planetae.
+          <lb ed="#L" n="46"/>et sic sufficiat tantum ponere 
+          no<lb ed="#L" break="no" n="47"/>vem ecelos. Triplex quippe in mo:
+          <lb ed="#L" n="48"/>tibus Planetarum apparet differen.
+          <lb ed="#L" n="49"/>tia. Una in latitudine, quia non
+          <lb ed="#L" n="50"/>semper Planeta aeque distat a polis
+          <lb ed="#L" n="51"/>immobilibus. Alia in longitudine
+          <lb ed="#L" n="52"/>est, quia diversimode et non 
+          aequa<lb ed="#L" break="no" n="53"/>liter pereurrunt Zodiacum. Tertia
+          <lb ed="#L" n="54"/>in elevatione et depressione, quia
+          <lb ed="#L" n="55"/>idem Planeta, quandoque plus 
+          ap<lb ed="#L" break="no" n="56"/>propinquat ad centrum terrse,
+          <lb ed="#L" n="57"/>quandoque plus distat, sicut 
+          pro<lb ed="#L" break="no" n="58"/>bat Ptolemseus in Almagesto, quia
+          <lb ed="#L" n="59"/>cujus circuli diameter visualis in
+          <lb ed="#L" n="60"/>longitudine longiore est longior,
+          <lb ed="#L" n="61"/>in longitudine breviore est 
+          bre<lb ed="#L" break="no" n="62"/>vior. Apparet etiam de Marte, qui
+          <lb ed="#L" n="63"/>quando est in Auge apparet 
+          nota<lb ed="#L" break="no" n="64"/>biliter parvae quantitatis respectu
+          <lb ed="#L" n="65"/>illius quam habet, quando est in
+          <lb ed="#L" n="66"/>opposito Augis. Probatur etiam
+          <lb ed="#L" n="67"/>de Luna, quia ipsa et Sole 
+          existen<lb ed="#L" break="no" n="68"/>tibus aetque prope caudam et caput
+          <lb ed="#L" n="69"/>Draeonis, non semper Eclipsis
+          <lb ed="#L" n="70"/>aeque durat, sed quandoque diutius,
+          <lb ed="#L" n="71"/>quandoque minus; hoc est 
+          impos<lb ed="#L" break="no" n="72"/>Ssibile, nisi quia Luna quandoque
+          <lb ed="#L" n="73"/>plus, quandoque. minus in umbram
+          <lb ed="#L" n="74"/>terre intrat, ita quod ubi transit
+          <lb ed="#L" n="75"/>diameter Lunes, diutius moratur
+          <lb ed="#L" n="76"/>umbra, pro eo quod ibi est 
+          diame<lb ed="#L" break="no" n="77"/>ter umbrae longior, quam alibi
+          <lb ed="#L" n="78"/>juxta conum. Si etiam 
+          universali<lb ed="#L" break="no" n="79"/>ter negaretur ista elevatio et 
+          de<lb ed="#L" break="no" n="80"/>pressio Solis et Lunz, nec ex 
+          par<lb ed="#L" break="no" n="81"/>te unius, nec ex parte alterius
+          <lb ed="#L" n="82"/>posset assignari diversa 
+          quanti<lb ed="#L" break="no" n="83"/>tas umbra; semper enim umbra
+          <lb ed="#L" n="84"/>?que in altum porrigeretur, et
+          <lb ed="#L" n="85"/>ibi esset z:equalis quantitas, et 
+          sem<lb ed="#L" break="no" n="86"/>per Luna, quando aequaliter esset
+          <lb ed="#L" n="87"/>prope conum, :eque esset juxta et
+          <pb ed="#L" n="656"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>prope umbram. Ex his et aliis
+          <lb ed="#L" n="2"/>considerationibus Ptolemseei, 
+          sup<lb ed="#L" break="no" n="3"/>ponatur elevatio et depressio.
+        </p>
+        <p xml:id="jdso8u-d1e2023-d1e668">
+          <lb ed="#L" n="4"/>Primas duas differentias, scilicet
+          <lb ed="#L" n="5"/>longitudinis et latitudinis, posset
+          <lb ed="#L" n="6"/>quis forte salvare, attribuendo
+          <lb ed="#L" n="7"/>Planetz?e unum coelum per exitum
+          <lb ed="#L" n="8"/>polorum illius coeli, quomodo 
+          ni<lb ed="#L" break="no" n="9"/>xus est Alpetragius salvare, in
+          <lb ed="#L" n="10"/>libello suo de qualitate motuum
+          <lb ed="#L" n="11"/>coelestium, qui ponens polos coeli
+          <lb ed="#L" n="12"/>stellati, exire polos noni coeli, et
+          <lb ed="#L" n="13"/>per consequens circa illos polos
+          <lb ed="#L" n="14"/>immobiles describere parvos 
+          ocir<lb ed="#L" break="no" n="15"/>culos, ponit coelum octavum super
+          <lb ed="#L" n="16"/>suos polos, sed non contrario 
+          mo<lb ed="#L" break="no" n="17"/>tu moveri, motui eceli noni, sed ad
+          <lb ed="#L" n="18"/>eamdem partem, et quod polus
+          <lb ed="#L" n="19"/>octavi coeli minus efficaciter 
+          reci<lb ed="#L" break="no" n="20"/>pit influentiam quam ipsum 
+          ccoe<lb ed="#L" break="no" n="21"/>lum nonum, et ideo ipse polus
+          <lb ed="#L" n="22"/>non complet circulum, dum 
+          pun<lb ed="#L" break="no" n="23"/>ctus aliquis in coelo nono complet
+          <lb ed="#L" n="24"/>circulum, et quod polus inferioris
+          <lb ed="#L" n="25"/>coeli deficit a completione circuli,
+          <lb ed="#L" n="26"/>vocat intercisionem primam, quam
+          <lb ed="#L" n="27"/>secundum eum, supplet motus coeli
+          <lb ed="#L" n="28"/>inferioris super illum polum, et
+          <lb ed="#L" n="29"/>in ecelo octavo perfecte supplet,
+          <lb ed="#L" n="30"/>quantum ad longitudinem, sed
+          <lb ed="#L" n="31"/>quantum ad latitudinem 
+          necessa<lb ed="#L" break="no" n="32"/>rio est differentia, nam polus exit
+          <lb ed="#L" n="33"/>polum. Nam motus factus super
+          <lb ed="#L" n="34"/>polum coeli inferioris, licet 
+          com<lb ed="#L" break="no" n="35"/>pleat motum coeli illius circa 
+          po<lb ed="#L" break="no" n="36"/>lum superiorem, quantum ad 
+          lon<lb ed="#L" break="no" n="37"/>gitudinem, tamen non potest esse
+          <lb ed="#L" n="38"/>verus circulus alicujus stellae 
+          mo<lb ed="#L" break="no" n="39"/>tz» in coelo inferiore, sed sphzera,
+          <lb ed="#L" n="40"/>quia non redit ad eumdem pun:
+          <lb ed="#L" n="41"/>ctum a quo incepit motus.
+        </p>
+        <p xml:id="jdso8u-d1e2023-d1e754">
+          <lb ed="#L" n="42"/>Ita universaliter propter diver
+          <lb ed="#L" n="43"/>sitatem polorum quorumdam cce
+          <lb ed="#L" n="44"/>lorum ab aliis. et. per intereisr
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>onem primam et suppletionem
+          <lb ed="#L" n="46"/>ejus, et specialiter in quibusdam
+          <lb ed="#L" n="47"/>stellis, per hoc quod non situantur
+          <lb ed="#L" n="48"/>in medio sui coeli, nititur dare 
+          fun<lb ed="#L" break="no" n="49"/>damenta ad salvandum differentias
+          <lb ed="#L" n="50"/>longitudinis et latitudinis in 
+          moti<lb ed="#L" break="no" n="51"/>bus Planetarum ; et hoc, non 
+          po<lb ed="#L" break="no" n="52"/>nendo aliquod coelum inferius 
+          mo<lb ed="#L" break="no" n="53"/>veri contra motum coeli 
+          superi<lb ed="#L" break="no" n="54"/>oris, quia talis, sed ponendo
+          <lb ed="#L" n="55"/>ecelum superius moveri ad 
+          eam<lb ed="#L" break="no" n="56"/>dem partem, ad quam inferius,
+          <lb ed="#L" n="57"/>sed tamen minus efficaciter, quia
+          <lb ed="#L" n="58"/>naturale est quod virtus recepta
+          <lb ed="#L" n="59"/>in aliquibus ad invicem ordinatis,
+          <lb ed="#L" n="60"/>efficacius recipiatur in 
+          proximi<lb ed="#L" break="no" n="61"/>oribus. Ista traditio satis videtur
+          <lb ed="#L" n="62"/>consonare cum principiis 
+          natura<lb ed="#L" break="no" n="63"/>libus, si possent per eam salvari
+          <lb ed="#L" n="64"/>omnia apparentia scundum 
+          longi<lb ed="#L" break="no" n="65"/>tudinem et latitudinem ; forte enim
+          <lb ed="#L" n="66"/>per eam possent salvari 
+          stati<lb ed="#L" break="no" n="67"/>ones, et retrogradationes, et 
+          pro<lb ed="#L" break="no" n="68"/>cessiones Planetarum, sicut et
+          <lb ed="#L" n="69"/>ipse nititur salvare in quibusdam
+          <lb ed="#L" n="70"/>polis in libro suo.
+        </p>
+        <!--</div>
+          <div alias="scotus-l2d14q2-p4">-->
+        <p xml:id="jdso8u-d1e2023-d1e824">
+          <lb ed="#L" n="69" type="fixed=658"/>SCHOLIUM.
+        </p>
+        <p xml:id="jdso8u-d1e2023-d1e829">
+          <lb ed="#L" n="70"/>Propter differentiam motus elevationis et
+          <lb ed="#L" n="71"/>depressionis, necessario ponendos orbes
+          <lb ed="#L" n="72"/>eccentricos mundo, id est, non ejusdem
+          <lb ed="#L" n="73"/>centri eum eo, et in quolibet Pianeta, ut
+          <lb ed="#L" n="74"/>sectio, penetratio et vacuum vitetur, 
+          po<lb ed="#L" break="no" n="75"/>nendos esse tres orbes, quorum superior
+          <lb ed="#L" n="76"/>secundum convexam, et inferior secundum
+          <lb ed="#L" n="77"/>concavam, sunt concentriei, secundum alias
+          <lb ed="#L" n="78"/>duas superfieies, eccentrici mundo. Medius
+          <lb ed="#L" n="79"/>autem orbis, qui deferens dicitur secundum
+          <lb ed="#L" n="80"/>utramque superficiem, est eecentrieus 
+          mun<lb ed="#L" break="no" n="81"/>do, sed coneentrieus superfieiei concavz
+          <lb ed="#L" n="82"/>superioris orbis et convexa inferioris. Juxta
+          <lb ed="#L" n="83"/>hanc diversitatem eentrorum salvatur 
+          ele<lb ed="#L" break="no" n="84"/>vatio sine scissione, vacuo vel penetratione
+          <lb ed="#L" n="85"/>quia pars spissior unius orbis responde!
+          <lb ed="#L" n="86"/>parti tenuiori alterius, ut patet in figura ;
+          <lb ed="#L" n="87"/>resolvit, quidquid sit de epicyelis, ad minu:
+          <lb ed="#L" n="88"/>viginti quinque eoelos ponendos 
+          ecireum<lb ed="#L" break="no" n="89"/>dantes.
+        </p>
+        <p xml:id="jdso8u-d1e2023-d1e875">
+          <pb ed="#L" n="659"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>Sed tertiam differentiam, 
+          vide<lb ed="#L" break="no" n="2"/>licet elevationis et depressionis,
+          <lb ed="#L" n="3"/>impossibile est salvare, ponendo
+          <lb ed="#L" n="4"/>omnes ooelos esse concentricos,
+          <lb ed="#L" n="5"/>quia tunc si Planeta non exit 
+          coe<lb ed="#L" break="no" n="6"/>lum suum, sed tantum partem sui
+          <lb ed="#L" n="7"/>ecti et illa pars coeli sui 
+          quali<lb ed="#L" break="no" n="8"/>dtercumque moveatur, semper
+          <lb ed="#L" n="9"/>eque distat a centro, pro eo quod
+          <lb ed="#L" n="10"/>totum istud colum  circulariter
+          <lb ed="#L" n="11"/>rotatum, est concentriecum 
+          mumn<lb ed="#L" break="no" n="12"/>do, ideo ubicumque stella fuerit,
+          <lb ed="#L" n="13"/>semper aeque elevabitur, et :eque
+          <lb ed="#L" n="14"/>deprimetur per respectum ad
+          <lb ed="#L" n="15"/>suum coelum. Et licet non esset
+          <lb ed="#L" n="16"/>necessarium, propter duas primas
+          <lb ed="#L" n="17"/>differentias, ponere eccentricos et
+          <lb ed="#L" n="18"/>epicyelos, secundum Ptolemseum
+          <lb ed="#L" n="19"/>et alios Astronomos, tamen 
+          pro<lb ed="#L" break="no" n="20"/>pter tertiam differentiam est 
+          ne<lb ed="#L" break="no" n="21"/>cessarium.
+        </p>
+        <p xml:id="jdso8u-d1e2023-d1e927">
+          <lb ed="#L" n="22"/>Et hoc supponendo, ad 
+          proposi<lb ed="#L" break="no" n="23"/>tum concluditur, nulli Planetae
+          <lb ed="#L" n="24"/>sufficere ad motum suum unieum
+          <lb ed="#L" n="25"/>colum. Aceipiatur ergo, exempli
+          <lb ed="#L" n="26"/>gratia, coelum Saturni, si ponatur
+          <lb ed="#L" n="27"/>concentrieum mundo, dum 
+          oocta<lb ed="#L" break="no" n="28"/>vum sit concentricum mundo, 
+          mo<lb ed="#L" break="no" n="29"/>veatur eodlum Saturni; succedit
+          <lb ed="#L" n="30"/>ergo Aux istius coeli, Augis 
+          oppo<lb ed="#L" break="no" n="31"/>sito. Sed Aux istius non intravit
+          <lb ed="#L" n="32"/>ecolum stellatum, quia duo 
+          cor<lb ed="#L" break="no" n="33"/>pora essent simul, sed tantum
+          <lb ed="#L" n="34"/>attingebat oppositum Augis; ergo
+          <lb ed="#L" n="35"/>si minus est distans a centro
+          <lb ed="#L" n="36"/>terre quam Aux, non attinget
+          <lb ed="#L" n="37"/>superfieiem concavam coli 
+          stel<lb ed="#L" break="no" n="38"/>lati, et ita erit ibi vacuum; ergo
+          <lb ed="#L" n="39"/>nom potest vitari inconveniens de
+          <lb ed="#L" n="40"/>incisione vel simultate corporum,
+          <lb ed="#L" n="41"/>vel vacuo, nisi attribuendo cuilibet
+          <lb ed="#L" n="42"/>Planetae ad minus tres coelos 
+          cir<lb ed="#L" break="no" n="43"/>eumdantes terram, quorum duo
+          <lb ed="#L" n="44"/>exLremi. videlicet superior et in-
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="45"/>ferior, habeant superficies ultimas
+          <lb ed="#L" n="46"/>concentrieas, videlicet superius
+          <lb ed="#L" n="47"/>convexam, et inferius concavam ;
+          <lb ed="#L" n="48"/>habeant autem ille duse 
+          superfi<lb ed="#L" break="no" n="49"/>cies alias duas, videlicet. superius
+          <lb ed="#L" n="50"/>concavam, et inferius convexam
+          <lb ed="#L" n="51"/>eecentricas mundo, et inter illas
+          <lb ed="#L" n="52"/>duas superficies sit tertius orbis,
+          <lb ed="#L" n="53"/>qui dicatur deferens, eccentricus
+          <lb ed="#L" n="54"/>quidem terrs, concentrieus autem
+          <lb ed="#L" n="55"/>illis duabus superficiebus 
+          deferen<lb ed="#L" break="no" n="56"/>tibus, ita quod illi duo revolventes
+          <lb ed="#L" n="57"/>ad quamcumque partem 
+          movean<lb ed="#L" break="no" n="58"/>tur, non sequitur vacuum ; semper
+          <lb ed="#L" n="59"/>enim spissior pars unius est 
+          con<lb ed="#L" break="no" n="60"/>tra partem minus spissam 
+          alte<lb ed="#L" break="no" n="61"/>rius, et e converso.
+        </p>
+        <p xml:id="jdso8u-d1e2023-d1e1019">
+          <lb ed="#L" n="62"/>Similiter qualitercumque 
+          mo<lb ed="#L" break="no" n="63"/>veatur deferens inter istos duos
+          <lb ed="#L" n="64"/>revolventes, superiorem et 
+          inferi<lb ed="#L" break="no" n="65"/>orem, ex motione ejus non 
+          sequi<lb ed="#L" break="no" n="66"/>tur vacuum, nec scissio, quia 
+          su<lb ed="#L" break="no" n="67"/>perfieies sunt ambre concentrieae
+          <lb ed="#L" n="68"/>illis superficiebus, inter quas 
+          con<lb ed="#L" break="no" n="69"/>tinetur et movetur; et ita stella
+          <lb ed="#L" n="70"/>fixa in parte una illius deferentis,
+          <lb ed="#L" n="71"/>quandoque erit in Auge, quando
+          <lb ed="#L" n="72"/>scilicet illa pars deferentis in qua
+          <lb ed="#L" n="73"/>est ipsa, directe supponitur 
+          spis<lb ed="#L" break="no" n="74"/>siori parti inferioris revolventis,
+          <lb ed="#L" n="75"/>et supponitur minus spiss:e parti
+          <lb ed="#L" n="76"/>superioris revolventis, quia tunc
+          <lb ed="#L" n="77"/>maxime distabit a centro terrze.
+          <lb ed="#L" n="78"/>Erit autem stella in opposito 
+          Au<lb ed="#L" break="no" n="79"/>gis,quando illa pars orbis 
+          deferen<lb ed="#L" break="no" n="80"/>tis, ubi ipsa fixa est, superponitur
+          <lb ed="#L" n="81"/>tenuissimse parti inferioris 
+          revol<lb ed="#L" break="no" n="82"/>ventis, et supponitur spississimae
+          <lb ed="#L" n="83"/>partis superioris revolventis, quia
+          <lb ed="#L" n="84"/>tunc minime distabit a centro 
+          ter<lb ed="#L" break="no" n="85"/>rc;e. Istius imaginatio patet ex praes:
+          <lb ed="#L" n="86"/>sius in figura tali.
+        </p>
+        <p xml:id="jdso8u-d1e2023-d1e1076">
+          <pb ed="#L" n="660"/>
+          <cb ed="#L" n="a"/>
+          <!-- figure here -->
+          <lb ed="#L" n="1"/>Ulterius, cam Mercurius habeta
+          <lb ed="#L" n="2"/>deferens, cujus centrum movetur
+          <lb ed="#L" n="3"/>et non circa terram, sicut 
+          cen<lb ed="#L" break="no" n="4"/>trum Luna, sed ex una parte, 
+          de<lb ed="#L" break="no" n="5"/>scribendo circulum parvum, sicut
+          <lb ed="#L" n="6"/>patet in Almagesto, sequitur quod
+          <lb ed="#L" n="7"/>orbis deferentis non sit 
+          concen<lb ed="#L" break="no" n="8"/>tricus revolventibus, supremo 
+          sci<lb ed="#L" break="no" n="9"/>licet et infimo, et ideo necesse est
+          <lb ed="#L" n="10"/>ad minus, ibi ponere quinque 
+          Or<lb ed="#L" break="no" n="11"/>bes, quatuor revolventes, et 
+          or<lb ed="#L" break="no" n="12"/>bem quintum deferentem, ut patet
+          <lb ed="#L" n="13"/>in figura.
+          <!-- figure here -->
+        </p>
+        <p xml:id="jdso8u-d1e2023-d1e1115">
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="14"/>Praeter istos autem, necesse est
+          <lb ed="#L" n="15"/>ponere epieyelos, qui non sunt 
+          or<lb ed="#L" break="no" n="16"/>bes circumdantes terram, sed par- A
+          <lb ed="#L" n="17"/>xi orbes situati in determinata
+          <lb ed="#L" n="18"/>parte orbium circumdantium 
+          ter<lb ed="#L" break="no" n="19"/>ram, et hoc, quia major est 
+          ele<lb ed="#L" break="no" n="20"/>vatio stellae quandoque, quam
+          <lb ed="#L" n="21"/>alias, quae elevatio non posset 
+          es<lb ed="#L" break="no" n="22"/>se ex solo deferente. 'Processio
+          <lb ed="#L" n="23"/>etiam, et statio, et retrogradatio,
+          <lb ed="#L" n="24"/>facilius salvantur per epicyclum.
+          <lb ed="#L" n="25"/>Sed quidquid sit de epicyolis, 
+          sal<lb ed="#L" break="no" n="26"/>tem ecti mobiles cirecumdantes
+          <lb ed="#L" n="27"/>terram, erunt viginti quinque,
+          <lb ed="#L" n="28"/>scilicet viginti tres Planetarum,
+          <lb ed="#L" n="29"/>et praeter hoc coelum octavum et
+          <lb ed="#L" n="30"/>ecelum nonum.
+        </p>
+        <p xml:id="jdso8u-d1e2023-d1e1157">
+          <lb ed="#L" n="31"/>Ad argumenta. Ad primum dico,
+          <lb ed="#L" n="32"/>quod Scriptura accipit 
+          firmamen<lb ed="#L" break="no" n="33"/>tum pro toto coelo inter 
+          Empy<lb ed="#L" break="no" n="34"/>reum et elementa.
+        </p>
+        <p xml:id="jdso8u-d1e2023-d1e1168">
+          <lb ed="#L" n="35"/>Ad secundum dico quod illa 
+          con<lb ed="#L" break="no" n="36"/>formitas motuum non concludit
+          <lb ed="#L" n="37"/>continuitatem.
+        </p>
+        <p xml:id="jdso8u-d1e2023-d1e1177">
+          <lb ed="#L" n="38"/>Ad tertium dico, quod non 
+          po<lb ed="#L" break="no" n="39"/>test colum cedere stellee mote,
+          <lb ed="#L" n="40"/>sicut potest aqua vel aer corpori
+          <lb ed="#L" n="41"/>imposito, moto per ipsam, quia
+          <lb ed="#L" n="42"/>corpus naturaliter incorruptibile
+          <lb ed="#L" n="43"/>est naturaliter indivisibile, si sit
+          <lb ed="#L" n="44"/>incorruptibile tam secundum par:
+          <lb ed="#L" n="45"/>tes quam secundum totum, quale
+          <lb ed="#L" n="46"/>ponitur esse coelum, et ita non
+          <lb ed="#L" n="47"/>potest esse motus alicujus in
+          <lb ed="#L" n="48"/>coelo, non moto per aliquod agens
+          <lb ed="#L" n="49"/>naturale.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
