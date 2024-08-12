@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2024-08-11">August 11, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x11">Vives, Paris, 1893, volume 11</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-08-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="84"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e1510"><!-- scotus-l2d1q3-pX -->
+        <head xml:id="jdso8u-d1e1510-Hd1e101">Quaestio 3</head>
+        <head xml:id="jdso8u-d1e1510-Hd1e103" type="question-title">Utrum sit possibile Deum producere aliquid 'aliud a se' sine principia</head>
+        <p xml:id="jdso8u-d1e1510-d1e106">
+          <!-- scans jumpr from page 64 to 81 -->
+        </p>
+        <!--</div>
+          <div alias="scotus-l2d1q3-pX2">-->
+        <p xml:id="jdso8u-d1e1510-d1e113">
+          <lb ed="#V" n="21" type="fixed=84"/>SCHOLIUM.
+        </p>
+        <p xml:id="jdso8u-d1e1510-d1e119">
+          <lb ed="#V" n="22"/>In favorem opinionis tenentis creationem
+          <lb ed="#V" n="23"/>aeternam esse possibilem, in quam Doctor
+          <lb ed="#V" n="24"/>videtur inclinare quoad permanentia, solvit
+          <lb ed="#V" n="25"/>argumenta in contrarium allata, ex 
+          Hen<lb ed="#V" break="no" n="26"/>rico, num. 6. confirmans illam sententiam
+          <lb ed="#V" n="27"/>tribus rationibus.
+        </p>
+        <p xml:id="jdso8u-d1e1510-d1e135">
+          <lb ed="#V" n="28"/>Tenentes autem (3) primam
+          <lb ed="#V" n="29"/>opinionem, potissime propter hoc
+          <lb ed="#V" n="30"/>quod non invenitur contradictio
+          <lb ed="#V" n="31"/>in istis terminis : aliud a. Deo esse
+          <lb ed="#V" n="32"/>sempitermun; et secundo propter
+          <lb ed="#V" n="33"/>hoc quod rationes, quae videntur
+          <lb ed="#V" n="34"/>probare contradictionem sunt 
+          spe<lb ed="#V" break="no" n="35"/>ciales, et ideo si de aliquo speciali
+          <lb ed="#V" n="36"/>probent contradictionem, non 
+          ta<lb ed="#V" break="no" n="37"/>men probant hoc de omni alio a
+          <lb ed="#V" n="38"/>Deo; et tertio, quia quaedam 
+          ra<lb ed="#V" break="no" n="39"/>tiones fiunt de praeterito, qua 
+          vi<lb ed="#V" break="no" n="40"/>dentur similiter posse (fieri de
+          <lb ed="#V" n="41"/>futuro sicut de praeterito, cum
+          <lb ed="#V" n="42"/>tamen nulli negent possibilitatem
+          <lb ed="#V" n="43"/>futuri sine fine, aut possent fieri
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="44"/>de successione sicut de 
+          permanen<lb ed="#V" break="no" n="45"/>tia.
+        </p>
+        <p xml:id="jdso8u-d1e1510-d1e179">
+          <lb ed="#V" n="46"/>Isti respondent ad rationes 
+          con<lb ed="#V" break="no" n="47"/>tra istam opinionem, quae probant
+          <lb ed="#V" n="48"/>contradictionem. Ad primam 
+          di<lb ed="#V" break="no" n="49"/>cunt, quod creatura aliqua potuit
+          <lb ed="#V" n="50"/>semper producta fuisse, puta 
+          An<lb ed="#V" break="no" n="51"/>oelus, cujus esse est in sevo. Et
+          <lb ed="#V" n="52"/>si dieas, quod creatura illa 
+          ali<lb ed="#V" break="no" n="53"/>quando fit, concederent quod illa
+          <lb ed="#V" n="54"/>fit in instanti svi. Et cum 
+          infer<lb ed="#V" break="no" n="55"/>tur, quod  tunc esset ens 
+          succes<lb ed="#V" break="no" n="56"/>sivum, non sequitur, quia filius
+          <lb ed="#V" n="57"/>Dei semper generatur, et tamen
+          <lb ed="#V" n="58"/>nonest aliquid successivum, sed
+          <lb ed="#V" n="59"/>summe permanens, quia idem 
+          in<lb ed="#V" break="no" n="60"/>stans in quo generatur, semper
+          <lb ed="#V" n="61"/>manet, ita dicerent isti, quod
+          <lb ed="#V" n="62"/>idem nunc manet, in quo angelus
+          <lb ed="#V" n="63"/>accipit esse, et ita non est 
+          succes<lb ed="#V" break="no" n="64"/>S10; successiva enim semper aliam
+          <lb ed="#V" n="65"/>partem accipiunt sui esse.
+        </p>
+        <p xml:id="jdso8u-d1e1510-d1e225">
+          <lb ed="#V" n="66"/>Ad aliam probationem de con-:
+          <lb ed="#V" n="67"/>servari et creari patebit in 
+          quaesti<lb ed="#V" break="no" n="68"/>one de svo. Ad illud additum de
+          <lb ed="#V" n="69"/>esse acquisito, concedunt quod 
+          ha<lb ed="#V" break="no" n="70"/>bet esse acquisitum, quia non 
+          ha<lb ed="#V" break="no" n="71"/>bet esse quod ex se sit formaliter
+          <lb ed="#V" n="72"/>necessarium; tamen non videtur
+          <lb ed="#V" n="73"/>necessarium, quod sit acquisitum
+          <lb ed="#V" n="74"/>post non esse, quia acquisitio sicut
+          <lb ed="#V" n="75"/>et receptio, videtur sufficienter
+          <lb ed="#V" n="76"/>stare, si ex se non habeat illud,
+          <lb ed="#V" n="77"/>quod dicitur acquirere, sive sii
+          <lb ed="#V" n="78"/>novum sive antiquum.
+        </p>
+        <p xml:id="jdso8u-d1e1510-d1e256">
+          <lb ed="#V" n="79"/>Ad secundam (b) rationem de
+          <lb ed="#V" n="80"/>Philosopho primo Perihermenias: |
+          <lb ed="#V" n="81"/>omne quod est, etc. patet responsio
+          <lb ed="#V" n="82"/>dist. 39. primi, ubi est. adducta, ista
+          <lb ed="#V" n="83"/>instantia ad probandum, quod
+          <lb ed="#V" n="84"/>nihil contingenter est in illo 
+          in<lb ed="#V" break="no" n="85"/>stanti pro quo est, quoniam 
+          op<lb ed="#V" break="no" n="86"/>positum  tunc posset inesse, et ex:
+          <lb ed="#V" n="87"/>hoc patet quod assumptum est
+          <pb ed="#V" n="85"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>falsum ; imo in illo instanti in quo
+          <lb ed="#V" n="2"/>et pro quo est, contingenter est.
+          <lb ed="#V" n="3"/>sicut. ibi deductum est et jam
+          <lb ed="#V" n="4"/>determinatum. Et idem dico de
+          <lb ed="#V" n="5"/>causa, quod causa non causat in
+          <lb ed="#V" n="6"/>quantum praecedit effectum 
+          dura<lb ed="#V" break="no" n="7"/>tione, sed est causa inquantum
+          <lb ed="#V" n="8"/>praecedit effectum natura; si 
+          igi<lb ed="#V" break="no" n="9"/>tur omnis causa pro illo instanti
+          <lb ed="#V" n="10"/>pro quo causat, necessario causat,
+          <lb ed="#V" n="11"/>et nulla contingenter, omnis 
+          cau<lb ed="#V" break="no" n="12"/>sa inquantum causat, necessario
+          <lb ed="#V" n="13"/>causat, et nulla contingenter.
+        </p>
+        <p xml:id="jdso8u-d1e1510-d1e311">
+          <lb ed="#V" n="14"/>Ad tertium (c) posset negari,
+          <lb ed="#V" n="15"/>quod in quaecumque specie est
+          <lb ed="#V" n="16"/>similis impossibilitas ad 
+          eaeterni<lb ed="#V" break="no" n="17"/>tatem et sempiternitatem, quia
+          <lb ed="#V" n="18"/>non apparet contradictio ex parte
+          <lb ed="#V" n="19"/>cujuscumque speciei, et ideo nec
+          <lb ed="#V" n="20"/>similis possibilitas. Vel si 
+          concc<lb ed="#V" break="no" n="21"/>datur de asino, quod potuit fuisse
+          <lb ed="#V" n="22"/>productus ab aeterno, et potuit
+          <lb ed="#V" n="23"/>cenerare, et per consequens ab
+          <lb ed="#V" n="24"/>ipso potuissent fuisse omnes asini
+          <lb ed="#V" n="25"/>geniti usque ad istum. Et cum
+          <lb ed="#V" n="26"/>quaeris, utrum fuissent finiti vel
+          <lb ed="#V" n="27"/>infiniti, negatur quod sint infiniti,
+          <lb ed="#V" n="28"/>imo finiti. Et cum infers, igitur
+          <lb ed="#V" n="29"/>tota duratio a productione illius
+          <lb ed="#V" n="30"/>asini usque ad istum, fuisset finita,
+          <lb ed="#V" n="31"/>negatur consequentia. Ille enim
+          <lb ed="#V" n="32"/>etsi productus fuisset ab infinito,
+          <lb ed="#V" n="33"/>non tamen potuit generasse ab
+          <lb ed="#V" n="34"/>infinito, quia generatio 
+          necessa<lb ed="#V" break="no" n="35"/>rio includit in creaturis, quod sit
+          <lb ed="#V" n="36"/>mutatio inter terminos oppositos
+          <lb ed="#V" n="37"/>scilicet. privationem et formam,
+          <lb ed="#V" n="38"/>et quidquid est inter opposita sibi
+          <lb ed="#V" n="39"/>succedentia, non potest esse 
+          sem<lb ed="#V" break="no" n="40"/>piternum.
+        </p>
+        <p xml:id="jdso8u-d1e1510-d1e373">
+          <lb ed="#V" n="41"/>Et si dieas (d) quod  tunc 
+          opor<lb ed="#V" break="no" n="42"/>tuit ipsum per tempus infinitum
+          <lb ed="#V" n="43"/>quievisse ad generandum, eum
+          <lb ed="#V" n="44"/>tamen fuisset perfectus et. potens
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>generare, quod videtur 
+          inconve<lb ed="#V" break="no" n="46"/>niens,
+        </p>
+        <p xml:id="jdso8u-d1e1510-d1e391">
+          <lb ed="#V" n="47"/>Respondeo, asinus non 
+          fuis<lb ed="#V" break="no" n="48"/>set factus perfectior ab aeterno
+          <lb ed="#V" n="49"/>ad generandum quam Deus ad
+          <lb ed="#V" n="50"/>creandum, et tamen per te
+          <lb ed="#V" n="51"/>oportuisse( Deum  quievisse a
+          <lb ed="#V" n="52"/>creando A per infinitum quasi
+          <lb ed="#V" n="53"/>imaginatum, ita quod 
+          contradi<lb ed="#V" break="no" n="54"/>ctio esset ipsum aliquid creasse,
+          <lb ed="#V" n="55"/>quin infinitum quasi praeteritum
+          <lb ed="#V" n="56"/>imaginatum  praeeessisset, et 
+          ta<lb ed="#V" break="no" n="57"/>men in creatione ojus, scilicet
+          <lb ed="#V" n="58"/>in dando totum esse ei, quod habet
+          <lb ed="#V" n="59"/>ln se esse, non videtur ita 
+          neces<lb ed="#V" break="no" n="60"/>sario includi novitas, sicut in ge- ;
+          <lb ed="#V" n="61"/>neratione, qua est a privatione '
+          <lb ed="#V" n="62"/>ad formam; non igitur est 
+          incon<lb ed="#V" break="no" n="63"/>veniens si oportuit asinum 
+          gene<lb ed="#V" break="no" n="64"/>Passe, quod quievisset per 
+          infini<lb ed="#V" break="no" n="65"/>tum imaginatum a parte ante ab
+          <lb ed="#V" n="66"/>illa actione, quae necessario 
+          in<lb ed="#V" break="no" n="67"/>cludit quod sit nova, cum ponas
+          <lb ed="#V" n="68"/>Deum necessario quievisse ab illa
+          <lb ed="#V" n="69"/>actione, quam non ostendis 
+          inclu<lb ed="#V" break="no" n="70"/>dere formaliter novitatem.
+        </p>
+        <p xml:id="jdso8u-d1e1510-d1e446">
+          <lb ed="#V" n="71"/>Ad quartum (e) dico, quod tota
+          <lb ed="#V" n="72"/>deductio de potentiis illis videtur.
+          <lb ed="#V" n="73"/>esse superilua, et multipliciter
+          <lb ed="#V" n="74"/>peccare. Et. tamen loquendo de
+          <lb ed="#V" n="75"/>potentia sicut ipse procedit in
+          <lb ed="#V" n="76"/>argumentando in fine, 
+          concluden<lb ed="#V" break="no" n="77"/>dum esset secundum eum, quod
+          <lb ed="#V" n="78"/>potentia ad non esse, necessario
+          <lb ed="#V" n="79"/>procedit potentiam ad esse, et si
+          <lb ed="#V" n="80"/>argumentum suum valet de 
+          po<lb ed="#V" break="no" n="81"/>tentiis contrariis secundum quod
+          <lb ed="#V" n="82"/>accipitur a Philosopho, primo de
+          <lb ed="#V" n="83"/>Colo et mundo, debet intelligi de
+          <lb ed="#V" n="84"/>potentiis incompossibilibus 
+          acti<lb ed="#V" break="no" n="85"/>bus suis, et  tunc si potentia ad
+          <lb ed="#V" n="86"/>non esse, necessario praecedat 
+          po<lb ed="#V" break="no" n="87"/>tentiam ad esse,  tunc esse 
+          necessa<lb ed="#V" break="no" n="88"/>rio praecedit non esse, quia potentia
+          <pb ed="#V" n="86"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>ad non esse, nunquam est secundum
+          <lb ed="#V" n="2"/>esse intellectum, nisi in eodem
+          <lb ed="#V" n="3"/>praecesserit esse.
+        </p>
+        <p xml:id="jdso8u-d1e1510-d1e498">
+          <lb ed="#V" n="4"/>Ubi sciendum est, quod 
+          loquen<lb ed="#V" break="no" n="5"/>do proprie de potentia, scilicet
+          <lb ed="#V" n="6"/>ante actum, subjectum 
+          immedia<lb ed="#V" break="no" n="7"/>torum oppositorum, nunquam est
+          <lb ed="#V" n="8"/>in potentiis oppositis simul, quia
+          <lb ed="#V" n="9"/>tunc careret utroque actu simul,
+          <lb ed="#V" n="10"/>et ita non essent opposita 
+          im<lb ed="#V" break="no" n="11"/>mediata circa illud subjectum. Et
+          <lb ed="#V" n="12"/>de illis verum est, quod potentia
+          <lb ed="#V" n="13"/>ad unum, non est sine actu 
+          alte<lb ed="#V" break="no" n="14"/>rius, non quod ille actus sit
+          <lb ed="#V" n="15"/>receptivus illius potentiae, imo
+          <lb ed="#V" n="16"/>subjectum tantum recipit illam
+          <lb ed="#V" n="17"/>potentiam, sicut et ejus actum. S1
+          <lb ed="#V" n="18"/>enim actus A, prior sit potentia
+          <lb ed="#V" n="19"/>ad B, quia ratio receptivi; 
+          igi<lb ed="#V" break="no" n="20"/>tur ipso P, quia in eodem est
+          <lb ed="#V" n="21"/>prius natura potentia actu 9. 
+          Me<lb ed="#V" break="no" n="22"/>taph. B autem pari ratione prius
+          <lb ed="#V" n="23"/>est, potentia ad A, et ita idem prius
+          <lb ed="#V" n="24"/>et posterius eodem, sed potentia
+          <lb ed="#V" n="25"/>ad unum, necessario concomitatur
+          <lb ed="#V" n="26"/>alterius actus propter 
+          immediati<lb ed="#V" break="no" n="27"/>onem actuum ad unum.
+        </p>
+        <p xml:id="jdso8u-d1e1510-d1e553">
+          <lb ed="#V" n="28"/>Ad propositum dico (f) quod non
+          <lb ed="#V" n="29"/>fuit ab aeterno sub potentia ad esse,
+          <lb ed="#V" n="30"/>et sub potentia ad non esse, sub qua
+          <lb ed="#V" n="31"/>tamen prius? Dico, quod sub 
+          po<lb ed="#V" break="no" n="32"/>tentia ad esse secundum veritatem,
+          <lb ed="#V" n="33"/>quia sub non esse, et ita non sub
+          <lb ed="#V" n="34"/>potentia ad illud. Si autem fuisset
+          <lb ed="#V" n="35"/>ab szeterno, fuisset semper sub 
+          po<lb ed="#V" break="no" n="36"/>tentia ad non esse, et nunquam sub
+          <lb ed="#V" n="37"/>potentia ad esse, sed sub actu. Si
+          <lb ed="#V" n="38"/>autem non loquaris de potentia
+          <lb ed="#V" n="39"/>ante actum illum, sed quasi 
+          sub<lb ed="#V" break="no" n="40"/>jeetiva, et assumas ibi creaturam
+          <lb ed="#V" n="41"/>non esse s1c in potentia ad esse, nisi
+          <lb ed="#V" n="42"/>sub non esse, falsum est, et supra
+          <lb ed="#V" n="43"/>improbatum.
+        </p>
+        <p xml:id="jdso8u-d1e1510-d1e590">
+          <lb ed="#V" n="44"/>Omittendo (g) igitur de potentiis,
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>argumentum breviter videtur 
+          sta<lb ed="#V" break="no" n="46"/>re in hoc : opposita, qua insunt
+          <lb ed="#V" n="47"/>eidem ordine naturae, non possunt
+          <lb ed="#V" n="48"/>eidem inesse simul ordine 
+          dura<lb ed="#V" break="no" n="49"/>tionis, quia prius duratione inest,
+          <lb ed="#V" n="50"/>quod prius natura inest. Esse igitur
+          <lb ed="#V" n="51"/>et non esse cum insint ordine 
+          natu<lb ed="#V" break="no" n="52"/>rze lapidi, non possunt simul 
+          ines<lb ed="#V" break="no" n="53"/>se eidem simul duratione, nec 
+          in<lb ed="#V" break="no" n="54"/>differenter se invicem praecedere,
+          <lb ed="#V" n="55"/>sed necessario non esse prsecedit
+          <lb ed="#V" n="56"/>duratione ipsum esse, et ita non
+          <lb ed="#V" n="57"/>potuit semper fuisse. Quod autem.
+          <lb ed="#V" n="58"/>^on esse prius natura insit quam
+          <lb ed="#V" n="59"/>esse, hoc probat, quia non esse 
+          com<lb ed="#V" break="no" n="60"/>petit lapidi ex se, aliud, scilicet
+          <lb ed="#V" n="61"/>esse, non competit sibi ex se, sed
+          <lb ed="#V" n="62"/>ex alio.
+        </p>
+        <p xml:id="jdso8u-d1e1510-d1e637">
+          <lb ed="#V" n="63"/>Hic dico (h) quod duo opposita
+          <lb ed="#V" n="64"/>non insunt ordine naturae eidem
+          <lb ed="#V" n="65"/>quasi positive, loquendo de ordine
+          <lb ed="#V" n="66"/>natura, sicut est de animali et
+          <lb ed="#V" n="67"/>rationali, substantia et accidente,
+          <lb ed="#V" n="68"/>sed quasi privative, scilicet quod
+          <lb ed="#V" n="69"/>alterum inesset nisi impediretur,
+          <lb ed="#V" n="70"/>qui modus expositus est in 
+          qua<lb ed="#V" break="no" n="71"/>stione prseecedenti exponendo 
+          opi<lb ed="#V" break="no" n="72"/>nionem Avicennae. Et hoc modo
+          <lb ed="#V" n="73"/>non oportet illud quod prius 
+          natu<lb ed="#V" break="no" n="74"/>ra convenit alicui, prius duratione
+          <lb ed="#V" n="75"/>convenire sibi. Potest enim illud,
+          <lb ed="#V" n="76"/>quod non habet esse aliquod ex se,!
+          <lb ed="#V" n="77"/>preveniri a causa positiva dante
+          <lb ed="#V" n="78"/>sibi aliquid, quod istud non habet *
+          <lb ed="#V" n="79"/>ex se, et ita prius duratione habe-«*
+          <lb ed="#V" n="80"/>ret oppositum quam istud. Ista:
+          <lb ed="#V" n="81"/>responsio patet in aliis. Probaret f
+          <lb ed="#V" n="82"/>enim argumentum, quod Deus non s
+          <lb ed="#V" n="83"/>posset creare materiam sub 
+          for<lb ed="#V" break="no" n="84"/>ma, quia materia prius natura est
+          <lb ed="#V" n="85"/>privata quam informata, quia ex
+          <lb ed="#V" n="86"/>se habet quod sit privata, ex alio?
+          <lb ed="#V" n="87"/>quod sit informata; igitur non
+          <lb ed="#V" n="88"/>posset in materia esse forma, nisi
+          <pb ed="#V" n="87"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>duratione praecessisset materia 
+          in<lb ed="#V" break="no" n="2"/>formis. Sed hoc non concludit.
+          <lb ed="#V" n="3"/>quia materia non est ex se positive
+          <lb ed="#V" n="4"/>privata, sed privative tantum, quia
+          <lb ed="#V" n="5"/>non ex se habet formam, sed ab
+          <lb ed="#V" n="6"/>alio, ut generante vel creante,
+          <lb ed="#V" n="7"/>et ipsa sola sine alia causa 
+          positi<lb ed="#V" break="no" n="8"/>va sufficit ad hoc quod ipsa sit
+          <lb ed="#V" n="9"/>privata; esset igitur semper 
+          pri<lb ed="#V" break="no" n="10"/>vata nisi esset aliqua causa 
+          posi<lb ed="#V" break="no" n="11"/>tiva impediens ejus privationem
+          <lb ed="#V" n="12"/>continuam, et tamen quia causa
+          <lb ed="#V" n="13"/>positiva potest a principio 
+          impe<lb ed="#V" break="no" n="14"/>dire ipsius materie privationem,
+          <lb ed="#V" n="15"/>dando sibi esse, ne semper sit 
+          pri<lb ed="#V" break="no" n="16"/>vata, ideo non oportet ex tali
+          <lb ed="#V" n="17"/>prioritate naturae, necessario 
+          con<lb ed="#V" break="no" n="18"/>cludere prioritatem durationis.
+        </p>
+        <p xml:id="jdso8u-d1e1510-d1e739">
+          <lb ed="#V" n="19"/>Ad aliud (i) de infinitis 
+          anima<lb ed="#V" break="no" n="20"/>bus, respondeo quidquid non 
+          po<lb ed="#V" break="no" n="21"/>test fieri a Deo in uno die, quia
+          <lb ed="#V" n="22"/>ineludit contradictionem, hoc non
+          <lb ed="#V" n="23"/>posset fieri in infinito praeterito,
+          <lb ed="#V" n="24"/>si fuisset propter eamdem 
+          rati<lb ed="#V" break="no" n="25"/>onem. In ista enim die sunt infinita
+          <lb ed="#V" n="26"/>sinstantia, (imo in una hora unius
+          <lb ed="#V" n="27"/>dici) in quorum quolibet posset
+          <lb ed="#V" n="28"/>ereare animam, sicut in uno die
+          <lb ed="#V" n="29"/>totius temporis infiniti, si esset.
+          <lb ed="#V" n="30"/>Non enim oportet eum quiescere a
+          <lb ed="#V" n="31"/>die in diem, ut ereet unam animam
+          <lb ed="#V" n="32"/>post aliam, et ita si in infinitis
+          <lb ed="#V" n="33"/>instantibus hujus dici, non potest
+          <lb ed="#V" n="34"/>creare infinitas animas, quia hoc
+          <lb ed="#V" n="35"/>non est factibile, nec in infinitis
+          <lb ed="#V" n="36"/>diebus totius praeteriti, posset 
+          in<lb ed="#V" break="no" n="37"/>finitas animas creasse.
+        </p>
+        <p xml:id="jdso8u-d1e1510-d1e783">
+          <lb ed="#V" n="38"/>Et si dicas (k) instantia hujus
+          <lb ed="#V" n="39"/>dici non fuisse in actu, sicut sunt
+          <lb ed="#V" n="40"/>infiniti dies praeteriti, hoc non 
+          suf<lb ed="#V" break="no" n="41"/>fiet, quia sicut. instantia infinita
+          <lb ed="#V" n="42"/>infinitorum dierum in quibus 
+          cro<lb ed="#V" break="no" n="43"/>asset, fuissent in potentia per te
+          <lb ed="#V" n="44"/>(sicut indivisibile est in continuo)
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>et non in actu, quia nullum 
+          illo<lb ed="#V" break="no" n="46"/>rum fuisset in actu terminus 
+          tem<lb ed="#V" break="no" n="47"/>poris, ita est etiam de infinitis
+          <lb ed="#V" n="48"/>instantibus hujus dici; igitur 
+          aequa<lb ed="#V" break="no" n="49"/>lem infinitatem videntur habere
+          <lb ed="#V" n="50"/>instantia unius dici vel hujus 
+          ho<lb ed="#V" break="no" n="51"/>re, cum infinitis instantibus 
+          infi<lb ed="#V" break="no" n="52"/>nitorum dierum, et ita videtur
+          <lb ed="#V" n="53"/>sequi propositum. Concederent 
+          ta<lb ed="#V" break="no" n="54"/>men aliqui Philosophi, non esse
+          <lb ed="#V" n="55"/>impossibile infinitatem esse in 
+          ac<lb ed="#V" break="no" n="56"/>cidentaliter ordinatis, sicut patet
+          <lb ed="#V" n="57"/>per Avicennam 6. Metaph. c. de 
+          Cau<lb ed="#V" break="no" n="58"/>sis.
+        </p>
+        <p xml:id="jdso8u-d1e1510-d1e833">
+          <lb ed="#V" n="59"/>Ad aliud (l) de transitu infiniti, :
+          <lb ed="#V" n="60"/>videtur improbare sempiternita-.
+          <lb ed="#V" n="61"/>tem successivorum. Sed secundum .
+          <lb ed="#V" n="62"/>tenentes istam opinionem, non est ;
+          <lb ed="#V" n="63"/>similis ratio impossibilitatis in
+          <lb ed="#V" n="64"/>successivis et in permanentibus,
+          <lb ed="#V" n="65"/>quia permanentia quaecumque, 
+          li<lb ed="#V" break="no" n="66"/>cet secundum motus suos possint
+          <lb ed="#V" n="67"/>mensurari tempore, tamen 
+          secun<lb ed="#V" break="no" n="68"/>dum esse substantiale, ponuntur
+          <lb ed="#V" n="69"/>mensurari avo; et ideo ponens
+          <lb ed="#V" n="70"/>permanens esse sine principio, non
+          <lb ed="#V" n="71"/>videtur ponere aliquod infinitum
+          <lb ed="#V" n="72"/>esse acceptum. Istam rationem de
+          <lb ed="#V" n="73"/>infinito successivo, confirmat illa
+          <lb ed="#V" n="74"/>imaginatio de linea conversa, quia
+          <lb ed="#V" n="75"/>si aliqua linea esset quasi protensa
+          <lb ed="#V" n="76"/>in infinitum, incipiens ab hoc 
+          pun<lb ed="#V" break="no" n="77"/>cto A, non esset possibile quod
+          <lb ed="#V" n="78"/>esset pertransita; igitur videtur
+          <lb ed="#V" n="79"/>quod esset e converso, imaginando
+          <lb ed="#V" n="80"/>lineam quasi sic acceptam in 
+          prae<lb ed="#V" break="no" n="81"/>teritum, non videtur possibile,
+          <lb ed="#V" n="82"/>quod sit accepta usque ad 4.
+        </p>
+        <p xml:id="jdso8u-d1e1510-d1e888">
+          <lb ed="#V" n="83"/>Ad ultimum argumentum (m) 
+          di<lb ed="#V" break="no" n="84"/>ei potest, quod aequale, majus et,
+          <lb ed="#V" n="85"/>minus, non conveniunt quantitati ,
+          <lb ed="#V" n="86"/>molis nisi finitae, quia prius 
+          dividi<lb ed="#V" break="no" n="87"/>tur quantum. per finitum et 
+          infini<lb ed="#V" break="no" n="88"/>tum, quam sibi conveniat aequale
+          <pb ed="#V" n="88"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>vel inaequale. De ratione enim
+          <lb ed="#V" n="2"/>quantitatis majoris est excedere,
+          <lb ed="#V" n="3"/>et minoris excedi, et aeequalis 
+          com<lb ed="#V" break="no" n="4"/>mensurari, quae omnia videntur
+          <lb ed="#V" n="5"/>concludere finitatem, et ideo 
+          nega<lb ed="#V" break="no" n="6"/>retur infinitum esse aequale 
+          infini<lb ed="#V" break="no" n="7"/>to, quia s quale et inaequale, et
+          <lb ed="#V" n="8"/>majus et minus, sunt differentiae
+          <lb ed="#V" n="9"/>quantitatis finitae et non infinite.
+        </p>
+        <p xml:id="jdso8u-d1e1510-d1e927">
+          <lb ed="#V" n="10"/>Ad primum argumentum (n)
+          <lb ed="#V" n="11"/>principale concedo, quod materia
+          <lb ed="#V" n="12"/>est ingenita et incorruptibilis, non
+          <lb ed="#V" n="13"/>tamen ex hoc sequitur quod sit
+          <lb ed="#V" n="14"/>sempiterna, quia non habet 
+          mate<lb ed="#V" break="no" n="15"/>riam unde fiat. Est tamen producta
+          <lb ed="#V" n="16"/>tota, quae productio non est 
+          gene<lb ed="#V" break="no" n="17"/>ratio, quia generatio et corruptio
+          <lb ed="#V" n="18"/>sunt compositorum, non 
+          simpli<lb ed="#V" break="no" n="19"/>cium.
+        </p>
+        <p xml:id="jdso8u-d1e1510-d1e952">
+          <lb ed="#V" n="20"/>Ad aliud (o) de sempiternitate
+          <lb ed="#V" n="21"/>temporis, dico quod non valet,
+          <lb ed="#V" n="22"/>quia alias concludit, movens non
+          <lb ed="#V" n="23"/>posse sine novitate seu mutatione
+          <lb ed="#V" n="24"/>mutare, et responsum est ad illud
+          <lb ed="#V" n="25"/>in quaestione praecedenti. Et quod
+          <lb ed="#V" n="26"/>arguitur de ante, dico quod non
+          <lb ed="#V" n="27"/>concludit nisi de ante 3imaginato vel
+          <lb ed="#V" n="28"/>privato, sicut aeternitas est ante
+          <lb ed="#V" n="29"/>quod nihil est, vel sicut extra 
+          uni<lb ed="#V" break="no" n="30"/>versum nihil est, ibi vel negatur
+          <lb ed="#V" n="31"/>exira, vel non affirmatur nisi 
+          ima<lb ed="#V" break="no" n="32"/>ginatum extra.
+        </p>
+        <p xml:id="jdso8u-d1e1510-d1e983">
+          <lb ed="#V" n="33"/>Ad illud (p) primi de Generatione
+          <lb ed="#V" n="34"/>quamvis Ista sit aliquo modo 
+          pro<lb ed="#V" break="no" n="35"/>babilis : Corruptio unius est generatio
+          <lb ed="#V" n="36"/>alterius, quod pro tanto verum est,
+          <lb ed="#V" n="37"/>quia nullum agens naturale per se
+          <lb ed="#V" n="38"/>intendit corrumpere aliquid, sed
+          <lb ed="#V" n="39"/>per accidens corrumpit illud, quod
+          <lb ed="#V" n="40"/>est incompossibile generato, quod
+          <lb ed="#V" n="41"/>per se intendit ; tamen ex illo non
+          <lb ed="#V" n="42"/>sequitur perpetuitas generationis,
+          <lb ed="#V" n="43"/>quia ultima corruptio potest 
+          con<lb ed="#V" break="no" n="44"/>eomitari ultimam senerationem,
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>puta quando omnia mixta 
+          resol<lb ed="#V" break="no" n="46"/>ventur in elementa, et tunc erit,
+          <lb ed="#V" n="47"/>status tam generationis quam 
+          cor<lb ed="#V" break="no" n="48"/>ruptionis, licet illa ultima 
+          corru<lb ed="#V" break="no" n="49"/>ptio non sit annihilatio, quia est a
+          <lb ed="#V" n="50"/>ad materiam. Philosophus tamen,
+          <lb ed="#V" n="51"/>supponit cum ista propositione,
+          <lb ed="#V" n="52"/>unam aliam propositionem, 
+          scili<lb ed="#V" break="no" n="53"/>cet quod tale generabile est 
+          1te<lb ed="#V" break="no" n="54"/>rum corruptibile, et quod ejus
+          <lb ed="#V" n="55"/>ceneratio alterius sit corruptio,
+          <lb ed="#V" n="56"/>quod non est, verum. Sed arguendo
+          <lb ed="#V" n="57"/>in praeteritis, oportet accipere
+          <lb ed="#V" n="58"/>istam : generatio unius est corruptio
+          <lb ed="#V" n="59"/>alterius, et. ista non est ita vera ex
+          <lb ed="#V" n="60"/>per se intentione agentis 
+          natura<lb ed="#V" break="no" n="61"/>lis, sicut. illa praecedens. Aeeidit
+          <lb ed="#V" n="62"/>enim quod generans corrumpat
+          <lb ed="#V" n="63"/>propter incompossibilitatem  
+          ter<lb ed="#V" break="no" n="64"/>mini corrumpendi, cum termino
+          <lb ed="#V" n="65"/>quem intendit, quia non potest
+          <lb ed="#V" n="66"/>producere formam quam intendit,
+          <lb ed="#V" n="67"/>nisi in materia proexistente ; et
+          <lb ed="#V" n="68"/>illa materia praeexistens 
+          commu<lb ed="#V" break="no" n="69"/>niter est sub forma incompossibili
+          <lb ed="#V" n="70"/>forma quam intendit,et ideo 
+          opor<lb ed="#V" break="no" n="71"/>tet ipsum corrumpere 
+          composi<lb ed="#V" break="no" n="72"/>tum praeexistens, ut generet illud
+          <lb ed="#V" n="73"/>quod intendit. Et dato quod ex
+          <lb ed="#V" n="74"/>hoc sequeretur, quod nulla esset
+          <lb ed="#V" n="75"/>generatio, nisi quando  
+          produ<lb ed="#V" break="no" n="76"/>citur totum, non tamen oportet
+          <lb ed="#V" n="77"/>quod pars ejus praeexistat sub
+          <lb ed="#V" n="78"/>forma incompossibili, et ideo 
+          ta<lb ed="#V" break="no" n="79"/>lem productionem alicujus entis
+          <lb ed="#V" n="80"/>non oportet esse destructionem
+          <lb ed="#V" n="81"/>alicujus alterius entis, sed tantum
+          <lb ed="#V" n="82"/>destructionem nihili sive non entis
+          <lb ed="#V" n="83"/>praecise, et  tunc non oportet illam
+          <lb ed="#V" n="84"/>primam productionem praecessisse
+          <lb ed="#V" n="85"/>aliam, quia terminus « quo hujus
+          <lb ed="#V" n="86"/>productionis, non fuit terminus ad
+          <lb ed="#V" n="87"/>quem alterius productionis, quia
+          <lb ed="#V" n="88"/>nihil, nulla productione 
+          produce<lb ed="#V" break="no" n="89"/>batur.
+        </p>
+        <p xml:id="jdso8u-d1e1510-d1e1111">
+          <pb ed="#V" n="89"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>Ad illud quartum (q) 
+          argumen<lb ed="#V" break="no" n="2"/>tum de successione propter 
+          mo<lb ed="#V" break="no" n="3"/>tum, quando dicitur quod agens
+          <lb ed="#V" n="4"/>non causans per motum, et non
+          <lb ed="#V" n="5"/>impedibilis, potest habere effectum
+          <lb ed="#V" n="6"/>sibi e«osvum, diceretur quod ubi
+          <lb ed="#V" n="7"/>agens et effectus possunt habere
+          <lb ed="#V" n="8"/>essentiam unigeneam, vera est 
+          ma<lb ed="#V" break="no" n="9"/>jor illa, sed ubi non possunt esse
+          <lb ed="#V" n="10"/>unigenea, sed prioritas nature in
+          <lb ed="#V" n="11"/>causa de necessitate requirit 
+          prio<lb ed="#V" break="no" n="12"/>ritatem durationis ejus respectu
+          <lb ed="#V" n="13"/>effectus, ibi major est falsa, sic
+          <lb ed="#V" n="14"/>est in proposito.
+        </p>
+        <p xml:id="jdso8u-d1e1510-d1e1148">
+          <lb ed="#V" n="15"/>Ad primum in oppositum (r) 
+          di<lb ed="#V" break="no" n="16"/>co, quod vel illa non est definitio
+          <lb ed="#V" n="17"/>creaturaes sed descriptio quaedam
+          <lb ed="#V" n="18"/>concessa ab Ario, contra quem
+          <lb ed="#V" n="19"/>arguit Augustinus, quia dicit 
+          Fi<lb ed="#V" break="no" n="20"/>lium Dei aliquando non fuisse, et
+          <lb ed="#V" n="21"/>tunc sufficit Augustino accipere
+          <lb ed="#V" n="22"/>istam definitionem vel 
+          descripti<lb ed="#V" break="no" n="23"/>onem contra eum ut concessam,
+          <lb ed="#V" n="24"/>et ex negatione hujus descriptionis
+          <lb ed="#V" n="25"/>a Filio Dei concesse ab eo, 
+          conclu<lb ed="#V" break="no" n="26"/>dere contra eum quod non sit 
+          crea<lb ed="#V" break="no" n="27"/>tura. Vel si est definitio creaturae,
+          <lb ed="#V" n="28"/>proprie loquendo de creatura 
+          in<lb ed="#V" break="no" n="29"/>quantum creatura, non tamen 
+          pro<lb ed="#V" break="no" n="30"/>pter hoc est definitio cujustibet
+          <lb ed="#V" n="31"/>alterius a Deo, puta Angeli vel
+          <lb ed="#V" n="32"/>hominis, quia diceretur quod huie
+          <lb ed="#V" n="33"/>quod est esse creaturam, accidit haec
+          <lb ed="#V" n="34"/>definitio. Sed si illa poneretur 
+          de<lb ed="#V" break="no" n="35"/>finitio incipientis et de facto, ita
+          <lb ed="#V" n="36"/>esset omne aliud a Deo tunc 
+          ar<lb ed="#V" break="no" n="37"/>guendo sic : Oinne aliud a. Deo est
+          <lb ed="#V" n="38"/>incipiens; ergo omne aliud a. Deo
+          <lb ed="#V" n="39"/>est creatura, non sequitur, sed est
+          <lb ed="#V" n="40"/>fallacia aecidentis propter 
+          extra<lb ed="#V" break="no" n="41"/>neitatem medii respectu tertii, 
+          in<lb ed="#V" break="no" n="42"/>quantum comparatur ad primum
+          <lb ed="#V" n="43"/>non enim quidquid repugnat 
+          acci<lb ed="#V" break="no" n="44"/>denti, repugnat subjecto, cui 
+          acci<lb ed="#V" break="no" n="45"/>dit tale accidens.
+        </p>
+        <p xml:id="jdso8u-d1e1510-d1e1218">
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="46"/>Ad aliud (s) de infinito in 
+          multi<lb ed="#V" break="no" n="47"/>tudine et magnitudine, responsum
+          <lb ed="#V" n="48"/>est prius in responsione de 
+          infini<lb ed="#V" break="no" n="49"/>tate actuali animarum.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

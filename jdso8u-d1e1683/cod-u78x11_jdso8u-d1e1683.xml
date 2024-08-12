@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 7 (11)</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 7 (11)</title>
+          <date when="2024-08-11">August 11, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x11">Vives, Paris, 1893, volume 11</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-08-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="546"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e1683"><!-- scotus-l2d2q11-p1 -->
+        <head xml:id="jdso8u-d1e1683-Hd1e101">Quaestio 7 (11)</head>
+        <head xml:id="jdso8u-d1e1683-Hd1e103" type="question-title">Utrum angelus possit moveri in instanti</head>
+        <p xml:id="jdso8u-d1e1683-d1e106">
+          <lb ed="#V" n="24" type="fixed=546"/>QUESTIO XI.
+        </p>
+        <p xml:id="jdso8u-d1e1683-d1e111">
+          <lb ed="#V" n="25"/>Utrum Angelus possit moveri in instanti ?
+        </p>
+        <p xml:id="jdso8u-d1e1683-d1e116">
+          <lb ed="#V" n="26"/>Alensis 2. p. q. 35. m. 3. D. Bonav. 1. d. 37. 2.
+          <lb ed="#V" n="27"/>p. art. 2. quest. 3. Richard a. 3. 4. 3. Albert.
+          <lb ed="#V" n="28"/>avt. 23. et 24. D. Thom. 1. p. q. 53. art. 3.
+          <lb ed="#V" n="29"/>Henr. quodi. 13. quaest. 17. Major $c
+          <lb ed="#V" n="30"/>quasi. 12. Vasq. 1. p. d. 197. Mayron. 2.
+          <lb ed="#V" n="31"/>d. 3. quaest. 13.
+        </p>
+        <p xml:id="jdso8u-d1e1683-d1e133">
+          <lb ed="#V" n="32"/>Quod non, quia tunc major 
+          vir<lb ed="#V" break="no" n="33"/>tus potest moveri in minori quam
+          <lb ed="#V" n="34"/>in instanti. Probatio 
+          consequen<lb ed="#V" break="no" n="35"/>tio, ita enim arguit Philosophus
+          <lb ed="#V" n="36"/>6. Phys. quod si major virtus 
+          mo<lb ed="#V" break="no" n="37"/>vet in tempore, et maxima virtus
+          <lb ed="#V" n="38"/>movet in instanti.
+        </p>
+        <p xml:id="jdso8u-d1e1683-d1e151">
+          <lb ed="#V" n="39"/>Contra, aliqui motus ab 
+          aliqui<lb ed="#V" break="no" n="40"/>bus corporibus moventibus sunt in
+          <lb ed="#V" n="41"/>instanti, ut illuminatio medii; 
+          igi<lb ed="#V" break="no" n="42"/>tur et motus Angeli multo fortius
+          <lb ed="#V" n="43"/>potest esse in instanti. quia ma-
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="44"/>jorest virtus moventis, et minor
+          <lb ed="#V" n="45"/>resistentia medii.
+        </p>
+        <!--</div>
+          <div alias="scotus-l2d2q11-p2">-->
+        <p xml:id="jdso8u-d1e1683-d1e173">
+          <lb ed="#V" n="46" type="fixed=546"/>SCHOLIUM.
+        </p>
+        <p xml:id="jdso8u-d1e1683-d1e178">
+          <lb ed="#V" n="47"/>Sententiam D. Thom. asserentis  
+          Ange<lb ed="#V" break="no" n="48"/>lum moveri in instanti temporis discreti
+          <lb ed="#V" n="49"/>impugnat Doctor, inferendo gravia absurda.
+          <lb ed="#V" n="50"/>Secundo, refutat positionem Henrici, de qua
+          <lb ed="#V" n="51"/>supr. q. 4. ubi de tempore discreto.
+        </p>
+        <p xml:id="jdso8u-d1e1683-d1e191">
+          <lb ed="#V" n="52"/>(a) Hic dicitur, quod Angelus 
+          po<lb ed="#V" break="no" n="53"/>test moveri in instanti, sed non
+          <lb ed="#V" n="54"/>temporis continui, sed discreti, !
+          <lb ed="#V" n="55"/>quod probatur. Quaere in Thoma. «
+          <lb ed="#V" n="56"/>Alius Doctor (b) dicit de isto tem- ,
+          <lb ed="#V" n="57"/>pore disereto. Quaere.
+        </p>
+        <p xml:id="jdso8u-d1e1683-d1e208">
+          <lb ed="#V" n="58"/>(c) Contra primam positionem
+          <lb ed="#V" n="59"/>arguo. Videtur enim contradicere ,
+          <lb ed="#V" n="60"/>sibiipsi, videtur enim Angelum
+          <lb ed="#V" n="61"/>ponere esse in loco per operatio-:
+          <lb ed="#V" n="62"/>nem. Et si intelligat de operatione ;
+          <lb ed="#V" n="63"/>transeunte in corpus, illa opera- .
+          <lb ed="#V" n="64"/>tioerit in tempore communi, vel
+          <lb ed="#V" n="65"/>in instanti temporis communis. Si |
+          <lb ed="#V" n="66"/>autem intelligat de operatione
+          <lb ed="#V" n="67"/>immanente, scilicet intellectione
+          <lb ed="#V" n="68"/>et volitione, illa patet ex dictis
+          <lb ed="#V" n="69"/>prius id materia de svo; nec
+          <lb ed="#V" n="70"/>est in tempore nostro communi,
+          <lb ed="#V" n="71"/>nec in alio, sed in z:evo secundum
+          <lb ed="#V" n="72"/>eum, igitur, etc.
+        </p>
+        <p xml:id="jdso8u-d1e1683-d1e243">
+          <lb ed="#V" n="73"/>Praeterea, ratio sua non videtur
+          <lb ed="#V" n="74"/>concludere, quia  tunc sequeretur
+          <lb ed="#V" n="75"/>quod in ultimo instanti prolationis
+          <lb ed="#V" n="76"/>verborum in consecratione, esset
+          <lb ed="#V" n="77"/>ibi vera forma panis, que» 
+          prae<lb ed="#V" break="no" n="78"/>fuit in toto tempore illius 
+          prola<lb ed="#V" break="no" n="79"/>tionis; similiter cum aer quievit
+          <lb ed="#V" n="80"/>in esse tenebroso per totum 
+          tem<lb ed="#V" break="no" n="81"/>pus, sequeretur quod in ultimo
+          <lb ed="#V" n="82"/>instanti illuminationis illius aeris
+          <lb ed="#V" n="83"/>tenebrosi, aer esset tenebrosus,
+          <lb ed="#V" n="84"/>et ita sequeretur quod illuminatio
+          <lb ed="#V" n="85"/>non fieret in instanti.
+        </p>
+        <p xml:id="jdso8u-d1e1683-d1e274">
+          <lb ed="#V" n="86"/>Etsi dicas, quod ista illumina-
+          <pb ed="#V" n="547"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>tio est terminus motus localis, quo
+          <lb ed="#V" n="2"/>Sol fit praesens medio; contra,
+          <lb ed="#V" n="3"/>ponatur Sol creatus de novo, et
+          <lb ed="#V" n="4"/>medium praeexistens. Modo etiam
+          <lb ed="#V" n="5"/>licet cum ubi terminante motum
+          <lb ed="#V" n="6"/>localem concurrat illuminatio 
+          me<lb ed="#V" break="no" n="7"/>dii a Sole sic facta prsaesente, 
+          ta<lb ed="#V" break="no" n="8"/>men ista illuminatio non est per
+          <lb ed="#V" n="9"/>se terminus motus localis, sed
+          <lb ed="#V" n="10"/>aliquod wb; acquisitum ipsi Soli,
+          <lb ed="#V" n="11"/>nee etiam potest per hoc evadi
+          <lb ed="#V" n="12"/>quin aer quieverit sub esse 
+          tene<lb ed="#V" break="no" n="13"/>broso usque ad hoc instans.
+          <lb ed="#V" n="14"/>Praeterea, si oportet Angelum
+          <lb ed="#V" n="15"/>in quocumque tempore 
+          quiescen<lb ed="#V" break="no" n="16"/>tem, in ultimo instanti illius 
+          tem<lb ed="#V" break="no" n="17"/>poris immutatum esse in eodem
+          <lb ed="#V" n="18"/>ubi; igitur nunquam mutatur, nec
+          <lb ed="#V" n="19"/>in tempore continuo, nec in 
+          tem<lb ed="#V" break="no" n="20"/>pore discreto. Probatio 
+          conse<lb ed="#V" break="no" n="21"/>quentiae, accipio aliquam partem
+          <lb ed="#V" n="22"/>temporis, cum qua quiescit, et per
+          <lb ed="#V" n="23"/>consequens cum ultimo illius 
+          im<lb ed="#V" break="no" n="24"/>mutatus est; si etiam in aliquo
+          <lb ed="#V" n="25"/>instanti temporis discreti debeat
+          <lb ed="#V" n="26"/>moveri localiter, quaero, aut
+          <lb ed="#V" n="27"/>illud est immediatum instans 
+          no<lb ed="#V" break="no" n="28"/>stro instanti terminanti. 
+          tem<lb ed="#V" break="no" n="29"/>pus quietis, aut mediatum ? Si
+          <lb ed="#V" n="30"/>mediatum, ergo inter instans
+          <lb ed="#V" n="31"/>nostrum, in quo fuit Angelus
+          <lb ed="#V" n="32"/>immutatus, et hoc instans est
+          <lb ed="#V" n="33"/>tempus medium in quo etiam
+          <lb ed="#V" n="34"/>quiesceret Angelus; ergo et in illo
+          <lb ed="#V" n="35"/>et eum illo ultimo instanti illius
+          <lb ed="#V" n="36"/>temporis immutatus erit, et ita in
+          <lb ed="#V" n="37"/>illo instanti mediato, in quo 
+          po<lb ed="#V" break="no" n="38"/>nebatur mutari, non mutatur. Si
+          <lb ed="#V" n="39"/>autem est instans immediatum,
+          <lb ed="#V" n="40"/>quaero quid correspondet ei in 
+          tem<lb ed="#V" break="no" n="41"/>pore nostro? Si instans, igitur 
+          in<lb ed="#V" break="no" n="42"/>stans in tempore nostro est 
+          im<lb ed="#V" break="no" n="43"/>mediatum instanti; igitur tempus
+          <lb ed="#V" n="44"/>nostrum est discretum. Si tempus,
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>igitur in illo instanti non 
+          mu<lb ed="#V" break="no" n="46"/>tatur Angelus instantanee, auia
+          <lb ed="#V" n="47"/>illud instans per te coexistit 
+          par<lb ed="#V" break="no" n="48"/>ti temporis nostri, in qua vel
+          <lb ed="#V" n="49"/>cum qua potest continue moveri
+          <lb ed="#V" n="50"/>vel quiescere.
+        </p>
+        <p xml:id="jdso8u-d1e1683-d1e394">
+          <lb ed="#V" n="51"/>Propter istud argumentum 
+          for<lb ed="#V" break="no" n="52"/>te ponit secunda positio, quod 
+          in<lb ed="#V" break="no" n="53"/>ter duo instantia temporis 
+          disere<lb ed="#V" break="no" n="54"/>ti, cadit quasi quies media ipsius
+          <lb ed="#V" n="55"/>Angeli cum parte media temporis
+          <lb ed="#V" n="56"/>nostri.
+        </p>
+        <p xml:id="jdso8u-d1e1683-d1e410">
+          <lb ed="#V" n="57"/>Sed contra illam secundam 
+          po<lb ed="#V" break="no" n="58"/>sitionem probatum est supra,
+          <lb ed="#V" n="59"/>quod non est necesse operationem
+          <lb ed="#V" n="60"/>Angeli durare cum instantibus
+          <lb ed="#V" n="61"/>temporis nostri; igitur nec illa
+          <lb ed="#V" n="62"/>duratio erit ratio quietis in 
+          ter<lb ed="#V" break="no" n="63"/>mino transitus subiti; quare 
+          eti<lb ed="#V" break="no" n="64"/>am necesse erit ponere Angelum
+          <lb ed="#V" n="65"/>post transitum subitum 
+          quiesce<lb ed="#V" break="no" n="66"/>re, non videtur aliqua ratio, sed
+          <lb ed="#V" n="67"/>tantum fuga, ne ponatur tempus
+          <lb ed="#V" n="68"/>nostrum discretum ex hoc, quod
+          <lb ed="#V" n="69"/>ponitur talis transitus ejus in 
+          di<lb ed="#V" break="no" n="70"/>secreto tempore.
+        </p>
+        <p xml:id="jdso8u-d1e1683-d1e443">
+          <lb ed="#V" n="71"/>Praeterea, quod ponit, quod in
+          <lb ed="#V" n="72"/>tali nunc potest mutari, ita quod
+          <lb ed="#V" n="73"/>simul habeat plura ubi aequalia,
+          <lb ed="#V" n="74"/>inter quae non erit ordo nisi 
+          tan<lb ed="#V" break="no" n="75"/>tum natura, vel imaginatione,
+          <lb ed="#V" n="76"/>non autem duratione, videtur 
+          im<lb ed="#V" break="no" n="77"/>possibile, quod Angelus virtute
+          <lb ed="#V" n="78"/>sua naturali habeat in uno 
+          in<lb ed="#V" break="no" n="79"/>stanti temporis nostri et sui, 
+          plu<lb ed="#V" break="no" n="80"/>ra ubi sibi aequalia, et hoc 
+          decla<lb ed="#V" break="no" n="81"/>rat exemplum de gravi, quod ipsi
+          <lb ed="#V" n="82"/>addueunt ad propositum.
+        </p>
+        <p xml:id="jdso8u-d1e1683-d1e473">
+          <lb ed="#V" n="83"/>
+          <ref xml:id="jdso8u-d1e1683-Rd1e477">Henricus quodlibeto 13. quest. 1.</ref> 
+          ima<lb ed="#V" break="no" n="84"/>ginatur. tale. exemplum ad. propositum
+          <lb ed="#V" n="85"/>suum de. motu. Angeli, utpote si. grave
+          <lb ed="#V" n="86"/>descenderet. juxta. aliquem. murum, ubi
+          <lb ed="#V" n="87"/>nullam resistentiam haberet plus quam
+          <pb ed="#V" n="548"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>in vacuo, vel ponatur, quod. spatium sit
+          <lb ed="#V" n="2"/>vacuum, et imaginatur ibi tria ubi 
+          si<lb ed="#V" break="no" n="3"/>bi aequalia, ut A. B C, non prius, 
+          in<lb ed="#V" break="no" n="4"/>quit, erit in. A, quam in DB, nec $n B,
+          <lb ed="#V" n="5"/>quam in C,nisi secundum imaginationem,
+          <lb ed="#V" n="6"/>non autem secundum rem seu 
+          durati<lb ed="#V" break="no" n="7"/>onem.
+        </p>
+        <p xml:id="jdso8u-d1e1683-d1e508">
+          <lb ed="#V" n="8"/>Si enim vacuum posset cedere
+          <lb ed="#V" n="9"/>corpori ibi posito, et ita esse 
+          mo<lb ed="#V" break="no" n="10"/>tus in vacuo, non esset 
+          intelligi<lb ed="#V" break="no" n="11"/>bile, quod grave esset in pluribus
+          <lb ed="#V" n="12"/>ubi, sibi aequalibus, sed prius in
+          <lb ed="#V" n="13"/>uno ubi quam in alio ubi, et prius
+          <lb ed="#V" n="14"/>in priori «5b; quam in posteriori,
+          <lb ed="#V" n="15"/>et prius duratione una pars 
+          gra<lb ed="#V" break="no" n="16"/>vis esset in spatio quam alia pars.
+        </p>
+        <p xml:id="jdso8u-d1e1683-d1e530">
+          <lb ed="#V" n="17"/>Quod etiam ipse adducit de 
+          cor<lb ed="#V" break="no" n="18"/>pore, quod pertransit infinita ubi
+          <lb ed="#V" n="19"/>in tempore finito, propter hoc
+          <lb ed="#V" n="20"/>quod non est nisi in potentia in
+          <lb ed="#V" n="21"/>illis ubi, bene concludit quod 
+          tem<lb ed="#V" break="no" n="22"/>pus Angeli bene potest esse ex
+          <lb ed="#V" n="23"/>partibus finitis ejusdem 
+          quantita<lb ed="#V" break="no" n="24"/>tis, et tamen in illo tempore 
+          po<lb ed="#V" break="no" n="25"/>test pertransire spatium  
+          infini<lb ed="#V" break="no" n="26"/>tum; sed non includit, quod in
+          <lb ed="#V" n="27"/>uno instanti possit pertransire
+          <lb ed="#V" n="28"/>tantum spatium, imo concludit
+          <lb ed="#V" n="29"/>oppositum, corpus enim ita 
+          per<lb ed="#V" break="no" n="30"/>transit totum spatium in aliquo
+          <lb ed="#V" n="31"/>tempore, quod in alia et alia 
+          par<lb ed="#V" break="no" n="32"/>te temporis pertransit aliam et
+          <lb ed="#V" n="33"/>aliam partem spatii.
+        </p>
+        <!--</div>
+          <div alias="scotus-l2d2q11-p3">-->
+        <p xml:id="jdso8u-d1e1683-d1e571">
+          <lb ed="#V" n="4" type="fixed=558"/>SCHOLIUM.
+        </p>
+        <p xml:id="jdso8u-d1e1683-d1e576">
+          <lb ed="#V" n="5"/>Rejicit tempus disretum ut superfluum,
+          <lb ed="#V" n="6"/>et sic ait motum Angeli mensurandum 
+          tem<lb ed="#V" break="no" n="7"/>pore communi. Et ad quaest. resolvit contra
+          <lb ed="#V" n="8"/>Henrieum,Angelum non posse se movere in
+          <lb ed="#V" n="9"/>instanti,ita ut simul ubi intermedia occupet,
+          <lb ed="#V" n="10"/>bene tamen, si talia ubi intermedia non 
+          oc<lb ed="#V" break="no" n="11"/>cupet, de quo quaest. seq.
+        </p>
+        <p xml:id="jdso8u-d1e1683-d1e595">
+          <lb ed="#V" n="12"/>Dico ergo ad quaestionem, (a)
+          <lb ed="#V" n="13"/>quod quia pluralitas, non est 
+          po<lb ed="#V" break="no" n="14"/>nenda sine necessitate, et non est
+          <lb ed="#V" n="15"/>necessitas, quare debeat poni 
+          tem<lb ed="#V" break="no" n="16"/>pus discretum mensuvans motum
+          <lb ed="#V" n="17"/>Angeli, nam quidquid salvatur per
+          <lb ed="#V" n="18"/>illud tempus discretum, salvabitur
+          <lb ed="#V" n="19"/>etiam per tempus continuum in
+          <lb ed="#V" n="20"/>communi, sicut. enim oportet eos
+          <lb ed="#V" n="21"/>dicere, quod si transeat in instanti,
+          <lb ed="#V" n="22"/>non potest immediate habere
+          <lb ed="#V" n="23"/>alium transitum instantaneum, ita
+          <lb ed="#V" n="24"/>potest poni si transeat instantanee
+          <lb ed="#V" n="25"/>in instanti temporis continui, ita
+          <lb ed="#V" n="26"/>quod licet post illud instans possit
+          <lb ed="#V" n="27"/>habere mctum continuum in 
+          tem<lb ed="#V" break="no" n="28"/>pore habito, non tamen potest 
+          ha<lb ed="#V" break="no" n="29"/>bere transitum instantaneum 
+          im<lb ed="#V" break="no" n="30"/>mediatum ; non ergo est 
+          inconve<lb ed="#V" break="no" n="31"/>niens ponere Angelum, inquantum
+          <lb ed="#V" n="32"/>participat conditionem 
+          corpora<lb ed="#V" break="no" n="33"/>lem, id est, quae potest esse 
+          ejus<lb ed="#V" break="no" n="34"/>dem rationis aliquo modo in 1pso,
+          <lb ed="#V" n="35"/>etetiam in corpore,quod etiam 
+          par<lb ed="#V" break="no" n="36"/>ticipet mensuram corporis aliquo
+          <lb ed="#V" n="37"/>modo. Inquantum autem movetur
+          <lb ed="#V" n="38"/>localiter, participat ubi, quod est
+          <lb ed="#V" n="39"/>conditio, et passio corporalis 
+          ali<lb ed="#V" break="no" n="40"/>quo modo ejudem rationis in ipso
+          <lb ed="#V" n="41"/>etincorpore; ergo etiam potest
+          <lb ed="#V" n="42"/>mensurari mensura primi 
+          corpo<lb ed="#V" break="no" n="43"/>ris moti.
+        </p>
+        <p xml:id="jdso8u-d1e1683-d1e667">
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="44"/>Et si objicias (b) quod potest 
+          mo<lb ed="#V" break="no" n="45"/>veri stante eocelo; ergo non 
+          o<lb ed="#V" break="no" n="46"/>portet motum ejus esse in 
+          tem<lb ed="#V" break="no" n="47"/>pore.
+        </p>
+        <p xml:id="jdso8u-d1e1683-d1e680">
+          <lb ed="#V" n="48"/>Respondeo, (c) ita stante coelo, Au
+          <lb ed="#V" n="49"/>poterit Petrus post resurrectio- ^
+          <lb ed="#V" n="50"/>nem ambulare, et tamen ista 
+          am<lb ed="#V" break="no" n="51"/>bulatio non fingetur esse in 
+          tempo<lb ed="#V" break="no" n="52"/>re quodam alio a communi 
+          tem<lb ed="#V" break="no" n="53"/>pore nostro continuo. Similiter
+          <lb ed="#V" n="54"/>etiam non existente primo motu
+          <lb ed="#V" n="55"/>coli, mensuratur quidem quies.
+          <lb ed="#V" n="56"/>ipsius motus coeli potentialiter (
+          si<lb ed="#V" break="no" n="57"/>cut dictum est prius) tempore
+          <lb ed="#V" n="58"/>illo quo motus primus 
+          mensurare<lb ed="#V" break="no" n="59"/>tur, si esset positive et. 
+          actuali<lb ed="#V" break="no" n="60"/>ter, et in illo tempore potential
+          <lb ed="#V" n="61"/>potest mensurari motus alius tunc
+          <lb ed="#V" n="62"/>actualiter existens, ita quod non
+          <lb ed="#V" n="63"/>est necesse mensuratum a motu
+          <lb ed="#V" n="64"/>primi eooli dependere in esse, vel
+          <lb ed="#V" n="65"/>essentia a motu illo, sicut fuit 
+          mo<lb ed="#V" break="no" n="66"/>tus sub tempore Josue, stante c
+          <lb ed="#V" n="67"/>coelo, quia mensuratio ista 
+          quan<lb ed="#V" break="no" n="68"/>ti per quantum, ut aequalis per
+          <lb ed="#V" n="69"/>equale, non est per aliquid, a
+          <lb ed="#V" n="70"/>quo mensuratum essentialiter 
+          de<lb ed="#V" break="no" n="71"/>pendeat, sicut est mensuris quid- €
+          <lb ed="#V" n="72"/>ditativis, sed tantum sufficit, quod e
+          <lb ed="#V" n="73"/>motus iste, quando est, possit di- n
+          <lb ed="#V" n="74"/>stincte cognosci secundum quan- .
+          <lb ed="#V" n="75"/>titatem suam ex cognitione 
+          distin<lb ed="#V" break="no" n="76"/>cta temporis, et hoc vel actualis
+          <lb ed="#V" n="77"/>vel potentialis; et ita dico, quod
+          <lb ed="#V" n="78"/>quando iste motus coeli non erit,
+          <lb ed="#V" n="79"/>poterit tamen alius motus 
+          mensu<lb ed="#V" break="no" n="80"/>rari per tempus hujus motus 
+          pri<lb ed="#V" break="no" n="81"/>mi coeli, inquantum scilicet motus
+          <lb ed="#V" n="82"/>ille posset fieri eum tanta parte
+          <lb ed="#V" n="83"/>illius motus si esset, et nunc est
+          <lb ed="#V" n="84"/>cum tanta parte quietis cum 
+          quan<lb ed="#V" break="no" n="85"/>ta pars motus posset esse.
+        </p>
+        <p xml:id="jdso8u-d1e1683-d1e765">
+          <lb ed="#V" n="86"/>(d) Hoc ergo supposito, quod non
+          <lb ed="#V" n="87"/>est necesse ponere pro motu
+          <pb ed="#V" n="559"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>Angeli aliam mensuram a tempore
+          <lb ed="#V" n="2"/>communi, cum quaeritur, utrum
+          <lb ed="#V" n="3"/>possit, mutare vel moveri in 
+          in<lb ed="#V" break="no" n="4"/>stanti? Dico, quod dupliciter 
+          po<lb ed="#V" break="no" n="5"/>test intelligi mutatio, et potest 
+          di<lb ed="#V" break="no" n="6"/>ci duplex mutatio: Una includens
+          <lb ed="#V" n="7"/>realitatem motus; alia prseeise
+          <lb ed="#V" n="8"/>includens realitatem termini 
+          mo<lb ed="#V" break="no" n="9"/>tus.
+        </p>
+        <p xml:id="jdso8u-d1e1683-d1e796">
+          <lb ed="#V" n="10"/>Exemplum hujus est, quod istud
+          <lb ed="#V" n="11"/>mutatur ab A ubi usque ad B ubi, 
+          po<lb ed="#V" break="no" n="12"/>test intelligi dupliciter: Vel quod
+          <lb ed="#V" n="13"/>simul habeat omnia ubi 
+          interme<lb ed="#V" break="no" n="14"/>dia, sicut haberet, si praecise 
+          mo<lb ed="#V" break="no" n="15"/>veretur successive; vel quod illa
+          <lb ed="#V" n="16"/>mutatione praecise haberet 
+          ulti<lb ed="#V" break="no" n="17"/>mum «ubi, sicut haberet, si illa 
+          mu<lb ed="#V" break="no" n="18"/>tatio esset ultimus terminus 
+          mo<lb ed="#V" break="no" n="19"/>tus. Primo modo contradicendo 
+          se<lb ed="#V" break="no" n="20"/>cundae opinioni, non video qualiter
+          <lb ed="#V" n="21"/>Angelus virtute naturali potest
+          <lb ed="#V" n="22"/>mutari vel moveri in instanti, quia
+          <lb ed="#V" n="23"/>non videtur quod virtute sua 
+          na<lb ed="#V" break="no" n="24"/>turali potest habere plura wh
+          <lb ed="#V" n="25"/>eequalia.
+        </p>
+        <p xml:id="jdso8u-d1e1683-d1e833">
+          <lb ed="#V" n="26"/>Secundo modo, non videtur 
+          in<lb ed="#V" break="no" n="27"/>conveniens, quin posset mutari in
+          <lb ed="#V" n="28"/>instanti, quia quod terminus 
+          mo<lb ed="#V" break="no" n="29"/>tus non statim inducatur, haec est
+          <lb ed="#V" n="30"/>ex imperfectione virtutis ipsius
+          <lb ed="#V" n="31"/>moventis, quae imperfectio non est
+          <lb ed="#V" n="32"/>attribuenda Angelo, nisi aliqua 
+          ne<lb ed="#V" break="no" n="33"/>cessitas appareret, quia 
+          dignifi<lb ed="#V" break="no" n="34"/>canda est natura, quantum 
+          appa<lb ed="#V" break="no" n="35"/>rentia permittunt.
+        </p>
+        <p xml:id="jdso8u-d1e1683-d1e858">
+          <lb ed="#V" n="36"/>(e) Ad argumentum in 
+          opposi<lb ed="#V" break="no" n="37"/>tum dico, quod illa consequentia
+          <lb ed="#V" n="38"/>Philosophi tenet ex hoc, quod in
+          <lb ed="#V" n="39"/>antecedente includitur mensuram
+          <lb ed="#V" n="40"/>esse divisibilem per hoc, quod 
+          po<lb ed="#V" break="no" n="41"/>nitur in eo. In quaeumque autem
+          <lb ed="#V" n="42"/>mensura divisibili potest aliqua
+          <lb ed="#V" n="43"/>virtus aliquid facere, major potest
+          <lb ed="#V" n="44"/>facere in. minori ; sed in isto ante-
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>cedente, Angelus mutatur in 
+          indi<lb ed="#V" break="no" n="46"/>visibili, non includitur esse 
+          divisi<lb ed="#V" break="no" n="47"/>bile. Hzec igitur consequentia: 
+          mo<lb ed="#V" break="no" n="48"/>vetur in instanti, igitur aliquid
+          <lb ed="#V" n="49"/>potest moveri in minori, tenet non
+          <lb ed="#V" n="50"/>tantum ex propositionibus veris
+          <lb ed="#V" n="51"/>et ex natura rei, sed ex aliqua 
+          fal<lb ed="#V" break="no" n="52"/>sa, qua includitur in illo 
+          antece<lb ed="#V" break="no" n="53"/>dente, est enim ista vera ex natura
+          <lb ed="#V" n="54"/>rei, quidquid causat aliqua virtus
+          <lb ed="#V" n="55"/>in mensura divisibili, major virtus
+          <lb ed="#V" n="56"/>potest hoc causare in mensura 
+          mi<lb ed="#V" break="no" n="57"/>nori; sed minor, quae erit ibi 
+          su<lb ed="#V" break="no" n="58"/>menda subilla majori vera, non
+          <lb ed="#V" n="59"/>est vera ex natura rei, sed tantum
+          <lb ed="#V" n="60"/>ex hypothesi ista, videlicet quod
+          <lb ed="#V" n="61"/>motus est in instanti. Si autem 
+          di<lb ed="#V" break="no" n="62"/>catur Angelum mutari in instanti,
+          <lb ed="#V" n="63"/>et per haec debeat inferri, quod 
+          ali<lb ed="#V" break="no" n="64"/>qua virtus debeat ipsum mutare in
+          <lb ed="#V" n="65"/>minori quam in instanti; minor,
+          <lb ed="#V" n="66"/>qua ibi erit sumenda sub majori
+          <lb ed="#V" n="67"/>illa vera, non erit vera ex natura
+          <lb ed="#V" n="68"/>rei, nec ex hypothesi, et ideo 
+          con<lb ed="#V" break="no" n="69"/>sequentia non valet. Et ex hoc 
+          pa<lb ed="#V" break="no" n="70"/>tet, quod multa consequenti: 
+          en<lb ed="#V" break="no" n="71"/>thymematiece tenent non praecise
+          <lb ed="#V" n="72"/>virtute alicujus vera 
+          subintelle<lb ed="#V" break="no" n="73"/>ctae, sed quandoque virtute 
+          alicu<lb ed="#V" break="no" n="74"/>jus false subintellectz?e, dum 
+          ta<lb ed="#V" break="no" n="75"/>men includatur in antecedente.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

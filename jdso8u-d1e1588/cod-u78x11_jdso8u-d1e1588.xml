@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2024-08-11">August 11, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x11">Vives, Paris, 1893, volume 11</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-08-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="279"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e1588"><!-- scotus-l2d2q3-p1 -->
+        <head xml:id="jdso8u-d1e1588-Hd1e101">Quaestio 3</head>
+        <head xml:id="jdso8u-d1e1588-Hd1e103" type="question-title">Utrum omnium aeviternorum sit unum aevum</head>
+        <p xml:id="jdso8u-d1e1588-d1e106">
+          <pb ed="#V" n="279"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1" type="fixed=279"/>QUESTIO III.
+        </p>
+        <p xml:id="jdso8u-d1e1588-d1e115">
+          <lb ed="#V" n="2"/>Utrum omnium aeviternorum sit unum
+          <lb ed="#V" n="3"/>aevum.
+        </p>
+        <p xml:id="jdso8u-d1e1588-d1e122">
+          <lb ed="#V" n="4"/>Alensis, D. Bonavent. D. Thom. Henric. ei dd.
+          <lb ed="#V" n="5"/>ci!at. q. 1. Vasq. 1. p. d. 34. Vide Scot. in
+          <lb ed="#V" n="6"/>Theorem. S In simul existentibus tempore,
+        </p>
+        <p xml:id="jdso8u-d1e1588-d1e132">
+          <lb ed="#V" n="7"/>Quod non (a) quia  tunc illud esset
+        </p>
+        <p xml:id="jdso8u-d1e1588-d1e137">
+          <lb ed="#V" n="8"/>in uno subjecto, quo destructo vel
+          <lb ed="#V" n="9"/>mutato, mutarentur omnia alia
+          <lb ed="#V" n="10"/>aeviterna, quod videtur 
+          inconve<lb ed="#V" break="no" n="11"/>niens. Et similiter destructis aliis
+          <lb ed="#V" n="12"/>videtur illud mutari, quia non esset
+          <lb ed="#V" n="13"/>ineo svum respectu aliorum.
+          <lb ed="#V" n="14"/>JA Contra, (b) unum est tempus 
+          om<lb ed="#V" break="no" n="15"/>nium temporalium, 4. PAys. ergo
+          <lb ed="#V" n="16"/>unum avum omnium 
+          aeviterno<lb ed="#V" break="no" n="17"/>rum. |
+        </p>
+        <p xml:id="jdso8u-d1e1588-d1e161">
+          <lb ed="#V" n="18"/>Hic dicitur quod tot sunt seva,
+          <lb ed="#V" n="19"/>quot aeviterna, ita quod in quolibet
+          <lb ed="#V" n="20"/>ceviterno est aliquod indivisibile
+          <lb ed="#V" n="21"/>proprium, pertinens ad genus
+          <lb ed="#V" n="22"/>Quantitatis, et ex multis talibus
+          <lb ed="#V" n="23"/>potest constitui unus numerus,
+          <lb ed="#V" n="24"/>sicut recitatum est prius.
+        </p>
+        <!--</div>
+          <div alias="scotus-l2d2q3-p2">-->
+        <p xml:id="jdso8u-d1e1588-d1e181">
+          <lb ed="#V" n="43" type="fixed=279"/>SCHOLIUM.
+        </p>
+        <p xml:id="jdso8u-d1e1588-d1e186">
+          <lb ed="#V" n="44"/>De aevo externo, ponit tres modos dicendi.
+          <lb ed="#V" n="45"/>Primus, negat ullum aeviternum esse 
+          alte<lb ed="#V" break="no" n="46"/>rius evum. Secundus, ait omnem 
+          Intelligen<lb ed="#V" break="no" n="47"/>tiam superiorem, esse ::vum seu mensuram
+          <lb ed="#V" n="48"/>respectu sui inferioris, et sic infimus 
+          An<lb ed="#V" break="no" n="49"/>gelus nullum mensurat, nec supremus ab
+          <lb ed="#V" n="50"/>ullo mensuratur. Tertius, ait tantum 
+          supre<lb ed="#V" break="no" n="51"/>mum Angelum esse aliorum :zevum, hune
+          <lb ed="#V" n="52"/>sequitur D. Thom. 1. p. quaesst 10. artic. 6.
+          <lb ed="#V" n="53"/>et alii, sed quaxsstio parum habet realitatis,
+          <lb ed="#V" n="54"/>et contentio videtur vocalis.
+        </p>
+        <p xml:id="jdso8u-d1e1588-d1e213">
+          <lb ed="#V" n="55"/>Sed ista positio ponere videtur
+          <lb ed="#V" n="56"/>pluralitatem sine necessitate, ideo
+          <lb ed="#V" n="57"/>videtur dicendum contra eam,
+          <lb ed="#V" n="58"/>sicut in praecedenti quaestione 
+          di<lb ed="#V" break="no" n="59"/>ctum est, quia aut s:evum vocatur
+          <lb ed="#V" n="60"/>actualis existentia Angeli 
+          aeviter<lb ed="#V" break="no" n="61"/>ni, et hoc modo, quot sunt. Angeli
+          <lb ed="#V" n="62"/>tot sunt aeva; aut dicitur aliquid
+          <lb ed="#V" n="63"/>intrinsecum . Angelo actualiter
+          <lb ed="#V" n="64"/>existenti, mensurans ipsam 
+          exi<lb ed="#V" break="no" n="65"/>stentiam, et hoc modo asevum nihil
+          <lb ed="#V" n="66"/>est, sicut probatum est in 
+          praece<lb ed="#V" break="no" n="67"/>denti quaestione. Aut s»evum dicitur
+          <lb ed="#V" n="68"/>aliquid extrinsecum aliud ab 
+          actua<lb ed="#V" break="no" n="69"/>li existentia Angeli s:eviterni, quod
+          <lb ed="#V" n="70"/>tamen extrinsecum ex natura sui
+          <lb ed="#V" n="71"/>natum est mensurare actualem
+          <lb ed="#V" n="72"/>existentiam ipsius Angeli 
+          xviter<lb ed="#V" break="no" n="73"/>ni; et tunc (a) potest poni 
+          triplici<lb ed="#V" break="no" n="74"/>ter, quia vel potest negari omne
+          <lb ed="#V" n="75"/>tale extrinsecum ex natura sui
+          <lb ed="#V" n="76"/>natum mensurare actualem 
+          exi<lb ed="#V" break="no" n="77"/>stlentiam ipsius aeviterni, ponendo
+          <lb ed="#V" n="78"/>omnia aeviterna habere 
+          existen<lb ed="#V" break="no" n="79"/>tiam aeque invariabileimn, quia licet
+          <lb ed="#V" n="80"/>una existentia sit perfectior alia,
+          <pb ed="#V" n="280"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>et per hoc posset eam  
+          mensu<lb ed="#V" break="no" n="2"/>rare tali mensuratione  
+          quiddi<lb ed="#V" break="no" n="3"/>tativa, sicut loquitur  
+          Philoso<lb ed="#V" break="no" n="4"/>phus 10. Met. quod primum. in. omni
+          <lb ed="#V" n="5"/>genere, etc. tamen  mensuratione
+          <lb ed="#V" n="6"/>durativa, quae dicitur aliquo modo
+          <lb ed="#V" n="7"/>reduci ad genus Quantitatis, non
+          <lb ed="#V" n="8"/>videtur una existentia invariabilis
+          <lb ed="#V" n="9"/>esse invariabilior alia, quia 
+          cui<lb ed="#V" break="no" n="10"/>libet omnino repugnat successio
+          <lb ed="#V" n="11"/>partium in ipsa; et  tunc diceretur,
+          <lb ed="#V" n="12"/>quod cum aevum ponatur 
+          mensu<lb ed="#V" break="no" n="13"/>raalicujus inquantum durans est
+          <lb ed="#V" n="14"/>invariabiliter, et illud sic 
+          exlrin<lb ed="#V" break="no" n="15"/>secum, oporteret esse notius ex
+          <lb ed="#V" n="16"/>natura rei secundum rationem
+          <lb ed="#V" n="17"/>invariabilitatis, et cum non sit
+          <lb ed="#V" n="18"/>talis differentia inter existentias
+          <lb ed="#V" n="19"/>ceeviternorum, nihil sic erit 2o»vum.
+        </p>
+        <p xml:id="jdso8u-d1e1588-d1e317">
+          <lb ed="#V" n="20"/>Vel alio modo potest dici, (b)
+          <lb ed="#V" n="21"/>quod quaelibet existentia superior
+          <lb ed="#V" n="22"/>est simplieior qualibet 
+          existen<lb ed="#V" break="no" n="23"/>tia inferiori, et nata certiicare de
+          <lb ed="#V" n="24"/>ipsa existentia inferiori ex 
+          natu<lb ed="#V" break="no" n="25"/>ra rei, et pro tanto qualibet 
+          exi<lb ed="#V" break="no" n="26"/>stentia superior posset dici saevum
+          <lb ed="#V" n="27"/>respectu inferioris; et  tunc tot
+          <lb ed="#V" n="28"/>sunt seva, quot saviterna, excepto
+          <lb ed="#V" n="29"/>hoc, quod in ultimo aeviterno non
+          <lb ed="#V" n="30"/>est saevum, quia existentia ejus 
+          nul<lb ed="#V" break="no" n="31"/>lam aliam existentiam 
+          invariabi<lb ed="#V" break="no" n="32"/>lem mensurat; et similiter 
+          exi<lb ed="#V" break="no" n="33"/>stentia supremi Angeli est tantum
+          <lb ed="#V" n="34"/>sevum respectu aliorum  
+          inferi<lb ed="#V" break="no" n="35"/>orum, quia existentia ejus 
+          inva<lb ed="#V" break="no" n="36"/>riabiliter mensurat omnes alios,
+          <lb ed="#V" n="37"/>et non habet sevum aliquod isto
+          <lb ed="#V" n="38"/>modo, quia nullam aliam 
+          existen<lb ed="#V" break="no" n="39"/>tiam habet superiorem se.
+        </p>
+        <p xml:id="jdso8u-d1e1588-d1e363">
+          <lb ed="#V" n="40"/>Vel potest dici tertio modo (o),
+          <lb ed="#V" n="41"/>quod si aevum non dicatur 
+          quae<lb ed="#V" break="no" n="42"/>cumque existentia sinrplicior alia,
+          <lb ed="#V" n="43"/>et notior nata certificare de ea, sed
+          <lb ed="#V" n="44"/>illa simplieissima, quae ex ration
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>sua formali, et in se est certis-;
+          <lb ed="#V" n="46"/>sima, et primo nota nata 
+          certifi<lb ed="#V" break="no" n="47"/>care de aliis. Hoc modo potest con- ,
+          <lb ed="#V" n="48"/>cedi tantum unum 2zevum, scilicet !
+          <lb ed="#V" n="49"/>existentia primi Angeli respectu
+          <lb ed="#V" n="50"/>omnium aliorum  aeviternorum.
+          <lb ed="#V" n="51"/>Quacumque autem istarum  
+          vi<lb ed="#V" break="no" n="52"/>arum ponatur, saltem non est in
+          <lb ed="#V" n="53"/>aliquo aeviterno suum aevum, nec
+          <lb ed="#V" n="54"/>in ultimo aeviterno est aliquod
+          <lb ed="#V" n="55"/>aevum; nec primum sive 
+          supre<lb ed="#V" break="no" n="56"/>mum aeviternum,in quo est 
+          pri<lb ed="#V" break="no" n="57"/>mum svum, mensuratur aliquo
+          <lb ed="#V" n="58"/>saevo, quia nihil tale habet in se ex
+          <lb ed="#V" n="59"/>quaestione prsiecedenti, nec in alio
+          <lb ed="#V" n="60"/>ex natura rei, nata est certificari,
+          <lb ed="#V" n="61"/>quia qusadibet alia est minus
+          <lb ed="#V" n="62"/>certa.
+        </p>
+        <p xml:id="jdso8u-d1e1588-d1e418">
+          <lb ed="#V" n="63"/>(d) Contra istud primo arguitur,
+          <lb ed="#V" n="64"/>quia (une sequeretur, si ita est,
+          <lb ed="#V" n="65"/>quod primus motus non 
+          mensura<lb ed="#V" break="no" n="66"/>bitur tempore, sicut nec primum
+          <lb ed="#V" n="67"/>ceviternum mensuratur aevo, 
+          vide<lb ed="#V" break="no" n="68"/>tur enim similis comparatio hinc
+          <lb ed="#V" n="69"/>et inde. Conceditur consequens
+          <lb ed="#V" n="70"/>propter istam rationem, quia 
+          se<lb ed="#V" break="no" n="71"/>cundum Philosophum 4. Phys. 
+          Om<lb ed="#V" break="no" n="72"/>ne quod est in tempore, exceditur a
+          <lb ed="#V" n="73"/>tempore, et. corrumpitur et. tabescit. in
+          <lb ed="#V" n="74"/>tempore, et ideo necessaria et. 
+          impossibi<lb ed="#V" break="no" n="75"/>lia non sunt in. tempore. Primus 
+          igi<lb ed="#V" break="no" n="76"/>tur motus, qui non corrumpitur
+          <lb ed="#V" n="77"/>in tempore, nec" e6xceditur ^al bep
+          <lb ed="#V" n="78"/>nonestintempore, nec 
+          mensura<lb ed="#V" break="no" n="79"/>tur tempore.
+        </p>
+        <p xml:id="jdso8u-d1e1588-d1e457">
+          <lb ed="#V" n="80"/>Sed ista ratio (e) non valet, quia
+          <lb ed="#V" n="81"/>aliquid esse in tempore est sicut
+          <lb ed="#V" n="82"/>aliquid esse in numero, non est
+          <lb ed="#V" n="83"/>autem de ratione existentis in
+          <lb ed="#V" n="84"/>numero, quod excedatur a 
+          nume<lb ed="#V" break="no" n="85"/>ro, imo si accipiatur primum 
+          nu<lb ed="#V" break="no" n="86"/>meratum,hoc est adeequatum 
+          nu<lb ed="#V" break="no" n="87"/>meratum , illud adaequatur ipsi
+          <lb ed="#V" n="88"/>numero. Sed de ratione numerati
+          <pb ed="#V" n="281"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>est, quod pars ejus excedatur a 
+          nu<lb ed="#V" break="no" n="2"/>mero, quia ipsum est majus sua
+          <lb ed="#V" n="3"/>parte, et ipsum totum est 
+          adaequa<lb ed="#V" break="no" n="4"/>tum numero; igitur pars ejus
+          <lb ed="#V" n="5"/>exceditur a numero. Ita dico de 
+          en<lb ed="#V" break="no" n="6"/>tein tempore, quod ex quo omne
+          <lb ed="#V" n="7"/>tale ens est de necessitate 
+          varia<lb ed="#V" break="no" n="8"/>bile secundum aliud et aliud esse,
+          <lb ed="#V" n="9"/>necesse est secundum aliquid sui,
+          <lb ed="#V" n="10"/>puta secundum aliquam 
+          dispositi<lb ed="#V" break="no" n="11"/>onem quam habet ex parte 
+          tempo<lb ed="#V" break="no" n="12"/>ris, quod execedatur a (tempore,
+          <lb ed="#V" n="13"/>quia aliter se habebit in alia parte
+          <lb ed="#V" n="14"/>temporis, et ideo impossibilia
+          <lb ed="#V" n="15"/>et necessaria non sunt in 
+          tem<lb ed="#V" break="no" n="16"/>pore, quia non est alia et alia
+          <lb ed="#V" n="17"/>dispositio in eis ut possint 
+          ex<lb ed="#V" break="no" n="18"/>cedi a tempore, vel aliter se 
+          ha<lb ed="#V" break="no" n="19"/>bere. Primus autem motus, 
+          li<lb ed="#V" break="no" n="20"/>cet secundum se totum non 
+          exce<lb ed="#V" break="no" n="21"/>datur a tempore, tamen 
+          excedi<lb ed="#V" break="no" n="22"/>tur a tempore secundum 
+          quamli<lb ed="#V" break="no" n="23"/>bet ejus partem, et hoc sufficit
+          <lb ed="#V" n="24"/>ad hoc, ut vere dicatur 
+          mensu<lb ed="#V" break="no" n="25"/>rari tempore, et videtur 
+          incon<lb ed="#V" break="no" n="26"/>veniens, quod tempus cum sit
+          <lb ed="#V" n="27"/>mensura uniformis, non habeat
+          <lb ed="#V" n="28"/>aliquod primum mensuratum 
+          u<lb ed="#V" break="no" n="29"/>niforme, tale videtur primus
+          <lb ed="#V" n="30"/>motus.
+        </p>
+        <p xml:id="jdso8u-d1e1588-d1e548">
+          <lb ed="#V" n="31"/>Tunc ad argumentum, nego (f)
+          <lb ed="#V" n="32"/>consequentiam, quia non est 
+          simi<lb ed="#V" break="no" n="33"/>lis ratio hic et ibi. Similiter (9)
+          <lb ed="#V" n="34"/>etiam primus motus mensuratur
+          <lb ed="#V" n="35"/>tempore, hoc est, quia vel motus
+          <lb ed="#V" n="36"/>ponitur aliud tempore, propter 
+          il<lb ed="#V" break="no" n="37"/>lam rationem, qua superius 
+          posi<lb ed="#V" break="no" n="38"/>ta est de ^4. Physic. vel ponendo
+          <lb ed="#V" n="39"/>tempus esse idem motui, potest 
+          il<lb ed="#V" break="no" n="40"/>le motus mensurare se, non 
+          qui<lb ed="#V" break="no" n="41"/>dem primo, sed secundum partem,
+          <lb ed="#V" n="42"/>qua nota est nata mensurare 
+          to<lb ed="#V" break="no" n="43"/>tum, sicut dicit Philosophus 4. 
+          PAy<lb ed="#V" break="no" n="44"/>sic. tempus mensurat ipsum mo-
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>tum in determinando quemdam
+          <lb ed="#V" n="46"/>motum, qui postea mensurabit 
+          to<lb ed="#V" break="no" n="47"/>tum motum, sicut longitudinem
+          <lb ed="#V" n="48"/>cubitus in. determinando aliquam
+          <lb ed="#V" n="49"/>magnitudinem, qua  metietur 
+          to<lb ed="#V" break="no" n="50"/>tum. Neutra tamen ratio potest
+          <lb ed="#V" n="51"/>esse in proposito, quia non est 
+          ali<lb ed="#V" break="no" n="52"/>quid in aeviterno primo aliud ab
+          <lb ed="#V" n="53"/>existentia sua, nec ipsa existentia
+          <lb ed="#V" n="54"/>sua est quanta, ut mensurare 
+          pos<lb ed="#V" break="no" n="55"/>sit se ipsam secundum aliquam
+          <lb ed="#V" n="56"/>partem notam sibi.
+        </p>
+        <p xml:id="jdso8u-d1e1588-d1e610">
+          <lb ed="#V" n="57"/>(hb) Ad primum argumentum dico,
+          <lb ed="#V" n="58"/>quod destructo primo non sequitur:
+          <lb ed="#V" n="59"/>alia mutari, nisi secundum 
+          quam<lb ed="#V" break="no" n="60"/>dam relationem in eis, puta, quia
+          <lb ed="#V" n="61"/>tunc non erunt mensurata a primo,
+          <lb ed="#V" n="62"/>sicut prius fuerant mensurata, nec
+          <lb ed="#V" n="63"/>est inconveniens ponere talem 
+          mu<lb ed="#V" break="no" n="64"/>tationem: in aliquo, quod prius
+          <lb ed="#V" n="65"/>habuit relationem, et modo non.
+        </p>
+        <p xml:id="jdso8u-d1e1588-d1e632">
+          <lb ed="#V" n="66"/>Similiter quod infertur, quod 
+          il<lb ed="#V" break="no" n="67"/>lud mutabitur destructis aliis, 
+          di<lb ed="#V" break="no" n="68"/>co quod non sequitur, quia prius
+          <lb ed="#V" n="69"/>ad illa alia non habuit relationem
+          <lb ed="#V" n="70"/>realem, sed tantum rationis, quia
+          <lb ed="#V" n="71"/>non se habuit ad illa, sicut 
+          mensu<lb ed="#V" break="no" n="72"/>ra dependens ad mensuraita, sed 
+          si<lb ed="#V" break="no" n="73"/>cut excedens, et .ideo destructis
+          <lb ed="#V" n="74"/>aliis, non mutabitur absolute, nec
+          <lb ed="#V" n="75"/>secundum aliquam relationem 
+          re<lb ed="#V" break="no" n="76"/>alem, quia relatio realis prius fuit
+          <lb ed="#V" n="77"/>in eo ad illa.
+        </p>
+        <p xml:id="jdso8u-d1e1588-d1e661">
+          <lb ed="#V" n="78"/>(i) Ad argumentum in oppositum
+          <lb ed="#V" n="79"/>potest dici quod loquendo de aevo,
+          <lb ed="#V" n="80"/>prout dicit aliquid extrinsecum
+          <lb ed="#V" n="81"/>aliud ab existentia Angeli 
+          mensu<lb ed="#V" break="no" n="82"/>rata, prima opinio sola negat
+          <lb ed="#V" n="83"/>unum aevum esse illo modo ; 
+          secun<lb ed="#V" break="no" n="84"/>da autem et tertia concedunt unum
+          <lb ed="#V" n="85"/>evum, licet secunda non concedat
+          <lb ed="#V" n="86"/>unum saevum tantum.
+        </p>
+        <p xml:id="jdso8u-d1e1588-d1e683">
+          <lb ed="#V" n="87"/>(j) Et  tunc si arguas,quod tantum
+          <lb ed="#V" n="88"/>est unum tempus omnium Lempo-
+          <pb ed="#V" n="282"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>ralium ; ergo debet esse tantum
+          <lb ed="#V" n="2"/>unum aevum omnium 
+          zsviterno<lb ed="#V" break="no" n="3"/>rum. Consequentia non valet, quia
+          <lb ed="#V" n="4"/>non omnis motus superior habet
+          <lb ed="#V" n="5"/>rationem mensuras ex natura rei
+          <lb ed="#V" n="6"/>respectu inferioris, nec habet
+          <lb ed="#V" n="7"/>conditiones mensure ex natura
+          <lb ed="#V" n="8"/>rei, sicut habet quaelibet existentia
+          <lb ed="#V" n="9"/>superior respectu inferioris, 
+          lo<lb ed="#V" break="no" n="10"/>quendo de existentiis 
+          invariabili<lb ed="#V" break="no" n="11"/>bus Angelorum, et ideo non est
+          <lb ed="#V" n="12"/>similis ratio hic et ibi, scilicet
+          <lb ed="#V" n="13"/>quod sicut ibi tantum est unum
+          <lb ed="#V" n="14"/>tempus omnium temporalium,
+          <lb ed="#V" n="15"/>quod ita sit hic tantum unum
+          <lb ed="#V" n="16"/>aevum omnium aviternorum.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

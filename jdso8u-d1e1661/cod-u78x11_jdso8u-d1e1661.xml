@@ -1,0 +1,3205 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 5 (9)</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 5 (9)</title>
+          <date when="2024-08-11">August 11, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x11">Vives, Paris, 1893, volume 11</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-08-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="380"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e1661"><!-- scotus-l2d2q9-p1 -->
+        <head xml:id="jdso8u-d1e1661-Hd1e101">Quaestio 5 (9)</head>
+        <head xml:id="jdso8u-d1e1661-Hd1e103" type="question-title">Utrum angelus possit moveri de loco ad locum motu
+          continuo</head>
+        <p xml:id="jdso8u-d1e1661-d1e106">
+          <lb ed="#V" n="60" type="fixed=379"/>QUAESTIO IX.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e111">
+          <lb ed="#V" n="61"/>Utrum (a) Angelus possit moveri de loco
+          <lb ed="#V" n="62"/>ad locum motu continuo?
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e118">
+          <lb ed="#V" n="63"/>Alensis 2. part. q. 33. membr. 1. 2. ubi Cajet.
+          <lb ed="#V" n="64"/>D. Bonav. 1. d. 37. 2. d. 2. q. 1. Richard.
+          <lb ed="#V" n="65"/>ürl. 94-9..1. D. Thom, 1. p. 4. 53. art, X.
+          <lb ed="#V" n="66"/>Herveus iract. de motu anq. q. 1. art. 1. 
+          Du<lb ed="#V" break="no" n="67"/>rand. :4. d. 37. q. 1. 2. p. /Egid. 2. d. 37.
+          <lb ed="#V" n="68"/>Bacon. 2.4.3. q.2. Vasq 1. p.d. 194. ipse
+          <lb ed="#V" n="69"/>Scot. aemp; Phys. q. 1.2. 3. et 2. Mel. q. aemp; 5.
+          <lb ed="#V" n="70"/>et 6. et 8. Mel. q. 3. et. de 1. princ. c. 3. in
+          <lb ed="#V" n="71"/>Theorem. S omnes forme ejusdem.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e141">
+          <lb ed="#V" n="72"/>Primo arguitur, quod non possit
+          <lb ed="#V" n="73"/>moveri, quia motus est actus. entis in ^
+          <lb ed="#V" n="74"/>potentia. secundum quod in potentia, €
+          <lb ed="#V" n="75"/>ex 3. Physicorum; whi autem vel
+          <lb ed="#V" n="76"/>locus non est actus Angeli, nec
+          <lb ed="#V" n="77"/>perfectio, quia omnis perfectio
+          <lb ed="#V" n="78"/>videtur esse nobilior perfectibili
+          <lb ed="#V" n="79"/>aliquo modo, non sic autem ubi
+          <lb ed="#V" n="80"/>respectu naturae Angelicae.
+        </p>
+        <!--</div>
+          <div alias="scotus-l2d2q9-p2">-->
+        <p xml:id="jdso8u-d1e1661-d1e165">
+          <lb ed="#V" n="30" type="fixed=380"/>SCHOLIUM.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e170">
+          <lb ed="#V" n="31"/>Arguit Angelum non posse moveri 
+          conti<lb ed="#V" break="no" n="32"/>nuo motu, et hoc duplici via. Prima, quia
+          <lb ed="#V" n="33"/>continuum videtur componi ex 
+          indivisibili<lb ed="#V" break="no" n="34"/>bus. Secunda, quia videtur componi ex 
+          mi<lb ed="#V" break="no" n="35"/>nimis, pro quibus varia loca Philosophi
+          <lb ed="#V" n="36"/>expendit.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e186">
+          <lb ed="#V" n="37"/>Secundo quod non possit moveri
+          <lb ed="#V" n="38"/>motu continuo arguitur, et primo
+          <lb ed="#V" n="39"/>in communi, quod nullum 
+          succes<lb ed="#V" break="no" n="40"/>sivum sit continuum, et hoc 
+          dupli<lb ed="#V" break="no" n="41"/>ci via probatur. Prima ex hoc
+          <lb ed="#V" n="42"/>quod omne fale componitur ex
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="43"/>indivisibilibus. Secunda, quia 
+          com<lb ed="#V" break="no" n="44"/>ponitur ex minimis. Pri mam 
+          con<lb ed="#V" break="no" n="45"/>sequentiam probat Philosophus, 6.
+          <lb ed="#V" n="46"/>Physic. quia indivisibile non potest
+          <lb ed="#V" n="47"/>continuari indivisibili, cum non
+          <lb ed="#V" n="48"/>habeat ultimum. Antecedens illud,
+          <lb ed="#V" n="49"/>scilicet quod successivum 
+          compo<lb ed="#V" break="no" n="50"/>natur ex indivisibilibus, probo 
+          du<lb ed="#V" break="no" n="51"/>pliciter: Primo, quia dividitur in
+          <lb ed="#V" n="52"/>indivisibilia; igitur componitur ex
+          <lb ed="#V" n="53"/>eis. Probatio hujus antecedentis :.
+          <lb ed="#V" n="54"/>possibile est ipsum dividi in illa.
+          <lb ed="#V" n="55"/>omnia, in quas est divisibile ; sub--
+          <lb ed="#V" n="56"/>Jectum videtur ineludere 
+          prezdi<lb ed="#V" break="no" n="57"/>catum hujus propositionis; et
+          <lb ed="#V" n="58"/>ex hoc videtur ulterius possibile
+          <lb ed="#V" n="59"/>ipsum esse divisum in omnibus, in
+          <lb ed="#V" n="60"/>quibus ipsum possibile est dividi.
+          <lb ed="#V" n="61"/>Ista consequentia probatur per
+          <lb ed="#V" n="62"/>illud 6. Physie. Quod impossibile est
+          <lb ed="#V" n="63"/>factum esse, impossibile est fieri, et 
+          ter<lb ed="#V" break="no" n="64"/>tio Metaph. et 9. de Generatione dicit
+          <lb ed="#V" n="65"/>Philosophus idem.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e254">
+          <lb ed="#V" n="66"/>Ulterius ista de possibili 
+          pona<lb ed="#V" break="no" n="67"/>tur in esse et aequetur, igitur esf
+          <lb ed="#V" n="68"/>actu divisum in illa omnia, in quae
+          <lb ed="#V" n="69"/>possibile est ipsum dividi, et ex
+          <lb ed="#V" n="70"/>hoc sequitur quod est divisum in
+          <lb ed="#V" n="71"/>indivisibilia, quia si non, non est
+          <lb ed="#V" n="72"/>divisum in omnibus, in quibus 
+          pos<lb ed="#V" break="no" n="73"/>set dividi, quia adhuc posset 
+          ul<lb ed="#V" break="no" n="74"/>terius dividi in partes illorum
+          <lb ed="#V" n="75"/>divisibilium.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e279">
+          <lb ed="#V" n="76"/>Secundo probo idem, quia 
+          suc<lb ed="#V" break="no" n="77"/>cessivi nihil est actu nisi 
+          indivisi<lb ed="#V" break="no" n="78"/>bile, quia si aliquid ejus divisibile
+          <lb ed="#V" n="79"/>esset actu, tunc simul esset 
+          suc<lb ed="#V" break="no" n="80"/>cessivum et non esset 
+          successi<lb ed="#V" break="no" n="81"/>vum; illo igitur indivisibili non
+          <lb ed="#V" n="82"/>existente actu, sed raptim tran:
+          <lb ed="#V" n="83"/>seunte, quaero quid succedit sibi?
+          <lb ed="#V" n="84"/>S1 aliquod indivisibile succedit sibi
+          <lb ed="#V" n="85"/>in continuo, habetur propositum,
+          <lb ed="#V" n="86"/>quod indivisibile sit immediatum
+          <pb ed="#V" n="381"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>indivisibili, et. sic continuum erit
+          <lb ed="#V" n="2"/>compositum ex indivisibilibus. Si
+          <lb ed="#V" n="3"/>non succedit sibi aliud indivisibile,
+          <lb ed="#V" n="4"/>igitur  tunc non erit actu, nam
+          <lb ed="#V" n="5"/>indivisibile ejus non est actu; et
+          <lb ed="#V" n="6"/>sicut assumptum est, successivum
+          <lb ed="#V" n="7"/>non est in actu, nisi quia aliquod
+          <lb ed="#V" n="8"/>indivisibile ejus est, igitur, etc.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e327">
+          <lb ed="#V" n="9"/>Secunda via est, quia 
+          componi<lb ed="#V" break="no" n="10"/>tur ex minimis; igitur non est
+          <lb ed="#V" n="11"/>continuum. Consequentia 
+          proba<lb ed="#V" break="no" n="12"/>tur, quia minimum simpliciter,
+          <lb ed="#V" n="13"/>quo scilicet nihil est minus 1pso,
+          <lb ed="#V" n="14"/>non habet partem ex qua sit, quia
+          <lb ed="#V" n="15"/>tunc illa esset minor eo; igitur est
+          <lb ed="#V" n="16"/>omnino non quantum, quia omne
+          <lb ed="#V" n="17"/>quantum habet partem minorem
+          <lb ed="#V" n="18"/>se, sed non quantum non potest
+          <lb ed="#V" n="19"/>continuari non quanto; ergo 
+          mi<lb ed="#V" break="no" n="20"/>nimum non jpotest continuari.
+          <lb ed="#V" n="21"/>Antecedens probatur et 
+          auctorita<lb ed="#V" break="no" n="22"/>tibus et ratione. Primo auctoritate
+          <lb ed="#V" n="23"/>Philosophi, 1. Physicorum. ubi 
+          ra<lb ed="#V" break="no" n="24"/>tiones sucze videntur contra 
+          Anaxa<lb ed="#V" break="no" n="25"/>coram inniti isti principio, quod
+          <lb ed="#V" n="26"/>est accipere minimum naturale,
+          <lb ed="#V" n="27"/>ut minimam carnem vel minimum
+          <lb ed="#V" n="28"/>ignem ; sed secundum ipsum 6. 
+          PAy<lb ed="#V" break="no" n="29"/>sicor. ejusdem rationis est. ipsum
+          <lb ed="#V" n="30"/>motum et magnitudinem et 
+          tem<lb ed="#V" break="no" n="31"/>pus componi ex indivisibilibus, et
+          <lb ed="#V" n="32"/>dividi in eis; igitur oportebit 
+          po<lb ed="#V" break="no" n="33"/>nere minimum motum et 
+          mini<lb ed="#V" break="no" n="34"/>mum tempus, sicut permanens
+          <lb ed="#V" n="35"/>minimum. Idem videtur haberi a
+          <lb ed="#V" n="36"/>Philosopho 2. de Anima, ubi vult
+          <lb ed="#V" n="37"/>quod omnium natura constantium,
+          <lb ed="#V" n="38"/>determinata est ratio 
+          magnitudi<lb ed="#V" break="no" n="39"/>nis et augmenti. Non solum autem
+          <lb ed="#V" n="40"/>permanentia sunt naturalia, sed
+          <lb ed="#V" n="41"/>etiam successiva; igitur habent
+          <lb ed="#V" n="42"/>determinatam parvitatem et 
+          ma<lb ed="#V" break="no" n="43"/>enitudinem.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e405">
+          <lb ed="#V" n="44"/>Patet idem etiam per Philoso-
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>phum in de Sensu et Sensato, in illa
+          <lb ed="#V" n="46"/>prima dubitatione, ubi videtur 
+          vel<lb ed="#V" break="no" n="47"/>le quod passiones naturales non?
+          <lb ed="#V" n="48"/>sunt divisibiles in infinitum. Et
+          <lb ed="#V" n="49"/>hoc videtur probare, quia tune
+          <lb ed="#V" n="50"/>sensus videretur posse intendi in
+          <lb ed="#V" n="51"/>infinitum, quia ad percipiendum
+          <lb ed="#V" n="52"/>minimum indivisibile requiritur
+          <lb ed="#V" n="53"/>acutior sensus in infinitum.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e431">
+          <lb ed="#V" n="54"/>Ratione autem probatur 
+          secun<lb ed="#V" break="no" n="55"/>do idem antecedens ex hoc, quod
+          <lb ed="#V" n="56"/>est dare primam partem motus;
+          <lb ed="#V" n="57"/>igitur et minimam. Consequentia
+          <lb ed="#V" n="58"/>patet, quia si quaelibet pars 
+          habe<lb ed="#V" break="no" n="59"/>ret minorem partem se, haberet
+          <lb ed="#V" n="60"/>etiam aliquid sui prius aliquo sui
+          <lb ed="#V" n="61"/>in infinitum. Antecedens istud de
+          <lb ed="#V" n="62"/>primitate, scilicet. quod contingat
+          <lb ed="#V" n="63"/>dare primam partem motus, 
+          osten<lb ed="#V" break="no" n="64"/>ditur auctoritatibus Philosophi, 1.
+          <lb ed="#V" n="65"/>Physicorum et 8. ubi dicit Philoso-.
+          <lb ed="#V" n="66"/>phus : Non enim si partibile in. 
+          infini<lb ed="#V" break="no" n="67"/>tum, est. quod alteratur, propter hoc et
+          <lb ed="#V" n="68"/>alteratio, sed velox fit, sicut. multoties
+          <lb ed="#V" n="69"/>densatio, ubi habet Commentator
+          <lb ed="#V" n="70"/>subito, et exponit, haec est, in 
+          in<lb ed="#V" break="no" n="71"/>stanti, et non in tempore.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e473">
+          <lb ed="#V" n="72"/>Et quasi objicit contra se,
+          <lb ed="#V" n="73"/>quia videtur hoc repugnare illi
+          <lb ed="#V" n="74"/>quod dicitur :n 6. scilicet. quod
+          <lb ed="#V" n="75"/>ante omne moveri est mutatum esse,
+          <lb ed="#V" n="76"/>et ante omne mutatum esse moveri. Et
+          <lb ed="#V" n="77"/>respondet solvendo, quod illud ibi
+          <lb ed="#V" n="78"/>intelligitur de motu inquantum
+          <lb ed="#V" n="79"/>continuus — est, et  divisibilis;
+          <lb ed="#V" n="80"/>istud autem intelligitur hic de 
+          mo<lb ed="#V" break="no" n="81"/>tu inquantum est generatus, sive
+          <lb ed="#V" n="82"/>productus ad actum.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e499">
+          <lb ed="#V" n="83"/>Ad istam intentionem videtur
+          <lb ed="#V" n="84"/>Philosophus pramisisse quoddam
+          <lb ed="#V" n="85"/>exemplum de guttis, quod non est
+          <lb ed="#V" n="86"/>necesse,si multo, gutts» aliquam
+          <lb ed="#V" n="87"/>partem amoverent de lapide, 
+          pe<lb ed="#V" break="no" n="88"/>netrando lapidem, quod etiam quae-
+          <pb ed="#V" n="382"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>libet. gutta aliquid amoveat, et
+          <lb ed="#V" n="2"/>quod semper pars amoveatur ante
+          <lb ed="#V" n="3"/>partem, sed aliquando totum 
+          si<lb ed="#V" break="no" n="4"/>mul amovetur. Quando igitur dicit,
+          <lb ed="#V" n="5"/>tot guttae amovent de lapide 
+          tan<lb ed="#V" break="no" n="6"/>tum in aliquo tempore; pars autem
+          <lb ed="#V" n="7"/>illarum in nullo tempore tantum
+          <lb ed="#V" n="8"/>amovet, exemplificat, sicut multi
+          <lb ed="#V" n="9"/>trahunt navem, nullus autem per
+          <lb ed="#V" n="10"/>se, ergo in multo tempore traheret
+          <lb ed="#V" n="11"/>eam, videtur ergo innuere quod
+          <lb ed="#V" n="12"/>post aliquas guttas, tandem tota
+          <lb ed="#V" n="13"/>pars lapidis simul amoveatur. Et
+          <lb ed="#V" n="14"/>ifa est in alteratione, quod non
+          <lb ed="#V" n="15"/>semper pars sequitur partem, sed
+          <lb ed="#V" n="16"/>quandoque alteratio tota simul fit.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e555">
+          <lb ed="#V" n="17"/>Expressius hoc dicit in secunda
+          <lb ed="#V" n="18"/>dubitatione de Sensu et Sensato, ubi
+          <lb ed="#V" n="19"/>vult quod non oportet quod 
+          simi<lb ed="#V" break="no" n="20"/>liter sit in alteratione et latione.
+          <lb ed="#V" n="21"/>Contingit enim aliquid simul 
+          to<lb ed="#V" break="no" n="22"/>tum alterari, et non dimidium
+          <lb ed="#V" n="23"/>prius, velut aquam simul totam
+          <lb ed="#V" n="24"/>coagulari; attamen si fuerit 
+          mul<lb ed="#V" break="no" n="25"/>tum quod calefit aut. coagulatur,
+          <lb ed="#V" n="26"/>habitum ab habito patitur; 
+          pri<lb ed="#V" break="no" n="27"/>mum autem ab ipso faciente 
+          trans<lb ed="#V" break="no" n="28"/>mutari et simul alterari, et subito
+          <lb ed="#V" n="29"/>est necesse.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e586">
+          <lb ed="#V" n="30"/>Idem probatur per rationem,
+          <lb ed="#V" n="31"/>quia inter contradictoria non est
+          <lb ed="#V" n="32"/>medium; igitur inter non esse 
+          for<lb ed="#V" break="no" n="33"/>mna inducendse per motum, et esse
+          <lb ed="#V" n="34"/>ipsius, non est medium, non esse
+          <lb ed="#V" n="35"/>autem ipsius fuit in ultimo 
+          instan<lb ed="#V" break="no" n="36"/>ti form: praeecedentis; igitur inter
+          <lb ed="#V" n="37"/>istud instans, et illud quod 
+          mensu<lb ed="#V" break="no" n="38"/>rat esse formae succedentis, non
+          <lb ed="#V" n="39"/>esi medium, sed si nullum esset
+          <lb ed="#V" n="40"/>primum, inter esse formze 
+          inducen<lb ed="#V" break="no" n="41"/>dev per motum, et non esse ipsius,
+          <lb ed="#V" n="42"/>esset medium; ergo ibi est dare
+          <lb ed="#V" n="43"/>primum, et illud primum non 
+          es<lb ed="#V" break="no" n="44"/>set minimum in se, nisi esset in-
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>divisibile. Ex ista primitate 
+          pro<lb ed="#V" break="no" n="46"/>bata concluditur, quod illud 
+          pri<lb ed="#V" break="no" n="47"/>mum sit minima pars, non enim
+          <lb ed="#V" n="48"/>potest istud primum esse 
+          indivi<lb ed="#V" break="no" n="49"/>sibile, quia Philosophus, 6. PAys.
+          <lb ed="#V" n="50"/>ostendit quod non contingit 
+          acci<lb ed="#V" break="no" n="51"/>pere primam mutationem in motu.
+        </p>
+        <!--</div>
+          <div alias="scotus-l2d2q9-p3">-->
+        <p xml:id="jdso8u-d1e1661-d1e640">
+          <lb ed="#V" n="52" type="fixed=382"/>SCHOLIUM.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e645">
+          <lb ed="#V" n="53"/>Angelum non posse moveri ratione 
+          in<lb ed="#V" break="no" n="54"/>divisibilitatis arguit tripliciter ex 
+          Philoso<lb ed="#V" break="no" n="55"/>pho.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e654">
+          <lb ed="#V" n="56"/>Tertio principaliter arguitur,
+          <lb ed="#V" n="57"/>quod Angelus non posset moveri,
+          <lb ed="#V" n="58"/>quia est indivisibilis. Probat enim
+          <lb ed="#V" n="59"/>Philosophus 6. Physicor. cap. 2. ett.
+          <lb ed="#V" n="60"/>penultimo, quod nullum indivisibile
+          <lb ed="#V" n="61"/>potest moveri. Hoc probat ex in-3
+          <lb ed="#V" n="62"/>tentione, et illam rationem quam
+          <lb ed="#V" n="63"/>facit, cap. 2. replicat capitulo 
+          penul<lb ed="#V" break="no" n="64"/>timo, quia omne quod movetur partim
+          <lb ed="#V" n="65"/>est intermino a quo, et partim in 
+          ter<lb ed="#V" break="no" n="66"/>mino ad quem, quando enim 
+          totali<lb ed="#V" break="no" n="67"/>ter est in termino a quo, non 
+          mo<lb ed="#V" break="no" n="68"/>vetur, sed quiescit, quando 
+          au<lb ed="#V" break="no" n="69"/>tem est in termino ad quem, 
+          tota<lb ed="#V" break="no" n="70"/>liter motum est; indivisibile autem
+          <lb ed="#V" n="71"/>non potest esse in uno termino
+          <lb ed="#V" n="72"/>partim, et partim alio, quia non
+          <lb ed="#V" n="73"/>habet partem et partem ; igitur,
+          <lb ed="#V" n="74"/>etc.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e699">
+          <lb ed="#V" n="75"/>Secunda ratio sua est, cap. penult.
+          <lb ed="#V" n="76"/>quia omne quod movetur, prius 
+          per<lb ed="#V" break="no" n="77"/>transit. spatium sibi aequale, vel minus
+          <lb ed="#V" n="78"/>quam majus, sed indivisibile nec 
+          po<lb ed="#V" break="no" n="79"/>test prius pertransire minus Se;
+          <lb ed="#V" n="80"/>igitur pertransit prius quale
+          <lb ed="#V" n="81"/>quam majus se, et pertranseundo
+          <lb ed="#V" n="82"/>semper spatium sibi aequale, 
+          per<lb ed="#V" break="no" n="83"/>transibit totum continuum supra
+          <lb ed="#V" n="84"/>quod movetur; igitur illud 
+          com<lb ed="#V" break="no" n="85"/>poneretur ex indivisibilibus 
+          aequa<lb ed="#V" break="no" n="86"/>libus indivisibili moto ; consequens
+          <lb ed="#V" n="87"/>est falsum; ergo et antecedens.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e730">
+          <pb ed="#V" n="383"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>Tertia ratio sua videtur esse,
+          <lb ed="#V" n="2"/>quia omnis motus est in tempore, sicut
+          <lb ed="#V" n="3"/>prius probavit in eodem 6. Physic.
+          <lb ed="#V" n="4"/>et omni tempore erit accipere
+          <lb ed="#V" n="5"/>minus tempus, in quo minori 
+          po<lb ed="#V" break="no" n="6"/>test minus mobile moveri; igitur
+          <lb ed="#V" n="7"/>omni mobili potest accipi minus
+          <lb ed="#V" n="8"/>mobile in infinitum, et ita nullum
+          <lb ed="#V" n="9"/>indivisibile est mobile.
+        </p>
+        <!--</div>
+          <div alias="scotus-l2d2q9-p4">-->
+        <p xml:id="jdso8u-d1e1661-d1e758">
+          <lb ed="#V" n="10" type="fixed=383"/>SCHOLIUM.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e763">
+          <lb ed="#V" n="11"/>Arguit Angelum non esse mobilem motu
+          <lb ed="#V" n="12"/>eontinuo defectu  resistentizee, ex 
+          Philoso<lb ed="#V" break="no" n="13"/>pho et Commentatore, de quo late agit 4.
+          <lb ed="#V" n="14"/>Phys. q. 10. et. 11.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e774">
+          <lb ed="#V" n="15"/>Quarto principaliter arguitur,
+          <lb ed="#V" n="16"/>quod non possit moveri localiter
+          <lb ed="#V" n="17"/>continue, quia non habet 
+          resi<lb ed="#V" break="no" n="18"/>stentiam, quia, sicut dicit 
+          Com<lb ed="#V" break="no" n="19"/>mentator super 4. Phys. cap. de 
+          Va<lb ed="#V" break="no" n="20"/>cuo, Successio in motu est ex 
+          resi<lb ed="#V" break="no" n="21"/>stentia mobilis ad motorem, vel
+          <lb ed="#V" n="22"/>Jmmedii ad mobile, vel medii ad
+          <lb ed="#V" n="23"/>motorem, nulla istarum  
+          resisten<lb ed="#V" break="no" n="24"/>tiarum est in proposito, non enim
+          <lb ed="#V" n="25"/>Angelus resistit medio, nec e 
+          con<lb ed="#V" break="no" n="26"/>verso, nec sibiipsi ut motori. Et
+          <lb ed="#V" n="27"/>confirmatur ratio, quia secundum
+          <lb ed="#V" n="28"/>Ipsum, grave in vacuo moveretur
+          <lb ed="#V" n="29"/>in non tempore, quia ibi nulla
+          <lb ed="#V" n="30"/>esset resistentia, qua posset 
+          cau<lb ed="#V" break="no" n="31"/>sare successionem in motu, non
+          <lb ed="#V" n="32"/>autem magis resistit Angelus 
+          si<lb ed="#V" break="no" n="33"/>bivel medio quam grave vacuo,
+          <lb ed="#V" n="34"/>sed vacuum gravi si poneretur;
+          <lb ed="#V" n="35"/>ergo, etc.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e823">
+          <lb ed="#V" n="36"/>Item, per rationem Philosophi ibi,
+          <lb ed="#V" n="37"/>arguit enim sic : Quz est 
+          propor<lb ed="#V" break="no" n="38"/>tio medii ad medium in subtilitate
+          <lb ed="#V" n="39"/>et densitate, eadem est  
+          propor<lb ed="#V" break="no" n="40"/>tio motus ad motum in velocitate
+          <lb ed="#V" n="41"/>et tarditate, sed nulla est 
+          propor<lb ed="#V" break="no" n="42"/>tio vaeui ad plenum in subtilitate;
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="43"/>igitur nec motus ad motum in
+          <lb ed="#V" n="44"/>velocitate et tarditate; sed omnis"
+          <lb ed="#V" n="45"/>motus possibilis ad omnem motum
+          <lb ed="#V" n="46"/>possibilem potest esse aliqua 
+          pro<lb ed="#V" break="no" n="47"/>portio in velocitate ; igitur nullus
+          <lb ed="#V" n="48"/>motus est possibilis in vacuo, sed
+          <lb ed="#V" n="49"/>aliquis est. possibilis in pleno.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e858">
+          <lb ed="#V" n="50"/>Sicut ipse arguit ex parte medii,
+          <lb ed="#V" n="51"/>ita potest argui in proposito. Nam
+          <lb ed="#V" n="52"/>caeteris paribus, quae est 
+          propor<lb ed="#V" break="no" n="53"/>tio motus ad motum in velocitate,
+          <lb ed="#V" n="54"/>eadem est proportio Angeli ad
+          <lb ed="#V" n="55"/>corpus in subtilitate ; sed nulla
+          <lb ed="#V" n="56"/>est proportio Angeli ad corpus in
+          <lb ed="#V" n="57"/>subtilitate ; igitur, etc. sicut in
+          <lb ed="#V" n="58"/>ratione sua.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e880">
+          <lb ed="#V" n="59"/>Alia ratio sua est ibi, quia si in
+          <lb ed="#V" n="60"/>vacuo fiat motus, accipiatur aliud
+          <lb ed="#V" n="61"/>corpus plenum subtile in tanta
+          <lb ed="#V" n="62"/>proportione excedere aliud corpus
+          <lb ed="#V" n="63"/>in subtilitate, in quanta tempus
+          <lb ed="#V" n="64"/>motus vaeui minus est quam 
+          tem<lb ed="#V" break="no" n="65"/>pus motus pleni; per illud 
+          me<lb ed="#V" break="no" n="66"/>dium plenum subtilius, erit motus
+          <lb ed="#V" n="67"/>s?equalis motui in vacuo, quod 
+          ha<lb ed="#V" break="no" n="68"/>bet pro impossibili. Ita potest in
+          <lb ed="#V" n="69"/>proposito argui ex parte 
+          mobi<lb ed="#V" break="no" n="70"/>lium : si enim Angelus 
+          quantum<lb ed="#V" break="no" n="71"/>cumque velocius moveatur, quam
+          <lb ed="#V" n="72"/>corpus accipiatur aliquod corpus
+          <lb ed="#V" n="73"/>subtilius, quam corpus illud 
+          da<lb ed="#V" break="no" n="74"/>tum in tanta proportione, in
+          <lb ed="#V" n="75"/>quanta tempus motus Angeli 
+          mi<lb ed="#V" break="no" n="76"/>nus est tempore motus corporis
+          <lb ed="#V" n="77"/>dati, illud corpus in tali 
+          propor<lb ed="#V" break="no" n="78"/>tione subtilius in ::quali. tempore
+          <lb ed="#V" n="79"/>movebitur eum Angelo.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e928">
+          <lb ed="#V" n="80"/>Ad oppositum videtur esse Da- i:
+          <lb ed="#V" n="81"/>mascenus, lib. 2. cap. 3. ubi vult
+          <lb ed="#V" n="82"/>quod non sunt simul in coelo et ,
+          <lb ed="#V" n="83"/>in terra, et frequenter mittuntur
+          <lb ed="#V" n="84"/>in terram, ut apparet per 
+          Seri<lb ed="#V" break="no" n="85"/>pturam.
+        </p>
+        <!--</div>
+          <div alias="scotus-l2d2q9-p5">-->
+        <p xml:id="jdso8u-d1e1661-d1e946">
+          <pb ed="#V" n="384"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1" type="fixed=384"/>SCHOLIUM.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e956">
+          <lb ed="#V" n="2"/>Decidit Angelum posse moveri continue
+          <lb ed="#V" n="3"/>ad locum, quia est receptivus ubi, nec 
+          ha<lb ed="#V" break="no" n="4"/>bet 4b certum, nec omnia ubi simul 
+          po<lb ed="#V" break="no" n="5"/>test habere de  continuitate, patet, quia
+          <lb ed="#V" n="6"/>inter duo ubi sunt infinita ubi, quia 
+          spa<lb ed="#V" break="no" n="7"/>tium est divisibile in infinitum, et non 
+          po<lb ed="#V" break="no" n="8"/>test Angelus illud pertransire, nisi prius
+          <lb ed="#V" n="9"/>pertranseundo partem propinquiorem ; affert
+          <lb ed="#V" n="10"/>etiam elaras Scripturas pro motu locali
+          <lb ed="#V" n="11"/>Angeli.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e980">
+          <lb ed="#V" n="12"/>Ad quaestionem (8) dico quod sic,
+          <lb ed="#V" n="13"/>quia omne receptivum formarum
+          <lb ed="#V" n="14"/>alicujus generis, quod non est ex
+          <lb ed="#V" n="15"/>se determinatum ad aliquam unam
+          <lb ed="#V" n="16"/>illarum formarum, nec est 
+          illimi<lb ed="#V" break="no" n="17"/>tatum adillas, potest moveri, 
+          si<lb ed="#V" break="no" n="18"/>ve mutari ab una illarum 
+          for<lb ed="#V" break="no" n="19"/>marum. ad aliam.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e1000">
+          <lb ed="#V" n="20"/>Ista propositio patet per se,
+          <lb ed="#V" n="21"/>quia subjectum includit 
+          praedica<lb ed="#V" break="no" n="22"/>tum, sed Angelus est receptivus
+          <lb ed="#V" n="23"/>alicujus ubi definitive, licet non
+          <lb ed="#V" n="24"/>circumscriptive, sicut patet prius
+          <lb ed="#V" n="25"/>in prima quaestione delocatione 
+          An<lb ed="#V" break="no" n="26"/>celi; nec est illimitatus ad omnia
+          <lb ed="#V" n="27"/>ubi, quia non est immensus, ergo
+          <lb ed="#V" n="28"/>potest mutari ab uno ubi ad aliud.
+          <lb ed="#V" n="29"/>Et quod (b) continue, patet, quia
+          <lb ed="#V" n="30"/>inter duo ubi sunt infinita ubi 
+          me<lb ed="#V" break="no" n="31"/>dia, quod probatur ex continuo
+          <lb ed="#V" n="32"/>motu corporis per omnia illa ubi ;
+          <lb ed="#V" n="33"/>per omnia autem illa potest 
+          Ange<lb ed="#V" break="no" n="34"/>lus transire, ita quod in'nullo 
+          illo<lb ed="#V" break="no" n="35"/>rum ubi sit nisi indivisibiliter, et
+          <lb ed="#V" n="36"/>per eonsequens non potest omnia
+          <lb ed="#V" n="37"/>illa pertransire, nisi continue 
+          mo<lb ed="#V" break="no" n="38"/>veatur.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e1044">
+          <lb ed="#V" n="39"/>(c) Hoc etiam confirmatur, quia
+          <lb ed="#V" n="40"/>anima beata sequabitur Angelis
+          <lb ed="#V" n="41"/>juxta promissum Salvatoris,
+          <lb ed="#V" n="42"/>Matth. 92. Erunt sicut Angeli ; 
+          ani<lb ed="#V" break="no" n="43"/>ma autem beata movetur, imo
+          <lb ed="#V" n="44"/>anima Ghristi beatissima move-
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>batur localiter, quia descendit ad
+          <lb ed="#V" n="46"/>inferos, sicut dicit articulus fidel. c
+          <lb ed="#V" n="47"/>Patet etiam ex Soeriptura, quod .
+          <lb ed="#V" n="48"/>Angeli mittantur quandoque cum
+          <lb ed="#V" n="49"/>corpore assumpto, et si  tunc cum
+          <lb ed="#V" n="50"/>corpore movebantur, videtur quod
+          <lb ed="#V" n="51"/>tunc fuerit aliqua motio passiva
+          <lb ed="#V" n="52"/>ipsorum alia formaliter ab ipsa
+          <lb ed="#V" n="53"/>motione passiva ipsius corporis,
+          <lb ed="#V" n="54"/>quia non erant formaliter aliquid
+          <lb ed="#V" n="55"/>ipsius corporis. Similiter 
+          credibi<lb ed="#V" break="no" n="56"/>le est, quod frequenter missi sint
+          <lb ed="#V" n="57"/>sine corpore, sicut de illo misso
+          <lb ed="#V" n="58"/>ad Joseph de conceptu Beata
+          <lb ed="#V" n="59"/>Mariae dubitantem.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e1094">
+          <lb ed="#V" n="60"/>Ad argumenta (d) quaestionis
+          <lb ed="#V" n="61"/>dico quod non est inconveniens,
+          <lb ed="#V" n="62"/>omne causatum quantumcumque
+          <lb ed="#V" n="63"/>sit perfectum (dummodo tamen
+          <lb ed="#V" n="64"/>non habeat in essentia sua 
+          om<lb ed="#V" break="no" n="65"/>nem perfectionem) esse capax, vel
+          <lb ed="#V" n="66"/>potentiale respectu alicujus 
+          per<lb ed="#V" break="no" n="67"/>fectionis, licet illa absolute minor
+          <lb ed="#V" n="68"/>sit sua natura, sicut Angelus 
+          ha<lb ed="#V" break="no" n="69"/>bet inteliectionem, quae est 
+          per<lb ed="#V" break="no" n="70"/>fectio potentia intellectiva, et 
+          ta<lb ed="#V" break="no" n="71"/>men intellectio est simpliciter
+          <lb ed="#V" n="72"/>ignobilior, sive imperfectior 
+          na<lb ed="#V" break="no" n="73"/>tura angelica; et ita potest 
+          con<lb ed="#V" break="no" n="74"/>cedi de ubi vel praesentia corporali
+          <lb ed="#V" n="75"/>cum Angelo, quod sit aliqua 
+          per<lb ed="#V" break="no" n="76"/>fectio Angeli, sicut aliquis actus
+          <lb ed="#V" n="77"/>dicitur perfectio, sed longe 
+          igno<lb ed="#V" break="no" n="78"/>bilior illa natura cui inest.
+        </p>
+        <!--</div>
+          <div alias="scotus-l2d2q9-p6">-->
+        <p xml:id="jdso8u-d1e1661-d1e1141">
+          <lb ed="#V" n="22" type="fixed=391"/>SCHOLIUM.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e1146">
+          <lb ed="#V" n="23"/>Probat per duas Geometricas 
+          demonstrati<lb ed="#V" break="no" n="24"/>ones continuum non componi ex 
+          indivisibili<lb ed="#V" break="no" n="25"/>bus (de quo agit 6. Physie. quaest. 1. plura
+          <lb ed="#V" n="26"/>afferens Geometrica). Prima est, quod alias
+          <lb ed="#V" n="27"/>circumferentia minor esset aequalis majori,
+          <lb ed="#V" n="28"/>vel pars :equalis toti. Secunda, alias linea
+          <lb ed="#V" n="29"/>Diametralis esset commensurabilis cost,
+          <lb ed="#V" n="30"/>quia puncta utriusque haberent se in aliqua
+          <lb ed="#V" n="31"/>proportione numerali, consequens est 
+          fal<lb ed="#V" break="no" n="32"/>sum, quia quadratum Diametri non se habet
+          <lb ed="#V" n="33"/>ad quadratum coste, sicut unus numerus
+          <lb ed="#V" n="34"/>quadratus ad alium numerum quadratum,
+          <lb ed="#V" n="35"/>quia inter hujusmodi numeros non datur
+          <lb ed="#V" n="36"/>proportio dupla, inter illa quadrata datur,
+          <lb ed="#V" n="37"/>ut constat ex figura. Nec est alia 
+          commen<lb ed="#V" break="no" n="38"/>suratio, his quadratis conveniens, nisi 
+          qua<lb ed="#V" break="no" n="39"/>lis est unius numeri quadrati ad alium 
+          qua<lb ed="#V" break="no" n="40"/>dratum ; infer etiam ex opposito, quod 
+          Dia<lb ed="#V" break="no" n="41"/>meter et costa essent :equales, quod ad
+          <lb ed="#V" n="42"/>oculum patet esse falsum.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e1192">
+          <lb ed="#V" n="43"/>Ad secundum (a) nego illud
+          <lb ed="#V" n="44"/>quod assumitur, scilicet. nullum
+          <lb ed="#V" n="45"/>successivum est continuum. Ante-
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="46"/>cedens etiam, quod assumitur ad
+          <lb ed="#V" n="47"/>ejus probationem, scilicet quod
+          <lb ed="#V" n="48"/>componatur ex indivisibilibus, 
+          ne<lb ed="#V" break="no" n="49"/>£0, et ejus falsitatem probo per
+          <lb ed="#V" n="50"/>rationem Philosophi, 6. Physic. de
+          <lb ed="#V" n="51"/>proportione sesquialtera, qua plus
+          <lb ed="#V" n="52"/>convineit adversarium, licet forte
+          <lb ed="#V" n="53"/>aliquaze rationes ejus magis sint a
+          <lb ed="#V" n="54"/>causa, quia supponit quod in 
+          qua<lb ed="#V" break="no" n="55"/>cumque proportione possit motus
+          <lb ed="#V" n="56"/>accipi velocior omni motu dato,
+          <lb ed="#V" n="57"/>et per consequens motu aliquo
+          <lb ed="#V" n="58"/>dato mensurato tribus instantibus,
+          <lb ed="#V" n="59"/>erit accipere motum in duplo 
+          velo<lb ed="#V" break="no" n="60"/>ciorem, qui mensuratur vel 
+          men<lb ed="#V" break="no" n="61"/>surabitur instanti cum dimidio.
+          <lb ed="#V" n="62"/>Istud etiam de successivo (b),
+          <lb ed="#V" n="63"/>probo per continuitatem 
+          perma<lb ed="#V" break="no" n="64"/>nentis, quia permanens est 
+          conti<lb ed="#V" break="no" n="65"/>nuum; igitur et successivum;; 
+          con<lb ed="#V" break="no" n="66"/>sequentiam probo, quia si in motu,
+          <lb ed="#V" n="67"/>indivisibilia sint sibi invicem 
+          im<lb ed="#V" break="no" n="68"/>mediata, quaero de mobili et ipsis
+          <lb ed="#V" n="69"/>ubi, quae habet in ipsis instantibus
+          <lb ed="#V" n="70"/>immediatis. Si inter ultimum
+          <lb ed="#V" n="71"/>unius ubi et alterius, nihil sit 
+          me<lb ed="#V" break="no" n="72"/>dium, igitur ultimum unius 
+          im<lb ed="#V" break="no" n="73"/>mediatum est ultimo alterius. Si
+          <lb ed="#V" n="74"/>inter illa duo ubi sit aliquid 
+          me<lb ed="#V" break="no" n="75"/>dium, quaero de ultimo ipsius 
+          mo<lb ed="#V" break="no" n="76"/>bilis quando est. in ipso medio?
+          <lb ed="#V" n="77"/>Non in altero instanti, quia nec in
+          <lb ed="#V" n="78"/>ilis duobus indivisibilibus; est
+          <lb ed="#V" n="79"/>igitur in medio aliquo inter illa
+          <lb ed="#V" n="80"/>duo instantia ; ergo illa duo 
+          instan<lb ed="#V" break="no" n="81"/>tia non erant immediata. Et istam
+          <lb ed="#V" n="82"/>(c) consequentiam declarat 
+          Philo<lb ed="#V" break="no" n="83"/>sophus 6. Physic. quod scilicet 
+          ejus<lb ed="#V" break="no" n="84"/>dem rationis est motum et 
+          magni<lb ed="#V" break="no" n="85"/>tudinem et tempus componi ex
+          <lb ed="#V" n="86"/>indivisibilibus. Antecedens 
+          proba<lb ed="#V" break="no" n="87"/>ri potest manifestius de 
+          permanen<lb ed="#V" break="no" n="88"/>tibus, quam de successivis per 
+          ra<lb ed="#V" break="no" n="89"/>tiones Philosophi 6. Physic. quia
+          <pb ed="#V" n="392"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>magis est evidens et. manifestum
+          <lb ed="#V" n="2"/>quod  indivisibilia permanentia
+          <lb ed="#V" n="3"/>non faciant majus, quam de 
+          indivi<lb ed="#V" break="no" n="4"/>sibilibus sibi invicem 
+          succedenti<lb ed="#V" break="no" n="5"/>bus. Tamen efficacius probatur
+          <lb ed="#V" n="6"/>antecedens illud per duas rationes,
+          <lb ed="#V" n="7"/>vel duas probationes Geometricas,
+          <lb ed="#V" n="8"/>quarum prima est ista: Super<!-- image here-->
+          <lb ed="#V" n="9"/>centrum quodlibet, quantumlibet
+          <lb ed="#V" n="10"/>occupando spatium, contingit 
+          cir<lb ed="#V" break="no" n="11"/>eulum designare, secundum illam
+          <lb ed="#V" n="12"/>petitionem secundam primi 
+          Eu<lb ed="#V" break="no" n="13"/>clidis. Super centrum igitur 
+          ali<lb ed="#V" break="no" n="14"/>quod datum, quod dicatur A,
+          <lb ed="#V" n="15"/>deseribantur duo circuli, major
+          <lb ed="#V" n="16"/>qui dicatur B, et minor qui 
+          di<lb ed="#V" break="no" n="17"/>eatur D, si circumferentia majoris
+          <lb ed="#V" n="18"/>componatur ex punctis, duo 
+          pun<lb ed="#V" break="no" n="19"/>ctia immediata sibi  signentur,
+          <lb ed="#V" n="20"/>qua sunt PB et C, ducatur linea
+          <lb ed="#V" n="21"/>recta ab A ad B et linea recta ab
+          <lb ed="#V" n="22"/>A ad C, secundum illam primam
+          <lb ed="#V" n="23"/>petitionem primi Euclidis : « 
+          pun<lb ed="#V" break="no" n="24"/>cto ad. punctum contingit lineam rectam
+          <lb ed="#V" n="25"/>ducere; istae lines duetsee 
+          transi<lb ed="#V" break="no" n="26"/>bunt per circumferentiam minoris
+          <lb ed="#V" n="27"/>cireuli. Quaero, aut secabunt eam
+          <lb ed="#V" n="28"/>in eodem puncto, aut in alio; si
+          <lb ed="#V" n="29"/>in alio, igitur tot puncta erunt
+          <lb ed="#V" n="30"/>in minori circulo sicut in majori,
+          <lb ed="#V" n="31"/>sed impossibile est duo insqualia
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="32"/>componi ex partibus aequalibus in
+          <lb ed="#V" n="33"/>magnitudine et in multitudine.
+          <lb ed="#V" n="34"/>Punetus enim non excedit 
+          pun<lb ed="#V" break="no" n="35"/>ctum in magnitudine, et puncta
+          <lb ed="#V" n="36"/>in circumferentia. circuli minoris
+          <lb ed="#V" n="37"/>sunt tot, quot in circumferentia
+          <lb ed="#V" n="38"/>cireuli majoris; ergo minor 
+          oir<lb ed="#V" break="no" n="39"/>cumferentia est aequalis majori,
+          <lb ed="#V" n="40"/>et per consequens pars est 
+          sequa<lb ed="#V" break="no" n="41"/>lis toti.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e1396">
+          <lb ed="#V" n="42"/>(d) Si autem duse rectae lines A j
+          <lb ed="#V" n="43"/>B, et. A; C,. Secent. minorem. eir-4
+          <lb ed="#V" n="44"/>cumferentiam in eodem puncto,
+          <lb ed="#V" n="45"/>sit ille D, super lineam A B, 
+          eri<lb ed="#V" break="no" n="46"/>gatur linea recta secans, scilicet .
+          <lb ed="#V" n="47"/>eam in puncto D, qua sit E D,
+          <lb ed="#V" n="48"/>qua sit etiam contingens 
+          respe<lb ed="#V" break="no" n="49"/>ctu minoris circuli, ex decimoquinto
+          <lb ed="#V" n="50"/>tertii Euclidis; ista cum linea A B,
+          <lb ed="#V" n="51"/>constituit duos rectos angulos,
+          <lb ed="#V" n="52"/>vel saequales duobus rectis ex 
+          deci<lb ed="#V" break="no" n="53"/>motertio primi Euclidis, igitur 
+          angu<lb ed="#V" break="no" n="54"/>lus A .D.C, et etiam. aneulus
+          <lb ed="#V" n="55"/>E, valent duos rectos; pari ratione
+          <lb ed="#V" n="56"/>angulus A D E, et angulus € D E,
+          <lb ed="#V" n="57"/>valent duos rectos; sed 
+          quicum<lb ed="#V" break="no" n="58"/>que duo anguli recti sunt sequales
+          <lb ed="#V" n="59"/>quibuseumque duobus rectis ex
+          <lb ed="#V" n="60"/>tertia petitione primi Euclidis; igitur
+          <lb ed="#V" n="61"/>dempto communi, scilicet A D E,
+          <lb ed="#V" n="62"/>residua erunt sequalia; igitur 
+          an<lb ed="#V" break="no" n="63"/>gulus 5 D E erit v?equalis angulo
+          <lb ed="#V" n="64"/>C D E, et ita pars erit aequalis
+          <lb ed="#V" n="65"/>toti.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e1451">
+          <lb ed="#V" n="66"/>(e) Ad istud diceret adversarius,
+          <lb ed="#V" n="67"/>D B, et D C non includunt aliquem ,
+          <lb ed="#V" n="68"/>angulum, quia posset tuno illi an- ,
+          <lb ed="#V" n="69"/>culo basis subprotendi a puncto
+          <lb ed="#V" n="70"/>B ad punctum C, quod est opposi- !
+          <lb ed="#V" n="71"/>tum positi, quia B C ponuntur
+          <lb ed="#V" n="72"/>puncta immediata; quando ergo
+          <lb ed="#V" n="73"/>accipitur, quod angulus € D E
+          <lb ed="#V" n="74"/>est totalis ad angulum B D E,,
+          <lb ed="#V" n="75"/>negatur, quia angulo P D E nihil,
+          <pb ed="#V" n="393"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>additur in angulo € D E, quia
+          <lb ed="#V" n="2"/>inter B et C, in concursu eorum
+          <lb ed="#V" n="3"/>in D, non est angulus.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e1486">
+          <lb ed="#V" n="4"/>(f) Ista responsio licet videatur
+          <lb ed="#V" n="5"/>absurda, negando angulum, ubi
+          <lb ed="#V" n="6"/>duce linee concurrunt, quae 
+          ex<lb ed="#V" break="no" n="7"/>panduntur super superficiem, et
+          <lb ed="#V" n="8"/>applicantur non directe, et in hoc
+          <lb ed="#V" n="9"/>contradicat definitioni anguli, 
+          pri<lb ed="#V" break="no" n="10"/>mo Eucledis, negando etiam a B in
+          <lb ed="#V" n="11"/>C lineam posse duci, neget 
+          pri<lb ed="#V" break="no" n="12"/>mam petitionem primi Eucliis;
+          <lb ed="#V" n="13"/>tamen quia haec non reputarentur
+          <lb ed="#V" n="14"/>inconvenientia, quia sequuntur ad
+          <lb ed="#V" n="15"/>propositum: contra responsionem
+          <lb ed="#V" n="16"/>(g) aliter arguo, angulus C D E
+          <lb ed="#V" n="17"/>ineludit totum angulum B D E, et
+          <lb ed="#V" n="18"/>addit saltem punctum licet 
+          pro<lb ed="#V" break="no" n="19"/>tervias, quod non addit angulum,
+          <lb ed="#V" n="20"/>et punctus, per te, est pars; igitur
+          <lb ed="#V" n="21"/>angulus C D E addit super 
+          angu<lb ed="#V" break="no" n="22"/>lum B D E partem aliquam, 
+          igi<lb ed="#V" break="no" n="23"/>tur est totum ad illud. 
+          Assum<lb ed="#V" break="no" n="24"/>ptum patet, quia si angulus 
+          di<lb ed="#V" break="no" n="25"/>catur spatium interceptum inter
+          <lb ed="#V" n="26"/>lineas, non includendo lineas, tune
+          <lb ed="#V" n="27"/>punetus primus linee B D, extra
+          <lb ed="#V" n="28"/>cireumferentiam minorem, nihil
+          <lb ed="#V" n="29"/>erit anguli B D E, et est aliquid
+          <lb ed="#V" n="30"/>anguli C D E.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e1548">
+          <lb ed="#V" n="31"/>SI autem angulus ultra spatium
+          <lb ed="#V" n="32"/>inclusum, includit lineam 
+          inclu<lb ed="#V" break="no" n="33"/>dentem, et  tunc primus punctus
+          <lb ed="#V" n="34"/>linee D C, extra circumferentiam
+          <lb ed="#V" n="35"/>minorem, nihil erit anguli P D
+          <lb ed="#V" n="36"/>E, et est aliquid anguli C D E, et
+          <lb ed="#V" n="37"/>ita utroque modo angulus C D E
+          <lb ed="#V" n="38"/>addit punctum super angulum 7
+          <lb ed="#V" n="39"/>D E.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e1570">
+          <lb ed="#V" n="40"/>(h) Nec potest aliquo modo 
+          ob<lb ed="#V" break="no" n="41"/>viari demonstrationi principali,
+          <lb ed="#V" n="42"/>quasi in illa eireumferentia non
+          <lb ed="#V" n="43"/>ineipiant lines dividi a se, sed
+          <lb ed="#V" n="44"/>aliba propinquius ecentro vel re-
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>motius, quia ubicumque hoc 
+          po<lb ed="#V" break="no" n="46"/>sueris, ibi describam 
+          circumfe<lb ed="#V" break="no" n="47"/>rentiam minorem.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e1592">
+          <lb ed="#V" n="48"/>Istam secundam partem, 
+          scili<lb ed="#V" break="no" n="49"/>cet quod minor circumferentia
+          <lb ed="#V" n="50"/>non secetur in uno eodem puncto,
+          <lb ed="#V" n="51"/>S] secetur a duabus lineis, non
+          <lb ed="#V" n="52"/>oporteret probare, nisi propter
+          <lb ed="#V" n="53"/>proterviam adversarii, quia satis
+          <lb ed="#V" n="54"/>est manifestum quod eadem linea,
+          <lb ed="#V" n="55"/>Sj protrahatur in continuum et
+          <lb ed="#V" n="56"/>directum, nunquam terminabitur
+          <lb ed="#V" n="57"/>ex eadem parte ad duo puncta. Et
+          <lb ed="#V" n="58"/>S1 istud manifestum verum 
+          con<lb ed="#V" break="no" n="59"/>ceditur, statim ex deductione in
+          <lb ed="#V" n="60"/>prima parte patet propositum.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e1623">
+          <lb ed="#V" n="61"/>Secunda probatio est er quinta
+          <lb ed="#V" n="62"/>et septima decimi Euclidis. Dicit :
+          <lb ed="#V" n="63"/>enim illa quinta, quod omniumt
+          <lb ed="#V" n="64"/>quantitatum commensurabilium
+          <lb ed="#V" n="65"/>proportio est ad invicem sicut '
+          <lb ed="#V" n="66"/>alicujus numeri ad aliquem nu-'
+          <lb ed="#V" n="67"/>merum, et per consequens sicut
+          <lb ed="#V" n="68"/>vult septima, si linec aliquae sint
+          <lb ed="#V" n="69"/>*" eommensurabiles, quadrata 
+          illa<lb ed="#V" break="no" n="70"/>rum se habebunt ad invicem, sicut
+          <lb ed="#V" n="71"/>unus numerus quadratus ad 
+          ali<lb ed="#V" break="no" n="72"/>quem alium quadratum; 
+          quadra<lb ed="#V" break="no" n="73"/>tum autem Diametri non se habet
+          <lb ed="#V" n="74"/>ad quadratum cost:, sicut numerus ,
+          <lb ed="#V" n="75"/>aliquis quadratus ad alium nume- -
+          <lb ed="#V" n="76"/>rum quadratum; igitur nec linea
+          <lb ed="#V" n="77"/>illa quae erat Diameter quadrati, ,
+          <lb ed="#V" n="78"/>commensurabilis erit costo istius
+          <lb ed="#V" n="79"/>quadrati. Minor hujus patet ez:
+          <lb ed="#V" n="80"/>penultimo primi, quod quadratum s
+          <lb ed="#V" n="81"/>Diametri est duplum ad 
+          quadra<lb ed="#V" break="no" n="82"/>tum costa, pro eo quod est aequale *
+          <lb ed="#V" n="83"/>quadratis duarum costarum; 
+          nul<lb ed="#V" break="no" n="84"/>lus autem numerus quadratus est?
+          <lb ed="#V" n="85"/>duplus ad alium numerum 
+          qua<lb ed="#V" break="no" n="86"/>dratum, sicut. patet. discurrendo a
+          <lb ed="#V" n="87"/>per omnes quadratos ex 
+          quibus<lb ed="#V" break="no" n="88"/>cumque radicibus in se ductis.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e1686">
+          <pb ed="#V" n="394"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>Ex hoc patet ista conclusio,
+          <lb ed="#V" n="2"/>quod diameter est asymmeter
+          <lb ed="#V" n="3"/>costa, id est incommensurabilis.
+          <lb ed="#V" n="4"/>Si autem linee componerentur ex
+          <lb ed="#V" n="5"/>punctis, non essent 
+          incommensu<lb ed="#V" break="no" n="6"/>rabiles; haberent enim se puncta
+          <lb ed="#V" n="7"/>unius ad puncta alterius in 
+          ali<lb ed="#V" break="no" n="8"/>qua proportione numerali, nec
+          <lb ed="#V" n="9"/>solum sequeretur quod non 
+          es<lb ed="#V" break="no" n="10"/>sent incommensurabiles  lineae,
+          <lb ed="#V" n="11"/>sed etiam quod essent aequales,<!-- image here-->
+          <lb ed="#V" n="12"/>quod est plane contra sensum.
+          <lb ed="#V" n="13"/>Probatio hujus consequentiae: ac-<!-- image here -->
+          <lb ed="#V" n="14"/>cipiantur duo puncta immediata
+          <lb ed="#V" n="15"/>in costa, et alia duo 
+          opposi<lb ed="#V" break="no" n="16"/>lac 00 MIS  co0sla. ret 3b: rIBtIS
+          <lb ed="#V" n="17"/>ad illa ducantur duae lines rectae
+          <lb ed="#V" n="18"/>aeque distantes ipsi coste, isto
+          <lb ed="#V" n="19"/>secabunt diametrum. Quaero aut
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="20"/>in punctis immediatis, aut 
+          me<lb ed="#V" break="no" n="21"/>diatis ? Si in immediatis, igitur
+          <lb ed="#V" n="22"/>non plura puncta in Diametro
+          <lb ed="#V" n="23"/>sunt quam in costa; igitur non
+          <lb ed="#V" n="24"/>est Diameter major costa. Si in
+          <lb ed="#V" n="25"/>punctis mediatis, accipio punctum
+          <lb ed="#V" n="26"/>medium inter illa duo puncta 
+          me<lb ed="#V" break="no" n="27"/>diata Diametri, a quo trahatur
+          <lb ed="#V" n="28"/>linea in continuum et directum;
+          <lb ed="#V" n="29"/>illa cadet extra utramque lineam
+          <lb ed="#V" n="30"/>istam ex datis, et ab illo puncto
+          <lb ed="#V" n="31"/>duco aeque distantem utrique linezce
+          <lb ed="#V" n="32"/>datse, ex trigesimo primo primi. Ista
+          <lb ed="#V" n="33"/>c?que distans dueatur in 
+          conti<lb ed="#V" break="no" n="34"/>nuum et diPectum. Ex secunda
+          <lb ed="#V" n="35"/>parte primae petitionis primi, 
+          se<lb ed="#V" break="no" n="36"/>cabit costam, et in neutro puncto
+          <lb ed="#V" n="37"/>ejus dato, sed inter utrumque,
+          <lb ed="#V" n="38"/>alioquin concurreret cum illa
+          <lb ed="#V" n="39"/>cum qua ponitur aeque distans,
+          <lb ed="#V" n="40"/>quod est contra definitionem aeque
+          <lb ed="#V" n="41"/>distantium, quae est ultima 
+          defi<lb ed="#V" break="no" n="42"/>nitio posita in primo, igitur inter
+          <lb ed="#V" n="43"/>illa duo puncta, quae ponebantur
+          <lb ed="#V" n="44"/>immediata in costa, est punctus
+          <lb ed="#V" n="45"/>medius. Sequitur hoc ex hoc quod
+          <lb ed="#V" n="46"/>dicebatur, inter duo puncta 
+          Dia<lb ed="#V" break="no" n="47"/>metri esse punctum medium; 
+          igi<lb ed="#V" break="no" n="48"/>tur ex opposito consequentis, 
+          se<lb ed="#V" break="no" n="49"/>quitur oppositum antecedentis ;
+          <lb ed="#V" n="50"/>igitur inter duo puncta prima, in
+          <lb ed="#V" n="51"/>Diametro non est punctum 
+          me<lb ed="#V" break="no" n="52"/>dium, imo generaliter totus deci- .
+          <lb ed="#V" n="53"/>mus Euclidis destruit. illam 
+          com<lb ed="#V" break="no" n="54"/>positionem lineae ex punctis, quia *
+          <lb ed="#V" n="55"/>nulla esset omnino linea 
+          irrati<lb ed="#V" break="no" n="56"/>onalis sive surda, cum tamen
+          <lb ed="#V" n="57"/>principaliter tractet ibi de 
+          irrati<lb ed="#V" break="no" n="58"/>onabilibus, sicut patet ibi de 
+          mul<lb ed="#V" break="no" n="59"/>tis speciebus irrationalis lines,
+          <lb ed="#V" n="60"/>quas assignat.
+        </p>
+        <!--</div>
+          <div alias="scotus-l2d2q9-p7">-->
+        <p xml:id="jdso8u-d1e1661-d1e1832">
+          <lb ed="#V" n="18" type="fixed=401"/>SCHOLIUM.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e1837">
+          <lb ed="#V" n="19"/>Ostendit ratione Geometrieca, componi
+          <lb ed="#V" n="20"/>continuum ex minimis, quia circumferentia
+          <lb ed="#V" n="21"/>minor esset zqualis majori, vel daretur
+          <lb ed="#V" n="22"/>minus minimo, vel diameter esset :sequalis
+          <lb ed="#V" n="23"/>coste, ut patet ex figuris.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e1850">
+          <lb ed="#V" n="24"/>(a) Ex eodem etiam apparet 
+          im<lb ed="#V" break="no" n="25"/>probatio alterius antecedentis de
+          <lb ed="#V" n="26"/>partibus minimis, quia aut illud
+          <lb ed="#V" n="27"/>minimum posset praecise 
+          termina<lb ed="#V" break="no" n="28"/>re lineam indivisibilem 
+          simplici<lb ed="#V" break="no" n="29"/>ter, aut posset intercipi inter 
+          ter<lb ed="#V" break="no" n="30"/>minos duarum linearum. 51 primo
+          <lb ed="#V" n="31"/>modo, minimum ponitur 
+          simplici<lb ed="#V" break="no" n="32"/>ter punctus indivisibilis, et tunc
+          <lb ed="#V" n="33"/>est idem ponere isto modo 
+          mini<lb ed="#V" break="no" n="34"/>mum, eft simpliciter indivisibile
+          <lb ed="#V" n="35"/>pro parte. Si secundo modo, 
+          du<lb ed="#V" break="no" n="36"/>cantur igitur du: linece protract«e
+          <lb ed="#V" n="37"/>a centro ad terminos talis minimi
+          <lb ed="#V" n="38"/>in circumferentia majore, ita quod
+          <lb ed="#V" n="39"/>includant praecise tale minimum
+          <lb ed="#V" n="40"/>in illa circumferentia ; tune. 
+          quie<lb ed="#V" break="no" n="41"/>ro, aut, includunt aliquod 
+          mini<lb ed="#V" break="no" n="42"/>mum in circumfierentia minore,
+          <lb ed="#V" n="43"/>auf prscise nihil includunt, sed
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="44"/>omnino habent idem indivisibile
+          <lb ed="#V" n="45"/>continuans. Si primo modo, 
+          igi<lb ed="#V" break="no" n="46"/>tur erunt tot minima in minori
+          <lb ed="#V" n="47"/>circulo, quot sunt in majori, erunt
+          <lb ed="#V" n="48"/>Igitur aequales.<!-- image here -->
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e1911">
+          <lb ed="#V" n="49"/>Si secundo modo, sequitur quod
+          <lb ed="#V" n="50"/>cireumferentia minor secabitur in
+          <lb ed="#V" n="51"/>uno puncto a duabus rectis lineis
+          <lb ed="#V" n="52"/>exeuntibus ab eodem puncto, quod
+          <lb ed="#V" n="53"/>est improbatum in primo membro,
+          <lb ed="#V" n="54"/>imo sequitur (b) absurdius, scilicet
+          <lb ed="#V" n="55"/>quod line: ille in circumferentia
+          <lb ed="#V" n="56"/>majori includant illud minimum,
+          <lb ed="#V" n="57"/>et dueatur a termino unius ad
+          <lb ed="#V" n="58"/>terminum alterius linea recta 
+          se<lb ed="#V" break="no" n="59"/>cundum primam petitionem primi,
+          <lb ed="#V" n="60"/>et tunc illa erit basis trianguli
+          <lb ed="#V" n="61"/>duorum laterum, et per 
+          conse<lb ed="#V" break="no" n="62"/>quens poterit dividi in duo 
+          aequa<lb ed="#V" break="no" n="63"/>lia, ex 10. primi, et ita non erat
+          <lb ed="#V" n="64"/>minimum, quod datum est esse
+          <lb ed="#V" n="65"/>minimum; imo ulterius ducatur
+          <lb ed="#V" n="66"/>aliqua linea. aeque distans illi basi
+          <lb ed="#V" n="67"/>trianguli, illa erit minor illa base
+          <lb ed="#V" n="68"/>er 91. primi, et ita erit. aliquid
+          <lb ed="#V" n="69"/>minus minimo. Similiter ista 
+          po<lb ed="#V" break="no" n="70"/>sitio sive uno modo, sive alio modo
+          <lb ed="#V" n="71"/>(si tamen intelligatur tale quid,
+          <lb ed="#V" n="72"/>quod non habet, partem et. partem
+          <lb ed="#V" n="73"/>in toto) concludit, 
+          commensurabi<lb ed="#V" break="no" n="74"/>litatem diametri ad costam, imo
+          <pb ed="#V" n="402"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>aequalitatem, sicut deductum est
+          <lb ed="#V" n="2"/>prius contra primam opinionem.
+        </p>
+        <!--</div>
+          <div alias="scotus-l2d2q9-p8">-->
+        <p xml:id="jdso8u-d1e1661-d1e1981">
+          <lb ed="#V" n="32" type="fixed=404"/>SCHOLIUM.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e1987">
+          <lb ed="#V" n="33"/>Refutat asserentes dari minimum 
+          secun<lb ed="#V" break="no" n="34"/>dum formam, non secundum materiam, seu
+          <lb ed="#V" n="35"/>minimum naturale, non Mathematicum, 
+          se<lb ed="#V" break="no" n="36"/>cundum varios sensus quos id habere potest,
+          <lb ed="#V" n="37"/>tam auctoritate quam ratione.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e2000">
+          <lb ed="#V" n="38"/>Ad ista argumenta (a) 
+          responde<lb ed="#V" break="no" n="39"/>tur, quod non concludunt contra
+          <lb ed="#V" n="40"/>minimum secundum formam, et
+          <lb ed="#V" n="41"/>ita ponitur minimum secundum
+          <lb ed="#V" n="42"/>formam, non autem secundum 
+          ma<lb ed="#V" break="no" n="43"/>teriam ; et habetur ista distinctio
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="44"/>a Philosopho, primo de Gener. cap.
+          <lb ed="#V" n="45"/>de augmentatione, ubi vult quod pars
+          <lb ed="#V" n="46"/>secundum speciem quaelibet 
+          augea<lb ed="#V" break="no" n="47"/>tur, et non secundum materiam.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e2026">
+          <lb ed="#V" n="48"/>Istud dictum (b) tripliciter 
+          in<lb ed="#V" break="no" n="49"/>telligi potest, vel quod pars 
+          se<lb ed="#V" break="no" n="50"/>cundum speciem dicatur pars 
+          se<lb ed="#V" break="no" n="51"/>cundum formam; pars autem 
+          se<lb ed="#V" break="no" n="52"/>cundum materiam dicatur pars
+          <lb ed="#V" n="53"/>quanti, inquantum quanta est,
+          <lb ed="#V" n="54"/>quia quantitas consequitur 
+          mate<lb ed="#V" break="no" n="55"/>riam, et  tunc redit in quoddam
+          <lb ed="#V" n="56"/>antiquum dictum, scilicet quod
+          <lb ed="#V" n="57"/>quanta secundum quod quanta
+          <lb ed="#V" n="58"/>sunt divisibilia in infinitum, non
+          <lb ed="#V" n="59"/>autem secundum quod naturalia.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e2055">
+          <lb ed="#V" n="60"/>Vel potest (c) intelligi pars 
+          se<lb ed="#V" break="no" n="61"/>cundum speciem, qua potest per
+          <lb ed="#V" n="62"/>se esse in actu, et pars secundum
+          <lb ed="#V" n="63"/>materiam dicatur pars secundum
+          <lb ed="#V" n="64"/>potentiam, videlicet pars ut existit
+          <lb ed="#V" n="65"/>in toto; et  tunc redit in idem cum
+          <lb ed="#V" n="66"/>alio dieto antiquo, quod est dare
+          <lb ed="#V" n="67"/>minimum, quod potest per se 
+          exi<lb ed="#V" break="no" n="68"/>stere, non autem est, minimum in
+          <lb ed="#V" n="69"/>toto, quo non est minus existens
+          <lb ed="#V" n="70"/>in eo, in potentia.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e2081">
+          <lb ed="#V" n="71"/>Aut potest intelligi tertio (d) 
+          mo<lb ed="#V" break="no" n="72"/>do, discordando ab istis duobus
+          <lb ed="#V" n="73"/>dictis antiquis, quod sit in aliquo,
+          <lb ed="#V" n="74"/>ut minima pars formae, sive totius
+          <lb ed="#V" n="75"/>inquantum habet formam, et non
+          <lb ed="#V" n="76"/>minima pars aliqua materia, aut
+          <lb ed="#V" n="77"/>totius secundum materiam, et tune
+          <lb ed="#V" n="78"/>videtur manifeste falsum, quia
+          <lb ed="#V" n="79"/>nulla pars materis in toto est sine
+          <lb ed="#V" n="80"/>forma in actu, nec etiam sine 
+          for<lb ed="#V" break="no" n="81"/>ma ejusdem rationis in totis 
+          homo<lb ed="#V" break="no" n="82"/>ceneis; imo ibi sicut totum 
+          divi<lb ed="#V" break="no" n="83"/>ditur in partes homogeneas, ita
+          <lb ed="#V" n="84"/>materia per accidens, et forma
+          <lb ed="#V" n="85"/>per accidens dividitur in paries
+          <lb ed="#V" n="86"/>suas homogeneas, et eo modo quo
+          <lb ed="#V" n="87"/>est minimum totius, est minimum
+          <pb ed="#V" n="405"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>utriusque partis, et e converso.
+          <lb ed="#V" n="2"/>Omittendo igitur istum tertium
+          <lb ed="#V" n="3"/>intellectum, illos alios duos 
+          intel<lb ed="#V" break="no" n="4"/>lectus excludendo, ostendo quod
+          <lb ed="#V" n="5"/>non impediunt probationes 
+          praece<lb ed="#V" break="no" n="6"/>dentes.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e2138">
+          <lb ed="#V" n="7"/>Primo (e) quidem hic arguo 
+          con<lb ed="#V" break="no" n="8"/>tra primam viam, auctoritate
+          <lb ed="#V" n="9"/>Commentatoris, super 3. Physic.
+          <lb ed="#V" n="10"/>super illud: et videmus Platonem
+          <lb ed="#V" n="11"/>Comment. 61. quare eum ibi.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e2152">
+          <lb ed="#V" n="12"/>Secundo Aristoteles (f) de Sensu
+          <lb ed="#V" n="13"/>et Sensato in dubitatione illa prima,
+          <lb ed="#V" n="14"/>ubi allegatur in oppositum; ibi
+          <lb ed="#V" n="15"/>enim licet dubitationem illam 
+          ob<lb ed="#V" break="no" n="16"/>secure solvat, hoc tamen certum
+          <lb ed="#V" n="17"/>dicit, quod qualitates sensibiles
+          <lb ed="#V" n="18"/>sunt determinata secundum 
+          spe<lb ed="#V" break="no" n="19"/>cles; quod probat, quia ubi 
+          extre<lb ed="#V" break="no" n="20"/>ma sunt posita, necesse est media
+          <lb ed="#V" n="21"/>esse finita; in omni autem genere
+          <lb ed="#V" n="22"/>qualitatum sensibilium extrema
+          <lb ed="#V" n="23"/>sunt posita, quia contraria; sed
+          <lb ed="#V" n="24"/>de quacumque una qualitate 
+          sin<lb ed="#V" break="no" n="25"/>eulari, utrum ipsa habeat 
+          termi<lb ed="#V" break="no" n="26"/>nabilitatem in se, videtur dicere
+          <lb ed="#V" n="27"/>quod non, quia existunt cum 
+          con<lb ed="#V" break="no" n="28"/>tinuitate, ideo habent aliud in
+          <lb ed="#V" n="29"/>actu, aliud in potentia, sicut 
+          con<lb ed="#V" break="no" n="30"/>tinuum, hoc est, sicut continuum
+          <lb ed="#V" n="31"/>unum est per se in actu, et plura
+          <lb ed="#V" n="32"/>in potentia, in quae per se est 
+          divi<lb ed="#V" break="no" n="33"/>sibile, ita qualitas sensibilis, ut
+          <lb ed="#V" n="34"/>existens in continuo, est. una in
+          <lb ed="#V" n="35"/>actu et plures in potentia, licet
+          <lb ed="#V" n="36"/>per  accidens.; et  tunc reducta
+          <lb ed="#V" n="37"/>potentialitate quanti per se ad
+          <lb ed="#V" n="38"/>actum, reducitur etiam 
+          potentia<lb ed="#V" break="no" n="39"/>litas passionis per aecidens ad 
+          ac<lb ed="#V" break="no" n="40"/>tum, ita quod nunquam quantitas
+          <lb ed="#V" n="41"/>per divisionem dividitur in quanta
+          <lb ed="#V" n="42"/>Mathematica, quia sicut ipse 
+          ar<lb ed="#V" break="no" n="43"/>guebat ad quaestionem, quod 
+          na<lb ed="#V" break="no" n="44"/>tlurale non eomponitur ex parti-
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>bus Mathematicis, sed 
+          naturali<lb ed="#V" break="no" n="46"/>bus, ita etiam in tales partes
+          <lb ed="#V" n="47"/>dividitur. Qualiter autem non
+          <lb ed="#V" n="48"/>faciat ad propositum, patebit 
+          re<lb ed="#V" break="no" n="49"/>spondendo.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e2239">
+          <lb ed="#V" n="50"/>Istud etiam (g), ad quod adductae
+          <lb ed="#V" n="51"/>sunt auctoritates Commentatoris
+          <lb ed="#V" n="52"/>et Aristotelis, probatur per 
+          rati<lb ed="#V" break="no" n="53"/>ones, quia quando aliqua passio
+          <lb ed="#V" n="54"/>convenit alicui praecise secundum
+          <lb ed="#V" n="55"/>aliquam rationem, cuicumque 
+          con<lb ed="#V" break="no" n="56"/>venit aequaliter secundum illam
+          <lb ed="#V" n="57"/>rationem, eidem convenit 
+          simpli<lb ed="#V" break="no" n="58"/>citer aequaliter; sicut videre natum
+          <lb ed="#V" n="59"/>est praecise competere animali
+          <lb ed="#V" n="60"/>secundum oculos, et non 
+          secun<lb ed="#V" break="no" n="61"/>dum manus; cuicumque aequaliter
+          <lb ed="#V" n="62"/>convenit secundum oculos, ei 
+          sim<lb ed="#V" break="no" n="63"/>pliciter aequaliter convenit, licet
+          <lb ed="#V" n="64"/>non conveniat ei secundum 
+          ma<lb ed="#V" break="no" n="65"/>nus. Sed dividi in partes integrales
+          <lb ed="#V" n="66"/>ejusdem rationis extensas, nulli
+          <lb ed="#V" n="67"/>convenit nisi per quantitatem
+          <lb ed="#V" n="68"/>formaliter, nec maximo naturali
+          <lb ed="#V" n="69"/>magis quam minimo; igitur cum
+          <lb ed="#V" n="70"/>minimo conveniat secundum istam
+          <lb ed="#V" n="71"/>rationem, ita simpliciter convenit
+          <lb ed="#V" n="72"/>minimo, sicut maximo.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e2291">
+          <lb ed="#V" n="73"/>Quod si dicatur, (h) quod forma
+          <lb ed="#V" n="74"/>minimi prohibet istud quod 
+          com<lb ed="#V" break="no" n="75"/>peteret ex quantitate, quantum
+          <lb ed="#V" n="76"/>est ex parte quantitatis, contra,
+          <lb ed="#V" n="77"/>(i) si per se consequentia aliqua
+          <lb ed="#V" n="78"/>sunt incompossibilia, et illa ad
+          <lb ed="#V" n="79"/>qua consequuntur illa, sunt 
+          in<lb ed="#V" break="no" n="80"/>compossibilia, et multo magis si
+          <lb ed="#V" n="81"/>illa, quae sunt de essentiali ratione
+          <lb ed="#V" n="82"/>aliquorum, sunt incompossibilia,
+          <lb ed="#V" n="83"/>ef ipsa erunt; sed divisibilitas in
+          <lb ed="#V" n="84"/>[ales partes, vel essentialiter 
+          con<lb ed="#V" break="no" n="85"/>sequitur quantitatem, vel est de
+          <lb ed="#V" n="86"/>per se ratione ejus, sicut 
+          Philo<lb ed="#V" break="no" n="87"/>sophus assignat rationem ejus
+          <lb ed="#V" n="88"/>talem, 5. Metaph. igitur cuicumque
+          <pb ed="#V" n="406"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>formae ponitur istud 
+          incompossi<lb ed="#V" break="no" n="2"/>bile, ei est quantitas 
+          incompossi<lb ed="#V" break="no" n="3"/>bilis, et itae simpliciter non erit
+          <lb ed="#V" n="4"/>illud divisibile inquantum 
+          quan<lb ed="#V" break="no" n="5"/>tum, quia simpliciter non est
+          <lb ed="#V" n="6"/>quantum.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e2346">
+          <lb ed="#V" n="7"/>Hoc etiam probatur, (j) quia
+          <lb ed="#V" n="8"/>non est intelligibile aliquid esse
+          <lb ed="#V" n="9"/>quantum, quin sit ex partibus,
+          <lb ed="#V" n="10"/>nec quod sit ex partibus, quin
+          <lb ed="#V" n="11"/>pars sit minor toto, et ita non
+          <lb ed="#V" n="12"/>est intelligibile quod aliquid sit
+          <lb ed="#V" n="13"/>quantum indivisibile, ita quod non
+          <lb ed="#V" n="14"/>sit aliquid in eo minus, eo 
+          inexi<lb ed="#V" break="no" n="15"/>stens; nec etiam potest poni aliqua
+          <lb ed="#V" n="16"/>caro simpliciter indivisibilis in
+          <lb ed="#V" n="17"/>tota Ooarne, quia stiout punoetus
+          <lb ed="#V" n="18"/>separatus non faceret quantum
+          <lb ed="#V" n="19"/>separatum, ita nec caro 
+          punctua<lb ed="#V" break="no" n="20"/>lis si esset. cum alia, faceret 
+          ali<lb ed="#V" break="no" n="21"/>quid majus, nec continuum, nec
+          <lb ed="#V" n="22"/>contiguum. Unde itaimprobant 
+          ra<lb ed="#V" break="no" n="23"/>tiones Philosophi, 6. Physic 
+          indivi<lb ed="#V" break="no" n="24"/>sibilitatem partis alicujus rei
+          <lb ed="#V" n="25"/>naturalis, sicut alicujus partis
+          <lb ed="#V" n="26"/>quanti inquantum quantum.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e2392">
+          <lb ed="#V" n="27"/>Dico igitur, quod ista responsio
+          <lb ed="#V" n="28"/>de naturali, secundum quod 
+          quan<lb ed="#V" break="no" n="29"/>tum, et secundum quod naturale,
+          <lb ed="#V" n="30"/>si potest habere aliquam 
+          verita<lb ed="#V" break="no" n="31"/>tem, debet intelligi 2affirmando
+          <lb ed="#V" n="32"/>et negando rationem formalem
+          <lb ed="#V" n="33"/>divisibilitatis, ita quod illa 
+          respon<lb ed="#V" break="no" n="34"/>sio, qua dicit quod dividitur 
+          in<lb ed="#V" break="no" n="35"/>quantum quantum, dicit quod 
+          di<lb ed="#V" break="no" n="36"/>Viditur per rationem quantitatis,
+          <lb ed="#V" n="37"/>tanquam per rationem formalem
+          <lb ed="#V" n="38"/>divisionis; et illa quae dicit, quod
+          <lb ed="#V" n="39"/>non dividitur inquantum naturale,
+          <lb ed="#V" n="40"/>negat naturalitatem esse rationem
+          <lb ed="#V" n="41"/>formalem hujus divisionis, sicut
+          <lb ed="#V" n="42"/>si diceretur, quod animal 
+          inquan<lb ed="#V" break="no" n="43"/>tum habet oculos videt, non 
+          in<lb ed="#V" break="no" n="44"/>quantum habet manus.
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>Iste intellectus verus est, sed ex
+          <lb ed="#V" n="46"/>hoc non sequitur quod simpliciter
+          <lb ed="#V" n="47"/>ei non conveniat, quod convenit
+          <lb ed="#V" n="48"/>ei secundum quantitatem ; non
+          <lb ed="#V" n="49"/>enim per naturalitatem 
+          concur<lb ed="#V" break="no" n="50"/>rentem impeditur illud, quod 
+          con<lb ed="#V" break="no" n="51"/>venit naturaliter quantitati, sicut
+          <lb ed="#V" n="52"/>nec per manus concurrentes in
+          <lb ed="#V" n="53"/>animali tollitur illud quod 
+          conve<lb ed="#V" break="no" n="54"/>nit ei simpliciter secundum 
+          ocu<lb ed="#V" break="no" n="55"/>los; ita igitur absolute est, omne
+          <lb ed="#V" n="56"/>naturale divisibile in semper 
+          di<lb ed="#V" break="no" n="57"/>visibilia in infinitum. Sieut si
+          <lb ed="#V" n="58"/>illa quantitas, quae est cum 
+          for<lb ed="#V" break="no" n="59"/>ma naturali. esset per se sine
+          <lb ed="#V" n="60"/>omni forma naturali, et ita
+          <lb ed="#V" n="61"/>omnes rationes, quas procedunt
+          <lb ed="#V" n="62"/>de quantitate absolute secundum
+          <lb ed="#V" n="63"/>rationem quantitatis, concludunt
+          <lb ed="#V" n="64"/>de ea, ut est in naturalibus, quia
+          <lb ed="#V" n="65"/>divisibilitas est passio naturalis
+          <lb ed="#V" n="66"/>ejus, et ex consequenti dicitur de
+          <lb ed="#V" n="67"/>naturali, cujus est haec passio.
+        </p>
+        <!--</div>
+          <div alias="scotus-l2d2q9-p9">-->
+        <p xml:id="jdso8u-d1e1661-d1e2489">
+          <lb ed="#V" n="33" type="fixed=410"/>SCHOLIUM.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e2494">
+          <lb ed="#V" n="34"/>Refutat alium modum, quo dicitur dari
+          <lb ed="#V" n="35"/>minimum per se existens, non tamen 
+          mini<lb ed="#V" break="no" n="36"/>mum in toto, quo non est dabile minus,
+          <lb ed="#V" n="37"/>quia partes homogene:e sunt ejusdem 
+          ratio<lb ed="#V" break="no" n="38"/>nis eum toto, et sic divisibile: ut illud. 
+          Os<lb ed="#V" break="no" n="39"/>tendit etiam non dari minimum in motu,
+          <lb ed="#V" n="40"/>quia in locali datur successio ex ratione
+          <lb ed="#V" n="41"/>quanti, et sic non tenet prima solutio de 
+          mi<lb ed="#V" break="no" n="42"/>nimo secundum formam. Vide. Scot. 6. Phys.
+          <lb ed="#V" n="43"/>quaest. 10.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e2518">
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="44"/>Secunda (a) responsio non 
+          vide<lb ed="#V" break="no" n="45"/>tur excludere rationes praedictas,
+          <lb ed="#V" n="46"/>quin totum non esset compositum
+          <lb ed="#V" n="47"/>ex indivisibilibus, vel ex minimis
+          <lb ed="#V" n="48"/>partibus in toto ; tamen videtur
+          <lb ed="#V" n="49"/>posse poni minimum in motu, pro
+          <lb ed="#V" n="50"/>eo quod pars motus per se est 
+          an<lb ed="#V" break="no" n="51"/>tequam sit aliquid ulterius totius,
+          <lb ed="#V" n="52"/>et illa pars formae secundum quam
+          <lb ed="#V" n="53"/>est motus, prsecedit omnes alias
+          <lb ed="#V" n="54"/>partes illius formes, non tantum
+          <lb ed="#V" n="55"/>natura, sed etiam duratione, et ita
+          <lb ed="#V" n="56"/>tunc videtur esse per se, et non in
+          <lb ed="#V" n="57"/>toto; siigitur sit minimum in 
+          na<lb ed="#V" break="no" n="58"/>turalibus quod possit per se esse,
+          <lb ed="#V" n="59"/>videtur esse minima pars formae,
+          <lb ed="#V" n="60"/>quae potest induci per motum et
+          <lb ed="#V" n="61"/>ita minimus motus.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e2562">
+          <lb ed="#V" n="62"/>(b) Sed contra illam, 
+          responsi<lb ed="#V" break="no" n="63"/>onem arguo, quia sicut essentiale
+          <lb ed="#V" n="64"/>est quanto posse dividi in partes,
+          <lb ed="#V" n="65"/>ita est ei essentiale, quod singulum
+          <lb ed="#V" n="66"/>eorum, in quae dividitur, possit
+          <lb ed="#V" n="67"/>esse hoc aliquid; igitur nulli 
+          eo<lb ed="#V" break="no" n="68"/>rum repugnat per se esse.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e2580">
+          <lb ed="#V" n="69"/>(c) Confirmatur ratio et ista 
+          con<lb ed="#V" break="no" n="70"/>sequentia; tum quia partes ille
+          <lb ed="#V" n="71"/>sunt ejusdem rationis quantum ad
+          <lb ed="#V" n="72"/>formam et materiam; cum toto
+          <lb ed="#V" n="73"/>igitur possunt habere per se 
+          exis<lb ed="#V" break="no" n="74"/>tentiam, sicut et totum potest ;
+          <lb ed="#V" n="75"/>tum, quia si essent; pep -se, esseniy
+          <lb ed="#V" n="76"/>individua ejusdem speciei, cujus
+          <lb ed="#V" n="77"/>totum est individuum. Absurdum
+          <lb ed="#V" n="78"/>autem videtur, quod aliquid 
+          ha<lb ed="#V" break="no" n="79"/>beat in se naturam illam, unde
+          <lb ed="#V" n="80"/>sit individuum, vel posset esse
+          <lb ed="#V" n="81"/>individuum alicujus speciei, ita
+          <lb ed="#V" n="82"/>quod simpliciter non repugnat
+          <lb ed="#V" n="83"/>sibi posse esse individuum illius,
+          <lb ed="#V" n="84"/>et si repugnet posse esse 
+          sim<lb ed="#V" break="no" n="85"/>plieiter, et hoc saltem de illis,
+          <lb ed="#V" n="86"/>ause non sunt accidentia: loquimur
+          <pb ed="#V" n="411"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>enim modo de substantiis 
+          homoge<lb ed="#V" break="no" n="2"/>neis, qua non inhaerent 
+          essentia<lb ed="#V" break="no" n="3"/>liter, tum etiam, quia partes sunt
+          <lb ed="#V" n="4"/>naturaliter priores toto, igitur non
+          <lb ed="#V" n="5"/>repugnat eis contradictorie posse
+          <lb ed="#V" n="6"/>esse priores duratione ipso toto,
+          <lb ed="#V" n="7"/>sicut quia repugnat ipsi toti esse
+          <lb ed="#V" n="8"/>prius natura hoc modo, ideo sibi
+          <lb ed="#V" n="9"/>repugnat contradictorie ex parte
+          <lb ed="#V" n="10"/>sui esse prius duratione.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e2648">
+          <lb ed="#V" n="11"/>Videtur ergo quoad hoc 
+          dicen<lb ed="#V" break="no" n="12"/>dum, quod sicut forma naturalis
+          <lb ed="#V" n="13"/>non tollit a toto naturali, quin ita
+          <lb ed="#V" n="14"/>sit. totum semper divisibile per
+          <lb ed="#V" n="15"/>quantitatem, sicut quantitas esset,
+          <lb ed="#V" n="16"/>si sola esset, ita etiam non tollit
+          <lb ed="#V" n="17"/>quin quodlibet divisum posset per
+          <lb ed="#V" n="18"/>se esse, quantum ex se. est, et. ex
+          <lb ed="#V" n="19"/>parte sui, sicut posset quaelibet
+          <lb ed="#V" n="20"/>pars quantitativa in quam 
+          divide<lb ed="#V" break="no" n="21"/>retur quantum.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e2675">
+          <lb ed="#V" n="22"/>Et si dicas, (d) quod statim 
+          con<lb ed="#V" break="no" n="23"/>verteretur in continens, ista 
+          res<lb ed="#V" break="no" n="24"/>ponsio non videtur esse ad 
+          intellec<lb ed="#V" break="no" n="25"/>tum quaestionis ; quaerimus enim
+          <lb ed="#V" n="26"/>minimum potens per se esse ex 
+          ra<lb ed="#V" break="no" n="27"/>tione intrinseca, hoc est, qui per
+          <lb ed="#V" n="28"/>aliquod intrinsecum repugnat 
+          con<lb ed="#V" break="no" n="29"/>tradictorie minus eo per se esse ;
+          <lb ed="#V" n="30"/>nulla autem ratio hujus 
+          impossibi<lb ed="#V" break="no" n="31"/>litatis intrinseca assignatur, si 
+          to<lb ed="#V" break="no" n="32"/>tum corrumpatur, 
+          circumscriba<lb ed="#V" break="no" n="33"/>mus enim omne continens et omne
+          <lb ed="#V" n="34"/>corruptivum,et quod aqua sola sit
+          <lb ed="#V" n="35"/>in universo, quaecumque aqua data
+          <lb ed="#V" n="36"/>dividatur, quia hoc est possibile,
+          <lb ed="#V" n="37"/>ut probatum est contra primam
+          <lb ed="#V" n="38"/>responsionem ; ista, in quae fit 
+          di<lb ed="#V" break="no" n="39"/>visio, non erunt nihila, quia hoc
+          <lb ed="#V" n="40"/>est contra rationem divisionis, nec
+          <lb ed="#V" n="41"/>erunt non aqua ex sola ratione 
+          di<lb ed="#V" break="no" n="42"/>visionis, quia tunc aqua 
+          compone<lb ed="#V" break="no" n="43"/>retur ex non aquis. Non etiam 
+          re<lb ed="#V" break="no" n="44"/>pugnabit formae aquae ista parvi-
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>tas, quae jam est in actu, quia ita
+          <lb ed="#V" n="46"/>parva praefuit, licet in toto ; nec
+          <lb ed="#V" n="47"/>per ipsam divisionem 
+          corrumpe<lb ed="#V" break="no" n="48"/>tur aqua, quia circumscriptum est
+          <lb ed="#V" n="49"/>omne corruptivum ex hypothesi;
+          <lb ed="#V" n="50"/>non videtur igitur aliqua ratio 
+          in<lb ed="#V" break="no" n="51"/>trinseca, quare naturali repugnet
+          <lb ed="#V" n="52"/>quin semper quocumque per se
+          <lb ed="#V" n="53"/>exsistente, possit aliquid minus eo
+          <lb ed="#V" n="54"/>per se existere, licet ratio 
+          extrin<lb ed="#V" break="no" n="55"/>seca forte impeditiva talis per se
+          <lb ed="#V" n="56"/>existentiae assignetur contrarietas
+          <lb ed="#V" n="57"/>corrumpentis.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e2758">
+          <lb ed="#V" n="58"/>(c) Arguo etiam contra utramque
+          <lb ed="#V" n="59"/>responsionem simul, quia neutra
+          <lb ed="#V" n="60"/>salvat minimum in motu, propter
+          <lb ed="#V" n="61"/>quod improbandum tacta est 
+          ali<lb ed="#V" break="no" n="62"/>qualiter praecedens deductio ; licet
+          <lb ed="#V" n="63"/>enim medium in motu locali non
+          <lb ed="#V" n="64"/>posset cedere mobili, nisi esset 
+          na<lb ed="#V" break="no" n="65"/>turale, tamen si per impossibile,
+          <lb ed="#V" n="66"/>medium  Mathematieum posset
+          <lb ed="#V" n="67"/>cedere mobili Mathematico, vere
+          <lb ed="#V" n="68"/>esset successio in motu tali propter
+          <lb ed="#V" n="69"/>divisibilitatem medii, prius enim
+          <lb ed="#V" n="70"/>pertransiret mobile priorem 
+          par<lb ed="#V" break="no" n="71"/>tem spatii quam posteriorem. 
+          Eti<lb ed="#V" break="no" n="72"/>am modo, sicut per accidens est
+          <lb ed="#V" n="73"/>in loeato, ex parte locati, 
+          inquan<lb ed="#V" break="no" n="74"/>tum locatum est, quod habeat 
+          qua<lb ed="#V" break="no" n="75"/>litates naturales, sicut patet per
+          <lb ed="#V" n="76"/>Philosophum, 4. P/Aysic. de cubo, et
+          <lb ed="#V" n="77"/>per accidens ex parte loci, 
+          inquan<lb ed="#V" break="no" n="78"/>tum loeus est, quod habeat 
+          quali<lb ed="#V" break="no" n="79"/>tatem naturalem, er q. 1. de loco,
+          <lb ed="#V" n="80"/>quia licet naturalitas conveniat
+          <lb ed="#V" n="81"/>locanti, tamen per aecidens 
+          conve<lb ed="#V" break="no" n="82"/>nit loco, ita etiam licet necessario,
+          <lb ed="#V" n="83"/>tamen omnino per aeeidens 
+          conve<lb ed="#V" break="no" n="84"/>nit motui secundum locum, sive
+          <lb ed="#V" n="85"/>motui secundum wi, quod est in
+          <lb ed="#V" n="86"/>locato per se, inquantum respieit
+          <lb ed="#V" n="87"/>per se locum, quod qualitas 
+          natu<lb ed="#V" break="no" n="88"/>ralis sit in ipso* motu, vel quod
+          <pb ed="#V" n="412"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>sit in illo, secundum quod est 
+          mo<lb ed="#V" break="no" n="2"/>tus, sive in magnitudine, super
+          <lb ed="#V" n="3"/>quam fit motus per se; igi tur 
+          ra<lb ed="#V" break="no" n="4"/>tio successionis est quantitas, vel
+          <lb ed="#V" n="5"/>in magnitudine, vel in mobili, vel
+          <lb ed="#V" n="6"/>in utroque.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e2845">
+          <lb ed="#V" n="7"/>(f) Ex hoc destruitur prima 
+          res<lb ed="#V" break="no" n="8"/>ponsio, quod non faciat pro 
+          mi<lb ed="#V" break="no" n="9"/>nimo motu, quia ex quo, 
+          secun<lb ed="#V" break="no" n="10"/>dum eam, non est accipere in eo
+          <lb ed="#V" n="11"/>minimum secundum quod 
+          quan<lb ed="#V" break="no" n="12"/>tum, et successtioest in motu locali
+          <lb ed="#V" n="13"/>per se, ex ratione alicujus 
+          inquan<lb ed="#V" break="no" n="14"/>tumquantum, sequitur quod in 
+          mo<lb ed="#V" break="no" n="15"/>tu locali nullo modo posset esse 
+          mi<lb ed="#V" break="no" n="16"/>nimum, et ita nec in aliis motibus,
+          <lb ed="#V" n="17"/>quia non ita immediate concedatur
+          <lb ed="#V" n="18"/>de alteratione, si ponatur motus
+          <lb ed="#V" n="19"/>vel successio secundum formam;
+          <lb ed="#V" n="20"/>tamen sequitur per locum a 
+          ma<lb ed="#V" break="no" n="21"/>jori negative; nullus enim motus
+          <lb ed="#V" n="22"/>velocior est latione, et ita nullus
+          <lb ed="#V" n="23"/>potest habere partes indivisibiles,
+          <lb ed="#V" n="24"/>si iste necessario habeat partes
+          <lb ed="#V" n="25"/>divisibiles.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e2889">
+          <lb ed="#V" n="26"/>(g) Ex eodem etiam destruitur
+          <lb ed="#V" n="27"/>secunda responsio, quod non faciat
+          <lb ed="#V" n="28"/>pro minimo motu, quia in 
+          magni<lb ed="#V" break="no" n="29"/>tudine, super quam est motus, non
+          <lb ed="#V" n="30"/>est accipere minimam partem;
+          <lb ed="#V" n="31"/>igitur nec minimum transitum 
+          su<lb ed="#V" break="no" n="32"/>per illam magnitudinem, quia illo
+          <lb ed="#V" n="33"/>minimo transitu oporteret 
+          pertran<lb ed="#V" break="no" n="34"/>sire minimam partem 
+          magnitu<lb ed="#V" break="no" n="35"/>dinis.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e2913">
+          <lb ed="#V" n="36"/>(h Secunda etiam responsio,
+          <lb ed="#V" n="37"/>quantum ad minimum motum,
+          <lb ed="#V" n="38"/>destruitur etiam per alia. Primo,
+          <lb ed="#V" n="39"/>quia quando movens est praesens
+          <lb ed="#V" n="40"/>et vincens, super motum non 
+          po<lb ed="#V" break="no" n="41"/>test poni illa ratio extrinseca,
+          <lb ed="#V" n="42"/>propter quam negatur tale 
+          mini<lb ed="#V" break="no" n="43"/>mum posse per se esse, scilicet
+          <lb ed="#V" n="44"/>praesentia corruptivi, quia prae-
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>sentia moventis et  producentis
+          <lb ed="#V" n="46"/>tale minimum tunc vincit. omne
+          <lb ed="#V" n="47"/>contrarium corruptivum.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e2944">
+          <lb ed="#V" n="48"/>(i) Similiter quodcumque datum
+          <lb ed="#V" n="49"/>minimum in successivis posse esse
+          <lb ed="#V" n="50"/>in fluendo, hoc est, minimum ibi 
+          <lb ed="#V" n="51"/>simpliciter esse in toto, quia pars
+          <lb ed="#V" n="52"/>successivi non habet aliud esse in
+          <lb ed="#V" n="53"/>toto, quam unam partem fluere
+          <lb ed="#V" n="54"/>ante aliam partem, quas partes
+          <lb ed="#V" n="55"/>fluentes integrant totum; sicut
+          <lb ed="#V" n="56"/>igitur in toto permanente, hoc
+          <lb ed="#V" n="57"/>est, partem esse in toto, est 
+          par<lb ed="#V" break="no" n="58"/>tem permanentem esse continuam
+          <lb ed="#V" n="59"/>alteri parti permanenti in toto,
+          <lb ed="#V" n="60"/>ita in successivo, partem esse in
+          <lb ed="#V" n="61"/>toto, est partem fluentem 
+          conti<lb ed="#V" break="no" n="62"/>nuari alteri parti fluenti.
+        </p>
+        <!--</div>
+          <div alias="scotus-l2d2q9-p10">-->
+        <p xml:id="jdso8u-d1e1661-d1e2982">
+          <lb ed="#V" n="18" type="fixed=426"/>SCHOLIUM.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e2987">
+          <lb ed="#V" n="19"/>Nunc solvit probationes adductas num. 1.
+          <lb ed="#V" n="20"/>pro secundo argumento, et refutando 
+          mo<lb ed="#V" break="no" n="21"/>dum aliorum, explicat illam propositionem :
+          <lb ed="#V" n="22"/>possibile est. continuum dividi in omnia in
+          <lb ed="#V" n="23"/>quae divisibile est, circa quam pulchra habet
+          <lb ed="#V" n="24"/>logicalia, de quibus vide Lychet. et Tartaret.
+          <lb ed="#V" n="25"/>hic et ipsum Soot. 6. Phys. q. 2.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e3005">
+          <lb ed="#V" n="26"/>Sic igitur (a) improbatis illis
+          <lb ed="#V" n="27"/>duabus deduetionibus 
+          antecedenti<lb ed="#V" break="no" n="28"/>bus, respondendum est ad 
+          proba<lb ed="#V" break="no" n="29"/>tiones adductas pro eis.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e3016">
+          <lb ed="#V" n="30"/>Ad primam dicitur quod licet
+          <lb ed="#V" n="31"/>possibile sit continuum posse divi- -
+          <lb ed="#V" n="32"/>di secundum omne signum, non
+          <lb ed="#V" n="33"/>tamen est possibile divisum esse,
+          <lb ed="#V" n="34"/>quia ista divisio est in potentia et
+          <lb ed="#V" n="35"/>in fieri, et nunquam potest esse
+          <lb ed="#V" n="36"/>tota in facto esse, et  tunc ad illas
+          <lb ed="#V" n="37"/>probationes adductas in 
+          opposi<lb ed="#V" break="no" n="38"/>tum, conceditur de quaeumque
+          <lb ed="#V" n="39"/>una potentia ad unam factionem,
+          <lb ed="#V" n="40"/>non tamen de infinitis actionibus,
+          <lb ed="#V" n="41"/>cum quarum una reducta ad
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="42"/>actum, necessario stat alia non
+          <lb ed="#V" n="43"/>reducta ad actum; ita est in 
+          pro<lb ed="#V" break="no" n="44"/>posito, quod sunt infinitae potentize
+          <lb ed="#V" n="45"/>ad infinita dividi, cum quarum una
+          <lb ed="#V" n="46"/>reducta ad actum, necessario stat
+          <lb ed="#V" n="47"/>alia non reducta ad acetum, et ideo
+          <lb ed="#V" n="48"/>licet concedatur possibilitas ad
+          <lb ed="#V" n="49"/>dividi, non tamen ad divisum esse.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e3064">
+          <lb ed="#V" n="50"/>Confirmatur ista (b) responsio
+          <lb ed="#V" n="51"/>per Averroem super 3. Physic. ubi
+          <lb ed="#V" n="52"/>assignat rationem illius 
+          probati<lb ed="#V" break="no" n="53"/>onis Philosophi : quantam contingit
+          <lb ed="#V" n="54"/>magnitudinem esse in potentia, tantam
+          <lb ed="#V" n="55"/>contingit esse in actu. Non sic in 
+          nu<lb ed="#V" break="no" n="56"/>meris, propter hoc, quod omnes
+          <lb ed="#V" n="57"/>illae potentiae, qua» sunt ad partes
+          <lb ed="#V" n="58"/>magnitudinis, sunt potentis 
+          ejus<lb ed="#V" break="no" n="59"/>dem potentialitatis et ejusdem 
+          ra<lb ed="#V" break="no" n="60"/>tionis, non sic in numeris.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e3090">
+          <lb ed="#V" n="61"/>Contra istud sequitur (c) per te,
+          <lb ed="#V" n="62"/>continuum potest dividi secundum
+          <lb ed="#V" n="63"/>A;igitur possibile est ipsum esse
+          <lb ed="#V" n="64"/>divisum secundum A, et ita de P et
+          <lb ed="#V" n="65"/>C, et quocumque alio singulari, et
+          <lb ed="#V" n="66"/>hoc determinato vel 
+          indetermina<lb ed="#V" break="no" n="67"/>to, quia nulla una divisio potest
+          <lb ed="#V" n="68"/>esse, quae non potest esse 
+          comple<lb ed="#V" break="no" n="69"/>ta; igitur omnes singulares 
+          ante<lb ed="#V" break="no" n="70"/>cedentis inferunt omnes singulares
+          <lb ed="#V" n="71"/>consequentis ; igitur antecedens
+          <lb ed="#V" n="72"/>infert consequens, et potest dividi
+          <lb ed="#V" n="73"/>in infinitum, ergo possibile est 
+          di<lb ed="#V" break="no" n="74"/>visionem esse jam factam in actu
+          <lb ed="#V" n="75"/>in infinita.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e3126">
+          <lb ed="#V" n="76"/>Quod si dicis singularia (d) 
+          con<lb ed="#V" break="no" n="77"/>sequentis repugnare, non autem
+          <lb ed="#V" n="78"/>singularia antecedentis ; contra, ex
+          <lb ed="#V" n="79"/>compossibilibus nunquam 
+          sequun<lb ed="#V" break="no" n="80"/>tur incompossibilia, sed ex 
+          singu<lb ed="#V" break="no" n="81"/>laribus illis sequuntur illa, patet
+          <lb ed="#V" n="82"/>induetive; igitur, etc.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e3144">
+          <lb ed="#V" n="83"/>(e) Sed respondetur, quod ista
+          <lb ed="#V" n="84"/>propositio : possibile est continuum
+          <lb ed="#V" n="85"/>dividi secundum quodlibet signum, pos-
+          <pb ed="#V" n="427"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>set distingui secuudum 
+          composi<lb ed="#V" break="no" n="2"/>tionem et divisionem, ut esset 
+          sen<lb ed="#V" break="no" n="3"/>sus compositionis iste, quod hzec
+          <lb ed="#V" n="4"/>propositio est possibilis : possibile
+          <lb ed="#V" n="5"/>est continuum dividi secundum quodlibet
+          <lb ed="#V" n="6"/>sigmum ; sensus autem divisionis
+          <lb ed="#V" n="7"/>est, quod in continuo est dividi
+          <lb ed="#V" n="8"/>posse ad quodcumque signum. 
+          Pri<lb ed="#V" break="no" n="9"/>mus sensus est verus, secundus
+          <lb ed="#V" n="10"/>falsus. Vel potest distingui, 
+          secun<lb ed="#V" break="no" n="11"/>dum quod signum potest 
+          distri<lb ed="#V" break="no" n="12"/>buere divisive vel collective. 
+          Pos<lb ed="#V" break="no" n="13"/>set etiam distingui quod possibile
+          <lb ed="#V" n="14"/>posset praiecedere signum, vel 
+          sub<lb ed="#V" break="no" n="15"/>sequi; et si praecederet, esset 
+          pro<lb ed="#V" break="no" n="16"/>positio falsa, quia notaretur esse
+          <lb ed="#V" n="17"/>una potentia ad attributionem
+          <lb ed="#V" n="18"/>praedieati; si sequeretur, esset 
+          ve<lb ed="#V" break="no" n="19"/>ra, quia notaretur potentia 
+          multi<lb ed="#V" break="no" n="20"/>plieari ad multiplicationem 
+          sub<lb ed="#V" break="no" n="21"/>jecti.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e3203">
+          <lb ed="#V" n="22"/>(f) Istae responsiones non 
+          viden<lb ed="#V" break="no" n="23"/>tur multum Logicae. Tertia non,
+          <lb ed="#V" n="24"/>quia modus compositionis, puta
+          <lb ed="#V" n="25"/>possibilitas, non videtur posse
+          <lb ed="#V" n="26"/>distribui ad plures possibilitates,
+          <lb ed="#V" n="27"/>sive impossibilitates pro pluribus
+          <lb ed="#V" n="28"/>instantibus possibilibus vel 
+          impos<lb ed="#V" break="no" n="29"/>sibilibus seu incompossibilibus, et
+          <lb ed="#V" n="30"/>non notaretur praedicatum uniri
+          <lb ed="#V" n="31"/>subjecto pro aliquo uno instanti.
+          <lb ed="#V" n="32"/>Nec secunda responsio aliquid
+          <lb ed="#V" n="33"/>valet, quia illa non habet locum,
+          <lb ed="#V" n="34"/>nisi accepto hoc signo omnis, in
+          <lb ed="#V" n="35"/>plurali, sicut ibi: Omnes Apostoli
+          <lb ed="#V" n="36"/>Dei sunt duodecim. Nec responsio
+          <lb ed="#V" n="37"/>prima videtur valere, quia necesse
+          <lb ed="#V" n="38"/>est acciplendo extrema pro eodem
+          <lb ed="#V" n="39"/>tempore vel pro alio, quod 
+          possibi<lb ed="#V" break="no" n="40"/>liias dicat modum compositionis
+          <lb ed="#V" n="41"/>unientis extrema.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e3249">
+          <lb ed="#V" n="42"/>(g) Omittendo longas et prolixas
+          <lb ed="#V" n="43"/>evasiones illarum improbationum
+          <lb ed="#V" n="44"/>dieo quod ista propositio signat
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>unionem praedicati cum subjecto
+          <lb ed="#V" n="46"/>possibiliter pro aliquo uno mune,
+          <lb ed="#V" n="47"/>licet illud nunc sit 
+          indetermina<lb ed="#V" break="no" n="48"/>tum, et  tunc illa expositio esset
+          <lb ed="#V" n="49"/>vera, si talis ampliatio 
+          compositi<lb ed="#V" break="no" n="50"/>onis possit fieri virtute 
+          possibili<lb ed="#V" break="no" n="51"/>tatis. Non enim potest fieri 
+          ampli<lb ed="#V" break="no" n="52"/>atio ad plura »unc, ut non notetur
+          <lb ed="#V" n="53"/>possibilitas compositionis pro 
+          ali<lb ed="#V" break="no" n="54"/>quo uno nwne, sjve extrema 
+          acci<lb ed="#V" break="no" n="55"/>piantur pro eodem nwne, sive pro
+          <lb ed="#V" n="56"/>alio, puta si sedens accipiatur
+          <lb ed="#V" n="57"/>pro uno instanti, et stans pro alio.
+          <lb ed="#V" n="58"/>In omni sensu oportet quod 
+          possi<lb ed="#V" break="no" n="59"/>bilitas modificet ipsam 
+          composi<lb ed="#V" break="no" n="60"/>tionem jungentem extrema pro
+          <lb ed="#V" n="61"/>aliquo uno nunc, tamen 
+          indetermi<lb ed="#V" break="no" n="62"/>nato.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e3299">
+          <lb ed="#V" n="63"/>Ita in proposito, notatur dividi
+          <lb ed="#V" n="64"/>uniri continuo secundum signum,
+          <lb ed="#V" n="65"/>et pro quolibet ejus, et hoc pro
+          <lb ed="#V" n="66"/>aliquo nmwne. indeterminato. Hoc
+          <lb ed="#V" n="67"/>autem est impossibile, quia 
+          quan<lb ed="#V" break="no" n="68"/>doeumque unitur sibi praedicatum
+          <lb ed="#V" n="69"/>pro aliquo vel aliquibus 
+          singulari<lb ed="#V" break="no" n="70"/>bus, necessario sibi repugnat pro
+          <lb ed="#V" n="71"/>aliis ; necesse est enim, sicut dicit
+          <lb ed="#V" n="72"/>prima responsio, quod cum 
+          redu<lb ed="#V" break="no" n="73"/>ctione potentiae, non tantum ad
+          <lb ed="#V" n="74"/>factum esse, sed ad fieri, stet alia 
+          po<lb ed="#V" break="no" n="75"/>tentia non reducta, nec ad actum
+          <lb ed="#V" n="76"/>facti esse, nec. etiam fieri, quia 
+          ne<lb ed="#V" break="no" n="77"/>cesse est divisione existente in
+          <lb ed="#V" n="78"/>fieri, vel in facto esse secundum . 41,
+          <lb ed="#V" n="79"/>aliquid continuum terminari per
+          <lb ed="#V" n="80"/>A, et ita potentiam, quae est in illa
+          <lb ed="#V" n="81"/>parte continui, non reduci ad
+          <lb ed="#V" n="82"/>actum.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e3345">
+          <lb ed="#V" n="83"/>Sed si arguas, (h) qualibet 
+          sin<lb ed="#V" break="no" n="84"/>gularis est vera, igitur et 
+          univer<lb ed="#V" break="no" n="85"/>salis. Posset dici, quod singulares
+          <lb ed="#V" n="86"/>sunf vero», non famen 
+          compossi<lb ed="#V" break="no" n="87"/>biles, et. utrumque requiritur ad
+          <lb ed="#V" n="88"/>possibilitatem universalis.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e3362">
+          <pb ed="#V" n="428"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>(i) Contra, simul haec est vera,
+          <lb ed="#V" n="2"/>continuum potest dividi secundum
+          <lb ed="#V" n="3"/>A, et secundum B et C, et sic de
+          <lb ed="#V" n="4"/>quolibet alio singulari simul. Et
+          <lb ed="#V" n="5"/>si dicas, quod singulares sunt 
+          com<lb ed="#V" break="no" n="6"/>possibiles accipiendo potentiam,
+          <lb ed="#V" n="7"/>sed non actum terminantem 
+          po<lb ed="#V" break="no" n="8"/>tentiam pro eodem, puta est simul
+          <lb ed="#V" n="9"/>possibile continuum dividi 
+          secun<lb ed="#V" break="no" n="10"/>dum A, et secundum B et C, non 
+          ta<lb ed="#V" break="no" n="11"/>men est possibile simul dividi 
+          se<lb ed="#V" break="no" n="12"/>cundum A et B et C, etc. arguo quod
+          <lb ed="#V" n="13"/>non oportet accipere 
+          possibilita<lb ed="#V" break="no" n="14"/>tem dividendi pro eodem mune, ad
+          <lb ed="#V" n="15"/>hoc, ut universalis sit vera, quia
+          <lb ed="#V" n="16"/>singulares absolute enuntiantes
+          <lb ed="#V" n="17"/>predieatum de singularibus 
+          suffi<lb ed="#V" break="no" n="18"/>cienter enumeratis, inferunt 
+          uni<lb ed="#V" break="no" n="19"/>versale absolute enuntians idem
+          <lb ed="#V" n="20"/>predieatum; sed si tales 
+          singula<lb ed="#V" break="no" n="21"/>res sunt vere omnes in se et 
+          ab<lb ed="#V" break="no" n="22"/>solutz, igitur et universalis.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e3417">
+          <lb ed="#V" n="23"/>Respondeo, (j) quod singulares
+          <lb ed="#V" n="24"/>propositiones de possibili absolute
+          <lb ed="#V" n="25"/>sumpta, non inferunt formaliter
+          <lb ed="#V" n="26"/>universalem de possibili, sed est
+          <lb ed="#V" n="27"/>fallacia figurae dictionis, a 
+          pluri<lb ed="#V" break="no" n="28"/>bus determinatis ad unam, possunt
+          <lb ed="#V" n="29"/>enim singulares ex vi sermonis
+          <lb ed="#V" n="30"/>unire praedicatum subjecto pro
+          <lb ed="#V" n="31"/>aliquo nunc, universalis autem unit
+          <lb ed="#V" n="32"/>praedicatum subjecto pro quolibet
+          <lb ed="#V" n="33"/>ejus universaliter, et ideo procedit
+          <lb ed="#V" n="34"/>ex forma significandi a pluribus
+          <lb ed="#V" n="35"/>determinatis ad unum.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e3448">
+          <lb ed="#V" n="36"/>Ista est ratio quare a pramissa
+          <lb ed="#V" n="37"/>de possibili ut nunc, et alia de 
+          pos<lb ed="#V" break="no" n="38"/>sibili pro alio nunc, non sequitur
+          <lb ed="#V" n="39"/>conclusio de possibili simpliciter
+          <lb ed="#V" n="40"/>et absolute, quia praemisse illc
+          <lb ed="#V" n="41"/>non (k) significant ex forma sua
+          <lb ed="#V" n="42"/>extrema uniri ipsi medio, et sic
+          <lb ed="#V" n="43"/>non sequitur unio extremorum
+          <lb ed="#V" n="44"/>inter se, nec etiam est possibilis
+          <lb ed="#V" n="45"/>pro aliquo eodem.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e3472">
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="46"/>Et si quaeras qualiter sint 
+          acci<lb ed="#V" break="no" n="47"/>piendae singulares de possibili, ut
+          <lb ed="#V" n="48"/>sufficienter inferant, universalem:
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e3483">
+          <lb ed="#V" n="49"/>Dico, quod oportet eas accipi in
+          <lb ed="#V" n="50"/>compositione specificata pro 
+          eo<lb ed="#V" break="no" n="51"/>dem nunc indeterminato, puta 
+          pos<lb ed="#V" break="no" n="52"/>sibile est dividi secundum 4A, pro
+          <lb ed="#V" n="53"/>aliquo mune, et possibile est dividi
+          <lb ed="#V" n="54"/>secundum, 2, pro eodem, et 
+          se<lb ed="#V" break="no" n="55"/>cundum C, pro eodem mune, et sic
+          <lb ed="#V" n="56"/>de singulis, et  tunc sequitur 
+          uni<lb ed="#V" break="no" n="57"/>versalis, et aliter non.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e3505">
+          <lb ed="#V" n="58"/>(l) Et si arguas quod istae 
+          singu<lb ed="#V" break="no" n="59"/>lares sunt alterius universalis,
+          <lb ed="#V" n="60"/>puta istius, possibile est 
+          conti<lb ed="#V" break="no" n="61"/>nuum dividi secundum quodlibet
+          <lb ed="#V" n="62"/>signum secundum unum mune,
+          <lb ed="#V" n="63"/>quae formaliter differt ab illa alia.
+          <lb ed="#V" n="64"/>Respondeo quod differunt 
+          seeun<lb ed="#V" break="no" n="65"/>dum vocem, quia hoc quod ista
+          <lb ed="#V" n="66"/>exprimit hic, alia ex 
+          consignifica<lb ed="#V" break="no" n="67"/>tione verbi demonstrat extrema
+          <lb ed="#V" n="68"/>uniri.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e3532">
+          <lb ed="#V" n="69"/>Etsi dicas, quod etiam hoc 
+          mo<lb ed="#V" break="no" n="70"/>do specificando praedicatum pro
+          <lb ed="#V" n="71"/>aliquo nunc determinato vel 
+          inde<lb ed="#V" break="no" n="72"/>terminato, nulla singularis 
+          repu<lb ed="#V" break="no" n="73"/>enat alii, ut possibile est dividi
+          <lb ed="#V" n="74"/>secundum Z, pro eodem mune, non
+          <lb ed="#V" n="75"/>repugnat isti possibile est dividi
+          <lb ed="#V" n="76"/>secundum 4A, pro eodem mune, et
+          <lb ed="#V" n="77"/>ita de C, et de quolibet alio 
+          singula<lb ed="#V" break="no" n="78"/>ri, quia si aliqua repugnaret, aut
+          <lb ed="#V" n="79"/>esset illa, quae reciperet punctum
+          <lb ed="#V" n="80"/>immediatum, aut mediatum ; non
+          <lb ed="#V" n="81"/>illa, quae acciperet mediatum, quia
+          <lb ed="#V" n="82"/>divisio secundum unum signum,
+          <lb ed="#V" n="83"/>non impedit divisionem secundum
+          <lb ed="#V" n="84"/>aliud signum mediatum ; nec ista,
+          <lb ed="#V" n="85"/>qua immediatum, quia nullum est
+          <lb ed="#V" n="86"/>immediatum ; igitur singulares
+          <lb ed="#V" n="87"/>ut inducunt universalem istam, ut
+          <lb ed="#V" n="88"/>nune sunt vere et compossibiles.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e3578">
+          <lb ed="#V" n="89"/>Respondeo, dico quod cuilibet x
+          <pb ed="#V" n="429"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>singulari acceptae vel acceptibili,
+          <lb ed="#V" n="2"/>nulla singularis determinata 
+          acce<lb ed="#V" break="no" n="3"/>pia vel acceptabilis, repugnat 
+          in<lb ed="#V" break="no" n="4"/>determinata compositione pro 
+          eo<lb ed="#V" break="no" n="5"/>dem nunc, tamen cuicumque 
+          aecce<lb ed="#V" break="no" n="6"/>pi» (m) repugnant infinitae . 
+          inde<lb ed="#V" break="no" n="7"/>terminata.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e3602">
+          <lb ed="#V" n="8"/>Et ratio illius repugnantiae est
+          <lb ed="#V" n="9"/>assignata prius ex impossibilitate
+          <lb ed="#V" n="10"/>reductionis omnium potentiarum
+          <lb ed="#V" n="11"/>simul ad actum. Hujus simile non
+          <lb ed="#V" n="12"/>habetur faciliter in aliis; bene
+          <lb ed="#V" n="13"/>enim potest poni exemplum, ubi
+          <lb ed="#V" n="14"/>quaelibet singularis est possibilis,
+          <lb ed="#V" n="15"/>et tamen universalis non est 
+          pos<lb ed="#V" break="no" n="16"/>sibilis, quia aliqua una singularis,
+          <lb ed="#V" n="17"/>alieui uni singulari est 
+          incompos<lb ed="#V" break="no" n="18"/>sibilis, sicut possibile est omnem
+          <lb ed="#V" n="19"/>colorem tibi inesse, haec est 
+          im<lb ed="#V" break="no" n="20"/>possibilis, quia aliqua una 
+          deter<lb ed="#V" break="no" n="21"/>minata singularis alteri 
+          deter<lb ed="#V" break="no" n="22"/>minate repugnat, sicut te esse
+          <lb ed="#V" n="23"/>album, repugnat isti, te esse
+          <lb ed="#V" n="24"/>nigrum. Tamen ponamus, (n) quod
+          <lb ed="#V" n="25"/>Iste non posset portare decem
+          <lb ed="#V" n="26"/>lapides, sed novem tantum, et
+          <lb ed="#V" n="27"/>sint illi lapides decem aequales,
+          <lb ed="#V" n="28"/>ista propositio: possibile est omnem
+          <lb ed="#V" n="29"/>lapidem portari ab isto, falsa est; et
+          <lb ed="#V" n="30"/>non quia aliqua singularis in se
+          <lb ed="#V" n="31"/>sit falsa, nec quia aliqua 
+          singu<lb ed="#V" break="no" n="32"/>laris determinata sit alicui 
+          de<lb ed="#V" break="no" n="33"/>terminate  incompossibilis, sed
+          <lb ed="#V" n="34"/>aliquibus determinatis est aliqua
+          <lb ed="#V" n="35"/>indeterminata ^ incompossibilis;
+          <lb ed="#V" n="36"/>quaecumque enim novem singula.
+          <lb ed="#V" n="37"/>ria sunt compossibilia, et decimum
+          <lb ed="#V" n="38"/>indeterminate est incompossibile
+          <lb ed="#V" n="39"/>eis. Isto modo debet intelligi 
+          re<lb ed="#V" break="no" n="40"/>sponsio Averrois super 1. de 
+          Gene<lb ed="#V" break="no" n="41"/>ratione, qui dicit quod facta 
+          divisi<lb ed="#V" break="no" n="42"/>one in uno. puncto, prohibetur
+          <lb ed="#V" n="43"/>fieri divisio in alio puncto, non
+          <lb ed="#V" n="44"/>quidem in aliquo alio determinato
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>signato vel signabili, sed in aliquo
+          <lb ed="#V" n="46"/>indeterminato.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e3691">
+          <lb ed="#V" n="47"/>Et tunc respondetur (o) ad 
+          argu<lb ed="#V" break="no" n="48"/>mentum factum contra me prius
+          <lb ed="#V" n="49"/>de mediato et immediato, quod
+          <lb ed="#V" n="50"/>etiam fit contra eum. Dico, quod
+          <lb ed="#V" n="51"/>non est dandum, divisionem fieri
+          <lb ed="#V" n="52"/>in aliquo immediato, sed in aliquo
+          <lb ed="#V" n="53"/>mediato, non tamen determinato,
+          <lb ed="#V" n="54"/>sive signato, sive signabili, sed
+          <lb ed="#V" n="55"/>indeterminato, quia quodcumque
+          <lb ed="#V" n="56"/>determinatum mediatum 
+          accipia<lb ed="#V" break="no" n="57"/>tur, posset divisio stare secundum
+          <lb ed="#V" n="58"/>illud signum, simul cum divisione
+          <lb ed="#V" n="59"/>secundum istud significatum ; 
+          re<lb ed="#V" break="no" n="60"/>pugnabit tamen divisioni isti 
+          di<lb ed="#V" break="no" n="61"/>visio secundum aliud significatum
+          <lb ed="#V" n="62"/>mediatum secundum aliquid, 
+          scili<lb ed="#V" break="no" n="63"/>cet quod non est in continuo 
+          de<lb ed="#V" break="no" n="64"/>terminato ad hoc indivisibile.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e3733">
+          <lb ed="#V" n="65"/>Sed si quaeras de ista (p) 
+          propo<lb ed="#V" break="no" n="66"/>sitione : possibile est continuum dividi
+          <lb ed="#V" n="67"/>secundum quodcumque signum, ista. 
+          po<lb ed="#V" break="no" n="68"/>test concedi, quia hoc signum 
+          quod<lb ed="#V" break="no" n="69"/>cumque non tantum est 
+          distributi<lb ed="#V" break="no" n="70"/>vum, sed etiam partitivum,ita quod
+          <lb ed="#V" n="71"/>ad veritatem universalis, cujus 
+          sub<lb ed="#V" break="no" n="72"/>jeetum distribuitur per quodcumque,
+          <lb ed="#V" n="73"/>sufficit sigillata attributio pr:
+          edi<lb ed="#V" break="no" n="74"/>cati cuicumque singulari, ita quod
+          <lb ed="#V" n="75"/>non omni singulari simul, sed 
+          cui<lb ed="#V" break="no" n="76"/>cumque indifferenter; et non 
+          opor<lb ed="#V" break="no" n="77"/>tet quod aliis; omnis autem non
+          <lb ed="#V" n="78"/>sic significat, sed significal 
+          sub<lb ed="#V" break="no" n="79"/>jeetum simul accipi pro quolibet
+          <lb ed="#V" n="80"/>respectu praedicati.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e3770">
+          <lb ed="#V" n="81"/>De hoc autem (q) signo quilibet,
+          <lb ed="#V" n="82"/>est dubium, utrum significet idem
+          <lb ed="#V" n="83"/>cum eo quod est omnis, vel cum eo
+          <lb ed="#V" n="84"/>quod est quicumque. Et quodcumque
+          <lb ed="#V" n="85"/>horum ponatur, dicendum est de
+          <lb ed="#V" n="86"/>illo; sicut. de illo cui acquivalet,
+          <lb ed="#V" n="87"/>cum tamen de intellectu constat,
+          <lb ed="#V" n="88"/>non est vis facienda in nomine.
+        </p>
+        <!--</div>
+          <div alias="scotus-l2d2q9-p11">-->
+        <p xml:id="jdso8u-d1e1661-d1e3793">
+          <lb ed="#V" n="83" type="fixed=436"/>SCHOLIUM.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e3798">
+          <lb ed="#V" n="84"/>Refert solutionem aliorum, ad secundam
+          <lb ed="#V" n="85"/>probationem antecedentis secundi 
+          argumen<lb ed="#V" break="no" n="86"/>ti, supr. n. 2. qui negant indivisibile esse
+          <lb ed="#V" n="87"/>quid positivum. Primo, quia secluso omni
+          <pb ed="#V" n="437"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>indivisibili, continuum est finitum. 
+          Secun<lb ed="#V" break="no" n="2"/>do, ex indivisibili et partibus non potest
+          <lb ed="#V" n="3"/>fieri per se unum. Tertio, haberet 
+          indivi<lb ed="#V" break="no" n="4"/>sibile esse et 0n esse, sine generatione et
+          <lb ed="#V" n="5"/>eorruptione. Hanc refutat Doctor quinque
+          <lb ed="#V" n="6"/>rationibus.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e3827">
+          <lb ed="#V" n="7"/>Ad secundam (a) probationem
+          <lb ed="#V" n="8"/>jllius antecedentis dicitur, quod
+          <lb ed="#V" n="9"/>indivisibile nihil est, nisi carentia
+          <lb ed="#V" n="10"/>continui, ita quod nihil formaliter
+          <lb ed="#V" n="11"/>est instans, nisi carentia 
+          succes<lb ed="#V" break="no" n="12"/>sionis continues, et ita punctus
+          <lb ed="#V" n="13"/>est carentia longitudinis, et nihil
+          <lb ed="#V" n="14"/>positivum dicit, et tunc neganda
+          <lb ed="#V" n="15"/>esset illa propositio, quod 
+          suc<lb ed="#V" break="no" n="16"/>cessivum praeeise habeat esse, quia
+          <lb ed="#V" n="17"/>suum indivisibile sit; imo pr:ecise
+          <lb ed="#V" n="18"/>habet esse successivum, quia pars
+          <lb ed="#V" n="19"/>ejus fluit, et non quia indivisibile
+          <lb ed="#V" n="20"/>ejus sit aliquid positive.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e3860">
+          <lb ed="#V" n="21"/>Pro ista positione (b) videntur
+          <lb ed="#V" n="22"/>multa facere : primo, quia posita
+          <lb ed="#V" n="23"/>sola ratione continui 
+          circumscri<lb ed="#V" break="no" n="24"/>pio omni absoluto, videtur esse
+          <lb ed="#V" n="25"/>terminatum si non sit infinitum,
+          <lb ed="#V" n="26"/>nee videtur, quod possit Deus 
+          se<lb ed="#V" break="no" n="27"/>parare finitatem a linea, nec per
+          <lb ed="#V" n="28"/>consequens punctum, quod non
+          <lb ed="#V" n="29"/>videtur esse probabile, si punctus
+          <lb ed="#V" n="30"/>esset alia essentia absoluta a linea.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e3884">
+          <lb ed="#V" n="31"/>Similiter si essent duae essentia
+          <lb ed="#V" n="32"/>absolute, non videtur possibile
+          <lb ed="#V" n="33"/>quomodo fieret aliquod unum ex
+          <lb ed="#V" n="34"/>els, nisi unum alteri accideret ;
+          <lb ed="#V" n="35"/>non enim sunt unum se:undum
+          <lb ed="#V" n="36"/>identitatem perfectam, quia 
+          po<lb ed="#V" break="no" n="37"/>nuntur duae  essentiae absoluto;
+          <lb ed="#V" n="38"/>nec unum tertium compositum
+          <lb ed="#V" n="39"/>ex eis, quia neutrum respectu
+          <lb ed="#V" n="40"/>allerius est actus auf potentia.
+          <lb ed="#V" n="41"/>Similiter (c) indivisibile haberet
+          <lb ed="#V" n="42"/>esse et non esse absque generatione
+          <lb ed="#V" n="43"/>et corruptione, quia si in medio
+          <lb ed="#V" n="44"/>linee continuas est tantum unus
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>punctus, ipsa autem divisa sunt
+          <lb ed="#V" n="46"/>duo puncta in actu, igitur est
+          <lb ed="#V" n="47"/>ibi aliquis punctus, qui non 
+          prae<lb ed="#V" break="no" n="48"/>fuit ibi et sine generatione, quia
+          <lb ed="#V" n="49"/>non videtur probabile quod 
+          divi<lb ed="#V" break="no" n="50"/>dens generaverit ibi aliquam 
+          es<lb ed="#V" break="no" n="51"/>sentiam absolutam. Similiter de 1a
+          <lb ed="#V" n="52"/>figura incisionis, videtur per 
+          Au<lb ed="#V" break="no" n="53"/>ctorem sex Principiorum, quod non |
+          <lb ed="#V" n="54"/>sit. aliquid positive dictum, et
+          <lb ed="#V" n="55"/>tamen ibi est superficies in actu,
+          <lb ed="#V" n="56"/>qua prius non fuit in actu.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e3945">
+          <lb ed="#V" n="57"/>(d) Sed contra istud, tunc 
+          sequi<lb ed="#V" break="no" n="58"/>tur quod generatio substantiz,
+          <lb ed="#V" n="59"/>qua non est per se terminus 
+          con<lb ed="#V" break="no" n="60"/>tinui, nihil erit, vel saltem in
+          <lb ed="#V" n="61"/>nihilo, quia non est ejus aliqua
+          <lb ed="#V" n="62"/>mensura positiva; et ita est
+          <lb ed="#V" n="63"/>de illuminatione et de omnibus
+          <lb ed="#V" n="64"/>mutationibus subjectis, quae non
+          <lb ed="#V" n="65"/>sunt per se termini motuum,
+          <lb ed="#V" n="66"/>et fiunt in instanti, sicut nihil
+          <lb ed="#V" n="67"/>in nihilo, vel privatio 
+          continui<lb ed="#V" break="no" n="68"/>tatis in privatione continuitatis ;
+          <lb ed="#V" n="69"/>tamen de istis videtur 
+          absur<lb ed="#V" break="no" n="70"/>dum, quia non sunt per se 
+          fer<lb ed="#V" break="no" n="71"/>mini econtinuitatis alicujus 
+          con<lb ed="#V" break="no" n="72"/>tinui, quia nihil sunt continui,
+          <lb ed="#V" n="73"/>nec positive, nec privative.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e3985">
+          <lb ed="#V" n="74"/>Praeterea, secundum  
+          Philoso<lb ed="#V" break="no" n="75"/>phum 1. Poster. ratio linez est ex
+          <lb ed="#V" n="76"/>punetis, hoc est, in ratione 
+          essen<lb ed="#V" break="no" n="77"/>tiali linee, cadit punctus, quie
+          <lb ed="#V" n="78"/>ratio dicitur de linea primo modo
+          <lb ed="#V" n="79"/>dicendi per se, nulla autem 
+          pri<lb ed="#V" break="no" n="80"/>vatio pertinet per se ad rationem
+          <lb ed="#V" n="81"/>essentialem positivi, igitur, etc.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e4005">
+          <lb ed="#V" n="82"/>(e) Praeterea, ex eodem sequitur
+          <lb ed="#V" n="83"/>quod si punctus tantum est 
+          pri<lb ed="#V" break="no" n="84"/>vatio, quod etiam linea tantum
+          <lb ed="#V" n="85"/>erit privatio, et superficies et
+          <lb ed="#V" n="86"/>corpus; AL enim terminatum
+          <lb ed="#V" n="87"/>definitur per terminans, et 
+          positi<lb ed="#V" break="no" n="88"/>vum non includit essentialiter 
+          pri<lb ed="#V" break="no" n="89"/>vationem.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e4025">
+          <pb ed="#V" n="438"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>Similiter sequitur idem propter
+          <lb ed="#V" n="2"/>aliud, quia tunc linea tantum erit
+          <lb ed="#V" n="3"/>carentia latitudinis, et 
+          supertfi<lb ed="#V" break="no" n="4"/>cles tantum carentia 
+          profundita<lb ed="#V" break="no" n="5"/>tis, et tunc non erit nisi unica
+          <lb ed="#V" n="6"/>dimensio, quae ponetur corpus,
+          <lb ed="#V" n="7"/>cum tamen illa dimensio, quae 
+          dici<lb ed="#V" break="no" n="8"/>tur profunditas,posset alio respectu
+          <lb ed="#V" n="9"/>dici latitudo. Istzee enim tres 
+          di<lb ed="#V" break="no" n="10"/>moensiones (f) distinguuntur 
+          secun<lb ed="#V" break="no" n="11"/>dum imaginationem trium 
+          linea<lb ed="#V" break="no" n="12"/>pum, se intersecantium in. eodem
+          <lb ed="#V" n="13"/>puneto.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e4060">
+          <lb ed="#V" n="14"/>Ex hoc infertur ulterius 
+          incon<lb ed="#V" break="no" n="15"/>veniens, quod si superficies est
+          <lb ed="#V" n="16"/>tantum privatio profunditatis,
+          <lb ed="#V" n="17"/>quomodo erit punctus, nisi 
+          priva<lb ed="#V" break="no" n="18"/>tio privationis? Nihil enim videtur
+          <lb ed="#V" n="19"/>privare privationem, nisi 
+          formali<lb ed="#V" break="no" n="20"/>ter positivum.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e4078">
+          <lb ed="#V" n="21"/>Praeterea, secundum (g) 
+          super<lb ed="#V" break="no" n="22"/>fielem insunt multe qualitates
+          <lb ed="#V" n="23"/>corporales et sensibiles, ut 
+          vide<lb ed="#V" break="no" n="24"/>tur: ergo non est tantum 
+          pri<lb ed="#V" break="no" n="25"/>vatio. Antecedens probatur de 
+          co<lb ed="#V" break="no" n="26"/>loribus et figuris, quorum 
+          utrum<lb ed="#V" break="no" n="27"/>que est per se visibile, et per
+          <lb ed="#V" n="28"/>consequens positivum ; figura
+          <lb ed="#V" n="29"/>etiam propriissime sequitur 
+          spe<lb ed="#V" break="no" n="30"/>ciem, sicut. determinativa 
+          orga<lb ed="#V" break="no" n="31"/>nizationis eorporis humani, et
+          <lb ed="#V" n="32"/>ideo videtur accidens 
+          manifestati<lb ed="#V" break="no" n="33"/>vum speciei; non autem videtur
+          <lb ed="#V" n="34"/>probabile, entitatem positivam 
+          ta<lb ed="#V" break="no" n="35"/>lis consequentis speciem 
+          naturali<lb ed="#V" break="no" n="36"/>ter et manifestantis eam, includere
+          <lb ed="#V" n="37"/>essentialiter, vel pro subjecto
+          <lb ed="#V" n="38"/>habere immediate privationem.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e4120">
+          <lb ed="#V" n="39"/>Si autem hac (h) solutione 
+          omis<lb ed="#V" break="no" n="40"/>sa, redeundo ad secundam 
+          proba<lb ed="#V" break="no" n="41"/>tionem aliter dicatur quod 
+          indivi<lb ed="#V" break="no" n="42"/>sibile, per quod suecessivum 
+          ha<lb ed="#V" break="no" n="43"/>bet esse, est tantum in potentia.
+          <lb ed="#V" n="44"/>Hoc nihil juvat, quia eodem 
+          mo<lb ed="#V" break="no" n="45"/>do quo habet esse in toto quando
+          <lb ed="#V" n="46"/>cedit, quaero quid sibi succedat;
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="47"/>si aliud indivisibile, stat 
+          argu<lb ed="#V" break="no" n="48"/>mentum si non, tunc successivum
+          <lb ed="#V" n="49"/>non erit.
+        </p>
+        <!--</div>
+          <div alias="scotus-l2d2q9-p12">-->
+        <p xml:id="jdso8u-d1e1661-d1e4152">
+          <lb ed="#V" n="35" type="fixed=441"/>SCHOLIUM.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e4157">
+          <lb ed="#V" n="36"/>Respondet Doctor ad illam secundam 
+          pro<lb ed="#V" break="no" n="37"/>bationem positivam, n. 2. declarans optime
+          <lb ed="#V" n="38"/>quid immediate succedit instanti in 
+          tem<lb ed="#V" break="no" n="39"/>pore, et postea solvit rationes suadentes 
+          con<lb ed="#V" break="no" n="40"/>tinuum fieri ex minimis. Vide eum 1. Plivys.
+          <lb ed="#V" n="41"/>q. 13. et 6. Phys. q. 8.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e4173">
+          <lb ed="#V" n="42"/>Respondeo ad argumentum (a2)
+          <lb ed="#V" n="43"/>quod eo eedente, suecedit pars con-
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="44"/>tinua fluens, et non indivisibile
+          <lb ed="#V" n="45"/>immediate, nec aliquid immediate,
+          <lb ed="#V" n="46"/>nisi sicut continuum est 
+          immedia<lb ed="#V" break="no" n="47"/>tum indivisibili. Et si objicis, ergo
+          <lb ed="#V" n="48"/>non semper habet tempus esse
+          <lb ed="#V" n="49"/>uniformiter et aequaliter, quia
+          <lb ed="#V" n="50"/>quando illud instans positivum
+          <lb ed="#V" n="51"/>est, tempus est, quia suum 
+          indivi<lb ed="#V" break="no" n="52"/>sibile est ; illo autem transacto
+          <lb ed="#V" n="53"/>immediate non est, quia aliquid
+          <lb ed="#V" n="54"/>ejus indivisibile non est. 
+          Respon<lb ed="#V" break="no" n="55"/>deo, sicut linea non uniformiter
+          <lb ed="#V" n="56"/>habet esse ubique, prout ubique
+          <lb ed="#V" n="57"/>distribuit pro partibus lines et
+          <lb ed="#V" n="58"/>indivisibilibus lineae, quia in istis 
+          <lb ed="#V" n="59"/>scilicet partibus habet esse, ut in
+          <lb ed="#V" n="60"/>ultimis, et in illis, scilicet in 
+          pun<lb ed="#V" break="no" n="61"/>ctis ut in terminis, et tamen 
+          ubi<lb ed="#V" break="no" n="62"/>que est uniformiter, secundum
+          <lb ed="#V" n="63"/>quod ubique distribuit praecise pro
+          <lb ed="#V" n="64"/>istis, vel praecise pro illis, ita est
+          <lb ed="#V" n="65"/>in proposito; si semper distribuit
+          <lb ed="#V" n="66"/>proeise pro indivisibilibus, vel
+          <lb ed="#V" n="67"/>praecise pro partibus, tunc 
+          unifor<lb ed="#V" break="no" n="68"/>miter habet esse, sed si pro 
+          utris<lb ed="#V" break="no" n="69"/>que simul, non habet esse 
+          unifor<lb ed="#V" break="no" n="70"/>miter.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e4241">
+          <lb ed="#V" n="71"/>Ad probationem (b) alterius 
+          an<lb ed="#V" break="no" n="72"/>tecedentis, de partibus minimis,
+          <lb ed="#V" n="73"/>respondeo, ad primam dico quod
+          <lb ed="#V" n="74"/>Philosophus contra Anaxagoram
+          <lb ed="#V" n="75"/>satis habet si per ablationem a «e
+          <lb ed="#V" n="76"/>toto minoretur totum, ita quod
+          <lb ed="#V" n="77"/>non semper possit de eo aquale
+          <lb ed="#V" n="78"/>abstrahi; oportebit enim 
+          Anaxa<lb ed="#V" break="no" n="79"/>coram dicere, sicut. imponit sibi
+          <lb ed="#V" n="80"/>Philosophus, quod faeta 
+          segrega<lb ed="#V" break="no" n="81"/>tione a carne cujuscumque 
+          gene<lb ed="#V" break="no" n="82"/>rabilis de carne, adhuc remaneret
+          <lb ed="#V" n="83"/>caro tanta, ut ex ea posset 
+          ulte<lb ed="#V" break="no" n="84"/>rivs segregari seu generari quod- ^
+          <lb ed="#V" n="85"/>eumque generabile; et hoc est '
+          <lb ed="#V" n="86"/>impossibile, quia quantumcumque
+          <lb ed="#V" n="87"/>caro potest in infinitum dividi et *
+          <pb ed="#V" n="442"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>minorari, saltem non remaneret
+          <lb ed="#V" n="2"/>tanta, ut posset ex ea 
+          quodcum<lb ed="#V" break="no" n="3"/>que generabile generari, quia
+          <lb ed="#V" n="4"/>generabile quodcumque requirit
+          <lb ed="#V" n="5"/>quantitatem determinatam illius
+          <lb ed="#V" n="6"/>ex quo generatur, maxime si 
+          ge<lb ed="#V" break="no" n="7"/>neratio sit tantum segregatio, vel
+          <lb ed="#V" n="8"/>motus localis seu lationis, quod
+          <lb ed="#V" n="9"/>imponitur Anaxagore, et ultra
+          <lb ed="#V" n="10"/>quantitatem illam omnem ex qua
+          <lb ed="#V" n="11"/>generatur, minueretur caro per
+          <lb ed="#V" n="12"/>continuam segrescationem aliorum
+          <lb ed="#V" n="13"/>ex Ipsa. Non ergo propter 
+          intenti<lb ed="#V" break="no" n="14"/>onem Philosophi ibi oportet 
+          po<lb ed="#V" break="no" n="15"/>nere minimum in naturalibus,
+          <lb ed="#V" n="16"/>etiam separatum per se existens,
+          <lb ed="#V" n="17"/>nec in toto.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e4322">
+          <lb ed="#V" n="18"/>(c) Ad aliud Philosophi de Sensu
+          <lb ed="#V" n="19"/>et sensato, dico quod passiones sunt
+          <lb ed="#V" n="20"/>divisiblles quantumcumque, ita
+          <lb ed="#V" n="21"/>quod nunquam quantum posset
+          <lb ed="#V" n="22"/>dividi, nisi divisa passione 
+          sensi<lb ed="#V" break="no" n="23"/>nili, et tamen non dividitur in 
+          infi<lb ed="#V" break="no" n="24"/>nitum inquantum sensibilis, id est,
+          <lb ed="#V" n="25"/>inquantum est perceptibilis a 
+          sen<lb ed="#V" break="no" n="26"/>su, Sicut ipse vult ibi, quod pars
+          <lb ed="#V" n="27"/>quantumcumque minima potest
+          <lb ed="#V" n="28"/>esse sensibilis virtute, licet non
+          <lb ed="#V" n="29"/>actione, hoc est, quod ipsa in toto
+          <lb ed="#V" n="30"/>potest cooperari aliis partibus ad
+          <lb ed="#V" n="31"/>sensum immutandum, et licet 
+          pos<lb ed="#V" break="no" n="32"/>set fieri divisio in eam, etiam per
+          <lb ed="#V" n="33"/>se existentem, non tamen 
+          im<lb ed="#V" break="no" n="34"/>mutaret sensum.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e4361">
+          <lb ed="#V" n="35"/>Et tunc patet ad argumentum
+          <lb ed="#V" n="36"/>ejus, quod adducitur in oppositum,
+          <lb ed="#V" n="37"/>quod sensus  erescit in  
+          infini<lb ed="#V" break="no" n="38"/>tum, si ponatur, etc. Verum est,
+          <lb ed="#V" n="39"/>si sensibile inquantum actu 
+          per<lb ed="#V" break="no" n="40"/>ceptibile a sensu, potest dividi in
+          <lb ed="#V" n="41"/>infinitum ; non autem sequitur, si
+          <lb ed="#V" n="42"/>illud quod est sensibile potest 
+          di<lb ed="#V" break="no" n="43"/>vidi in infinitum.
+        </p>
+        <!--</div>
+          <div alias="scotus-l2d2q9-p13">-->
+        <p xml:id="jdso8u-d1e1661-d1e4386">
+          <lb ed="#V" n="67" type="fixed=451"/>SCHOLIUM.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e4391">
+          <lb ed="#V" n="68"/>Respondendo ad locum ex 2, de Anima
+          <lb ed="#V" n="69"/>positum num. 3. docet viventia habere 
+          ma<lb ed="#V" break="no" n="70"/>ximum et minimum, inanimata non, de quo
+          <lb ed="#V" n="71"/>agit 1. Phys. quaest. 13. et 14. Item optime
+          <lb ed="#V" n="72"/>ostendit non dari primum minimum, nec
+          <lb ed="#V" n="73"/>primam mutationem in motu. Declarat etiam
+          <lb ed="#V" n="74"/>quomodo ineipit et desinit alteratio, 
+          augmen<lb ed="#V" break="no" n="75"/>tatio, diminutio, juxta mentem Philos. Vide
+          <lb ed="#V" n="76"/>Lychet. qui hic optime examinat ista 
+          philo<lb ed="#V" break="no" n="77"/>sophica per undeeim conclusiones, 
+          respon<lb ed="#V" break="no" n="78"/>dendo omnibus in contrarium.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e4417">
+          <lb ed="#V" n="79"/>Ad aliud (a) de secundo de 
+          Ani<lb ed="#V" break="no" n="80"/>ma, patet quod loquitur de 
+          quan<lb ed="#V" break="no" n="81"/>tita^e naturali augmentabilis et
+          <lb ed="#V" n="82"/>diminuibilis, quod eoneedo, quia
+          <lb ed="#V" n="83"/>illa quantitas cuicumque naturali
+          <lb ed="#V" n="84"/>perfecto est determinata in majus
+          <lb ed="#V" n="85"/>et minus, loquendo de illa 
+          quanti<lb ed="#V" break="no" n="86"/>tate, in qua naturaliter 
+          produci<lb ed="#V" break="no" n="87"/>tur, aut saltem ad minus in 
+          anima<lb ed="#V" break="no" n="88"/>tis loquendo de illa quantitate, ad
+          <pb ed="#V" n="452"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>quam procedit diminutio. 
+          Philoso<lb ed="#V" break="no" n="2"/>phus tamen non loquitur ibi nisi
+          <lb ed="#V" n="3"/>de termino magnitudinis et 
+          au<lb ed="#V" break="no" n="4"/>ementi, et ideo praecise in illo 
+          lo<lb ed="#V" break="no" n="5"/>co intendit Philosophus, quod
+          <lb ed="#V" n="6"/>quantitas perfecta cujustibet rei
+          <lb ed="#V" n="7"/>naturalis, est determinata in 
+          ma<lb ed="#V" break="no" n="8"/>jus, ex quo habet propositum
+          <lb ed="#V" n="9"/>suum quod intendit probare,
+          <lb ed="#V" n="10"/>scilicet. quod ignis non est 
+          prin<lb ed="#V" break="no" n="11"/>cipium augmentans in aliqua
+          <lb ed="#V" n="12"/>generatione vel in aliqua specie.
+          <lb ed="#V" n="13"/>Oportet enim principale agens in
+          <lb ed="#V" n="14"/>aliqua specie, esse determinatum
+          <lb ed="#V" n="15"/>ad quantitatem perfectam illus
+          <lb ed="#V" n="16"/>speciei, ut illam solam producat,
+          <lb ed="#V" n="17"/>et non ultra illam ; ignis autem
+          <lb ed="#V" n="18"/>non est determinatus ad 
+          quantita<lb ed="#V" break="no" n="19"/>tem determinatam in aliqua 
+          spe<lb ed="#V" break="no" n="20"/>cie, quia quantum est ex se, 
+          pro<lb ed="#V" break="no" n="21"/>duceret majus quantum, quia
+          <lb ed="#V" n="22"/>crescit in infinitum, s1 
+          apponan<lb ed="#V" break="no" n="23"/>tur combustibilia in infinitum.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e4495">
+          <lb ed="#V" n="24"/>(b) Et cum probatur illud 
+          ante<lb ed="#V" break="no" n="25"/>cedens de minimo, per hoc quod
+          <lb ed="#V" n="26"/>convenit accipere primum in motu,
+          <lb ed="#V" n="27"/>posset consequentia negari, quia
+          <lb ed="#V" n="28"/>illi qui dixerunt primum in motu,
+          <lb ed="#V" n="29"/>dixerunt mutationem primam esse
+          <lb ed="#V" n="30"/>partem motus. Tamen nego 
+          pri<lb ed="#V" break="no" n="31"/>mum utroque modo, et primum
+          <lb ed="#V" n="32"/>motum et mutationem primam,
+          <lb ed="#V" n="33"/>quia Philosophus 6. PAys. ex 
+          in<lb ed="#V" break="no" n="34"/>tentione ostendit oppositum, 
+          sei<lb ed="#V" break="no" n="35"/>licet. quod omne moveri praecedit
+          <lb ed="#V" n="36"/>mutatum esse in infinitum, et e 
+          con<lb ed="#V" break="no" n="37"/>trario. Et persuadetur hoc sic,
+          <lb ed="#V" n="38"/>quia si ignis causaret aliquid
+          <lb ed="#V" n="39"/>primum in motu, pari ratione
+          <lb ed="#V" n="40"/>posset causare zquale illi simul
+          <lb ed="#V" n="41"/>cum eo immediatum, et ita aut
+          <lb ed="#V" n="42"/>necesse esset fingere, quod inter
+          <lb ed="#V" n="43"/>primum causatum simul et 
+          se<lb ed="#V" break="no" n="44"/>eundum  sequale ill, oporteret
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>quiescere agens, et ita motus
+          <lb ed="#V" n="46"/>componeretur ex motibus et 
+          quie<lb ed="#V" break="no" n="47"/>tibus intermediis ; aut oporteret
+          <lb ed="#V" n="48"/>agens post primum inductum 
+          in<lb ed="#V" break="no" n="49"/>ducere totum habitum successive,
+          <lb ed="#V" n="50"/>quod videtur valde irrationabile,
+          <lb ed="#V" n="51"/>quia cum sit sequalis virtutis et
+          <lb ed="#V" n="52"/>s?eque approximatum passo, sicut
+          <lb ed="#V" n="53"/>potest aliquem gradum simul
+          <lb ed="#V" n="54"/>causatum primum simul 
+          induce<lb ed="#V" break="no" n="55"/>re, ita illo inducto, potest 
+          indu<lb ed="#V" break="no" n="56"/>cere ipsum totum simul, et ita
+          <lb ed="#V" n="57"/>componeretur totus motus 
+          imme<lb ed="#V" break="no" n="58"/>diate ex mutationibus immediatis,
+          <lb ed="#V" n="59"/>velex mutationibus sive motibus
+          <lb ed="#V" n="60"/>et quietibus intermediis.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e4580">
+          <lb ed="#V" n="61"/>(c) Est ergo iste processus, sit
+          <lb ed="#V" n="62"/>forma (sub esse quieto et sub 
+          ali<lb ed="#V" break="no" n="63"/>qua immutatione) corrumpenda
+          <lb ed="#V" n="64"/>per motum, puta in alteratione
+          <lb ed="#V" n="65"/>sub ealore in esse quieto, hujus,
+          <lb ed="#V" n="66"/>inquam, immutationis est 
+          acci<lb ed="#V" break="no" n="67"/>pere ultimum, scilicet. 
+          immuta<lb ed="#V" break="no" n="68"/>tionem terminative, quia mobile
+          <lb ed="#V" n="69"/>se habet nunc indivisibiliter, sicut
+          <lb ed="#V" n="70"/>prius divisibiliter, et hoc est 
+          im<lb ed="#V" break="no" n="71"/>mutari, sicut mutari est aliter
+          <lb ed="#V" n="72"/>se habere nunc  indivisibiliter
+          <lb ed="#V" n="73"/>quam prius divisibiliter. Ideo (d)
+          <lb ed="#V" n="74"/>autem est sub eadem forma (sub.
+          <lb ed="#V" n="75"/>qua quievit) in instanti 
+          immuta<lb ed="#V" break="no" n="76"/>tionis, quia  tunc agens, quod
+          <lb ed="#V" n="77"/>debet ipsum movere, nihil egit
+          <lb ed="#V" n="78"/>prius, nec nunc agit circa ipsum,
+          <lb ed="#V" n="79"/>ab illo instanti incipit movere
+          <lb ed="#V" n="80"/>illud mobile; et hoc successive
+          <lb ed="#V" n="81"/>vel propter partes mobilis, quia
+          <lb ed="#V" n="82"/>nulla pars mobilis est aeque 
+          pro<lb ed="#V" break="no" n="83"/>pinqua agenti. Sed pars 
+          propin<lb ed="#V" break="no" n="84"/>quior altera parte in infinitum,
+          <lb ed="#V" n="85"/>et solus punctus . mobilis est se
+          <lb ed="#V" n="86"/>toto immediatus agenti, et ille
+          <lb ed="#V" n="87"/>non est mobilis, sive propter
+          <lb ed="#V" n="88"/>partes formae, secundum quas de-
+          <pb ed="#V" n="453"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>bet esse motus, quarum 
+          quaeli<lb ed="#V" break="no" n="2"/>bet ante aliam est inducibilis a
+          <lb ed="#V" n="3"/>movente praesente, quia ratio
+          <lb ed="#V" n="4"/>extrinseca, propter quam 
+          mini<lb ed="#V" break="no" n="5"/>mum non posset esse per se in
+          <lb ed="#V" n="6"/>naturalibus, est praesentia 
+          cor<lb ed="#V" break="no" n="7"/>rumpentis; hac autem tollitur
+          <lb ed="#V" n="8"/>propter prasentiam 
+          corrumpen<lb ed="#V" break="no" n="9"/>tis, hoc autem tollitur propter
+          <lb ed="#V" n="10"/>praesentiam agentis corrumpentis
+          <lb ed="#V" n="11"/>omne corruptivum sui effectus;
+          <lb ed="#V" n="12"/>ab ilo ergo instanti 
+          immutati<lb ed="#V" break="no" n="13"/>onis continue remittitur calor,
+          <lb ed="#V" n="14"/>qui infuit et acquiritur frigus.
+          <lb ed="#V" n="15"/>Non enim verisimile est. quod sit
+          <lb ed="#V" n="16"/>solus motus remissionis usque
+          <lb ed="#V" n="17"/>. ad aliquod instans, et tunc primo
+          <lb ed="#V" n="18"/>inducatur aliquid frigoris; vel
+          <lb ed="#V" n="19"/>enim calor remittendus haberet
+          <lb ed="#V" n="20"/>ultimum sui esse, quod negat 
+          Phi<lb ed="#V" break="no" n="21"/>losophus 8. Physic. vel si non,
+          <lb ed="#V" n="22"/>saltem frigus immediate sequens
+          <lb ed="#V" n="23"/>ipsum haberet primum sui esse;
+          <lb ed="#V" n="24"/>etf tunc esset prima mutatio 
+          mo<lb ed="#V" break="no" n="25"/>tus infrigidationis, quod est ita
+          <lb ed="#V" n="26"/>inconveniens, sicut de prima 
+          re<lb ed="#V" break="no" n="27"/>missione motus caloris; 
+          inconve<lb ed="#V" break="no" n="28"/>niens etiam videtur quod agens
+          <lb ed="#V" n="29"/>remittat calorem, nisi causando
+          <lb ed="#V" n="30"/>in ipso aliquid incompossibile
+          <lb ed="#V" n="31"/>sibi secundum aliquem gradum,
+          <lb ed="#V" n="32"/>et secundum quod illud causat in
+          <lb ed="#V" n="33"/>majori vel minori gradu, 
+          corrum<lb ed="#V" break="no" n="34"/>pit eradum et gradum ipsius 
+          exi<lb ed="#V" break="no" n="35"/>stentis.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e4723">
+          <lb ed="#V" n="36"/>(e) Hoc etiam vult Philosophus
+          <lb ed="#V" n="37"/>.manifeste 6. PAysie. quod omne
+          <lb ed="#V" n="38"/>quod movetur, habet aliquid
+          <lb ed="#V" n="39"/>utriusque extremi, et videtur 
+          ma<lb ed="#V" break="no" n="40"/>| nifestum ad sensum, quod aquae
+          <lb ed="#V" n="41"/>successive  ealefaciend»e aliquid
+          <lb ed="#V" n="42"/>caloris inest, manente adhuc 
+          fri<lb ed="#V" break="no" n="43"/>giditate hac, et non adhuc 
+          tota<lb ed="#V" break="no" n="44"/>liter eorruptfa; concurrunt ergo
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>simul ab instanti immutationis
+          <lb ed="#V" n="46"/>motus remissionis caloris, et 
+          mo<lb ed="#V" break="no" n="47"/>tus intensionis frigoris, quorum
+          <lb ed="#V" n="48"/>neutrius est aliquid primum; et
+          <lb ed="#V" n="49"/>in aliquo instanti in quo per 
+          mu<lb ed="#V" break="no" n="50"/>tationem subitam inducitur 
+          ali<lb ed="#V" break="no" n="51"/>quis gradus frigoris omnino 
+          in<lb ed="#V" break="no" n="52"/>compossibilis calori, in illo 
+          pri<lb ed="#V" break="no" n="53"/>mo, calor non est, et usque ad
+          <lb ed="#V" n="54"/>illum, calor fuit, ita quod calor
+          <lb ed="#V" n="55"/>nullum ultimum habuit sui esse,
+          <lb ed="#V" n="56"/>sed ' habet ultimum in esse quieto,
+          <lb ed="#V" n="57"/>et frigus nullum habet sui esse
+          <lb ed="#V" n="58"/>simpliciter, licet habeat primum
+          <lb ed="#V" n="59"/>in esse quieto, qaod scilicet accipit
+          <lb ed="#V" n="60"/>per immutationem, licet illud non
+          <lb ed="#V" n="61"/>sit quies.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e4785">
+          <lb ed="#V" n="62"/>Cum ergo (f) probatur primum
+          <lb ed="#V" n="63"/>per Philosophum $8. PHysic. dico
+          <lb ed="#V" n="64"/>quod intentio Philosophi est ista,
+          <lb ed="#V" n="65"/>sciiicet probare quod non omnia
+          <lb ed="#V" n="66"/>semper moventur. Et contra eos,
+          <lb ed="#V" n="67"/>qui dicunt  omnia semper moveri,
+          <lb ed="#V" n="68"/>dicit quod manifeste convincitur,
+          <lb ed="#V" n="69"/>si consideramus illos motus, ex
+          <lb ed="#V" n="70"/>quibus movebantur. Moti enim
+          <lb ed="#V" n="71"/>erant ad haec ponendum ex 
+          aug<lb ed="#V" break="no" n="72"/>mentatione et diminutione 
+          anima<lb ed="#V" break="no" n="73"/>torum, quam videbant fieri 
+          per<lb ed="#V" break="no" n="74"/>ceptibiliter in aliquo magno 
+          tem<lb ed="#V" break="no" n="75"/>pore, puta in anno, et tamen in
+          <lb ed="#V" n="76"/>nulla parte ejus; ex hoc 
+          conclu<lb ed="#V" break="no" n="77"/>debant, quod illa fiebant in toto
+          <lb ed="#V" n="78"/>tempore et in nulla parte 
+          tem<lb ed="#V" break="no" n="79"/>poris perceptibiliter, licet in 
+          qua<lb ed="#V" break="no" n="80"/>libet parte temporis 
+          impercepti<lb ed="#V" break="no" n="81"/>biliter, quibus Aristoteles obviat,
+          <lb ed="#V" n="82"/>quod bene potest tale mobile 
+          quie<lb ed="#V" break="no" n="83"/>scere per aliquod tempus, et in
+          <lb ed="#V" n="84"/>parvo aliquo tempore moveri illo
+          <lb ed="#V" n="85"/>motu, illa quod non oportet 
+          mo<lb ed="#V" break="no" n="86"/>veri semper ipsum illo motu.
+          <lb ed="#V" n="87"/>Et probat hoc per exemplum de
+          <lb ed="#V" n="88"/>euttis cadentibus cavantibus la-
+          <pb ed="#V" n="454"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>pidem, qua in aliquo certo 
+          tem<lb ed="#V" break="no" n="2"/>pore et numero cadunt, et nihil
+          <lb ed="#V" n="3"/>auferunt de lapide, tandem tamen
+          <lb ed="#V" n="4"/>una cadens, puta centesima, 
+          au<lb ed="#V" break="no" n="5"/>fert in virtute omnium aliarum,
+          <lb ed="#V" n="6"/>aliquam partem lapidis, quae tota
+          <lb ed="#V" n="7"/>simul aufertur, et non pars ante
+          <lb ed="#V" n="8"/>partem. Non intendit ergo 
+          Phi<lb ed="#V" break="no" n="9"/>losophus ibi, quod ablatio partis
+          <lb ed="#V" n="10"/>lapidis sit in instanti vel tota
+          <lb ed="#V" n="11"/>simul, nam ista ablatio est 
+          mo<lb ed="#V" break="no" n="12"/>tus localis, qui nullo modo 
+          pos<lb ed="#V" break="no" n="13"/>set fieri, nisi pars mobilis prius
+          <lb ed="#V" n="14"/>transeat spatium quam totum
+          <lb ed="#V" n="15"/>mobile; sed ista una pars lapidis,
+          <lb ed="#V" n="16"/>qua aufertur per ultimam 
+          gut<lb ed="#V" break="no" n="17"/>tam in virtute omnium Jpr:
+          cee<lb ed="#V" break="no" n="18"/>dentium, licet. successive 
+          aufera<lb ed="#V" break="no" n="19"/>tur, tamen ablatio ejus non est
+          <lb ed="#V" n="20"/>successiva correspondens toti 
+          suc<lb ed="#V" break="no" n="21"/>cessioni casus guttarum. Non
+          <lb ed="#V" n="22"/>enim quot erant guttse cadentes,
+          <lb ed="#V" n="23"/>tot erant partes ablationis hujus
+          <lb ed="#V" n="24"/>partis a lapide, sed tota ista 
+          par<lb ed="#V" break="no" n="25"/>va pars per ultimam guttam 
+          au<lb ed="#V" break="no" n="26"/>fertur, licet successive. Negat
+          <lb ed="#V" n="27"/>ergo Philosophus successionem
+          <lb ed="#V" n="28"/>huie correspondentem, scilicet
+          <lb ed="#V" n="29"/>toti successioni casus guttarum,
+          <lb ed="#V" n="30"/>aec per hoc, ille lapis motus non
+          <lb ed="#V" n="31"/>movebatur semper, licet quando
+          <lb ed="#V" n="32"/>movebatur per ultimam guttam,
+          <lb ed="#V" n="33"/>tunc suecessive movebatur. Et
+          <lb ed="#V" n="34"/>secundum (g) istam intentionem
+          <lb ed="#V" n="35"/>subdit postea de alteratione, quod
+          <lb ed="#V" n="36"/>non est necesse, quod propter hoc
+          <lb ed="#V" n="37"/>sit. tota alteratio infinita; 
+          fre<lb ed="#V" break="no" n="38"/>quenter enim, ubi habet littera
+          <lb ed="#V" n="39"/>nostra velory, ita Commentatoris
+          <lb ed="#V" n="40"/>habet subito, et exponit 
+          Commen<lb ed="#V" break="no" n="41"/>tator subito, id est, $n instanti, et
+          <lb ed="#V" n="42"/>non in tempore inferendo.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e4941">
+          <lb ed="#V" n="43"/>Quae expositio est litterae 
+          con<lb ed="#V" break="no" n="44"/>traria, quod patet ex transtatione
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>sua in multis locis, quia in 4.
+          <lb ed="#V" n="46"/>Physic. ubi transtatio nostra habet
+          <lb ed="#V" n="47"/>repente, sua transtatio habet subito,
+          <lb ed="#V" n="48"/>et notificatur ibi, quod illud 
+          di<lb ed="#V" break="no" n="49"/>citur fieri subito, quod fit in
+          <lb ed="#V" n="50"/>tempore imperceptibili, et ita
+          <lb ed="#V" n="51"/>exponit ipse ibi; igitur exponere
+          <lb ed="#V" n="52"/>velo» vel subito per instans, est 
+          ex<lb ed="#V" break="no" n="53"/>ponere tempus per :nstans. Sed
+          <lb ed="#V" n="54"/>intentio Philosophi (h) est ista,
+          <lb ed="#V" n="55"/>quod non oportet, sicut alterabile
+          <lb ed="#V" n="56"/>est divisibile in. infinitum, quod
+          <lb ed="#V" n="57"/>ita tempus infinitum 
+          correspon<lb ed="#V" break="no" n="58"/>deat alterationi alterabilis, sive
+          <lb ed="#V" n="59"/>semper dum alterabile est. quod
+          <lb ed="#V" n="60"/>pars ejus post partem continue
+          <lb ed="#V" n="61"/>alteretur, sicut posset esse 
+          suc<lb ed="#V" break="no" n="62"/>cessio ex ratione partium 
+          alte<lb ed="#V" break="no" n="63"/>rabilis. Sed frequenter alteratio
+          <lb ed="#V" n="64"/>est velox sive subito, id est, 
+          quie<lb ed="#V" break="no" n="65"/>scente prius usque  tunc illo 
+          al<lb ed="#V" break="no" n="66"/>terabili, et  tunc non sunt simul,
+          <lb ed="#V" n="67"/>nec secundum primam  
+          mutati<lb ed="#V" break="no" n="68"/>onem, nec secundum primam 
+          par<lb ed="#V" break="no" n="69"/>tem motus, sed successive, et hoc
+          <lb ed="#V" n="70"/>est quod subdit statim ratio 
+          ap<lb ed="#V" break="no" n="71"/>posita a Philosopho ad eamdem
+          <lb ed="#V" n="72"/>conclusionem, quod quando quis
+          <lb ed="#V" n="73"/>sanatur, sanatio ejus est in 
+          tem<lb ed="#V" break="no" n="74"/>pore, et non in termino temporis,
+          <lb ed="#V" n="75"/>et tamen mobile non semper 
+          mo<lb ed="#V" break="no" n="76"/>vetur illo motu, quia iste motus
+          <lb ed="#V" n="77"/>finitus est. inter duo contraria.
+          <lb ed="#V" n="78"/>Quomodo ergo acciperet ipse in
+          <lb ed="#V" n="79"/>ratione praecedenti, alterationem
+          <lb ed="#V" n="80"/>fier1 in instanti, ad hoc ut probaret
+          <lb ed="#V" n="81"/>non omnia esse in motu; et in
+          <lb ed="#V" n="82"/>secunda ratione accipit 
+          opposi<lb ed="#V" break="no" n="83"/>tum, scilicet quod sanatio non est
+          <lb ed="#V" n="84"/>in termino temporis, sed in 
+          tem<lb ed="#V" break="no" n="85"/>pore, et tamen non semper est:
+          <lb ed="#V" n="86"/>motus, quia est inter contraria,
+          <lb ed="#V" n="87"/>et ideo acquisito illo contrario
+          <lb ed="#V" n="88"/>cessabit. motus.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e5045">
+          <pb ed="#V" n="455"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>Subdit ergo Philosophus, quod
+          <lb ed="#V" n="2"/>dicere omnia continue moveri, multum
+          <lb ed="#V" n="3"/>in manifestis ambigere est, ubi 
+          conti<lb ed="#V" break="no" n="4"/>nue accipitur pro semper, quia 
+          il<lb ed="#V" break="no" n="5"/>lud membrum quintum divisionis
+          <lb ed="#V" n="6"/>quinti membri improbat per
+          <lb ed="#V" n="7"/>omnia ista, et adhuc ponitur ibi
+          <lb ed="#V" n="8"/>ulterior expositio, quia lapis 
+          ma<lb ed="#V" break="no" n="9"/>net durus, ergo non alteratur.
+          <lb ed="#V" n="10"/>Non ergo ex aliquo verbo quod
+          <lb ed="#V" n="11"/>hic dicitur, negat totam 
+          senten<lb ed="#V" break="no" n="12"/>tiam suam n 6. Physic. et dato
+          <lb ed="#V" n="13"/>quod hic esset aliquod verbum,
+          <lb ed="#V" n="14"/>quod expresse haec videretur 
+          so<lb ed="#V" break="no" n="15"/>nare (licet nullum sit, nisi ex 
+          fal<lb ed="#V" break="no" n="16"/>so intellectu sumptum) magis 
+          ta<lb ed="#V" break="no" n="17"/>men esset exponendum secundum
+          <lb ed="#V" n="18"/>illud quod hic dicitur quam totum
+          <lb ed="#V" n="19"/>istud, quod est hic principale,
+          <lb ed="#V" n="20"/>alibi retractare, propter aliqua
+          <lb ed="#V" n="21"/>qua dicuntur alibi, non ita 
+          princi<lb ed="#V" break="no" n="22"/>paliter, nec ex intentione sicut hic.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e5100">
+          <lb ed="#V" n="23"/>Ad aliud de Sensu (i) et Sensato
+          <lb ed="#V" n="24"/>dicetur in argumento ultime q.
+          <lb ed="#V" n="25"/>hujus distinctionis.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e5109">
+          <lb ed="#V" n="26"/>Ad rationem (k) de 
+          contradicto<lb ed="#V" break="no" n="27"/>riis dicitur, quod illa sunt 
+          con<lb ed="#V" break="no" n="28"/>tradictoria, quae sunt accepta pro
+          <lb ed="#V" n="29"/>eodem tempore, et secundum alias
+          <lb ed="#V" n="30"/>conditiones requisitas; et illa non
+          <lb ed="#V" n="31"/>sunt contradictoria, quae non sunt
+          <lb ed="#V" n="32"/>accepta pro eodem tempore, quod
+          <lb ed="#V" n="33"/>probatur per definitionem 
+          con<lb ed="#V" break="no" n="34"/>tradictionis positam primo 
+          Elencho<lb ed="#V" break="no" n="35"/>rum, et ideo non esse caloris, ut
+          <lb ed="#V" n="36"/>praecessit in ultimo instanti 
+          im<lb ed="#V" break="no" n="37"/>mutationis, et esse caloris 
+          sus<lb ed="#V" break="no" n="38"/>ceptum in tempore habito, non
+          <lb ed="#V" n="39"/>sunt contradictoria respectu 
+          ca<lb ed="#V" break="no" n="40"/>loris.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e5144">
+          <lb ed="#V" n="41"/>(l) Contra, esse caloris et non esse
+          <lb ed="#V" n="42"/>absolute sumpta (non prout 
+          in<lb ed="#V" break="no" n="43"/>telliguntur in eodem instanti) sunt
+          <lb ed="#V" n="44"/>incompossibilia simpliciter, ita
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>quod quia sunt incompossibilia
+          <lb ed="#V" n="46"/>simpliciter, ideo non possunt esse
+          <lb ed="#V" n="47"/>in eodem instanti, et non e 
+          con<lb ed="#V" break="no" n="48"/>verso; et ratio 
+          incompossibilita<lb ed="#V" break="no" n="49"/>tis pro eodem instanti, non est
+          <lb ed="#V" n="50"/>alia, nisi quia ipsa formaliter
+          <lb ed="#V" n="51"/>sunt opposita, nulla alia 
+          oppo<lb ed="#V" break="no" n="52"/>sitione formaliter quam 
+          contra<lb ed="#V" break="no" n="53"/>dictoria, igitur, etc.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e5178">
+          <lb ed="#V" n="54"/>Confirmatur hoc per simile in
+          <lb ed="#V" n="55"/>aliis, quia contrarium contrario
+          <lb ed="#V" n="56"/>succedens, vere est ei contrarium, '
+          <lb ed="#V" n="57"/>licet non simul in eodem instanti.
+          <lb ed="#V" n="58"/>Similiter forma (m) ut est terminus
+          <lb ed="#V" n="59"/>ad quem privationis, vere opponi-«
+          <lb ed="#V" n="60"/>tur sibi privative ut. est terminus «
+          <lb ed="#V" n="61"/>a quo, et est motus inter opposita
+          <lb ed="#V" n="62"/>formaliter. Unde Philosophus Pr;-
+          <lb ed="#V" n="63"/>mo Phys. cap. 25. vult. quod omnis
+          <lb ed="#V" n="64"/>motus sit inter contraria 
+          opposi<lb ed="#V" break="no" n="65"/>ta, vel privativa vel media inter;
+          <lb ed="#V" n="66"/>hee, et tamen ista, ut sunt 
+          ter<lb ed="#V" break="no" n="67"/>mini transmutationis, nunquam
+          <lb ed="#V" n="68"/>simul sunt.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e5213">
+          <lb ed="#V" n="69"/>Posset etiam (n) argui quod
+          <lb ed="#V" n="70"/>creationis termini non essent 
+          con<lb ed="#V" break="no" n="71"/>tradictorii, quia non esse, quod 
+          prae<lb ed="#V" break="no" n="72"/>cedit esse creati, non potest ei esse
+          <lb ed="#V" n="73"/>contradictorium, nece privativum
+          <lb ed="#V" n="74"/>nee medium inter hse, quia in
+          <lb ed="#V" n="75"/>nullo sueceptivo est; et si non
+          <lb ed="#V" n="76"/>esset contradictorium ei, 
+          creatio<lb ed="#V" break="no" n="77"/>ergo non esset inter 
+          contradi<lb ed="#V" break="no" n="78"/>ctoria vel contraria, quod videtur
+          <lb ed="#V" n="79"/>absurdum. Quod autem (0) 
+          adduci<lb ed="#V" break="no" n="80"/>tur de definitione contradictionis,
+          <lb ed="#V" n="81"/>est aequivocatio , quia alio modo
+          <lb ed="#V" n="82"/>contradictio est in complexis, et
+          <lb ed="#V" n="83"/>alio modo est in incomplexis. 
+          Com<lb ed="#V" break="no" n="84"/>plexa non sunt contradictoria, nisi
+          <lb ed="#V" n="85"/>accipiantur pro eodem instanti,
+          <lb ed="#V" n="86"/>pro quo oportet illa ambo 
+          enun<lb ed="#V" break="no" n="87"/>tiare praedicatum de subjecto. 
+          In<lb ed="#V" break="no" n="88"/>complexa autem absolute sumpta
+          <pb ed="#V" n="456"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>non determinando ad aliquod 
+          1in<lb ed="#V" break="no" n="2"/>stans, sunt contradictoria. De 
+          con<lb ed="#V" break="no" n="3"/>tradictione prima loquitur 
+          Philo<lb ed="#V" break="no" n="4"/>sophus in Perihermenias, de secunda
+          <lb ed="#V" n="5"/>vero in Predicamentis.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e5274">
+          <lb ed="#V" n="6"/>Aliter respondeo (p) ad 
+          argumen<lb ed="#V" break="no" n="7"/>tum, quod immediatum potest 
+          ac<lb ed="#V" break="no" n="8"/>cipi dupliciter. Uno modo, inter
+          <lb ed="#V" n="9"/>quod secundum se totum, et aliud
+          <lb ed="#V" n="10"/>non est medium; alio modo, quod
+          <lb ed="#V" n="11"/>secundum se totum est cum altero
+          <lb ed="#V" n="12"/>statim vel post alterum. Primo
+          <lb ed="#V" n="13"/>modo, continuum est immediatum
+          <lb ed="#V" n="14"/>suo termino, quia inter indivisibile
+          <lb ed="#V" n="15"/>terminans et divisibile 
+          termina<lb ed="#V" break="no" n="16"/>tum nihil cadit medium. Secundo
+          <lb ed="#V" n="17"/>modo indivisibili terminanti 
+          con<lb ed="#V" break="no" n="18"/>tinuum nihil est immediatum ;
+          <lb ed="#V" n="19"/>nihil enim secundum se totum
+          <lb ed="#V" n="20"/>statim sequitur illud indivisibile,
+          <lb ed="#V" n="21"/>sed pars illius totius, quod est
+          <lb ed="#V" n="22"/>immediatum totum primo modo,
+          <lb ed="#V" n="23"/>sequitur indivisibile secundum 
+          par<lb ed="#V" break="no" n="24"/>tem ante partem in infinitum.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e5318">
+          <lb ed="#V" n="25"/>Ad propositum ergo (q) dico,
+          <lb ed="#V" n="26"/>quod sicut mensurae iste se 
+          ha<lb ed="#V" break="no" n="27"/>bent, ita et mensurata, scilicet
+          <lb ed="#V" n="28"/>quod quando unum 
+          contradicto<lb ed="#V" break="no" n="29"/>rium mensuratur indivisibili, et
+          <lb ed="#V" n="30"/>aliud mensuratur divisibili, et tunc
+          <lb ed="#V" n="31"/>minor est falsa. Nullum enim est
+          <lb ed="#V" n="32"/>medium inter contradictorium, 
+          se<lb ed="#V" break="no" n="33"/>cundum quod est in tota mensura
+          <lb ed="#V" n="34"/>sua, et contradictorium aliud, 
+          sic<lb ed="#V" break="no" n="35"/>ut nec inter totam mensuram ejus
+          <lb ed="#V" n="36"/>et mensuram alterius; 
+          contradi<lb ed="#V" break="no" n="37"/>ctorium tamen quod mensuratur
+          <lb ed="#V" n="38"/>divisibili, non est alicui 
+          immedia<lb ed="#V" break="no" n="39"/>tum, ita quod secundum aliquod
+          <lb ed="#V" n="40"/>esse sul, videlicet prout est 
+          men<lb ed="#V" break="no" n="41"/>sura sua, statim reliquum 
+          contra<lb ed="#V" break="no" n="42"/>dictorium sequatur. Ita dico in
+          <lb ed="#V" n="43"/>proposito, quod non esse fuit in 
+          in<lb ed="#V" break="no" n="44"/>divisibili; esse autem form: indu-
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>ctae per motum, est in toto 
+          tem<lb ed="#V" break="no" n="46"/>pore habito, et ideo nullum est
+          <lb ed="#V" n="47"/>medium inter illa, et tamen quod
+          <lb ed="#V" n="48"/>sequitur, in tempore non est 
+          im<lb ed="#V" break="no" n="49"/>mediatum secundo modo 
+          praeexi<lb ed="#V" break="no" n="50"/>stenti in instanti.
+        </p>
+        <!--</div>
+          <div alias="scotus-l2d2q9-p14">-->
+        <p xml:id="jdso8u-d1e1661-d1e5381">
+          <lb ed="#V" n="38" type="fixed=497"/>SCHOLIUM.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e5387">
+          <lb ed="#V" n="39"/>Respondendo ad tertium argumentum,
+          <lb ed="#V" n="40"/>num. 5. adductum, probat indivisibile per
+          <lb ed="#V" n="41"/>se existens, posse moveri localiter, etiam
+          <lb ed="#V" n="42"/>continue et hoc, ex motu sphaers et cubi
+          <lb ed="#V" n="43"/>super planum ; et rejicit responsiones alio-
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="44"/>rum, de quo agit 6. Phys. q. 7. et solvit tria
+          <lb ed="#V" n="45"/>loea Aristotelis in contrarium adducta, 
+          ex<lb ed="#V" break="no" n="46"/>pliceando successionem lationis provenire ex
+          <lb ed="#V" n="47"/>divisibilitate spatii vel mobilis, et alterum
+          <lb ed="#V" n="48"/>horum sufficere. Lychetus hic bene 
+          exami<lb ed="#V" break="no" n="49"/>nat difficultates philosophicas hujus litterze,
+          <lb ed="#V" n="50"/>per sex conclusiones.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e5418">
+          <lb ed="#V" n="51"/>Ad tertium (a) argumentum
+          <lb ed="#V" n="52"/>principale quaestionis quando 
+          dici<lb ed="#V" break="no" n="53"/>tur, quod Angelus non possit 
+          mo<lb ed="#V" break="no" n="54"/>veri, quia est indivisibilis, quamvis
+          <lb ed="#V" n="55"/>potest faciliter responderi, quod
+          <lb ed="#V" n="56"/>Angelus occupat locum divisibilem,
+          <lb ed="#V" n="57"/>et ideo respectu loci se habet ae si
+          <lb ed="#V" n="58"/>esset divisibilis, aut si occupat
+          <lb ed="#V" n="59"/>locum punctualem, et ita ut 
+          pun<lb ed="#V" break="no" n="60"/>ctualiter existens non potest 
+          con<lb ed="#V" break="no" n="61"/>tinue moveri, ut. semper habeat
+          <lb ed="#V" n="62"/>esse punctuale ; tamen quia non
+          <lb ed="#V" n="63"/>videtur ratio, quare negatur 
+          in<lb ed="#V" break="no" n="64"/>divisibile moveri, etiam si esset
+          <lb ed="#V" n="65"/>indivisibile quantitatis per se 
+          exi<lb ed="#V" break="no" n="66"/>stens, ideo potest concedi quo 
+          An<lb ed="#V" break="no" n="67"/>celus habens wb; punctuale, potest
+          <lb ed="#V" n="68"/>continue moveri ut in puncto
+          <lb ed="#V" n="69"/>semper existens.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e5462">
+          <lb ed="#V" n="70"/>Et istud quod assumptum est de
+          <lb ed="#V" n="71"/>indivisibili, probatur 
+          multiplici<lb ed="#V" break="no" n="72"/>ter. Primo, quia sphera super
+          <lb ed="#V" n="73"/>planum mota, describit in plano
+          <lb ed="#V" n="74"/>lineam, et tamen non tangit nisi
+          <lb ed="#V" n="75"/>in puncto; ergo illud punctum
+          <lb ed="#V" n="76"/>pertransit totam lineam, et tamen
+          <lb ed="#V" n="77"/>non propter hoc tota linea illa,
+          <lb ed="#V" n="78"/>qua sic pertransitur a. puncto
+          <lb ed="#V" n="79"/>componitur ex punctis; ergo a
+          <lb ed="#V" n="80"/>simili, nec hoc sequeretur, si ille
+          <lb ed="#V" n="81"/>punctus esset per se.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e5491">
+          <lb ed="#V" n="82"/>Hic respondetur multipliciter :
+          <lb ed="#V" n="83"/>Primo, quod non est sphaericum
+          <lb ed="#V" n="84"/>in natura, sed tantum in 
+          intelle<lb ed="#V" break="no" n="85"/>etu vel imaginatione. Sed hoc nihil
+          <lb ed="#V" n="86"/>est (b), quia coelum simpliciter est
+          <lb ed="#V" n="87"/>sphaericum, et tamen dato quod
+          <pb ed="#V" n="498"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>non esset aliquod sphserieum in
+          <lb ed="#V" n="2"/>natura, adhuc non esset 
+          contradi<lb ed="#V" break="no" n="3"/>ctio ex parte sphaers et plani,
+          <lb ed="#V" n="4"/>quod hoc super illud moveatur, ut
+          <lb ed="#V" n="5"/>sphara super planum; esset 
+          au<lb ed="#V" break="no" n="6"/>tem contradietio, si ex motu 
+          indi<lb ed="#V" break="no" n="7"/>visibilis super aliquid, sequeretur
+          <lb ed="#V" n="8"/>ipsum esse indivisibile vel 
+          compo<lb ed="#V" break="no" n="9"/>ni ex indivisibilibus.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e5530">
+          <lb ed="#V" n="10"/>Aliter dicitur, (c) quod naturalis
+          <lb ed="#V" n="11"/>sphaera tangit planum in linea,
+          <lb ed="#V" n="12"/>non in puncto. Sed hoc videtur
+          <lb ed="#V" n="13"/>impossibile, quia quod applieatur
+          <lb ed="#V" n="14"/>linez circulari, ita quod eam 
+          tan<lb ed="#V" break="no" n="15"/>tam tangit necessario est 
+          circula<lb ed="#V" break="no" n="16"/>re, quia qualibet pars lines 
+          cir<lb ed="#V" break="no" n="17"/>cularis est circularis, sicut linea
+          <lb ed="#V" n="18"/>recta est in qualibet parte recta,
+          <lb ed="#V" n="19"/>nam recte lineae nulla pars est
+          <lb ed="#V" n="20"/>circularis, vel curva.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e5556">
+          <lb ed="#V" n="21"/>Aliter dicitur, (d) quod quia 
+          pun<lb ed="#V" break="no" n="22"/>ctus ille per accidens movetur,
+          <lb ed="#V" n="23"/>ideo non oportet, quod 
+          commen<lb ed="#V" break="no" n="24"/>suret sibi spatium super quod
+          <lb ed="#V" n="25"/>movetur; sphaera autem per se
+          <lb ed="#V" n="26"/>movetur, et etiam est divisibilis.
+          <lb ed="#V" n="27"/>Sed contra (c) istud, quia quamvis
+          <lb ed="#V" n="28"/>pars in toto moveatur per 
+          acci<lb ed="#V" break="no" n="29"/>dens, tamen semper est in spatio
+          <lb ed="#V" n="30"/>sihi aequali, et pertranseundo illa,
+          <lb ed="#V" n="31"/>describit totum spatium; imo si
+          <lb ed="#V" n="32"/>albedo, qua magis movetur per
+          <lb ed="#V" n="33"/>accidens moto quanto, quam 
+          ali<lb ed="#V" break="no" n="34"/>quid, quod est pars vel terminus
+          <lb ed="#V" n="35"/>quanti, secundum quantitatem
+          <lb ed="#V" n="36"/>suam, quam habet per accidens:
+          <lb ed="#V" n="37"/>comparetur ad spatium, adhuc
+          <lb ed="#V" n="38"/>ejus quantitas accidentalis 
+          com<lb ed="#V" break="no" n="39"/>mensuraretur spatio, unde non
+          <lb ed="#V" n="40"/>videtur quod quantum ad 
+          commen<lb ed="#V" break="no" n="41"/>surationem, aliquid auferat 
+          move<lb ed="#V" break="no" n="42"/>ri per accidens aliter quam per
+          <lb ed="#V" n="43"/>se moveri. Item, linea ista 
+          suppo<lb ed="#V" break="no" n="44"/>sita non commensuratur sphaera
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>quia  tunc esset corpus sphaericum,
+          <lb ed="#V" n="46"/>sed commensuratur alicui moto
+          <lb ed="#V" n="47"/>super ipsam; ergo tantum puncto
+          <lb ed="#V" n="48"/>moto super eam.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e5622">
+          <lb ed="#V" n="49"/>Si etiam ponatur, (f) spheram
+          <lb ed="#V" n="50"/>esse in vacuo, et solam lineam esse
+          <lb ed="#V" n="51"/>plenam, et per impossibile 
+          sphae<lb ed="#V" break="no" n="52"/>ra posset moveri in vacuo, et iste 
+          <lb ed="#V" n="53"/>punctus super lineam plenam,
+          <lb ed="#V" n="54"/>illa linea plena non describeretur,
+          <lb ed="#V" n="55"/>nisi praecise ex puncto illo, et ita
+          <lb ed="#V" n="56"/>sequitur propositum ex istis.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e5642">
+          <lb ed="#V" n="57"/>Praeterea, accipiatur (g) corpus
+          <lb ed="#V" n="58"/>cubum, et moveatur prima 
+          su<lb ed="#V" break="no" n="59"/>perficies ejus; vel semper est in
+          <lb ed="#V" n="60"/>aliquo sibi aequali, et ita in 
+          super<lb ed="#V" break="no" n="61"/>ficie; vel correspondet sibi aliquid
+          <lb ed="#V" n="62"/>in magnitudine supposita, puta
+          <lb ed="#V" n="63"/>linea, et sic semper pertranseundo
+          <lb ed="#V" n="64"/>prius aliquid magnitudinis quam
+          <lb ed="#V" n="65"/>aliud pertransit totam 
+          magnitudi<lb ed="#V" break="no" n="66"/>nem; ergo tota magnitudo 
+          suppo<lb ed="#V" break="no" n="67"/>sita componitur ex linea, si ratio
+          <lb ed="#V" n="68"/>illorum valeat.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e5671">
+          <lb ed="#V" n="69"/>Praeterea, signetur punctus 
+          pri<lb ed="#V" break="no" n="70"/>mus in linea, super quam alia li-,
+          <lb ed="#V" n="71"/>nea movetur; iste punctus in linea ,
+          <lb ed="#V" n="72"/>supposita describit totam lineam
+          <lb ed="#V" n="73"/>motam, quia sicut semper 
+          quieum<lb ed="#V" break="no" n="74"/>que punctus linee mota est 
+          con<lb ed="#V" break="no" n="75"/>tinue in alio et alio puncto lines 
+          <lb ed="#V" n="76"/>supposita, ita est e converso,
+          <lb ed="#V" n="77"/>quicumque punctus lines 
+          suppo<lb ed="#V" break="no" n="78"/>sitae supponitur alii et alii puncto
+          <lb ed="#V" n="79"/>lines mot:ze,et tamen cum omnibus
+          <lb ed="#V" n="80"/>istis stat continuitas motus.
+          <lb ed="#V" n="81"/>Potest ergo concedi (cum non
+          <lb ed="#V" n="82"/>videatur nisi fuga dicere de moveri
+          <lb ed="#V" n="83"/>per accidens) quod indivisibile.
+          <lb ed="#V" n="84"/>posset per se moveri, si per se
+          <lb ed="#V" n="85"/>esset, et tamen continue, nec ex
+          <lb ed="#V" n="86"/>hoc sequeretur magnitudinem
+          <lb ed="#V" n="87"/>pertransitam esse compositam ex
+          <lb ed="#V" n="88"/>indivisibilibus. Propter tamen
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e5717">
+          <pb ed="#V" n="499"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>(h) intentionem Aristotelis qui 
+          al<lb ed="#V" break="no" n="2"/>legabatur , oportet intelligere
+          <lb ed="#V" n="3"/>quod in motu locali est successio
+          <lb ed="#V" n="4"/>ex duplici causa, videlicet ex 
+          di<lb ed="#V" break="no" n="5"/>visibilitate mobilis, et ex 
+          divisibi<lb ed="#V" break="no" n="6"/>litate spatii, quarum utraque 
+          cau<lb ed="#V" break="no" n="7"/>sa si esset per se et praecisa, esset
+          <lb ed="#V" n="8"/>sufficiens ratio successionis. Nam
+          <lb ed="#V" n="9"/>quodlibet mobile prius pertransit
+          <lb ed="#V" n="10"/>unam partem spatii quam aliam,
+          <lb ed="#V" n="11"/>et ita esset successio ex parte
+          <lb ed="#V" n="12"/>spatii, comparando idem mobile
+          <lb ed="#V" n="13"/>ad diversas partes ejus; 
+          quodeum<lb ed="#V" break="no" n="14"/>quae etiam idem in spatio, prius
+          <lb ed="#V" n="15"/>pertransit mobile secundum 
+          pri<lb ed="#V" break="no" n="16"/>mam partem sui mobilis quam
+          <lb ed="#V" n="17"/>secundum secundam, et ita esset
+          <lb ed="#V" n="18"/>successio ex parte mobilis, 
+          com<lb ed="#V" break="no" n="19"/>parando ad quodcumque idem in
+          <lb ed="#V" n="20"/>spatio, ita etiam posset assignari
+          <lb ed="#V" n="21"/>in motu alterationis, et forte in
+          <lb ed="#V" n="22"/>motu augmentationis.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e5772">
+          <lb ed="#V" n="23"/>Negat igitur Philosophus et
+          <lb ed="#V" n="24"/>bene, quod indivisibile quantum
+          <lb ed="#V" n="25"/>est ex se, possit moveri vel 
+          move<lb ed="#V" break="no" n="26"/>re, ita quod ex ejus parte possit
+          <lb ed="#V" n="27"/>accipi continuitas motus, ita quod
+          <lb ed="#V" n="28"/>sit mobile habens in se rationem
+          <lb ed="#V" n="29"/>completam mobilis continui, quia
+          <lb ed="#V" n="30"/>non habet in se, quod continue
+          <lb ed="#V" n="31"/>moveatur, non tamen est illud, cui
+          <lb ed="#V" n="32"/>repugnat continue moveri vel 
+          mo<lb ed="#V" break="no" n="33"/>vere, accipiendo ab alio 
+          continui<lb ed="#V" break="no" n="34"/>tatem motus.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e5801">
+          <lb ed="#V" n="35"/>Et istud (i) concludunt rationes
+          <lb ed="#V" n="36"/>suc, et non plus, sicut. patet 
+          dis<lb ed="#V" break="no" n="37"/>currendo per rationes ojus omnes ;
+          <lb ed="#V" n="38"/>cum enim primo accipitur, quod
+          <lb ed="#V" n="39"/>omne quod movetur partim est in
+          <lb ed="#V" n="40"/>termino « quo, et partim in 
+          termi<lb ed="#V" break="no" n="41"/>no ad quem, verum est, si sit. tale
+          <lb ed="#V" n="42"/>mobile, ex cujus ratione sil 
+          suc<lb ed="#V" break="no" n="43"/>cessio motus; tale enim mobile
+          <lb ed="#V" n="44"/>est secundum partem et partem
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>sui in termino et in termino, et
+          <lb ed="#V" n="46"/>non ita solum, sed secundum
+          <lb ed="#V" n="47"/>idem sui est partim in termino
+          <lb ed="#V" n="48"/>uno, et partim in alio, hoc est
+          <lb ed="#V" n="49"/>in aliquo medio non quiescendo.
+          <lb ed="#V" n="50"/>Sed inquantum est aliquid 
+          utri<lb ed="#V" break="no" n="51"/>usque, hoc est, inquantum est
+          <lb ed="#V" n="52"/>per quod tendit ab uno in alterum,
+          <lb ed="#V" n="53"/>hoc est dictu, quod est sub 
+          muta<lb ed="#V" break="no" n="54"/>tione, et sub aliquo subjacente
+          <lb ed="#V" n="55"/>mutationi, et sic continuat partes
+          <lb ed="#V" n="56"/>motus.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e5854">
+          <lb ed="#V" n="57"/>Cum autem accipitur 
+          indivisibi<lb ed="#V" break="no" n="58"/>le, non potest esse partim in uno
+          <lb ed="#V" n="59"/>termino, et partim in alio, quia
+          <lb ed="#V" n="60"/>non habet partes, verum est de
+          <lb ed="#V" n="61"/>prima partibilitate; et ideo 
+          con<lb ed="#V" break="no" n="62"/>cludendo, quod sic non est mobile,
+          <lb ed="#V" n="63"/>concedo; falsum autem est de 
+          se<lb ed="#V" break="no" n="64"/>cunda partibilitate.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e5874">
+          <lb ed="#V" n="65"/>Ad aliud eum dicitur, (k) quod
+          <lb ed="#V" n="66"/>prius pertransit omne mobile
+          <lb ed="#V" n="67"/>seequale, vel minus quam 
+          pertran<lb ed="#V" break="no" n="68"/>sit majus, respondeo et dico, quod
+          <lb ed="#V" n="69"/>pertransiri potest accipi pro 
+          transi<lb ed="#V" break="no" n="70"/>tione divisibilis vel indivisibilis ;
+          <lb ed="#V" n="71"/>si indivisibilis, falsa est. 
+          proposi<lb ed="#V" break="no" n="72"/>tio, si intelligatur quod ante omne
+          <lb ed="#V" n="73"/>pertransire majus universaliter,
+          <lb ed="#V" n="74"/>pertranseat indivisibile :requale,
+          <lb ed="#V" n="75"/>tunc enim oporteret concedere,
+          <lb ed="#V" n="76"/>quod esset dare primam 
+          mutati<lb ed="#V" break="no" n="77"/>onem in motu locali, quod etiam
+          <lb ed="#V" n="78"/>nec Ipsi perversores Aristotelis,
+          <lb ed="#V" n="79"/>non expositores, dicentes ipsum
+          <lb ed="#V" n="80"/>retractare quod dicit. in 6. Physic.
+          <lb ed="#V" n="81"/>possunt rationabiliter dicere quod
+          <lb ed="#V" n="82"/>in 8. contradicat sibi ipsi; non 
+          er<lb ed="#V" break="no" n="83"/>vo oportet quod omnem 
+          transiti<lb ed="#V" break="no" n="84"/>onem suaeessivam, qua est major
+          <lb ed="#V" n="85"/>ipso mobili, prae:ecedat pertransitio
+          <lb ed="#V" n="86"/>indivisibilis
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e5924">
+          <lb ed="#V" n="87"/>Si autem intelligatur de 
+          per<lb ed="#V" break="no" n="88"/>transitione divisibilis,  tunc potest
+          <pb ed="#V" n="500"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>intelligi de toto, non ratione 
+          to<lb ed="#V" break="no" n="2"/>tius, sed ratione partis, et hoc non
+          <lb ed="#V" n="3"/>comparando partem ad ubi sibi
+          <lb ed="#V" n="4"/>c:equale, et totum ad ubi sibi 
+          sequa<lb ed="#V" break="no" n="5"/>le, quia continuum est, cujus 
+          mo<lb ed="#V" break="no" n="6"/>tus est unus et indivisibilis, ex 5.
+          <lb ed="#V" n="7"/>Metaph. et ita similiter pertransit
+          <lb ed="#V" n="8"/>pars spatium sibi correspondens,
+          <lb ed="#V" n="9"/>et totum mobile spatium totum
+          <lb ed="#V" n="10"/>sibi correspondens. Sed 
+          intelligen<lb ed="#V" break="no" n="11"/>do respectu alicujus certi, et 
+          de<lb ed="#V" break="no" n="12"/>terminati puncti in spatio, prius
+          <lb ed="#V" n="13"/>pertransit. totum ratione partis
+          <lb ed="#V" n="14"/>alicujus illud punctum, et in haec
+          <lb ed="#V" n="15"/>quod pertransit illud, pertransit
+          <lb ed="#V" n="16"/>aliquid minus se, loquendo de wi
+          <lb ed="#V" n="17"/>alio a suo primo ubi totali, quam
+          <lb ed="#V" n="18"/>sic pertranseat aequale vel majus,
+          <lb ed="#V" n="19"/>et hoc est per accidens inquantum
+          <lb ed="#V" n="20"/>mobile potest habere ubi minus
+          <lb ed="#V" n="21"/>suo totali ubi.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e5981">
+          <lb ed="#V" n="22"/>Sed si loquamur de ubi majori
+          <lb ed="#V" n="23"/>et minori et aequali, secundum
+          <lb ed="#V" n="24"/>quae attenditur immediate 
+          conti<lb ed="#V" break="no" n="25"/>nuitas motus, quorum infinita
+          <lb ed="#V" n="26"/>sunt aliquid primi wb, simpliciter
+          <lb ed="#V" n="27"/>prius pertransit majus se quam
+          <lb ed="#V" n="28"/>aequale sibi.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e5999">
+          <lb ed="#V" n="29"/>Ad propositum igitur, salvando
+          <lb ed="#V" n="30"/>illud quod est de per se ratione
+          <lb ed="#V" n="31"/>motus continui, non oportet 
+          sal<lb ed="#V" break="no" n="32"/>vare illud, quod non est de per se
+          <lb ed="#V" n="33"/>ratione ejus. Et si objicis, (l) quod
+          <lb ed="#V" n="34"/>quidquid sit de ratione Aristotelis
+          <lb ed="#V" n="35"/>in se, semper iste punctus est in
+          <lb ed="#V" n="36"/>spatio sibi aequali, et sic. 
+          pertran<lb ed="#V" break="no" n="37"/>sit totum, ergo commensurat 
+          to<lb ed="#V" break="no" n="38"/>tam lineam suppositam, et ita illa
+          <lb ed="#V" n="39"/>linea supposita erit composita ex
+          <lb ed="#V" n="40"/>punctis; dico quod semper, id est,
+          <lb ed="#V" n="41"/>in quolibet indivisibili, est in 
+          spa<lb ed="#V" break="no" n="42"/>tio sibi aequali, non autem semper,
+          <lb ed="#V" n="43"/>id est, in quacumque parte 
+          tem<lb ed="#V" break="no" n="44"/>poris.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e6036">
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>Idem argui potest (m) de 
+          super<lb ed="#V" break="no" n="46"/>ficie prima corporis cubi, quia
+          <lb ed="#V" n="47"/>licet in quolibet nunc temporis 
+          sup<lb ed="#V" break="no" n="48"/>ponatur praecise lineze super quam
+          <lb ed="#V" n="49"/>movetur, tamen in tem poremedio
+          <lb ed="#V" n="50"/>inter duo instantia, fluit super
+          <lb ed="#V" n="51"/>medium continuum inter illa 
+          ex<lb ed="#V" break="no" n="52"/>trema.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e6059">
+          <lb ed="#V" n="53"/>Ad ultimam rationem, (n) bene
+          <lb ed="#V" n="54"/>concedo, quod omni tempore dato
+          <lb ed="#V" n="55"/>contingit accipere minus tempus,
+          <lb ed="#V" n="56"/>sed ex haec non sequitur in illo
+          <lb ed="#V" n="57"/>minori tempore posse moveri
+          <lb ed="#V" n="58"/>minus mobile, nisi loquendo de
+          <lb ed="#V" n="59"/>mobili continuo, quod erat ex
+          <lb ed="#V" n="60"/>parte sui causa  continuitatis
+          <lb ed="#V" n="61"/>motus.
+        </p>
+        <!--</div>
+          <div alias="scotus-l2d2q9-p15">-->
+        <p xml:id="jdso8u-d1e1661-d1e6083">
+          <lb ed="#V" n="5" type="fixed=516"/>SCHOLIUM.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e6088">
+          <lb ed="#V" n="6"/>Ad quartum num. 6. adductum explicat
+          <lb ed="#V" n="7"/>quomodo successio motus est ex resistentia
+          <lb ed="#V" n="8"/>mobilis ad motorem et medii ad utrumque,
+          <lb ed="#V" n="9"/>quia scilicet mobile est sub ubi, cui non
+          <lb ed="#V" n="10"/>potest immediate succedere ubi intentum,
+          <lb ed="#V" n="11"/>quia 4bi medium, vel pars ubi intenti, prius
+          <lb ed="#V" n="12"/>pertransiri necesse est a motore finito, et
+          <lb ed="#V" n="13"/>quia ubi medium natura sua praecedit ube
+          <lb ed="#V" n="14"/>remotum. Docet etiam motum dabilem in
+          <lb ed="#V" n="15"/>vacuo, de quo late agit 4. Phys. quaest. 12.
+          <lb ed="#V" n="16"/>Explicat etiam quomodo juxta proportionem
+          <lb ed="#V" n="17"/>mobilis ad mobile in subtilitate sit proportio
+          <lb ed="#V" n="18"/>motus ad motum in velocitate, de quo late
+          <lb ed="#V" n="19"/>agit 4. Phys. quaest. 8. 10. et 11.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e6121">
+          <lb ed="#V" n="20"/>Ad quartum (a) argumentum
+          <lb ed="#V" n="21"/>principale de causa successionis
+          <lb ed="#V" n="22"/>in motu, dico quod licet posset fieri
+          <lb ed="#V" n="23"/>contentio et altercatio de 
+          inten<lb ed="#V" break="no" n="24"/>tione Averrois, et in quo 
+          contra<lb ed="#V" break="no" n="25"/>dicit Avempace, sicut apparet 4.
+          <lb ed="#V" n="26"/>Phys. cap. de Vacuo, tamen causa
+          <lb ed="#V" n="27"/>successionis in quolibet motu
+          <lb ed="#V" n="28"/>est resistentia mobilis ad 
+          mo<lb ed="#V" break="no" n="29"/>torem, non quidem talis, quod
+          <lb ed="#V" n="30"/>movens. non ..-possit- vincere
+          <lb ed="#V" n="31"/>mobile,  tunc enim non 
+          move<lb ed="#V" break="no" n="32"/>ret ipsum, sed nec etiam talis,
+          <lb ed="#V" n="33"/>quod mobile reinclinetur ad 
+          oppo<lb ed="#V" break="no" n="34"/>situm, quia sic est praecise in motu
+          <lb ed="#V" n="35"/>violento; sed talis resistentia,
+          <lb ed="#V" n="36"/>quod mobile semper est sub 
+          ali<lb ed="#V" break="no" n="37"/>quo, cui non potest immediate
+          <lb ed="#V" n="38"/>succedere terminus intentus a 
+          mo<lb ed="#V" break="no" n="39"/>vente, et ista resistentia mobilis
+          <lb ed="#V" n="40"/>ad motorem est propter defectum
+          <lb ed="#V" n="41"/>virtutis moventis, et cum hoc
+          <lb ed="#V" n="42"/>propter resistentiam medii ad 
+          mo<lb ed="#V" break="no" n="43"/>vens et mobile, per quod medium
+          <lb ed="#V" n="44"/>potest intelligi omne illud, quod
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>necessario praecedit inductionem
+          <lb ed="#V" n="46"/>termini intenti; sed tale medium
+          <lb ed="#V" n="47"/>non est necessario medium, nisi
+          <lb ed="#V" n="48"/>virtuti limitatae. Si enim esset 
+          vir<lb ed="#V" break="no" n="49"/>tus infinita, posset statim ponere
+          <lb ed="#V" n="50"/>mobile in termino ad quem, ita
+          <lb ed="#V" n="51"/>quod nec propter formam 
+          opposi<lb ed="#V" break="no" n="52"/>tam termino «a quo, quam mobile
+          <lb ed="#V" n="53"/>jam haberet; nec propter media
+          <lb ed="#V" n="54"/>naturaliter ordinata inter illam
+          <lb ed="#V" n="55"/>formam, quam habet mobile, et ;
+          <lb ed="#V" n="56"/>terminum ad quem, esset 
+          necessi<lb ed="#V" break="no" n="57"/>tas, quod tale movens prius 
+          move<lb ed="#V" break="no" n="58"/>ret per talia media quam 
+          induce<lb ed="#V" break="no" n="59"/>ret terminum. Possibilitas igitur
+          <lb ed="#V" n="60"/>successionis est ex resistentia 
+          me<lb ed="#V" break="no" n="61"/>dii ad mobile et ad motorem, ita
+          <lb ed="#V" n="62"/>quod hic est una resistentia. 
+          Mo<lb ed="#V" break="no" n="63"/>bile enim inquantum habet talem
+          <lb ed="#V" n="64"/>formam, inter quam et terminum
+          <lb ed="#V" n="65"/>nata sunt esse talia media, potest
+          <lb ed="#V" n="66"/>continue moveri per illa ad 
+          termi<lb ed="#V" break="no" n="67"/>num; et per ista media, quae 
+          resi<lb ed="#V" break="no" n="68"/>stunt mobili, ut possit non statim
+          <lb ed="#V" n="69"/>esse in termino, potest intelligi
+          <lb ed="#V" n="70"/>divisibilitas partium mobilis vel 
+          di<lb ed="#V" break="no" n="71"/>visibilitas forma, secundum quam
+          <lb ed="#V" n="72"/>est motus, vel utraque. simul.
+          <lb ed="#V" n="73"/>Necessitas tamen successionis
+          <lb ed="#V" n="74"/>nunquam est ex hac resistentia,
+          <lb ed="#V" n="75"/>sed praecise comparando istam ad
+          <lb ed="#V" n="76"/>agens, eui mobile resistit propter
+          <lb ed="#V" n="77"/>istam resistentiam medii ad ipsum,
+          <lb ed="#V" n="78"/>ita quod sicut erat possibilitas ex
+          <lb ed="#V" n="79"/>sola resistentia medii ad mobile,
+          <lb ed="#V" n="80"/>ita virtus illa limitata non possit
+          <lb ed="#V" n="81"/>tollere istam resistentiam, et ideo
+          <lb ed="#V" n="82"/>resistit illa resistentia agenti, ne
+          <lb ed="#V" n="83"/>statim inducat terminum.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e6264">
+          <lb ed="#V" n="84"/>Tunc ad illa, (b) quae adducuntur
+          <lb ed="#V" n="85"/>ad oppositum, quod scilicet Angeli
+          <lb ed="#V" n="86"/>ad se nulla est resistentia, dico
+          <lb ed="#V" n="87"/>quod ex quo agit non est in 
+          infini<lb ed="#V" break="no" n="88"/>tate virtutis activie, quando est in
+          <pb ed="#V" n="517"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>coelo, inter quod ubi et suum ubi in
+          <lb ed="#V" n="2"/>terra, nota sunt esse multa media,
+          <lb ed="#V" n="3"/>qua etiam virtuti sus motiva
+          <lb ed="#V" n="4"/>sunt media, ita quod nec virtus
+          <lb ed="#V" n="5"/>sua motiva potest omnia illa 
+          me<lb ed="#V" break="no" n="6"/>dia facere simul et terminum, nec
+          <lb ed="#V" n="7"/>etiam potest statim terminum
+          <lb ed="#V" n="8"/>facere, nisi prius faciendo illa
+          <lb ed="#V" n="9"/>media, et ideo est hic resistentia
+          <lb ed="#V" n="10"/>iota, quae» requiritur ad 
+          successi<lb ed="#V" break="no" n="11"/>onem in motu.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e6307">
+          <lb ed="#V" n="12"/>Et cum arguitur, de dicto ipsius
+          <lb ed="#V" n="13"/>Averrois de gravi si ponatur in
+          <lb ed="#V" n="14"/>vacuo, quod descenderet subito
+          <lb ed="#V" n="15"/>propter defectum  resistentiae a
+          <lb ed="#V" n="16"/>parte medii, dico quod si vacuum
+          <lb ed="#V" n="17"/>poneretur, grave non moveretur
+          <lb ed="#V" n="18"/>in ipso, secundum Philosophum,
+          <lb ed="#V" n="19"/>quia vacuum non posset cedere
+          <lb ed="#V" n="20"/>gravi, et dimensiones separata
+          <lb ed="#V" n="21"/>non possent esse simul ; tamen si
+          <lb ed="#V" n="22"/>poneretur vacuum posse cedere et
+          <lb ed="#V" n="23"/>esse spatium, et non quod latera
+          <lb ed="#V" n="24"/>pleni essent simul, quia tunc non
+          <lb ed="#V" n="25"/>esset vacuum, dico tune, quod
+          <lb ed="#V" n="26"/>motus gravis esset successive in
+          <lb ed="#V" n="27"/>vacuo, quia prior pars vacui prius
+          <lb ed="#V" n="28"/>cederet, et totum grave prius
+          <lb ed="#V" n="29"/>[ransiret hanc partem spatii quam
+          <lb ed="#V" n="30"/>illam; et sicut dictum fuit prius
+          <lb ed="#V" n="31"/>in praecedenti argumento et 
+          mo<lb ed="#V" break="no" n="32"/>do, per se successio est in motu
+          <lb ed="#V" n="33"/>locali ex spatio inquantum quanto.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e6357">
+          <lb ed="#V" n="34"/>Ad argumenta (c) Philosophi,
+          <lb ed="#V" n="35"/>inquantum inducuntur ad 
+          proposi<lb ed="#V" break="no" n="36"/>tum, dico quod illa propositio,
+          <lb ed="#V" n="37"/>qua est proportio medii ad 
+          me<lb ed="#V" break="no" n="38"/>dium, etc. vera est emteris 
+          pari<lb ed="#V" break="no" n="39"/>bus, et. ideo sequitur motum non
+          <lb ed="#V" n="40"/>esse in vacuo, aut saltem vera est
+          <lb ed="#V" n="41"/>contra eos, qui posuerunt, vacuum
+          <lb ed="#V" n="42"/>esse totam causam molus sive
+          <lb ed="#V" n="43"/>successionis in motu.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e6381">
+          <lb ed="#V" n="44"/>Sed ad propositum arguendo,
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>hic similiter de mobilibus, sicut,
+          <lb ed="#V" n="46"/>ibi de spatiis, ista propositio 
+          ne<lb ed="#V" break="no" n="47"/>gari potest, quae est proportio
+          <lb ed="#V" n="48"/>mobilis ad mobile in subtilitate,
+          <lb ed="#V" n="49"/>eadem est proportio motus ad
+          <lb ed="#V" n="50"/>motum in velocitate.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e6401">
+          <lb ed="#V" n="51"/>Et si accipias quae est (d) 
+          pro<lb ed="#V" break="no" n="52"/>portio hujus sub ratione qua 
+          mo<lb ed="#V" break="no" n="53"/>bile est, et alterius sub ratione
+          <lb ed="#V" n="54"/>qua mobile, concedo, sed  tunc 
+          mi<lb ed="#V" break="no" n="55"/>nor est falsa. Angelus enim 
+          mobi<lb ed="#V" break="no" n="56"/>lis est continue, inquantum habet
+          <lb ed="#V" n="57"/>quantitatem virtualem, secundum
+          <lb ed="#V" n="58"/>quam potest coexistere loco 
+          quan<lb ed="#V" break="no" n="59"/>to, sicut corpus per quantitatem
+          <lb ed="#V" n="60"/>suam formalem potest coexistere
+          <lb ed="#V" n="61"/>loeo quanto. Similiter quod 
+          Philo<lb ed="#V" break="no" n="62"/>sophus infert in secunda ratione
+          <lb ed="#V" n="63"/>Sua, quod motus fit in quali
+          <lb ed="#V" n="64"/>tempore per vacuum et plenum.
+          <lb ed="#V" n="65"/>Srinferatur hic aliquid illi simile,
+          <lb ed="#V" n="66"/>scilicet, quod in aequali tempore
+          <lb ed="#V" n="67"/>movetur Angelus et corpus, non
+          <lb ed="#V" n="68"/>est impossibile; ibi autem est 
+          im<lb ed="#V" break="no" n="69"/>possibilitas ex ratione mediorum,
+          <lb ed="#V" n="70"/>secundum quod videtur ratio ejus
+          <lb ed="#V" n="71"/>procedere.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e6449">
+          <lb ed="#V" n="72"/>Sed dato quod rationes 
+          Philoso<lb ed="#V" break="no" n="73"/>phi non multum concludant ad
+          <lb ed="#V" n="74"/>propositum, quia non ita se 
+          ha<lb ed="#V" break="no" n="75"/>bent hic mobilia, sicut ibi spatia,
+          <lb ed="#V" n="76"/>valent tamen rationes su: 
+          simpli<lb ed="#V" break="no" n="77"/>citer, ita quod sua prima ratio est
+          <lb ed="#V" n="78"/>ostensiva, et reliqua ducens ad
+          <lb ed="#V" n="79"/>impossibile.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e6469">
+          <lb ed="#V" n="80"/>Respondeo igitur (e) quod si
+          <lb ed="#V" n="81"/>vacuum posset cedere, et. motus
+          <lb ed="#V" n="82"/>posset esse in eo, quod ex 
+          divisibi<lb ed="#V" break="no" n="83"/>litate spatii motus haberet 
+          divisi<lb ed="#V" break="no" n="84"/>bilitatem et successionem, sicut
+          <lb ed="#V" n="85"/>modo ex divisibilitate spatii pleni,
+          <lb ed="#V" n="86"/>motus haberet per se 
+          successi<lb ed="#V" break="no" n="87"/>onem essentialem. sed ultra istam
+          <lb ed="#V" n="88"/>successionem potest addi velocitas
+          <pb ed="#V" n="518"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>vel tarditas ratione conditionis
+          <lb ed="#V" n="2"/>accidentalis ipsius medii, 
+          inquan<lb ed="#V" break="no" n="3"/>tum est promotivum, vel 
+          impediti<lb ed="#V" break="no" n="4"/>vum ipsius motus, sive ratione
+          <lb ed="#V" n="5"/>subtilitatis per quam promovet,
+          <lb ed="#V" n="6"/>aut saltem non impedit,aut ratione
+          <lb ed="#V" n="7"/>densitatis opposite. Tunc igitur
+          <lb ed="#V" n="8"/>fieret motus successivus in vacuo,
+          <lb ed="#V" n="9"/>et esset proportionabilis motui in
+          <lb ed="#V" n="10"/>pleno, et hoc loquendo de 
+          succes<lb ed="#V" break="no" n="11"/>sione essentiali, non de velocitate
+          <lb ed="#V" n="12"/>et tarditate superaddita, quia 
+          om<lb ed="#V" break="no" n="13"/>nino nullam velocitatem aut 
+          tar<lb ed="#V" break="no" n="14"/>ditatem superadditam haberet 
+          mo<lb ed="#V" break="no" n="15"/>bile in vacuo, haberet autem
+          <lb ed="#V" n="16"/>aliquam in pleno; sed mihi ad
+          <lb ed="#V" n="17"/>aliquid non est proportio praecise;
+          <lb ed="#V" n="18"/>ergo habet Philosophus ex hoc
+          <lb ed="#V" n="19"/>contra adversarium dicentem 
+          mo<lb ed="#V" break="no" n="20"/>tum esse in vacuo, quod nullus
+          <lb ed="#V" n="21"/>motus habens aliquam 
+          velocita<lb ed="#V" break="no" n="22"/>tem vel tarditatem — 
+          aceidenta<lb ed="#V" break="no" n="23"/>lem superadditam essentiali, 
+          po<lb ed="#V" break="no" n="24"/>test esse in vacuo, et ideo negat
+          <lb ed="#V" n="25"/>Philosophus talem aecidentalem
+          <lb ed="#V" n="26"/>successionem posse esse in motu;
+          <lb ed="#V" n="27"/>et hoc non est inconveniens, si
+          <lb ed="#V" n="28"/>poneret praecise esse motum in
+          <lb ed="#V" n="29"/>vacuo, sed esset, si eum hoc 
+          pone<lb ed="#V" break="no" n="30"/>ret vacuum esse medium 
+          promo<lb ed="#V" break="no" n="31"/>tivum in motu, vel medium 
+          neces<lb ed="#V" break="no" n="32"/>sarium in motu, ex parte cujus
+          <lb ed="#V" n="33"/>sumeretur velocitas vel tarditas
+          <lb ed="#V" n="34"/>motus.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e6570">
+          <lb ed="#V" n="35"/>Eodem etiam modo illud quod
+          <lb ed="#V" n="36"/>infert in secunda ratione, non est
+          <lb ed="#V" n="37"/>impossibile adversario dicenti 
+          prae<lb ed="#V" break="no" n="38"/>cise motum; esse in vacuo, quia
+          <lb ed="#V" n="39"/>medium plenum jpotest :equari
+          <lb ed="#V" n="40"/>medio vacuo, inquantum est ratio
+          <lb ed="#V" n="41"/>vel causa successionis essentialis
+          <lb ed="#V" n="42"/>in motu, et si aliquod plenum
+          <lb ed="#V" n="43"/>acciperetur in tali proportione, in
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="44"/>quali accipit Philosophus ad 
+          mo<lb ed="#V" break="no" n="45"/>tum datum, illud esset omnino
+          <lb ed="#V" n="46"/>neutrum, nullam qualitatem 
+          acci<lb ed="#V" break="no" n="47"/>dentalem dans, nec medium 
+          ple<lb ed="#V" break="no" n="48"/>num, nec medium vacuum.
+        </p>
+        <p xml:id="jdso8u-d1e1661-d1e6605">
+          <lb ed="#V" n="49"/>Quid ergo habet Philosophus *
+          <lb ed="#V" n="50"/>contra adversarium ex illa 
+          rati<lb ed="#V" break="no" n="51"/>one? Dico, quod habet tantum,
+          <lb ed="#V" n="52"/>quod vacuum nullam qualitatem
+          <lb ed="#V" n="53"/>accidentalem habet ultra 
+          succes<lb ed="#V" break="no" n="54"/>sionem essentialem, quia si sic,
+          <lb ed="#V" n="55"/>posset aliquod medium plenum
+          <lb ed="#V" n="56"/>dari sequale, et  tunc per medium
+          <lb ed="#V" n="57"/>plenum et vacuum fieret motus in
+          <lb ed="#V" n="58"/>tanto tempore, quantum tempus
+          <lb ed="#V" n="59"/>corresponderet illi conditioni 
+          ac<lb ed="#V" break="no" n="60"/>cidentali motus, quod est 
+          impos<lb ed="#V" break="no" n="61"/>sibile, quia secundum hoc media
+          <lb ed="#V" n="62"/>essent improportionabilia.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
