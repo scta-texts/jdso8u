@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2024-10-28">October 28, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x13">Vives, Paris, 1893, volume 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-10-28" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="255-r"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e2074"><!-- jdso8u-b2d28q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">
+          Utrum liberum arbitrium hominis sine gratia possit cavere omne peccatum mortale
+        </head>
+        <p>
+          <lb ed="#V" n="4" type="fixed=254"/>QUESTIO  UNICA.
+        </p>
+        <p>
+          <lb ed="#V" n="5"/>Utrum. liberum. arbitrium hominis sine
+          <lb ed="#V" n="6"/>gratia posset. cavere peccatum 
+          mor<lb ed="#V" break="no" n="7"/>tale ?
+        </p>
+        <p>
+          <lb ed="#V" n="8"/>D. Thom. 1|. 2. q. 109. ari. 3. 4. et 8. et hic.
+          <lb ed="#V" n="9"/>q. 2. art. 1. D. Bonav. A$c art. 1. g. 2. et 3.
+          <lb ed="#V" n="10"/>Marsil. Capreol. hic. Henr. quodlib. 6. q. 11.
+          <lb ed="#V" n="11"/>Richard. Aic art. 1. q. 1. et 3. Vega q. 13. de
+          <lb ed="#V" n="12"/>justificat. Soto 1. 1. de nat. c. 22. Taperius
+          <lb ed="#V" n="13"/>arl. 1. Bellarm. 5. de $ratia et lb. arb. c. 5.
+          <lb ed="#V" n="14"/>et 7. Alvar. de auzil. disp. 54. Suarez 3. de
+          <lb ed="#V" n="15"/>auzil. c. 29. et 1. p. tr. 2. de praedest. 1. 2. c.
+          <lb ed="#V" n="16"/>9. usque ad 18. ubi oplime disputat contra
+          <lb ed="#V" n="17"/>Vasp. 1.2. d. 198. et 199. Greg. Arim. hic
+          <lb ed="#V" n="18"/>q. art. 1. Gabr. q. 1. Durand. q. 3.
+        </p>
+        <p>
+          <lb ed="#V" n="19"/>Quaero circa distinctionem 
+          vi<lb ed="#V" break="no" n="20"/>gesimam octavam, in qua 
+          Magi<lb ed="#V" break="no" n="21"/>ster agit de insufficientia liberi
+          <lb ed="#V" n="22"/>arbitrii sine gratia, et de errore
+          <lb ed="#V" n="23"/>Pelagii : Utrum liberum 
+          arbi<lb ed="#V" break="no" n="24"/>trium hominis sine gratia posset
+          <lb ed="#V" n="25"/>cavere omne peccatum mortale?
+          <lb ed="#V" n="26"/>Quod sic, Apostolus ad Rom. 2.
+          <lb ed="#V" n="27"/>Gentes, quae legem, etc. ubi videtur
+          <lb ed="#V" n="28"/>Apostolus increpare Judaeos in
+          <lb ed="#V" n="29"/>hoc, quod gentes sine lege data
+          <lb ed="#V" n="30"/>servabant legem; ergo cavebant
+          <lb ed="#V" n="31"/>ab omni peccato, et tamen (ut 
+          vi<lb ed="#V" break="no" n="32"/>detur) non habuerunt gratiam.
+        </p>
+        <p>
+          <lb ed="#V" n="33"/>Praeterea, Augustinus 3. de libero
+          <lb ed="#V" n="34"/>arbitr. Nullus peccat in eo quod vitare
+          <lb ed="#V" n="35"/>non potest; aut igitur aliquis potest
+          <lb ed="#V" n="36"/>vitare peccatum sine gratia, aut
+          <lb ed="#V" n="37"/>non; si non, igitur non peccat;
+          <lb ed="#V" n="38"/>sj sic, habeo propositum, ergo
+          <lb ed="#V" n="39"/>nullum peccatum est quod non
+          <lb ed="#V" n="40"/>possit vitari. |
+        </p>
+        <p>
+          <lb ed="#V" n="41"/>Item, Anselmus de libero arbit. 
+          Li<lb ed="#V" break="no" n="42"/>berum. arbitrium est. potestas. servandi
+          <lb ed="#V" n="43"/>rectitudinem propter se; ergo ma-
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="44"/>nente libero arbitrio manet 
+          po<lb ed="#V" break="no" n="45"/>testas ejus.
+        </p>
+        <p>
+          <lb ed="#V" n="46"/>Contra, in hoc videtur esse 
+          hze<lb ed="#V" break="no" n="47"/>resis Pelagiana, quod |liberum
+          <lb ed="#V" n="48"/>arbitrium sufficiat sine gratia.
+        </p>
+        <p>
+          <lb ed="#V" n="49"/>Item, hse hsresis videtur 
+          po<lb ed="#V" break="no" n="50"/>tissime inerepata ab Augustino
+          <lb ed="#V" n="51"/>de Rectitudine justitiee. Quaere.
+        </p>
+        <p>
+          <lb ed="#V" n="52"/>Item, Gregorius in Homil. 
+          Pecca<lb ed="#V" break="no" n="53"/>tum. quod. penitentia non. deletur. mox
+          <lb ed="#V" n="54"/>suo pondere ad. aliud trahit; et idem
+          <lb ed="#V" n="55"/>im Moralibus lib. 25. cap. 10. super
+          <lb ed="#V" n="56"/>Job. 34. Conteret multos, etc.
+        </p>
+        <!--</div>
+          <div alias="scotus-l2d28q1-p2">-->
+        <p>
+          <lb ed="#V" n="57" type="fixed=254"/>SCHOLIUM.
+        </p>
+        <p>
+          <lb ed="#V" n="58"/>Sententia communis, etsi varie explicata
+          <lb ed="#V" n="59"/>a variis, liberum arbitrium posse cavere ab
+          <lb ed="#V" n="60"/>omni peccato disjunctive, non tamen 
+          copu<lb ed="#V" break="no" n="61"/>lative. Contra hanc disputat Doctor, sed
+          <lb ed="#V" n="62"/>ejus rationes solum ledunt asserentes 
+          re<lb ed="#V" break="no" n="63"/>quiri ad praecepta implenda, justitiam vel
+          <lb ed="#V" n="64"/>inclinationem charitatis ; infert enim ut 
+          ab<lb ed="#V" break="no" n="65"/>surdum quod peccatores facientes opera
+          <lb ed="#V" n="66"/>praecepta secundum substantiam, peccarent
+          <lb ed="#V" n="67"/>mortaliter, supponens et arguens hominem
+          <lb ed="#V" n="68"/>in culpa manentem posse elicere aliqua
+          <lb ed="#V" n="69"/>opera bona moraliter, quod est commune
+          <lb ed="#V" n="70"/>DD. placitum, ut statim dicam. |
+        </p>
+        <p>
+          <lb ed="#V" n="71"/>Hic dicitur (a) quod propter 
+          ver<lb ed="#V" break="no" n="72"/>ba Augustini, qua adducit contra
+          <lb ed="#V" n="73"/>Pelagianos, non potest caveri ab
+          <lb ed="#V" n="74"/>omni peccato sine gratia. Sed hoc
+          <lb ed="#V" n="75"/>diversimode ponitur. Uno modo,
+          <lb ed="#V" n="76"/>quod liberum arbitrium possit
+          <lb ed="#V" n="77"/>vitare singula peccata mortalia,
+          <lb ed="#V" n="78"/>non tamen omnia.
+        </p>
+        <p>
+          <lb ed="#V" n="79"/>Exemplum ponitur de existente
+          <lb ed="#V" n="80"/>in vase perforato, quod licet 
+          pos<lb ed="#V" break="no" n="81"/>sit quodlibet singulorum 
+          forami<lb ed="#V" break="no" n="82"/>num obstruere, non famen omnia,
+          <lb ed="#V" n="83"/>dum enim unum obstruit, 
+          relin<lb ed="#V" break="no" n="84"/>quitur aliud patens.
+        </p>
+        <p>
+          <lb ed="#V" n="85"/>Alio modo dicitur, quod liberum
+          <lb ed="#V" n="86"/>arbitrium potest considerari 
+          tri<lb ed="#V" break="no" n="87"/>pliciter; uno modo ante delibera- 
+          <pb ed="#V" n="255"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>tionem et tempus deliberationis;
+          <lb ed="#V" n="2"/>secundo modo post utrumque,
+          <lb ed="#V" n="3"/>scilicet. deliberationem et ipsum
+          <lb ed="#V" n="4"/>tempus deliberationis; vel tertio
+          <lb ed="#V" n="5"/>modo, post tempus 
+          deliberati<lb ed="#V" break="no" n="6"/>onis elapsu m, non autem post
+          <lb ed="#V" n="7"/>deliberationem habitam. Primo
+          <lb ed="#V" n="8"/>modo ponitur non posse 
+          pec<lb ed="#V" break="no" n="9"/>care mortaliter, sed venialiter.
+          <lb ed="#V" n="10"/>Secundo modo ponitur posse 
+          vi<lb ed="#V" break="no" n="11"/>tare omne peccatum mortale post
+          <lb ed="#V" n="12"/>deliberationem habitam. Tertio
+          <lb ed="#V" n="13"/>modo dicitur non posse cavere,
+          <lb ed="#V" n="14"/>si sit in peccato mortali, propter
+          <lb ed="#V" n="15"/>defectum intellectus, ante tempus
+          <lb ed="#V" n="16"/>deliberandi, propter quod non 
+          re<lb ed="#V" break="no" n="17"/>cte deliberabit, licet transeat 
+          tem<lb ed="#V" break="no" n="18"/>pus in quo haberi potuit 
+          deli<lb ed="#V" break="no" n="19"/>beratio, et ita tenebitur, quia
+          <lb ed="#V" n="20"/>quando transit conveniens tempus
+          <lb ed="#V" n="21"/>deliberationi, si non tunc 
+          delibe<lb ed="#V" break="no" n="22"/>ret, est consensus interpretativus.
+        </p>
+        <p>
+          <lb ed="#V" n="23"/>Contra hoc arguitur (b), et 
+          pri<lb ed="#V" break="no" n="24"/>mo contra conclusionem, quia
+          <lb ed="#V" n="25"/>peccatum mortale non est nisi
+          <lb ed="#V" n="26"/>intransgrediendo pracceptum Dei;
+          <lb ed="#V" n="27"/>sed secundum * Hieronymum, qui
+          <lb ed="#V" n="28"/>dicit Deum praecepisse impossibilia, 
+          ana<lb ed="#V" break="no" n="29"/>thema sit.
+        </p>
+        <p>
+          <lb ed="#V" n="30"/>Respondetur (c), quod existenti
+          <lb ed="#V" n="31"/>in peecato mortali possibile est
+          <lb ed="#V" n="32"/>servare pracceptum, non autem
+          <lb ed="#V" n="33"/>ut manet in peccato; sed 
+          possi<lb ed="#V" break="no" n="34"/>bile est ipsum praeiparare et 
+          dis<lb ed="#V" break="no" n="35"/>ponere se ad gratiam, qua data
+          <lb ed="#V" n="36"/>potest servare pracceptum, et ita
+          <lb ed="#V" n="37"/>si non prepararet se, illa 
+          imprc<lb ed="#V" break="no" n="38"/>paratio imputaretur sibi in 
+          pec<lb ed="#V" break="no" n="39"/>catum, sicut exemplificat 
+          Ansel<lb ed="#V" break="no" n="40"/>mus de projiciente se in puteum.
+        </p>
+        <p>
+          <lb ed="#V" n="41"/>Alia responsio (d), quod licet
+          <lb ed="#V" n="42"/>manens in peccato mortali posset
+          <lb ed="#V" n="43"/>servare praeceptum, quantum ad
+          <lb ed="#V" n="44"/>eius explicationem, non tamen
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>quantum ad intentionem 
+          mandan<lb ed="#V" break="no" n="46"/>tis, quia intentio sua est ut 
+          con<lb ed="#V" break="no" n="47"/>sequeretur finem per ipsum; non
+          <lb ed="#V" n="48"/>autem per illorum observationem
+          <lb ed="#V" n="49"/>consequitur aliquis finem, nisi
+          <lb ed="#V" n="50"/>observet illa ex charitate.
+        </p>
+        <p>
+          <lb ed="#V" n="51"/>Contra (e) si Deus praecipiens P
+          <lb ed="#V" n="52"/>intendebat quemlibet obligare ad n
+          <lb ed="#V" n="53"/>servandum pracceptum ex chari- 
+          <lb ed="#V" n="54"/>tate, ergo quieumque faciens g
+          <lb ed="#V" n="55"/>opus praccepti, et non ex 
+          chari<lb ed="#V" break="no" n="56"/>tate, peccat mortaliter, et hoc .
+          <lb ed="#V" n="57"/>tam de praccepto negativo (ad
+          <lb ed="#V" n="58"/>quod tenetur semper et pro 
+          sem<lb ed="#V" break="no" n="59"/>per, et si teneatur ad illud 
+          ser<lb ed="#V" break="no" n="60"/>vandum ex charitate, quando illud
+          <lb ed="#V" n="61"/>servat, non ex charitate, peccat
+          <lb ed="#V" n="62"/>mortaliter) quam de praccepto
+          <lb ed="#V" n="63"/>affirmativo, ad quod tenetur pro
+          <lb ed="#V" n="64"/>aliquando, si pro tunc non servat
+          <lb ed="#V" n="65"/>ex charitate, peecat mortaliter ;
+          <lb ed="#V" n="66"/>et ita quieumque commisit 
+          pec<lb ed="#V" break="no" n="67"/>catum mortale, si postea non 
+          oc<lb ed="#V" break="no" n="68"/>cidit, quia Deus praecepit non
+          <lb ed="#V" n="69"/>occidere, sr'etiam non  furetur,
+          <lb ed="#V" n="70"/>quia Deus praecepit non furari,
+          <lb ed="#V" n="71"/>peeeat mortaliter, similiter si 
+          ser<lb ed="#V" break="no" n="72"/>vat Sabbatum etiam, quia Deus
+          <lb ed="#V" n="73"/>hocc praecepit, peecat mortaliter.
+        </p>
+        <p>
+          <lb ed="#V" n="74"/>Hoc dicere non videtur aliud, :
+          <lb ed="#V" n="75"/>quam pervertere omnes, qui 
+          se<lb ed="#V" break="no" n="76"/>mel commiserunt peccatum mor-'
+          <lb ed="#V" n="77"/>tale, ut nullum bonum opus ex
+          <lb ed="#V" n="78"/>cenere postea faciant, ad quod
+          <lb ed="#V" n="79"/>tamen alias sunt adstricti, cum
+          <lb ed="#V" n="80"/>tamen suadendi sint et movendi
+          <lb ed="#V" n="81"/>ad oppositum, ut scilicet faciant
+          <lb ed="#V" n="82"/>bona opera ex genere, quia illa «
+          <lb ed="#V" n="83"/>disponunt eos ad gratiam citius -
+          <lb ed="#V" n="84"/>et facilius obtinendam. Similiter '
+          <lb ed="#V" n="85"/>existens in charitate potest 
+          fa<lb ed="#V" break="no" n="86"/>cere aliquod opus praccepti, non .
+          <lb ed="#V" n="87"/>tunc motus ex charitate, sed ex ?
+          <lb ed="#V" n="88"/>pietate et mansuetudine naturali
+          <pb ed="#V" n="256"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>vel ex aliquo alio, non referendo
+          <lb ed="#V" n="2"/>tunc actualiter ad finem ultimum,
+          <lb ed="#V" n="3"/>ifa quod ista impletio operis prae:
+          <lb ed="#V" n="4"/>cepti non esset sibi meritoria ;
+          <lb ed="#V" n="5"/>quod si teneretur servare 
+          prae<lb ed="#V" break="no" n="6"/>ceptum, secundum intentionem
+          <lb ed="#V" n="7"/>mandantis, ut. scilicet. per ipsum
+          <lb ed="#V" n="8"/>possit, finem pertingere, tenetur
+          <lb ed="#V" n="9"/>tunc ad meritum, et tunc 
+          pecca<lb ed="#V" break="no" n="10"/>ret mortaliter faciendo tale opus,
+          <lb ed="#V" n="11"/>quod est bonum ex genere et ex
+          <lb ed="#V" n="12"/>praccepto, quod est absurdum.
+        </p>
+        <p>
+          <lb ed="#V" n="13"/>Per idem arguitur (f) contra
+          <lb ed="#V" n="14"/>primam responsionem, quia 
+          po<lb ed="#V" break="no" n="15"/>namus quod non disponat se 
+          ali<lb ed="#V" break="no" n="16"/>quis ad gratiam, si tunc stat in
+          <lb ed="#V" n="17"/>culpa, non potest se servare a
+          <lb ed="#V" n="18"/>culpa; ergo pro tunc est sibi 
+          im<lb ed="#V" break="no" n="19"/>possibile servare se a culpa, quod
+          <lb ed="#V" n="20"/>est falsum, quia omnis culpa est
+          <lb ed="#V" n="21"/>voluntaria ; si autem pro tunc 
+          po<lb ed="#V" break="no" n="22"/>test se servare a culpa, quod 
+          sal<lb ed="#V" break="no" n="23"/>tem videtur manifestum, quantum
+          <lb ed="#V" n="24"/>ad genus operis praccepti, redit
+          <lb ed="#V" n="25"/>argumentum prius faetum, quia
+          <lb ed="#V" n="26"/>hoc sufficit ad excusandum eum
+          <lb ed="#V" n="27"/>a peecato mortali.
+        </p>
+        <!--</div>
+          <div alias="scotus-l2d28q1-p3">-->
+        <p>
+          <lb ed="#V" n="83" type="fixed=257"/>SCHOLIUM.
+        </p>
+        <p>
+          <lb ed="#V" n="84"/>Contra modum dicendi Henrici, ostendit,
+          <lb ed="#V" n="85"/>Si potest quis suis viribus pro hoc nunc 
+          ca<lb ed="#V" break="no" n="86"/>vere peceata, idem esse de alio et alio nunc,
+          <lb ed="#V" n="87"/>et sic collective. Et arcumentum rprocedit de
+          <pb ed="#V" n="258"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>potentia Physica, quae: dicit tantum 
+          propor<lb ed="#V" break="no" n="2"/>tionem virtutis intrinsece ad effectum, non
+          <lb ed="#V" n="3"/>tamen de potentia morali, quae? altra 
+          Physi<lb ed="#V" break="no" n="4"/>cam includit amotionem impedimentorum et
+          <lb ed="#V" n="5"/>praesentiam requisitorum faeilitantium. 
+          Re<lb ed="#V" break="no" n="6"/>futat etiam modum D. Bonaventurz quoad id
+          <lb ed="#V" n="7"/>quod ait tempore deliberationis transacto,
+          <lb ed="#V" n="8"/>quia si eo transacto, potest quis bene 
+          delibe<lb ed="#V" break="no" n="9"/>rare, potest non peccare; si non potest bene
+          <lb ed="#V" n="10"/>deliberare, erit sine usu rationis, vel 
+          execz<lb ed="#V" break="no" n="11"/>catus, et utrumque est grave inconveniens.
+        </p>
+        <p>
+          <lb ed="#V" n="12"/>Contra istas duas vias(g) arguitur
+          <lb ed="#V" n="13"/>in speciali, primo contra primam.
+          <lb ed="#V" n="14"/>Si in hoc tempore potest cavereab
+          <lb ed="#V" n="15"/>hoc peecato mortali, et illo, et dum
+          <lb ed="#V" n="16"/>cavet hoc, cavet omne; et similiter
+          <lb ed="#V" n="17"/>de tempore consequente, et. sic de
+          <lb ed="#V" n="18"/>semper; ergosi potest 
+          sempercave<lb ed="#V" break="no" n="19"/>re hocet illud, simul potest cavere
+          <lb ed="#V" n="20"/>omnia. Assumptum, quod si potest
+          <lb ed="#V" n="21"/>cavere hoc peceatum mortale
+          <lb ed="#V" n="22"/>pro tune, quod potest etiam cavere
+          <lb ed="#V" n="23"/>illud aliud, et ita omne pro tune,
+          <lb ed="#V" n="24"/>patet, quia voluntas non potest
+          <lb ed="#V" n="25"/>habere simul distinctos consensus,
+          <lb ed="#V" n="26"/>qui requiruntur ad peccatum 
+          mor<lb ed="#V" break="no" n="27"/>tale, et ad resistendum peccato
+          <lb ed="#V" n="28"/>mortali, et ita dum distincte habet
+          <lb ed="#V" n="29"/>actum resistendi huie peccato
+          <lb ed="#V" n="30"/>mortali, nullum aliud velle habet
+          <lb ed="#V" n="31"/>tune, per quod aliud velle pro
+          <lb ed="#V" n="32"/>tunc peccet mortaliter, maxime
+          <lb ed="#V" n="33"/>cum praeservando se ab uno 
+          pece<lb ed="#V" break="no" n="34"/>cato mortali, fiae fortior ad 
+          resis<lb ed="#V" break="no" n="35"/>tendum aliis; ergo si nunc potest
+          <lb ed="#V" n="36"/>hoc peecatum cavere de quo 
+          ten<lb ed="#V" break="no" n="37"/>tatur, multo magis illud potest
+          <lb ed="#V" n="38"/>alias cavere, et sic de aliis.
+        </p>
+        <p>
+          <lb ed="#V" n="39"/>Contra secundam viam arguo
+          <lb ed="#V" n="40"/>sic (h), tempore illo, quo potest
+          <lb ed="#V" n="41"/>haberi deliberatio de hoc peccato
+          <lb ed="#V" n="42"/>Á, aut potest deliberare de A, et
+          <lb ed="#V" n="43"/>sequitur quod dum deliberat, non
+          <lb ed="#V" n="44"/>peecat mortaliter; completa etiam
+          <lb ed="#V" n="45"/>deliberatione eavere potest per te.
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="46"/>ut non peccet actualiter ipso 
+          pec<lb ed="#V" break="no" n="47"/>cato, nec aliquo alio actu; aut non
+          <lb ed="#V" n="48"/>potest deliberare de A in illo 
+          tem<lb ed="#V" break="no" n="49"/>pore deliberationis, et. ita non 
+          ha<lb ed="#V" break="no" n="50"/>bebit usum rationis.
+        </p>
+        <p>
+          <lb ed="#V" n="51"/>Quod si dicas (i) non posse 
+          delibe<lb ed="#V" break="no" n="52"/>rare recte propter excesacationem
+          <lb ed="#V" n="53"/>intellectus, hoc videtur absurdum,
+          <lb ed="#V" n="54"/>quia unum peccatum mortale non
+          <lb ed="#V" n="55"/>facit aliquem intemperatum 
+          gene<lb ed="#V" break="no" n="56"/>raliintemperantia, quia una 
+          hirun<lb ed="#V" break="no" n="57"/>do non facit ver,nee unus actus 
+          vir<lb ed="#V" break="no" n="58"/>tuosus vel vitiosus facit hominem
+          <lb ed="#V" n="59"/>virtuosum vel vitiosum 
+          generali<lb ed="#V" break="no" n="60"/>Ler,nee per consequens execcatum
+          <lb ed="#V" n="61"/>ceneraliter circa omnia principia
+          <lb ed="#V" n="62"/>operabilium ; ergo potest habere
+          <lb ed="#V" n="63"/>rectam deliberationem de multis de
+          <lb ed="#V" n="64"/>quibustentatur,non obstante quod
+          <lb ed="#V" n="65"/>sit in uno peccato mortali.
+        </p>
+        <p>
+          <lb ed="#V" n="66"/>Similiter vitia non sunt connexa, 
+          <lb ed="#V" n="67"/>in tantum quod unum peccatum
+          <lb ed="#V" n="68"/>excaecet circa omnia principia ope-"
+          <lb ed="#V" n="69"/>rabilium ad bene agendum, quia
+          <lb ed="#V" n="70"/>nec etiam unum peccatum 
+          depra<lb ed="#V" break="no" n="71"/>vat appetitum, per se inelinando
+          <lb ed="#V" n="72"/>ad aliud; imo eum uno peccato
+          <lb ed="#V" n="73"/>potest stare virtus acquisita, 
+          con<lb ed="#V" break="no" n="74"/>traria illi peecato, quia unum 
+          pee<lb ed="#V" break="no" n="75"/>catum mortale non corrumpit 
+          to<lb ed="#V" break="no" n="76"/>tum habitum virtutis; igitur per
+          <lb ed="#V" n="77"/>istos habitus tam acquisitos circa
+          <lb ed="#V" n="78"/>idem agibile,quam acquisitos circa
+          <lb ed="#V" n="79"/>alia agibilia, potest iste recte 
+          judi<lb ed="#V" break="no" n="80"/>care et deliberare, sive de eodem
+          <lb ed="#V" n="81"/>peeeato sive de alio, et si posset
+          <lb ed="#V" n="82"/>reote deliberare, mee peeget 
+          ep<lb ed="#V" break="no" n="83"/>sensu interpretativo, potest per te
+          <lb ed="#V" n="84"/>cavere omne peccatum; ergo 
+          sim<lb ed="#V" break="no" n="85"/>pliciter potest.
+        </p>
+        <!--</div>
+          <div alias="scotus-l2d28q1-p4">-->
+        <p>
+          <lb ed="#V" n="10" type="fixed=260"/>SCHOLIUM.
+          <lb ed="#V" n="11"/>Etsi non possit homo resurgere a peccato
+          <lb ed="#V" n="12"/>sine gratia, potest tamen cavere ab omni
+          <lb ed="#V" n="13"/>peeeato sine ea, in hoc convenit Doctor cum
+          <lb ed="#V" n="14"/>communi fere omnium, quia vel non 
+          loqui<lb ed="#V" break="no" n="15"/>tur de omni peccato conjunctim, sed 
+          divi<lb ed="#V" break="no" n="16"/>sim ; velsi sic, intelligit de potentia 
+          Physi<lb ed="#V" break="no" n="17"/>ca, non morali, quo sensu justus potest
+          <lb ed="#V" n="18"/>vitare omnia venialia; ita DD. fere omnes,
+          <lb ed="#V" n="19"/>exceptis paucis, ut Greg. et Vasq. quem 
+          opti<lb ed="#V" break="no" n="20"/>me refutat Suar. supra tacito nomine ejus.
+          <lb ed="#V" n="21"/>Docet peccatum et gratiam non opponi 
+          im<lb ed="#V" break="no" n="22"/>mediate, de quo agit 4. d. 1. q. 1. et 6. et d.
+          <lb ed="#V" n="23"/>16. q. 2. Quod vero sine gratia aliqua bona
+          <lb ed="#V" n="24"/>opera fieri possint, et aliqua peceata vitari,
+          <lb ed="#V" n="25"/>docent: PP. Cnrys. hom 67. ad pop. Greg. 5.
+          <lb ed="#V" n="26"/>Mor. 1. et Aug. (quem alii pro opposito 
+          addu<lb ed="#V" break="no" n="27"/>cunt) sz:pissime, de spir. et lit. 23. sic 
+          expli<lb ed="#V" break="no" n="28"/>cans id Rom. 2. Gentes qua legem etc. sicut
+          <lb ed="#V" n="29"/>Chrys. Theodor. Theophyl. explicant, et 
+          Hie<lb ed="#V" break="no" n="30"/>ron. ep. ad Algasiam q. 8. Item Aug. 5. Civit.
+          <lb ed="#V" n="31"/>1. dieens, in Romanis fuisse bona opera, et
+          <lb ed="#V" n="32"/>lib. de perfect. just. et l. de spir. et lit. 29.
+          <lb ed="#V" n="33"/>exponit id : Sine me nihil potestis, de operibus
+          <lb ed="#V" n="34"/>justitize, et de gratia et lib. arb. 8. de 
+          operi<lb ed="#V" break="no" n="35"/>bus, quibus sterna vita redditur, et cap. 4.
+          <lb ed="#V" n="36"/>jubet cavendum ne propter liberum arb. 
+          ne<lb ed="#V" break="no" n="37"/>getur ad opera, quibus debetur vita aeterna,
+          <lb ed="#V" n="38"/>auxilium gratia esse necessarium ; et cum
+          <lb ed="#V" n="39"/>alibi szepe neget extra fidem et gratiam esse
+          <lb ed="#V" n="40"/>bona opera, loquitur de opetibus vitz. Vide
+          <lb ed="#V" n="41"/>eum l. 1. de gratia Christi c. 26. Przeterea
+          <lb ed="#V" n="42"/>Araus: 2. cam. 6. et 25. et Trid. ss. 6; ean. 3.
+          <lb ed="#V" n="43"/>agendo de operibus ad quae requiritur 
+          gra<lb ed="#V" break="no" n="44"/>tia, addunt, ut fiant sicut oportet ad salutem,
+          <lb ed="#V" n="45"/>insinuando per hoc, ad alia opera bona non
+          <lb ed="#V" n="46"/>requiri.
+        </p>
+        <p>
+          <lb ed="#V" n="47"/>Ad quaestionem potest dici (k),
+          <lb ed="#V" n="48"/>auod peccatum uno modo potest
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="49"/>accipi pro ipso actu elieito defor- si
+          <lb ed="#V" n="50"/>mi, loquendo de peccato 
+          commis<lb ed="#V" break="no" n="51"/>sionis. Alio modo pro macula, quae
+          <lb ed="#V" n="52"/>remanet post actum elicitum, sive
+          <lb ed="#V" n="53"/>pro reatu permanente, quousque
+          <lb ed="#V" n="54"/>peecatum fuerit deletum per 
+          poeni<lb ed="#V" break="no" n="55"/>tentiam. Secundo modo dico, quod
+          <lb ed="#V" n="56"/>liberum arbitrium non potest ex
+          <lb ed="#V" n="57"/>se cavere omne peccatum mortale
+          <lb ed="#V" n="58"/>pro statu isto, quia anima sine
+          <lb ed="#V" n="59"/>gratia, aliquo peccato maculatur
+          <lb ed="#V" n="60"/>vel originali vel actuali, a quo
+          <lb ed="#V" n="61"/>non liberatur nisi per gratiam.
+        </p>
+        <p>
+          <lb ed="#V" n="62"/>Sed si quaeratur (D) utrum hoc
+          <lb ed="#V" n="63"/>sit propter immediatam  
+          opposi<lb ed="#V" break="no" n="64"/>tionem culpe et gratie? Dico
+          <lb ed="#V" n="65"/>quod non, quia ista non essent
+          <lb ed="#V" n="66"/>immediate opposita, pro statu 
+          in<lb ed="#V" break="no" n="67"/>nocentia, tunc enim potuit aliquis
+          <lb ed="#V" n="68"/>esse in puris naturalibus tam sine
+          <lb ed="#V" n="69"/>eratia quam culpa; ergo nullo 
+          mo<lb ed="#V" break="no" n="70"/>do sunt immediate opposita. Nec
+          <lb ed="#V" n="71"/>etiam per comparationem ad 
+          po<lb ed="#V" break="no" n="72"/>tentiam facientis, quia qualem 
+          po<lb ed="#V" break="no" n="73"/>tuit Deus facere voluntatem, talem
+          <lb ed="#V" n="74"/>potest, eam reparare postquam
+          <lb ed="#V" n="75"/>peecaverit;" sed hocdantum est' ex
+          <lb ed="#V" n="76"/>lege illa universali, qua nullo
+          <lb ed="#V" n="77"/>modo remittitur inimicitia nisi
+          <lb ed="#V" n="78"/>fiat, non tantum non inimicus, sed
+          <lb ed="#V" n="79"/>etiam amicus sibi acceptus per
+          <lb ed="#V" n="80"/>eratiam gratificantem.
+        </p>
+        <p>
+          <lb ed="#V" n="81"/>Si objiciatur quomodo Deus 
+          pos<lb ed="#V" break="no" n="82"/>set remittere culpam, non dando
+          <lb ed="#V" n="83"/>eratiam, videretur enim esse 
+          mu<lb ed="#V" break="no" n="84"/>tatio in Deo, si non ponatur in
+          <lb ed="#V" n="85"/>ipso justificato : de hoc :n quarto,
+          <lb ed="#V" n="86"/>distinctione decima sexta.
+        </p>
+        <!--</div>
+          <div alias="scotus-l2d28q1-p5">-->
+        <p>
+          <lb ed="#V" n="82" type="fixed=261"/>SCHOLIUM.
+        </p>
+        <p>
+          <lb ed="#V" n="83"/>Ponit liberum arbitrium sufficere ad 
+          im<lb ed="#V" break="no" n="84"/>plendum praeceptum naturale amandi Deum,
+          <lb ed="#V" n="85"/>quod probat 3. d. 27. art. 3. Et evidens 
+          vide<lb ed="#V" break="no" n="86"/>tur, si possum amare creaturam super 
+          om<lb ed="#V" break="no" n="87"/>nia, posse me iisdem viribus amare sic Crea-
+          <pb ed="#V" n="262"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>torem, cum sit infinities diligibilior. Tamen
+          <lb ed="#V" n="2"/>non potest liberum arbitrium implere 
+          prae<lb ed="#V" break="no" n="3"/>ceptum amoris supernaturalis Dei sine 
+          gra<lb ed="#V" break="no" n="4"/>tia, sicut nec praeeptum fidei vel spei,
+          <lb ed="#V" n="5"/>nam si adimplet hoc pr:eceptum, disponit se
+          <lb ed="#V" n="6"/>de congruo ad justificationem, et hoc est
+          <lb ed="#V" n="7"/>peeuliare huie praeepto, quod modus 
+          ten<lb ed="#V" break="no" n="8"/>dendi in Deum, ut in ultimum finem 
+          super<lb ed="#V" break="no" n="9"/>naturalem, sit ei intrinsecus; et sic nunquam
+          <lb ed="#V" n="10"/>impletur nisi a justo in faeto esse vel in
+          <lb ed="#V" n="11"/>fieri, ut docet D. Thom. 1. 2. q. 100. art. 10.
+          <lb ed="#V" n="12"/>ubi Ban. Lorea, et alii, et sic intelligendum
+          <lb ed="#V" n="13"/>puto Doctorem hie.
+        </p>
+        <p>
+          <lb ed="#V" n="14"/>Et potest illa opinio (m) 
+          confir<lb ed="#V" break="no" n="15"/>mari per hoc, quod illud 
+          praece<lb ed="#V" break="no" n="16"/>ptum : Diliges Dominum Deum, etc.
+          <lb ed="#V" n="17"/>est primum, a quo tota lex pendet
+          <lb ed="#V" n="18"/>et Prophetae in Matth. 22. Ad actum
+          <lb ed="#V" n="19"/>igitur hujus prscepti aliquando
+          <lb ed="#V" n="20"/>elieiendum, tenetur voluntas, ita
+          <lb ed="#V" n="21"/>quod non potest esse semper 
+          omis<lb ed="#V" break="no" n="22"/>sio actus hujus praccepti sine 
+          pec<lb ed="#V" break="no" n="23"/>cato mortali; quandocumque 
+          au<lb ed="#V" break="no" n="24"/>tem voluntas actum hujus 
+          praece<lb ed="#V" break="no" n="25"/>pti exequitur licet informis, et
+          <lb ed="#V" n="26"/>disponit se de congruo ad gratiam
+          <lb ed="#V" n="27"/>gcratificantem sibi oblatam, vel
+          <lb ed="#V" n="28"/>resistet et peccabit mortaliter, vel
+          <lb ed="#V" n="29"/>consentiaet et justificabitur. Haec
+          <lb ed="#V" n="30"/>igitur opinio non ponit partem
+          <lb ed="#V" n="31"/>negativam, quasi propter 
+          impoten<lb ed="#V" break="no" n="32"/>tiam liberi arbitrii absolute, sed
+          <lb ed="#V" n="33"/>inquantum ipsum comparatur ad
+          <lb ed="#V" n="34"/>Deum, liberaliter gratiam 
+          offeren<lb ed="#V" break="no" n="35"/>tem libero arbitrio, aliqualiter
+          <lb ed="#V" n="36"/>tamen disposito.
+        </p>
+        <p>
+          <lb ed="#V" n="37"/>Ad argumenta (n). Ad illud ad
+          <lb ed="#V" n="38"/>Rom. dici potest quod si non erant
+          <lb ed="#V" n="39"/>obligati ad legem Moysis nisi filii
+          <lb ed="#V" n="40"/>Israel, alii gentiles potuerunt 
+          ju<lb ed="#V" break="no" n="41"/>ste vivere servando legem naturae,
+          <lb ed="#V" n="42"/>et tunc ipsi facti sunt sibiipsis lex,
+          <lb ed="#V" n="43"/>id est, per legem naturzs scriptam
+          <lb ed="#V" n="44"/>in cordibus eorum interius 
+          direxe<lb ed="#V" break="no" n="45"/>runt se reete vivendo. sicut Judael
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="46"/>per legem scriptam; sed isti non
+          <lb ed="#V" n="47"/>bene vixerunt sine omni gratia,
+          <lb ed="#V" n="48"/>quia gratia potuit esse in eis, 
+          sup<lb ed="#V" break="no" n="49"/>posita hypothesi, absque 
+          observa<lb ed="#V" break="no" n="50"/>tione leg1s Mosaicse.
+        </p>
+        <p>
+          <lb ed="#V" n="51"/>(0) Ad aliud, concedi potest ista
+          <lb ed="#V" n="52"/>propositio Augustini absolute 
+          se<lb ed="#V" break="no" n="53"/>cundum istam opinionem. Et ad
+          <lb ed="#V" n="54"/>minorem potest dici, quod iste, cui
+          <lb ed="#V" n="55"/>offertur. gratia, potest cavere ne
+          <lb ed="#V" n="56"/>resistat gratie, sed non potest
+          <lb ed="#V" n="57"/>cavere a peccato ; si enim non
+          <lb ed="#V" n="58"/>resistat gratise, justificabitur, 
+          so<lb ed="#V" break="no" n="59"/>lum igitur potest hoc caveri; sed
+          <lb ed="#V" n="60"/>non potest caveri stando in 
+          pecca<lb ed="#V" break="no" n="61"/>to prius commisso. Ad tertium
+          <lb ed="#V" n="62"/>respondet Anselmus quod 
+          quan<lb ed="#V" break="no" n="63"/>tum est ' ex parie*liberr aprbibbulb
+          <lb ed="#V" n="64"/>potest servari justitia, licet 
+          quan<lb ed="#V" break="no" n="65"/>do justitia non habetur, justitia
+          <lb ed="#V" n="66"/>servari non possit.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

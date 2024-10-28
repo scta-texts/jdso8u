@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Scotus">John Duns Scotus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2024-10-28">October 28, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-u78x13">Vives, Paris, 1893, volume 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-10-28" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="483-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jdso8u-d1e2335"><!-- jdso8u-b2d43q1 -->
+            <head>Quaestio 1</head>
+            <head type="question-title">Utrum voluntas creata possit peccare ex malitia</head>
+            <p>
+               <lb ed="#V" n="37" type="fixed=482"/>QUAESTIO I.
+</p>
+            <p>
+               <lb ed="#V" n="38"/>Utrum voluntas peccare possit in. 
+Spiri<lb ed="#V" break="no" n="39"/>tum sanctum.
+</p>
+            <p>
+               <lb ed="#V" n="40"/>D. Thom. 1. 2.quaest. 78. et quaest. 14. art. 1.
+<lb ed="#V" n="41"/>2rue il pci uet:4-ut-velenss 9:10.473.
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="42"/>im. 1. D. Bonav. Atc a. 1. q. 1. Richard. a. 1.
+<lb ed="#V" n="43"/>g.:1. Dur. 9. 1. Gabr. 4.1.
+</p>
+            <p>
+               <lb ed="#V" n="44"/>Circa istam quadragesimam 
+ter<lb ed="#V" break="no" n="45"/>tiam distinctionem, in qua 
+Magi<lb ed="#V" break="no" n="46"/>ster agit de peccato in Spiritum
+<lb ed="#V" n="47"/>sanctum, quaeruntur duo, primo:
+<lb ed="#V" n="48"/>utrum voluntas possit peccare
+<lb ed="#V" n="49"/>in Spiritum sanctum? Secundo:
+<lb ed="#V" n="50"/>Utrum voluntas creata possit 
+pec<lb ed="#V" break="no" n="51"/>care ex malitia, volendo aliquid
+<lb ed="#V" n="52"/>non ostensum sibi sub ratione boni
+<lb ed="#V" n="53"/>veri, id est, boni simpliciter, vel
+<lb ed="#V" n="54"/>boni apparentis et secundum
+<lb ed="#V" n="55"/>quid ?
+</p>
+            <p>
+               <lb ed="#V" n="56"/>Circa primum arguitur, quoda
+<lb ed="#V" n="57"/>non, quia qui odit me, odit et Patrem
+<lb ed="#V" n="58"/>meum. Joann. 15. ubi dicit. Glossa:
+<lb ed="#V" n="59"/>Quod qw peccat in unam personam, 
+pec<lb ed="#V" break="no" n="60"/>cat et in aliam. Et Joan. 15. Qui 
+dili<lb ed="#V" break="no" n="61"/>git me, diligit et Patrem meum.
+</p>
+            <p>
+               <lb ed="#V" n="62"/>Item, si potest esse peccatum in
+<lb ed="#V" n="63"/>Spiritum sanctum, hoc erit 
+pecca<lb ed="#V" break="no" n="64"/>tu "n quod opponitur charitati, quia
+<lb ed="#V" n="65"/>secundum Magistrum dist. 17. primi
+<lb ed="#V" n="66"/>libri, charitas est Spiritus sanctus,
+<lb ed="#V" n="67"/>et patet primae Joann. 4. Deus 
+cha<lb ed="#V" break="no" n="68"/>ritas est; sed charitati opponitur
+<lb ed="#V" n="69"/>odium ; sed voluntas non potest
+<lb ed="#V" n="70"/>odire Deum,quia in eo nulla ratio
+<lb ed="#V" n="71"/>mali est.
+</p>
+            <p>
+               <lb ed="#V" n="72"/>Praeterea, si est aliquod 
+pecca<lb ed="#V" break="no" n="73"/>tum in Spiritum sanctum, illud est
+<lb ed="#V" n="74"/>irremissibile secundum  
+senten<lb ed="#V" break="no" n="75"/>tiam Salvatoris, Matth. 12. sed 
+nul<lb ed="#V" break="no" n="76"/>lum. peecatum est irremissibile
+<lb ed="#V" n="77"/>secundum Augustinum primo 
+Retra<lb ed="#V" break="no" n="78"/>clationum; ergo nullum peccatum
+<lb ed="#V" n="79"/>est in Spiritu sancto.
+</p>
+            <p>
+               <lb ed="#V" n="80"/>Contra est Magister in littera.
+</p>
+            <!--</div>
+<div alias="scotus-l2d43q1-p2">-->
+            <p>
+               <lb ed="#V" n="81" type="fixed=482"/>SCHOLIUM.
+<lb ed="#V" n="82"/>Explicat, sicut datur actualis conversio ad
+<lb ed="#V" n="83"/>unam personam, non ad alias, ut constat ex<pb ed="#V" n="483"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>crationibus Eeclesic, similiter dari 
+aversi<lb ed="#V" break="no" n="2"/>onem actualem ab una, non ab aliis, hxe 
+ta<lb ed="#V" break="no" n="3"/>men continet virtaalem aversionem ab aliis,
+<lb ed="#V" n="4"/>de quot. 1.d. q. 2. n2 Z
+</p>
+            <p>
+               <lb ed="#V" n="5"/>Respondeo, (a) hic primo 
+viden<lb ed="#V" break="no" n="6"/>dum est, quomodo potest esse
+<lb ed="#V" n="7"/>peeeatum aliquod praecise in 
+Spi<lb ed="#V" break="no" n="8"/>ritum sanctum. Ubi sciendum est
+<lb ed="#V" n="9"/>quod peccatum est aversio a Deo,
+<lb ed="#V" n="10"/>et conversio ad ccreaturam. 
+In<lb ed="#V" break="no" n="11"/>quantum autem peccatum 
+formali<lb ed="#V" break="no" n="12"/>ter vel virtualiter avertit a Deo, et
+<lb ed="#V" n="13"/>inquantum cedit in irreverentiam
+<lb ed="#V" n="14"/>alicujus personae, sic non potest
+<lb ed="#V" n="15"/>avertere ab una persona quin
+<lb ed="#V" n="16"/>avertat ab alia virtualiter, neo ut
+<lb ed="#V" n="17"/>sie, potest. quis peccare in unam
+<lb ed="#V" n="18"/>personam, quin peccet in aliam.
+<lb ed="#V" n="19"/>Sed si intelligatur (b) quaestio de
+<lb ed="#V" n="20"/>aversione actuali, posset videri
+<lb ed="#V" n="21"/>eadem ratione, quod nec aversio
+<lb ed="#V" n="22"/>actualis posset fieri ab una 
+perso<lb ed="#V" break="no" n="23"/>na, nisi actualiter fieret ab. 
+om<lb ed="#V" break="no" n="24"/>nibus.
+</p>
+            <p>
+               <lb ed="#V" n="25"/>Videtur tamen mihi contrarium,
+<lb ed="#V" n="26"/>scilicet quod posset fieri aversio
+<lb ed="#V" n="27"/>actualis ab una persona, non ab
+<lb ed="#V" n="28"/>alia. Quod probatur primo sio,
+<lb ed="#V" n="29"/>cum sint tres articuli respicientes
+<lb ed="#V" n="30"/>distincte tres personas, possibile
+<lb ed="#V" n="31"/>est aliquem errare in uno 
+articu<lb ed="#V" break="no" n="32"/>lo; cet non in: 3l)0, .et. per 
+eonse<lb ed="#V" break="no" n="33"/>quens peccare actualiter in unam
+<lb ed="#V" n="34"/>personam, et non in aliam, quia
+<lb ed="#V" n="35"/>habita actuali consideratione de
+<lb ed="#V" n="36"/>una, non oportet quod habeatur
+<lb ed="#V" n="37"/>de alia ;inqualibet autem persona
+<lb ed="#V" n="38"/>invenitur ratio ultimi finis, quiae
+<lb ed="#V" n="39"/>ratio omnis boni: igitur llli, ut sic,
+<lb ed="#V" n="40"/>potest fieri reverentia et 
+irreve<lb ed="#V" break="no" n="41"/>rentia, non habita consideratione
+<lb ed="#V" n="42"/>ad alias personas; et hoc videtur
+<lb ed="#V" n="43"/>facere Ecclesia. ut, patet in colle-
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="44"/>ctis, in quibus concluditur in fine:
+<lb ed="#V" n="45"/>Per Dominum nostrum Jesum 
+Ghri<lb ed="#V" break="no" n="46"/>stum, ete, Primo enim praemittitur
+<lb ed="#V" n="47"/>Pater, ad quem oratio 
+communi<lb ed="#V" break="no" n="48"/>ter dirigitur, et in fine subnectitur
+<lb ed="#V" n="49"/>Mediator, in cujus nomine petit
+<lb ed="#V" n="50"/>et orat Ecclesia ; unde si quis
+<lb ed="#V" n="51"/>orando: Per Dominum mostrum Jesum
+<lb ed="#V" n="52"/>Christum, intenderet petere in 
+no<lb ed="#V" break="no" n="53"/>mine Trinitatis, nihil peteret, quia
+<lb ed="#V" n="54"/>petitur in nomine Mediatoris, qui
+<lb ed="#V" n="55"/>Christus est. Videtur ergo 
+Eeccle<lb ed="#V" break="no" n="56"/>sla in orando, orare unam 
+perso<lb ed="#V" break="no" n="57"/>nam, et non.aliam actualiter. Hoc
+<lb ed="#V" n="58"/>etiam patet in illo Hymno: Veni
+<lb ed="#V" n="59"/>creator Spiritus, ubi multa ponuntur,
+<lb ed="#V" n="60"/>qua non conveniunt nisi Spiritui
+<lb ed="#V" n="61"/>sancto, ut puta quod sit donum
+<lb ed="#V" n="62"/>et. talia.
+</p>
+            <p>
+               <lb ed="#V" n="63"/>Praeterea (c) magis distinguitur.
+<lb ed="#V" n="64"/>persona a persona quam essentia.
+<lb ed="#V" n="65"/>a persona, quia inter personas
+<lb ed="#V" n="66"/>est oppositio relativa, non sic 
+au<lb ed="#V" break="no" n="67"/>tem inter essentiam et personam.
+<lb ed="#V" n="68"/>Sed possibile est aliquem stare in
+<lb ed="#V" n="69"/>aetuali consideratione essentiae
+<lb ed="#V" n="70"/>divinae, nihil eogitando de persona
+<lb ed="#V" n="71"/>(ut patet in Philosophis), et sic
+<lb ed="#V" n="72"/>considerare essentiam non 
+consi<lb ed="#V" break="no" n="73"/>derando personam, inveniet in ea
+<lb ed="#V" n="74"/>rationem finis et. omnis boni, et
+<lb ed="#V" n="75"/>per consequens essentiae, ut 
+es<lb ed="#V" break="no" n="76"/>sentia est, potest facere 
+reverenti<lb ed="#V" break="no" n="77"/>am vel irreverentiam, non 
+facien<lb ed="#V" break="no" n="78"/>do alicui persons; ergo potest
+<lb ed="#V" n="79"/>facere uni persone non faciendo
+<lb ed="#V" n="80"/>alteri.
+</p>
+            <p>
+               <lb ed="#V" n="81"/>Dices, (d) quod non est simile de
+<lb ed="#V" n="82"/>personis, ef. de. persona et 
+essen<lb ed="#V" break="no" n="83"/>tia, quia persone sunt 
+correlati<lb ed="#V" break="no" n="84"/>ve, et intellectus non potest
+<lb ed="#V" n="85"/>habere actum circa unum 
+corre<lb ed="#V" break="no" n="86"/>lativum, quin habeat circa aliud,
+<lb ed="#V" n="87"/>et sic non potest fieri irreverentia
+<pb ed="#V" n="484"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>uni persons, quin fiat omnibus.
+<lb ed="#V" n="2"/>Sed hoc non valet, quia 
+quantum<lb ed="#V" break="no" n="3"/>cumque sint correlativa, tamen
+<lb ed="#V" n="4"/>circa extrema sunt duo actus 
+in<lb ed="#V" break="no" n="5"/>tellectus, sicut patet de accidente
+<lb ed="#V" n="6"/>et subjecto; qui enim intelligit 
+ae<lb ed="#V" break="no" n="7"/>eidens, non propter hoc intelligit
+<lb ed="#V" n="8"/>subjeetum eadem intellectione, 
+li<lb ed="#V" break="no" n="9"/>cel actus comparandi sit unus.
+<lb ed="#V" n="10"/>Praeterea, Pater sub ratione 
+Pa<lb ed="#V" break="no" n="11"/>tris non dicitur correlative ad
+<lb ed="#V" n="12"/>Spirituur sanctum; igitur Patri 
+po<lb ed="#V" break="no" n="13"/>test. fieri reverentia actualiter, 
+li<lb ed="#V" break="no" n="14"/>cet actualiter non fiat Spiritui 
+san<lb ed="#V" break="no" n="15"/>cto; et sic possibile est, quod 
+actua<lb ed="#V" break="no" n="16"/>liter quis peccet in unam 
+perso<lb ed="#V" break="no" n="17"/>nam, non peccando in aliam 
+actua<lb ed="#V" break="no" n="18"/>liter; sed tamen virtualiter 
+neces<lb ed="#V" break="no" n="19"/>se est ipsum cogitare de omni, cum
+<lb ed="#V" n="20"/>facit reverentiam et 1rreverentiam
+<lb ed="#V" n="21"/>uni, et ita virtualiter facere idem
+<lb ed="#V" n="22"/>omni. Et si eliciat aliquam 
+opi<lb ed="#V" break="no" n="23"/>nionem erroneam circa unam 
+per<lb ed="#V" break="no" n="24"/>sonam, virtualiter elicit circa 
+om<lb ed="#V" break="no" n="25"/>nes, quiaearum est una bonitas et
+<lb ed="#V" n="26"/>una sapientia ; non tamen est 
+ne<lb ed="#V" break="no" n="27"/>cesse,si actualiter peccat in unam,
+<lb ed="#V" n="28"/>quod peccet actualiter in aliam.
+<lb ed="#V" n="29"/>Sed isto modo non accipitur
+<lb ed="#V" n="30"/>peccatum in Spiritum sanctum,
+<lb ed="#V" n="31"/>ub si aliquis peccet in ipsum, et
+<lb ed="#V" n="32"/>non in aliam personam; sed 
+dici<lb ed="#V" break="no" n="33"/>tur peccatum in Spiritum 
+sanc<lb ed="#V" break="no" n="34"/>tum, non proprie, sed 
+appropria<lb ed="#V" break="no" n="35"/>te, ut quia peccatum aliquod est
+<lb ed="#V" n="36"/>contra appropriatum Spiritui 
+san<lb ed="#V" break="no" n="37"/>cto, secundum quod dicimus, quod
+<lb ed="#V" n="38"/>bonitas est. appropriata Spiritui
+<lb ed="#V" n="39"/>sancto, ideo peccatum ex certa
+<lb ed="#V" n="40"/>malitia dicitur esse peccatum in
+<lb ed="#V" n="41"/>Spiritum sanctum; Patri autem
+<lb ed="#V" n="42"/>appropriatur potentia, ideo 
+pec<lb ed="#V" break="no" n="43"/>catum ex infirmitate dicitur 
+ap<lb ed="#V" break="no" n="44"/>propriate contra Patrem; sapien.
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>tia antem appropriatur filio, ideo
+<lb ed="#V" n="46"/>peecatum ex ignorantia dicitur
+<lb ed="#V" n="47"/>esse contra Filium.
+</p>
+            <!--</div>
+<div alias="scotus-l2d43q1-p3">-->
+            <p>
+               <lb ed="#V" n="39" type="fixed=486"/>SCHOLIUM.
+</p>
+            <p>
+               <lb ed="#V" n="40"/>Resolvit peccatum contra Spiritum 
+san<lb ed="#V" break="no" n="41"/>ctum esse finalem impoenitentiam ex 
+despe<lb ed="#V" break="no" n="42"/>ratione, ita Aug. de ver. et fal. poen. cap. 4.
+<lb ed="#V" n="43"/>l. A. contra Crese, e.8. et ep. 50. Fulg. de
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="44"/>fide ad Petr. 3. Sumitur tamen peccatum in
+<lb ed="#V" n="45"/>Spiritum sanctum latius pro omni peceato ex
+<lb ed="#V" n="46"/>malitia contra effectum Spiritui. sancto 
+ap<lb ed="#V" break="no" n="47"/>propriatum, et sic dividitur in sex species,
+<lb ed="#V" n="48"/>Vide D. Bonav. hic art. 3. q. 1. peccatum 
+pri<lb ed="#V" break="no" n="49"/>mo modo sumptum est omnino irremissibile,
+<lb ed="#V" n="50"/>Secundo modo sumptum dicitur 
+irremissi<lb ed="#V" break="no" n="51"/>bile propter difficultatem remissionis. Unde
+<lb ed="#V" n="52"/>Chrys. hom. 42. in Matt. dicit forte aliquos
+<lb ed="#V" n="53"/>ex illis, quibus loquebatur Christus, 
+conse<lb ed="#V" break="no" n="54"/>eutos fuisse misericordiam illius peccati,
+<lb ed="#V" n="55"/>quod dictum est irremissibile ; notat etiam
+<lb ed="#V" n="56"/>dici irremissibile in hoc ssÓeculo et futuro,
+<lb ed="#V" n="57"/>quia in utroque punitur; idem significat
+<lb ed="#V" n="58"/>D. Thom-3. pcg.30539. 1. A0 d.
+</p>
+            <p>
+               <lb ed="#V" n="59"/>Dico tamen breviter (e) quod 
+om<lb ed="#V" break="no" n="60"/>ne peeeatum, quod est in 
+volunta<lb ed="#V" break="no" n="61"/>te, non pracedente perturbatione,
+<lb ed="#V" n="62"/>vel passione, nec ex ignorantia in
+<lb ed="#V" n="63"/>ratione, est peccatum ex certa 
+ma<lb ed="#V" break="no" n="64"/>litia; et sic forte peccavit Adam,
+<lb ed="#V" n="65"/>quia in eo non fuit perturbatio ex
+<lb ed="#V" n="66"/>passione praecedente nec 
+ignoran<lb ed="#V" break="no" n="67"/>tia. Sed tamen non omne 
+pecca<lb ed="#V" break="no" n="68"/>tum sic ex malitia et sine 
+pertur<lb ed="#V" break="no" n="69"/>batione voluntatis, et ignorantia
+<lb ed="#V" n="70"/>rationis commissum, est peccatum
+<lb ed="#V" n="71"/>in Spiritum sanctum, quia sic 
+pec<lb ed="#V" break="no" n="72"/>catum in Spiritum sanctum, non
+<lb ed="#V" n="73"/>esset peccatum gravissimum ; 
+pec<lb ed="#V" break="no" n="74"/>catum enim ex certa malitia 
+po<lb ed="#V" break="no" n="75"/>test esse contra praccepta 
+secun<lb ed="#V" break="no" n="76"/>dae tabulee, quae non sunt 
+gravissi<lb ed="#V" break="no" n="77"/>ma, quia tantum virtualiter 
+aver<lb ed="#V" break="no" n="78"/>tunt a fine.
+</p>
+            <p>
+               <lb ed="#V" n="79"/>Oportet igitur ut sit contra 
+prae<lb ed="#V" break="no" n="80"/>ceptum primae tabula, quia tunc
+<lb ed="#V" n="81"/>actualiter et formaliter avertit ab
+<lb ed="#V" n="82"/>objecto illo perfectissimo et 
+ulti<lb ed="#V" break="no" n="83"/>mo fine; nec adhuc omnia 
+praece<lb ed="#V" break="no" n="84"/>pia primas tabula sunt in 
+Spiri<lb ed="#V" break="no" n="85"/>tum sanctum, quia oportet ad hoc
+<lb ed="#V" n="86"/>quod sit peccatum gravissimum,
+<lb ed="#V" n="87"/>quod opponatur actui 
+perfectissi<lb ed="#V" break="no" n="88"/>mo eonversivo ad Deum. et sic
+<pb ed="#V" n="487"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>quia actus charitatis ut dilectic
+<lb ed="#V" n="2"/>Dei, est actus perfectissimus 
+con<lb ed="#V" break="no" n="3"/>versivus ad Deum, si haberet op:
+<lb ed="#V" n="4"/>positum, scilicet odium Dei, hoc
+<lb ed="#V" n="5"/>esset maximum peccatum. Sed
+<lb ed="#V" n="6"/>non credo, quod talis actus 
+chari<lb ed="#V" break="no" n="7"/>tatis habeat oppositum actum 
+con<lb ed="#V" break="no" n="8"/>trarium, quia Deus non potest odi
+<lb ed="#V" n="9"/>ri ab aliqua voluntate, ut dicitur
+<lb ed="#V" n="10"/>in quarto; ergo peccatum in 
+Spi<lb ed="#V" break="no" n="11"/>rium sanctum, non est  
+odi<lb ed="#V" break="no" n="12"/>um Dei, quia formaliter non 
+po<lb ed="#V" break="no" n="13"/>test Deus odiri. Cum igitur (f) post
+<lb ed="#V" n="14"/>dilectionem Dei actus 
+perfectissi<lb ed="#V" break="no" n="15"/>mus, quo voluntas tendit in Deum,
+<lb ed="#V" n="16"/>sit actus spel, oppositum ejus erit
+<lb ed="#V" n="17"/>peecatum gravissiinum. Et hoc
+<lb ed="#V" n="18"/>est peccatum desperationis sive
+<lb ed="#V" n="19"/>obstinationis in malo eum 
+des<lb ed="#V" break="no" n="20"/>peratione et proposito non 
+poeni<lb ed="#V" break="no" n="21"/>tendi; et hoc est peccatum in 
+Spi<lb ed="#V" break="no" n="22"/>ritum sanctum.
+</p>
+            <p>
+               <lb ed="#V" n="23"/>Et secundum hoc ad peccatum
+<lb ed="#V" n="24"/>in Spiritum sanctum requiruntur
+<lb ed="#V" n="25"/>bris "senheet quod "srit^"ex" eerta
+<lb ed="#V" n="26"/>malitia, quod sit contra 
+pracep<lb ed="#V" break="no" n="27"/>tium prima tabulae, et quod sit
+<lb ed="#V" n="28"/>actus oppositus perfectissimo 
+ac<lb ed="#V" break="no" n="29"/>iui conversivo ; et hoc modo est
+<lb ed="#V" n="30"/>peccatum in Spiritum sanctum,
+<lb ed="#V" n="31"/>et est finalis impoenitentia, non
+<lb ed="#V" n="32"/>quia homo decedit sine poenitentia,
+<lb ed="#V" n="33"/>sed quia habet propositum de
+<lb ed="#V" n="34"/>nunquam poenitendo, et oritur ex
+<lb ed="#V" n="35"/>desperatione. Et sic dicit 
+Augu<lb ed="#V" break="no" n="36"/>stinus de Fid. ad Petr. quod 
+pes<lb ed="#V" break="no" n="37"/>simi homines incidunt in hoc
+<lb ed="#V" n="38"/>peccatum, ut patet de Cain, qui
+<lb ed="#V" n="39"/>dixit Gen. 4. Major est iniquitas mea,
+<lb ed="#V" n="40"/>quam ut veniam merear. Credidit enim
+<lb ed="#V" n="41"/>misericordiam Dei esse minorem
+<lb ed="#V" n="42"/>suo delicto, et misericordia Dei
+<lb ed="#V" n="43"/>est bonitas, qua  appropriatur
+<lb ed="#V" n="44"/>Spiritui sancto, et ideo dicitur
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>peccatum in Spiritum sanctum, ut
+<lb ed="#V" n="46"/>patet in littera. Eodem modo 
+Ju<lb ed="#V" break="no" n="47"/>das Math. 97. et ponitur in littera
+<lb ed="#V" n="48"/>cap. illo. Est autem peccati hujus
+<lb ed="#V" n="49"/>assignatio, de quo dicit. 
+Augusti<lb ed="#V" break="no" n="50"/>nus lib. 1. de Serm. Domini in monte,
+<lb ed="#V" n="51"/>quod Judas desperans facilius cucurrit
+<lb ed="#V" n="52"/>ad laqueum quam humiliatus ventam 
+pe<lb ed="#V" break="no" n="53"/>teret; et de numero isto fuit 
+Achi<lb ed="#V" break="no" n="54"/>tophel ille, 2. Reg. 17.
+</p>
+            <p>
+               <lb ed="#V" n="55"/>Dicitur autem peccatum hoo 
+ir<lb ed="#V" break="no" n="56"/>remissibile, non simpliciter ; unde
+<lb ed="#V" n="57"/>secundum Magistrum in littera,
+<lb ed="#V" n="58"/>hoc peccatum non remittetur hie
+<lb ed="#V" n="59"/>nec in futuro, quando non habet
+<lb ed="#V" n="60"/>poenitentiam comitem, sed hoc
+<lb ed="#V" n="61"/>convenit cuilibet peccato mortali.
+<lb ed="#V" n="62"/>Verumtamen hoc peccatum dicitur
+<lb ed="#V" n="63"/>irremissibile, eo modo quo nullum
+<lb ed="#V" n="64"/>aliud peccatum dicitur 
+irremissi<lb ed="#V" break="no" n="65"/>bile dupliciter. Primo, quia nullum
+<lb ed="#V" n="66"/>peceatum aliud opponitur directe
+<lb ed="#V" n="67"/>principio remissionis in 
+remitten<lb ed="#V" break="no" n="68"/>te nisi istud, quia hoc solum 
+dire<lb ed="#V" break="no" n="69"/>ete aufert a Deo misericordiam,
+<lb ed="#V" n="70"/>qua est principium remittendi
+<lb ed="#V" n="71"/>peceata, et non dat sibi nisi 
+justi<lb ed="#V" break="no" n="72"/>tiam ; et hoc habet inquantum est
+<lb ed="#V" n="73"/>cum desperatione; talis enim 
+diffi<lb ed="#V" break="no" n="74"/>dit et desperat de misericordia Dei.
+<lb ed="#V" n="75"/>Secundo, quia corrumpit 
+dispositi<lb ed="#V" break="no" n="76"/>onem ad remissionem in eo cul
+<lb ed="#V" n="77"/>debet remitti, quia sicut dicitur
+<lb ed="#V" n="78"/>in quarto, principium dispositivum
+<lb ed="#V" n="79"/>ad remissionem peccati in 
+peeca<lb ed="#V" break="no" n="80"/>tore, est aliqualis displicentia de
+<lb ed="#V" n="81"/>peceato eum conversione ad Deum ;
+<lb ed="#V" n="82"/>hoc autem peccatum, inquantum
+<lb ed="#V" n="83"/>habet propositum de non 
+poeniten<lb ed="#V" break="no" n="84"/>do in tali obstinato, tollit omne
+<lb ed="#V" n="85"/>tale dispositivum.
+</p>
+            <p>
+               <lb ed="#V" n="86"/>Ad primum patet per praedicta,
+<lb ed="#V" n="87"/>quod non potest aliquis diligere,
+<lb ed="#V" n="88"/>nec odire unam personam. nisi
+<pb ed="#V" n="488"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>virtualiter diligat vel odiat aliam,
+<lb ed="#V" n="2"/>potest tamen actualiter diligere
+<lb ed="#V" n="3"/>unam non diligendo actualiter
+<lb ed="#V" n="4"/>aliam.
+</p>
+            <p>
+               <lb ed="#V" n="5"/>Ad secundum etiam patet 
+respon<lb ed="#V" break="no" n="6"/>sio in questionis solutione, quia
+<lb ed="#V" n="7"/>illud peccatum est principaliter
+<lb ed="#V" n="8"/>contra spem, et potest sic dici,
+<lb ed="#V" n="9"/>etiamsi teneatur opinio Magistri
+<lb ed="#V" n="10"/>decharitate. Ad tertium patet 
+quo<lb ed="#V" break="no" n="11"/>modo est irremissibile.
+</p>
+            <!--</div>
+<div alias="scotus-l2d43q2-p1">-->
+            <p>
+               <lb ed="#V" n="81" type="fixed=490"/>QUAESTIO II.
+<lb ed="#V" n="82"/>Utrum voluntas creata possit peccare ex
+<lb ed="#V" n="83"/>malitia, volendo aliquid non 
+osten<lb ed="#V" break="no" n="84"/>sum sibi sub ratione boni veri, id est,
+<pb ed="#V" n="491"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>boni simpliciter, vel boni apparentis
+<lb ed="#V" n="2"/>et secundum quid ?
+</p>
+            <p>
+               <lb ed="#V" n="3"/>Di Thom: 1. 2. 9. 8. a. 1. et p.q. 19. a. 8; et 2.
+<lb ed="#V" n="4"/>NEC 2. 0. 2. D. Bonay: 22 d 234 ». 95d. 1.
+<lb ed="#V" n="5"/>quo Dur.'25(.:g.-4. "Iiehard.' a. 2. Q. 2. et
+<lb ed="#V" n="6"/>d. 39. q. 2. Occham 8. g. 13. d. 5. Mayr. 2. d.
+<lb ed="#V" n="7"/>Enugz 1. Cord; E29. 12.^ Alm. /ract..3. Mor.
+<lb ed="#V" n="8"/>c. 4. Vasq. 1. 2. d. 31. ubi non bene citat. 
+Bo<lb ed="#V" break="no" n="9"/>nav. ei Richard.
+</p>
+            <p>
+               <lb ed="#V" n="10"/>Hic dicitur (a) quod non, 
+secun<lb ed="#V" break="no" n="11"/>dum auctoritatem Dionysii 4. de
+<lb ed="#V" n="12"/>Div. Nom. nullus operatur ad. malum
+<lb ed="#V" n="13"/>aspiciens.
+</p>
+            <p>
+               <lb ed="#V" n="14"/>Sed contra hoc (b), quia tunc 
+vi<lb ed="#V" break="no" n="15"/>detur quod voluntas creata non
+<lb ed="#V" n="16"/>posset tendere in objectum sub 
+ali<lb ed="#V" break="no" n="17"/>qua ratione, sub qua non posset
+<lb ed="#V" n="18"/>tendere voluntas divina ; voluntas
+<lb ed="#V" n="19"/>enim divina potest tendere in 
+om<lb ed="#V" break="no" n="20"/>ne bonum substratum illi 
+deformi<lb ed="#V" break="no" n="21"/>tati, licet non in illam rationem
+<lb ed="#V" n="22"/>malitiee concomitantem. Et si 
+con<lb ed="#V" break="no" n="23"/>cedlatur quod omne volibile ab
+<lb ed="#V" n="24"/>una voluntate sit volibile ab alia,
+<lb ed="#V" n="25"/>quia omnis voluntas habet 
+obje<lb ed="#V" break="no" n="26"/>ctum aeque ecommune, non tamen
+<lb ed="#V" n="27"/>illud quod est ordinate volitum ab
+<lb ed="#V" n="28"/>una voluntate, est ordinate 
+voli<lb ed="#V" break="no" n="29"/>tum abalia, quia ordinatum velle
+<lb ed="#V" n="30"/>non est ex solo objecto, sed ex
+<lb ed="#V" n="31"/>convenientia actus et objecti circa
+<lb ed="#V" n="32"/>illam potentiam ; potest enim 
+con<lb ed="#V" break="no" n="33"/>venire uni voluntati aliquis actus
+<lb ed="#V" n="34"/>circa aliquod objectum, qui non
+<lb ed="#V" n="35"/>convenit alteri.
+</p>
+            <p>
+               <lb ed="#V" n="36"/>Aliter arguitur (c) contra illam
+<lb ed="#V" n="37"/>opinionem, quia apprehendatur
+<lb ed="#V" n="38"/>odium Dei ab aliqua potentia 
+iu<lb ed="#V" break="no" n="39"/>tellectiva creata non errante, nec
+<lb ed="#V" n="40"/>per consequens ostendente illud
+<lb ed="#V" n="41"/>sub ratione boni, sed tantum 
+ma<lb ed="#V" break="no" n="42"/>li; si voluntas potest istud velle,
+<lb ed="#V" n="43"/>patet propositum quia nulla est
+<lb ed="#V" n="44"/>bonitas in isto actu prior ipso actu
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>volendi; si enim assignatur 
+ali<lb ed="#V" break="no" n="46"/>qua bonitas, propter actum 
+volen<lb ed="#V" break="no" n="47"/>di, hoc non est in objecto ; ut 
+pra<lb ed="#V" break="no" n="48"/>cedit actum, sed est in 1pso, ut. 
+se<lb ed="#V" break="no" n="49"/>quitur acetum volendi.
+</p>
+            <p>
+               <lb ed="#V" n="50"/>(d) Si autem non potest in illud
+<lb ed="#V" n="51"/>malum ostensum, nisi sub aliqua
+<lb ed="#V" n="52"/>ratione boni et non mali, ergo vel
+<lb ed="#V" n="53"/>simpliciter non potest in illud, vel
+<lb ed="#V" n="54"/>oportet rationem esse exceccatam
+<lb ed="#V" n="55"/>prius naturaliter, quod videtur 
+in<lb ed="#V" break="no" n="56"/>conveniens, et. contra illud 7. Ethi-.
+<lb ed="#V" n="57"/>corum : Stante ratione universali, et
+<lb ed="#V" n="58"/>particulari, etc.
+</p>
+            <!--</div>
+<div alias="scotus-l2d43q2-p2">-->
+            <p>
+               <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45" type="fixed=493"/>SCHOLIUM.
+<lb ed="#V" n="46"/>Impugnata opinione dicente voluntatem
+<lb ed="#V" n="47"/>non posse tendere in malum sub ratione 
+ma<lb ed="#V" break="no" n="48"/>li, dubius manere videtur,an sic possit 
+nec<lb ed="#V" break="no" n="49"/>ne, et sic mansit 1. dist. 1. quazs. q. S ad arg
+<lb ed="#V" n="50"/>pro opin. et supra dist. 6. quaest. 2. n. 1:
+<lb ed="#V" n="51"/>Tamen 4. dist. 49. quaest. 10. S ad 
+secun<lb ed="#V" break="no" n="52"/>dum art. resolvit non posse nos habere 
+cir<lb ed="#V" break="no" n="53"/>ea malum nisi nolle, nec circa bonum nisi
+<lb ed="#V" n="54"/>velle ; explicat clare quomodo peccatum ex
+<lb ed="#V" n="55"/>passione fit contra Patrem, ex ignorantia
+<lb ed="#V" n="56"/>contra Filium, ex malitia seu ex plena 
+li<lb ed="#V" break="no" n="57"/>bertate contra Spiritum sanctum.
+</p>
+            <p>
+               <lb ed="#V" n="58"/>Si tenetur (e) in ista questione
+<lb ed="#V" n="59"/>quod sic, facile est distinguere 
+pec<lb ed="#V" break="no" n="60"/>catum in- Spiritum sanctum ab
+<lb ed="#V" n="61"/>aliis peccatis. Voluntas enim, quia
+<lb ed="#V" n="62"/>conjuneta est appetitul sensitivo,
+<lb ed="#V" n="63"/>nata est condelectari sibi, et ideo
+<lb ed="#V" n="64"/>peeeans oeeasionaliter ex 
+inclina<lb ed="#V" break="no" n="65"/>tione appetitus sensitivi ad suum
+<lb ed="#V" n="66"/>delectabile, peccat ex passione,
+<lb ed="#V" n="67"/>quod dicitur peecatum ex 
+infirmi<lb ed="#V" break="no" n="68"/>tate sive ex impotentia, et est 
+ap<lb ed="#V" break="no" n="69"/>propriate in Patrem, cui 
+attribui<lb ed="#V" break="no" n="70"/>tur potentia. Ipsa etiam agit per
+<lb ed="#V" n="71"/>cognitionem intellectualem, et 
+id<lb ed="#V" break="no" n="72"/>eo ratione errante, ipsa recte non
+<lb ed="#V" n="73"/>vult, et peccatum ejus ex 
+erro<lb ed="#V" break="no" n="74"/>re rationis dicitur peccatum ex
+<lb ed="#V" n="75"/>ignorantia, et est contra Filium,
+<lb ed="#V" n="76"/>cul attribuitur sapientia. Tertium
+<lb ed="#V" n="77"/>etiam esset peccatum ipsius 
+se<lb ed="#V" break="no" n="78"/>cundum se ex libertate sua non
+<lb ed="#V" n="79"/>condeleectando appetitui sensitivo,
+<lb ed="#V" n="80"/>neque ex errore rationis, et istud
+<lb ed="#V" n="81"/>est recte ex malitia, et appropriate
+<lb ed="#V" n="82"/>contra Spiritum sanctum, cui 
+ap<lb ed="#V" break="no" n="83"/>propriatur bonitas.
+</p>
+            <p>
+               <lb ed="#V" n="84"/>Si famen non ponatur voluntas
+<lb ed="#V" n="85"/>creata (f) posse velle malum sub
+<lb ed="#V" n="86"/>ratione mali, adhuc potest assigna-
+<pb ed="#V" n="494"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>ri peccatum ex certa malitia,
+<lb ed="#V" n="2"/>quando voluntas ex libertate sua
+<lb ed="#V" n="3"/>absque passione in appetitu 
+sensi<lb ed="#V" break="no" n="4"/>tivo et errore in ratione, peccat;
+<lb ed="#V" n="5"/>ibi enim est plenissima ratio 
+pec<lb ed="#V" break="no" n="6"/>eati,quia nihil aliud esta voluntate
+<lb ed="#V" n="7"/>allieiens eam ad malum, sed ex 
+pu<lb ed="#V" break="no" n="8"/>ra libertate sine alia occasione 
+ex<lb ed="#V" break="no" n="9"/>trinseea, eligit sibi malum velle,
+<lb ed="#V" n="10"/>non tamen ex malitia, ita quod 
+vo<lb ed="#V" break="no" n="11"/>luntas sic peccans tendat in malum
+<lb ed="#V" n="12"/>inquantum malum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

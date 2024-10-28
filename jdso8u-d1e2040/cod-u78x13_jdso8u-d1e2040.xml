@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2024-10-28">October 28, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x13">Vives, Paris, 1893, volume 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-10-28" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="235-r"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e2040"><!-- jdso8u-b2d26q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum gratia sit in essentia animae vel in potentia</head>
+        <p>
+          <lb ed="#V" n="72" type="fixed=234"/>QUAESTIO UNICA.
+          <lb ed="#V" n="73"/>Utrum gratia sit in essentia animae vel
+          <lb ed="#V" n="74"/>in potentia ?
+        </p>
+        <p>
+          <lb ed="#V" n="75"/>Alensis 8. p. g. 69. memb. 2, et q.' 10. «n. 1. fin.
+          <lb ed="#V" n="76"/>D: Thom. 1. 2.9. 110; art. 4. et de vent, g. 27.
+          <lb ed="#V" n="77"/>art. 6. D. Bonav. fuc art. 1.2. quaest. 5. 
+          Ru<lb ed="#V" break="no" n="78"/>chard. art. 9. quasst. 4. Durand. o. 2. Gabr.
+          <pb ed="#V" n="235"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>quae$l. 1. Henr. quodl. 13. quaest. 12. Vasq. 1.
+          <lb ed="#V" n="2"/>2:4, 108, c0). 9.
+        </p>
+        <p>
+          <lb ed="#V" n="3"/>Circa distinctionem vigesimam
+          <lb ed="#V" n="4"/>sextam, in qua Magister agit de
+          <lb ed="#V" n="5"/>adjutoriis gratuitis, qua 
+          habue<lb ed="#V" break="no" n="6"/>runt primi parentes ad 
+          resisten<lb ed="#V" break="no" n="7"/>dum  ]gnalo Angelo, quaeritur
+          <lb ed="#V" n="8"/>unum: Utrum gratia sit in 
+          essen<lb ed="#V" break="no" n="9"/>tia anime velin potentia? Quod
+          <lb ed="#V" n="10"/>in essentia, probo, quia  
+          es<lb ed="#V" break="no" n="11"/>sentia prius exit a Deo quam 
+          po<lb ed="#V" break="no" n="12"/>tentia; igitur prius reducitur in
+          <lb ed="#V" n="13"/>Deum. Consequentia probatur,
+          <lb ed="#V" n="14"/>tum per Dionysium, quia res 
+          re<lb ed="#V" break="no" n="15"/>ducuntur in Deum eo modo quo
+          <lb ed="#V" n="16"/>exeunt a Deo; tum quia sicut 
+          quae<lb ed="#V" break="no" n="17"/>libet creatura habet Deum pro
+          <lb ed="#V" n="18"/>primo efficiente, ita et pro ultimo
+          <lb ed="#V" n="19"/>fine.
+        </p>
+        <p>
+          <lb ed="#V" n="20"/>Praeterea, essentia est 
+          indeter<lb ed="#V" break="no" n="21"/>minatior quam potentia; igitur
+          <lb ed="#V" n="22"/>magis indiget determinari quam
+          <lb ed="#V" n="23"/>potentia; sed gratia ponitur 
+          tan<lb ed="#V" break="no" n="24"/>quam formaliter determinans 
+          ani<lb ed="#V" break="no" n="25"/>mam indeterminatam, ergo, etc.
+        </p>
+        <p>
+          <lb ed="#V" n="26"/>Praeterea, gratia semper est in
+          <lb ed="#V" n="27"/>actu suo, potentia non; ergo non
+          <lb ed="#V" n="28"/>est in potentia. Prima propositio
+          <lb ed="#V" n="29"/>probatur, quia actus gratise est
+          <lb ed="#V" n="30"/>gratifieare, sed gratia semper 
+          gra<lb ed="#V" break="no" n="31"/>tificat. Consequentia probatur,quia
+          <lb ed="#V" n="32"/>habitus non potest semper esse in.
+          <lb ed="#V" n="33"/>suo actu, nisi illud cujus est, sit in
+          <lb ed="#V" n="34"/>actu.
+        </p>
+        <p>
+          <lb ed="#V" n="35"/>Item, acceptatio essentiae sufficit
+          <lb ed="#V" n="36"/>ad acceptationem potentis, et non
+          <lb ed="#V" n="37"/>e converso; ergo gratia, quae est
+          <lb ed="#V" n="38"/>principium acceptandi, debet poni
+          <lb ed="#V" n="39"/>per se in essentia. Probatio 
+          ante<lb ed="#V" break="no" n="40"/>cedentis, Gen. 4. RHesperxit Deus ad
+          <lb ed="#V" n="41"/>Abel et ad. munera ejus.
+        </p>
+        <p>
+          <lb ed="#V" n="42"/>Praeterea, eum essentia sit prior
+          <lb ed="#V" n="43"/>essentialiter in esse ipsa potentia,
+          <lb ed="#V" n="44"/>igitur similiter in acceptatione.
+        </p>
+        <p>
+          <lb ed="#V" n="45"/>Praeterea, forma  determinans
+          <lb ed="#V" n="46"/>ad agendum, magis debet poni in
+          <lb ed="#V" n="47"/>principali agente quam in 
+          instru<lb ed="#V" break="no" n="48"/>menbos essentia »;est : principale
+          <lb ed="#V" n="49"/>agens, et potentia sicut 
+          instru<lb ed="#V" break="no" n="50"/>mentale, secundum Anselmum de
+          <lb ed="#V" n="51"/>Concord. c. 19; ergo, etc.
+        </p>
+        <p>
+          <lb ed="#V" n="52"/>Praeterea, correspondentia debet
+          <lb ed="#V" n="53"/>esse 1maginis recreate ad 
+          imagi<lb ed="#V" break="no" n="54"/>nem creatam; imago creata 
+          requi<lb ed="#V" break="no" n="55"/>rit unitatem essentiae et 
+          trinita<lb ed="#V" break="no" n="56"/>tem potentiarum; ergo et illud
+          <lb ed="#V" n="57"/>quod reecreatur, requirit unitatem
+          <lb ed="#V" n="58"/>gratie perfieientem essentiam, et
+          <lb ed="#V" n="59"/>trinitatem — virtualiter 
+          perficien<lb ed="#V" break="no" n="60"/>tem potentiam.
+        </p>
+        <p>
+          <lb ed="#V" n="61"/>Oppositum, gratia est aliqua 
+          for<lb ed="#V" break="no" n="62"/>main anima secundum quod 
+          pro<lb ed="#V" break="no" n="63"/>batur dist. 17. primi lib. sed non est
+          <lb ed="#V" n="64"/>passio vel potentia; ergo habitus,
+          <lb ed="#V" n="65"/>secundum illam divisionem 
+          Philo<lb ed="#V" break="no" n="66"/>sophi 23. Ethic. omnis autem
+          <lb ed="#V" n="67"/>habitus est in potentia voluntatis;
+          <lb ed="#V" n="68"/>igitur, etc.
+        </p>
+        <p>
+          <lb ed="#V" n="69"/>Item, eadem est gratia operans
+          <lb ed="#V" n="70"/>et cooperans; sed cooperans est
+          <lb ed="#V" n="71"/>in potentia voluntatis, igitur, etc.
+        </p>
+        <!--</div>
+          <div alias="scotus-l2d26q1-p2">-->
+        <p>
+          <lb ed="#V" n="72" type="fixed=235"/>SCHOLIUM.
+        </p>
+        <p>
+          <lb ed="#V" n="73"/>Sententia D. Thome et aliorum, gratiam
+          <lb ed="#V" n="74"/>esse in essentia anime, non in potentia, et
+          <lb ed="#V" n="75"/>probatur dupliciter.
+        </p>
+        <p>
+          <lb ed="#V" n="76"/>Hic dicitur (a) quod gratia est
+          <lb ed="#V" n="77"/>primo in essentia, quod probatur ;
+          <lb ed="#V" n="78"/>per Augustinum de laude charitatis, ?
+          <lb ed="#V" n="79"/>quia ipsa est radiae et vita omnium bo- ,
+          <lb ed="#V" n="80"/>norum. Ibidem etiam, charitas est. 
+          vi<lb ed="#V" break="no" n="81"/>ta morientium; vita autem et mors !
+          <lb ed="#V" n="82"/>pertinent ad essentiam, ergo, etc.
+        </p>
+        <p>
+          <lb ed="#V" n="83"/>Confirmatur (b), quia si ibi 
+          po<lb ed="#V" break="no" n="84"/>natur, dat esse supernaturale et
+          <pb ed="#V" n="236"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>primum; igitur pari ratione 
+          po<lb ed="#V" break="no" n="2"/>terit dare agere supernaturale;
+          <lb ed="#V" n="3"/>non autem daret esse per se 
+          super<lb ed="#V" break="no" n="4"/>naturale, si tantum esset in 
+          po<lb ed="#V" break="no" n="5"/>tentia, eum tamen necesse sit 
+          om<lb ed="#V" break="no" n="6"/>ne agere praecedere esse, et esse
+          <lb ed="#V" n="7"/>naturale pr:ecedere agere 
+          natura<lb ed="#V" break="no" n="8"/>le, et esse supernaturale agere 
+          su<lb ed="#V" break="no" n="9"/>pernaturale. Vel aliter arguitur
+          <lb ed="#V" n="10"/>sic: agere praesupponit esse ; 1gitur
+          <lb ed="#V" n="11"/>quod dat agere naturale vel 
+          super<lb ed="#V" break="no" n="12"/>naturale, dat esse tale ; sed gratia
+          <lb ed="#V" n="13"/>dat agere animae, igitur dat esse;
+          <lb ed="#V" n="14"/>sed esse est ipsius essentiae, 
+          igi<lb ed="#V" break="no" n="15"/>tur, etc.
+        </p>
+        <!--</div>
+          <div alias="scotus-l2d26q1-p3">-->
+        <p>
+          <lb ed="#V" n="69" type="fixed=236"/>SCHOLIUM.
+        </p>
+        <p>
+          <lb ed="#V" n="70"/>Refutat dictam sententiam probans 
+          gra<lb ed="#V" break="no" n="71"/>tiam subjeetari in potentia. Primo, quia est
+          <lb ed="#V" n="72"/>idem cum gloria, vel dispositio ad eam. 
+          Se<lb ed="#V" break="no" n="73"/>eundo, omnis satiatio est per actus. Tertio,
+          <lb ed="#V" n="74"/>alias anima in via esset beata. Quarto, (est 
+          se<lb ed="#V" break="no" n="75"/>cundum apud Seotum) non perficit animam,
+          <lb ed="#V" n="76"/>ut inderminata est ad omnes actus, sed ut
+          <lb ed="#V" n="77"/>determinata ad unius potenti:e, scilicet 
+          volun<lb ed="#V" break="no" n="78"/>tatis, alias posset in actum meritorium ante
+          <lb ed="#V" n="79"/>omnem voluntatis actu; resolvit hanc 
+          par<lb ed="#V" break="no" n="80"/>tem esse tenendam, addens alias duas 
+          ra<lb ed="#V" break="no" n="81"/>tiones.
+        </p>
+        <p>
+          <lb ed="#V" n="82"/>Contra istam (c) positionem 
+          ar<lb ed="#V" break="no" n="83"/>guitur dupliciter : Primo, quia,
+          <lb ed="#V" n="84"/>cum gratia sit idem realiter cum
+          <lb ed="#V" n="85"/>oloria, vel per se sit dispositio ad
+          <pb ed="#V" n="237"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>eam, sequitur quod per se sit in
+          <lb ed="#V" n="2"/>eodem subjecto, in quo est 
+          beatitu<lb ed="#V" break="no" n="3"/>do; beatitudo autem non est per
+          <lb ed="#V" n="4"/>se in essentia, sed in potentia ; 
+          er<lb ed="#V" break="no" n="5"/>S0,sebo.
+        </p>
+        <p>
+          <lb ed="#V" n="6"/>Respondetur quod beatitudo
+          <lb ed="#V" n="7"/>principaliter est in essentia, et
+          <lb ed="#V" n="8"/>redundat mediante illa in 
+          potenti<lb ed="#V" break="no" n="9"/>as, secundum quod sunt capaces
+          <lb ed="#V" n="10"/>ejus, secundum magis et minus,
+          <lb ed="#V" n="11"/>prius et posterius. Primo modo,
+          <lb ed="#V" n="12"/>anima est deiformis, sicut carbo
+          <lb ed="#V" n="13"/>ignitus ex speciali illapsu Dei.
+        </p>
+        <p>
+          <lb ed="#V" n="14"/>(d) Contra, ergo circumscriptis
+          <lb ed="#V" n="15"/>potentiis, posset anima esse beata
+          <lb ed="#V" n="16"/>per se, et ita esset beatitudo, non
+          <lb ed="#V" n="17"/>in aliquo actu secundo, neque
+          <lb ed="#V" n="18"/>etiam in attingendo objectum 
+          ulti<lb ed="#V" break="no" n="19"/>mum, nam non attingitur 
+          obje<lb ed="#V" break="no" n="20"/>ctum (ut objectum) nisi per actum
+          <lb ed="#V" n="21"/>secundum, qui convenit animae, ut
+          <lb ed="#V" n="22"/>est potentia.
+        </p>
+        <p>
+          <lb ed="#V" n="23"/>Item, beatitudo non est, nisi
+          <lb ed="#V" n="24"/>quia satiat et quietat beatum; haec
+          <lb ed="#V" n="25"/>quietatio non potest esse nisi per
+          <lb ed="#V" n="26"/>conjunetionem ad objectum 
+          beati<lb ed="#V" break="no" n="27"/>ficum; eonjunctio autem non est
+          <lb ed="#V" n="28"/>nisi per actum aliquem, qui 
+          tan<lb ed="#V" break="no" n="29"/>tum est potentic, et haec est. 
+          sen<lb ed="#V" break="no" n="30"/>tentia Philosophi ponentis, quod
+          <lb ed="#V" n="31"/>beatitudo est in actu.
+        </p>
+        <p>
+          <lb ed="#V" n="32"/>(e) Praeterea, si beatitudo 
+          pone<lb ed="#V" break="no" n="33"/>retur in essentia, eum ejusdem 
+          ra<lb ed="#V" break="no" n="34"/>tionis sit gratiain essentia, in via,
+          <lb ed="#V" n="35"/>etin patria, ergo nunc anima 
+          es<lb ed="#V" break="no" n="36"/>set beata, licet minus quam in 
+          pa<lb ed="#V" break="no" n="37"/>tria ; consequens est falsum, ergo
+          <lb ed="#V" n="38"/>et antecedens. Consequentia 
+          pro<lb ed="#V" break="no" n="39"/>batur, quia nunc habet actum
+          <lb ed="#V" n="40"/>primum ejusdem rationis (per te)
+          <lb ed="#V" n="41"/>cum isto, in quo est essentialiter
+          <lb ed="#V" n="42"/>beatitudo.
+        </p>
+        <p>
+          <lb ed="#V" n="43"/>Respondetur, quod ita posset 
+          ar<lb ed="#V" break="no" n="44"/>oui de actu. sicut de eratia. s! esset
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>in potentia, quia ejusdem rationis
+          <lb ed="#V" n="46"/>est actus nunc et tunc. Nec valet
+          <lb ed="#V" n="47"/>instare de actu videndi, et lumine
+          <lb ed="#V" n="48"/>celorie, quia ista per se non 
+          per<lb ed="#V" break="no" n="49"/>tinent ad gloriam ; ergo, etc.
+        </p>
+        <p>
+          <lb ed="#V" n="50"/>Dico, quod argumentum de actu
+          <lb ed="#V" n="51"/>primo, concludit quod nunc esset
+          <lb ed="#V" n="52"/>anima beata, licet minus quam
+          <lb ed="#V" n="53"/>tune, non autem si ponatur 
+          beati<lb ed="#V" break="no" n="54"/>tudo in actu secundo, etiam 
+          dili<lb ed="#V" break="no" n="55"/>cendi, quia ille non est ejusdem
+          <lb ed="#V" n="56"/>rationis in via et in patria. Si enim
+          <lb ed="#V" n="57"/>intellectio sit per se causa 
+          partia<lb ed="#V" break="no" n="58"/>lis respectu volitionis, sicut dicit
+          <lb ed="#V" n="59"/>tertia opinio, in quast. praecedente,
+          <lb ed="#V" n="60"/>sequitur quod visio et cognitio
+          <lb ed="#V" n="61"/>seenigmatica, (qua sunt 
+          intellecti<lb ed="#V" break="no" n="62"/>ones alterius rationis) possint 
+          con<lb ed="#V" break="no" n="63"/>currere ad volitionem simpliciter
+          <lb ed="#V" n="64"/>alterius rationis; et hsec fuit una
+          <lb ed="#V" n="65"/>ratio facta superius pro tertia 
+          opi<lb ed="#V" break="no" n="66"/>nione quia idem objectum, 
+          diversi<lb ed="#V" break="no" n="67"/>mode cognitum, potest diligi 
+          di<lb ed="#V" break="no" n="68"/>versis actibus, etiam secundum
+          <lb ed="#V" n="69"/>speciem.
+        </p>
+        <p>
+          <lb ed="#V" n="70"/>Si autem sustineatur quod voluntas sit
+          <lb ed="#V" n="71"/>tota causa, volitionis et fruitionts, tunc 
+          dif<lb ed="#V" break="no" n="72"/>ficilaus est salvare, quod beatitudo 
+          princi<lb ed="#V" break="no" n="73"/>palius consistat in fruitione; illud. enim a
+          <lb ed="#V" n="74"/>quo distinguitur formaliter perfectum ab
+          <lb ed="#V" n="75"/>imperfecto, secundum quod 1mperfectum , 
+          di<lb ed="#V" break="no" n="76"/>citur esse perfectius in illo; sed si fruitlio in
+          <lb ed="#V" n="77"/>patria et in via sunt ejusdem spectet, quod
+          <lb ed="#V" n="78"/>videtur, si sola voluntas sit causa 
+          fruili<lb ed="#V" break="no" n="79"/>onis, et objectum est idem, et habitus idem,
+          <lb ed="#V" n="80"/>tunc beatus, secundum quod beatus, 
+          distin<lb ed="#V" break="no" n="81"/>guitur a non beato per visionem, eli non
+          <lb ed="#V" n="82"/>per fruitionem, qua est untus rationis in
+          <lb ed="#V" n="83"/>uiroque ; ergo visio esset nobilior fruitione.
+          <lb ed="#V" n="84"/>Suslinendo tamen quod voluntas sit tota
+          <lb ed="#V" n="85"/>causa actus sui, potest dici quod causa
+          <lb ed="#V" n="86"/>activa, qua. est dilimitata ad. diversos 
+          effe<lb ed="#V" break="no" n="87"/>cius, concurrentibus illis, quae requiruntur,
+          <lb ed="#V" n="88"/>eo modo quo requiruntur, causat diversa;
+          <lb ed="#V" n="89"/>sicut Sol constringit lutum, et dissolvit 
+          gla<lb ed="#V" break="no" n="90"/>ciem propter diversam dispositionem in
+          <pb ed="#V" n="238"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>passo; voluntas autem est causa illimitata
+          <lb ed="#V" n="2"/>habens diversas volitiones specie in virtute
+          <lb ed="#V" n="3"/>(ua; ideo concurrentibus visione et 
+          cogni<lb ed="#V" break="no" n="4"/>sione aenigmatica, qua sunt diversa specie,
+          <lb ed="#V" n="5"/>et per se requisita ad. actum voluntatis,
+          <lb ed="#V" n="6"/>potest voluntas causare diversos actus 
+          spe<lb ed="#V" break="no" n="7"/>cie, et sic fruitio specie potest. distingui in
+          <lb ed="#V" n="8"/>via et in patria.
+        </p>
+        <p>
+          <lb ed="#V" n="9"/>Praeterea secundo (f), quando 
+          ali<lb ed="#V" break="no" n="10"/>qua forma est indeterminata 
+          se<lb ed="#V" break="no" n="11"/>cundum virtutem activam ad 
+          plu<lb ed="#V" break="no" n="12"/>ra, illud quod praecise respicit
+          <lb ed="#V" n="13"/>unam actionem determinatam, non
+          <lb ed="#V" n="14"/>perfieit eam inquantum est 
+          inde<lb ed="#V" break="no" n="15"/>terminata, sed inquantum est 
+          po<lb ed="#V" break="no" n="16"/>tentia determinata, respectu illius
+          <lb ed="#V" n="17"/>actionis. Exemplum, si anima est
+          <lb ed="#V" n="18"/>indeterminata ad plures actus 
+          con<lb ed="#V" break="no" n="19"/>venientes sibi, secundum plures
+          <lb ed="#V" n="20"/>potentias, sapientia vel quicumque
+          <lb ed="#V" n="21"/>habitus intellectualis alius non
+          <lb ed="#V" n="22"/>perficit animam inquantum 
+          inde<lb ed="#V" break="no" n="23"/>terminata, sed praecise inquantum
+          <lb ed="#V" n="24"/>intellectus. Et ratio propositionis
+          <lb ed="#V" n="25"/>est ista, quia si perficeret eam 
+          in<lb ed="#V" break="no" n="26"/>quantum indeterminata, secundum
+          <lb ed="#V" n="27"/>virtutem activam, ergo aeque 
+          pos<lb ed="#V" break="no" n="28"/>set eam perficere in ordine ad
+          <lb ed="#V" n="29"/>quemcumque actum suum ; 
+          simili<lb ed="#V" break="no" n="30"/>ter si perficeret eam praecise in
+          <lb ed="#V" n="31"/>ordine ad determinatum acetum,
+          <lb ed="#V" n="32"/>ita perficeret eam, si tantum esset
+          <lb ed="#V" n="33"/>potentia activa determinata ad
+          <lb ed="#V" n="34"/>istum actum, et non indeterminata
+          <lb ed="#V" n="35"/>ad plures; sed gratia tantum 
+          perti<lb ed="#V" break="no" n="36"/>cit animam in ordine ad 
+          determi<lb ed="#V" break="no" n="37"/>natum actum, id est, meritorium,
+          <lb ed="#V" n="38"/>qui scilicet est solius voluntatis,
+          <lb ed="#V" n="39"/>secundum Anselmum de Concord,
+          <lb ed="#V" n="40"/>Virgin. cap. 4. et alibi frequenter;
+          <lb ed="#V" n="41"/>ergo perficit praecise inquantum
+          <lb ed="#V" n="42"/>est illa potentia, cujus est talis
+          <lb ed="#V" n="43"/>actus; haec est voluntas, ergo, eto.
+        </p>
+        <p>
+          <lb ed="#V" n="44"/>(g) Confirmatur ista ratio, quia
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>si posset perficere, vel perficeret
+          <lb ed="#V" n="46"/>essentiam anime, ut essentia 
+          pos<lb ed="#V" break="no" n="47"/>set. redundare in actum prioris
+          <lb ed="#V" n="48"/>potentiae, scilicet intellectus, et
+          <lb ed="#V" n="49"/>sic actus intellectus, ut praecedit
+          <lb ed="#V" n="50"/>actum voluntatis, posset esse 
+          gra<lb ed="#V" break="no" n="51"/>tifieabllis et meritorius ; imo si
+          <lb ed="#V" n="52"/>solus intellectus esset sine 
+          volun<lb ed="#V" break="no" n="53"/>tate, in essentia illa posset esse
+          <lb ed="#V" n="54"/>gratia et meritum.
+        </p>
+        <p>
+          <lb ed="#V" n="55"/>Concedi potest conclusio ista-|
+          <lb ed="#V" n="56"/>rum rationum, quia iste habitus :
+          <lb ed="#V" n="57"/>qui probatus est esse 
+          supernatura<lb ed="#V" break="no" n="58"/>lis dist. 17. primi, perficit potentiam
+          <lb ed="#V" n="59"/>anim, et determinatam, scilicet
+          <lb ed="#V" n="60"/>voluntatem, quia in ordine ad 
+          ob<lb ed="#V" break="no" n="61"/>jectum determinatum talis 
+          poten<lb ed="#V" break="no" n="62"/>tie, et etiam actum ; non autem
+          <lb ed="#V" n="63"/>perficit essentiam, quia ipsa ut
+          <lb ed="#V" n="64"/>sic nullum respicit objectum, nec
+          <lb ed="#V" n="65"/>aliquem etiam acetum.
+        </p>
+        <p>
+          <lb ed="#V" n="66"/>Confirmatur per Anselmum de
+          <lb ed="#V" n="67"/>Concord. Virgin. c. 3. Omnis justitia. et
+          <lb ed="#V" n="68"/>injustitia. est. formaliter. in. voluntate .
+          <lb ed="#V" n="69"/>gratia est quaedam justitia et 
+          re<lb ed="#V" break="no" n="70"/>ctitudo; ergo, etc.
+        </p>
+        <p>
+          <lb ed="#V" n="71"/>Item, opposita sunt circa idem ;
+          <lb ed="#V" n="72"/>gratia et peccatum sunt opposita;
+          <lb ed="#V" n="73"/>sed peccatum est in voluntate, 
+          se<lb ed="#V" break="no" n="74"/>cundum Anselmum ubi prius, 
+          igi<lb ed="#V" break="no" n="75"/>tur et gratia.
+        </p>
+        <!--</div>
+          <div alias="scotus-l2d26q1-p4">-->
+        <p>
+          <lb ed="#V" n="54" type="fixed=239"/>SCHOLIUM.
+        </p>
+        <p>
+          <lb ed="#V" n="55"/>Doctor omisit solvere primum et ultimum
+          <lb ed="#V" n="56"/>argumentum. Ad primum ergo dico, quod
+          <lb ed="#V" n="57"/>cum potentia sit ipsa essentia, ex d. 16. in
+          <lb ed="#V" n="58"/>re simul exeunt a Deo, et redeunt in Deum,
+          <lb ed="#V" n="59"/>vel sicut exeunt omnia a Deo efficiente 
+          pro<lb ed="#V" break="no" n="60"/>pter se ut propter finem, similiter ordinantur
+          <lb ed="#V" n="61"/>in ipsum ut in finem. Vide Scotum 1. d. 2. q.d.
+          <lb ed="#V" n="62"/>ad ult. non est dabilis virtus perficiens 
+          essen<lb ed="#V" break="no" n="63"/>liam et non potentias, nec requiritur 
+          corre<lb ed="#V" break="no" n="64"/>spondentia imaginis recreatz ad creatam;
+          <lb ed="#V" n="65"/>supponunt gratiam distingui a charitate,
+          <lb ed="#V" n="66"/>quod falsum esse ex dicendis d. Seq. patebit.
+        </p>
+        <p>
+          <lb ed="#V" n="67"/>Ad argumenta in oppositum (h).
+          <lb ed="#V" n="68"/>dico, quod gratia determinat ad
+          <lb ed="#V" n="69"/>operationem gratuitam, sicut 
+          per<lb ed="#V" break="no" n="70"/>tinet ad habitum determinare, et
+          <lb ed="#V" n="71"/>hoc modo potentia est 
+          indetermi<lb ed="#V" break="no" n="72"/>nata indeterminatione proxima, et
+          <lb ed="#V" n="73"/>non essentia.
+        </p>
+        <p>
+          <lb ed="#V" n="74"/>Ad aliud dico, quod etsi gratifi-.
+          <lb ed="#V" n="75"/>care, id est, eratum reddere, signi- '
+          <lb ed="#V" n="76"/>ficetur A nue. non tamen est 
+          age<lb ed="#V" break="no" n="77"/>re, sicut nec albedinem facere
+          <lb ed="#V" n="78"/>parietatem album est agere, sed
+          <lb ed="#V" n="79"/>informare parietem.
+        </p>
+        <p>
+          <lb ed="#V" n="80"/>Ad tertium dico quod acceptatio
+          <lb ed="#V" n="81"/>potentiae sufiieit, ad acceptionem
+          <lb ed="#V" n="82"/>essentiae, et non e converso; sicut
+          <lb ed="#V" n="83"/>enim si homo poss^t videre actum
+          <lb ed="#V" n="84"/>alterius diligendi, propter illum
+          <lb ed="#V" n="85"/>acetum acceptaret totum 
+          supposi<lb ed="#V" break="no" n="86"/>ium, ita Deus primo aoeceptat
+          <lb ed="#V" n="87"/>actum libere elicitum a potentia,
+          <pb ed="#V" n="240"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>non quidem acceptatione 
+          genera<lb ed="#V" break="no" n="2"/>li qua acceptat omnem 
+          ccreatu<lb ed="#V" break="no" n="3"/>ram, quia sic primo essentia 
+          acce<lb ed="#V" break="no" n="4"/>pLlatur, sed acceptatione speciali,
+          <lb ed="#V" n="5"/>qua ordinat acceptum ad 
+          beatitu<lb ed="#V" break="no" n="6"/>dinem; acceptat autem sic primo
+          <lb ed="#V" n="7"/>et principaliter potentiam, qua
+          <lb ed="#V" n="8"/>est primo beatifieabilis, et per
+          <lb ed="#V" n="9"/>illam ipsam essentiam.
+        </p>
+        <p>
+          <lb ed="#V" n="10"/>.. Et cum objicitur de Abel et 
+          mu<lb ed="#V" break="no" n="11"/>neribus ejus, dico quod actus 
+          exte<lb ed="#V" break="no" n="12"/>rior non acceptatur nisi quia 
+          inte<lb ed="#V" break="no" n="13"/>rior, nec interior nisi quia 
+          poten<lb ed="#V" break="no" n="14"/>tia illa, cujus est actus vel elicitus
+          <lb ed="#V" n="15"/>vel imperatus acceptatur; sed non
+          <lb ed="#V" n="16"/>est ulterius resolvere illam 
+          aece<lb ed="#V" break="no" n="17"/>ptationem istius potentiae in 
+          acce<lb ed="#V" break="no" n="18"/>ptationem alicujus prioris 
+          acce<lb ed="#V" break="no" n="19"/>ptati, quia nihil est prius 
+          accepta<lb ed="#V" break="no" n="20"/>bile acceptaticne speciali, nisi 
+          me<lb ed="#V" break="no" n="21"/>diante illa potentia.
+        </p>
+        <p>
+          <lb ed="#V" n="22"/>(1) Ad aliud de instrumento, 
+          pos<lb ed="#V" break="no" n="23"/>set concedi major, de instrumento
+          <lb ed="#V" n="24"/>extrinseco, non autem de 
+          intrinse<lb ed="#V" break="no" n="25"/>co, quod est idem operanti sic
+          <lb ed="#V" n="26"/>ipsemet operans dicitur 
+          instru<lb ed="#V" break="no" n="27"/>mentum, inquantum habet 
+          rati<lb ed="#V" break="no" n="28"/>onem determinatam operativam,
+          <lb ed="#V" n="29"/>quia illo modo accipiendo 
+          instru<lb ed="#V" break="no" n="30"/>mentum, forma determinans 
+          acti<lb ed="#V" break="no" n="31"/>onem, debet poni in instrumento ;
+          <lb ed="#V" n="32"/>non autem in principali agente, ut
+          <lb ed="#V" n="33"/>distinguitur ab instrumento, debet
+          <lb ed="#V" n="34"/>poni nisi forma recipiens 
+          aoti<lb ed="#V" break="no" n="35"/>onem.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

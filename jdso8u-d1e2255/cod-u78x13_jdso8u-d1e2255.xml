@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestiones 1-2</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestiones 1-2</title>
+          <date when="2024-10-28">October 28, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x13">Vives, Paris, 1893, volume 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-10-28" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="410-r"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e2255"><!-- jdso8u-b2d39q1 -->
+        <head>Quaestiones 1-2</head>
+        <div><!--  alias="scotus-l2d39q1-p1" -->
+          <head>Quaestio 1</head>
+          <head type="question-title">Utrum synderesis sit in voluntate</head>
+          <p>
+            <lb ed="#V" n="25" type="fixed=409"/>QUAESTIO I.
+            <lb ed="#V" n="26"/>Utrum synderesis sit in voluntate ?
+          </p>
+          <p>
+            <lb ed="#V" n="27"/>Bpusis 25m. q.d m 1 ut 2. D. Thom, 4. p.
+            <lb ed="#V" n="28"/>q. 79. a. 12. 13. ubi Cajet. Conrad. D. Bonav.
+            <lb ed="#V" n="29"/>hoo og wp cet: 2. "Richard. art, 9. 92st. 1. et
+            <lb ed="#V" n="30"/>2. Durand. quaesi. 4.'Gabr. quaest. 2. art.3.
+            <lb ed="#V" n="31"/>Cord. |. 3. quaest. 1. Henr. quodl. 1. quaest. 18.
+            <lb ed="#V" n="32"/>Vasq. 1. 2. d. 59.
+          </p>
+          <p>
+            <lb ed="#V" n="33"/>Circa distinctionem trigesimam
+            <lb ed="#V" n="34"/>nonam, quoruntur duo: primo,
+            <lb ed="#V" n="35"/>utrum synderesis sit in 
+            volunta<lb ed="#V" break="no" n="36"/>te ? Quod sic, semper enim 
+            remur<lb ed="#V" break="no" n="37"/>murat malo; remurmurare est
+            <lb ed="#V" n="38"/>voluntatis.
+          </p>
+          <p>
+            <lb ed="#V" n="39"/>Praeterea, voluntas necessario
+            <lb ed="#V" n="40"/>vuli. commoda. Secundum  Ansel
+            <lb ed="#V" n="41"/>mum de Concordia, 26. et 24. commoda
+            <lb ed="#V" n="42"/>anon velle nequit: ergo aeque necessa-
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43"/>rio vult justitiam, quia justitia est
+            <lb ed="#V" n="44"/>perfectio aeque conveniens sibi,
+            <lb ed="#V" n="45"/>sicut commodum. Sed illud, quo
+            <lb ed="#V" n="46"/>homo necessario inelinatur in
+            <lb ed="#V" n="47"/>justitiam,ponitur synderesis; ergo
+            <lb ed="#V" n="48"/>aliquid est. in voluntate, quod 
+            po<lb ed="#V" break="no" n="49"/>test poni synderesis.
+          </p>
+          <p>
+            <lb ed="#V" n="50"/>Praeterea, voluntas naturalis 
+            ne<lb ed="#V" break="no" n="51"/>cessario vult illud in quod tendit,
+            <lb ed="#V" n="52"/>quod patet ex 13. de Trin. cap. 5. ubi
+            <lb ed="#V" n="53"/>vult Augustinus quod certum est
+            <lb ed="#V" n="54"/>omnes velle beatitudinem propter
+            <lb ed="#V" n="55"/>inelinationem naturalem ad illam,
+            <lb ed="#V" n="56"/>quod non esset certum, si voluntas
+            <lb ed="#V" n="57"/>non necessario vellet eam ; ergo
+            <lb ed="#V" n="58"/>naturaliter volitum est 
+            neces<lb ed="#V" break="no" n="59"/>sario volitum. Sed justitia est
+            <lb ed="#V" n="60"/>naturaliter volita a voluntate,
+            <lb ed="#V" n="61"/>quia est perfectio ita naturalis 
+            vo<lb ed="#V" break="no" n="62"/>lunmtatu sicut commodum, ergo
+            <lb ed="#V" n="63"/>est necessario volita; debet ergo
+            <lb ed="#V" n="64"/>illud poni in voluntate, quod 
+            po<lb ed="#V" break="no" n="65"/>nitur necessario principium 
+            incli<lb ed="#V" break="no" n="66"/>nandi voluntatem ad justitiam,
+            <lb ed="#V" n="67"/>hoc'est synderesis; ergo, eic.
+          </p>
+          <p>
+            <lb ed="#V" n="68"/>Praeterea, natura inferior, puta
+            <lb ed="#V" n="69"/>irrationalis, habet principium 
+            ten<lb ed="#V" break="no" n="70"/>dendi in illud, quod sibi convenit
+            <lb ed="#V" n="71"/>recte, secundum naturam suam;
+            <lb ed="#V" n="72"/>ergo et voluntas habebit 
+            necessa<lb ed="#V" break="no" n="73"/>rio principium tendendi in 
+            justi<lb ed="#V" break="no" n="74"/>tiam, quae sibi convenit ex natura
+            <lb ed="#V" n="75"/>Sua.
+          </p>
+          <p>
+            <lb ed="#V" n="76"/>Oppositum vult Magister in 
+            lit<lb ed="#V" break="no" n="77"/>tera adducens Hieronymum super
+            <lb ed="#V" n="78"/>Ezechielem, quod superior portio
+            <lb ed="#V" n="79"/>rationis est synderesis; ergo est
+            <lb ed="#V" n="80"/>in superiori portione rationis;
+            <lb ed="#V" n="81"/>ergo in intellectu, qui intendit 
+            con<lb ed="#V" break="no" n="82"/>templationi.
+          </p>
+          <!--</div>
+            <div alias="scotus-l2d39q1-p2">-->
+          <p>
+            <lb ed="#V" n="83" type="fixed=409"/>SCHOLIUM.
+          </p>
+          <p>
+            <lb ed="#V" n="84"/>Posita ratione ad oppositum, hic resolvitur
+            <lb ed="#V" n="85"/>quaestio haec in seq. a num. 4. ubi 
+            resolvun<lb ed="#V" break="no" n="86"/>tur argumenta hic posita.
+          </p>
+        </div>
+        <div><!--  alias="scotus-l2d39q2-p1" -->
+          <head>Quaestio 2</head>
+          <head type="question-title">Utrum conscientia sit in voluntate</head>
+          <p>
+            <pb ed="#V" n="410"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1" type="fixed=410"/>QUESTIO II.
+            <lb ed="#V" n="2"/>Utrum conscientia sit in voluntate?
+          </p>
+          <p>
+            <lb ed="#V" n="3"/>Alensis 2. p. q. 77. m. 3. et per totum. D. Thom. 1.
+            <lb ed="#V" n="4"/>p. 9. 79. a. 19. D. Bonav. hic... a. 1. q. 1. et 9.
+            <lb ed="#V" n="5"/>Richard. 2. q. 1. 2. et 3. Gabr. q. 1. dub. 1.
+            <lb ed="#V" n="6"/>Vasq. 1. 2. d. 59.
+          </p>
+          <p>
+            <lb ed="#V" n="7"/>Secundo quaeritur, utrum 
+            con<lb ed="#V" break="no" n="8"/>scientia sit in voluntate? Quod sic,
+            <lb ed="#V" n="9"/>ad Hebr. 13. Confidimus enim quod 
+            bo<lb ed="#V" break="no" n="10"/>nam conscientiam habemus; bonitas
+            <lb ed="#V" n="11"/>pertinet ad voluntatem ; igitur et
+            <lb ed="#V" n="12"/>conscientia.
+          </p>
+          <p>
+            <lb ed="#V" n="13"/>Praeterea, si esset in intellectu,
+            <lb ed="#V" n="14"/>tunc plus sciens de agibilibus, esset
+            <lb ed="#V" n="15"/>plus * conscientiatus ; consequens
+            <lb ed="#V" n="16"/>est falsum; ergo et antecedens,
+          </p>
+          <p>
+            <lb ed="#V" n="17"/>Ad oppositum, Ecclesiastes 7. Scit
+            <lb ed="#V" n="18"/>enim. conscientia tua, quia et tw crebro
+            <lb ed="#V" n="19"/>maledixisti aliis. Hoc etiam patet de
+            <lb ed="#V" n="20"/>actibus conscientiae, qui sunt 
+            testi<lb ed="#V" break="no" n="21"/>ficare, accusare, judicare, etc. quae
+            <lb ed="#V" n="22"/>omnia pertinent ad rationem et
+            <lb ed="#V" n="23"/>intellectum ; ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="24"/>Hic dicitur,quod lex naturae 
+            prin<lb ed="#V" break="no" n="25"/>cipia naturalia 2agendorum 
+            con<lb ed="#V" break="no" n="26"/>tinet, et dicit quod synderesis est
+            <lb ed="#V" n="27"/>pondus voluntatis, conscientia 
+            ve<lb ed="#V" break="no" n="28"/>ro ejusdem habitus; quaere.
+          </p>
+          <p>
+            <lb ed="#V" n="29"/>Hic est primo notandum, quod mon
+            <lb ed="#V" n="30"/>sunt idem in operandis ratio recta et 
+            con<lb ed="#V" break="no" n="31"/>scientia. Ex universalibus enim regulis
+            <lb ed="#V" n="32"/>operandorum, quae sunt de dictamine 
+            le<lb ed="#V" break="no" n="33"/>gis nature, quasi ex propositione majori,
+            <lb ed="#V" n="34"/>et particularibus operandis sumptis sub
+            <lb ed="#V" n="35"/>1llis regulis universalibus consilio 
+            rati<lb ed="#V" break="no" n="36"/>Oni$, quasi ex minori propositione, 
+            for<lb ed="#V" break="no" n="37"/>inatur ratio recta operandorum 
+            particula<lb ed="#V" break="no" n="38"/>rium. Sed nondum ex hoc habetur 
+            operan<lb ed="#V" break="no" n="39"/>di conscientia, quia. tunc omnis habens
+            <lb ed="#V" n="40"/>operandorwum notitiam haberet de operan-
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="41"/>do conscientiam, et habens majorem 
+            noti<lb ed="#V" break="no" n="42"/>tiam, haberet. de operando conscientiam
+            <lb ed="#V" n="43"/>strictiorem, quod. falsum est, quoniam
+            <lb ed="#V" n="44"/>videmus scpius habentes majorem 
+            ope<lb ed="#V" break="no" n="45"/>randorum notitiam minorem — habere
+            <lb ed="#V" n="46"/>operandi conscientiam ; et hoc ideo, quia
+            <lb ed="#V" n="47"/>conscientia ad partem anime — 
+            cogni<lb ed="#V" break="no" n="48"/>tivam non pertinet, sed ad. affectivam,
+            <lb ed="#V" n="49"/>sicut enim in. cognitiva sunt lex 
+            natura<lb ed="#V" break="no" n="50"/>lis et universalis regula operandorum, et
+            <lb ed="#V" n="51"/>ratio recta, ut particularis; sic ex parte |
+            <lb ed="#V" n="52"/>voluntatis est quidam universalis motor
+            <lb ed="#V" n="53"/>stimulans ad opus, secundum regulas
+            <lb ed="#V" n="54"/>universales legis naturae ; et dicitur 
+            synde<lb ed="#V" break="no" n="55"/>resis quo est in voluntate quedam 
+            natura<lb ed="#V" break="no" n="56"/>lis electio, semper concordans cum 
+            natura<lb ed="#V" break="no" n="57"/>li dictamine legis nature. Et ideo dicitur
+            <lb ed="#V" n="58"/>synderesis, hoc est conclectio, a Syn. quod
+            <lb ed="#V" n="59"/>est con, et haeresis quod est electio. Et
+            <lb ed="#V" n="60"/>quidam motor particularis stimulans ad
+            <lb ed="#V" n="61"/>opus, secundum dictamen rationis recta,
+            <lb ed="#V" n="62"/>et dicitur conscientia, quae est in 
+            volun<lb ed="#V" break="no" n="63"/>tate quedam electio deliberativa semper
+            <lb ed="#V" n="64"/>concordans cum dictamine rationis recte;
+            <lb ed="#V" n="65"/>et ideo dicitur conscientia, hoc est cum
+            <lb ed="#V" n="66"/>scientia, quia electio in. voluntate 
+            delti<lb ed="#V" break="no" n="67"/>berativa  concordans cum scientia in
+            <lb ed="#V" n="68"/>ratione recta, et. quae sequuntur. ibidem.
+          </p>
+          <!--</div>
+            <div alias="scotus-l2d39q2-p2">-->
+          <p>
+            <lb ed="#V" n="69" type="fixed=410"/>SCHOLIUM.
+          </p>
+          <p>
+            <lb ed="#V" n="70"/>Refutat Henricum asserentem synderesin
+            <lb ed="#V" n="71"/>et conscientiam esse habitus voluntatis ; de
+            <lb ed="#V" n="72"/>synderesi affert duas rationes, de 
+            conscien<lb ed="#V" break="no" n="73"/>tia quatuor, et sunt satis clarze,
+          </p>
+          <p>
+            <lb ed="#V" n="74"/>Contra istud (a) arguitur primo
+            <lb ed="#V" n="75"/>de synderesi, quia si ipsa habeat,
+            <lb ed="#V" n="76"/>actum elieitum necessario tenden- !
+            <lb ed="#V" n="77"/>tem in bonum et resistentem malo,
+            <lb ed="#V" n="78"/>et nihil tale est in voluntate, ergo
+            <lb ed="#V" n="79"/>ipsa non est in voluntate. 
+            Proba<lb ed="#V" break="no" n="80"/>tio assumpti, quia dist. 1. primi lib.
+            <lb ed="#V" n="81"/>ostensum est, quod voluntas non
+            <pb ed="#V" n="411"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>necessario fruitur fine ostenso, nec
+            <lb ed="#V" n="2"/>aliqua potentia, vel vis, vel 
+            habi<lb ed="#V" break="no" n="3"/>tus in ea potest esse principium
+            <lb ed="#V" n="4"/>necessario fruendi; igitur nec 
+            prin<lb ed="#V" break="no" n="5"/>cipium necessarium concorditer
+            <lb ed="#V" n="6"/>volendi principiis praeticis, quae
+            <lb ed="#V" n="7"/>sumuntur a fine.
+          </p>
+          <p>
+            <lb ed="#V" n="8"/>Praeterea (b), si esset aliqua talis
+            <lb ed="#V" n="9"/>potentia, vel vis, vel portio in 
+            vo<lb ed="#V" break="no" n="10"/>luntate, quae actu elieito 
+            necessa<lb ed="#V" break="no" n="11"/>rio tenderet in bonum, et 
+            resiste<lb ed="#V" break="no" n="12"/>ret malo, ipsa esset suprema in
+            <lb ed="#V" n="13"/>tota voluntate, quia ipsa 
+            respice<lb ed="#V" break="no" n="14"/>ret finem ultimum, a quo 
+            sumun<lb ed="#V" break="no" n="15"/>tur prima principia praetica; 
+            igl<lb ed="#V" break="no" n="16"/>tur in potestate ejus esset ipsa 
+            vo<lb ed="#V" break="no" n="17"/>luntas, secundum quamlibet vim
+            <lb ed="#V" n="18"/>et portionem ejus inferiorem, ita
+            <lb ed="#V" n="19"/>quod ipsa movente, portio vel vis
+            <lb ed="#V" n="20"/>inferior obediret sibi, et 
+            conformi<lb ed="#V" break="no" n="21"/>ter moveretur; igitur ipsa 
+            impedi<lb ed="#V" break="no" n="22"/>ret omne peecatum in voluntate,
+            <lb ed="#V" n="23"/>quia sicut ipsa necessario 
+            movere<lb ed="#V" break="no" n="24"/>tur, ita tota voluntas necessario
+            <lb ed="#V" n="25"/>moveretur ad ejus motum et ab
+            <lb ed="#V" n="26"/>ea, et si tota voluntas esset 
+            re<lb ed="#V" break="no" n="27"/>cta, nullum peecatum esset in 
+            vo<lb ed="#V" break="no" n="28"/>luntate.
+          </p>
+          <p>
+            <lb ed="#V" n="29"/>Contra aliud (c) de conscientia
+            <lb ed="#V" n="30"/>arguitur primo, quia habitus 
+            ap<lb ed="#V" break="no" n="31"/>petitivus non generatur ex uno
+            <lb ed="#V" n="32"/>actu;sed ex uno syllogismo 
+            practi<lb ed="#V" break="no" n="33"/>co, dedueendo evidenter aiiquid
+            <lb ed="#V" n="34"/>conclusum ex primis principiis
+            <lb ed="#V" n="35"/>practicis fit conscientia; igitur non
+            <lb ed="#V" n="36"/>est habitus appetitivus acquisitus.
+            <lb ed="#V" n="37"/>Patet etiam quod non est innatus,
+            <lb ed="#V" n="38"/>neque portio, nec vis.
+          </p>
+          <p>
+            <lb ed="#V" n="39"/>Praeterea (d) quod matum est
+            <lb ed="#V" n="40"/>causari ab aliqua causa, non 
+            po<lb ed="#V" break="no" n="41"/>test causari ab alia nisi virtualiter
+            <lb ed="#V" n="42"/>contineat perfectionem illius 
+            eau<lb ed="#V" break="no" n="43"/>s? ; habitus voluntatis natus est
+            <lb ed="#V" n="44"/>causarij ab actu voluntatis. sicut a
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>propria causa ;igitur non potest
+            <lb ed="#V" n="46"/>causari ab alio actu, nisi iste actus
+            <lb ed="#V" n="47"/>contineat in se virtualiter actum
+            <lb ed="#V" n="48"/>voluntatis. Sed actus intellectus
+            <lb ed="#V" n="49"/>non potest continere in se 
+            virtuali<lb ed="#V" break="no" n="50"/>ter actum voluntatis secundum 
+            is<lb ed="#V" break="no" n="51"/>tum, quia actus voluntatis est 
+            per<lb ed="#V" break="no" n="52"/>fectior; igitur non potest 
+            intelle<lb ed="#V" break="no" n="53"/>clus per actum suum causare in
+            <lb ed="#V" n="54"/>voluntate tale pondus, quod sit
+            <lb ed="#V" n="55"/>quasi habitus voluntatis.
+          </p>
+          <p>
+            <lb ed="#V" n="56"/>Praeterea, (e) aut potest voluntas
+            <lb ed="#V" n="57"/>istud pondus non recipere, et tunc
+            <lb ed="#V" n="58"/>intellectus non erit causa ejus 
+            suf<lb ed="#V" break="no" n="59"/>fielens ; causa enim sufficiente
+            <lb ed="#V" n="60"/>agente sequitur effectus, maxime
+            <lb ed="#V" n="61"/>quando passivum est debite 
+            appro<lb ed="#V" break="no" n="62"/>ximatum. Aut non potest non 
+            reci<lb ed="#V" break="no" n="63"/>pere, et tunc stante illa 
+            considera<lb ed="#V" break="no" n="64"/>t1one-actuali in ratione, non potest
+            <lb ed="#V" n="65"/>voluntas istud pondus deponere,
+            <lb ed="#V" n="66"/>quia non minorem necessitatem
+            <lb ed="#V" n="67"/>habet ratio in conservando pondus
+            <lb ed="#V" n="68"/>causatum, quam in causando.
+          </p>
+          <p>
+            <lb ed="#V" n="69"/>Praeterea, aut necesse est 
+            volun<lb ed="#V" break="no" n="70"/>tatem agere secundum illud 
+            pon<lb ed="#V" break="no" n="71"/>dus datum, aut non. Si sic, igitur
+            <lb ed="#V" n="72"/>non est libera, quia agens hujus
+            <lb ed="#V" n="73"/>ponderis est. naturalis causa ; 
+            igi<lb ed="#V" break="no" n="74"/>tur et effectus ejus erit forma
+            <lb ed="#V" n="75"/>naturalis ; igitur necessario agens
+            <lb ed="#V" n="76"/>secundum illud pondus, non 
+            libe<lb ed="#V" break="no" n="77"/>re agit, quia non est in potestate
+            <lb ed="#V" n="78"/>ejus slc, vel aliter agere. Si non
+            <lb ed="#V" n="79"/>necesse est agere secundum istud
+            <lb ed="#V" n="80"/>pondus, quod etiam videtur 
+            vel<lb ed="#V" break="no" n="81"/>le Apostolus «d Roman. secundum
+            <lb ed="#V" n="82"/>illam Gloss. quiquid est. contra. 
+            cons<lb ed="#V" break="no" n="83"/>eentiam, etc. ex quo patet quod
+            <lb ed="#V" n="84"/>peecatum aliquod potest 
+            commit<lb ed="#V" break="no" n="85"/>ti contra conseientiam, et tunc 
+            se<lb ed="#V" break="no" n="86"/>quitur, qued stante conscientia
+            <lb ed="#V" n="87"/>perfecta, potest voluntas velle 
+            op<lb ed="#V" break="no" n="88"/>Dosifum eius, quod dictatur se-
+            <pb ed="#V" n="412"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>eundum illara, et ita nunquam
+            <lb ed="#V" n="2"/>per acetum voluntatis 
+            corrumpe<lb ed="#V" break="no" n="3"/>tur iste habitus; quod videtur 
+            ab<lb ed="#V" break="no" n="4"/>surdum (f), ponendo quod sit 
+            ha<lb ed="#V" break="no" n="5"/>bitus voluntatis.
+          </p>
+          <!--</div>
+            <div alias="scotus-l2d39q2-p3">-->
+          <p>
+            <lb ed="#V" n="80" type="fixed=414"/>SCHOLIUM.
+          </p>
+          <p>
+            <lb ed="#V" n="81"/>Resolvit synderesin, si est aliquid praeter
+            <lb ed="#V" n="82"/>potentiam, quo elieiatur actus, esse habitum
+            <lb ed="#V" n="83"/>principiorum practicorum, ut quod summum
+            <lb ed="#V" n="84"/>bonum sit diligendum, malum e contra ; et
+            <lb ed="#V" n="85"/>sic ad intellectum spectat ; similiter 
+            cons<lb ed="#V" break="no" n="86"/>cientiam esse habitum conclusionum 
+            fpra<lb ed="#V" break="no" n="87"/>etiearum, cui eonformatur electio recta.
+            <pb ed="#V" n="415"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Bassol. Leuch. et Tartar. hic secundum 
+            men<lb ed="#V" break="no" n="2"/>tem doctoris, putant ex pluribus assensibus
+            <lb ed="#V" n="3"/>necessariis circa principia praetiea generari
+            <lb ed="#V" n="4"/>habitum.
+          </p>
+          <p>
+            <lb ed="#V" n="5"/>Ad quaestiones istas (g), Si 
+            syn<lb ed="#V" break="no" n="6"/>deresis ponatur aliquid habens
+            <lb ed="#V" n="7"/>actum elicitum semper necessario
+            <lb ed="#V" n="8"/>tendentem in actum justum et
+            <lb ed="#V" n="9"/>resistentem peccato,cum nihil tale
+            <lb ed="#V" n="10"/>ponatur in voluntate, non potest
+            <lb ed="#V" n="11"/>ibi poni; igitur est in intellectu ;
+            <lb ed="#V" n="12"/>et si sic, non potest aliud poni
+            <lb ed="#V" n="13"/>quam habitus principiorum, qui
+            <lb ed="#V" n="14"/>semper est rectus, quia ex ratione
+            <lb ed="#V" n="15"/>terminorum virtute luminis 
+            intel<lb ed="#V" break="no" n="16"/>lectus naturalis, statim intellectus
+            <lb ed="#V" n="17"/>acquieseit illis; et quantum (h) est
+            <lb ed="#V" n="18"/>tunc ex parte intellectus, liberum
+            <lb ed="#V" n="19"/>arbitrium natum est concorditer
+            <lb ed="#V" n="20"/>velle istis principiis,licet, prout 
+            de<lb ed="#V" break="no" n="21"/>ficit reliqua causa partialis, libere
+            <lb ed="#V" n="22"/>non velit, quia non est ibi aliqua
+            <lb ed="#V" n="23"/>necessitas.
+          </p>
+          <p>
+            <lb ed="#V" n="24"/>(i) Secundum hoc etiam  
+            con<lb ed="#V" break="no" n="25"/>Scientia potest poni habitus 
+            pro<lb ed="#V" break="no" n="26"/>prius eonelusionis praoetics, 
+            se<lb ed="#V" break="no" n="27"/>cundum cujus actum nata est
+            <lb ed="#V" n="28"/>conformari electio recte in 
+            agi<lb ed="#V" break="no" n="29"/>bilibus, et ita dicitur stimulare ad
+            <lb ed="#V" n="30"/>bonum, inquantum liberum 
+            arbi<lb ed="#V" break="no" n="31"/>trium fotum habet unam causam
+            <lb ed="#V" n="32"/>partialem . recte dispositam, et
+            <lb ed="#V" n="33"/>sequeretur recta bona volitio, nisi
+            <lb ed="#V" n="34"/>esset defectus alterius causa 
+            par<lb ed="#V" break="no" n="35"/>tialis concurrentis, scilicet. 
+            volun<lb ed="#V" break="no" n="36"/>tatis.
+          </p>
+          <p>
+            <lb ed="#V" n="37"/>Ad primum (k) argumentum 
+            di<lb ed="#V" break="no" n="38"/>.60, quod remurmurat ostensive,
+            <lb ed="#V" n="39"/>quia ostendit bonum esse 
+            volen<lb ed="#V" break="no" n="40"/>dum, et in hoc est occasio 
+            remur<lb ed="#V" break="no" n="41"/>qurandi contra malum.
+          </p>
+          <p>
+            <lb ed="#V" n="42"/>Ad aliud dico, (l) quod voluntas,
+            <lb ed="#V" n="43"/>quae est potentia libere agens, non
+            <lb ed="#V" n="44"/>neeessario vult commodum, sicut
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>nee necessario vult justum actu
+            <lb ed="#V" n="46"/>elieito ; tamen si ista una potentia
+            <lb ed="#V" n="47"/>consideratur, ut habet affectionem
+            <lb ed="#V" n="48"/>commodi tantum, et non ut habet
+            <lb ed="#V" n="49"/>affectionem  justitiee, id est, 
+            in<lb ed="#V" break="no" n="50"/>quantum est appetitus non liber,
+            <lb ed="#V" n="51"/>non esset in ejus potestate sic non
+            <lb ed="#V" n="52"/>velle commodum, quia sic praeeise
+            <lb ed="#V" n="53"/>esset appetitus naturalis naturae
+            <lb ed="#V" n="54"/>intellectualis, non liber, sicut 
+            ap<lb ed="#V" break="no" n="55"/>petitus bruti est appetitus 
+            natura<lb ed="#V" break="no" n="56"/>lis naturae sensitive.
+          </p>
+          <p>
+            <lb ed="#V" n="57"/>Dico igitur, quod illa propositio
+            <lb ed="#V" n="58"/>Anselmi: commoda non velle nequit,
+            <lb ed="#V" n="59"/>debet intelligi non de tota potentia,
+            <lb ed="#V" n="60"/>quae modo libere potest non velle, ,
+            <lb ed="#V" n="61"/>non tantum commoda, sed etiam !
+            <lb ed="#V" n="62"/>justa, quia libere: potest - haec et
+            <lb ed="#V" n="63"/>illa velle et non velle, sed debet 
+            in<lb ed="#V" break="no" n="64"/>telligi de illa inquantum praecise
+            <lb ed="#V" n="65"/>affecta affectione commodi,hoc est,
+            <lb ed="#V" n="66"/>ut considerata sub ratione talis
+            <lb ed="#V" n="67"/>appetitus, non tamen ineludendo
+            <lb ed="#V" n="68"/>in appetitu tali libertatem; sed hoc
+            <lb ed="#V" n="69"/>modo nullum actum elicit in nobis;
+            <lb ed="#V" n="70"/>ideo dia jams solvendog 1 gu0d
+            <lb ed="#V" n="71"/>synderesis est aliquid habens 
+            ac<lb ed="#V" break="no" n="72"/>tum elieitum.
+          </p>
+          <p>
+            <lb ed="#V" n="73"/>Per idem ad tertium, quod 
+            vo<lb ed="#V" break="no" n="74"/>luntas naturalis, ut necessario
+            <lb ed="#V" n="75"/>tendit in volitum, non habet 
+            ac<lb ed="#V" break="no" n="76"/>tum elicitum circa illud, sed ipsa
+            <lb ed="#V" n="77"/>est tantum inclinatio quaedam in
+            <lb ed="#V" n="78"/>tali natura ad perfectionem sibi
+            <lb ed="#V" n="79"/>maxime convenientem, et ista 
+            in<lb ed="#V" break="no" n="80"/>elinatio necessario est in natura,
+            <lb ed="#V" n="81"/>licet actus eonformis huie 
+            inclina<lb ed="#V" break="no" n="82"/>tioni et natura non necessario 
+            eli<lb ed="#V" break="no" n="83"/>ciatur. Actus enim non elicitur,
+            <lb ed="#V" n="84"/>sive conformis, qui dicatur 
+            natu<lb ed="#V" break="no" n="85"/>ralis, sive difformis, qui dicatur
+            <lb ed="#V" n="86"/>contra naturam, nisi a voluntate
+            <lb ed="#V" n="87"/>libera, qua quantumcumque velit
+            <lb ed="#V" n="88"/>oppositum eius, ad quod est incli-
+            <pb ed="#V" n="416"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>natio, nihil minus est necessaria
+            <lb ed="#V" n="2"/>illa inelinatio ad illud ad quod 
+            in<lb ed="#V" break="no" n="3"/>clinat, quia stat, stante natura,
+          </p>
+          <p>
+            <lb ed="#V" n="4"/>Ad ultimum dico, quod hae sola
+            <lb ed="#V" n="5"/>natura est libera, et habens 
+            mo<lb ed="#V" break="no" n="6"/>dum agendi superiorem omni alia
+            <lb ed="#V" n="7"/>natura creata.
+          </p>
+          <p>
+            <lb ed="#V" n="8"/>Ad argumenta (m) secundae 
+            quae<lb ed="#V" break="no" n="9"/>stionis dico, quod habitus 
+            intelle<lb ed="#V" break="no" n="10"/>ctus practici dicuntur boni vel
+            <lb ed="#V" n="11"/>mali, propter convenientiam 
+            eo<lb ed="#V" break="no" n="12"/>rum ad voluntatem, sicut e 
+            conver<lb ed="#V" break="no" n="13"/>so, voluntas potest dici recta vel
+            <lb ed="#V" n="14"/>curva, propter convenientiam ejus
+            <lb ed="#V" n="15"/>ad actum rectum vel non rectum
+            <lb ed="#V" n="16"/>speeulativum, qui est. formaliter
+            <lb ed="#V" n="17"/>in intellectu, tamen bonitas est
+            <lb ed="#V" n="18"/>voluntatis, sicut, rectitudo 
+            intelle<lb ed="#V" break="no" n="19"/>ctus, sed bonitas magis 
+            transumi<lb ed="#V" break="no" n="20"/>tur ad intellectum practicum quam
+            <lb ed="#V" n="21"/>speculativum.
+          </p>
+          <p>
+            <lb ed="#V" n="22"/>Ad aliud responderi potest illud
+            <lb ed="#V" n="23"/>Philosophi.7. Ethicorum, cap. 3. quod
+            <lb ed="#V" n="24"/>in passionibus existentes quidam
+            <lb ed="#V" n="25"/>dicunt verba snigmatica, sciunt
+            <lb ed="#V" n="26"/>autem nequaquam; et ita posset
+            <lb ed="#V" n="27"/>concedi quod simpliciter sciens
+            <lb ed="#V" n="28"/>scientia practica, non tantum 
+            sei<lb ed="#V" break="no" n="29"/>ens dicere verba, est 
+            conscientia<lb ed="#V" break="no" n="30"/>tus, et magis sciens magis 
+            consci<lb ed="#V" break="no" n="31"/>entiatus; et. haec maxime videtur
+            <lb ed="#V" n="32"/>debere dici ab illo cujus opinio
+            <lb ed="#V" n="33"/>est jam improbata, quia 
+            secun<lb ed="#V" break="no" n="34"/>dum eum, in eodem instanti 
+            tem<lb ed="#V" break="no" n="35"/>poris, in quo est voluntas mala,
+            <lb ed="#V" n="36"/>ratio exc:zecatur, ut sic nullus 
+            ha<lb ed="#V" break="no" n="37"/>beat minus de conseientia, etiamsi
+            <lb ed="#V" n="38"/>pertineat ad voluntatem ; est 
+            igi<lb ed="#V" break="no" n="39"/>tur argumentum commune Sibi
+            <lb ed="#V" n="40"/>sicut alii parti, et solvi potest
+            <lb ed="#V" n="41"/>sicut modo praedicto.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

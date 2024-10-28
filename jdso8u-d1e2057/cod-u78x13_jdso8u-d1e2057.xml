@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2024-10-28">October 28, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x13">Vives, Paris, 1893, volume 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-10-28" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="248-r"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e2057"><!-- jdso8u-b2d27q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum gratia sit virtus</head>
+        <p>
+          <lb ed="#V" n="38" type="fixed=247"/>QUAESTIO UNICA.
+          <lb ed="#V" n="39"/>Utrum gratia sit virtus ?
+        </p>
+        <p>
+          <lb ed="#V" n="40"/>Alensis 3. p. 69.2?n. 2. art. 6. D. Bonav. hic art. 1.
+          <lb ed="#V" n="41"/>guo Echard. art. 4279.4. e1-3. D; Thoi: 1.2.
+          <lb ed="#V" n="42"/>q. 110. art. 3. Henric. quodl. 4. q. 10. et quodl.
+          <lb ed="#V" n="43"/>O q. 42. Vesa T. super Concil. c. 25. Bellarm.
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="44"/>i, 1. de lib, arb. c. 6. et T, Vasq. 1. 2. d. 198.
+          <lb ed="#V" n="45"/>Durand. A?c q. 4, Altisid. 2. tract. 2. q. 2.
+        </p>
+        <p>
+          <lb ed="#V" n="46"/>Quaero circa distinctionem 
+          vige<lb ed="#V" break="no" n="47"/>simam septimam, in qua Magister
+          <lb ed="#V" n="48"/>agit de virtute, inquirendo de ipsa :
+          <lb ed="#V" n="49"/>Utrum gratia sit virtus ? Quod
+          <lb ed="#V" n="50"/>non, quia sic se habet lumen 
+          su<lb ed="#V" break="no" n="51"/>pernaturale respectu virtutum
+          <lb ed="#V" n="52"/>gratuitarum, sicut lumen naturale
+          <lb ed="#V" n="53"/>respectu virtutum naturalium; sed
+          <lb ed="#V" n="54"/>lumen naturale non est virtus 
+          na<lb ed="#V" break="no" n="55"/>turalis; ergo nec gratia, qua est
+          <lb ed="#V" n="56"/>lumen supernaturale, est virtus
+          <lb ed="#V" n="57"/>supernaturalis.
+        </p>
+        <p>
+          <lb ed="#V" n="58"/>Contra, gratia est habitus ex
+          <lb ed="#V" n="59"/>praecedenti quaestione, et non 
+          vi<lb ed="#V" break="no" n="60"/>tium; ergo est habitus, qui est
+          <lb ed="#V" n="61"/>virtus.
+        </p>
+        <!--</div>
+          <div alias="scotus-l2d27q1-p2">-->
+        <p>
+          <lb ed="#V" n="62" type="fixed=247"/>SCHOLIUM.
+        </p>
+        <p>
+          <lb ed="#V" n="63"/>Opinio Henriei et D. Thome gratiam ita se
+          <lb ed="#V" n="64"/>habere ad tres virtutes Theologieas, sicut 
+          lu<lb ed="#V" break="no" n="65"/>men naturale ad aaequisitas, vel sicut anima
+          <lb ed="#V" n="66"/>ad suas potentias, quibus est idem. Refutatur
+          <lb ed="#V" n="67"/>primo, quia sic non daretur fides informis.
+          <lb ed="#V" n="68"/>Secundo, ex Henrico manerent illae tres 
+          vir<lb ed="#V" break="no" n="69"/>tutes in patria.
+        </p>
+        <p>
+          <lb ed="#V" n="70"/>Opinio fuit hic (a) aliquando,
+          <lb ed="#V" n="71"/>gcratia est quoddam lumen 
+          super<lb ed="#V" break="no" n="72"/>naturale, se habens ad virtutes.
+          <lb ed="#V" n="73"/>Theologicas, sicut lumen naturale
+          <lb ed="#V" n="74"/>ad virtutes acquisitas, sicut anima
+          <lb ed="#V" n="75"/>ponitur idem suis potentiis; vel
+          <lb ed="#V" n="76"/>ergo gratia esset radix earum, vel
+          <lb ed="#V" n="77"/>illae tres perficerent in ordine ad
+          <lb ed="#V" n="78"/>lumen supernaturale, quod est
+          <lb ed="#V" n="79"/>oratia, sicut virtutes  acquisitae
+          <lb ed="#V" n="80"/>perficiunt in ordine ad lumen 
+          na<lb ed="#V" break="no" n="81"/>turale.
+        </p>
+        <p>
+          <lb ed="#V" n="82"/>Sed ex hoc sequeretur (b) quod
+          <lb ed="#V" n="83"/>fides non posset manere informis,
+          <lb ed="#V" n="84"/>quia non posset perficere, non 
+          ma<lb ed="#V" break="no" n="85"/>nente illo lumine in ordine ad
+          <lb ed="#V" n="86"/>quod perficit, sicut nec virtus ac-
+          <pb ed="#V" n="248"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>quisita potest manere virtus, non
+          <lb ed="#V" n="2"/>manente habitudine ejus naturali
+          <lb ed="#V" n="3"/>ad illud quod respicit, ut ad lumen
+          <lb ed="#V" n="4"/>quod est prudentia.
+        </p>
+        <p>
+          <lb ed="#V" n="5"/>Et si dicatur, quod est assignare
+          <lb ed="#V" n="6"/>gradus in gratia, et secundum 
+          gra<lb ed="#V" break="no" n="7"/>dum inferiorem est fides et spes, et
+          <lb ed="#V" n="8"/>secundum gradum superiorem 
+          me<lb ed="#V" break="no" n="9"/>retur nomen charitatis, et ita 
+          infe<lb ed="#V" break="no" n="10"/>rior potest manere sine superiori,
+          <lb ed="#V" n="11"/>et hoc modo fides et spes manent
+          <lb ed="#V" n="12"/>sine charitate ; contra hoc, eadem
+          <lb ed="#V" n="13"/>essentia non potest ita 
+          diversimo<lb ed="#V" break="no" n="14"/>de perficere potentias anime. 
+          Se<lb ed="#V" break="no" n="15"/>cundo etiam videtur quod istae tres
+          <lb ed="#V" n="16"/>virtutes Theologie: essent in 
+          pa<lb ed="#V" break="no" n="17"/>tria, manebit enim tunc perfecta
+          <lb ed="#V" n="18"/>eratia, et ita omnes virtutes 
+          se<lb ed="#V" break="no" n="19"/>cundum illam opinionem.
+        </p>
+        <!--</div>
+          <div alias="scotus-l2d27q1-p3">-->
+        <p>
+          <lb ed="#V" n="54" type="fixed=248"/>SCHOLIUM.
+        </p>
+        <p>
+          <lb ed="#V" n="55"/>Gratiam et charitatem esse unum 
+          eum<lb ed="#V" break="no" n="56"/>demque habitum, quia eosdem habent 
+          etfe<lb ed="#V" break="no" n="57"/>etus, nec multiplicanda sunt entia sine 
+          ne<lb ed="#V" break="no" n="58"/>cessitate. Et explicatur Magister in eo quod
+          <lb ed="#V" n="59"/>videtur 1. d. 17. negare habitum charitatis,
+          <lb ed="#V" n="60"/>quia forte negavit, distinctum a gratia, per
+          <lb ed="#V" n="61"/>quam Spiritus Sanetus inhabitat animam.
+          <lb ed="#V" n="62"/>Ita tenent Alens. 3. p. q. 3. m. 2. art. 4. 
+          Al<lb ed="#V" break="no" n="63"/>bert.-2.:d. 20. art. 3. Major q..1. /'Gabriel: ibi
+          <lb ed="#V" n="64"/>Henriec. quodl. 4. q. 10. Bassol. 2. d. 28. 
+          Piti<lb ed="#V" break="no" n="65"/>gian. 3. d. 27. art. 11. Vasquez, Bellarm.
+          <lb ed="#V" n="66"/>Riehard. Vega citat1. Rada.2. tom. controver.
+          <lb ed="#V" n="67"/>Tisart
+        </p>
+        <p>
+          <lb ed="#V" n="68"/>Ideo alia est opinio, qua dicit
+          <lb ed="#V" n="69"/>quod gratia formaliter est virtus,
+          <lb ed="#V" n="70"/>quae est charitas; et quaecumque
+          <lb ed="#V" n="71"/>excellentiae attribuuntur gratis
+          <lb ed="#V" n="72"/>et charitati, et e converso; 
+          utra<lb ed="#V" break="no" n="73"/>que enim formaliter sequaliter 
+          di<lb ed="#V" break="no" n="74"/>vidit inter filios regni et 
+          perditi<lb ed="#V" break="no" n="75"/>onis, 15. de Civit. cap. 18. utraque
+          <lb ed="#V" n="76"/>est etiam forma virtutis, et neutra
+          <lb ed="#V" n="77"/>potest esse informis ; utraque
+          <lb ed="#V" n="78"/>etiam conjungit ultimo fini 
+          perfe<lb ed="#V" break="no" n="79"/>cta conjunctione, qualis potest
+          <lb ed="#V" n="80"/>esse in via; et si poneretur 
+          distin<lb ed="#V" break="no" n="81"/>cta, altera superflueret, quia 
+          reli<lb ed="#V" break="no" n="82"/>qua sufficeret. Et secundum haec
+          <lb ed="#V" n="83"/>potest teneri opinio Magistri, 
+          sic<lb ed="#V" break="no" n="84"/>ut tenebatur dist. 17. primi, quod
+          <lb ed="#V" n="85"/>Spiritus sanctus, non per alium.
+          <lb ed="#V" n="86"/>habitum distinctum a charitate,
+          <lb ed="#V" n="87"/>movet voluntatem ad diligendum
+          <pb ed="#V" n="249"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>Deum meritorie, et distinctum ab
+          <lb ed="#V" n="2"/>illo habitu quo animam inhabitat,
+          <lb ed="#V" n="3"/>qui est gratia, et ipsa est charitas;
+          <lb ed="#V" n="4"/>et eodem habitu quo Spiritus 
+          san<lb ed="#V" break="no" n="5"/>ctus inhabitat animam, inclinatur
+          <lb ed="#V" n="6"/>voluntas in suum actum 
+          merito<lb ed="#V" break="no" n="7"/>rium; non sic autem eodem habitu
+          <lb ed="#V" n="8"/>quo Spiritus sanctus inhabitat,
+          <lb ed="#V" n="9"/>credit omnia et sperat, sed aliis
+          <lb ed="#V" n="10"/>habitibus imperfectis, quia actus
+          <lb ed="#V" n="11"/>istorum habituum requirunt 
+          im<lb ed="#V" break="no" n="12"/>perfectionem.
+        </p>
+        <p>
+          <lb ed="#V" n="13"/>Sed ex hoc videtur sequi 
+          distin<lb ed="#V" break="no" n="14"/>ctio inter gratiam et charitatem,
+          <lb ed="#V" n="15"/>quia charitas est perfectio sim 
+          pli<lb ed="#V" break="no" n="16"/>citer, alias enim non formaliter
+          <lb ed="#V" n="17"/>competeret Deo, qui secundum
+          <lb ed="#V" n="18"/>Joannem est charitas; gratia 
+          au<lb ed="#V" break="no" n="19"/>tem non est perfectio simpliciter,
+          <lb ed="#V" n="20"/>nec formaliter ponitur in Deo;
+          <lb ed="#V" n="21"/>ergo, etc.
+        </p>
+        <p>
+          <lb ed="#V" n="22"/>Respondeo, charitas dicitur, qua
+          <lb ed="#V" n="23"/>habens eam habet Deum charum,
+          <lb ed="#V" n="24"/>ita quod respieit Deum non in 
+          ra<lb ed="#V" break="no" n="25"/>tione diligentis, sed in ratione 
+          dili<lb ed="#V" break="no" n="26"/>v]bilis; gratia est, qua Deus habet
+          <lb ed="#V" n="27"/>aliquem gratum, ita quod ipsa
+          <lb ed="#V" n="28"/>respieit Deum aceeptantem sivc
+          <lb ed="#V" n="29"/>diligentem, non autem dilectum ;
+          <lb ed="#V" n="30"/>non autem dicitur gratia 
+          quod<lb ed="#V" break="no" n="31"/>cumque propter quod Deus diligit,
+          <lb ed="#V" n="32"/>quia tunc essentia divina in Filio
+          <lb ed="#V" n="33"/>posset die! gratia, quia propter
+          <lb ed="#V" n="34"/>eam diligit Filium. Sed illud pro:
+          <lb ed="#V" n="35"/>pter quod Deus acceptat habentem,
+          <lb ed="#V" n="36"/>ut dignum beatitudine, dignitate,
+          <lb ed="#V" n="37"/>qua est in correspondentia meriti
+          <lb ed="#V" n="38"/>ad praemium, illud dicitur gratia,
+          <lb ed="#V" n="39"/>et ita aliquam imperfectionem 
+          in<lb ed="#V" break="no" n="40"/>cludit illud quod est gratia, quia
+          <lb ed="#V" n="41"/>talis dignitas aliquam 
+          impertfecti<lb ed="#V" break="no" n="42"/>onem ponit in digno, quia non
+          <lb ed="#V" n="43"/>est per se beatus.
+        </p>
+        <p>
+          <lb ed="#V" n="44"/>Sic ergo possumus concedere.
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>quod licet. idem absolutum sit in
+          <lb ed="#V" n="46"/>anima, per quod anima diligit
+          <lb ed="#V" n="47"/>Deum ut objectum, et per quod
+          <lb ed="#V" n="48"/>acceptatur speciali acceptatione a
+          <lb ed="#V" n="49"/>Deo, et ordinatur ad beatitudinem,
+          <lb ed="#V" n="50"/>tamen alia et alia ratio est in isto
+          <lb ed="#V" n="51"/>absoluto, inquantum sic et sic
+          <lb ed="#V" n="52"/>respicit Deum; et una ratio prima,
+          <lb ed="#V" n="53"/>scilicet principalis, competit sibi
+          <lb ed="#V" n="54"/>inquantum est perfectio 
+          simpliei<lb ed="#V" break="no" n="55"/>ter;alia competit sibi ut est 
+          per<lb ed="#V" break="no" n="56"/>fectio limitata; et ita appropriate
+          <lb ed="#V" n="57"/>secundum primam est charitas,
+          <lb ed="#V" n="58"/>quoad secundam dicitur gratia, et
+          <lb ed="#V" n="59"/>ut sic omnis gratia est charitas,
+          <lb ed="#V" n="60"/>licet non e converso.
+        </p>
+        <p>
+          <lb ed="#V" n="61"/>Sed nec tamen ista distinctio
+          <lb ed="#V" n="62"/>rationum, vel non convertibilitas
+          <lb ed="#V" n="63"/>concludit, quod ubi concurrunt in
+          <lb ed="#V" n="64"/>eadem anima gratia et charitas,
+          <lb ed="#V" n="65"/>quod sint distincta secundum 
+          for<lb ed="#V" break="no" n="66"/>mam. Sieut licet sapientia (e) sit
+          <lb ed="#V" n="67"/>perfectio simpliciter, et sapientia
+          <lb ed="#V" n="68"/>talis sit perfectio limitata, ubi
+          <lb ed="#V" n="69"/>tamen eoneurrunt, non sequitur
+          <lb ed="#V" n="70"/>quod hae ab illa sit forma 
+          distin<lb ed="#V" break="no" n="71"/>cta, vel quod sint distincta 
+          secun<lb ed="#V" break="no" n="72"/>dum formam, et tamen sunt 
+          distin<lb ed="#V" break="no" n="73"/>cta ab invicem formaliter; idem
+          <lb ed="#V" n="74"/>enim est, quod est in intellectu
+          <lb ed="#V" n="75"/>meo seientia, et quod est 
+          acquisi<lb ed="#V" break="no" n="76"/>tum per doctrinam, et tamen in
+          <lb ed="#V" n="77"/>Deo est sapientia, et non aliquis
+          <lb ed="#V" n="78"/>talis habitus limitatus.
+        </p>
+        <p>
+          <lb ed="#V" n="79"/>(d) Differunt etiam in ratione
+          <lb ed="#V" n="80"/>connotati, quia illud absolutum
+          <lb ed="#V" n="81"/>potest considerari ut est habenti
+          <lb ed="#V" n="82"/>principium operandi, et sic non
+          <lb ed="#V" n="83"/>dicit imperfectionem, ot potest
+          <lb ed="#V" n="84"/>esse in Deo, et dicitur charitas.
+          <lb ed="#V" n="85"/>Potest etiam considerari ut 
+          obje<lb ed="#V" break="no" n="86"/>ebm-Derest inm me, prout Deus
+          <lb ed="#V" n="87"/>habet me gratum, et sic determi-
+          <pb ed="#V" n="250"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>nat objectum, et dicitur gratia, est
+          <lb ed="#V" n="2"/>tamen idem re.
+        </p>
+        <p>
+          <lb ed="#V" n="3"/>Ad argumentum, dicendum quod
+          <lb ed="#V" n="4"/>virtutes acquisita morales 
+          perti<lb ed="#V" break="no" n="5"/>ciunt in ordine ad quoddam lumen,
+          <lb ed="#V" n="6"/>quod potest dici prudentia, quae
+          <lb ed="#V" n="7"/>non perficit in ordine ad aliud 
+          lu<lb ed="#V" break="no" n="8"/>men, nisi intellectus agentis, 
+          pru<lb ed="#V" break="no" n="9"/>dentia tamen est virtus; sic in
+          <lb ed="#V" n="10"/>proposito, virtutes supernaturales
+          <lb ed="#V" n="11"/>perfieiunt in ordine ad virtutem,
+          <lb ed="#V" n="12"/>qua est charitas, et illa ulterius in
+          <lb ed="#V" n="13"/>ordine ad finem supernaturalem.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2024-10-28">October 28, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x13">Vives, Paris, 1893, volume 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-10-28" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="329-r"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e2159"><!-- jdso8u-b2d33q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">
+          Utrum peccato originali debeatur sola carentia visionis divinae pro poena
+        </head>
+        <p>
+          <lb ed="#V" n="12" type="fixed=328"/>QUAESTIO UNICA.
+          <lb ed="#V" n="13"/>Utrum peccato originali debeatur tantum
+          <lb ed="#V" n="14"/>poena damni?
+        </p>
+        <p>
+          <lb ed="#V" n="15"/>Alans. 2... 4.:129;. 9m; 40.:D.. Thom. 46:33:72.
+          <lb ed="#V" n="16"/>a. 2. D. Boday. a 3.9.1. Bichard; 2.3. 9.1.:80 2.
+          <lb ed="#V" n="17"/>Rubion. ZEgtd. Durand. Mars. Gab. Ovando, 
+          An<lb ed="#V" break="no" n="18"/>gles h?c. Hen. A?c disp. 27. vocans affirmantes
+          <lb ed="#V" n="19"/>parvulos igne torqueri, parvulorum torlores.
+          <lb ed="#V" n="20"/>Bellarm 6. de statu peccati c. 6. 7. Suarez 3. p.
+          <lb ed="#V" n="21"/>d. 91.8. 6.et d. 50, sec. b. Vasq. 1.2. -d. 4134.
+          <lb ed="#V" n="22"/>Henr. quodl. 6. q. 21.
+        </p>
+        <p>
+          <lb ed="#V" n="23"/>Quaero circa distinctionem 
+          tri<lb ed="#V" break="no" n="24"/>gesimam tertiam, in qua Magister
+          <lb ed="#V" n="25"/>agit de peccati originalis 
+          puniti<lb ed="#V" break="no" n="26"/>one, utrum peccato originali 
+          de<lb ed="#V" break="no" n="27"/>beatur sola carentia visionis 
+          divi<lb ed="#V" break="no" n="28"/>nae pro poena? Quod non, 
+          Augusti<lb ed="#V" break="no" n="29"/>nus in Ench: 29. Firmissime tene, et
+          <lb ed="#V" n="30"/>nullatenus dubites qui sine Sacramento
+          <lb ed="#V" n="31"/>Baptismatis de hoc seculo transeunt,
+          <lb ed="#V" n="32"/>aeterni ignis supplicio puniendos.
+        </p>
+        <p>
+          <lb ed="#V" n="33"/>Praeterea parvuli habebunt 
+          cor<lb ed="#V" break="no" n="34"/>pora passibilia, quia non gloriosa;
+          <lb ed="#V" n="35"/>igitur poterunt pati ab activo eis
+          <lb ed="#V" n="36"/>praesente; ergo abigne. Aut si 
+          di<lb ed="#V" break="no" n="37"/>cis quod praeservabuntur, ne ignis
+          <lb ed="#V" n="38"/>possit in ipsos agere, saltem 
+          vide<lb ed="#V" break="no" n="39"/>tur posse pati poena interiori, 
+          sci<lb ed="#V" break="no" n="40"/>licet famis et sitis, et ita poena
+          <lb ed="#V" n="41"/>sensus.
+        </p>
+        <p>
+          <lb ed="#V" n="42"/>Praeterea, fomes erit in eis non
+          <lb ed="#V" n="43"/>extinctus: ergo poterunt habere
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="44"/>concupiscentias inordinatas 
+          secun<lb ed="#V" break="no" n="45"/>dum eum; poterunt igitur sibi
+          <lb ed="#V" n="46"/>inordinate appetere delectabilia,
+          <lb ed="#V" n="47"/>propter quorum  ablationem et
+          <lb ed="#V" n="48"/>substractionem poterunt tristari,
+          <lb ed="#V" n="49"/>et ita pati poena interiori.
+        </p>
+        <p>
+          <lb ed="#V" n="50"/>Praeterea, habebunt usum 
+          ra<lb ed="#V" break="no" n="51"/>tionis, et cognoscent naturam
+          <lb ed="#V" n="52"/>suam ; ergo poterunt cognoscere
+          <lb ed="#V" n="53"/>se ordinatos ad vitam aeternam ; et
+          <lb ed="#V" n="54"/>cum quilibet habens ordinatum
+          <lb ed="#V" n="55"/>appetitum appetat illam secundum
+          <lb ed="#V" n="56"/>Augustinum 193. Trinit. c. 5. ergo
+          <lb ed="#V" n="57"/>ex certitudine carentice illius 
+          de<lb ed="#V" break="no" n="58"/>siderati poterunt tristari, et ita
+          <lb ed="#V" n="59"/>pati poena interlori.
+        </p>
+        <p>
+          <lb ed="#V" n="60"/>Praeterea, existens in puris 
+          na<lb ed="#V" break="no" n="61"/>turalibus haberet istud damnum ;
+          <lb ed="#V" n="62"/>ergo existens deordinatus per
+          <lb ed="#V" n="63"/>culpam,; cum habeat malitiam
+          <lb ed="#V" n="64"/>quam iste non habet, debet habere
+          <lb ed="#V" n="65"/>poenam quam iste non habet, 
+          alio<lb ed="#V" break="no" n="66"/>quin. culpa «esset. impunita, ^ *et
+          <lb ed="#V" n="67"/>ita non solum damnum erit poena
+          <lb ed="#V" n="68"/>istis, sed aliquid aliud.
+        </p>
+        <p>
+          <lb ed="#V" n="69"/>Oppositum vult Magister in 
+          lit<lb ed="#V" break="no" n="70"/>tera et Augustinus in Ench. quod
+          <lb ed="#V" n="71"/>mitissima poena, etc.
+        </p>
+        <!--</div>
+          <div alias="scotus-l2d33q1-p2">-->
+        <p>
+          <lb ed="#V" n="72" type="fixed=328"/>SCHOLIUM.
+        </p>
+        <p>
+          <lb ed="#V" n="73"/>Damnatos ob solum originale non 
+          habi<lb ed="#V" break="no" n="74"/>turos poenam sensus exterioris, vel 
+          inte<lb ed="#V" break="no" n="75"/>rioris, neque tristitiam voluntatis, quia haec
+          <lb ed="#V" n="76"/>videtur maxima hominis pona, neque 
+          ul<lb ed="#V" break="no" n="77"/>lum acetum inordinatum, e. Majores de 
+          Bap<lb ed="#V" break="no" n="78"/>tism. Florent. sess. ult. Greg. Nazianzen. orat.
+          <lb ed="#V" n="79"/>in lavacrum, Aug. 3. delib. arb. 23. Amb.
+          <lb ed="#V" n="80"/>in epist. Rom. 5.
+        </p>
+        <p>
+          <lb ed="#V" n="81"/>Hic videtur (4) Magistrorum esse
+          <lb ed="#V" n="82"/>sententia, quod damnati pro solo
+          <lb ed="#V" n="83"/>peccato originali nullam habebunt
+          <lb ed="#V" n="84"/>poenam sensus exterioris, puta
+          <lb ed="#V" n="85"/>ignis, quia nullam delectationem .
+          <lb ed="#V" n="86"/>inordinatam habuerunt, cui de-
+          <pb ed="#V" n="329"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>lectationi correspondeat acerbitas
+          <lb ed="#V" n="2"/>ignis affligentis, ut propria poena.
+          <lb ed="#V" n="3"/>Nullam (b) etiam habebunt 
+          inte<lb ed="#V" break="no" n="4"/>riorem, ut tristitiam, quia si
+          <lb ed="#V" n="5"/>tristarentur de statu suo, et 
+          tris<lb ed="#V" break="no" n="6"/>titia secundum Augustinum sit de
+          <lb ed="#V" n="7"/>his, quae nobis invitis accidunt ;
+          <lb ed="#V" n="8"/>ergo Ipsi involuntarie sustinerent
+          <lb ed="#V" n="9"/>statum suum, et vellent 
+          opposi<lb ed="#V" break="no" n="10"/>tum, et ita murmurarent contra
+          <lb ed="#V" n="11"/>dispositionem divinam, et ita 
+          ha<lb ed="#V" break="no" n="12"/>berent inordinatam dispositionem
+          <lb ed="#V" n="13"/>voluntatis, quod videtur 
+          absur<lb ed="#V" break="no" n="14"/>dum. Nam sententia divina est
+          <lb ed="#V" n="15"/>dispositum, quod ubicumque 
+          ceci<lb ed="#V" break="no" n="16"/>derit lignum, ibi erit, in Ecclesiast.
+          <lb ed="#V" n="17"/>igitur cum isti nullam 
+          inordina<lb ed="#V" break="no" n="18"/>tam volitionem habuerunt in isto
+          <lb ed="#V" n="19"/>statu, sequitur quod nullam 
+          tri<lb ed="#V" break="no" n="20"/>stitiam inferiorem habebunt.
+        </p>
+        <p>
+          <lb ed="#V" n="21"/>Praeterea, si tristarentur (c) de
+          <lb ed="#V" n="22"/>carentia beatitudinis etf visionis
+          <lb ed="#V" n="23"/>divinae, cum desperent de ea, quia
+          <lb ed="#V" n="24"/>non habebunt spem; igitur 
+          lrabe<lb ed="#V" break="no" n="25"/>rent poenam gravissimam inter
+          <lb ed="#V" n="26"/>poenas omnium damnatorum, 
+          sci<lb ed="#V" break="no" n="27"/>licet tristitiam ex desperatione.
+        </p>
+        <p>
+          <lb ed="#V" n="28"/>Videtur etiam, (d) quod 
+          simplici<lb ed="#V" break="no" n="29"/>ter major sit poena tristitia 
+          homi<lb ed="#V" break="no" n="30"/>ni, ut distinguitur contra dolorem,
+          <lb ed="#V" n="31"/>quam aliqua poena alia sensus,
+          <lb ed="#V" n="32"/>quia sicut voluntas est magis 
+          appe<lb ed="#V" break="no" n="33"/>titus hominis inquantum homo,
+          <lb ed="#V" n="34"/>quam appetitus sensitivus, ita 
+          quid<lb ed="#V" break="no" n="35"/>quid agit vel patitur secundum 
+          vo<lb ed="#V" break="no" n="36"/>luntatem, simpliciter magis agit
+          <lb ed="#V" n="37"/>et patitur inquantum homo, quam
+          <lb ed="#V" n="38"/>secundum aliquem alium 
+          appeti<lb ed="#V" break="no" n="39"/>tum; et ita simpliciter magis 
+          pati<lb ed="#V" break="no" n="40"/>tur si tristatur quam si doleat, et
+          <lb ed="#V" n="41"/>ita non videtur quod sit ponenda
+          <lb ed="#V" n="42"/>in eis aliqua tristitia.
+        </p>
+        <!--</div>
+          <div alias="scotus-l2d33q1-p3">-->
+        <p>
+          <lb ed="#V" n="25" type="fixed=330"/>SCHOLIUM.
+        </p>
+        <p>
+          <lb ed="#V" n="26"/>Damnatos ob solum originale perfectius
+          <lb ed="#V" n="27"/>nobis cognoscere naturalia, ac aliqualem
+          <lb ed="#V" n="28"/>habere naturalem beatitudinem, ita Lyran.
+          <lb ed="#V" n="29"/>in id Eccles. 4. Feliciorem utroque reputavi
+          <lb ed="#V" n="30"/>etc. dicens esse communem, D. Thom. q. 5.
+          <lb ed="#V" n="31"/>de malo art. 3. dicens quod habebunt omnem
+          <lb ed="#V" n="32"/>perfectionem puerorum in puris naturalibus
+          <lb ed="#V" n="33"/>niorientium, et hio q. 2. a. 3. ait: Deo
+          <lb ed="#V" n="34"/>conjunetos futuros bonorum naturalium
+          <lb ed="#V" n="35"/>communione, et gaudium habituros ex 
+          co<lb ed="#V" break="no" n="36"/>gnitione et dilectione naturalium. Richard.
+          <lb ed="#V" n="37"/>ait plus gaudii habituros quam peccatores
+          <lb ed="#V" n="38"/>hic, simpliciter tamen non habebant 
+          felici<lb ed="#V" break="no" n="39"/>tatem, quia in peccato; cujus oppositum
+          <lb ed="#V" n="40"/>docuerunt Pelagiani.
+        </p>
+        <p>
+          <lb ed="#V" n="41"/>Etsi quaeratur de eis quantum
+          <lb ed="#V" n="42"/>ad cognitionem, sine assertione
+          <lb ed="#V" n="43"/>potest concedi quod, eum non 
+          habe<lb ed="#V" break="no" n="44"/>bunt intellectum impeditum eor-
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>pore eorruptibili in tantum, 
+          quan<lb ed="#V" break="no" n="46"/>tum noster intellectus impeditur
+          <lb ed="#V" n="47"/>in isto corpore, nec etiam erit
+          <lb ed="#V" n="48"/>impedimentum per tormenta, sicut
+          <lb ed="#V" n="49"/>habebunt damnati, poterunt 
+          habe<lb ed="#V" break="no" n="50"/>re cognitionem naturalem rerum,
+          <lb ed="#V" n="51"/>et hoc de novo aquisitam, quia
+          <lb ed="#V" n="52"/>hoc non repugnat immobilitati
+          <lb ed="#V" n="53"/>status eorum, eum hoc etiam non
+          <lb ed="#V" n="54"/>repugnet immobilitati status 
+          bea<lb ed="#V" break="no" n="55"/>torum, quod de novo intelligant
+          <lb ed="#V" n="56"/>aliqua faeta contingentia ; igitur a
+          <lb ed="#V" n="57"/>simili non repugnat  firmitati
+          <lb ed="#V" n="58"/>status eorum, qua est in videndo
+          <lb ed="#V" n="59"/>Verbum, quod de novo intelligant
+          <lb ed="#V" n="60"/>aliquod verum necessarium, quod
+          <lb ed="#V" n="61"/>prius non intellexerunt, et ex uno
+          <lb ed="#V" n="62"/>vero necessario intelligere aliud
+          <lb ed="#V" n="63"/>verum necessarium, et ita possunt
+          <lb ed="#V" n="64"/>addiscere aliqua vera necessaria
+          <lb ed="#V" n="65"/>de necessariis in genere proprio.
+          <lb ed="#V" n="66"/>Ita igitur et isti, cum non habeant
+          <lb ed="#V" n="67"/>ita perfectam cognitionem, et 
+          nul<lb ed="#V" break="no" n="68"/>lam possint recipere, nec sit 
+          veri<lb ed="#V" break="no" n="69"/>simile ponere in eis 
+          impedimen<lb ed="#V" break="no" n="70"/>tum, propter quod istam non 
+          pos<lb ed="#V" break="no" n="71"/>sunt acquirere, videtur probabile
+          <lb ed="#V" n="72"/>concedere quod omnium 
+          naturali<lb ed="#V" break="no" n="73"/>ter cognoseibilium possunt 
+          natura<lb ed="#V" break="no" n="74"/>liter cognitionem habere 
+          excellen<lb ed="#V" break="no" n="75"/>tius quam aliqui habuerunt pro
+          <lb ed="#V" n="76"/>statu isto, et ita aliqualem 
+          beati<lb ed="#V" break="no" n="77"/>tudinem naturalem de Deo cognito
+          <lb ed="#V" n="78"/>in universali poterunt attingere.
+        </p>
+        <!--</div>
+          <div alias="scotus-l2d33q1-p4">-->
+        <p>
+          <lb ed="#V" n="79" type="fixed=330"/>SCHOLIUM.
+        </p>
+        <p>
+          <lb ed="#V" n="80"/>Vel non dandam parvulis Limbi notitiam
+          <lb ed="#V" n="81"/>beatitudinis, qua sunt privati, quia non 
+          de<lb ed="#V" break="no" n="82"/>betur eis, vel si detur eis, quod est verius,
+          <lb ed="#V" n="83"/>quia aderunt judicio Rom. 14. omnes nos 
+          ma<lb ed="#V" break="no" n="84"/>nifestari oportet, etc. et Matth. 25. 
+          congrega<lb ed="#V" break="no" n="85"/>buntur ad eum omnes gentes, et docet cum
+          <lb ed="#V" n="86"/>communi August. 6. contra Julian. 8. et
+          <lb ed="#V" n="87"/>serm. 14. de verbis Apostol. et Gregor. 9.
+          <lb ed="#V" n="88"/>moral. 16, tamen non tristabuntur. quia
+          <pb ed="#V" n="331"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>erunt contenti sua sorte, alias actu 
+          pecca<lb ed="#V" break="no" n="2"/>rent, quod non possunt, Deo eos specialiter
+          <lb ed="#V" n="3"/>protegente ut sint impeceabiles.
+        </p>
+        <p>
+          <lb ed="#V" n="4"/>Sed si quaeratur de cognitione
+          <lb ed="#V" n="5"/>beatitudinis in particulari, utrum
+          <lb ed="#V" n="6"/>illam habeant, vel de ea 
+          tristen<lb ed="#V" break="no" n="7"/>tur? Respondeo, sicut dictum fuit
+          <lb ed="#V" n="8"/>in prima quaestione primi, illa
+          <lb ed="#V" n="9"/>cognitio non est possibilis homini,
+          <lb ed="#V" n="10"/>nisi supernaturaliter elevatur; vel
+          <lb ed="#V" n="11"/>igitur non dabitur illis illa 
+          cogni<lb ed="#V" break="no" n="12"/>tio supernaturalis in partieulari,
+          <lb ed="#V" n="13"/>quia esset eis ad tristitiam, quam
+          <lb ed="#V" n="14"/>non demeruerunt habere, sicut 
+          de<lb ed="#V" break="no" n="15"/>meruit Paganus, propter quod 
+          de<lb ed="#V" break="no" n="16"/>meritum sibicedit cognitio 
+          beati<lb ed="#V" break="no" n="17"/>tudinis in particulari ad poenam
+          <lb ed="#V" n="18"/>gravissimam, ut scilicet tristetur
+          <lb ed="#V" n="19"/>desperans se posse ad istam 
+          per<lb ed="#V" break="no" n="20"/>venire; vel si istam cognitionem
+          <lb ed="#V" n="21"/>in particulari habuerint, non 
+          tris<lb ed="#V" break="no" n="22"/>jabunmnturm «usa erunt contenti de
+          <lb ed="#V" n="23"/>staLu'suo.seientes Deum. de se-ita
+          <lb ed="#V" n="24"/>disposuisse, nec suo actu hoc 
+          ali<lb ed="#V" break="no" n="25"/>quando demeruisse.
+        </p>
+        <p>
+          <lb ed="#V" n="26"/>Ad primum argumentum 
+          res<lb ed="#V" break="no" n="27"/>pondet Divus: Bonaventura, dicens
+          <lb ed="#V" n="28"/>quod Augustinus excessive 
+          loqui<lb ed="#V" break="no" n="29"/>tur de illis poenis, sicut frequenter
+          <lb ed="#V" n="30"/>faciunt Saneti, quia aliqui 
+          dixe<lb ed="#V" break="no" n="31"/>runt eos nullam habere culpam, et
+          <lb ed="#V" n="32"/>ita nullam poenam, quia secundum
+          <lb ed="#V" n="33"/>Philosophum, sicut. in moribus
+          <lb ed="#V" n="34"/>via deveniendi ad medium est 
+          ali<lb ed="#V" break="no" n="35"/>qualiter procedere ultra medium
+          <lb ed="#V" n="36"/>versus extremum, secundo 
+          Ethico<lb ed="#V" break="no" n="37"/>rum, ita frequenter Sancti 
+          extin<lb ed="#V" break="no" n="38"/>guendo contra se hseereses 
+          pullu<lb ed="#V" break="no" n="39"/>lantes, excessive locuti sunt, 
+          vo<lb ed="#V" break="no" n="40"/>lentes declinare ad aliud 
+          extre<lb ed="#V" break="no" n="41"/>mum, etf ita multum ponderandum
+          <lb ed="#V" n="42"/>est contra quos hereticos Saneti
+          <lb ed="#V" n="43"/>loeuti sunt, sicut Augustinus con-
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="44"/>tra Arium, videtur quasi declinare
+          <lb ed="#V" n="45"/>ad Sabelliura, e£. e converso 
+          simi<lb ed="#V" break="no" n="46"/>liter videtur contra Pelagium 
+          de<lb ed="#V" break="no" n="47"/>elinare ad Arium, et e converso.
+        </p>
+        <p>
+          <lb ed="#V" n="48"/>(a) Aliter posset dici, quod 
+          ceter<lb ed="#V" break="no" n="49"/>ni ignis supplicio in sensu 
+          divisio<lb ed="#V" break="no" n="50"/>nis, idest, in illo supplicio, quod
+          <lb ed="#V" n="51"/>est in aeterno igne, sunt eremandi,
+          <lb ed="#V" n="52"/>id est, sunt puniendi poena damni,
+          <lb ed="#V" n="53"/>et non poena sensus aeterni.
+        </p>
+        <p>
+          <lb ed="#V" n="54"/>Ad secundum dicendum quod, 
+          si<lb ed="#V" break="no" n="55"/>cut damnatorum corpora 
+          patien<lb ed="#V" break="no" n="56"/>tur ab aeterno igne, sed non dissol- .
+          <lb ed="#V" n="57"/>ventur, ita isti carebunt perpetua
+          <lb ed="#V" n="58"/>visione Dei supernaturali, sine
+          <lb ed="#V" n="59"/>omni tali passione exteriori; 
+          nul<lb ed="#V" break="no" n="60"/>lam etiam passionem interiorem
+          <lb ed="#V" n="61"/>patientur per quam possint 
+          consu<lb ed="#V" break="no" n="62"/>mi, ita quod ex dispositione divina,
+          <lb ed="#V" n="63"/>corpora illa erunt impassibilia,
+          <lb ed="#V" n="64"/>licet non ex dote impassibilitatis,
+          <lb ed="#V" n="65"/>du quod mee. ab -exira, "Dee- aD
+          <lb ed="#V" n="66"/>intra patientur.
+        </p>
+        <p>
+          <lb ed="#V" n="67"/>Ad aliud de fomite dico, quod 
+          si<lb ed="#V" break="no" n="68"/>cuf, fomes Iste nullum motum 
+          inor<lb ed="#V" break="no" n="69"/>dinatum suscitavit in eis in via
+          <lb ed="#V" n="70"/>ista, ita nec ibi aliquem suaeitabit.
+        </p>
+        <p>
+          <lb ed="#V" n="71"/>Ad aliud dico, quod desiderium
+          <lb ed="#V" n="72"/>naturale non causat tristitiam, 4
+          <lb ed="#V" n="73"/>nisi sit eleetivum. Sed hoc non 
+          vi<lb ed="#V" break="no" n="74"/>detur ponere per se istum magis
+          <lb ed="#V" n="75"/>punitum quam illum, quia sicut
+          <lb ed="#V" n="76"/>non est per se praemium intellectui
+          <lb ed="#V" n="77"/>cognoscere creaturam, sed Deum,
+          <lb ed="#V" n="78"/>ita non videtur per se poena damni
+          <lb ed="#V" n="79"/>intellectui non cognoscere 
+          creatu<lb ed="#V" break="no" n="80"/>ram, sed per se poena est visione
+          <lb ed="#V" n="81"/>Dei privari, et quoad hoc sunt
+          <lb ed="#V" n="82"/>isti ceequales. !
+        </p>
+        <p>
+          <lb ed="#V" n="83"/>Et ideo ad quintum dici potest 
+          <lb ed="#V" n="84"/>sicut dictum est dist. 29. hujus
+          <lb ed="#V" n="85"/>secundi, quod alter punitur, alter 
+          <lb ed="#V" n="86"/>non; alter enim debitor est justi- 
+          <lb ed="#V" n="87"/>tiae aquam aecepit iste et modo
+          <pb ed="#V" n="332"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>non habet, et alter ille cui non
+          <lb ed="#V" n="2"/>datur, non propter aliquam 
+          eul<lb ed="#V" break="no" n="3"/>pam suam et reatum. Sieut si
+          <lb ed="#V" n="4"/>duos primo ex aquo acceptarem
+          <lb ed="#V" n="5"/>eratuite ad aliquem honorem, vel
+          <lb ed="#V" n="6"/>ad aliquod donum accipiendum,
+          <lb ed="#V" n="7"/>postea alter offenderet, per quod
+          <lb ed="#V" n="8"/>demeretur illum honorem, et alter
+          <lb ed="#V" n="9"/>non, tamen non offendenti non 
+          da<lb ed="#V" break="no" n="10"/>tur, non propter aliquod 
+          demeri<lb ed="#V" break="no" n="11"/>tum, sed quia non placeret mihi
+          <lb ed="#V" n="12"/>istum honorem sibi dare. Isti 
+          ve<lb ed="#V" break="no" n="13"/>ro essent insequales, quia alter
+          <lb ed="#V" n="14"/>privatur quia reus, et alter non;
+          <lb ed="#V" n="15"/>tamen de facto nunquam erit 
+          ali<lb ed="#V" break="no" n="16"/>quis in puris naturalibus, quia
+          <lb ed="#V" n="17"/>Deus naturam rationalem, quam
+          <lb ed="#V" n="18"/>fecit, semper producit ad finem, si
+          <lb ed="#V" n="19"/>non fuerit ex parte illius 
+          impedi<lb ed="#V" break="no" n="20"/>mentum vel defectus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

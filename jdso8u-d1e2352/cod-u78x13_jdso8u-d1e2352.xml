@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Scotus">John Duns Scotus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2024-10-28">October 28, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-u78x13">Vives, Paris, 1893, volume 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-10-28" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="497-r"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jdso8u-d1e2352"><!-- jdso8u-b2d44q1 -->
+            <head>Quaestio 1</head>
+            <head type="question-title">Utrum potentia peccandi sit a Deo</head>
+            <p>
+               <lb ed="#V" n="63" type="fixed=496"/>QUAESTIO UNICA.
+<lb ed="#V" n="64"/>Utrum potentia peccandi sit a Deo?
+</p>
+            <p>
+               <lb ed="#V" n="65"/>D.. Thom. 2. d. 44. art. 1 quaest. T: DX (Bons
+<lb ed="#V" n="66"/>art. 4. :quast..1;: Exechard. guest i2rart qup
+<lb ed="#V" n="67"/>Durand. quaest. 1. Gabr. q. 1.
+</p>
+            <p>
+               <lb ed="#V" n="68"/>Quaero circa distinctionem 
+qua<lb ed="#V" break="no" n="69"/>dragesimam quartam et ultimam
+<lb ed="#V" n="70"/>secundi: Utrum potentia peccandi
+<lb ed="#V" n="71"/>sit a Deo? Videtur quod non, 
+secun<lb ed="#V" break="no" n="72"/>dum Anselmum de lib. arbitr. 
+Pos<lb ed="#V" break="no" n="73"/>se peccare non est libertas mec pars  
+li<lb ed="#V" break="no" n="74"/>bertatis; ergo ex hoc, quod liberum
+<lb ed="#V" n="75"/>arbitrium est a Deo, non est ab eo
+<lb ed="#V" n="76"/>potestas peccandi; ergo nullo 
+mo<lb ed="#V" break="no" n="77"/>do est a Deo.
+</p>
+            <p>
+               <lb ed="#V" n="78"/>Contra. Masister addueit in lit-
+<pb ed="#V" n="497"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>tera auctoritates, cap. 2. et allegat
+<lb ed="#V" n="2"/>Paulum ad Roman. 13. ubi vult, quod
+<lb ed="#V" n="3"/>non est potestas nisi a. Deo.
+</p>
+            <!--</div>
+<div alias="scotus-l2d44q1-p2">-->
+            <p>
+               <lb ed="#V" n="4" type="fixed=497"/>SCHOLIUM.
+</p>
+            <p>
+               <lb ed="#V" n="5"/>Resolvit potentiam peccandi sumptam pro
+<lb ed="#V" n="6"/>absoluto ejus, esse a Deo, quia sic est ipsa
+<lb ed="#V" n="7"/>voluntas; similiter etiam dicendum si 
+suma<lb ed="#V" break="no" n="8"/>tur pro respectu ad substratum peccati, sed
+<lb ed="#V" n="9"/>ut dicit respectum ad formale peccati, non
+<lb ed="#V" n="10"/>esta Deo, quia formale ejus nihil est.
+</p>
+            <p>
+               <lb ed="#V" n="11"/>Respondeo, (a3) aut potentia 
+pec<lb ed="#V" break="no" n="12"/>candi dicit immediatum ordinem
+<lb ed="#V" n="13"/>ad acetum peccandi; aut dicit ipsum
+<lb ed="#V" n="14"/>fundamentum hujus ordinis, 
+rati<lb ed="#V" break="no" n="15"/>one cujus, habens illud, dicitur 
+po<lb ed="#V" break="no" n="16"/>tens peccare.
+</p>
+            <p>
+               <lb ed="#V" n="17"/>Si primo modo, aut ordo est ad
+<lb ed="#V" n="18"/>actum  substratum — deformitati,
+<lb ed="#V" n="19"/>aut ad illam deformitatem, qua
+<lb ed="#V" n="20"/>est musobu. SI primo modo; ille
+<lb ed="#V" n="21"/>ordo est a Deo, sicut et utrumque
+<lb ed="#V" n="22"/>extremum ' ordinis, 'et ad. illud
+<lb ed="#V" n="23"/>etiam substratum Deus habet 
+po<lb ed="#V" break="no" n="24"/>tentiam, quia ipse illud causat, et
+<lb ed="#V" n="25"/>non tantum voluntas creata, 
+se<lb ed="#V" break="no" n="26"/>cundum unam opinionem. Si 
+secun<lb ed="#V" break="no" n="27"/>do modo, iste ordo ad peccare nihil
+<lb ed="#V" n="28"/>est, sicut et terminus, scilicet 
+pec<lb ed="#V" break="no" n="29"/>care nihil est, et ideo non est
+<lb ed="#V" n="30"/>a. Deo.
+</p>
+            <p>
+               <lb ed="#V" n="31"/>Si autem loquamur de 
+funda<lb ed="#V" break="no" n="32"/>mento hujus ordinis, dico quia
+<lb ed="#V" n="33"/>aliquid positivum est 
+fundamen<lb ed="#V" break="no" n="34"/>tum illius ordinis utroque modo
+<lb ed="#V" n="35"/>sumpti. Sicut. enim in potentiis
+<lb ed="#V" n="36"/>passivis, idem est proximum 
+sub<lb ed="#V" break="no" n="37"/>jectum habitus et privationis, ita
+<lb ed="#V" n="38"/>potentia activa libera defectibilis
+<lb ed="#V" n="39"/>est immediatum subjectum agendo
+<lb ed="#V" n="40"/>et deficiendo oppositorum, agendo
+<lb ed="#V" n="41"/>quidem rectitudinis, deficiendo au-
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="42"/>tem peccati, et istud absolutum
+<lb ed="#V" n="43"/>est propria potentia, respectu
+<lb ed="#V" n="44"/>utriusque, eo modo quo potentia
+<lb ed="#V" n="45"/>potest esse, respectu eorum, 
+scili<lb ed="#V" break="no" n="46"/>cet effective et defective. Hoc modo
+<lb ed="#V" n="47"/>potentia peccandi est a Deo, hoc
+<lb ed="#V" n="48"/>est, illa natura quam habens, est
+<lb ed="#V" n="49"/>potens peccare; potens quidem
+<lb ed="#V" n="50"/>non efficiendo, sed deficiendo, cujus
+<lb ed="#V" n="51"/>tamen deficere, istud positivum est
+<lb ed="#V" n="52"/>proxima ratio.
+</p>
+            <p>
+               <lb ed="#V" n="53"/>Et si objicitur, quod voluntas
+<lb ed="#V" n="54"/>semper deficit, inquantum est ex
+<lb ed="#V" n="55"/>nihilo, non per aliquid positivum
+<lb ed="#V" n="56"/>in ea, respondeo, esse defectibile,
+<lb ed="#V" n="57"/>id est, esse vertibile in nihil, 
+con<lb ed="#V" break="no" n="58"/>sequitur omnem creaturam, quia
+<lb ed="#V" n="59"/>est ex nihilo; sed esse sic 
+defecti<lb ed="#V" break="no" n="60"/>bles sorheet peccando; fest mos
+<lb ed="#V" n="61"/>prium huie natura, et consequitur
+<lb ed="#V" n="62"/>eam ratione, qua haec natura 
+spe<lb ed="#V" break="no" n="63"/>cifica, quae potest esse principium
+<lb ed="#V" n="64"/>oppositorum, agendo scilicet et
+<lb ed="#V" n="65"/>deficiendo.
+</p>
+            <p>
+               <lb ed="#V" n="66"/>Ad Anselmum dico, quod libertas
+<lb ed="#V" n="67"/>absolute est perfectio simpliciter,
+<lb ed="#V" n="68"/>unde formaliter ponitur in Deo
+<lb ed="#V" n="69"/>secundum eumdem ; libertas in 
+no<lb ed="#V" break="no" n="70"/>bis est limitata. Potest tamen 
+con<lb ed="#V" break="no" n="71"/>siderari secundum rationem ejus
+<lb ed="#V" n="72"/>formalem sine illa limitatione, et
+<lb ed="#V" n="73"/>tunc non est perfectio. Irmitata,
+<lb ed="#V" n="74"/>sed perfectio simpliciter. 
+Exem<lb ed="#V" break="no" n="75"/>plum, sapientia est perfectio 
+sim<lb ed="#V" break="no" n="76"/>pliciter, et illius ratio absolute
+<lb ed="#V" n="77"/>est mm nobis; non tamen sic, sed
+<lb ed="#V" n="78"/>cum limitatione, ita quod 
+sapien<lb ed="#V" break="no" n="79"/>tia nostra includit duo, quorum
+<lb ed="#V" n="80"/>alterum est perfectio simpliciter,
+<lb ed="#V" n="81"/>alterum non; ita dico, quod hac
+<lb ed="#V" n="82"/>voluntas hujus speciei, quae est in
+<lb ed="#V" n="83"/>nobis, includit libertatem, quae est
+<lb ed="#V" n="84"/>perfectio simpliciter, sed non eam in
+<lb ed="#V" n="85"/>solam, sed evm limitatione. quae
+<pb ed="#V" n="498"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>limitatio non est perfectio 
+simpli<lb ed="#V" n="2" break="no"/>citer ratione primi; non convenit
+<lb ed="#V" n="3"/>sibi peccare posse, nec est 
+funda<lb ed="#V" break="no" n="4"/>mentum proximum hujus ordinis
+<lb ed="#V" n="5"/>ad deficere actualiter, sed ratione
+<lb ed="#V" n="6"/>secundi.
+</p>
+            <p>
+               <lb ed="#V" n="7"/>Ita igitur exponenda est 
+aucto<lb ed="#V" break="no" n="8"/>ritas Anselmi, quia posse peccare
+<lb ed="#V" n="9"/>nihil est libertatis, ut libertas est
+<lb ed="#V" n="10"/>perfectio simpliciter, nec aliud
+<lb ed="#V" n="11"/>probat ratio sua per haec, quod non
+<lb ed="#V" n="12"/>est in Deo. Siautem accipiatur ista
+<lb ed="#V" n="13"/>libertas causata, secundum  
+ordi<lb ed="#V" break="no" n="14"/>nem suum, adhuc non est aliquid
+<lb ed="#V" n="15"/>ejus, sed ut dicit fundamentum 
+pro<lb ed="#V" break="no" n="16"/>ximum hujus ordinis, est aliquid
+<lb ed="#V" n="17"/>ipsius. Sicut. autem ista potestas
+<lb ed="#V" n="18"/>est aliquod ens positivum, ita est a
+<lb ed="#V" n="19"/>Deo, quoniam ex ipso, et in ipso,
+<lb ed="#V" n="20"/>et per ipsum sunt omnia, cui sit honor
+<lb ed="#V" n="21"/>et gloria in secula seculorum. Amen.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2024-10-28">October 28, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x13">Vives, Paris, 1893, volume 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-10-28" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="435-r"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e2301"><!-- jdso8u-b2d41q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum aliquis actus noster possit esse indifferens</head>
+        <p>
+          <lb ed="#V" n="17" type="fixed=434"/>QUAESTIO UNICA.
+          <lb ed="#V" n="18"/>Utrum aliquis actus possit esse. 
+          indif<lb ed="#V" break="no" n="19"/>ferens ?
+        </p>
+        <p>
+          <lb ed="#V" n="20"/>Ales 3. p. 9g. 25. m. 5: D. Thom: 1. 2:4. £8.
+          <lb ed="#V" n="21"/>a.8. et 9. D. Bonav. h£c a. 1. q. 3. BEochard.
+          <lb ed="#V" n="22"/>40. a. 2. q. 3. Dürand. ;bi q. 1; Gabr. q.. un.
+          <lb ed="#V" n="23"/>Capr. g. 2. Major q. 3. hic. Herr. hic d. 28.
+          <lb ed="#V" n="24"/>q. 15. Vasq. 1. 2. d. 52. Angles 2. d. 40. g. un.
+          <lb ed="#V" n="25"/>concl. 2. Alm. tract. 1. mor. c. 14. Angest. in
+          <lb ed="#V" n="26"/>mor. cap, 8. Assor. tom. 1. 1. 2. cap. 4. q. 3.
+        </p>
+        <p>
+          <lb ed="#V" n="27"/>Circa distinctionem 
+          quadragesi<lb ed="#V" break="no" n="28"/>mam primam quaeritur, utrum
+          <lb ed="#V" n="29"/>aliquis actus possit esse 
+          indiffe<lb ed="#V" break="no" n="30"/>rens ? Quod non, quia inter 
+          habi<lb ed="#V" break="no" n="31"/>tum et privationem non est 
+          me<lb ed="#V" break="no" n="32"/>dium ; bonum et malum sunt 
+          pri<lb ed="#V" break="no" n="33"/>vative opposita ; ergo, etc. Major
+          <lb ed="#V" n="34"/>patet, quia 10. Metaph. opposita
+          <lb ed="#V" n="35"/>privative sunt contradictorie 
+          op<lb ed="#V" break="no" n="36"/>posita circa aptum natum; inter
+          <lb ed="#V" n="37"/>contradictoria non est medium, 4.
+          <lb ed="#V" n="38"/>Metaph. ergo, etc.
+        </p>
+        <p>
+          <lb ed="#V" n="39"/>Praeterea, ex actibus generatur
+          <lb ed="#V" n="40"/>habitus: ergo si inter acetum bo-
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="41"/>num et malum esset aliquod 
+          me<lb ed="#V" break="no" n="42"/>dium, aliquis esset habitus, qui
+          <lb ed="#V" n="43"/>nee esset bonus nec malus.
+          <lb ed="#V" n="44"/>Contra, Ambrosius in littera:
+          <lb ed="#V" n="45"/>affectus tuus. operi nomen imponit ; sed
+          <lb ed="#V" n="46"/>si nullus actus ex se esset 
+          indiffe<lb ed="#V" break="no" n="47"/>rens, non posset ex uno actu esse
+          <lb ed="#V" n="48"/>bonus per se, et ex alio malus.
+        </p>
+        <!--</div>
+          <div alias="scotus-l2d41q1-p2">-->
+        <p>
+          <lb ed="#V" n="49" type="fixed=434"/>SCHOLIUM.
+        </p>
+        <p>
+          <lb ed="#V" n="50"/>Refert sentent. D. Thom. et Bonav.et resolvit
+          <lb ed="#V" n="51"/>probabiliter dari actum individuum, liberum,
+          <lb ed="#V" n="52"/>qui non sit bonus nec peccatum, quia non
+          <lb ed="#V" n="53"/>constat Deum nos obligare ad singulos actus
+          <lb ed="#V" n="54"/>referendos in eum actualiter vel virtualiter ;
+          <lb ed="#V" n="55"/>et alterum horum videtur requiri ad 
+          meri<lb ed="#V" break="no" n="56"/>tum. Pro hoc est Hieron. epist. 2. apud Aug.
+          <lb ed="#V" n="57"/>Nazian. oratione tertia contra Jul. Greg.
+          <lb ed="#V" n="58"/>hom. 27. in Evang. in Mat. 12. de omni verbo
+          <lb ed="#V" n="59"/>otioso, etc. non obstat, quia Chrysost. 
+          expli<lb ed="#V" break="no" n="60"/>cat, verbum otiosum esse quod mendax est,
+          <lb ed="#V" n="61"/>et calumniam habet; et similiter Theoph.
+          <lb ed="#V" n="62"/>et Oecum. et favet textus, quia de pernieijoso
+          <lb ed="#V" n="63"/>agit, interl. exponit de frivolis et fabulis,
+          <lb ed="#V" n="64"/>nee otiosum est, quod habet aliquam 
+          utilita<lb ed="#V" break="no" n="65"/>tem naturalem, ut expellere frigus sine 
+          ul<lb ed="#V" break="no" n="66"/>la ratione honesti.
+        </p>
+        <p>
+          <lb ed="#V" n="67"/>Hic dicitur, (a) quod nullus 
+          sin<lb ed="#V" break="no" n="68"/>gularis actus est indifferens, actus ,
+          <lb ed="#V" n="69"/>tamen in communi est indifferens;
+          <lb ed="#V" n="70"/>quaere D. Bonaventuram.
+        </p>
+        <p>
+          <lb ed="#V" n="71"/>Aliter posset dici, (b) quod aliter
+          <lb ed="#V" n="72"/>potest esse de bonitate et malitia
+          <lb ed="#V" n="73"/>morali, et de bonitate meritoria
+          <lb ed="#V" n="74"/>et malitia demeritoria. In prima
+          <lb ed="#V" n="75"/>bonitate et malitia, comparando
+          <lb ed="#V" n="76"/>ad actum naturalem, videtur posse
+          <lb ed="#V" n="77"/>inveniri actus indifferens, qui 
+          sci<lb ed="#V" break="no" n="78"/>licet. habeat determinatam  
+          spe<lb ed="#V" break="no" n="79"/>ciem. in genere naturas per 
+          com<lb ed="#V" break="no" n="80"/>parationem ad omnes causas suas,
+          <lb ed="#V" n="81"/>et possit tamen habere 
+          indifferen<lb ed="#V" break="no" n="82"/>ter bonitatem moralem et 
+          mali<lb ed="#V" break="no" n="83"/>tiam. Quod probatur primo. quia
+          <pb ed="#V" n="435"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>secundum Philosophum 2. Ethic.
+          <lb ed="#V" n="2"/>habitus justitiae generatur ex 
+          ope<lb ed="#V" break="no" n="3"/>ribus justis, non tamen juste
+          <lb ed="#V" n="4"/>factis; iste actus non est bonus
+          <lb ed="#V" n="5"/>moraliter, quia non ex virtute. 
+          Si<lb ed="#V" break="no" n="6"/>militer de actibus elicitis post 
+          vir<lb ed="#V" break="no" n="7"/>tutem, quia non videtur 
+          necessi<lb ed="#V" break="no" n="8"/>tas, quod voluntas habens 
+          virtu<lb ed="#V" break="no" n="9"/>tem, semper utatur ea necessario,
+          <lb ed="#V" n="10"/>sed tantum quando occurrit passio
+          <lb ed="#V" n="11"/>ita vehemens, quae subverteret 
+          ra<lb ed="#V" break="no" n="12"/>tionem, nisi utatur virtute.
+          <lb ed="#V" n="13"/>Secundo etiam (c) modo 
+          loquen<lb ed="#V" break="no" n="14"/>do de bono et malo, videtur esse
+          <lb ed="#V" n="15"/>medium inter actum bcnum et 
+          ma<lb ed="#V" break="no" n="16"/>lum ; supposita enim bonitate 
+          mo<lb ed="#V" break="no" n="17"/>rali, ut dictum est in quest. 
+          praece<lb ed="#V" break="no" n="18"/>denti, meritum videtur esse ex 
+          re<lb ed="#V" break="no" n="19"/>latione ad finem debitum, quae 
+          re<lb ed="#V" break="no" n="20"/>latio est ex charitate inexistente.
+          <lb ed="#V" n="21"/>(d) Potest autem actus referri
+          <lb ed="#V" n="22"/>ex charitate in finem ultimum 
+          tri<lb ed="#V" break="no" n="23"/>, plieiter. Uno modo actualiter,sicu£
+          eozitans actualiter de fine diligit
+          <lb ed="#V" n="24"/>"illum, et vult aliquid propter illum.
+          <lb ed="#V" n="25"/>* Alio modo virtualiter, sicut (e) ex
+          <lb ed="#V" n="26"/>cognitione et dilectione finis 
+          deven<lb ed="#V" break="no" n="27"/>tum est ad volitionem hujus entis
+          <lb ed="#V" n="28"/>ad finem, puta ex cognitione et 
+          dile<lb ed="#V" break="no" n="29"/>ctione Dei pertinente ad portionem
+          <lb ed="#V" n="30"/>superiorem, portio inferior 
+          consi<lb ed="#V" break="no" n="31"/>derat talem acetum, puta 
+          poeniten<lb ed="#V" break="no" n="32"/>li), esse assumendum, et postea
+          <lb ed="#V" n="33"/>illum exequitur volendo, non 
+          ta<lb ed="#V" break="no" n="34"/>men tunc referendo in finem, quia
+          <lb ed="#V" n="35"/>nee tunc aoetualiter cognoscitur
+          <lb ed="#V" n="36"/>nee diligitur. Tertio modo (f) 
+          habi<lb ed="#V" break="no" n="37"/>tualiter, puta si omnis actus 
+          refe<lb ed="#V" break="no" n="38"/>ribilis in finem manens cum 
+          cha<lb ed="#V" break="no" n="39"/>ritate, quae est principium -
+          refe<lb ed="#V" break="no" n="40"/>rendi, dicatur referri habitualiter.
+          <lb ed="#V" n="41"/>Triplie autem modo (g) potest
+          <lb ed="#V" n="42"/>dici actus non referri. Uno modo
+          <lb ed="#V" n="43"/>i nesgative absolute, quia non refer-
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="44"/>tur actualiter nec virtualiter. Alio
+          <lb ed="#V" n="45"/>modo privative, quia non est natus
+          <lb ed="#V" n="46"/>referri, sicut peccatum veniale,
+          <lb ed="#V" n="47"/>quia licet stat cum charitate, non
+          <lb ed="#V" n="48"/>est tamen natum cum charitate
+          <lb ed="#V" n="49"/>referri in finem. Tertio modo 
+          con<lb ed="#V" break="no" n="50"/>trarie, scilicet quia corrumpit
+          <lb ed="#V" n="51"/>prineipium referendi, scilicet 
+          cha<lb ed="#V" break="no" n="52"/>ritatem, ut peccatum mortale. De
+          <lb ed="#V" n="53"/>illis duobus membris ultimis, 
+          cer<lb ed="#V" break="no" n="54"/>tum est quod illi actus sunt
+          <lb ed="#V" n="55"/>mali, scilicet. peccatum veniale et
+          <lb ed="#V" n="56"/>peccatum mortale. De duobus 
+          pri<lb ed="#V" break="no" n="57"/>mis (h), certum est quod primus
+          <lb ed="#V" n="58"/>actus est meritorius, et satis 
+          pro<lb ed="#V" break="no" n="59"/>babile est de secundo. De duobus
+          <lb ed="#V" n="60"/>mediis, scilicet de actu, qui tantum
+          <lb ed="#V" n="61"/>refertur habitualiter et negative,
+          <lb ed="#V" n="62"/>id est qui non. refertur nec 
+          actu<lb ed="#V" break="no" n="63"/>aliter nec. virtualiter, dubium est
+          <lb ed="#V" n="64"/>utrum talis actus sit meritorius,
+          <lb ed="#V" n="65"/>vel peccatum veniale (quia 
+          morta<lb ed="#V" break="no" n="66"/>le peecatum non potest esse) aut
+          <lb ed="#V" n="67"/>sit talis actus indifferens. Si 
+          pona<lb ed="#V" break="no" n="68"/>tur alterum duorum primorum
+          <lb ed="#V" n="69"/>membrorum, videtur quod homo
+          <lb ed="#V" n="70"/>existens continue in gratia, vel
+          <lb ed="#V" n="71"/>mcreatur continue, vel peccet
+          <lb ed="#V" n="72"/>mortaliter, vel saltem venialiter,
+          <lb ed="#V" n="73"/>quia multos tales actus elicit 
+          con<lb ed="#V" break="no" n="74"/>tinue, qui nec referuntur 
+          actuali<lb ed="#V" break="no" n="75"/>ter, nec virtualiter, secundum 
+          di<lb ed="#V" break="no" n="76"/>ctum modum.
+        </p>
+        <p>
+          <lb ed="#V" n="77"/>Ideo probabile (i) videtur tales
+          <lb ed="#V" n="78"/>actus indifferentes ponere, quia
+          <lb ed="#V" n="79"/>non habent sufficientem rationem
+          <lb ed="#V" n="80"/>malitiee pertinentem ad peccatum 
+          <lb ed="#V" n="81"/>veniale, quia possibile est nullam
+          <lb ed="#V" n="82"/>deordinationem esse in eis, qua
+          <lb ed="#V" n="83"/>sufficiat ad rationem peecati. Non
+          <lb ed="#V" n="84"/>enim tenetur homo, nec tentione
+          <lb ed="#V" n="85"/>necessitatis, contra quam sit 
+          pec<lb ed="#V" break="no" n="86"/>catum mortale, nec tentione 
+          mino<lb ed="#V" break="no" n="87"/>rl, contra quam sit peccatum ve-
+          <pb ed="#V" n="436"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>niale, referre semper actum suum
+          <lb ed="#V" n="2"/>in Deum actualiter vel virtualiter,
+          <lb ed="#V" n="3"/>quia Deus non obligavit nos ad
+          <lb ed="#V" n="4"/>hoc, neque videtur esse in istis 
+          ac<lb ed="#V" break="no" n="5"/>tibus suffieiens ratio bonitatis, ut
+          <lb ed="#V" n="6"/>sint meritorii, quia non videtur
+          <lb ed="#V" n="7"/>minor relatio sufticere ad meritum
+          <lb ed="#V" n="8"/>quam relatio virtualis, qualis non
+          <lb ed="#V" n="9"/>est hic.
+        </p>
+        <p>
+          <lb ed="#V" n="10"/>Sunt ergo multi actus 
+          indifferen<lb ed="#V" break="no" n="11"/>tes, non tantum secundum esse,
+          <lb ed="#V" n="12"/>quod habent in specie natura, sed
+          <lb ed="#V" n="13"/>etiam secundum esse, quod 
+          ha<lb ed="#V" break="no" n="14"/>bent in ese morali; et sunt etiam
+          <lb ed="#V" n="15"/>indifferentes ad bonum 
+          meritori<lb ed="#V" break="no" n="16"/>um et malum demeritorium, quia
+          <lb ed="#V" n="17"/>unum (k) individuum potest esse
+          <lb ed="#V" n="18"/>tale et aliud tale. Multi etiam 
+          sin<lb ed="#V" break="no" n="19"/>gulares actus eliciti sunt 
+          indiffe<lb ed="#V" break="no" n="20"/>rentes, qui nec sunt tales neque 
+          ta<lb ed="#V" break="no" n="21"/>les, et non solum actus non 
+          huma<lb ed="#V" break="no" n="22"/>ni, de quibus non est sermo, sicut
+          <lb ed="#V" n="23"/>movere barbam, levare festucam
+          <lb ed="#V" n="24"/>et hujusmodi, quae procedunt ex
+          <lb ed="#V" n="25"/>sola imaginatione, non ex libero
+          <lb ed="#V" n="26"/>arbitrio impellente, sed etiam de
+          <lb ed="#V" n="27"/>actibus libere elicitis.
+        </p>
+        <p>
+          <lb ed="#V" n="28"/>Ad argumenta (l. Ad primum
+          <lb ed="#V" n="29"/>dico, quod non sunt privative 
+          op<lb ed="#V" break="no" n="30"/>posita circa actum, loquendo de
+          <lb ed="#V" n="31"/>bonitate et malitia morali, vel
+          <lb ed="#V" n="32"/>etiam loquendo de bonitate et 
+          ma<lb ed="#V" break="no" n="33"/>litiaa. meritoria et demeritoria;
+          <lb ed="#V" n="34"/>non enim est actus malus ex hoc
+          <lb ed="#V" n="35"/>solo quod caret bonitate tali vel
+          <lb ed="#V" n="36"/>tali, sed quia earet bonitate, quam
+          <lb ed="#V" n="37"/>debet habere; non autem omnis
+          <lb ed="#V" n="38"/>actus debet habere talem 
+          boni<lb ed="#V" break="no" n="39"/>tatem.
+        </p>
+        <p>
+          <lb ed="#V" n="40"/>Ad aliud concedo, quod ex 
+          simi<lb ed="#V" break="no" n="41"/>libus actibus generatur similis 
+          ha<lb ed="#V" break="no" n="42"/>bitus, et ita ex multis actibus 
+          in<lb ed="#V" break="no" n="43"/>differentibus, potest generari 
+          con<lb ed="#V" break="no" n="44"/>similis habitus ad consimiles actus
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>in genere immobiliter inclinans ;
+          <lb ed="#V" n="46"/>non tamen inclinat ad eos, ut 
+          bo<lb ed="#V" break="no" n="47"/>nos nec ut malos, sicut etiam ipse
+          <lb ed="#V" n="48"/>in se neque est bonus neque 
+          ma<lb ed="#V" break="no" n="49"/>lus, sicut nec etiam generatur ex
+          <lb ed="#V" n="50"/>actibus bonis vel malis, et itaa 
+          in<lb ed="#V" break="no" n="51"/>conveniens, ad quod dedueit ratio,
+          <lb ed="#V" n="52"/>non est inconveniens, sed tanquam
+          <lb ed="#V" n="53"/>verum concedendum est.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

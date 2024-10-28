@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2024-10-28">October 28, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x13">Vives, Paris, 1893, volume 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-10-28" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="425-r"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e2283"><!-- jdso8u-b2d40q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum omnis actus sit bonus ex fine</head>
+        <p>
+          <lb ed="#V" n="23" type="fixed=424"/>QUESTIO UNICA.
+          <lb ed="#V" n="24"/>Utrum omnis actus sit bonus ex fine
+        </p>
+        <p>
+          <lb ed="#V" n="25"/>Alensis 2. p. 9. 100. m. 2. et q. 107. m. 3. a. 2.
+          <lb ed="#V" n="26"/>et per totum. D. Thom. 1. 2. 9.18. a. 1. 3. 4. 6.
+          <lb ed="#V" n="27"/>ubi Cajet. Conrad. Med. D. Bonav. ^2c a. 1. q. 1.
+          <lb ed="#V" n="28"/>Richard, 1. g. 1. Gab. 4. 1. Durand. 2. d. 38.
+          <lb ed="#V" n="29"/>q. 1. Greg. q. un. Herrera hic disp. 28. q.2. Vasq.
+          <lb ed="#V" n="30"/>1. 2. d. 51. vide Scot. quodl. 18. S De primo.
+        </p>
+        <p>
+          <lb ed="#V" n="31"/>Quaero circa distinctionem 
+          qua<lb ed="#V" break="no" n="32"/>dragesimam : Utrum omnis actus
+          <lb ed="#V" n="33"/>sit bonus ex fine? Quod sic, 
+          Augu<lb ed="#V" break="no" n="34"/>stinus in littera cap. 3. Bonum
+          <lb ed="#V" n="35"/>opus intentio facit.
+        </p>
+        <p>
+          <lb ed="#V" n="36"/>Praeterea, actus intelligendi est
+          <lb ed="#V" n="37"/>verus ex principio; sed finis est
+          <lb ed="#V" n="38"/>hie sicut ibi principium; ergo, etc.
+        </p>
+        <p>
+          <lb ed="#V" n="39"/>Praeterea. bonitas est, ab aliqua
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="40"/>una causa; nulla alia potest dari
+          <lb ed="#V" n="41"/>nisi finis.
+        </p>
+        <p>
+          <lb ed="#V" n="42"/>Contra, Augustinus contra 
+          men<lb ed="#V" break="no" n="43"/>dacium, et ponitur in littera, dicit
+          <lb ed="#V" n="44"/>quod multi actus non possunt esse
+          <lb ed="#V" n="45"/>boni, etiamsi propter finem bonum
+          <lb ed="#V" n="46"/>fiant.
+        </p>
+        <!--</div>
+          <div alias="scotus-l2d40q1-p2">-->
+        <p>
+          <lb ed="#V" n="47" type="fixed=424"/>SCHOLIUM.
+        </p>
+        <p>
+          <lb ed="#V" n="48"/>Declarat optime exemplo de 
+          pulchritudi<lb ed="#V" break="no" n="49"/>ne, quid sit bonitas naturalis, quae non est
+          <lb ed="#V" n="50"/>illa quae convertitur eum ente, aec etiam
+          <lb ed="#V" n="51"/>quid sit malitia ei opposita.
+        </p>
+        <p>
+          <lb ed="#V" n="52"/>Respondeo, (a) primo dicendum
+          <lb ed="#V" n="53"/>est de bonitate naturali. Secundo
+          <lb ed="#V" n="54"/>de bonitate morali.
+        </p>
+        <p>
+          <lb ed="#V" n="55"/>De primo dico, quod sicut in 
+          cor<lb ed="#V" break="no" n="56"/>pore pulchritudo est ex 
+          aggrega<lb ed="#V" break="no" n="57"/>tione omnium convenientium illi
+          <lb ed="#V" n="58"/>corpori, et inter se, puta 
+          quantita<lb ed="#V" break="no" n="59"/>tis, ;coloris et figures, sicut oval
+          <lb ed="#V" n="60"/>Augustinus 8. de Trin. cap. Bona 
+          fa<lb ed="#V" break="no" n="61"/>cies, etc. ita bonitas naturalis ( non
+          <lb ed="#V" n="62"/>est illa, quae convertitur cum 
+          en<lb ed="#V" break="no" n="63"/>te, sed illa, quae habet oppositum
+          <lb ed="#V" n="64"/>malum ) est perfectio secunda 
+          ali<lb ed="#V" break="no" n="65"/>cujus rei integrata ex omnibus
+          <lb ed="#V" n="66"/>convenientibus sibi et sibi invicem,
+          <lb ed="#V" n="67"/>et omnibus illis concurrentibus,est
+          <lb ed="#V" n="68"/>perfecta bonitas,juxta illud 
+          Diony<lb ed="#V" break="no" n="69"/>sii: Bonum est ex perfecta et causa 
+          inte<lb ed="#V" break="no" n="70"/>gra. Omnibus autem istis 
+          deficienti<lb ed="#V" break="no" n="71"/>bus, et natura stante, quae deberet
+          <lb ed="#V" n="72"/>perfici illis, est perfecte mala; 
+          qui<lb ed="#V" break="no" n="73"/>busdam  subtractis, est mala, sed
+          <lb ed="#V" n="74"/>non perfecte, sicut de 
+          pulchritudi<lb ed="#V" break="no" n="75"/>ne et turpitudine in corpore; actus
+          <lb ed="#V" n="76"/>autem naturaliter natus est 
+          conve<lb ed="#V" break="no" n="77"/>nire caussae suae efficienti, objecto,
+          <lb ed="#V" n="78"/>fini et formas ; tunc igitur bonus
+          <lb ed="#V" n="79"/>est naturaliter, quando habet 
+          om<lb ed="#V" break="no" n="80"/>nia convenientia, quantum ad ista,
+          <lb ed="#V" n="81"/>aus nata sunt eonvenire sibi natu-
+          <pb ed="#V" n="425"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>raliter, et concurrere ad esse ejus
+          <lb ed="#V" n="2"/>naturale.
+        </p>
+        <!--</div>
+          <div alias="scotus-l2d40q1-p3">-->
+        <p>
+          <lb ed="#V" n="72" type="fixed=426"/>SCHOLIUM.
+        </p>
+        <p>
+          <lb ed="#V" n="73"/>Resolvit ad bonitatem moralem actus 
+          re<lb ed="#V" break="no" n="74"/>quiri omnia, quae. secundum rectam 
+          rati<lb ed="#V" break="no" n="75"/>onem ei debentur. Primum est, quod sit 
+          con<lb ed="#V" break="no" n="76"/>veniens agenti, v. g. diligere respectu 
+          homi<lb ed="#V" break="no" n="77"/>nis. Secundum, objectum hujus, bonum.
+          <lb ed="#V" n="78"/>Tertium, ordinatio hujus ad finem, et sic de
+          <lb ed="#V" n="79"/>aliis circumstantiis quae continentur hoc
+          <lb ed="#V" n="80"/>versu:
+          <lb ed="#V" n="81"/>Quis, quibus auxiliis, quid, ubi, car, quomodo, quando,
+          <lb ed="#V" n="82"/>De quibus Arist. 3. Eth. c. 1. Greg. Nyssen.
+          <lb ed="#V" n="83"/>D. Philos, -e.-2. D, Thom; 13954. 1. 3: 5.V108
+          <lb ed="#V" n="84"/>Scot. quodl. 18. 8 De primo, 'et quodl. 16.
+        </p>
+        <p>
+          <lb ed="#V" n="85"/>De secundo dico, (b) quod bonitas
+          <lb ed="#V" n="86"/>aetus moralis est ex ageerecatione,
+          <pb ed="#V" n="427"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>omnium convenientium actui, non
+          <lb ed="#V" n="2"/>absolute ex natura actus, sed quae
+          <lb ed="#V" n="3"/>conveniunt ei, secundum rectam
+          <lb ed="#V" n="4"/>rationem ; quia igitur actui ratio
+          <lb ed="#V" n="5"/>recta dictat determinatum  
+          obje<lb ed="#V" break="no" n="6"/>ctum convenire, et determinatum
+          <lb ed="#V" n="7"/>modum, et alias circumstantias,
+          <lb ed="#V" n="8"/>non est completa bonitas ex solo
+          <lb ed="#V" n="9"/>fine. Sed prima ratio bonitatis ojus
+          <lb ed="#V" n="10"/>est ex convenientia actus ad 
+          efti<lb ed="#V" break="no" n="11"/>ciens, a quo actus dicitur moralis,
+          <lb ed="#V" n="12"/>quia libere elicitus, et hoc est 
+          com<lb ed="#V" break="no" n="13"/>mune actui bono et malo, neque
+          <lb ed="#V" n="14"/>enim actus est laudabilis, nec 
+          vitu<lb ed="#V" break="no" n="15"/>perabilis, nisi sit a voluntate.
+        </p>
+        <p>
+          <lb ed="#V" n="16"/>Secunda conditio est ex 
+          obje<lb ed="#V" break="no" n="17"/>eto (d), quod si sit conveniens, tunc
+          <lb ed="#V" n="18"/>est actus bonus ex genere, quia est
+          <lb ed="#V" n="19"/>indifferens ad bonitates ulteriores,
+          <lb ed="#V" n="20"/>qua sumuntur ex eircumstantiis
+          <lb ed="#V" n="21"/>specialibus, sicut genus est 
+          indif<lb ed="#V" break="no" n="22"/>ferens ad multas differentias; post
+          <lb ed="#V" n="23"/>istud prima circumstantia est 
+          ipsi<lb ed="#V" break="no" n="24"/>us finis; nec ista sufficit sine aliis
+          <lb ed="#V" n="25"/>circumstantiis, sicut, est 
+          circum<lb ed="#V" break="no" n="26"/>stantia forme, puta, quod debito
+          <lb ed="#V" n="27"/>modo fiat, quod pertinet ad 
+          quar<lb ed="#V" break="no" n="28"/>tam ecircumstantiam et sequuntur
+          <lb ed="#V" n="29"/>cireumstantiae magis extrinseca,
+          <lb ed="#V" n="30"/>scilicet quando et ubi, et hujusmodi.
+          <lb ed="#V" n="31"/>Patet igitur quod sola bonitas finis
+          <lb ed="#V" n="32"/>etiam eum intenditur, secundum
+          <lb ed="#V" n="33"/>rectam rationem, non sufficit ad
+          <lb ed="#V" n="34"/>bonitatem actus, sed requiruntur
+          <lb ed="#V" n="35"/>alio?» eireumstantisa, secundum 
+          or<lb ed="#V" break="no" n="36"/>dinem praedictum ad hoc quod 
+          bo<lb ed="#V" break="no" n="37"/>nitas sit. |
+        </p>
+        <p>
+          <lb ed="#V" n="38"/>Ad auctoritatem (e) Augustini,
+          <lb ed="#V" n="39"/>patet, quod est ad oppositum, quia
+          <lb ed="#V" n="40"/>etsi finis sit conditio principalior
+          <lb ed="#V" n="41"/>pertinens ad bonitatem actus, non
+          <lb ed="#V" n="42"/>tamen est sufficiens simpliciter,
+          <lb ed="#V" n="43"/>loquendo etiam de bonitate meviti.
+          <lb ed="#V" n="44"/>quae addit, super bonitatem mora.
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>lem; illa est principaliter ex fine,
+          <lb ed="#V" n="46"/>quia supposita completa bonitate
+          <lb ed="#V" n="47"/>morali superadditur bonitas 
+          meri<lb ed="#V" break="no" n="48"/>toria ex relatione debita istius 
+          ac<lb ed="#V" break="no" n="49"/>tus ad finem, quae relatio debita fit
+          <lb ed="#V" n="50"/>inquantum elicitur a charitate, et
+          <lb ed="#V" n="51"/>quoad hoc possunt auctoritates de
+          <lb ed="#V" n="52"/>fine exponi, quod scilicet bonitas
+          <lb ed="#V" n="53"/>meritoria est ex fine.
+        </p>
+        <p>
+          <lb ed="#V" n="54"/>Ad secundum dico, (f) quod causa
+          <lb ed="#V" n="55"/>efficiens actus intelligendi, illa quae .
+          <lb ed="#V" n="56"/>est ex parte intellectus vel habitus
+          <lb ed="#V" n="57"/>intellectus, naturaliter agit, nec
+          <lb ed="#V" n="58"/>potest difformiter agere ipsi 
+          obje<lb ed="#V" break="no" n="59"/>cto, et ideo semper recte agit; non
+          <lb ed="#V" n="60"/>sic voluntas semper conformiter
+          <lb ed="#V" n="61"/>agit suo objecto, quia est causa 
+          li<lb ed="#V" break="no" n="62"/>bera non naturalis. Quando igitur
+          <lb ed="#V" n="63"/>est rectitudo ex parte principali
+          <lb ed="#V" n="64"/>moventis, totus actus est rectus,
+          <lb ed="#V" n="65"/>non ita hic ex parte finis.
+        </p>
+        <p>
+          <lb ed="#V" n="66"/>Ad tertium dico quod illa una
+          <lb ed="#V" n="67"/>bonitas integrat in se perfectiones
+          <lb ed="#V" n="68"/>omnes convenientes actui, et non
+          <lb ed="#V" n="69"/>est aliqua una sola, sicut nec 
+          pul<lb ed="#V" break="no" n="70"/>chritudo in corpore.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
