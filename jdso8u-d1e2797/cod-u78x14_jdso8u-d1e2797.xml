@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Scotus">John Duns Scotus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2025-07-15">July 15, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-u78x14">Vives, Paris, 1893, volume 14</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-15" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="490"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jdso8u-d1e2797"><!-- jdso8u-b3d14q1 -->
+            <head xml:id="jdso8u-d1e2797-Hd1e99">Quaestio 1</head>
+            <head xml:id="jdso8u-d1e2797-Hd1e101" type="question-title">Utrum possibile fuit intellectum animae Christi primo et immediate perfici visione Verbi perfectissima possibili creaturae</head>
+            <!-- <div> -->
+            <p xml:id="jdso8u-d1e2797-d1e106">
+               <lb ed="#V" n="18" type="fixed=490"/>QUAESTIO I.
+<lb ed="#V" n="19"/>Utrum possibile fuerit intellectum 
+ani<lb ed="#V" n="20" break="no"/>ma Christi primo et immediate 
+per<lb ed="#V" n="21" break="no"/>fict visione Verbi perfectissima 
+possi<lb ed="#V" n="22" break="no"/>bili creaturae?
+</p>
+            <p xml:id="jdso8u-d1e2797-d1e119">
+               <lb ed="#V" n="23"/>Divus Thomas 1. part. quiest. 12. art. 1. ubi
+<lb ed="#V" n="24"/>Cajetanus art. 5. Ban. ibi dub. 3. Soto 4.
+<lb ed="#V" n="25"/>dist. 49. quaest. 2. artic. 4. Capreol. ibi quaest.
+<lb ed="#V" n="26"/>4. Ferrar. 3. contra cap. 54. quatenus dicunt
+<lb ed="#V" n="27"/>de potentia absoluta non posse elici visionem
+<lb ed="#V" n="28"/>sine lumine gloriae. Sed oppositum tenent cum
+<lb ed="#V" n="29"/>Scoto 4. dist. 49. quast 11. Vasquez. 1. part.
+<lb ed="#V" n="30"/>d. 46. Molina ibi q. 12. art. 5. d. 2. Durand.
+<lb ed="#V" n="31"/>4. d. 49. quaest. 2. D. Thom. ibi quasst. 2. avt.
+<lb ed="#V" n="32"/>T. Valent. 1. tom. quaest. 12. part. 3. Zumel.
+<lb ed="#V" n="33"/>ibi art. 5. d. 2. Pitigianis híc art. 5. Egidius
+<lb ed="#V" n="34"/>Romanus quodlib. ?. quaest. 1. Henricus de
+<lb ed="#V" n="35"/>Gandavo ibid.
+</p>
+            <p xml:id="jdso8u-d1e2797-d1e151">
+               <lb ed="#V" n="36"/>Circa istam decimamquartam 
+dis<lb ed="#V" n="37" break="no"/>tinctionem, in qua Magister agit
+<lb ed="#V" n="38"/>de perfectionibus assumptis cum
+<lb ed="#V" n="39"/>humana natura, per 
+comparatio<lb ed="#V" n="40" break="no"/>nem ad perfectionem naturae 
+divi<lb ed="#V" n="41" break="no"/>nae, quaeruntur quatuor: primo,
+<lb ed="#V" n="42"/>utrum possibile fuerit intellectum
+<lb ed="#V" n="43"/>animae Christi primo et immediate
+<lb ed="#V" n="44"/>perfici visione Verbi perfectissima
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>possibili creaturae ? Et arguitur
+<lb ed="#V" n="46"/>quod non. Augustinus 89. queest.
+<lb ed="#V" n="47"/>q. 32. Eamdem rem non posse alium
+<lb ed="#V" n="48"/>alio plus intelligere, non est 
+dubi<lb ed="#V" n="49" break="no"/>tandum. HRatio sua 1bi ad hoc est,
+<lb ed="#V" n="50"/>quia quisquis aliquam rem aliter
+<lb ed="#V" n="51"/>quam la res est, intelligit, fallitur,
+<lb ed="#V" n="52"/>et omnis qui fallitur, illud in quo
+<lb ed="#V" n="53"/>falitur, non intellgit ; quisquis
+<lb ed="#V" n="54"/>ergo rem aliter, quam est, 
+intelli<lb ed="#V" n="55" break="no"/>git, non eam ntelligit ; non ergo
+<lb ed="#V" n="56"/>potest quidquam intelligi, nisi 
+quo<lb ed="#V" n="57" break="no"/>modo est; et ex hoc sequitur
+<lb ed="#V" n="58"/>conclusio illa proposita, ergo non
+<lb ed="#V" n="59"/>potest intellectus animae Christi
+<lb ed="#V" n="60"/>perfectius videre Verbum, quam
+<lb ed="#V" n="61"/>quaecumque alia anima.
+</p>
+            <p xml:id="jdso8u-d1e2797-d1e212">
+               <lb ed="#V" n="62"/>Praeterea, si perfectissime posset
+<lb ed="#V" n="63"/>videre Verbum, ergo posset videre
+<lb ed="#V" n="64"/>Verbum sub ratione mfiniti, quia
+<lb ed="#V" n="65"/>omni visibili non sub ratione 
+infini<lb ed="#V" n="66" break="no"/>ti, potest aliquid perfectius videri.
+<lb ed="#V" n="67"/>Consequens est falsum, quia 
+objec<lb ed="#V" n="68" break="no"/>tum specificat actum, et ita si 
+vi<lb ed="#V" n="69" break="no"/>sio creata esset objecti secundum
+<lb ed="#V" n="70"/>eamdem rationem infiniti, et 
+secun<lb ed="#V" n="71" break="no"/>dum eamdem rationem objecti est
+<lb ed="#V" n="72"/>ipsius visio increata, ergo istae
+<lb ed="#V" n="73"/>duae visiones essent ejusdem 
+spe<lb ed="#V" n="74" break="no"/>ciei. Similiter tunc intellectus 
+ani<lb ed="#V" n="75" break="no"/>mae Christi comprehenderet 
+Ver<lb ed="#V" n="76" break="no"/>bum, quia videret ipsum secundum
+<lb ed="#V" n="77"/>totam rationem visibilitatis ejus,
+<lb ed="#V" n="78"/>quod est inconveniens.
+</p>
+            <p xml:id="jdso8u-d1e2797-d1e251">
+               <lb ed="#V" n="79"/>Praeterea, omnis visio requirit 
+lu<lb ed="#V" n="80" break="no"/>men proportionale prius naturaliter
+<lb ed="#V" n="81"/>ipsa visione; ergo sicut visio 
+natu<lb ed="#V" n="82" break="no"/>ralis requirit lumen naturale aliud
+<lb ed="#V" n="83"/>a se et prius ipsa, ita visio 
+super<lb ed="#V" n="84" break="no"/>naturalis requirit lumen 
+supernatu<lb ed="#V" n="85" break="no"/>rale aliud ab ipsa et prius ea; et
+<lb ed="#V" n="86"/>ita non potest visio 
+supernatura<lb ed="#V" n="87" break="no"/>lis esse prima perfectio illius, qui
+<lb ed="#V" n="88"/>videt.
+</p>
+            <p xml:id="jdso8u-d1e2797-d1e275">
+               <pb ed="#V" n="491"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>Praeterea, actus perfectus 
+natu<lb ed="#V" n="2" break="no"/>ralis elicitur ab habitu, quia non
+<lb ed="#V" n="3"/>est ita perfectus praecedens 
+habi<lb ed="#V" n="4" break="no"/>tum, sicut sequens, secundum 
+Phi<lb ed="#V" n="5" break="no"/>losophum, 2. Fthicorum; ergo et
+<lb ed="#V" n="6"/>actus perfectissimus supernaturalis
+<lb ed="#V" n="7"/>praesupponit habitum 
+supernatura<lb ed="#V" n="8" break="no"/>lem. Consequentia probatur a simili,
+<lb ed="#V" n="9"/>et ita non potest actus 
+supernatura<lb ed="#V" n="10" break="no"/>lis perfectissimus esse prima 
+per<lb ed="#V" n="11" break="no"/>fectio intellectus.
+</p>
+            <!--</div>-->
+            <!-- no commentary -->
+            <!--<div alias="scotus-d14q1-p2">-->
+            <p xml:id="jdso8u-d1e2797-d1e313">
+               <lb ed="#V" n="12" type="fixed=491"/>SCHOLIUM.
+</p>
+            <p xml:id="jdso8u-d1e2797-d1e318">
+               <lb ed="#V" n="13"/>Adducit ad oppositum pro parte vera (
+scili<lb ed="#V" n="14" break="no"/>cet quod immediate summa visio producibilis
+<lb ed="#V" n="15"/>est a Deo) auctoritatem Magistri, et 
+argumen<lb ed="#V" n="16" break="no"/>tum a simili, quia summa fruitio sic produci
+<lb ed="#V" n="17"/>potest, ex quaest. 3. dist. praeced. et 
+quaestio<lb ed="#V" n="18" break="no"/>nem disputat quaest. seq. a num. 2. et solvit
+<lb ed="#V" n="19"/>argumenta hic posita, ibi a num. 5.
+</p>
+            <p xml:id="jdso8u-d1e2797-d1e336">
+               <lb ed="#V" n="20"/>Contra hoc est Magister in littera.
+<lb ed="#V" n="21"/>Item, summa fruitio praesupponit
+<lb ed="#V" n="22"/>summam visionem ; sed ista 
+ani<lb ed="#V" n="23" break="no"/>ma Christi potuit frui summa 
+frui<lb ed="#V" n="24" break="no"/>tione possibili creaturas, ex dist.
+<lb ed="#V" n="25"/>praeced. ergo, etc.
+</p>
+            <p xml:id="jdso8u-d1e2797-d1e352">
+               <lb ed="#V" n="26"/>Et quod immediate, probatur,
+<lb ed="#V" n="27"/>quia quaelibet potentia passiva est
+<lb ed="#V" n="28"/>immediate perfectibilis illo actu,
+<lb ed="#V" n="29"/>respectu cujus immediate est in 
+po<lb ed="#V" n="30" break="no"/>tentia ; igitur intellectus sive 
+poten<lb ed="#V" n="31" break="no"/>tia intellectiva est immediate 
+per<lb ed="#V" n="32" break="no"/>fectibilis ipso antelligere, et ita non
+<lb ed="#V" n="33"/>necessario mediante alio.
+</p>
+            <!--</div>-->
+            <!-- no commentary -->
+         </div>
+      </body>
+   </text>
+</TEI>

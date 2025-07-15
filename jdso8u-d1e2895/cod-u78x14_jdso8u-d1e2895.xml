@@ -1,0 +1,1251 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Scotus">John Duns Scotus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2025-07-15">July 15, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-u78x14">Vives, Paris, 1893, volume 14</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-15" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="661"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jdso8u-d1e2895"><!-- jdso8u-b3d18q1 -->
+            <head xml:id="jdso8u-d1e2895-Hd1e99">Quaestio 1</head>
+            <head xml:id="jdso8u-d1e2895-Hd1e101" type="question-title">Utrum Christus meruerit in primo instanti suae conceptionis</head>
+            <!-- <div> -->
+            <p xml:id="jdso8u-d1e2895-d1e106">
+               <lb ed="#V" n="60" type="fixed=661"/>QUAESTIO UNICA.
+<lb ed="#V" n="61"/>Utrum Christus (a) meruerit in primo
+<lb ed="#V" n="62"/>instanti suae conceptionis.
+</p>
+            <p xml:id="jdso8u-d1e2895-d1e115">
+               <lb ed="#V" n="63"/>Alens. 3. p. g. 16. m. 2. art. 1. et2. D. Thom.
+<lb ed="#V" n="64"/>3. p. q. 19. art. 3. 4. et híc q. 1. art. 2. D.
+<lb ed="#V" n="65"/>Bonav. art. 1. q. 2. Richard. art. 1. q. 2.
+<lb ed="#V" n="66"/>Durand. q. 2. Gabr. q. 1. Suar. 3. p. tom. 1.
+<lb ed="#V" n="67"/>e 39. sect. 3. et disp. 41. Vasq. 3. p. disp.
+<lb ed="#V" n="68"/>14. 75.
+</p>
+            <p xml:id="jdso8u-d1e2895-d1e132">
+               <lb ed="#V" n="69"/>Circa istam decimam octavam
+<lb ed="#V" n="70"/>distinctionem, in qua Magister agit
+<lb ed="#V" n="71"/>de merito Christi, quod processit
+<lb ed="#V" n="72"/>ex ejus voluntate, quaeruntur duo:
+<lb ed="#V" n="73"/>Primo, utrum Christus meruit in
+<lb ed="#V" n="74"/>primo instanti suae conceptionis ?
+<lb ed="#V" n="75"/>Et arguitur quod non, quia non
+<lb ed="#V" n="76"/>potuit peccare ; igitur nec 
+mere<lb ed="#V" n="77" break="no"/>ri. Antecedens patet ex dist. 12.
+<lb ed="#V" n="78"/>ubi probatum est, quod non potuit
+<lb ed="#V" n="79"/>peccare. Consequentia probatur,
+<lb ed="#V" n="80"/>quia voluntas conjuncta perfecte
+<lb ed="#V" n="81"/>fini ultimo non meretur, aliter
+<lb ed="#V" n="82"/>Beati mererentur, vel si sic, eadem
+<lb ed="#V" n="83"/>ratione posset peccare ; sed 
+volun<lb ed="#V" n="84" break="no"/>tas Christi fuit perfecte conjuncta
+<lb ed="#V" n="85"/>Deo per fruitionem in primo 
+instan<lb ed="#V" n="86" break="no"/>ti: ergo, etc.
+</p>
+            <p xml:id="jdso8u-d1e2895-d1e174">
+               <pb ed="#V" n="662"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>Praeterea, voluntas Christi 
+sem<lb ed="#V" n="2" break="no"/>per fruebatur, igitur nunquam 
+me<lb ed="#V" n="3" break="no"/>ruit. Consequentia probatur, quia
+<lb ed="#V" n="4"/>aut fruitio et meritum essent duo
+<lb ed="#V" n="5"/>actus, aut unus, non duo, quia actus
+<lb ed="#V" n="6"/>fruitionis est actus adaequatus 
+po<lb ed="#V" n="7" break="no"/>tentiae, quia voluntas creata fruitur,
+<lb ed="#V" n="8"/>quantum potest; sed una et eadem
+<lb ed="#V" n="9"/>potentia circa idem objectum, non
+<lb ed="#V" n="10"/>habet actum adaequatum unum, et
+<lb ed="#V" n="11"/>praeter hunc, alium distinctum, quia
+<lb ed="#V" n="12"/>sic sequitur contradictio. Sed 
+pri<lb ed="#V" n="13" break="no"/>mum objectum meriti est ipse Deus
+<lb ed="#V" n="14"/>diligibilis propter se amore 
+amici<lb ed="#V" n="15" break="no"/>tiae, volendo sibi bonum, et 
+simili<lb ed="#V" n="16" break="no"/>ter est obJectum fruitionis ; igitur
+<lb ed="#V" n="17"/>non sunt duo actus, nec unus, quia
+<lb ed="#V" n="18"/>de ratione actus meritorn est, quod
+<lb ed="#V" n="19"/>contingenter eliciatur, ita quod 
+vo<lb ed="#V" n="20" break="no"/>luntas ut prius natura ilo actu, 
+pos<lb ed="#V" n="21" break="no"/>sit contngenter elicere actum, vel
+<lb ed="#V" n="22"/>non elicere pro illo nunc, pro quo
+<lb ed="#V" n="23"/>elicitur; sed actus beatificus non
+<lb ed="#V" n="24"/>elicitur contingenter, sed necessario
+<lb ed="#V" n="25"/>(aliter non esset beatificus); cum 
+igi<lb ed="#V" n="26" break="no"/>tur habeant oppositas conditiones,
+<lb ed="#V" n="27"/>scilicet contingentis et necessari,
+<lb ed="#V" n="28"/>non possunt esse idem actus.
+</p>
+            <p xml:id="jdso8u-d1e2895-d1e242">
+               <lb ed="#V" n="29"/>Praeterea, praemium excedit 
+me<lb ed="#V" n="30" break="no"/>ritum, sicut finis illud quod est ad
+<lb ed="#V" n="31"/>finem, (quia praemium est finis ejus,
+<lb ed="#V" n="32"/>ad quem ordinatur, et finis est 
+me<lb ed="#V" n="33" break="no"/>lior eo quod est ad finem); sed 
+nul<lb ed="#V" n="34" break="no"/>lus actus Christi secundum naturam
+<lb ed="#V" n="35"/>creatam potest esse perfectior illo,
+<lb ed="#V" n="36"/>quo voluntas Christi tendit in Deum,
+<lb ed="#V" n="37"/>et fruitur eo; igitur talis actus non
+<lb ed="#V" n="38"/>potest esse meritorius, quia tunc
+<lb ed="#V" n="39"/>oportet dare alium actum voluntatis
+<lb ed="#V" n="40"/>creatae meliorem, qui esset 
+prae<lb ed="#V" n="41" break="no"/>mium et finis illius, quod non potest
+<lb ed="#V" n="42"/>esse, nec idem est melius se ipso.
+</p>
+            <p xml:id="jdso8u-d1e2895-d1e275">
+               <lb ed="#V" n="43"/>Praeterea, quod non meruerit in
+<lb ed="#V" n="44"/>primo instanti, arguitur specialiter,
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>quia omne quod est, quando est,
+<lb ed="#V" n="46"/>necesse est esse, quia si illud quod
+<lb ed="#V" n="47"/>est esset contingens, hoc non est
+<lb ed="#V" n="48"/>pro ullo instanti, in quo est, sed pro
+<lb ed="#V" n="49"/>illo, in quo causa praecedens posset
+<lb ed="#V" n="50"/>illud contingenter causare; sed 
+vo<lb ed="#V" n="51" break="no"/>luntas si meruerit in primo instanti,
+<lb ed="#V" n="52"/>non praecessit actum ; et ita si actus
+<lb ed="#V" n="53"/>ille non potuit non poni, non potuit
+<lb ed="#V" n="54"/>non fuisse; igitur fuit simpliciter
+<lb ed="#V" n="55"/>necessarius, et per consequens non
+<lb ed="#V" n="56"/>meritorius.
+</p>
+            <p xml:id="jdso8u-d1e2895-d1e310">
+               <lb ed="#V" n="57"/>Praeterea, duae mutationes, 
+qua<lb ed="#V" n="58" break="no"/>rum terminus unius praecedit 
+ter<lb ed="#V" n="59" break="no"/>minum alterius, non sunt simul 
+du<lb ed="#V" n="60" break="no"/>ratione; sed creatio voluntatis in
+<lb ed="#V" n="61"/>esse primo, et motio voluntatis ad
+<lb ed="#V" n="62"/>proprium actum, sunt duae tales
+<lb ed="#V" n="63"/>mutationes, quia terminus 
+creatio<lb ed="#V" n="64" break="no"/>nis, ut esse voluntatis, 
+praesupponi<lb ed="#V" n="65" break="no"/>tur termino alterius, scilicet ipsi
+<lb ed="#V" n="66"/>actui ; igitur non potuit simul esse
+<lb ed="#V" n="67"/>primo, et operari; igitur non potuit
+<lb ed="#V" n="68"/>mereri in primo instanti.
+</p>
+            <p xml:id="jdso8u-d1e2895-d1e339">
+               <lb ed="#V" n="69"/>Praeterea, si sic, igitur Angelus
+<lb ed="#V" n="70"/>potuit peccare m primo instanti.
+<lb ed="#V" n="71"/>Probatio consequentiae, quia 
+secun<lb ed="#V" n="72" break="no"/>dum Philosophum, quarto 
+Physi<lb ed="#V" n="73" break="no"/>corum, eadem est mensura 
+opposito<lb ed="#V" n="74" break="no"/>torum; unde sicut simphrciter 
+ne<lb ed="#V" n="75" break="no"/>cessaria sunt supra tempus, ita et
+<lb ed="#V" n="76"/>impossibilia; igitur meritum et 
+de<lb ed="#V" n="77" break="no"/>meritum eadem mensura 
+mensu<lb ed="#V" n="78" break="no"/>rantur, et ita si Christus in primo
+<lb ed="#V" n="79"/>instanti potuit mereri, Angelus in
+<lb ed="#V" n="80"/>primo instanti potuit peccare. 
+Con<lb ed="#V" n="81" break="no"/>sequens est falsum, quia tunc 
+pecca<lb ed="#V" n="82" break="no"/>tum Angel redundaret in Deum,
+<lb ed="#V" n="83"/>quia omne coaevum effectui est 
+cau<lb ed="#V" n="84" break="no"/>saliter a causa talis effectus. 
+Exem<lb ed="#V" n="85" break="no"/>plum de igne et ejus splendore, quia
+<lb ed="#V" n="86"/>uterque est a generante ignem. Hoc
+<lb ed="#V" n="87"/>etiam probat Anselmus de casu 
+dia<lb ed="#V" n="88" break="no"/>boli. cap. 12. quod Angelus non
+<pb ed="#V" n="663"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>potuit habere a se primum vefle,
+<lb ed="#V" n="2"/>quia si elicit primam volitionem a
+<lb ed="#V" n="3"/>se, aut hoc est volendo, aut non 
+vo<lb ed="#V" n="4" break="no"/>lendo. Non potest dici quod non 
+vo<lb ed="#V" n="5" break="no"/>lendo, quia tunc nihil elicit ; igitur
+<lb ed="#V" n="6"/>volendo, et tunc ante primum velle
+<lb ed="#V" n="7"/>erit aliud velle ; igitur primum velle
+<lb ed="#V" n="8"/>habet a Deo, et ita non posset 
+pec<lb ed="#V" n="9" break="no"/>care, nisi peccatum redundaret in
+<lb ed="#V" n="10"/>Deum, sicut in causam ejus.
+</p>
+            <p xml:id="jdso8u-d1e2895-d1e412">
+               <lb ed="#V" n="11"/>Praeterea, in primo instanti fuit
+<lb ed="#V" n="12"/>in Angelo motus naturalis 
+rectissi<lb ed="#V" n="13" break="no"/>mus voluntatis, qui naturaliter
+<lb ed="#V" n="14"/>praecedit velle liberum, cujusmodi
+<lb ed="#V" n="15"/>est peccare ; igitur non potuit simul
+<lb ed="#V" n="16"/>in primo instanti esse motus 
+natu<lb ed="#V" n="17" break="no"/>ralis rectissimus voluntatis, et velle
+<lb ed="#V" n="18"/>deordinatum, quia tunc simul essent
+<lb ed="#V" n="19"/>contradictoria, scilicet quod esset
+<lb ed="#V" n="20"/>rectissimus et non rectissimus.
+</p>
+            <p xml:id="jdso8u-d1e2895-d1e436">
+               <lb ed="#V" n="21"/>Contra, ad actum meeritorium
+<lb ed="#V" n="22"/>sufficiunt potentia, quae potest
+<lb ed="#V" n="23"/>mereri, et dispositio gratuita in
+<lb ed="#V" n="24"/>potentia, scilicet gratia, praesentia
+<lb ed="#V" n="25"/>objecti apprehensi et usus potentiae
+<lb ed="#V" n="26"/>circa illud : omnia illa fuerunt in
+<lb ed="#V" n="27"/>Christo in primo instanti. Patet de
+<lb ed="#V" n="28"/>potentia gratuita, et praesentia
+<lb ed="#V" n="29"/>objecti ; de usu potentiae, scilicet
+<lb ed="#V" n="30"/>quod potuerit uti gratia eliciendo
+<lb ed="#V" n="31"/>actum, probatur, quia secundum
+<lb ed="#V" n="32"/>Augustinum 6. de Trinit. cap. 1.
+<lb ed="#V" n="33"/>Splendor genitus ab igne esset aeter
+<lb ed="#V" n="34"/>nus, si ignis esset aeternus ; dicit
+<lb ed="#V" n="35"/>genitus ab igne; igitur res et 
+opera<lb ed="#V" n="36" break="no"/>tio sua possunt esse simul pro
+<lb ed="#V" n="37"/>quocumque instanti.
+</p>
+            <!-- </div>
+
+<div alias="scotus-d18q1-p2"> -->
+            <p xml:id="jdso8u-d1e2895-d1e477">
+               <lb ed="#V" n="52" type="fixed=663"/>SCHOLIUM.
+</p>
+            <p xml:id="jdso8u-d1e2895-d1e482">
+               <lb ed="#V" n="53"/>Ponit primo definitionem meriti. Secundo,
+<lb ed="#V" n="54"/>ait meritum non semper esse in eo cui datur
+<lb ed="#V" n="55"/>praemium. Tertio, Christus meruit nobis bono
+<lb ed="#V" n="56"/>velle voluntatis. Quarto, radix meriti proprie
+<lb ed="#V" n="57"/>loquendo, est in affectione justitiae, non in
+<lb ed="#V" n="58"/>affectione commodi, id est, in actu libero 
+con<lb ed="#V" n="59" break="no"/>formi inclinationi naturali ; de quo 2. dist. 6.
+<lb ed="#V" n="60"/>quaest. 2. affectio justitiae est actus liber 
+con<lb ed="#V" n="61" break="no"/>formiter regulae superioris elicitus naturali
+<lb ed="#V" n="62"/>vel supernaturali dictamine. Quinto, Christus,
+<lb ed="#V" n="63"/>quia secundum corpus viator, potuit aliquid
+<lb ed="#V" n="64"/>appetere contra affectionem commodi, et in
+<lb ed="#V" n="65"/>hoc mereri, quod non possunt alii Beati, v. g.
+<lb ed="#V" n="66"/>vigilando, jejunando, etc. Sexto, Christus 
+me<lb ed="#V" n="67" break="no"/>ruit per actus voluntatis inferioris portionis, id
+<lb ed="#V" n="68"/>est, quatenus respicit ea quae sunt ad finem,
+<lb ed="#V" n="69"/>de quo supra dist. 15. et 2. dist. 24.
+</p>
+            <p xml:id="jdso8u-d1e2895-d1e521">
+               <lb ed="#V" n="70"/>In ista quaestione (b) primo 
+vi<lb ed="#V" n="71" break="no"/>dendum est, quomodo Christus
+<lb ed="#V" n="72"/>meruit ; difficle tamen videtur
+<lb ed="#V" n="73"/>salvare quod meruerit, cum fuerit
+<lb ed="#V" n="74"/>Beatus, et perfecte conjunctus fini
+<lb ed="#V" n="75"/>secundum voluntatem in primo
+<lb ed="#V" n="76"/>instanti. Unde si in primo vel 
+ali<lb ed="#V" n="77" break="no"/>quo alio potuit mereri, videtur
+<lb ed="#V" n="78"/>quod alhi) Deati mereantur, vel
+<lb ed="#V" n="79"/>mereri possint in infinitum, et ita
+<lb ed="#V" n="80"/>eorum praemium nunquam perfecte
+<lb ed="#V" n="81"/>habetur.
+</p>
+            <p xml:id="jdso8u-d1e2895-d1e551">
+               <lb ed="#V" n="82"/>Videndum tamen est primo, quid
+<lb ed="#V" n="83"/>sit meritum. Et dico quod meritum
+<lb ed="#V" n="84"/>est aliquid acceptatum vel 
+accep<lb ed="#V" n="85" break="no"/>tandum in alio, pro quo ab accep-:
+<lb ed="#V" n="86"/>tante est aliquid retribuendum illi,
+<lb ed="#V" n="87"/>in quo est quasi debitum illi pro illo
+<pb ed="#V" n="664"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>merito, vel alteri pro quo meruit;
+<lb ed="#V" n="2"/>non enim meritum dicit semper
+<lb ed="#V" n="3"/>actum, qui sit in potestate ejus, cui
+<lb ed="#V" n="4"/>fit retributio, sed hoc solum est
+<lb ed="#V" n="5"/>quando aliquis meretur sibi ipsi.
+<lb ed="#V" n="6"/>Quando autem unus meretur alteri
+<lb ed="#V" n="7"/>per orationes vel alas afflictiones
+<lb ed="#V" n="8"/>acceptas Deo, quamvis illa sint in
+<lb ed="#V" n="9"/>potestate merentis, non tamen sunt
+<lb ed="#V" n="10"/>in potestate ejus pro quo facit; et
+<lb ed="#V" n="11"/>tunc meritum formalter dicit 
+ordi<lb ed="#V" n="12" break="no"/>nem alicujus actus laudabilis in
+<lb ed="#V" n="13"/>merente ad acceptantem, quem
+<lb ed="#V" n="14"/>acceptans acceptat, ut retribuat ei
+<lb ed="#V" n="15"/>pro quo acceptatur ; et ex hoc 
+se<lb ed="#V" n="16" break="no"/>quitur quod unus potest mereri pro
+<lb ed="#V" n="17"/>alio; quia tamen in Deo nihll est
+<lb ed="#V" n="18"/>acceptandum non acceptatum, ideo
+<lb ed="#V" n="19"/>in descriptione meriti non oportet
+<lb ed="#V" n="20"/>addere, acceptandum in ordine ad
+<lb ed="#V" n="21"/>Deum. Deus igitur acceptans 
+bo<lb ed="#V" n="22" break="no"/>num factum, vel bonum velle 
+alicu<lb ed="#V" n="23" break="no"/>jus, tribuit sibi, si indigeat; si tamen
+<lb ed="#V" n="24"/>sit ita perfectus, quod non indigeat
+<lb ed="#V" n="25"/>perfectione, sicut Christus, retribuit
+<lb ed="#V" n="26"/>aliis, pro quibus meretur.
+</p>
+            <p xml:id="jdso8u-d1e2895-d1e627">
+               <lb ed="#V" n="27"/>Tunc ad propositum (c) loquendo
+<lb ed="#V" n="28"/>de merito prout consistit in bono
+<lb ed="#V" n="29"/>velle voluntatis, dico quod Christus
+<lb ed="#V" n="30"/>meruit nobis tali velle ; et dico quod
+<lb ed="#V" n="31"/>radix omnis meriti consistit, proprie
+<lb ed="#V" n="32"/>loquendo de merito, in affectione
+<lb ed="#V" n="33"/>justitiae voluntatis, non autem in
+<lb ed="#V" n="34"/>affectione commodi, nec in 
+affec<lb ed="#V" n="35" break="no"/>tione justitiae, ut ordinat affectionem
+<lb ed="#V" n="36"/>commodi. Hoc patet, quia primum
+<lb ed="#V" n="37"/>objectum, circa quod aliquis 
+mere<lb ed="#V" n="38" break="no"/>tur primo, est ipse Deus, secundum
+<lb ed="#V" n="39"/>quod affectione justitiae vult Deo
+<lb ed="#V" n="40"/>bonum, ut esse et bene esse, scilicet
+<lb ed="#V" n="41"/>justum, sapientem, etc. sed voluntas
+<lb ed="#V" n="42"/>affectione commodi respicit 
+pro<lb ed="#V" n="43" break="no"/>prium bonum, et aliquando 
+inordi<lb ed="#V" n="44" break="no"/>nate, nisi reguletur et ordinetur
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>affectione justitiae ; ideo meritum
+<lb ed="#V" n="46"/>non consistit primo 1n affectione
+<lb ed="#V" n="47"/>justitiae, ut moderatur et ordinat
+<lb ed="#V" n="48"/>affectionem commodi circa 
+pro<lb ed="#V" n="49" break="no"/>prium bonum ; sed sicut primum:
+<lb ed="#V" n="50"/>demeritum Angelorum fuit 
+inordi<lb ed="#V" n="51" break="no"/>natus motus, et desiderium 
+beatitu<lb ed="#V" n="52" break="no"/>dinis circa Deum, ita meritum est
+<lb ed="#V" n="53"/>ordinatus motus circa Deum, 
+vo<lb ed="#V" n="54" break="no"/>lendo sibi bonum, et post volendo
+<lb ed="#V" n="55"/>cum debitis circumstantus, sibi
+<lb ed="#V" n="56"/>conjungi ipsum in se etin aliis. Et
+<lb ed="#V" n="57"/>ideo (d) omne amatum affectione
+<lb ed="#V" n="58"/>commodi, si non ordinetur et 
+mode<lb ed="#V" n="59" break="no"/>retur affectione justitiae, est 
+demeri<lb ed="#V" n="60" break="no"/>tum, quia est immoderatus appetitus
+<lb ed="#V" n="61"/>propru boni, vel indifferens, si
+<lb ed="#V" n="62"/>posset esse indifferens, de quo non
+<lb ed="#V" n="63"/>modo (forte enim potest secundum
+<lb ed="#V" n="64"/>quod praevenit affectionem justitiae),
+<lb ed="#V" n="65"/>ideo in affectione commodi, nisi
+<lb ed="#V" n="66"/>referatur ad ultimum finem 
+affec<lb ed="#V" n="67" break="no"/>uone justitiae, non consistit 
+meri<lb ed="#V" n="68" break="no"/>tum.
+</p>
+            <p xml:id="jdso8u-d1e2895-d1e723">
+               <lb ed="#V" n="69"/>Sed alii Beati a Christo (e), quia
+<lb ed="#V" n="70"/>secundum totam voluntatem 
+con<lb ed="#V" n="71" break="no"/>juncti sunt ultimo fini, scilicet Deo,
+<lb ed="#V" n="72"/>affectione justitiae perfectissimae,
+<lb ed="#V" n="73"/>etiam habent summum commodum
+<lb ed="#V" n="74"/>conjunctum sibi, quod appetunt
+<lb ed="#V" n="75"/>affectione commodi, scilicet 
+con<lb ed="#V" n="76" break="no"/>junctionem summi boni, ideo non
+<lb ed="#V" n="77"/>possunt habere actum oppositum
+<lb ed="#V" n="78"/>affectioni commodi, ut libere velint
+<lb ed="#V" n="79"/>aliquid, quod non sit eis 
+commo<lb ed="#V" n="80" break="no"/>dum. Nullum enim est objectum in
+<lb ed="#V" n="81"/>patria, quod possint velle, quod sit
+<lb ed="#V" n="82"/>eis incommodum, quod affectione
+<lb ed="#V" n="83"/>commodi nolunt. Sed Christus 
+se<lb ed="#V" n="84" break="no"/>cundum aliquid fuit viator, et 
+passi<lb ed="#V" n="85" break="no"/>bilis secundum partem sensitivam et
+<lb ed="#V" n="86"/>portionem inferiorem voluntatis,
+<lb ed="#V" n="87"/>ideo multa habuit objecta praesentia
+<lb ed="#V" n="88"/>sensibus et portioni inferiori, circa
+<pb ed="#V" n="665"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>quae potuit libere velle contra
+<lb ed="#V" n="2"/>affectionem commodi, quae semper
+<lb ed="#V" n="3"/>est ad conveniens illi, cujus est;
+<lb ed="#V" n="4"/>ideo Jejunando, vigilando, orando,
+<lb ed="#V" n="5"/>et multis aliis talibus potuit mereri,
+<lb ed="#V" n="6"/>vel exercendo talia exterius, vel
+<lb ed="#V" n="7"/>volendo interius talia propter
+<lb ed="#V" n="8"/>Deum.
+</p>
+            <p xml:id="jdso8u-d1e2895-d1e791">
+               <lb ed="#V" n="9"/>Tunc dico quod licet Angeli
+<lb ed="#V" n="10"/>habeant bonas operationes circa
+<lb ed="#V" n="11"/>nos, vel ali Beati, quia tamen illi
+<lb ed="#V" n="12"/>actus sunt inclusi in beatitudine
+<lb ed="#V" n="13"/>illorum, hoc est ratione beatitudinis,
+<lb ed="#V" n="14"/>et ex illius plenitudine et collatione
+<lb ed="#V" n="15"/>obligantur nobis a Deo, potest dici
+<lb ed="#V" n="16"/>quod non merentur (f); sed 
+hujus<lb ed="#V" n="17" break="no"/>modi operationes Christi praedictae
+<lb ed="#V" n="18"/>non includuntur in sua beatitudine;
+<lb ed="#V" n="19"/>ideo per illos actus meruit, quia
+<lb ed="#V" n="20"/>quantum ad illos actus fuit viator, non
+<lb ed="#V" n="21"/>comprehensor, ita quod radicahter
+<lb ed="#V" n="22"/>includantur in sua beatitudine.
+</p>
+            <p xml:id="jdso8u-d1e2895-d1e824">
+               <lb ed="#V" n="23"/>Similiter potest dici, si hoc non
+<lb ed="#V" n="24"/>placet, scilicet quod meruit tantum
+<lb ed="#V" n="25"/>actibus partis sensitivae imperatis a
+<lb ed="#V" n="26"/>voluntate, secundum primam 
+opi<lb ed="#V" n="27" break="no"/>nionem supra, sed quod etiam 
+po<lb ed="#V" n="28" break="no"/>tuit secundum partem intellectivam,
+<lb ed="#V" n="29"/>tunc potest dici, quod quantum ad
+<lb ed="#V" n="30"/>omnes actus portionis minferioris
+<lb ed="#V" n="31"/>potuit mereri. De his (g) dico, qui
+<lb ed="#V" n="32"/>respiciunt ea, quae sunt ad finem.
+<lb ed="#V" n="33"/>Sed quomodo ? dico quod etsi portio
+<lb ed="#V" n="34"/>superior fuit perfecte conjuncta Deo
+<lb ed="#V" n="35"/>secundum actum beatificum, fuit
+<lb ed="#V" n="36"/>tamen eadem voluntas passibilis
+<lb ed="#V" n="37"/>secundum portionem inferiorem, et
+<lb ed="#V" n="38"/>ut sic, fuit viatrix et potuit mereri.
+</p>
+            <!-- </div>
+
+<div alias="scotus-d18q1-p3"> -->
+            <p xml:id="jdso8u-d1e2895-d1e864">
+               <lb ed="#V" n="24" type="fixed=670"/>SCHOLIUM.
+</p>
+            <p xml:id="jdso8u-d1e2895-d1e869">
+               <lb ed="#V" n="25"/>Movet duas instantias contra id quod 
+asse<lb ed="#V" n="26" break="no"/>ruit, Christum per actus portionis inferioris
+<lb ed="#V" n="27"/>meruisse. Ad primam, ait portionem 
+inferio<lb ed="#V" n="28" break="no"/>rem animae Christi fuisse in termino secundum
+<lb ed="#V" n="29"/>impeccabilitatem, non secundum 
+impassibih<lb ed="#V" n="30" break="no"/>tatem. Ad secundam, putat dici posse, 
+Chris<lb ed="#V" n="31" break="no"/>tum meruisse actibus beatificis. Primo, quia
+<lb ed="#V" n="32"/>sunt boni et laudabiles, nec eliciens fuit 
+sim<lb ed="#V" n="33" break="no"/>pliciter in termino. Secundo, in nobis non est
+<lb ed="#V" n="34"/>meritum in parte inferiori, nisi sit in portione
+<lb ed="#V" n="35"/>superiori. [ta tenent Altiss. lib. 3. summ. 
+Tri<lb ed="#V" n="36" break="no"/>nit. 1. cap. 7. Gabriel. hic quaest. unic. art. 2.
+<lb ed="#V" n="37"/>Joan. Major quaest. 2. Holchot, Almain hic.
+<lb ed="#V" n="38"/>Capreol. quaest. 1. dicens fuisse D. Thom. in
+<lb ed="#V" n="39"/>3. Pitigianis hic art. 3. Philip. Faber disp. 44.
+<lb ed="#V" n="40"/>qui disp. 42. respondet argumentis Vasq. 1.2.
+<lb ed="#V" n="41"/>d. 214. contra Scotum, quatenus ait 
+accepta<lb ed="#V" n="42" break="no"/>tionem esse rationem completivam meriti, ub
+<lb ed="#V" n="43"/>merito immodestam Vasq. censuram repre
+<lb ed="#V" n="44"/>hendit.
+</p>
+            <p xml:id="jdso8u-d1e2895-d1e915">
+               <lb ed="#V" n="45"/>Contra illud (h) quod est in 
+ter<lb ed="#V" n="46" break="no"/>mino simpliciter non potuit mere-
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="47"/>ri ; sed portio inferior fuit 
+simplici<lb ed="#V" n="48" break="no"/>ter in termino, quia non potuit
+<lb ed="#V" n="49"/>habere actum inordinatum circa
+<lb ed="#V" n="50"/>aliquid ad finem ; igitur fuit quietata
+<lb ed="#V" n="51"/>et beatificata quantum potuit, quia
+<lb ed="#V" n="52"/>non est ipsius partis inferioris habere
+<lb ed="#V" n="53"/>actum circa objectum aeternum 
+im<lb ed="#V" n="54" break="no"/>mediate, sed circa alia in relatione
+<lb ed="#V" n="55"/>ad illud objectum.
+</p>
+            <p xml:id="jdso8u-d1e2895-d1e944">
+               <lb ed="#V" n="56"/>Praeterea, sicut in nobis meritum
+<lb ed="#V" n="57"/>respicit partem intellectivam, sic in
+<lb ed="#V" n="58"/>Christo ; sed in nobis non est 
+meri<lb ed="#V" n="59" break="no"/>tum in portione inferiori, nisi fuerit
+<lb ed="#V" n="60"/>in superiori complete, sicut nec
+<lb ed="#V" n="61"/>peccatum ; igitur nec Christus 
+po<lb ed="#V" n="62" break="no"/>tuit mereri secundum portionem
+<lb ed="#V" n="63"/>inferiorem tantum, nisi mereretur
+<lb ed="#V" n="64"/>secundum superiorem.
+</p>
+            <p xml:id="jdso8u-d1e2895-d1e966">
+               <lb ed="#V" n="65"/>Ad primum horum (i) cum 
+dici<lb ed="#V" n="66" break="no"/>tur, quod portio inferior fuit 
+simpli<lb ed="#V" n="67" break="no"/>citer in termino, et ideo non potuit
+<lb ed="#V" n="68"/>mereri, dico quod portio inferior in
+<lb ed="#V" n="69"/>Christo, dicitur esse in termino, ex
+<lb ed="#V" n="70"/>hoc quod portio superior 
+conjunge<lb ed="#V" n="71" break="no"/>batur Deo perfecte, scilicet quod 
+af<lb ed="#V" n="72" break="no"/>fectione justitiae non potuit velle,
+<lb ed="#V" n="73"/>nisi ordinatum et justum, et ideo
+<lb ed="#V" n="74"/>non potuit peccare. Sed tamen non
+<lb ed="#V" n="75"/>fuit secundum partem inferiorem ex
+<lb ed="#V" n="76"/>conjunctione cum Deo in termino,
+<lb ed="#V" n="77"/>sic quod habuit impassibihltatem,
+<lb ed="#V" n="78"/>nec habuit omne quod habere potuit
+<lb ed="#V" n="79"/>secundum affectionem commodi,
+<lb ed="#V" n="80"/>quia ex miraculo non habuit 
+sum<lb ed="#V" n="81" break="no"/>mum bonum sibi conjunctum,
+<lb ed="#V" n="82"/>quantum potuit conjungi, sicut est
+<lb ed="#V" n="83"/>in simpliciter Beatis, et in Christo
+<lb ed="#V" n="84"/>modo de facto in patria. Quia igitur
+<lb ed="#V" n="85"/>sic fuit, potuit aliquid accidere sibi
+<lb ed="#V" n="86"/>contra affectionem commodi, quod
+<lb ed="#V" n="87"/>tamen acceptavit, et ita mereri 
+po<lb ed="#V" n="88" break="no"/>tuit. Et praeter hoc etiam portio 
+in<lb ed="#V" n="89" break="no"/>ferior meruit eliciendo operationem
+<lb ed="#V" n="90"/>circa creata, ut diligendo matrem,
+<pb ed="#V" n="671"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>et alios bonos in Deum, et malos
+<lb ed="#V" n="2"/>propter Deum. Ideo quando dicitur,
+<lb ed="#V" n="3"/>quod secundum portionem 
+infertio<lb ed="#V" n="4" break="no"/>rem fuit in termino, si intelligatur
+<lb ed="#V" n="5"/>omni modo in termino, falsum
+<lb ed="#V" n="6"/>est.
+</p>
+            <p xml:id="jdso8u-d1e2895-d1e1042">
+               <lb ed="#V" n="7"/>Ad secundum (j) cum dlicitur
+<lb ed="#V" n="8"/>quod meritum complete non est
+<lb ed="#V" n="9"/>nisi in superiori portione, dico 
+prop<lb ed="#V" n="10" break="no"/>ter argumentum, quod Christus
+<lb ed="#V" n="11"/>meruit secundum portionem 
+supe<lb ed="#V" n="12" break="no"/>riorem, et secundum omnem actum
+<lb ed="#V" n="13"/>ejus. Hoc tamen est difficile tenere
+<lb ed="#V" n="14"/>propter alios Beatos, qui tunc 
+vi<lb ed="#V" n="15" break="no"/>dentur posse mereri in infinitum.
+<lb ed="#V" n="16"/>Probo autem illud, quia omnis actus
+<lb ed="#V" n="17"/>acceptatus a Deo, tanquam actus
+<lb ed="#V" n="18"/>bonus et laudabilss, pro quo Deus
+<lb ed="#V" n="19"/>velit aliquid retribuere ili, cujus
+<lb ed="#V" n="20"/>actum acceptat, vel alteri pro quo
+<lb ed="#V" n="21"/>fit, est meritorius; hujusmodi est
+<lb ed="#V" n="22"/>omnis actus Christi secundum 
+na<lb ed="#V" n="23" break="no"/>turam humanam ; etiam actus 
+bea<lb ed="#V" n="24" break="no"/>tificus, quo secundum portionem
+<lb ed="#V" n="25"/>supertiorem fruitur Deo, quia 
+perso<lb ed="#V" n="26" break="no"/>sona illa non secundum omnem
+<lb ed="#V" n="27"/>conditionem sui fuit simpliciter in
+<lb ed="#V" n="28"/>termino, ideo potuit Deus omnem
+<lb ed="#V" n="29"/>actum creatum ilius personae 
+ac<lb ed="#V" n="30" break="no"/>ceptare tanquam dignum aliquo
+<lb ed="#V" n="31"/>bono pro eo retribuendo illi 
+perso<lb ed="#V" n="32" break="no"/>nae, si indiguisset, vel alteri, scilicet
+<lb ed="#V" n="33"/>- nobis, pro quibus meruit. Et hoc 
+te<lb ed="#V" n="34" break="no"/>nendo oportet dicere quod si actus
+<lb ed="#V" n="35"/>beatificus secundum portionem su
+<lb ed="#V" n="36"/>periorem Christi fuit meritorius,
+<lb ed="#V" n="37"/>quod non includit contradictionem
+<lb ed="#V" n="38"/>actum beatificum Michaelis vel 
+al<lb ed="#V" n="39" break="no"/>terius Beati posse acceptari 
+tan<lb ed="#V" n="40" break="no"/>quam aliquid dignum retributione,
+<lb ed="#V" n="41"/>quod retributum daretur propter
+<lb ed="#V" n="42"/>meritum, puta Michaeli daretur 
+ali<lb ed="#V" n="43" break="no"/>quid propter actum meritorium 
+cus<lb ed="#V" n="44" break="no"/>todiae, quam exercet circa me con-
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>tradictio, dico, non esset ; tamen
+<lb ed="#V" n="46"/>de facto Deus non sic acceptat 
+ac<lb ed="#V" n="47" break="no"/>tum illum, quia persona illa est
+<lb ed="#V" n="48"/>totaliter extra statum merendi 
+se<lb ed="#V" n="49" break="no"/>cundum totum subjectum ; non sic
+<lb ed="#V" n="50"/>Christus, sed secundum aliquid fuit
+<lb ed="#V" n="51"/>in statu viatoris, et propter hoc 
+om<lb ed="#V" n="52" break="no"/>nis actus ejus creatus acceptus erat,
+<lb ed="#V" n="53"/>et meritorius illis, pro quibus 
+offe<lb ed="#V" n="54" break="no"/>rebatur Deo.
+</p>
+            <p xml:id="jdso8u-d1e2895-d1e1152">
+               <lb ed="#V" n="55"/>Sed quomodo hoc (k) ? ex quo
+<lb ed="#V" n="56"/>fuit extra viam secundum portionem
+<lb ed="#V" n="57"/>superiorem, non videtur quod 
+se<lb ed="#V" n="58" break="no"/>cundum illam posset mereri plus
+<lb ed="#V" n="59"/>quam alius Beatus in patria.
+</p>
+            <p xml:id="jdso8u-d1e2895-d1e1165">
+               <lb ed="#V" n="60"/>Respondeo, sicut meritum (l) non
+<lb ed="#V" n="61"/>respicit, nec consistit tantum in ipso
+<lb ed="#V" n="62"/>actu elicito, sed in conditionibus
+<lb ed="#V" n="63"/>aliquo modo personae, sive 
+suppo<lb ed="#V" n="64" break="no"/>siti elicientis, sic acceptatio divina
+<lb ed="#V" n="65"/>non solum respicit actum, sed 
+con<lb ed="#V" n="66" break="no"/>ditiones accidentales suppositi 
+eli<lb ed="#V" n="67" break="no"/>cientis. Exemplum, aliquis offendi:
+<lb ed="#V" n="68"/>me, veniunt duo, et rogant pro
+<lb ed="#V" n="69"/>offensa veniam tertii offendentis,
+<lb ed="#V" n="70"/>pono, quod uterque aeque gratiose
+<lb ed="#V" n="71"/>et efficaciter roget, rogatio est 
+cau<lb ed="#V" n="72" break="no"/>sa, quare dimitto offensam, 
+formali<lb ed="#V" n="73" break="no"/>ter loquendo, tamen aliqua 
+acciden<lb ed="#V" n="74" break="no"/>talis conditio potest esse in alterius
+<lb ed="#V" n="75"/>illorum supposito, propter quam
+<lb ed="#V" n="76"/>citius et magis dimittam offensam
+<lb ed="#V" n="77"/>propter rogationem unius quam 
+al<lb ed="#V" n="78" break="no"/>terius, puta quod sit amicus, vel
+<lb ed="#V" n="79"/>aliquid tale, et tamen supplicatio
+<lb ed="#V" n="80"/>est causa praecipua, quare offensam
+<lb ed="#V" n="81"/>dimitto. Ita in proposito, quod 
+per<lb ed="#V" n="82" break="no"/>sona sit secundum aliquid extra
+<lb ed="#V" n="83"/>simpliciter terminum, est aliqualiter
+<lb ed="#V" n="84"/>causa, quare ejus actus etiam 
+beati<lb ed="#V" n="85" break="no"/>ficus est meritorius, et non alterius,
+<lb ed="#V" n="86"/>scilicet Angeli vel animae Petri, et
+<lb ed="#V" n="87"/>maxime cum talia dependeant ex
+<lb ed="#V" n="88"/>liberalitate divina acceptante unum
+<pb ed="#V" n="672"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>actum, et non alium; non tamen est
+<lb ed="#V" n="2"/>contradictio utrumque acceptari
+<lb ed="#V" n="3"/>tanquam meritorium secundum viam
+<lb ed="#V" n="4"/>istam, quod videtur difficile.
+</p>
+            <p xml:id="jdso8u-d1e2895-d1e1243">
+               <lb ed="#V" n="5"/>Sed tunc ultra posset esse 
+du<lb ed="#V" n="6" break="no"/>bium, an fruitio respectu Verbi in
+<lb ed="#V" n="7"/>se sit actus meritorius, vel actus
+<lb ed="#V" n="8"/>ille, ut tendit in objecta alia 
+relu<lb ed="#V" n="9" break="no"/>centia in Verbo, scilicet ut dilexit
+<lb ed="#V" n="10"/>matrem visam in Verbo, et alios
+<lb ed="#V" n="11"/>electos ita visos propter Deum et
+<lb ed="#V" n="12"/>in Deum, et alios mnimicos propter
+<lb ed="#V" n="13"/>Deum. Et posset dici, quod utroque
+<lb ed="#V" n="14"/>modo, et maxime, ut actus tendit in
+<lb ed="#V" n="15"/>alia objecta a Deo visa et dilecta ibi.
+<lb ed="#V" n="16"/>Habemus (m) igitur quod tripliciter
+<lb ed="#V" n="17"/>potuit mereri, eligatur via magis
+<lb ed="#V" n="18"/>grata.
+</p>
+            <!-- </div>
+
+<div alias="scotus-d18q1-p4"> -->
+            <p xml:id="jdso8u-d1e2895-d1e1278">
+               <lb ed="#V" n="6" type="fixed=678"/>SCHOLIUM.
+</p>
+            <p xml:id="jdso8u-d1e2895-d1e1283">
+               <lb ed="#V" n="7"/>Christum meruisse in primo instanti 
+con<lb ed="#V" n="8" break="no"/>ceptionis, quia habuit tunc gratiam perfectam
+<lb ed="#V" n="9"/>et objectum praesens, nec erat impeditus. Hoc
+<lb ed="#V" n="10"/>probant illa, quibus Doct. 2. d. 5. queest. 2.
+<lb ed="#V" n="11"/>ostendit Angelum potuisse peccare primo 
+ins<lb ed="#V" n="12" break="no"/>tanu. Consentit D. Thom. 3. p. q. 34. art 3.
+<lb ed="#V" n="13"/>Richard. hic artic. 2 quaest. 2. Magister hic.
+<lb ed="#V" n="14"/>D. Bonavent. Gabr. Rubion, Bassolis, Alm. et
+<lb ed="#V" n="15"/>communis.
+</p>
+            <p xml:id="jdso8u-d1e2895-d1e1306">
+               <lb ed="#V" n="16"/>Est igitur videndum (n), an 
+po<lb ed="#V" n="17" break="no"/>tuerit mereri in primo instanti, et
+<lb ed="#V" n="18"/>potest dici quod sic ; nec video 
+op<lb ed="#V" n="19" break="no"/>positum, quia omne habens actum
+<lb ed="#V" n="20"/>primum perfectum et objectum
+<lb ed="#V" n="21"/>praesens in ratione objecti, si non
+<lb ed="#V" n="22"/>impeditur, et non sit actus ejus 
+se<lb ed="#V" n="23" break="no"/>cundus successivus, sed permanens,
+<lb ed="#V" n="24"/>potest agere pro quocumque 
+instan<lb ed="#V" n="25" break="no"/>ti, si omniaista concurrant, quia non
+<lb ed="#V" n="26"/>plura requiruntur ad actum ; et haec
+<lb ed="#V" n="27"/>omnia fuerunt in Christo in primo
+<lb ed="#V" n="28"/>instanti conceptionis, scilicet 
+poten<lb ed="#V" n="29" break="no"/>ua, perfecta gratia, objectum 
+prae<lb ed="#V" n="30" break="no"/>sens per intellectum, scilicet tota
+<lb ed="#V" n="31"/>Trinitas, cui poterat velle bonum
+<lb ed="#V" n="32"/>propter se, et non impediebatur,
+<lb ed="#V" n="33"/>et actus volendi est permanens ;
+<lb ed="#V" n="34"/>ergo.
+</p>
+            <p xml:id="jdso8u-d1e2895-d1e1350">
+               <lb ed="#V" n="35"/>Contra rationem hanc insto (0)
+<lb ed="#V" n="36"/>ut magis declaretur, et probo quod
+<lb ed="#V" n="37"/>adhuc omnibus istis positis, non
+<lb ed="#V" n="38"/>esset actus meritorius, quia ad 
+ta<lb ed="#V" n="39" break="no"/>lem actum requiritur deliberatio et
+<lb ed="#V" n="40"/>electio ; electio autem praesupponit
+<lb ed="#V" n="41"/>syllogismum practicum et 
+discur<lb ed="#V" n="42" break="no"/>sum, et discursus moram, est cnim
+<lb ed="#V" n="43"/>actus meritorius electivus ; ergo.
+</p>
+            <p xml:id="jdso8u-d1e2895-d1e1372">
+               <cb ed="#V" n="b"/>
+               <lb ed="#V" n="44"/>Respondeo, (p) hujusmodi 
+discur<lb ed="#V" n="45" break="no"/>sus et syllogizatio practica est ad
+<lb ed="#V" n="46"/>hoc, quod habeatur actus electivus
+<lb ed="#V" n="47"/>voluntatis, et facto judicio per
+<lb ed="#V" n="48"/>cognitionem practicam voluntas
+<lb ed="#V" n="49"/>eligit, et quando voluntas eligit,
+<lb ed="#V" n="50"/>ratio practica non discurrit, quia
+<lb ed="#V" n="51"/>facta conclusione practica sententiat
+<lb ed="#V" n="52"/>de eligendo ; si ergo sententia 
+ulti<lb ed="#V" n="53" break="no"/>mata possit haberi sine discursu
+<lb ed="#V" n="54"/>praecedente, ita perfecte poterit 
+vo<lb ed="#V" n="55" break="no"/>luntas libere eligere in instanti, 
+si<lb ed="#V" n="56" break="no"/>cut praecedente illo discursu ; sed
+<lb ed="#V" n="57"/>perfectus in cognoscendo non 
+dis<lb ed="#V" n="58" break="no"/>currit, sicut artifex in citharizando
+<lb ed="#V" n="59"/>perfectus, non discurrit in 
+percu<lb ed="#V" n="60" break="no"/>tiendo chordas, nec syllogizat, alias
+<lb ed="#V" n="61"/>videretur imperfectus (hoc habetur
+<lb ed="#V" n="62"/>3. Ethic. cap. 10.) cum igitur 
+Chris<lb ed="#V" n="63" break="no"/>tus a principlo suae conceptionis
+<lb ed="#V" n="64"/>fuerit perfectus in cognitione 
+om<lb ed="#V" n="65" break="no"/>nium, saltem abstractiva, potuit sine
+<lb ed="#V" n="66"/>tali syllogizatione eligere, quia 
+elec<lb ed="#V" n="67" break="no"/>tio de se est actus simplex.
+</p>
+            <!-- </div>
+
+<div alias="scotus-d18q1-p5"> -->
+            <p xml:id="jdso8u-d1e2895-d1e1431">
+               <lb ed="#V" n="18" type="fixed=683"/>SCHOLILM.
+</p>
+            <p xml:id="jdso8u-d1e2895-d1e1436">
+               <lb ed="#V" n="19"/>Christum non meruisse suam fruitionem seu
+<lb ed="#V" n="20"/>gloriam, quia fruitio fuit primus actus Christi,
+<lb ed="#V" n="21"/>nec potuit esse meritorius sui. Est contra 
+Al<lb ed="#V" n="22" break="no"/>bert. hic art. 4. et 7 Mayr. quaest. 1. Bassol.q.
+<lb ed="#V" n="23"/>1. et alios. Est tamen communis, cum Alens.
+<lb ed="#V" n="24"/>3. part. quaest. 17. m. 3. art. 1. D. Thom. 3.
+<lb ed="#V" n="25"/>part. quaest- 19. art. 3. D. Bonav. Durand. 
+hi<lb ed="#V" n="26" break="no"/>chard. Gabr. An vero de potentia absoluta 
+po<lb ed="#V" n="27" break="no"/>tuisset mereri suam fruitionem, non convenit.
+<lb ed="#V" n="28"/>Affirmant Albert. Mayr. Bassol. citati. Rubion
+<lb ed="#V" n="29"/>hic q. 1. Alens. supra q. 16. m. 1. Valent.
+<lb ed="#V" n="30"/>tom. 4. d. 1. q. 19. p. 3. Suar. tom. 1. d. 49.
+<lb ed="#V" n="31"/>sect. 1. Et id esse secundum mentem Sooti
+<lb ed="#V" n="32"/>sentit Lychet. hic, et Pitigian. art 7. quod 
+mi<lb ed="#V" n="33" break="no"/>hi verisimile videtur, ex dictis num. 9. et 10.
+<lb ed="#V" n="34"/>Objicit Doctor dupliciter, et ad primum docet
+<lb ed="#V" n="35"/>gloriosius fuisse Christo habuisse gloriam sine
+<lb ed="#V" n="36"/>merito, et reddit hujus rationem.
+</p>
+            <p xml:id="jdso8u-d1e2895-d1e1479">
+               <lb ed="#V" n="37"/>Hoc viso (a), videndum est quid
+<lb ed="#V" n="38"/>meruit ; et dico quod non meruit
+<lb ed="#V" n="39"/>sibi fruitionem, quia si sic, aut 
+ope<lb ed="#V" n="40" break="no"/>ralione elicita circa ea, quae sunt ad
+<lb ed="#V" n="41"/>finem, aut circa ipsum finem. Non
+<lb ed="#V" n="42"/>primo modo, quia primum actum
+<lb ed="#V" n="43"/>habuit circa finem, fruendo prius
+<lb ed="#V" n="44"/>sciicet, quam aliquem actum 
+habe<lb ed="#V" n="45" break="no"/>ret circa aliquid, quod est ad finem;\
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="46"/>et si meritum fuit circa aliquod, vel
+<lb ed="#V" n="47"/>aliqua objecta visa in Verbo, ut
+<lb ed="#V" n="48"/>dictum est secundum viam 
+praece<lb ed="#V" n="49" break="no"/>dentem, vel circa electos multos 
+vo<lb ed="#V" n="50" break="no"/>lendo eis beatitudinem ; naturaliter
+<lb ed="#V" n="51"/>(b) tamen praecessit operatio circa
+<lb ed="#V" n="52"/>ipsum finem, scilicet Trinitatem vel
+<lb ed="#V" n="53"/>essentiam in tribus. Nec actu 
+frui<lb ed="#V" n="54" break="no"/>ionis (c), quo fruebatur Trinitate,
+<lb ed="#V" n="55"/>meruit eamdem fruitionem, quia
+<lb ed="#V" n="56"/>hoc non esset aliud dicere quam
+<lb ed="#V" n="57"/>meruit fruitionem, quia habuit
+<lb ed="#V" n="58"/>fruitionem, ve! meruit, quia Deus
+<lb ed="#V" n="59"/>dedit actum, quod nihil est dicere,
+<lb ed="#V" n="60"/>quia nullus actus est moeritorius
+<lb ed="#V" n="61"/>sul ipsius, licet possit esse alterius ;
+<lb ed="#V" n="62"/>igitur Deus liberaliter sine aliquo
+<lb ed="#V" n="63"/>merito praecedente conjunxit 
+vo<lb ed="#V" n="64" break="no"/>luntatem istam per fruitionem 
+ul<lb ed="#V" n="65" break="no"/>timo fini, et ita nonj| meruit sibi
+<lb ed="#V" n="66"/>fruitionem. Unde Augustinus 13.
+<lb ed="#V" n="67"/>de Trinit. cap. 19. dicit, quod 
+sum<lb ed="#V" n="68" break="no"/>ma gratia est, quod homo in unitate
+<lb ed="#V" n="69"/>personae est Deo conjunctus ; et
+<lb ed="#V" n="70"/>quamvis loquatur de gratia unionis,
+<lb ed="#V" n="71"/>id est, gratuita Det voluntate 
+unien<lb ed="#V" n="72" break="no"/>te, tamen ad unionem istam 
+conco<lb ed="#V" n="73" break="no"/>mitanter sequitur gratia fruitionis
+<lb ed="#V" n="74"/>de facto, ideo fuit summa gratia sine
+<lb ed="#V" n="75"/>meritis praecedentibus.
+</p>
+            <p xml:id="jdso8u-d1e2895-d1e1568">
+               <lb ed="#V" n="76"/>Sed contra (d), gloriosius est 
+ha<lb ed="#V" n="77" break="no"/>bere praemium pro merito, quam
+<lb ed="#V" n="78"/>sine merito ; igitur ponendum est in
+<lb ed="#V" n="79"/>Christo.
+</p>
+            <p xml:id="jdso8u-d1e2895-d1e1579">
+               <lb ed="#V" n="80"/>Praeterea, prioritas naturae 
+vide<lb ed="#V" n="81" break="no"/>tur sufficere ad meritum ; cum 
+igi<lb ed="#V" n="82" break="no"/>tur inter voluntatem et actum 
+elici<lb ed="#V" n="83" break="no"/>tum possit esse prioritas naturae,
+<lb ed="#V" n="84"/>videtur quod hoc sufficeret ad 
+me<lb ed="#V" n="85" break="no"/>rendum fruitionem, vel idem actus,
+<lb ed="#V" n="86"/>ut prior natura se ipso, potest esse
+<lb ed="#V" n="87"/>meritorius respectu sui ipsius.
+</p>
+            <p xml:id="jdso8u-d1e2895-d1e1599">
+               <lb ed="#V" n="88"/>Ad primum istorum, cum dicitur
+<lb ed="#V" n="89"/>quod gloriosius est, etc. dico quod
+<pb ed="#V" n="684"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>verum est de praemio, quod potest
+<lb ed="#V" n="2"/>haberi ex meritis ; sed haec 
+con<lb ed="#V" n="3" break="no"/>junctio animae Christi cum Deo per
+<lb ed="#V" n="4"/>actum fruitionis, fuit tanta et tam
+<lb ed="#V" n="5"/>excellens, quod ad ipsam non 
+po<lb ed="#V" n="6" break="no"/>tuit praecedere meritum, et 
+nobi<lb ed="#V" n="7" break="no"/>lius est habere actum, ad quem
+<lb ed="#V" n="8"/>non potest praecedere meritum ex
+<lb ed="#V" n="9"/>liberalitate dantis, quam habere
+<lb ed="#V" n="10"/>actum debiliorem cum multo merito
+<lb ed="#V" n="11"/>praecedente. Et videtur hoc 
+ratio<lb ed="#V" n="12" break="no"/>nabile, quia sicut Deus creavit in
+<lb ed="#V" n="13"/>esse naturae aliquam naturam, puta
+<lb ed="#V" n="14"/>naturam Angeli, ad quam creandam
+<lb ed="#V" n="15"/>non potuH cooperari causalitas
+<lb ed="#V" n="16"/>causae secundae propter 
+perfectio<lb ed="#V" n="17" break="no"/>nem talis naturae ; ita in genere
+<lb ed="#V" n="18"/>moris creavit Deus aliquem actum
+<lb ed="#V" n="19"/>beatificum, ad quem non potest
+<lb ed="#V" n="20"/>esse actus aliquis meritorius prior,
+<lb ed="#V" n="21"/>et hujusmodi fuit actus beatificus
+<lb ed="#V" n="22"/>animae Christi, et hoc propter 
+nobi<lb ed="#V" n="23" break="no"/>litatem et excellentiam actus et
+<lb ed="#V" n="24"/>modi habendi actum, quia 
+imme<lb ed="#V" n="25" break="no"/>diate antequam haberet aliquem
+<lb ed="#V" n="26"/>actum circa ea quae sunt ad finem.
+</p>
+            <p xml:id="jdso8u-d1e2895-d1e1667">
+               <lb ed="#V" n="27"/>Aliter dicitur, ponendo (e) quod
+<lb ed="#V" n="28"/>actus ille potuerit cadere sub 
+me<lb ed="#V" n="29" break="no"/>rito, etsi gloriosius fuisset habenti
+<lb ed="#V" n="30"/>actum meruisse illum quam non
+<lb ed="#V" n="31"/>meruisse, non tamen simpliciter
+<lb ed="#V" n="32"/>est gloriosius, quia decens est
+<lb ed="#V" n="33"/>propter alios Beatos et propter 
+per<lb ed="#V" n="34" break="no"/>fectionem ulius . status, quod illic
+<lb ed="#V" n="35"/>inveniantur omnes gradus 
+princi<lb ed="#V" n="36" break="no"/>pales m actibus beatificis, ut 
+actua<lb ed="#V" n="37" break="no"/>lis beatitudo Christi sit major 
+beati<lb ed="#V" n="38" break="no"/>tudine omnium creaturarum ; nam
+<lb ed="#V" n="39"/>ibi sunt aliqui Beati, qui nunquam
+<lb ed="#V" n="40"/>fuerunt inimici actualiter peccato
+<lb ed="#V" n="41"/>actuali, ut multi innocentes et multi
+<lb ed="#V" n="42"/>alit, qui aliquando fuerunt inimici,
+<lb ed="#V" n="43"/>ut mortaliter peccantes, et postea
+<lb ed="#V" n="44"/>poenitentes. Est ibi etiam Bleata
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>Virgo Mater Dei, quae nunquam
+<lb ed="#V" n="46"/>fuit inimica actualiter ratione 
+pec<lb ed="#V" n="47" break="no"/>cati actualis, nec ratione originalis
+<lb ed="#V" n="48"/>(fuisset tamen, nisi fuisset 
+praeser<lb ed="#V" n="49" break="no"/>vata ;) igitur decens fuit quod esset
+<lb ed="#V" n="50"/>beatitudo alicujus personae, sine
+<lb ed="#V" n="51"/>omni merito praecedente. Nec ideo
+<lb ed="#V" n="52"/>anima Christi fuit ingloriosior, quia
+<lb ed="#V" n="53"/>si actus potuisset cadere sub merito,
+<lb ed="#V" n="54"/>anima ila potuisset mereri illum,
+<lb ed="#V" n="55"/>nisi fuisset praeventa actu beatifico ;
+<lb ed="#V" n="56"/>et sic praevenim ex lberahtate
+<lb ed="#V" n="57"/>dantis, est majoris nobiltatis, sicut
+<lb ed="#V" n="58"/>si mihi daretur illud, quod habeo in
+<lb ed="#V" n="59"/>fine totius laboris meritori nunc, et
+<lb ed="#V" n="60"/>illud magis est ad decorem status
+<lb ed="#V" n="61"/>Beatorum, ut dictum est.
+</p>
+            <p xml:id="jdso8u-d1e2895-d1e1748">
+               <lb ed="#V" n="62"/>Ad secundum dico (f), quod 
+prio<lb ed="#V" n="63" break="no"/>ritas naturae potentiae praecedentis
+<lb ed="#V" n="64"/>actum, non sufficit, quia non est
+<lb ed="#V" n="65"/>meritum, nisi in ahlquo actu vel
+<lb ed="#V" n="66"/>passione accepta ; sed voluntas, ut
+<lb ed="#V" n="67"/>prior natura non habet aliquem
+<lb ed="#V" n="68"/>actum vel passionem acceptam a
+<lb ed="#V" n="69"/>voluntate, ratione cujus potuit
+<lb ed="#V" n="70"/>mereri actum beatificum, quia ule
+<lb ed="#V" n="71"/>actus praecessit omne meritum, nec
+<lb ed="#V" n="72"/>idem actus est meritum et 
+prae<lb ed="#V" n="73" break="no"/>mium, quia alterum excedit, ut
+<lb ed="#V" n="74"/>praemium ; tum etiam, quia hoc
+<lb ed="#V" n="75"/>esset dicere quod meruit, quia
+<lb ed="#V" n="76"/>Deus dedit meritum, licet idem
+<lb ed="#V" n="77"/>actus in Christo possit esse 
+prae<lb ed="#V" n="78" break="no"/>mium sibi, et cum hoc meritorius
+<lb ed="#V" n="79"/>aliis, ut dictum est. Praeterea, talis
+<lb ed="#V" n="80"/>distinctio non est nisi rationis 
+con<lb ed="#V" n="81" break="no"/>siderantis actum illum diversimode,
+<lb ed="#V" n="82"/>quae non sufficit ad actum meriti et
+<lb ed="#V" n="83"/>pramit.
+</p>
+            <!-- </div>
+
+<div alias="scotus-d18q1-p6"> -->
+            <p xml:id="jdso8u-d1e2895-d1e1801">
+               <lb ed="#V" n="66" type="fixed=691"/>SCHOLIUM
+</p>
+            <p xml:id="jdso8u-d1e2895-d1e1806">
+               <lb ed="#V" n="67"/>Christus meruit sibi gloriam corporis, sed
+<lb ed="#V" n="68"/>indirecte, quatenus meruit amotionem 
+impedi<lb ed="#V" n="69" break="no"/>menti, ut redundaret gloria animae in illud.
+<lb ed="#V" n="70"/>Prima pars est communis Patrum, August.
+<lb ed="#V" n="71"/>tract. 104. inJoan. et lib. 3. contra Max. cap.
+<lb ed="#V" n="72"/>2. Chrysost. Ambros. Anselm. Bedae, et 
+alio<lb ed="#V" n="73" break="no"/>rum in illud Phil. 2. Humiliavit semetipsum,
+<lb ed="#V" n="74"/>etc. et colligitur ex illo Luc. 24. Nonne oportuit
+<lb ed="#V" n="75"/>pati Christum, et ita intrare, etc. Secunda pars
+<lb ed="#V" n="76"/>est contra D. Thom. supra art. 4. sed est Cyr.
+<lb ed="#V" n="77"/>lib. 3 Thesaur. cap 3. Unde Suar. supra d.
+<lb ed="#V" n="78"/>40. sect. 2. nimis excedit, dum ait Scoti 
+sen<lb ed="#V" n="79" break="no"/>tentiam esse temerariam. Auctoritates quas
+<lb ed="#V" n="80"/>ipse et alii adducunt contra Scot. nihil faciunt;
+<lb ed="#V" n="81"/>solum enim probant Christum gloriam sui 
+cor<lb ed="#V" n="82" break="no"/>poris meruisse, quod nos fatemur, sed indirecte
+<lb ed="#V" n="83"/>hanc sub meritum cecidisse subtiliter docet
+<lb ed="#V" n="84"/>Scot. et crasse satis a Suar. et aliis ejus 
+dic<lb ed="#V" n="85" break="no"/>tum censuratur.
+</p>
+            <p xml:id="jdso8u-d1e2895-d1e1850">
+               <lb ed="#V" n="86"/>Sed numquid meruit (g) sibi
+<lb ed="#V" n="87"/>impassibilitatem animae et corporis?
+<lb ed="#V" n="88"/>Magister dicit in littera, quod sic.
+</p>
+            <p xml:id="jdso8u-d1e2895-d1e1859">
+               <lb ed="#V" n="89"/>Contra, illud quod infuisset, si
+<pb ed="#V" n="692"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>non fuisset per miraculum 
+impedi<lb ed="#V" n="2" break="no"/>tum, quantum est ex ratione sul
+<lb ed="#V" n="3"/>ante omnem actum causatum mhus
+<lb ed="#V" n="4"/>personae, non cadit sub merito illius
+<lb ed="#V" n="5"/>personae ; sed gloria et 
+impassibili<lb ed="#V" n="6" break="no"/>tas corporis et animae infuissent in
+<lb ed="#V" n="7"/>primo instanti unionis, nisi per
+<lb ed="#V" n="8"/>miraculum fuissent prohibita ; ergo.
+</p>
+            <p xml:id="jdso8u-d1e2895-d1e1885">
+               <lb ed="#V" n="9"/>Potest dici (h), pie sentiendo cum
+<lb ed="#V" n="10"/>Magistro, et pie glossando, quod
+<lb ed="#V" n="11"/>quamvis non meruerit directe 
+um<lb ed="#V" n="12" break="no"/>passibilitatem utriusque, meruit 
+ta<lb ed="#V" n="13" break="no"/>men amotionem impedimenti, 
+prop<lb ed="#V" n="14" break="no"/>ter quod non infuerunt statim,
+<lb ed="#V" n="15"/>scilicet desitionem miraculi 
+prohi<lb ed="#V" n="16" break="no"/>bentis redundantiam gloriae in 
+por<lb ed="#V" n="17" break="no"/>tionem inferiorem, et in corpus. De
+<lb ed="#V" n="18"/>aliis quae possent hic tangi, scilicet
+<lb ed="#V" n="19"/>quid meruit, et quibus, dicetur
+<lb ed="#V" n="20"/>distinctione sequentt.
+</p>
+            <p xml:id="jdso8u-d1e2895-d1e1914">
+               <lb ed="#V" n="21"/>Ad primum (1) principale, cum
+<lb ed="#V" n="22"/>dicitur quod non potuit mereri
+<lb ed="#V" n="23"/>sim pliciter, sicut nec peccare, nego
+<lb ed="#V" n="24"/>consequentiam in Christo. Nam 
+h<lb ed="#V" n="25" break="no"/>cet perfecta conjunctio fini, perfecte
+<lb ed="#V" n="26"/>quietans secundum omnem modum
+<lb ed="#V" n="27"/>ipsum conjunctum, scilicet 
+secun<lb ed="#V" n="28" break="no"/>dum affectionem justitiae, et 
+secun<lb ed="#V" n="29" break="no"/>dum affectionem commodi (
+secun<lb ed="#V" n="30" break="no"/>dum quod affectione justitiae, vult
+<lb ed="#V" n="31"/>primo bonum Deo, et secundario
+<lb ed="#V" n="32"/>sibi, et affectione commod: vult
+<lb ed="#V" n="33"/>semper sibi bonum, quomodo aln
+<lb ed="#V" n="34"/>Sancti a Christo conjunguntur Deo,
+<lb ed="#V" n="35"/>quia sunt totaliter extra viam, et in
+<lb ed="#V" n="36"/>termino) prohibeat sic mereri, sicut
+<lb ed="#V" n="37"/>et peccare, quia tamen affectio
+<lb ed="#V" n="38"/>justitiae potest separari ab affectione
+<lb ed="#V" n="39"/>commodi, ut scilicet aliquis 
+affec<lb ed="#V" n="40" break="no"/>tione justitiaa summe conjungatur
+<lb ed="#V" n="41"/>fini, ita quod nullo modo possit
+<lb ed="#V" n="42"/>injuste velle, vel peccare, tamen
+<lb ed="#V" n="43"/>non conjungatur affectione 
+commo<lb ed="#V" n="44" break="no"/>di ut habeat summum bonum com-
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>modum summe sibi conjunctum, et
+<lb ed="#V" n="46"/>intantum possit pati ; primo, portio
+<lb ed="#V" n="47"/>superior in Christo conjungitur Deo
+<lb ed="#V" n="48"/>per gloriam quietantem illam 
+por<lb ed="#V" n="49" break="no"/>tionem, et per affectionem justitiae
+<lb ed="#V" n="50"/>totus homo, ut peccare non posset ;
+<lb ed="#V" n="51"/>potuit tamen pati, quia ahquid
+<lb ed="#V" n="52"/>accidere potuit contra affectionem
+<lb ed="#V" n="53"/>commodi, et illud potuit Christus
+<lb ed="#V" n="54"/>ordinate velle et acceptare, et ita
+<lb ed="#V" n="55"/>mereri ; et sic patet quod non est
+<lb ed="#V" n="56"/>simile de Christo et Deatis.
+</p>
+            <p xml:id="jdso8u-d1e2895-d1e1998">
+               <lb ed="#V" n="57"/>Ad secundum (k), tenendo quod
+<lb ed="#V" n="58"/>meruit secundum portionem 
+inferio<lb ed="#V" n="59" break="no"/>rem, dico quod actus beatificus et
+<lb ed="#V" n="60"/>meritorius sunt duo actus, quia
+<lb ed="#V" n="61"/>unus respiciebat aeternum, et alus
+<lb ed="#V" n="62"/>temporale in ordine ad finem 
+ulti<lb ed="#V" n="63" break="no"/>mum ; nec oportet quod 
+universal<lb ed="#V" n="64" break="no"/>ter omnis actus meritorius sit primo
+<lb ed="#V" n="65"/>et immediate in executione circa
+<lb ed="#V" n="66"/>Deum, sed sufficit quod intentione ;
+<lb ed="#V" n="67"/>unde in executione potest aliquid
+<lb ed="#V" n="68"/>immediatius diligi, et finaliter in
+<lb ed="#V" n="69"/>Deum reduci. Hoc dicendo, 
+argu<lb ed="#V" n="70" break="no"/>mentum solutum est.
+</p>
+            <p xml:id="jdso8u-d1e2895-d1e2031">
+               <lb ed="#V" n="71"/>Sed si teneatur (l) quod meruit
+<lb ed="#V" n="72"/>secundum portionem superiorem,
+<lb ed="#V" n="73"/>tunc potest dici quod fuit circa
+<lb ed="#V" n="74"/>objecta relucentia in Verbo, sicut
+<lb ed="#V" n="75"/>dihgendo electos, et volendo eis
+<lb ed="#V" n="76"/>bonum. Et quando dicis, quod hoc
+<lb ed="#V" n="77"/>non fit uno actu, verum est, sed
+<lb ed="#V" n="78"/>duobus. Et cum probas quod non,
+<lb ed="#V" n="79"/>quia portio superior habet actum
+<lb ed="#V" n="80"/>adaequatum beatificum respectu 
+ob<lb ed="#V" n="81" break="no"/>jecti beatifici, et non interruptum;
+<lb ed="#V" n="82"/>igitur non potest simul habere
+<lb ed="#V" n="83"/>alium actum circa alta relucentia in
+<lb ed="#V" n="84"/>Verbo ; nego consequentiam, quia
+<lb ed="#V" n="85"/>licet actus ille fuerit adaequatus
+<lb ed="#V" n="86"/>intensive, ita ut perfectiorem 
+ha<lb ed="#V" n="87" break="no"/>bere non posset, non fuit tamen
+<lb ed="#V" n="88"/>adaequatus extensive. quin simul
+<pb ed="#V" n="693"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>alium imperfectiorem habere 
+pos<lb ed="#V" n="2" break="no"/>set, alioquin nullus Beatus posset
+<lb ed="#V" n="3"/>cognoscere res in proprio genere,
+<lb ed="#V" n="4"/>quia eadem potentia cognoscit
+<lb ed="#V" n="5"/>Deum visione beata, et alia in 
+ge<lb ed="#V" n="6" break="no"/>nere proprio.
+</p>
+            <p xml:id="jdso8u-d1e2895-d1e2090">
+               <lb ed="#V" n="7"/>Ad aliud (m) respondetur n 2.
+<lb ed="#V" n="8"/>lib. Dico tamen, quod actus fuit
+<lb ed="#V" n="9"/>contingens in primo instanti. 
+Con<lb ed="#V" n="10" break="no"/>tingens enim nunquam est 
+formah<lb ed="#V" n="11" break="no"/>ter contingens nisi quando est, ideo
+<lb ed="#V" n="12"/>contingens quando est, contingenter
+<lb ed="#V" n="13"/>est, non tamen loquor in sensu
+<lb ed="#V" n="14"/>compositionis ; non enim ommne ens
+<lb ed="#V" n="15"/>quod est, est necessarium ; voluntas
+<lb ed="#V" n="16"/>ergo in primo mnstanti, ut prior
+<lb ed="#V" n="17"/>natura suo actu, ita contingenter
+<lb ed="#V" n="18"/>elicit actum suum, sicut si per diem
+<lb ed="#V" n="19"/>praecessisset actum elicitum. Unde
+<lb ed="#V" n="20"/>sicut entia antequam sint, quaedam
+<lb ed="#V" n="21"/>sunt contingentia et quaedam 
+neces<lb ed="#V" n="22" break="no"/>saria, sic etiam quando sunt, 
+quae<lb ed="#V" n="23" break="no"/>dam sunt contingenter, et quaedam
+<lb ed="#V" n="24"/>necessario. l'amen ad formam 
+argu<lb ed="#V" n="25" break="no"/>menti alias respondi, quaere. Unde
+<lb ed="#V" n="26"/>non est ratio, quare contingentia
+<lb ed="#V" n="27"/>sunt contingentia, quia eorum causa
+<lb ed="#V" n="28"/>duratione praecessit, sed quia causa
+<lb ed="#V" n="29"/>quando causat, contingenter causat.
+<lb ed="#V" n="30"/>Tamen potest propositio distingui
+<lb ed="#V" n="31"/>secundum compositionem et 
+divi<lb ed="#V" n="32" break="no"/>sionem, dicendo sic: Omne quod
+<lb ed="#V" n="33"/>est, quando est, necesse est esse,
+<lb ed="#V" n="34"/>falsa est et divisa ; vel sic: Omne
+<lb ed="#V" n="35"/>quod est, quando est, necesse est
+<lb ed="#V" n="36"/>esse, vera est et composita. Praeterea
+<lb ed="#V" n="37"/>aliter est fallacia secundum quid et
+<lb ed="#V" n="38"/>simpliciter, patet.
+</p>
+            <p xml:id="jdso8u-d1e2895-d1e2162">
+               <lb ed="#V" n="39"/>Ad aliud (n) cum dicitur, quando
+<lb ed="#V" n="40"/>duae mutationes sunt ordinatae 
+se<lb ed="#V" n="41" break="no"/>cundum prius et posterius, et 
+ter<lb ed="#V" n="42" break="no"/>mini similiter, verum est; si 
+tem<lb ed="#V" n="43" break="no"/>pore, et tempore ; etsi natura, et
+<lb ed="#V" n="44"/>natura. Hic autem tantum est ordo
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>naturae inter mutationes, et talis est
+<lb ed="#V" n="46"/>inter terminos.
+</p>
+            <!-- </div>
+
+<div alias="scotus-d18q1-p7"> -->
+            <p xml:id="jdso8u-d1e2895-d1e2186">
+               <lb ed="#V" n="83" type="fixed=701"/>SCHOLILM.
+</p>
+            <p xml:id="jdso8u-d1e2895-d1e2192">
+               <lb ed="#V" n="84"/>Probat hic evidenti loco August. de quo 
+la<lb ed="#V" n="85" break="no"/>tius contra D. Thom. egit 2 d. 5. q. 2. 
+Ange<lb ed="#V" n="86" break="no"/>lum potuisse peccare primo instanti sui esse,
+<lb ed="#V" n="87"/>sine eo quod id Deo tribueretur; et ostendit
+<lb ed="#V" n="88"/>clare non omne coaevum secun ii inesse ipsi a
+<lb ed="#V" n="89"/>causa prima.
+</p>
+            <p xml:id="jdso8u-d1e2895-d1e2208">
+               <pb ed="#V" n="702"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>Ad aliud (o), cum dicitur quod si
+<lb ed="#V" n="2"/>Christus potuit mereri in primo
+<lb ed="#V" n="3"/>instantt, et Angelus peccare, de 
+con<lb ed="#V" n="4" break="no"/>sequente posset esset magna 
+alter<lb ed="#V" n="5" break="no"/>catio. Dico tamen pro nunc, quod
+<lb ed="#V" n="6"/>potuit peccare in primo instanti et
+<lb ed="#V" n="7"/>libere et voluntarie, ut voluntas est
+<lb ed="#V" n="8"/>prior natura actu elicito, quia
+<lb ed="#V" n="9"/>habens primum esse perfectum et
+<lb ed="#V" n="10"/>objectum approximatum, si non
+<lb ed="#V" n="11"/>impeditur, et actus ejus sit 
+perma<lb ed="#V" n="12" break="no"/>nens, potest habere actum. Omnia
+<lb ed="#V" n="13"/>ista poterant esse in Angelo in
+<lb ed="#V" n="14"/>primo instanti, ut supra dictum est
+<lb ed="#V" n="15"/>de merito Christi, et aeque tenet de
+<lb ed="#V" n="16"/>i velle inordinato, sicut de ordinato.
+<lb ed="#V" n="17"/>Et hoc est quod Augustinus dicit 11.
+<lb ed="#V" n="18"/>de Civit. cap. 13. Qui sentiunt 
+ma<lb ed="#V" n="19" break="no"/>lum Angelum peccasse a principio,
+<lb ed="#V" n="20"/>hoc est, quod semper fuerit ^sub
+<lb ed="#V" n="21"/>peccato, non ex hoc cum Manichaeis
+<lb ed="#V" n="22"/>sentiunt, ponentibus unum Deum
+<lb ed="#V" n="23"/>malum, et ita non esset Deus 
+auc<lb ed="#V" n="24" break="no"/>tor illius mal ; sic igitur secundum
+<lb ed="#V" n="25"/>tenentes quod peccare potuit in 
+pri<lb ed="#V" n="26" break="no"/>mo instanti, diceretur quod 
+peccas<lb ed="#V" n="27" break="no"/>set, non inquantum effective a Deo,
+<lb ed="#V" n="28"/>sed ut est de nihilo, alias ejus
+<lb ed="#V" n="29"/>peccatum redundaret in Deum.
+</p>
+            <p xml:id="jdso8u-d1e2895-d1e2278">
+               <lb ed="#V" n="30"/>Et cum dicis (p), quod omnis
+<lb ed="#V" n="31"/>effectus coaevus causae secundae est
+<lb ed="#V" n="32"/>causa prima, et sic peccatum Angeli
+<lb ed="#V" n="33"/>esset a Deo, sicut ignis est a Deo,
+</p>
+            <p xml:id="jdso8u-d1e2895-d1e2289">
+               <lb ed="#V" n="34"/>ita et calere, dico quod si propositio
+<lb ed="#V" n="35"/>sit vera, intelligenda est de positivis,
+<lb ed="#V" n="36"/>et non de privativis ; peccatum
+<lb ed="#V" n="37"/>autem formaliter est privatio boni,
+<lb ed="#V" n="38"/>quod deberet inesse actui ehcito,
+<lb ed="#V" n="39"/>quando elicitur, et non inest.
+</p>
+            <p xml:id="jdso8u-d1e2895-d1e2305">
+               <lb ed="#V" n="40"/>Aliter potest dici, quod propositio
+<lb ed="#V" n="41"/>est falsa, scilicet quod omne coaevum
+<lb ed="#V" n="42"/>causae secundae effectivae inest sibi a
+<lb ed="#V" n="43"/>causa sua, quia non est contradictio
+<lb ed="#V" n="44"/>de opposito. Unde si Deus crearet,
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>vel agens creatum generaret solam
+<lb ed="#V" n="46"/>substantiam ignis, illa haberet in se
+<lb ed="#V" n="47"/>causalitatem respectu quantitatis et
+<lb ed="#V" n="48"/>caloris ; unde in eodem mnnstanti
+<lb ed="#V" n="49"/>temporis, in quo esset secundum
+<lb ed="#V" n="50"/>substantiam, esset quantus et 
+cali<lb ed="#V" n="51" break="no"/>dus, (quamvis non in eodem instanti
+<lb ed="#V" n="52"/>naturae) posito etiam, quod generans
+<lb ed="#V" n="53"/>ignem annihilaretur, ita quod 
+nun<lb ed="#V" n="54" break="no"/>quam esset nisi per unum instans.
+<lb ed="#V" n="55"/>Unde posito quod generaretur 
+cali<lb ed="#V" n="56" break="no"/>dus, quod non posset generare in
+<lb ed="#V" n="57"/>se calorem alium in eodem instanti;
+<lb ed="#V" n="58"/>hoc non esset ratione alicujus 
+con<lb ed="#V" n="59" break="no"/>tradictionis, sed solum quia duo
+<lb ed="#V" n="60"/>accidentia ejusdem rationis non
+<lb ed="#V" n="61"/>possunt esse im eodem subjecto,
+<lb ed="#V" n="62"/>quod tamen est falsum fundamentum
+</p>
+            <p xml:id="jdso8u-d1e2895-d1e2360">
+               <lb ed="#V" n="63"/>Praeterea, non est verum 
+univer<lb ed="#V" n="64" break="no"/>saliter, quod sicut generans dat
+<lb ed="#V" n="65"/>substantiam rei, ita dat accidentia
+<lb ed="#V" n="66"/>causaliter immediate ; sed si verum
+<lb ed="#V" n="67"/>sit, hoc non est verum nisi in 
+gene<lb ed="#V" n="68" break="no"/>ratione univoca ; in proposito 
+au<lb ed="#V" n="69" break="no"/>tem nihil valet; ideo potest 
+substan<lb ed="#V" n="70" break="no"/>tia esse a Deo, et actus, maxime
+<lb ed="#V" n="71"/>quoad deformitatem, potest esse a
+<lb ed="#V" n="72"/>voluntate ipsa.
+</p>
+            <p xml:id="jdso8u-d1e2895-d1e2385">
+               <lb ed="#V" n="73"/>Ad illud Anselmi, (q) ipse videtur
+<lb ed="#V" n="74"/>fingere unum Angelum factum 1n,
+<lb ed="#V" n="75"/>affectione commodi, non mn 
+affec<lb ed="#V" n="76" break="no"/>tione jJustitiae, ita quod deficiat sibi
+<lb ed="#V" n="77"/>esse primum affectionis justitiae ; et
+<lb ed="#V" n="78"/>tunc dicit, quod non potest habere
+<lb ed="#V" n="79"/>primum velle de se, vocando 
+pri<lb ed="#V" n="80" break="no"/>mum velle esse primum affectionis
+<lb ed="#V" n="81"/>justitiae. Et quid mirum ? Nam talis
+<lb ed="#V" n="82"/>Angelus, si fieret, non posset 
+mere<lb ed="#V" n="83" break="no"/>ri plus quam bos, sequeretur enim
+<lb ed="#V" n="84"/>effraenate apprehensionem 
+intellec<lb ed="#V" n="85" break="no"/>tus, sicut appetitus sensitivus 
+sen<lb ed="#V" n="86" break="no"/>sum, et hoc affectione commodi.
+<lb ed="#V" n="87"/>Unde in Angelo et homine, ipsa
+<lb ed="#V" n="88"/>voluntas secundum affectionem jus-
+<pb ed="#V" n="703"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>titiae et commodi est totale 
+princi<lb ed="#V" n="2" break="no"/>pium perfectum in esse primo 
+res<lb ed="#V" n="3" break="no"/>pectu actus volendi.
+</p>
+            <p xml:id="jdso8u-d1e2895-d1e2433">
+               <lb ed="#V" n="4"/>Ad rationem autem ejus cum
+<lb ed="#V" n="5"/>dicit, si habet primum veflle a se,
+<lb ed="#V" n="6"/>aut hoc esset volendo, aut non
+<lb ed="#V" n="7"/>volendo, dico quod si intelligas
+<lb ed="#V" n="8"/>volendo actu elicito, ita quod
+<lb ed="#V" n="9"/>non potest habere actum elicitum
+<lb ed="#V" n="10"/>volendi nisi praevia volitione sua,
+<lb ed="#V" n="11"/>qua movet se ad volendum, 
+falsissi<lb ed="#V" n="12" break="no"/>mum est, imo iretur in infinitum,
+<lb ed="#V" n="13"/>et non esset dare aliquod velle, sicut
+<lb ed="#V" n="14"/>nec primum relle, sed dum vult
+<lb ed="#V" n="15"/>aliquid actu elicito, saltem prius
+<lb ed="#V" n="16"/>natura vult habitualiter sic se velle,
+<lb ed="#V" n="17"/>id est, prius habet principium 
+vo<lb ed="#V" n="18" break="no"/>lendi in esse primo, quo vult actu
+<lb ed="#V" n="19"/>elicito, et iste est sensus verus; et
+<lb ed="#V" n="20"/>quia Angelus a Deo factus non
+<lb ed="#V" n="21"/>habet a se tale principium, ideo
+<lb ed="#V" n="22"/>dicit et bene, quod non potest 
+ha<lb ed="#V" n="23" break="no"/>bere primum veflle a se, accipiendo
+<lb ed="#V" n="24"/>velle pro perfecta voluntate in esse
+<lb ed="#V" n="25"/>primo, et si hoc probat, concedatur.
+</p>
+            <p xml:id="jdso8u-d1e2895-d1e2483">
+               <lb ed="#V" n="26"/>Ad aliud (r), cum dicitur, quod
+<lb ed="#V" n="27"/>in primo instanti fuit in Angelo
+<lb ed="#V" n="28"/>motus naturalis rectissimus, etc.
+<lb ed="#V" n="29"/>Dico quod si concludit de primo
+<lb ed="#V" n="30"/>instanti et de quolibet, quia in 
+quo<lb ed="#V" n="31" break="no"/>libet instanti motus naturalis est
+<lb ed="#V" n="32"/>prior ipso actu libere elicito saltem
+<lb ed="#V" n="33"/>natura, et ut est sic prior, est 
+rectis<lb ed="#V" n="34" break="no"/>simus, et ita non potest in eodem
+<lb ed="#V" n="35"/>instanti oblique velle per actum
+<lb ed="#V" n="36"/>liberae voluntatis, et ita in nullo
+<lb ed="#V" n="37"/>instanti peccabit voluntas. Ideo dico
+<lb ed="#V" n="38"/>ad argumentum, quod motus 
+natu<lb ed="#V" n="39" break="no"/>ralis non est aliquis actus elicitus,
+<lb ed="#V" n="40"/>sed solum dicit inclinationem 
+natu<lb ed="#V" n="41" break="no"/>ralem voluntatis in bonum, et illud
+<lb ed="#V" n="42"/>nihil reale aliud a voluntate dicit;
+<lb ed="#V" n="43"/>sed si est relatio, est idem voluntati
+<lb ed="#V" n="44"/>per identitatem realem, nec separari
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>potest sine contradictione, et ideo in
+<lb ed="#V" n="46"/>daemonibus manet ille motus sic
+<lb ed="#V" n="47"/>rectissimus, sicut et natura, quia
+<lb ed="#V" n="48"/>non est realiter aliud a voluntate,
+<lb ed="#V" n="49"/>licet non sit idem sibi formaliter,
+<lb ed="#V" n="50"/>unde ille motus non est nisi habitus
+<lb ed="#V" n="51"/>motus, id est, natura in esse primo.
+<lb ed="#V" n="52"/>Si autem accipias motum naturalem
+<lb ed="#V" n="53"/>pro actu elicito conformi tali 
+incli<lb ed="#V" n="54" break="no"/>nationi, certe ille potest esse malus
+<lb ed="#V" n="55"/>et immmoderatus, stante natura 
+inte<lb ed="#V" n="56" break="no"/>gra, nec actus malus minuit 
+incli<lb ed="#V" n="57" break="no"/>nationem naturalem, sicut nec 
+na<lb ed="#V" n="58" break="no"/>turam. Unde Angelus potest esse
+<lb ed="#V" n="59"/>perfectus in naturalibus quoad esse
+<lb ed="#V" n="60"/>primum, et peccare actu secundo
+<lb ed="#V" n="61"/>elicito et inordinato.
+</p>
+            <!--</div>-->
+         </div>
+      </body>
+   </text>
+</TEI>

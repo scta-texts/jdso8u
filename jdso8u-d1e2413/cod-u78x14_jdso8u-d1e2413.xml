@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#Scotus">John Duns Scotus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2025-07-15">July 15, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-u78x14">Vives, Paris, 1893, volume 14</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-15" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="83"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jdso8u-d1e2413"><!-- jdso8u-b3d1p1q4 -->
+            <head xml:id="jdso8u-d1e2413-Hd1e99">Quaestio 4</head>
+            <head xml:id="jdso8u-d1e2413-Hd1e101" type="question-title">
+Utrum suppositum creatum possit substantificare hypostatice aliam naturam creatam quam illam quam habet
+</head>
+            <!-- <div> -->
+            <p xml:id="jdso8u-d1e2413-d1e106">
+               <lb ed="#V" n="68" type="fixed=83"/>QUAESTIO IV.
+</p>
+            <p xml:id="jdso8u-d1e2413-d1e111">
+               <lb ed="#V" n="69"/>Utrum suppositum creatum possit 
+sus<lb ed="#V" n="70" break="no"/>tentare hypostatice aliam naturam
+<lb ed="#V" n="71"/>creatam?
+</p>
+            <p xml:id="jdso8u-d1e2413-d1e121">
+               <lb ed="#V" n="72"/>Alens. 3. p. q. 2. n. 6. D. Thom. 3. p. q. 3. a.
+<lb ed="#V" n="73"/>1. ad 2. a Quodl. 11. q. 10. Uee ham.
+<lb ed="#V" n="74"/>q. 1. dub. ult. ad 14. Alm. híc q. a Bassol
+<lb ed="#V" n="75"/>6. Durand. q. ». Soto 4. dist. 9. q- 2. d
+<lb ed="#V" n="76"/>Suar. 3. p. tom. 1. disp. 13. sect. 4. Vasq. ibi.
+<lb ed="#V" n="77"/>disp. 25.
+</p>
+            <p xml:id="jdso8u-d1e2413-d1e137">
+               <lb ed="#V" n="78"/>Circa quartum arguitur, quod
+<lb ed="#V" n="79"/>sic. Quia major est proportio ilus
+<lb ed="#V" n="80"/>naturae creatae ad suppositum 
+crea<lb ed="#V" n="81" break="no"/>tum, quam ad suppositum 
+increa<lb ed="#V" n="82" break="no"/>tum; tum quia hic utrumque 
+fini<lb ed="#V" n="83" break="no"/>tum, ibi alterum infinitum, alterum
+<lb ed="#V" n="84"/>finitum; tum quia hic persona est
+<lb ed="#V" n="85"/>absoluta, et ita similis illi personae,
+<lb ed="#V" n="86"/>quae nata esset esse hujus naturae;
+<pb ed="#V" n="84"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>persona divina est relativa ; igitur
+<lb ed="#V" n="2"/>si persona relativa potest 
+susten<lb ed="#V" n="3" break="no"/>tare allam naturam quam suam,
+<lb ed="#V" n="4"/>vel multas naturas creatas, ita multo
+<lb ed="#V" n="5"/>magis hic.
+</p>
+            <p xml:id="jdso8u-d1e2413-d1e174">
+               <lb ed="#V" n="6"/>Praeterea: Omnem perfectionem
+<lb ed="#V" n="7"/>limitatam potest Deus dare 
+crea<lb ed="#V" n="8" break="no"/>turae, quae non repugnat sibi; sed
+<lb ed="#V" n="9"/>suppositum unius naturae posse
+<lb ed="#V" n="10"/>sustentare aliam naturam creatam
+<lb ed="#V" n="11"/>non ponit infinitatem in eo; igitur
+<lb ed="#V" n="12"/>nec repugnantiam. Minor probatur,
+<lb ed="#V" n="13"/>quia illud suppositum, et illa 
+natu<lb ed="#V" n="14" break="no"/>ra sunt finita, et finitum additum
+<lb ed="#V" n="15"/>finito non facit infinitum.
+</p>
+            <p xml:id="jdso8u-d1e2413-d1e198">
+               <lb ed="#V" n="16"/>Praeterea: Superius continet 
+in<lb ed="#V" n="17" break="no"/>ferius in natura finita; igitur 
+per<lb ed="#V" n="18" break="no"/>fectio superioris continet 
+perfec<lb ed="#V" n="19" break="no"/>tionem naturae inferioris ; igitur
+<lb ed="#V" n="20"/>potest supplere vicem suppositi 
+infe<lb ed="#V" n="21" break="no"/>rioris.
+</p>
+            <p xml:id="jdso8u-d1e2413-d1e214">
+               <lb ed="#V" n="22"/>Contra, natura creata et 
+supposi<lb ed="#V" n="23" break="no"/>tum creatum sunt adaequate 
+propor<lb ed="#V" n="24" break="no"/>tionabilia; igitur neutrum excedit
+<lb ed="#V" n="25"/>alterum ; igitur sicut natura non
+<lb ed="#V" n="26"/>potest esse eadem plurium 
+supposi<lb ed="#V" n="27" break="no"/>torum, sic nec e converso.
+</p>
+            <!-- </div>
+<div alias="scotus-d1q4-p2"> -->
+            <p xml:id="jdso8u-d1e2413-d1e233">
+               <lb ed="#V" n="28" type="fixed=84"/>SCHOLIUM.
+</p>
+            <p xml:id="jdso8u-d1e2413-d1e238">
+               <lb ed="#V" n="29"/>Naturam alienam sustentare effective non
+<lb ed="#V" n="30"/>potest suppositum creatum, quod nec etiam
+<lb ed="#V" n="31"/>terminative ; tenet Varro, cujus rationes, 
+scili<lb ed="#V" n="32" break="no"/>cet, quia non est infinitum, nec potest illabi,
+<lb ed="#V" n="33"/>rejicit Doctor, quia neutrum horum convenit
+<lb ed="#V" n="34"/>Verbo, tamen sustentat terminative naturam
+<lb ed="#V" n="35"/>humanam.
+</p>
+            <p xml:id="jdso8u-d1e2413-d1e256">
+               <lb ed="#V" n="36"/>Respondeo (a), sustentare 
+natu<lb ed="#V" n="37" break="no"/>ram potest accipi duphceiter, 
+effec<lb ed="#V" n="38" break="no"/>tive et formaliter, sive terminative.
+<lb ed="#V" n="39"/>Primo Trinitas sustentificat 
+natu<lb ed="#V" n="40" break="no"/>ram humanam in Christo, id est, 
+fa<lb ed="#V" n="41" break="no"/>cit cam sustentificatam. Secundo
+<lb ed="#V" n="42"/>modo solum Verbum sustentificat
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="43"/>unionem naturae creatae ad ipsum.
+<lb ed="#V" n="44"/>Primo modo dico, quod suppositum
+<lb ed="#V" n="45"/>creatum non potest sustentificare 
+ali<lb ed="#V" n="46" break="no"/>quam aliam naturam a sua, quia
+<lb ed="#V" n="47"/>natura alia ad talem unionem cum
+<lb ed="#V" n="48"/>Ipso, non est in potentia, nisi 
+tan<lb ed="#V" n="49" break="no"/>tum obedientiali, quia ahter esset
+<lb ed="#V" n="50"/>violenter sub proprio supposito,
+<lb ed="#V" n="51"/>sicut grave sursum. Potentia 
+obe<lb ed="#V" n="52" break="no"/>dientialis in creatura respicit 
+effi<lb ed="#V" n="53" break="no"/>cientiam primi efficientis, non aliam
+<lb ed="#V" n="54"/>potentiam activam.
+</p>
+            <p xml:id="jdso8u-d1e2413-d1e302">
+               <lb ed="#V" n="55"/>Secundo modo dicitur (b), quod
+<lb ed="#V" n="56"/>non potest sustentificare, quia non
+<lb ed="#V" n="57"/>est illimitatum suppositum, et ideo
+<lb ed="#V" n="58"/>non continet in se perfectionem
+<lb ed="#V" n="59"/>alterius suppositi creati. Continere
+<lb ed="#V" n="60"/>enim eminenter totam perfectionem
+<lb ed="#V" n="61"/>suppositi creati, non convenit nisi
+<lb ed="#V" n="62"/>infinito, quia hcet finitum unum
+<lb ed="#V" n="63"/>sit eminentius altero, non tamen
+<lb ed="#V" n="64"/>unum continet totam perfectionem
+<lb ed="#V" n="65"/>alterius, quia entia ordinata 
+essen<lb ed="#V" n="66" break="no"/>Galiter tantum distingui viderentur
+<lb ed="#V" n="67"/>per negationem, quia inferius 
+de<lb ed="#V" n="68" break="no"/>ficeret a superiori.
+</p>
+            <p xml:id="jdso8u-d1e2413-d1e335">
+               <lb ed="#V" n="69"/>Sed ista ratio non videtur 
+con<lb ed="#V" n="70" break="no"/>cludere, quia Verbum non est 
+in<lb ed="#V" n="71" break="no"/>finitum secundum rationem 
+perso<lb ed="#V" n="72" break="no"/>nalitatis suae, secundum quam 
+sus<lb ed="#V" n="73" break="no"/>tentat naturam assumptam; igitur
+<lb ed="#V" n="74"/>non requiritur illimitatio vel 
+infi<lb ed="#V" n="75" break="no"/>nitas in ilo supposito, quod sic
+<lb ed="#V" n="76"/>sustentificat. Assumptum patet, quia
+<lb ed="#V" n="77"/>tunc aliqua perfectio infinita 
+for<lb ed="#V" n="78" break="no"/>malter deesset Patri, quae est in 
+Fi<lb ed="#V" n="79" break="no"/>lio.
+</p>
+            <p xml:id="jdso8u-d1e2413-d1e361">
+               <lb ed="#V" n="80"/>Alia ratio apponitur, quod solus
+<lb ed="#V" n="81"/>Deus potest ulabi creaturae illapsu
+<lb ed="#V" n="82"/>generali; ergo et isto illapsu 
+spe<lb ed="#V" n="83" break="no"/>cialt.
+</p>
+            <p xml:id="jdso8u-d1e2413-d1e373">
+               <lb ed="#V" n="84"/>Sed ista ratio non concludit, quia
+<lb ed="#V" n="85"/>illapsus generalis includit in se 
+pri<lb ed="#V" n="86" break="no"/>mitatem causae efficientis in illa-
+<pb ed="#V" n="85"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>bente, non sic autem ista sustentatio
+<lb ed="#V" n="2"/>naturae a supposito. Patet in 
+exem<lb ed="#V" n="3" break="no"/>plo, cui est haec sustentatio maxime
+<lb ed="#V" n="4"/>similis, accidentis videlicet a 
+sub<lb ed="#V" n="5" break="no"/>Jecto, quia etsi subjectum 
+susten<lb ed="#V" n="6" break="no"/>tet proprium accidens, non tamen
+<lb ed="#V" n="7"/>habet primitatem efficientiae 
+res<lb ed="#V" n="8" break="no"/>pectu ejus, nec aliquam 
+causali<lb ed="#V" n="9" break="no"/>tatem inquantum praecise 
+sustenti<lb ed="#V" n="10" break="no"/>ficat illud.
+</p>
+            <!-- </div>
+
+<div alias="scotus-d1q4-p3"> -->
+            <p xml:id="jdso8u-d1e2413-d1e410">
+               <lb ed="#V" n="50" type="fixed=88"/>SCHOLIUM.
+</p>
+            <p xml:id="jdso8u-d1e2413-d1e415">
+               <lb ed="#V" n="51"/>Scotus dubius manet an suppositum creatum
+<lb ed="#V" n="52"/>terminare possit alienam naturam, magis 
+ta<lb ed="#V" n="53" break="no"/>men inclinat in partem affirmativam, quia
+<lb ed="#V" n="54"/>non apparet aperta repugnantia, et solvit tria,
+<lb ed="#V" n="55"/>ex quibus videretur repugnantia oriri. Ita
+<lb ed="#V" n="56"/>etiam tenent Occham 3. q. 1. dub. ult. ad 14.
+<lb ed="#V" n="57"/>Gabr. hic q. 2. dub. 5. Major q. 5. Bassol. q. 6.
+<lb ed="#V" n="58"/>Ovando, Pitigianis, Faber, et alii Scotistae hic,
+<lb ed="#V" n="59"/>Alm. q. 2. Rubion. dist. 2. q. 2. art. 3. Haec
+<lb ed="#V" n="60"/>sententia facilius defendi potest tenendo 
+perso<lb ed="#V" n="61" break="no"/>nalitatem esse quid positivum additum naturae,
+<lb ed="#V" n="62"/>in quo Doctor videtur quasi problematicus, ex
+<lb ed="#V" n="63"/>q. 1. quia si una natura alteri uniretur, non
+<lb ed="#V" n="64"/>videtur hanc potius terminari ab illa, quam e
+<lb ed="#V" n="65"/>contra. Sed dici potest (et tangunt Bassol. et
+<lb ed="#V" n="66"/>Leuchet. hic) quod eo casu tenendo aliam 
+opi<lb ed="#V" n="67" break="no"/>nionem Deus produceret in una relationem
+<lb ed="#V" n="68"/>realem terminati, cui in altera corresponderet
+<lb ed="#V" n="69"/>realis relatio terminantis, sicut defacto 
+produ<lb ed="#V" n="70" break="no"/>xit in humanitate relationem realem 
+termina<lb ed="#V" n="71" break="no"/>ti, cui in Verbo correspondet relatio 
+terminan<lb ed="#V" n="72" break="no"/>tis, quae est rationis, ex q. 1.
+</p>
+            <p xml:id="jdso8u-d1e2413-d1e465">
+               <lb ed="#V" n="73"/>Potest ergo dici (c), quod vel duae
+<lb ed="#V" n="74"/>naturae creatae non sunt unibiles
+<lb ed="#V" n="75"/>in eodem supposito, nisi altera sit
+<lb ed="#V" n="76"/>actus, et altera potentia, et tunc
+<lb ed="#V" n="77"/>non remanet utraque natura in se
+<lb ed="#V" n="78"/>inconfusa cum reliqua; quod tamen
+<lb ed="#V" n="79"/>pertinet ad istam unionem, scilicet,
+<lb ed="#V" n="80"/>quod natura propri suppositi 
+assu<lb ed="#V" n="81" break="no"/>mentis ita remaneat in se non 
+con<lb ed="#V" n="82" break="no"/>fusa alteri, sicut si naturae 
+extra<lb ed="#V" n="83" break="no"/>neae non esset unita. Vel dici potest
+<lb ed="#V" n="84"/>quod oportet quod suppositum, culi
+<lb ed="#V" n="85"/>fit ista unio, sit simpliciter 
+inde<lb ed="#V" n="86" break="no"/>pendens, quia ista dependentia non
+<lb ed="#V" n="87"/>terminatur ad unum suppositum
+<lb ed="#V" n="88"/>mediante altero ; non est enim ordo
+<lb ed="#V" n="89"/>essentialis in ista dependentia, qua-
+<pb ed="#V" n="89"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>lis est in ordine causati ad causam.
+<lb ed="#V" n="2"/>Vel potest dici tertio modo, quod
+<lb ed="#V" n="3"/>omnes naturae substantiales creatae
+<lb ed="#V" n="4"/>directe de praedicamento 
+Substan<lb ed="#V" n="5" break="no"/>tiae sunt simphceiter incompossibiles
+<lb ed="#V" n="6"/>in eodem suppostito, ita quod altera
+<lb ed="#V" n="7"/>istarum sit naturalis illi supposito,
+<lb ed="#V" n="8"/>quia tunc per se conveniret illi, et
+<lb ed="#V" n="9"/>per consequens nec per se nec per
+<lb ed="#V" n="10"/>accidens ei poterit reliqua inesse;
+<lb ed="#V" n="11"/>non sic autem sunt incompossibiles
+<lb ed="#V" n="12"/>duae naturae creatae, st comparentur
+<lb ed="#V" n="13"/>ad suppositum divinum, cur ambae
+<lb ed="#V" n="14"/>sunt accidentales et adventitiae, quia
+<lb ed="#V" n="15"/>neutra convenit ei per se.
+</p>
+            <p xml:id="jdso8u-d1e2413-d1e541">
+               <lb ed="#V" n="16"/>Sed primum istorum (d), scilicet
+<lb ed="#V" n="17"/>quod nullae duae naturae possunt
+<lb ed="#V" n="18"/>uniri in tertio, difficile est probare.
+</p>
+            <p xml:id="jdso8u-d1e2413-d1e551">
+               <lb ed="#V" n="19"/>Secundum etiam (e), scilicet quod
+<lb ed="#V" n="20"/>termmans dependentiam oporteat
+<lb ed="#V" n="21"/>esse independens, non videtur
+<lb ed="#V" n="22"/>verum, quia dependentiam aliquam
+<lb ed="#V" n="23"/>terminat aliquid, ut subjectum 
+de<lb ed="#V" n="24" break="no"/>pendentiam accidentis, quod tamen
+<lb ed="#V" n="25"/>non est omnino independens.
+</p>
+            <p xml:id="jdso8u-d1e2413-d1e569">
+               <lb ed="#V" n="26"/>Tertium (f) non videtur probabile,
+<lb ed="#V" n="27"/>quia si sit formalis repugnantia
+<lb ed="#V" n="28"/>naturarum creaturarum in eodem
+<lb ed="#V" n="29"/>supposito, ita non videtur posse
+<lb ed="#V" n="30"/>eidem competere simul per 
+acci<lb ed="#V" n="31" break="no"/>dens, sicut nec simul per se; 
+si<lb ed="#V" n="32" break="no"/>cut enim non potest idem per se
+<lb ed="#V" n="33"/>esse album et per se nigrum, ita
+<lb ed="#V" n="34"/>nec per accidens album, et per
+<lb ed="#V" n="35"/>accidens nigrum. Sicut enim 
+nul<lb ed="#V" n="36" break="no"/>lus idem color potest esse albedo
+<lb ed="#V" n="37"/>et nigredo simul, sic nec idem
+<lb ed="#V" n="38"/>corpus potest esse album et 
+ni<lb ed="#V" n="39" break="no"/>grum simul, quia quae formaliter
+<lb ed="#V" n="40"/>ex se esse smnul repugnant, in
+<lb ed="#V" n="41"/>quodlhbet repugnabunt simul esse;
+<lb ed="#V" n="42"/>si igitur nulla imnveniatur ratio
+<lb ed="#V" n="43"/>impossibilitatis, quare suppositum
+<lb ed="#V" n="44"/>creatum non possit sustentare na-
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>turam sibi extraneam, Deo tamen
+<lb ed="#V" n="46"/>efficiente illam dependentiam in
+<lb ed="#V" n="47"/>natura sic unita et sustentata, et
+<lb ed="#V" n="48"/>in supposito alterius naturae, non
+<lb ed="#V" n="49"/>videtur ponendum hoc esse 
+impos<lb ed="#V" n="50" break="no"/>siblle absque omni ratione.
+</p>
+            <p xml:id="jdso8u-d1e2413-d1e628">
+               <lb ed="#V" n="51"/>(g) Si tenetur pars negativa:
+</p>
+            <p xml:id="jdso8u-d1e2413-d1e633">
+               <lb ed="#V" n="52"/>Ad primum argumentum dico,
+<lb ed="#V" n="53"/>quod proportio convenientiae non
+<lb ed="#V" n="54"/>requiritur ad istam unionem, sed
+<lb ed="#V" n="55"/>proportio naturae dependentis et
+<lb ed="#V" n="56"/>suppositt independentis, qualis 
+for<lb ed="#V" n="57" break="no"/>te non est in natura creata ad
+<lb ed="#V" n="58"/>suppositum creatum alterius 
+natu<lb ed="#V" n="59" break="no"/>rae, sed solum ad suppositum 
+in<lb ed="#V" n="60" break="no"/>creatum.
+</p>
+            <p xml:id="jdso8u-d1e2413-d1e655">
+               <lb ed="#V" n="61"/>Et ad confirmationem illam de
+<lb ed="#V" n="62"/>absoluto dico, quod absolutio non
+<lb ed="#V" n="63"/>facit sustentificationem, sed 
+tan<lb ed="#V" n="64" break="no"/>tum quod ipsa persona sit 
+indepen<lb ed="#V" n="65" break="no"/>dens, non nata esse actus vel 
+po<lb ed="#V" n="66" break="no"/>tentia respectu alterius unibilis.
+</p>
+            <p xml:id="jdso8u-d1e2413-d1e671">
+               <lb ed="#V" n="67"/>Ad aliud dico quod etsi 
+utrum<lb ed="#V" n="68" break="no"/>que oppositorum sit lHmitatum,
+<lb ed="#V" n="69"/>tamen non possunt simul ambo
+<lb ed="#V" n="70"/>esse in eodem, quia licet hoc non
+<lb ed="#V" n="71"/>concludat in eis formaliter 
+ilimi<lb ed="#V" n="72" break="no"/>tationem, ponit tamen 
+incompos<lb ed="#V" n="73" break="no"/>sibilitatem ; ita in proposito una
+<lb ed="#V" n="74"/>natura existente in supposito per
+<lb ed="#V" n="75"/>se repugnat alu esse in eodem
+<lb ed="#V" n="76"/>per accidens, propter 
+incompossi<lb ed="#V" n="77" break="no"/>bilitatem earum in eodem.
+</p>
+            <p xml:id="jdso8u-d1e2413-d1e698">
+               <lb ed="#V" n="78"/>Ad tertium dico, quod non omne
+<lb ed="#V" n="79"/>superius continet totam 
+perfectio<lb ed="#V" n="80" break="no"/>nem mnferioris.
+</p>
+            <p xml:id="jdso8u-d1e2413-d1e707">
+               <lb ed="#V" n="81"/>(h) Si tamen teneatur alia pars:
+</p>
+            <p xml:id="jdso8u-d1e2413-d1e712">
+               <lb ed="#V" n="82"/>Ad argumentum in oppositum
+<lb ed="#V" n="83"/>potest dici, quod non est ibi ita
+<lb ed="#V" n="84"/>praecisa proportio, quin suppositum
+<lb ed="#V" n="85"/>creatum possit terminare 
+depen<lb ed="#V" n="86" break="no"/>dentiam alterius naturae, non tamen
+<lb ed="#V" n="87"/>potest simul dependere ad plura
+<lb ed="#V" n="88"/>supposita terminantia, qutia univer-
+<pb ed="#V" n="90"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>saliter in dependentis causae et
+<lb ed="#V" n="2"/>causati, licet una causa possi
+<lb ed="#V" n="3"/>terminare dependentias plurium
+<lb ed="#V" n="4"/>causatorum, non tamen plures
+<lb ed="#V" n="5"/>causae in eodem genere et ordine
+<lb ed="#V" n="6"/>causae possunt terminare 
+depen<lb ed="#V" n="7" break="no"/>dentiam unius causati, quia 
+plu<lb ed="#V" n="8" break="no"/>ralitas priorum arguit pluralitatem
+<lb ed="#V" n="9"/>posteriorum, non e converso.
+</p>
+            <!--</div>-->
+         </div>
+      </body>
+   </text>
+</TEI>

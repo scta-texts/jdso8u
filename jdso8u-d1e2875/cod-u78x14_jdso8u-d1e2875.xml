@@ -1,0 +1,838 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Scotus">John Duns Scotus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2025-07-15">July 15, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-u78x14">Vives, Paris, 1893, volume 14</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-15" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="626"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jdso8u-d1e2875"><!-- jdso8u-b3d16q2 -->
+            <head xml:id="jdso8u-d1e2875-Hd1e99">Quaestio 2</head>
+            <head xml:id="jdso8u-d1e2875-Hd1e101" type="question-title">Utrum in potestate animae Christi fuerit non mori ex violentia passionis</head>
+            <!-- <div> -->
+            <p xml:id="jdso8u-d1e2875-d1e106">
+               <lb ed="#V" n="24" type="fixed=626"/>QUESTIO II.
+<lb ed="#V" n="25"/>Utrum in potestate anima Christi fuit
+<lb ed="#V" n="26"/>non mori ex violentia passionis ?
+</p>
+            <p xml:id="jdso8u-d1e2875-d1e115">
+               <lb ed="#V" n="27"/>Alensis 3. p. q. 18. membr. 3. art. 1. 2. 3. 
+Di<lb ed="#V" n="28" break="no"/>vus Thomas supra citatus,et 3. p. q. T. art 1.
+<lb ed="#V" n="29"/>Richardus híc art. 1. q. 1. Divus Bonaventura
+<lb ed="#V" n="30"/>et alii citati g. praeced. Suarez 3. p. tom. 1.d.
+<lb ed="#V" n="31"/>31. sect. 3.
+</p>
+            <p xml:id="jdso8u-d1e2875-d1e129">
+               <lb ed="#V" n="32"/>Juxta hoc quaero, utrum in 
+po<lb ed="#V" n="33" break="no"/>testate animae Christi fuit non mori
+<lb ed="#V" n="34"/>ex violentia passionis ? Quod sic,
+<lb ed="#V" n="35"/>quia anima sua secundum 
+volunta<lb ed="#V" n="36" break="no"/>tem perfecte dominabatur appetitui
+<lb ed="#V" n="37"/>sensitivo, et omnibus viribus 
+infe<lb ed="#V" n="38" break="no"/>rioribus, quia in ipso nulla rebellio
+<lb ed="#V" n="39"/>ipsarum fuit ; igitur dominabatur
+<lb ed="#V" n="40"/>plene super corpus, ut posset impe-
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="41"/>dire omnem violentiam corporalem.
+<lb ed="#V" n="42"/>Probo, quia dominabatur corpori
+<lb ed="#V" n="43"/>principatu despotico, sicut dominus
+<lb ed="#V" n="44"/>servo, appetitui autem sensitivo, et
+<lb ed="#V" n="45"/>aliis viribus inferioribus principatu
+<lb ed="#V" n="46"/>politico, sicut Rex vel Princeps 
+do<lb ed="#V" n="47" break="no"/>minatur civibus ; quare perfectius
+<lb ed="#V" n="48"/>dominabatur corpori quam aliis 
+vi<lb ed="#V" n="49" break="no"/>ribus, quia servus nihil potest 
+con<lb ed="#V" n="50" break="no"/>tra dominum, civis aliquid potest
+<lb ed="#V" n="51"/>contra Principem, et contradicit sibi
+<lb ed="#V" n="52"/>aliquando.
+</p>
+            <p xml:id="jdso8u-d1e2875-d1e179">
+               <lb ed="#V" n="53"/>Praeterea, Joan. 10. dicit 
+Chris<lb ed="#V" n="54" break="no"/>tus : Potestatem habeo ponendi 
+ani<lb ed="#V" n="55" break="no"/>mam meam ; et iterum: Zgo pono
+<lb ed="#V" n="56"/>animam meam a me ipso, et nemo
+<lb ed="#V" n="57"/>tollet eam a me. Quaero quomodo
+<lb ed="#V" n="58"/>intelligit, cum dicit, a me tpso ?.non
+<lb ed="#V" n="59"/>enim a se Dei Verbo, quia nunquam
+<lb ed="#V" n="60"/>fuit deposita vel separata a Verbo
+<lb ed="#V" n="61"/>anima ila ; igitur hoc dicit ut 
+ho<lb ed="#V" n="62" break="no"/>mo, quod posuit anmmam a se, 
+se<lb ed="#V" n="63" break="no"/>parando ipsam a corpore ; igitur in
+<lb ed="#V" n="64"/>potestate animae fuit separari vel
+<lb ed="#V" n="65"/>non separari.
+</p>
+            <p xml:id="jdso8u-d1e2875-d1e210">
+               <lb ed="#V" n="66"/>Similiter infra dicit : Hoc 
+man<lb ed="#V" n="67" break="no"/>datum accepi a Patre, scilicet 
+pone<lb ed="#V" n="68" break="no"/>re animam meam, sed non accepit
+<lb ed="#V" n="69"/>mandatum, nisi ut homo, quia in
+<lb ed="#V" n="70"/>divinitate aequalis erat Patri; ergo
+<lb ed="#V" n="71"/>ut homo, et minor Patre posuit 
+ani<lb ed="#V" n="72" break="no"/>mam suam ; ergo ut homo habuit
+<lb ed="#V" n="73"/>in potestate sua ponere, vel non 
+po<lb ed="#V" n="74" break="no"/>nere.
+</p>
+            <p xml:id="jdso8u-d1e2875-d1e232">
+               <lb ed="#V" n="75"/>Praeterea, in Evangelio habetur,
+<lb ed="#V" n="76"/>quod cum clamore vatido emisit 
+spi<lb ed="#V" n="77" break="no"/>ritum ; hoc autem non potuit esse,
+<lb ed="#V" n="78"/>quod sic valide clamaret, nisi 
+prae<lb ed="#V" n="79" break="no"/>venisset gratis horam mortis, quae
+<lb ed="#V" n="80"/>accidisset ex violentia passionis; 
+igi<lb ed="#V" n="81" break="no"/>tur ante horam milam, sive instans,
+<lb ed="#V" n="82"/>posuit ex potestate sua animam
+<lb ed="#V" n="83"/>suam, et eadem ratione potuit etiam
+<lb ed="#V" n="84"/>non posuisse pro tunc, nec postea,
+<pb ed="#V" n="627"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>et ita in potestate ejus fuit mori vel
+<lb ed="#V" n="2"/>non mori ex violentia passionis.
+</p>
+            <p xml:id="jdso8u-d1e2875-d1e265">
+               <lb ed="#V" n="3"/>Contra, fuit in eodem statu 
+se<lb ed="#V" n="4" break="no"/>cundun corpus in quo nos, et 
+via<lb ed="#V" n="5" break="no"/>tor ; igitur secundum corpus potuit
+<lb ed="#V" n="6"/>sibi violentia inferri, unde 
+necessa<lb ed="#V" n="7" break="no"/>rio dissolveretur corporis harmonia,
+<lb ed="#V" n="8"/>patet in nobis, et ita unde corpus
+<lb ed="#V" n="9"/>privetur vita.
+</p>
+            <p xml:id="jdso8u-d1e2875-d1e283">
+               <lb ed="#V" n="10"/>Praeterea, si in potestate sua fuit
+<lb ed="#V" n="11"/>praeservare corpus ab omni 
+violen<lb ed="#V" n="12" break="no"/>tia extrinseca, ergo cum tenebatur
+<lb ed="#V" n="13"/>se custodire a morte, sicut quilibet,
+<lb ed="#V" n="14"/>sequitur quod in moriendo 
+peccas<lb ed="#V" n="15" break="no"/>set, quia post dilectionem Dei, et
+<lb ed="#V" n="16"/>animae propriae et animarum 
+proxi<lb ed="#V" n="17" break="no"/>morum, tenebatur suum corpus 
+di<lb ed="#V" n="18" break="no"/>ligere lege charitatis, et ita si posuit
+<lb ed="#V" n="19"/>animam, vel poni permisit, cum
+<lb ed="#V" n="20"/>potuit hoc praeservasse, ut homo 
+pec<lb ed="#V" n="21" break="no"/>casset, quia qui non praeservat 
+dis<lb ed="#V" n="22" break="no"/>solutionem sui corporis, cum possit,
+<lb ed="#V" n="23"/>peccat.
+</p>
+            <!-- </div>
+<div alias="scotus-d16q2-p2"> -->
+            <p xml:id="jdso8u-d1e2875-d1e319">
+               <lb ed="#V" n="24" type="fixed=627"/>SCHOLIUM.
+</p>
+            <p xml:id="jdso8u-d1e2875-d1e324">
+               <lb ed="#V" n="25"/>Sententia Divi Bonaventurae, Varronis, et 
+vi<lb ed="#V" n="26" break="no"/>detur Divi Thomae, corpus Christi fuisse 
+morta<lb ed="#V" n="27" break="no"/>le, quia fuit materia ejus privata aliis formis,
+<lb ed="#V" n="28"/>et quia habuit contrarias qualitates, et diversas
+<lb ed="#V" n="29"/>partes organicas diversa complexionis. Doctor
+<lb ed="#V" n="30"/>rejicit has rationes, primo, quia aeque 
+conclu<lb ed="#V" n="31" break="no"/>dunt de corpore Christi modo glorificato. 
+Se<lb ed="#V" n="32" break="no"/>cundo, refutat singillatim omnes rationes 
+isto<lb ed="#V" n="33" break="no"/>rum Doctorum. 2
+</p>
+            <p xml:id="jdso8u-d1e2875-d1e346">
+               <lb ed="#V" n="34"/>Ad primam (a) quaestionem dicitur
+<lb ed="#V" n="35"/>a multis, quod habuit necessitatem
+<lb ed="#V" n="36"/>moriendi, quia in eo fuit potentia
+<lb ed="#V" n="37"/>materiae ejusdem rationis, sicut in
+<lb ed="#V" n="38"/>aliis hominibus, et fuit privata aliis
+<lb ed="#V" n="39"/>formis, et materia privata est 
+ne<lb ed="#V" n="40" break="no"/>cessaria causa corruptionis; ergo.
+</p>
+            <p xml:id="jdso8u-d1e2875-d1e364">
+               <lb ed="#V" n="41"/>Praeterea (b) in corpore Christi
+<lb ed="#V" n="42"/>fuit contrarietas qualitatum, quia
+<lb ed="#V" n="43"/>qualitates elementares non sunt in
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="44"/>omnimoda proportione aequali in
+<lb ed="#V" n="45"/>corpore mixto proportionato 
+ani<lb ed="#V" n="46" break="no"/>mae, quia aliter complexionatur
+<lb ed="#V" n="47"/>una pars quam alia, et vita 
+praeci<lb ed="#V" n="48" break="no"/>pue consistit in calido et humido;
+<lb ed="#V" n="49"/>quia igitur fuit dominium alicujus
+<lb ed="#V" n="50"/>qualitatis, et contrarietas ex mutua
+<lb ed="#V" n="51"/>actione et passione, tandem 
+natu<lb ed="#V" n="52" break="no"/>raliter fuisset corruptio necessario
+<lb ed="#V" n="53"/>secuta.
+</p>
+            <p xml:id="jdso8u-d1e2875-d1e397">
+               <lb ed="#V" n="54"/>Praeterea (c) ex hoc quod 
+elemen<lb ed="#V" n="55" break="no"/>ta in corpore appetunt naturaliter
+<lb ed="#V" n="56"/>propria loca, cum sint extra, fuisset
+<lb ed="#V" n="57"/>tandem corruptio et dissolutio 
+illo<lb ed="#V" n="58" break="no"/>rum per naturam.
+</p>
+            <p xml:id="jdso8u-d1e2875-d1e410">
+               <lb ed="#V" n="59"/>Praeterea (d), diversae partes 
+or<lb ed="#V" n="60" break="no"/>ganicae diversimode 
+complexionan<lb ed="#V" n="61" break="no"/>tur, ita quod in oculo dominatur
+<lb ed="#V" n="62"/>alia qualitas, quam in aliis organis,
+<lb ed="#V" n="63"/>et habent contrarietatem, ideo ex
+<lb ed="#V" n="64"/>mutua actione et passione 
+par<lb ed="#V" n="65" break="no"/>tium erat necessitas ad 
+corruptio<lb ed="#V" n="66" break="no"/>nem.
+</p>
+            <p xml:id="jdso8u-d1e2875-d1e431">
+               <lb ed="#V" n="67"/>Praeterea, omne corpus 
+generabi<lb ed="#V" n="68" break="no"/>le; et corruptibile habet certam 
+pe<lb ed="#V" n="69" break="no"/>riodum suae durationis in esse, ultra
+<lb ed="#V" n="70"/>quam non potest durare ; sed corpus
+<lb ed="#V" n="71"/>Christi fuit generabile et 
+corruptibi<lb ed="#V" n="72" break="no"/>le ; ergo, etc.
+</p>
+            <p xml:id="jdso8u-d1e2875-d1e447">
+               <lb ed="#V" n="73"/>Rationes istae (e) non concludunt,
+<lb ed="#V" n="74"/>quia omnes eeque praeter ultimam
+<lb ed="#V" n="75"/>concludunt de corpore Christi modo,
+<lb ed="#V" n="76"/>vel de corpore post judicium, sicut
+<lb ed="#V" n="77"/>ante. Prima non, quia corpus istud
+<lb ed="#V" n="78"/>habet modo eamdem potentiam 
+ma<lb ed="#V" n="79" break="no"/>teriae quam prius, et simili modo
+<lb ed="#V" n="80"/>privatam, quia non habet alium 
+ac<lb ed="#V" n="81" break="no"/>tum modo quam ante, et ideo sicut
+<lb ed="#V" n="82"/>anima ante non abstulit 
+privatio<lb ed="#V" n="83" break="no"/>nem, communicando se per 
+essen<lb ed="#V" n="84" break="no"/>tiam corpori, sic nec post, quia non
+<lb ed="#V" n="85"/>communicavit se materiae post 
+re<lb ed="#V" n="86" break="no"/>surrectrionem, nisi sicut ante.
+</p>
+            <p xml:id="jdso8u-d1e2875-d1e480">
+               <lb ed="#V" n="87"/>Praeterea secunda (f) et tertia ratió
+<pb ed="#V" n="628"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>non concludunt, quia corpus Christi
+<lb ed="#V" n="2"/>in coelo est mixtum, et est 1bi 
+con<lb ed="#V" n="3" break="no"/>trarietas quae ante ; et elementa 
+na<lb ed="#V" n="4" break="no"/>ta sunt esse in regionibus proprus,
+<lb ed="#V" n="5"/>cum sint extra, et magis extra, quam
+<lb ed="#V" n="6"/>prius in corpore Christi, et in 
+cor<lb ed="#V" n="7" break="no"/>pore secundum se, non ut accipitur
+<lb ed="#V" n="8"/>secundum organa sensuum, maxime
+<lb ed="#V" n="9"/>dommatur terra, et ila in coelo
+<lb ed="#V" n="10"/>existens est maxime extra locum
+<lb ed="#V" n="11"/>suum, ideo maxime faceret ad 
+cor<lb ed="#V" n="12" break="no"/>ruptionem appetendo locum 
+pro<lb ed="#V" n="13" break="no"/>prium.
+</p>
+            <p xml:id="jdso8u-d1e2875-d1e517">
+               <lb ed="#V" n="14"/>Praeterea, quarta ratio non, quia
+<lb ed="#V" n="15"/>quantum ad partes organicas 
+sequi<lb ed="#V" n="16" break="no"/>tur idem, quia post resurrectionem
+<lb ed="#V" n="17"/>fuerunt ejusdem complexionis, 
+qua<lb ed="#V" n="18" break="no"/>lis ante, aliter non essent eaedem
+<lb ed="#V" n="19"/>partes ; igitur si fuerunt ante
+<lb ed="#V" n="20"/>causa corruptionis, et post erunt,
+<lb ed="#V" n="21"/>et ita necessario corrumperetur
+<lb ed="#V" n="22"/>post, sicut ante, si ista esset causa
+<lb ed="#V" n="23"/>hujus necessaria.
+</p>
+            <p xml:id="jdso8u-d1e2875-d1e541">
+               <lb ed="#V" n="24"/>Ultimum argumentum (g) accipit
+<lb ed="#V" n="25"/>unum falsum, scilicet quod omne
+<lb ed="#V" n="26"/>generabile habet certam periodum,
+<lb ed="#V" n="27"/>etc. Quia ponatur in esse aliquis 
+la<lb ed="#V" n="28" break="no"/>pis, et tollatur omne extrinsecum
+<lb ed="#V" n="29"/>corruptivun, posita cum hoc 
+gene<lb ed="#V" n="30" break="no"/>rali influentia vel manutenentia 
+dni<lb ed="#V" n="31" break="no"/>vina, nunquam corrumperetur ; 
+er<lb ed="#V" n="32" break="no"/>go non propter periodum 
+corrumpi<lb ed="#V" n="33" break="no"/>tur, vel habet certum terminum
+<lb ed="#V" n="34"/>durationis. Sed si mixta sunt 
+ne<lb ed="#V" n="35" break="no"/>cessario corruptibilia, hoc est ex
+<lb ed="#V" n="36"/>causa intrinseca, et maxime 
+ani<lb ed="#V" n="37" break="no"/>mata, quia in talibus aliqua 
+quali<lb ed="#V" n="38" break="no"/>tas dominatur, ut calor, qui tamen
+<lb ed="#V" n="39"/>continuo fovetur in humido tendente
+<lb ed="#V" n="40"/>in corruptionem continue per 
+actio<lb ed="#V" n="41" break="no"/>nem caliditatis ; ideo tandem ex tah
+<lb ed="#V" n="42"/>actione sequitur defectus et 
+corru<lb ed="#V" n="43" break="no"/>ptio humidi radicalis in aliquo 
+ci<lb ed="#V" n="44" break="no"/>tius, in aliquo tardius, secundum
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>quod actio est fortior et minus 
+for<lb ed="#V" n="46" break="no"/>tis.
+</p>
+            <p xml:id="jdso8u-d1e2875-d1e596">
+               <lb ed="#V" n="47"/>Et ideo nihil facit ad periodum
+<lb ed="#V" n="48"/>determinatam, extrinsecum 
+corrup<lb ed="#V" n="49" break="no"/>tivum, et ita est periodus ipsius
+<lb ed="#V" n="50"/>major et minor in ipsis ex causa 
+in<lb ed="#V" n="51" break="no"/>trinseca, ita quod aliquid intra est
+<lb ed="#V" n="52"/>causa periodi et corruptionis, 
+ma<lb ed="#V" n="53" break="no"/>gis quam e converso. Smmihter
+<lb ed="#V" n="54"/>elementa simplicia non 
+corrumpun<lb ed="#V" n="55" break="no"/>tur secundum totum ; quod autem
+<lb ed="#V" n="56"/>corrumpantur secundum partem,
+<lb ed="#V" n="57"/>hoc est ex actione alterius contrarin
+<lb ed="#V" n="58"/>in ipsum, et subtractione causae
+<lb ed="#V" n="59"/>conservantis et generantis; sicut
+<lb ed="#V" n="60"/>ignis de inferiori sphaera 
+corrumpi<lb ed="#V" n="61" break="no"/>tur in hyeme in regione ista ex 
+ac<lb ed="#V" n="62" break="no"/>ione frigidi dominantis ex 
+elonga<lb ed="#V" n="63" break="no"/>üone Solis; e contra in aestate 
+ge<lb ed="#V" n="64" break="no"/>neratur pars ignis, et corrumpitur
+<lb ed="#V" n="65"/>frigiditas propinqua igni, et causa
+<lb ed="#V" n="66"/>est accessus Solis. Exclude actionem
+<lb ed="#V" n="67"/>talem, et corpus simplex non 
+cor<lb ed="#V" n="68" break="no"/>rumpetur propter periodum certam,
+<lb ed="#V" n="69"/>quam in se habeat; sed periodus
+<lb ed="#V" n="70"/>rei sequitur causam corruptivam, et
+<lb ed="#V" n="71"/>est major vel minor ex causa alia,
+<lb ed="#V" n="72"/>quam ex hoc quod periodus.
+</p>
+            <!-- </div>
+
+<div alias="scotus-d16q2-p3"> -->
+            <p xml:id="jdso8u-d1e2875-d1e658">
+               <lb ed="#V" n="60" type="fixed=630"/>SCHOLIUM.
+</p>
+            <p xml:id="jdso8u-d1e2875-d1e663">
+               <lb ed="#V" n="61"/>Sententia Doctoris, ideo corpus Christi fuisse
+<lb ed="#V" n="62"/>mortale, quia per speciale miraculum, gloria
+<lb ed="#V" n="63"/>animae ejus non redundavit in corpus, et sic
+<lb ed="#V" n="64"/>relinquebatur suae naturae, non obsiante unione
+<lb ed="#V" n="65"/>ad Verbum, atque adeo corrumpi poterat, 
+si<lb ed="#V" n="66" break="no"/>cut caetera corpora humana. Pro quo adducit
+<lb ed="#V" n="67"/>Augustinum ; movet et solvit duo dubia circa
+<lb ed="#V" n="68"/>hoc.
+</p>
+            <p xml:id="jdso8u-d1e2875-d1e683">
+               <lb ed="#V" n="69"/>Ad quaestionem (h) igitur dico
+<lb ed="#V" n="70"/>primo, comparando Verbum 
+assu<lb ed="#V" n="71" break="no"/>mens ad naturam assumendam.
+<lb ed="#V" n="72"/>Secundo, comparando naturam ad
+<lb ed="#V" n="73"/>qualitatem consequentem. Tertio,
+<lb ed="#V" n="74"/>comparando naturam assumptam
+<lb ed="#V" n="75"/>ad gloriam et poenam. Primum
+<lb ed="#V" n="76"/>potest esse tripliciter : Primo 
+mo<lb ed="#V" n="77" break="no"/>do comparando Verbum assumens
+<lb ed="#V" n="78"/>ad naturam gloriosam 
+assumen<lb ed="#V" n="79" break="no"/>dam, quia potuit accepisse 
+natu<lb ed="#V" n="80" break="no"/>ram simpliciter gloriosam, et illa
+<lb ed="#V" n="81"/>nullo modo habuisset causam 
+sim<lb ed="#V" n="82" break="no"/>pliciter corruptionis. Secundo 
+mo<lb ed="#V" n="83" break="no"/>do comparando Verbum ad 
+natu<lb ed="#V" n="84" break="no"/>ram innocentem assumendam sine
+<lb ed="#V" n="85"/>peccato originali, et cum justitia
+<lb ed="#V" n="86"/>originali, ita quod esset 
+innocen<lb ed="#V" n="87" break="no"/>tia ex parte naturae in se. et sic
+<pb ed="#V" n="631"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>adhuc non fuit hic aliqua causa
+<lb ed="#V" n="2"/>demeritoria mortis. Tertio modo
+<lb ed="#V" n="3"/>comparando Verbum ad naturam
+<lb ed="#V" n="4"/>assumendam gloriosam, sic quod
+<lb ed="#V" n="5"/>gloria non redundaret in corpus
+<lb ed="#V" n="6"/>per miraculum, et sic facto ilo
+<lb ed="#V" n="7"/>miraculo in tertio instanti, 
+seque<lb ed="#V" n="8" break="no"/>batur in quarto causa necessitatis
+<lb ed="#V" n="9"/>dissolutionis ilius corporis, et 
+se<lb ed="#V" n="10" break="no"/>parationis hujus animae a corpore.
+</p>
+            <p xml:id="jdso8u-d1e2875-d1e753">
+               <lb ed="#V" n="11"/>Dico ergo ad propositum (t)
+<lb ed="#V" n="12"/>quod comparando Verbum ad 
+na<lb ed="#V" n="13" break="no"/>turam gloriosam assumptam in
+<lb ed="#V" n="14"/>tertio instanti sine redundantia 
+glo<lb ed="#V" n="15" break="no"/>riae animae in corpus, necesse fuit
+<lb ed="#V" n="16"/>corpus suum esse mortale, licet
+<lb ed="#V" n="17"/>hoc fuerit speciale et novum 
+mi<lb ed="#V" n="18" break="no"/>raculum quod gloria animae non
+<lb ed="#V" n="19"/>redundaverit in corpus. Facto 
+ta<lb ed="#V" n="20" break="no"/>men mriraculo isto, corpus illud
+<lb ed="#V" n="21"/>habuit necessitatem moriendi, quia
+<lb ed="#V" n="22"/>nec gloria redundavit in ipsum,
+<lb ed="#V" n="23"/>nec secundum corpus habuit 
+ju<lb ed="#V" n="24" break="no"/>stitiam originalem praeservantem a
+<lb ed="#V" n="25"/>corruptione. Hoc confirmatur per
+<lb ed="#V" n="26"/>Augustinum de Baptismo 
+parvulo<lb ed="#V" n="27" break="no"/>rum, ubi expresse dicit, quod 
+fa<lb ed="#V" n="28" break="no"/>cto illo miraculo, habuit 
+necessi<lb ed="#V" n="29" break="no"/>tatem moriendi.
+</p>
+            <p xml:id="jdso8u-d1e2875-d1e797">
+               <lb ed="#V" n="30"/>Sed unde (k) fuit haec 
+necessi<lb ed="#V" n="31" break="no"/>tas moriendi ? Respondeo, quia
+<lb ed="#V" n="32"/>corpus sibi dimissum per 
+priva<lb ed="#V" n="33" break="no"/>tionem redundantiae gloriae, fuit
+<lb ed="#V" n="34"/>animale, et ideo non sub pleno
+<lb ed="#V" n="35"/>dominio animae ad prohibendum
+<lb ed="#V" n="36"/>passionem in corpore, ideo fuit in
+<lb ed="#V" n="37"/>corpore ejus corruptio et 
+restau<lb ed="#V" n="38" break="no"/>ratio per sumptionem alimenti;
+<lb ed="#V" n="39"/>sed non potuit fieri restauratio
+<lb ed="#V" n="40"/>ita perfecta, quod corpus semper
+<lb ed="#V" n="41"/>maneret, nisi anima perfectum
+<lb ed="#V" n="42"/>dominium habuisset supra corpus.
+</p>
+            <p xml:id="jdso8u-d1e2875-d1e828">
+               <lb ed="#V" n="43"/>Contra, scivit quantum necesse
+<lb ed="#V" n="44"/>fuit sumere ad tantam restaura-
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>tionem deperditi, ut tantum 
+res<lb ed="#V" n="46" break="no"/>tauraretur quantum fuit 
+deperdi<lb ed="#V" n="47" break="no"/>tum.
+</p>
+            <p xml:id="jdso8u-d1e2875-d1e845">
+               <lb ed="#V" n="48"/>Respondeo, (l) quamvis sciverit
+<lb ed="#V" n="49"/>hoc, attamen duo sunt, quare hoc
+<lb ed="#V" n="50"/>non sequitur, scilicet potentiae 
+nu<lb ed="#V" n="51" break="no"/>tritivae debilitatio in convertendo,
+<lb ed="#V" n="52"/>et impuritas alimenti quod 
+as<lb ed="#V" n="53" break="no"/>sumpserit. De impuritate alimenti
+<lb ed="#V" n="54"/>dico, quod si Adam habuisset 
+ah<lb ed="#V" n="55" break="no"/>mentum nostrum, fuisset mortuus
+<lb ed="#V" n="56"/>senio. Hoc de ratione alimenti
+<lb ed="#V" n="57"/>patet, quia non quodlibet habet
+<lb ed="#V" n="58"/>generari ex quolibet, sicut ex 
+ter<lb ed="#V" n="59" break="no"/>mino, sed determinatum ex 
+de<lb ed="#V" n="60" break="no"/>terminato, et ideo ex alimento 
+pu<lb ed="#V" n="61" break="no"/>riori et meliori generatur melior
+<lb ed="#V" n="62"/>sanguis, et ex sanguine puriori
+<lb ed="#V" n="63"/>generatur caro solidior et 
+perma<lb ed="#V" n="64" break="no"/>nentior ; unde ex alimmento 
+cor<lb ed="#V" n="65" break="no"/>rupto et impuro generatur caro
+<lb ed="#V" n="66"/>alde ; fluida ; igitur impuritas 
+ali<lb ed="#V" n="67" break="no"/>menti Jesu Christi respectu 
+ali<lb ed="#V" n="68" break="no"/>menti Adae fuisset in Jesu 
+Chri<lb ed="#V" n="69" break="no"/>sto, sicut in nobis, causa 
+extrin<lb ed="#V" n="70" break="no"/>seca corruptiva, quia non fuisset
+<lb ed="#V" n="71"/>ex parte alimenti ita perfecta 
+res<lb ed="#V" n="72" break="no"/>tauratio, sicut deperditio.
+</p>
+            <p xml:id="jdso8u-d1e2875-d1e902">
+               <lb ed="#V" n="73"/>Sed posito quod habuisset esum
+<lb ed="#V" n="74"/>ligni vitae, fuissetne corpus ejus
+<lb ed="#V" n="75"/>incorruptibile ? Dico quod non,
+<lb ed="#V" n="76"/>sed habuisset causam intrinsecam
+<lb ed="#V" n="77"/>moriendi, quia omnis virtus 
+na<lb ed="#V" n="78" break="no"/>turalis relicta sibi, et non 
+praeser<lb ed="#V" n="79" break="no"/>vata per aliquod donum collatum,
+<lb ed="#V" n="80"/>agendo in aliud naturale, 
+repati<lb ed="#V" n="81" break="no"/>tur et debilitatur; et tantum agere
+<lb ed="#V" n="82"/>posset, quod debilitabitur in 
+tan<lb ed="#V" n="83" break="no"/>tum, quod non posset sufficienter
+<lb ed="#V" n="84"/>agere ad conservationem sui 
+indi<lb ed="#V" n="85" break="no"/>vidui, ut patet de virtute 
+nutriti<lb ed="#V" n="86" break="no"/>va in nobis, quod longa actione
+<lb ed="#V" n="87"/>in alimenta, et ex conversione
+<lb ed="#V" n="88"/>diutina tandem debilitatur, ita ut
+<pb ed="#V" n="632"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>non possit plus convertere; talis
+<lb ed="#V" n="2"/>fuisset nutritiva Christi sibi 
+dere<lb ed="#V" n="3" break="no"/>licta, et ideo tandem debilitata,
+<lb ed="#V" n="4"/>non potuisset amphus restaurare;
+<lb ed="#V" n="5"/>igitur debilitas virtutis, et 
+impu<lb ed="#V" n="6" break="no"/>ritas alimenti extrinseci fuissent
+<lb ed="#V" n="7"/>sufficiens causa suae mortis 
+natu<lb ed="#V" n="8" break="no"/>ralis.
+</p>
+            <!-- </div>
+
+<div alias="scotus-d16q2-p4"> -->
+            <p xml:id="jdso8u-d1e2875-d1e963">
+               <lb ed="#V" n="85" type="fixed=633"/>SCHOLIUM.
+<lb ed="#V" n="86"/>Ponit duas objectiones contra suam 
+resolu<lb ed="#V" n="87" break="no"/>tionem. Ad primam, explicat bene illud 
+Da<lb ed="#V" n="88" break="no"/>masceni, quod semel assumpsit, etc. Ad secun-
+<pb ed="#V" n="634"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>dam, restaurationem partium fluentium 
+corpo<lb ed="#V" n="2" break="no"/>ris Christi fuisse naturalem, unionem vero
+<lb ed="#V" n="3"/>earumdem partium fieri antiquo miraculo.
+</p>
+            <p xml:id="jdso8u-d1e2875-d1e985">
+               <lb ed="#V" n="4"/>Sed contra ista (m) sunt aliqua
+<lb ed="#V" n="5"/>dubia. Videtur enim quod ex 
+per<lb ed="#V" n="6" break="no"/>fecta unione Christi ad Verbum,
+<lb ed="#V" n="7"/>sine omni alio miraculo novo,
+<lb ed="#V" n="8"/>praeservaretur corpus ejus ab
+<lb ed="#V" n="9"/>omni corruptione, quia assumptio
+<lb ed="#V" n="10"/>fuit talis, ut assumptum nunquam
+<lb ed="#V" n="11"/>dimitteretur secundum 
+Damasce<lb ed="#V" n="12" break="no"/>num ; igitur non potuit esse, quod
+<lb ed="#V" n="13"/>stante unione corporis ad Verbum,
+<lb ed="#V" n="14"/>aliqua pars carnis ejus flueret et
+<lb ed="#V" n="15"/>corrumperetur, quia sic 
+assump<lb ed="#V" n="16" break="no"/>tum fuisset dimissum ; imo si 
+flu<lb ed="#V" n="17" break="no"/>xerunt partes, hoc videtur fuisse
+<lb ed="#V" n="18"/>per miraculum; igitur magis fuit
+<lb ed="#V" n="19"/>miraculum Christum fuisse 
+mor<lb ed="#V" n="20" break="no"/>tuum quam naturale.
+</p>
+            <p xml:id="jdso8u-d1e2875-d1e1024">
+               <lb ed="#V" n="21"/>Praeterea, (n) si partes fluebant,
+<lb ed="#V" n="22"/>tunc fuit restauratio partis novae;
+<lb ed="#V" n="23"/>hoc autem non fuit sine novo 
+mi<lb ed="#V" n="24" break="no"/>raculo, quia illa pars nova 
+unie<lb ed="#V" n="25" break="no"/>batur Verbo; hoc non potuit fieri,
+<lb ed="#V" n="26"/>nisi a Verbo, quiaà tantae 
+poten<lb ed="#V" n="27" break="no"/>tiae est unire partem Verbo, sicut
+<lb ed="#V" n="28"/>totum corpus ; sed totum non 
+uni<lb ed="#V" n="29" break="no"/>tur nisi per miraculum ; igitur
+<lb ed="#V" n="30"/>nec illa pars.
+</p>
+            <p xml:id="jdso8u-d1e2875-d1e1049">
+               <lb ed="#V" n="31"/>Dico ad ista (o) quod facto illo
+<lb ed="#V" n="32"/>miraculo, quod gloria animae non
+<lb ed="#V" n="33"/>redundabat in corpus, necessitas
+<lb ed="#V" n="34"/>fuit quod partes corporis fluerent
+<lb ed="#V" n="35"/>per sudorem et alias 
+consumptio<lb ed="#V" n="36" break="no"/>nes, quia activo et passivo 
+natu<lb ed="#V" n="37" break="no"/>ralibus approximatis, necesse est
+<lb ed="#V" n="38"/>sequi consumptionem, si alterum
+<lb ed="#V" n="39"/>habeat dominium; sed in corpore
+<lb ed="#V" n="40"/>Christi fuerunt calidum et 
+humi<lb ed="#V" n="41" break="no"/>dum, et aliquod dominium unius
+<lb ed="#V" n="42"/>super alterum, et virtus nutritiva
+<lb ed="#V" n="43"/>non sufficiebat ex alimentis 
+res<lb ed="#V" n="44" break="no"/>taurare deperditum ex mutua ac-
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>tione, ideo necessario fuit fluxus
+<lb ed="#V" n="46"/>partium et corruptio.
+</p>
+            <p xml:id="jdso8u-d1e2875-d1e1088">
+               <lb ed="#V" n="47"/>Ad primum (p), cum dicitur
+<lb ed="#V" n="48"/>quod semel assumptum nunquam
+<lb ed="#V" n="49"/>fuit dimissum, verum est de 
+prin<lb ed="#V" n="50" break="no"/>cipalibus partibus corporis, quae
+<lb ed="#V" n="51"/>concurrunt ad perfectionem 
+homi<lb ed="#V" n="52" break="no"/>nis, cujusmodi sunt partes 
+hete<lb ed="#V" n="53" break="no"/>rogeneae, scilicet cor, caput et
+<lb ed="#V" n="54"/>manus et hujusmodi, et tameu
+<lb ed="#V" n="55"/>aliquae partes dimissae sunt, ut si
+<lb ed="#V" n="56"/>incidit sibi ungues, vel rasit sibi
+<lb ed="#V" n="57"/>capillos, et sic de partibus carnis
+<lb ed="#V" n="58"/>et alus; imo totum sub ratione
+<lb ed="#V" n="59"/>totius fuit dimissum, quia totum
+<lb ed="#V" n="60"/>integrum ex partibus non semper
+<lb ed="#V" n="61"/>fuit unitum, ut supra patuit; 
+ta<lb ed="#V" n="62" break="no"/>men principales partes semper 
+fue<lb ed="#V" n="63" break="no"/>runt unitae, et de illis loquitur
+<lb ed="#V" n="64"/>Damascenus.
+</p>
+            <p xml:id="jdso8u-d1e2875-d1e1130">
+               <lb ed="#V" n="65"/>Ad aliud (q) cum dicitur, quod
+<lb ed="#V" n="66"/>tunc ex novo miraculo fuit alha
+<lb ed="#V" n="67"/>pars unita, dico quod non novo,
+<lb ed="#V" n="68"/>sed antiquo. Circa quod 
+scien<lb ed="#V" n="69" break="no"/>dum, quod sicut virtus generativa
+<lb ed="#V" n="70"/>habet generare distinctum 
+secun<lb ed="#V" n="71" break="no"/>dum esse, et secundum locum
+<lb ed="#V" n="72"/>etiam separatum, sic nutritiva 
+ha<lb ed="#V" n="73" break="no"/>bet generare idem et unitum, quia
+<lb ed="#V" n="74"/>nutritio est aggeneratio unius ad
+<lb ed="#V" n="75"/>aliud per identitatem et unitatem
+<lb ed="#V" n="76"/>cum eo. Et dico quod generatio
+<lb ed="#V" n="77"/>nova partis unitae corpori, fuit
+<lb ed="#V" n="78"/>naturalis, et quod caro generata
+<lb ed="#V" n="79"/>esset pars corporis praeexistentis,
+<lb ed="#V" n="80"/>naturale est utique; sed quod pars
+<lb ed="#V" n="81"/>ista uniatur Verbo, fuit 
+miracu<lb ed="#V" n="82" break="no"/>lum, non quidem novum, sed 
+eo<lb ed="#V" n="83" break="no"/>dem antiquo, quo primo corpus 
+to<lb ed="#V" n="84" break="no"/>tum unitur Verbo, unitur omnis
+<lb ed="#V" n="85"/>pars ilius totius, et omne illud
+<lb ed="#V" n="86"/>quod est actu pars ejus; sed tamen
+<lb ed="#V" n="87"/>virtus naturalis fecit aliquid 
+prae<lb ed="#V" n="88" break="no"/>ambulum ad antiquum miraculum,
+<pb ed="#V" n="635"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>quia fecit quod aliquid esset actu
+<lb ed="#V" n="2"/>pars corporis, quod prius non fuit;
+<lb ed="#V" n="3"/>sed hoc antiquo miraculo facto, illa
+<lb ed="#V" n="4"/>pars est unita Verbo unione totius,
+<lb ed="#V" n="5"/>et effective a Verbo, et a tota 
+Trini<lb ed="#V" n="6" break="no"/>tate.
+</p>
+            <!-- </div>
+
+<div alias="scotus-d16q2-p5"> -->
+            <p xml:id="jdso8u-d1e2875-d1e1204">
+               <lb ed="#V" n="84" type="fixed=637"/>SCHOLIUM.
+</p>
+            <p xml:id="jdso8u-d1e2875-d1e1209">
+               <lb ed="#V" n="85"/>solvit argumenta primae quaestionis. Ad 
+se<lb ed="#V" n="86" break="no"/>cundum, docet quare crcatura capax est omnis
+<lb ed="#V" n="87"/>scientiae, non omnipotentiae. Ad quartum., po-
+<pb ed="#V" n="638"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>nit secundum doctrinam Philosophi tenentis
+<lb ed="#V" n="2"/>ceelum esse incorruptibile et necessarium,
+<lb ed="#V" n="3"/>dicendum esse formam simplicem, vel si 
+ha<lb ed="#V" n="4" break="no"/>bet materiam, eam esse alterius rationis a
+<lb ed="#V" n="5"/>materia sublunarium. Doctor autem 2. dist. 14.
+<lb ed="#V" n="6"/>quaest. 1. tenet ejus materiam esse ejusdem
+<lb ed="#V" n="7"/>rationis cum nostra, ipsumque esse ab agente
+<lb ed="#V" n="8"/>naturali incorruptibile,sed corruptibile a Deo.
+</p>
+            <p xml:id="jdso8u-d1e2875-d1e1241">
+               <lb ed="#V" n="9"/>Ad primum principale (r) dicitur,
+<lb ed="#V" n="10"/>quod corpus propter peccatum
+<lb ed="#V" n="11"/>mortuum est demeritorie, et ex
+<lb ed="#V" n="12"/>hoc sequitur quod cum imn Christo
+<lb ed="#V" n="13"/>nullum fuerit demeritum, . quod
+<lb ed="#V" n="14"/>in primo minstanti, in quo 
+assump<lb ed="#V" n="15" break="no"/>sit naturam innocentem, non fuit
+<lb ed="#V" n="16"/>causa demeritoria mortis in eo, et
+<lb ed="#V" n="17"/>sic procedit illud Genesis, quod
+<lb ed="#V" n="18"/>postquam comederunt, habuerunt
+<lb ed="#V" n="19"/>primi parentes necessitatem 
+mo<lb ed="#V" n="20" break="no"/>riendi ex demerito; sed alia causa
+<lb ed="#V" n="21"/>fuit in Christo, sicut dictum est in
+<lb ed="#V" n="22"/>pede quaestionis.
+</p>
+            <p xml:id="jdso8u-d1e2875-d1e1274">
+               <lb ed="#V" n="23"/>Ad aliud (s) concesso 
+anteceden<lb ed="#V" n="24" break="no"/>te, nego consequentiam. Et causa
+<lb ed="#V" n="25"/>est, quia omnipotentia ad omne
+<lb ed="#V" n="26"/>possibile producendum, non potest
+<lb ed="#V" n="27"/>conferri creaturae vel alicui, nisi
+<lb ed="#V" n="28"/>illud habeat in se formam unam
+<lb ed="#V" n="29"/>vel plures, in qua vel in quibus 
+ra<lb ed="#V" n="30" break="no"/>dicetur potentia omnium 
+possibi<lb ed="#V" n="31" break="no"/>lium possibiliter fiendorum; haec
+<lb ed="#V" n="32"/>autem forma non potest esse 
+acci<lb ed="#V" n="33" break="no"/>dentalis, nec una, nec multae, quia
+<lb ed="#V" n="34"/>accidens secundum se non habet
+<lb ed="#V" n="35"/>in se, nec habere potest, manens
+<lb ed="#V" n="36"/>accidens, productivam virtutem 
+om<lb ed="#V" n="37" break="no"/>nium substantiarum vel alicujus
+<lb ed="#V" n="38"/>(dico de se); igitur oportet quod
+<lb ed="#V" n="39"/>illa omnipotentia inesset ei per
+<lb ed="#V" n="40"/>aliquam formam substantialem 
+vir<lb ed="#V" n="41" break="no"/>tualiter et perfecte continentem
+<lb ed="#V" n="42"/>omnem formam, et omne ens 
+pos<lb ed="#V" n="43" break="no"/>sibile fieri. Sed talis potentia non
+<lb ed="#V" n="44"/>potest conferri animae Christi, ma-
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>nente anima, nec Angelo, quia
+<lb ed="#V" n="46"/>anima manens anima, vel Angelus
+<lb ed="#V" n="47"/>manens Angelus, non potest 
+infri<lb ed="#V" n="48" break="no"/>gidare, et ideo repugnat sibi talis
+<lb ed="#V" n="49"/>forma virtualiter continens omnia.
+<lb ed="#V" n="50"/>Sed posse cognoscere omnia 
+co<lb ed="#V" n="51" break="no"/>enoscibilia, cum hoc non sit 
+pro<lb ed="#V" n="52" break="no"/>ducere ipsa in esse, non requirit
+<lb ed="#V" n="53"/>nisi potentiam intellectivam, et 
+ha<lb ed="#V" n="54" break="no"/>bitus vel species, quorum anima
+<lb ed="#V" n="55"/>est capax ; ideo intendendo in 
+sci<lb ed="#V" n="56" break="no"/>bilia, non causando ea, sed 
+tan<lb ed="#V" n="57" break="no"/>tum cognoscendo, non requiritur
+<lb ed="#V" n="58"/>tanta perfectio in fundamento, quo
+<lb ed="#V" n="59"/>absolute cognoscit, sicut requiritur
+<lb ed="#V" n="60"/>in fundamento omnipotentiae, quo
+<lb ed="#V" n="61"/>potest omnia possibilia causare.
+</p>
+            <p xml:id="jdso8u-d1e2875-d1e1363">
+               <lb ed="#V" n="62"/>Ad aliud (t), cum dicitur quod
+<lb ed="#V" n="63"/>scivit se custodire et restaurare
+<lb ed="#V" n="64"/>equaliter, concedo quod scetrvit, si
+<lb ed="#V" n="65"/>habuisset pro statu isto, in quo
+<lb ed="#V" n="66"/>fuit alimentum purum et virtutem
+<lb ed="#V" n="67"/>nutritivam non debilitatam ; sed
+<lb ed="#V" n="68"/>utrumque defuit; ideo non fuit
+<lb ed="#V" n="69"/>conversio alimenti in ita puram
+<lb ed="#V" n="70"/>carnem, ut semper maneret, nec
+<lb ed="#V" n="71"/>fuit virtus ejus aeque intensa in
+<lb ed="#V" n="72"/>convertendo.
+</p>
+            <p xml:id="jdso8u-d1e2875-d1e1389">
+               <lb ed="#V" n="73"/>Ad aliud (u), cum dicitur quod
+<lb ed="#V" n="74"/>ejus anima fuit perfectissima 
+for<lb ed="#V" n="75" break="no"/>ma, ideo abstulit omnem 
+privatio<lb ed="#V" n="76" break="no"/>nem a materia, sicut forma coeli;
+<lb ed="#V" n="77"/>dico, quod sicut forma coel non
+<lb ed="#V" n="78"/>continet virtualiter, vel 
+causal<lb ed="#V" n="79" break="no"/>ter et perfecte omnes formas, ita
+<lb ed="#V" n="80"/>non potest auferre a materia (st in
+<lb ed="#V" n="81"/>coelo sit materia) omnem 
+privatio<lb ed="#V" n="82" break="no"/>nem et potentiam maateria ad
+<lb ed="#V" n="83"/>aliam formam. ldeo si in coelo sit
+<lb ed="#V" n="84"/>materia ejusdem rationis cum 
+ma<lb ed="#V" n="85" break="no"/>teria hic, necessario est ibi 
+priva<lb ed="#V" n="86" break="no"/>tio et possibilitas ad alias formas;
+<lb ed="#V" n="87"/>ideo si coelum sit incorruptibile,
+<lb ed="#V" n="88"/>oportet dicere consequenter quod
+<pb ed="#V" n="639"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>vel sit forma simplex, vel quod
+<lb ed="#V" n="2"/>si habeat materiam, quod ila sit
+<lb ed="#V" n="3"/>alterius rationis, et de se tantum
+<lb ed="#V" n="4"/>in potentia ad formam quam habet.
+</p>
+            <p xml:id="jdso8u-d1e2875-d1e1439">
+               <lb ed="#V" n="5"/>Respondere ad formas 
+argumen<lb ed="#V" n="6" break="no"/>torum supra pro prima opinione,
+<lb ed="#V" n="7"/>quomodo elementa sunt in 
+corpori<lb ed="#V" n="8" break="no"/>bus gloriosis, et tamen sunt 
+in<lb ed="#V" n="9" break="no"/>corruptibilia, pertinet ad quartum
+<lb ed="#V" n="10"/>librum, ideo ibi usque differatur.
+</p>
+            <!-- </div>
+
+<div alias="scotus-d16q2-p6"> -->
+            <p xml:id="jdso8u-d1e2875-d1e1458">
+               <lb ed="#V" n="37" type="fixed=646"/>SCHOLIUM.
+</p>
+            <p xml:id="jdso8u-d1e2875-d1e1463">
+               <lb ed="#V" n="38"/>Ad primum argumentum secundae 
+quaestio<lb ed="#V" n="39" break="no"/>nis docet animam non dominari corpori quoad
+<lb ed="#V" n="40"/>actus vegetativae, sed bene quoad actus motivae.
+<lb ed="#V" n="41"/>Ad secundum, Christum habuisse mandatum
+<lb ed="#V" n="42"/>ponendi animam, explicatur, et videtur haberi
+<lb ed="#V" n="43"/>ex sexta Synodo Act. 17. Unde nulla ratione
+<lb ed="#V" n="44"/>fundantur, qui putant Christum, qua homo,
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>non esse capacem praecepti, quia videtur 
+con<lb ed="#V" n="46" break="no"/>tra id Psal. 39. In capite libri scriptum est de me,
+<lb ed="#V" n="47"/>ut facerem voluntatem tuam, Deus meus volui, et
+<lb ed="#V" n="48"/>legem tuam in medio cordis mei.
+</p>
+            <p xml:id="jdso8u-d1e2875-d1e1492">
+               <lb ed="#V" n="49"/>Ad primum (g) principale dico,
+<lb ed="#V" n="50"/>quod anima non plus domuinatur
+<lb ed="#V" n="51"/>corpori quantum ad omnem 
+poten<lb ed="#V" n="52" break="no"/>tiam, quae se tenet cum corpore,
+<lb ed="#V" n="53"/>quam dominetur appetitut sensitivo,
+<lb ed="#V" n="54"/>imo minus, quia quantum ad 
+po<lb ed="#V" n="55" break="no"/>tentias animmae vegetativae, non
+<lb ed="#V" n="56"/>dominatur super corpus ; quamvis
+<lb ed="#V" n="57"/>quantum ad potentiam motivam
+<lb ed="#V" n="58"/>dominetur, ut anima possit movere
+<lb ed="#V" n="59"/>corpus hinc inde localter, et ad hoc
+<lb ed="#V" n="60"/>opus, et ad illud, sicut placet; sed
+<lb ed="#V" n="61"/>non sic de vegetativis, quae sunt
+<lb ed="#V" n="62"/>omnino irrationales, non obedientes
+<lb ed="#V" n="63"/>animae in actibus suis ; quamvis
+<lb ed="#V" n="64"/>enim mn potestate animae sit exhibere
+<lb ed="#V" n="65"/>eis materiam in quam agant, 
+ta<lb ed="#V" n="66" break="no"/>men materia exhibita non subjacet
+<lb ed="#V" n="67"/>dominio animae in actionibus suis,
+<lb ed="#V" n="68"/>et ideo ex sumptione alimenti 
+im<lb ed="#V" n="69" break="no"/>puri, et debilitate virtutis in 
+conver<lb ed="#V" n="70" break="no"/>tendo, fuisset corpus mortuum.
+<lb ed="#V" n="71"/>Similiter anima non sic 
+dominaba<lb ed="#V" n="72" break="no"/>tur appetitur sensitivo, quod ipse
+<lb ed="#V" n="73"/>appetitus fuerit impassibilis, sed
+<lb ed="#V" n="74"/>vere doluit ; igitur nec corpori, ut
+<lb ed="#V" n="75"/>non posset pati ex dominio animae;
+<lb ed="#V" n="76"/>et ita argumentum assumit unum
+<lb ed="#V" n="77"/>falsum, scilicet quod anima 
+domi<lb ed="#V" n="78" break="no"/>natur appetitul sensitivo, ut non
+<lb ed="#V" n="79"/>patiatur, et ita plus corpori.
+</p>
+            <p xml:id="jdso8u-d1e2875-d1e1562">
+               <lb ed="#V" n="80"/>Ad secundum (h) de Joanne, quod
+<lb ed="#V" n="81"/>ly ego in supposito et apposito, stat
+<lb ed="#V" n="82"/>pro eadem persona, sed non 
+secun<lb ed="#V" n="83" break="no"/>dum eamdem naturam ; quia ego,
+<lb ed="#V" n="84"/>scilicet suppositum Verbi, 
+secun<lb ed="#V" n="85" break="no"/>dum naturam divinam, pono 
+ani<lb ed="#V" n="86" break="no"/>mam meam a meipso secundum
+<lb ed="#V" n="87"/>naturam humanam, quia animam.
+<lb ed="#V" n="88"/>separavit a corpore, non a Verbo,
+<pb ed="#V" n="647"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>ita quod ponere, vel separare 
+elffec<lb ed="#V" n="2" break="no"/>tive attribuitur Verbo, sed 
+termina<lb ed="#V" n="3" break="no"/>tive, ut a quo separetur anima.
+<lb ed="#V" n="4"/>scilicet a corpore, convenit sibi
+<lb ed="#V" n="5"/>ratione humanae naturae.
+<lb ed="#V" n="6"/>Per idem ad confirmationem, quia
+<lb ed="#V" n="7"/>» ut homo, accepit mandatum 
+ponen<lb ed="#V" n="8" break="no"/>di animam, id est, de complacendo
+<lb ed="#V" n="9"/>-et patiendo animmam poni, sed non
+<lb ed="#V" n="10"/>effective, ita quod ponere animam,
+<lb ed="#V" n="11"/>et non ponere, fuerit in potestate
+<lb ed="#V" n="12"/>animmae ejus ; ettalis expositio non
+<lb ed="#V" n="13"/>est extorta, quia eadem auctoritas
+<lb ed="#V" n="14"/>potest exponi, partim de capite,
+<lb ed="#V" n="15"/>partim de membris ; sicut hic, qu
+<lb ed="#V" n="16"/>potuit transgredit, et non est 
+trans<lb ed="#V" n="17" break="no"/>gressus, quantum ad posse 
+trans<lb ed="#V" n="18" break="no"/>gredi, exponitur de capite ; ita idem
+<lb ed="#V" n="19"/>secundum aliquid, potest exponi de
+<lb ed="#V" n="20"/>Christo ratione naturae increatae, et
+<lb ed="#V" n="21"/>secundum aliquid, ratione naturae
+<lb ed="#V" n="22"/>creatae.
+</p>
+            <p xml:id="jdso8u-d1e2875-d1e1636">
+               <lb ed="#V" n="23"/>Ad aliud (1) de clamore valido,
+<lb ed="#V" n="24"/>dico quod alterum fuit miraculum,
+<lb ed="#V" n="25"/>scilicet quod clamavit valde in hora
+<lb ed="#V" n="26"/>mortis, et ex potentia Verbi ; sed
+<lb ed="#V" n="27"/>quod anima fuerit separata per 
+vio<lb ed="#V" n="28" break="no"/>lentiam passionis, hoc fuit naturale,
+<lb ed="#V" n="29"/>supposito miraculo primo de non
+<lb ed="#V" n="30"/>redundantia gloriae in corpus. Nam
+<lb ed="#V" n="31"/>omnia, quae passus est, fuerunt
+<lb ed="#V" n="32"/>quodam modo miraculosa, licet 
+na<lb ed="#V" n="33" break="no"/>turalia, quia quod non potest fieri
+<lb ed="#V" n="34"/>nisi praesupposito miraculo, etsi
+<lb ed="#V" n="35"/>facto miraculo possit naturaliter
+<lb ed="#V" n="36"/>fieri, in relatione tamen ad 
+miracu<lb ed="#V" n="37" break="no"/>lum necessario praesuppositum, est
+<lb ed="#V" n="38"/>aliquo modo miraculosum. Sed quod
+<lb ed="#V" n="39"/>patitur Christus secundum animam
+<lb ed="#V" n="40"/>et corpus, vel secundum portionem
+<lb ed="#V" n="41"/>inferiorem rationis, hoc fuit ex 
+mi<lb ed="#V" n="42" break="no"/>raculo primo, quo gloria animae
+<lb ed="#V" n="43"/>non redundabat in corpus; ideo 
+to<lb ed="#V" n="44" break="no"/>tum quod patitur. fuit miraculo-
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>sum, et tamen naturalter patitui
+<lb ed="#V" n="46"/>facto illo miraculo, sicut caecus 
+na<lb ed="#V" n="47" break="no"/>tus naturaliter videt facta 
+illumina<lb ed="#V" n="48" break="no"/>tione miraculose.
+</p>
+            <!--</div>-->
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Scotus">John Duns Scotus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2025-07-15">July 15, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-u78x14">Vives, Paris, 1893, volume 14</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-15" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="209"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jdso8u-d1e2533"><!-- jdso8u-b3d5q1 -->
+            <head xml:id="jdso8u-d1e2533-Hd1e99">Quaestio 1</head>
+            <head xml:id="jdso8u-d1e2533-Hd1e101" type="question-title">Utrum natura divina assumpsit naturam humanam vel assumere potuit</head>
+            <!-- <div> -->
+            <p xml:id="jdso8u-d1e2533-d1e106">
+               <lb ed="#V" n="48" type="fixed=208"/>QUAESTIO I.
+<lb ed="#V" n="49"/>Utrum natura divina assumpserit, vel
+<lb ed="#V" n="50"/>assumere potuerit naturam 
+huma<lb ed="#V" n="51" break="no"/>nam?
+</p>
+            <p xml:id="jdso8u-d1e2533-d1e117">
+               <lb ed="#V" n="52"/>Alens. 3. p. q. 1. m. 3. et q. 1. m.4. art.3.D.
+<lb ed="#V" n="53"/>Thom. 3. p. q. 3. art. 3. et híc. q. 2. art. 2.
+<lb ed="#V" n="54"/>D. Bonavent- art. 1. quaest. 4. Richard. art. 1.
+<lb ed="#V" n="55"/>q. 2. et dist. 1. art. 1. q. 4. :Egid. hic 2. part.
+<lb ed="#V" n="56"/>q. 1. Suarez 3. p. tom. 1. disp. 11. s. 1. Wasg.
+<lb ed="#V" n="57"/>disp. 2.
+</p>
+            <p xml:id="jdso8u-d1e2533-d1e134">
+               <lb ed="#V" n="58"/>Circa primum (a) arguitur quod
+<lb ed="#V" n="59"/>sic. Persona divina assumpsit 
+na<lb ed="#V" n="60" break="no"/>turam humanam ; ergo et natura
+<lb ed="#V" n="61"/>divina. Consequentia probatur,
+<lb ed="#V" n="62"/>quia quae sunt eadem reahter 
+res<lb ed="#V" n="63" break="no"/>pectu cujJuscumque actionis realis,
+<lb ed="#V" n="64"/>sunt eadem, sive se habeant ad
+<lb ed="#V" n="65"/>illam ut principium, sive ut termi.
+<lb ed="#V" n="66"/>nus, quia actio realis est a principio
+<lb ed="#V" n="67"/>reali, ut res, et non ut intentio 
+tan<lb ed="#V" n="68" break="no"/>tum, et ad terminum realem.
+</p>
+            <p xml:id="jdso8u-d1e2533-d1e160">
+               <lb ed="#V" n="69"/>Praeterea, quod potuit probo,
+<lb ed="#V" n="70"/>quia natura divina, cum sit mnfinita,
+<lb ed="#V" n="71"/>includit in se rationem omnis 
+sup<lb ed="#V" n="72" break="no"/>positi; igitur potest supplere vicem
+<lb ed="#V" n="73"/>cujuslibet supposit creati, et ita
+<lb ed="#V" n="74"/>personare naturam creatam.
+</p>
+            <!-- </div>
+
+<div alias="scotus-d5q1-p2"> -->
+            <p xml:id="jdso8u-d1e2533-d1e178">
+               <pb ed="#V" n="210"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1" type="fixed=210"/>SCHOLIUM.
+</p>
+            <p xml:id="jdso8u-d1e2533-d1e187">
+               <lb ed="#V" n="2"/>Positis rationibus pro utraque parte remittit
+<lb ed="#V" n="3"/>resolutionem quaestionis ad sequentem, ubi n.
+<lb ed="#V" n="4"/>2. de ea agit, et solvit arg. hic posita ibi num.
+<lb ed="#V" n="5"/>3.
+</p>
+            <p xml:id="jdso8u-d1e2533-d1e198">
+               <lb ed="#V" n="6"/>Contra, si natura assumpsit, cum
+<lb ed="#V" n="7"/>ista sit eadem in tribus, sequeretur
+<lb ed="#V" n="8"/>quod tres personae assumpsissent.
+</p>
+            <p xml:id="jdso8u-d1e2533-d1e208">
+               <lb ed="#V" n="9"/>Item, quod non potuit probo,
+<lb ed="#V" n="10"/>quia quaero ad quam unitatem ; non
+<lb ed="#V" n="11"/>personae, quia natura, ut natura,
+<lb ed="#V" n="12"/>non est persona; non naturae, quia
+<lb ed="#V" n="13"/>tunc vel esset eadem natura haec et
+<lb ed="#V" n="14"/>illa, vel fieret una ex eis ; utrumque
+<lb ed="#V" n="15"/>est impossibile ; igitur in neutram
+<lb ed="#V" n="16"/>unitatem potuit assumere.
+</p>
+            <!--</div>-->
+            <!-- no commentary here -->
+         </div>
+      </body>
+   </text>
+</TEI>

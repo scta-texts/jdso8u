@@ -1,0 +1,982 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1 
+Utrum naturam aliquam immediate uniri Verbo hypostatice et non frui eo includat contradictionem
+</title>
+            <author ref="#Scotus">John Duns Scotus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1 
+Utrum naturam aliquam immediate uniri Verbo hypostatice et non frui eo includat contradictionem
+</title>
+               <date when="2025-07-15">July 15, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-u78x14">Vives, Paris, 1893, volume 14</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-15" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="106"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jdso8u-d1e2448"><!-- jdso8u-b3d2q1 -->
+            <head xml:id="jdso8u-d1e2448-Hd1e99">Quaestio 1</head>
+            <head xml:id="jdso8u-d1e2448-Hd1e101" type="questiont-title">
+Utrum naturam aliquam immediate uniri Verbo hypostatice et non frui eo includat contradictionem
+</head>
+            <!-- <div> -->
+            <p xml:id="jdso8u-d1e2448-d1e106">
+               <cb ed="#V" n="b"/>
+               <lb ed="#V" n="42" type="fixed=106"/>QUESTIO I.
+<lb ed="#V" n="43"/>Utrum naturam humanam uniri Deo
+<lb ed="#V" n="44"/>hypostatice, non tamen frui, includat
+<lb ed="#V" n="45"/>contradictionem ?
+</p>
+            <p xml:id="jdso8u-d1e2448-d1e119">
+               <lb ed="#V" n="46"/>Alens. 3. p. q. 11. per tot. et q. 12. m. 1. et2.
+<lb ed="#V" n="47"/>D. Thom. 3. p. q. 2. art. 10. Richard. híc art.
+<lb ed="#V" n="48"/>1. q. 4.Gabr. d. 1. quast. 2. art. 3. Henr.
+<lb ed="#V" n="49"/>quodl. 6. g. 6. Suar. 3. p. tom. 1. disp. 9. s.
+<lb ed="#V" n="50"/>2 qui tractant an unio hypostatica sit omnium
+<lb ed="#V" n="51"/>mazcima. Quoad secundum art. an natura 
+ir<lb ed="#V" n="52" break="no"/>rationalis sit assumptibilis, negant Henr. quodl.
+<lb ed="#V" n="53"/>13. q. 1. Carthus. híc g. 2. art. 2. et 
+proba<lb ed="#V" n="54" break="no"/>bile putant Richard. et Gabr. citati, et Marsil.
+<lb ed="#V" n="55"/>q. 3. sed communis affirmat, D. Thom. híc
+<lb ed="#V" n="56"/>quaest. 1. art. 1. Durand. q. 1. Palud. q. 1.
+<lb ed="#V" n="57"/>Suar. 3. p. tom. 1. d. 14. s. 2. Alens. supr. q.
+<lb ed="#V" n="58"/>11. m. 1. favet parti neganti. et etiam D. 
+Bo<lb ed="#V" n="59" break="no"/>navent. hic art. 1. q. 1. de quaesito principali.
+<lb ed="#V" n="60"/>Cajet. 3. p. q. 24. art. 1. cui fovet Suar. 3. p.
+<lb ed="#V" n="61"/>tom. 1. d. 50. s. 3. et alii putant fruitionem
+<lb ed="#V" n="62"/>necessario conjungi unioni hypostatice. Vide
+<lb ed="#V" n="63"/>Vasq. 3. p. disp. 20-
+</p>
+            <p xml:id="jdso8u-d1e2448-d1e162">
+               <lb ed="#V" n="64"/>Circá primum, arguitur quod sic,
+<lb ed="#V" n="65"/>quia aut illa natura nata est frui,
+<lb ed="#V" n="66"/>aut non. Primo modo non potest
+<lb ed="#V" n="67"/>non frui. Probatio, tum quia haec
+<lb ed="#V" n="68"/>unio major est unione, quee est per
+<lb ed="#V" n="69"/>habitum gloriae, quia secundum
+<lb ed="#V" n="70"/>Augustinum 13. de Trinit. cap. 19.
+<lb ed="#V" n="71"/>In rebus per tempus ortis illa 
+sum<lb ed="#V" n="72" break="no"/>ma gratia, etc. Sed contradictio est
+<lb ed="#V" n="73"/>naturam unitam per habitum 
+glo<lb ed="#V" n="74" break="no"/>riae non frui; ergo multo magis de
+<lb ed="#V" n="75"/>ista. Confirmatur per Augustinum
+<lb ed="#V" n="76"/>13. de Trinit. cap. 9. ubi arguit
+<lb ed="#V" n="77"/>per locum a minori, si Filius Dei
+<lb ed="#V" n="78"/>naturalis factus est filius hommnis,
+<lb ed="#V" n="79"/>igitur magis credibile est, quod 
+fi<lb ed="#V" n="80" break="no"/>lius hommnis naturalis sit gratia
+<lb ed="#V" n="81"/>Filius Dei. S1 autem 
+consequen<lb ed="#V" n="82" break="no"/>tia tenet universaliter a minori,
+<lb ed="#V" n="83"/>igitur in Christo posito antecedente
+<lb ed="#V" n="84"/>necessario ponitur consequens, et
+<lb ed="#V" n="85"/>per consequens, quod necessario
+<lb ed="#V" n="86"/>fruatur. Tum quia si talis natura
+<lb ed="#V" n="87"/>non necessario frueretur, posset.
+<lb ed="#V" n="88"/>peccare, et ita Deus diceretur pec-
+<pb ed="#V" n="107"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>care et damnari per consequens.
+<lb ed="#V" n="2"/>Confirmatur ista probatio per 
+An<lb ed="#V" n="3" break="no"/>selmum 2. Cur Deus honio, cap. 10.
+<lb ed="#V" n="4"/>Si primus homo erat peccabilis,
+<lb ed="#V" n="5"/>quia non erat Deus, igitur ex ista
+<lb ed="#V" n="6"/>unione secundus homo, ex qua erat
+<lb ed="#V" n="7"/>Deus, erat impeccabilis; sed non
+<lb ed="#V" n="8"/>erat impeccabilis, nisi quia beatus;
+<lb ed="#V" n="9"/>igitur, etc.
+</p>
+            <p xml:id="jdso8u-d1e2448-d1e243">
+               <lb ed="#V" n="10"/>Secundum membrum divisionis
+<lb ed="#V" n="11"/>includit contradictionem, scilicet
+<lb ed="#V" n="12"/>quod aliqua natura non nata frui
+<lb ed="#V" n="13"/>possit ei uniri hypostatice; tum
+<lb ed="#V" n="14"/>quia tunc natura non personabilis
+<lb ed="#V" n="15"/>personaretur ; natura enim quae
+<lb ed="#V" n="16"/>unitur personae, in unitate 
+suppo<lb ed="#V" n="17" break="no"/>siti personatur; natura non nata
+<lb ed="#V" n="18"/>frui, non est personabilis. Tum 
+se<lb ed="#V" n="19" break="no"/>cundo, quia tunc esset 
+communi<lb ed="#V" n="20" break="no"/>catio idiomatum, et sic Deus 
+dice<lb ed="#V" n="21" break="no"/>retur esse lapis vel ignis, imo 
+vide<lb ed="#V" n="22" break="no"/>tur esse perfectior communicatio
+<lb ed="#V" n="23"/>idiomatum tunc quam modo, cum
+<lb ed="#V" n="24"/>quaelibet pars lapidis sit lapis, 
+quid<lb ed="#V" n="25" break="no"/>quid est Dei est Deus, non ita est
+<lb ed="#V" n="26"/>de homine ; igitur, etc.
+</p>
+            <p xml:id="jdso8u-d1e2448-d1e282">
+               <lb ed="#V" n="27"/>Contra, in triduo immediate 
+unie<lb ed="#V" n="28" break="no"/>batur caro Verbo, et tamen non
+<lb ed="#V" n="29"/>fruebatur; quidquid autem Verbum
+<lb ed="#V" n="30"/>potut conservare sibi unitum
+<lb ed="#V" n="31"/>immediate, potuit immediate 
+assu<lb ed="#V" n="32" break="no"/>mere.
+</p>
+            <!--</div>-->
+            <!-- no commentary here -->
+            <!--<div alias="scotus-d1q5-p2">-->
+            <p xml:id="jdso8u-d1e2448-d1e305">
+               <lb ed="#V" n="33" type="fixed=107"/>SCHOLIUM.
+</p>
+            <p xml:id="jdso8u-d1e2448-d1e310">
+               <lb ed="#V" n="34"/>Sententia Henrici, Cajetani et aliorum, 
+natu<lb ed="#V" n="35" break="no"/>ram rationalem assumptam non posse non
+<lb ed="#V" n="36"/>frui. Primo quia habet sibi praesens objectum
+<lb ed="#V" n="37"/>fruibile. Secundo, per illapsum hypostaticum
+<lb ed="#V" n="38"/>beatificatur essentia ; ergo necessario hoc 
+re<lb ed="#V" n="39" break="no"/>dundat in potentia, sicut et e contra contingit.
+<lb ed="#V" n="40"/>Explicat late primam rationem.
+</p>
+            <p xml:id="jdso8u-d1e2448-d1e328">
+               <lb ed="#V" n="41"/>In ista quaestione sunt duo 
+arti<lb ed="#V" n="42" break="no"/>culi; primus de natura nata frui,
+<lb ed="#V" n="43"/>an ista posset non frui; et secun-
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="44"/>dus, an natura non nata frui, 
+pos<lb ed="#V" n="45" break="no"/>sit assumi. Et dicitur ad utrumque,
+<lb ed="#V" n="46"/>quod non.
+</p>
+            <p xml:id="jdso8u-d1e2448-d1e346">
+               <lb ed="#V" n="47"/>Ratio ad primum articulum 
+po<lb ed="#V" n="48" break="no"/>nitur falis: fruitio completur in
+<lb ed="#V" n="49"/>hoc quod objectum fruibile 
+prae<lb ed="#V" n="50" break="no"/>sens immutat intellectum ad actum
+<lb ed="#V" n="51"/>videndi, et per hoc erit praesens
+<lb ed="#V" n="52"/>voluntati alliciens illam, ut 
+neces<lb ed="#V" n="53" break="no"/>sario fruatur fine praesente. Sed
+<lb ed="#V" n="54"/>per istam unionem est necessario
+<lb ed="#V" n="55"/>ista immutatio intellectus ; igitur et
+<lb ed="#V" n="56"/>ipsa fruitio voluntatis est necessario
+<lb ed="#V" n="57"/>consequens istam immutationem.
+<lb ed="#V" n="58"/>Probatio minoris: Si oculus posset
+<lb ed="#V" n="59"/>videre lucem mexistentem sibi ad
+<lb ed="#V" n="60"/>praesentiam lucis, necessario 
+seque<lb ed="#V" n="61" break="no"/>retur quod ipsa esset praesens, ut
+<lb ed="#V" n="62"/>immutans oculum ad videndum;
+<lb ed="#V" n="63"/>intellectus autem potest videre 
+al<lb ed="#V" n="64" break="no"/>quid praesens in se, igitur cum per
+<lb ed="#V" n="65"/>unionem istam lux increata sit
+<lb ed="#V" n="66"/>praesens intellectui in se, erit 
+ne<lb ed="#V" n="67" break="no"/>cessario praesens, ut immutans 
+in<lb ed="#V" n="68" break="no"/>tellectum ad intelligendum. 
+Con<lb ed="#V" n="69" break="no"/>firmatur per Augustinum, ubrt 
+su<lb ed="#V" n="70" break="no"/>pra, ubi arguit per locum a minori
+<lb ed="#V" n="71"/>de duplici unione.
+</p>
+            <p xml:id="jdso8u-d1e2448-d1e403">
+               <lb ed="#V" n="72"/>Praeterea, potentiae fundantur in
+<lb ed="#V" n="73"/>essentia animae, non e converso;
+<lb ed="#V" n="74"/>igitur essentialior est ordo, ut illud,
+<lb ed="#V" n="75"/>quod est in essentia, redundet in
+<lb ed="#V" n="76"/>potentias, quam e converso ; sed
+<lb ed="#V" n="77"/>beatitudo non potest esse in 
+poten<lb ed="#V" n="78" break="no"/>tiis, nisi necessario redundet in 
+es<lb ed="#V" n="79" break="no"/>sentiam ; igitur non potest esse in
+<lb ed="#V" n="80"/>essentia, nisi redundet in potentias ;
+<lb ed="#V" n="81"/>sed per illapsum specialem essentia
+<lb ed="#V" n="82"/>animae beatificatur quantum est
+<lb ed="#V" n="83"/>beatificabilis, quia fit unum aliquid
+<lb ed="#V" n="84"/>cum Deo, igitur, etc.
+</p>
+            <p xml:id="jdso8u-d1e2448-d1e434">
+               <lb ed="#V" n="85"/>Confirmatur, quia beatitudo prius
+<lb ed="#V" n="86"/>est in essentia quam in potentis,
+<lb ed="#V" n="87"/>est enim prius in supremo naturae
+<pb ed="#V" n="108"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>beatficabilis ; essentia autem magis
+<lb ed="#V" n="2"/>habet rationem supremi, respectu
+<lb ed="#V" n="3"/>potentiarum, quam e converso ; sed
+<lb ed="#V" n="4"/>in essentia non potest poni 
+beatitu<lb ed="#V" n="5" break="no"/>do, nist quidam ulapsus specials
+<lb ed="#V" n="6"/>objecti fruibilis ; iste autem ulapsus,
+<lb ed="#V" n="7"/>qui est in unione, est supremus, et
+<lb ed="#V" n="8"/>ideo per hunc natura summe 
+ele<lb ed="#V" n="9" break="no"/>vatur.
+</p>
+            <p xml:id="jdso8u-d1e2448-d1e468">
+               <lb ed="#V" n="10"/>Modus declarandi primam 
+ratio<lb ed="#V" n="11" break="no"/>nem est talis, quia habitus 
+intellec<lb ed="#V" n="12" break="no"/>tualis aliquando est necessarius, ut
+<lb ed="#V" n="13"/>repraesentet objectum sicut in 
+An<lb ed="#V" n="14" break="no"/>gelis ; aliquando autem est 
+facili<lb ed="#V" n="15" break="no"/>tans ipsam potentiam, ut facilius
+<lb ed="#V" n="16"/>possit in ipsum sicut in nobis;
+<lb ed="#V" n="17"/>habitus autem gloriae non ponitur
+<lb ed="#V" n="18"/>in ista unione propter primum, quia
+<lb ed="#V" n="19"/>per nihil formaliter informans 
+natu<lb ed="#V" n="20" break="no"/>ram, est Deus sibi praesens, ut 
+ob<lb ed="#V" n="21" break="no"/>jectum fruibile, sed tantum se 
+re<lb ed="#V" n="22" break="no"/>praesentat voluntarie potentiae 
+po<lb ed="#V" n="23" break="no"/>tenti fruui immediate, ut objectum
+<lb ed="#V" n="24"/>fruibile ; ergo habitus ille requiritur
+<lb ed="#V" n="25"/>propter facilitatem, vel propter 
+ah<lb ed="#V" n="26" break="no"/>quam elevationem potentiae, ut ipsa
+<lb ed="#V" n="27"/>possit faciliter immutari a tah 
+ob<lb ed="#V" n="28" break="no"/>Jecto ; etiam sine tali habitu absolute
+<lb ed="#V" n="29"/>potest a tali objecto immutari, quia
+<lb ed="#V" n="30"/>potentia naturae assumptae est 
+sum<lb ed="#V" n="31" break="no"/>me inclinata et elevata et 
+proportio<lb ed="#V" n="32" break="no"/>nata objecto fruibili, nam 
+hujusmo<lb ed="#V" n="33" break="no"/>di potentia naturae assumptae per
+<lb ed="#V" n="34"/>unionem elevata est ad esse 
+super<lb ed="#V" n="35" break="no"/>naturale, ideo ipsa potentia est
+<lb ed="#V" n="36"/>sufficienter elevata ad operationem
+<lb ed="#V" n="37"/>supernaturalem ; supplet igitur ista
+<lb ed="#V" n="38"/>unio ad Verbum quantum ad 
+frui<lb ed="#V" n="39" break="no"/>tionem, quidquid habitus gloriae
+<lb ed="#V" n="40"/>posset facere m alns.
+</p>
+            <!--</div>-->
+            <!-- no commentary here -->
+            <!--<div alias="scotus-d1q5-p3">-->
+            <p xml:id="jdso8u-d1e2448-d1e544">
+               <lb ed="#V" n="41" type="fixed=108"/>SCHOLIUM.
+</p>
+            <p xml:id="jdso8u-d1e2448-d1e549">
+               <lb ed="#V" n="42"/>Refutat dictam sententiam primo, quia prius
+<lb ed="#V" n="43"/>potest esse sine posteriore ; unio hypostatica
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="44"/>est prior fruitione; ergo. Secundo, objectum
+<lb ed="#V" n="45"/>fruibile nulam naturam necessario immutat
+<lb ed="#V" n="46"/>nisi suam. Tertio, voluntas creata non potest
+<lb ed="#V" n="47"/>frui sine charitate, ex 1. dist. 17. quaest. 2.
+<lb ed="#V" n="48"/>num. 38. hejicit aliorum responsionem, et
+<lb ed="#V" n="49"/>docet fruitionem a solo Deo produci posse,
+<lb ed="#V" n="50"/>de quo dist. 13. quaest. Quarto, per unionem
+<lb ed="#V" n="51"/>hypostaticam Verbum est praesens naturae 
+tan<lb ed="#V" n="52" break="no"/>tum personaliter, non objective immutans
+<lb ed="#V" n="53"/>potentias.
+</p>
+            <p xml:id="jdso8u-d1e2448-d1e581">
+               <lb ed="#V" n="54"/>Contra istam opinionem (a). Et
+<lb ed="#V" n="55"/>primo contra conclusionem in se,
+<lb ed="#V" n="56"/>arguo sic : Prius ex ratione prioris
+<lb ed="#V" n="57"/>potest esse sine posteriori absque
+<lb ed="#V" n="58"/>contradictione, et hoc quando
+<lb ed="#V" n="59"/>nulla est necessaria connexio. Ista
+<lb ed="#V" n="60"/>necessaria connexio potest esse, vel
+<lb ed="#V" n="61"/>propter identitatem realem, sicut
+<lb ed="#V" n="62"/>subjectum et propria passio, vel
+<lb ed="#V" n="63"/>propter simultatem naturae, ut in
+<lb ed="#V" n="64"/>correlativis. Aliter non salvaretur
+<lb ed="#V" n="65"/>prioritas unius ad ahud ; patet ex
+<lb ed="#V" n="66"/>definitione ejus. Sed natura 
+perso<lb ed="#V" n="67" break="no"/>nabilis prius naturahter personatur
+<lb ed="#V" n="68"/>quam operetur, et hoc quando 
+per<lb ed="#V" n="69" break="no"/>sonatur in se, quia operatio est 
+sup<lb ed="#V" n="70" break="no"/>positi praeexistentis, et in natura
+<lb ed="#V" n="71"/>intellectuali est persona ; igitur
+<lb ed="#V" n="72"/>quando personatur in alio, prius
+<lb ed="#V" n="73"/>naturaliter personatur in eo quam
+<lb ed="#V" n="74"/>operetur. Ista consequentia ultima
+<lb ed="#V" n="75"/>probatur, quia natura in eodem 
+in<lb ed="#V" n="76" break="no"/>stanti naturae in quo personaretur
+<lb ed="#V" n="77"/>in se, si sibi dimitteretur, in eodem
+<lb ed="#V" n="78"/>personatur in persona assumente ;
+<lb ed="#V" n="79"/>ergo non est contradictio, naturam
+<lb ed="#V" n="80"/>istam personari in persona divina,
+<lb ed="#V" n="81"/>et tamen non operari in fruendo.
+</p>
+            <p xml:id="jdso8u-d1e2448-d1e644">
+               <lb ed="#V" n="82"/>Praeterea, rationem positionis
+<lb ed="#V" n="83"/>(b) duco ad oppositum. Primo, quia
+<lb ed="#V" n="84"/>natura nulla necessario fruitur isto
+<lb ed="#V" n="85"/>objecto, nisi quae necessario 
+immu<lb ed="#V" n="86" break="no"/>tatur ab eo, ut praesente; sed ista
+<lb ed="#V" n="87"/>anima non necessario immutatur
+<lb ed="#V" n="88"/>ab eo. tum quia nec ad actum mintel-
+<pb ed="#V" n="109"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>ligendi, quia objectum istud non
+<lb ed="#V" n="2"/>necessario immutat aliquem 
+intel<lb ed="#V" n="3" break="no"/>lectum nisi divinum, nihil enim
+<lb ed="#V" n="4"/>extra causat nisi voluntarie et 
+con<lb ed="#V" n="5" break="no"/>tingenter ; tum, quia nec ad actum
+<lb ed="#V" n="6"/>fruendi, quia voluntas ex puris 
+na<lb ed="#V" n="7" break="no"/>turalibus non necessario fruitur 
+fi<lb ed="#V" n="8" break="no"/>ne, sicut ostensum est distinct.
+<lb ed="#V" n="9"/>prima primt ; igitur ipsa non 
+neces<lb ed="#V" n="10" break="no"/>sario fruetur fine, nist aliquid 
+adda<lb ed="#V" n="11" break="no"/>tur suae naturae, per quod sit 
+ne<lb ed="#V" n="12" break="no"/>cessitas ad fruendum ; sed nihil hic
+<lb ed="#V" n="13"/>ponitur superadditum formaliter in
+<lb ed="#V" n="14"/>voluntate per istam unionem, sed
+<lb ed="#V" n="15"/>tantum ponitur quaedam 
+dependen<lb ed="#V" n="16" break="no"/>tia ad Verbum ; igitur, etc.
+<lb ed="#V" n="17"/>Praeterea (c), quod hic negatur 
+ne<lb ed="#V" n="18" break="no"/>cessitas habitus, improbatur, quia,
+<lb ed="#V" n="19"/>sicut tactum est distinct. Ti. primi,
+<lb ed="#V" n="20"/>potissima ratio ponendi charitatem
+<lb ed="#V" n="21"/>creatam est, ut actus diligendi Deum
+<lb ed="#V" n="22"/>sit in potestate voluntatis. Nullum
+<lb ed="#V" n="23"/>enim agens habet in potestate sua
+<lb ed="#V" n="24"/>actum, nisi in potestate ejus sit 
+to<lb ed="#V" n="25" break="no"/>tum illud quod necessario 
+requiri<lb ed="#V" n="26" break="no"/>|tur ex parte ejus ad talem actum.
+<lb ed="#V" n="27"/>Voluntas autem creata ex puris 
+na<lb ed="#V" n="28" break="no"/>, turalibus non habet in potestate sua
+<lb ed="#V" n="29"/>actum diligendi bonum increatum
+<lb ed="#V" n="30"/>meritorie, ut actus ejus sit acceptus
+<lb ed="#V" n="31"/>- Deo, et ideo necesse est ipsam 
+ha<lb ed="#V" n="32" break="no"/>bere illud aliud, quod requiritur ad
+<lb ed="#V" n="33"/>agendum, ut possit Deum per illud
+<lb ed="#V" n="34"/>meritorie diligere ; fruitio autem
+<lb ed="#V" n="35"/>multo magis excedit naturam 
+vo<lb ed="#V" n="36" break="no"/>luntatis humanae quam actus 
+meri<lb ed="#V" n="37" break="no"/>torius, quia fruitio est actus vel 
+for<lb ed="#V" n="38" break="no"/>ma supernaturalis magis quam
+<lb ed="#V" n="39"/>actus meritorius ; igitur fruitio non
+<lb ed="#V" n="40"/>erit in potestate voluntatis 
+huma<lb ed="#V" n="41" break="no"/>nae, nist ipsa habeat aliquam 
+for<lb ed="#V" n="42" break="no"/>mam supernaturalem, qua posstt
+<lb ed="#V" n="43"/>uti ad istum actum ehciendum.
+<lb ed="#V" n="44"/>Voluntas autem humana assumpta
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>a Verbo est voluntas naturae 
+huma<lb ed="#V" n="46" break="no"/>nae univoce cum nostra ; igitur ipsa
+<lb ed="#V" n="47"/>non potest frui sine charitate.
+</p>
+            <p xml:id="jdso8u-d1e2448-d1e770">
+               <lb ed="#V" n="48"/>Et si objiciatur, quod quidquid
+<lb ed="#V" n="49"/>Deus potest per causam efficientem
+<lb ed="#V" n="50"/>mediam, potest per se ; habitus 
+au<lb ed="#V" n="51" break="no"/>tem iste, qui ponitur respectu 
+frui<lb ed="#V" n="52" break="no"/>tionis tantum, est causa efficiens,
+<lb ed="#V" n="53"/>quia nulla alia causa, patet 
+discur<lb ed="#V" n="54" break="no"/>rendo per causas ; igitur Deus 
+po<lb ed="#V" n="55" break="no"/>test per se sine quacumque alia
+<lb ed="#V" n="56"/>causa media, causare fruitionem in
+<lb ed="#V" n="57"/>anmma.
+</p>
+            <p xml:id="jdso8u-d1e2448-d1e794">
+               <lb ed="#V" n="58"/>Concedo (d) conclusionem, sicut
+<lb ed="#V" n="59"/>dicetur dist. 13. hujus, scilicet quod
+<lb ed="#V" n="60"/>fruitio potest immediate causari a
+<lb ed="#V" n="61"/>Deo in anima ; sed tunc respectu
+<lb ed="#V" n="62"/>fruitionis voluntas non habet 
+ratio<lb ed="#V" n="63" break="no"/>nem causae activae, quia non habet
+<lb ed="#V" n="64"/>ex se quo agat, et ita non diceretur
+<lb ed="#V" n="65"/>illa anima frui formaliter elicitive,
+<lb ed="#V" n="66"/>sicut aliae animae dicuntur frui, quod
+<lb ed="#V" n="67"/>videtur inconveniens.
+</p>
+            <p xml:id="jdso8u-d1e2448-d1e818">
+               <lb ed="#V" n="68"/>Similiter istud dictum (e) non 
+ar<lb ed="#V" n="69" break="no"/>guit neque ewvitaret necessitatem
+<lb ed="#V" n="70"/>fruitionis, quia secundum hoc 
+vo<lb ed="#V" n="71" break="no"/>luntas se haberet tantum passive
+<lb ed="#V" n="72"/>respectu fruitionis, et hoc ex 
+polen<lb ed="#V" n="73" break="no"/>tia contradictionis ad ipsam ; 
+neces<lb ed="#V" n="74" break="no"/>sitas autem non accipitur ex parte
+<lb ed="#V" n="75"/>illius quod est in potentia 
+contradic<lb ed="#V" n="76" break="no"/>tionis ad aliquid; ergo oporteret
+<lb ed="#V" n="77"/>necessitatem hujus fruitionis 
+attri<lb ed="#V" n="78" break="no"/>buere Deo ; sed ipse non 
+necessa<lb ed="#V" n="79" break="no"/>rio causat eam, sicut nec aliquid
+<lb ed="#V" n="80"/>extra se, igitur.
+</p>
+            <p xml:id="jdso8u-d1e2448-d1e849">
+               <lb ed="#V" n="81"/>Et si dicas (f, quod imo, quia
+<lb ed="#V" n="82"/>praesupposita immutatione 
+intellec<lb ed="#V" n="83" break="no"/>tus necessario causat istud, ut 
+con<lb ed="#V" n="84" break="no"/>comitans, hoc improbatum est dist.
+<lb ed="#V" n="85"/>r primi, quia cum intellectio, vel
+<lb ed="#V" n="86"/>visio et fruitio sint duo absoluta,
+<lb ed="#V" n="87"/>non est contradictio prius causari
+<lb ed="#V" n="88"/>sine posteriori.
+</p>
+            <p xml:id="jdso8u-d1e2448-d1e870">
+               <pb ed="#V" n="110"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>Praeterea, si concederetur animam
+<lb ed="#V" n="2"/>Christi posse sic se habere ad 
+frui<lb ed="#V" n="3" break="no"/>tionem sine habitu, sicut aliam 
+ani<lb ed="#V" n="4" break="no"/>mam cum habitu, videtur omnino
+<lb ed="#V" n="5"/>superfluum in Christo ponere 
+habi<lb ed="#V" n="6" break="no"/>tus infusos, qui tamen ab omnibus
+<lb ed="#V" n="7"/>ponuntur dist. 13. et 14. quod est
+<lb ed="#V" n="8"/>inconveniens.
+</p>
+            <p xml:id="jdso8u-d1e2448-d1e894">
+               <lb ed="#V" n="9"/>x Praeterea, ex vi unionis (g) solum
+<lb ed="#V" n="10"/>tVerbum est praesens animae 
+assump<lb ed="#V" n="11" break="no"/>-tae, et hoc secundum esse personale;
+<lb ed="#V" n="12"/>"igitur si ex tali unione sit idem 
+prae<lb ed="#V" n="13" break="no"/>sens in ratione objecti immutantis,
+<lb ed="#V" n="14"/>non plus habetur, nisi quod ex vi
+<lb ed="#V" n="15"/>unionis solum Verbum immutet
+<lb ed="#V" n="16"/>intellectum creatum, et non tota
+<lb ed="#V" n="17"/>Trinitas, quod est falsum, quia
+<lb ed="#V" n="18"/>opera Trinitatis sunt indivisa in
+<lb ed="#V" n="19"/>comparatione ad extra.
+</p>
+            <p xml:id="jdso8u-d1e2448-d1e920">
+               <lb ed="#V" n="20"/>Si dicas, quod eadem est ratio
+<lb ed="#V" n="21"/>videndi tres personas et unam, quia
+<lb ed="#V" n="22"/>qui videt unam, necessario videt
+<lb ed="#V" n="23"/>omnes, ostensum est duast. 1.
+<lb ed="#V" n="24"/>primt, quod hoc non est 
+necessa<lb ed="#V" n="25" break="no"/>rium.
+</p>
+            <!-- </div>
+
+<div alias="scotus-d1q5-p4"> -->
+            <p xml:id="jdso8u-d1e2448-d1e938">
+               <lb ed="#V" n="39" type="fixed=116"/>SCHOLUIM.
+</p>
+            <p xml:id="jdso8u-d1e2448-d1e943">
+               <lb ed="#V" n="40"/>Sententia Henrici et aliorum, naturam 
+mirra<lb ed="#V" n="41" break="no"/>tionalem esse inassumptibilem refutatur, quia
+<lb ed="#V" n="42"/>natura rationalis non habet entitatem 
+repu<lb ed="#V" n="43" break="no"/>gnantem tali assumptioni; ergo idem de irra-
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="44"/>tionali. Rejicit solutionem Henrici ostendens
+<lb ed="#V" n="45"/>diversarum naturarum dependentias posse 
+ha<lb ed="#V" n="46" break="no"/>bere cumdem terminum.
+</p>
+            <p xml:id="jdso8u-d1e2448-d1e964">
+               <lb ed="#V" n="47"/>Ad secundum articulum 
+princi<lb ed="#V" n="48" break="no"/>palem dicitur quod non, propter
+<lb ed="#V" n="49"/>istam rationem, quia sicut Deus se
+<lb ed="#V" n="50"/>habet ad omnem creaturam in 
+il<lb ed="#V" n="51" break="no"/>lapsu generah quantum ad esse et
+<lb ed="#V" n="52"/>operari, ita videtur se habere ad
+<lb ed="#V" n="53"/>hanc naturam in illapsu speciali,
+<lb ed="#V" n="54"/>quantum ad hanc operationem, et
+<lb ed="#V" n="55"/>hoc esse. Sed primo modo nulli 
+po<lb ed="#V" n="56" break="no"/>test illabi ad esse nisi cui illabitur
+<lb ed="#V" n="57"/>ad operationem, secundum 
+Philoso<lb ed="#V" n="58" break="no"/>phum, quarto Meteor. in fine, quia
+<lb ed="#V" n="59"/>unumquodque est tale cum potest
+<lb ed="#V" n="60"/>agere, cum autem non potest 
+age<lb ed="#V" n="61" break="no"/>re, non est tale ; igitur non potest
+<lb ed="#V" n="62"/>illabi isti naturae ilapsu speciali
+<lb ed="#V" n="63"/>quantum ad esse, nisi possit ei 
+il<lb ed="#V" n="64" break="no"/>labi quantum ad operationem 
+spe<lb ed="#V" n="65" break="no"/>cialem. Operatio specialis respiciens
+<lb ed="#V" n="66"/>objectum supernaturale, est 
+opera<lb ed="#V" n="67" break="no"/>tio videndi et fruendi, quae nullo
+<lb ed="#V" n="68"/>modo competunt naturae non natae
+<lb ed="#V" n="69"/>frui, ut naturae mrrationali ; igitur,
+<lb ed="#V" n="70"/>etc.
+</p>
+            <p xml:id="jdso8u-d1e2448-d1e1019">
+               <lb ed="#V" n="71"/>Contra istud (h), natura 
+intellec<lb ed="#V" n="72" break="no"/>tualis est assumptibilis, quia non
+<lb ed="#V" n="73"/>habet in se entitatem positivam 
+re<lb ed="#V" n="74" break="no"/>pugnantem dependentiae isti 
+spe<lb ed="#V" n="75" break="no"/>ciali ad Verbum, sive 
+communica<lb ed="#V" n="76" break="no"/>tioni ejus Verbo, ut natura 
+commu<lb ed="#V" n="77" break="no"/>nicatur supposito ; quidquid autem
+<lb ed="#V" n="78"/>est communicabile, sic est 
+assump<lb ed="#V" n="79" break="no"/>ibile, et quod non habet unde 
+re<lb ed="#V" n="80" break="no"/>pugnet sibi talis communicatio, non
+<lb ed="#V" n="81"/>habet unde repugnet sibi 
+depen<lb ed="#V" n="82" break="no"/>dere, et assum a Verbo ; sed
+<lb ed="#V" n="83"/>natura non mnntellectualis non
+<lb ed="#V" n="84"/>habet perfectiorem rationem 
+sup<lb ed="#V" n="85" break="no"/>positi, quam natura 
+mntellectua<lb ed="#V" n="86" break="no"/>lis; igitur et natura non intellectualis
+<lb ed="#V" n="87"/>non habet aliquam entitatem positi.
+<pb ed="#V" n="117"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>vam, per quam repugnet sibi 
+depen<lb ed="#V" n="2" break="no"/>dere dependentia illa praedicta,
+<lb ed="#V" n="3"/>igitur et ipsa ex parte sui est 
+as<lb ed="#V" n="4" break="no"/>sumptibilis ; et Verbum videtur ex
+<lb ed="#V" n="5"/>parte sua posse istam dependentiam
+<lb ed="#V" n="6"/>terminare, cum sit independens in
+<lb ed="#V" n="7"/>ratione suppositi, et ita potest 
+ter<lb ed="#V" n="8" break="no"/>minare dependentiam 
+hypostati<lb ed="#V" n="9" break="no"/>cam.
+</p>
+            <p xml:id="jdso8u-d1e2448-d1e1082">
+               <lb ed="#V" n="10"/>Hic diceretur (1), quod hcet 
+natu<lb ed="#V" n="11" break="no"/>ra lapidis possit dependere 
+hypos<lb ed="#V" n="12" break="no"/>tatice, non tamen ad personam ut
+<lb ed="#V" n="13"/>ad terminum, quia persona non
+<lb ed="#V" n="14"/>terminat dependentiam naturae nisi
+<lb ed="#V" n="15"/>personabilis.
+</p>
+            <p xml:id="jdso8u-d1e2448-d1e1098">
+               <lb ed="#V" n="16"/>Hoc excludendo dico (k), quod
+<lb ed="#V" n="17"/>licet naturae dependentes sint 
+alte<lb ed="#V" n="18" break="no"/>rius rationis, et ita dependentiae
+<lb ed="#V" n="19"/>earum, inquantum a fundamento
+<lb ed="#V" n="20"/>possunt habere distinctionem, sunt
+<lb ed="#V" n="21"/>aliquo modo alterius rationis ; 
+ta<lb ed="#V" n="22" break="no"/>men idem terminus, et secundum
+<lb ed="#V" n="23"/>eamdem rationem ex parte ejus
+<lb ed="#V" n="24"/>potest esse omnium istarum 
+de<lb ed="#V" n="25" break="no"/>pendentiarum. Similiter si natura
+<lb ed="#V" n="26"/>Angelica assumeretur, ipsa esset
+<lb ed="#V" n="27"/>alterius rationis a natura humana,
+<lb ed="#V" n="28"/>et sic esset alia et alia dependentia
+<lb ed="#V" n="29"/>hujus naturae et illius, et tamen
+<lb ed="#V" n="30"/>utraque posset dependere ad 
+eum<lb ed="#V" n="31" break="no"/>dem terminum, ut ad personam
+<lb ed="#V" n="32"/>Verbi.
+</p>
+            <p xml:id="jdso8u-d1e2448-d1e1137">
+               <lb ed="#V" n="33"/>Sed diceretur, quod (l) utraque
+<lb ed="#V" n="34"/>est personabilis, licet habeant 
+enti<lb ed="#V" n="35" break="no"/>tatem vel dependentiam alterius 
+ra<lb ed="#V" n="36" break="no"/>tionis, et ideo utraque potest uniri
+<lb ed="#V" n="37"/>personae, non sic natura non 
+perso<lb ed="#V" n="38" break="no"/>nabilis.
+</p>
+            <p xml:id="jdso8u-d1e2448-d1e1153">
+               <lb ed="#V" n="39"/>Contra istud, si Verbum esset
+<lb ed="#V" n="40"/>hypostasis independens et non 
+per<lb ed="#V" n="41" break="no"/>sona, posset terminare 
+dependen<lb ed="#V" n="42" break="no"/>tiam natura non personabilis ;
+<lb ed="#V" n="43"/>igitur cum nihil tollatur ab ipso,
+<lb ed="#V" n="44"/>quod per se faciat ad rationem ter-
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>minandi dependentiam alterius per
+<lb ed="#V" n="46"/>hoc quod est persona, adhuc poterit
+<lb ed="#V" n="47"/>terminare. Nec tamen sequitur,
+<lb ed="#V" n="48"/>quod natura assumpta lapidis 
+per<lb ed="#V" n="49" break="no"/>sonaretur, quia personari non 
+tan<lb ed="#V" n="50" break="no"/>tum dicit uniri, sed sic uniri, ita
+<lb ed="#V" n="51"/>quod ille modus respicit 
+funda<lb ed="#V" n="52" break="no"/>mentum unitum sive assumptum,
+<lb ed="#V" n="53"/>sive iste modus sit intrinsecus il
+<lb ed="#V" n="54"/>unioni, sive materialiter se habeat
+<lb ed="#V" n="55"/>ad illam. Posset enim bene poni,
+<lb ed="#V" n="56"/>quod relatio haberet aliquem 
+mo<lb ed="#V" n="57" break="no"/>dum intrinsecum, causatum tamen
+<lb ed="#V" n="58"/>a fundamento ; quod si iste modus
+<lb ed="#V" n="59"/>superadditus, per hoc quod est
+<lb ed="#V" n="60"/>esse personabile, non sit intrinsecus
+<lb ed="#V" n="61"/>relationi, tamen ut unio 
+significa<lb ed="#V" n="62" break="no"/>tur per hoc nomen personatio, 
+ne<lb ed="#V" n="63" break="no"/>cessario connotatur ille modus. Est
+<lb ed="#V" n="64"/>autem modus iste, quod 
+fundamen<lb ed="#V" n="65" break="no"/>tum natum esset in se personari, si
+<lb ed="#V" n="66"/>non assumeretur ab alio ; etsi ergo
+<lb ed="#V" n="67"/>natura humana et lapidis 
+conve<lb ed="#V" n="68" break="no"/>niant in ratione dependentiae ad 
+hy<lb ed="#V" n="69" break="no"/>postasim, tamen quia non 
+conve<lb ed="#V" n="70" break="no"/>niunt in ratione talis modi 
+depen<lb ed="#V" n="71" break="no"/>dentiae, ideo non possunt ambae
+<lb ed="#V" n="72"/>personari.
+</p>
+            <p xml:id="jdso8u-d1e2448-d1e1232">
+               <lb ed="#V" n="73"/>Aliqui tamen dicunt, quod hoc
+<lb ed="#V" n="74"/>est propter distinctionem hypostasis
+<lb ed="#V" n="75"/>et personae in Verbo, quod sibi 
+po<lb ed="#V" n="76" break="no"/>test aliquid uniri in ratione 
+hypos<lb ed="#V" n="77" break="no"/>tasis, ut lapis, et tamen non in 
+ra<lb ed="#V" n="78" break="no"/>tione personae.
+</p>
+            <p xml:id="jdso8u-d1e2448-d1e1248">
+               <lb ed="#V" n="79"/>Contra (m), sicut dictum est dist.
+<lb ed="#V" n="80"/>8. 1. lib. in Deo non est ordo 
+ah<lb ed="#V" n="81" break="no"/>quarum realitatum, quarum una
+<lb ed="#V" n="82"/>contrahat aliam, quia tunc non 
+es<lb ed="#V" n="83" break="no"/>set perfecte simplex. Et illa est ratio
+<lb ed="#V" n="84"/>quare Deus non est in genere ; 
+igi<lb ed="#V" n="85" break="no"/>tur non est in eo aliqua realtas, a
+<lb ed="#V" n="86"/>qua sit hypostasis determinabilis a
+<lb ed="#V" n="87"/>realitate, a qua est persona ; imo
+<lb ed="#V" n="88"/>nulla omnino alia et alia est realitas,
+<pb ed="#V" n="118"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>secundum distinctionem ex parte
+<lb ed="#V" n="2"/>rei, a qua sit hypostasis et 
+per<lb ed="#V" n="3" break="no"/>sona. Omnis autem unio reabis
+<lb ed="#V" n="4"/>est ad terminum realem, et 
+secun<lb ed="#V" n="5" break="no"/>dum quod realis ; non igitur potest
+<lb ed="#V" n="6"/>esse unio realis ad hypostasim et
+<lb ed="#V" n="7"/>non ad personam, cum nulla sit ibi
+<lb ed="#V" n="8"/>distinctio realis, et ideo non dico
+<lb ed="#V" n="9"/>naturam WHlam mrationalem non
+<lb ed="#V" n="10"/>personari, et naturam nostram
+<lb ed="#V" n="11"/>personari propter aliquam 
+distinc<lb ed="#V" n="12" break="no"/>tionem realem hypostasis et 
+perso<lb ed="#V" n="13" break="no"/>nae in termino dependentiae, sed
+<lb ed="#V" n="14"/>propter distinctionem realem 
+rela<lb ed="#V" n="15" break="no"/>tionum per modos quos habent a
+<lb ed="#V" n="16"/>fundamentis, vel saltem quos 
+cau<lb ed="#V" n="17" break="no"/>sant fundamenta.
+</p>
+            <!-- </div>
+
+<div alias="scotus-d1q5-p5"> -->
+            <p xml:id="jdso8u-d1e2448-d1e1315">
+               <lb ed="#V" n="67" type="fixed=120"/>SCHOLIUM.
+</p>
+            <p xml:id="jdso8u-d1e2448-d1e1320">
+               <lb ed="#V" n="68"/>Resolvit quoad primum articulum non 
+repu<lb ed="#V" n="69" break="no"/>gnare naturam rationalem assumi, et non frui,
+<lb ed="#V" n="70"/>et quoad secundum articulum naturam non
+<lb ed="#V" n="71"/>natam frui, assumi posse.
+</p>
+            <p xml:id="jdso8u-d1e2448-d1e1331">
+               <lb ed="#V" n="72"/>Ad quaestionem igitur, quantum
+<lb ed="#V" n="73"/>ad primum articulum concedo, quod
+<lb ed="#V" n="74"/>non includit contradictionem 
+natu<lb ed="#V" n="75" break="no"/>ram natam frui uniri Verbo 
+hypos<lb ed="#V" n="76" break="no"/>tatice, et non fruti eo, et hoc si 
+po<lb ed="#V" n="77" break="no"/>natur posse assumi sine habitu
+<lb ed="#V" n="78"/>creato, sicut ponit opinio 
+impro<lb ed="#V" n="79" break="no"/>bata. S1 autem poneretur, quod 
+ne<lb ed="#V" n="80" break="no"/>cessario ad hoc quod assumeretur,
+<lb ed="#V" n="81"/>oporteret quod haberet actu 
+habi<lb ed="#V" n="82" break="no"/>tum gloriae, hujusmodi necessitatem
+<lb ed="#V" n="83"/>non video propter rationem 
+posi<lb ed="#V" n="84" break="no"/>am contra opinionem praedictam.
+</p>
+            <p xml:id="jdso8u-d1e2448-d1e1363">
+               <lb ed="#V" n="85"/>Quantum etiam (n) ad secundum
+<lb ed="#V" n="86"/>articulum, concedo rationem factam
+<lb ed="#V" n="87"/>contra opinionem, quia natura
+<pb ed="#V" n="121"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>creata potest dependere non 
+tan<lb ed="#V" n="2" break="no"/>tum dependentia causati ad causam,
+<lb ed="#V" n="3"/>sed dependentia hypostasibilis ad
+<lb ed="#V" n="4"/>hypostasim, quia non habet aliquid
+<lb ed="#V" n="5"/>in se per quod repugnet sibi sic 
+de<lb ed="#V" n="6" break="no"/>pendere. Et Verbum potest 
+termi<lb ed="#V" n="7" break="no"/>nare istam dependentiam, quia etsi
+<lb ed="#V" n="8"/>non sit in eo distincta ratio 
+hypos<lb ed="#V" n="9" break="no"/>tasis et personae, tamen ita perfecte
+<lb ed="#V" n="10"/>habet quidquid requiritur ad 
+perso<lb ed="#V" n="11" break="no"/>nam et hypostasim, ut terminet, 
+si<lb ed="#V" n="12" break="no"/>cut si non esset persona.
+</p>
+            <!-- </div>
+
+<div alias="scotus-d1q5-p6"> -->
+            <p xml:id="jdso8u-d1e2448-d1e1404">
+               <lb ed="#V" n="62" type="fixed=121"/>SCHOLIUM.
+</p>
+            <p xml:id="jdso8u-d1e2448-d1e1409">
+               <lb ed="#V" n="63"/>Ad primum, dum ait unionem hypostaticam
+<lb ed="#V" n="64"/>quantum ad actum primum esse majorem 
+unio<lb ed="#V" n="65" break="no"/>ne beatifica, non quoad actum secundum, de
+<lb ed="#V" n="66"/>possibili, vult tantum unionem beatificam,
+<lb ed="#V" n="67"/>quia est actus vitae, et secundus, hac ratione
+<lb ed="#V" n="68"/>excellere unionem hypostaticam, sed non 
+sim<lb ed="#V" n="69" break="no"/>pliciter. Vel vult beatificam esse 
+praestantio<lb ed="#V" n="70" break="no"/>rem, quia operatio beatifica est nobilior omni
+<lb ed="#V" n="71"/>alia operatione creata Christi. Quod vero unio
+<lb ed="#V" n="72"/>hypostatica sit simpliciter perfectior, tenet
+<lb ed="#V" n="73"/>Doctor expresse 4. dist. 49. quaest. 2. num. 10.
+<lb ed="#V" n="74"/>de hoc vide eum dist. 6. quaest. 1.
+</p>
+            <p xml:id="jdso8u-d1e2448-d1e1438">
+               <lb ed="#V" n="75"/>Ad argumenta principalia. Ad 
+pri<lb ed="#V" n="76" break="no"/>mum, (0) cum arguitur quantum ad
+<lb ed="#V" n="77"/>primum membrum divisionis de
+<lb ed="#V" n="78"/>comparatione duarum unionum in
+<lb ed="#V" n="79"/>se, respondeo et dico quod ista est
+<lb ed="#V" n="80"/>major, quantum ad actum primum,
+<lb ed="#V" n="81"/>quia per hanc communicatur esse
+<lb ed="#V" n="82"/>personae assumentis naturae 
+assum<lb ed="#V" n="83" break="no"/>ptae; et etiam modo de facto ista
+<lb ed="#V" n="84"/>includit aliam unionem, quee est ad
+<lb ed="#V" n="85"/>actum secundum, et operari; sed de
+<lb ed="#V" n="86"/>possibili, si separaretur, ila esset
+<pb ed="#V" n="122"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>major, quae esset naturae ad 
+Ver<lb ed="#V" n="2" break="no"/>bum, ut ad terminum quantum ad
+<lb ed="#V" n="3"/>actum primum, licet non quantum
+<lb ed="#V" n="4"/>ad actum secundum, et esse 
+beatifi<lb ed="#V" n="5" break="no"/>cum, quia beatitudo magis est in
+<lb ed="#V" n="6"/>operatione, et ideo illa esset major
+<lb ed="#V" n="7"/>quantum ad operationem. Vel 
+ma<lb ed="#V" n="8" break="no"/>gis proprie loquendo potest dici,
+<lb ed="#V" n="9"/>quod neutra est major alia, quia
+<lb ed="#V" n="10"/>sunt alterius rationis, et cum neutra
+<lb ed="#V" n="11"/>necessario includat aliam, potest
+<lb ed="#V" n="12"/>una esse sine altera.
+</p>
+            <p xml:id="jdso8u-d1e2448-d1e1497">
+               <lb ed="#V" n="13"/>Ad Augustinum (p), conceditur
+<lb ed="#V" n="14"/>quod est summa gratia in rista
+<lb ed="#V" n="15"/>unione, quia summa gratuita 
+con<lb ed="#V" n="16" break="no"/>descensio voluntatis divinae, quae
+<lb ed="#V" n="17"/>fuit principium assumptionis. Non
+<lb ed="#V" n="18"/>est autem summa gratia habitualis
+<lb ed="#V" n="19"/>ex vi unionis mn ista unione, licet
+<lb ed="#V" n="20"/>de facto ista concommitetur istam
+<lb ed="#V" n="21"/>unionem. Unde auctoritas 
+Augus<lb ed="#V" n="22" break="no"/>tini potest exponi de facto, quia 
+lo<lb ed="#V" n="23" break="no"/>quitur de rebus post tempus ortis,
+<lb ed="#V" n="24"/>quod inter illas summa gratia est
+<lb ed="#V" n="25"/>in unione naturae ad Verbum 
+divi<lb ed="#V" n="26" break="no"/>num.
+</p>
+            <p xml:id="jdso8u-d1e2448-d1e1531">
+               <lb ed="#V" n="27"/>Per idem potest dici ad illam 
+auc<lb ed="#V" n="28" break="no"/>toritatem Augustini 13. de Trinitat.
+<lb ed="#V" n="29"/>ibid. cap. 9. ubi arguit per locum a
+<lb ed="#V" n="30"/>minori. Verum est quidem quod 
+mi<lb ed="#V" n="31" break="no"/>nus videtur esse possibile Filium
+<lb ed="#V" n="32"/>Dei esse realiter Filium hominis,
+<lb ed="#V" n="33"/>quam Filium hominis per gratiam
+<lb ed="#V" n="34"/>posse esse Filium Deti, et ideo si
+<lb ed="#V" n="35"/>hoc est possibile, multo magis et
+<lb ed="#V" n="36"/>istud ; non tamen necesse est, quod
+<lb ed="#V" n="37"/>si Filius Dei est filus hominis, quod
+<lb ed="#V" n="38"/>ille idem filius hominis sit Filius
+<lb ed="#V" n="39"/>Dei per gratiam, forte enim 
+negare<lb ed="#V" n="40" break="no"/>tur de eodem determinate. Imo nec
+<lb ed="#V" n="41"/>conceditur, quod Christus sit Filius
+<lb ed="#V" n="42"/>Dei adoptivus, sed sequitur quod
+<lb ed="#V" n="43"/>aliquis alius posset esse Filius Dei
+<lb ed="#V" n="44"/>per gratiam, quia ad aliquem mde-
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>terminate fiebat illa comparatio,
+<lb ed="#V" n="46"/>non ad istum vel illum determmate.
+</p>
+            <p xml:id="jdso8u-d1e2448-d1e1579">
+               <lb ed="#V" n="47"/>Ad rationem probantem Christum
+<lb ed="#V" n="48"/>impeccabilem, vel naturam 
+assum<lb ed="#V" n="49" break="no"/>ptam quamcumque, aliter Deus 
+di<lb ed="#V" n="50" break="no"/>ceretur peccabilis et damnabils, et
+<lb ed="#V" n="51"/>diabolus, etc. quae videntur 
+hor<lb ed="#V" n="52" break="no"/>renda, dico, quod sicut habens 
+lu<lb ed="#V" n="53" break="no"/>men gloriae, et charitatem 
+consum<lb ed="#V" n="54" break="no"/>matam non potest peccare, non quia
+<lb ed="#V" n="55"/>ista formaliter repugnent peccato,
+<lb ed="#V" n="56"/>sicut nec actus primus repugnat 
+op<lb ed="#V" n="57" break="no"/>posito actus secundi contingenter
+<lb ed="#V" n="58"/>causabilis ; sed quia de potentia 
+or<lb ed="#V" n="59" break="no"/>dinata Deus non potest non coagere
+<lb ed="#V" n="60"/>ad actus secundos perpetuae visionis
+<lb ed="#V" n="61"/>et fruitionis, qui actus repugnant
+<lb ed="#V" n="62"/>peccato, sic Deus naturae unitae sibi
+<lb ed="#V" n="63"/>personaliter non potest de potentia
+<lb ed="#V" n="64"/>ordinata non dare summam 
+chari<lb ed="#V" n="65" break="no"/>tatem, et ulterius summam 
+fruitio<lb ed="#V" n="66" break="no"/>nem, quae excludit peccatum; et sic
+<lb ed="#V" n="67"/>ex hac unione est impeccabilis non
+<lb ed="#V" n="68"/>formaliter, sed virtuahter 
+disposi<lb ed="#V" n="69" break="no"/>tive dispositione remota, hcet 
+neces<lb ed="#V" n="70" break="no"/>sario respectu Dei agentis, sicut
+<lb ed="#V" n="71"/>necessarium est aliquem Beatum
+<lb ed="#V" n="72"/>non peccare.
+</p>
+            <p xml:id="jdso8u-d1e2448-d1e1638">
+               <lb ed="#V" n="73"/>Ad secundam probationem. Ad
+<lb ed="#V" n="74"/>Anselmum dico, quod secundus
+<lb ed="#V" n="75"/>homo, quia Deus, de congruo 
+reple<lb ed="#V" n="76" break="no"/>batur summa gratia, per quam esset
+<lb ed="#V" n="77"/>impeccabilis, et hoc non decebat
+<lb ed="#V" n="78"/>primum hominem, quia non erat
+<lb ed="#V" n="79"/>Deus, scilicet repleri tanta gratia.
+<lb ed="#V" n="80"/>Non igitur ex vi istius unionis ponit
+<lb ed="#V" n="81"/>Anselmus istam impeccabilitatem,
+<lb ed="#V" n="82"/>nisi de congruo, quia illam 
+conco<lb ed="#V" n="83" break="no"/>mitatur plenitudo gratiae.
+</p>
+            <p xml:id="jdso8u-d1e2448-d1e1664">
+               <lb ed="#V" n="84"/>Cum arguitur (q) contra illud
+<lb ed="#V" n="85"/>membrum de natura non 
+intellec<lb ed="#V" n="86" break="no"/>tuali, patet responsio ad primum,
+<lb ed="#V" n="87"/>qualiter diceretur hypostasiari vel
+<lb ed="#V" n="88"/>sustentificari. non tamen personari
+<pb ed="#V" n="123"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>propter differentiam illius 
+depen<lb ed="#V" n="2" break="no"/>dentiae, quae dicitur hypostasiatio vel
+<lb ed="#V" n="3"/>sustentificatio ad illam 
+dependen<lb ed="#V" n="4" break="no"/>tiam, quae dicitur personatio.
+</p>
+            <p xml:id="jdso8u-d1e2448-d1e1690">
+               <lb ed="#V" n="5"/>Ad aliam, quae est de 
+communi<lb ed="#V" n="6" break="no"/>ocatione idiomatum, aliqui negant
+<lb ed="#V" n="7"/>consequentiam ; sed cum ratio 
+hu<lb ed="#V" n="8" break="no"/>jus communicationis sit, quod 
+sup<lb ed="#V" n="9" break="no"/>positum recipit praedicationem in
+<lb ed="#V" n="10"/>concreto illius naturae in qua 
+sub<lb ed="#V" n="11" break="no"/>sistit, et subsisteret in natura 
+lapi<lb ed="#V" n="12" break="no"/>dis, non videtur ratio quare lapis
+<lb ed="#V" n="13"/>non praedicaretur de eo, dicendo,
+<lb ed="#V" n="14"/>Deus est lapis, sicut modo dicitur,
+<lb ed="#V" n="15"/>quod Deus est homo, et aequaliter
+<lb ed="#V" n="16"/>utraque est vera.
+</p>
+            <p xml:id="jdso8u-d1e2448-d1e1719">
+               <lb ed="#V" n="17"/>Sed cum ulterius minfertur, illa
+<lb ed="#V" n="18"/>esset perfectior communicatio, quia
+<lb ed="#V" n="19"/>quaelibet pars lapidis est lapis, etc.
+<lb ed="#V" n="20"/>Dico, quod pars lapidis, etsi 
+reci<lb ed="#V" n="21" break="no"/>piat praedicationem lapidis in 
+com<lb ed="#V" n="22" break="no"/>muni, sicut pars homogenea vel
+<lb ed="#V" n="23"/>subjectiva in suo toto, non tamen
+<lb ed="#V" n="24"/>recipit praedicationem illius, cujus
+<lb ed="#V" n="25"/>est pars integralis, sicut nec totum
+<lb ed="#V" n="26"/>integrale praedicatur de parte 
+inte<lb ed="#V" n="27" break="no"/>grali, ut non dicimus quod paries
+<lb ed="#V" n="28"/>est domus ; tunc enim Verbum
+<lb ed="#V" n="29"/>esset lapis non in universali, sed
+<lb ed="#V" n="30"/>hic lapis aliquis totus, et quia nulla
+<lb ed="#V" n="31"/>pars lapidis esset hic lapis, ideo
+<lb ed="#V" n="32"/>nulla. pars lapidis praedicaretur de
+<lb ed="#V" n="33"/>eo.
+</p>
+            <p xml:id="jdso8u-d1e2448-d1e1759">
+               <lb ed="#V" n="34"/>Ad argumenta pro opinione (r).
+<lb ed="#V" n="35"/>Ad primum patet quod multipliciter
+<lb ed="#V" n="36"/>deficit, quia istud objectum non 
+ne<lb ed="#V" n="37" break="no"/>cessario immutat intellectum 
+crea<lb ed="#V" n="38" break="no"/>tum, et per consequens voluntas
+<lb ed="#V" n="39"/>non necessario fruitur, et maxune
+<lb ed="#V" n="40"/>si voluntas non necessario habet
+<lb ed="#V" n="41"/>habitum supernaturalem, quo 
+frua<lb ed="#V" n="42" break="no"/>tur.
+</p>
+            <p xml:id="jdso8u-d1e2448-d1e1781">
+               <lb ed="#V" n="43"/>Ad aliud (s) de essentia et 
+poten<lb ed="#V" n="44" break="no"/>tiis dico, quod creatura non potest
+</p>
+            <p xml:id="jdso8u-d1e2448-d1e1788">
+               <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>beatificari in se, quia non est 
+bo<lb ed="#V" n="46" break="no"/>num minfinitum ; in bono autem 
+in<lb ed="#V" n="47" break="no"/>finito beatificatur, ut in objecto
+<lb ed="#V" n="48"/>quod attingitur per operationes 
+po<lb ed="#V" n="49" break="no"/>tentiarum, non ut tale bonum est
+<lb ed="#V" n="50"/>perficiens essentiam ejus quantum
+<lb ed="#V" n="51"/>ad actum primum. Ideo ergo 
+beati<lb ed="#V" n="52" break="no"/>tudo potentiae redundat in 
+essen<lb ed="#V" n="53" break="no"/>tiam, quia quando est in potentia,
+<lb ed="#V" n="54"/>est in essentia sicut nata est esse
+<lb ed="#V" n="55"/>ibi, quia mediante potentia nec 
+for<lb ed="#V" n="56" break="no"/>mahter est ibi redundantia, quasi
+<lb ed="#V" n="57"/>realiter sit ibi ala beatitudo ab ula,
+<lb ed="#V" n="58"/>quae est in potentiis. Concedo igitur
+<lb ed="#V" n="59"/>quod essentia non potest beatificari,
+<lb ed="#V" n="60"/>ut distinguitur a potentis.
+</p>
+            <p xml:id="jdso8u-d1e2448-d1e1827">
+               <lb ed="#V" n="61"/>Et cum confirmatur ratio quod
+<lb ed="#V" n="62"/>beatitudo est in essentia, primo 
+op<lb ed="#V" n="63" break="no"/>positum hujus est probatum diüst.
+<lb ed="#V" n="64"/>26. secundi libri.
+</p>
+            <p xml:id="jdso8u-d1e2448-d1e1838">
+               <lb ed="#V" n="65"/>Et cum probas (t), quod ipsa est
+<lb ed="#V" n="66"/>supremum in anima, dico quod sit
+<lb ed="#V" n="67"/>omnino idem potentis ipsis, tunc
+<lb ed="#V" n="68"/>non est ordo excedentiae in re. Si
+<lb ed="#V" n="69"/>autem est aliquo modo 
+fundamen<lb ed="#V" n="70" break="no"/>tum potentiarum, tunc licet sit 
+su<lb ed="#V" n="71" break="no"/>premum ratione actus primi, tamen
+<lb ed="#V" n="72"/>non est nata habere actum 
+secun<lb ed="#V" n="73" break="no"/>dum supremum, nec per 
+conse<lb ed="#V" n="74" break="no"/>quens attingere bonum supremum
+<lb ed="#V" n="75"/>extrinsecum, nisi mediante 
+poten<lb ed="#V" n="76" break="no"/>tia, quia illud nullo modo attingitur,
+<lb ed="#V" n="77"/>nisi per operationem potentiae. Est
+<lb ed="#V" n="78"/>igitur beatitudo in supremo, verum
+<lb ed="#V" n="79"/>est, sicut nata est esse mn eo, non
+<lb ed="#V" n="80"/>est autem nata esse in essentia nisi
+<lb ed="#V" n="81"/>mediante potentia.
+</p>
+            <p xml:id="jdso8u-d1e2448-d1e1877">
+               <lb ed="#V" n="82"/>Et si arguas (u) quod ilabitur
+<lb ed="#V" n="83"/>essentiae, igitur potentis, et per
+<lb ed="#V" n="84"/>consequens est in potentiis mediante
+<lb ed="#V" n="85"/>essentia.
+</p>
+            <p xml:id="jdso8u-d1e2448-d1e1889">
+               <lb ed="#V" n="86"/>Respondeo et dico, quod verum
+<lb ed="#V" n="87"/>est quantum ad actum primum ad
+<lb ed="#V" n="88"/>dandum eis esse. Quidquid enim est
+<pb ed="#V" n="124"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>in natura humana, aliquo modo 
+de<lb ed="#V" n="2" break="no"/>pendet ad esse Verbi, sed non 
+opor<lb ed="#V" n="3" break="no"/>tet quod illabatur ad dandum 
+opera<lb ed="#V" n="4" break="no"/>tionem supernaturalem illi potentiae
+<lb ed="#V" n="5"/>mediante essentia.
+</p>
+            <p xml:id="jdso8u-d1e2448-d1e1913">
+               <lb ed="#V" n="6"/>Per hoc patet ad argumentum ad
+<lb ed="#V" n="7"/>ductum pro opinione quantum ad
+<lb ed="#V" n="8"/>secundum articulum, quod sicut
+<lb ed="#V" n="9"/>vere illapsus specialis est ad esse,
+<lb ed="#V" n="10"/>quo scilicet naturae creatae 
+commu<lb ed="#V" n="11" break="no"/>nicatur esse Verbi, ita necessario
+<lb ed="#V" n="12"/>est illapsus specialis ad operari, quo
+<lb ed="#V" n="13"/>scilicet Verbum possit operari 
+ope<lb ed="#V" n="14" break="no"/>rationes illius naturae, ut sicut 
+Ver<lb ed="#V" n="15" break="no"/>bum diceretur esse ignis, si 
+assump<lb ed="#V" n="16" break="no"/>sisset naturam ignis, ita diceretur
+<lb ed="#V" n="17"/>calefacere calefactione ignis; sed
+<lb ed="#V" n="18"/>non oportet illapsum esse ad 
+opera<lb ed="#V" n="19" break="no"/>liones repugnantes tali naturae, 
+si<lb ed="#V" n="20" break="no"/>cut sunt operationes beatificae, ut
+<lb ed="#V" n="21"/>intelligere et velle, sicut in illapsu
+<lb ed="#V" n="22"/>generali Deus ilabitur cuilibet 
+crea<lb ed="#V" n="23" break="no"/>turae ad esse, et operationem sibi
+<lb ed="#V" n="24"/>convenientem, non tamen ad 
+ali<lb ed="#V" n="25" break="no"/>quam operationem sibi 
+disconve<lb ed="#V" n="26" break="no"/>nientem, vel excedentem naturam.
+<lb ed="#V" n="27"/>* x ista quaestione apparet quod
+<lb ed="#V" n="28"/>- non est aliquod medium necessitatis
+<lb ed="#V" n="29"/>« in assumptione naturae humanae ad
+<lb ed="#V" n="30"/>* Verbum, puta neque anima nata
+<lb ed="#V" n="31"/>frui mediat inter carnem et Verbum,
+<lb ed="#V" n="32"/>quia ex secundo articulo natura non
+<lb ed="#V" n="33"/>intellectualis posset immediate 
+as<lb ed="#V" n="34" break="no"/>sumi, nec gratia est immediate 
+me<lb ed="#V" n="35" break="no"/>dians inter ista : Verbum scihcet,
+<lb ed="#V" n="36"/>et naturam natam frut, quia posset
+<lb ed="#V" n="37"/>natura assumti sine hoc, quod 
+ha<lb ed="#V" n="38" break="no"/>beret habitum gratiae.
+</p>
+            <!--</div>-->
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,897 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Scotus">John Duns Scotus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2025-07-15">July 15, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-u78x14">Vives, Paris, 1893, volume 14</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-15" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="159"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jdso8u-d1e2487"><!-- jdso8u-b3d3q1 -->
+            <head xml:id="jdso8u-d1e2487-Hd1e99">Quaestio 1</head>
+            <head xml:id="jdso8u-d1e2487-Hd1e101" type="question-title">Utrum beata Virgo fuerit concepta in peccato originali</head>
+            <!-- <div> -->
+            <p xml:id="jdso8u-d1e2487-d1e106">
+               <lb ed="#V" n="26" type="fixed=159"/>QUAESTIO I.
+<lb ed="#V" n="27"/>Utrum Beata Virgo fuerit concepta in
+<lb ed="#V" n="28"/>originali peccato?
+</p>
+            <p xml:id="jdso8u-d1e2487-d1e115">
+               <lb ed="#V" n="29"/>Alensis 3. p. q. 9. m. 1.et m.2.art. 2. D. Thom.
+<lb ed="#V" n="30"/>3. p. q. 21. art. 2. et 1. 2. q. 81. art. 3. et hic
+<lb ed="#V" n="31"/>q. 1. art. 1. D. Bonavent. p. 1. art. q. 2. 
+Ri<lb ed="#V" n="32" break="no"/>chard. art. 1. q. 2. Henric. quodlib. 15 q. 13.
+<lb ed="#V" n="33"/>Aureol art. 1. et 4 Occham hic. Mayron 
+Bas<lb ed="#V" n="34" break="no"/>sol. Rubion. Marsil. 3. q. 4. Suar. 3. p. tom,
+<lb ed="#V" n="35"/>2. disp. 2. sect. 5. Valentia tom. 4 disp. 2. q.
+<lb ed="#V" n="36"/>1. et 2. punct. 2. Cord. lib. 1. q. 44. Vasq. 3.
+<lb ed="#V" n="37"/>p. disp. 117. Amb. Cathar. opusc. de 
+Concep<lb ed="#V" n="38" break="no"/>tione. Cajet. opusc. de eadem. Viguer. cap. 18.
+<lb ed="#V" n="39"/>8 6. Vega 2. in Trid. cap. 6. Bellarm. lib. 4. de
+<lb ed="#V" n="40"/>amiss. gratize, a cap. 15. Canisius lib. 1. de
+<lb ed="#V" n="41"/>Deipara. et late et nuperrime P. Egidius de
+<lb ed="#V" n="42"/>Praesentat. Augustinianus in Conimbrir. 
+Aca<lb ed="#V" n="43" break="no"/>demia sacrae Theol. professor primarius integro
+<lb ed="#V" n="44"/>volumine de hac controversia. Mayronius hic
+<lb ed="#V" n="45"/>q. 2. Dur. híc Baccon. híc. q. 3. Thom. de 
+Ar<lb ed="#V" n="46" break="no"/>zentina híc. Almain. hic.
+</p>
+            <p xml:id="jdso8u-d1e2487-d1e158">
+               <cb ed="#V" n="b"/>
+               <lb ed="#V" n="47"/>Circa primum quod sic: In Adam
+<lb ed="#V" n="48"/>omnes peccaverunt. hom. 5. non
+<lb ed="#V" n="49"/>nisi quia fuerunt in eo secundum
+<lb ed="#V" n="50"/>rationem seminalem, ita fuit in eo
+<lb ed="#V" n="51"/>Beata Virgo ; igitur, etc.
+</p>
+            <p xml:id="jdso8u-d1e2487-d1e174">
+               <lb ed="#V" n="52"/>Item Damascenus cap. 10. et
+<lb ed="#V" n="53"/>458. Spiritus sanctus purgavit eam;
+<lb ed="#V" n="54"/>purgatio non est nisi a peccato,
+<lb ed="#V" n="55"/>igitur habuit peccatum, non actuale
+<lb ed="#V" n="56"/>igitur, etc.
+</p>
+            <p xml:id="jdso8u-d1e2487-d1e187">
+               <lb ed="#V" n="57"/>Item, Augustinus de Fide ad 
+Pe<lb ed="#V" n="58" break="no"/>trum : Firmissime tene et 
+nullate<lb ed="#V" n="59" break="no"/>nus dubites, omnem hominem, qui
+<lb ed="#V" n="60"/>per concubitum viri et mulieris
+<lb ed="#V" n="61"/>concipttur, cum peccato originali
+<lb ed="#V" n="62"/>nasct.
+</p>
+            <p xml:id="jdso8u-d1e2487-d1e203">
+               <lb ed="#V" n="63"/>Item, idem super illud Joannis:
+<lb ed="#V" n="64"/>Fcce agnus Dei, etc. Solus innocens,
+<lb ed="#V" n="65"/>quia non sic venit, scilicet 
+secun<lb ed="#V" n="66" break="no"/>dum communem propagationem.
+<lb ed="#V" n="67"/>Item Leo Papa in sermone de 
+Nati<lb ed="#V" n="68" break="no"/>vitate Domini: sicut a reatu nullum
+<lb ed="#V" n="69"/>liberum reperit, tta pro liberandis
+<lb ed="#V" n="70"/>omnibus venit ; igitur, etc. Item
+<lb ed="#V" n="71"/>Hieronymus super ilud Psalmi
+<lb ed="#V" n="72"/>Ft de manu canis unicam meam,
+<lb ed="#V" n="73"/>videtur idem dicere. Item de cons.
+<lb ed="#V" n="74"/>dist. 2. cap. T. ibi: Nativitas in 
+glo<lb ed="#V" n="75" break="no"/>ria. Hem Bernardus de conceptu
+<lb ed="#V" n="76"/>ejus dicii, quod fuit in peccato 
+ori<lb ed="#V" n="77" break="no"/>ginali concepta. Item Anselmus 2.
+<lb ed="#V" n="78"/>Cur Deus homo cap. 16. Item hoc
+<lb ed="#V" n="79"/>idem vult Bernardus in quadam
+<lb ed="#V" n="80"/>epistola, et probat, quia non fuit
+<lb ed="#V" n="81"/>sanctificata ante conceptum, patet;
+<lb ed="#V" n="82"/>nec in conceptu, quia ibi fuit 
+li<lb ed="#V" n="83" break="no"/>bido.
+</p>
+            <p xml:id="jdso8u-d1e2487-d1e251">
+               <lb ed="#V" n="84"/>Contra, Augustinus de natura
+<lb ed="#V" n="85"/>et gratia circa medium, et ponitur
+<lb ed="#V" n="86"/>in littera cap. 9. Cum de peccatis
+<lb ed="#V" n="87"/>agitur, de Maria nullam prorsus
+<lb ed="#V" n="88"/>volo habere quaestionem. Et 
+Anscel<lb ed="#V" n="89" break="no"/>mus de Conceptu virginali. cap. 18.
+<lb ed="#V" n="90"/>Decuit ut ea puritate virgo niteret,
+<pb ed="#V" n="160"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>qua major sub Deo nequit intelhgt,
+<lb ed="#V" n="2"/>posset autem intelligi pura 
+inno<lb ed="#V" n="3" break="no"/>centia sub Deo qualis fuit in 
+Chris<lb ed="#V" n="4" break="no"/>to ; igitur, etc.
+</p>
+            <!-- </div>
+
+<div alias="scotus-d3q1-p2"> -->
+            <p xml:id="jdso8u-d1e2487-d1e285">
+               <lb ed="#V" n="49" type="fixed=160"/>SCHOLIUM.
+</p>
+            <p xml:id="jdso8u-d1e2487-d1e290">
+               <lb ed="#V" n="50"/>Impugnat sententiam maculantem B. 
+Virgi<lb ed="#V" n="51" break="no"/>nis conceptionem. Primo, ducendo primam
+<lb ed="#V" n="52"/>ejus rationem ad oppositum, quia cum Christus
+<lb ed="#V" n="53"/>sit perfectissimus mediator, perfectissima 
+me<lb ed="#V" n="54" break="no"/>diatio pro aliqua persona ei convenit, atque
+<lb ed="#V" n="55"/>adeo aliquam praeservavit ab originali, quia
+<lb ed="#V" n="56"/>hoc perfectius est quam personam lapsam 
+re<lb ed="#V" n="57" break="no"/>parare ; sed erga nullum habuit excellentiorem
+<lb ed="#V" n="58"/>mediationem quam erga matrem sanctissimam ;
+<lb ed="#V" n="59"/>ergo. Major probatur tripliciter et clare. Primo,
+<lb ed="#V" n="60"/>per comparationem ad Deum cui Christus 
+con<lb ed="#V" n="61" break="no"/>ciliat. Secundo, per comparationem peccati a
+<lb ed="#V" n="62"/>quo liberat. Tertio per comparationem ad 
+ma<lb ed="#V" n="63" break="no"/>trem quam reconciliat, quia non summe 
+placa<lb ed="#V" n="64" break="no"/>ret Christus Deum pro culpa Adse, si non 
+prae<lb ed="#V" n="65" break="no"/>veniret, ut alicui non offenderetur, nec summe
+<lb ed="#V" n="66"/>liberaret a malo, si alicui omnem paeenam 
+inu<lb ed="#V" n="67" break="no"/>tilem non abstulisset, nec summe ei ut 
+media<lb ed="#V" n="68" break="no"/>tori obligaretur mater, nisi ab eo obtinuisset
+<lb ed="#V" n="69"/>summum quod a mediatore obtineri 
+conve<lb ed="#V" n="70" break="no"/>nienter potuit, ac per consequens ipsam 
+prae<lb ed="#V" n="71" break="no"/>servationem et innocentiam. Ostendit clare
+<lb ed="#V" n="72"/>secundam et tertiam rationes pro opposita 
+sen<lb ed="#V" n="73" break="no"/>tentia nihil conficere.
+</p>
+            <p xml:id="jdso8u-d1e2487-d1e345">
+               <lb ed="#V" n="74"/>Contra primam (a) rationem 
+ar<lb ed="#V" n="75" break="no"/>guitur ex excellentia Filii sui, 
+in<lb ed="#V" n="76" break="no"/>quantum redemptor, reconciliator
+<lb ed="#V" n="77"/>et mediator, quod ipsa non 
+contra<lb ed="#V" n="78" break="no"/>xit peccatum originale. 
+Perfectissi<lb ed="#V" n="79" break="no"/>mus enim mediator habet 
+perfec<lb ed="#V" n="80" break="no"/>tissimum actum mediandi respectu
+<lb ed="#V" n="81"/>alicujus personae, pro qua mediat ;
+<lb ed="#V" n="82"/>sed Christus est perfectissimus 
+me<lb ed="#V" n="83" break="no"/>diator ; igitur Christus habuit 
+per<lb ed="#V" n="84" break="no"/>fectissimum gradum mediandi 
+pos<lb ed="#V" n="85" break="no"/>sibilem respectu alicujus creaturae
+<lb ed="#V" n="86"/>sive personae, respectu cujus erat
+<lb ed="#V" n="87"/>mediator ; sed respectu nullius 
+per<lb ed="#V" n="88" break="no"/>sonae habuit excellentiorem gradum
+<lb ed="#V" n="89"/>quam respectu Mariae, igitur, etc.
+<pb ed="#V" n="161"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>Sed hoc non esset nisi meruisset
+<lb ed="#V" n="2"/>eam praeservari a peccato original.
+<lb ed="#V" n="3"/>Quod probo tripliciter : Primo per
+<lb ed="#V" n="4"/>comparationem ad Deum cui 
+re<lb ed="#V" n="5" break="no"/>conciliat. Secundo per 
+compara<lb ed="#V" n="6" break="no"/>tionem ad malum a quo liberat.
+<lb ed="#V" n="7"/>Tertio per comparationem ad 
+obh<lb ed="#V" n="8" break="no"/>gationem personae quam 
+reconci<lb ed="#V" n="9" break="no"/>liat.
+</p>
+            <p xml:id="jdso8u-d1e2487-d1e406">
+               <lb ed="#V" n="10"/>Ad videndum primam 
+probatio<lb ed="#V" n="11" break="no"/>nem pono exemplum consonum
+<lb ed="#V" n="12"/>exemplo Anselmi: Cur Deus homo,
+<lb ed="#V" n="13"/>lib. 2. cap. 16. ^lhquis offendens
+<lb ed="#V" n="14"/>regem demeretur in tantum, ut
+<lb ed="#V" n="15"/>omni filio natural ejus rex 
+offenda<lb ed="#V" n="16" break="no"/>tur, et offendens exhaereditet eum;
+<lb ed="#V" n="17"/>ista offensa statuitur non 
+remitten<lb ed="#V" n="18" break="no"/>da, nisi offeratur regi ab aliquo
+<lb ed="#V" n="19"/>innocente aliquod obsequium 
+ma<lb ed="#V" n="20" break="no"/>gis placans et gratum, quam 
+pec<lb ed="#V" n="21" break="no"/>catum fuerit offensivum. Aliquis
+<lb ed="#V" n="22"/>offert obsequium ita gratum, quod
+<lb ed="#V" n="23"/>reconcileet filios, ut non 
+exhaeredi<lb ed="#V" n="24" break="no"/>tentur, tamen culilibet nato rex 
+of<lb ed="#V" n="25" break="no"/>fenditur, licet postea remittat 
+offen<lb ed="#V" n="26" break="no"/>sam propter merita moediatoris ;
+<lb ed="#V" n="27"/>sed si ille mediator posset ita 
+per<lb ed="#V" n="28" break="no"/>fecte placare regem, ut praeveniret
+<lb ed="#V" n="29"/>respectu alicujus filii irae, nec ei
+<lb ed="#V" n="30"/>offenderetur, hoc magis esset quam
+<lb ed="#V" n="31"/>si rex offensam habitam contra 
+ta<lb ed="#V" n="32" break="no"/>lem remitteret, sed hoc non est 
+im<lb ed="#V" n="33" break="no"/>possibile, cum haec offensa non est
+<lb ed="#V" n="34"/>ex culpa propria, sed ex alia 
+con<lb ed="#V" n="35" break="no"/>tracta.
+</p>
+            <p xml:id="jdso8u-d1e2487-d1e465">
+               <lb ed="#V" n="36"/>Ex illo arguitur sic : Nullus 
+sum<lb ed="#V" n="37" break="no"/>me vel perfectissime placat aliquem
+<lb ed="#V" n="38"/>pro offensa alicujus contrahenda,
+<lb ed="#V" n="39"/>nisi posset praevenire, ne ille 
+offen<lb ed="#V" n="40" break="no"/>datur, nam si jam offensum placat,
+<lb ed="#V" n="41"/>ut remittat, non perfectissime 
+pla<lb ed="#V" n="42" break="no"/>cat ; sed in proposito Deus non 
+of<lb ed="#V" n="43" break="no"/>fenditur animae propter motum 
+in<lb ed="#V" n="44" break="no"/>teriorem in ipso, sed tantum prop-
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>ter culpam in ipsa anima ; igitur
+<lb ed="#V" n="46"/>Christus non perfectissime placat
+<lb ed="#V" n="47"/>Trinitatem pro culpa contrahenda a
+<lb ed="#V" n="48"/>filus 4dae, si non praeveniat, ut 
+ali<lb ed="#V" n="49" break="no"/>cui Trinitas non offendatur, et per
+<lb ed="#V" n="50"/>consequens quod anima alicujus
+<lb ed="#V" n="51"/>fili Adae non habeat culpam talem.
+</p>
+            <p xml:id="jdso8u-d1e2487-d1e504">
+               <lb ed="#V" n="52"/>Ex secunda via (b) arguitur 
+dupli<lb ed="#V" n="53" break="no"/>citer. Primo, quia perfectissimus
+<lb ed="#V" n="54"/>mediator meretur amotionem 
+om<lb ed="#V" n="55" break="no"/>nis poenae ab eo quem reconciliat ;
+<lb ed="#V" n="56"/>sed culpa originalis est major 
+poe<lb ed="#V" n="57" break="no"/>na, quam ipsa carentia visionis 
+di<lb ed="#V" n="58" break="no"/>vinae, sicut declaratum fuit dist. 36.
+<lb ed="#V" n="59"/>secundi lib. quia peccatum est 
+ma<lb ed="#V" n="60" break="no"/>xima poena naturae intellectualis
+<lb ed="#V" n="61"/>inter omnes poenas ejus ; igitur si
+<lb ed="#V" n="62"/>Christus perfectissime reconciliavit,
+<lb ed="#V" n="63"/>istam poenam gravissimam meruit
+<lb ed="#V" n="64"/>ab aliquo auferri, non nisi a matre;
+<lb ed="#V" n="65"/>igitur, etc. Confirmatur istud per
+<lb ed="#V" n="66"/>exemplum, quia si filio Adae esset
+<lb ed="#V" n="67"/>maxima poena regem contra eum
+<lb ed="#V" n="68"/>offendi, nullus eum perfectissime
+<lb ed="#V" n="69"/>reconciliaret, nisi auferret ab eo,
+<lb ed="#V" n="70"/>non tantum exhaeredationem, sed
+<lb ed="#V" n="71"/>etiam esse inimicum regis ; igitur,
+<lb ed="#V" n="72"/>etc.
+</p>
+            <p xml:id="jdso8u-d1e2487-d1e553">
+               <lb ed="#V" n="73"/>Ex eadem via arguitur secundosic:
+<lb ed="#V" n="74"/>Christus immediatius videtur fuisse
+<lb ed="#V" n="75"/>reparator et reconciliator noster
+<lb ed="#V" n="76"/>a peccato originali quam ab actuali,
+<lb ed="#V" n="77"/>qnia necessitas incarnationis, 
+pas<lb ed="#V" n="78" break="no"/>sionis, etc. assignatur communiter
+<lb ed="#V" n="79"/>ex peccato originali ; sed 
+supponi<lb ed="#V" n="80" break="no"/>tur communiter, quod ipse fuit ita
+<lb ed="#V" n="81"/>perfectus mediator respectu alicujus
+<lb ed="#V" n="82"/>personae, puta Mariae, quod cam
+<lb ed="#V" n="83"/>praeservavit ab omn!i peccato
+<lb ed="#V" n="84"/>actuali ; igitur similiter a peccato
+<lb ed="#V" n="85"/>originalt.
+</p>
+            <p xml:id="jdso8u-d1e2487-d1e584">
+               <lb ed="#V" n="86"/>Ex tertia (c) via arguo sic
+<lb ed="#V" n="87"/>Persona reconciliata non summe
+<lb ed="#V" n="88"/>obligatur mediatori, nisi ab ipso
+<pb ed="#V" n="162"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>summum bonum habeat, quod
+<lb ed="#V" n="2"/>potest per mediatorem haber ;
+<lb ed="#V" n="3"/>sed innocentia illa, scilicet 
+prae<lb ed="#V" n="4" break="no"/>servatio a culpa contracta vel 
+con<lb ed="#V" n="5" break="no"/>trahenda, potest haberi per 
+media<lb ed="#V" n="6" break="no"/>torem ; ergo nulla persona summe
+<lb ed="#V" n="7"/>tenebitur Christo, ut mediatori, si
+<lb ed="#V" n="8"/>nullam praese vavit a peccato
+<lb ed="#V" n="9"/>origmah.
+</p>
+            <p xml:id="jdso8u-d1e2487-d1e617">
+               <lb ed="#V" n="10"/>Et si dicas, (d) quod aequahter
+<lb ed="#V" n="11"/>tenetur persona, cui remittitur
+<lb ed="#V" n="12"/>peccatum quantum persona, quae
+<lb ed="#V" n="13"/>praeservatur a peccato, propter 
+i<lb ed="#V" n="14" break="no"/>lud Luc. 1. Cui magis dimittitur,
+<lb ed="#V" n="15"/>magis diligit, quaere ibi 
+responsio<lb ed="#V" n="16" break="no"/>nem Augustini, quod omnia 
+possi<lb ed="#V" n="17" break="no"/>bilia committi non commissa, sunt
+<lb ed="#V" n="18"/>dimissa, ac si essent commissa ;
+<lb ed="#V" n="19"/>imo excellentius beneficium est
+<lb ed="#V" n="20"/>praeservare a malo, quam 
+per<lb ed="#V" n="21" break="no"/>mittere incidere in malum, et ab
+<lb ed="#V" n="22"/>eo postea liberare. Videtur etiam
+<lb ed="#V" n="23"/>quod cum Christus multis 
+anima<lb ed="#V" n="24" break="no"/>bus meruerit gratiam et gloriam,
+<lb ed="#V" n="25"/>et pro his sint Christo debitores,
+<lb ed="#V" n="26"/>ut mediatori, quare nulla anima
+<lb ed="#V" n="27"/>erit ei debitrix pro mnnocentia ?
+<lb ed="#V" n="28"/>Et quare etiam omnes Angeh beati
+<lb ed="#V" n="29"/>sint innocentes, et nulla humana
+<lb ed="#V" n="30"/>anima erit imnocens in patria, nisi
+<lb ed="#V" n="31"/>sola animma Christi.
+</p>
+            <p xml:id="jdso8u-d1e2487-d1e667">
+               <lb ed="#V" n="32"/>Secunda etiam ratio (e) quae 
+ac<lb ed="#V" n="33" break="no"/>cepta fuit ex his, quae apparent in
+<lb ed="#V" n="34"/>Maria, non videtur concludere.
+<lb ed="#V" n="35"/>Quod enim arguitur, et primo de
+<lb ed="#V" n="36"/>infectione carnis propter 
+semina<lb ed="#V" n="37" break="no"/>tionem, non arguit secundum viam
+<lb ed="#V" n="38"/>Anselmi de peccato originali, quae
+<lb ed="#V" n="39"/>tacta fuit dist. 32. 2. lib. Aut dato
+<lb ed="#V" n="40"/>quod sic contrahitur peccatum 
+ori<lb ed="#V" n="41" break="no"/>ginale communiter, tamen mnfectio
+<lb ed="#V" n="42"/>carnis manens post Daptismum,
+<lb ed="#V" n="43"/>non est necessaria causa quare
+<lb ed="#V" n="44"/>maneat peccatum originale in ani-
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>ma, sed ipsa manente, peccatum
+<lb ed="#V" n="46"/>originale deletur per gratiam 
+col<lb ed="#V" n="47" break="no"/>latam; ita posset Deus in primo
+<lb ed="#V" n="48"/>instanti conceptionis Virginis 
+dan<lb ed="#V" n="49" break="no"/>do tunc gratiam delere, ne esset
+<lb ed="#V" n="50"/>causa necessaria infectionis in 
+ani<lb ed="#V" n="51" break="no"/>ma, si gratia tolleret culpam in
+<lb ed="#V" n="52"/>anima.
+</p>
+            <p xml:id="jdso8u-d1e2487-d1e717">
+               <lb ed="#V" n="53"/>Aliud de passionibus Mariae non
+<lb ed="#V" n="54"/>concludit, potest enmm mnediator
+<lb ed="#V" n="55"/>reconciliare aliquem, ut auferantur
+<lb ed="#V" n="56"/>ab eo poenae sibi inutiles, et 
+re<lb ed="#V" n="57" break="no"/>linquatur in poenis sibi utilibus;
+<lb ed="#V" n="58"/>originalis culpa non fuisset utilis
+<lb ed="#V" n="59"/>Marie; poena temporales tamen
+<lb ed="#V" n="60"/>fuerunt utiles, quia in eis meruit;
+<lb ed="#V" n="61"/>igitur, etc.
+</p>
+            <!-- </div>
+
+<div alias="scotus-d3q1-p3"> -->
+            <p xml:id="jdso8u-d1e2487-d1e742">
+               <lb ed="#V" n="73" type="fixed=164"/>SCHOLIUM.
+</p>
+            <p xml:id="jdso8u-d1e2487-d1e747">
+               <lb ed="#V" n="74"/>Quatuor docet in hac littera. Primum, 
+potuis<lb ed="#V" n="75" break="no"/>se Virginemnullo unquam instanti fuisse in 
+pec<lb ed="#V" n="76" break="no"/>cato originali, quia potuit creari in gratia. 
+Se<lb ed="#V" n="77" break="no"/>cundum,potuisse per solum instans esse in 
+ori<lb ed="#V" n="78" break="no"/>ginali, quia immediate post creari potuit in ea
+<lb ed="#V" n="79"/>gratia. Tertium, potuisse per tempus esse in
+<lb ed="#V" n="80"/>originali, et in ultimo instanti illius temporis
+<lb ed="#V" n="81"/>purgari. Quartum, cum submissione et 
+humi<lb ed="#V" n="82" break="no"/>Iitate, Doctor tribuit Virgini illud primum, 
+sci<lb ed="#V" n="83" break="no"/>licet, nullo unquam tempore vel instanti fuisse
+<lb ed="#V" n="84"/>in originali, quod magis resolute asserit infra
+<lb ed="#V" n="85"/>dist. 18. n. 12. Vide ad haec appendicem, quam
+<lb ed="#V" n="86"/>adjungo huic quaestioni.
+</p>
+            <p xml:id="jdso8u-d1e2487-d1e778">
+               <lb ed="#V" n="87"/>Ad quaestionem dico (f) quod
+<lb ed="#V" n="88"/>Deus potuit facere. quod ipsa nun-
+<pb ed="#V" n="165"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>quam fuisset in peccato original;
+<lb ed="#V" n="2"/>potuit etiam fecisse, ut tantum in
+<lb ed="#V" n="3"/>uno instanti esset in peccato; 
+po<lb ed="#V" n="4" break="no"/>tuit etiam facere, ut per tempus
+<lb ed="#V" n="5"/>aliquod esset in peccato, et in 
+ul<lb ed="#V" n="6" break="no"/>timo instanti ilius temporis 
+purga<lb ed="#V" n="7" break="no"/>retur.
+</p>
+            <p xml:id="jdso8u-d1e2487-d1e804">
+               <lb ed="#V" n="8"/>Primum declaro, quia gratia
+<lb ed="#V" n="9"/>eequivalet justitiae originali, 
+quan<lb ed="#V" n="10" break="no"/>tum ad acceptationem divinam, ut
+<lb ed="#V" n="11"/>propter hanc animae habenti 
+gra<lb ed="#V" n="12" break="no"/>tiam non insit peccatum 
+origina<lb ed="#V" n="13" break="no"/>le. Potuit enim Deus in primo
+<lb ed="#V" n="14"/>instanti illius animae infundere sibi
+<lb ed="#V" n="15"/>gratiam tantam, quantam ali 
+ani<lb ed="#V" n="16" break="no"/>,mae in circumcisione vel 
+Baptis<lb ed="#V" n="17" break="no"/>^mo ; igitur in illo mnstanti anima
+<lb ed="#V" n="18"/>non habuisset peccatum originale,
+<lb ed="#V" n="19"/>sicut nec habuisset si postea 
+fuis<lb ed="#V" n="20" break="no"/>set baptizata. Et si etiam infectio
+<lb ed="#V" n="21"/>carnis fuit ibi in primo instanti,
+<lb ed="#V" n="22"/>non fuit tamen necessaria causa
+<lb ed="#V" n="23"/>infectionis animae, sicut nec post
+<lb ed="#V" n="24"/>Baptismum, quando manet 
+secun<lb ed="#V" n="25" break="no"/>dum multos, et infectio anmae
+<lb ed="#V" n="26"/>non manet; aut potuit caro 
+mun<lb ed="#V" n="27" break="no"/>dari ante infusionem anmmnae, ut
+<lb ed="#V" n="28"/>in illo instanti non esset infecta.
+</p>
+            <p xml:id="jdso8u-d1e2487-d1e852">
+               <lb ed="#V" n="29"/>Secundum patet (g), quia si agens
+<lb ed="#V" n="30"/>naturale potest incipere agere in
+<lb ed="#V" n="31"/>instanti, ita quod in ilo instanti
+<lb ed="#V" n="32"/>fuerit in esse quieto sub uno 
+con<lb ed="#V" n="33" break="no"/>trario, et in tempore habito est
+<lb ed="#V" n="34"/>sub forma contraria in fiert, et
+<lb ed="#V" n="35"/>quandocumque agens naturale 
+po<lb ed="#V" n="36" break="no"/>test agere, Deus potest agere ; 
+igi<lb ed="#V" n="37" break="no"/>tur potest et in tempore habito
+<lb ed="#V" n="38"/>alicui instanti causare gratiam.
+</p>
+            <p xml:id="jdso8u-d1e2487-d1e876">
+               <lb ed="#V" n="39"/>Hoc etiam confirmatur (h), quia
+<lb ed="#V" n="40"/>quando anima est in peccato, 
+po<lb ed="#V" n="41" break="no"/>test per potentiam divinam esse in
+<lb ed="#V" n="42"/>gratia ; sed in tempore illo quo
+<lb ed="#V" n="43"/>fuit concepta, potuit esse in 
+pec<lb ed="#V" n="44" break="no"/>cato, et per te fuit: igitur simili-
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>ter potuit esse in gratia. Nec 
+ne<lb ed="#V" n="46" break="no"/>cesse fuit tunc quod fuisset in
+<lb ed="#V" n="47"/>gratia in primo instanti illius 
+tem<lb ed="#V" n="48" break="no"/>poris, sicut nec de mutatione el
+<lb ed="#V" n="49"/>motu.
+</p>
+            <p xml:id="jdso8u-d1e2487-d1e906">
+               <lb ed="#V" n="50"/>Praeterea (i), in primo instanti
+<lb ed="#V" n="51"/>potuit creasse gratiam in illa 
+ani<lb ed="#V" n="52" break="no"/>ma ; ergo, etc. Tertium est 
+mani<lb ed="#V" n="53" break="no"/>festum.
+</p>
+            <p xml:id="jdso8u-d1e2487-d1e917">
+               <lb ed="#V" n="54"/>Quod autem horum (k) trium,
+<lb ed="#V" n="55"/>quae ostensa sunt esse possibilia,
+<lb ed="#V" n="56"/>factum sit, Deus novit; si 
+auctori<lb ed="#V" n="57" break="no"/>tati Ecclesiae vel auctoritati 
+Scrip<lb ed="#V" n="58" break="no"/>turae non repugnet, videtur 
+pro<lb ed="#V" n="59" break="no"/>babile quod excellentius est, 
+attri<lb ed="#V" n="60" break="no"/>buere Mariae.
+</p>
+            <!-- </div>
+
+<div alias="scotus-d3q1-p4"> -->
+            <p xml:id="jdso8u-d1e2487-d1e937">
+               <lb ed="#V" n="5" type="fixed=168"/>SCHOLIUM.
+</p>
+            <p xml:id="jdso8u-d1e2487-d1e942">
+               <lb ed="#V" n="6"/>Obiicit dupliciter contra secundum dictum
+<lb ed="#V" n="7"/>Iitterae praecedentis, arguens gratiam non 
+pos<lb ed="#V" n="8" break="no"/>se produci in tempore. Primo, quia Deus agit
+<lb ed="#V" n="9"/>in instanti. Secundo, quia alioquin ejus 
+produc<lb ed="#V" n="10" break="no"/>tio non esset mutatio, nec motus. Negat 
+pri<lb ed="#V" n="11" break="no"/>mum. Ad secnndum declarat quomodo eocasu
+<lb ed="#V" n="12"/>aliquid haberet justificatio utriusque, et rem
+<lb ed="#V" n="13"/>exemplo demonstrat.
+</p>
+            <p xml:id="jdso8u-d1e2487-d1e962">
+               <lb ed="#V" n="14"/>Contra secundum (l) istorum
+<lb ed="#V" n="15"/>membrorum instatur dupliciter. 
+Pri<lb ed="#V" n="16" break="no"/>mo sic: quidquid Deus immediate
+<lb ed="#V" n="17"/>agit circa creaturam, agit in 
+ins<lb ed="#V" n="18" break="no"/>tanti, quia secundum Philosophum
+<lb ed="#V" n="19"/>8. Physicor. virtus infinita agit in
+<lb ed="#V" n="20"/>instanti, quia virtus infinita et 
+fi<lb ed="#V" n="21" break="no"/>nita non possunt agere in 
+aequa<lb ed="#V" n="22" break="no"/>li mensura; igitur non potest 
+jus<lb ed="#V" n="23" break="no"/>tificare animam in tempore, 
+habr<lb ed="#V" n="24" break="no"/>to instanti culpae.
+</p>
+            <p xml:id="jdso8u-d1e2487-d1e989">
+               <lb ed="#V" n="25"/>Praeterea (m), aut illa Justificatio
+<lb ed="#V" n="26"/>esset motus aut mutatio; non 
+mu<lb ed="#V" n="27" break="no"/>tatio, quia non esset in instanti;
+<lb ed="#V" n="28"/>non motus, quia non esset 
+succes<lb ed="#V" n="29" break="no"/>sio secundum partes mobilis, 
+scili<lb ed="#V" n="30" break="no"/>cet animae, quia ipsa est 
+indivisi<lb ed="#V" n="31" break="no"/>bilis, neque secundum partes
+<lb ed="#V" n="32"/>flormae, scilhcet gratie, neque
+<lb ed="#V" n="33"/>secundum media inter extrema.
+<lb ed="#V" n="34"/>Non enim est medium inter 
+priva<lb ed="#V" n="35" break="no"/>tive opposita circa aptum natum,
+<lb ed="#V" n="36"/>sicut nec est absolute medium 
+in<lb ed="#V" n="37" break="no"/>ter contradictoria. Nec alterum 
+ilo<lb ed="#V" n="38" break="no"/>rum secundum partes acquirebatur
+<lb ed="#V" n="39"/>vel amittebatur, neque subjectum
+<lb ed="#V" n="40"/>est divisibile; igitur.
+</p>
+            <p xml:id="jdso8u-d1e2487-d1e1026">
+               <lb ed="#V" n="41"/>Ad primam instantiam, dico quod
+<lb ed="#V" n="42"/>si Deus voluntarie non agit in 
+alt<lb ed="#V" n="43" break="no"/>quo instanti non necessario, prop-
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="44"/>ter hoc oportet eum expectare
+<lb ed="#V" n="45"/>tempus, ut in instanti determinato
+<lb ed="#V" n="46"/>ilius temporis agat; sed potest
+<lb ed="#V" n="47"/>agere in tempore, in cujus primo
+<lb ed="#V" n="48"/>instanti non egit. Verum est igitur
+<lb ed="#V" n="49"/>quod Deus potest agere in instanti
+<lb ed="#V" n="50"/>quidquid immediate agit, sed non
+<lb ed="#V" n="51"/>est necesse ipsum agere in instanti.
+</p>
+            <p xml:id="jdso8u-d1e2487-d1e1055">
+               <lb ed="#V" n="52"/>Ad secundum dico, (n) quod 
+stri<lb ed="#V" n="53" break="no"/>cte loquendo, sicut Philosophus
+<lb ed="#V" n="54"/>loquitur de motu et mutatione,
+<lb ed="#V" n="55"/>ista Justificatio passio nec est 
+mo<lb ed="#V" n="56" break="no"/>tus nec mutatio, sed aliquid 
+ha<lb ed="#V" n="57" break="no"/>bens de utroque, hoc quidem
+<lb ed="#V" n="58"/>habens de mutatione, quod, ut
+<lb ed="#V" n="59"/>forma simplex et indivisibilis, inest
+<lb ed="#V" n="60"/>subjecto; hoc autem de motu,
+<lb ed="#V" n="61"/>quia in nulla mensura indivisibili
+<lb ed="#V" n="62"/>inest, sed in tempore, ct imn hoc
+<lb ed="#V" n="63"/>deficit a mutatione; deficit autem
+<lb ed="#V" n="64"/>a motu, quia non est fluxus 
+secun<lb ed="#V" n="65" break="no"/>dum partes formae vel mobilis, vel
+<lb ed="#V" n="66"/>secundum media inter extrema,
+<lb ed="#V" n="67"/>quia hic nulla sunt media, sicut
+<lb ed="#V" n="68"/>probatum est.
+</p>
+            <p xml:id="jdso8u-d1e2487-d1e1094">
+               <lb ed="#V" n="69"/>Exemplum est (0), mobile transit
+<lb ed="#V" n="70"/>a forma, sub qua fuit in ultimo
+<lb ed="#V" n="71"/>instanti quietis, ita quod post
+<lb ed="#V" n="72"/>illud instans, est continua 
+deper<lb ed="#V" n="73" break="no"/>ditio illus formae secundum 
+par<lb ed="#V" n="74" break="no"/>tes ejus, et continua acquisitio
+<lb ed="#V" n="75"/>formae oppositae ; sed si in toto
+<lb ed="#V" n="76"/>tempore inesset forma opposita, et
+<lb ed="#V" n="77"/>tamen non successive 
+acquireren<lb ed="#V" n="78" break="no"/>tur partes ejus, esset simile 
+pro<lb ed="#V" n="79" break="no"/>posito, quia tunc illius formae 
+ac<lb ed="#V" n="80" break="no"/>quisitio non esset motus nec 
+mu<lb ed="#V" n="81" break="no"/>tatio; sicut nec modo transitus a
+<lb ed="#V" n="82"/>mutatione ad motum, vel e 
+con<lb ed="#V" n="83" break="no"/>verso, est mutatio vel motus.
+</p>
+            <p xml:id="jdso8u-d1e2487-d1e1129">
+               <lb ed="#V" n="84"/>Sed quare passio (p) causata ab
+<lb ed="#V" n="85"/>agente naturali, est mutatio vel
+<lb ed="#V" n="86"/>motus, et non ista? hespondeo,
+<lb ed="#V" n="87"/>quia agens naturale si potest su-
+<pb ed="#V" n="169"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>bito inducere formam, inducit per
+<lb ed="#V" n="2"/>mutationem; et si non potest, 
+ne<lb ed="#V" n="3" break="no"/>cesse est ut agat in tempore, et
+<lb ed="#V" n="4"/>ita per motum. Deus autem etsi
+<lb ed="#V" n="5"/>potest inducere formam in 
+instan<lb ed="#V" n="6" break="no"/>ti, tamen si non induceret in 
+ins<lb ed="#V" n="7" break="no"/>tanti, potest inducere totam in
+<lb ed="#V" n="8"/>tempore, ita quod non partes ante
+<lb ed="#V" n="9"/>partes. Posse enim agere in 
+tem<lb ed="#V" n="10" break="no"/>pore non est mnperfectionis in
+<lb ed="#V" n="11"/>agente, licet necessitas agendi in
+<lb ed="#V" n="12"/>tempore sit imperfectio.
+</p>
+            <!-- </div>
+
+<div alias="scotus-d3q1-p5"> -->
+            <p xml:id="jdso8u-d1e2487-d1e1174">
+               <pb ed="#V" n="171"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1" type="fixed=171"/>SCHOLILM.
+</p>
+            <p xml:id="jdso8u-d1e2487-d1e1183">
+               <lb ed="#V" n="2"/>Docet modum solvendi omnes Sanctorum
+<lb ed="#V" n="3"/>auctoritates, quae universaliter neminem 
+exci<lb ed="#V" n="4" break="no"/>piunt ab originali, quia intelliguntur quoad
+<lb ed="#V" n="5"/>debitum ; omnes enim naturaliter concepti,
+<lb ed="#V" n="6"/>habent unde contrahant originale, ex vi suae
+<lb ed="#V" n="7"/>conceptionis, et nisi ex privilegio aliquis 
+exi<lb ed="#V" n="8" break="no"/>matur (ut de B. Virgine credimus, de facto
+<lb ed="#V" n="9"/>omnes illud contrahunt. Quam zsolutionem
+<lb ed="#V" n="10"/>moderni communiter in hac quaestione 
+sequun<lb ed="#V" n="11" break="no"/>tur, eamque late probat P. .Egid. lib. 3. q. 4.
+<lb ed="#V" n="12"/>art. 2. S 3. et Pitigianis hic art. 3. docens B.
+<lb ed="#V" n="13"/>Virginem tripliciter fuisse peccato obnoxiam.
+<lb ed="#V" n="14"/>Primo, in lumbis Adae et aliorum parentum.
+<lb ed="#V" n="15"/>Secundo, in utero ante animationem; tunc
+<lb ed="#V" n="16"/>enim existebat secundum partem, et 
+inficien<lb ed="#V" n="17" break="no"/>da erat, nisi praeveniretur. Tertio in primo 
+ins<lb ed="#V" n="18" break="no"/>tanti animationis, quia licet illo eodem 
+ins<lb ed="#V" n="19" break="no"/>tanti fuerit in gratia, prius natura existebat
+<lb ed="#V" n="20"/>sine ea, et debebatur ei secundum se 
+opposi<lb ed="#V" n="21" break="no"/>tum ; sic creatura ab aeterno producta, haberet
+<lb ed="#V" n="22"/>prius natura non esse quam esse, quia de se non
+<lb ed="#V" n="23"/>debebatur ei esse, de quo vide Scot. 2 d. 1. q.
+<lb ed="#V" n="24"/>2. exemplo de materia comparata ad formam,
+<lb ed="#V" n="25"/>optime res explicatur.
+</p>
+            <p xml:id="jdso8u-d1e2487-d1e1238">
+               <lb ed="#V" n="26"/>Si autem (a) teneatur pars 
+nega<lb ed="#V" n="27" break="no"/>tiva queestionis, ad omnes 
+aucto<lb ed="#V" n="28" break="no"/>ritates in contrariam partem 
+res<lb ed="#V" n="29" break="no"/>pondetur, quod quilibet fihus Adae
+<lb ed="#V" n="30"/>naturalter est debitor justitiae 
+ori<lb ed="#V" n="31" break="no"/>ginalis, et ex demerito Adae caret
+<lb ed="#V" n="32"/>ea, et ideo omnis talis habet unde
+<lb ed="#V" n="33"/>contrahat peccatum originale; sed
+<lb ed="#V" n="34"/>si alicui in primo instanti 
+crea<lb ed="#V" n="35" break="no"/>tionis animae detur gratia, ille 
+li<lb ed="#V" n="36" break="no"/>cet careat justitia originali, 
+nun<lb ed="#V" n="37" break="no"/>quam tamen est debitor ejus, quia
+<lb ed="#V" n="38"/>merito alterius praevenientis 
+pecca<lb ed="#V" n="39" break="no"/>tum, datur sibi gratia, quae 
+aequi<lb ed="#V" n="40" break="no"/>valet in justitie, quantum ad
+<lb ed="#V" n="41"/>acceptationem divinam, imo 
+exce<lb ed="#V" n="42" break="no"/>dit; ergo quantum est ex se, 
+qui<lb ed="#V" n="43" break="no"/>libet haberet peccatum originale,
+<lb ed="#V" n="44"/>nisi alius praeveniret merendo. Ft
+<lb ed="#V" n="45"/>ita exponendae sunt auctoritates,
+<lb ed="#V" n="46"/>quod omnes naturaliter propagati
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="47"/>ab Adam sunt peccatores, hoc est,
+<lb ed="#V" n="48"/>ex modo quo habent naturam ab
+<lb ed="#V" n="49"/>Adam, habent unde careant 
+justi<lb ed="#V" n="50" break="no"/>tia debita, nisi eis aliunde 
+con<lb ed="#V" n="51" break="no"/>feratur; sed sicut posset post 
+pri<lb ed="#V" n="52" break="no"/>mum instans conferre ei gratiam,
+<lb ed="#V" n="53"/>ita posset et in primo instanti.
+</p>
+            <p xml:id="jdso8u-d1e2487-d1e1303">
+               <lb ed="#V" n="54"/>Per illud patet ad rationes factas
+<lb ed="#V" n="55"/>pro primma opinione, quia Maria
+<lb ed="#V" n="56"/>maxime indiguisset Christo, ut 
+re<lb ed="#V" n="57" break="no"/>demptore; ipsa enim contraxisset
+<lb ed="#V" n="58"/>originale peccatum ex ratione 
+pro<lb ed="#V" n="59" break="no"/>pagationis communis, nisi fuissel
+<lb ed="#V" n="60"/>praeventa per gratiam mediatoris;
+<lb ed="#V" n="61"/>et sicut alii indiguerunt Christo,
+<lb ed="#V" n="62"/>ut per ejus meritum remitteretur
+<lb ed="#V" n="63"/>eis peccatum Jam contractum, ita
+<lb ed="#V" n="64"/>illa magis indiguit mediatore 
+prae<lb ed="#V" n="65" break="no"/>veniente, peccatum ne esset ab
+<lb ed="#V" n="66"/>ipsa aliquando contrahendum, et
+<lb ed="#V" n="67"/>ne ipsa contraheret.
+</p>
+            <p xml:id="jdso8u-d1e2487-d1e1336">
+               <lb ed="#V" n="68"/>Et si arguas (b) contra hoc, quia
+<lb ed="#V" n="69"/>prius naturalter fuit filia Adae, quia
+<lb ed="#V" n="70"/>prius fuit persona, quam habens
+<lb ed="#V" n="71"/>gratiam ; in illo igitur priori 
+tene<lb ed="#V" n="72" break="no"/>batur ad justitiam originalem, quia
+<lb ed="#V" n="73"/>naturalis fiha Adae, et non habuit
+<lb ed="#V" n="74"/>eam, ergo in illo priori contraxit
+<lb ed="#V" n="75"/>originale peccatum.
+</p>
+            <p xml:id="jdso8u-d1e2487-d1e1356">
+               <lb ed="#V" n="76"/>Respondeo (c) et dico, quod 
+quan<lb ed="#V" n="77" break="no"/>do opposita comparantur ad idem
+<lb ed="#V" n="78"/>secundum ordinem naturae, non 
+si<lb ed="#V" n="79" break="no"/>mul ambo insunt, sed tantum 
+alte<lb ed="#V" n="80" break="no"/>rum inest. Reliquum autem quod
+<lb ed="#V" n="81"/>dicitur prius natura non inest, quia
+<lb ed="#V" n="82"/>in eodem instanti oppositum inest;
+<lb ed="#V" n="83"/>sed dicitur prius natura, quia tunc
+<lb ed="#V" n="84"/>inesset quantum est ex parte 
+subjec<lb ed="#V" n="85" break="no"/>ti, nist aliquid extrinsecum 
+immpedi<lb ed="#V" n="86" break="no"/>ret. Exemplum, si materia 
+compara<lb ed="#V" n="87" break="no"/>tur ad formam et ad privationem,
+<lb ed="#V" n="88"/>prius naturaliter est materia non
+<lb ed="#V" n="89"/>habens formam quam habens, non
+<lb ed="#V" n="90"/>quod in illo instanti in quo habet
+<pb ed="#V" n="172"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>formam, realiter non habeat eam,
+<lb ed="#V" n="2"/>quia tunc contradictoria essent 
+si<lb ed="#V" n="3" break="no"/>mul; sed quia tunc materia 
+quan<lb ed="#V" n="4" break="no"/>tum ex se, dimissa sibi, non 
+habe<lb ed="#V" n="5" break="no"/>ret formam, si aliud habens non 
+da<lb ed="#V" n="6" break="no"/>ret. Similiter subjectum est prius
+<lb ed="#V" n="7"/>naturaliter utroque opposito, quia
+<lb ed="#V" n="8"/>prius naturaliter est unumquodque
+<lb ed="#V" n="9"/>illud, quod est in se, quam sit vel
+<lb ed="#V" n="10"/>non sit aliquid, quod est sub aliquo;
+<lb ed="#V" n="11"/>et ita licet materia prius naturalter
+<lb ed="#V" n="12"/>sif privata quam formata, non 
+ta<lb ed="#V" n="13" break="no"/>men sequitur quod ipsa aliquando
+<lb ed="#V" n="14"/>non sit sub forma.
+</p>
+            <p xml:id="jdso8u-d1e2487-d1e1427">
+               <lb ed="#V" n="15"/>Similiter licet prius natura 
+mate<lb ed="#V" n="16" break="no"/>ria sit aliquid in se quam privata
+<lb ed="#V" n="17"/>vel formata, non tamen sequitur
+<lb ed="#V" n="18"/>quod ipsa aliquando sit in se, ita
+<lb ed="#V" n="19"/>quod nec sub privatione nec sub
+<lb ed="#V" n="20"/>forma, quia hoc modo non est aliud
+<lb ed="#V" n="21"/>esse prius, nisi quod secundum 
+pro<lb ed="#V" n="22" break="no"/>priam rationem ejus, qua dicitur
+<lb ed="#V" n="23"/>prius, neutrum illorum includit. Ita
+<lb ed="#V" n="24"/>in proposito dico, quod natura 
+ani<lb ed="#V" n="25" break="no"/>mae praecedit naturaliter justitiam
+<lb ed="#V" n="26"/>originalem sive gratiam 
+aequivalen<lb ed="#V" n="27" break="no"/>tem et carentiam Justitiae debitae, et
+<lb ed="#V" n="28"/>etiam in illa natura praecedit 
+natura<lb ed="#V" n="29" break="no"/>liter carentia ila justitiae originalis
+<lb ed="#V" n="30"/>illam justitiam, quia quantum est ex
+<lb ed="#V" n="31"/>subjecto, quod est prius naturaliter
+<lb ed="#V" n="32"/>utroque opposito, prius naturahter
+<lb ed="#V" n="33"/>privatio inesset; tamen non oportet
+<lb ed="#V" n="34"/>animam esse aliquando sub neutro
+<lb ed="#V" n="35"/>extremo, neque prius esse sub
+<lb ed="#V" n="36"/>privatione quam sub opposito.
+</p>
+            <p xml:id="jdso8u-d1e2487-d1e1477">
+               <lb ed="#V" n="37"/>Quando igitur arguitur, quod
+<lb ed="#V" n="38"/>prius naturaliter fuit fiha Adae,
+<lb ed="#V" n="39"/>quam Jgpustificata, concedo, quia
+<lb ed="#V" n="40"/>illam naturam in primo instanti
+<lb ed="#V" n="41"/>naturae sic conceptam 
+consequeba<lb ed="#V" n="42" break="no"/>tur esse fillam Adae, et non habere
+<lb ed="#V" n="43"/>eratiam in ilo instanti naturae; sed
+<lb ed="#V" n="44"/>non sequitur, ergo in illo instanti
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>naturae fuit privata, loquendo de
+<lb ed="#V" n="46"/>omnino primo instanti, quia 
+secun<lb ed="#V" n="47" break="no"/>dum illam primitatem, natura 
+ani<lb ed="#V" n="48" break="no"/>mae ita naturaliter praecessit 
+priva<lb ed="#V" n="49" break="no"/>tionem justitiae, sicut ipsam 
+justi<lb ed="#V" n="50" break="no"/>tiam ; sed tantum potest hoc inferri
+<lb ed="#V" n="51"/>quod in ratione naturae, quae est
+<lb ed="#V" n="52"/>fundamentum filiationis Adae, non
+<lb ed="#V" n="53"/>includitur justitia, nec ejus carentia,
+<lb ed="#V" n="54"/>quod concedo.
+</p>
+            <p xml:id="jdso8u-d1e2487-d1e1521">
+               <lb ed="#V" n="55"/>Sed si objicias (d) de alio modo
+<lb ed="#V" n="56"/>prioritatis naturae, quod ipsa est 
+na<lb ed="#V" n="57" break="no"/>turaliter prius carens justitia quam
+<lb ed="#V" n="58"/>habens eam, cum hoc insit sibia
+<lb ed="#V" n="59"/>causa intrinseca, dico, quod hoc
+<lb ed="#V" n="60"/>prius natura nunquam mnest sibi,
+<lb ed="#V" n="61"/>sed tantum inesset, si causa 
+extrinse<lb ed="#V" n="62" break="no"/>ca non impediret, et poneret 
+oppo<lb ed="#V" n="63" break="no"/>situm ejus inesse; sicut etiam si in
+<lb ed="#V" n="64"/>primo instanti, materia 
+informare<lb ed="#V" n="65" break="no"/>tur, privatio, quae prius naturaliter
+<lb ed="#V" n="66"/>inest materiae, nunquam ei 
+ines<lb ed="#V" n="67" break="no"/>set.
+</p>
+            <p xml:id="jdso8u-d1e2487-d1e1552">
+               <lb ed="#V" n="68"/>Si dicas (e), quomodo est prius
+<lb ed="#V" n="69"/>natura illud, quod non est prius in
+<lb ed="#V" n="70"/>essendo? Dico, quod quando ordo
+<lb ed="#V" n="71"/>naturae est inter positivum, sicut
+<lb ed="#V" n="72"/>inter subjectum et accidens, 
+mate<lb ed="#V" n="73" break="no"/>riam et formam, quod est prius 
+na<lb ed="#V" n="74" break="no"/>tura, potest esse prius in essendo;
+<lb ed="#V" n="75"/>sed quando est tantum inter 
+oppo<lb ed="#V" n="76" break="no"/>sita privative, prioritas per 
+com<lb ed="#V" n="77" break="no"/>parationem ad tertium non est nisi
+<lb ed="#V" n="78"/>quia hoc inesset, si aliud non 
+impe<lb ed="#V" n="79" break="no"/>diret, vel est prioritas in intellectu,
+<lb ed="#V" n="80"/>quia scilicet istud prius mntelligitur,
+<lb ed="#V" n="81"/>ut privatum.
+</p>
+            <p xml:id="jdso8u-d1e2487-d1e1585">
+               <lb ed="#V" n="82"/>Et si arguatur (f), Maria non est
+<lb ed="#V" n="83"/>justa in primo mstanti naturae ;
+<lb ed="#V" n="84"/>ergo in illo instanti est injusta vel
+<lb ed="#V" n="85"/>non justa, ex 2. Pertherm. Dico,
+<lb ed="#V" n="86"/>quod consequentia non valet in
+<lb ed="#V" n="87"/>praedicatis compositis, non est 
+al<lb ed="#V" n="88" break="no"/>bum lignum, ergo est lignum non
+<pb ed="#V" n="173"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>album, ita hic : non est justa in
+<lb ed="#V" n="2"/>primo instanti, id est, ratione sui;
+<lb ed="#V" n="3"/>ergo est non justa, non sequitur,
+<lb ed="#V" n="4"/>quia neutrum illorum essentialiter
+<lb ed="#V" n="5"/>includit.
+</p>
+            <p xml:id="jdso8u-d1e2487-d1e1618">
+               <lb ed="#V" n="6"/>Et si arguas (g), in primo 
+instan<lb ed="#V" n="7" break="no"/>ti naturae vere intelligitur non justa.
+<lb ed="#V" n="8"/>Dico quod non, sed vere non 
+intelh<lb ed="#V" n="9" break="no"/>gitur justa, quia abstrahentium non
+<lb ed="#V" n="10"/>est mendacium 2. Physic. non enim
+<lb ed="#V" n="11"/>omnis intellectus non mntelligens
+<lb ed="#V" n="12"/>hoc, intelligit non hoc, ut non 
+intel<lb ed="#V" n="13" break="no"/>ligens hominem esse animal, non
+<lb ed="#V" n="14"/>intelligit ipsum non animal, quia
+<lb ed="#V" n="15"/>tunc non posset esse abstractio sine
+<lb ed="#V" n="16"/>mendacio, auferendo ab aliquo quod
+<lb ed="#V" n="17"/>sibi essentialiter inest.
+</p>
+            <p xml:id="jdso8u-d1e2487-d1e1648">
+               <lb ed="#V" n="18"/>Ad aliud de apertione januae,
+<lb ed="#V" n="19"/>patet, quod janua fuit sibi aperta
+<lb ed="#V" n="20"/>per meritum passionis Christi 
+praevi<lb ed="#V" n="21" break="no"/>sae et acceptae specialiter in ordine
+<lb ed="#V" n="22"/>ad hanc personam, ut propter illam
+<lb ed="#V" n="23"/>passionem nunquam huic personae
+<lb ed="#V" n="24"/>inesset peccatum, et ita nec aliquid
+<lb ed="#V" n="25"/>propter quod janua clauderetur,
+<lb ed="#V" n="26"/>cum tamen sibi ex origine 
+compete<lb ed="#V" n="27" break="no"/>ret, unde janua clauderetur sicut
+<lb ed="#V" n="28"/>alis.
+</p>
+            <!-- </div>
+
+<div alias="scotus-d3q1-p6"> -->
+            <p xml:id="jdso8u-d1e2487-d1e1676">
+               <lb ed="#V" n="33" type="fixed=176"/>SCHOLIUM.
+</p>
+            <p xml:id="jdso8u-d1e2487-d1e1681">
+               <lb ed="#V" n="34"/>B. Virginem, si mortua fuisset ante Christum,
+<lb ed="#V" n="35"/>probabilius loquendo, descensuram fuisse in
+<lb ed="#V" n="36"/>sinum Abrahae, et non visuram Deum, donec
+<lb ed="#V" n="37"/>Christus morte sua aperiret januam regni. 
+Mi<lb ed="#V" n="38" break="no"/>rum, quomodo Suar. sup. sect. 5. fin. dicat
+<lb ed="#V" n="39"/>Scotum in oppositum inclinare, cum ejus 
+ver<lb ed="#V" n="40" break="no"/>ba sint expressa.
+</p>
+            <p xml:id="jdso8u-d1e2487-d1e1699">
+               <lb ed="#V" n="41"/>Si quaeratur, utrum si fursset
+<lb ed="#V" n="42"/>mortua ante passionem FHli,
+<lb ed="#V" n="43"/>fuisset beata ? Dici potest, quod
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="44"/>sancti Patres in Limbo, purgati
+<lb ed="#V" n="45"/>fuerunt a peccato original, et
+<lb ed="#V" n="46"/>tamen clausa fuit janua usque ad
+<lb ed="#V" n="47"/>solutionem poeena debitae. 1Ita
+<lb ed="#V" n="48"/>enim determinaverat Deus, quod
+<lb ed="#V" n="49"/>licet acceptaret passionem Christi
+<lb ed="#V" n="50"/>praevisam ad remittendum 
+cul<lb ed="#V" n="51" break="no"/>pam originalem omni credenti et
+<lb ed="#V" n="52"/>credituro illam passionem, non
+<lb ed="#V" n="53"/>tamen remittebat poenam illi 
+pecca<lb ed="#V" n="54" break="no"/>to debitam, scilicet carentiam 
+visio<lb ed="#V" n="55" break="no"/>nis divina jpropter passionem
+<lb ed="#V" n="56"/>praevisam, sed propter ipsam 
+ex<lb ed="#V" n="57" break="no"/>hibitam, et ideo sicut illis patribus
+<lb ed="#V" n="58"/>non patuit Janua, quousque passio
+<lb ed="#V" n="59"/>Christi fuit exhibita, ita probabile
+<lb ed="#V" n="60"/>est, quod nec B. Virgini.
+</p>
+            <p xml:id="jdso8u-d1e2487-d1e1747">
+               <lb ed="#V" n="61"/>Ad argumentum Bernardi potest
+<lb ed="#V" n="62"/>responderi, quod in instanti 
+con<lb ed="#V" n="63" break="no"/>ceptionis naturae fuisset 
+sanctifica<lb ed="#V" n="64" break="no"/>tio non aculpa quae tunc infuit,
+<lb ed="#V" n="65"/>quia nulla fuit, sed a culpa, quae
+<lb ed="#V" n="66"/>tunc infuisset, nisi tunc gratia
+<lb ed="#V" n="67"/>illt animae fuisset infusa.
+</p>
+            <p xml:id="jdso8u-d1e2487-d1e1766">
+               <lb ed="#V" n="68"/>Et si arguatur, quod ibi fuit 
+h<lb ed="#V" n="69" break="no"/>bido, falsum est de conceptione
+<lb ed="#V" n="70"/>naturarum, licet posset concedi
+<lb ed="#V" n="71"/>fuisse in conceptione et 
+commixtio<lb ed="#V" n="72" break="no"/>ne seminu m.
+</p>
+            <p xml:id="jdso8u-d1e2487-d1e1779">
+               <lb ed="#V" n="73"/>Et dato quod m conceptione 
+se<lb ed="#V" n="74" break="no"/>minum fuisset creatio animae, non
+<lb ed="#V" n="75"/>fuisset aliquod imnconveniens, 
+gra<lb ed="#V" n="76" break="no"/>tiam tunc fuisse infusam anmee,
+<lb ed="#V" n="77"/>propter quam anuma non 
+contra<lb ed="#V" n="78" break="no"/>xisset aliquam infectionem a carne
+<lb ed="#V" n="79"/>cum libidine seminata ; sicut enim
+<lb ed="#V" n="80"/>post primum minstans Daptismi 
+po<lb ed="#V" n="81" break="no"/>tuit manere infectio corporis 
+con<lb ed="#V" n="82" break="no"/>tracta per propagationem cum 
+gra<lb ed="#V" n="83" break="no"/>(ia in anima mundata, ita potest
+<lb ed="#V" n="84"/>esse m primmo iminstanti, si Deus
+<lb ed="#V" n="85"/>tunc creavit gratiam in anima 
+Ma<lb ed="#V" n="86" break="no"/>riae.
+</p>
+            <!--</div>-->
+         </div>
+      </body>
+   </text>
+</TEI>

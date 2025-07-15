@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Scotus">John Duns Scotus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2025-07-15">July 15, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-u78x14">Vives, Paris, 1893, volume 14</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-15" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="4"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jdso8u-d1e2372"><!-- jdso8u-b3d1prae -->
+            <head xml:id="jdso8u-d1e2372-Hd1e99">Praeambulum</head>
+            <p xml:id="jdso8u-d1e2372-d1e101">
+               <lb ed="#V" n="16"/>Postquam Magister in primo libro
+    <lb ed="#V" n="17"/>determinavit de Deo, quantum ad 
+    ra<lb ed="#V" n="18" break="no"/>tionem suae naturalis perfectionis,
+    <lb ed="#V" n="19"/>ut generare et spirare; et in 
+    secun<lb ed="#V" n="20" break="no"/>do libro determinavit de ipso 
+    in<lb ed="#V" n="21" break="no"/>quantum ejus perfectio relucet in
+    <lb ed="#V" n="22"/>operibus creationis ; in hoc tertio
+    <lb ed="#V" n="23"/>determinat de Deo inquantum ejus
+    <lb ed="#V" n="24"/>perfectio relucet in operibus 
+    restau<lb ed="#V" n="25" break="no"/>rationis. Et circa primam 
+    distinctio<lb ed="#V" n="26" break="no"/>nem hujus tertii quaeruntur 
+    quin<lb ed="#V" n="27" break="no"/>que : Primo, utrum possibile fuerit
+    <lb ed="#V" n="28"/>naturam humanam uniri Verbo in
+    <lb ed="#V" n="29"/>unitate suppositi. Secundo, utrum
+    <lb ed="#V" n="30"/>res personae possint assumere 
+    eam<lb ed="#V" n="31" break="no"/>dem naturam numero. Tertio, utrum
+    <lb ed="#V" n="32"/>una persona possit assumere plures
+    <lb ed="#V" n="33"/>naturas. Quarto, utrum suppositum
+    <lb ed="#V" n="34"/>creatum possit sustentificare 
+    hypos<lb ed="#V" n="35" break="no"/>tatice allam naturam creatam. 
+    Quin<lb ed="#V" n="36" break="no"/>to, utrum formalis ratio terminandi
+    <lb ed="#V" n="37"/>istam unionem sit proprietas 
+    rela<lb ed="#V" n="38" break="no"/>tiva.
+  </p>
+         </div>
+      </body>
+   </text>
+</TEI>

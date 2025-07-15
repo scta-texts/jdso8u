@@ -1,0 +1,985 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Scotus">John Duns Scotus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2025-07-15">July 15, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-u78x14">Vives, Paris, 1893, volume 14</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-15" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="362"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jdso8u-d1e2639"><!-- jdso8u-b3d8q1 -->
+            <head xml:id="jdso8u-d1e2639-Hd1e99">Quaestio 1</head>
+            <head xml:id="jdso8u-d1e2639-Hd1e101" type="question-title">Utrum in Christo sint duae filiationes reales</head>
+            <!-- <div> -->
+            <p xml:id="jdso8u-d1e2639-d1e106">
+               <lb ed="#V" n="7" type="fixed=362"/>QUAESTIO UNICA.
+<lb ed="#V" n="8"/>Utrum in Christo sint duae filiationes?
+</p>
+            <p xml:id="jdso8u-d1e2639-d1e113">
+               <lb ed="#V" n="9"/>Alens. 3. p. g. 10. m. 3. D. Thom. 3. p. q. 35.
+<lb ed="#V" n="10"/>art. 5. et hic q. 1. art. 4. D. Bonav. art. 2. q.
+<lb ed="#V" n="11"/>2. Richard. art. 2. quast. 2. Durand. q. 3.
+<lb ed="#V" n="12"/>Gabr. q. 1. Henr. Quodlib. 4. q. 3. Suar. 3. p.
+<lb ed="#V" n="13"/>tom. 1. disp. 12. per totum.
+</p>
+            <p xml:id="jdso8u-d1e2639-d1e127">
+               <lb ed="#V" n="14"/>Circa istam distinctionem 
+octa<lb ed="#V" n="15" break="no"/>vam, in qua Magister agit de 
+Incar<lb ed="#V" n="16" break="no"/>natione, quantum ad idiomatum
+<lb ed="#V" n="17"/>communicationem, quaeritur utrum
+<lb ed="#V" n="18"/>in Christo sint duae fihationes?
+<lb ed="#V" n="19"/>Quod non. Filiatio constituit filum;
+<lb ed="#V" n="20"/>ergo duae filationes duos filios;
+<lb ed="#V" n="21"/>sed Christus non est duo fili;
+<lb ed="#V" n="22"/>ergo nec in eo sunt duae filiationes
+<lb ed="#V" n="23"/>reales.
+</p>
+            <p xml:id="jdso8u-d1e2639-d1e151">
+               <lb ed="#V" n="24"/>Praeterea, secundum Anselmum,
+<lb ed="#V" n="25"/>Filius est incarnatus, non alia 
+per<lb ed="#V" n="26" break="no"/>sona, ne fieret confusio in 
+proprie<lb ed="#V" n="27" break="no"/>tatibus ; ergo modo non est ila
+<lb ed="#V" n="28"/>confusio, quae esset si Pater esset
+<lb ed="#V" n="29"/>incarnatus ; ergo et modo Filus
+<lb ed="#V" n="30"/>non est Filius aliqua aha filiatione
+<lb ed="#V" n="31"/>quam aeterna, alioquin modo non
+<lb ed="#V" n="32"/>minus esset confusio proprietatum
+<lb ed="#V" n="33"/>propter Incarnationem Filu, quam
+<lb ed="#V" n="34"/>propter Incarnationem Patris, quia
+<lb ed="#V" n="35"/>non magis unica filiatio.
+</p>
+            <p xml:id="jdso8u-d1e2639-d1e180">
+               <lb ed="#V" n="36"/>Praeterea, non est filiatio reals
+<lb ed="#V" n="37"/>ad matrem nisi propter relationem
+<lb ed="#V" n="38"/>realem quam habuit ad matrem;
+<lb ed="#V" n="39"/>istam relationem non habuit in
+<lb ed="#V" n="40"/>morte, quia soluta fuit tunc illa
+<lb ed="#V" n="41"/>unio, scilicet animae ad corpus, ex
+<lb ed="#V" n="42"/>quibus unitis est natura; ergo
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="43"/>tunc non habuit illam filiationem;
+<lb ed="#V" n="44"/>aut ergo in resurrectione illam 
+ha<lb ed="#V" n="45" break="no"/>buit, et hoc videtur inconveniens,
+<lb ed="#V" n="46"/>quia resurrectio fuit alia acceptio
+<lb ed="#V" n="47"/>illlus esse quam generatio, et ita
+<lb ed="#V" n="48"/>aliud esse acceptum ; aut non habuit
+<lb ed="#V" n="49"/>eam in resurrectione, et tunc non
+<lb ed="#V" n="50"/>esset modo Filius Mariae, sicut ante
+<lb ed="#V" n="51"/>mortem.
+</p>
+            <p xml:id="jdso8u-d1e2639-d1e219">
+               <lb ed="#V" n="52"/>Praeterea, non oportet ponere mn.
+<lb ed="#V" n="53"/>Christo aliquam relationem realem
+<lb ed="#V" n="54"/>ad matrem nisi salvando ipsum esse
+<lb ed="#V" n="55"/>verum Filium ejus; sed hoc 
+salva<lb ed="#V" n="56" break="no"/>tur non ponendo in eo aliquam
+<lb ed="#V" n="57"/>relationem realem ad eam, sicut
+<lb ed="#V" n="58"/>Deus est Dominus reahter 
+creatu<lb ed="#V" n="59" break="no"/>rae, et tamen relatio domini non
+<lb ed="#V" n="60"/>est in eo relatio reals.
+</p>
+            <p xml:id="jdso8u-d1e2639-d1e241">
+               <lb ed="#V" n="61"/>Praeterea, Deus produxit 
+creatu<lb ed="#V" n="62" break="no"/>ras inquantum artifex; hoc tamen
+<lb ed="#V" n="63"/>solum est inquantum habet 
+rela<lb ed="#V" n="64" break="no"/>tionem rationis, quia scientia sua
+<lb ed="#V" n="65"/>est ars, inquantum causat in se
+<lb ed="#V" n="66"/>ideas per actum rationis ; ergo
+<lb ed="#V" n="67"/>ipsum esse artificem et potentem
+<lb ed="#V" n="68"/>creare dicit in eo tantum 
+relatio<lb ed="#V" n="69" break="no"/>nem rationis; ergo multo magis
+<lb ed="#V" n="70"/>Christum esse Filium Mariae, dicit
+<lb ed="#V" n="71"/>in eo tantum relationem rationis,
+<lb ed="#V" n="72"/>quia videtur magis necessarium
+<lb ed="#V" n="73"/>quod illa habitudo, quae 
+praesuppo<lb ed="#V" n="74" break="no"/>nitur alicui rei, sit realis quam ista
+<lb ed="#V" n="75"/>quae consequitur rem.
+</p>
+            <p xml:id="jdso8u-d1e2639-d1e276">
+               <lb ed="#V" n="76"/>Praeterea, si ejus ad matrem 
+es<lb ed="#V" n="77" break="no"/>set relatio realis, tunc esset 
+real<lb ed="#V" n="78" break="no"/>ter aequalis matri secundum 
+natu<lb ed="#V" n="79" break="no"/>ram humanam ; consequens est
+<lb ed="#V" n="80"/>falsum, quia aequahtas fundatur
+<lb ed="#V" n="81"/>super unitatem unionis; non est
+<lb ed="#V" n="82"/>autem ibi realis unitas unionis ad
+<lb ed="#V" n="83"/>matrem, sicut patet discurrendo
+<lb ed="#V" n="84"/>per omnes uniones reales; igitur,
+<lb ed="#V" n="85"/>etc.
+</p>
+            <p xml:id="jdso8u-d1e2639-d1e301">
+               <lb ed="#V" n="86"/>Contra, si Pater fuisset incarna-
+<pb ed="#V" n="363"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>tus, fuisset filius, non filiatione
+<lb ed="#V" n="2"/>aeterna, ergo temporali; sed 
+proprie<lb ed="#V" n="3" break="no"/>tas aeterna Filii ita abstrahit ab
+<lb ed="#V" n="4"/>omni creatura, ut termino, sicut
+<lb ed="#V" n="5"/>proprietas Patris; ergo Filius 
+Ma<lb ed="#V" n="6" break="no"/>riae filiatione aeterna non habet 
+res<lb ed="#V" n="7" break="no"/>pectum ad matrem, ut propterea
+<lb ed="#V" n="8"/>dicatur ejus filius; ergo secundum
+<lb ed="#V" n="9"/>aliam.
+</p>
+            <p xml:id="jdso8u-d1e2639-d1e330">
+               <lb ed="#V" n="10"/>Praeterea, Philosophus 5. 
+Me<lb ed="#V" n="11" break="no"/>taph. cap. de Ad aliquid, infert pro
+<lb ed="#V" n="12"/>inconvenienti, quod idem bis 
+dica<lb ed="#V" n="13" break="no"/>tur; sed si est inconveniens, hoc
+<lb ed="#V" n="14"/>maxime erit de eodem fundamento
+<lb ed="#V" n="15"/>et supposito, et relatione eadem;
+<lb ed="#V" n="16"/>ergo Christus eadem relatione non
+<lb ed="#V" n="17"/>potest dici relative ad Matrem et
+<lb ed="#V" n="18"/>Patrem.
+</p>
+            <p xml:id="jdso8u-d1e2639-d1e352">
+               <lb ed="#V" n="19"/>SCHOLILM.
+</p>
+            <p xml:id="jdso8u-d1e2639-d1e357">
+               <lb ed="#V" n="20"/>Sententia D. Thom. Henric. D. Bonav. et
+<lb ed="#V" n="21"/>aliorum, Christum non referri ad B. Virginem
+<lb ed="#V" n="22"/>relatione reali, saltem temporali (quod addo
+<lb ed="#V" n="23"/>propter Henr. qui videtur dicere Christum 
+re<lb ed="#V" n="24" break="no"/>ferri ad matrem relatione increata.) Ratio D.
+<lb ed="#V" n="25"/>Bonav. est, quia filiatio est tantum suppositi ;
+<lb ed="#V" n="26"/>ergo in uno Christi supposito tantum est una
+<lb ed="#V" n="27"/>filiatio. Impugnatur primo, quia filiationi qua
+<lb ed="#V" n="28"/>relatio, non repugnat multiplicari in eodem
+<lb ed="#V" n="29"/>supposito. Secundo, pater aeternus habet 
+plu<lb ed="#V" n="30" break="no"/>res relationes originis. Ratio D. Thom. duas
+<lb ed="#V" n="31"/>dispositiones ejusdem speciei non posse esse
+<lb ed="#V" n="32"/>in eodem ; ergo nec duae filiationes in eodem
+<lb ed="#V" n="33"/>esse possunt. hejicitur, quia cum unitate 
+prio<lb ed="#V" n="34" break="no"/>ris stat plurificari posterius ; ergo in uno 
+sub<lb ed="#V" n="35" break="no"/>jecto quod est prius, possunt esse plures 
+for<lb ed="#V" n="36" break="no"/>mae quae sunt posterius, maxime si sunt 
+rela<lb ed="#V" n="37" break="no"/>tivae. Probat aliis quinque rationibus claris
+<lb ed="#V" n="38"/>plures relationes ejusdem speciei subjectibiles
+<lb ed="#V" n="39"/>esse in eodem.
+</p>
+            <p xml:id="jdso8u-d1e2639-d1e403">
+               <lb ed="#V" n="40"/>Hic dicitur (a) quod non sunt in
+<lb ed="#V" n="41"/>Christo duae filiationes reales, et
+<lb ed="#V" n="42"/>hoc propter duas rationes. Una est,
+<lb ed="#V" n="43"/>quia filiatio est per se suppositi, non
+<lb ed="#V" n="44"/>naturae ; hic autem non est nisi
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>unum suppositum; ergo nec nisi,
+<lb ed="#V" n="46"/>una filiatio.
+</p>
+            <p xml:id="jdso8u-d1e2639-d1e423">
+               <lb ed="#V" n="47"/>Contra istam positionem (b) et
+<lb ed="#V" n="48"/>ejus rationem arguo, quia si filiatio a
+<lb ed="#V" n="49"/>tantum est personae, sic quod non
+<lb ed="#V" n="50"/>possit plurificari, licet fundamentum
+<lb ed="#V" n="51"/>plurificetur, aut ergo hoc convenit
+<lb ed="#V" n="52"/>sibi, unde relatio absolute, aut unde
+<lb ed="#V" n="53"/>relatio talis originis ; non primo
+<lb ed="#V" n="54"/>modo, quia tunc si Christus fuisset
+<lb ed="#V" n="55"/>albus, non fuisset realiter sumilis
+<lb ed="#V" n="56"/>alii albo, nec fuisset realiter 
+aequa<lb ed="#V" n="57" break="no"/>lis alii habenti tantam quantitatem,
+<lb ed="#V" n="58"/>quantam ipse habuit ; tunc etiam in
+<lb ed="#V" n="59"/>suppositis creatis relationes non
+<lb ed="#V" n="60"/>possent plurificari plurificatis 
+fun<lb ed="#V" n="61" break="no"/>damentis. Si secundo modo, hoc
+<lb ed="#V" n="62"/>falsum est, quia non magis 
+repu<lb ed="#V" n="63" break="no"/>enat relationem originis plurificari
+<lb ed="#V" n="64"/>in supposito, quam ipsam 
+origina<lb ed="#V" n="65" break="no"/>tionem quae praecedit istam 
+relatio<lb ed="#V" n="66" break="no"/>nem originis ut proxima ratio 
+fun<lb ed="#V" n="67" break="no"/>dandi eam ; sed origines 
+plurifican<lb ed="#V" n="68" break="no"/>tur in eodem supposito secundum
+<lb ed="#V" n="69"/>Damascenum lib. 3. cap. 1. Duas
+<lb ed="#V" n="70"/>generationes Christi veneramur.
+</p>
+            <p xml:id="jdso8u-d1e2639-d1e479">
+               <lb ed="#V" n="71"/>Praeterea, Pater aeternus (c) etsi
+<lb ed="#V" n="72"/>sit unum suppositum, tamen habet
+<lb ed="#V" n="73"/>duas relationes originis ad Filium
+<lb ed="#V" n="74"/>et Spiritum sanctum, et ita super
+<lb ed="#V" n="75"/>idem suppositum et idem 
+fundamen<lb ed="#V" n="76" break="no"/>tum, fundantur duae relationes 
+ori<lb ed="#V" n="77" break="no"/>ginis activae ; ergo multo magis 
+su<lb ed="#V" n="78" break="no"/>per duo fundamenta diversa 
+pos<lb ed="#V" n="79" break="no"/>sunt fundari duae relationes originis
+<lb ed="#V" n="80"/>passivae.
+</p>
+            <p xml:id="jdso8u-d1e2639-d1e503">
+               <lb ed="#V" n="81"/>Item, secundum Damascenum
+<lb ed="#V" n="82"/>lib. 3. cap. 15. Christus habet duas
+<lb ed="#V" n="83"/>operationes ; relatio autem non 
+ma<lb ed="#V" n="84" break="no"/>gis respicit suppositum quam 
+ope<lb ed="#V" n="85" break="no"/>ratio, quia suppositi est operart,
+<lb ed="#V" n="86"/>1. Metaph. igitur, etc. Ex hoc etiam
+<lb ed="#V" n="87"/>de operatione potest argui ad 
+propo<lb ed="#V" n="88" break="no"/>situm, quia sicut Christus operaba-
+<pb ed="#V" n="364"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>tur naturaliter, quibusdam 
+operatio<lb ed="#V" n="2" break="no"/>nibus naturae humanae, quia 
+come<lb ed="#V" n="3" break="no"/>dit et bibit, ita si genuisset duos
+<lb ed="#V" n="4"/>filios, realiter habuisset duas 
+pater<lb ed="#V" n="5" break="no"/>nitates ad illos propter duas 
+genera<lb ed="#V" n="6" break="no"/>tiones activas; ergo modo propter
+<lb ed="#V" n="7"/>duas generationes passivas, habet
+<lb ed="#V" n="8"/>duas filiationes.
+</p>
+            <p xml:id="jdso8u-d1e2639-d1e545">
+               <lb ed="#V" n="9"/>Item (d), quod competit Christo
+<lb ed="#V" n="10"/>praecise secundum rationem 
+perso<lb ed="#V" n="11" break="no"/>nalitatis aeternae, non dicitur de eo
+<lb ed="#V" n="12"/>inquantum homo, unde haec est
+<lb ed="#V" n="13"/>falsa : Christus, inquantum homo,
+<lb ed="#V" n="14"/>est persona ; igitur, et haec: 
+Chri<lb ed="#V" n="15" break="no"/>stus, inquantum homo, est Filius, si
+<lb ed="#V" n="16"/>filiatio tantummodo diceretur de eo
+<lb ed="#V" n="17"/>secundum rationem personalitatis
+<lb ed="#V" n="18"/>aeternae.
+</p>
+            <p xml:id="jdso8u-d1e2639-d1e569">
+               <lb ed="#V" n="19"/>Alia ratio (e), quae ponitur pro
+<lb ed="#V" n="20"/>prima opinione, est, quia duae 
+dis<lb ed="#V" n="21" break="no"/>positiones ejusdem speciei non 
+pos<lb ed="#V" n="22" break="no"/>sunt poni in eodem ; ergo nec duae
+<lb ed="#V" n="23"/>filiationes. Antecedens declaratur ab
+<lb ed="#V" n="24"/>aliis sic ; tum quia potentia est per
+<lb ed="#V" n="25"/>se ad formam, non autem per se ad
+<lb ed="#V" n="26"/>hanc formam, quia est haec per hoc
+<lb ed="#V" n="27"/>quod recipitur in isto; ergo si 
+pos<lb ed="#V" n="28" break="no"/>set esse in actu secundum unam
+<lb ed="#V" n="29"/>formam, et in potentia secundum
+<lb ed="#V" n="30"/>aliam, idem secundum idem, puta
+<lb ed="#V" n="31"/>secundum formam, cut ut sic, 
+acci<lb ed="#V" n="32" break="no"/>dit esse hanc vel illam, esset primo
+<lb ed="#V" n="33"/>in potentia et in actu ; tum quia 
+om<lb ed="#V" n="34" break="no"/>nis distinctio, aut est per naturam
+<lb ed="#V" n="35"/>divisionis, aut per naturam 
+opposi<lb ed="#V" n="36" break="no"/>tionis ; per naturam oppositionis
+<lb ed="#V" n="37"/>non potest esse distinctio in eadem
+<lb ed="#V" n="38"/>specie, nec per naturam divisionis,
+<lb ed="#V" n="39"/>ubi est idem subjectum, quia 
+acci<lb ed="#V" n="40" break="no"/>dentia non habent distinctionem 
+nu<lb ed="#V" n="41" break="no"/>meralem, nisia subjectis, sicut nec
+<lb ed="#V" n="42"/>entitatem.
+</p>
+            <p xml:id="jdso8u-d1e2639-d1e624">
+               <lb ed="#V" n="43"/>Et confirmatur, quia non possunt
+<lb ed="#V" n="44"/>esse plures proprietates absolutae
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>ejusdem rationis in Divinis, quia
+<lb ed="#V" n="46"/>ille non distinguerentur, nec per
+<lb ed="#V" n="47"/>oppositionem neque per divisionem,
+<lb ed="#V" n="48"/>nisi essentia divina in qua sunt, 
+di<lb ed="#V" n="49" break="no"/>videretur, quod est inconveniens ;
+<lb ed="#V" n="50"/>ergo, etc. Consequentia 
+declara<lb ed="#V" n="51" break="no"/>tur, quia omnis generans primo
+<lb ed="#V" n="52"/>actu generandi acquirit 
+paternita<lb ed="#V" n="53" break="no"/>tem ad primum filium, secundo
+<lb ed="#V" n="54"/>actu generandi nullam paternitatem
+<lb ed="#V" n="55"/>novam acquirit, sed per eamdem
+<lb ed="#V" n="56"/>paternitatem se habet ad filium 
+se<lb ed="#V" n="57" break="no"/>cundum ; sicut igitur ibi non 
+pos<lb ed="#V" n="58" break="no"/>sunt esse plures paternitates, quia
+<lb ed="#V" n="59"/>sunt formae ejusdem speciei, ita nec
+<lb ed="#V" n="60"/>hic plures filiationes, propter 
+eam<lb ed="#V" n="61" break="no"/>dem rationem.
+</p>
+            <p xml:id="jdso8u-d1e2639-d1e670">
+               <lb ed="#V" n="62"/>Contra istam rationem (f) 
+secun<lb ed="#V" n="63" break="no"/>dam, major videtur falsa, et minor
+<lb ed="#V" n="64"/>similiter. Quod major, probatur,
+<lb ed="#V" n="65"/>quia in omni ordine essentiali cum
+<lb ed="#V" n="66"/>unitate prioris essentialiter potest
+<lb ed="#V" n="67"/>stare pluralitas posterioris 
+naturali<lb ed="#V" n="68" break="no"/>ter non per se, nec adaequate 
+inhae<lb ed="#V" n="69" break="no"/>rentis priori ; subjectum est prius
+<lb ed="#V" n="70"/>essentialiter illa dispositione, quae
+<lb ed="#V" n="71"/>ponitur sibi inhaerens, quae nec per
+<lb ed="#V" n="72"/>se ei inhaeret, nec adaequate ; ergo,
+<lb ed="#V" n="73"/>etc. Major probatur per simile in
+<lb ed="#V" n="74"/>causa et effectu, quia una causa 
+po<lb ed="#V" n="75" break="no"/>test esse respectu plurium 
+effec<lb ed="#V" n="76" break="no"/>tuum ; et licet ibi effectus non insint
+<lb ed="#V" n="77"/>causae, non tamen est major 
+repu<lb ed="#V" n="78" break="no"/>gnantia in illis posterioribus, quae
+<lb ed="#V" n="79"/>inhaerent (si tamen non per se 
+inhae<lb ed="#V" n="80" break="no"/>reant) quam in aliis, quae per se
+<lb ed="#V" n="81"/>existunt, quia tunc unum non est
+<lb ed="#V" n="82"/>causa intrinseca alterius, ita quod
+<lb ed="#V" n="83"/>ad unitatem ejus sequatur unitas
+<lb ed="#V" n="84"/>alterius, et maxime si non sunt
+<lb ed="#V" n="85"/>adaequata, ita quod unum illorum
+<lb ed="#V" n="86"/>in actualitate completa determinet
+<lb ed="#V" n="87"/>potentialitatem receptivi; non est
+<lb ed="#V" n="88"/>ergo contradictio, plura absoluta
+<pb ed="#V" n="365"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>ejusdem rationis per accidens inesse
+<lb ed="#V" n="2"/>eidem, cui nullum eorum 
+adaequa<lb ed="#V" n="3" break="no"/>tur.
+</p>
+            <p xml:id="jdso8u-d1e2639-d1e743">
+               <lb ed="#V" n="4"/>Illud etiam (g) probatur de facto,
+<lb ed="#V" n="5"/>quia plures species phantasticae sunt
+<lb ed="#V" n="6"/>in eodem organo phantasiae, 
+alio<lb ed="#V" n="7" break="no"/>quin deleta specie unius 
+imaginabi<lb ed="#V" n="8" break="no"/>lis, non posset aliquis perfecte 
+ima<lb ed="#V" n="9" break="no"/>ginari aliquod imaginabile. Et 
+pa<lb ed="#V" n="10" break="no"/>tet quod istae species sunt ejusdem
+<lb ed="#V" n="11"/>speciei, sicut et objecta a quibus
+<lb ed="#V" n="12"/>generantur, et sunt in eadem parte
+<lb ed="#V" n="13"/>organi, quia organum non posset in
+<lb ed="#V" n="14"/>tot partes minimas dividi, quae 
+pos<lb ed="#V" n="15" break="no"/>sent per se informari tot speciebus
+<lb ed="#V" n="16"/>imaginabilibus separatim 
+existenti<lb ed="#V" n="17" break="no"/>bus, quot possunt simul esse in toto
+<lb ed="#V" n="18"/>organo; ergo oportet quod eis non
+<lb ed="#V" n="19"/>correspondeant distinctae partes 
+or<lb ed="#V" n="20" break="no"/>ganl.
+</p>
+            <p xml:id="jdso8u-d1e2639-d1e782">
+               <lb ed="#V" n="21"/>Et si objiciatur (h), quare ergo
+<lb ed="#V" n="22"/>non potest per operationem naturae
+<lb ed="#V" n="23"/>eadem quantitas alterari ad plures
+<lb ed="#V" n="24"/>qualitates simul habendas, quae
+<lb ed="#V" n="25"/>sunt ejusdem rationis?
+</p>
+            <p xml:id="jdso8u-d1e2639-d1e795">
+               <lb ed="#V" n="26"/>Respondeo, quod cum in subjecto
+<lb ed="#V" n="27"/>sint plures potentiae ad plures 
+for<lb ed="#V" n="28" break="no"/>mas ejusdem speciei, si non 
+induca<lb ed="#V" n="29" break="no"/>tur aliquis actus continens omnes
+<lb ed="#V" n="30"/>actus, qui possunt illi perfectibili
+<lb ed="#V" n="31"/>inesse, non terminatur tota potentia
+<lb ed="#V" n="32"/>ipsius susceptivi, et ideo non est
+<lb ed="#V" n="33"/>contradictio, quod aliqua alia forma
+<lb ed="#V" n="34"/>similis insit ; tamen de facto non 
+in<lb ed="#V" n="35" break="no"/>ducitur alia per agens naturale,
+<lb ed="#V" n="36"/>quia ipsum intendit formam 
+prae<lb ed="#V" n="37" break="no"/>existentem imperfectam perficere ;
+<lb ed="#V" n="38"/>inducit enim aliquam realitatem,
+<lb ed="#V" n="39"/>quae nata est esse pars cum realtate
+<lb ed="#V" n="40"/>praeexistente, et unit eam realitati
+<lb ed="#V" n="41"/>praeexistenti, ut partem parti, et ita
+<lb ed="#V" n="42"/>non inducit formam omnino aliam;
+<lb ed="#V" n="43"/>non esset tamen repugnantia quod
+<lb ed="#V" n="44"/>ipsa esset alia, subjecto non propter
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>hoc diversificato, quia subjectum
+<lb ed="#V" n="46"/>habens potentialitatem ad plures
+<lb ed="#V" n="47"/>formas ejusdem specier, est 
+illimita<lb ed="#V" n="48" break="no"/>tum ad illas, et illimitatum ad 
+ali<lb ed="#V" n="49" break="no"/>qua, non oportet commultiplicari
+<lb ed="#V" n="50"/>illis.
+</p>
+            <p xml:id="jdso8u-d1e2639-d1e854">
+               <lb ed="#V" n="51"/>Haec ratio (i) dicta procedit de 
+plu<lb ed="#V" n="52" break="no"/>ribus absolutis in eodem 
+perfecti<lb ed="#V" n="53" break="no"/>bili, et licet ipsa non concluderet
+<lb ed="#V" n="54"/>propositum de relationibus ejusdem
+<lb ed="#V" n="55"/>speciei, tamen illud idem facilius
+<lb ed="#V" n="56"/>probatur. Primo, quia sicut 
+pater<lb ed="#V" n="57" break="no"/>nitas fundatur super genuisse, ita
+<lb ed="#V" n="58"/>haec paternitas super hoc genuisse,
+<lb ed="#V" n="59"/>et haec filiatio super hoc genitum
+<lb ed="#V" n="60"/>esse : pater ergo hac paternitate
+<lb ed="#V" n="61"/>primo respicit hunc filium hac
+<lb ed="#V" n="62"/>filiatione.
+</p>
+            <p xml:id="jdso8u-d1e2639-d1e883">
+               <lb ed="#V" n="63"/>Praeterea, correlativa sunt simul
+<lb ed="#V" n="64"/>natura, ita quod destructo uno, 
+des<lb ed="#V" n="65" break="no"/>truitur et reliquum ; ergo destructa
+<lb ed="#V" n="66"/>hac filiatione in hoc filio, destruitur
+<lb ed="#V" n="67"/>haec paternitas in hoc patre. Cum
+<lb ed="#V" n="68"/>ergo maneat pater respectu secundi
+<lb ed="#V" n="69"/>filii mortuo primo, sequitur quod
+<lb ed="#V" n="70"/>alia paternitas fuit ad secundum
+<lb ed="#V" n="71"/>fium, ab illa quae fuit ad primum;
+<lb ed="#V" n="72"/>nam nulla nova relatio advenit per
+<lb ed="#V" n="73"/>hoc, quod primus filius 
+corrumpi<lb ed="#V" n="74" break="no"/>tur, sicut nec nova generatio 
+adve<lb ed="#V" n="75" break="no"/>nit, ponendo quod secundus filius
+<lb ed="#V" n="76"/>fuisset genitus vivente primo filio.
+</p>
+            <p xml:id="jdso8u-d1e2639-d1e916">
+               <lb ed="#V" n="77"/>Praeterea, quando aliquid (k) est
+<lb ed="#V" n="78"/>in aliquo ultimate tale, non potest
+<lb ed="#V" n="79"/>illud manere in ipso, nisi ipsum 
+ha<lb ed="#V" n="80" break="no"/>bens illud sit ipso tale, sicut non
+<lb ed="#V" n="81"/>potest albedo manere in superficie,
+<lb ed="#V" n="82"/>nisi ipsa superficies sit alba, et
+<lb ed="#V" n="83"/>maxime si superficies sit ultimate
+<lb ed="#V" n="84"/>alba albedine; sed relatio est qua
+<lb ed="#V" n="85"/>habens est ultimate ad aliud ; igitur
+<lb ed="#V" n="86"/>non potest manere eadem in eo,
+<lb ed="#V" n="87"/>nisi illud in quo manet, sit per illam
+<lb ed="#V" n="88"/>ad aliud ; igitur non manet eadem
+<pb ed="#V" n="366"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>paternitas destructo illo termino, ad
+<lb ed="#V" n="2"/>quem habens dicitur formahter tale
+<lb ed="#V" n="3"/>relatione ila.
+</p>
+            <p xml:id="jdso8u-d1e2639-d1e956">
+               <lb ed="#V" n="4"/>Praeterea (l), pater aliquo modo
+<lb ed="#V" n="5"/>aliter respicit hunc filium et illum;
+<lb ed="#V" n="6"/>-si alia relatione, habetur 
+proposi<lb ed="#V" n="7" break="no"/>tum; si non alia relatione, sed alio
+<lb ed="#V" n="8"/>respectu ejusdem relationis, iterum
+<lb ed="#V" n="9"/>habetur propositum, quia illi 
+res<lb ed="#V" n="10" break="no"/>pectus erunt ejusdem rationis, quia
+<lb ed="#V" n="11"/>fundamenta ejusdem rationis sunt
+<lb ed="#V" n="12"/>similiter ; hoc est falsum, quia 
+res<lb ed="#V" n="13" break="no"/>pectus non semper fundatur in 
+rela<lb ed="#V" n="14" break="no"/>tione, ut aliud ab ea, quia ponere
+<lb ed="#V" n="15"/>talia duo est superfluum; quod si
+<lb ed="#V" n="16"/>respectus sit idem relationi in qua
+<lb ed="#V" n="17"/>fundatur, ergo idem est dicere 
+res<lb ed="#V" n="18" break="no"/>pectum plurificari, et relationem
+<lb ed="#V" n="19"/>plurificari ; ergo habetur 
+proposi<lb ed="#V" n="20" break="no"/>tum.
+</p>
+            <p xml:id="jdso8u-d1e2639-d1e995">
+               <lb ed="#V" n="21"/>Praeterea, (m) distinctio prioris
+<lb ed="#V" n="22"/>naturaliter concludit distinctionem
+<lb ed="#V" n="23"/>posterioris, sed non tantum 
+suppo<lb ed="#V" n="24" break="no"/>situm relatum praecedit relationem,
+<lb ed="#V" n="25"/>sed etiam fundamentum ; ergo 
+mul<lb ed="#V" n="26" break="no"/>tiplicato fundamento, multiplicatur
+<lb ed="#V" n="27"/>relatio ; et ita in proposito, cum sint
+<lb ed="#V" n="28"/>duo fundamenta, duae erunt 
+rela<lb ed="#V" n="29" break="no"/>tiones.
+</p>
+            <p xml:id="jdso8u-d1e2639-d1e1017">
+               <lb ed="#V" n="30"/>Praeterea (n), minor illius rationis
+<lb ed="#V" n="31"/>est falsa, quia filiatio aeterna et 
+filia<lb ed="#V" n="32" break="no"/>tio temporalis non sunt ejusdem 
+ra<lb ed="#V" n="33" break="no"/>tionis, quod maxime verum est 
+se<lb ed="#V" n="34" break="no"/>cundum eos, quia ipsi negant 
+ali<lb ed="#V" n="35" break="no"/>quid ejusdem rationis posse dici de
+<lb ed="#V" n="36"/>aeterno et temporali.
+</p>
+            <!-- </div>
+
+<div alias="scotus-d8q1-p2"> -->
+            <p xml:id="jdso8u-d1e2639-d1e1037">
+               <lb ed="#V" n="40" type="fixed=371"/>SCHOLIUM.
+</p>
+            <p xml:id="jdso8u-d1e2639-d1e1042">
+               <lb ed="#V" n="41"/>In Christo esse duas filiationes reales, unam
+<lb ed="#V" n="42"/>ad Patrem, aliam ad Matrem. Probatur primo,
+<lb ed="#V" n="43"/>quia fundantur in duobus, et terminantur ad
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="44"/>duo, et aeternaliter refertur Christus ad 
+Pa<lb ed="#V" n="45" break="no"/>trem, et temporaliter ad Matrem. Secundo, 
+pa<lb ed="#V" n="46" break="no"/>ternitate non refertur Pater ad aliquid 
+crea<lb ed="#V" n="47" break="no"/>tum ; ergo idem de Filio. Tertio, si Maria 
+ge<lb ed="#V" n="48" break="no"/>nuisset purum hominem, esset relatio realis
+<lb ed="#V" n="49"/>in eo ad eam; ergo et in Christo.
+</p>
+            <p xml:id="jdso8u-d1e2639-d1e1067">
+               <lb ed="#V" n="50"/>Ad quaestionem (o) ergo dico
+<lb ed="#V" n="51"/>quod alia est filiatio in Christo ad
+<lb ed="#V" n="52"/>Patrem, et alia ad Matrem, et 
+utra<lb ed="#V" n="53" break="no"/>que est realis. Primum probo, quia
+<lb ed="#V" n="54"/>filiatio est habitudo producti, 
+natu<lb ed="#V" n="55" break="no"/>raliter similis producenti, in natura
+<lb ed="#V" n="56"/>intellectuali. Istoe particulae patent,
+<lb ed="#V" n="57"/>quia sicut paternitas est habitudo
+<lb ed="#V" n="58"/>producentis, ita filiatio producti ;
+<lb ed="#V" n="59"/>naturaliter etiam, nam propter 
+de<lb ed="#V" n="60" break="no"/>fectum hujus particulae Spiritus
+<lb ed="#V" n="61"/>sanctus non est Filius ; similis 
+pro<lb ed="#V" n="62" break="no"/>ducenti, propter hoc vermis non est
+<lb ed="#V" n="63"/>filius Solis ; in natura intellectuali,
+<lb ed="#V" n="64"/>ideo ignis non est filius ignis, nec
+<lb ed="#V" n="65"/>planta plantae, nec proprie bos 
+bo<lb ed="#V" n="66" break="no"/>vis.
+</p>
+            <p xml:id="jdso8u-d1e2639-d1e1106">
+               <lb ed="#V" n="67"/>Quod si omnino contendas 
+bru<lb ed="#V" n="68" break="no"/>tum esse filium bruti, ut vitulum
+<lb ed="#V" n="69"/>esse filium bovis, tunc filiatio est
+<lb ed="#V" n="70"/>habitudo producti naturaliter 
+simi<lb ed="#V" n="71" break="no"/>lis producenti in natura 
+intellec<lb ed="#V" n="72" break="no"/>tuali, vel sensitiva.
+</p>
+            <p xml:id="jdso8u-d1e2639-d1e1122">
+               <lb ed="#V" n="73"/>In ista descriptione (p) nihil per
+<lb ed="#V" n="74"/>se et primo respicit suppositum nisi
+<lb ed="#V" n="75"/>ratione productionis passivae, quia
+<lb ed="#V" n="76"/>omnia alia addita respiciunt 
+natu<lb ed="#V" n="77" break="no"/>ram, vel in producente, vel in 
+pro<lb ed="#V" n="78" break="no"/>ducto, vel in utroque ; filiatio ergo
+<lb ed="#V" n="79"/>ratione nullius magis determinat
+<lb ed="#V" n="80"/>sibi, ut sit suppositi quam generatio
+<lb ed="#V" n="81"/>passiva ; sed generatio passiva 
+plu<lb ed="#V" n="82" break="no"/>rificatur ad plurificationem ipsarum
+<lb ed="#V" n="83"/>naturarum actualter existentium
+<lb ed="#V" n="84"/>acceptarum per ipsas generationes,
+<lb ed="#V" n="85"/>sicut patet per Damascenum cap.
+<lb ed="#V" n="86"/>33. quod Christi sunt duae 
+gencra<lb ed="#V" n="87" break="no"/>tiones ; ergo et ipsa filiatio plurifi-
+<pb ed="#V" n="372"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>catur ad plurificationem 
+earum<lb ed="#V" n="2" break="no"/>dem.
+</p>
+            <p xml:id="jdso8u-d1e2639-d1e1166">
+               <lb ed="#V" n="3"/>Idem, quod argutum est (q) ex
+<lb ed="#V" n="4"/>fundamentis, probatur ex terminis,
+<lb ed="#V" n="5"/>quia ad duos terminos non potest
+<lb ed="#V" n="6"/>esse eadem relatio, quia tunc 
+ea<lb ed="#V" n="7" break="no"/>dem simul esset et non esset.
+</p>
+            <p xml:id="jdso8u-d1e2639-d1e1179">
+               <lb ed="#V" n="8"/>Praeterea (r), propositum magis
+<lb ed="#V" n="9"/>in speciali quantum ad primum 
+os<lb ed="#V" n="10" break="no"/>tenditur sic, quia quaecumque pro
+<lb ed="#V" n="11"/>prietas personalis divina aeque non
+<lb ed="#V" n="12"/>respicit aliquid creatum pro 
+ter<lb ed="#V" n="13" break="no"/>mino ; ergo sicut paternitas aeterna
+<lb ed="#V" n="14"/>non potest esse relatio, qua Pater
+<lb ed="#V" n="15"/>diceretur Filius temporaliter, ita nec
+<lb ed="#V" n="16"/>filiatio aeterna, qua Filius diceretur
+<lb ed="#V" n="17"/>Filius temporaliter.
+</p>
+            <p xml:id="jdso8u-d1e2639-d1e1203">
+               <lb ed="#V" n="18"/>Secundum (s), videlicet quod
+<lb ed="#V" n="19"/>utraque sit realis, patet de aeterna,
+<lb ed="#V" n="20"/>quia realiter est Filius aeternus.
+<lb ed="#V" n="21"/>Probo de temporali, quia illa relatio
+<lb ed="#V" n="22"/>est realis, quae consequitur extrema
+<lb ed="#V" n="23"/>ex natura extremorum sine actu 
+in<lb ed="#V" n="24" break="no"/>tellectus ; posita autem matre 
+gene<lb ed="#V" n="25" break="no"/>rante, et ita supposito habente 
+na<lb ed="#V" n="26" break="no"/>turam per generationem, ex natura
+<lb ed="#V" n="27"/>extremorum sine actu intellectus 
+se<lb ed="#V" n="28" break="no"/>quitur hic filiatio, sicut ibi 
+materni<lb ed="#V" n="29" break="no"/>tas.
+</p>
+            <p xml:id="jdso8u-d1e2639-d1e1233">
+               <lb ed="#V" n="30"/>Quod si quis fingat ibi intellectum
+<lb ed="#V" n="31"/>operari ad causandum relationem,
+<lb ed="#V" n="32"/>hoc improbatur, quia si Maria 
+ge<lb ed="#V" n="33" break="no"/>nuisset purum hominem, fuisset
+<lb ed="#V" n="34"/>vere Mater, et ille Filius relatione
+<lb ed="#V" n="35"/>reali; sed non minus egit modo,
+<lb ed="#V" n="36"/>quam tunc egisset, nec Christus ut
+<lb ed="#V" n="37"/>homo minus realiter accipit 
+natu<lb ed="#V" n="38" break="no"/>ram ab ipsa, quam purus homo 
+ac<lb ed="#V" n="39" break="no"/>cepisset ; ergo ita ex natura 
+extre<lb ed="#V" n="40" break="no"/>morum est modo Filius sicut tunc
+<lb ed="#V" n="41"/>fuisset, et ita aeque realis relatio
+<lb ed="#V" n="42"/>modo sicut tunc.
+</p>
+            <!-- </div>
+
+<div alias="scotus-d8q1-p3"> -->
+            <p xml:id="jdso8u-d1e2639-d1e1266">
+               <lb ed="#V" n="65" type="fixed=376"/>SCHOLIUM.
+</p>
+            <p xml:id="jdso8u-d1e2639-d1e1271">
+               <lb ed="#V" n="66"/>Probabilius videtur filiationem esse 
+habitu<lb ed="#V" n="67" break="no"/>dinem geniti ad generans, fundatam super
+<lb ed="#V" n="68"/>naturam existentem, continuatam a prima
+<lb ed="#V" n="69"/>productione, vel interruptam, sed reproductam;
+<lb ed="#V" n="70"/>alioquin, post resurrectionem nulla esset 
+filia<lb ed="#V" n="71" break="no"/>tio vel paternitas. Hinc tamen non sequitur
+<lb ed="#V" n="72"/>relationem non distinguia natura genita, quia
+<lb ed="#V" n="73"/>licet inseparabilis sit ab ea, ex suppositione
+<lb ed="#V" n="74"/>quod a tali generante accipiat esse, absolute
+<lb ed="#V" n="75"/>separabilis est, quia poterat natura esse a Deo
+<lb ed="#V" n="76"/>creante vel ab alio generante. De quo 2. dist.
+<lb ed="#V" n="77"/>20. quaest. 2. Suarez 3. part. tom. 2. d. 12. sect.
+<lb ed="#V" n="78"/>3. et alii sequuntur Doctorem in hoc quod
+<lb ed="#V" n="79"/>eadem relatio resultat ex fundamento 
+repro<lb ed="#V" n="80" break="no"/>ducto, positis aliis requisitis.
+</p>
+            <p xml:id="jdso8u-d1e2639-d1e1306">
+               <lb ed="#V" n="81"/>Tertio ergo modo videtur 
+median<lb ed="#V" n="82" break="no"/>dum inter istas duas vias extremas,
+<lb ed="#V" n="83"/>videlicet quod filiatio dicat 
+habitu<lb ed="#V" n="84" break="no"/>dinem geniti ad generans, fundatam
+<lb ed="#V" n="85"/>super existentiam actualem naturae
+<lb ed="#V" n="86"/>acceptae per generationem, vel 
+su<lb ed="#V" n="87" break="no"/>per ipsam naturam acceptam sic
+<lb ed="#V" n="88"/>actualiter existentem, et hoc sive
+<pb ed="#V" n="377"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>continue habitam post acceptionem
+<lb ed="#V" n="2"/>sine interruptione, sive eamdem 
+ha<lb ed="#V" n="3" break="no"/>bitam cum interruptione, ita quod
+<lb ed="#V" n="4"/>utrumque accidat sibi.
+</p>
+            <p xml:id="jdso8u-d1e2639-d1e1339">
+               <lb ed="#V" n="5"/>Et hoc modo potest responderi ad
+<lb ed="#V" n="6"/>argumentum, et potest dici quod 
+li<lb ed="#V" n="7" break="no"/>cet ista natura accepta per hanc 
+ge<lb ed="#V" n="8" break="no"/>nerationem, non possit habere idem
+<lb ed="#V" n="9"/>esse numero, quod accepit non 
+fun<lb ed="#V" n="10" break="no"/>dando istam eamdem relationem 
+nu<lb ed="#V" n="11" break="no"/>mero; non tamen ipsa relatio est
+<lb ed="#V" n="12"/>sibi consubstantialis, quia posset
+<lb ed="#V" n="13"/>absolute eadem euxistentia fuisse
+<lb ed="#V" n="14"/>numero habita sine ista relatione,
+<lb ed="#V" n="15"/>puta si accepta fuisset immediate a
+<lb ed="#V" n="16"/>creante vel ab alio generante.
+</p>
+            <p xml:id="jdso8u-d1e2639-d1e1369">
+               <lb ed="#V" n="17"/>Ad argumentum (e) tactum ad 
+is<lb ed="#V" n="18" break="no"/>tud dubium, dico quod relatio 
+natu<lb ed="#V" n="19" break="no"/>rae ad primum efficiens est ei 
+con<lb ed="#V" n="20" break="no"/>substantialis, quia non posset eadem
+<lb ed="#V" n="21"/>- natura esse, nisi haberet relationem
+<lb ed="#V" n="22"/>ad primum efficiens ; sed ad 
+secun<lb ed="#V" n="23" break="no"/>dum efficiens est relatio tantum 
+ac<lb ed="#V" n="24" break="no"/>cidentalis, quia posset natura 
+ma<lb ed="#V" n="25" break="no"/>nere eadem sine habitudine ad
+<lb ed="#V" n="26"/>quodcumque efficiens secundum, et
+<lb ed="#V" n="27"/>de ista materia dictum est diffuse,
+<lb ed="#V" n="28"/>1. dist. 2. lib.
+</p>
+            <p xml:id="jdso8u-d1e2639-d1e1398">
+               <lb ed="#V" n="29"/>Quomodo relatio creaturae (f) ad
+<lb ed="#V" n="30"/>Deum efficientem est eadem 
+creatu<lb ed="#V" n="31" break="no"/>rae, et quomodo non est eadem,
+<lb ed="#V" n="32"/>quia eadem vere et realiter, non 
+ea<lb ed="#V" n="33" break="no"/>dem formaliter ; neque multo magis
+<lb ed="#V" n="34"/>sic sunt eadem substantia, et ipsa
+<lb ed="#V" n="35"/>ratitudo vel firmitas fundamenti.
+<lb ed="#V" n="36"/>Nec ista contradicunt, licet enim
+<lb ed="#V" n="37"/>entitati absolute sit idem realiter
+<lb ed="#V" n="38"/>veritas et bonitas, et huic entitati
+<lb ed="#V" n="39"/>haec veritas et haec bonitas, non 
+ta<lb ed="#V" n="40" break="no"/>men formaliter et quidditative, quia
+<lb ed="#V" n="41"/>veritas et bonitas sunt quasi 
+pas<lb ed="#V" n="42" break="no"/>siones entis 4. Metaph. Va etiam est
+<lb ed="#V" n="43"/>de realitate, a qua accipitur 
+differen<lb ed="#V" n="44" break="no"/>tia, et similiter de quidditate et en-
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>titate individuali, et de aliis multis,
+<lb ed="#V" n="46"/>de quibus frequenter tactum est de
+<lb ed="#V" n="47"/>ista differentia ex parte rei, quia
+<lb ed="#V" n="48"/>haec realitas non est formahter illa,
+<lb ed="#V" n="49"/>licet sit identice illa. Nec etiam est
+<lb ed="#V" n="50"/>contradictio, secundum dicentem,
+<lb ed="#V" n="51"/>respectum vestigialem esse 
+ratitudi<lb ed="#V" n="52" break="no"/>nem fundamenti, aliquid esse idem
+<lb ed="#V" n="53"/>fundamento, quod concessum est 2.
+<lb ed="#V" n="54"/>lib. de relatione creaturae ad Deum,
+<lb ed="#V" n="55"/>et tamen non sic idem, quod sit 
+ra<lb ed="#V" n="56" break="no"/>titudo fundamenti, quod negatum
+<lb ed="#V" n="57"/>est lib. 1. dist. 3. quaest. de Vestigto,
+<lb ed="#V" n="58"/>quia ipse ponit omnem relationem
+<lb ed="#V" n="59"/>esse eamdem fundamento, nec 
+ta<lb ed="#V" n="60" break="no"/>men omnem ratitudinem 
+fundamen<lb ed="#V" n="61" break="no"/>ti, sed distinguit respectum 
+vesti<lb ed="#V" n="62" break="no"/>gialem ab alns in hoc.
+</p>
+            <p xml:id="jdso8u-d1e2639-d1e1476">
+               <lb ed="#V" n="63"/>(g) Ad argumenta. Ad primum 
+di<lb ed="#V" n="64" break="no"/>co quod filius filiatione est filius,
+<lb ed="#V" n="65"/>sicut pater paternitate est pater, sed
+<lb ed="#V" n="66"/>propter hoc non sequitur ad 
+pluri<lb ed="#V" n="67" break="no"/>ficationem filiationum plurificatio
+<lb ed="#V" n="68"/>filiorum, quia concreta non 
+pluri<lb ed="#V" n="69" break="no"/>ficantur nisi plurificentur tam 
+for<lb ed="#V" n="70" break="no"/>ma quam suppositum ; sola enun
+<lb ed="#V" n="71"/>plurificatio formae non sufficit, 
+ma<lb ed="#V" n="72" break="no"/>xime ubi plures formae sive ejusdem
+<lb ed="#V" n="73"/>rationis, sive eodem nomine 
+expres<lb ed="#V" n="74" break="no"/>sae ut hic, possunt esse in eodem,
+<lb ed="#V" n="75"/>quemadmodum Christus non est
+<lb ed="#V" n="76"/>plures volentes, licet habeat plures
+<lb ed="#V" n="77"/>volitiones secundum Damascenum,
+<lb ed="#V" n="78"/>unde in forma arguendi : Filiatione
+<lb ed="#V" n="79"/>est filius, ergo alia filiatione est
+<lb ed="#V" n="80"/>alius filius, est fallacia consequentis
+<lb ed="#V" n="81"/>a destructione antecedentis.
+</p>
+            <p xml:id="jdso8u-d1e2639-d1e1520">
+               <lb ed="#V" n="82"/>Ad secundum dico quod si Pater
+<lb ed="#V" n="83"/>fuisset incarnatus, fuisset confusio,
+<lb ed="#V" n="84"/>quia filiatio temporalis diceretur de
+<lb ed="#V" n="85"/>eadem persona in qua esset 
+paterni<lb ed="#V" n="86" break="no"/>tas aeterna, et ita confuse posset illa
+<lb ed="#V" n="87"/>persona nunc dici Pater, nunc 
+Fi<lb ed="#V" n="88" break="no"/>lius ; modo non est talis confusio,
+<pb ed="#V" n="378"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>quia praecise eadem persona 
+dici<lb ed="#V" n="2" break="no"/>tur Filius utraque filiatione; cum
+<lb ed="#V" n="3"/>ergo nunc absolute dicitur Filius
+<lb ed="#V" n="4"/>distincte, intelligitur de eadem 
+per<lb ed="#V" n="5" break="no"/>sona, de quacumque filiatione fuerit
+<lb ed="#V" n="6"/>sermo ; sed tunc, cum diceretur 
+Fi<lb ed="#V" n="7" break="no"/>lius, non distincte intelligeretur
+<lb ed="#V" n="8"/>unica persona, sed nunc una, nunc
+<lb ed="#V" n="9"/>alia indistincte, secundum quod 
+ser<lb ed="#V" n="10" break="no"/>mo fieret de filiatione hac vel illa.
+<lb ed="#V" n="11"/>similiter argumentum est ad 
+oppo<lb ed="#V" n="12" break="no"/>situm, quia non esset tunc confusio,
+<lb ed="#V" n="13"/>quae non est nunc, nisi quia Pater
+<lb ed="#V" n="14"/>tunc aliqua filiatione et non 
+relatio<lb ed="#V" n="15" break="no"/>ne sua aeterna diceretur Filius 
+ma<lb ed="#V" n="16" break="no"/>tris; ergo et modo Filius dicitur 
+Fi<lb ed="#V" n="17" break="no"/>lius, filiatione alia quam filiatione
+<lb ed="#V" n="18"/>aeterna.
+</p>
+            <p xml:id="jdso8u-d1e2639-d1e1581">
+               <lb ed="#V" n="19"/>Ad tertium patet ex dictis in 
+so<lb ed="#V" n="20" break="no"/>lutione dubii, quia Christus post
+<lb ed="#V" n="21"/>resurrectionem est Filius Mariae,
+<lb ed="#V" n="22"/>eadem filiaone qua prius, quia
+<lb ed="#V" n="23"/>filiatio fundatur super existentia 
+na<lb ed="#V" n="24" break="no"/>turae acceptae per generationem 
+ab<lb ed="#V" n="25" break="no"/>solute, cui accidit interruptio, 
+dum<lb ed="#V" n="26" break="no"/>modo existentia sit eadem, et ideo
+<lb ed="#V" n="27"/>quandocumque illa existentia est
+<lb ed="#V" n="28"/>eadem, et aliud extremum idem, et
+<lb ed="#V" n="29"/>filiatio est eadem, et eadem actione,
+<lb ed="#V" n="30"/>qua fundamentum redit idem, 
+etre<lb ed="#V" n="31" break="no"/>latio redit eadem. |
+</p>
+            <p xml:id="jdso8u-d1e2639-d1e1612">
+               <lb ed="#V" n="32"/>(h) Et cum arguitur quod alia 
+pro<lb ed="#V" n="33" break="no"/>ductione accepit esse in 
+resurrectio<lb ed="#V" n="34" break="no"/>ne, dico quod illa non tollit 
+filiatio<lb ed="#V" n="35" break="no"/>nem, quae fundatur super illud esse
+<lb ed="#V" n="36"/>acceptum primo per generationem,
+<lb ed="#V" n="37"/>sed tantum sunt duae relationes 
+con<lb ed="#V" n="38" break="no"/>sequentes duas productiones 
+passi<lb ed="#V" n="39" break="no"/>vas, quae fuerunt ad idem esse ; et
+<lb ed="#V" n="40"/>una fuit interrupta, sicut et esse
+<lb ed="#V" n="41"/>fundamenti, altera tunc primo est
+<lb ed="#V" n="42"/>nova.
+</p>
+            <p xml:id="jdso8u-d1e2639-d1e1639">
+               <lb ed="#V" n="43"/>Ad aliud dico quod non tantum
+<lb ed="#V" n="44"/>realiter et vere dicitur Christus sic
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>Filius Mariae, sicut Deus realiter et
+<lb ed="#V" n="46"/>vere dicitur Dominus creaturae ; sed
+<lb ed="#V" n="47"/>reali generatione passiva accepit
+<lb ed="#V" n="48"/>illam naturam actualiter existentem,
+<lb ed="#V" n="49"/>propter quod sequitur ipsum reali
+<lb ed="#V" n="50"/>filiatione esse filium.
+</p>
+            <p xml:id="jdso8u-d1e2639-d1e1661">
+               <lb ed="#V" n="51"/>Ad aliud enim dico quod etsi Deus
+<lb ed="#V" n="52"/>dicatur formaliter creator relatione
+<lb ed="#V" n="53"/>rationis, vel etiam nullarelatione, sed
+<lb ed="#V" n="54"/>denominatione reducta ad genus 
+he<lb ed="#V" n="55" break="no"/>lationis, inquantum scilicet terminat
+<lb ed="#V" n="56"/>relationem in creatura, sicut dictum
+<lb ed="#V" n="57"/>fuit dist. 20. primi, tamen non est
+<lb ed="#V" n="58"/>creativus per relationem rationis;
+<lb ed="#V" n="59"/>et hoc intelligendo non de eo 
+forma<lb ed="#V" n="60" break="no"/>hter quod importatur per hoc 
+no<lb ed="#V" n="61" break="no"/>men creativus, sed de fundamento,
+<lb ed="#V" n="62"/>sicut aliquid dicitur calefactivum
+<lb ed="#V" n="63"/>calore, ut fundamento potentiae 
+ca<lb ed="#V" n="64" break="no"/>lefactivae, et non relatione fundata
+<lb ed="#V" n="65"/>in calore. Et ratio ad hoc posset 
+tan<lb ed="#V" n="66" break="no"/>gi, quia nulla relatio rationis potest
+<lb ed="#V" n="67"/>esse formalis ratio, qua aliquid 
+po<lb ed="#V" n="68" break="no"/>test producere ens reale, quia ens
+<lb ed="#V" n="69"/>rationis non est in aliquo, nisi ut
+<lb ed="#V" n="70"/>tantum habet esse in mntellectu, 
+si<lb ed="#V" n="71" break="no"/>cut cognitum in cognoscente ; hoc
+<lb ed="#V" n="72"/>autem esse est diminutum respectu
+<lb ed="#V" n="73"/>esse existentiae realis, et ideo 
+secun<lb ed="#V" n="74" break="no"/>dum istud esse, non potest esse 
+cau<lb ed="#V" n="75" break="no"/>sa alicujus secundum aliquod esse
+<lb ed="#V" n="76"/>realis existentiae, quod est esse 
+per<lb ed="#V" n="77" break="no"/>fectius, neque producti naturaiiter
+<lb ed="#V" n="78"/>neque artificialiter.
+</p>
+            <p xml:id="jdso8u-d1e2639-d1e1724">
+               <lb ed="#V" n="79"/>(i) Et cum probatur in proposito,
+<lb ed="#V" n="80"/>quod Deus non est potens creare,
+<lb ed="#V" n="81"/>nisi ut artifex, respondeo, quod
+<lb ed="#V" n="82"/>scientia Dei, quae est in Deo 
+quae<lb ed="#V" n="83" break="no"/>dam perfectio absoluta, est in eo ex
+<lb ed="#V" n="84"/>natura rei, sed ipsa non dicitur ars
+<lb ed="#V" n="85"/>nisi ex respectu ad alia objecta, vel
+<lb ed="#V" n="86"/>aliquorum objectorum ad ipsam.
+<lb ed="#V" n="87"/>Licet ergo Deus (j producat 
+creatu<lb ed="#V" n="88" break="no"/>ras ut artifex, hoc tamen non est, ut
+<pb ed="#V" n="379"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>in scientia fundatur respectus 
+ratio<lb ed="#V" n="2" break="no"/>nis, quae sit ratio, qua potest 
+produ<lb ed="#V" n="3" break="no"/>cere, sed tantum ut ille habitus 
+ab<lb ed="#V" n="4" break="no"/>solutus, qui dicitur esse ars, inest
+<lb ed="#V" n="5"/>ipsi Deo, ita quod in forma arguendi
+<lb ed="#V" n="6"/>est fallacia accidentis, Deus ut 
+arti<lb ed="#V" n="7" break="no"/>fex est productivus, per relationem
+<lb ed="#V" n="8"/>rationis est artifex ; ergo per 
+relatio<lb ed="#V" n="9" break="no"/>nem rationis est productivus. Major
+<lb ed="#V" n="10"/>enim est vera prout medium non
+<lb ed="#V" n="11"/>accipitur pro ipsa relatione, quam
+<lb ed="#V" n="12"/>importat artifex, sed pro fundamento
+<lb ed="#V" n="13"/>ipsius relationis ; et minor est vera
+<lb ed="#V" n="14"/>tantum pro ipsa relatione 
+formali<lb ed="#V" n="15" break="no"/>ter. Exemplum, calidum potentia
+<lb ed="#V" n="16"/>calefactiva est calefactivum ; 
+poten<lb ed="#V" n="17" break="no"/>tia calefactiva est relatio; ergo 
+rela<lb ed="#V" n="18" break="no"/>tione est calefactivum. Major est
+<lb ed="#V" n="19"/>vera de potentia sumpta pro eo quod
+<lb ed="#V" n="20"/>dicitur potentia calefactiva, sive pro
+<lb ed="#V" n="21"/>fundamento istius relationis, non
+<lb ed="#V" n="22"/>autem pro ipsa relatione 
+potentiali<lb ed="#V" n="23" break="no"/>tatis. Et minor est vera solum pro
+<lb ed="#V" n="24"/>ipsa potentialitate et relatione in se
+<lb ed="#V" n="25"/>importata per ipsam, et non pro 
+ip<lb ed="#V" n="26" break="no"/>so absoluto in quo fundatur.
+<lb ed="#V" n="27"/>Qualiter autem scientia Der 
+ab<lb ed="#V" n="28" break="no"/>soluta, et ut absoluta, possit 
+sufficien<lb ed="#V" n="29" break="no"/>ter habere totam rationem artis, 
+in<lb ed="#V" n="30" break="no"/>quantum ipsa terminat relationes
+<lb ed="#V" n="31"/>omnium creaturarum ut 
+artificiato<lb ed="#V" n="32" break="no"/>rum ad artificem, dictum est diust.
+<lb ed="#V" n="33"/>35. et 35. lib. . in materia de
+<lb ed="#V" n="34"/>ideis.
+</p>
+            <p xml:id="jdso8u-d1e2639-d1e1826">
+               <lb ed="#V" n="35"/>(k) Ad ultimum concedo quod
+<lb ed="#V" n="36"/>lilius est realiter aequalis matri 
+se<lb ed="#V" n="37" break="no"/>cundum naturam humanam, vel 
+ex<lb ed="#V" n="38" break="no"/>cellentior. Et cum arguitur de illa
+<lb ed="#V" n="39"/>unione, probo quod ista propositio
+<lb ed="#V" n="40"/>accepta, scilicet quod eequalitas 
+fun<lb ed="#V" n="41" break="no"/>datur super unitatem unionis, est
+<lb ed="#V" n="42"/>falsa, quia unio est relatio ; non
+<lb ed="#V" n="43"/>enim potest intelligi ratio unionis
+<lb ed="#V" n="44"/>ad se, quaero tunc quae relatio ? aut
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>eadem, quae aequalitas, et tunc idem
+<lb ed="#V" n="46"/>fundabitur in se; aut est alia, et si
+<lb ed="#V" n="47"/>alia, aut illa fundabitur super unum,
+<lb ed="#V" n="48"/>et quaero, super quam unitatem ? si
+<lb ed="#V" n="49"/>super unitatem, et non super 
+unita<lb ed="#V" n="50" break="no"/>tem unionis, idem potest dici de
+<lb ed="#V" n="51"/>eequalitate; si super unitatem 
+unio<lb ed="#V" n="52" break="no"/>nis, esset processus in infinitum.
+</p>
+            <p xml:id="jdso8u-d1e2639-d1e1870">
+               <lb ed="#V" n="53"/>Et si dicas, quod ista unio non est
+<lb ed="#V" n="54"/>materiae ad formam, neque aliqua
+<lb ed="#V" n="55"/>multarum unionum manifestarum,
+<lb ed="#V" n="56"/>sed est unio paritatis, hoc videtur
+<lb ed="#V" n="57"/>exponere unum vocabulum, per
+<lb ed="#V" n="58"/>aliud ejusdem sensus ; idem enim
+<lb ed="#V" n="59"/>est aequalitas, et talis unitas 
+parita<lb ed="#V" n="60" break="no"/>tis. Negare ergo aequalitatem in 
+Di<lb ed="#V" n="61" break="no"/>vinis esse realem, quia non est ibi
+<lb ed="#V" n="62"/>unitas paritatis, eo modo quo 
+ante<lb ed="#V" n="63" break="no"/>cedens potest habere aliquem 
+intel<lb ed="#V" n="64" break="no"/>lectum probabilem, est negare idem
+<lb ed="#V" n="65"/>propter idem, ut quod aequahtas non
+<lb ed="#V" n="66"/>sit relatio realis, quia non est 
+aequa<lb ed="#V" n="67" break="no"/>litas. Et quod additur ad istam 
+con<lb ed="#V" n="68" break="no"/>clusionem, quod oporteret essentiam
+<lb ed="#V" n="69"/>bis accipi, non autem bis accipitur,
+<lb ed="#V" n="70"/>nisi ut habens unitatem unionis,
+<lb ed="#V" n="71"/>improbatur per hoc, quod essentia
+<lb ed="#V" n="72"/>fundat relationes originis, quae sunt
+<lb ed="#V" n="73"/>reales, et tamen non est bis accepta
+<lb ed="#V" n="74"/>ex natura rei.
+</p>
+            <p xml:id="jdso8u-d1e2639-d1e1920">
+               <lb ed="#V" n="75"/>Quod si dicatur ipsam bis accipi in
+<lb ed="#V" n="76"/>producente et producto, contra, 
+quae<lb ed="#V" n="77" break="no"/>ro quid est bis accipi ex natura rei?
+<lb ed="#V" n="78"/>aut habere aliqua aliquo modo 
+dis<lb ed="#V" n="79" break="no"/>tincta ex natura ret, et absoluta, et
+<lb ed="#V" n="80"/>hoc falsum est in proposito ; aut 
+tan<lb ed="#V" n="81" break="no"/>tum habere relationes distinctas ex
+<lb ed="#V" n="82"/>natura rei, et tunc essentiam fundare
+<lb ed="#V" n="83"/>ex natura rei relationes originis
+<lb ed="#V" n="84"/>distinctas, quia bis accipere ex 
+natu<lb ed="#V" n="85" break="no"/>ra rei, est ipsam fundare relationes
+<lb ed="#V" n="86"/>originis reales, quia fundat duas 
+re<lb ed="#V" n="87" break="no"/>lationes reales, quod nihil est.
+</p>
+            <p xml:id="jdso8u-d1e2639-d1e1952">
+               <lb ed="#V" n="88"/>Ad argumentum ergo dico quod
+<pb ed="#V" n="380"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>super unitatem non unionis fundatur
+<lb ed="#V" n="2"/>aequalitas ; sed illa unitas in 
+creatu<lb ed="#V" n="3" break="no"/>ris non est entis singularis, sed 
+na<lb ed="#V" n="4" break="no"/>turae, de qua duplici unitate tactum
+<lb ed="#V" n="5"/>est satis in quaest. de indivtduatione
+<lb ed="#V" n="6"/>2. lib. dist. 5. et ita in proposito 
+uni<lb ed="#V" n="7" break="no"/>tas fundans aequalitatem non est
+<lb ed="#V" n="8"/>unitas personae, sed naturae ; nec
+<lb ed="#V" n="9"/>illam oportet distingui vel bis accipi,
+<lb ed="#V" n="10"/>ad hoc quod relatio sit realis, sed
+<lb ed="#V" n="11"/>sufficit quod ipsa existente eadem,
+<lb ed="#V" n="12"/>extrema realiter distinguantur, sicut
+<lb ed="#V" n="13"/>et in relationibus originis.
+</p>
+            <p xml:id="jdso8u-d1e2639-d1e1989">
+               <lb ed="#V" n="14"/>Et tunc ad propositum dico quod
+<lb ed="#V" n="15"/>in natura humana in Christo est
+<lb ed="#V" n="16"/>unitas aliqua realis minor unitate
+<lb ed="#V" n="17"/>numerali, et similter unitas realis
+<lb ed="#V" n="18"/>in Maria; et ista unitas est 
+funda<lb ed="#V" n="19" break="no"/>mentum mutuae aequalttatis in 
+Chri<lb ed="#V" n="20" break="no"/>sto et Maria, si ponantur fuisse
+<lb ed="#V" n="21"/>aquales in natura humana.
+</p>
+            <!--</div>-->
+         </div>
+      </body>
+   </text>
+</TEI>

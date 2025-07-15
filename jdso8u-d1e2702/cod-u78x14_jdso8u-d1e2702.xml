@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Scotus">John Duns Scotus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2025-07-15">July 15, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-u78x14">Vives, Paris, 1893, volume 14</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-15" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="426"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jdso8u-d1e2702"><!-- jdso8u-b3d11q2 -->
+            <head xml:id="jdso8u-d1e2702-Hd1e99">Quaestio 2</head>
+            <head xml:id="jdso8u-d1e2702-Hd1e101" type="question-title">Utrum Christus, secundum quod homo, sit creatura</head>
+            <!-- <div> -->
+            <p xml:id="jdso8u-d1e2702-d1e106">
+               <lb ed="#V" n="52" type="fixed=426"/>QUAESTIO II.
+<lb ed="#V" n="53"/>Utrum Christus, secundum quod homo,
+<lb ed="#V" n="54"/>sit creatura ?
+</p>
+            <p xml:id="jdso8u-d1e2702-d1e115">
+               <lb ed="#V" n="55"/>D. Thom. 3. p. q.16. art. 10. (ubi Cajet. Suar.)
+<lb ed="#V" n="56"/>et híc q. 2. art. 1. D. Bonav. art. 2. q. 1. 
+Ri<lb ed="#V" n="57" break="no"/>chard. art. 2. quest. 1. Durand. q. 1. Gabr.
+<lb ed="#V" n="58"/>q. 1. Vasq. 3 p. d. 66. cap. 2. Bassol. d. 10.
+<lb ed="#V" n="59"/>q. 1. art. 2. Rubion. ibi art. 2.
+</p>
+            <p xml:id="jdso8u-d1e2702-d1e129">
+               <lb ed="#V" n="60"/>Secundo quaeritur, utrum 
+Chris<lb ed="#V" n="61" break="no"/>tus, secundum quod homo, sit 
+crea<lb ed="#V" n="62" break="no"/>tura ? Quod sic videtur, quia 
+se<lb ed="#V" n="63" break="no"/>cundum quod homo, est aliquid non
+<lb ed="#V" n="64"/>increatum, quia tunc homo 
+praedi<lb ed="#V" n="65" break="no"/>caret idem de Christo, quod Deus,
+<lb ed="#V" n="66"/>quod est falsum ; ergo praedicat 
+ah<lb ed="#V" n="67" break="no"/>quid creatum ; ergo est creatura.
+</p>
+            <p xml:id="jdso8u-d1e2702-d1e149">
+               <lb ed="#V" n="68"/>Praeterea 5. Physic. quod 
+conve<lb ed="#V" n="69" break="no"/>nit toti secundum partem, dicitur
+<lb ed="#V" n="70"/>de toto, sicut homo sanatur, quia
+<lb ed="#V" n="71"/>thorax sanatur ; ergo cum naturae
+<lb ed="#V" n="72"/>humanae conveniat esse creaturam,
+<lb ed="#V" n="73"/>hoc dicetur de Christo, et maxime
+<lb ed="#V" n="74"/>cum determinatione ilius naturae;
+<lb ed="#V" n="75"/>ergo simpliciter dicetur quod 
+Chris<lb ed="#V" n="76" break="no"/>tus est creatura secundum quod 
+ho<lb ed="#V" n="77" break="no"/>mo, sicut simpliciter verum est 
+dice<lb ed="#V" n="78" break="no"/>re quod homo sanatur secundum
+<lb ed="#V" n="79"/>thoracem.
+</p>
+            <p xml:id="jdso8u-d1e2702-d1e178">
+               <lb ed="#V" n="80"/>Contra, si secundum quod homo
+<lb ed="#V" n="81"/>est creatura, ergo secundum quod
+<lb ed="#V" n="82"/>iste homo, quia non est alius 
+ho<lb ed="#V" n="83" break="no"/>mo, quam iste homo ; sed si 
+secun<lb ed="#V" n="84" break="no"/>dum quod iste homo est creatura,
+<lb ed="#V" n="85"/>iste homo est creatura. Probatio
+<lb ed="#V" n="86"/>consequentiae, quia de eo quod se-
+<pb ed="#V" n="427"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>quitur reduplicationem, absolute
+<lb ed="#V" n="2"/>potest enuntiari praedicatum, sicut
+<lb ed="#V" n="3"/>si homo, secundum quod coloratus
+<lb ed="#V" n="4"/>videtur, coloratum videtur ; ergo si
+<lb ed="#V" n="5"/>secundum quod iste homo est 
+crea<lb ed="#V" n="6" break="no"/>tura, vere iste homo est creatura.
+<lb ed="#V" n="7"/>Consequens est falsum, quia 
+secun<lb ed="#V" n="8" break="no"/>dum Damascenum 50. cap. d4ste
+<lb ed="#V" n="9"/>puer creavit stellas ; ergo est 
+crea<lb ed="#V" n="10" break="no"/>tor, et ita non est creatura.
+</p>
+            <p xml:id="jdso8u-d1e2702-d1e222">
+               <lb ed="#V" n="11"/>Praeterea, si Christus secundum
+<lb ed="#V" n="12"/>quod homo, est creatura, igitur
+<lb ed="#V" n="13"/>simpliciter est creatura. Consequens
+<lb ed="#V" n="14"/>est falsum ex praecedenti 
+quaestio<lb ed="#V" n="15" break="no"/>ne. Probatio consequentiae, quia
+<lb ed="#V" n="16"/>quod enuntiatur de supposito cum
+<lb ed="#V" n="17"/>reduplicatione speciei, enuntiatur
+<lb ed="#V" n="18"/>de eodem simpliciter; sicut si Petrus
+<lb ed="#V" n="19"/>est inquantum homo, ergo Petrus
+<lb ed="#V" n="20"/>est sumpliciter, ita in proposito,
+<lb ed="#V" n="21"/>igitur, etc.
+</p>
+            <p xml:id="jdso8u-d1e2702-d1e248">
+               <lb ed="#V" n="22"/>SCHOLIDM.
+</p>
+            <p xml:id="jdso8u-d1e2702-d1e253">
+               <lb ed="#V" n="23"/>Christus secundum quod homo 
+reduplica<lb ed="#V" n="24" break="no"/>tive, non est creatura, bene tamen si sumatur,
+<lb ed="#V" n="25"/>ly secundum quod homo distractive, et 
+tuncsen<lb ed="#V" n="26" break="no"/>sus est, secundum humanitatem esse 
+creatu<lb ed="#V" n="27" break="no"/>ram, ad modum hujus: Ethiops secundum
+<lb ed="#V" n="28"/>quod habet dentes, est albus, reduplicative est
+<lb ed="#V" n="29"/>falsa, distractive non. Vide Doct. supra d. 6.
+<lb ed="#V" n="30"/>quaest. 2. et super primum Prior. q. 35. ubi 
+ex<lb ed="#V" n="31" break="no"/>plicat reduplicationem et distractionem, de quo
+<lb ed="#V" n="32"/>Leuchet. et Tartaret. hic. Adde, incipere, esse
+<lb ed="#V" n="33"/>superius ad esse genitum et creatum et 
+con<lb ed="#V" n="34" break="no"/>ceptum, et sic licet detur quod Christus 
+ince<lb ed="#V" n="35" break="no"/>perit, et habetur ex August. tract. 105. in Joan.
+<lb ed="#V" n="36"/>antequam mundus fieret, nec nos eramus, nec ipse
+<lb ed="#V" n="37"/>mediator Christus, Nazian. oratione 35. num.
+<lb ed="#V" n="38"/>12. ait Christum esse factum, et Leo serm. 3.
+<lb ed="#V" n="39"/>Pentecost. cap. 2 dicit esse temporalem, non
+<lb ed="#V" n="40"/>inde habetur quod est creatura.
+</p>
+            <p xml:id="jdso8u-d1e2702-d1e296">
+               <lb ed="#V" n="41"/>Respondeo (a), quando propositio
+<lb ed="#V" n="42"/>affirmativa est falsa ex repugnantia
+<lb ed="#V" n="43"/>extremorum, quacumque 
+determina<lb ed="#V" n="44" break="no"/>tione vel reduplicatione addita, quae
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>non tollit repugnantiam eorum, non
+<lb ed="#V" n="46"/>tollit rationem falsitatis illius. 
+he<lb ed="#V" n="47" break="no"/>duplicatio autem proprie sumpta
+<lb ed="#V" n="48"/>non diminuit alterum extremum,
+<lb ed="#V" n="49"/>quia est determinatio extremi ad
+<lb ed="#V" n="50"/>extremum ; ergo ipsa non vertficat
+<lb ed="#V" n="51"/>aliquam propositionem, quae sine
+<lb ed="#V" n="52"/>reduplicatione fuit falsa; tamen si
+<lb ed="#V" n="53"/>addatur alteri extremo, ut 
+praedica<lb ed="#V" n="54" break="no"/>to, aliquid distrahens ipsum, ut 
+dis<lb ed="#V" n="55" break="no"/>tractum non repugnet alteri 
+extre<lb ed="#V" n="56" break="no"/>mo, sicut prius repugnavit non
+<lb ed="#V" n="57"/>distractum, potest propositio cum
+<lb ed="#V" n="58"/>tali determinatione distrahente esse
+<lb ed="#V" n="59"/>vera, et non sine ea; sicut si album
+<lb ed="#V" n="60"/>simpliciter repugnet ZEthiopu et
+<lb ed="#V" n="61"/>propter hoc erit haec propositio 
+fal<lb ed="#V" n="62" break="no"/>sa: zFthiops est albus, et haec
+<lb ed="#V" n="63"/>-«Ethiops inquantum homo est albus,
+<lb ed="#V" n="64"/>addito tamen eo, quod est secundur
+<lb ed="#V" n="65"/>dentes ad praedicatum, per quod
+<lb ed="#V" n="66"/>distrahitur ipsum praedicatum, et
+<lb ed="#V" n="67"/>tollitur repugnantia ejus ad 
+subjec<lb ed="#V" n="68" break="no"/>tum, propositio est vera, quae tamen
+<lb ed="#V" n="69"/>sine additione non fuit vera.
+</p>
+            <p xml:id="jdso8u-d1e2702-d1e364">
+               <lb ed="#V" n="70"/>Ad propositum, si secundum quod
+<lb ed="#V" n="71"/>homo accipiatur proprie 
+reduplica<lb ed="#V" n="72" break="no"/>tive, neutrum eorum distrahitur, et
+<lb ed="#V" n="73"/>ita non tollitur repugnantia, si qua
+<lb ed="#V" n="74"/>est, et ita non magis est ista vera:
+<lb ed="#V" n="75"/>Christus secundum quod homo est
+<lb ed="#V" n="76"/>creatura, quam ista : Christus est
+<lb ed="#V" n="77"/>creatura, quia utrobique manet 
+ea<lb ed="#V" n="78" break="no"/>dem ratio falsitatis. Sed si addatur
+<lb ed="#V" n="79"/>ista determinatio secundum quod
+<lb ed="#V" n="80"/>homo alteri extremo, puta 
+praedica<lb ed="#V" n="81" break="no"/>to, ut distrahat ipsum respectu 
+sub<lb ed="#V" n="82" break="no"/>jecti, tolleretur ila repugnantia
+<lb ed="#V" n="83"/>praedicati jam distracti ad 
+subjec<lb ed="#V" n="84" break="no"/>tum, quae fuit praedicati simphciter
+<lb ed="#V" n="85"/>sumpti ad subjectum. Haec ergo 
+pro<lb ed="#V" n="86" break="no"/>positio, accipiendo ly secundum
+<lb ed="#V" n="87"/>quod proprie, ut est nota inhaerentiae
+<lb ed="#V" n="88"/>reduplicationis praedicati, falsa est.
+<pb ed="#V" n="428"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>Secundum autem quod specificat
+<lb ed="#V" n="2"/>sive distrahit ipsum praedicatum, ut
+<lb ed="#V" n="3"/>notet creationem secundum quid,
+<lb ed="#V" n="4"/>sic potest concedi, quamvis tamen
+<lb ed="#V" n="5"/>sit impropria, et exponenda per 
+is<lb ed="#V" n="6" break="no"/>tam : Christus secundum 
+humanita<lb ed="#V" n="7" break="no"/>tem est creatura. Exemplum hujus
+<lb ed="#V" n="8"/>patet in illo exemplo de 7Ethiope
+<lb ed="#V" n="9"/>comparato ad albedinem, quia sicut
+<lb ed="#V" n="10"/>ista est falsa : ^FEthiops est albus,
+<lb ed="#V" n="11"/>ita ista : zFthiops secundum quod
+<lb ed="#V" n="12"/>habens dentes est albus, secundum
+<lb ed="#V" n="13"/>quod propositio est proprie 
+redupli<lb ed="#V" n="14" break="no"/>cativa ; ista tamen est vera
+<lb ed="#V" n="15"/>Fthiops est albus secundum dentes,
+<lb ed="#V" n="16"/>et hoc, secundum quod habens 
+den<lb ed="#V" n="17" break="no"/>tes, si istud secundum quod 
+distra<lb ed="#V" n="18" break="no"/>hat praedicatum, tamen sic non est
+<lb ed="#V" n="19"/>propria.
+</p>
+            <!-- </div>
+<div alias="scotus-d11q2-p2"> -->
+            <p xml:id="jdso8u-d1e2702-d1e455">
+               <lb ed="#V" n="24" type="fixed=429"/>SCHOLIUM.
+</p>
+            <p xml:id="jdso8u-d1e2702-d1e460">
+               <lb ed="#V" n="25"/>Ad secundum, bene explicat quando ratione
+<lb ed="#V" n="26"/>partis denominatur totum, et quomodo 
+oppo<lb ed="#V" n="27" break="no"/>sita, quae insunt secundum partes, non 
+deno<lb ed="#V" n="28" break="no"/>minant totum ; declarat rem exemplo. Vide
+<lb ed="#V" n="29"/>eum quaest. 45. Elench. ubi ex professo tractat
+<lb ed="#V" n="30"/>de istis. Leuch. Tartaret. et Pitigianis hic.
+</p>
+            <p xml:id="jdso8u-d1e2702-d1e476">
+               <lb ed="#V" n="31"/>Ad argumenta. (b) Ad primum
+<lb ed="#V" n="32"/>principale dico concedendo quod
+<lb ed="#V" n="33"/>est aliquid, et potest concedi quod
+<lb ed="#V" n="34"/>est aliquid creatum secundum quod
+<lb ed="#V" n="35"/>homo, quia tunc distrahitur 
+praedi<lb ed="#V" n="36" break="no"/>catum per ly secundum quod homo,
+<lb ed="#V" n="37"/>sicut ;Ethiops est albus secundum
+<lb ed="#V" n="38"/>dentes ; sed tunc non sequitur 
+sim<lb ed="#V" n="39" break="no"/>pliciter, ergo Christus est creatura,
+<lb ed="#V" n="40"/>sicut nec alibi, ergo est albus, sed
+<lb ed="#V" n="41"/>est fallacia secundum quid et 
+sim<lb ed="#V" n="42" break="no"/>pliciter.
+</p>
+            <p xml:id="jdso8u-d1e2702-d1e506">
+               <cb ed="#V" n="b"/>
+               <lb ed="#V" n="43"/>Vel dici potest quod est aliquid
+<lb ed="#V" n="44"/>increatum, quia aliquid non ibi stat
+<lb ed="#V" n="45"/>tantum pro natura, sed pro 
+denomi<lb ed="#V" n="46" break="no"/>nato illius, scilicet naturae ; ulud
+<lb ed="#V" n="47"/>autem aliquid potest dici increatum
+<lb ed="#V" n="48"/>ratione suppositi, quod 
+denomina<lb ed="#V" n="49" break="no"/>tur a natura ; nec sequitur quod
+<lb ed="#V" n="50"/>idem praedicaret homo de Christo,
+<lb ed="#V" n="51"/>quod Deus, quia, ut Deus, 
+praedica<lb ed="#V" n="52" break="no"/>ret de ipso Christo esse increatum
+<lb ed="#V" n="53"/>per se et essentialiter, homo autem
+<lb ed="#V" n="54"/>tantum denominative.
+</p>
+            <p xml:id="jdso8u-d1e2702-d1e537">
+               <lb ed="#V" n="55"/>(c) Ad aliud dico quod si opposita
+<lb ed="#V" n="56"/>possunt inesse secundum diversas
+<lb ed="#V" n="57"/>partes, neutrum denominat totum
+<lb ed="#V" n="58"/>ex vi sermonis, sed utraque est
+<lb ed="#V" n="59"/>falsa, sicut patet de scuto, cujus
+<lb ed="#V" n="60"/>una medietas est alba, et alia 
+medie<lb ed="#V" n="61" break="no"/>tas est nigra ; falsum est enim
+<lb ed="#V" n="62"/>enuntiare sive album sive nigrum
+<lb ed="#V" n="63"/>simpliciter. Nec Philosophus 5.
+<lb ed="#V" n="64"/>Physicor. curavit de Logica, sed de
+<lb ed="#V" n="65"/>ipsa realitate, secundum quod 
+alr<lb ed="#V" n="66" break="no"/>quid dicitur tripliciter moveri,
+<lb ed="#V" n="67"/>quando aliquod praedicatum natum
+<lb ed="#V" n="68"/>est inesse toti per aliquam partem,
+<lb ed="#V" n="69"/>quia scilicet sibi praecise inest ;
+<lb ed="#V" n="70"/>tunc ex hoc quod denominat 
+par<lb ed="#V" n="71" break="no"/>tem, sequitur quod denominat 
+to<lb ed="#V" n="72" break="no"/>tum, quia denominat ipsum, sicut
+<lb ed="#V" n="73"/>natum est ipsum denominare, 
+quem<lb ed="#V" n="74" break="no"/>admodum visio nata est inesse
+<lb ed="#V" n="75"/>animal praecise secundum oculos,
+<lb ed="#V" n="76"/>et ideo si secundum illos insit, de
+<lb ed="#V" n="77"/>virtute sermonis inest toti.
+</p>
+            <p xml:id="jdso8u-d1e2702-d1e589">
+               <lb ed="#V" n="78"/>Ita si sanari natum est praecise
+<lb ed="#V" n="79"/>vel principaliter inesse homini 
+se<lb ed="#V" n="80" break="no"/>cundum thoracem, hoc est 
+secun<lb ed="#V" n="81" break="no"/>dum cor, quod intelligo per 
+thora<lb ed="#V" n="82" break="no"/>cem, potest sic dici animal sanum
+<lb ed="#V" n="83"/>simphciter, quia thorax est sanus.
+<lb ed="#V" n="84"/>Si tamen secundum aliam partem
+<lb ed="#V" n="85"/>aque sit natum mnesse hoc, et 
+oppo<lb ed="#V" n="86" break="no"/>situm secundum quod denommunat
+<pb ed="#V" n="430"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>hanc partem, non dicitur 
+simplici<lb ed="#V" n="2" break="no"/>ter animmal sanum, quia tunc duo
+<lb ed="#V" n="3"/>opposita possunt simul enuntiari de
+<lb ed="#V" n="4"/>eodem.
+</p>
+            <p xml:id="jdso8u-d1e2702-d1e624">
+               <lb ed="#V" n="5"/>Ita ad propositum dico quodsi
+<lb ed="#V" n="6"/>creatura non est nata enuntiari de
+<lb ed="#V" n="7"/>toto ratione partis, nist forte ilus
+<lb ed="#V" n="8"/>partis, a qua totum habet esse 
+pri<lb ed="#V" n="9" break="no"/>mum, vel ratione totalis esse totius,
+<lb ed="#V" n="10"/>et humanitas vel natura humana in
+<lb ed="#V" n="11"/>Christo non sit primum esse Christi,
+<lb ed="#V" n="12"/>nec esse totale ejus, non potest de
+<lb ed="#V" n="13"/>Christo ratione naturae creatae
+<lb ed="#V" n="14"/>enuntiari hoc, quod est creatura,
+<lb ed="#V" n="15"/>neque simpliciter, neque cum 
+re<lb ed="#V" n="16" break="no"/>duplicatione.
+</p>
+            <p xml:id="jdso8u-d1e2702-d1e653">
+               <lb ed="#V" n="17"/>Et si obiciatur (d) quod duo 
+op<lb ed="#V" n="18" break="no"/>posita conceduntur esse vera de
+<lb ed="#V" n="19"/>Christo sicut mortale et immortale,
+<lb ed="#V" n="20"/>passibile et impassibile ; ergo 
+crea<lb ed="#V" n="21" break="no"/>tor et creatura.
+</p>
+            <p xml:id="jdso8u-d1e2702-d1e666">
+               <lb ed="#V" n="22"/>Dico quod contradictoria 
+nun<lb ed="#V" n="23" break="no"/>quam conceduntur esse vera de
+<lb ed="#V" n="24"/>Christo, sicut nec de quocumque
+<lb ed="#V" n="25"/>alio, quia etsi ratione duarum 
+natu<lb ed="#V" n="26" break="no"/>rarum oppositae proprietates 
+affir<lb ed="#V" n="27" break="no"/>mativae dicantur de toto, quia 
+suffi<lb ed="#V" n="28" break="no"/>cit ad hoc quod utraque affirmativa
+<lb ed="#V" n="29"/>habeat aliquam causam verttatis,
+<lb ed="#V" n="30"/>secundum quam possit inesse 
+sub<lb ed="#V" n="31" break="no"/>jecto, tamen negativae illarum 
+affir<lb ed="#V" n="32" break="no"/>mativarum simul eidem inesse 
+sim<lb ed="#V" n="33" break="no"/>pliciter, est impossibile, et ita
+<lb ed="#V" n="34"/>contradictoria nunquam sunt simul
+<lb ed="#V" n="35"/>vera, imo sicut est passibilis et
+<lb ed="#V" n="36"/>impassibilis, ita falsum est ipsum
+<lb ed="#V" n="37"/>non esse passibilem, et similter
+<lb ed="#V" n="38"/>ipsum non esse impassibilem.
+</p>
+            <!--</div>-->
+         </div>
+      </body>
+   </text>
+</TEI>

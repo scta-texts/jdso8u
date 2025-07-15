@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Scotus">John Duns Scotus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2025-07-15">July 15, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-u78x14">Vives, Paris, 1893, volume 14</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-15" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="403"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jdso8u-d1e2673"><!-- jdso8u-b3d10q1 -->
+            <head xml:id="jdso8u-d1e2673-Hd1e99">Quaestio 1</head>
+            <head xml:id="jdso8u-d1e2673-Hd1e101" type="question-title">Utrum Christus sit filius Dei adoptivus</head>
+            <!-- <div> -->
+            <p xml:id="jdso8u-d1e2673-d1e106">
+               <lb ed="#V" n="52" type="fixed=403"/>QUAESTIO UNICA.
+<lb ed="#V" n="53"/>Utrum Christus sit Filius Dei
+<lb ed="#V" n="54"/>adoptivus ?
+</p>
+            <p xml:id="jdso8u-d1e2673-d1e115">
+               <lb ed="#V" n="55"/>Aaensis 3. p. q. 1. m. 4. D. Thom. 3. q. 23. art.
+<lb ed="#V" n="56"/>4. et q. 32. art. 3. et hic q. 2. art. 2. D. 
+Bo<lb ed="#V" n="57" break="no"/>navent. anc 2. q. 1. Richard. art.. 2. q. 1.
+<lb ed="#V" n="58"/>Durand. q. 2. Gabr. 7 1. Alm. et Major híic.
+<lb ed="#V" n="59"/>suar. 3. p. t disp. s. 2. 3. 4. Vasq. ibi disp.
+<lb ed="#V" n="60"/>89.
+</p>
+            <p xml:id="jdso8u-d1e2673-d1e132">
+               <lb ed="#V" n="61"/>Circa istam decimam 
+distinctio<lb ed="#V" n="62" break="no"/>nem, in qua Magister agit de 
+commu<lb ed="#V" n="63" break="no"/>nicatione idiomatum respicientium
+<lb ed="#V" n="64"/>personam filn, quaeritur unum de
+<lb ed="#V" n="65"/>communicatione idiomatum ad 
+nobi<lb ed="#V" n="66" break="no"/>litatem pertinentium : Utrum 
+scili<lb ed="#V" n="67" break="no"/>cet Christus sit Filius Deti 
+adopti<lb ed="#V" n="68" break="no"/>vus ? Videtur quod sic, quia 
+Chris<lb ed="#V" n="69" break="no"/>tus est praedestinatus esse Filius
+<lb ed="#V" n="70"/>Dei, Fom. 1. ergo est adoptivus.
+<lb ed="#V" n="71"/>Probatio consequentiae, 
+praedestina<lb ed="#V" n="72" break="no"/>re enim est ad haereditatem 
+adopta<lb ed="#V" n="73" break="no"/>re ; ergo Deus praedestinans 
+Chris<lb ed="#V" n="74" break="no"/>tum esse Filium Dei, adoptat 
+prae<lb ed="#V" n="75" break="no"/>destinatum ad haereditatem, quia
+<lb ed="#V" n="76"/>praeordinat ad haereditatem, et hoc
+<lb ed="#V" n="77"/>per actum voluntatis ; igitur, etc.
+</p>
+            <p xml:id="jdso8u-d1e2673-d1e171">
+               <lb ed="#V" n="78"/>Praeterea, dignitatis est in homine
+<lb ed="#V" n="79"/>esse Filium Dei adoptivum, quia
+<lb ed="#V" n="80"/>non convenit alicui naturae non 
+ac<lb ed="#V" n="81" break="no"/>tuali ; ergo hoc Christo convenit.
+</p>
+            <p xml:id="jdso8u-d1e2673-d1e182">
+               <lb ed="#V" n="82"/>Item, sicut manent naturae, ita
+<lb ed="#V" n="83"/>proprietates naturarum ; ergo cum
+<pb ed="#V" n="404"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>adoptari sit proprietas naturae 
+ha<lb ed="#V" n="2" break="no"/>bentis gratiam, videtur quod istud
+<lb ed="#V" n="3"/>posset dici de Christo ratione 
+natu<lb ed="#V" n="4" break="no"/>rae humanae, sicut etiam potest dici
+<lb ed="#V" n="5"/>de eo quod est Filius naturalis 
+ratio<lb ed="#V" n="6" break="no"/>ne naturae divinae.
+</p>
+            <p xml:id="jdso8u-d1e2673-d1e206">
+               <lb ed="#V" n="7"/>Contra hoc Magister littera 
+ad<lb ed="#V" n="8" break="no"/>ducit auctoritates.
+</p>
+            <p xml:id="jdso8u-d1e2673-d1e213">
+               <lb ed="#V" n="9"/>Item, tunc esset Filius Trinitatis,
+<lb ed="#V" n="10"/>quia tota Trinitas adoptat, sicut et
+<lb ed="#V" n="11"/>agit omnem actum ad extra, et ita
+<lb ed="#V" n="12"/>esset Filius sui.
+</p>
+            <!--</div>-->
+            <!-- no commentary -->
+            <!--<div alias="scotus-d10q1-p2">-->
+            <p xml:id="jdso8u-d1e2673-d1e231">
+               <lb ed="#V" n="13" type="fixed=404"/>SCHOLIDM.
+</p>
+            <p xml:id="jdso8u-d1e2673-d1e236">
+               <lb ed="#V" n="14"/>Ponit duos modos dicendi de fundamento
+<lb ed="#V" n="15"/>filiationis, an sit natura vel suppositum, dequo
+<lb ed="#V" n="16"/>actum est supra dist. 8. quaest. 1. Docet ad 
+fi<lb ed="#V" n="17" break="no"/>liationem adoptivam tria requiri, scilicet 
+extra<lb ed="#V" n="18" break="no"/>neitatem a generatione naturali, gratuitam 
+as<lb ed="#V" n="19" break="no"/>sumptionem adoptantis, et bonum ad quod 
+as<lb ed="#V" n="20" break="no"/>sumitur, scilicet haereditatem. hesolvit haec
+<lb ed="#V" n="21"/>non competere Christo secundum 
+generatio<lb ed="#V" n="22" break="no"/>nem divinam, quia juxta hanc est haeres. 
+Ar<lb ed="#V" n="23" break="no"/>guit etiam non convenire ei secundum 
+genera<lb ed="#V" n="24" break="no"/>tionem humanam, quia erat innocens, et sic
+<lb ed="#V" n="25"/>non extraneus.
+</p>
+            <p xml:id="jdso8u-d1e2673-d1e265">
+               <lb ed="#V" n="26"/>Respondeo (a) quod qui diceret
+<lb ed="#V" n="27"/>filiationem esse praecise suppositi et
+<lb ed="#V" n="28"/>non secundum naturam, posset 
+fa<lb ed="#V" n="29" break="no"/>ciliter dicere Christum non esse 
+Fi<lb ed="#V" n="30" break="no"/>lHium adoptivum, quia ista relatio
+<lb ed="#V" n="31"/>non convenit supposito secundum
+<lb ed="#V" n="32"/>se, sed dicendo filiationem fundari
+<lb ed="#V" n="33"/>in natura simili naturae generantis
+<lb ed="#V" n="34"/>naturahter, filiato adoptiva 
+funda<lb ed="#V" n="35" break="no"/>bitur in natura, quae est similis
+<lb ed="#V" n="36"/>creanti, ut imago ejus, similitudine
+<lb ed="#V" n="37"/>naturali, et etiam similitudine 
+gra<lb ed="#V" n="38" break="no"/>tiae, qua ipsa ut natura intellectualis
+<lb ed="#V" n="39"/>potest attingere ad huaereditatem
+<lb ed="#V" n="40"/>adoptantis.
+</p>
+            <p xml:id="jdso8u-d1e2673-d1e300">
+               <lb ed="#V" n="41"/>Translatum est enim (b) istud
+<lb ed="#V" n="42"/>vocabulum a dJuristis, ut dicatur
+<lb ed="#V" n="43"/>filius adoptivus. qui non est natura-
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="44"/>liter genitus ab aliquo, nec ex 
+ge<lb ed="#V" n="45" break="no"/>neratione naturali habens jus. 
+suc<lb ed="#V" n="46" break="no"/>cedendi in haereditate, sed ex gratia
+<lb ed="#V" n="47"/>praeordinatur, ut habeat jus 
+succe<lb ed="#V" n="48" break="no"/>dendi, ita quod ibi tria concurrunt,
+<lb ed="#V" n="49"/>scilicet extraneitas ex generatione
+<lb ed="#V" n="50"/>naturali ; et gratia, quae est gratuita
+<lb ed="#V" n="51"/>voluntas ipsius adoptantis ; et 
+bo<lb ed="#V" n="52" break="no"/>num, ad quod praeordinatur ex ista
+<lb ed="#V" n="53"/>eratia, scilicet haereditas, ad quam
+<lb ed="#V" n="54"/>habet jus succedendi ex adoptione.
+<lb ed="#V" n="55"/>Patet quod (c) ista non 
+conve<lb ed="#V" n="56" break="no"/>niunt Christo secundum 
+generatio<lb ed="#V" n="57" break="no"/>nem divinam, quia ex generatione
+<lb ed="#V" n="58"/>naturali divina, est haeres naturalis
+<lb ed="#V" n="59"/>in haereditate aeterna ; secundum
+<lb ed="#V" n="60"/>etiam naturam humanam, non 
+di<lb ed="#V" n="61" break="no"/>cuntur haec sibi convenire, quia 
+se<lb ed="#V" n="62" break="no"/>cundum istam generationem non
+<lb ed="#V" n="63"/>fuit extraneus, quia fuit innocens.
+</p>
+            <!-- </div>
+
+<div alias="scotus-d10q1-p3"> -->
+            <p xml:id="jdso8u-d1e2673-d1e357">
+               <lb ed="#V" n="62" type="fixed=405"/>SCHOLIUM.
+</p>
+            <p xml:id="jdso8u-d1e2673-d1e363">
+               <lb ed="#V" n="63"/>Arguit contra rationem, qua excluditur 
+ex<lb ed="#V" n="64" break="no"/>traneitas a generatione humana Christi. 
+Pri<lb ed="#V" n="65" break="no"/>mo, quia alias B. Virgo non fuisset adoptiva
+<lb ed="#V" n="66"/>Dei. Secundo, saltem Adam, qui nullum 
+ha<lb ed="#V" n="67" break="no"/>buit debitum contrahendi peccatum, non 
+fuis<lb ed="#V" n="68" break="no"/>set adoptivus. Tertio, de Angelis id esset 
+cer<lb ed="#V" n="69" break="no"/>tum. Ponit alium modum extraneitatis, 
+vide<lb ed="#V" n="70" break="no"/>licet, quod nihil comitetur generationem 
+na<lb ed="#V" n="71" break="no"/>turalem, ratione cujus debeatur haereditas.
+<lb ed="#V" n="72"/>Contra hoc objicit, quasi probans non habuisse
+<lb ed="#V" n="73"/>locum in Christo, et non solvit ; solvit tamen
+<lb ed="#V" n="74"/>in Report. hac dist. q. un. et solvi potest clare
+<lb ed="#V" n="75"/>ex dictis d. 3. q. 1. a n. 15. ideo ergo Christus
+<lb ed="#V" n="76"/>extraneus non est, quia etsi natura humana
+<lb ed="#V" n="77"/>ejus prius natura existat, quam uniatur, tamen
+<lb ed="#V" n="78"/>simul ac habet suum complementum 
+substan<lb ed="#V" n="79" break="no"/>tiale per unionem, habet debitum congruitatis
+<lb ed="#V" n="80"/>ad haereditatem, (ita explicat se Doctor in 
+Re<lb ed="#V" n="81" break="no"/>port. hic.) Quia hac ratione ex vi suae naturalis
+<lb ed="#V" n="82"/>generationis habet aliquale jus ad eam, et sic
+<lb ed="#V" n="83"/>etiam tenendo filiationem fundari in natura,
+<lb ed="#V" n="84"/>de quo supra d. 8. q. 1. adhuc Christus 
+secun<lb ed="#V" n="85" break="no"/>dum quod homo, non est Filius adoptivus ex
+<lb ed="#V" n="86"/>his ; et quia solvit Doctor argumenta 
+proban<lb ed="#V" n="87" break="no"/>tia Christum esse Filium Dei adoptivum, patet
+<lb ed="#V" n="88"/>eum assertive tenere Christum non esse Filium
+<lb ed="#V" n="89"/>adoptivum. Quare Vasq. supra c. 5.dicens eum
+<pb ed="#V" n="406"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>videri tenere sententiam Elipandi damnatam,
+<lb ed="#V" n="2"/>nec vere loquitur, nec didicit bene a Paulo 
+il<lb ed="#V" n="3" break="no"/>lud : modestia vestra nota sit omnibus hominibus.
+</p>
+            <p xml:id="jdso8u-d1e2673-d1e435">
+               <lb ed="#V" n="4"/>Contra, si intelligatur extraneitas
+<lb ed="#V" n="5"/>tantum in habendo peccatum, ergo
+<lb ed="#V" n="6"/>Maria non fuisset filia adoptiva, si
+<lb ed="#V" n="7"/>jnunquam contraxisset peccatum
+<lb ed="#V" n="8"/>originale, quod est falsum.
+</p>
+            <p xml:id="jdso8u-d1e2673-d1e448">
+               <lb ed="#V" n="9"/>51 dicatur (d) quod ipsa 
+contraxis<lb ed="#V" n="10" break="no"/>set peccatum originale, quantum
+<lb ed="#V" n="11"/>erat ex generatione naturali, qua
+<lb ed="#V" n="12"/>est per rationem seminalem ; iste
+<lb ed="#V" n="13"/>autem non habuit ex generatione
+<lb ed="#V" n="14"/>naturali unde contraheret. Saltem
+<lb ed="#V" n="15"/>Adam in statu innocentiae non fuisset
+<lb ed="#V" n="16"/>Filius Dei adoptivus, quia non 
+con<lb ed="#V" n="17" break="no"/>traxit, nec habuit tunc unde 
+contra<lb ed="#V" n="18" break="no"/>heret, quia fuit creatus vel productus
+<lb ed="#V" n="19"/>sine ratione seminali. Angeli etiam
+<lb ed="#V" n="20"/>non fuissent filii adoptivi, quia 
+sem<lb ed="#V" n="21" break="no"/>per fuerunt innocentes.
+</p>
+            <p xml:id="jdso8u-d1e2673-d1e479">
+               <lb ed="#V" n="22"/>Praeterea, (e) patet in adoptione
+<lb ed="#V" n="23"/>humana, quod non oportet 
+adopti<lb ed="#V" n="24" break="no"/>vum fuisse extraneum, hoc est, 
+ini<lb ed="#V" n="25" break="no"/>micum, neque ex actu proprio, 
+ne<lb ed="#V" n="26" break="no"/>que ex actu parentum, quia sic vel
+<lb ed="#V" n="27"/>inimicus communiter non adoptatur,
+<lb ed="#V" n="28"/>sed magis dilectus altero istorum
+<lb ed="#V" n="29"/>modorum ; ergo sufficit extraneitas,
+<lb ed="#V" n="30"/>quae est carentia juris in haereditate
+<lb ed="#V" n="31"/>adoptantis, et hoc quantum est ex
+<lb ed="#V" n="32"/>generatione naturali. Sed Christus
+<lb ed="#V" n="33"/>quantum est ex generatione 
+tempo<lb ed="#V" n="34" break="no"/>rah non habebat jus in haereditate
+<lb ed="#V" n="35"/>eterna ; ergo habuit extraneitatem
+<lb ed="#V" n="36"/>illam, quae requiritur in adoptato, et
+<lb ed="#V" n="37"/>patet quod modo habet jus per 
+gra<lb ed="#V" n="38" break="no"/>tiam, ut filius hominis ; ergo est
+<lb ed="#V" n="39"/>adoptivus.
+</p>
+            <p xml:id="jdso8u-d1e2673-d1e521">
+               <lb ed="#V" n="40"/>Qui istam (f) rationem non 
+conce<lb ed="#V" n="41" break="no"/>dit, potest dicere quod in filio 
+adop<lb ed="#V" n="42" break="no"/>tato requiritur talis extraneitas, quod
+<lb ed="#V" n="43"/>in instanti generationis naturalis
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="44"/>non habeat jus in haereditate, ita
+<lb ed="#V" n="45"/>quod prius habeat esse naturale 
+se<lb ed="#V" n="46" break="no"/>cundum quod sit extraneus 
+ante<lb ed="#V" n="47" break="no"/>quam adoptetur ; Christus 
+nun<lb ed="#V" n="48" break="no"/>quam fuit sine gratia ; ergo Christus
+<lb ed="#V" n="49"/>non fuit adoptivus.
+</p>
+            <p xml:id="jdso8u-d1e2673-d1e547">
+               <lb ed="#V" n="50"/>Sed haec (g) ratio non videtur 
+suf<lb ed="#V" n="51" break="no"/>ficere, quia tunc Angelus si fuisset
+<lb ed="#V" n="52"/>creatus in gratia, non fuisset 
+adop<lb ed="#V" n="53" break="no"/>tatus, nec Filius Dei adoptivus. 
+Suf<lb ed="#V" n="54" break="no"/>ficit ergo prioritas naturae, ut scilicet
+<lb ed="#V" n="55"/>persona adoptata in primo 
+ins<lb ed="#V" n="56" break="no"/>tanti naturae, in quo generatur vel
+<lb ed="#V" n="57"/>creatur, ex illa sola generatione vel
+<lb ed="#V" n="58"/>creatione, non habeat jus, et in 
+se<lb ed="#V" n="59" break="no"/>cundo instanti naturae ex gratia 
+ha<lb ed="#V" n="60" break="no"/>beat jus, ita fuit in proposito ; prius
+<lb ed="#V" n="61"/>enim natura ista natura terminavit
+<lb ed="#V" n="62"/>generationem, imo erat unita 
+Ver<lb ed="#V" n="63" break="no"/>bo, antequam m ipsa esset gratia 
+ha<lb ed="#V" n="64" break="no"/>bitualis, ex 2. queest. 2. dist. hujus
+<lb ed="#V" n="65"/>tertit.
+</p>
+            <p xml:id="jdso8u-d1e2673-d1e585">
+               <lb ed="#V" n="66"/>si hoc (h) non placet, potest 
+ul<lb ed="#V" n="67" break="no"/>timo dici, quod requiritur 
+extranei<lb ed="#V" n="68" break="no"/>tas in instanti priori temporis vel
+<lb ed="#V" n="69"/>naturae talis, quod non necessario
+<lb ed="#V" n="70"/>concomitetur aliquid generationem
+<lb ed="#V" n="71"/>naturalem, ut dispositio de congruo
+<lb ed="#V" n="72"/>conferens jus ad haereditatem ; hic
+<lb ed="#V" n="73"/>autem generationem temporalem
+<lb ed="#V" n="74"/>concomitabatur gratia, qua anima
+<lb ed="#V" n="75"/>Christi habuit jus in illa haereditate.
+</p>
+            <p xml:id="jdso8u-d1e2673-d1e609">
+               <lb ed="#V" n="76"/>Et si objiciatur, quod 
+concomita<lb ed="#V" n="77" break="no"/>batur, non tamen in primo instanti
+<lb ed="#V" n="78"/>naturae, sed in secundo, et ita in
+<lb ed="#V" n="79"/>primo instanti fuit extraneitas, quia
+<lb ed="#V" n="80"/>carentia juris, quod conferebatur in
+<lb ed="#V" n="81"/>secundo instanti, responsionem
+<lb ed="#V" n="82"/>quaere.
+</p>
+            <p xml:id="jdso8u-d1e2673-d1e627">
+               <lb ed="#V" n="83"/>Ad hoc potest dict (ut patet ex
+<lb ed="#V" n="84"/>ullimo modo dicendi) quod licet in
+<lb ed="#V" n="85"/>secundo instanti conferatur jus 
+hae<lb ed="#V" n="86" break="no"/>reditatis, tamen in primo instantt
+<lb ed="#V" n="87"/>illa est dispositio necessarto conse-
+<pb ed="#V" n="407"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>quens istam naturam humanam, el
+<lb ed="#V" n="2"/>ideo non est ertraneitas, ut ibi 
+dic<lb ed="#V" n="3" break="no"/>tum est.
+</p>
+            <!-- </div>
+
+<div alias="scotus-d10q1-p4"> -->
+            <p xml:id="jdso8u-d1e2673-d1e653">
+               <lb ed="#V" n="48" type="fixed=408"/>SCHOLIUM.
+</p>
+            <p xml:id="jdso8u-d1e2673-d1e658">
+               <lb ed="#V" n="49"/>Solvit argumenta suadentia Christum 
+inquan<lb ed="#V" n="50" break="no"/>tum homo, esse Filium adoptivum, et per 
+con<lb ed="#V" n="51" break="no"/>sequens tenet eum talem non esse. Sed quia
+<lb ed="#V" n="52"/>objectionem contra rationem excludentem ab
+<lb ed="#V" n="53"/>eo extraneitatem, positam num. 6. non solvit,
+<lb ed="#V" n="54"/>nec replicam contra solutionem ad tertium,
+<lb ed="#V" n="55"/>quae alteri parti favent, insinuat probabiliter
+<lb ed="#V" n="56"/>Christum dici posse Filium Dei adoptivum,
+<lb ed="#V" n="57"/>quod clare tenet in Report. hac dist. quem
+<lb ed="#V" n="58"/>sequitur Bassol. hic quaest. 1. art. 2. Tartaret.
+<lb ed="#V" n="59"/>hic, et Leuchet. exponit eum ut 
+problemati<lb ed="#V" n="60" break="no"/>cum, et Pitigianis hic art. ult. tenet hanc 
+pro<lb ed="#V" n="61" break="no"/>positionem habere catholicum sensum. hada
+<lb ed="#V" n="62"/>hic controversia 5. art. 2. docet secundum
+<lb ed="#V" n="63"/>Scot. id esse probabile ; tenet Durand. absolute
+<lb ed="#V" n="64"/>3. dist. 4. q. 1. Christum qua homo, esse 
+ado<lb ed="#V" n="65" break="no"/>ptivum; Richard. etiam supra problematicus
+<lb ed="#V" n="66"/>videtur in quaestione, et Vasq. ait eum 
+assere<lb ed="#V" n="67" break="no"/>re Christum qua homo, esse adoptivum, Gabr.
+<lb ed="#V" n="68"/>Alm. et Major hic, docent humanitatem 
+Chri<lb ed="#V" n="69" break="no"/>sti esse adoptatam. Quod vero hoc non sit 
+hae<lb ed="#V" n="70" break="no"/>reticum, ut docet Vasq. supra, patet, quia
+<lb ed="#V" n="71"/>Concil. Francford. tantum damnavit 
+senten<lb ed="#V" n="72" break="no"/>tiam Felicis et Elipandi, quae in re erat error
+<lb ed="#V" n="73"/>Nestorii, ut constat expresse ex epist. Adriani
+<lb ed="#V" n="74"/>primi, et epist. ipsius Concilii, et tenet Ant.2.
+<lb ed="#V" n="75"/>part. histor. 14. cap. 1. $ 6. Naucler. gener.
+<lb ed="#V" n="76"/>27. Fevard. in addit. ad Castro contra haer.
+<lb ed="#V" n="77"/>v. Christus, Sanderus 7. de vis. Monar. an. 772.
+<lb ed="#V" n="78"/>Suar. citans hos et alios supra $ 3. Error 
+au<lb ed="#V" n="79" break="no"/>tem Nestorii negabat Christum esse Deum, 
+so<lb ed="#V" n="80" break="no"/>Ium admittens unionem per affectum inter
+<lb ed="#V" n="81"/>naturam humanam et Deum. Sed Theologi
+<lb ed="#V" n="82"/>citati fatentur Christum esse verum Filium
+<lb ed="#V" n="83"/>Dei naturalem, et eumdem esse Filium 
+Virgi<lb ed="#V" n="84" break="no"/>nis ; ergo definitio Francford Concilii non
+<lb ed="#V" n="85"/>damnat eos, licet simul dicant Christum qua
+<lb ed="#V" n="86"/>homo posse dici Filium adoptivum. Praeterea
+<lb ed="#V" n="87"/>Iren. lib. 3. cap. 21. Marius Victor. lib. 1. contra
+<lb ed="#V" n="88"/>Candidum Arian. tom. 5. bibl. PP. et Hilar. 
+ci<lb ed="#V" n="89" break="no"/>tatus a D. Thom. 3. p. q. 23. art. 4. tribuun!
+<lb ed="#V" n="90"/>adoptionem Christo secundum humanitatem.,
+<lb ed="#V" n="91"/>ut fatetur Vasq. cap. 15. dicens eos improprie
+<lb ed="#V" n="92"/>locutos. Sed hoc ejus dictum sufficere ipsi
+<lb ed="#V" n="93"/>non debuit, ut sententiam gravissimorum Theo-
+<pb ed="#V" n="409"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>logorum, de quorum catholico sensu ipsi
+<lb ed="#V" n="2"/>constitit, haereticam diceret. Addo non videri
+<lb ed="#V" n="3"/>impropriam istam locutionem istorum Patrum
+<lb ed="#V" n="4"/>et DD : Primo, quia Christus qua homo non
+<lb ed="#V" n="5"/>producitur a Deo naturaliter, sed libere. 
+Se<lb ed="#V" n="6" break="no"/>cundo, non producitur actione potentiae 
+gene<lb ed="#V" n="7" break="no"/>rativae, magis quam Spiritus sanctus. Tertio,
+<lb ed="#V" n="8"/>non producitur in similitudinem naturae 
+spe<lb ed="#V" n="9" break="no"/>cificae vel genericae cum generante. Sed 
+oppo<lb ed="#V" n="10" break="no"/>sita horum trium conveniunt generationi 
+na<lb ed="#V" n="11" break="no"/>turali, proprie loquendo ; ergo. Quarto, et
+<lb ed="#V" n="12"/>constat ex his, definitio generationis naturalis,
+<lb ed="#V" n="13"/>quam DD. communiter admittunt, scilicet
+<lb ed="#V" n="14"/>quod sit, productio viventis a vivente in 
+simili<lb ed="#V" n="15" break="no"/>tudinem naturae, non convenit generationi
+<lb ed="#V" n="16"/>Christi, qua homo, respectu Dei producentis ;
+<lb ed="#V" n="17"/>omnia quae adducuntur in contrarium, 
+pro<lb ed="#V" n="18" break="no"/>bant Christum non esse Filium adoptivum 
+tan<lb ed="#V" n="19" break="no"/>tum, seu eo modo quo nos sumus adoptivi,
+<lb ed="#V" n="20"/>quod de fide est, quia ipse est Filius Dei 
+natu<lb ed="#V" n="21" break="no"/>ralis. Haec prolixius ratione censurae 
+inconsi<lb ed="#V" n="22" break="no"/>deratae Vasquez.
+</p>
+            <p xml:id="jdso8u-d1e2673-d1e811">
+               <lb ed="#V" n="23"/>Ad argumenta (i). Ad primum 
+di<lb ed="#V" n="24" break="no"/>co, quod homo adoptat per novum
+<lb ed="#V" n="25"/>actum voluntatis, et ita ipsum 
+adop<lb ed="#V" n="26" break="no"/>tare est aliquem ad haereditatem
+<lb ed="#V" n="27"/>optare per novum celle ; sed Deus
+<lb ed="#V" n="28"/>non novo relle adoptat, sed novum
+<lb ed="#V" n="29"/>effectum producendo, scilicet 
+gra<lb ed="#V" n="30" break="no"/>tiam. Preedestinare ergo divinum,
+<lb ed="#V" n="31"/>etsi sit praeordinare quoddam per
+<lb ed="#V" n="32"/>actum voluntatis ad haereditatem,
+<lb ed="#V" n="33"/>et quoddam adoptare ad illud, non
+<lb ed="#V" n="34"/>tamen proprie dicitur adoptatio ; sed
+<lb ed="#V" n="35"/>tantum ipsa collatio nova gratiae,
+<lb ed="#V" n="36"/>quae correspondet novo velle in 
+ho<lb ed="#V" n="37" break="no"/>mine adoptante, dicitur adoptatio.
+<lb ed="#V" n="38"/>Non ergo sequitur, Deus 
+praedesti<lb ed="#V" n="39" break="no"/>nat, ergo adoptat, sed oportet 
+ad<lb ed="#V" n="40" break="no"/>dere, quod ilh praedestinato, ut
+<lb ed="#V" n="41"/>quandoque extraneo, conferat 
+gra<lb ed="#V" n="42" break="no"/>tiam.
+</p>
+            <p xml:id="jdso8u-d1e2673-d1e857">
+               <lb ed="#V" n="43"/>Ad secundum (k) dico, quod est
+<lb ed="#V" n="44"/>dignitatis supplentis indignitatem,
+<lb ed="#V" n="45"/>quia extraneus non potest 
+dignifica<lb ed="#V" n="46" break="no"/>ri nisi adoptetur ad haereditatem ;
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="47"/>sed indignitatis est quandoque esse
+<lb ed="#V" n="48"/>extraneum.
+</p>
+            <p xml:id="jdso8u-d1e2673-d1e875">
+               <lb ed="#V" n="49"/>Ad tertium (l) concedo, quod de
+<lb ed="#V" n="50"/>Christo dicitur proprietas 
+conse<lb ed="#V" n="51" break="no"/>quens humanam naturam ; (est
+<lb ed="#V" n="52"/>enim naturalis Filius Mariae, est
+<lb ed="#V" n="53"/>etiam justus et gratus Deo) sed esse
+<lb ed="#V" n="54"/>adoptatum non dicit proprietatem
+<lb ed="#V" n="55"/>naturae creatae, secundum quam
+<lb ed="#V" n="56"/>Christus nunquam fuit extraneus ab
+<lb ed="#V" n="57"/>haereditate paterna, sed naturae 
+de<lb ed="#V" n="58" break="no"/>pravatae.
+</p>
+            <p xml:id="jdso8u-d1e2673-d1e899">
+               <lb ed="#V" n="59"/>Contra (m), ista negatio 
+extranei<lb ed="#V" n="60" break="no"/>tatis in Christo non est nisi propter
+<lb ed="#V" n="61"/>gratiam habitualem Christi, quia
+<lb ed="#V" n="62"/>propter illam solam habet jus in
+<lb ed="#V" n="63"/>haereditate aeterna, non autem per
+<lb ed="#V" n="64"/>solam unionem personalem, quia
+<lb ed="#V" n="65"/>si illa fuisset sine gratia habituali,
+<lb ed="#V" n="66"/>posset Christus secundum naturam
+<lb ed="#V" n="67"/>humanam non habere jus in 
+haere<lb ed="#V" n="68" break="no"/>ditate illa ; sed si ista gratia 
+habi<lb ed="#V" n="69" break="no"/>tualis fuisset collata illi naturae in
+<lb ed="#V" n="70"/>primo instanti, existenti tamen in
+<lb ed="#V" n="71"/>proprio supposito, illud suppositum
+<lb ed="#V" n="72"/>vere diceretur Filius adoptivus ; 
+er<lb ed="#V" n="73" break="no"/>go et modo non negabitur propter
+<lb ed="#V" n="74"/>extraneitatem, quia modo est ila
+<lb ed="#V" n="75"/>carentia juris ad illam haereditatem,
+<lb ed="#V" n="76"/>quae tunc fuisset. Responsionem
+<lb ed="#V" n="77"/>quaere.
+</p>
+            <p xml:id="jdso8u-d1e2673-d1e943">
+               <lb ed="#V" n="78"/>Ad istam instantiam dici potest
+<lb ed="#V" n="79"/>(tenendo tertium modum dicendi)
+<lb ed="#V" n="80"/>quod negatio extranettatis in 
+Chris<lb ed="#V" n="81" break="no"/>to, non est propter gratiam 
+habitua<lb ed="#V" n="82" break="no"/>lem, quam in secundo instanti 
+ha<lb ed="#V" n="83" break="no"/>buit ; sed est propter dispositionem
+<lb ed="#V" n="84"/>necessario insequentem 
+generatio<lb ed="#V" n="85" break="no"/>nem talem humanae naturae de 
+con<lb ed="#V" n="86" break="no"/>gruo, et hoc ex vi unionis illius 
+na<lb ed="#V" n="87" break="no"/>turae ad Verbum, quae dispositio non
+<lb ed="#V" n="88"/>fuisset consecuta talem naturam in
+<lb ed="#V" n="89"/>supposito proprio.
+</p>
+            <!--</div>-->
+         </div>
+      </body>
+   </text>
+</TEI>

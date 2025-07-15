@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Scotus">John Duns Scotus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2025-07-15">July 15, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-u78x14">Vives, Paris, 1893, volume 14</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-15" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="414"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jdso8u-d1e2691"><!-- jdso8u-b3d11q1 -->
+            <head xml:id="jdso8u-d1e2691-Hd1e99">Quaestio 1</head>
+            <head xml:id="jdso8u-d1e2691-Hd1e101" type="question-title">Utrum Christus sit creatura</head>
+<!--<div>-->
+<p xml:id="jdso8u-d1e2691-d1e106">
+               <cb ed="#V" n="b"/>
+               <lb ed="#L" n="39" type="fixed=414"/>QUAESTIO I.
+<lb ed="#V" n="40"/>Utrum Christus sit creatura?
+</p>
+            <p xml:id="jdso8u-d1e2691-d1e115">
+               <lb ed="#V" n="41"/>D. Thom. 3. p. q. 16. art. 8. (ubi Cajet. et Saar.)
+<lb ed="#V" n="42"/>et hic g. 1. art. 2. D. Bon. híic art. 2. q. 1.
+<lb ed="#V" n="43"/>hichard. art. 2. q. 1. Gabr. q. 1. Vasq. 3 p.
+<lb ed="#V" n="44"/>d. 63. Capreol. hic q. 1. Vide Scot. 7. Met. q.
+<lb ed="#V" n="45"/>12. ad primum princ. et in Theorem.  Creans
+<lb ed="#V" n="46"/>non est nisi de nihilo. Durand. híc.
+</p>
+            <p xml:id="jdso8u-d1e2691-d1e132">
+               <lb ed="#V" n="47"/>Circa primum arguitur, quod sic:
+<lb ed="#V" n="48"/>In Christo est natura humana sicut
+<lb ed="#V" n="49"/>divina, et per consequens 
+proprieta<lb ed="#V" n="50" break="no"/>tes utriusque naturae secundum 
+Da<lb ed="#V" n="51" break="no"/>mascenum cap. 50. ergo ita dicitur
+<lb ed="#V" n="52"/>creatura propter unam naturam,
+<lb ed="#V" n="53"/>sicut creator propter aliam.
+</p>
+            <p xml:id="jdso8u-d1e2691-d1e150">
+               <lb ed="#V" n="54"/>Praeterea : Christus est homo, est
+<lb ed="#V" n="55"/>praedicatio in quid, secundum ilud
+<lb ed="#V" n="56"/>Ertra de haereticis, c. Cum 
+Chris<lb ed="#V" n="57" break="no"/>tus ; quaero quid praedicat hoc 
+prae<lb ed="#V" n="58" break="no"/>dicatum homo? aut ahquid 
+crea<lb ed="#V" n="59" break="no"/>tum, aut aliquid increatum ; si 
+in<lb ed="#V" n="60" break="no"/>creatum, ergo idem formaliter 
+prae<lb ed="#V" n="61" break="no"/>dicat homo de Christo, quod
+<lb ed="#V" n="62"/>praedicat hoc praedicatum Deus: hoc
+<lb ed="#V" n="63"/>est falsum, quia tunc idem 
+formali<lb ed="#V" n="64" break="no"/>ter esset dicere, Christus est homo,
+<lb ed="#V" n="65"/>et Christus est Deus ; igitur 
+praedi<lb ed="#V" n="66" break="no"/>cat aliquid creatum.
+</p>
+            <p xml:id="jdso8u-d1e2691-d1e181">
+               <lb ed="#V" n="67"/>Praeterea, Christus est homo, aut
+<lb ed="#V" n="68"/>ergo creatus, aut increatus ; ista
+<lb ed="#V" n="69"/>sunt immediate opposita circa omne
+<lb ed="#V" n="70"/>ens; si ut homo increatus, est homo
+<lb ed="#V" n="71"/>aeternus ; si homo creatus, 
+proposi<lb ed="#V" n="72" break="no"/>tum.
+</p>
+            <p xml:id="jdso8u-d1e2691-d1e197">
+               <lb ed="#V" n="73"/>Praeterea, de quo praedicatur 
+in<lb ed="#V" n="74" break="no"/>ferius, et superius, sive illud sit
+<lb ed="#V" n="75"/>superius essentiale in eodem genere,
+<lb ed="#V" n="76"/>sive communius extra genus; sicut
+<lb ed="#V" n="77"/>de quo dicitur ignis, et corpus, et
+<lb ed="#V" n="78"/>creatura, quae est superius ad omne
+<lb ed="#V" n="79"/>aliud a Deo, ut videtur ; ereo de quo
+<pb ed="#V" n="415"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>dicitur homo, de eodem dicitur 
+crea<lb ed="#V" n="2" break="no"/>tura.
+</p>
+            <p xml:id="jdso8u-d1e2691-d1e223">
+               <lb ed="#V" n="3"/>Praeterea, Christus ratione 
+corpo<lb ed="#V" n="4" break="no"/>ris est conceptus ; ergo ratione
+<lb ed="#V" n="5"/>animae creatae est creatus. 
+Conse<lb ed="#V" n="6" break="no"/>quentia probatur, quia non minus
+<lb ed="#V" n="7"/>denominatur totum a proprietate
+<lb ed="#V" n="8"/>partis perfectioris, quam a 
+proprie<lb ed="#V" n="9" break="no"/>tate partis minus perfectae.
+</p>
+            <p xml:id="jdso8u-d1e2691-d1e241">
+               <lb ed="#V" n="10"/>Contra hoc in littera sunt 
+auctori<lb ed="#V" n="11" break="no"/>tates. Item omnis creatura 
+rationa<lb ed="#V" n="12" break="no"/>lis est Filius Dei per adoptionem,
+<lb ed="#V" n="13"/>vel potest esse ; Christus non potest
+<lb ed="#V" n="14"/>esse filius adoptivus, er praecedenti
+<lb ed="#V" n="15"/>quaestione ; ergo non potest dici, vel
+<lb ed="#V" n="16"/>esse creatura.
+</p>
+            <p xml:id="jdso8u-d1e2691-d1e260">
+               <lb ed="#V" n="17"/>Item, si Christus est creatura, et
+<lb ed="#V" n="18"/>Christus est Filius Dei, ergo Filius
+<lb ed="#V" n="19"/>Dei est creatura ; modus arguendi
+<lb ed="#V" n="20"/>est bonus, quia medio existente hoc
+<lb ed="#V" n="21"/>aliquid, necesse est extrema 
+con<lb ed="#V" n="22" break="no"/>jungi ; ergo, etc.
+</p>
+            <p xml:id="jdso8u-d1e2691-d1e276">
+               <lb ed="#V" n="23"/>Praeterea, nihil creatum dicitur de
+<lb ed="#V" n="24"/>Christo. Probo, quia nihil est 
+crea<lb ed="#V" n="25" break="no"/>tum min Christo, nisi natura 
+hu<lb ed="#V" n="26" break="no"/>mana ; ista natura non dicitur de
+<lb ed="#V" n="27"/>Christo ; ergo, etc.
+</p>
+            <!-- </div>
+<div alias="scotus-d11q1-p2"> -->
+            <p xml:id="jdso8u-d1e2691-d1e291">
+               <lb ed="#L" n="28" type="fixed=415"/>SCHOLIUM.
+</p>
+            <p xml:id="jdso8u-d1e2691-d1e296">
+               <lb ed="#V" n="29"/>D. Bonaventura ait Christum non esse 
+crea<lb ed="#V" n="30" break="no"/>turam, quia communicatio idiomatum non 
+da<lb ed="#V" n="31" break="no"/>tur in his, in quibus est repugnantia ad 
+natu<lb ed="#V" n="32" break="no"/>ram divinam ; refutatur tribus rationibus
+<lb ed="#V" n="33"/>claris.
+</p>
+            <p xml:id="jdso8u-d1e2691-d1e309">
+               <lb ed="#V" n="34"/>Hic dicitur (a) quod ista 
+proposi<lb ed="#V" n="35" break="no"/>tio : Christus est creatura, est 
+ne<lb ed="#V" n="36" break="no"/>ganda, quia communicatio 
+idioma<lb ed="#V" n="37" break="no"/>tum non fit in his, ubi est 
+repu<lb ed="#V" n="38" break="no"/>gnantia proprietatis unius naturae
+<lb ed="#V" n="39"/>ad aliam naturam ; talis est hic,
+<lb ed="#V" n="40"/>quia creatura includit inceptionem
+<lb ed="#V" n="41"/>esse, et ita repugnat aeternitati, quae
+<lb ed="#V" n="42"/>est proprietas Fili Dei.
+</p>
+            <p xml:id="jdso8u-d1e2691-d1e332">
+               <cb ed="#V" n="b"/>
+               <lb ed="#V" n="43"/>Contra, non plus repugnat illi
+<lb ed="#V" n="44"/>naturae esse post non esse, vel 
+inct<lb ed="#V" n="45" break="no"/>pere esse, quam non esse post esse,
+<lb ed="#V" n="46"/>vel etiam desinere esse, quia 
+utrum<lb ed="#V" n="47" break="no"/>que repugnat aeternitati ; sed 
+Chris<lb ed="#V" n="48" break="no"/>tus conceditur mortuus, cum tamen
+<lb ed="#V" n="49"/>mortuum esse dicat non esse post
+<lb ed="#V" n="50"/>esse, quia non vivere post vivere, et
+<lb ed="#V" n="51"/>vivere viventibus est esse, 2. de
+<lb ed="#V" n="52"/>Antm. igitur.
+</p>
+            <p xml:id="jdso8u-d1e2691-d1e358">
+               <lb ed="#V" n="53"/>Praeterea, mortale et immortale
+<lb ed="#V" n="54"/>ita opponuntur formalter, sicut
+<lb ed="#V" n="55"/>creatum et increatum, et tamen
+<lb ed="#V" n="56"/>ambo dicuntur de Christo.
+</p>
+            <p xml:id="jdso8u-d1e2691-d1e369">
+               <lb ed="#V" n="57"/>Praeterea, ita formaliter naturae
+<lb ed="#V" n="58"/>creatae repugnat esse creatorem, vel
+<lb ed="#V" n="59"/>aternam, sicut repugnat aeterno
+<lb ed="#V" n="60"/>incipere ; ergo aeque negabitur
+<lb ed="#V" n="61"/>Christum esse creatorem propter 
+re<lb ed="#V" n="62" break="no"/>pugnantiam ad unam naturam, sicut
+<lb ed="#V" n="63"/>esse creaturam propter 
+repugnan<lb ed="#V" n="64" break="no"/>tiam ad aliam.
+</p>
+            <!-- </div>
+
+<div alias="scotus-d11q1-p3"> -->
+            <p xml:id="jdso8u-d1e2691-d1e391">
+               <lb ed="#L" n="26" type="fixed=416"/>SCHOLIUM.
+</p>
+            <p xml:id="jdso8u-d1e2691-d1e396">
+               <lb ed="#V" n="27"/>Henricus ideo negat Christum esse 
+creatu<lb ed="#V" n="28" break="no"/>ram, quia haec includit non esse ante esse, et
+<lb ed="#V" n="29"/>respectum unius naturae ad alteram. Refutatur,
+<lb ed="#V" n="30"/>quia secundum hoc Christus non esset creator,
+<lb ed="#V" n="31"/>nec posset dici minor Patre.
+</p>
+            <p xml:id="jdso8u-d1e2691-d1e410">
+               <lb ed="#V" n="32"/>Aliter dicitur (b) quod non fit
+<lb ed="#V" n="33"/>communicatio idiomatum in 
+nega<lb ed="#V" n="34" break="no"/>tionibus, neque in his quae dicunt
+<lb ed="#V" n="35"/>respectum unius naturae ad aliam
+<lb ed="#V" n="36"/>naturam.
+</p>
+            <p xml:id="jdso8u-d1e2691-d1e423">
+               <lb ed="#V" n="37"/>Primum apparet, quia aliter 
+dice<lb ed="#V" n="38" break="no"/>rentur absolute contradictoria de
+<lb ed="#V" n="39"/>Christo, quia negatio aliqua 
+conve<lb ed="#V" n="40" break="no"/>nit uni naturae, cujus opposita 
+affir<lb ed="#V" n="41" break="no"/>matio mnest naturaliter ratione 
+alte<lb ed="#V" n="42" break="no"/>rius; puta natura divina est aeterna,
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="43"/>natura humana non est aeterna ; sed
+<lb ed="#V" n="44"/>si per hoc Christus diceretur non
+<lb ed="#V" n="45"/>aeternus, Christus diceretur aeternus
+<lb ed="#V" n="46"/>et non aeternus ; negationes ergo,
+<lb ed="#V" n="47"/>quae insunt ratione alterius naturae,
+<lb ed="#V" n="48"/>scilicet humanae, quia insunt 
+secun<lb ed="#V" n="49" break="no"/>dum quid, puta cum determinatione
+<lb ed="#V" n="50"/>distrahente, non denominant 
+simphl<lb ed="#V" n="51" break="no"/>citer illud, de quo dicuntur.
+</p>
+            <p xml:id="jdso8u-d1e2691-d1e460">
+               <lb ed="#V" n="52"/>Similiter secundum, scilicet de
+<lb ed="#V" n="53"/>dicentibus respectum unius naturae
+<lb ed="#V" n="54"/>ad aliam, declaratur : non enim si
+<lb ed="#V" n="55"/>natura humana est assumpta, 
+dici<lb ed="#V" n="56" break="no"/>tur Christus assumptus : creatura
+<lb ed="#V" n="57"/>enim non tantum includit 
+negatio<lb ed="#V" n="58" break="no"/>nem, scilicet non esse ante esse, sed
+<lb ed="#V" n="59"/>includit respectum unius naturae ad
+<lb ed="#V" n="60"/>alteram, sicut ad illam a qua 
+acci<lb ed="#V" n="61" break="no"/>pit esse ; ergo ista non dicentur de
+<lb ed="#V" n="62"/>toto.
+</p>
+            <p xml:id="jdso8u-d1e2691-d1e486">
+               <lb ed="#V" n="63"/>Contra (c), sicut creatura dicit
+<lb ed="#V" n="64"/>respectum unius naturae ad alam,
+<lb ed="#V" n="65"/>ut naturae humanae ad divinam, ita
+<lb ed="#V" n="66"/>videtur quod creator dicat e 
+conver<lb ed="#V" n="67" break="no"/>so respectum naturae divinae ad 
+hu<lb ed="#V" n="68" break="no"/>manam ; ergo si ista, quae dicunt
+<lb ed="#V" n="69"/>respectum, non dicantur de toto,
+<lb ed="#V" n="70"/>Christus non erit creator ; negatio
+<lb ed="#V" n="71"/>etiam aliqua potest inveniri, quae
+<lb ed="#V" n="72"/>importetur per hoc nomen, quod est
+<lb ed="#V" n="73"/>creator, puta non accipere esse post
+<lb ed="#V" n="74"/>non esse ab alio, sicut in hoc 
+no<lb ed="#V" n="75" break="no"/>mine creatura ; igitur sicut Christus
+<lb ed="#V" n="76"/>non dicitur creatura propter 
+nega<lb ed="#V" n="77" break="no"/>tionem inclusam, ita nec dicetur
+<lb ed="#V" n="78"/>creator propter eamdem rationem.
+</p>
+            <p xml:id="jdso8u-d1e2691-d1e523">
+               <lb ed="#V" n="79"/>Praeterea, Christus est minor 
+Pa<lb ed="#V" n="80" break="no"/>tre ; hoc conceditur absolute, ut
+<lb ed="#V" n="81"/>dicitur Joan. 14. et tamen hoc dicit
+<lb ed="#V" n="82"/>respectum unius naturae ad aliam,
+<lb ed="#V" n="83"/>quia non est minor Patre, nisi 
+se<lb ed="#V" n="84" break="no"/>cundum naturam humanam ; ergo,
+<lb ed="#V" n="85"/>etc.
+</p>
+            <!-- </div>
+
+<div alias="scotus-d11q1-p4"> -->
+            <p xml:id="jdso8u-d1e2691-d1e544">
+               <cb ed="#V" n="b"/>
+               <lb ed="#L" n="43" type="fixed=417"/>SCHOLIUM.
+</p>
+            <p xml:id="jdso8u-d1e2691-d1e551">
+               <lb ed="#V" n="44"/>Sententia Varronis, Sanctos propter haereses
+<lb ed="#V" n="45"/>negasse Christum esse creaturam, id tamen
+<lb ed="#V" n="46"/>in rigore sermonis concedi posse; et probat ex
+<lb ed="#V" n="47"/>PP. ^ug. Hieron. Damasc. Doctor docet 
+quo<lb ed="#V" n="48" break="no"/>modo haec impugnari possit, quia creari stricte,
+<lb ed="#V" n="49"/>ut opponitur fieri, supponit omnino non esse, et
+<lb ed="#V" n="50"/>respicit causam primam immediate dantem
+<lb ed="#V" n="51"/>primum esse. Hoc autem repugnat Christo, 
+su<lb ed="#V" n="52" break="no"/>mendo etiam creaturam latius, adhuc dici 
+ne<lb ed="#V" n="53" break="no"/>quit de Christo, quia non accepit primum esse
+<lb ed="#V" n="54"/>totale, nec primum esse partiale, post non esse,
+<lb ed="#V" n="55"/>quod optime explicat Doctor exemplo.
+</p>
+            <p xml:id="jdso8u-d1e2691-d1e580">
+               <lb ed="#V" n="56"/>Aliter dicitur, quod propositio est
+<lb ed="#V" n="57"/>simpliciter concedenda, si bene 
+in<lb ed="#V" n="58" break="no"/>telligatur ; negabatur tamen 
+com<lb ed="#V" n="59" break="no"/>muniter a Sanctis propter haereses
+<lb ed="#V" n="60"/>haereticorum dicentium Christum
+<lb ed="#V" n="61"/>esse puram creaturam, cum quibus
+<lb ed="#V" n="62"/>noluerunt Sancti communicare in
+<lb ed="#V" n="63"/>sermone. Quod autem absolute de
+<lb ed="#V" n="64"/>virtute sermonis possit concedi,
+<lb ed="#V" n="65"/>probatur per Damascenum cap. 30.
+<lb ed="#V" n="66"/>qui dicit, quod Christus est creatus
+<lb ed="#V" n="67"/>et increatus, passibilis et 
+impassibi<lb ed="#V" n="68" break="no"/>lis, et per eumdem, c. 97. 
+concedi<lb ed="#V" n="69" break="no"/>tur creatura Dei. Et per 
+Augusti<lb ed="#V" n="70" break="no"/>num de sermone Domini in monte:
+<lb ed="#V" n="71"/>voluit esse creatura, qui est creator.
+</p>
+            <p xml:id="jdso8u-d1e2691-d1e617">
+               <lb ed="#V" n="72"/>Et Hieronymus super epist. ad
+<lb ed="#V" n="73"/>Ephes. super illud : /psius factura
+<lb ed="#V" n="74"/>sumus, dicit : Multi timore 
+trepi<lb ed="#V" n="75" break="no"/>dant, ne Christum creaturam dicere
+<lb ed="#V" n="76"/>compellantur, nos autem 
+proclama<lb ed="#V" n="77" break="no"/>mus non esse periculum dicere
+<lb ed="#V" n="78"/>Christum esse creaturam.
+</p>
+            <p xml:id="jdso8u-d1e2691-d1e635">
+               <lb ed="#V" n="79"/>Cui ista opinio (d) non placet, 
+po<lb ed="#V" n="80" break="no"/>test dicere ipsam esse falsam 
+prop<lb ed="#V" n="81" break="no"/>ter istam rationem, quia creari dicit
+<lb ed="#V" n="82"/>quoddam fieri, ia quod ultra fieri
+<lb ed="#V" n="83"/>addit aliquid, et quantum ad 
+res<lb ed="#V" n="84" break="no"/>pectum quem dicit fieri ad causam
+<lb ed="#V" n="85"/>efficientem, et quantum ad illum
+<pb ed="#V" n="418"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>respectum quem dicit ad oppositum
+<lb ed="#V" n="2"/>praecedens. Ouoad primum fieri 
+res<lb ed="#V" n="3" break="no"/>picit efficiens in communi ; sed
+<lb ed="#V" n="4"/>creari proprie respicit primum
+<lb ed="#V" n="5"/>efficiens, ut immediate producens,
+<lb ed="#V" n="6"/>ita quod nihil dicitur proprie creari,
+<lb ed="#V" n="7"/>nisi quod a solo primo efficiente
+<lb ed="#V" n="8"/>immediate producitur ad esse.
+<lb ed="#V" n="9"/>Quoad secundum, fieri dat 
+intell<lb ed="#V" n="10" break="no"/>gere oppositum praecedens 
+quale<lb ed="#V" n="11" break="no"/>cumque, sive positivum sive 
+priva<lb ed="#V" n="12" break="no"/>tivum ; sed ultra hoc creari proprie
+<lb ed="#V" n="13"/>sumptum addit, quod oppositum
+<lb ed="#V" n="14"/>immediate praecedens sit 
+contradic<lb ed="#V" n="15" break="no"/>torium, puta negatio non in aliquo
+<lb ed="#V" n="16"/>subjecto, ita quod nec privatio, nec
+<lb ed="#V" n="17"/>contrarium. Hoc modo a creari
+<lb ed="#V" n="18"/>stricte accepto illud dicitur stricte
+<lb ed="#V" n="19"/>creatura, quod accipit esse a primo
+<lb ed="#V" n="20"/>efficiente immmediate, et post omnino
+<lb ed="#V" n="21"/>non esse, sive post purum nihil, et
+<lb ed="#V" n="22"/>sic non esset dubium Christum non
+<lb ed="#V" n="23"/>esse creaturam, quia nec humana
+<lb ed="#V" n="24"/>natura in Christo est sic creatura ;
+<lb ed="#V" n="25"/>ipsa enim non a solo primo 
+effi<lb ed="#V" n="26" break="no"/>ciente immediate producebatur in
+<lb ed="#V" n="27"/>esse, sed etiam a matre, quae 
+ali<lb ed="#V" n="28" break="no"/>quam causalitatem habuit respectu
+<lb ed="#V" n="29"/>ejus, neque etiam post oppositum
+<lb ed="#V" n="30"/>contradictorium, quod est omnino
+<lb ed="#V" n="31"/>non ens vel nihil, sed post 
+opposi<lb ed="#V" n="32" break="no"/>tum privative, quando scilicet 
+ma<lb ed="#V" n="33" break="no"/>teria corporis transmutabatur a
+<lb ed="#V" n="34"/>forma sanguinis ad formam 
+corpo<lb ed="#V" n="35" break="no"/>ris organici animati. Hoc enim 
+mo<lb ed="#V" n="36" break="no"/>do solummodo Angel, et anima
+<lb ed="#V" n="37"/>intellectiva, et gratia, et quaedam
+<lb ed="#V" n="38"/>hujusmodi, quae de nihilo 
+produ<lb ed="#V" n="39" break="no"/>cuntur a primo efficiente, dicuntur
+<lb ed="#V" n="40"/>creari.
+</p>
+            <p xml:id="jdso8u-d1e2691-d1e744">
+               <lb ed="#V" n="41"/>Alio modo generalius accipitur
+<lb ed="#V" n="42"/>creari prout dicit habitudinem ad
+<lb ed="#V" n="43"/>primum elfficiens, licet non ut
+<lb ed="#V" n="44"/>immediate producens excludendo
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>omnem causam ; dicit etiam 
+ordi<lb ed="#V" n="46" break="no"/>nem ad oppositum praecedens, 
+scili<lb ed="#V" n="47" break="no"/>cet negationem, sed non excludendo
+<lb ed="#V" n="48"/>quod sit in aliquo susceptivo. Et a
+<lb ed="#V" n="49"/>creart hoc modo generalius dicto,
+<lb ed="#V" n="50"/>dicitur creatura generaliter de 
+omni<lb ed="#V" n="51" break="no"/>bus alus a Deo, praeterquam de
+<lb ed="#V" n="52"/>Christo ; omnia enim alia a primo
+<lb ed="#V" n="53"/>efficiente recipiunt esse et dicuntur
+<lb ed="#V" n="54"/>creari, licet etiam sint effectus 
+alia<lb ed="#V" n="55" break="no"/>rum causarum ; non tamen 
+dicun<lb ed="#V" n="56" break="no"/>tur aliarum causarum creaturae,
+<lb ed="#V" n="57"/>quia creatura isto modo non dicit
+<lb ed="#V" n="58"/>relationem ad aliquam causam 
+se<lb ed="#V" n="59" break="no"/>cundam. Accipiunt etiam esse sul
+<lb ed="#V" n="60"/>primum post non esse, sive illud sit
+<lb ed="#V" n="61"/>nihil, sive in aliquo susceptivo.
+<lb ed="#V" n="62"/>LEsse autem primum alicujus 
+du<lb ed="#V" n="63" break="no"/>pliciter potest intelligi, vel illud quo
+<lb ed="#V" n="64"/>totum dicitur primo ens, hoc est
+<lb ed="#V" n="65"/>adaequate, sicut humanitas dicitur
+<lb ed="#V" n="66"/>primum esse corporis organici 
+ani<lb ed="#V" n="67" break="no"/>mati, quia hoc totum esse, quod
+<lb ed="#V" n="68"/>consurgit ex unione istarum 
+par<lb ed="#V" n="69" break="no"/>tium, est esse adaequatum totius.
+<lb ed="#V" n="70"/>Alio modo esse primum alicujus 
+po<lb ed="#V" n="71" break="no"/>test dici esse primae partis alicujus
+<lb ed="#V" n="72"/>in ilo toto, puta si corpus 
+organi<lb ed="#V" n="73" break="no"/>cum praecederet duratione 
+anima<lb ed="#V" n="74" break="no"/>tionem, primum esse hominis hoc
+<lb ed="#V" n="75"/>modo esset esse corporis organici.
+<lb ed="#V" n="76"/>Quaecunique ergo creatura accipit
+<lb ed="#V" n="77"/>esse primum altero istorum duorum
+<lb ed="#V" n="78"/>modorum post non esse, vel totale,
+<lb ed="#V" n="79"/>vel partiale primae partis ; et ideo si
+<lb ed="#V" n="80"/>corpus organicum fuisset ab aeterno
+<lb ed="#V" n="81"/>inanimatum, et in tempore 
+anima<lb ed="#V" n="82" break="no"/>retur, totus homo diceretur 
+crea<lb ed="#V" n="83" break="no"/>tura, licet non accepisset totum esse
+<lb ed="#V" n="84"/>post non esse, quia esse alterius
+<lb ed="#V" n="85"/>partis est aeternum, sed primum esse
+<lb ed="#V" n="86"/>totale. Christus autem nullo modo
+<lb ed="#V" n="87"/>accepit primum esse sui post non
+<lb ed="#V" n="88"/>esse, quia neque primum esse totale,
+<pb ed="#V" n="419"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>quod resultaret ex natura divina et
+<lb ed="#V" n="2"/>humana, quia nullum tale est 
+se<lb ed="#V" n="3" break="no"/>cundum Damascenum cap. 49. quia
+<lb ed="#V" n="4"/>tunc non manerent ibi istae naturae
+<lb ed="#V" n="5"/>,nisi confusie ; sed sicut sunt duae
+<lb ed="#V" n="6"/>distinctae naturae, ita duo esse 
+dis<lb ed="#V" n="7" break="no"/>tincta ; neque primum esse partiale,
+<lb ed="#V" n="8"/>ut esse Verbi, quia illud est 
+aeter<lb ed="#V" n="9" break="no"/>num ; deficit ergo sibi habitudo
+<lb ed="#V" n="10"/>illa, quam necessario dicit creatura
+<lb ed="#V" n="11"/>ad oppositum praecedens, quee est
+<lb ed="#V" n="12"/>quod post non esse sequatur esse, vel
+<lb ed="#V" n="13"/>primum partiale, si nullum habet
+<lb ed="#V" n="14"/>totale, vel esse totale ipsius, quod
+<lb ed="#V" n="15"/>creatur ; sic non est in proposito.
+</p>
+            <!-- </div>
+
+<div alias="scotus-d11q1-p5"> -->
+            <p xml:id="jdso8u-d1e2691-d1e893">
+               <lb ed="#L" n="68" type="fixed=420"/>SCHOLIUM.
+</p>
+            <p xml:id="jdso8u-d1e2691-d1e898">
+               <lb ed="#V" n="69"/>Objicit contra rationem, qua docet contra
+<lb ed="#V" n="70"/>Varronem, Christum non esse creaturam. 
+Pri<lb ed="#V" n="71" break="no"/>mo, quia humanitas Christi est terminu- 
+mu<lb ed="#V" n="72" break="no"/>tationis; ergo potest esse terminus creationis.
+<lb ed="#V" n="73"/>Secundo, Christus fuit mortuus, quod dicit
+<lb ed="#V" n="74"/>privationem esse, et ut videtur primi esse. Solvit
+<lb ed="#V" n="75"/>haec, et addit aliam rationem, qua probatur
+<lb ed="#V" n="76"/>Christum non esse creaturam. Quasestio est 
+tan<lb ed="#V" n="77" break="no"/>tum de modo loquendi, et Doctor non reputat
+<lb ed="#V" n="78"/>improbabilem sententiam Varronis. Nota 
+solu<lb ed="#V" n="79" break="no"/>tionem argumentorum, quia certe videntur
+<lb ed="#V" n="80"/>valde urgere, quod admittendum sit Christum
+<lb ed="#V" n="81"/>esse creaturam, sicut est homo, mortuus, 
+con<lb ed="#V" n="82" break="no"/>ceptus, genitus, etc.
+</p>
+            <p xml:id="jdso8u-d1e2691-d1e931">
+               <lb ed="#V" n="83"/>Contra istam rationem (e) 
+objci<lb ed="#V" n="84" break="no"/>tur sic, quia quidquid est terminus
+<lb ed="#V" n="85"/>alicujus mutationis, potest esse 
+ter<lb ed="#V" n="86" break="no"/>minus creationis ; natura humana
+<lb ed="#V" n="87"/>in Christo. quae terminavit genera-
+<pb ed="#V" n="421"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>tionem. potest esse termimnus 
+muta<lb ed="#V" n="2" break="no"/>tionis generaliter dictae, et per 
+con<lb ed="#V" n="3" break="no"/>sequens potest esse terminus 
+crea<lb ed="#V" n="4" break="no"/>tionis generaliter dictae ; ergo 
+Chris<lb ed="#V" n="5" break="no"/>tus secundum quod habet eam, est
+<lb ed="#V" n="6"/>creatura ; non enim videtur, quod
+<lb ed="#V" n="7"/>creatio plus respiciat primitatem
+<lb ed="#V" n="8"/>esse pro termino suo, quam 
+quae<lb ed="#V" n="9" break="no"/>cumque alia mutatio pro termino
+<lb ed="#V" n="10"/>suo, cum ipsa possit habere pro
+<lb ed="#V" n="11"/>termino, quidquid potest alia 
+muta<lb ed="#V" n="12" break="no"/>tio habere pro termino suo.
+</p>
+            <p xml:id="jdso8u-d1e2691-d1e975">
+               <lb ed="#V" n="13"/>Praeterea, Christus vere dicitur
+<lb ed="#V" n="14"/>mortuus, quod vere dicit 
+privatio<lb ed="#V" n="15" break="no"/>nem esse, et privationem primi esse,
+<lb ed="#V" n="16"/>ut videtur, quia non magis unum
+<lb ed="#V" n="17"/>oppositum ponit acquisitionem 
+pri<lb ed="#V" n="18" break="no"/>mi esse, quam aliud privationem
+<lb ed="#V" n="19"/>primi esse.
+</p>
+            <p xml:id="jdso8u-d1e2691-d1e993">
+               <lb ed="#V" n="20"/>Ad primum, concedo quod natura
+<lb ed="#V" n="21"/>humana potest terminare 
+creatio<lb ed="#V" n="22" break="no"/>nem generaliter dictam, et 
+termina<lb ed="#V" n="23" break="no"/>vit eam, ut ipsa vere dicatur 
+creatu<lb ed="#V" n="24" break="no"/>raà ; nec tamen propter ipsam
+<lb ed="#V" n="25"/>Christus dicitur creatura, quia esse
+<lb ed="#V" n="26"/>proprium, vel primum hujus 
+na<lb ed="#V" n="27" break="no"/>turae non est esse primum Christi ;
+<lb ed="#V" n="28"/>et ideo esse primum hujus naturae
+<lb ed="#V" n="29"/>sequitur esse primum Christi, quia
+<lb ed="#V" n="30"/>esse Verbi et aliud esse primum
+<lb ed="#V" n="31"/>non potest Christus habere.
+</p>
+            <p xml:id="jdso8u-d1e2691-d1e1022">
+               <lb ed="#V" n="32"/>Et cum dicitur quod ista mutatio,
+<lb ed="#V" n="33"/>scilicet creatio non magis ponit
+<lb ed="#V" n="34"/>primum esse termini acquiri, quam
+<lb ed="#V" n="35"/>aliqua alia mutatio, dico quod hoc
+<lb ed="#V" n="36"/>est falsum, quia istam 
+specificatio<lb ed="#V" n="37" break="no"/>nem addit creatio ultra alias 
+muta<lb ed="#V" n="38" break="no"/>tiones, ut sicut aliquid non esset
+<lb ed="#V" n="39"/>creatura, si esset tantum a 
+secun<lb ed="#V" n="40" break="no"/>da causa (pro eo quod creari dicit
+<lb ed="#V" n="41"/>respectum ad primum efficiens), et
+<lb ed="#V" n="42"/>tamen potest dici genitum respectu
+<lb ed="#V" n="43"/>causae secundae ; similiter licet per
+<lb ed="#V" n="44"/>generationem acquiratur aliquod
+<cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>esse simpliciter, si tamen illud non
+<lb ed="#V" n="46"/>sit primum esse geniti, et etiam 
+pri<lb ed="#V" n="47" break="no"/>mum esse geniti sequatur non esse,
+<lb ed="#V" n="48"/>tale genitum non dilcitur creatura,
+<lb ed="#V" n="49"/>et ideo non sequitur: Christus est
+<lb ed="#V" n="50"/>cenitus, (prout praedicatum 
+conve<lb ed="#V" n="51" break="no"/>nit ei ratione naturae humanae,) ergo
+<lb ed="#V" n="52"/>est creatus. Nec etiam in alis 
+se<lb ed="#V" n="53" break="no"/>quitur formaliter : ignis est genitus,
+<lb ed="#V" n="54"/>ergo est creatura generaliter, nisi
+<lb ed="#V" n="55"/>gratia materiae, quia esse simpliciter
+<lb ed="#V" n="56"/>terminans generationem ignis, est
+<lb ed="#V" n="57"/>primum esse ipsius, quod dicitur
+<lb ed="#V" n="58"/>genitum.
+</p>
+            <p xml:id="jdso8u-d1e2691-d1e1086">
+               <lb ed="#V" n="59"/>Ad secundum, dico quod 
+mor<lb ed="#V" n="60" break="no"/>tuum non privat primum esse
+<lb ed="#V" n="61"/>Christi, sed esse simpliciter, quod
+<lb ed="#V" n="62"/>est vivere ; ita etiam generari dicit
+<lb ed="#V" n="63"/>acquisitionem esse simpliciter, sed
+<lb ed="#V" n="64"/>non necessario primi esse. Unde
+<lb ed="#V" n="65"/>vere conceditur, Christus mortuus,
+<lb ed="#V" n="66"/>sicut genitus temporaliter, non 
+ta<lb ed="#V" n="67" break="no"/>men conceditur annihilatus, quia
+<lb ed="#V" n="68"/>sicut non dicitur creatus, ita non
+<lb ed="#V" n="69"/>dicitur annihilatus ; quod enim 
+op<lb ed="#V" n="70" break="no"/>ponitur creationi, dicit 
+annihilatio<lb ed="#V" n="71" break="no"/>nem primi esse.
+</p>
+            <p xml:id="jdso8u-d1e2691-d1e1117">
+               <lb ed="#V" n="72"/>Ad istam conclusionem (f) etiam
+<lb ed="#V" n="73"/>ponitur alia ratio talis, quia illud
+<lb ed="#V" n="74"/>denominativum, quod natum est
+<lb ed="#V" n="75"/>denominare generaliter multa, puta
+<lb ed="#V" n="76"/>totum et partem, accidens et 
+subjec<lb ed="#V" n="77" break="no"/>tum, non denominat totum per 
+par<lb ed="#V" n="78" break="no"/>tem, neque subjectum per accidens,
+<lb ed="#V" n="79"/>sicut unum, quod natum est dici de
+<lb ed="#V" n="80"/>subjecto et accidente, non 
+denomi<lb ed="#V" n="81" break="no"/>nat formaliter subjectum per 
+acci<lb ed="#V" n="82" break="no"/>dens. Non enim dicitur Socrates
+<lb ed="#V" n="83"/>unus unitate accidentis vel 
+albedi<lb ed="#V" n="84" break="no"/>nis, ita quod si albedo sit una, et
+<lb ed="#V" n="85"/>Socrates erit unus, et si albedines
+<lb ed="#V" n="86"/>plures, Socrates plures, quia 
+So<lb ed="#V" n="87" break="no"/>crates est tantum unus. Ergo cum
+<lb ed="#V" n="88"/>hoc quod est creatura, natum sit
+<pb ed="#V" n="422"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>dici generaliter de entibus, tam de
+<lb ed="#V" n="2"/>supposito quam de natura, non 
+de<lb ed="#V" n="3" break="no"/>nominabit suppositum ratione 
+natu<lb ed="#V" n="4" break="no"/>rae, nisi conveniat supposito propria
+<lb ed="#V" n="5"/>denominatione ; nullo autem modo
+<lb ed="#V" n="6"/>convenit huic supposito, nisi quia
+<lb ed="#V" n="7"/>denominat ipsam naturam, et per
+<lb ed="#V" n="8"/>ipsam non potest denominare 
+sup<lb ed="#V" n="9" break="no"/>positum ; igitur, etc.
+</p>
+            <p xml:id="jdso8u-d1e2691-d1e1180">
+               <lb ed="#V" n="10"/>Et per hoc patet, quare Christus
+<lb ed="#V" n="11"/>dicitur genitus temporaliter, et non
+<lb ed="#V" n="12"/>creatura, quia generart denominat
+<lb ed="#V" n="13"/>naturam, et mediante natura natum
+<lb ed="#V" n="14"/>est denominare suppositum ; 
+crea<lb ed="#V" n="15" break="no"/>tura nata est denominare utrumque
+<lb ed="#V" n="16"/>propria denominatione, et ita 
+neu<lb ed="#V" n="17" break="no"/>trum est ibi ratio qua respectu 
+alte<lb ed="#V" n="18" break="no"/>rius.
+</p>
+            <p xml:id="jdso8u-d1e2691-d1e1202">
+               <lb ed="#V" n="19"/>Ad argumenta (g). Ad primum,
+<lb ed="#V" n="20"/>dico quod illud quod natum eest
+<lb ed="#V" n="21"/>denominare suppositum ratione 
+na<lb ed="#V" n="22" break="no"/>turae, potest dici de isto supposito,
+<lb ed="#V" n="23"/>puta vivere, intelligere, comedere,
+<lb ed="#V" n="24"/>etc. sed creatura non est tale 
+deno<lb ed="#V" n="25" break="no"/>minativum. Exemplum, homo 
+se<lb ed="#V" n="26" break="no"/>cundum caput dicitur crispus, non
+<lb ed="#V" n="27"/>tamen secundum caput dicitur 
+trian<lb ed="#V" n="28" break="no"/>gulatus vel rotundus, quia primum
+<lb ed="#V" n="29"/>denominativum natum est 
+denomi<lb ed="#V" n="30" break="no"/>nare partem, et per illam totum;
+<lb ed="#V" n="31"/>secundum vero non; ita esse 
+crea<lb ed="#V" n="32" break="no"/>torem natum est denominare 
+natu<lb ed="#V" n="33" break="no"/>ram et suppositum ratione naturae,
+<lb ed="#V" n="34"/>non sic creatura.
+</p>
+            <p xml:id="jdso8u-d1e2691-d1e1239">
+               <lb ed="#V" n="35"/>Aliter potest dici secundum 
+pri<lb ed="#V" n="36" break="no"/>mam rationem positam ad 
+quaestio<lb ed="#V" n="37" break="no"/>nem, quod creator non dicit aliquid
+<lb ed="#V" n="38"/>repugnans naturae vel huic 
+suppo<lb ed="#V" n="39" break="no"/>sito, sicut creatura; creare enim
+<lb ed="#V" n="40"/>est dare esse prima causalitate post
+<lb ed="#V" n="41"/>non esse, hoc Christo non repugnat ;
+<lb ed="#V" n="42"/>creari est accipere esse primum a
+<lb ed="#V" n="43"/>primo efficiente post non esse, hoc
+<lb ed="#V" n="44"/>Christo repugnat.
+</p>
+            <p xml:id="jdso8u-d1e2691-d1e1263">
+               <cb ed="#V" n="b"/>
+               <lb ed="#V" n="45"/>Ad aliud, concedo quod homo
+<lb ed="#V" n="46"/>praedicat aliquid de Christo, et illud
+<lb ed="#V" n="47"/>est creatum et creatura, ita quod de
+<lb ed="#V" n="48"/>illa natura vere dicitur creatura, sed
+<lb ed="#V" n="49"/>non sequitur: ergo de Christo ; si
+<lb ed="#V" n="50"/>enim medium accipitur in majori in
+<lb ed="#V" n="51"/>abstracto, et in minori dicatur de
+<lb ed="#V" n="52"/>Christo in concreto, erunt quatuor
+<lb ed="#V" n="53"/>termini.
+</p>
+            <p xml:id="jdso8u-d1e2691-d1e1288">
+               <lb ed="#V" n="54"/>Ad aliud potest dici, quod est
+<lb ed="#V" n="55"/>homo creatus, ita quod ly creatus
+<lb ed="#V" n="56"/>distrahatur ibi per hoc, quod est
+<lb ed="#V" n="57"/>homo, ut dicatur creatus omo ; et
+<lb ed="#V" n="58"/>tunc non sequitur, ergo est 
+crea<lb ed="#V" n="59" break="no"/>tura, sed est fallacia secundum quid,
+<lb ed="#V" n="60"/>et simpliciter ; sicut hic, Socrates
+<lb ed="#V" n="61"/>factus est albus, ergo est factus.
+</p>
+            <p xml:id="jdso8u-d1e2691-d1e1308">
+               <lb ed="#V" n="62"/>Aliter potest dici quod divisio est
+<lb ed="#V" n="63"/>insufficiens, quia licet quodcumque
+<lb ed="#V" n="64"/>unum ditividatur in se per alterum
+<lb ed="#V" n="65"/>istorum, non tamen quod in se
+<lb ed="#V" n="66"/>implicat duo, scilicet naturam et
+<lb ed="#V" n="67"/>suppositum, quia ratione naturae
+<lb ed="#V" n="68"/>repugnat sibi unum, ratione 
+suppo<lb ed="#V" n="69" break="no"/>siti repugnat sibi aliud.
+</p>
+            <p xml:id="jdso8u-d1e2691-d1e1328">
+               <lb ed="#V" n="70"/>Ad aliud dico, quod quaecumque
+<lb ed="#V" n="71"/>quidditas in abstracto pertinens ad
+<lb ed="#V" n="72"/>quodcumque genus, habet 
+creatu<lb ed="#V" n="73" break="no"/>ram pro superiori denominattve,
+<lb ed="#V" n="74"/>sicut et hoc quod est esse effectum ;
+<lb ed="#V" n="75"/>sed non omne concretum, 
+cujus<lb ed="#V" n="76" break="no"/>cumque generis habet creatum pro
+<lb ed="#V" n="77"/>superiori, sed tantum illud 
+concre<lb ed="#V" n="78" break="no"/>tum, cujus primum esse est esse
+<lb ed="#V" n="79"/>ilius denominativi, id est, cujus
+<lb ed="#V" n="80"/>primum esse est creatum ; sed esse
+<lb ed="#V" n="81"/>primum Christi non est creatum,
+<lb ed="#V" n="82"/>nec primum totale, nec primum
+<lb ed="#V" n="83"/>partiale, sicut esse creatura non est
+<lb ed="#V" n="84"/>superius ad esse album, ut propter
+<lb ed="#V" n="85"/>hoc dicatur : Socrates est creatura,
+<lb ed="#V" n="86"/>quia albedo est creatura, sed ex alia
+<lb ed="#V" n="87"/>ratione priori. Unde icet de 
+albe<lb ed="#V" n="88" break="no"/>dine dicatur creatura, non tamen de
+<pb ed="#V" n="423"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>albo, si album non est esse primum
+<lb ed="#V" n="2"/>illius, de quo dicitur.
+</p>
+            <p xml:id="jdso8u-d1e2691-d1e1380">
+               <lb ed="#V" n="3"/>Ad aliud patet, quod dicitur 
+geni<lb ed="#V" n="4" break="no"/>tus et conceptus, quia ista nata
+<lb ed="#V" n="5"/>sunt denominare totum ratione 
+na<lb ed="#V" n="6" break="no"/>turae, ita quod respectu istorum
+<lb ed="#V" n="7"/>natura est ut quo respectu totius;
+<lb ed="#V" n="8"/>non sic autem respectu hujus 
+prae<lb ed="#V" n="9" break="no"/>dicati, quod est esse creatura ; 
+opor<lb ed="#V" n="10" break="no"/>tet enim quod propria 
+denomina<lb ed="#V" n="11" break="no"/>tione diceretur de supposito, alia ab
+<lb ed="#V" n="12"/>illa, qua dicitur de natura, aut 
+sal<lb ed="#V" n="13" break="no"/>tem competeret supposito ratione
+<lb ed="#V" n="14"/>primi esse ejus.
+</p>
+            <!--</div>-->
+         </div>
+      </body>
+   </text>
+</TEI>
