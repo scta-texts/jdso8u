@@ -1,0 +1,851 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 3, Distinctio 37, Quaestio 1</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 3, Distinctio 37, Quaestio 1</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x15">Vives, Paris, 1894, volume 15</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="741"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e3099"><!-- jdso8u-b3d37q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum omnia praecepta decalogi sint de lege naturae</head>
+        <!-- <div alias="scotus-d37q1-p1"> -->
+          <p>
+            <lb ed="#V" n="26" type="fixed=741"/>QUAESTIO UNICA.
+            <lb ed="#V" n="27"/>Utrum omnia praecepta Decalogi sint de
+            <lb ed="#V" n="28"/>lege naturae?
+          </p>
+          <p>
+            <lb ed="#V" n="29"/>Alens. 3. part. quaest. 29. membr. 1. art. 1.
+            Di<lb ed="#V" n="30" break="no"/>vus Thomas 1. 2. quaest. 100. art. 8. et quaest.
+            <lb ed="#V" n="31"/>104. art. 1. Divus Bonaventura hic art. 1.
+            <lb ed="#V" n="32"/>quaest. 3. Richardus art. 1. quaest. 1. Durandus
+            <lb ed="#V" n="33"/>quaest. 1. Gabriel. quaest. 1. Major quaest. 10.
+            <lb ed="#V" n="34"/>Occham 1. quaest. 19. ad tertium dubium,
+            Alia<lb ed="#V" n="35" break="no"/>co 1. disp. 14. Gerson. alphab. 61. lit. e, f.
+            Vas<lb ed="#V" n="36" break="no"/>quez 1. 2. quaest. 99. art. 5. et d. 179. Alm. 3.
+            <lb ed="#V" n="37"/>mor. 15. et hic, Molina tom. 6. tract. 5. d. 57.
+            <lb ed="#V" n="38"/>num 6. Rada 3. tom. controvers. 16. Suarez
+            <lb ed="#V" n="39"/>lib. 2. de legibus, cap. 15. AEgidius hic quaest.
+          </p>
+          <p>
+            <lb ed="#V" n="40"/>Circa istam distinctionem (a)
+            tri<lb ed="#V" n="41" break="no"/>gesimam septimam, in qua Magister
+            <lb ed="#V" n="42"/>agit de praeceptis, quaeritur unum:
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43"/>Utrum omnia praecepta Decalogi
+            <lb ed="#V" n="44"/>sint de lege naturae? quod non. In
+            <lb ed="#V" n="45"/>his, quae sunt de lege naturae, non
+            <lb ed="#V" n="46"/>videtur posse Deus dispensare; sed
+            <lb ed="#V" n="47"/>dispensavit in aliquibus, quae
+            viden<lb ed="#V" n="48" break="no"/>tur esse contra praecepta Decalogi;
+            <lb ed="#V" n="49"/>ergo. Probatio majoris, quae sunt de
+            <lb ed="#V" n="50"/>lege naturae, vel sunt principia
+            ne<lb ed="#V" n="51" break="no"/>cessaria nota ex terminis, vel sunt
+            <lb ed="#V" n="52"/>conclusiones necessario sequentes
+            <lb ed="#V" n="53"/>ex talibus principiis; sed sive sic,
+            <lb ed="#V" n="54"/>sive sic, habent veritatem
+            necessa<lb ed="#V" n="55" break="no"/>riam; igitur Deus non potest facere
+            <lb ed="#V" n="56"/>ea esse falsa; igitur non potest
+            <lb ed="#V" n="57"/>facere illud quod mandant fieri non
+            <lb ed="#V" n="58"/>esse bonum, et quod prohibent non
+            <lb ed="#V" n="59"/>esse malum, et per consequens de
+            <lb ed="#V" n="60"/>tali illicito licitum. Probatio
+            mino<lb ed="#V" n="61" break="no"/>ris: occidere et furari et moechari
+            <lb ed="#V" n="62"/>sunt contra praecepta Decalogi, ut
+            <lb ed="#V" n="63"/>patet Exod. 20. sed in istis videtur
+            <lb ed="#V" n="64"/>Deus dispensasse; nam de
+            homici<lb ed="#V" n="65" break="no"/>dio patet Genes. 22. de Abraham, de
+            <lb ed="#V" n="66"/>filio immolando; de furto, Exod. 11.
+            <lb ed="#V" n="67"/>et 12. de filiis Israel, quibus
+            praece<lb ed="#V" n="68" break="no"/>pit ut spoliarent AEgyptios, quae
+            <lb ed="#V" n="69"/>spoliatio est ablatio rei alienae
+            in<lb ed="#V" n="70" break="no"/>vito domino, quae est definitio furti;
+            <lb ed="#V" n="71"/>de tertio, scilicet moechari, patet
+            <lb ed="#V" n="72"/>Oseae 1. Fac filios fornicationum.
+          </p>
+          <p>
+            <lb ed="#V" n="73"/>Praeterea, Rom. 7. dicit
+            Aposto<lb ed="#V" n="74" break="no"/>lus: Concupiscentiam nesciebam,
+            <lb ed="#V" n="75"/>nisi lex diceret, non concupisces,
+            <lb ed="#V" n="76"/>etc. Sed ea, quae sunt nota ex lege
+            <lb ed="#V" n="77"/>naturae, sciuntur esse vitanda vel
+            <lb ed="#V" n="78"/>agenda, etiamsi non sint scripta,
+            <lb ed="#V" n="79"/>sicut ea quae sunt naturaliter nota in
+            <lb ed="#V" n="80"/>speculativis, essent naturaliter nota,
+            <lb ed="#V" n="81"/>etiamsi non essent revelata.
+          </p>
+          <p>
+            <lb ed="#V" n="82"/>Praeterea, lex naturae obligavit in
+            <lb ed="#V" n="83"/>omni statu, quia notum est in tali
+            <lb ed="#V" n="84"/>natura esse sic agendum, vel non;
+            <lb ed="#V" n="85"/>sed Decalogus non obligavit in omni
+            <lb ed="#V" n="86"/>statu, puta non in statu innocentiae,
+            <pb ed="#V" n="742"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>cum tunc lex Decalogi non esset
+            <lb ed="#V" n="2"/>data, et antequam esset data, non
+            <lb ed="#V" n="3"/>obligavit.
+          </p>
+          <p>
+            <lb ed="#V" n="4"/>Contra in Canone distinct. 6. 8
+            <lb ed="#V" n="5"/>His itaque respondetur, et in
+            princi<lb ed="#V" n="6" break="no"/>pio decretorum, et 1. Joann. 1.
+            <lb ed="#V" n="7"/>Quaere.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d37q1-p2"> -->
+          <p>
+            <lb ed="#V" n="72" type="fixed=783"/>SCHOLIUM.
+            <lb ed="#V" n="73"/>Sententia D. Thom. et suorum, nulla
+            prae<lb ed="#V" n="74" break="no"/>cepta Decalogi esse per Deum dispensabilia,
+            <lb ed="#V" n="75"/>quia sunt principia Juris naturae, vel
+            conclu<lb ed="#V" n="76" break="no"/>siones necessario ex eis sequentes, et habent ex
+            <lb ed="#V" n="77"/>se bonitatem, quae sunt affirmativa, et
+            mali<lb ed="#V" n="78" break="no"/>tiam, quae sunt negativa.
+          </p>
+          <p>
+            <lb ed="#V" n="79"/>Hic dicitur (b) quod sic, et ponitur
+            <lb ed="#V" n="80"/>talis modus: Lex naturae est lex p
+            <lb ed="#V" n="81"/>descendens ex primis principiis
+            <lb ed="#V" n="82"/>notis in agibilibus; talia sunt
+            quae<lb ed="#V" n="83" break="no"/>dam principia practica, nota ex
+            <lb ed="#V" n="84"/>terminis, quae sunt quaedam
+            semi<lb ed="#V" n="85" break="no"/>naria, ad quorum veritatem
+            incli<lb ed="#V" n="86" break="no"/>natur naturaliter intellectus ex
+            ter<lb ed="#V" n="87" break="no"/>minis; et ad assentiendum tali
+            <pb ed="#V" n="784"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>dictamini inclinatur voluntas
+            natu<lb ed="#V" n="2" break="no"/>raliter ex talibus principiis. Sed
+            <lb ed="#V" n="3"/>omnia, quaecumque sunt in
+            Deca<lb ed="#V" n="4" break="no"/>logo, sunt talia, vel immediate vel
+            <lb ed="#V" n="5"/>mediate; omnia enim, quae ibi
+            <lb ed="#V" n="6"/>praecipiuntur, habent bonitatem
+            <lb ed="#V" n="7"/>formalem, quae secundum se
+            ordi<lb ed="#V" n="8" break="no"/>nata est ad finem ultimum, ut per
+            <lb ed="#V" n="9"/>illa homo convertatur ad illum
+            <lb ed="#V" n="10"/>finem, et consequatur ipsum.
+            Simi<lb ed="#V" n="11" break="no"/>liter omnia, quae ibi prohibentur,
+            <lb ed="#V" n="12"/>habent malitiam formalem
+            averten<lb ed="#V" n="13" break="no"/>tem a fine ultimo; ita quod ibi
+            prae<lb ed="#V" n="14" break="no"/>cepta sunt bona, non tantum, quia
+            <lb ed="#V" n="15"/>praecepta, sed ideo praecepta, quia
+            <lb ed="#V" n="16"/>secundum se bona. Similiter ibi
+            <lb ed="#V" n="17"/>prohibita sunt mala, non tantum
+            <lb ed="#V" n="18"/>quia prohibita, sed ideo prohibita,
+            <lb ed="#V" n="19"/>quia mala.
+          </p>
+          <p>
+            <lb ed="#V" n="20"/>Et tunc videtur consequenter esse
+            <lb ed="#V" n="21"/>dicendum ad primum argumentum,
+            <lb ed="#V" n="22"/>quod Deus simpliciter non potest
+            <lb ed="#V" n="23"/>dispensare in talibus; quod enim
+            <lb ed="#V" n="24"/>ex se est illicitum, non videtur posse
+            <lb ed="#V" n="25"/>fieri licitum per aliquam
+            volunta<lb ed="#V" n="26" break="no"/>tem, ut sic occidere ex hoc, quod est
+            <lb ed="#V" n="27"/>actus transiens super talem
+            mate<lb ed="#V" n="28" break="no"/>riam, scilicet proximum, est actus
+            <lb ed="#V" n="29"/>malus, stante illa causa semper erit
+            <lb ed="#V" n="30"/>malus; et ita nullum velle, quod est
+            <lb ed="#V" n="31"/>extra rationem illorum terminorum,
+            <lb ed="#V" n="32"/>potest facere, quod sit bonus, et
+            <lb ed="#V" n="33"/>tunc oportet exponere auctoritates,
+            <lb ed="#V" n="34"/>quae videntur dicere Deum in talibus
+            <lb ed="#V" n="35"/>dispensasse, et exponuntur uno
+            <lb ed="#V" n="36"/>modo, quod licet posset fieri
+            dispen<lb ed="#V" n="37" break="no"/>satio circa actum in genere actus,
+            <lb ed="#V" n="38"/>non tamen circa ipsum inquantum
+            <lb ed="#V" n="39"/>est prohibitus, et ita nec contra
+            <lb ed="#V" n="40"/>prohibitionem.
+          </p>
+          <p>
+            <lb ed="#V" n="41"/>Aliter dicitur, quod actus manens
+            <lb ed="#V" n="42"/>inordinatus non potest fieri
+            ordina<lb ed="#V" n="43" break="no"/>tus; actus autem inquantum est
+            <lb ed="#V" n="44"/>contra prohibitionem, est
+            inordina<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>tus; ideo non potest dispensare in
+            <lb ed="#V" n="46"/>illo inquantum est contra
+            prohibi<lb ed="#V" n="47" break="no"/>tionem.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d37q1-p3"> -->
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="44" type="fixed=785"/>SCHOLIUM.
+            <lb ed="#V" n="45"/>Explicat quid sit dispensatio proprie,
+            impro<lb ed="#V" n="46" break="no"/>bando expositiones D. Thom. Secundo refutat
+            <lb ed="#V" n="47"/>quod D. Thom. ait omnia praecepta Decalogi
+            <lb ed="#V" n="48"/>habere veritatem necessariam ex terminis, vel
+            <lb ed="#V" n="49"/>ex his, per necessariam consequentiam. Primo,
+            <lb ed="#V" n="50"/>quia intellectus Dei necessario apprehenderet
+            <lb ed="#V" n="51"/>ea, et practice contra dicta q. 4. prol. et
+            vo<lb ed="#V" n="52" break="no"/>luntas Dei necessario conformaretur eis.
+            Secun<lb ed="#V" n="53" break="no"/>do, voluntas Dei determinaretur ad extra
+            ne<lb ed="#V" n="54" break="no"/>cessario. Tria praecepta spectantia ad Deum
+            <lb ed="#V" n="55"/>fuisse in prima tabula, et reliqua in secunda,
+            <lb ed="#V" n="56"/>tenet August. in Exod. 26. D. Thom. 1. 2. q.
+            <lb ed="#V" n="57"/>100. art. 4. et communis, licet Hier. in Oseae
+            <lb ed="#V" n="58"/>10. aliter numeret praecepta.
+          </p>
+          <p>
+            <lb ed="#V" n="59"/>Sed istae (c) expositiones (quae
+            <lb ed="#V" n="60"/>forte redeunt in idem) non
+            viden<lb ed="#V" n="61" break="no"/>tur salvare propositum. Dispensare
+            <lb ed="#V" n="62"/>enim non est facere, quod stante
+            <lb ed="#V" n="63"/>praecepto liceat facere contra
+            praece<lb ed="#V" n="64" break="no"/>ptum; sed dispensare est revocare
+            <lb ed="#V" n="65"/>praeceptum, vel declarare qualiter
+            <lb ed="#V" n="66"/>debeat intelligi. Est enim duplex
+            <lb ed="#V" n="67"/>dispensatio, scilicet Juris revocatio,
+            <lb ed="#V" n="68"/>et Juris declaratio.
+          </p>
+          <p>
+            <lb ed="#V" n="69"/>Quaero, an stantibus omnibus
+            <lb ed="#V" n="70"/>circumstantiis eisdem in isto actu,
+            <lb ed="#V" n="71"/>qui est occidere hominem, variata
+            <lb ed="#V" n="72"/>sola circumstantia prohibiti et non
+            <lb ed="#V" n="73"/>prohibiti, posset Deus facere quod
+            <lb ed="#V" n="74"/>ille actus, qui cum talibus
+            circum<lb ed="#V" n="75" break="no"/>stantiis aliis est aliquando
+            prohibi<lb ed="#V" n="76" break="no"/>tus, alias esset non prohibitus, sed
+            <lb ed="#V" n="77"/>licitus? Si sic, igitur simpliciter
+            <lb ed="#V" n="78"/>potest dispensare, sicut simpliciter
+            <lb ed="#V" n="79"/>mutavit legem veterem quantum ad
+            <lb ed="#V" n="80"/>caeremonialia, quando dedit novam;
+            <lb ed="#V" n="81"/>non quidem faciens quod manente
+            <lb ed="#V" n="82"/>praecepto de caeremonialibus, illa
+            <lb ed="#V" n="83"/>non essent servanda, sed faciens,
+            <lb ed="#V" n="84"/>quod actu illo manente eodem, non
+            <lb ed="#V" n="85"/>tenebatur quis ad illum, sicut prius.
+            <lb ed="#V" n="86"/>Ita etiam dispensat quicumque
+            <lb ed="#V" n="87"/>legislator simpliciter, quando
+            re<pb ed="#V" n="786"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>vocat praeceptum Juris positivi
+            <lb ed="#V" n="2"/>facti ab eo; non quidem faciens,
+            <lb ed="#V" n="3"/>quod actu prohibito vel praecepto
+            <lb ed="#V" n="4"/>manente secundum se, auferatur
+            <lb ed="#V" n="5"/>ratio illiciti, et fiat licitum.
+          </p>
+          <p>
+            <lb ed="#V" n="6"/>Si autem Deus non potest facere
+            <lb ed="#V" n="7"/>de isto actu, qui cum talibus
+            cir<lb ed="#V" n="8" break="no"/>cumstantiis erat prohibitus, quod
+            <lb ed="#V" n="9"/>manentibus eisdem circumstantiis
+            <lb ed="#V" n="10"/>prioribus de prohibitione, non sit
+            <lb ed="#V" n="11"/>prohibitus; igitur non potest facere
+            <lb ed="#V" n="12"/>quod occidere non sit prohibitum,
+            <lb ed="#V" n="13"/>cujus oppositum manifeste patet de
+            <lb ed="#V" n="14"/>Abraham.
+          </p>
+          <p>
+            <lb ed="#V" n="15"/>Praeterea, quae sunt vera ex
+            ter<lb ed="#V" n="16" break="no"/>minis, sive sint necessaria ex
+            ter<lb ed="#V" n="17" break="no"/>minis, sive consequentia ex talibus
+            <lb ed="#V" n="18"/>necessariis, praecedunt in veritate
+            <lb ed="#V" n="19"/>omnem actum voluntatis, vel saltem
+            <lb ed="#V" n="20"/>habent veritatem suam,
+            circumscrip<lb ed="#V" n="21" break="no"/>to per impossibile omni velle; igitur
+            <lb ed="#V" n="22"/>si praecepta Decalogi, vel
+            proposi<lb ed="#V" n="23" break="no"/>tiones practicae, quae possent
+            for<lb ed="#V" n="24" break="no"/>mari ab eis, haberent talem
+            neces<lb ed="#V" n="25" break="no"/>sitatem, puta, quod haec esset
+            ne<lb ed="#V" n="26" break="no"/>cessaria: proximus non est
+            occiden<lb ed="#V" n="27" break="no"/>dus, furtum non est faciendum, ita
+            <lb ed="#V" n="28"/>quod circumscripto omni velle apud
+            <lb ed="#V" n="29"/>intellectum apprehendentem, tales
+            <lb ed="#V" n="30"/>complexiones essent sic notae,
+            in<lb ed="#V" n="31" break="no"/>tellectus divinus apprehendens talia
+            <lb ed="#V" n="32"/>necessario apprehenderet ea
+            tan<lb ed="#V" n="33" break="no"/>quam ex se vera, et tunc voluntas
+            <lb ed="#V" n="34"/>divina necessario concordaret istis
+            <lb ed="#V" n="35"/>apprehensis, vel ipsa non esset
+            <lb ed="#V" n="36"/>recta, et ita esset ponere in Deo
+            <lb ed="#V" n="37"/>rationem scientiae practicae, quod
+            <lb ed="#V" n="38"/>negatum est in primo. Esset etiam
+            <lb ed="#V" n="39"/>ponere quod voluntas ejus
+            simplici<lb ed="#V" n="40" break="no"/>ter necessario determinatur circa
+            ali<lb ed="#V" n="41" break="no"/>qua volibilia alia a se, cujus
+            opposi<lb ed="#V" n="42" break="no"/>tum est dictum in primo, ubi tactum
+            <lb ed="#V" n="43"/>est quod voluntas divina in nihil
+            <lb ed="#V" n="44"/>aliud a se tendit, nisi contingenter.
+          </p>
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>Quod si dicatur voluntatem
+            crea<lb ed="#V" n="46" break="no"/>tam necessario debere conformare
+            <lb ed="#V" n="47"/>se istis ad hoc quod sit recta, non
+            <lb ed="#V" n="48"/>tamen voluntatem divinam oportet
+            <lb ed="#V" n="49"/>conformiter velle istis veris; sed
+            <lb ed="#V" n="50"/>quia conformiter vult, ideo sunt
+            <lb ed="#V" n="51"/>vera. Iste respondet ad
+            conclusio<lb ed="#V" n="52" break="no"/>nem, quia ratio probat oppositum,
+            <lb ed="#V" n="53"/>nam intellectus divinus prius
+            appre<lb ed="#V" n="54" break="no"/>hendit istos terminos, et potest
+            <lb ed="#V" n="55"/>apprehendere veritatem
+            complexio<lb ed="#V" n="56" break="no"/>nis in eis, quam scilicet
+            complexio<lb ed="#V" n="57" break="no"/>nem habet ex terminis, antequam
+            <lb ed="#V" n="58"/>voluntas sua habeat aliquem actum
+            <lb ed="#V" n="59"/>circa ea; igitur in secundo signo
+            <lb ed="#V" n="60"/>naturae, scilicet quando voluntas
+            <lb ed="#V" n="61"/>habet actum circa illa, oportet
+            ne<lb ed="#V" n="62" break="no"/>cessario quod velit conformiter illi
+            <lb ed="#V" n="63"/>dictamini.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d37q1-p4"> -->
+          <p>
+            <lb ed="#V" n="20" type="fixed=825"/>SCHOLIUM.
+            <lb ed="#V" n="21"/>In hac littera primum dictum, quod est de
+            <lb ed="#V" n="22"/>lege naturae stricte, est principium practicum
+            <lb ed="#V" n="23"/>ex terminis notum, vel conclusio evidenter, et
+            <lb ed="#V" n="24"/>necessario ex eo deducta. Exemplum primi:
+            <lb ed="#V" n="25"/>bonum amandum, malum fugiendum; secundi:
+            <lb ed="#V" n="26"/>Deus summe amandus. Quod vero est de lege
+            <lb ed="#V" n="27"/>naturae large, est aliquid valde consonum legi
+            <lb ed="#V" n="28"/>naturae stricte, ut divisio rerum huic principio:
+            <lb ed="#V" n="29"/>pacifice est vivendum. Ita Doctor hic, et 4. d. 17.
+            <lb ed="#V" n="30"/>quaest. 1. d. 26. quaest. 1. Secundum dictum,
+            <lb ed="#V" n="31"/>praecepta secundae tabulae pleraque
+            dispensa<lb ed="#V" n="32" break="no"/>bilia sunt per Deum, quia non sunt de Jure
+            <lb ed="#V" n="33"/>naturae stricte. Probatur primo ex allatis contra
+            <lb ed="#V" n="34"/>Divum Thomam num. 4. Secundo, quia
+            affir<lb ed="#V" n="35" break="no"/>mativa secundae tabulae non continent
+            bonita<lb ed="#V" n="36" break="no"/>tem necessariam ad ultimum finem, nec
+            nega<lb ed="#V" n="37" break="no"/>tiva malitiam necessario avertentem ab eodem;
+            <lb ed="#V" n="38"/>potest enim faciens contra praecepta ista non
+            <lb ed="#V" n="39"/>concipere se averti ab ultimo fine. Ita Occham,
+            <lb ed="#V" n="40"/>Aliaco, Gerson, Alm. AEgid, citati, et D.
+            Bona<lb ed="#V" n="41" break="no"/>vent. 1. d. 47. quaest. 4. citans Bernard. de
+            <lb ed="#V" n="42"/>dispensat. cap 5. et omnes Scotistae.
+            Praeci<lb ed="#V" n="43" break="no"/>puum contra hoc argumentum est, quod
+            da<lb ed="#V" n="44" break="no"/>retur bellum utrinque justum, contra
+            commu<lb ed="#V" n="45" break="no"/>nem sine ignorantia, quia dispensatus ad
+            oc<lb ed="#V" n="46" break="no"/>cidendum posset oppugnari per invasum, et
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="47"/>sic utrinque juste et scienter pugnaretur. Sed
+            <lb ed="#V" n="48"/>de potentia absoluta forte hoc non est
+            incon<lb ed="#V" n="49" break="no"/>veniens, quia etiam de facto id videtur multis
+            <lb ed="#V" n="50"/>casibus admitti. Soto 5. de justit quaest. 1. art.
+            <lb ed="#V" n="51"/>7. ait putantem se bona fide pugnare, posse
+            <lb ed="#V" n="52"/>aggredi alterum, quem scit innocentem. Item
+            <lb ed="#V" n="53"/>reus condemnatus contra scientiam privatam
+            <lb ed="#V" n="54"/>judicis, potest resistere, secluso scandalo
+            se<lb ed="#V" n="55" break="no"/>cundum multos citatos a Covarr. 1. var. cap.
+            <lb ed="#V" n="56"/>2. num. 13. Item si duo in naufragio simul
+            <lb ed="#V" n="57"/>caperent scapham unius tantum capacem,
+            <lb ed="#V" n="58"/>possent pugnare pro ea utrinque juste sine
+            <lb ed="#V" n="59"/>ignorantia. Ita Major 4. d. 15. quaest. 22. Assor.
+            <lb ed="#V" n="60"/>tom. 3. lib. 2. cap. 3. Item duo damnati ad
+            <lb ed="#V" n="61"/>mortem, vel ad duellandum, possent juste
+            <lb ed="#V" n="62"/>duellare, secundum Majorem 4. d. 15. quaest.
+            <lb ed="#V" n="63"/>23. Assor. 3. tom. lib. 2. cap. 5. quaest. 4. Vide
+            <lb ed="#V" n="64"/>ipsum ibi cap. 7. quaest. 2. et Sayrum lib. 7.
+            <lb ed="#V" n="65"/>cap. 2. num. 15. Petrum Navarrum 2. de
+            res<lb ed="#V" n="66" break="no"/>tit. cap. 3. num. 148. Lessium lib. 2. c. 13. num.
+            <lb ed="#V" n="67"/>30. qui alios casus similes tractant. Tertium
+            <lb ed="#V" n="68"/>dictum, praecepta primae tabulae, sumpta
+            nega<lb ed="#V" n="69" break="no"/>tive, sunt indispensabilia. Ratio est opposita
+            ra<lb ed="#V" n="70" break="no"/>tioni allatae pro secundo dicto. In hoc omnes
+            <lb ed="#V" n="71"/>conveniunt, praeter Occham, Aliaco, Gerson,
+            <lb ed="#V" n="72"/>et Alm. citatos.
+            <lb ed="#V" n="73"/><quote>Ad quaestionem igitur dico (d)
+          <lb ed="#V" n="74"/>quod aliqua possunt dici esse de
+          <lb ed="#V" n="75"/>lege naturae dupliciter: Uno modo
+          <lb ed="#V" n="76"/>tanquam prima principia practica,
+          <lb ed="#V" n="77"/>nota ex terminis, vel conclusiones
+          <lb ed="#V" n="78"/>necessario sequentes ex eis; et haec
+          <lb ed="#V" n="79"/>dicuntur esse strictissime de lege
+          <lb ed="#V" n="80"/>naturae. Et rationes contra primam
+          <lb ed="#V" n="81"/>opinionem probant quod in talibus
+          <lb ed="#V" n="82"/>non potest esse dispensatio, quas
+          <lb ed="#V" n="83"/>concedo; sed talia non sunt
+          quae<lb ed="#V" n="84" break="no"/>cumque praecepta secundae tabulae,
+          <lb ed="#V" n="85"/>quia rationes eorum quae ibi
+          praeci<lb ed="#V" n="86" break="no"/>piuntur vel prohibentur, non sunt
+          <lb ed="#V" n="87"/>principia practica simpliciter
+          neces<lb ed="#V" n="88" break="no"/>saria, nec conclusiones simpliciter
+          <lb ed="#V" n="89"/>necessariae. Non enim in his, quae
+          <lb ed="#V" n="90"/>praecipiuntur ibi, est bonitas
+          neces<lb ed="#V" n="91" break="no"/>saria ad bonitatem ultimi finis,
+          <lb ed="#V" n="92"/>convertens ad finem ultimum; nec
+          <lb ed="#V" n="93"/>in his quae prohibentur, est malitia
+          <pb ed="#V" n="826"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>necessario avertens a fine ultimo,
+          <lb ed="#V" n="2"/>quin si bonum istud non esset
+          prae<lb ed="#V" n="3" break="no"/>ceptum, posset finis ultimus amari
+          <lb ed="#V" n="4"/>et attingi; et si illud malum non
+          <lb ed="#V" n="5"/>esset prohibitum, staret cum eo
+          <lb ed="#V" n="6"/>acquisitio finis ultimi.—</quote>
+          </p>
+          <p>
+            <quote><lb ed="#V" n="7"/>De praeceptis autem primae (e)
+          <lb ed="#V" n="8"/>tabulae secus est, quia illa
+          imme<lb ed="#V" n="9" break="no"/>diate respiciunt Deum pro objecto:
+          <lb ed="#V" n="10"/>Duo quidem prima, si intelligantur
+          <lb ed="#V" n="11"/>esse tantum negativa, primum:
+          <lb ed="#V" n="12"/>Non habebis deos alienos;
+          secun<lb ed="#V" n="13" break="no"/>dum: Non assumes nomen Dei tui
+          <lb ed="#V" n="14"/>in vanum, id est, non facies Deo
+          <lb ed="#V" n="15"/>tuo irreverentiam: ista sunt stricte
+          <lb ed="#V" n="16"/>de lege naturae, quia sequitur
+          ne<lb ed="#V" n="17" break="no"/>cessario, si est Deus, est amandus
+          <lb ed="#V" n="18"/>ut Deus, et quod nihil aliud est
+          <lb ed="#V" n="19"/>colendum tanquam Deus, nec Deo
+          <lb ed="#V" n="20"/>est facienda irreverentia; et per
+          <lb ed="#V" n="21"/>con sequens in istis non poterit Deus
+          <lb ed="#V" n="22"/>dis pensare, ut aliquis possit licite
+          <lb ed="#V" n="23"/>facere oppositum talis prohibiti.</quote>
+          </p>
+          <p>
+            <quote><lb ed="#V" n="24"/>Tertium praeceptum (f), quod est
+          <lb ed="#V" n="25"/>de Sabbato, est affirmativum
+          tan<lb ed="#V" n="26" break="no"/>quam ad aliquem cultum
+          exhiben<lb ed="#V" n="27" break="no"/>dum Deo determinato tempore, et
+          <lb ed="#V" n="28"/>quantum ad determinationem hujus
+          <lb ed="#V" n="29"/>temporis vel illius, non est de lege
+          <lb ed="#V" n="30"/>naturae, stricte loquendo. Similiter,
+          <lb ed="#V" n="31"/>nec ad partem negativam, quae
+          in<lb ed="#V" n="32" break="no"/>cluditur, qua scilicet prohibetur
+          <lb ed="#V" n="33"/>actus servilis pro tempore
+          determi<lb ed="#V" n="34" break="no"/>nato, prohibens a cultu tunc
+          exhi<lb ed="#V" n="35" break="no"/>bendo Deo; ille enim actus non
+          <lb ed="#V" n="36"/>prohibetur, nisi quia impediens vel
+          <lb ed="#V" n="37"/>retrahens ab isto cultu qui
+          praecipi<lb ed="#V" n="38" break="no"/>tur. Sed an sit de lege naturae stricte"
+          <lb ed="#V" n="39"/>hoc praeceptum de Sabbato,
+          quan<lb ed="#V" n="40" break="no"/>tum ad cultum pro aliquo tempore
+          <lb ed="#V" n="41"/>determinato exhibendum Deo,
+          du<lb ed="#V" n="42" break="no"/>bium est; quia si non, igitur
+          abso<lb ed="#V" n="43" break="no"/>lute Deus posset dispensare, quod
+          <lb ed="#V" n="44"/>homo toto tempore vitae suae non
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>haberet bonum motum circa Deum;
+          <lb ed="#V" n="46"/>quod non videtur probabile, quia
+          <lb ed="#V" n="47"/>sine omni bono velle finis ultimi,
+          <lb ed="#V" n="48"/>non potest aliquis habere
+          simplici<lb ed="#V" n="49" break="no"/>ter bonum velle circa ea quae sunt
+          <lb ed="#V" n="50"/>ad finem, et ita nunquam teneretur
+          <lb ed="#V" n="51"/>ad bonum velle simpliciter; quia
+          <lb ed="#V" n="52"/>qua ratione non sequitur ex lege
+          <lb ed="#V" n="53"/>naturae stricte loquendo, quod nunc
+          <lb ed="#V" n="54"/>sit exhibendus cultus Deo, pari
+          <lb ed="#V" n="55"/>ratione nec tunc, et ita pari ratione
+          <lb ed="#V" n="56"/>de quolibet tempore determinato.
+          <lb ed="#V" n="57"/>Et ideo, stricte loquendo, non
+          vide<lb ed="#V" n="58" break="no"/>tur quomodo possit concludi,
+          quan<lb ed="#V" n="59" break="no"/>do aliquis teneatur tunc; vel nunc
+          <lb ed="#V" n="60"/>exhibere cultum Deo; et pari
+          ra<lb ed="#V" n="61" break="no"/>tione, nec aliquando indistincte,
+          <lb ed="#V" n="62"/>quia ad nullum actum tenetur
+          ali<lb ed="#V" n="63" break="no"/>quis pro aliquo tempore
+          indeter<lb ed="#V" n="64" break="no"/>minato, ad quem non tenetur pro
+          <lb ed="#V" n="65"/>aliquo tempore signato aliquibus
+          <lb ed="#V" n="66"/>opportunitatibus concurrentibus.</quote>
+          </p>
+          <p>
+            <quote><lb ed="#V" n="67"/>Si autem illud sit de lege naturae
+          <lb ed="#V" n="68"/>stricte, ita quod sequatur
+          necessa<lb ed="#V" n="69" break="no"/>rio: Deus non est odiendus, vel ex
+          <lb ed="#V" n="70"/>aliquo alio dato: igitur Deus est
+          <lb ed="#V" n="71"/>diligendus, et hoc aliquando actu
+          <lb ed="#V" n="72"/>elicito circa ipsum; tunc
+          argumen<lb ed="#V" n="73" break="no"/>tum illud non tenet a singularibus
+          <lb ed="#V" n="74"/>ad universale, sed est fallacia figurae
+          <lb ed="#V" n="75"/>dictionis, sicut in aliis a pluribus
+          <lb ed="#V" n="76"/>determinatis ad unam
+          determina<lb ed="#V" n="77" break="no"/>tam. Si autem illud tertium
+          prae<lb ed="#V" n="78" break="no"/>ceptum non sit de lege naturae
+          <lb ed="#V" n="79"/>stricte, tunc judicandum est de illo,
+          <lb ed="#V" n="80"/>sicut de praeceptis secundae tabulae.
+          <lb ed="#V" n="81"/></quote><quote>Alio modo dicuntur (g) aliqua
+          <lb ed="#V" n="82"/>esse de lege naturae, quia sunt
+          mul<lb ed="#V" n="83" break="no"/>tum consona illi legi, licet non
+          se<lb ed="#V" n="84" break="no"/>quantur necessario ex principiis
+          <lb ed="#V" n="85"/>practicis, quae nota sunt ex terminis,
+          <lb ed="#V" n="86"/>et omni intellectui apprehendenti
+          <lb ed="#V" n="87"/>sunt necessario nota; et hoc modo
+          <lb ed="#V" n="88"/>certum est omnia praecepta etiam
+          <pb ed="#V" n="827"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>secundae tabulae esse de lege
+          natu<lb ed="#V" n="2" break="no"/>rae, quia eorum rectitudo valde
+          con<lb ed="#V" n="3" break="no"/>sonat primis principiis practicis
+          <lb ed="#V" n="4"/>necessario notis.</quote>
+          </p>
+          <p>
+            <quote><lb ed="#V" n="5"/>Ista distinctio potest declarari in
+          <lb ed="#V" n="6"/>exemplo, nam supposito isto
+          princi<lb ed="#V" n="7" break="no"/>pio Juris positivi, pacifice esse
+          <lb ed="#V" n="8"/>vivendum in communitate vel
+          poli<lb ed="#V" n="9" break="no"/>tia ex hoc non sequitur necessario,
+          <lb ed="#V" n="10"/>igitur quilibet debet habere
+          posses<lb ed="#V" n="11" break="no"/>sionem distinctam a possessione
+          <lb ed="#V" n="12"/>alterius; posset enim stare pax in
+          <lb ed="#V" n="13"/>convivendo, etiamsi omnia essent
+          <lb ed="#V" n="14"/>eis communia. Nec etiam supposita
+          <lb ed="#V" n="15"/>infirmitate illorum qui convivunt,
+          <lb ed="#V" n="16"/>est necessaria illa consequentia. Sed
+          <lb ed="#V" n="17"/>tamen possessiones esse distinctas
+          <lb ed="#V" n="18"/>pro personis infirmis valde
+          conso<lb ed="#V" n="19" break="no"/>nat pacificae conversationi; infirmi
+          <lb ed="#V" n="20"/>enim magis curant bona sibi propria
+          <lb ed="#V" n="21"/>quam bona communia, et magis
+          <lb ed="#V" n="22"/>vellent appropriare sibi communia
+          <lb ed="#V" n="23"/>bona quam communitati, et
+          custo<lb ed="#V" n="24" break="no"/>dibus communitatis, et ita fieret lis
+          <lb ed="#V" n="25"/>et turbatio. Et ita est fere in
+          omni<lb ed="#V" n="26" break="no"/>bus Juribus positivis, quod licet sit
+          <lb ed="#V" n="27"/>aliquod principium, quod est
+          funda<lb ed="#V" n="28" break="no"/>mentum in condendo alias leges vel
+          <lb ed="#V" n="29"/>Jura, tamen ex illo principio non
+          sim<lb ed="#V" n="30" break="no"/>pliciter sequuntur leges positivae, sed
+          <lb ed="#V" n="31"/>declarant sive explicant illud
+          prin<lb ed="#V" n="32" break="no"/>cipium quantum ad certas
+          particu<lb ed="#V" n="33" break="no"/>las; quae explicationes consonant
+          <lb ed="#V" n="34"/>valde principio naturali universali.
+          <lb ed="#V" n="35"/>«Sic igitur omnia recolligendo,
+          <lb ed="#V" n="36"/>primo negatum est omnia praecepta
+          <lb ed="#V" n="37"/>secundae tabulae esse de lege
+          na<lb ed="#V" n="38" break="no"/>turae, stricte loquendo. Secundo,
+          <lb ed="#V" n="39"/>concessum est duo prima primae
+          <lb ed="#V" n="40"/>tabulae esse de lege naturae, stricte
+          <lb ed="#V" n="41"/>loquendo. Tertio, dubitatum est de
+          <lb ed="#V" n="42"/>tertio primae tabulae praecepto; et
+          <lb ed="#V" n="43"/>quarto concessum est omnia esse de
+          <lb ed="#V" n="44"/>lege naturae, large loquendo.</quote>
+          </p>
+        <!-- </div>
+    <div alias="scotus-d37q1-p5"> -->
+          <p>
+            <lb ed="#V" n="38" type="fixed=843"/>SCHOLIUM.
+            <lb ed="#V" n="39"/>Objicit contra dictum secundum praeced.
+            <lb ed="#V" n="40"/>Scholii, quia diligere Deum est legis naturae
+            <lb ed="#V" n="41"/>stricte, et diligere proximum sequitur ex hoc
+            <lb ed="#V" n="42"/>necessario, et ex hoc secundo necessario
+            prae<lb ed="#V" n="43" break="no"/>cepta secundae tabulae concluduntur; ergo sunt
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="44"/>indispensabilia. Respondet tripliciter: Primo,
+            <lb ed="#V" n="45"/>diligere Deum positive forte non esse de Jure
+            <lb ed="#V" n="46"/>naturae stricte, imo videtur quod Deus posset
+            <lb ed="#V" n="47"/>in eo dispensare. Secundo, esto sit stricte de
+            <lb ed="#V" n="48"/>Jure naturae, ex eo non concluditur necessario
+            <lb ed="#V" n="49"/>dilectio proximi. Tertio, ex dilectione proximi
+            <lb ed="#V" n="50"/>non concluditur necessario adimpletio
+            prae<lb ed="#V" n="51" break="no"/>ceptorum secundae tabulae, quod explicat
+            dis<lb ed="#V" n="52" break="no"/>currendo per praecepta.
+          </p>
+          <p>
+            <lb ed="#V" n="53"/>Contra primum (h) istorum arguo,
+            <lb ed="#V" n="54"/>quia secundum Apostolum ad Rom.
+            <lb ed="#V" n="55"/>13. Non adulterabis, non occides, et
+            <lb ed="#V" n="56"/>si quod est aliud mandatum, in hoc
+            <lb ed="#V" n="57"/>verbo instauratur: Diliges
+            proxi<lb ed="#V" n="58" break="no"/>mum tuum sicut teipsum; igitur in
+            <lb ed="#V" n="59"/>isto praecepto: Diliges proximum
+            <lb ed="#V" n="60"/>tuum, includuntur necessario
+            prae<lb ed="#V" n="61" break="no"/>cepta secundae tabulae; hoc enim
+            <lb ed="#V" n="62"/>videtur Apostolus ibi probare
+            ex<lb ed="#V" n="63" break="no"/>presse, unde in fine concludit: Qui
+            <lb ed="#V" n="64"/>diligit proximum, legem implevit.
+            <lb ed="#V" n="65"/>Hoc probatur auctoritate Salvatoris
+            <lb ed="#V" n="66"/>Matth. 22. In his tota lex pendet et M
+            <lb ed="#V" n="67"/>Prophetae. Sed dilectio proximi
+            ne<lb ed="#V" n="68" break="no"/>cessario sequitur ex hoc principio
+            <lb ed="#V" n="69"/>necessario: Deus est diligendus;
+            <lb ed="#V" n="70"/>igitur a primo ad ultimum omnia
+            <lb ed="#V" n="71"/>praecepta secundae tabulae
+            sequur<lb ed="#V" n="72" break="no"/>tur necessario ex primo praecepto
+            <lb ed="#V" n="73"/>primae tabulae; et ita si praecepta
+            <lb ed="#V" n="74"/>primae tabulae sunt stricte de lege
+            <lb ed="#V" n="75"/>naturae, quia includuntur in primo
+            <lb ed="#V" n="76"/>praecepto primae tabulae, sequitur
+            <lb ed="#V" n="77"/>quod praecepta secundae tabulae
+            <lb ed="#V" n="78"/>erunt etiam stricte de lege naturae,
+            <lb ed="#V" n="79"/>licet sint conclusiones ejusdem
+            prin<lb ed="#V" n="80" break="no"/>cipii.
+          </p>
+          <p>
+            <lb ed="#V" n="81"/>Probatio assumpti patet ex dictis
+            <lb ed="#V" n="82"/>dist. 28. ubi probatur dupliciter,
+            <lb ed="#V" n="83"/>quod perfectus amor Dei non potest
+            <lb ed="#V" n="84"/>esse zelus, appropriate loquendo,
+            <lb ed="#V" n="85"/>quia amor boni communis, ut
+            ap<lb ed="#V" n="86" break="no"/>propriati sibi soli, est inordinatus;
+            <lb ed="#V" n="87"/>amor etiam alicujus nolentis
+            dilec<pb ed="#V" n="844"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>tum condiligi, est imperfectus;
+            <lb ed="#V" n="2"/>ergo sequitur quod si Deus est
+            per<lb ed="#V" n="3" break="no"/>fecte et ordinate amandus, quod
+            <lb ed="#V" n="4"/>amans Deum debet velle proximum
+            <lb ed="#V" n="5"/>diligere Deum, et hoc volendo diligit
+            <lb ed="#V" n="6"/>proximum; hoc enim modo solum
+            <lb ed="#V" n="7"/>diligitur proximus ex charitate, sicut
+            <lb ed="#V" n="8"/>dicitur ibi; ergo.
+            <lb ed="#V" n="9"/>Ad hoc potest tripliciter
+            respon<lb ed="#V" n="10" break="no"/>deri: Primo modo, quod illud
+            prae<lb ed="#V" n="11" break="no"/>ceptum: Diliges Dominum Deum
+            <lb ed="#V" n="12"/>tuum, non est simpliciter de lege
+            <lb ed="#V" n="13"/>naturae, inquantum est
+            affirmati<lb ed="#V" n="14" break="no"/>vum, sed inquantum est negativum
+            <lb ed="#V" n="15"/>prohibens oppositum; non odire
+            <lb ed="#V" n="16"/>enim est simpliciter de lege naturae,
+            <lb ed="#V" n="17"/>sed an aliquando amare, dubitatum
+            <lb ed="#V" n="18"/>est supra in tertio praecepto Nunc
+            <lb ed="#V" n="19"/>autem ex illa negativa non sequitur,
+            <lb ed="#V" n="20"/>quod volendum sit proximo diligere
+            <lb ed="#V" n="21"/>Deum, licet sequeretur ex
+            affirmati<lb ed="#V" n="22" break="no"/>va illa de qua non est certum, quod
+            <lb ed="#V" n="23"/>sit de lege naturae, stricte
+            loquen<lb ed="#V" n="24" break="no"/>do.
+          </p>
+          <p>
+            <lb ed="#V" n="25"/>Secundo potest responderi quod
+            <lb ed="#V" n="26"/>ex illo praecepto: Diliges Dominum
+            <lb ed="#V" n="27"/>Deum tuum, non sequitur quod
+            de<lb ed="#V" n="28" break="no"/>beam velle proximum diligere
+            <lb ed="#V" n="29"/>Deum. Et cum probatur, quia zelus
+            <lb ed="#V" n="30"/>non potest esse amor perfectus et
+            <lb ed="#V" n="31"/>ordinatus, respondeo, non debeo
+            <lb ed="#V" n="32"/>velle bonum commune esse alicujus
+            <lb ed="#V" n="33"/>tantum, et ita non amari ab alio;
+            <lb ed="#V" n="34"/>sed non oportet me velle illud bonum
+            <lb ed="#V" n="35"/>esse alterius, puta quia non placet
+            <lb ed="#V" n="36"/>illi illud bonum esse ejus, sicut
+            <lb ed="#V" n="37"/>Deus praedestinans unum, et non
+            al<lb ed="#V" n="38" break="no"/>terum, vult bonum esse
+            praedesti<lb ed="#V" n="39" break="no"/>nati, et non alterius. Et per idem ad
+            <lb ed="#V" n="40"/>illud quod perfecte diligens vult
+            di<lb ed="#V" n="41" break="no"/>lectum condiligi, potest dici quod
+            <lb ed="#V" n="42"/>hoc est verum ab eo scilicet, cujus
+            <lb ed="#V" n="43"/>amicitia placet dilecto; non autem
+            <lb ed="#V" n="44"/>est certum ex lege naturae de
+            quo<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>cumque, quod ejus dilectio
+            accepte<lb ed="#V" n="46" break="no"/>tur a Deo dilecto.
+          </p>
+          <p>
+            <lb ed="#V" n="47"/>Tertio potest dici, quod licet sit de
+            <lb ed="#V" n="48"/>lege naturae stricte proximum, esse
+            <lb ed="#V" n="49"/>diligendum, sicut prius expositum
+            <lb ed="#V" n="50"/>est, id est, simpliciter esse volendum
+            <lb ed="#V" n="51"/>proximo ipsum diligere Deum, quia
+            <lb ed="#V" n="52"/>hoc est diligere proximum, tamen
+            <lb ed="#V" n="53"/>ex hoc non sequuntur praecepta
+            se<lb ed="#V" n="54" break="no"/>cundae tabulae, puta quod nolendum
+            <lb ed="#V" n="55"/>sit ipsum occidere, quoad bonum
+            <lb ed="#V" n="56"/>personae propriae; vel quod
+            nolen<lb ed="#V" n="57" break="no"/>dum sit adulterari, quoad bonum
+            <lb ed="#V" n="58"/>personae conjunctae sibi; vel quod
+            <lb ed="#V" n="59"/>nolendum sit furari quoad bonum
+            <lb ed="#V" n="60"/>fortunae, quo ille utitur; quod
+            exhi<lb ed="#V" n="61" break="no"/>benda sit parentibus reverentia tam
+            <lb ed="#V" n="62"/>in honoribus quam in
+            sustentationi<lb ed="#V" n="63" break="no"/>bus; et ita de aliis praeceptis secundae
+            <lb ed="#V" n="64"/>tabulae, quia possibile est me velle
+            <lb ed="#V" n="65"/>proximum diligere Deum, et tamen
+            <lb ed="#V" n="66"/>nolle vel non velle sibi vitam
+            corpo<lb ed="#V" n="67" break="no"/>ralem, vel servare fidem conjugii, et
+            <lb ed="#V" n="68"/>sic de aliis; et per consequens
+            pos<lb ed="#V" n="69" break="no"/>sunt ista duo stare simul, scilicet
+            <lb ed="#V" n="70"/>me velle proximum diligere Deum,
+            <lb ed="#V" n="71"/>sicut ego debeo Deum diligere,
+            <lb ed="#V" n="72"/>sicut quoddam verum necessarium
+            <lb ed="#V" n="73"/>conclusum ex principiis practicis,
+            <lb ed="#V" n="74"/>et me nolle proximo hoc bonum, vel
+            <lb ed="#V" n="75"/>illud cujus est expressivum
+            praecep<lb ed="#V" n="76" break="no"/>tum secundae tabulae, cum non sit
+            <lb ed="#V" n="77"/>verum necessarium.
+          </p>
+          <p>
+            <lb ed="#V" n="78"/>Et tunc ad auctoritates Pauli et
+            <lb ed="#V" n="79"/>Christi potest dici, quod Deus nunc
+            <lb ed="#V" n="80"/>de facto explicavit dilectionem
+            <lb ed="#V" n="81"/>proximi ultra illud, quod includit
+            <lb ed="#V" n="82"/>inquantum sequitur ex principiis
+            <lb ed="#V" n="83"/>legis naturae, ita quod, licet, ut
+            con<lb ed="#V" n="84" break="no"/>cluditur ex principiis legis naturae,
+            <lb ed="#V" n="85"/>non contineat nisi velle proximo
+            <lb ed="#V" n="86"/>ipsum diligere Deum in se, tamen
+            <lb ed="#V" n="87"/>ut explicatum est, includit esse
+            vo<lb ed="#V" n="88" break="no"/>lendum bona illa, vel saltem esse
+            <pb ed="#V" n="845"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>non volendum proximo mala
+            op<lb ed="#V" n="2" break="no"/>posita, ut injuste sibi auferre vitam
+            <lb ed="#V" n="3"/>corporalem, fidem conjugii, bona
+            <lb ed="#V" n="4"/>temporalia, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="5"/>Verum est igitur, quod diligens
+            <lb ed="#V" n="6"/>proximum, legem implevit, eo modo
+            <lb ed="#V" n="7"/>scilicet quo lex explicata est debere
+            <lb ed="#V" n="8"/>servari, licet non eo modo quo
+            di<lb ed="#V" n="9" break="no"/>lectio proximi concluditur ex primis
+            <lb ed="#V" n="10"/>principiis legis naturae; et a simili,
+            <lb ed="#V" n="11"/>tota lex quantum ad secundam
+            <lb ed="#V" n="12"/>tabulam, et Prophetae pendent ex
+            <lb ed="#V" n="13"/>hoc praecepto: Diliges proximum
+            <lb ed="#V" n="14"/>tuum sicut teipsum, intelligendo tale
+            <lb ed="#V" n="15"/>praeceptum, non ut sequitur ex
+            <lb ed="#V" n="16"/>primo principio practico legis
+            na<lb ed="#V" n="17" break="no"/>turae, sed ut Legislator intendit
+            <lb ed="#V" n="18"/>debere illud servari, prout
+            expli<lb ed="#V" n="19" break="no"/>catur in praeceptis secundae tabulae.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d37q1-p6"> -->
+          <p>
+            <lb ed="#V" n="77" type="fixed=850"/>SCHOLIUM.
+            <lb ed="#V" n="78"/>Ad secundum, insinuat habenti scientiam
+            <lb ed="#V" n="79"/>unius Dei, non esse necessariam fidem de
+            <lb ed="#V" n="80"/>eodem, et secundum D. Thom. 2. 2. quaest. 1.
+            <lb ed="#V" n="81"/>art. 5. impossibile videtur quod eam habeat.
+            <lb ed="#V" n="82"/>Vide ipsum ibi quaest. 2. art. 4. ad primum. Ad
+            <lb ed="#V" n="83"/>tertium, bene explicat qualiter praecepta
+            Deca<lb ed="#V" n="84" break="no"/>logi in omni statu ligant. Ad quartum, optime
+            <lb ed="#V" n="85"/>explicat quomodo Israelitae non dispensative
+            <lb ed="#V" n="86"/>nec injuste spoliarunt AEgyptios; de quo Exod.
+            <lb ed="#V" n="87"/>3. 12. 13. Ita communis, et D. August. q. 38.
+            <lb ed="#V" n="88"/>in Exod. et lib. 22 contra Faust. c. 7. 1. Iren.
+            <lb ed="#V" n="89"/>4 contra haer. c. 49. Phil. 1 I. de vita Moysi.
+          </p>
+          <p>
+            <pb ed="#V" n="851"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Ad argumenta principalia (k).
+            <lb ed="#V" n="2"/>Primum est pro me, quia probat
+            <lb ed="#V" n="3"/>quod praecepta secundae tabulae non
+            <lb ed="#V" n="4"/>sunt de lege naturae, stricte
+            lo<lb ed="#V" n="5" break="no"/>quendo.
+          </p>
+          <p>
+            <lb ed="#V" n="6"/>Ad secundum dico, quod etsi
+            <lb ed="#V" n="7"/>Deum esse posset non includi
+            ra<lb ed="#V" n="8" break="no"/>tione naturali ex principiis per se
+            <lb ed="#V" n="9"/>notis, tamen illi populo rudi et
+            <lb ed="#V" n="10"/>in exercitato in intelligibilibus non
+            <lb ed="#V" n="11"/>erat hoc notum nisi ex lege; unde
+            <lb ed="#V" n="12"/>ad Hebr. 11 Oportet accedentem ad
+            <lb ed="#V" n="13"/>Deum credere quia est, intellige si
+            <lb ed="#V" n="14"/>non habeat, nec habere possit aliam
+            <lb ed="#V" n="15"/>notitiam de Deo; ita etsi aliqua
+            <lb ed="#V" n="16"/>concupiscentia possit concludi esse
+            <lb ed="#V" n="17"/>contra legem naturae, hominibus
+            ta<lb ed="#V" n="18" break="no"/>men corruptis non erat notum esse
+            <lb ed="#V" n="19"/>contra legem naturae, ideo
+            necessa<lb ed="#V" n="20" break="no"/>rium fuit explicare per legem
+            da<lb ed="#V" n="21" break="no"/>tam; vel aliter concupiscentiae
+            pro<lb ed="#V" n="22" break="no"/>hibentur pro praecepta secundae
+            ta<lb ed="#V" n="23" break="no"/>bulae; et de illis concessum est,
+            <lb ed="#V" n="24"/>quod non sunt per se nota.
+          </p>
+          <p>
+            <lb ed="#V" n="25"/>Ad aliud dico, quod in omni statu
+            <lb ed="#V" n="26"/>servabantur, et servari debent ista
+            <lb ed="#V" n="27"/>praecepta. In beatitudine quidem
+            <lb ed="#V" n="28"/>erit summa observatio illorum
+            affir<lb ed="#V" n="29" break="no"/>mativorum, nisi forte illius solius
+            <lb ed="#V" n="30"/>de honoratione parentum, non quin
+            <lb ed="#V" n="31"/>tunc ibi sit voluntas honorandi, sed
+            <lb ed="#V" n="32"/>quia non erit necessitas impendendi
+            <lb ed="#V" n="33"/>actum hujus, saltem prout honor
+            <lb ed="#V" n="34"/>ille extenditur ad sustentationem
+            <lb ed="#V" n="35"/>necessariam, quia ibi nullus
+            indige<lb ed="#V" n="36" break="no"/>bit auxilio.
+          </p>
+          <p>
+            <lb ed="#V" n="37"/>In statu innocentiae et ante legem
+            <lb ed="#V" n="38"/>scriptam tenebantur omnes ad ista,
+            <lb ed="#V" n="39"/>quia erant scripta interius in corde,
+            <lb ed="#V" n="40"/>vel forte per aliquam doctrinam
+            ex<lb ed="#V" n="41" break="no"/>teriorem datam a Deo, quam
+            disce<lb ed="#V" n="42" break="no"/>bant parentes, et derivabant in filios.
+            <lb ed="#V" n="43"/>Nec oportuit ea scribi in libro, quia
+            <lb ed="#V" n="44"/>potuerunt illa faciliter memoriae
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>commendare et retinere, quia
+            popu<lb ed="#V" n="46" break="no"/>lus illius temporis erat longioris
+            <lb ed="#V" n="47"/>vitae, et fuit melioris dispositionis
+            <lb ed="#V" n="48"/>in naturalibus, quam populus
+            tem<lb ed="#V" n="49" break="no"/>poris posterioris, quo tempore
+            infir<lb ed="#V" n="50" break="no"/>mitas populi requirebat legem dari
+            <lb ed="#V" n="51"/>et scribi.
+          </p>
+          <p>
+            <lb ed="#V" n="52"/>Et ad aliud, quod tangebatur in
+            <lb ed="#V" n="53"/>primo argumento de filiis Israel
+            <lb ed="#V" n="54"/>spoliantibus AEgyptios, potest dici
+            <lb ed="#V" n="55"/>quod ibi non dispensavit contra
+            <lb ed="#V" n="56"/>praeceptum de furto, quia ipsi non.
+            <lb ed="#V" n="57"/>acceperunt simpliciter alienum;
+            <lb ed="#V" n="58"/>tum quia Deus erat superior
+            Domi<lb ed="#V" n="59" break="no"/>nus, et potuit transferre dominium
+            <lb ed="#V" n="60"/>illarum rerum in eos, etiam invitis
+            <lb ed="#V" n="61"/>inferioribus dominis. Et hoc modo
+            <lb ed="#V" n="62"/>non peccavit Christus licentians in
+            <lb ed="#V" n="63"/>porcos intrare daemones, qui statim
+            <lb ed="#V" n="64"/>praecipitati sunt in mare; non enim
+            <lb ed="#V" n="65"/>injuste privavit illos porcis suis.
+            <lb ed="#V" n="66"/>Tum etiam quia filii Israel serviendo
+            <lb ed="#V" n="67"/>AEgyptiis meruerant tanta recipere,
+            <lb ed="#V" n="68"/>licet AEgyptii nollent ea reddere; et
+            <lb ed="#V" n="69"/>tunc per superiorem judicem
+            potue<lb ed="#V" n="70" break="no"/>runt compelli, de cujus licentia filii
+            <lb ed="#V" n="71"/>Israel potuerunt juste et licite
+            acci<lb ed="#V" n="72" break="no"/>pere.
+          </p>
+          <p>
+            <lb ed="#V" n="73"/>Ad illud in oppositum de Canone
+            <lb ed="#V" n="74"/>debet intelligi de lege large
+            loquen<lb ed="#V" n="75" break="no"/>do, et hoc de praeceptis secundae
+            <lb ed="#V" n="76"/>tabulae.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

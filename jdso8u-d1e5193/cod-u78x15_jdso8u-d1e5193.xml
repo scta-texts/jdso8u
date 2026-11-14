@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 3, Distinctio 25, Quaestio 3</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 3, Distinctio 25, Quaestio 3</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x15">Vives, Paris, 1894, volume 15</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="248"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e5193"><!-- jdso8u-b3d25q3 -->
+        <head>Quaestio 3</head>
+        <head type="question-title">A quo fides habeat suam unitatem</head>
+        <!-- <div alias="scotus-d25q3-p1"> -->
+          <p>
+            <pb ed="#V" n="248"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1" type="fixed=248"/>QUESTIO II.
+            <lb ed="#V" n="2"/>PRINCIPALIS.
+            <lb ed="#V" n="3"/>A quo fides habeat Suam untt
+          </p>
+          <p>
+            <lb ed="#V" n="4"/>Divus Thomas 2. 2. quaest. 4. art. 6. Cajetanus
+            <lb ed="#V" n="5"/>Lorca ibidem. Alensis 3. part, colt. 30. art. 2
+            <lb ed="#V" n="6"/>Richardus 3. sent, dist. 23. art. 4. quaest. 3.
+            <lb ed="#V" n="7"/>D. Bonav. ibid. art. 1. quaest. 3. Suarez de
+            <lb ed="#V" n="8"/>fide, disp. 7. sect. 1. Conink de fide, disput. 16.
+            <lb ed="#V" n="9"/>dub.
+          </p>
+          <p>
+            <lb ed="#V" n="10"/>Ad secundum (a) quaesitum potest
+            <lb ed="#V" n="11"/>dici, quod quilibet habitus
+            intellec<lb ed="#V" n="12" break="no"/>tualis habet unitatem ex unitate sui
+            <lb ed="#V" n="13"/>primi objecti, in quo habitus
+            virtua<lb ed="#V" n="14" break="no"/>liter continetur, sicut in sua causa
+            <lb ed="#V" n="15"/>partiali, sicut Geometria dicitur
+            <lb ed="#V" n="16"/>unus habitus ex unitate lineae, in
+            <lb ed="#V" n="17"/>qua linea omnia alia, quae
+            dedu<lb ed="#V" n="18" break="no"/>cuntur in scientia illa, virtualiter
+            <lb ed="#V" n="19"/>continentur mediatius vel
+            immedia<lb ed="#V" n="20" break="no"/>tius, secundum quod se habent ad
+            <lb ed="#V" n="21"/>illam; tamen si alia explicita in
+            <lb ed="#V" n="22"/>scientia considerentur sub propriis
+            <lb ed="#V" n="23"/>rationibus in se, non autem ut
+            <lb ed="#V" n="24"/>continentur in aliquo uno primo
+            <lb ed="#V" n="25"/>subjecto, forte tot sunt habitus,
+            <lb ed="#V" n="26"/>quot conclusiones distinctae specie
+            <lb ed="#V" n="27"/>sunt demonstratae.
+          </p>
+          <p>
+            <lb ed="#V" n="28"/>Non potest autem dici quod fides
+            <lb ed="#V" n="29"/>infusa habeat unitatem ex objecto
+            <lb ed="#V" n="30"/>primo, scilicet Deo, quia Deus non
+            <lb ed="#V" n="31"/>movet in ratione objecti ad
+            cogni<lb ed="#V" n="32" break="no"/>tionem omnium credibilium; nec in
+            <lb ed="#V" n="33"/>Deo, ut in objecto, concipiuntur
+            <lb ed="#V" n="34"/>omnia credibilia, ut ex illo deduci
+            <lb ed="#V" n="35"/>possunt, licet contineat omnia, ut
+            <lb ed="#V" n="36"/>causa effectiva omnium. Ideo
+            opor<lb ed="#V" n="37" break="no"/>tet dicere quod habeat unitatem, vel
+            <lb ed="#V" n="38"/>ab unitate revelantis credibilia, quia
+            <lb ed="#V" n="39"/>omnia respiciuntur a fide, ut
+            reve<lb ed="#V" n="40" break="no"/>lata a Deo, et haec formalis ratio est
+            <lb ed="#V" n="41"/>una in omnibus secundum
+            opinio<cb ed="#V" n="b"/><lb ed="#V" n="42" break="no"/>nem supradictam; vel quod habeat
+            <lb ed="#V" n="43"/>unitatem in se formaliter ex seipsa,
+            <lb ed="#V" n="44"/>quamvis illam effective habeat a
+            <lb ed="#V" n="45"/>Deo, et non habeat unitatem ex
+            <lb ed="#V" n="46"/>aliquo, ut objecto, sicut scientiae
+            <lb ed="#V" n="47"/>causatae ab objecto.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

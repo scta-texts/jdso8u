@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 3, Distinctio 30, Quaestio 1</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 3, Distinctio 30, Quaestio 1</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x15">Vives, Paris, 1894, volume 15</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="395"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e2978"><!-- jdso8u-b3d30q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum necesse sit diligere inimicum ex caritate</head>
+        <!-- <div alias="scotus-d30q1-p1"> -->
+          <p>
+            <lb ed="#V" n="79" type="fixed=395"/>QUAESTIO UNICA.
+            <lb ed="#V" n="80"/>Utrum necesse sit ex charitate diligere
+            <lb ed="#V" n="81"/>inimicum?
+          </p>
+          <p>
+            <lb ed="#V" n="82"/>Alensis. 3. p. collat. 72. art. 5. D. Thom. 2. 2.
+            <lb ed="#V" n="83"/>quaest. 25. art. 8. et 9. ubi ejus expost. et hic
+            <lb ed="#V" n="84"/>quaest. 1. art. 2. D. Bonavent. art. 1. quoest.
+            <lb ed="#V" n="85"/>5. Richard. art. 1. quaest. 1. et 2. Valentia 2.
+            <pb ed="#V" n="396"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>2. d. 3. q. 3. p. 2. expositores in id Matth. 5.
+            <lb ed="#V" n="2"/>Ego autem dico vobis, diligite inimicos
+            <lb ed="#V" n="3"/>vestros.
+          </p>
+          <p>
+            <lb ed="#V" n="4"/>Circa istam trigesimam
+            distinctio<lb ed="#V" n="5" break="no"/>nem, in qua Magister agit de
+            chari<lb ed="#V" n="6" break="no"/>tate, quantum ad perfectionem
+            me<lb ed="#V" n="7" break="no"/>riti, quaeritur unum: Utrum necesse
+            <lb ed="#V" n="8"/>sit ex charitate diligere inimicum?
+            <lb ed="#V" n="9"/>Quod non, Luc. 10. Pharisaeo
+            in<lb ed="#V" n="10" break="no"/>terroganti, quis est meus proximus?
+            <lb ed="#V" n="11"/>respondit Christus, qui fecit
+            mise<lb ed="#V" n="12" break="no"/>ricordiam cum illo. Videtur ergo
+            <lb ed="#V" n="13"/>determinasse, quod solus ille
+            haben<lb ed="#V" n="14" break="no"/>dus est proximus, qui talia facit;
+            <lb ed="#V" n="15"/>sed inimicus non facit talia; ergo.
+          </p>
+          <p>
+            <lb ed="#V" n="16"/>Praeterea, 3. Reg. 7. super illud:
+            <lb ed="#V" n="17"/>Fecit quoque mare, Glossa: Decem
+            <lb ed="#V" n="18"/>praeceptis in lege, Dominus omnia
+            <lb ed="#V" n="19"/>quae facere debemus, expressit; sed
+            <lb ed="#V" n="20"/>ibi non est aliquod praeceptum de
+            <lb ed="#V" n="21"/>diligendo inimicum.
+          </p>
+          <p>
+            <lb ed="#V" n="22"/>Praeterea, Luc. 6. Glossa, quaere;
+            <lb ed="#V" n="23"/>et Augustinus super illud Psalm.
+            <lb ed="#V" n="24"/>Revela oculos meos; et Matth. 5.
+            <lb ed="#V" n="25"/>Audistis quia dictum est antiquis,
+            <lb ed="#V" n="26"/>odio habebis inimicum tuum; sed
+            <lb ed="#V" n="27"/>moralia praecepta manent eadem in
+            <lb ed="#V" n="28"/>nova lege, quae in veteri; igitur
+            ma<lb ed="#V" n="29" break="no"/>net hoc in nova lege.
+          </p>
+          <p>
+            <lb ed="#V" n="30"/>Praeterea, 2. Topic. in contrariis
+            <lb ed="#V" n="31"/>tenet consequentia in seipsis;
+            igi<lb ed="#V" n="32" break="no"/>tur si amicus est diligendus,
+            inimi<lb ed="#V" n="33" break="no"/>cus est odiendus; ista enim sunt
+            <lb ed="#V" n="34"/>contraria de contrariis.
+          </p>
+          <p>
+            <lb ed="#V" n="35"/>Contra, Matth. 5. Ego autem dico
+            <lb ed="#V" n="36"/>vobis, diligite inimicos vestros, etc.
+            <lb ed="#V" n="37"/>Et probat illud ibi: Quia si diligitis
+            <lb ed="#V" n="38"/>eos, qui vos diligunt, quam mercedem
+            <lb ed="#V" n="39"/>habebitis?
+          </p>
+          <p>
+            <lb ed="#V" n="40"/>Praeterea, Matth. 6. Dimitte, etc.
+            <lb ed="#V" n="41"/>et subjungit probationem illius
+            ar<lb ed="#V" n="42" break="no"/>gumenti; igitur quilibet de
+            necessi<lb ed="#V" n="43" break="no"/>tate ad hoc tenetur.
+          </p>
+          <p>
+            <lb ed="#V" n="44"/>Praeterea, Matth. 18. in parabola
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>de servo, qui petiit debitum,
+            subjun<lb ed="#V" n="46" break="no"/>gitur: Sic et Pater vester coelestis,
+            <lb ed="#V" n="47"/>etc.
+          </p>
+          <p>
+            <lb ed="#V" n="48"/>SCHOLIUM.
+            <lb ed="#V" n="49"/>Docet primo inimicum, qua talis, non esse
+            <lb ed="#V" n="50"/>diligendum, quia qua talis, est malus et
+            vitio<lb ed="#V" n="51" break="no"/>sus, et amor amicitiae respicit bonum virtutis
+            <lb ed="#V" n="52"/>in amato. Secundo ait, non posse nos nolle
+            <lb ed="#V" n="53"/>bona spiritualia ei, qui est inimicus, quia non
+            <lb ed="#V" n="54"/>stat cum dilectione Dei, nolle eum condiligi ab
+            <lb ed="#V" n="55"/>alio, vel ad hoc alium disponi. Tertium ejus
+            di<lb ed="#V" n="56" break="no"/>ctum, non tenemur velle inimico bona
+            tempo<lb ed="#V" n="57" break="no"/>ralia; ut divitias, honores, valetudinem, quae
+            <lb ed="#V" n="58"/>ipse contemnere potest, imo meritorie opposita
+            <lb ed="#V" n="59"/>ei optamus ad correctionem.
+          </p>
+          <p>
+            <lb ed="#V" n="60"/>Respondeo, inimicus potest
+            con<lb ed="#V" n="61" break="no"/>siderari per se, id est, inquantum
+            <lb ed="#V" n="62"/>inimicus, et per accidens,
+            inquan<lb ed="#V" n="63" break="no"/>tum homo. Primo modo dico, quod
+            <lb ed="#V" n="64"/>inimicus non est tantum malus
+            pri<lb ed="#V" n="65" break="no"/>vatione boni, sed habitu positivo
+            <lb ed="#V" n="66"/>vitii, sicut injustus dicitur non
+            tan<lb ed="#V" n="67" break="no"/>tum carens habitu justitiae, sed
+            <lb ed="#V" n="68"/>etiam habens habitum injustitiae
+            <lb ed="#V" n="69"/>contrarium, causatum ex actibus
+            in<lb ed="#V" n="70" break="no"/>justis, sicut habetur a Boetio super
+            <lb ed="#V" n="71"/>Praedicamentis, cap. de Qualitate.
+            <lb ed="#V" n="72"/>Hoc modo cum amicitia respiciat
+            <lb ed="#V" n="73"/>bonum virtutis in amato, et hoc
+            <lb ed="#V" n="74"/>conveniens actui virtutis in amante,
+            <lb ed="#V" n="75"/>inimicitia respicit malum
+            disconve<lb ed="#V" n="76" break="no"/>niens bono, quod est in eo, qui est
+            <lb ed="#V" n="77"/>inimicus. Inimicus ergo inquantum
+            <lb ed="#V" n="78"/>talis, est malus et vitiosus, et per
+            <lb ed="#V" n="79"/>consequens, nullo modo est sic
+            dili<lb ed="#V" n="80" break="no"/>gendus. Hoc enim modo odivit
+            <lb ed="#V" n="81"/>inimicum, qui dixit, Psalm. 103.
+            <lb ed="#V" n="82"/>Deficiant peccatores a terra, et
+            ini<lb ed="#V" n="83" break="no"/>qui, ita ut non sint, non sint quidem
+            <lb ed="#V" n="84"/>inimici, sive iniqui, quia, verte
+            im<lb ed="#V" n="85" break="no"/>pios, et non erunt. Proverb. 12.
+          </p>
+          <p>
+            <lb ed="#V" n="86"/>Loquendo autem de inimico per
+            <lb ed="#V" n="87"/>accidens, scilicet de hoc homine, qui
+            <lb ed="#V" n="88"/>nunc est inimicus, habet quaestio
+            <lb ed="#V" n="89"/>difficultatem, et illo modo possumus
+            <pb ed="#V" n="397"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>loqui de dilectione, vel positive quasi
+            <lb ed="#V" n="2"/>per modum actus eliciendi, vel
+            <lb ed="#V" n="3"/>quasi prohibitive per modum actus
+            <lb ed="#V" n="4"/>contrarii arcendi. Secundum est
+            <lb ed="#V" n="5"/>magis necessarium, quia praecepta
+            <lb ed="#V" n="6"/>affirmativa magis obligant, ne
+            con<lb ed="#V" n="7" break="no"/>traria eorum fiant; et isto modo
+            <lb ed="#V" n="8"/>accipiendo diligere, scilicet pro
+            <lb ed="#V" n="9"/>non odire, distinguo quod duplex
+            <lb ed="#V" n="10"/>bonum possumus non odire sibi,
+            <lb ed="#V" n="11"/>scilicet bonum spirituale, scilicet
+            <lb ed="#V" n="12"/>quo attingit, vel natus est
+            attin<lb ed="#V" n="13" break="no"/>gere Deum; vel aliud bonum
+            in<lb ed="#V" n="14" break="no"/>differens, quod potest ordinari ad
+            <lb ed="#V" n="15"/>illud, et ad oppositum, verbi
+            gra<lb ed="#V" n="16" break="no"/>tia, de primo, ipsum diligere Deum
+            <lb ed="#V" n="17"/>amore amicitiae, ut est bonum
+            <lb ed="#V" n="18"/>honestum, vel concupiscere sibi
+            <lb ed="#V" n="19"/>Deum, ut est bonum commodi,
+            ip<lb ed="#V" n="20" break="no"/>sum audire Missas, praedicationem,
+            <lb ed="#V" n="21"/>correctionem, instructionem, per
+            <lb ed="#V" n="22"/>quae convertitur ad diligendum
+            <lb ed="#V" n="23"/>Deum. Exemplum de secundo, ipsum
+            <lb ed="#V" n="24"/>vivere vita corporali, esse sanum,
+            <lb ed="#V" n="25"/>divitem, fortem, et hujusmodi.
+          </p>
+          <p>
+            <lb ed="#V" n="26"/>Quantum ad prima bona, non
+            <lb ed="#V" n="27"/>videtur quod possimus illa sibi
+            <lb ed="#V" n="28"/>odire vel nolle, quia hoc non
+            <lb ed="#V" n="29"/>stat cum perfecte diligere Deum,
+            <lb ed="#V" n="30"/>scilicet nolle ipsum condiligi ab
+            <lb ed="#V" n="31"/>alio, cujus amicitia non noscitur
+            <lb ed="#V" n="32"/>ei displicere; et hoc condiligi tam
+            <lb ed="#V" n="33"/>ratione boni honesti, scilicet
+            pro<lb ed="#V" n="34" break="no"/>pter se, quam ratione boni
+            com<lb ed="#V" n="35" break="no"/>modi ejus. Nec pari ratione stat
+            <lb ed="#V" n="36"/>cum perfecte diligere Deum, nolle
+            <lb ed="#V" n="37"/>alii illa, per quae inducatur ad
+            <lb ed="#V" n="38"/>condiligendum Deum.
+          </p>
+          <p>
+            <lb ed="#V" n="39"/>Sed de aliis bonis
+            indifferenti<lb ed="#V" n="40" break="no"/>bus, videtur quod possim odire
+            <lb ed="#V" n="41"/>illa proximo; tum quia possum
+            <lb ed="#V" n="42"/>ordinate odire, vel nolle illa mihi;
+            <lb ed="#V" n="43"/>tum etiam quia ille potest ordinate
+            <lb ed="#V" n="44"/>nolle sibi ea; et quaecumque ipse
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>potest ordinate nolle sibi, vel ego
+            <lb ed="#V" n="46"/>mihi, si essem talis, qualis est
+            <lb ed="#V" n="47"/>ipse, possum sibi ordinate nolle.
+            <lb ed="#V" n="48"/>Assumpta patent. Possum enim
+            <lb ed="#V" n="49"/>ordinate nolle mihi divitias,
+            sani<lb ed="#V" n="50" break="no"/>tatem, et universaliter necessaria
+            <lb ed="#V" n="51"/>ad vitam corporalem; et hoc
+            du<lb ed="#V" n="52" break="no"/>pliciter, vel contemnendo ea,
+            si<lb ed="#V" n="53" break="no"/>cut si fiam pauper voluntarie;
+            <lb ed="#V" n="54"/>vel volendo Deum infligere illa
+            <lb ed="#V" n="55"/>mihi propter peccata mea; vel
+            vo<lb ed="#V" n="56" break="no"/>luntate consequente, ut si sint
+            <lb ed="#V" n="57"/>inflicta, acceptare ea, et gaudere
+            <lb ed="#V" n="58"/>de his jam inflictis.
+          </p>
+          <p>
+            <lb ed="#V" n="59"/>Consimiliter ergo possum tot
+            <lb ed="#V" n="60"/>modis velle opposita eorum sibi,
+            <lb ed="#V" n="61"/>ut paupertatem voluntariam, et ita
+            <lb ed="#V" n="62"/>carere divitiis, infligi sibi a Deo
+            <lb ed="#V" n="63"/>aliqua mala ad correctionem; si
+            <lb ed="#V" n="64"/>crederem ipsum per talia
+            commo<lb ed="#V" n="65" break="no"/>da semper addere ad peccata sua,
+            <lb ed="#V" n="66"/>possum velle sibi opposita illorum
+            <lb ed="#V" n="67"/>commodorum. Et quoad hoc
+            con<lb ed="#V" n="68" break="no"/>formiter est dicendum de bonis
+            <lb ed="#V" n="69"/>fortunae, et de bonis corporis.
+          </p>
+          <p>
+            <lb ed="#V" n="70"/>Sed de vita corporali videtur
+            <lb ed="#V" n="71"/>dubium, an possum illam sibi
+            <lb ed="#V" n="72"/>odire vel nolle? et videtur quod
+            <lb ed="#V" n="73"/>sic; tum quia judex in causa
+            cri<lb ed="#V" n="74" break="no"/>minali potest juste sententiare
+            con<lb ed="#V" n="75" break="no"/>tra eum, actor etiam in eadem
+            <lb ed="#V" n="76"/>causa potest licite agere contra
+            <lb ed="#V" n="77"/>eum; uterque igitur potest velle
+            <lb ed="#V" n="78"/>effectum illius sententiae, qui
+            ef<lb ed="#V" n="79" break="no"/>fectus est occisio. Similiter si quis
+            <lb ed="#V" n="80"/>impugnet Ecclesiam, cum talis,
+            <lb ed="#V" n="81"/>quantum est in se, impediat
+            bo<lb ed="#V" n="82" break="no"/>num commune, scilicet pacem
+            Ec<lb ed="#V" n="83" break="no"/>clesiae, ut bonum commune
+            salve<lb ed="#V" n="84" break="no"/>tur, videtur quod aliquis possit
+            <lb ed="#V" n="85"/>ordinate velle tali persecutori
+            mor<lb ed="#V" n="86" break="no"/>tem corporalem propter bonum
+            <lb ed="#V" n="87"/>commune, quod impedit, scilicet
+            <lb ed="#V" n="88"/>pacem Ecclesiae.
+          </p>
+          <p>
+            <pb ed="#V" n="398"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>SCHOLIUM.
+            <lb ed="#V" n="2"/>Non posse nos velle mortem absolute inimico,
+            <lb ed="#V" n="3"/>quia consequenter vellemus in aeternum a Deo
+            <lb ed="#V" n="4"/>separatum; possumus tamen ei velle mortem,
+            <lb ed="#V" n="5"/>ex suppositione quod sit in malitia mansurus,
+            <lb ed="#V" n="6"/>vel peccata peccatis additurus, vel Deum
+            blas<lb ed="#V" n="7" break="no"/>phematurus, et similia. Probat exemplo
+            Anas<lb ed="#V" n="8" break="no"/>tasiae; et quia ista volitio (inquit) non est
+            sim<lb ed="#V" n="9" break="no"/>pliciter volitio mortis ejus, sed supponens
+            <lb ed="#V" n="10"/>conditionem nolitam, scilicet peccata inimici,
+            <lb ed="#V" n="11"/>et exemplificat de projiciente merces in
+            tem<lb ed="#V" n="12" break="no"/>pestate. Sumit hic simpliciter velle pro omnino
+            <lb ed="#V" n="13"/>libere, sine nolitione annexa, et sic non
+            con<lb ed="#V" n="14" break="no"/>tradicit sibi supra d. 15. n. 17. et 29. et dist.
+            <lb ed="#V" n="15"/>26. num. 20. ubi dicit projicientem merces in
+            <lb ed="#V" n="16"/>naufragio, simpliciter id velle, quia scilicet non
+            <lb ed="#V" n="17"/>coacte. Hic tangitur quaestio de tyranno, an a
+            <lb ed="#V" n="18"/>quolibet possit occidi; et Concil. Constant.
+            <lb ed="#V" n="19"/>sess. 15. ut erroneam, haereticam, et
+            scanda<lb ed="#V" n="20" break="no"/>losam, damnat partem affirmantem. Quibus
+            <lb ed="#V" n="21"/>autem conditionibus licere potest privato
+            tyran<lb ed="#V" n="22" break="no"/>num invasione occidere, non convenit. Vide
+            <lb ed="#V" n="23"/>Alens. 3. part. quaest. 34. m. 2. art. 2. 8 1. D.
+            <lb ed="#V" n="24"/>Thom. 2. 2. q. 64. art. 3. ubi Cajet. Bannes,
+            <lb ed="#V" n="25"/>Aragon, Valent. ibi d. 5. q. 8. p. 3. Agit etiam
+            <lb ed="#V" n="26"/>de occisione tyranni D. Thom. Opusc. de
+            <lb ed="#V" n="27"/>regim. Prin. lib. 1. c. 6. et 2. d. ult. q. 2. a. 2.
+            <lb ed="#V" n="28"/>ad 5. ubi adducit Ciceronem laudantem
+            occi<lb ed="#V" n="29" break="no"/>sores Caesaris; et explicat eum loqui, quando
+            <lb ed="#V" n="30"/>aliquis est invasor, nec est recursus ad
+            supe<lb ed="#V" n="31" break="no"/>riorem. Doctor tenet tyrannum non posse
+            <lb ed="#V" n="32"/>occidi nisi a potestate publica, sed non
+            expli<lb ed="#V" n="33" break="no"/>cat de quo tyranno, invasionis scilicet, vel
+            ad<lb ed="#V" n="34" break="no"/>ministrationis, loquatur. Vide Soto 5. Just. q.
+            <lb ed="#V" n="35"/>1. art. 3. Azor. tom. 3. lib. 2. cap. 2. quaest. 1.
+            <lb ed="#V" n="36"/>Summistas v. Tyrannus. Lessium de Just. lib.
+            <lb ed="#V" n="37"/>2 cap. 9. dub. 4.
+          </p>
+          <p>
+            <lb ed="#V" n="38"/>Quantum ad hoc dici potest,
+            <lb ed="#V" n="39"/>quod non potest quis absolute velle
+            <lb ed="#V" n="40"/>proximo mortem corporalem, vel
+            <lb ed="#V" n="41"/>nolle sibi vitam, quia post mortem
+            <lb ed="#V" n="42"/>non est poenitentia, ut tenetur;
+            <lb ed="#V" n="43"/>nec conversio ad diligendum Deum,
+            <lb ed="#V" n="44"/>sicut est post privationem
+            divitia<lb ed="#V" n="45" break="no"/>rum, vel fortitudinis, et talium;
+            <lb ed="#V" n="46"/>imo privatio talium potest esse
+            oc<lb ed="#V" n="47" break="no"/>casio poenitentiae, non autem
+            pri<cb ed="#V" n="b"/><lb ed="#V" n="48" break="no"/>vatio vitae corporalis. Non videtur
+            <lb ed="#V" n="49"/>autem, quod possim ordinate velle
+            <lb ed="#V" n="50"/>alicui illud, per quod simpliciter
+            <lb ed="#V" n="51"/>excluditur a possibilitate diligendi
+            <lb ed="#V" n="52"/>Deum. Potest tamen quis ordinate
+            <lb ed="#V" n="53"/>velle proximo mortem corporalem
+            <lb ed="#V" n="54"/>sub conditione, puta si credat eum
+            <lb ed="#V" n="55"/>finaliter futurum malum, et tunc
+            <lb ed="#V" n="56"/>sibi potest optare mortem; vel ut
+            <lb ed="#V" n="57"/>det locum Sanctis, quos impedit;
+            <lb ed="#V" n="58"/>vel ne addat peccata peccatis,
+            prop<lb ed="#V" n="59" break="no"/>ter quae post mortem acrius
+            punia<lb ed="#V" n="60" break="no"/>tur. Et illae duae causae colliguntur
+            <lb ed="#V" n="61"/>ex Legenda beatae Anastasiae, quae l
+            <lb ed="#V" n="62"/>scripsit Chrysogono de viro suo
+            Pu<lb ed="#V" n="63" break="no"/>blio, ut si Deus praevideret eum in
+            <lb ed="#V" n="64"/>infidelitate mansurum, juberet eum
+            <lb ed="#V" n="65"/>dare locum Sanctis. Hoc quoad
+            pri<lb ed="#V" n="66" break="no"/>mum. Et sequitur quoad secundum,
+            <lb ed="#V" n="67"/>quia melius est ei animam
+            erhala<lb ed="#V" n="68" break="no"/>re, quam Dei Filium blasphemare;
+            <lb ed="#V" n="69"/>et ita nec in isto casu, nec in duobus
+            <lb ed="#V" n="70"/>praecedentibus de judice et tyranno,
+            <lb ed="#V" n="71"/>potest quis absolute velle proximo
+            <lb ed="#V" n="72"/>mortem corporalem, imo magis,
+            <lb ed="#V" n="73"/>quantum in se est, debet nolle.
+          </p>
+          <p>
+            <lb ed="#V" n="74"/>Ubi sciendum, quod sicut tactum
+            <lb ed="#V" n="75"/>est dist. 15. hujus, et alias saepe,
+            <lb ed="#V" n="76"/>quando ex positione alicujus
+            con<lb ed="#V" n="77" break="no"/>ditionis simpliciter nolitae, aliquis
+            <lb ed="#V" n="78"/>vult aliquid, non simpliciter vult
+            il<lb ed="#V" n="79" break="no"/>lud, sed magis respuit, sicut patet
+            <lb ed="#V" n="80"/>de projiciente merces in mare, qui
+            <lb ed="#V" n="81"/>propter tempestatem exortam, quae
+            <lb ed="#V" n="82"/>est simpliciter sibi nolita, voluntarie
+            <lb ed="#V" n="83"/>projicit merces. Istud voluntarium
+            <lb ed="#V" n="84"/>non est mere voluntarium, quia
+            <lb ed="#V" n="85"/>non est volitum, nisi ex suppositione
+            <lb ed="#V" n="86"/>cujusdam noliti; quod autem est
+            <lb ed="#V" n="87"/>possibile tantum ex suppositione
+            im<lb ed="#V" n="88" break="no"/>possibilis, non est simpliciter
+            possi<lb ed="#V" n="89" break="no"/>bile.
+          </p>
+          <p>
+            <lb ed="#V" n="90"/>In omnibus autem praedictis
+            casi<lb ed="#V" n="91" break="no"/>bus, illud propter quod mors est
+            <pb ed="#V" n="399"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>volita, est simpliciter nolendum.
+            <lb ed="#V" n="2"/>Tenetur enim judex et actor in
+            cau<lb ed="#V" n="3" break="no"/>sa nolle ipsum esse reum ex
+            suppo<lb ed="#V" n="4" break="no"/>sitione criminis. Tenetur etiam
+            pa<lb ed="#V" n="5" break="no"/>tiens persecutionem tyrannorum,
+            <lb ed="#V" n="6"/>nolle eos esse tyrannos contra
+            Ec<lb ed="#V" n="7" break="no"/>clesiam. Tenetur etiam in tertio
+            ca<lb ed="#V" n="8" break="no"/>su quis quantum est in se, nolle
+            <lb ed="#V" n="9"/>ipsum esse finaliter reprobum, et
+            <lb ed="#V" n="10"/>ideo si ponantur opposita istorum,
+            <lb ed="#V" n="11"/>potest velle sibi potius mortem,
+            ta<lb ed="#V" n="12" break="no"/>men cum quadam tristitia, quod non
+            <lb ed="#V" n="13"/>est simpliciter velle; dictum est
+            <lb ed="#V" n="14"/>enim saepe supra, quod velle
+            con<lb ed="#V" n="15" break="no"/>ditionatum sufficit ad causandum
+            <lb ed="#V" n="16"/>tristitiam, si oppositum veniat.
+          </p>
+          <p>
+            <lb ed="#V" n="17"/>Patet igitur ad primum
+            argumen<lb ed="#V" n="18" break="no"/>tum de judice et actore. Et licet per
+            <lb ed="#V" n="19"/>idem posset dici ad secundum de
+            <lb ed="#V" n="20"/>tyranno, tamen ibi aliter potest dici,
+            <lb ed="#V" n="21"/>quod tyrannus non potest inferre
+            <lb ed="#V" n="22"/>nisi persecutionem extrinsecam,
+            <lb ed="#V" n="23"/>juxta illud Salvatoris: Nolite timere
+            <lb ed="#V" n="24"/>eos, qui occidunt corpus, et postea
+            <lb ed="#V" n="25"/>non habent amplius quid faciant;
+            <lb ed="#V" n="26"/>talis autem persecutio exterior
+            fre<lb ed="#V" n="27" break="no"/>quenter est electis materia
+            profi<lb ed="#V" n="28" break="no"/>ciendi in virtutibus, praecipue in
+            <lb ed="#V" n="29"/>patientia, quae secundum Jacobum,
+            <lb ed="#V" n="30"/>opus perfectum habet. Hoc enim
+            <lb ed="#V" n="31"/>modo a principio quaelibet Ecclesia
+            <lb ed="#V" n="32"/>persecutionem passa est, et ex hoc
+            <lb ed="#V" n="33"/>profecit; et ideo in casu illo non
+            vi<lb ed="#V" n="34" break="no"/>detur, quod liceat optare tyranno
+            <lb ed="#V" n="35"/>etiam mortem corporalem, nisi forte
+            <lb ed="#V" n="36"/>esset aliquis, a quo juste esset sibi
+            <lb ed="#V" n="37"/>talis mors infligenda propter peccata
+            <lb ed="#V" n="38"/>sua, et tunc posset aliquis optare,
+            <lb ed="#V" n="39"/>quod a tali judice fieret justitia,
+            ta<lb ed="#V" n="40" break="no"/>men cum tristitia, quia semper
+            te<lb ed="#V" n="41" break="no"/>netur nolle ipsum esse dignum tali
+            <lb ed="#V" n="42"/>poena.
+          </p>
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43"/>SCHOLIUM.
+            <lb ed="#V" n="44"/>Tenemur ex charitate adjuvare proximum,
+            <lb ed="#V" n="45"/>sive sit amicus, vel inimicus, quando evidenter
+            <lb ed="#V" n="46"/>eget in spiritualibus nostra opera, ut possit se
+            <lb ed="#V" n="47"/>ad Dei dilectionem convertere. Tenemur etiam
+            <lb ed="#V" n="48"/>interius proximum amare in communi,
+            optan<lb ed="#V" n="49" break="no"/>do vel orando bonum omnibus, neminem
+            ex<lb ed="#V" n="50" break="no"/>cludendo; ita D. Thom. supra art. 8. et
+            com<lb ed="#V" n="51" break="no"/>muniter. An vero teneamur hunc vel illum
+            <lb ed="#V" n="52"/>interius ex charitate amare, Doct. non
+            expri<lb ed="#V" n="53" break="no"/>mit; D. Thom. negat, et multi alii, quod
+            vide<lb ed="#V" n="54" break="no"/>tur rationabile, quia nullae circumstantiae
+            vi<lb ed="#V" n="55" break="no"/>dentur determinare ad hanc vel illam
+            perso<lb ed="#V" n="56" break="no"/>nam, talem obligationem, et si ejus actus
+            eli<lb ed="#V" n="57" break="no"/>ciendus esset, erga particulares talis
+            determi<lb ed="#V" n="58" break="no"/>natio fieret, ut patet in praecepto de eleemosy.
+            <lb ed="#V" n="59"/>na. Tertio, ait pium esse laborare pro vita
+            <lb ed="#V" n="60"/>proximi salvanda, quando opera tua ad id est
+            <lb ed="#V" n="61"/>necessaria; et cum dubitat an id sit sub stricto
+            <lb ed="#V" n="62"/>praecepto, puto eum non dubitare, si commode
+            <lb ed="#V" n="63"/>liberare potes, sed tunc tantum, quando
+            ni<lb ed="#V" n="64" break="no"/>mis laborandum esset, tunc enim res est dubia
+            <lb ed="#V" n="65"/>an tenearis. Quantus autem labor, vel
+            pericu<lb ed="#V" n="66" break="no"/>lum subeundum est pro vita proximi salvanda,
+            <lb ed="#V" n="67"/>judicio prudentis praescribendum venit, et non
+            <lb ed="#V" n="68"/>certa alia regula.
+          </p>
+          <p>
+            <lb ed="#V" n="69"/>Sed loquendo (a) de alio intellectu
+            <lb ed="#V" n="70"/>praecepti, scilicet de actu positivo
+            <lb ed="#V" n="71"/>diligendi inimicum, posset dici,
+            <lb ed="#V" n="72"/>quod non tenetur quis aliquando
+            <lb ed="#V" n="73"/>elicere actum diligendi proximum,
+            <lb ed="#V" n="74"/>quia nec etiam tenetur cogitare de
+            <lb ed="#V" n="75"/>eo, puta si esset aliquis ita
+            occupa<lb ed="#V" n="76" break="no"/>tus circa contemplationem Dei, quod
+            <lb ed="#V" n="77"/>nunquam cum plena deliberatione
+            <lb ed="#V" n="78"/>cogitaret de proximo. Si etiam
+            co<lb ed="#V" n="79" break="no"/>gitet, non est necesse elicere actum
+            <lb ed="#V" n="80"/>diligendi circa ipsum, quia absque
+            <lb ed="#V" n="81"/>hoc potest habere circa finem actus
+            <lb ed="#V" n="82"/>ordinatos, et circa ea quae sunt ad
+            <lb ed="#V" n="83"/>finem consequendum necessaria;
+            <lb ed="#V" n="84"/>et si hoc, igitur multo magis non
+            te<lb ed="#V" n="85" break="no"/>netur elicere actum diligendi circa
+            <lb ed="#V" n="86"/>inimicum, quia nec cogitare de eo.
+          </p>
+          <p>
+            <lb ed="#V" n="87"/>Tamen moderando illud, potest
+            <lb ed="#V" n="88"/>dici quod si appareat alicui evidens
+            <pb ed="#V" n="400"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>necessitas proximi vel inimici, puta
+            <lb ed="#V" n="2"/>quod sine ipso non potest habere
+            <lb ed="#V" n="3"/>sibi necessaria ad attingendum ad
+            <lb ed="#V" n="4"/>dilectionem Dei, puta si est infidelis,
+            <lb ed="#V" n="5"/>et sine ejus doctrina non possit
+            con<lb ed="#V" n="6" break="no"/>verti ad veritatem; vel si est malus,
+            <lb ed="#V" n="7"/>et sine ejus correctione non potest
+            <lb ed="#V" n="8"/>converti ad bonum, quod tamen
+            <lb ed="#V" n="9"/>forte nunquam contingeret, ibi
+            te<lb ed="#V" n="10" break="no"/>netur quis non solum ad velle
+            bo<lb ed="#V" n="11" break="no"/>num finale spirituale proximo, imo
+            <lb ed="#V" n="12"/>etiam ista bona necessaria sibi ad
+            <lb ed="#V" n="13"/>consequendum finale bonum non
+            <lb ed="#V" n="14"/>solum velle, sed etiam exequi
+            ope<lb ed="#V" n="15" break="no"/>ratione efficaci, si adest facultas.
+          </p>
+          <p>
+            <lb ed="#V" n="16"/>Quantum autem ad divitias vel
+            sa<lb ed="#V" n="17" break="no"/>nitatem, et hujusmodi, quorum
+            oppo<lb ed="#V" n="18" break="no"/>sita potest sibi velle, ut tactum est
+            <lb ed="#V" n="19"/>prius, non tenetur quis in aliquo
+            <lb ed="#V" n="20"/>casu positive velle sibi ista.
+          </p>
+          <p>
+            <lb ed="#V" n="21"/>Quantum autem ad bona (b)
+            spi<lb ed="#V" n="22" break="no"/>ritualia, tenetur etiam quis velle sibi
+            <lb ed="#V" n="23"/>non solum interius, sed etiam
+            exte<lb ed="#V" n="24" break="no"/>rius efficaciter in opere; specialiter
+            <lb ed="#V" n="25"/>quantum ad hoc, quod quilibet
+            te<lb ed="#V" n="26" break="no"/>netur orare Deum suum pro se,
+            <lb ed="#V" n="27"/>et pro tota Ecclesia Dei; et tenetur
+            <lb ed="#V" n="28"/>velle istam orationem valere bono
+            <lb ed="#V" n="29"/>et malo ad bonum spirituale; sicut
+            <lb ed="#V" n="30"/>enim esset malus stomachus, qui
+            nol<lb ed="#V" n="31" break="no"/>let sustentationem suam valere
+            sus<lb ed="#V" n="32" break="no"/>tentationi manus, ita non esset bonus
+            <lb ed="#V" n="33"/>in Ecclesia, qui nollet bonum actum
+            <lb ed="#V" n="34"/>suum, si quem habet, valere omni
+            <lb ed="#V" n="35"/>membro Ecclesiae, pro quibus Deus
+            <lb ed="#V" n="36"/>illum acceptat, et pro quanto potest
+            <lb ed="#V" n="37"/>valere sibi et aliis; nunquam autem
+            <lb ed="#V" n="38"/>tenetur quis velle simpliciter illud,
+            <lb ed="#V" n="39"/>cujus oppositum potest bene nolle.
+          </p>
+          <p>
+            <lb ed="#V" n="40"/>Sed de vita corporali forte tenetur
+            <lb ed="#V" n="41"/>quis velle quoad actum interiorem,
+            <lb ed="#V" n="42"/>et eam salvare simpliciter quoad
+            ex<lb ed="#V" n="43" break="no"/>teriorem, si non adsit alius
+            proxi<lb ed="#V" n="44" break="no"/>mus, qui possit eum juvare, puta,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>si quis moreretur fame, vel in fluvio,
+            <lb ed="#V" n="46"/>et unus solus adesset, qui posset
+            li<lb ed="#V" n="47" break="no"/>berare eum; teneretur forte non
+            <lb ed="#V" n="48"/>tantum huic velle vitam, sed ut eam
+            <lb ed="#V" n="49"/>habeat, pro viribus laborare.
+          </p>
+          <p>
+            <lb ed="#V" n="50"/>Unde tamen (c) probetur ista
+            ten<lb ed="#V" n="51" break="no"/>tio, non videtur manifestum ex
+            Scri<lb ed="#V" n="52" break="no"/>ptura, nec ex ratione, quia si tunc
+            <lb ed="#V" n="53"/>periclitaretur, posito quod esset
+            <lb ed="#V" n="54"/>bonus, pertingeret ad diligendum
+            <lb ed="#V" n="55"/>Deum perfecte in patria, et salvatus
+            <lb ed="#V" n="56"/>ad vitam corporalem, forte fuisset
+            <lb ed="#V" n="57"/>postea lapsus in peccatum, et forte
+            <lb ed="#V" n="58"/>finaliter malus. Pium tamen est
+            la<lb ed="#V" n="59" break="no"/>borare pro vita proximi salvanda,
+            <lb ed="#V" n="60"/>quia supponendum est, si est
+            bo<lb ed="#V" n="61" break="no"/>nus, quod erit melior, et valebit sibi
+            <lb ed="#V" n="62"/>et aliis sua bonitas, et si est malus,
+            <lb ed="#V" n="63"/>supponendum est quod corrigetur;
+            <lb ed="#V" n="64"/>hoc enim est pie judicare, scilicet
+            <lb ed="#V" n="65"/>interpretari semper melius, quando
+            <lb ed="#V" n="66"/>non est oppositum manifestum.
+          </p>
+          <p>
+            <lb ed="#V" n="67"/>Ad primum argumentum dico,
+            <lb ed="#V" n="68"/>quod illa responsio Christi ad
+            Phari<lb ed="#V" n="69" break="no"/>saeum: Quis est proximus? debet
+            <lb ed="#V" n="70"/>intelligi, proximus dicit relationem
+            <lb ed="#V" n="71"/>aequiparantiae sicut amicus vel
+            fra<lb ed="#V" n="72" break="no"/>ter; igitur si faciens misericordiam,
+            <lb ed="#V" n="73"/>est proximus, quod habebatur ex
+            <lb ed="#V" n="74"/>responsione Pharisaei, sequitur
+            <lb ed="#V" n="75"/>quod ille cui facta est misericordia,
+            <lb ed="#V" n="76"/>habebatur apud eum tanquam
+            proxi<lb ed="#V" n="77" break="no"/>mus. Non erat autem gentis suae,
+            <lb ed="#V" n="78"/>nec sibi ligatus ex ratione, sed
+            ex<lb ed="#V" n="79" break="no"/>traneus ex patria; igitur quilibet t
+            <lb ed="#V" n="80"/>quantumcumque extraneus, cui ego
+            <lb ed="#V" n="81"/>possum servire in necessitate, est
+            <lb ed="#V" n="82"/>habendus ut proximus, et hoc est
+            <lb ed="#V" n="83"/>quod dicit ibi Salvator: Vade, et tu
+            <lb ed="#V" n="84"/>fac similiter, id est, habe pro
+            pro<lb ed="#V" n="85" break="no"/>ximo omnem, cui potes bene facere,
+            <lb ed="#V" n="86"/>etiamsi sit tibi extraneus; non igitur
+            <lb ed="#V" n="87"/>bene faciens est tantum proximus,
+            <lb ed="#V" n="88"/>sed etiam omnis potens bene pati a
+            <pb ed="#V" n="401"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>nobis, et hoc, sive passione
+            exterio<lb ed="#V" n="2" break="no"/>ri, sive bona dilectione passiva, quae
+            <lb ed="#V" n="3"/>est motus interior; et hoc modo
+            <lb ed="#V" n="4"/>Beati, quibus non possumus bene
+            fa<lb ed="#V" n="5" break="no"/>cere, possunt bene diligi, et esse
+            pro<lb ed="#V" n="6" break="no"/>ximi. Deus autem licet bene diligatur,
+            <lb ed="#V" n="7"/>non tamen ex dilectione alicujus
+            po<lb ed="#V" n="8" break="no"/>test addi sibi aliquod bonum, et ideo
+            <lb ed="#V" n="9"/>non comprehenditur sub proximo.
+          </p>
+          <p>
+            <lb ed="#V" n="10"/>Ad secundum dico, quod omnia
+            <lb ed="#V" n="11"/>praecepta secundae tabulae explicant
+            <lb ed="#V" n="12"/>illud praeceptum: Diliges
+            proxi<lb ed="#V" n="13" break="no"/>mum, quia specificant illa, in
+            qui<lb ed="#V" n="14" break="no"/>bus non debeo odire inimicum, nam
+            <lb ed="#V" n="15"/>non occidere includit non odire sibi
+            <lb ed="#V" n="16"/>injuste vitam corporalem; non
+            fu<lb ed="#V" n="17" break="no"/>rari, non moechari, includunt non
+            <lb ed="#V" n="18"/>odire sibi bonum fortunae, vel
+            fa<lb ed="#V" n="19" break="no"/>mae, et sic de aliis.
+          </p>
+          <p>
+            <lb ed="#V" n="20"/>Ad auctoritates Augustini quaere.
+            <lb ed="#V" n="21"/>Ad illud Matth. 5. Dictum est
+            anti<lb ed="#V" n="22" break="no"/>quis, signanter loquitur Salvator,
+            <lb ed="#V" n="23"/>dictum est, et non, scriptum est,
+            <lb ed="#V" n="24"/>quia etsi scriptum erat: Diliges
+            <lb ed="#V" n="25"/>amicum tuum, non tamen erat
+            scrip<lb ed="#V" n="26" break="no"/>tum odies inimicum; sed Judaei
+            per<lb ed="#V" n="27" break="no"/>vertentes Scripturam arguunt hoc
+            <lb ed="#V" n="28"/>per locum a contrario sensu, et ita
+            <lb ed="#V" n="29"/>servabant. Quod autem male
+            intel<lb ed="#V" n="30" break="no"/>lexerint, probat Salvator: Si enim
+            <lb ed="#V" n="31"/>tantum diligitis illos, qui vos
+            dili<lb ed="#V" n="32" break="no"/>gunt, quam mercedem
+            habebi<lb ed="#V" n="33" break="no"/>tis? Sic etiam male intellexerunt
+            <lb ed="#V" n="34"/>in pluribus aliis locis, sicut patet ibi
+            <lb ed="#V" n="35"/>de illo praecepto: Honora patrem
+            <lb ed="#V" n="36"/>tuum et matrem, de quo redarguit
+            <lb ed="#V" n="37"/>eos Salvator, quia interpretabantur,
+            <lb ed="#V" n="38"/>quod si quis offerret substantiam
+            <lb ed="#V" n="39"/>suam in templo, et non daret patri
+            <lb ed="#V" n="40"/>egenti, quod servat praeceptum, quia
+            <lb ed="#V" n="41"/>Deus est pater spiritualis; sed Deus
+            <lb ed="#V" n="42"/>hoc reprobat: Irritum, inquit,
+            fecis<lb ed="#V" n="43" break="no"/>tis mandatum Dei propter
+            traditio<lb ed="#V" n="44" break="no"/>nem vestram.
+          </p>
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>Per hoc patet ad illud de secundo
+            <lb ed="#V" n="46"/>Topicorum, quia illa regula non
+            <lb ed="#V" n="47"/>intelligitur nisi de contrariis
+            prae<lb ed="#V" n="48" break="no"/>cisis, hoc est, ubi non ambo
+            contra<lb ed="#V" n="49" break="no"/>ria ex una parte subsunt uni
+            extre<lb ed="#V" n="50" break="no"/>mo alterius contrarietatis; si enim
+            <lb ed="#V" n="51"/>color haberet contrarium, puta 4,
+            <lb ed="#V" n="52"/>non sequitur, album est coloratum;
+            <lb ed="#V" n="53"/>igitur nigrum est; A sic est in
+            pro<lb ed="#V" n="54" break="no"/>posito, quia sub ratione diligibilis
+            <lb ed="#V" n="55"/>continetur amicus et inimicus,
+            lo<lb ed="#V" n="56" break="no"/>quendo de inimico per accidens,
+            <lb ed="#V" n="57"/>quia eadem ratio diligibilitatis est
+            <lb ed="#V" n="58"/>in utroque, scilicet possibilitas
+            di<lb ed="#V" n="59" break="no"/>ligendi primum objectum charitatis,
+            <lb ed="#V" n="60"/>inquantum sunt imago Dei.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

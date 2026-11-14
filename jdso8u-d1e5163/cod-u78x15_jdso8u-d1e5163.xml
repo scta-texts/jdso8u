@@ -1,0 +1,1412 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 3, Distinctio 23, Quaestio 1</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 3, Distinctio 23, Quaestio 1</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x15">Vives, Paris, 1894, volume 15</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="5"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e5163"><!-- jdso8u-b3d23q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum de credibilibus nobis revelatis necesse sit ponere fidem infusam</head>
+        <!-- <div alias="scotus-d23q1-p1"> -->
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43" type="fixed=5"/>QUAESTIO UNICA.
+            <lb ed="#V" n="44"/>Utrum de credibilibus nobis revelatis,
+            <lb ed="#V" n="45"/>necesse sit ponere fidem infusam?
+          </p>
+          <p>
+            <lb ed="#V" n="46"/>Alens. 3. p. q. 18. m. 1. D. Thom. 1. 2. q. 62.
+            <lb ed="#V" n="47"/>art. 1. et 2. 2. q. 2. art. 3. ubi Bannes.
+            Ri<lb ed="#V" n="48" break="no"/>chard. hic art. 3. q. 1. Gabr. q 2. art. 2.
+            <lb ed="#V" n="49"/>Vasq. 1. 2. d. 186. cap. 1. et d. 187. cap. 2
+            <lb ed="#V" n="50"/>Ansel. D. Thom. OEcum. Theoph. in id Hebr
+            <lb ed="#V" n="51"/>11. sine fide impossibile, etc. Durand. 2. d.
+            <lb ed="#V" n="52"/>28. q. 1. Soto 2. de nat. cap. 7. 8. ubi
+            inconsi<lb ed="#V" n="53" break="no"/>derate Scotum, et alios graves DD. taxat.
+            Piti<lb ed="#V" n="54" break="no"/>gianis hic art 10. et 11. Vega 9. de Justif.
+            <lb ed="#V" n="55"/>cap. 3. Cord. lib. 1. quaest. 17. Vide Scot.
+            <lb ed="#V" n="56"/>Quodlib. 14.
+          </p>
+          <p>
+            <lb ed="#V" n="57"/>Circa istam vigesimam tertiam
+            <lb ed="#V" n="58"/>distinctionem, in qua Magister agit
+            <lb ed="#V" n="59"/>de virtutibus, et primo de fide
+            quan<lb ed="#V" n="60" break="no"/>tum ad ejus essentiam, quaeritur
+            <lb ed="#V" n="61"/>unum: Utrum scilicet de
+            credibili<lb ed="#V" n="62" break="no"/>bus nobis revelatis necesse sit
+            po<lb ed="#V" n="63" break="no"/>nere fidem infusam? Quod non,
+            <lb ed="#V" n="64"/>quia ad omnem certitudinem actus
+            <lb ed="#V" n="65"/>credendi, quam experimur in nobis
+            <lb ed="#V" n="66"/>talium credibilium, sufficit nobis
+            <lb ed="#V" n="67"/>fides acquisita; igitur superfluit
+            po<lb ed="#V" n="68" break="no"/>nere fidem infusam. Consequentia
+            <lb ed="#V" n="69"/>patet, quia non ponitur habitus,
+            <lb ed="#V" n="70"/>nisi propter actum; et superfluit
+            <lb ed="#V" n="71"/>ponere plura, quando unum sufficit.
+            <lb ed="#V" n="72"/>Antecedens probatur, quia sicut
+            <lb ed="#V" n="73"/>firmiter inhaeremus historiis et gess
+            <lb ed="#V" n="74"/>tis scriptis de rebus bellicis et ams;
+            <lb ed="#V" n="75"/>quae scribuntur in Chronieis fide
+            <lb ed="#V" n="76"/>acquisita, per hoc quod credimus
+            <lb ed="#V" n="77"/>veraces eos esse, qui talia referunt,
+            <lb ed="#V" n="78"/>ita fide acquisita firmiter adhaeremus
+            <lb ed="#V" n="79"/>historiae Scripturae sacrae et
+            Evan<lb ed="#V" n="80" break="no"/>gelio, quia firmiter credimus eos esse
+            <lb ed="#V" n="81"/>veraces, qui libros Canonis
+            condi<lb ed="#V" n="82" break="no"/>derunt; igitur praeter fidem
+            acqui<lb ed="#V" n="83" break="no"/>sitam, superfluit omnis alia propter
+            <lb ed="#V" n="84"/>certitudinem actus credendi.
+          </p>
+          <p>
+            <lb ed="#V" n="85"/>Praeterea, magis est supra
+            incli<lb ed="#V" n="86" break="no"/>nationem intellectus, imo contra,
+            <lb ed="#V" n="87"/>assentire falsis impossibilibus
+            op<pb ed="#V" n="6"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>positis necessariorum, quam
+            assen<lb ed="#V" n="2" break="no"/>tire objectis neutris, quae licet sint
+            <lb ed="#V" n="3"/>vera, non tamen habent evidentiam
+            <lb ed="#V" n="4"/>ex terminis; sed aliquis habitu
+            ac<lb ed="#V" n="5" break="no"/>quisito per falsigraphum assentit
+            <lb ed="#V" n="6"/>opposito conclusionis demonstratae
+            <lb ed="#V" n="7"/>vel demonstrabilis, sicut habens
+            <lb ed="#V" n="8"/>ignorantiam dispositionis, qui
+            scili<lb ed="#V" n="9" break="no"/>cet est in errore, firmiter adhaeret
+            <lb ed="#V" n="10"/>illi falso; igitur multo fortius fide
+            <lb ed="#V" n="11"/>acquisita potest firmiter credere vera
+            <lb ed="#V" n="12"/>neutra, cujusmodi sunt credibilia a
+            <lb ed="#V" n="13"/>nobis.
+          </p>
+          <p>
+            <lb ed="#V" n="14"/>Sed dices, quod forte ideo
+            assen<lb ed="#V" n="15" break="no"/>tit, quia persuasus est aliqua
+            appa<lb ed="#V" n="16" break="no"/>rentia argumenti. Ideo pono aliud
+            <lb ed="#V" n="17"/>exemplum: Ecce aliquis haereticus
+            <lb ed="#V" n="18"/>firmiter adhaereret suo errori,
+            cre<lb ed="#V" n="19" break="no"/>dens illum esse verum, in tantum
+            <lb ed="#V" n="20"/>quod mori paratus est pro eo, et
+            <lb ed="#V" n="21"/>fide sua, sic assentit illi, quod
+            evi<lb ed="#V" n="22" break="no"/>dens ex terminis esse non potest,
+            <lb ed="#V" n="23"/>cum sit falsum et haeresis, et illa
+            <lb ed="#V" n="24"/>fides non est nisi acquisita, et est
+            <lb ed="#V" n="25"/>in ratione inclinans ipsam firmiter
+            <lb ed="#V" n="26"/>in illum errorem, nec talis est
+            per<lb ed="#V" n="27" break="no"/>suasus ratione, sed credit auditui
+            <lb ed="#V" n="28"/>aliquorum, ut proprio conceptui;
+            <lb ed="#V" n="29"/>igitur aliquis potest fide acquisita
+            <lb ed="#V" n="30"/>firmiter adhaepere alicui credibili
+            <lb ed="#V" n="31"/>sine fide infusa a Deo.
+            <lb ed="#V" n="32"/>tem, si ponitur fides infusa a.
+            <lb ed="#V" n="33"/>Deo, filla non potest corrumpi in
+            no<lb ed="#V" n="34" break="no"/>bis, nec amitti; hoc autem est
+            fal<lb ed="#V" n="35" break="no"/>sum; igitur et illud ex quo sequitur,
+            <lb ed="#V" n="36"/>scilicet quod aliqua talis fides sit in
+            <lb ed="#V" n="37"/>nobis. Antecedens probatur, quia
+            <lb ed="#V" n="38"/>sicut habitus infusus creatur a Deo,
+            <lb ed="#V" n="39"/>et non potest creatura in
+            causalita<lb ed="#V" n="40" break="no"/>tem ipsius, quia non generatur ex
+            <lb ed="#V" n="41"/>actibus nostris, ita quando
+            corrum<lb ed="#V" n="42" break="no"/>pitur, annihilatur totaliter, et sicut
+            <lb ed="#V" n="43"/>creatura non potest aliquid creare,
+            <lb ed="#V" n="44"/>ita nec annihilare; igitur nullus
+            ha<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>bens fidem quocumque errore
+            pos<lb ed="#V" n="46" break="no"/>set effective fidem annihilare,
+            attin<lb ed="#V" n="47" break="no"/>gendo essentiam habitus, nec
+            de<lb ed="#V" n="48" break="no"/>meritorie, quia si sic, hoc esset per
+            <lb ed="#V" n="49"/>maximum demeritum, scilicet per
+            <lb ed="#V" n="50"/>odium Dei; sed sic non perditur,
+            <lb ed="#V" n="51"/>quia daemones credunt et
+            contre<lb ed="#V" n="52" break="no"/>miscunt, et habent fidem informem,
+            <lb ed="#V" n="53"/>et tamen odiunt Deum; igitur si
+            po<lb ed="#V" n="54" break="no"/>neretur fides infusa, non posset
+            cor<lb ed="#V" n="55" break="no"/>rumpi nec amitti; igitur nulla est
+            <lb ed="#V" n="56"/>fides infusa.
+          </p>
+          <p>
+            <lb ed="#V" n="57"/>Praeterea, (et hoc argumentum
+            <lb ed="#V" n="58"/>potest ponderari) ille habitus, ad
+            <lb ed="#V" n="59"/>quem non potest homo ex omnibus
+            <lb ed="#V" n="60"/>naturalibus suis attingere, est
+            sim<lb ed="#V" n="61" break="no"/>pliciter perfectior omni habitu, ad
+            <lb ed="#V" n="62"/>quem potest attingere generando
+            <lb ed="#V" n="63"/>ipsum in se, ex suis principiis
+            natu<lb ed="#V" n="64" break="no"/>ralibus; si ergo ponitur fides infusa,
+            <lb ed="#V" n="65"/>cum homo ex tota coordinatione
+            vi<lb ed="#V" n="66" break="no"/>rium naturalium suarum, et earum
+            <lb ed="#V" n="67"/>actuum et objectorum, non possit
+            <lb ed="#V" n="68"/>in se generare fidem illam, esset
+            <lb ed="#V" n="69"/>hujusmodi fides perfectior habitus
+            <lb ed="#V" n="70"/>omni habitu acquisito, scilicet s
+            en<lb ed="#V" n="71" break="no"/>tia conclusionum, et habitu
+            princi<lb ed="#V" n="72" break="no"/>piorum; et cum perfectiori habitui
+            <lb ed="#V" n="73"/>correspondeat perfectior actus,
+            ac<lb ed="#V" n="74" break="no"/>tus credendi fidei infusae esset
+            per<lb ed="#V" n="75" break="no"/>fectior, quam actus intelligendi
+            pri<lb ed="#V" n="76" break="no"/>ma principia per habitum
+            princi<lb ed="#V" n="77" break="no"/>piorum, quod videtur valde
+            incon<lb ed="#V" n="78" break="no"/>veniens.
+          </p>
+          <p>
+            <lb ed="#V" n="79"/>Contra, ad Hebr. 11. Sine fide
+            <lb ed="#V" n="80"/>impossibile est placere Deo; sed
+            <lb ed="#V" n="81"/>certum est quod multi placent, et
+            <lb ed="#V" n="82"/>multi placuerunt Deo; igitur
+            ne<lb ed="#V" n="83" break="no"/>cesse est ponere fidem respectu cres.
+            <lb ed="#V" n="84"/>dibilium nobis revelatorum. Et quest
+            <lb ed="#V" n="85"/>loquatur de fide infusa, patet nes
+            <lb ed="#V" n="86"/>eumdem 1. ad Corinth. 12. ubi des
+            <lb ed="#V" n="87"/>cit: Adhuc excellentiorem viam
+            ue<lb ed="#V" n="88" break="no"/>bis demonstro, et post cap. 13.
+            sub<pb ed="#V" n="7"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>dit de istis virtutibus Theologicis,
+            <lb ed="#V" n="2"/>quae sunt viae excellentiores
+            omni<lb ed="#V" n="3" break="no"/>bus habitibus acquisitis; ibi enim
+            <lb ed="#V" n="4"/>loquitur de fide infusa, sicut de
+            cha<lb ed="#V" n="5" break="no"/>ritate infusa.
+          </p>
+          <p>
+            <lb ed="#V" n="6"/>In quaestione ista, primo dicam,
+            <lb ed="#V" n="7"/>quod certum est, quia certum est
+            <lb ed="#V" n="8"/>quod in nobis est fides acquisita,
+            <lb ed="#V" n="9"/>et ex hoc sequitur unum
+            corolla<lb ed="#V" n="10" break="no"/>rium. Secundo dicam aliud, quod
+            <lb ed="#V" n="11"/>non est ita manifestum; et ibi duo,
+            <lb ed="#V" n="12"/>secundum quod dupliciter potest
+            <lb ed="#V" n="13"/>dici de fide infusa, et eligetis partem
+            <lb ed="#V" n="14"/>quam volueritis; tertio dicam ad
+            <lb ed="#V" n="15"/>quaestionem.
+          </p>
+          <p>
+            <lb ed="#V" n="16"/>SCHOLIUM.
+            <lb ed="#V" n="17"/>Nos habere fidem acquisitam de credibilibus
+            <lb ed="#V" n="18"/>revelatis. Primo, ex Augustino, quia si nulla
+            <lb ed="#V" n="19"/>esset in nobis infusa fides, sicut per acquisitam
+            <lb ed="#V" n="20"/>credimus aliis historiis, ita et revelatis.
+            Se<lb ed="#V" n="21" break="no"/>cundo, puer Hebraeus non baptizatus inter nos
+            <lb ed="#V" n="22"/>educatus, fide acquisita crederet nobis revelata;
+            <lb ed="#V" n="23"/>ergo idem de nobis. Tertio, haereticans in uno
+            <lb ed="#V" n="24"/>articulo, retinet fidem acquisitam quoad alios
+            <lb ed="#V" n="25"/>articulos. Quarto, ex Paulo. Ex his infert fidem
+            <lb ed="#V" n="26"/>infusam non esse necessariam, ut sine
+            formi<lb ed="#V" n="27" break="no"/>dine credamus revelatis, quia multis fide
+            hu<lb ed="#V" n="28" break="no"/>mana sine ulla formidine adhaeremus, ut esse
+            <lb ed="#V" n="29"/>multa loca, quae nunquam vidimus, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="30"/>De primo (a) certum est, quod in
+            <lb ed="#V" n="31"/>nobis est fides revelatorum
+            credibi<lb ed="#V" n="32" break="no"/>lium acquisita. Quod patet per
+            Au<lb ed="#V" n="33" break="no"/>gustinum in Epistola contra
+            funda<lb ed="#V" n="34" break="no"/>mentum Manichaei, qui dicit, quod
+            <lb ed="#V" n="35"/>non crederet Evangelio, nisi
+            crede<lb ed="#V" n="36" break="no"/>ret Ecclesige Catholicae. Patet igitur
+            <lb ed="#V" n="37"/>per eum, quod libris Canonis sacri
+            <lb ed="#V" n="38"/>non est credendum, nisi quia primo
+            <lb ed="#V" n="39"/>credendum est Ecclesiae approbanti
+            <lb ed="#V" n="40"/>et auctorizanti libros istos, et
+            con<lb ed="#V" n="41" break="no"/>tenta in eis; quamvis aliqui libri
+            <lb ed="#V" n="42"/>auctoritatem habeant ex auctoribus
+            <lb ed="#V" n="43"/>suis, non tamen adhaeremus eis
+            <lb ed="#V" n="44"/>firmiter, nisi quia creditur Ecclesiae
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>approbanti, et testificanti veraces
+            <lb ed="#V" n="46"/>esse eorum auctores. Unde dicit
+            <lb ed="#V" n="47"/>Augustinus ibidem, quod
+            Evange<lb ed="#V" n="48" break="no"/>lium Nazaraeorum non admittam,
+            <lb ed="#V" n="49"/>quia non admittitur ab Ecclesia.
+            <lb ed="#V" n="50"/>Sicut igitur si nulla fides infusa
+            es<lb ed="#V" n="51" break="no"/>set in me, crederem firmiter
+            histo<lb ed="#V" n="52" break="no"/>riis librorum Canonis propter
+            auc<lb ed="#V" n="53" break="no"/>toritatem Ecclesiae, sicut fide
+            acqui<lb ed="#V" n="54" break="no"/>sita credo aliis historiis a quibusdam
+            <lb ed="#V" n="55"/>famosis viris scriptis et narratis.
+            <lb ed="#V" n="56"/>Credo igitur fide acquisita
+            Evange<lb ed="#V" n="57" break="no"/>lio, quia Ecclesia tenet scriptores
+            <lb ed="#V" n="58"/>veraces, quod ego audiens acquiro
+            <lb ed="#V" n="59"/>mihi habitum credendi dictis
+            illo<lb ed="#V" n="60" break="no"/>rum.
+          </p>
+          <p>
+            <lb ed="#V" n="61"/>Praeterea, si unus puer Judaeus
+            <lb ed="#V" n="62"/>nunquam baptizatus nutriretur
+            in<lb ed="#V" n="63" break="no"/>ter nos, et disciplinaretur more
+            nos<lb ed="#V" n="64" break="no"/>tro, habitu acquisito ex auditu
+            cre<lb ed="#V" n="65" break="no"/>deret et adhaereret omnibus, quibus
+            <lb ed="#V" n="66"/>et nos; sicut etiam ego fide acquisita
+            <lb ed="#V" n="67"/>ex auditu parentum et aliorum,
+            cre<lb ed="#V" n="68" break="no"/>do multa tempora transisse,
+            mun<lb ed="#V" n="69" break="no"/>dum etiam non incepisse mecum.
+            <lb ed="#V" n="70"/>Credo etiam Romam esse, quam
+            <lb ed="#V" n="71"/>non vidi, ex relatu fide dignorum;
+            <lb ed="#V" n="72"/>sic et revelatis in Scriptura per
+            <lb ed="#V" n="73"/>fidem acquisitam ex auditu firmiter
+            <lb ed="#V" n="74"/>adhaereo credendo Ecclesiae
+            appro<lb ed="#V" n="75" break="no"/>banti veritatem auctorum illorum.
+          </p>
+          <p>
+            <lb ed="#V" n="76"/>Praeterea, hic est aliquis
+            baptiza<lb ed="#V" n="77" break="no"/>tus credens omnes articulos, postea
+            <lb ed="#V" n="78"/>errat circa unum tantum, scilicet
+            <lb ed="#V" n="79"/>Trinitatem personarum et unitatem
+            <lb ed="#V" n="80"/>essentiae, tamen sentit se firmiter
+            <lb ed="#V" n="81"/>adhaerere omnibus aliis credibilibus;
+            <lb ed="#V" n="82"/>non enim oportet errantem circa
+            <lb ed="#V" n="83"/>unum articulum, errare circa
+            om<lb ed="#V" n="84" break="no"/>nes, quia haereses non sunt
+            neces<lb ed="#V" n="85" break="no"/>sario connexae. Ille igitur sine fide
+            <lb ed="#V" n="86"/>infusa credit aliis articulis, quia
+            <lb ed="#V" n="87"/>fides infusa corrumpitur, cum
+            hae<lb ed="#V" n="88" break="no"/>resis generatur, alias starent simul
+            <pb ed="#V" n="8"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>fides et haeresis; igitur fide acquisita
+            <lb ed="#V" n="2"/>credit aliis articulis, quae scilicet fuit
+            <lb ed="#V" n="3"/>cum infusa praecedente, si aliqua
+            <lb ed="#V" n="4"/>talis fuit; non enim in illo instanti,
+            <lb ed="#V" n="5"/>in quo corrumpitur fides infusa per
+            <lb ed="#V" n="6"/>haeresim, generatur primo fides
+            ac<lb ed="#V" n="7" break="no"/>quisita; nam ille error non disponit
+            <lb ed="#V" n="8"/>ad fidem pro tunc, imo est
+            indispo<lb ed="#V" n="9" break="no"/>sitio, ut pro tunc non generetur;
+            <lb ed="#V" n="10"/>igitur praefuit ante illum errorem, et
+            <lb ed="#V" n="11"/>sic certum est esse in nobis fidem
+            <lb ed="#V" n="12"/>acquisitam.
+          </p>
+          <p>
+            <lb ed="#V" n="13"/>Praeterea, ad Roman. 10.
+            Quo<lb ed="#V" n="14" break="no"/>modo credent ei, quem non
+            audie<lb ed="#V" n="15" break="no"/>runt? quomodo audient sine
+            praedi<lb ed="#V" n="16" break="no"/>cante? quomodo praedicabunt, nisi
+            <lb ed="#V" n="17"/>mittantur? igitur secundum
+            Apos<lb ed="#V" n="18" break="no"/>tolum, fides est ex auditu, auditus
+            <lb ed="#V" n="19"/>autem est ex praedicante; proedicare
+            <lb ed="#V" n="20"/>autem nullus potest, nisi mittatur;
+            <lb ed="#V" n="21"/>igitur de primo ad ultimum non
+            po<lb ed="#V" n="22" break="no"/>test homo credere, nisi audiat
+            ali<lb ed="#V" n="23" break="no"/>quem praedicantem sibi credibilia.
+            <lb ed="#V" n="24"/>Hoc argumentum non valet, nisi
+            <lb ed="#V" n="25"/>loqueretur de fide acquisita, quia
+            <lb ed="#V" n="26"/>haec fides generatur in homine, ex
+            <lb ed="#V" n="27"/>hoc quod audit verba proedicantis,
+            <lb ed="#V" n="28"/>adhibendo fidem dictis suis, quia
+            <lb ed="#V" n="29"/>non oportet quemlibet talem esse
+            <lb ed="#V" n="30"/>bonum moraliter per charitatem
+            in<lb ed="#V" n="31" break="no"/>fusam, sed potest esse in peccato
+            <lb ed="#V" n="32"/>mortali, et audiendo praedicantem,
+            <lb ed="#V" n="33"/>et videndo miracula fieri, credit ei,
+            <lb ed="#V" n="34"/>et hoc, quia dictat sibi naturaliter
+            <lb ed="#V" n="35"/>ratio, quod Deus non assistit
+            falsi<lb ed="#V" n="36" break="no"/>tati alicujus, operando miracula ad
+            <lb ed="#V" n="37"/>falsa alicujus praedicata vel dicta;
+            <lb ed="#V" n="38"/>igitur fides illa praecedit charitatem,
+            <lb ed="#V" n="39"/>et per consequens est acquisita,
+            <lb ed="#V" n="40"/>quia infusa non infunditur nisi cum
+            <lb ed="#V" n="41"/>charitate.
+          </p>
+          <p>
+            <lb ed="#V" n="42"/>Ex istis (b) sequitur corollarium,
+            <lb ed="#V" n="43"/>quod propter credulitatem
+            articu<lb ed="#V" n="44" break="no"/>lorum revelatorum, ut homo
+            firmi<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>ter credat omnibus articulis
+            revela<lb ed="#V" n="46" break="no"/>tis, et determinetur ad alteram
+            par<lb ed="#V" n="47" break="no"/>tem sine oppositi formidine, non
+            <lb ed="#V" n="48"/>oportet ponere fidem infusam; nec.
+            <lb ed="#V" n="49"/>necessitas ejus potest ex hoc
+            con<lb ed="#V" n="50" break="no"/>cludi, quia fides acquisita est super
+            <lb ed="#V" n="51"/>opinione, quae adhaeret uni parti
+            <lb ed="#V" n="52"/>contradictionis cum formidine
+            alte<lb ed="#V" n="53" break="no"/>rius, licet sit infra scientiam, quae
+            <lb ed="#V" n="54"/>est ex evidentia objecti scibilis.
+            <lb ed="#V" n="55"/>Quare, non dico mundum incepisse
+            <lb ed="#V" n="56"/>mecum, non quia scio ipsum
+            prae<lb ed="#V" n="57" break="no"/>cessisse me, quia praeteritorum non
+            <lb ed="#V" n="58"/>est scientia, secundum Augustinum,
+            <lb ed="#V" n="59"/>nec opinor mundum praecessisse
+            <lb ed="#V" n="60"/>me, sed adhaereo firmiter huic,
+            <lb ed="#V" n="61"/>mundum praecessisse me per fidem
+            <lb ed="#V" n="62"/>acquisitam ex auditu aliorum,
+            quo<lb ed="#V" n="63" break="no"/>rum veracitati credo firmiter. Nec
+            <lb ed="#V" n="64"/>dubito mundum praecessisse me et
+            <lb ed="#V" n="65"/>esse partes mundi, quas non vidi,
+            <lb ed="#V" n="66"/>quia non dubito de veracitate
+            nar<lb ed="#V" n="67" break="no"/>rantium mihi talia, et asserentium
+            <lb ed="#V" n="68"/>vera esse. Ideo sicut nec haesito de
+            <lb ed="#V" n="69"/>veracitate eorum, quae est quasi
+            <lb ed="#V" n="70"/>principium, sic nec de dicto eorum,
+            <lb ed="#V" n="71"/>quod est quasi conclusio sequens eo
+            <lb ed="#V" n="72"/>modo, quia homo non dubitat de
+            <lb ed="#V" n="73"/>veracitate Dei, quia hoc cuilibet
+            na<lb ed="#V" n="74" break="no"/>turaliter inseritur, scilicet Deum esse
+            <lb ed="#V" n="75"/>veracem; nec dubitatur de
+            appro<lb ed="#V" n="76" break="no"/>batione Ecclesiae, quae approbat
+            <lb ed="#V" n="77"/>dicta et scripta virorum
+            praeceden<lb ed="#V" n="78" break="no"/>tium; ideo non dubitatur de his,
+            <lb ed="#V" n="79"/>quae in Scriptura revelantur, sed
+            <lb ed="#V" n="80"/>fide acquisita ex auditu firmiter eis
+            <lb ed="#V" n="81"/>adhaeret. Hoc igitur tenendum est
+            <lb ed="#V" n="82"/>tanquam certum, quod revelatorum
+            <lb ed="#V" n="83"/>in Scriptura est in nobis fides
+            ac<lb ed="#V" n="84" break="no"/>quisita, generata ex auditu et ex
+            <lb ed="#V" n="85"/>actibus nostris, qua eis firmiter
+            ad<lb ed="#V" n="86" break="no"/>haeremus
+          </p>
+        <!-- </div>
+    <div alias="scotus-d23q1-p2"> -->
+          <p>
+            <lb ed="#V" n="73" type="fixed=9"/>SCHOLIUM.
+            <lb ed="#V" n="74"/>Primus modus ponendi fidem infusam, qui
+            <lb ed="#V" n="75"/>est communis, quod haec non respicit
+            credi<lb ed="#V" n="76" break="no"/>bilia in se sub propriis rationibus, sed
+            quate<lb ed="#V" n="77" break="no"/>nus asserta a Deo, inclinans ad assentiendum
+            <lb ed="#V" n="78"/>omnibus illis sub hac unica ratione, et sic
+            fa<lb ed="#V" n="79" break="no"/>cile sustinetur esse unam tantum fidem
+            om<lb ed="#V" n="80" break="no"/>nium credibilium, quia ejus objectum formale
+            <lb ed="#V" n="81"/>est Deum revelasse. Contra hunc modum,
+            <lb ed="#V" n="82"/>quem num. 3. sub electione nobis relinquit,
+            <lb ed="#V" n="83"/>arguit quintupliciter. Primum argumentum in
+            <lb ed="#V" n="84"/>sententia aliorum difficile est, sed non
+            secun<lb ed="#V" n="85" break="no"/>dum Doctorem, quia juxta eum quando
+            ali<lb ed="#V" n="86" break="no"/>quid est denominative tale, et aliquid
+            forma<lb ed="#V" n="87" break="no"/>liter tale, standum est in secundo, ut in hac,
+            <pb ed="#V" n="10"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Petrus existit denominative, ipsa existentia
+            for<lb ed="#V" n="2" break="no"/>maliter se ipsa, non per aliam existentiam;
+            <lb ed="#V" n="3"/>sic credo Deum trinum, quia hoc est
+            revela<lb ed="#V" n="4" break="no"/>tum, esse vero revelatum, credo, quia est
+            re<lb ed="#V" n="5" break="no"/>velatio. Exemplificatur communiter de luce.
+            <lb ed="#V" n="6"/>quae se et alia facit visibilia Forte dicendum
+            <lb ed="#V" n="7"/>quod fides infusa non tendit in revelatum esse:
+            <lb ed="#V" n="8"/>ut in rem creditam, sed tantum fides acquisita
+            <lb ed="#V" n="9"/>et infusa tendit in articulos. Nec requiritur
+            <lb ed="#V" n="10"/>quod conditio assensus fidei sit infallibilis, ut
+            <lb ed="#V" n="11"/>in his, quod hic homo sit verus Papa; haec
+            <lb ed="#V" n="12"/>congregatio, verum concilium, quae secundum
+            <lb ed="#V" n="13"/>communiorem recentiorum sunt de fide. Item
+            <lb ed="#V" n="14"/>ii, qui primo recipiunt fidem, non habent nisi
+            <lb ed="#V" n="15"/>conditiones fallibiles, quia propositio Ecclesiae
+            <lb ed="#V" n="16"/>quoad ipsos, non potest proponi ut ratio
+            infal<lb ed="#V" n="17" break="no"/>libilis credendi, quia Ecclesiam habere
+            aucto<lb ed="#V" n="18" break="no"/>ritatem infallibiliter proponendi credibilia, est
+            <lb ed="#V" n="19"/>unum credendorum. Vide Ban. supra dub. 4.
+            <lb ed="#V" n="20"/>Cano 2. de loc. cap. 8. Albertinum, tom. 1.
+            <lb ed="#V" n="21"/>corol. 4. ex 3. princ. punct. 4. 5. 6. et 7. a
+            <lb ed="#V" n="22"/>pag. 502.
+          </p>
+          <p>
+            <lb ed="#V" n="23"/>Secundo de fide infusa (c),
+            quo<lb ed="#V" n="24" break="no"/>modo sit ponenda in nobis, et hoc
+            <lb ed="#V" n="25"/>non est ita certum, an sit, vel
+            quo<lb ed="#V" n="26" break="no"/>modo sit ponenda in nobis, tamen
+            <lb ed="#V" n="27"/>potest dici, quod fides infusa similis
+            <lb ed="#V" n="28"/>est in aliquo fidei acquisitae, imo in
+            <lb ed="#V" n="29"/>multis; nam sicut fides acquisita
+            <lb ed="#V" n="30"/>assentit vel credit dicto alicujus,
+            <lb ed="#V" n="31"/>quia credit veracitati asserentis
+            il<lb ed="#V" n="32" break="no"/>lud esse verum, sic fides infusa
+            as<lb ed="#V" n="33" break="no"/>sentit alicui revelato, quia credit
+            <lb ed="#V" n="34"/>Deo, vel veracitati Dei asserentis
+            <lb ed="#V" n="35"/>illud. Et quia quod Deus asserit,
+            <lb ed="#V" n="36"/>supernaturaliter revelat, ideo fides
+            <lb ed="#V" n="37"/>assentiens tali revelato, quia
+            assen<lb ed="#V" n="38" break="no"/>tit veracitati revelantis, est habitus
+            <lb ed="#V" n="39"/>supernaturalis, revelat autem
+            cre<lb ed="#V" n="40" break="no"/>dibilia, quando infundit habitum.
+            <lb ed="#V" n="41"/>Et hoc modo dicendo, fides non
+            <lb ed="#V" n="42"/>habet certitudinem ex objecto, sed
+            <lb ed="#V" n="43"/>ex veracitate testis, scilicet Dei;
+            <lb ed="#V" n="44"/>et hoc modo facile est videre,
+            quo<lb ed="#V" n="45" break="no"/>modo fides est cum aenigmate et
+            <lb ed="#V" n="46"/>obscuritate, quia habens fidem non
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="47"/>credit articulum esse verum ex
+            evi<lb ed="#V" n="48" break="no"/>dentia objecti, sed propter hoc, quod
+            <lb ed="#V" n="49"/>assentit veracitati infundentis
+            habi<lb ed="#V" n="50" break="no"/>tum, et in hoc revelantis
+            credibi<lb ed="#V" n="51" break="no"/>lia.
+          </p>
+          <p>
+            <lb ed="#V" n="52"/>Similiter hoc modo teneri potest
+            <lb ed="#V" n="53"/>(d), quod sit una fides omnium
+            cre<lb ed="#V" n="54" break="no"/>dibilium, quia non respicit
+            credibi<lb ed="#V" n="55" break="no"/>lia sub propriis rationibus illorum,
+            <lb ed="#V" n="56"/>sed ut revelata sunt a Deo, et
+            cre<lb ed="#V" n="57" break="no"/>dit omnia revelata ab ipso tanquam
+            <lb ed="#V" n="58"/>vera esse codem habitu, quo credit
+            <lb ed="#V" n="59"/>revelantem esse veracem. Si enim
+            <lb ed="#V" n="60"/>habeo habitum, quo credo te esse
+            <lb ed="#V" n="61"/>veracem. per eumdem habitum
+            cre<lb ed="#V" n="62" break="no"/>do haec quae asseris esse vera,
+            <lb ed="#V" n="63"/>quantumcumque illa sint
+            diversa<lb ed="#V" n="64" break="no"/>rum rationum, quia illis non
+            assen<lb ed="#V" n="65" break="no"/>tio, nisi per accidens, per hoc
+            sci<lb ed="#V" n="66" break="no"/>licet quod assentio veracitati tuae,
+            <lb ed="#V" n="67"/>et ita assentio illis, ut sunt a te
+            as<lb ed="#V" n="68" break="no"/>serta; ita hic, nam credibilibus
+            reve<lb ed="#V" n="69" break="no"/>latis a Deo assentio, quia assentio
+            <lb ed="#V" n="70"/>veracitati Dei, et sic fides respicit
+            <lb ed="#V" n="71"/>omnia credibilia, ut revelata a Deo,
+            <lb ed="#V" n="72"/>non autem sub propriis rationibus;
+            <lb ed="#V" n="73"/>et ideo una fides posset esse de
+            om<lb ed="#V" n="74" break="no"/>nibus credibilibus, quamvis
+            Geome<lb ed="#V" n="75" break="no"/>tricalia et Physicalia, et
+            quantum<lb ed="#V" n="76" break="no"/>cumque diversa, et alterius rationis
+            <lb ed="#V" n="77"/>introducerentur hic tanquam
+            credi<lb ed="#V" n="78" break="no"/>bilia; in omnibus enim esset una
+            <lb ed="#V" n="79"/>ratio credendi illa esse vera, quia
+            <lb ed="#V" n="80"/>revelata sunt a Deo.
+          </p>
+          <p>
+            <lb ed="#V" n="81"/>Contra (e), si fides infusa respicit
+            <lb ed="#V" n="82"/>primam veritatem, ut revelantem
+            <lb ed="#V" n="83"/>articulos, et, causantem assensum
+            <lb ed="#V" n="84"/>de credibilibus, et non sit aliud de
+            <lb ed="#V" n="85"/>quo est fides, ut de objecto, sequitut:
+            <lb ed="#V" n="86"/>quod nunquam aliquis fidelis sus
+            <lb ed="#V" n="87"/>fide assentiet huic: Deus est trinus
+            <lb ed="#V" n="88"/>et unus, quia secundum te non assens
+            <lb ed="#V" n="89"/>tio illi, nisi quia est revelatum a pre
+            <lb ed="#V" n="90"/>ma veritate.
+          </p>
+          <p>
+            <pb ed="#V" n="11"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Quaero igitur a te (f), quomodo
+            as<lb ed="#V" n="2" break="no"/>sentio huic, scilicet hoc esse
+            reve<lb ed="#V" n="3" break="no"/>latum a Deo? quia si assentio huic:
+            <lb ed="#V" n="4"/>Deum esse trinum et unum, quia
+            <lb ed="#V" n="5"/>revelatum, magis assentio huic,
+            sci<lb ed="#V" n="6" break="no"/>licet hoc esse a Deo revelatum, sicut
+            <lb ed="#V" n="7"/>assentiens conclusioni propter
+            prin<lb ed="#V" n="8" break="no"/>cipia, magis assentit principiis. Si
+            <lb ed="#V" n="9"/>dicas, sicut oportet dicere, quia
+            re<lb ed="#V" n="10" break="no"/>velatum est a Deo, Deum esse
+            tri<lb ed="#V" n="11" break="no"/>num et unum, esse revelatum a
+            <lb ed="#V" n="12"/>Deo, adhuc quaeram quomodo
+            as<lb ed="#V" n="13" break="no"/>sentio huic secundae, et sic in
+            infini<lb ed="#V" n="14" break="no"/>tum, et per consequens nunquam
+            <lb ed="#V" n="15"/>aliquid firmiter credam de articulis
+            <lb ed="#V" n="16"/>fidei; sicut si scientia conclusionis
+            <lb ed="#V" n="17"/>resolveretur in principia, et illa
+            <lb ed="#V" n="18"/>principia in alia, et sic in infinitum,
+            <lb ed="#V" n="19"/>nunquam sciretur aliquid, sicut nec
+            <lb ed="#V" n="20"/>aliquid esse potest, quod dependet
+            <lb ed="#V" n="21"/>essentialiter ex causis infinitis.
+          </p>
+          <p>
+            <lb ed="#V" n="22"/>Si dicas, quod huic (g), scilicet
+            <lb ed="#V" n="23"/>Deum esse trinum et unum, esse
+            re<lb ed="#V" n="24" break="no"/>velatum a Deo, assentio ex fide
+            ac<lb ed="#V" n="25" break="no"/>quisita; contra, igitur tunc fides
+            in<lb ed="#V" n="26" break="no"/>fusa dependeret in esse, et in
+            fa<lb ed="#V" n="27" break="no"/>ciendo adhaerere alicui articulo, a
+            <lb ed="#V" n="28"/>fide acquisita, sicut a principio, quia
+            <lb ed="#V" n="29"/>non potes dicere, quod per
+            scien<lb ed="#V" n="30" break="no"/>tiam ejus adhaeream ei, quia Deum
+            <lb ed="#V" n="31"/>esse trinum et unum, esse revelatum
+            <lb ed="#V" n="32"/>a Deo, non est evidens ex terminis,
+            <lb ed="#V" n="33"/>s quam ista: Deus est trinus et
+            <lb ed="#V" n="34"/>1nus.
+          </p>
+          <p>
+            <lb ed="#V" n="35"/>Praeterea (h), formalis ratio
+            ob<lb ed="#V" n="36" break="no"/>Aesti habitus realis non est ratio vel
+            <lb ed="#V" n="37"/>s rationis, sed esse revelatum,
+            <lb ed="#V" n="38"/>im esse trinum et unum, non
+            di<lb ed="#V" n="39" break="no"/>ultra Deum trinum et unum, nisi
+            <lb ed="#V" n="40"/>espectum rationis, sicut esse
+            cogni<lb ed="#V" n="41" break="no"/>ta non dicit nisi respectum
+            ratio<lb ed="#V" n="42" break="no"/>ultra rem, quae cognoscitur;
+            igi<lb ed="#V" n="43" break="no"/>si assentio Deo trino, quia
+            reve<lb ed="#V" n="44" break="no"/>uim, formalis ratio objecti, cui
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>assentio per habitum realem, est ens
+            <lb ed="#V" n="46"/>rationis, quod est inconveniens, cum
+            <lb ed="#V" n="47"/>habitus realis habeat objectum
+            for<lb ed="#V" n="48" break="no"/>male reale, sicut potentia realis
+            ob<lb ed="#V" n="49" break="no"/>jectum formale reale; igitur
+            reve<lb ed="#V" n="50" break="no"/>lari passive, cum sit res rationis,
+            <lb ed="#V" n="51"/>non potest esse formalis ratio
+            ten<lb ed="#V" n="52" break="no"/>dendi in hoc, Deus est trinus et
+            <lb ed="#V" n="53"/>unus.
+          </p>
+          <p>
+            <lb ed="#V" n="54"/>Praeterea (i), in primo cui articuli
+            <lb ed="#V" n="55"/>sunt revelati, sufficit fides acquisita,
+            <lb ed="#V" n="56"/>ut firmiter credat eis, sicut in Paulo;
+            <lb ed="#V" n="57"/>igitur in aliis posterioribus sufficit.
+            <lb ed="#V" n="58"/>fides acquisita, ut firmiter credant
+            <lb ed="#V" n="59"/>talia credenda. Consequentia
+            pro<lb ed="#V" n="60" break="no"/>batur, quia secundum Augustinum
+            <lb ed="#V" n="61"/>super illud Psalm. 71 Suscipiant
+            <lb ed="#V" n="62"/>montes pacem populo, et colles
+            jus<lb ed="#V" n="63" break="no"/>titiam, inferiores illuminantur per
+            <lb ed="#V" n="64"/>superiores, et non magis
+            illuminan<lb ed="#V" n="65" break="no"/>tur quam superiores illuminantes
+            <lb ed="#V" n="66"/>ipsos. Probatio antecedentis, ex
+            pu<lb ed="#V" n="67" break="no"/>ris naturalibus includendo habitum
+            <lb ed="#V" n="68"/>acquisitum, potest aliquis assentire
+            <lb ed="#V" n="69"/>omnibus assertis et revelatis ab
+            ali<lb ed="#V" n="70" break="no"/>quo, quia ex puris naturalibus
+            as<lb ed="#V" n="71" break="no"/>sentire potest illum esse veracem,
+            <lb ed="#V" n="72"/>qui talia asserit et revelat; sed ex
+            <lb ed="#V" n="73"/>puris naturalibus credit homo, et
+            as<lb ed="#V" n="74" break="no"/>sentit quod Deus est verax, magis
+            <lb ed="#V" n="75"/>quam omnes homines, et hoc scire
+            <lb ed="#V" n="76"/>et assentire potuit Paulus; igitur
+            <lb ed="#V" n="77"/>Fide acquisita ex puris naturalibus
+            <lb ed="#V" n="78"/>potest assentire omnibus revelatis a
+            <lb ed="#V" n="79"/>Deo, et per consequens quilibet
+            <lb ed="#V" n="80"/>alius; igitur praeter Fidem
+            acquisi<lb ed="#V" n="81" break="no"/>tam non requiritur necessario
+            prop<lb ed="#V" n="82" break="no"/>ter assentire aliqua alia Fides.
+          </p>
+          <p>
+            <lb ed="#V" n="83"/>Praeterea, quod sufficiat Fides
+            ac<lb ed="#V" n="84" break="no"/>quisita cum aliis naturalibus, probo,
+            <lb ed="#V" n="85"/>quamvis enim aliqua scientia
+            prop<lb ed="#V" n="86" break="no"/>ter sui difficultatem, ut Geometria
+            <lb ed="#V" n="87"/>vel alia, non possit sciri ab isto
+            ho<lb ed="#V" n="88" break="no"/>mine propria inventione, et in suo
+            <pb ed="#V" n="12"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>lumine naturali, tamen postquam
+            <lb ed="#V" n="2"/>est inventa et inordinate tradita,
+            <lb ed="#V" n="3"/>potest homo iste ex puris
+            naturali<lb ed="#V" n="4" break="no"/>bus naturaliter acquirere et scire
+            <lb ed="#V" n="5"/>eam; igitur eodem modo, quamvis
+            <lb ed="#V" n="6"/>nemo naturali lumine intellectus
+            <lb ed="#V" n="7"/>possit propria inquisitione venire
+            <lb ed="#V" n="8"/>ad notitiam hujus: Deus est Trinus
+            <lb ed="#V" n="9"/>et unus, tamen postquam est
+            revela<lb ed="#V" n="10" break="no"/>tum alicui, potest alius et ille, cui
+            <lb ed="#V" n="11"/>revelatum est, etiam firmiter
+            assen<lb ed="#V" n="12" break="no"/>tire illi et adhaerere Fide acquisita.
+          </p>
+          <p>
+            <lb ed="#V" n="13"/>Praeterea, Fides infusa (k) si
+            po<lb ed="#V" n="14" break="no"/>nitur, est certior quam acquisita,
+            <lb ed="#V" n="15"/>alias frustra poneretur; sed quod
+            <lb ed="#V" n="16"/>sit minus certa, probo, quia
+            conclu<lb ed="#V" n="17" break="no"/>sio est minus certa quam
+            princi<lb ed="#V" n="18" break="no"/>pium, ex quo tota certitudo ejus est
+            <lb ed="#V" n="19"/>a certitudine principii; sed huic:
+            <lb ed="#V" n="20"/>Deum esse trinum et unum, assentio
+            <lb ed="#V" n="21"/>Fide infusa (si ponitur), quia hoc
+            re<lb ed="#V" n="22" break="no"/>velatum est a Deo; sed hoc esse
+            re<lb ed="#V" n="23" break="no"/>velatum credo, quia Joannes vel
+            <lb ed="#V" n="24"/>alius Apostolus dixit hoc sibi esse
+            <lb ed="#V" n="25"/>revelatum; sed si audivissem eum
+            <lb ed="#V" n="26"/>asserentem hoc sibi esse revelatum,
+            <lb ed="#V" n="27"/>credidissem sibi Fide acquisita,
+            cre<lb ed="#V" n="28" break="no"/>dendo scilicet, ipsum esse veracem,
+            <lb ed="#V" n="29"/>et nihil falsum velle asserere; igitur
+            <lb ed="#V" n="30"/>et modo credo Fide acquisita ex
+            au<lb ed="#V" n="31" break="no"/>ditu Scripturarum, vel lectione, esse
+            <lb ed="#V" n="32"/>revelatum Apostolo: Deum esse
+            tri<lb ed="#V" n="33" break="no"/>num et unum: igitur tota firmitas,
+            <lb ed="#V" n="34"/>quam ponis hoc modo in Fide
+            in<lb ed="#V" n="35" break="no"/>fusa, est a Fide acquisita; ergo non
+            <lb ed="#V" n="36"/>videtur ponenda Fides infusa modo
+            <lb ed="#V" n="37"/>supra posito.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d23q1-p3"> -->
+          <p>
+            <lb ed="#V" n="38" type="fixed=15"/>SCHOLIUM.
+            <lb ed="#V" n="39"/>Secundus modus ponendi Fidem infusam, est
+            <lb ed="#V" n="40"/>quod respiciat immediate Deum in se ut
+            obje<lb ed="#V" n="41" break="no"/>ctum primarium, et omnes articulos in ipso
+            <lb ed="#V" n="42"/>inclusos, ut objecta secundaria. Juxta hunc
+            <lb ed="#V" n="43"/>modum, Deus non est objectum Fidei ut
+            reve<lb ed="#V" n="44" break="no"/>lans, sed ratione Deitatis, in quo differt a
+            pri<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>mo modo, et sic habitus Fidei tendit
+            imme<lb ed="#V" n="46" break="no"/>diate in omnes articulos, sicut si ex articulis
+            <lb ed="#V" n="47"/>cognitis immediate acquireretur. Hic modus
+            <lb ed="#V" n="48"/>difficilis et ingeniosus est, et in margine
+            no<lb ed="#V" n="49" break="no"/>tantur dicta 11. quibus continetur.
+          </p>
+          <p>
+            <lb ed="#V" n="50"/>Aliter potest (I) poni fides infusa
+            <lb ed="#V" n="51"/>in nobis sic: credibilia possunt
+            ac<lb ed="#V" n="52" break="no"/>cipi et cognosci a nobis naturaliter
+            <lb ed="#V" n="53"/>in quolibet genere credibilium in
+            <lb ed="#V" n="54"/>conceptibus generalibus entis et
+            <lb ed="#V" n="55"/>veri, et sic de aliis. Possumus enim
+            <lb ed="#V" n="56"/>hanc: Deus est trinus et unus,
+            co<lb ed="#V" n="57" break="no"/>gnoscere in terminis suis
+            generali<lb ed="#V" n="58" break="no"/>ter, cognoscendo Deum sub
+            con<lb ed="#V" n="59" break="no"/>ceptu generali, et similiter trinum,
+            <lb ed="#V" n="60"/>et sic de aliis terminis. Sed hanc:
+            <lb ed="#V" n="61"/>Deus est trinus in personis, et unus
+            <lb ed="#V" n="62"/>in essentia, nunquam cognoscimus
+            <lb ed="#V" n="63"/>evidenter, nec est nobis evidens ex
+            <lb ed="#V" n="64"/>terminis, nisi termini ejus
+            appre<lb ed="#V" n="65" break="no"/>hendantur a nobis in particulari sub
+            <lb ed="#V" n="66"/>propriis rationibus. Licet igitur isti
+            <lb ed="#V" n="67"/>termini apprehendantur in
+            univer<lb ed="#V" n="68" break="no"/>sali a nobis, ut tamen sic apprehensi,
+            <lb ed="#V" n="69"/>non sunt termini propositionis
+            im<lb ed="#V" n="70" break="no"/>mediatae simpliciter primae, sed
+            me<lb ed="#V" n="71" break="no"/>diatae. Ideo hae propositiones:
+            <lb ed="#V" n="72"/>Deus est trinus et unus, Filius Dei
+            <lb ed="#V" n="73"/>est incarnatus, et hujusmodi, praeter
+            <lb ed="#V" n="74"/>omnem cognitionem, quam
+            natura<lb ed="#V" n="75" break="no"/>liter possumus habere ex terminis
+            <lb ed="#V" n="76"/>illarum in universali, adhuc
+            rema<lb ed="#V" n="77" break="no"/>nent nobis neutrae, ita quod non
+            <lb ed="#V" n="78"/>possumus naturaliter scire eas esse
+            <lb ed="#V" n="79"/>veras, nec falsas. Sed si possemus
+            <lb ed="#V" n="80"/>concipere terminos in particulari,
+            <lb ed="#V" n="81"/>primo moveret intellectum ad
+            sim<lb ed="#V" n="82" break="no"/>plicem apprehensionem sui sub
+            pro<lb ed="#V" n="83" break="no"/>priis rationibus; secundo, ad
+            com<lb ed="#V" n="84" break="no"/>positionem terminorum in
+            proposi<lb ed="#V" n="85" break="no"/>tione immediata vera. Cum igitur;
+            <lb ed="#V" n="86"/>de facto haec in via non moveant
+            <lb ed="#V" n="87"/>intellectum nostrum, sic in
+            particu<lb ed="#V" n="88" break="no"/>lari, et sub propriis rationibus, per
+            <pb ed="#V" n="16"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>consequens non habemus assensum
+            <lb ed="#V" n="2"/>eis tanquam propositionibus
+            imme<lb ed="#V" n="3" break="no"/>diatis ex evidentia terminorum,
+            <lb ed="#V" n="4"/>quem tamen assensum nati essent
+            <lb ed="#V" n="5"/>termini apprehensi causare in
+            in<lb ed="#V" n="6" break="no"/>tellectu; sed habemus unum
+            assen<lb ed="#V" n="7" break="no"/>sum alium imperfectum respectu
+            <lb ed="#V" n="8"/>illius, et inclusum in illo, sicut
+            im<lb ed="#V" n="9" break="no"/>perfectum in perfecto. Et ideo ille
+            <lb ed="#V" n="10"/>assensus imperfectior potest causari
+            <lb ed="#V" n="11"/>in nobis per aliquid supplens
+            cau<lb ed="#V" n="12" break="no"/>salitatem terminorum imperfecte
+            <lb ed="#V" n="13"/>cognitorum, sicut ex frequentia
+            ac<lb ed="#V" n="14" break="no"/>tuum cognoscendi terminos illos
+            <lb ed="#V" n="15"/>cognitione imperfecta, causaretur
+            <lb ed="#V" n="16"/>in nobis habitus causans assensum
+            <lb ed="#V" n="17"/>propositionibus complexis ex illis
+            <lb ed="#V" n="18"/>terminis sic imperfecte cognitis.
+          </p>
+          <p>
+            <lb ed="#V" n="19"/>Sed, quia nihil movet intellectum
+            <lb ed="#V" n="20"/>nostrum naturaliter ad causandum
+            <lb ed="#V" n="21"/>assensum intellectus istis
+            credibili<lb ed="#V" n="22" break="no"/>bus, ideo Deus supplet vicem
+            ob<lb ed="#V" n="23" break="no"/>jecti, ut sicut ex frequentia actuum
+            <lb ed="#V" n="24"/>cognitionis imperfectae terminorum
+            <lb ed="#V" n="25"/>in articulis generaretur in nobis
+            as<lb ed="#V" n="26" break="no"/>sensus imperfectus de credibilibus,
+            <lb ed="#V" n="27"/>si tamen termini moverent
+            imper<lb ed="#V" n="28" break="no"/>fecte ad hujusmodi assensum
+            cau<lb ed="#V" n="29" break="no"/>sandum, sic Deus infundit nobis
+            <lb ed="#V" n="30"/>habitum fidei inclinantem
+            intellec<lb ed="#V" n="31" break="no"/>tum nostrum in assensum
+            articulo<lb ed="#V" n="32" break="no"/>rum, ita quod fides respiciat ipsum
+            <lb ed="#V" n="33"/>Deum, de quo formantur articuli,
+            <lb ed="#V" n="34"/>quibus sicut objectis secundariis
+            <lb ed="#V" n="35"/>assentimus per habitum.
+          </p>
+          <p>
+            <lb ed="#V" n="36"/>Sed ille assensus non est ex
+            evi<lb ed="#V" n="37" break="no"/>dentia terminorum, quia omnia
+            cre<lb ed="#V" n="38" break="no"/>dibilia vel sunt necessaria
+            simplici<lb ed="#V" n="39" break="no"/>ter, sicut Deum esse trinum et
+            <lb ed="#V" n="40"/>unum, et omnia alia quae respiciunt
+            <lb ed="#V" n="41"/>Deum intrinsece; vel sunt
+            contin<lb ed="#V" n="42" break="no"/>gentia, ut illa quae respiciunt
+            ex<lb ed="#V" n="43" break="no"/>trinseca, cujusmodi est Incarnatio
+            <lb ed="#V" n="44"/>Filii, resurrectio mortuorum, et
+            hu<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>jusmodi, quae dependent a voluntate
+            <lb ed="#V" n="46"/>divina, quae contingenter ordinavit
+            <lb ed="#V" n="47"/>illa ab aeterno, quamvis sint
+            neces<lb ed="#V" n="48" break="no"/>saria ex praesuppositione divinae
+            <lb ed="#V" n="49"/>voluntatis, scilicet si ordinavit ea
+            <lb ed="#V" n="50"/>fieri, et tunc necessitas illorum est
+            <lb ed="#V" n="51"/>conditionata. Et talium credibilium,
+            <lb ed="#V" n="52"/>sive necessariorum simpliciter, sive
+            <lb ed="#V" n="53"/>contingentium, necessitas vel
+            con<lb ed="#V" n="54" break="no"/>tingentia, vel ipsamet credibilia,
+            <lb ed="#V" n="55"/>non sunt nobis nota intuitive, sicut
+            <lb ed="#V" n="56"/>nata essent videri. Ideo assensus,
+            <lb ed="#V" n="57"/>quem causat in nobis fides infusa a
+            <lb ed="#V" n="58"/>Deo, non est ita perfectus, sicut erit
+            <lb ed="#V" n="59"/>quando videbimus eum sicut est,
+            <lb ed="#V" n="60"/>scilicet Deum, sed est
+            imperfec<lb ed="#V" n="61" break="no"/>tus.
+          </p>
+          <p>
+            <lb ed="#V" n="62"/>Et iste modus ponendi fidem
+            in<lb ed="#V" n="63" break="no"/>fusam, non innititur alteri, sicut
+            <lb ed="#V" n="64"/>praecedens modus, scilicet quod
+            <lb ed="#V" n="65"/>ideo assentio huic: Deus est trinus
+            <lb ed="#V" n="66"/>et unus, quia prius assentio Deo
+            <lb ed="#V" n="67"/>revelanti hanc veritatem, et sic
+            res<lb ed="#V" n="68" break="no"/>picit Deum, ut causantem assensum,
+            <lb ed="#V" n="69"/>non autem ut objectum habitus;
+            <lb ed="#V" n="70"/>sed fides respicit Deum, sicut
+            pri<lb ed="#V" n="71" break="no"/>mum objectum, de quo sicut de
+            <lb ed="#V" n="72"/>objecto primo, continente
+            hujusmo<lb ed="#V" n="73" break="no"/>di veritates, formamus hujusmodi
+            <lb ed="#V" n="74"/>veritates complexas: Deus est trinus
+            <lb ed="#V" n="75"/>et unus. Nec credo hoc esse verum,
+            <lb ed="#V" n="76"/>quia prius credo hoc esse revelatum
+            <lb ed="#V" n="77"/>a Deo; sed ille habitus immediate
+            <lb ed="#V" n="78"/>inclinat in articulos Fidei, sicut si
+            <lb ed="#V" n="79"/>ex articulis cognitis immediate
+            ac<lb ed="#V" n="80" break="no"/>quireretur, eo modo quantum ad
+            <lb ed="#V" n="81"/>hoc, quo scientia inclinat
+            intellec<lb ed="#V" n="82" break="no"/>tum in cognoscibilia; nec
+            cognosci<lb ed="#V" n="83" break="no"/>bilia sunt praesentia in habitu, ita
+            <lb ed="#V" n="84"/>quod repraesentet ea, sed sunt
+            prae<lb ed="#V" n="85" break="no"/>sentia per species, et tamen si
+            ob<lb ed="#V" n="86" break="no"/>jectum non esset praesens per
+            spe<lb ed="#V" n="87" break="no"/>cies, adhuc staret habitus, sicut si
+            <lb ed="#V" n="88"/>species possent esse deletae, stante
+            <pb ed="#V" n="17"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>scientia, adhuc scientia magis
+            incli<lb ed="#V" n="2" break="no"/>naret in illa objecta, quae fuerunt
+            <lb ed="#V" n="3"/>sibi aliquando praesentia in
+            specie<lb ed="#V" n="4" break="no"/>bus, quam in alia.
+          </p>
+          <p>
+            <lb ed="#V" n="5"/>Et similiter si essent praesentia,
+            <lb ed="#V" n="6"/>homo facilius intelligeret et
+            conclu<lb ed="#V" n="7" break="no"/>deret conclusiones ex eis, quam ex
+            <lb ed="#V" n="8"/>aliis objectis, quorum nunquam
+            <lb ed="#V" n="9"/>habuit habitus; sed haec credibilia,
+            <lb ed="#V" n="10"/>licet non sint praesentia per fidem
+            <lb ed="#V" n="11"/>infusam, ita quod repraesentet
+            ob<lb ed="#V" n="12" break="no"/>jecta, sicut nec aliquis habitus facit,
+            <lb ed="#V" n="13"/>sed aliunde, puta per auditum vel
+            <lb ed="#V" n="14"/>lectionem, inclinat tamen fides
+            in<lb ed="#V" n="15" break="no"/>fusa in credibilia primo, sicut in
+            <lb ed="#V" n="16"/>sua objecta, ita quod fides respiciat
+            <lb ed="#V" n="17"/>primam veritatem, ut de qua est,
+            <lb ed="#V" n="18"/>sicut de objecto primo.
+          </p>
+          <p>
+            <lb ed="#V" n="19"/>Et tunc dissimilis est fides ista ab
+            <lb ed="#V" n="20"/>acquisita, quia ratio tendendi in
+            ali<lb ed="#V" n="21" break="no"/>quod creditum fide acquisita, est
+            <lb ed="#V" n="22"/>veritas testis asserentis illud esse
+            <lb ed="#V" n="23"/>verum; hic non sic, sed de ipsis
+            <lb ed="#V" n="24"/>credibilibus, scilicet articulis
+            respi<lb ed="#V" n="25" break="no"/>cientibus primam veritatem, in qua
+            <lb ed="#V" n="26"/>sunt omnes veritates hujusmodi,
+            si<lb ed="#V" n="27" break="no"/>cut objectum primum, non sicut
+            il<lb ed="#V" n="28" break="no"/>lud, a quo sunt causaliter
+            hujus<lb ed="#V" n="29" break="no"/>modi veritates revelatae secundum
+            <lb ed="#V" n="30"/>primam viam, quamvis articuli non
+            <lb ed="#V" n="31"/>sint praesentes, ut objecta, nisi quia
+            <lb ed="#V" n="32"/>prius revelati, tamen intellectus non
+            <lb ed="#V" n="33"/>tendit in eos, quia primo credit ea
+            <lb ed="#V" n="34"/>revelata, ideo non respicit pro
+            for<lb ed="#V" n="35" break="no"/>mali objecto in eis revelari, sed
+            ip<lb ed="#V" n="36" break="no"/>sos articulos in se. Adhuc tamen est
+            <lb ed="#V" n="37"/>obscura, quia licet firmiter inclinet
+            <lb ed="#V" n="38"/>intellectum in talia, ut objecta,
+            ta<lb ed="#V" n="39" break="no"/>men non facit ea praesentia ex
+            evi<lb ed="#V" n="40" break="no"/>dentia rei, nec aliquid aliud facit ea
+            <lb ed="#V" n="41"/>sic evidentia vel praesentia; tamen
+            <lb ed="#V" n="42"/>habitus fidei inclinat in veritate
+            ob<lb ed="#V" n="43" break="no"/>jecti, secundum quod inclinat
+            firmi<lb ed="#V" n="44" break="no"/>ter intellectum in talia objecta.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d23q1-p4"> -->
+          <p>
+            <lb ed="#V" n="68" type="fixed=18"/>SCHOLIUM.
+            <lb ed="#V" n="69"/>Arguit contra secundum modum, quia
+            vi<lb ed="#V" n="70" break="no"/>dentur multa inconvenientia ex eo sequi.
+            Pri<lb ed="#V" n="71" break="no"/>mum, quod fides esset potentia, non habitus.
+            <lb ed="#V" n="72"/>Secundum, actus fidei acquisitae et infusae non
+            <lb ed="#V" n="73"/>differrent. Tertium, crederet quis ante omnem
+            <lb ed="#V" n="74"/>instructionem. Quartum, necessario
+            credere<lb ed="#V" n="75" break="no"/>tur, et ante actum voluntatis. Quintum,
+            opor<lb ed="#V" n="76" break="no"/>teret duos fidei habitus, unum quo articuli
+            <lb ed="#V" n="77"/>essent praesentes, alterum quo eis
+            assentire<lb ed="#V" n="78" break="no"/>mur, admittere.
+          </p>
+          <p>
+            <lb ed="#V" n="79"/>Contra (m), quia sic dicendo,
+            se<lb ed="#V" n="80" break="no"/>quitur quod fides sit potentia, et
+            <lb ed="#V" n="81"/>non habitus, quia illud est potentia,
+            <lb ed="#V" n="82"/>quo simpliciter possumus in actum;
+            <lb ed="#V" n="83"/>habitus est, quo sic vel sic
+            possu<lb ed="#V" n="84" break="no"/>mus, scilicet faciliter, et expedite,
+            <lb ed="#V" n="85"/>vel intensius; sed fides secundum
+            <lb ed="#V" n="86"/>hanc viam esset simpliciter potentia,
+            <lb ed="#V" n="87"/>quia nullo modo possum assentire
+            <lb ed="#V" n="88"/>huic: Deus est trinus et unus, nisi
+            <pb ed="#V" n="19"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>per fidem; igitur fides est potentia,
+            <lb ed="#V" n="2"/>et non habitus.
+          </p>
+          <p>
+            <lb ed="#V" n="3"/>Praeterea, tunc sequitur quod
+            ac<lb ed="#V" n="4" break="no"/>tus fidei acquisitae et infusae sint
+            <lb ed="#V" n="5"/>alterius rationis, quia habent
+            prin<lb ed="#V" n="6" break="no"/>cipia alterius rationis; nam actus
+            <lb ed="#V" n="7"/>fidei acquisitae dependet ab
+            intellec<lb ed="#V" n="8" break="no"/>tu et veracitate asserentis aliquid
+            <lb ed="#V" n="9"/>credibile; sed actus fidei infusae ab
+            <lb ed="#V" n="10"/>intellectu, et fide infusa; igitur ex
+            <lb ed="#V" n="11"/>quo principia saltem partialia sunt
+            <lb ed="#V" n="12"/>alterius rationis, sequitur quod
+            ac<lb ed="#V" n="13" break="no"/>tus sint alterius rationis. Sed hoc
+            <lb ed="#V" n="14"/>forte conceditur, quia non est
+            in<lb ed="#V" n="15" break="no"/>conveniens multis, sicut de actibus
+            <lb ed="#V" n="16"/>intelligendi respectu objectorum
+            for<lb ed="#V" n="17" break="no"/>maliter distinctorum.
+          </p>
+          <p>
+            <lb ed="#V" n="18"/>Sed ad argumentum praecedens
+            <lb ed="#V" n="19"/>(n) potest dici, quod fides non est
+            <lb ed="#V" n="20"/>potentia, quia potentia se tenet a
+            <lb ed="#V" n="21"/>parte animae, fides a parte objecti,
+            <lb ed="#V" n="22"/>ut partialis causa respectu actus;
+            <lb ed="#V" n="23"/>ideo non est potentia animae, sed
+            <lb ed="#V" n="24"/>causat assensum totum, ut tenet
+            vi<lb ed="#V" n="25" break="no"/>cem objecti.
+          </p>
+          <p>
+            <lb ed="#V" n="26"/>Contra, et est ad principale (o) si
+            <lb ed="#V" n="27"/>totus assensus sit ex habitu fidei,
+            <lb ed="#V" n="28"/>tunc habitis omnibus, quae
+            concur<lb ed="#V" n="29" break="no"/>runt ad actum credendi in esse
+            pri<lb ed="#V" n="30" break="no"/>mo, sequitur necessario actus
+            cre<lb ed="#V" n="31" break="no"/>dendi; sed posito aliquo nunc
+            bap<lb ed="#V" n="32" break="no"/>tizato, cui occurrant phantasmata
+            <lb ed="#V" n="33"/>terminorum illorum simplicium,
+            <lb ed="#V" n="34"/>scilicet mortis et resurrectionis,
+            <lb ed="#V" n="35"/>cum potentia tunc sit habituata
+            ha<lb ed="#V" n="36" break="no"/>bitu necessario inclinante, et
+            ob<lb ed="#V" n="37" break="no"/>jectum sit praesens in phantasmate,
+            <lb ed="#V" n="38"/>sequitur necessario actus, scilicet
+            <lb ed="#V" n="39"/>quod talis assentiret huic complexo,
+            <lb ed="#V" n="40"/>mortui resurgent, quod falsum est;
+            <lb ed="#V" n="41"/>nunquam enim omnibus istis positis
+            <lb ed="#V" n="42"/>plus assentiret quam ante, nisi prius
+            <lb ed="#V" n="43"/>edoceretur de illo articulo, quod
+            <lb ed="#V" n="44"/>esset credendus; igitur videtur quod
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>sufficiat fides acquisita ex auditu,
+            <lb ed="#V" n="46"/>nec aliquis experitur alia in tali
+            <lb ed="#V" n="47"/>assensu.
+          </p>
+          <p>
+            <lb ed="#V" n="48"/>Praeterea, si fides infusa praebeat
+            <lb ed="#V" n="49"/>talem assensum per modum naturae
+            <lb ed="#V" n="50"/>inclinans potentiam in actum, cum
+            <lb ed="#V" n="51"/>termini articulorum possint
+            appre<lb ed="#V" n="52" break="no"/>hendi ante omnem actum
+            volunta<lb ed="#V" n="53" break="no"/>tis, sequitur quod homo firmiter
+            <lb ed="#V" n="54"/>assentiret credendis, ante omnem
+            <lb ed="#V" n="55"/>actum voluntatis; quod negat
+            Au<lb ed="#V" n="56" break="no"/>gustinus super Joann. homil. 26.
+            <lb ed="#V" n="57"/>Caetera, inquit, potest homo nolens,
+            <lb ed="#V" n="58"/>credere autem non nisi volens.
+            Se<lb ed="#V" n="59" break="no"/>quitur etiam quod sine fide
+            acqui<lb ed="#V" n="60" break="no"/>sita, quia habitus perfectus non
+            <lb ed="#V" n="61"/>eget alio, per quod non praesentatur
+            <lb ed="#V" n="62"/>ejus objectum.
+          </p>
+          <p>
+            <lb ed="#V" n="63"/>Praeterea, si fides infusa ponitur
+            <lb ed="#V" n="64"/>praebere talem assensum, cum in
+            <lb ed="#V" n="65"/>ipsa non sint credibilia praesentia,
+            <lb ed="#V" n="66"/>oportet ponere aliam fidem vel
+            ha<lb ed="#V" n="67" break="no"/>bitum, in quo illa credibilia
+            conti<lb ed="#V" n="68" break="no"/>neantur, ut neutra, et praesentia
+            in<lb ed="#V" n="69" break="no"/>tellectui; et aliam fidem, per quam
+            <lb ed="#V" n="70"/>fieret assensus in talia credibilia,
+            <lb ed="#V" n="71"/>cum termini eorum, et complexio
+            <lb ed="#V" n="72"/>sit neutra; et sic quilibet perfecte
+            <lb ed="#V" n="73"/>credens, ut Theologus, haberet in
+            <lb ed="#V" n="74"/>se duos habitus intellectuales, ut
+            <lb ed="#V" n="75"/>per unum credibilia essent sibi
+            prae<lb ed="#V" n="76" break="no"/>sentia, ut neutra, et per alium
+            assen<lb ed="#V" n="77" break="no"/>tiret.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d23q1-p5"> -->
+          <p>
+            <lb ed="#V" n="61" type="fixed=21"/>SCHOLIUM.
+            <lb ed="#V" n="62"/>Resolutio Doctoris continetur his dictis.
+            Pri<lb ed="#V" n="63" break="no"/>mum, non potest naturaliter ostendi dari fidem
+            <lb ed="#V" n="64"/>infusam, quia fide acquisita possumus
+            assen<lb ed="#V" n="65" break="no"/>tiri omnibus articulis. Secundum, datur fides
+            <lb ed="#V" n="66"/>infusa. Ex Habac. 2. Matth. 8. 9. 17. Marc. 3.
+            <lb ed="#V" n="67"/>Luc. 7. 1. Corinth. 13. Hebr. 11. Duo ultima
+            <lb ed="#V" n="68"/>loca affert Doct. num. 3. habetur Rom. 3. Gal.
+            <lb ed="#V" n="69"/>5. Ephes. 2. gratia salvati estis per fidem.
+            Defi<lb ed="#V" n="70" break="no"/>nitur in Milevit. can. 4. in Araus. II. cap. 25.
+            <lb ed="#V" n="71"/>Trid sess. 6. can. 3. et can. 6. 7. 8. Docent
+            Pa<lb ed="#V" n="72" break="no"/>tres, Coelestinus epist. ad Episcopos Galliae,
+            <lb ed="#V" n="73"/>cap. 8. et seqq. habetur tom. 1. Concil. August.
+            <lb ed="#V" n="74"/>lib. de nat. et gratia, cap 2. 3. 4, et degratia et
+            <lb ed="#V" n="75"/>lib. cap. 3. Ambros. de vocatione Gent. cap. ult.
+            <lb ed="#V" n="76"/>Tertium, probabile est quod simul
+            infundun<lb ed="#V" n="77" break="no"/>tur fides, spes, charitas. Ita Doctor hic, et infra
+            <lb ed="#V" n="78"/>dist. 36. art. 4. Vega 7. in Trid. cap. 28. Durand.
+            <lb ed="#V" n="79"/>hic q. 6. Soto de nat. et gratia (cap. 8.
+            Piti<lb ed="#V" n="80" break="no"/>gianis 3. dist. 3. art. 14. et habetur ex Trid.
+            <lb ed="#V" n="81"/>sess. 6. cap. 7. ubi dicitur haec tria simul
+            infun<lb ed="#V" n="82" break="no"/>di. Quartum, fides infusa ponitur non tantum
+            <lb ed="#V" n="83"/>propter gradum intensionis, sed propter as.
+            <lb ed="#V" n="84"/>sensum et certitudinem, quia nemo perfecte
+            <lb ed="#V" n="85"/>credit, et omnino firmiter ei, quem scit posse
+            <lb ed="#V" n="86"/>fallere vel falli, qualis est omnis homo. Objicit
+            <lb ed="#V" n="87"/>contra hoc, et non solvit, sed quasi dubius
+            vi<lb ed="#V" n="88" break="no"/>detur, an fides infusa sit propter majorem
+            cer<lb ed="#V" n="89" break="no"/>titudinem et firmitatem; id tamen expresse
+            as<lb ed="#V" n="90" break="no"/>serit quod 1. 17. 8 Contra conclus.et quod 1. 14.
+            <lb ed="#V" n="91"/>ubi docet infusam non posse inclinare in
+            fal<pb ed="#V" n="22"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>sum, et hic ad primum et quartum. Fallitur
+            <lb ed="#V" n="2"/>ergo Cajet. 2. 2. quaest. 4. art. 5. et alii
+            putan<lb ed="#V" n="3" break="no"/>tes Scotum dicere posse infusam inclinare
+            <lb ed="#V" n="4"/>in falsum, merito reprehendendi errones
+            qui<lb ed="#V" n="5" break="no"/>dam recentiores, qui in hoc Scotum, quem non
+            <lb ed="#V" n="6"/>viderunt, errare dicunt.
+          </p>
+          <p>
+            <lb ed="#V" n="7"/>Ad quaestionem (a) tamen dico, quod
+            <lb ed="#V" n="8"/>oportet ponere fidem infusam
+            prop<lb ed="#V" n="9" break="no"/>ter auctoritatem Scripturae et
+            Sanc<lb ed="#V" n="10" break="no"/>torum; sed non potest demonstrari
+            <lb ed="#V" n="11"/>fidem infusam inesse alicui, nisi
+            <lb ed="#V" n="12"/>praesupposita fide, quod velit
+            cre<lb ed="#V" n="13" break="no"/>dere Scripturae et Sanctis, sed
+            infi<lb ed="#V" n="14" break="no"/>deli nunquam ostenderetur; sed
+            si<lb ed="#V" n="15" break="no"/>cut credo Deum esse trinum et
+            <lb ed="#V" n="16"/>unum, ita credo me habere fidem
+            <lb ed="#V" n="17"/>infusam, qua hoc credo, et hoc a
+            <lb ed="#V" n="18"/>Deo, ut perficiat animam in actu
+            <lb ed="#V" n="19"/>primo, quia Dei est perfecte
+            perfi<lb ed="#V" n="20" break="no"/>cere quando perficit. Unde sicut
+            <lb ed="#V" n="21"/>quando sanat aliquem secundum
+            <lb ed="#V" n="22"/>corpus, perfecte sanat pro statu in
+            <lb ed="#V" n="23"/>quo est, ita etiam secundum
+            ani<lb ed="#V" n="24" break="no"/>mam: et quia in anima est imago
+            <lb ed="#V" n="25"/>Dei secundum tres potentias, quae
+            <lb ed="#V" n="26"/>deformatae erant per peccatum, ideo
+            <lb ed="#V" n="27"/>Christus reformando, sicut perfecit
+            <lb ed="#V" n="28"/>voluntatem per charitatem, sic
+            in<lb ed="#V" n="29" break="no"/>tellectum per fidem, quamvis
+            vo<lb ed="#V" n="30" break="no"/>luntas possit diligere Deum clare
+            <lb ed="#V" n="31"/>visum ex parte objecti, non tamen
+            <lb ed="#V" n="32"/>eodem modo sine charitate et cum
+            <lb ed="#V" n="33"/>charitate, ideo non solum propter
+            <lb ed="#V" n="34"/>actum primum dat charitatem, sed
+            <lb ed="#V" n="35"/>propter secundum, ut sit perfectior
+            <lb ed="#V" n="36"/>et intensior actus diligendi ex
+            po<lb ed="#V" n="37" break="no"/>tentia et charitate, quam ex potentia
+            <lb ed="#V" n="38"/>tantum, sicut patet lib. 1. dist. 17.
+            <lb ed="#V" n="39"/>et similiter de fide suo modo, quia
+            <lb ed="#V" n="40"/>sicut charitas facit secundum actum
+            <lb ed="#V" n="41"/>perfectiorem, sic fides; sed charitas
+            <lb ed="#V" n="42"/>ultra hoc facit acceptum actum
+            <lb ed="#V" n="43"/>suum, et actum cujuslibet alterius
+            <lb ed="#V" n="44"/>potentiae. Unde sicut dictum fuit ibi,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>si fieret una voluntas perfectissima,
+            <lb ed="#V" n="46"/>et non haberet charitatem, tanto
+            <lb ed="#V" n="47"/>magis deficeret a propria
+            perfectio<lb ed="#V" n="48" break="no"/>ne in actu secundo, quem posset
+            ha<lb ed="#V" n="49" break="no"/>bere secundum proportionem
+            Geo<lb ed="#V" n="50" break="no"/>metricam, propter carentiam
+            cha<lb ed="#V" n="51" break="no"/>ritatis proportionatae potentiae,
+            <lb ed="#V" n="52"/>quanto magis excederet aliam
+            vo<lb ed="#V" n="53" break="no"/>luntatem inferiorem in perfectione
+            <lb ed="#V" n="54"/>prima. Perficit igitur has potentias
+            <lb ed="#V" n="55"/>per habitus supernaturales in esse
+            <lb ed="#V" n="56"/>quodam supernaturali, sicut natae
+            <lb ed="#V" n="57"/>sunt etiam perfici naturaliter
+            habi<lb ed="#V" n="58" break="no"/>tibus supernaturalibus.
+          </p>
+          <p>
+            <lb ed="#V" n="59"/>Nec pono habitum fidei infusae
+            <lb ed="#V" n="60"/>solum propter gradum in actu, sed
+            <lb ed="#V" n="61"/>etiam propter assensum, quia
+            assen<lb ed="#V" n="62" break="no"/>sus non est totaliter a voluntate.
+            <lb ed="#V" n="63"/>Aliqui enim sunt, qui vellent magis
+            <lb ed="#V" n="64"/>assentire, et tamen minus
+            assen<lb ed="#V" n="65" break="no"/>tiunt, et ideo petebant Apostoli;
+            <lb ed="#V" n="66"/>Domine, adauge nobis fidem, Luc.
+            <lb ed="#V" n="67"/>17. et in quadam collecta petitur
+            <lb ed="#V" n="68"/>augmentum ejus: Omnipotens
+            sem<lb ed="#V" n="69" break="no"/>piterne Deus, da nobis fidei, spei et
+            <lb ed="#V" n="70"/>charitatis augmentum. Istud non
+            <lb ed="#V" n="71"/>oporteret petere, si totus assensus
+            <lb ed="#V" n="72"/>esset a voluntate; nec fides excludit
+            <lb ed="#V" n="73"/>omnem dubitationem, sed
+            dubitatio<lb ed="#V" n="74" break="no"/>nem vincentem et trahentem in
+            op<lb ed="#V" n="75" break="no"/>positum credibilis.
+          </p>
+          <p>
+            <lb ed="#V" n="76"/>Quod autem requiratur fides
+            in<lb ed="#V" n="77" break="no"/>fusa, non solum propter intensionem
+            <lb ed="#V" n="78"/>actus, sed etiam propter assensum
+            <lb ed="#V" n="79"/>et certitudinem, patet, quia hoc non
+            <lb ed="#V" n="80"/>potest esse a fide acquisita, scilicet
+            <lb ed="#V" n="81"/>firmus assensus, quia fide acquisita
+            <lb ed="#V" n="82"/>nullus credit alicui, nisi quem scit
+            <lb ed="#V" n="83"/>posse falli et fallere, licet credat
+            <lb ed="#V" n="84"/>ipsum non velle fallere. Sed nemo
+            <lb ed="#V" n="85"/>potest perfecte assentire dictis ejus,
+            <lb ed="#V" n="86"/>quem novit posse falli et fallere in
+            <lb ed="#V" n="87"/>his quae dicit, cujusmodi est quilibet
+            <lb ed="#V" n="88"/>homo, cui et non alii assentitur per
+            <pb ed="#V" n="23"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>fidem acquisitam propter
+            veracita<lb ed="#V" n="2" break="no"/>tem illius. Ex quo igitur ita est,
+            <lb ed="#V" n="3"/>oportet ponere fidem infusam
+            prop<lb ed="#V" n="4" break="no"/>ter firmum assensum, ut respiciat
+            <lb ed="#V" n="5"/>Deum pro objecto primo, de quo
+            <lb ed="#V" n="6"/>sicut de objecto formantur aliae
+            ve<lb ed="#V" n="7" break="no"/>ritates, quae continentur in articulis
+            <lb ed="#V" n="8"/>mediatius vel immediatius
+            secun<lb ed="#V" n="9" break="no"/>dum quod ipsum sic vel sic
+            respi<lb ed="#V" n="10" break="no"/>ciunt.
+          </p>
+          <p>
+            <lb ed="#V" n="11"/>Contra hoc ultimum (b) sic: aut
+            <lb ed="#V" n="12"/>intelligis, quod per fidem infusam
+            <lb ed="#V" n="13"/>assentit quis firmiter, ita quod non
+            <lb ed="#V" n="14"/>possit non assentire vel dubitare de
+            <lb ed="#V" n="15"/>eo cui assentit; aut quod assentit
+            <lb ed="#V" n="16"/>infallibiliter, id est, indeceptibiliter.
+            <lb ed="#V" n="17"/>ita quod non decipitur in suo
+            assen<lb ed="#V" n="18" break="no"/>su. Si primo modo, sic etiam est de
+            <lb ed="#V" n="19"/>fide acquisita, quia stante fide
+            acqui<lb ed="#V" n="20" break="no"/>sita, et dum homo assentit per eam
+            <lb ed="#V" n="21"/>alicui objecto, non potest dubitare
+            <lb ed="#V" n="22"/>vel non assentire; aliter de eodem
+            <lb ed="#V" n="23"/>objecto et sub eadem ratione esset
+            <lb ed="#V" n="24"/>fides, sive adhaesio et dubitatio, et
+            <lb ed="#V" n="25"/>ita opposita, quod est falsum; igitur
+            <lb ed="#V" n="26"/>propter firmam adhaesionem non
+            <lb ed="#V" n="27"/>oportet ponere fidem infusam.
+          </p>
+          <p>
+            <lb ed="#V" n="28"/>Si secundo modo, id est, quod
+            <lb ed="#V" n="29"/>indeceptibiliter adhaeret, et non
+            falli<lb ed="#V" n="30" break="no"/>tur adhaerendo per fidem infusam,
+            <lb ed="#V" n="31"/>potest autem falli per adhaesionem
+            <lb ed="#V" n="32"/>fidei acquisitae. Contra, decipi et non
+            <lb ed="#V" n="33"/>decipi, non est a parte habitus, nec
+            <lb ed="#V" n="34"/>a parte assensus quem facit, sed a
+            <lb ed="#V" n="35"/>parte objecti, secundum quod
+            objec<lb ed="#V" n="36" break="no"/>tum, cui assentit, vere vel false prae
+            <lb ed="#V" n="37"/>sentatur habitui inclinanti; sed in
+            <lb ed="#V" n="38"/>proposito uterque habitus inclinat
+            <lb ed="#V" n="39"/>naturaliter, et per modum naturae
+            <lb ed="#V" n="40"/>praebet assensum; sed error in
+            as<lb ed="#V" n="41" break="no"/>sensu est a parte objecti sic vel sic
+            <lb ed="#V" n="42"/>occurrentis, sicut habitus
+            principio<lb ed="#V" n="43" break="no"/>rum inclinat a parte sui naturaliter
+            <lb ed="#V" n="44"/>in verum, et si sit deceptio, hoc est, ex
+          </p>
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>objectis falso occurrentibus et
+            prae<lb ed="#V" n="46" break="no"/>sentatis intellectui; ideo non est
+            cer<lb ed="#V" n="47" break="no"/>tior quantum ad non decipi fides
+            in<lb ed="#V" n="48" break="no"/>fusa quam acquisita.
+          </p>
+          <p>
+            <lb ed="#V" n="49"/>Dico tunc, quod fides infusa est
+            <lb ed="#V" n="50"/>propter actum primum, et propter
+            <lb ed="#V" n="51"/>perfectionem gradus actus secundi,
+            <lb ed="#V" n="52"/>quem gradum non posset habere
+            in<lb ed="#V" n="53" break="no"/>tellectus cum fide acquisita solum,
+            <lb ed="#V" n="54"/>et si propter aliquam certitudinem
+            <lb ed="#V" n="55"/>majorem velitis dicere, solvatis
+            ar<lb ed="#V" n="56" break="no"/>gumentum factum, quod non.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d23q1-p6"> -->
+          <p>
+            <lb ed="#V" n="70" type="fixed=25"/>SCHOLIUM.
+            <lb ed="#V" n="71"/>Docet sciri posse arguitive inesse nobis fidem
+            <lb ed="#V" n="72"/>id est, habitum inclinantem in objectum
+            ine<lb ed="#V" n="73" break="no"/>videns, tanquam in verum, sed non potest quis
+            <lb ed="#V" n="74"/>scire inesse sibi fidem certam determinate
+            incli<lb ed="#V" n="75" break="no"/>nantem in verum, alioquin sciret objectum ejus
+            <lb ed="#V" n="76"/>esse verum, quod pro hoc statu est impossibile.
+            <lb ed="#V" n="77"/>Videtur Doctor in hac littera favere sententiae
+            <lb ed="#V" n="78"/>dicenti fidelem fide divina credere se habere
+            <lb ed="#V" n="79"/>fidem, quam tenent Cajet. 1. 2. q. 112. art. 5.
+            <lb ed="#V" n="80"/>Medina ibi q. 2. concl. 3. et favet Bannes 2. 2.
+            <lb ed="#V" n="81"/>q. 6. art. 2. dub. 2. et D. Thom. dicto art. 5. et
+            <lb ed="#V" n="82"/>1. p. 87. art. 2. ad 1. expresse Soto in Apol.
+            <lb ed="#V" n="83"/>contra Cathar. cap. 5. et lib. 3. de natur. cap.
+            <lb ed="#V" n="84"/>10. Vasq. 1. 2. d. 201. cap. 2. quibus favet Doct.
+            <lb ed="#V" n="85"/>hic dicens: Sicut credo Deum esse trinum, ita
+            <lb ed="#V" n="86"/>credo me habere fidem infusam inclinantem in
+            <lb ed="#V" n="87"/>illud, propter hoc alias docui hanc partem. Sed
+            <lb ed="#V" n="88"/>Scotus, si attente legatur, tantum vult me
+            cre<lb ed="#V" n="89" break="no"/>dere mihi inesse fidem infusam, ut credere op.
+            <lb ed="#V" n="90"/>ponitur scire, quia tantum agit de hoc quod
+            <pb ed="#V" n="26"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>non scimus nos credere, sed tantum id
+            credi<lb ed="#V" n="2" break="no"/>mus; contra D. Bonav. hic dub. 4 Unde Quodl.
+            <lb ed="#V" n="3"/>14. art. 1. expresse docet fidelem fide divina
+            <lb ed="#V" n="4"/>non percipere se habere fidem, et est
+            commu<lb ed="#V" n="5" break="no"/>nis. Vide Vegam 9. in Trid. cap. 37. Valent. 3.
+            <lb ed="#V" n="6"/>tom. d. 1. q. 6. p. 1.
+          </p>
+          <p>
+            <lb ed="#V" n="7"/>Sed quid dicis de fide infusa, (c)
+            <lb ed="#V" n="8"/>quod non possit demonstrari inesse,
+            <lb ed="#V" n="9"/>cum Augustinus 13. de Trin, cap. 1.
+            <lb ed="#V" n="10"/>dicat, quod homo fidem suam tenet
+            <lb ed="#V" n="11"/>firmissima scientia et certissima:
+            <lb ed="#V" n="12"/>eamque in se videt, clamatque
+            con<lb ed="#V" n="13" break="no"/>scientia, quia rerum absentium fides
+            <lb ed="#V" n="14"/>est praesens, et rerum, quae foris
+            <lb ed="#V" n="15"/>sunt; intus est fides, et rerum, quae
+            <lb ed="#V" n="16"/>non videntur, videtur fides.
+          </p>
+          <p>
+            <lb ed="#V" n="17"/>Respondeo, quod accipiendo fidem
+            <lb ed="#V" n="18"/>prout dicit habitum generatum,
+            in<lb ed="#V" n="19" break="no"/>clinantem in aliquid non evidens ex
+            <lb ed="#V" n="20"/>se tanquam in verum, et hoc
+            deter<lb ed="#V" n="21" break="no"/>minate, ut assentit illi tanquam
+            <lb ed="#V" n="22"/>vero, sic potest aliquis scire se
+            <lb ed="#V" n="23"/>habere fidem, generaliter loquendo
+            <lb ed="#V" n="24"/>de fide, sicut potest scire se habere
+            <lb ed="#V" n="25"/>scientiam, arguendo habitum esse
+            <lb ed="#V" n="26"/>in se ex ipsis actibus. Sed quod
+            <lb ed="#V" n="27"/>aliquis sciat, vel scire possit se
+            ha<lb ed="#V" n="28" break="no"/>bere fidem certam determinate
+            in<lb ed="#V" n="29" break="no"/>clinantem in verum, ita quod sciat
+            <lb ed="#V" n="30"/>fidem esse veram, et illud in quod
+            <lb ed="#V" n="31"/>inclinat esse verum, ita quod facit
+            <lb ed="#V" n="32"/>assentire vero, et non solum inclinat
+            <lb ed="#V" n="33"/>in aliquid tanquam verum
+            secun<lb ed="#V" n="34" break="no"/>dum primum modum, sic nullus
+            <lb ed="#V" n="35"/>scire potest in hac vita, nisi
+            revele<lb ed="#V" n="36" break="no"/>tur sibi. Probatio hujus, quia non
+            <lb ed="#V" n="37"/>possum scire me assentire vero, nisi
+            <lb ed="#V" n="38"/>prius sciam esse verum illud cui
+            <lb ed="#V" n="39"/>assentio; scire aliquem articulum
+            <lb ed="#V" n="40"/>esse verum impossibile est pro statu
+            <lb ed="#V" n="41"/>isto de lege communi; ideo sicut
+            <lb ed="#V" n="42"/>credo Deum esse trinum et unum, et
+            <lb ed="#V" n="43"/>non scio, nec scire possum illud pro
+            <lb ed="#V" n="44"/>statu isto, sic credo me habere
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>fidem infusam inclinantem in illud,
+            <lb ed="#V" n="46"/>sicut in verum, quod est in se
+            ve<lb ed="#V" n="47" break="no"/>rum.
+          </p>
+          <p>
+            <lb ed="#V" n="48"/>Ad argumentum dico, quod
+            Au<lb ed="#V" n="49" break="no"/>gustinus loquitur de scientia, non
+            <lb ed="#V" n="50"/>qua fides scitur actu secundo, sed
+            <lb ed="#V" n="51"/>actu primo, quia fides in anima,
+            <lb ed="#V" n="52"/>sicut et omnia quae sunt in anima,
+            <lb ed="#V" n="53"/>et ipsa anima, sunt praesentia in
+            <lb ed="#V" n="54"/>memoria, ita quod de illis, si
+            res<lb ed="#V" n="55" break="no"/>pectu eorum posset exire in actum,
+            <lb ed="#V" n="56"/>haberet certam scientiam Sed pro
+            <lb ed="#V" n="57"/>statu isto non potest habere actum
+            <lb ed="#V" n="58"/>secundum de fide secundo modo
+            <lb ed="#V" n="59"/>dicto supra, propter rationem
+            tac<lb ed="#V" n="60" break="no"/>tam, ideo credo me habere fidem,
+            <lb ed="#V" n="61"/>qua assentio vero in se, sicut credo
+            <lb ed="#V" n="62"/>verum esse illud cui assentio. Ratio
+            <lb ed="#V" n="63"/>autem hujus est, quia anima
+            intelli<lb ed="#V" n="64" break="no"/>git cum phantasmate, et talium non
+            <lb ed="#V" n="65"/>sunt phantasmata in se.
+          </p>
+          <p>
+            <lb ed="#V" n="66"/>Ad primum principale (d),
+            antece<lb ed="#V" n="67" break="no"/>dens est falsum; licet enim fides
+            <lb ed="#V" n="68"/>acquisita sufficiat ad assensum et
+            <lb ed="#V" n="69"/>certitudinem actus, prout credere
+            <lb ed="#V" n="70"/>opponitur opinari, tamen non est ita
+            <lb ed="#V" n="71"/>perfecte certus, sicut cum fide
+            in<lb ed="#V" n="72" break="no"/>fusa, nec esset actus ita intensus,
+            <lb ed="#V" n="73"/>nec sufficit in esse primo, quia fides
+            <lb ed="#V" n="74"/>acquisita non perficit animam ita
+            <lb ed="#V" n="75"/>perfecte, sicut infusa; oportet igitur
+            <lb ed="#V" n="76"/>ponere utramque fidem.
+          </p>
+          <p>
+            <lb ed="#V" n="77"/>Ad secundum (e), dico quod
+            ali<lb ed="#V" n="78" break="no"/>quis potest assentire per
+            falsigra<lb ed="#V" n="79" break="no"/>phum opposito conclusionis
+            de<lb ed="#V" n="80" break="no"/>monstrabilis propter apparentem
+            <lb ed="#V" n="81"/>svllogismum, sed nunquam firmiter.
+            <lb ed="#V" n="82"/>et tunc causa adhaesionis est
+            appa<lb ed="#V" n="83" break="no"/>rentia svllogismi; et causa prima
+            <lb ed="#V" n="84"/>deceptionis est defectus in forma,
+            <lb ed="#V" n="85"/>non in materia, quia tunc nunquam
+            <lb ed="#V" n="86"/>staret ad aliquod principium verum,
+            <lb ed="#V" n="87"/>sed iretur in infinitum in principiis.
+          </p>
+          <p>
+            <lb ed="#V" n="88"/>Sed cum dicitur (f), quod hoeretici
+            <pb ed="#V" n="27"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>assentiunt falsis sine ratione, dico
+            <lb ed="#V" n="2"/>quod non est verum, quia nullus
+            <lb ed="#V" n="3"/>haereticus proprie loquendo
+            (exclu<lb ed="#V" n="4" break="no"/>dendo simpliciter infideles) est, qui
+            <lb ed="#V" n="5"/>non reputet se Christianum, et
+            <lb ed="#V" n="6"/>omnis talis errat male intelligendo
+            <lb ed="#V" n="7"/>aliquam auctoritatem Scripturae, et
+            <lb ed="#V" n="8"/>ex illo falso intellectu concludit
+            con<lb ed="#V" n="9" break="no"/>clusionem falsam, cui pertinaciter
+            <lb ed="#V" n="10"/>adhaeret; sicut si aliquis male
+            in<lb ed="#V" n="11" break="no"/>telligendo illud Apostoli: Qui
+            infir<lb ed="#V" n="12" break="no"/>mus est olus manducet, ex hoc
+            in<lb ed="#V" n="13" break="no"/>ferret anathema esse omnem
+            infir<lb ed="#V" n="14" break="no"/>mum aliud manducantem quam
+            <lb ed="#V" n="15"/>olus, nihil esset ad intellectum
+            <lb ed="#V" n="16"/>Apostoli, quia non loquitur de
+            infir<lb ed="#V" n="17" break="no"/>mitate corporali, sed spirituali in
+            <lb ed="#V" n="18"/>fide.
+          </p>
+          <p>
+            <lb ed="#V" n="19"/>Ad aliud (g) concedo quod fides
+            <lb ed="#V" n="20"/>non corrumpitur in nobis effective,
+            <lb ed="#V" n="21"/>r sed demeritorie. Et cum dicis, igitur
+            <lb ed="#V" n="22"/>per maximum demeritum; dico quod
+            <lb ed="#V" n="23"/>non, sed per illud, quod ex ratione
+            <lb ed="#V" n="24"/>sua opponitur fidei, cujusmodi est
+            <lb ed="#V" n="25"/>infidelitas, sive error circa
+            credibi<lb ed="#V" n="26" break="no"/>lia.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d23q1-p7"> -->
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="42" type="fixed=29"/>SCHOLIUM.
+            <lb ed="#V" n="43"/>Pro intelligentia hujus solutionis, nota quod
+            <lb ed="#V" n="44"/>proportio Geometrica est secundum
+            similitudi<lb ed="#V" n="45" break="no"/>nem proportionis tantum, ut sicut se habet 4.
+            <lb ed="#V" n="46"/>ad 2 ita 8. ad 4. quia utrobique est proportio
+            <lb ed="#V" n="47"/>dupla. Item, sicut se habet 6. ad 4. ita 9. ad 6.
+            <lb ed="#V" n="48"/>quia utraque proportio est sesquialtera; at
+            <lb ed="#V" n="49"/>proportio Arithmetica est secundum aequalem
+            <lb ed="#V" n="50"/>excessum extremorum, ut sicut se habet 4. ad
+            <lb ed="#V" n="51"/>2. ita 8. ad 6. Actus fidei in Deum est perfectior
+            <lb ed="#V" n="52"/>secundum proportionem Arithmeticam, actu
+            <lb ed="#V" n="53"/>scientiae principiorum, et secundum
+            propor<lb ed="#V" n="54" break="no"/>tionem Geometricam e contra, quia notitia
+            scien<lb ed="#V" n="55" break="no"/>tifica magis attingit ad proportionem totalis
+            <lb ed="#V" n="56"/>intelligibilitatis principii, quam notitia fidei
+            <lb ed="#V" n="57"/>ad totalem notitiam Dei; at haec, quia nobilior,
+            <lb ed="#V" n="58"/>excedit illam, et sic est perfectior secundum
+            <lb ed="#V" n="59"/>proportionem Geometricam. Vide Lychet. hic.
+            <lb ed="#V" n="60"/>et Pitigianis art. 11.
+          </p>
+          <p>
+            <lb ed="#V" n="61"/>Ad aliud (h), concedo quod fides
+            <lb ed="#V" n="62"/>infusa est perfectior habitus
+            simpli<lb ed="#V" n="63" break="no"/>citer quocumque habitu acquisito,
+            <lb ed="#V" n="64"/>eo quod ratione suae perfectionis
+            <lb ed="#V" n="65"/>non potest causari, nisi a Deo in
+            <lb ed="#V" n="66"/>ratione causae, ut causat objectum,,
+            <lb ed="#V" n="67"/>vel per alium modum supplendo
+            <lb ed="#V" n="68"/>vicem objecti, quod non est perfecte
+            <lb ed="#V" n="69"/>praesens in ratione objecti respectu
+            <lb ed="#V" n="70"/>fidei.
+          </p>
+          <p>
+            <lb ed="#V" n="71"/>(i) Et cum dicis, igitur actus
+            cre<lb ed="#V" n="72" break="no"/>dendi est simpliciter perfectior quam
+            <lb ed="#V" n="73"/>actus intelligendi elicitus ab habitu
+            <lb ed="#V" n="74"/>naturali perfecto primorum
+            princi<lb ed="#V" n="75" break="no"/>piorum, dico quod est loqui de
+            <lb ed="#V" n="76"/>actibus istis in se, et sic actus
+            <lb ed="#V" n="77"/>credendi est perfectior, quia a
+            per<lb ed="#V" n="78" break="no"/>fectiori principio elicitus, et in
+            per<lb ed="#V" n="79" break="no"/>fectius objectum tendit; et est loqui
+            <lb ed="#V" n="80"/>de eis (k) secundum quod plus vel
+            <lb ed="#V" n="81"/>minus attingunt objectum in quod
+            <lb ed="#V" n="82"/>tendunt, quantum ad
+            intelligibilita<lb ed="#V" n="83" break="no"/>tem objecti; et sic dico, quod actus
+            <lb ed="#V" n="84"/>intelligendi est perfectior, quia ejus
+            <lb ed="#V" n="85"/>objectum non tantum excedit ipsum
+            <lb ed="#V" n="86"/>in intelligibilitate non intellecta,
+            <pb ed="#V" n="30"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>quantum Deus excedit actum
+            cre<lb ed="#V" n="2" break="no"/>dendi in intelligibilitate non
+            intel<lb ed="#V" n="3" break="no"/>lecta per actum fidei. Exemplum,
+            <lb ed="#V" n="4"/>oculus aquilae videt Solem, oculus
+            <lb ed="#V" n="5"/>meus videt candelam; tunc
+            simpli<lb ed="#V" n="6" break="no"/>citer loquendo, visio aquilae est
+            per<lb ed="#V" n="7" break="no"/>fectior, quia a perfectiori et acutiori
+            <lb ed="#V" n="8"/>potentia est elicita; sed loquendo de
+            <lb ed="#V" n="9"/>actu secundum proportionem ad
+            <lb ed="#V" n="10"/>objectum, est e converso, quia visio
+            <lb ed="#V" n="11"/>mea magis attingit ad totam
+            visio<lb ed="#V" n="12" break="no"/>nem candelae, quam visio aquilae ad
+            <lb ed="#V" n="13"/>totam visionem Solis in se, et ita
+            <lb ed="#V" n="14"/>secundum proportionem
+            Geometri<lb ed="#V" n="15" break="no"/>cam visio mea est perfectior;
+            secun<lb ed="#V" n="16" break="no"/>dum autem Arithmeticam, visio
+            <lb ed="#V" n="17"/>aquilae, quia nobilius est parum
+            <lb ed="#V" n="18"/>attingere de nobilioribus objectis,
+            <lb ed="#V" n="19"/>quam multum de aliis, ut dicit
+            <lb ed="#V" n="20"/>Aristoteles 2. de Animalibus.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

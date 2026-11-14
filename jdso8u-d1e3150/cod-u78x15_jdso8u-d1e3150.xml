@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 3, Distinctio 40, Quaestio 1</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 3, Distinctio 40, Quaestio 1</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x15">Vives, Paris, 1894, volume 15</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="1084"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e3150"><!-- jdso8u-b3d40q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum Lex Nova sit gravior Lege Vetere</head>
+        <!-- <div alias="scotus-d40q1-p1"> -->
+          <p>
+            <pb ed="#V" n="1084"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1" type="fixed=1084"/>OII ESTIO IINICA
+            <lb ed="#V" n="2"/>(Utrum ler nova sit grarior reteri?
+          </p>
+          <p>
+            <lb ed="#V" n="3"/>Alensis 3. part, quaest. 28. membr. 4. art. 1. D.
+            <lb ed="#V" n="4"/>Thom. 1. 2. quaest. 107. art. 4. et hic quaest
+            <lb ed="#V" n="5"/>1. art. 4. quaest. 3. D. Bonavent. art. 1. quaest.
+            <lb ed="#V" n="6"/>3. Richard. art. 1. quaest. 4. 5. Bellarmin
+            <lb ed="#V" n="7"/>lib. 1. de verbo Dei, cap. 18. Vasquez 1. 2. d.
+            <lb ed="#V" n="8"/>183. Soto 1. de Just. quaest 6. art. 4. dist. 2.
+            <lb ed="#V" n="9"/>quaest. 1. art. 4. Suarez de Leg. lib. 10. cap.
+            <lb ed="#V" n="10"/>ult. a num. 16.
+          </p>
+          <p>
+            <lb ed="#V" n="11"/>Circa istam (a) distinctionem
+            <lb ed="#V" n="12"/>quadragesimam, in qua Magister
+            <lb ed="#V" n="13"/>agit de duobus ultimis praeceptis
+            <lb ed="#V" n="14"/>secundae tabulae, et de utriusque
+            <lb ed="#V" n="15"/>legis utilitate, quaeritur, utrum lex
+            <lb ed="#V" n="16"/>nova sit gravior veteri? Quod sic,
+            <lb ed="#V" n="17"/>quia lex nova multa superaddit
+            <lb ed="#V" n="18"/>legi veteri, sicut patet Matth. 5.
+            <lb ed="#V" n="19"/>Dictum est antiquis: Non occides;
+            <lb ed="#V" n="20"/>ego autem dico, quia omnis qui
+            iras<lb ed="#V" n="21" break="no"/>citur fratri suo, etc., et sic de aliis
+            <lb ed="#V" n="22"/>praeceptis; et praeter hoc continet
+            <lb ed="#V" n="23"/>totam illam, sicut patet Matth. 5.
+            <lb ed="#V" n="24"/>Non veni legem solvere, sed
+            adim<lb ed="#V" n="25" break="no"/>plere; igitur includit totam
+            gravita<lb ed="#V" n="26" break="no"/>tem illius, et addit ultra aliquam
+            <lb ed="#V" n="27"/>aliam; igitur est gravior.
+          </p>
+          <p>
+            <lb ed="#V" n="28"/>Praeterea, status sub gratia est
+            <lb ed="#V" n="29"/>perfectior et virtuosior quam sub
+            <lb ed="#V" n="30"/>lege; igitur difficilior.
+            Consequen<lb ed="#V" n="31" break="no"/>tia patet, quia virtus est circa
+            bo<lb ed="#V" n="32" break="no"/>num et difficile.
+          </p>
+          <p>
+            <lb ed="#V" n="33"/>Contra, Matth. 11. Venite ad me
+            <lb ed="#V" n="34"/>omnes, etc. Jugum enim meum
+            <lb ed="#V" n="35"/>suave est, et onus meum leve.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d40q1-p2"> -->
+          <p>
+            <lb ed="#V" n="64" type="fixed=1084"/>SCHOLIUM.
+            <lb ed="#V" n="65"/>Primum dictum hujus litterae, in veteri lege
+            <lb ed="#V" n="66"/>fuisse praecepta moralia, caeremonialia et
+            judi<lb ed="#V" n="67" break="no"/>cialia. De primis habetur Exod. 20. ubi ponitur
+            <lb ed="#V" n="68"/>Decalogus. De secundis, Deut. 4. De tertiis
+            <lb ed="#V" n="69"/>Deut. 6. Vide D. Thom. 1. 2. quaest. 99.
+            Secun<lb ed="#V" n="70" break="no"/>dum dictum, moralia sunt eadem nunc et in
+            <lb ed="#V" n="71"/>lege, sed nunc magis explicita. Tertium, caere.
+            <lb ed="#V" n="72"/>monialia nova sunt pauciora et faciliora, quia,
+            <lb ed="#V" n="73"/>teste August. citato, erant 600. praecepta et
+            am<lb ed="#V" n="74" break="no"/>lius in veteri; at nova lex tantum habet ritus 7.
+            <lb ed="#V" n="75"/>Sacramentorum, et ex his forte duo tantum
+            <lb ed="#V" n="76"/>sunt singulis necessaria, et esto alia necessaria
+            <lb ed="#V" n="77"/>sint, sunt facillima. Quartum, nulla sunt
+            ju<lb ed="#V" n="78" break="no"/>dicialia in lege nova data a Christo. Quintum,
+            <lb ed="#V" n="79"/>nova est longe levior et suavior veteri, patet ex
+            <lb ed="#V" n="80"/>dictis, et ex abundantiori gratia. Vide Cypr. 1.
+            <lb ed="#V" n="81"/>3. ad Quirin. cap. 119. et Aug. epist. 118. et 15.
+            <lb ed="#V" n="82"/>contra Faust. 23.
+          </p>
+          <p>
+            <lb ed="#V" n="83"/>Hic sunt duo videnda (b), quia
+            <lb ed="#V" n="84"/>ex duobus pendet gravitas legis
+            <lb ed="#V" n="85"/>alicujus in comparatione ad aliam,
+            <lb ed="#V" n="86"/>scilicet ex onere imposito et ex
+            <pb ed="#V" n="1085"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>defectu remedii ad supportandum
+            <lb ed="#V" n="2"/>onus impositum.
+          </p>
+          <p>
+            <lb ed="#V" n="3"/>Onera (c) imposita in veteri lege
+            <lb ed="#V" n="4"/>erant praecepta moralia,
+            caeremo<lb ed="#V" n="5" break="no"/>nialia et judicialia, ad quae omnia
+            <lb ed="#V" n="6"/>tenebantur. De moralibus patet.
+            <lb ed="#V" n="7"/>De caeremonialibus etiam patet,
+            <lb ed="#V" n="8"/>nam licet possent tangere
+            morti<lb ed="#V" n="9" break="no"/>cinum, et hujusmodi, incurrebant
+            <lb ed="#V" n="10"/>tamen ex hoc multas immunditias,
+            <lb ed="#V" n="11"/>ad quarum purgationem, si non
+            <lb ed="#V" n="12"/>faciebant quae in lege
+            mandaban<lb ed="#V" n="13" break="no"/>tur, peccabant mortaliter, sicut
+            <lb ed="#V" n="14"/>explicatur ibi: Anima, quae fecerit
+            <lb ed="#V" n="15"/>vel non fecerit sic et sic, morte
+            <lb ed="#V" n="16"/>morietur, et peribit de populo suo,
+            <lb ed="#V" n="17"/>quae est comminatio damnationis
+            <lb ed="#V" n="18"/>aeternae. Ad omnia etiam judicialia
+            <lb ed="#V" n="19"/>tenebantur, vel per se, vel
+            quan<lb ed="#V" n="20" break="no"/>do decernebantur per judices
+            eo<lb ed="#V" n="21" break="no"/>rum, et maxime per Sacerdotem
+            <lb ed="#V" n="22"/>Levitici generis, si quando erat
+            ca<lb ed="#V" n="23" break="no"/>sus dubius apud judices inferiores,
+            <lb ed="#V" n="24"/>juxta illud Deuter. Omnis anima,
+            <lb ed="#V" n="25"/>quae contempserit judicium
+            Sacer<lb ed="#V" n="26" break="no"/>dotis, morte moriatur.
+          </p>
+          <p>
+            <lb ed="#V" n="27"/>In lege (d) autem nova moralia
+            <lb ed="#V" n="28"/>sunt eadem quae tunc, sed magis
+            <lb ed="#V" n="29"/>explicata. Caeremonialia sunt
+            mul<lb ed="#V" n="30" break="no"/>to pauciora et leviora, quae
+            impo<lb ed="#V" n="31" break="no"/>sita sunt per Christum. Judicialia
+            <lb ed="#V" n="32"/>nulla sunt posita per Christum,
+            <lb ed="#V" n="33"/>sed magis est lex mititatis et
+            hu<lb ed="#V" n="34" break="no"/>manitatis, in qua non oportet
+            ha<lb ed="#V" n="35" break="no"/>bere judicialia, juxta illud 1. Cor.
+            <lb ed="#V" n="36"/>6. Jam quidem omnino delictum
+            <lb ed="#V" n="37"/>est in vobis, quod judicia habetis
+            <lb ed="#V" n="38"/>inter vos. Quare non magis
+            inju<lb ed="#V" n="39" break="no"/>riam accepistis, quare non magis
+            <lb ed="#V" n="40"/>fraudem patimini. Hoc enim
+            do<lb ed="#V" n="41" break="no"/>cuit Christus Matth. 5. Si quis
+            <lb ed="#V" n="42"/>percusserit te in una maxilla, praebe
+            <lb ed="#V" n="43"/>ei et alteram, et si quis voluerit tibi
+            <lb ed="#V" n="44"/>tollere tunicam, relinque ei pallium.
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>Comparando vero moralia ad
+            <lb ed="#V" n="46"/>moralia, dubium est, utrum fuerit
+            <lb ed="#V" n="47"/>aequalitas, quia dubium est utrum
+            <lb ed="#V" n="48"/>illi tenerentur ad omnia illa
+            prae<lb ed="#V" n="49" break="no"/>cepta, et eodem modo explicata,
+            <lb ed="#V" n="50"/>sicut nos tenemur, quia si illi non
+            <lb ed="#V" n="51"/>tenebantur ad praecepta illa, nisi
+            <lb ed="#V" n="52"/>sicut Judaei interpretabantur, tunc
+            <lb ed="#V" n="53"/>licuisset amare amicum, et odio
+            <lb ed="#V" n="54"/>habere inimicum; ita enim
+            docue<lb ed="#V" n="55" break="no"/>runt Pharisaei simplices de
+            po<lb ed="#V" n="56" break="no"/>pulo; hoc autem non licet hodie
+            <lb ed="#V" n="57"/>Christianis; et ita forte de
+            quibus<lb ed="#V" n="58" break="no"/>dam aliis explicantibus quaedam
+            <lb ed="#V" n="59"/>praecepta moralia, sicut patet
+            <lb ed="#V" n="60"/>Matth. 5. Quod si non, tunc lex
+            <lb ed="#V" n="61"/>nostra esset gravior quantum ad
+            <lb ed="#V" n="62"/>moralia; sed haec gravitas non
+            <lb ed="#V" n="63"/>aequiparatur gravitati
+            caeremonia<lb ed="#V" n="64" break="no"/>lium legis veteris, de qua statim
+            <lb ed="#V" n="65"/>dicetur.
+          </p>
+          <p>
+            <lb ed="#V" n="66"/>Quantum enim ad caeremonialia,
+            <lb ed="#V" n="67"/>dico quod illa fuit multo gravior, et
+            <lb ed="#V" n="68"/>quantum ad multitudinem, et
+            quan<lb ed="#V" n="69" break="no"/>tum ad difficultatem observandi.
+            <lb ed="#V" n="70"/>Augustinus enim ita significat in
+            <lb ed="#V" n="71"/>epist. ad inquisitiones Januarii, et
+            <lb ed="#V" n="72"/>tangitur in Can. dist. 12. Omnia
+            ta<lb ed="#V" n="73" break="no"/>lia, et Rabbi Moyses enumeravit
+            <lb ed="#V" n="74"/>plus quam sexcenta praecepta, ad
+            <lb ed="#V" n="75"/>quae omnia tenebantur illi; quorum
+            <lb ed="#V" n="76"/>quaedam erant valde difficilia, puta
+            <lb ed="#V" n="77"/>quod omne masculinum ter in anno
+            <lb ed="#V" n="78"/>praesentaretur in Jerusalem,
+            quan<lb ed="#V" n="79" break="no"/>tumcunque distarent; et septimum
+            <lb ed="#V" n="80"/>annum colere, propter quod
+            oporte<lb ed="#V" n="81" break="no"/>bat eos duobus annis vacare a
+            col<lb ed="#V" n="82" break="no"/>lectione fructuum, et multa alia,
+            si<lb ed="#V" n="83" break="no"/>cut de non tangendo morticinum,
+            <lb ed="#V" n="84"/>vel de non comedendo vel bibendo
+            <lb ed="#V" n="85"/>post tractum mortui sine baptismo.
+          </p>
+          <p>
+            <lb ed="#V" n="86"/>Unde dicit Petrus in Actibus
+            <lb ed="#V" n="87"/>Apostolorum: Quare vultis
+            discipu<lb ed="#V" n="88" break="no"/>lis imponere onus grave, quod nec
+            <pb ed="#V" n="1086"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>nos, nec patres nostri portare
+            potui<lb ed="#V" n="2" break="no"/>mus? Lex autem nova secundum
+            <lb ed="#V" n="3"/>Augustinum ibidem, paucis et
+            ma<lb ed="#V" n="4" break="no"/>nifestis Sacramentorum ritibus
+            con<lb ed="#V" n="5" break="no"/>tenta est; non enim habet, nisi
+            sep<lb ed="#V" n="6" break="no"/>tem Sacramenta, quae etiam omnia
+            <lb ed="#V" n="7"/>non sunt omnibus Christianis
+            neces<lb ed="#V" n="8" break="no"/>saria. Non enim omnes recipiunt
+            <lb ed="#V" n="9"/>Ordines, nec omnes matrimonium
+            <lb ed="#V" n="10"/>contrahunt, sed necessarius est
+            Bap<lb ed="#V" n="11" break="no"/>tismus, et post Baptismum in
+            pecca<lb ed="#V" n="12" break="no"/>tum mortale recidivando
+            Poeniten<lb ed="#V" n="13" break="no"/>tia, ita quod difficilius, quod est in
+            <lb ed="#V" n="14"/>Ecclesia, videtur esse Confessio.
+            <lb ed="#V" n="15"/>Difficile enim videtur alicui peccata
+            <lb ed="#V" n="16"/>sua privata, soli Deo et sibi nota:
+            <lb ed="#V" n="17"/>revelare alicui homini; sed ibi
+            appo<lb ed="#V" n="18" break="no"/>sita sunt remedia, ita quod propter
+            <lb ed="#V" n="19"/>revelationem talem non oportet
+            ti<lb ed="#V" n="20" break="no"/>mere confusionem; obligatur enim
+            <lb ed="#V" n="21"/>audiens ad maximum sigillum
+            se<lb ed="#V" n="22" break="no"/>creti. Alia Sacramenta a Baptismo
+            <lb ed="#V" n="23"/>et Poenitentia forte non sunt
+            neces<lb ed="#V" n="24" break="no"/>saria, aut si sunt, sunt satis facilia,
+            <lb ed="#V" n="25"/>puta Confirmatio, Eucharistia,
+            Ex<lb ed="#V" n="26" break="no"/>trema unctio. Quantum igitur ad
+            <lb ed="#V" n="27"/>caeremonialia lex nova est longe
+            fa<lb ed="#V" n="28" break="no"/>cilior quam lex vetus, inquantum a
+            <lb ed="#V" n="29"/>Christo data est, et haec est
+            simplici<lb ed="#V" n="30" break="no"/>ter levitas, quae longe praeponderat
+            <lb ed="#V" n="31"/>illi gravitati, si qua sit in moralibus
+            <lb ed="#V" n="32"/>major.
+          </p>
+          <p>
+            <lb ed="#V" n="33"/>Quantum autem ad judicialia de
+            <lb ed="#V" n="34"/>lege nova, patet quod est levissima,
+            <lb ed="#V" n="35"/>quia nulla judicialia Christus
+            impo<lb ed="#V" n="36" break="no"/>suit. Si tamen loquamur de lege
+            <lb ed="#V" n="37"/>nova inquantum non solum est a
+            <lb ed="#V" n="38"/>Christo, sed etiam inquantum est
+            <lb ed="#V" n="39"/>per alios declarata, vel inquantum
+            <lb ed="#V" n="40"/>super eam sunt alia per alios addita,
+            <lb ed="#V" n="41"/>quia licitum est Judicibus statuere
+            <lb ed="#V" n="42"/>leges ad pacem servandam, sive
+            <lb ed="#V" n="43"/>illas, quae fuerunt in lege Moysi, et
+            <lb ed="#V" n="44"/>hoc omnes, sive alias, et
+            quascum<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>que, vel quotcumque (et tenentur
+            <lb ed="#V" n="46"/>eas subditi servare, dummodo non
+            <lb ed="#V" n="47"/>repugnent legi divinae), quoad hoc
+            <lb ed="#V" n="48"/>posset poni major gravitas in lege
+            <lb ed="#V" n="49"/>Christiana, quia tunc non licuit
+            Sa<lb ed="#V" n="50" break="no"/>cerdotibus vel Judicibus condere
+            <lb ed="#V" n="51"/>quascumque leges, sicut modo licet
+            <lb ed="#V" n="52"/>Principibus Christianis. Sic ergo
+            <lb ed="#V" n="53"/>quantum ad hoc videtur quod
+            pau<lb ed="#V" n="54" break="no"/>ciora sunt onera legis Christianae,
+            <lb ed="#V" n="55"/>inquantum ipsa est a Christo
+            tradi<lb ed="#V" n="56" break="no"/>ta, sed forte plura, inquantum ipsi
+            <lb ed="#V" n="57"/>postea sunt addita alia per eos, qui
+            <lb ed="#V" n="58"/>habent regere populum
+            Christia<lb ed="#V" n="59" break="no"/>num.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d40q1-p3"> -->
+          <p>
+            <lb ed="#V" n="48" type="fixed=1093"/>SCHOLIUM.
+            <lb ed="#V" n="49"/>Ponit quinque, quibus lex nova excedit
+            vete<lb ed="#V" n="50" break="no"/>rem. Primum, quia Christus sua passione plus
+            <lb ed="#V" n="51"/>meruit credentibus eam exhibitam quam
+            ex<lb ed="#V" n="52" break="no"/>hibendam. Secundum, plures et efficaciores
+            <lb ed="#V" n="53"/>causae gratiae, scilicet septem Sacramenta, cum
+            <lb ed="#V" n="54"/>tamen de uno tantum constet Sacramento
+            col<lb ed="#V" n="55" break="no"/>lativo gratiae in veteri, scilicet de
+            Circumci<lb ed="#V" n="56" break="no"/>sione. Tertium, clarior explicatio
+            praecepto<lb ed="#V" n="57" break="no"/>rum. Quartum, copiosior thesaurus Ecclesiae
+            <lb ed="#V" n="58"/>ex meritis B. Virginis et Sanctorum.
+            Quin<lb ed="#V" n="59" break="no"/>tum, certa promissio aeternorum praemiorum.
+            <lb ed="#V" n="60"/>Vide Suarez de excellentiis legis novae l. 10. de
+            <lb ed="#V" n="61"/>legib. cap. 8. ubi ponit 13. excellentias ejus
+            su<lb ed="#V" n="62" break="no"/>pra veterem.
+          </p>
+          <p>
+            <lb ed="#V" n="63"/>Quantum (c) ad secundum
+            articu<lb ed="#V" n="64" break="no"/>lum, dico quod passio Christi
+            exhi<lb ed="#V" n="65" break="no"/>bita plus meretur de gratia
+            credenti<lb ed="#V" n="66" break="no"/>bus eam jam exhibitam, quam ipsa,
+            <lb ed="#V" n="67"/>ut exhibenda, meruerit illis, qui
+            <lb ed="#V" n="68"/>crediderunt illam ut exhibendam;
+            <lb ed="#V" n="69"/>et ideo Sacramenta nostra, quae
+            <lb ed="#V" n="70"/>habent efficaciam in virtute
+            passio<lb ed="#V" n="71" break="no"/>nis Christi exhibitae, plus conferunt
+            <lb ed="#V" n="72"/>de gratia quam Sacramenta veteris
+            <lb ed="#V" n="73"/>legis. Praeter haec habemus plura
+            <lb ed="#V" n="74"/>adjutoria gratiae, quia plura
+            Sacra<lb ed="#V" n="75" break="no"/>menta; nam illi praeter
+            matrimo<lb ed="#V" n="76" break="no"/>nium (si tamen fuit illis
+            Sacramen<lb ed="#V" n="77" break="no"/>tum, de quo tangetur in quarto),
+            <lb ed="#V" n="78"/>nullum habuerunt Sacramentum,
+            <lb ed="#V" n="79"/>nisi Circumcisionem, et hoc ut
+            re<lb ed="#V" n="80" break="no"/>medium contra originale. Post
+            reci<lb ed="#V" n="81" break="no"/>divationem vero, si mereri
+            potue<lb ed="#V" n="82" break="no"/>runt gratiam aliquam motu proprio,
+            <lb ed="#V" n="83"/>bene quidem, sed ad gratiam tunc
+            <lb ed="#V" n="84"/>acquirendam nullum fuit
+            Sacramen<lb ed="#V" n="85" break="no"/>tum tunc institutum apud eos. Non
+            <lb ed="#V" n="86"/>enim habuerunt Sacramentum
+            poe<lb ed="#V" n="87" break="no"/>nitentiae, nec alia plura adjutoria ad
+            <pb ed="#V" n="1094"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>gratiam impetrandam, quae
+            habe<lb ed="#V" n="2" break="no"/>mus nos.
+          </p>
+          <p>
+            <lb ed="#V" n="3"/>Tertio, praeter majorem efficaciam
+            <lb ed="#V" n="4"/>Sacramentorum, et pluralitatem
+            eo<lb ed="#V" n="5" break="no"/>rum, habemus doctrinam magis
+            <lb ed="#V" n="6"/>explicativam et declarativam
+            verita<lb ed="#V" n="7" break="no"/>tis, quam ipsi habuerunt, et
+            exem<lb ed="#V" n="8" break="no"/>pla Sanctorum plura et efficaciora
+            <lb ed="#V" n="9"/>ad imitandum. Et quarto plura
+            me<lb ed="#V" n="10" break="no"/>rita Sanctorum, qui forte non tantum
+            <lb ed="#V" n="11"/>sibi, sed etiam nobis meruerunt, et
+            <lb ed="#V" n="12"/>nos etiam meremur invocando
+            au<lb ed="#V" n="13" break="no"/>xilium eorum, et intercessionem
+            <lb ed="#V" n="14"/>apud Deum.
+          </p>
+          <p>
+            <lb ed="#V" n="15"/>Simpliciter ergo plura adjutoria
+            <lb ed="#V" n="16"/>et efficaciora sunt in lege Christiana
+            <lb ed="#V" n="17"/>quam veteri, et ideo ex ea parte,
+            <lb ed="#V" n="18"/>lex nova est levior. Est etiam unum
+            <lb ed="#V" n="19"/>adjutorium valde notabile, quia
+            no<lb ed="#V" n="20" break="no"/>bis pro observatione legis Christianae
+            <lb ed="#V" n="21"/>promittitur explicite vita aeterna;
+            <lb ed="#V" n="22"/>illis autem vel raro vel nunquam
+            <lb ed="#V" n="23"/>nisi bona temporalia
+            promitteban<lb ed="#V" n="24" break="no"/>tur; nunquam autem tantum
+            alli<lb ed="#V" n="25" break="no"/>ciunt animam ad servandum legem
+            <lb ed="#V" n="26"/>bona temporalia, sicut bona aeterna.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d40q1-p4"> -->
+          <p>
+            <lb ed="#V" n="50" type="fixed=1096"/>SCHOLIUM.
+            <lb ed="#V" n="51"/>Ad primum dubitat an moralia legis novae
+            <lb ed="#V" n="52"/>sint graviora veteribus, quia forte multa
+            in<lb ed="#V" n="53" break="no"/>teriora praecipit lex nova, quae non
+            praece<lb ed="#V" n="54" break="no"/>pit vetus, ut ait D. Thom. supra art. 4. dicens
+            <lb ed="#V" n="55"/>ex hac parte novam esse graviorem. Tamen
+            <lb ed="#V" n="56"/>verius est legem veterem prohibuisse actus
+            <lb ed="#V" n="57"/>internos concupiscentiae, quos nova prohibet;
+            <lb ed="#V" n="58"/>sed ex malo intellectu Judaeorum, non
+            cense<lb ed="#V" n="59" break="no"/>bant se obligatos ad abstinendum ab actibus
+            <lb ed="#V" n="60"/>internis malis; et sic intelligitur quod Christus
+            <lb ed="#V" n="61"/>ait Matth. 5. et quoad hoc, nova dici potest
+            <lb ed="#V" n="62"/>gravior, quia explicite obligat ad ista interna,
+            <lb ed="#V" n="63"/>ita Lyran. praefat. ad Evang. Abul. Matth. 11.
+            <lb ed="#V" n="64"/>quaest. 68. Chrysost. in imperfecto homil. 10.
+            <lb ed="#V" n="65"/>August. 19. contra Faust. cap. 23.
+          </p>
+          <p>
+            <lb ed="#V" n="66"/>Ad primum concedo (fi quod si
+            <lb ed="#V" n="67"/>lex nova contineat omnia moralia,
+            <lb ed="#V" n="68"/>quae lex vetus, et addat alia, vel
+            sal<lb ed="#V" n="69" break="no"/>tem addat aliquam explicationem
+            <lb ed="#V" n="70"/>aliquorum, ad quae forte ipsi non
+            <lb ed="#V" n="71"/>tenebantur, quod quantum ad hoc
+            <lb ed="#V" n="72"/>est gravior; tamen hoc non tantum
+            <lb ed="#V" n="73"/>gravat, sicut ex alia parte gravat
+            <lb ed="#V" n="74"/>caeremonialium multitudo, et
+            judi<lb ed="#V" n="75" break="no"/>cialium. Ex parte autem legis novae
+            <lb ed="#V" n="76"/>plus alleviat multitudo et efficacia
+            <lb ed="#V" n="77"/>auxiliorum, ita quod illa modica
+            <lb ed="#V" n="78"/>gravitas, si qua sit major in
+            morali<lb ed="#V" n="79" break="no"/>bus, non praeponderat gravitati in
+            <lb ed="#V" n="80"/>aliis, et hoc pensatis auxiliis hinc
+            <lb ed="#V" n="81"/>inde.
+          </p>
+          <p>
+            <lb ed="#V" n="82"/>Ad secundum dico, quod
+            difficul<lb ed="#V" n="83" break="no"/>tas in opere virtuoso non est per se
+            <lb ed="#V" n="84"/>ex parte operantis, sed ex parte
+            <lb ed="#V" n="85"/>operis; difficilius enim est avaro
+            <lb ed="#V" n="86"/>dare unum nummum, quam liberali
+            <lb ed="#V" n="87"/>decem, et tamen non virtuosius.
+            <lb ed="#V" n="88"/>Nec qualiscumque difficultas ex
+            <lb ed="#V" n="89"/>parte operis arguit majorem
+            virtuo<pb ed="#V" n="1097"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>sitatem, sed illa quae per se includit
+            <lb ed="#V" n="2"/>excellentiam objecti, quod per se
+            <lb ed="#V" n="3"/>attingitur per operationem; talis
+            <lb ed="#V" n="4"/>autem difficultas stat cum majori
+            <lb ed="#V" n="5"/>levitate; nam levius est attingere
+            <lb ed="#V" n="6"/>amando objectum excellentius quam
+            <lb ed="#V" n="7"/>objectum minus excellens, et talia
+            <lb ed="#V" n="8"/>opera excellentia immediate
+            respi<lb ed="#V" n="9" break="no"/>cientia Deum, plura sunt explicita in
+            <lb ed="#V" n="10"/>lege nova; multi enim actus
+            dilec<lb ed="#V" n="11" break="no"/>tionis Dei immediate magis
+            expli<lb ed="#V" n="12" break="no"/>cantur Christianis quam Judaeis.
+            <lb ed="#V" n="13"/>Nec mirum, quia illa dicitur esse
+            <lb ed="#V" n="14"/>lex timoris, haec autem amoris;
+            <lb ed="#V" n="15"/>amor autem et praecipue finis, si
+            <lb ed="#V" n="16"/>ille quaeratur in omnibus, facit
+            om<lb ed="#V" n="17" break="no"/>nia onera levia, ut verum sit quod
+            <lb ed="#V" n="18"/>dixit Salvator Matth. 21. Venite ad
+            <lb ed="#V" n="19"/>me, et sequitur: Jugum enim meum
+            <lb ed="#V" n="20"/>suave est, et onus meum leve. Cui sit
+            <lb ed="#V" n="21"/>laus, honor et gloria per infinita
+            sae<lb ed="#V" n="22" break="no"/>cula saeculorum. Amen.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

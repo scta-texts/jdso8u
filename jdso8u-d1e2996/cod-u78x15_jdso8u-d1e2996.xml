@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 3, Distinctio 31, Quaestio 1</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 3, Distinctio 31, Quaestio 1</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x15">Vives, Paris, 1894, volume 15</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="406"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e2996"><!-- jdso8u-b3d31q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum caritas remaneat in patria ita quod non evacuetur</head>
+        <!-- <div alias="scotus-d31q1-p1"> -->
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43" type="fixed=406"/>QUAESTIO UNICA.
+            <lb ed="#V" n="44"/>Utrum charitas maneat in patria, ita
+            <lb ed="#V" n="45"/>quod non evacuetur?
+          </p>
+          <p>
+            <lb ed="#V" n="46"/>Alens. 3. p. collat. 75. a. 1. D. Thom. 1. 2. q.
+            <lb ed="#V" n="47"/>67. a. 6. et 2. 2. q. 26. a. 13. ubi ejus expos.
+            <lb ed="#V" n="48"/>D. Bonav. hic a. 3. q. 1. Richard. art. 3. q.
+            <lb ed="#V" n="49"/>2. et 3. Argent. q. 1. a. 3. Vega 12. super
+            <lb ed="#V" n="50"/>Frid. c. 2. Durand. hic q. 6.
+          </p>
+          <p>
+            <lb ed="#V" n="51"/>Circa istam trigesimam primam
+            <lb ed="#V" n="52"/>distinctionem, in qua Magister agit
+            <lb ed="#V" n="53"/>de charitate, quantum ad ejus
+            dura<lb ed="#V" n="54" break="no"/>tionem, quaeritur: Utrum charitas
+            <lb ed="#V" n="55"/>maneat in patria, ita quod non
+            eva<lb ed="#V" n="56" break="no"/>cuetur? Quod non, nam ratio
+            Apos<lb ed="#V" n="57" break="no"/>toli 1. ad Corinth. 13. quare aliqua
+            <lb ed="#V" n="58"/>dona evacuantur, est, quia sunt ex
+            <lb ed="#V" n="59"/>parte; sed charitas nunc est ex
+            <lb ed="#V" n="60"/>parte, quia imperfecta, alioquin
+            <lb ed="#V" n="61"/>cum in ea sit beatitudo, esset nunc
+            <lb ed="#V" n="62"/>aliquis hic perfecte beatus.
+          </p>
+          <p>
+            <lb ed="#V" n="63"/>Quod si dicatur beatitudinem non
+            <lb ed="#V" n="64"/>consistere in habitu charitatis, sed
+            <lb ed="#V" n="65"/>in actu ejus, contra, secundum
+            per<lb ed="#V" n="66" break="no"/>fectionem habitus potest elici actus
+            <lb ed="#V" n="67"/>sibi proportionatus; et ita si habitus
+            <lb ed="#V" n="68"/>est nunc aequalis ei, qui est in
+            pa<lb ed="#V" n="69" break="no"/>tria, consimiliter erit et actus, et ita
+            <lb ed="#V" n="70"/>fruitio ita intensa et perfecta nunc,
+            <lb ed="#V" n="71"/>sicut tunc.
+          </p>
+          <p>
+            <lb ed="#V" n="72"/>Praeterea, Fides evacuatur, quia
+            <lb ed="#V" n="73"/>est circa objectum latens; circa idem
+            <lb ed="#V" n="74"/>vero est charitas.
+          </p>
+          <p>
+            <lb ed="#V" n="75"/>Praeterea, Augustinus 83. q. q.
+            <lb ed="#V" n="76"/>48. quaedam sunt credibilia, quae
+            <lb ed="#V" n="77"/>nunquam sciuntur, sed tantum
+            cre<lb ed="#V" n="78" break="no"/>duntur, sicut historiae; sed talium,
+            <lb ed="#V" n="79"/>quorum nunc habetur fides in via,
+            <lb ed="#V" n="80"/>aliqua cognitio potest haberi in
+            pa<lb ed="#V" n="81" break="no"/>tria, et non nisi fides, quia tantum
+            <lb ed="#V" n="82"/>possunt credi; igitur fides, saltem
+            <lb ed="#V" n="83"/>quantum ad illa, non evacuatur.
+          </p>
+          <p>
+            <pb ed="#V" n="407"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Praeterea, eodem habitu
+            concu<lb ed="#V" n="2" break="no"/>pisco aliquid, et quiesco in habito,
+            <lb ed="#V" n="3"/>nam secundum Augustinum 9. de
+            <lb ed="#V" n="4"/>Trin. cap. ult. Appetitus inhiantis,
+            <lb ed="#V" n="5"/>fit amor fruentis, et multo magis
+            <lb ed="#V" n="6"/>patet de habitu. Probatur etiam a
+            <lb ed="#V" n="7"/>simili in naturalibus, quia eadem
+            <lb ed="#V" n="8"/>forma est principium motus ad
+            ter<lb ed="#V" n="9" break="no"/>minum, et quietis in termino; cum
+            <lb ed="#V" n="10"/>igitur spes sit habitus tendendi in
+            <lb ed="#V" n="11"/>terminum, erit habitus quiescendi
+            <lb ed="#V" n="12"/>in ipso habito, et ita non
+            evacua<lb ed="#V" n="13" break="no"/>tur.
+          </p>
+          <p>
+            <lb ed="#V" n="14"/>Contra, 1. Corint. 13. videtur
+            <lb ed="#V" n="15"/>auctoritas Apostoli expressa ad
+            op<lb ed="#V" n="16" break="no"/>positum: Charitas nunquam
+            exci<lb ed="#V" n="17" break="no"/>dit, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="18"/>SCHOLIUM.
+            <lb ed="#V" n="19"/>Primum dictum hujus litterae, fides et spes
+            <lb ed="#V" n="20"/>non manent in patria, probatur ex Heb. 11. et
+            <lb ed="#V" n="21"/>1. Cor. 13. Ratio est, quia ibi essent frustra,
+            <lb ed="#V" n="22"/>quia ibi est verum patens, et bonum
+            posses<lb ed="#V" n="23" break="no"/>sum; de fide docent Aug. tr. 79. in Joan. Athan.
+            <lb ed="#V" n="24"/>tr. de salutari Christi advent. PP. communiter
+            <lb ed="#V" n="25"/>in id Joan. 20. Beati qui non viderunt. et in 1.
+            <lb ed="#V" n="26"/>Cor. 13. et in id 1. Pet. 1. In quem non videntes
+            <lb ed="#V" n="27"/>creditis. Communis cum D. Thom. 2. 2. q. 19.
+            <lb ed="#V" n="28"/>a. 2. et 3. contra Durand. hic q. 4. et Rubion
+            <lb ed="#V" n="29"/>d. 27. et hic a. 2. manent tamen in incolis
+            Pur<lb ed="#V" n="30" break="no"/>gatorii, ex communi cum D. Thom. d. art. 3.
+            <lb ed="#V" n="31"/>Secundum, non oportet succedere in patria
+            <lb ed="#V" n="32"/>alios habitus incompossibiles fidei et spei; hinc
+            <lb ed="#V" n="33"/>tamen non potest inferri intellectum suis
+            viri<lb ed="#V" n="34" break="no"/>bus videre Deum, id enim negat Doctor late 4.
+            <lb ed="#V" n="35"/>d. 49. q. 11. et supra d. 14. q. 2. n. 2. et 3. et
+            <lb ed="#V" n="36"/>1. d. 17. q. 2. Vide quae notavi d. q. 11. sed nec
+            <lb ed="#V" n="37"/>negat habitum luminis gloriae, inhaerentem de
+            <lb ed="#V" n="38"/>facto, quem expresse ponit d. q. 2. d. 17. sed
+            <lb ed="#V" n="39"/>tantum ait, non esse necessarium, quia sine eo
+            <lb ed="#V" n="40"/>potest Deus se praesentare, idque sufficit ad
+            in<lb ed="#V" n="41" break="no"/>tentum Clem. Ad nostram, de haeret. Tertium
+            <lb ed="#V" n="42"/>dictum, visio et tentio non repugnant, fidei et
+            <lb ed="#V" n="43"/>spei habitualibus. Probat ex raptu Pauli, vide
+            <lb ed="#V" n="44"/>Doct. supra d. 24. 8 Contra haec. Paulum vidisse
+            <lb ed="#V" n="45"/>divinam essentiam in raptu, ut dicit Doct. hic
+            <lb ed="#V" n="46"/>et 2. d. 3. q. 9. et 4. d. 49. q. 12. et 1. d. 1. q.
+            <lb ed="#V" n="47"/>4. et quodl. 7. 8 secunda concl. Tenent Chrys.
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="48"/>hom. 26. in 2. ad Cor. Aug. 12. in Gen ad lit.
+            <lb ed="#V" n="49"/>c. 27. 28. 1. 83. q. 81. Anselm. in 2. Cor. 12. D.
+            <lb ed="#V" n="50"/>Thom. 2. 2. q. 175. a.4. Negant Hier. dialog. 3.
+            <lb ed="#V" n="51"/>contra Pelag. fin Nazianz. orat. 14. Quartum
+            <lb ed="#V" n="52"/>dictum n. 4. circa idem objectum formale
+            da<lb ed="#V" n="53" break="no"/>biles esse actus, etiam ejusdem potentiae,
+            spe<lb ed="#V" n="54" break="no"/>cie diversos, quia spei et charitatis idem est
+            <lb ed="#V" n="55"/>objectum, et sufficere diversam
+            approximatio<lb ed="#V" n="56" break="no"/>nem ad diversificandos actus. Videtur
+            opposi<lb ed="#V" n="57" break="no"/>tum dicere 1. d. 1. q. 4. n. 14. Vide Leuchet. ei
+            <lb ed="#V" n="58"/>Tartaret. hic, et Pitigianis hic, a. 2. fin. qui
+            <lb ed="#V" n="59"/>eum concordant.
+          </p>
+          <p>
+            <lb ed="#V" n="60"/>Respondeo (a) nullus habitus
+            po<lb ed="#V" n="61" break="no"/>nendus est ibi manere frustra;
+            frus<lb ed="#V" n="62" break="no"/>tra autem esset ibi habitus, cujus
+            <lb ed="#V" n="63"/>inclinatio esset tunc impossibilis.
+            <lb ed="#V" n="64"/>Fides autem ex ratione sua inclinat
+            <lb ed="#V" n="65"/>tantum in verum latens, secundum
+            <lb ed="#V" n="66"/>Glossam super illud Hebr. 11. Fides
+            <lb ed="#V" n="67"/>est substantia rerum sperandarum,
+            <lb ed="#V" n="68"/>argumentum non apparentium; et
+            <lb ed="#V" n="69"/>spes tantum inclinat in bonum
+            com<lb ed="#V" n="70" break="no"/>modum absens, juxta illud Rom. 8.
+            <lb ed="#V" n="71"/>Spes, quae videtur, non est spes;
+            <lb ed="#V" n="72"/>accipiendo spem pro sperato, scilicet
+            <lb ed="#V" n="73"/>pro objecto. Inclinationes autem
+            is<lb ed="#V" n="74" break="no"/>tae non poterunt haberi in patria,
+            <lb ed="#V" n="75"/>ubi erit verum patens et bonum
+            ha<lb ed="#V" n="76" break="no"/>bitum; igitur isti habitus non
+            ma<lb ed="#V" n="77" break="no"/>nebunt, quia essent superflui.
+          </p>
+          <p>
+            <lb ed="#V" n="78"/>Sed hic est unum dubium (b), an
+            <lb ed="#V" n="79"/>scilicet istae virtutes evacuentur,
+            <lb ed="#V" n="80"/>quia succedant eis aliqua
+            incompos<lb ed="#V" n="81" break="no"/>sibilia? Respondeo, non oportet
+            <lb ed="#V" n="82"/>ponere quod succedant eis alii
+            habi<lb ed="#V" n="83" break="no"/>tus, loquendo proprie, sicut habitus
+            <lb ed="#V" n="84"/>differunt ab actibus, quia, sicut
+            dic<lb ed="#V" n="85" break="no"/>tum est supra in materia de anima
+            <lb ed="#V" n="86"/>Christi, non est necessarium ponere
+            <lb ed="#V" n="87"/>aliquem habitum in patria creatum
+            <lb ed="#V" n="88"/>in ipsa anima, quis sit principium
+            <lb ed="#V" n="89"/>videndi vel tenendi objectum, saltem
+            <lb ed="#V" n="90"/>alium, nisi charitatem, quia habitus
+            <lb ed="#V" n="91"/>non ponitur in potentia nisi ad
+            faci<lb ed="#V" n="92" break="no"/>litandum et habilitandum potentiam
+            <pb ed="#V" n="408"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>ad eliciendum actum, vel saltem in
+            <lb ed="#V" n="2"/>intellectualibus, ut objectum sit
+            prae<lb ed="#V" n="3" break="no"/>sens intellectui, ut intellectus possit
+            <lb ed="#V" n="4"/>prompte operari circa illud quod
+            <lb ed="#V" n="5"/>non posset, si objectum esset in
+            <lb ed="#V" n="6"/>quolibet actu de novo
+            adipiscen<lb ed="#V" n="7" break="no"/>dum; sed ibi objectum semper erit
+            <lb ed="#V" n="8"/>praesens, et semper agens in
+            poten<lb ed="#V" n="9" break="no"/>tiam, et potentia erit summe
+            facili<lb ed="#V" n="10" break="no"/>tata et inclinata.
+          </p>
+          <p>
+            <lb ed="#V" n="11"/>Quod si succedant (c) aliqui actus
+            <lb ed="#V" n="12"/>repugnantes illis, qui nunc
+            haben<lb ed="#V" n="13" break="no"/>tur, ut videre et tenere succedant
+            <lb ed="#V" n="14"/>credere et sperare; illi actus
+            succe<lb ed="#V" n="15" break="no"/>dentes non habent proprie
+            incom<lb ed="#V" n="16" break="no"/>possibilitatem ad habitus fidei et
+            <lb ed="#V" n="17"/>spei. Quod probatur, quia Paulus
+            <lb ed="#V" n="18"/>in raptu habuit saltem actum
+            visio<lb ed="#V" n="19" break="no"/>nis, et tamen non erat in eo
+            evacua<lb ed="#V" n="20" break="no"/>tus habitus fidei; igitur ille actus
+            <lb ed="#V" n="21"/>non repugnat habitui fidei; non
+            <lb ed="#V" n="22"/>ergo evacuatur fides et spes, quia
+            <lb ed="#V" n="23"/>succedat eis aliquid incompossibile,
+            <lb ed="#V" n="24"/>sed quia essent superflui.
+          </p>
+          <p>
+            <lb ed="#V" n="25"/>Sed adhuc (d) restat aliud dubium
+            <lb ed="#V" n="26"/>circa objectum istarum virtutum,
+            <lb ed="#V" n="27"/>quia videtur quod earum formale
+            <lb ed="#V" n="28"/>objectum non sit Deus, ut latens,
+            <lb ed="#V" n="29"/>sive ut absens, ita quod latentia vel
+            <lb ed="#V" n="30"/>absentia sit formalis ratio objecti;
+            <lb ed="#V" n="31"/>sed sola ratio objecti est Deus, ut
+            <lb ed="#V" n="32"/>Deus, sicut tactum est dist. 26.
+            hu<lb ed="#V" n="33" break="no"/>jus, et in primo. q. de objecto
+            Theo<lb ed="#V" n="34" break="no"/>logiae; et tunc non videtur quod
+            for<lb ed="#V" n="35" break="no"/>mali ratione objecti careant habitus
+            <lb ed="#V" n="36"/>isti, et ita poterunt manere et
+            incli<lb ed="#V" n="37" break="no"/>nare in objectum proprium; et
+            eo<lb ed="#V" n="38" break="no"/>dem modo potest argui de actibus,
+            <lb ed="#V" n="39"/>nam idem sub eadem ratione est
+            <lb ed="#V" n="40"/>objectum habitus et actus proprii
+            <lb ed="#V" n="41"/>illius habitus.
+          </p>
+          <p>
+            <lb ed="#V" n="42"/>Praeterea, (e) sicut argutum est,
+            <lb ed="#V" n="43"/>saltem de spe, videtur quod
+            pos<lb ed="#V" n="44" break="no"/>sit esse inclinans ad desiderandum
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>absens, et amandum praesens.
+          </p>
+          <p>
+            <lb ed="#V" n="46"/>Dico, quod respectu ejusdem
+            ob<lb ed="#V" n="47" break="no"/>jecti, et sub eadem ratione formali,
+            <lb ed="#V" n="48"/>possunt esse multi actus, et non
+            so<lb ed="#V" n="49" break="no"/>lum potentiarum ordinatarum, sed
+            <lb ed="#V" n="50"/>ejusdem potentiae, differentes
+            secun<lb ed="#V" n="51" break="no"/>dum perfectum et imperfectum, nec
+            <lb ed="#V" n="52"/>tantum secundum quod perfectum et
+            <lb ed="#V" n="53"/>imperfectum se habent sicut magis
+            <lb ed="#V" n="54"/>et minus in eadem specie, sed sicut
+            <lb ed="#V" n="55"/>se habent diversae species in eodem
+            <lb ed="#V" n="56"/>genere, puta media et extrema. Hoc
+            <lb ed="#V" n="57"/>modo dico, quod respectu Dei in se,
+            <lb ed="#V" n="58"/>non solum sunt actus intelligendi et
+            <lb ed="#V" n="59"/>volendi, qui sunt actus subordinati,
+            <lb ed="#V" n="60"/>sed etiam actus diligendi sic et sic,
+            <lb ed="#V" n="61"/>scilicet non tantum differentes
+            secun<lb ed="#V" n="62" break="no"/>dum magis et minus in eadem
+            spe<lb ed="#V" n="63" break="no"/>cie, sed sicut media et extrema in
+            <lb ed="#V" n="64"/>eodem genere. Quod potest sic poni
+            <lb ed="#V" n="65"/>in proposito, quando enim perfectio
+            <lb ed="#V" n="66"/>actus est a duobus, scilicet a
+            poten<lb ed="#V" n="67" break="no"/>tia et objecto, quando variatur
+            pro<lb ed="#V" n="68" break="no"/>pria ratio istorum, vel alterius
+            eo<lb ed="#V" n="69" break="no"/>rum in se, vel conjunctione cum
+            <lb ed="#V" n="70"/>reliqua causa, vel secundum
+            ap<lb ed="#V" n="71" break="no"/>proximationem ad reliquam
+            cau<lb ed="#V" n="72" break="no"/>sam, quia minus perfecte agunt
+            <lb ed="#V" n="73"/>causae partiales respectu effectus,
+            <lb ed="#V" n="74"/>quando non sunt sufficienter
+            appro<lb ed="#V" n="75" break="no"/>ximatae et conjunctae, variabitur
+            <lb ed="#V" n="76"/>tunc perfectio hujus actus.
+          </p>
+          <p>
+            <lb ed="#V" n="77"/>Et ita est in proposito, respectu
+            <lb ed="#V" n="78"/>enim actus tentionis objectum
+            vo<lb ed="#V" n="79" break="no"/>luntatis est in se praesens, respectu
+            <lb ed="#V" n="80"/>autem actus desiderii est absens, et
+            <lb ed="#V" n="81"/>secundum rationem formalem talis
+            <lb ed="#V" n="82"/>actus, objectum non est in se
+            reali<lb ed="#V" n="83" break="no"/>ter conjunctum potentiae. Est igitur
+            <lb ed="#V" n="84"/>ille actus imperfectus respectu illius,
+            <lb ed="#V" n="85"/>et hoc in alia specie, quae est ut
+            <lb ed="#V" n="86"/>media ad extremum; non propter
+            <lb ed="#V" n="87"/>aliam rationem in objecto, sed
+            <lb ed="#V" n="88"/>propter approximationem objecti
+            <pb ed="#V" n="409"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>ad reliquam causam partialem, quae
+            <lb ed="#V" n="2"/>sufficit ad distinguendum specie
+            <lb ed="#V" n="3"/>effectus illarum duarum causarum,
+            <lb ed="#V" n="4"/>sicut si alia actio sequeretur Solem
+            <lb ed="#V" n="5"/>inquantum praecise est praesens
+            se<lb ed="#V" n="6" break="no"/>cundum radium reflexum, et alia
+            <lb ed="#V" n="7"/>secundum quod est praesens
+            prae<lb ed="#V" n="8" break="no"/>cise secundum radium rectum;
+            <lb ed="#V" n="9"/>isti effectus distinguerentur
+            spe<lb ed="#V" n="10" break="no"/>cie, non ex distinctione passi vel
+            <lb ed="#V" n="11"/>agentis quantum ad rationem
+            for<lb ed="#V" n="12" break="no"/>malem agentis, sed ex
+            approxima<lb ed="#V" n="13" break="no"/>tione alia et alia ejusdem agentis ad
+            <lb ed="#V" n="14"/>idem passum.
+          </p>
+          <p>
+            <lb ed="#V" n="15"/>Quando ergo arguitur,
+            objec<lb ed="#V" n="16" break="no"/>tum est idem formaliter, concedo,
+            <lb ed="#V" n="17"/>objectum virtutum in se et in
+            <lb ed="#V" n="18"/>patria. Nec ex hoc sequitur, quod
+            <lb ed="#V" n="19"/>actus sint idem specie, etiam qui
+            <lb ed="#V" n="20"/>sunt ejusdem potentiae, imo possunt
+            <lb ed="#V" n="21"/>esse diversi in eadem vi, si per
+            <lb ed="#V" n="22"/>se sint circa objectum diversimode
+            <lb ed="#V" n="23"/>praesens potentiae. Et similis
+            dis<lb ed="#V" n="24" break="no"/>tinctio potest poni habituum
+            incli<lb ed="#V" n="25" break="no"/>nantium ad tales actus, nam ad
+            <lb ed="#V" n="26"/>omnem actum alicujus speciei in
+            <lb ed="#V" n="27"/>natura rationali, qui potest
+            fre<lb ed="#V" n="28" break="no"/>quenter elici, potest esse aliquis
+            <lb ed="#V" n="29"/>habitus realiter inclinans ad tales
+            <lb ed="#V" n="30"/>actus.
+          </p>
+          <p>
+            <lb ed="#V" n="31"/>Quantum ad aliud (f) quod
+            tan<lb ed="#V" n="32" break="no"/>gitur de spe, dici posset quod, sicut
+            <lb ed="#V" n="33"/>quilibet actus distinctus specie ab
+            <lb ed="#V" n="34"/>alio potest habere proprium
+            habi<lb ed="#V" n="35" break="no"/>tum in voluntate, vel in intellectu
+            <lb ed="#V" n="36"/>inclinantem ad ipsum, ita etiam
+            <lb ed="#V" n="37"/>potest esse unus habitus generalis
+            <lb ed="#V" n="38"/>inclinans ad unum actum in genere,
+            <lb ed="#V" n="39"/>et multos in specie, quemadmodum
+            <lb ed="#V" n="40"/>si justitia ponitur virtus una
+            se<lb ed="#V" n="41" break="no"/>cundum genus, non secundum
+            <lb ed="#V" n="42"/>speciem, habet actum similiter
+            <lb ed="#V" n="43"/>unum. Et hoc modo potest esse
+            <lb ed="#V" n="44"/>unus habitus, qui per se respiceret
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>Deum, inquantum conveniens
+            na<lb ed="#V" n="46" break="no"/>turae rationali, et sic indistincte
+            <lb ed="#V" n="47"/>inclinaret in ipsum; et si hujus
+            <lb ed="#V" n="48"/>actus esset habitus sic indistincte
+            <lb ed="#V" n="49"/>tendens in ipsum, id est, non sub
+            <lb ed="#V" n="50"/>propria ratione, in quantum
+            scili<lb ed="#V" n="51" break="no"/>cet est sic approximatus, vel sic
+            <lb ed="#V" n="52"/>conjunctus potentiae tendenti, ille
+            <lb ed="#V" n="53"/>habitus non variaretur, sive
+            po<lb ed="#V" n="54" break="no"/>tentia tenderet in objectum
+            desi<lb ed="#V" n="55" break="no"/>derando vel tenendo; talis habitus
+            <lb ed="#V" n="56"/>non ponitur spes, sed spes ponitur
+            <lb ed="#V" n="57"/>praecise inclinans ad istum actum
+            <lb ed="#V" n="58"/>imperfectum, qui est desiderium.
+            <lb ed="#V" n="59"/>Concedo igitur, quod bene posset
+            <lb ed="#V" n="60"/>esse unus habitus tendens in
+            ip<lb ed="#V" n="61" break="no"/>sum Deum, ut est bonum
+            commo<lb ed="#V" n="62" break="no"/>dum, et non oporteret illum
+            eva<lb ed="#V" n="63" break="no"/>cuari; sed spes ponitur praecise
+            <lb ed="#V" n="64"/>inclinans ad actum imperfectum,
+            <lb ed="#V" n="65"/>et hoc imperfectione alterius
+            ratio<lb ed="#V" n="66" break="no"/>nis, quam facit absentia objecti
+            res<lb ed="#V" n="67" break="no"/>pectu potentiae tendentis.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d31q1-p2"> -->
+          <p>
+            <lb ed="#V" n="66" type="fixed=415"/>SCHOLIUM.
+            <lb ed="#V" n="67"/>Charitatem manere in patria, ex Apost. 1.
+            <lb ed="#V" n="68"/>Cor. 13. Ratio est, quia tendit in objectum,
+            <lb ed="#V" n="69"/>Deum, secundum se, abstrahendo a modo
+            <lb ed="#V" n="70"/>perfecte et imperfecte tendendi; spes autem
+            <lb ed="#V" n="71"/>et fides tendunt sub modo imperfecto, quo
+            <lb ed="#V" n="72"/>non existente in patria, tendere nequeunt, et
+            <lb ed="#V" n="73"/>consequenter non censentur ibi manere.
+          </p>
+          <p>
+            <lb ed="#V" n="74"/>Viso de fide (g) et spe, quomodo
+            <lb ed="#V" n="75"/>evacuantur, videndum est de
+            chari<lb ed="#V" n="76" break="no"/>tate, quomodo manet eadem in
+            pa<lb ed="#V" n="77" break="no"/>tria; suppono enim quod haec sit
+            <lb ed="#V" n="78"/>ratio charitatis, scilicet quod est
+            <lb ed="#V" n="79"/>amicitia Dei, ut in se bonum. Iste
+            <lb ed="#V" n="80"/>habitus non distincte inclinat ad
+            <lb ed="#V" n="81"/>actum perfectum amandi Deum,
+            si<lb ed="#V" n="82" break="no"/>cut amatur, quando est in se
+            prae<lb ed="#V" n="83" break="no"/>sens, nec ad actum imperfectum,
+            <lb ed="#V" n="84"/>sicut amatur, quando est imperfecte
+            <lb ed="#V" n="85"/>praesens, sicut in aenigmate; sed
+            in<lb ed="#V" n="86" break="no"/>clinat ad hunc actum, et ad illum,
+            <lb ed="#V" n="87"/>licet indistincte. Et quod talis
+            habi<pb ed="#V" n="416"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>tus possit haberi, patet ex dictis
+            <lb ed="#V" n="2"/>nunc de spe; rationabilius enim est
+            <lb ed="#V" n="3"/>hic de habitu tendente in Deum,
+            <lb ed="#V" n="4"/>ut est bonum in se, quam de habitu
+            <lb ed="#V" n="5"/>tendente in Deum, ut est bonum
+            <lb ed="#V" n="6"/>mihi, quia non variatur actus ille,
+            <lb ed="#V" n="7"/>qui tendit in Deum, ut est in se
+            <lb ed="#V" n="8"/>bonum, ex praesentia perfecta vel
+            <lb ed="#V" n="9"/>imperfecta Dei, sicut ille, qui tendit
+            <lb ed="#V" n="10"/>in Deum, ut est bonum commodum.
+            <lb ed="#V" n="11"/>Prima enim variatio, vel non est
+            <lb ed="#V" n="12"/>secundum speciem, vel si est, non
+            <lb ed="#V" n="13"/>tamen est secundum speciem tam
+            <lb ed="#V" n="14"/>remotam, sicut secunda. Ex quo
+            <lb ed="#V" n="15"/>enim inclinatio manebit in patria
+            <lb ed="#V" n="16"/>ad diligendum Deum in se, manebit
+            <lb ed="#V" n="17"/>etiam inclinatio ad actum illum, qui
+            <lb ed="#V" n="18"/>ponitur esse charitatis, ut actus ejus,
+            <lb ed="#V" n="19"/>et ita habitus ille poterit manere.
+          </p>
+          <p>
+            <lb ed="#V" n="20"/>Si objicitur (h), quod praesentia
+            <lb ed="#V" n="21"/>objecti talis vel talis, potest variare
+            <lb ed="#V" n="22"/>actus secundum speciem; igitur
+            <lb ed="#V" n="23"/>possunt esse duo habitus distincti
+            <lb ed="#V" n="24"/>specie, quorum unus sit
+            princi<lb ed="#V" n="25" break="no"/>pium diligendi Deum in se, ut
+            <lb ed="#V" n="26"/>praesentatus est per fidem, et ille
+            <lb ed="#V" n="27"/>evacuabitur; alius ut est praesens
+            <lb ed="#V" n="28"/>per visionem, et ille succedet.
+            Con<lb ed="#V" n="29" break="no"/>cedo quod duo tales habitus
+            pos<lb ed="#V" n="30" break="no"/>sunt esse simul in voluntate; sed
+            <lb ed="#V" n="31"/>haec non ponitur ratio charitatis,
+            <lb ed="#V" n="32"/>quod sit praecise principium actus
+            <lb ed="#V" n="33"/>imperfecti circa objectum latens,
+            <lb ed="#V" n="34"/>sed quod sit indistincte principium
+            <lb ed="#V" n="35"/>tendendi in Deum, ut in se bonum
+            <lb ed="#V" n="36"/>praecise.
+          </p>
+          <p>
+            <lb ed="#V" n="37"/>Breviter igitur (i), quidquid sit de
+            <lb ed="#V" n="38"/>fide, de istis tamen duabus
+            virtuti<lb ed="#V" n="39" break="no"/>bus appetitivis, spe et charitate,
+            con<lb ed="#V" n="40" break="no"/>cedi potest quod potest esse unus
+            <lb ed="#V" n="41"/>habitus appetitivus respectu
+            com<lb ed="#V" n="42" break="no"/>modi manens, sicut charitas manet;
+            <lb ed="#V" n="43"/>et possunt esse duo habitus
+            appeti<lb ed="#V" n="44" break="no"/>tivi respectu Dei (k), ut est bonum
+          </p>
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>honestum, sed unus evacuaretur,
+            <lb ed="#V" n="46"/>sicut ponitur nunc fidem evacuari.
+            <lb ed="#V" n="47"/>Sed supponimus (I) nunc ex dictis
+            <lb ed="#V" n="48"/>Sanctorum distinctionem illorum
+            <lb ed="#V" n="49"/>habituum, scilicet, spei et
+            charita<lb ed="#V" n="50" break="no"/>tis, ita quod spes non inclinat ad
+            <lb ed="#V" n="51"/>actum tendendi in bonum
+            commo<lb ed="#V" n="52" break="no"/>dum absolute, sed ad actum
+            imper<lb ed="#V" n="53" break="no"/>fectum ex absentia objecti, ita quod
+            <lb ed="#V" n="54"/>illa imperfectio non accidat actui,
+            <lb ed="#V" n="55"/>inquantum est hujus habitus, sed
+            <lb ed="#V" n="56"/>sit de ratione ejus; charitas autem
+            <lb ed="#V" n="57"/>sit principium et habitus tendendi
+            <lb ed="#V" n="58"/>in Deum, ut est bonum in se, ita
+            <lb ed="#V" n="59"/>quod actui, ut est ejus, accidat
+            <lb ed="#V" n="60"/>perfectio et imperfectio ex
+            praesen<lb ed="#V" n="61" break="no"/>tia vel absentia objecti; sed ad
+            ac<lb ed="#V" n="62" break="no"/>tum perfectum inclinat ex praesentia
+            <lb ed="#V" n="63"/>objecti, et ad actum imperfectum ex
+            <lb ed="#V" n="64"/>absentia.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d31q1-p3"> -->
+          <p>
+            <lb ed="#V" n="81" type="fixed=418"/>SCHOLIUM.
+            <lb ed="#V" n="82"/>Ad primum, reddit rationem disparitatis,
+            <lb ed="#V" n="83"/>quare charitas non excidit, fides et spes sic. Ad
+            <lb ed="#V" n="84"/>secundum, latentiam, seu esse non visum, non
+            <lb ed="#V" n="85"/>esse rationem objecti fidei et spei, sed modum
+            <lb ed="#V" n="86"/>necessario concomitantem illud. Ad tertium,
+            <lb ed="#V" n="87"/>dum ait Trinitatem per se pertinere ad
+            objec<lb ed="#V" n="88" break="no"/>tum beatificum, loquitur de chjecto per se
+            se<pb ed="#V" n="419"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>undario, non formali, nec primario, quia haec
+            <lb ed="#V" n="2"/>st sola essentia, ut docet, 1. dist. 1. quaest. 2.
+            <lb ed="#V" n="3"/>t alias saepe; sub dubio ait posse dici, de
+            cre<lb ed="#V" n="4" break="no"/>dibilibus, quae nec per se, nec concomitanter
+            <lb ed="#V" n="5"/>spectant ad beatitudinem, manere fidem in
+            <lb ed="#V" n="6"/>patria, quod sicut incertum est, ita impugnari
+            <lb ed="#V" n="7"/>facile non potest. Exemplum ponit Leuchet.
+            <lb ed="#V" n="8"/>hic, quod S. Leo fuit verus Papa.
+          </p>
+          <p>
+            <lb ed="#V" n="9"/>Ad primum (m) argumentum,
+            di<lb ed="#V" n="10" break="no"/>ro quod aliae virtutes sunt ex parte,
+            <lb ed="#V" n="11"/>quia includunt essentialiter in
+            acti<lb ed="#V" n="12" break="no"/>bus suis aliquid, quod necessario
+            <lb ed="#V" n="13"/>determinat sibi imperfectionem,
+            <lb ed="#V" n="14"/>quae tunc evacuabitur; charitas
+            <lb ed="#V" n="15"/>autem non necessario determinat
+            <lb ed="#V" n="16"/>actum suum ad aliquid, ad quod
+            <lb ed="#V" n="17"/>sequatur imperfectio; sed actus
+            in<lb ed="#V" n="18" break="no"/>quantum est ejus, est indifferens,
+            <lb ed="#V" n="19"/>ita quod accidit sibi talis
+            imperfec<lb ed="#V" n="20" break="no"/>tio vel perfectio posita. Quod
+            argui<lb ed="#V" n="21" break="no"/>tur contra illam solutionem datam
+            <lb ed="#V" n="22"/>ibi, quae bona est, inquantum negat
+            <lb ed="#V" n="23"/>beatitudinem posse hic haberi; nam
+            <lb ed="#V" n="24"/>etsi aliquis haberet hic aequalem
+            <lb ed="#V" n="25"/>charitatem, sicut in patria, non
+            pro<lb ed="#V" n="26" break="no"/>pter hoc esset hic beatus, quia non
+            <lb ed="#V" n="27"/>posset habere aequalem actum,
+            si<lb ed="#V" n="28" break="no"/>cut tunc habebit, et in actu
+            consi<lb ed="#V" n="29" break="no"/>stit beatitudo. Nec sequitur, si
+            ha<lb ed="#V" n="30" break="no"/>bitus est aeque perfectus hic et ibi,
+            <lb ed="#V" n="31"/>igitur et actus similiter, quia actus
+            <lb ed="#V" n="32"/>diligendi Deum dependet sicut a
+            <lb ed="#V" n="33"/>causa partiali, non solum a
+            volun<lb ed="#V" n="34" break="no"/>tate et charitate, sed etiam ab
+            ob<lb ed="#V" n="35" break="no"/>jecto praesente per actualem
+            intel<lb ed="#V" n="36" break="no"/>lectionem, sicut dictum est dist. 25.
+            <lb ed="#V" n="37"/>secundi, et hoc secundum
+            determi<lb ed="#V" n="38" break="no"/>natam perfectionem, secundum
+            <lb ed="#V" n="39"/>quod est determinate praesens; si
+            <lb ed="#V" n="40"/>magis, magis; si minus, minus. In
+            <lb ed="#V" n="41"/>via de communi lege non potest
+            <lb ed="#V" n="42"/>esse objectum praesens sicut in
+            <lb ed="#V" n="43"/>patria, etiam praesentia speciei
+            ejus<lb ed="#V" n="44" break="no"/>dem. Unde ex hoc sequitur, quod
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>actus non possit esse ita perfectus,
+            <lb ed="#V" n="46"/>etsi habitus sit aequalis, quia
+            habi<lb ed="#V" n="47" break="no"/>tus non erit totale principium illius
+            <lb ed="#V" n="48"/>actus, sed partiale, et eo modo quo
+            <lb ed="#V" n="49"/>ipse habitus est principium, semper
+            <lb ed="#V" n="50"/>aequaliter se habet ad actum;
+            sem<lb ed="#V" n="51" break="no"/>per enim quantum est ex se dat
+            <lb ed="#V" n="52"/>actui suo, quod sit quoddam amare
+            <lb ed="#V" n="53"/>Dei, inquantum est summum
+            bo<lb ed="#V" n="54" break="no"/>num, nec habitus dat sibi quod sit
+            <lb ed="#V" n="55"/>Dei ut praesens vel absens; nec dat
+            <lb ed="#V" n="56"/>sibi perfectionem, quam habet ex
+            <lb ed="#V" n="57"/>objecto sic vel sic praesente.
+          </p>
+          <p>
+            <lb ed="#V" n="58"/>Ad secundum (n) patet, quod etsi
+            <lb ed="#V" n="59"/>absentia non sit formalis ratio in
+            <lb ed="#V" n="60"/>objecto fidei vel spei, tamen actus
+            <lb ed="#V" n="61"/>fidei et spei est talis per se, quod
+            <lb ed="#V" n="62"/>necessario concomitatur ipsum
+            im<lb ed="#V" n="63" break="no"/>perfectio; et ideo fides determinate
+            <lb ed="#V" n="64"/>inclinat ad actum talis speciei, ad
+            <lb ed="#V" n="65"/>quem non potest esse determinatio
+            <lb ed="#V" n="66"/>in patria. Charitas autem, etsi nunc
+            <lb ed="#V" n="67"/>sit determinata ad actum circa illud
+            <lb ed="#V" n="68"/>quod latet, et per consequens circa
+            <lb ed="#V" n="69"/>imperfectum, non tamen inclinat ad
+            <lb ed="#V" n="70"/>actum sic imperfectum, sed ad
+            ac<lb ed="#V" n="71" break="no"/>tum, cui accidit imperfectio.
+          </p>
+          <p>
+            <lb ed="#V" n="72"/>Ad tertium (o), potest dici quod
+            <lb ed="#V" n="73"/>credibilia sunt in triplici differentia;
+            <lb ed="#V" n="74"/>quaedam enim sunt, quorum visio
+            <lb ed="#V" n="75"/>per se pertinet ad beatitudinem,
+            <lb ed="#V" n="76"/>sicut est visio Trinitatis, et talia
+            <lb ed="#V" n="77"/>sunt scibilia, extendendo scire, et
+            <lb ed="#V" n="78"/>sunt visibilia extendendo videre, et
+            <lb ed="#V" n="79"/>de istis per se intelligendum est,
+            <lb ed="#V" n="80"/>quod fidei succedat visio.
+          </p>
+          <p>
+            <lb ed="#V" n="81"/>Alia sunt, (p) quorum visio aliquo
+            <lb ed="#V" n="82"/>modo pertinet ad beatitudinem, non
+            <lb ed="#V" n="83"/>tamen essentialiter, sed
+            concomi<lb ed="#V" n="84" break="no"/>tanter, quae etiam non sunt scibilia,
+            <lb ed="#V" n="85"/>quia sunt quaedam facta
+            tempora<lb ed="#V" n="86" break="no"/>lia, sicut sunt credibilia de
+            Incarna<lb ed="#V" n="87" break="no"/>tione; et de talibus concomitanter
+            <lb ed="#V" n="88"/>succedet fidei visio, non tamen rei
+            <pb ed="#V" n="420"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>in se, quia non videbitur in patria
+            <lb ed="#V" n="2"/>Christus in Cruce, nec in utero
+            <lb ed="#V" n="3"/>Virginis, sed in Verbo.
+          </p>
+          <p>
+            <lb ed="#V" n="4"/>Alia sunt, nec unquam visibilia
+            <lb ed="#V" n="5"/>(q), nec scibilia, quia facta
+            tempo<lb ed="#V" n="6" break="no"/>ralia, nec pertinentia ad
+            beatitudi<lb ed="#V" n="7" break="no"/>nem principaliter, nec
+            concomitan<lb ed="#V" n="8" break="no"/>ter, cujusmodi sunt aliqua vera
+            <lb ed="#V" n="9"/>pertinentia ad actus humanos; de
+            <lb ed="#V" n="10"/>talibus autem si quis viator haberet
+            <lb ed="#V" n="11"/>fidem, potest concedi quod in illo
+            <lb ed="#V" n="12"/>potest manere fides.
+          </p>
+          <p>
+            <lb ed="#V" n="13"/>Ad ultimum patet ex dictis in
+            <lb ed="#V" n="14"/>corpore quaestionis.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

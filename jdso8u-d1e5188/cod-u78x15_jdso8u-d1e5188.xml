@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 3, Distinctio 25, Quaestio 2</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 3, Distinctio 25, Quaestio 2</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x15">Vives, Paris, 1894, volume 15</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="166"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e5188"><!-- jdso8u-b3d25q2 -->
+        <head>Quaestio 2</head>
+        <head type="question-title">Utrum ut fides sit in intellectu necesse sit aliquem habitum infusum esse in voluntate</head>
+        <!-- <div alias="scotus-d25q2-p1"> -->
+          <p>
+            <pb ed="#V" n="166"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1" type="fixed=166"/>QUESTIO II.
+            <lb ed="#V" n="2"/>INCIDENTALIS SEU LATERALIS.
+            <lb ed="#V" n="3"/>Utrum ut fides sit in intellectu, necesse
+            <lb ed="#V" n="4"/>sit aliquem habitum infusum esse in
+            <lb ed="#V" n="5"/>voluntate?
+          </p>
+          <p>
+            <lb ed="#V" n="6"/>Alensis 3 p. q. 80. membr. 1. D. Thom. 3. p. q.
+            <lb ed="#V" n="7"/>24. art. 2. et 2. 2. q. 4. art. 2. ubi Cajet.
+            Ba<lb ed="#V" n="8" break="no"/>gnez, Lorca, Pesant. D. Bonaventura dist. 23.
+            <lb ed="#V" n="9"/>art. 1. q. 2. Richard. art. 6. q. 1. Michael. Med.
+            <lb ed="#V" n="10"/>lib. 4. c. 2. Suar. 3. p. tom. 1. q. 7. in art. 3.
+            <lb ed="#V" n="11"/>Valent. 2. 2. disp. 1. q. 1. p. 4. 8 Sed ad
+            ter<lb ed="#V" n="12" break="no"/>tium. Vasq. 1. 2. disp. 186. c. 2. Molina 1. p.
+            <lb ed="#V" n="13"/>in Concord. ad quaest. 14. art. 13. dist. 8.
+          </p>
+          <p>
+            <lb ed="#V" n="14"/>Juxta hoc (m) posset quaeri, utrum
+            <lb ed="#V" n="15"/>ad hoc quod fides sit in intellectu,
+            <lb ed="#V" n="16"/>necesse sit aliquem habitum
+            infu<lb ed="#V" n="17" break="no"/>sum esse in voluntate? Et dicunt
+            <lb ed="#V" n="18"/>aliqui quod sic, quia, ut dicunt,
+            <lb ed="#V" n="19"/>intellectus pro statu isto non
+            mo<lb ed="#V" n="20" break="no"/>vetur, nisi a duobus, scilicet ab
+            ob<lb ed="#V" n="21" break="no"/>jecto et voluntate, quae est
+            univer<lb ed="#V" n="22" break="no"/>salis motor, et credibile non est ita
+            <lb ed="#V" n="23"/>efficax, ut moveat ipsum
+            intellec<lb ed="#V" n="24" break="no"/>tum ad assensum, ideo ad hoc quod
+            <lb ed="#V" n="25"/>intellectus assentiat, oportet ipsum
+            <lb ed="#V" n="26"/>a voluntate moveri; sed a voluntate
+            <lb ed="#V" n="27"/>moveri non potest ad assentiendum
+            <lb ed="#V" n="28"/>alicui supernaturali, nisi in
+            volun<lb ed="#V" n="29" break="no"/>tate sit aliquis habitus
+            supernatu<lb ed="#V" n="30" break="no"/>raliter inclinans ad illud volendum;
+            <lb ed="#V" n="31"/>sicut ergo requiritur in intellectu
+            <lb ed="#V" n="32"/>habitus supernaturalis ad
+            assen<lb ed="#V" n="33" break="no"/>tiendum, ita et in voluntate, ut
+            ve<lb ed="#V" n="34" break="no"/>lit ipsum assentire.
+          </p>
+          <p>
+            <lb ed="#V" n="35"/>Praeterea, ad hoc quod actus
+            de<lb ed="#V" n="36" break="no"/>pendens a duobus agentibus sit
+            <lb ed="#V" n="37"/>perfectus, necesse est principale
+            <lb ed="#V" n="38"/>agens perfici supernaturaliter, vel
+            <lb ed="#V" n="39"/>tantum, vel plus, sicut
+            instrumen<lb ed="#V" n="40" break="no"/>tale; sed voluntas respectu actus
+            <lb ed="#V" n="41"/>credendi est motor principalis,
+            in<lb ed="#V" n="42" break="no"/>tellectus autem instrumentalis; ig
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43"/>tur si habitus supernaturalis
+            re<lb ed="#V" n="44" break="no"/>quiritur in intellectu ad hoc quod
+            <lb ed="#V" n="45"/>assentiat, magis requiritur in
+            vo<lb ed="#V" n="46" break="no"/>luntate habitus supernaturalis, ad
+            <lb ed="#V" n="47"/>hoc ut moveat et velit ipsum
+            as<lb ed="#V" n="48" break="no"/>sentire.
+          </p>
+          <p>
+            <lb ed="#V" n="49"/>Sed contradictionem non video,
+            <lb ed="#V" n="50"/>quin intellectus, si fieret mere per
+            <lb ed="#V" n="51"/>se, et haberet objectum praesens,
+            <lb ed="#V" n="52"/>posset intelligere vel credere sibi
+            <lb ed="#V" n="53"/>praesentato.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d25q2-p2"> -->
+          <p>
+            <lb ed="#V" n="72" type="fixed=210"/>SCHOLIUM.
+            <lb ed="#V" n="73"/>Haec littera difficilis est. Primum dictum,
+            vo<lb ed="#V" n="74" break="no"/>luntas non potest imperare intellectui, ut
+            as<lb ed="#V" n="75" break="no"/>sensum praebeat sine ulla ratione, contra Cajet.
+            <lb ed="#V" n="76"/>1. 2. q. 65. art. 4. alioquin ex solo nutu
+            volun<lb ed="#V" n="77" break="no"/>tatis posset quis tollere sibi metum, vel
+            delec<lb ed="#V" n="78" break="no"/>tari, imperando intellectui sine ulla ratione,
+            <lb ed="#V" n="79"/>ut proponat adesse causam delectationis, ubi
+            <lb ed="#V" n="80"/>non est, et abesse causam metus, quando adest.
+            <lb ed="#V" n="81"/>Secundo, posset sine ulla ratione tollere omne
+            <lb ed="#V" n="82"/>dubium. Tertio, est contra Arist. 2. de anima,
+            <lb ed="#V" n="83"/>text. 65. ubi ait posse nos phantasiari quolibet,
+            <lb ed="#V" n="84"/>non tamen opinari. Secundum, potest quis per
+            <lb ed="#V" n="85"/>habitum infusum fidei, quem jam habet,
+            cre<lb ed="#V" n="86" break="no"/>dere sine actu, saltem supernaturali,
+            volunta<lb ed="#V" n="87" break="no"/>tis. Probatur primo, sine actu voluntatis credo
+            <lb ed="#V" n="88"/>Romam esse. Secundo, daemones credunt sine
+            <lb ed="#V" n="89"/>pia affectione voluntatis propter signa. Contra
+            <pb ed="#V" n="211"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Scot. objiciunt adversarii Trident. sess. 6. cap.
+            <lb ed="#V" n="2"/>6. et Araus. can. 5. Sed Arausican. loquitur de
+            <lb ed="#V" n="3"/>dono gratiae corrigentis voluntatem ab
+            infideli<lb ed="#V" n="4" break="no"/>tate ad fidelitatem, et ab impietate ad pietatem;
+            <lb ed="#V" n="5"/>Trid. loquitur de credere disponente ad justitiam,
+            <lb ed="#V" n="6"/>ad quod certum est requiri actum voluntatis.
+            <lb ed="#V" n="7"/>Secundo, tantum vult fidem concipi divina gratia
+            <lb ed="#V" n="8"/>libere, quod fit sine actu voluntatis per
+            auxi<lb ed="#V" n="9" break="no"/>lium illuminans intellectum. Tertio, loquitur
+            <lb ed="#V" n="10"/>de prima fidei infusione, de qua non agit Scot.
+            <lb ed="#V" n="11"/>Adversarii magis videntur contra Trid. ibi cap.
+            <lb ed="#V" n="12"/>8. ubi docet fidem esse initium, fundamentum
+            <lb ed="#V" n="13"/>et radicem salutis; ipsi autem ponunt alium
+            <lb ed="#V" n="14"/>habitum supernaturalem priorem fide in
+            vo<lb ed="#V" n="15" break="no"/>luntate, qui magis dicendus est initium et
+            ra<lb ed="#V" n="16" break="no"/>dix, si datur. Praeterea, ante hunc ponendus
+            <lb ed="#V" n="17"/>videtur habitus infusus alius in intellectu, vel
+            <lb ed="#V" n="18"/>saltem actualis cognitio supernaturalis, quae
+            <lb ed="#V" n="19"/>non potest esse scientiae, ergo fidei; et juxta
+            <lb ed="#V" n="20"/>rationem adversariorum sequi videtur
+            proces<lb ed="#V" n="21" break="no"/>sus in his actibus. Tertium dictum non
+            ex<lb ed="#V" n="22" break="no"/>pressum in Doctore: In prima fidei infusione
+            <lb ed="#V" n="23"/>non videtur actus supernaturalis voluntatis
+            ne<lb ed="#V" n="24" break="no"/>cessarius; sed nullus requiritur, vel sufficit
+            <lb ed="#V" n="25"/>actus naturalis, quo velit considerare motiva,
+            <lb ed="#V" n="26"/>vel habere fidem acquisitam. Contra hoc, loca
+            <lb ed="#V" n="27"/>Conciliorum citata non faciunt, et solutiones
+            <lb ed="#V" n="28"/>datae satisfaciunt, nam loquuntur de actu fidei
+            <lb ed="#V" n="29"/>dispositivo salutis; vel per donum gratiae
+            in<lb ed="#V" n="30" break="no"/>telligunt auxilium ad credendum in ipso
+            intel<lb ed="#V" n="31" break="no"/>lectu, ex vi cujus voluntas movet ad
+            conside<lb ed="#V" n="32" break="no"/>randa motiva, et non contramovet ab
+            assentien<lb ed="#V" n="33" break="no"/>do. Nec intendunt definire duo dona gratiae ad
+            <lb ed="#V" n="34"/>credendum esse necessaria, alterum in
+            volun<lb ed="#V" n="35" break="no"/>tate, alterum in intellectu; et alia loca Patrum
+            <lb ed="#V" n="36"/>quae favent opposito, juxta has solutiones
+            <lb ed="#V" n="37"/>commode explicantur. Ita mihi videtur sub
+            <lb ed="#V" n="38"/>sanctae matris Ecclesiae censura, si teneatur
+            <lb ed="#V" n="39"/>fidem infundi sine charitate, de quo d. 36.
+            <lb ed="#V" n="40"/>Schol. ult.
+          </p>
+          <p>
+            <lb ed="#V" n="41"/>Ideo dico (n) ad argumentum
+            pri<lb ed="#V" n="42" break="no"/>mum, quod actus credendi est ab
+            <lb ed="#V" n="43"/>objecto praesente, sicut ab efficiente
+            <lb ed="#V" n="44"/>actum non sic autem est a
+            volun<lb ed="#V" n="45" break="no"/>tate, aliter si voluntas esset causa
+            <lb ed="#V" n="46"/>actus credendi, et proponeretur
+            in<lb ed="#V" n="47" break="no"/>tellectui, astra esse paria, nulla
+            <lb ed="#V" n="48"/>persuasione facta, posset voluntas
+            <lb ed="#V" n="49"/>imperare intellectui credere
+            deter<cb ed="#V" n="b"/><lb ed="#V" n="50" break="no"/>minate astra esse paria, et hoc nihil
+            <lb ed="#V" n="51"/>est; sed oportet objectum habere
+            <lb ed="#V" n="52"/>causalitatem super actum, nec
+            vo<lb ed="#V" n="53" break="no"/>luntas movet, nisi moveat objectum.
+            <lb ed="#V" n="54"/>Tunc dico, quod credibilia, ut sunt
+            <lb ed="#V" n="55"/>praesentia in se, sive in fide
+            acqui<lb ed="#V" n="56" break="no"/>sita vel infusa, licet hoc ultimo
+            <lb ed="#V" n="57"/>modo non sufficiant ad movendum
+            <lb ed="#V" n="58"/>intellectum ad actum, sed voluntas,
+            <lb ed="#V" n="59"/>ut dicis, simul movet, et verum est
+            <lb ed="#V" n="60"/>pro quanto movebat ad
+            acquiren<lb ed="#V" n="61" break="no"/>dum fidem acquisitam, sed posita
+            <lb ed="#V" n="62"/>fide acquisita, credibili praesente,
+            <lb ed="#V" n="63"/>potest intellectus per habitum
+            infu<lb ed="#V" n="64" break="no"/>sum credere, dummodo voluntas
+            <lb ed="#V" n="65"/>non contramoveat, nec plus
+            requiri<lb ed="#V" n="66" break="no"/>tur; et esto quod requiratur motio
+            <lb ed="#V" n="67"/>positiva voluntatis, etiam sufficit
+            <lb ed="#V" n="68"/>voluntas ad sic movendum in puris
+            <lb ed="#V" n="69"/>naturalibus, quia posito voto
+            super<lb ed="#V" n="70" break="no"/>naturali praesente intellectui, posset
+            <lb ed="#V" n="71"/>voluntas movere intellectum ad
+            <lb ed="#V" n="72"/>intelligendum illud, dummodo in
+            <lb ed="#V" n="73"/>intellectu esset habitus inclinans
+            <lb ed="#V" n="74"/>intellectum in illud, sicut est in
+            pro<lb ed="#V" n="75" break="no"/>posito.
+          </p>
+          <p>
+            <lb ed="#V" n="76"/>Et ad secundum, quando dicitur
+            <lb ed="#V" n="77"/>quod principale agens debet esse
+            <lb ed="#V" n="78"/>dispositum, dico quod sicut in
+            in<lb ed="#V" n="79" break="no"/>strumento artificiali sufficit acuties,
+            <lb ed="#V" n="80"/>ad hoc quod virtus motiva moveat
+            <lb ed="#V" n="81"/>ipsum ad scindendum, nec
+            requiri<lb ed="#V" n="82" break="no"/>tur similis dispositio in principali
+            <lb ed="#V" n="83"/>movente, vel dispositio illi
+            propor<lb ed="#V" n="84" break="no"/>tionata, scilicet in virtute motiva,
+            <lb ed="#V" n="85"/>ita hic, ad hoc quod voluntas
+            mo<lb ed="#V" n="86" break="no"/>veat intellectum ad credendum
+            cre<lb ed="#V" n="87" break="no"/>dibile, sufficit dispositio intellectus,
+            <lb ed="#V" n="88"/>et non est necessarium
+            supernatu<lb ed="#V" n="89" break="no"/>ralem dispositionem proportionalem
+            <lb ed="#V" n="90"/>illi poni in voluntate; nec ad hoc,
+            <lb ed="#V" n="91"/>quod difformiter operetur per
+            in<lb ed="#V" n="92" break="no"/>strumentum, requiritur talis
+            disposi<lb ed="#V" n="93" break="no"/>tio proportionalis in voluntate,
+            qua<pb ed="#V" n="212"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>lis est in actu credendi perfectiori,
+            <lb ed="#V" n="2"/>et minus perfecto; sed sufficit
+            pro<lb ed="#V" n="3" break="no"/>portionalis dispositio in intellectu
+            <lb ed="#V" n="4"/>differens, secundum quod gradus
+            <lb ed="#V" n="5"/>differentes in perfectione sunt in
+            <lb ed="#V" n="6"/>actibus.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

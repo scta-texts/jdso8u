@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 3, Distinctio 29, Quaestio 1</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 3, Distinctio 29, Quaestio 1</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x15">Vives, Paris, 1894, volume 15</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="389"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e2961"><!-- jdso8u-b3d29q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum quilibet teneatur maxime diligere se post Deum</head>
+        <!-- <div alias="scotus-d29q1-p1"> -->
+          <p>
+            <lb ed="#V" n="65" type="fixed=389"/>QUAESTIO UNICA.
+            <lb ed="#V" n="66"/>Utrum quilibet teneatur maxime diligere
+            <lb ed="#V" n="67"/>se post Deum?
+          </p>
+          <p>
+            <lb ed="#V" n="68"/>Alens. 3. p. collat. 68. art. 5. n. Thom. 2. 2.
+            <lb ed="#V" n="69"/>quaest. 26. art. 4. ubi ejus expos. et hic quaest.
+            <lb ed="#V" n="70"/>1. art. 5. D. Bonavent. art. 1. quaest. 3.
+            Ri<lb ed="#V" n="71" break="no"/>chard. art. 1. quaest. 5. Valentia 2. 2. d. 3.
+            <lb ed="#V" n="72"/>quaest. 4. p. 3. Soto 5. de Just. quaest. 1. art.
+            <lb ed="#V" n="73"/>6. Petr. Navar. lib. 2. de Restit. cap. 3. num.
+            <lb ed="#V" n="74"/>41. Capr. 3. d. 27. quaest. unic. art. 3. Durand.
+            <lb ed="#V" n="75"/>hic q. 2.
+          </p>
+          <p>
+            <lb ed="#V" n="76"/>Circa istam vigesimam nonam
+            <lb ed="#V" n="77"/>distinctionem, in qua Magister agit
+            <lb ed="#V" n="78"/>de ordine diligendi ex charitate,
+            <lb ed="#V" n="79"/>quaeritur unum: Utrum scilicet
+            <lb ed="#V" n="80"/>quilibet teneatur maxime diligere
+            <lb ed="#V" n="81"/>se post Deum? Quod non, 9. Ethic.
+            <lb ed="#V" n="82"/>vituperatur amator sui; et multa ibi,
+            <lb ed="#V" n="83"/>de hoc.
+          </p>
+          <p>
+            <pb ed="#V" n="390"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Praeterea, Gregorius in hom.
+            <lb ed="#V" n="2"/>super illud Luc. Misit illos binos:
+            <lb ed="#V" n="3"/><quote>Nemo ad seipsum proprie
+          chari<lb ed="#V" n="4" break="no"/>tatem habere dicitur, sed dilectio
+          <lb ed="#V" n="5"/>in alterum tendit, ut charitas dici
+          <lb ed="#V" n="6"/>possit.</quote>
+          </p>
+          <p>
+            <lb ed="#V" n="7"/>Contra, mensura est perfectior
+            <lb ed="#V" n="8"/>mensurato; sed dilectio sui est
+            <lb ed="#V" n="9"/>mensura dilectionis proximi, juxta
+            <lb ed="#V" n="10"/>illud Matth. 19. et 22. Diliges
+            proxi<lb ed="#V" n="11" break="no"/>mum tuum sicut teipsum.
+          </p>
+          <p>
+            <lb ed="#V" n="12"/>SCHOLIUM.
+            <lb ed="#V" n="13"/>Quoad bona spiritualia, quae quis tenetur
+            <lb ed="#V" n="14"/>sibi et proximo velle, debet se plus aliis
+            dili<lb ed="#V" n="15" break="no"/>gere; est communis apud Doctores citatos.
+            Sua<lb ed="#V" n="16" break="no"/>detur ex inclinatione naturali, qua quis se
+            <lb ed="#V" n="17"/>aliis praefert. Secundo, diligere proximum est
+            <lb ed="#V" n="18"/>actus reflexus, et inter reflexos immediatior
+            <lb ed="#V" n="19"/>est actus, cujus ipse sum principium et
+            objec<lb ed="#V" n="20" break="no"/>tum, ut quando volo me amare Deum. Tertio,
+            <lb ed="#V" n="21"/>eatenus teneor amare alios, quatenus sunt
+            ca<lb ed="#V" n="22" break="no"/>paces mecum bonorum spiritualium. Quarto,
+            <lb ed="#V" n="23"/>ex Augustino in Enchir. cap. 42. charitas
+            inci<lb ed="#V" n="24" break="no"/>pit a se. Quinto, ex Arist. 9. Ethic. 4. dicente,
+            <lb ed="#V" n="25"/>quod studiosus condolet et condelectatur
+            ma<lb ed="#V" n="26" break="no"/>xime sibi ipsi. Idem estide bonis temporalibus,
+            <lb ed="#V" n="27"/>quae quis tenetur sibi vel aliis velle; unde
+            <lb ed="#V" n="28"/>August. lib. de Mendacio ad Consentium 6.
+            <lb ed="#V" n="29"/>reprehen dit exponentes se morti pro salvanda
+            <lb ed="#V" n="30"/>vita aliorum. Ordo ergo diligendorum hic est
+            <lb ed="#V" n="31"/>secundum communem: Primo, Deus. Secundo,
+            <lb ed="#V" n="32"/>nosipsi, spiritualiter. Tertio, salus spiritualis
+            <lb ed="#V" n="33"/>proximi. Quarto, corpus proprium. Quinto,
+            <lb ed="#V" n="34"/>corpus proximi. Ita D. Bonav. supra, Durand.
+            <lb ed="#V" n="35"/>4. dist. 17. quaest. 6. Palud. 4. dist. 15. quaest.
+            <lb ed="#V" n="36"/>3. art. 2. Petr. Navar. et Valentia, citati. Gabr.
+            <lb ed="#V" n="37"/>dist. 16. quaest. 3. Bellarm. 3. de operibus
+            bo<lb ed="#V" n="38" break="no"/>nis. c. 8. Tolet. lib. 10. Summae cap. 32.
+          </p>
+          <p>
+            <lb ed="#V" n="39"/>Ex dictis (a) in quaestione
+            praece<lb ed="#V" n="40" break="no"/>denti patet solutio hujus
+            quaestio<lb ed="#V" n="41" break="no"/>nis; charitas enim ex hoc, quod est
+            <lb ed="#V" n="42"/>principium tendendi in Deum actu
+            di<lb ed="#V" n="43" break="no"/>recto, est principium reflectendi
+            su<lb ed="#V" n="44" break="no"/>per actus illos, quibus tenditur in
+            <lb ed="#V" n="45"/>Deum; et in hoc, sicut dictum est ibi,
+            <lb ed="#V" n="46"/>est principium volendi cuilibet
+            poten<cb ed="#V" n="b"/><lb ed="#V" n="47" break="no"/>ti diligere Deum, quod diligat ipsum;
+            <lb ed="#V" n="48"/>inter omnes actus autem ejusdem
+            <lb ed="#V" n="49"/>rationis, tendentes in Deum,
+            chari<lb ed="#V" n="50" break="no"/>tas est principium immediate
+            reflec<lb ed="#V" n="51" break="no"/>tendi super actum, quem elicit
+            ha<lb ed="#V" n="52" break="no"/>bens charitatem, quo tendit et diligit
+            <lb ed="#V" n="53"/>Deum; igitur post Deum
+            immedia<lb ed="#V" n="54" break="no"/>tissime vult quis ex charitate se
+            di<lb ed="#V" n="55" break="no"/>ligere illud, quo tendit in Deum,
+            <lb ed="#V" n="56"/>scilicet se diligere Deum, et hoc
+            <lb ed="#V" n="57"/>volendo diligit se, quia diligit sibi
+            <lb ed="#V" n="58"/>bonum justitiae; igitur immediate
+            <lb ed="#V" n="59"/>post Deum tenetur se diligere ex
+            <lb ed="#V" n="60"/>charitate.
+          </p>
+          <p>
+            <lb ed="#V" n="61"/>Iloc confirmatur (b), quia pensatis
+            <lb ed="#V" n="62"/>rationibus bonitatis et unitatis, quae
+            <lb ed="#V" n="63"/>sunt rationes diligibilis post Deum,
+            <lb ed="#V" n="64"/>qui est bonum infinitum, in quo est
+            <lb ed="#V" n="65"/>perfectissima ratio bonitatis,
+            occur<lb ed="#V" n="66" break="no"/>rit in seipso alia ratio maxima,
+            sci<lb ed="#V" n="67" break="no"/>licet unitatis, quae est perfecta
+            iden<lb ed="#V" n="68" break="no"/>titas; igitur quilibet inclinatur
+            na<lb ed="#V" n="69" break="no"/>turaliter ad dilectionem sui, post
+            <lb ed="#V" n="70"/>bonum infinitum; inclinatio autem
+            <lb ed="#V" n="71"/>naturalis est recta.
+          </p>
+          <p>
+            <lb ed="#V" n="72"/>Ad primum argumentum dico,
+            <lb ed="#V" n="73"/>quod Philosophus exponit se ibi,
+            <lb ed="#V" n="74"/>quomodo vituperabile est esse
+            im<lb ed="#V" n="75" break="no"/>moderatum amatorem sui, non
+            au<lb ed="#V" n="76" break="no"/>tem moderatum.
+          </p>
+          <p>
+            <lb ed="#V" n="77"/>Ad secundum dico, quod omnis
+            <lb ed="#V" n="78"/>diligens se ex charitate, diligit se in
+            <lb ed="#V" n="79"/>ordine ad bonum infinitum, quia
+            <lb ed="#V" n="80"/>diligit sibi actum illum vel habitum,
+            <lb ed="#V" n="81"/>quo tendit in illud bonum; et in
+            <lb ed="#V" n="82"/>hac dilectione tendit in alterum,
+            <lb ed="#V" n="83"/>quia in Deum tanquam in principale
+            <lb ed="#V" n="84"/>objectum actus, et tamen ad se
+            ha<lb ed="#V" n="85" break="no"/>bet charitatem, licet non ut ad
+            ob<lb ed="#V" n="86" break="no"/>jectum finale, sed proximum
+            ordi<lb ed="#V" n="87" break="no"/>natum ad objectum ultimum, quod
+            <lb ed="#V" n="88"/>est ab eo distinctum.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

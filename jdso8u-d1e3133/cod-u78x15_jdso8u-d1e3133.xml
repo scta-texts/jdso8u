@@ -1,0 +1,842 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 3, Distinctio 39, Quaestio 1</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 3, Distinctio 39, Quaestio 1</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x15">Vives, Paris, 1894, volume 15</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="984"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e3133"><!-- jdso8u-b3d39q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum omne periurium sit peccatum mortale</head>
+        <!-- <div alias="scotus-d39q1-p1"> -->
+          <p>
+            <pb ed="#V" n="984"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1" type="fixed=984"/>OU ESTIO INICI
+            <lb ed="#V" n="2"/>Utrum omne perjurium sit peccatuna
+            <lb ed="#V" n="3"/>mortale
+          </p>
+          <p>
+            <lb ed="#V" n="4"/>Alens. 2. part. q. 148. m. 5. D. Thom. 2. 2. o
+            <lb ed="#V" n="5"/>98. art. 3. et hic q. 1. art. 1. D. Bonavent, art.
+            <lb ed="#V" n="6"/>1. q. 3. Richard. art. 3. q. 2. Durand. q. 5.
+            <lb ed="#V" n="7"/>Gabr. q. 2. Suar, tom. 2. de relia. lib. 3. de
+            <lb ed="#V" n="8"/>juram. cap. 4. Sanchius lib. 3. in Decal. cap.
+            <lb ed="#V" n="9"/>4. Sayrus l. 5. cap. 4. Navarr, cap. 12. num.
+            <lb ed="#V" n="10"/>6. Lessius lib. 2. c. 42. Pitigianis hic art. 6.
+          </p>
+          <p>
+            <lb ed="#V" n="11"/>Circa istam distinctionem (a)
+            tri<lb ed="#V" n="12" break="no"/>gesimam nonam, in qua Magister
+            <lb ed="#V" n="13"/>agit de perjurio, quaeritur, utrum
+            <lb ed="#V" n="14"/>omne perjurium sit peccatum
+            mor<lb ed="#V" n="15" break="no"/>tale? Quod non, quia potest quis
+            <lb ed="#V" n="16"/>jurare quod illicitum est implere;
+            <lb ed="#V" n="17"/>quod autem est de se illicitum, non
+            <lb ed="#V" n="18"/>fit licitum per juramentum; igitur
+            <lb ed="#V" n="19"/>post juramentum illud remanet
+            <lb ed="#V" n="20"/>illicitum, et ita implendo quod
+            jura<lb ed="#V" n="21" break="no"/>vit, peccat mortaliter; igitur non
+            <lb ed="#V" n="22"/>implendo illud, non peccat
+            mortali<lb ed="#V" n="23" break="no"/>ter, quia nullus est perplexus in
+            <lb ed="#V" n="24"/>lege Christiana, ut scilicet faciendo
+            <lb ed="#V" n="25"/>aliquid, vel non faciendo, peccet
+            <lb ed="#V" n="26"/>mortaliter, quod videtur dicere
+            per<lb ed="#V" n="27" break="no"/>plexum; et tamen iste non implendo
+            <lb ed="#V" n="28"/>quod juravit, perjurat; igitur illud
+            <lb ed="#V" n="29"/>perjurare non est peccatum
+            mor<lb ed="#V" n="30" break="no"/>tale.
+          </p>
+          <p>
+            <lb ed="#V" n="31"/>Praeterea, gravius est jurare per
+            <lb ed="#V" n="32"/>Deum quam per Evangelium, sicut
+            <lb ed="#V" n="33"/>patet per Salvatorem Matth. 23.
+            <lb ed="#V" n="34"/>majus est jurare per templum quam
+            <lb ed="#V" n="35"/>per aurum, quia majus est templum,
+            <lb ed="#V" n="36"/>quod sanctificat aurum, quam
+            au<lb ed="#V" n="37" break="no"/>rum quod sanctificatur per
+            tem<lb ed="#V" n="38" break="no"/>plum, et hoc quantum ad
+            reveren<lb ed="#V" n="39" break="no"/>tiam; igitur si perjurare est
+            pecca<lb ed="#V" n="40" break="no"/>tum mortale, perjurare per Deum
+            <lb ed="#V" n="41"/>erit maximum peccatum mortale;
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="42"/>igitur communes personae tota die
+            <lb ed="#V" n="43"/>peccant mortaliter, quia pro nihilo
+            <lb ed="#V" n="44"/>habent jurare per Deum, etiam
+            <lb ed="#V" n="45"/>asserendo falsum, quod videtur
+            <lb ed="#V" n="46"/>durum.
+          </p>
+          <p>
+            <lb ed="#V" n="47"/>Praeterea, non omne juramentum
+            <lb ed="#V" n="48"/>promissorium obligat necessario;
+            <lb ed="#V" n="49"/>igitur nec ibi perjurium est
+            pecca<lb ed="#V" n="50" break="no"/>tum mortale. Antecedens probatur,
+            <lb ed="#V" n="51"/>primo de juramento coacto, Extra
+            <lb ed="#V" n="52"/>de jurejurando cap. Verum; de
+            <lb ed="#V" n="53"/>juramento autem doloso patet quod
+            <lb ed="#V" n="54"/>jurans non intendit se obligare;
+            <lb ed="#V" n="55"/>nullus autem se obligat, nisi
+            inten<lb ed="#V" n="56" break="no"/>dat se obligare. De istis duobus
+            <lb ed="#V" n="57"/>simul probatur per simile de
+            matri<lb ed="#V" n="58" break="no"/>monio, nam consensus coactus et
+            <lb ed="#V" n="59"/>dolosus non obligant aliquem vel
+            <lb ed="#V" n="60"/>aliquam ad matrimonium. De
+            jura<lb ed="#V" n="61" break="no"/>mento incauto probatur, quia si
+            <lb ed="#V" n="62"/>impleat illud, fit in pejorem exitum;
+            <lb ed="#V" n="63"/>igitur malum est implere.
+          </p>
+          <p>
+            <lb ed="#V" n="64"/>Contra, Matth. 5. Non perjurabis,
+            <lb ed="#V" n="65"/>reddes autem Domino Deo
+            jura<lb ed="#V" n="66" break="no"/>menta tua, et in Psalm. 75. Vovete
+            <lb ed="#V" n="67"/>et reddite, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="68"/>SCHOLIUM.
+            <lb ed="#V" n="69"/>Definit juramentum, et docet perjurium esse
+            <lb ed="#V" n="70"/>mortale, et dat hujus rationem clare.
+          </p>
+          <p>
+            <lb ed="#V" n="71"/>In ista quaestione primo videndum
+            <lb ed="#V" n="72"/>est de ratione juramenti; et secundo
+            <lb ed="#V" n="73"/>ex hoc, quod perjurium est
+            pecca<lb ed="#V" n="74" break="no"/>tum mortale; tertio de distinctione
+            <lb ed="#V" n="75"/>juramenti, et qualiter juramenta
+            <lb ed="#V" n="76"/>specialia sint peccata.
+          </p>
+          <p>
+            <lb ed="#V" n="77"/>Quantum (b) ad primum dico,
+            <lb ed="#V" n="78"/>quod juramentum est assertio dicti
+            <lb ed="#V" n="79"/>humani, quod ipsum sit verum, et
+            <lb ed="#V" n="80"/>hoc ultimate, juxta illud ad Hebr. 6.
+            <lb ed="#V" n="81"/>Omnis controversiae finis ad
+            confir<lb ed="#V" n="82" break="no"/>mationem est juramentum. Homo
+            <lb ed="#V" n="83"/>enim sciens hominem esse
+            menda<pb ed="#V" n="985"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>cem et ignorantem, et per
+            conse<lb ed="#V" n="2" break="no"/>quens posse fallere et falli, non
+            po<lb ed="#V" n="3" break="no"/>test certam fidem adhibere dictis
+            <lb ed="#V" n="4"/>suis, et ideo inventus est modus
+            <lb ed="#V" n="5"/>asserendi dicta, adducendo alium in
+            <lb ed="#V" n="6"/>testem, qui est verax et sciens, qui
+            <lb ed="#V" n="7"/>nec fallere, nec falli potest, quod fit
+            <lb ed="#V" n="8"/>dum in jurando adducitur in testem
+            <lb ed="#V" n="9"/>assertionis jurantis ipse Deus, qui
+            <lb ed="#V" n="10"/>scit veritatem, et mentiri non
+            po<lb ed="#V" n="11" break="no"/>test.
+          </p>
+          <p>
+            <lb ed="#V" n="12"/>Et ex hoc sequitur (c) propositum
+            <lb ed="#V" n="13"/>de perjurio, quia adducere Deum
+            <lb ed="#V" n="14"/>tanquam testem falsi, est facere
+            <lb ed="#V" n="15"/>irreverentiam Deo, vel adducere
+            <lb ed="#V" n="16"/>eum tanquam ignorantem
+            verita<lb ed="#V" n="17" break="no"/>tem, et ita non omniscientem, vel
+            <lb ed="#V" n="18"/>adducere eum tanquam volentem
+            <lb ed="#V" n="19"/>testificari, quod falsum est; utroque
+            <lb ed="#V" n="20"/>autem modo fit irreverentiam Deo
+            <lb ed="#V" n="21"/>immediate contra illud praeceptum
+            <lb ed="#V" n="22"/>primae tabulae: Non accipies nomen
+            <lb ed="#V" n="23"/>Dei tui in vanum, et ideo utroque
+            <lb ed="#V" n="24"/>modo, si ex deliberatione fiat, est
+            <lb ed="#V" n="25"/>peccatum mortale.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d39q1-p2"> -->
+          <p>
+            <lb ed="#V" n="23" type="fixed=1004"/>SCHOLIUM.
+            <lb ed="#V" n="24"/>Indeliberationem excusare perjurium a
+            mor<lb ed="#V" n="25" break="no"/>tali, et idem est de omni alio peccato. Quae
+            <lb ed="#V" n="26"/>autem deliberatio requiratur ad mortale,
+            expli<lb ed="#V" n="27" break="no"/>cant bene Assor. tum. 1. b. 4. c. 5. q. 1. Vasq.
+            <lb ed="#V" n="28"/>1. 2. d. 74. et d. 107. n. 8. 9. Sanchius in
+            De<lb ed="#V" n="29" break="no"/>cal. 1. 1. c. 16. an. 21. Docet ex consuetudine
+            <lb ed="#V" n="30"/>perjurare indeliberate, non esse mortale, quia
+            <lb ed="#V" n="31"/>actus sequentes non sunt pejores primo,
+            quan<lb ed="#V" n="32" break="no"/>tum est ex parte deliberationis. Explicat
+            quo<lb ed="#V" n="33" break="no"/>modo habituatus citius se deliberat, de quo
+            <lb ed="#V" n="34"/>supra d. 33. fi.
+          </p>
+          <p>
+            <lb ed="#V" n="35"/>Sed hic (d) sunt duo dubia;
+            <lb ed="#V" n="36"/>Unum an deliberatio excuset a
+            pec<lb ed="#V" n="37" break="no"/>cato mortali. Secundum, an
+            addu<lb ed="#V" n="38" break="no"/>cens Deum in testem modo
+            prae<lb ed="#V" n="39" break="no"/>dicto, ad aliquid quod credit esse
+            <lb ed="#V" n="40"/>verum, licet non sit, puta ad aliquid,
+            <lb ed="#V" n="41"/>de quo habet aliquam opinionem, et
+            <lb ed="#V" n="42"/>magis assentit illi parti, pro qua
+            <lb ed="#V" n="43"/>jurat, peccet mortaliter. Quantum
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="44"/>ad primum, communiter conceditur
+            <lb ed="#V" n="45"/>quod unicum perjurium leve non
+            <lb ed="#V" n="46"/>est peccatum mortale, tamen ex
+            con<lb ed="#V" n="47" break="no"/>suetudine perjurare est peccatum
+            <lb ed="#V" n="48"/>mortale; et hoc videtur posse poni,
+            <lb ed="#V" n="49"/>quia habitus generatus ex multis
+            <lb ed="#V" n="50"/>actibus, inclinat ad graviorem
+            ac<lb ed="#V" n="51" break="no"/>tum, quam sint praecedentes.
+          </p>
+          <p>
+            <lb ed="#V" n="52"/>Contra hoc, si primus actus
+            perju<lb ed="#V" n="53" break="no"/>randi non est peccatum mortale,
+            <lb ed="#V" n="54"/>igitur nec quicumque alius, etiam
+            <lb ed="#V" n="55"/>ex quocumque habitu fiat, quia
+            ha<lb ed="#V" n="56" break="no"/>bitus inclinans non potest facere
+            <lb ed="#V" n="57"/>graviorem culpam: nam si quis
+            <lb ed="#V" n="58"/>acquisivit magnum habitum ex
+            <lb ed="#V" n="59"/>multis actibus incontinentiae, et
+            <lb ed="#V" n="60"/>postea poenitet, si post poenitentiam
+            <lb ed="#V" n="61"/>habeat aliquem motum
+            incontinen<lb ed="#V" n="62" break="no"/>tiae, licet ad illum inclinet magnus
+            <lb ed="#V" n="63"/>habitus, non tamen in eo est
+            pecca<lb ed="#V" n="64" break="no"/>tum mortale, imo nec gravius
+            nota<lb ed="#V" n="65" break="no"/>biliter, quam esset in alio nullum
+            <lb ed="#V" n="66"/>habitum habente.
+          </p>
+          <p>
+            <lb ed="#V" n="67"/>Confirmatur, quia habitus non
+            <lb ed="#V" n="68"/>potest esse gravior (si quam
+            gravi<lb ed="#V" n="69" break="no"/>tatem habet) quam actus, ex quibus
+            <lb ed="#V" n="70"/>generatur, cum, proprie loquendo,
+            <lb ed="#V" n="71"/>nullam gravitatem culpabilem
+            ha<lb ed="#V" n="72" break="no"/>beat, nisi ex actibus; cum igitur
+            <lb ed="#V" n="73"/>actus, ex quibus generatur, sint
+            <lb ed="#V" n="74"/>veniales, habitus iste non faciet
+            <lb ed="#V" n="75"/>aliquam gravitatem mortalem in
+            <lb ed="#V" n="76"/>actibus elicitis ex habitu.
+          </p>
+          <p>
+            <lb ed="#V" n="77"/>Videtur ergo posse dici quod
+            <lb ed="#V" n="78"/>habitus vel consuetudo nihil facit ad
+            <lb ed="#V" n="79"/>propositum. Sed perjurium ex pleno
+            <lb ed="#V" n="80"/>consensu est contra praeceptum
+            <lb ed="#V" n="81"/>primae tabulae, et per consequens
+            <lb ed="#V" n="82"/>immediate avertens a fine ultimo, et
+            <lb ed="#V" n="83"/>ita nihil deficit sibi de ratione
+            <lb ed="#V" n="84"/>peccati mortalis. Si autem fiat
+            per<lb ed="#V" n="85" break="no"/>jurium indeliberate,
+            quantumcum<lb ed="#V" n="86" break="no"/>que frequenter fiat, cum actus
+            meri<lb ed="#V" n="87" break="no"/>torius requirat quod sit plene
+            hu<pb ed="#V" n="1005"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>manus, et hoc est esse ex plena
+            <lb ed="#V" n="2"/>deliberatione; et actus demeritorius
+            <lb ed="#V" n="3"/>non minus requirat illud (non est
+            <lb ed="#V" n="4"/>enim Deus pronior ad
+            condemnan<lb ed="#V" n="5" break="no"/>dum, quam ad parcendum), potest
+            <lb ed="#V" n="6"/>dici quod illud perjurium
+            indelibe<lb ed="#V" n="7" break="no"/>ratum etiam quotiescumque
+            itera<lb ed="#V" n="8" break="no"/>tum non est peccatum mortale.
+          </p>
+          <p>
+            <lb ed="#V" n="9"/>Advertendum tamen, quod sicut
+            <lb ed="#V" n="10"/>dictum est supra de virtuoso, quod
+            <lb ed="#V" n="11"/>habet brevem deliberationem, quae
+            <lb ed="#V" n="12"/>non videtur deliberatio, quia habet
+            <lb ed="#V" n="13"/>prudentiam magnam, qua promptus
+            <lb ed="#V" n="14"/>est ad deliberandum, quasi in
+            tem<lb ed="#V" n="15" break="no"/>pore imperceptibili; ita posset
+            ali<lb ed="#V" n="16" break="no"/>quis ex habitu opposito acquirere
+            <lb ed="#V" n="17"/>facilitatem deliberandi prompte de
+            <lb ed="#V" n="18"/>opposito, et quasi in tempore
+            imper<lb ed="#V" n="19" break="no"/>ceptibili; et talis deliberatio esset
+            <lb ed="#V" n="20"/>sufficiens ad rationem peccati, sicut
+            <lb ed="#V" n="21"/>est sufficiens ad rationem meriti.
+          </p>
+          <p>
+            <lb ed="#V" n="22"/>Non igitur distinguo quantum ad
+            <lb ed="#V" n="23"/>rationem peccati mortalis inter
+            rari<lb ed="#V" n="24" break="no"/>tatem et frequentiam perjurii, sed
+            <lb ed="#V" n="25"/>inter deliberationem et
+            indelibera<lb ed="#V" n="26" break="no"/>tionem, ita quod deliberatio
+            concur<lb ed="#V" n="27" break="no"/>rens reddit peccatum mortale, et
+            <lb ed="#V" n="28"/>hoc, sive semel, sive
+            quotiescum<lb ed="#V" n="29" break="no"/>que; et indeliberatio excusat etiam,
+            <lb ed="#V" n="30"/>sive semel, sive quotiescumque.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d39q1-p3"> -->
+          <p>
+            <lb ed="#V" n="48" type="fixed=1013"/>SCHOLIUM.
+            <lb ed="#V" n="49"/>Jurantem assertive aliquid, de quo tantum
+            <lb ed="#V" n="50"/>habet opinionem, peccare mortaliter; assertive
+            <lb ed="#V" n="51"/>autem juratur, quando agitur de aliquo
+            con<lb ed="#V" n="52" break="no"/>demnando. At quando agitur in favorabilibus,
+            <lb ed="#V" n="53"/>ut de promotione alicujus censetur jurantes
+            <lb ed="#V" n="54"/>loqui secundum opinionem, et non secundum
+            <lb ed="#V" n="55"/>certitudinem, quia nemo praesumitur malus,
+            <lb ed="#V" n="56"/>donec de eo constet; sed sive in favoribus,
+            <lb ed="#V" n="57"/>sive in odiis jurstur in dubio, peccatur
+            morta<lb ed="#V" n="58" break="no"/>liter.
+          </p>
+          <p>
+            <lb ed="#V" n="59"/>Quantum ad secundum dubium
+            <lb ed="#V" n="60"/>(e) dico, quod ille cui juratur, aut
+            <lb ed="#V" n="61"/>concipit ex lege positiva, vel ex
+            <lb ed="#V" n="62"/>consuetudine juramentum tanquam
+            <lb ed="#V" n="63"/>simpliciter assertivum jurati; aut
+            <lb ed="#V" n="64"/>non tanquam simpliciter
+            asserti<lb ed="#V" n="65" break="no"/>vum, sed tanquam probabiliter
+            in<lb ed="#V" n="66" break="no"/>ductivum ad credendum jurato.
+            <lb ed="#V" n="67"/>Primo modo dico, quod jurans
+            <lb ed="#V" n="68"/>quomodocumque dubium, hoc est,
+            <lb ed="#V" n="69"/>quod non est simpliciter certum,
+            <lb ed="#V" n="70"/>peccat mortaliter, quia ad
+            confir<lb ed="#V" n="71" break="no"/>mandum illud quod asserit esse
+            <lb ed="#V" n="72"/>simpliciter certum et verum,
+            in<lb ed="#V" n="73" break="no"/>ducit Deum testem, cum tamen
+            <lb ed="#V" n="74"/>illud non sit simpliciter certum.
+          </p>
+          <p>
+            <lb ed="#V" n="75"/>Et hoc modo debent intelligi
+            <lb ed="#V" n="76"/>omnia juramenta illorum, qui
+            ju<lb ed="#V" n="77" break="no"/>rant in judicio, pro quorum
+            testi<lb ed="#V" n="78" break="no"/>monio consuevit ferri sententia,,
+            <lb ed="#V" n="79"/>qualis non deberet ferri, nisi illud
+            <lb ed="#V" n="80"/>assertum esset, ut simpliciter
+            cer<lb ed="#V" n="81" break="no"/>tum; verbi gratia, sententia mortis
+            <lb ed="#V" n="82"/>non debet ferri, nisi pro crimine
+            cer<lb ed="#V" n="83" break="no"/>to; igitur jurans illum
+            crimino<lb ed="#V" n="84" break="no"/>sum, cum non sit certus de hoc,
+            <lb ed="#V" n="85"/>quantumcumque conjecturet eum
+            <lb ed="#V" n="86"/>esse talem probabiliter, et jurans
+            <lb ed="#V" n="87"/>hoc in tali foro, ubi ex lege positiva
+            <pb ed="#V" n="1014"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>vel consuetudine sequitur
+            condem<lb ed="#V" n="2" break="no"/>natio ad mortem, peccat mortaliter.
+            <lb ed="#V" n="3"/>Consimiliter in foro quocumque,
+            <lb ed="#V" n="4"/>ubi ex hoc quod aliquis convincitur
+            <lb ed="#V" n="5"/>per jurantes, condemnatur ut reus
+            <lb ed="#V" n="6"/>simpliciter; ibi enim non tantum
+            <lb ed="#V" n="7"/>fit irreverentia nomini Domini
+            <lb ed="#V" n="8"/>contra praeceptum primae tabulae,
+            <lb ed="#V" n="9"/>sed etiam est quid perniciosum,
+            <lb ed="#V" n="10"/>quia nocivum proximo.
+          </p>
+          <p>
+            <lb ed="#V" n="11"/>Et si dicas, (f) quod est utile
+            <lb ed="#V" n="12"/>reipublicae, alioquin mali nimis
+            <lb ed="#V" n="13"/>multiplicarentur; respondet Deus:
+            <lb ed="#V" n="14"/>Juste quod justum est, exequere.
+            <lb ed="#V" n="15"/>Sunt enim quaedam mala, quae
+            <lb ed="#V" n="16"/>non sunt punienda per homines,
+            <lb ed="#V" n="17"/>sed relinquenda ultioni divinae,
+            <lb ed="#V" n="18"/>puta omnia, quae homo ut homo,
+            <lb ed="#V" n="19"/>non potest sufficienter scire, et
+            <lb ed="#V" n="20"/>de quibus non potest sufficienter
+            <lb ed="#V" n="21"/>doceri veritatem, eo modo quo
+            <lb ed="#V" n="22"/>deberet doceri, ad hoc quod juste
+            <lb ed="#V" n="23"/>ferretur sententia debita punitiva,
+            <lb ed="#V" n="24"/>nec in istis sunt culpabiles soli
+            <lb ed="#V" n="25"/>testes, sed etiam judex.
+          </p>
+          <p>
+            <lb ed="#V" n="26"/>Si tamen ipse sciat quod ex
+            <lb ed="#V" n="27"/>consuetudine testes non
+            testifican<lb ed="#V" n="28" break="no"/>tur sub juramento, nisi de
+            cre<lb ed="#V" n="29" break="no"/>dulitate, tunc non debet ferre
+            <lb ed="#V" n="30"/>sententiam, qualis esset ferenda,
+            <lb ed="#V" n="31"/>si culpa esset simpliciter probata
+            <lb ed="#V" n="32"/>coram eo. Scit enim ex
+            consue<lb ed="#V" n="33" break="no"/>tudine culpam non esse
+            sufficien<lb ed="#V" n="34" break="no"/>ter probatam coram eo, ut tali
+            <lb ed="#V" n="35"/>poena puniatur.
+          </p>
+          <p>
+            <lb ed="#V" n="36"/>Si autem ex lege positiva, vel
+            <lb ed="#V" n="37"/>ex consuetudine habeatur quod
+            ju<lb ed="#V" n="38" break="no"/>rans non tenetur deponere de
+            cer<lb ed="#V" n="39" break="no"/>titudine, sed de credulitate, quia
+            <lb ed="#V" n="40"/>juramentum habetur pro credito,
+            <lb ed="#V" n="41"/>non autem simpliciter pro certo;
+            <lb ed="#V" n="42"/>tunc jurans non peccat, dummodo
+            <lb ed="#V" n="43"/>ex signis probabilibus conjecturet
+            <lb ed="#V" n="44"/>magis partem istam quam aliam,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>sicut habetur Extra de scrutinio
+            <lb ed="#V" n="46"/>in ordine faciendo, cap unico,
+            Do<lb ed="#V" n="47" break="no"/>minus Papa. Respondet enim quod
+            <lb ed="#V" n="48"/>quantum humana fragilitas sini
+            nos<lb ed="#V" n="49" break="no"/>cere, scit, et testificatur illum ad
+            <lb ed="#V" n="50"/>hujusmodi officii onus esse dignum;
+            <lb ed="#V" n="51"/>et dicit Papa, quod in tali
+            testificatio<lb ed="#V" n="52" break="no"/>ne aliquem peccare non credimus.
+          </p>
+          <p>
+            <lb ed="#V" n="53"/>In promotionibus igitur talibus,
+            <lb ed="#V" n="54"/>sive ad Ordines, sive ad
+            quas<lb ed="#V" n="55" break="no"/>cumque dignitates per electiones
+            <lb ed="#V" n="56"/>fiendas in quibuscumque collegiis,
+            <lb ed="#V" n="57"/>puta in Universitatibus ad
+            magis<lb ed="#V" n="58" break="no"/>terium, in Religionibus ad
+            praela<lb ed="#V" n="59" break="no"/>tionem, vel ad aliquos alios actus,
+            <lb ed="#V" n="60"/>si sit consuetudo approbata, quod
+            <lb ed="#V" n="61"/>tales responsiones sub juramento
+            <lb ed="#V" n="62"/>praestito, vel sub fide data, vel sub
+            <lb ed="#V" n="63"/>obedientia promissa, non debent
+            <lb ed="#V" n="64"/>intelligi, nisi de credulitate
+            quan<lb ed="#V" n="65" break="no"/>tum sinit humana fragilitas
+            nos<lb ed="#V" n="66" break="no"/>cere, cum illum, quem non novit
+            <lb ed="#V" n="67"/>indignum, debeat aestimare
+            di<lb ed="#V" n="68" break="no"/>gnum, omnes tales responsiones
+            <lb ed="#V" n="69"/>debent intelligi de illo secundum
+            <lb ed="#V" n="70"/>consuetudinem communem, nec
+            <lb ed="#V" n="71"/>respondentes peccant in aliquo,
+            <lb ed="#V" n="72"/>quamvis sic promotus non sit
+            di<lb ed="#V" n="73" break="no"/>gnus.
+          </p>
+          <p>
+            <lb ed="#V" n="74"/>Vel potest reponderi cum
+            addi<lb ed="#V" n="75" break="no"/>tione illa, quam ponit Decretalis
+            <lb ed="#V" n="76"/>praedicta, et non simpliciter,
+            sci<lb ed="#V" n="77" break="no"/>licet, quantum sinit humana
+            fragi<lb ed="#V" n="78" break="no"/>litas; et in talibus etiam judex
+            <lb ed="#V" n="79"/>promovens talem non peccat, quia
+            <lb ed="#V" n="80"/>consuetudo est ut talis testificatio
+            <lb ed="#V" n="81"/>de credulitate sufficiat; hic enim
+            <lb ed="#V" n="82"/>favor ampliatur, et odium
+            restrin<lb ed="#V" n="83" break="no"/>gitur, juxta illam regulam Juris:
+            <lb ed="#V" n="84"/>quia in condemnabilibus oportet
+            <lb ed="#V" n="85"/>testem jurantem stricte dicere
+            ve<lb ed="#V" n="86" break="no"/>ritatem, et hanc certam, quia
+            ali<lb ed="#V" n="87" break="no"/>ter non esset propter eam
+            senten<lb ed="#V" n="88" break="no"/>tia condemnationis ferenda. Ad
+            <pb ed="#V" n="1015"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>sententiam vero, quae fertur in
+            <lb ed="#V" n="2"/>favoribus, sufficit juramentum de
+            <lb ed="#V" n="3"/>credulitate, potissime ubi est talis
+            <lb ed="#V" n="4"/>consuetudo, vel lex positiva in
+            col<lb ed="#V" n="5" break="no"/>legio jurare de credulitate, quia
+            <lb ed="#V" n="6"/>propter veritatem sic testificatam
+            <lb ed="#V" n="7"/>praesideus potest promovere ad
+            <lb ed="#V" n="8"/>talem gradum.
+          </p>
+          <p>
+            <lb ed="#V" n="9"/>Universaliter autem (g) sive in
+            <lb ed="#V" n="10"/>favoribus, sive in odiis jurans de
+            <lb ed="#V" n="11"/>illo, cujus oppositum magis credit,
+            <lb ed="#V" n="12"/>vel de illo de quo est dubius, id
+            <lb ed="#V" n="13"/>est, quod non magis assentit uni
+            <lb ed="#V" n="14"/>parti quam alteri, peccat
+            mortali<lb ed="#V" n="15" break="no"/>ter, quia adducit Deum tanquam
+            <lb ed="#V" n="16"/>testem ejus, quod neutro modo est
+            <lb ed="#V" n="17"/>sibi certum, quod deberet esse
+            cer<lb ed="#V" n="18" break="no"/>tum.
+          </p>
+          <p>
+            <lb ed="#V" n="19"/>Sed objicitur contra hoc (h) quod
+            <lb ed="#V" n="20"/>dictum est, perjurium esse contra
+            <lb ed="#V" n="21"/>praeceptum primae tabulae, quia
+            vi<lb ed="#V" n="22" break="no"/>detur secundum Magistrum, quod
+            <lb ed="#V" n="23"/>perjurium sit quoddam mendacium,
+            <lb ed="#V" n="24"/>et ita contra illud praeceptum
+            se<lb ed="#V" n="25" break="no"/>cundae tabulae: Non dices contra
+            <lb ed="#V" n="26"/>proximum tuum falsum
+            testimo<lb ed="#V" n="27" break="no"/>nium. Potest dici, quod in perjurio
+            <lb ed="#V" n="28"/>est quandoque duplex peccatum,
+            <lb ed="#V" n="29"/>scilicet mendacium tanquam
+            ma<lb ed="#V" n="30" break="no"/>teriale, et assumptio nominis Dei
+            <lb ed="#V" n="31"/>in vanum, hoc est, non solum
+            in<lb ed="#V" n="32" break="no"/>cludit mentiri, sed etiam
+            irreveren<lb ed="#V" n="33" break="no"/>tiam; et primum pertinet ad
+            se<lb ed="#V" n="34" break="no"/>cundam tabulam, sed secundum
+            <lb ed="#V" n="35"/>formaliter ad primam, quia
+            irre<lb ed="#V" n="36" break="no"/>verentia prohibetur ibi. Potest
+            <lb ed="#V" n="37"/>etiam esse perjurium absque
+            men<lb ed="#V" n="38" break="no"/>tiri, puta si simpliciter dubitans
+            <lb ed="#V" n="39"/>jurat partem de qua dubitat, quam
+            <lb ed="#V" n="40"/>forte dicendo non mentiretur, quia
+            <lb ed="#V" n="41"/>non habet oppositum in mente;
+            <lb ed="#V" n="42"/>aut saltem in aliquo casu ubi jurans
+            <lb ed="#V" n="43"/>tenetur esse certus, perjuratur, si
+            <lb ed="#V" n="44"/>non est ita certus, et tamen si illud
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>assereret sine juramento, credens
+            il<lb ed="#V" n="46" break="no"/>lud plus quam oppositum, non
+            <lb ed="#V" n="47"/>mentiretur. Periculum igitur est
+            <lb ed="#V" n="48"/>habere frequenter juramentum in
+            <lb ed="#V" n="49"/>ore, quia in multis sermonibus sine
+            <lb ed="#V" n="50"/>juramento non peccaret, ubi addito
+            <lb ed="#V" n="51"/>juramento peccat, et graviter si fiat
+            <lb ed="#V" n="52"/>ex deliberatione, propter quod utile
+            <lb ed="#V" n="53"/>est documentum illud Matth. 5. Sit
+            <lb ed="#V" n="54"/>sermo vester, est, est non, non.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d39q1-p4"> -->
+          <p>
+            <lb ed="#V" n="63" type="fixed=1023"/>SCHOLIUM.
+            <lb ed="#V" n="64"/>Dividitur juramentum in assertorium de
+            <lb ed="#V" n="65"/>praeteritis et praesentibus; et promissorium de
+            <lb ed="#V" n="66"/>futuris; illud obligat ad dicendum, hoc ultra
+            <lb ed="#V" n="67"/>ad faciendum verum. Docet in promissorio,
+            <lb ed="#V" n="68"/>(verbis obscuris) requiri duplicem veritatem.
+            <lb ed="#V" n="69"/>Unam praesentem, ut adsit animus implendi
+            <lb ed="#V" n="70"/>juratum; alteram de futuro, ut illud fiat. Ita
+            <lb ed="#V" n="71"/>D. Thom. 2. 2. q. 89. art. 7. ad primum, ubi
+            <lb ed="#V" n="72"/>Cajet. Soto 8. Just. q. 1. art. 7. Sanchez optime
+            <lb ed="#V" n="73"/>l. 3. in Decal. cap. 4. a num. 2.
+          </p>
+          <p>
+            <lb ed="#V" n="74"/>De tertio articulo dico (i), quod
+            <lb ed="#V" n="75"/>dictum humanum, vel est de
+            prae<lb ed="#V" n="76" break="no"/>teritis et praesentibus, quorum est
+            <lb ed="#V" n="77"/>determinata veritas; vel de futuris,
+            <lb ed="#V" n="78"/>quorum veritas est incerta. De
+            pri<lb ed="#V" n="79" break="no"/>mis quidem dicitur dictum
+            asser<lb ed="#V" n="80" break="no"/>torium, et hoc extendendo
+            assertio<lb ed="#V" n="81" break="no"/>nem ad affirmationem et
+            negatio<lb ed="#V" n="82" break="no"/>nem; in futuris autem cum sit in
+            <lb ed="#V" n="83"/>potestate jurantis, dicitur esse
+            pro<lb ed="#V" n="84" break="no"/>missorium, et secundum hoc cum
+            <lb ed="#V" n="85"/>juramentum sit utriusque dicti
+            <lb ed="#V" n="86"/>assertio, duplex est juramentum,
+            <lb ed="#V" n="87"/>scilicet assertorium et
+            promisso<pb ed="#V" n="1024"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>rium; utrumque tamen est
+            obliga<lb ed="#V" n="2" break="no"/>torium. Assertorium quidem, quia
+            <lb ed="#V" n="3"/>obligatur jurans ad dicendum
+            ve<lb ed="#V" n="4" break="no"/>rum, ex quo talem testem inducit
+            <lb ed="#V" n="5"/>ad assertionem dicti sui;
+            promis<lb ed="#V" n="6" break="no"/>sorium, quia obligatur, ut illud
+            <lb ed="#V" n="7"/>verum esse faciat. Et quia
+            asserto<lb ed="#V" n="8" break="no"/>rium non obligat, nisi pro tempore
+            <lb ed="#V" n="9"/>pro quo juratur, ideo appropriate
+            <lb ed="#V" n="10"/>juramentum dicitur; obligatio vero,
+            <lb ed="#V" n="11"/>quia respicit futurum, ideo
+            appro<lb ed="#V" n="12" break="no"/>priate juramentum promissorium
+            <lb ed="#V" n="13"/>dicitur obligatorium, quia obligat
+            <lb ed="#V" n="14"/>ad factum juramentum implendum.
+            <lb ed="#V" n="15"/>Et assimilantur illae duae species
+            <lb ed="#V" n="16"/>juramenti duabus speciebus
+            obli<lb ed="#V" n="17" break="no"/>gationis in sophismatibus, scilicet
+            <lb ed="#V" n="18"/>positioni et petitioni. Positio obligat
+            <lb ed="#V" n="19"/>ad sustinendum positum tanquam
+            <lb ed="#V" n="20"/>verum; petitio, ad exequendum
+            <lb ed="#V" n="21"/>petitum in facto.
+          </p>
+          <p>
+            <lb ed="#V" n="22"/>Hic tamen est unum dubium (k),
+            <lb ed="#V" n="23"/>utrum in juramento promissorio
+            <lb ed="#V" n="24"/>praesupponatur qualitas jurati, et
+            <lb ed="#V" n="25"/>illa praesupposita adducatur testis
+            <lb ed="#V" n="26"/>idoneus ad dictum illud
+            confirman<lb ed="#V" n="27" break="no"/>dum, an praesupponatur qualitas
+            <lb ed="#V" n="28"/>testis, et secundario consideretur
+            <lb ed="#V" n="29"/>qualitas dicendi sub testimonio
+            il<lb ed="#V" n="30" break="no"/>lius? quia si primum esset verum,
+            <lb ed="#V" n="31"/>videretur sufficere quod jurans de
+            <lb ed="#V" n="32"/>futuro haberet intentionem faciendi
+            <lb ed="#V" n="33"/>quando jurat, licet mutaret eam
+            <lb ed="#V" n="34"/>post. Secundum videtur magis
+            con<lb ed="#V" n="35" break="no"/>sonum communi sententiae, quia in
+            <lb ed="#V" n="36"/>illo juramento dicitur quis semper
+            <lb ed="#V" n="37"/>manere obligatus donec impleat
+            <lb ed="#V" n="38"/>illud.
+          </p>
+          <p>
+            <lb ed="#V" n="39"/>Quantum igitur ad perjurium
+            as<lb ed="#V" n="40" break="no"/>sertorium, non oportet in speciali
+            <lb ed="#V" n="41"/>plus tangere, quam tactum est in
+            <lb ed="#V" n="42"/>articulo de perjurio in communi.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d39q1-p5"> -->
+          <p>
+            <lb ed="#V" n="27" type="fixed=1029"/>SCHOLIUM.
+            <lb ed="#V" n="28"/>Ponit species juramenti promissorii. Prima,
+            <lb ed="#V" n="29"/>id est, dolosum, est quando non intendit
+            ju<lb ed="#V" n="30" break="no"/>rans implere, quo peccatur mortaliter, sed non
+            <lb ed="#V" n="31"/>est obligatio adimplendi. Ita communis. Vide
+            <lb ed="#V" n="32"/>Sanchium supra num. 16. Quod vero non
+            te<lb ed="#V" n="33" break="no"/>neatur adimplere. tenent D. Bonavent. hic
+            <lb ed="#V" n="34"/>art. 3. quaest. 1. Richadr, art. 2. quaest. 1. Rub.
+            <lb ed="#V" n="35"/>quaest. 2. art. 1. Alm. quaest. 1. Navar. cap. 12.
+            <lb ed="#V" n="36"/>num. 38. Secunda, est incautum, et est triplex:
+            <lb ed="#V" n="37"/>Primo, quando juratur illicitum. Secundo,
+            <lb ed="#V" n="38"/>quando est contra opera perfectionis. Tertio,
+            <lb ed="#V" n="39"/>quando juratum est impossibile juranti. Primo,
+            <lb ed="#V" n="40"/>et secundo modo, tenetur jurans, non
+            adimple<lb ed="#V" n="41" break="no"/>re, peccavit tamen (inquit Doctor) mortaliter,
+            <lb ed="#V" n="42"/>sic jurando. Quod intellige quoad primum si
+            <lb ed="#V" n="43"/>illicitum juratum est mortale, non aliter, quia
+            <lb ed="#V" n="44"/>si tantum est veniale id jurare, erit veniale.
+          </p>
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>Ita Sylv. v. Juramentum 4. quaest. 1. Cajetan.
+            <lb ed="#V" n="46"/>2. 2. quaest. 98. art. 2. et Summ. v. Perjurium
+            <lb ed="#V" n="47"/>1. 2. Soto 8. de Just. quaest. 2. art. 3. con. 5.
+            <lb ed="#V" n="48"/>Navar. cap. 12. num. 15. Assor. tom. 1. lib. 11.
+            <lb ed="#V" n="49"/>cap. 5. quaest. 1. Sayrus lib. 5. cap. 4. num. 35.
+            <lb ed="#V" n="50"/>Lessius lib. 2. cap. 42. dub. 4. Quoad secundum,
+            <lb ed="#V" n="51"/>ita tenent Abulens. in cap. 2. Matth. quaest.
+            <lb ed="#V" n="52"/>301. Angelus v. Juramentum 5. num. 3. Sylv. v.
+            <lb ed="#V" n="53"/>Juramentum 2. quaest. 7. Communior tamen
+            <lb ed="#V" n="54"/>tenet eo casu esse tantum veniale. Ita Sotus,
+            <lb ed="#V" n="55"/>Assor, Navar. citati. Vide Pitigianis hic art.
+            <lb ed="#V" n="56"/>10. Tertia species est, juramentum coactum
+            <lb ed="#V" n="57"/>de quo nihil resolvit Doctor, sed obligare
+            <lb ed="#V" n="58"/>tenet communis, cum D. Thom. supra quaest.
+            <lb ed="#V" n="59"/>89. art. 7. ad. 3. et quaest. 98. art. 3. et
+            habe<lb ed="#V" n="60" break="no"/>tur cap. si vero, cap. Verum, de jurejur. cap.
+            <lb ed="#V" n="61"/>Ad audientiam, de iis quae vi. Sed non
+            adim<lb ed="#V" n="62" break="no"/>plere hoc, esse veniale tantum tenent Panorm.
+            <lb ed="#V" n="63"/>d. cap. si vero. Joan. Andr. et Host. d. cap.
+            <lb ed="#V" n="64"/>verum. At communis Theologorum tenet esse
+            <lb ed="#V" n="65"/>mortale, si sit de re gravi, pro quo Pitigian.
+            <lb ed="#V" n="66"/>hic art. 11. citat multos. Quarta species est
+            <lb ed="#V" n="67"/>juramentum carens dolo, incautela et
+            coactio<lb ed="#V" n="68" break="no"/>ne, et tale semper obligat, et contra hoc, tunc
+            <lb ed="#V" n="69"/>primo peccatur, quando habetur voluntas non
+            <lb ed="#V" n="70"/>adimplendi, sed an obligat hoc sub mortali
+            <lb ed="#V" n="71"/>non explicat Doctor. Et quidem sic obligare
+            <lb ed="#V" n="72"/>quando res est notabilis, certum est, tamen
+            <lb ed="#V" n="73"/>quando res jurata est levis, supposito animo
+            <lb ed="#V" n="74"/>adimplendi quando juratum est, videtur quod
+            <lb ed="#V" n="75"/>non adimpletio est tantum veniale. Ita D.
+            <lb ed="#V" n="76"/>Thom. 2. 2. quaest. 110. art. 3. ad 5. ubi ait non
+            <lb ed="#V" n="77"/>esse mendacium, sed infidelitatem, quae in re
+            <lb ed="#V" n="78"/>levi est veniale. Sed expresse sic docent Suar.
+            <lb ed="#V" n="79"/>tom. 2. de Relig. de juram. lib. 3. cap. 16.
+            Na<lb ed="#V" n="80" break="no"/>var. cap. 12. num. 10. et cap. 18. num. 7. Sylv.
+            <lb ed="#V" n="81"/>v. Juramentum 4. quaest. 1. Soto 8. Just. quaest.
+            <lb ed="#V" n="82"/>1. art. 7. dub. 1. Assor. tom. 1. lib. 5. cap. 27.
+            <lb ed="#V" n="83"/>quaest. 2.
+          </p>
+          <p>
+            <lb ed="#V" n="84"/>Quantum ad perjurium (1)
+            pro<lb ed="#V" n="85" break="no"/>missorium vel obligatorium, dico
+            <lb ed="#V" n="86"/>quod potest esse quadruplex,
+            sci<lb ed="#V" n="87" break="no"/>licet, dolosum, incautum, coactum,
+            <lb ed="#V" n="88"/>et carens istis tribus conditionibus
+            <lb ed="#V" n="89"/>indebitis.
+          </p>
+          <p>
+            <lb ed="#V" n="90"/>Dolosum est, quando jurans (m)
+            <lb ed="#V" n="91"/>aliquid esse factum in ipso actu
+            <lb ed="#V" n="92"/>jurandi intendit oppositum, et non
+            <lb ed="#V" n="93"/>intendit se obligare ad illud quod
+            <pb ed="#V" n="1030"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>juratur; et talis in ipso actu
+            juran<lb ed="#V" n="2" break="no"/>di peccat mortaliter, quia adducit
+            <lb ed="#V" n="3"/>Deum tanquam testem sui
+            propo<lb ed="#V" n="4" break="no"/>siti de aliquo implendo, cum tamen
+            <lb ed="#V" n="5"/>intendat oppositum. Tamen post
+            <lb ed="#V" n="6"/>illud juramentum non remanet
+            <lb ed="#V" n="7"/>obligatus, quia in obligationibus
+            <lb ed="#V" n="8"/>privatis nullus obligatur, non
+            in<lb ed="#V" n="9" break="no"/>tendens se obligare. Nec sequitur
+            <lb ed="#V" n="10"/>quod talis ex peccato suo reportet
+            <lb ed="#V" n="11"/>commodum, quia si non jurasset
+            <lb ed="#V" n="12"/>dolose, esset obligatus, quia
+            nul<lb ed="#V" n="13" break="no"/>lum commodum est reportare
+            pec<lb ed="#V" n="14" break="no"/>catum mortale, quod non reportaret,
+            <lb ed="#V" n="15"/>si non jurasset dolose, licet
+            tene<lb ed="#V" n="16" break="no"/>retur implere juramentum, quae
+            <lb ed="#V" n="17"/>tamen tentio non est ita damnosa,
+            <lb ed="#V" n="18"/>sicut peccatum mortale, quod
+            in<lb ed="#V" n="19" break="no"/>curritur in jurando dolose.
+          </p>
+          <p>
+            <lb ed="#V" n="20"/>Juramentum incautum (n) potest
+            <lb ed="#V" n="21"/>esse duplex, vel quia transit super
+            <lb ed="#V" n="22"/>materiam omnino illicitam, ut cum
+            <lb ed="#V" n="23"/>quis jurat se occisurum, vel
+            adul<lb ed="#V" n="24" break="no"/>teraturum; et tale juramentum non
+            <lb ed="#V" n="25"/>obligat jurantem ad impletionem
+            <lb ed="#V" n="26"/>sui juramenti, ita quod post
+            jura<lb ed="#V" n="27" break="no"/>mentum debeat illum actum
+            im<lb ed="#V" n="28" break="no"/>plere. Tamen quando juravit, si
+            <lb ed="#V" n="29"/>non habuit intentionem implendi
+            <lb ed="#V" n="30"/>illud, peccavit mortaliter, quia
+            ad<lb ed="#V" n="31" break="no"/>duxit Deum in testimonium falsi.
+            <lb ed="#V" n="32"/>Si etiam habuit talem intentionem,
+            <lb ed="#V" n="33"/>peccavit mortaliter, quia velle
+            pec<lb ed="#V" n="34" break="no"/>care mortaliter est peccare
+            morta<lb ed="#V" n="35" break="no"/>liter; talis igitur in ipso actu
+            juran<lb ed="#V" n="36" break="no"/>di omni modo peccat mortaliter.
+            <lb ed="#V" n="37"/>Post juramentum tamen debet illum
+            <lb ed="#V" n="38"/>actum non implere, quia non debet
+            <lb ed="#V" n="39"/>addere peccatum peccato; non
+            <lb ed="#V" n="40"/>enim, quia juravit illicite, fit sibi
+            <lb ed="#V" n="41"/>licitum, quod prius fuit illicitum.
+          </p>
+          <p>
+            <lb ed="#V" n="42"/>Alio modo est juramentum
+            incau<lb ed="#V" n="43" break="no"/>tum (o), quod transit super aliquam
+            <lb ed="#V" n="44"/>materiam, quae de se esset licita, sed
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>non est materia juramenti licita, ut
+            <lb ed="#V" n="46"/>cum aliquis abjurat opera
+            perfectio<lb ed="#V" n="47" break="no"/>nis, in hoc enim ponit obicem
+            mo<lb ed="#V" n="48" break="no"/>tioni Spiritus sancti; unde tale
+            <lb ed="#V" n="49"/>juramentum servare, vergit in
+            pe<lb ed="#V" n="50" break="no"/>jorem exitum, et ideo post actum
+            <lb ed="#V" n="51"/>non est servandum; quod juratur,
+            <lb ed="#V" n="52"/>licet enim absolute liceat non
+            fa<lb ed="#V" n="53" break="no"/>cere opera perfectionis; non tamen
+            <lb ed="#V" n="54"/>licet habere fixum velle nunquam
+            <lb ed="#V" n="55"/>faciendi opera perfectionis, quia
+            <lb ed="#V" n="56"/>hoc est habere velle fixum contra
+            <lb ed="#V" n="57"/>motionem Spiritus sancti. In his
+            <lb ed="#V" n="58"/>igitur duobus juramentis, scilicet
+            <lb ed="#V" n="59"/>doloso et incauto, duobus modis
+            <lb ed="#V" n="60"/>praedictis, patet quod jurans non
+            <lb ed="#V" n="61"/>manet obligatus ad implendum quod
+            <lb ed="#V" n="62"/>juratur post juramentum, sed in
+            ac<lb ed="#V" n="63" break="no"/>tu jurandi peccat mortaliter.
+          </p>
+          <p>
+            <lb ed="#V" n="64"/>Posset poni aliud juramentum
+            <lb ed="#V" n="65"/>incautum (p), ut quando aliquis
+            <lb ed="#V" n="66"/>jurat se facturum, quod non
+            po<lb ed="#V" n="67" break="no"/>test facere, licet, cum jurat, putet
+            <lb ed="#V" n="68"/>se posse illud facere. Et de hoc
+            <lb ed="#V" n="69"/>judicandum est, sicut dictum est
+            <lb ed="#V" n="70"/>in articulo de juramento in
+            com<lb ed="#V" n="71" break="no"/>muni, quia si possit in futurum,
+            <lb ed="#V" n="72"/>tenetur; si non possit, excusatur
+            <lb ed="#V" n="73"/>in favorem.
+          </p>
+          <p>
+            <lb ed="#V" n="74"/>De juramento coacto (q),
+            coac<lb ed="#V" n="75" break="no"/>tione quae potest cadere in
+            con<lb ed="#V" n="76" break="no"/>stantem virum, sunt opiniones,
+            <lb ed="#V" n="77"/>quaere.
+          </p>
+          <p>
+            <lb ed="#V" n="78"/>Juramentum promissorium; (r)
+            <lb ed="#V" n="79"/>carens istis tribus conditionibus,
+            <lb ed="#V" n="80"/>dolo, incautela et coactione,
+            obli<lb ed="#V" n="81" break="no"/>gat jurantem ad nunquam
+            haben<lb ed="#V" n="82" break="no"/>dum oppositam voluntatem ei,
+            <lb ed="#V" n="83"/>quod juravit, et licet differat
+            im<lb ed="#V" n="84" break="no"/>plere illud propter circumstantias,
+            <lb ed="#V" n="85"/>propter quas videtur
+            rationabili<lb ed="#V" n="86" break="no"/>ter differendum, non peccat; sed
+            <lb ed="#V" n="87"/>tunc est primo perjurus, quando
+            <lb ed="#V" n="88"/>habet voluntatem non implendi
+            <pb ed="#V" n="1031"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>illud quod juravit, quia tunc vult
+            <lb ed="#V" n="2"/>Deum primo fuisse testem falsi.
+          </p>
+          <p>
+            <lb ed="#V" n="3"/>Ad primum argumentum (s)
+            <lb ed="#V" n="4"/>patet in turpi voto, mutans
+            decre<lb ed="#V" n="5" break="no"/>tum; in jurando tamen peccavit
+            <lb ed="#V" n="6"/>mortaliter.
+          </p>
+          <p>
+            <lb ed="#V" n="7"/>Ad aliud dico (t) quod, caeteris
+            <lb ed="#V" n="8"/>paribus, maximum juramentum
+            <lb ed="#V" n="9"/>est jurare per Deum, quia per
+            <lb ed="#V" n="10"/>nihil aliud licite juratur, nisi
+            in<lb ed="#V" n="11" break="no"/>quantum in eo speciali modo
+            ha<lb ed="#V" n="12" break="no"/>bitat Deus, vel est, puta, per
+            <lb ed="#V" n="13"/>Evangelium, quia in eo specialiter
+            <lb ed="#V" n="14"/>relucet Deus; per coelum, quia ibi
+            <lb ed="#V" n="15"/>speciali modo habitat Deus; per
+            <lb ed="#V" n="16"/>Ecclesiam, quia ibi speciali modo
+            <lb ed="#V" n="17"/>colitur Deus. Consuetudo tamen
+            <lb ed="#V" n="18"/>rationabilis hoc exigit, ut quaedam
+            <lb ed="#V" n="19"/>juramenta fiant cum majori
+            so<lb ed="#V" n="20" break="no"/>lemnitate quam alia, et de factis
+            <lb ed="#V" n="21"/>cum solemnitate praesumitur quod
+            <lb ed="#V" n="22"/>nunquam fiant sine deliberatione.
+            <lb ed="#V" n="23"/>Statuit igitur Ecclesia ad
+            terro<lb ed="#V" n="24" break="no"/>rem, ut per hujusmodi non
+            ju<lb ed="#V" n="25" break="no"/>retur, nisi solemniter tantum, et
+            <lb ed="#V" n="26"/>per consequens deliberate, et ubi
+            <lb ed="#V" n="27"/>veritas simpliciter est communiter
+            <lb ed="#V" n="28"/>asserenda; per Deum autem
+            jura<lb ed="#V" n="29" break="no"/>tur communiter et leviter, et
+            fre<lb ed="#V" n="30" break="no"/>quenter, sine deliberatione.
+          </p>
+          <p>
+            <lb ed="#V" n="31"/>Dico tamen, quod, caeteris
+            pa<lb ed="#V" n="32" break="no"/>ribus, gravissimum est jurare per
+            <lb ed="#V" n="33"/>Deum, sed posita indeliberatione
+            <lb ed="#V" n="34"/>ex illa parte, et plena
+            delibera<lb ed="#V" n="35" break="no"/>tione ex alia parte, qualis
+            habe<lb ed="#V" n="36" break="no"/>tur, quando juratur super
+            Evan<lb ed="#V" n="37" break="no"/>gelium, ponitur hoc esse peccatum
+            <lb ed="#V" n="38"/>mortale, non solum propter
+            irre<lb ed="#V" n="39" break="no"/>verentiam illius per quod juratur,
+            <lb ed="#V" n="40"/>sed propter deliberationem, quae
+            <lb ed="#V" n="41"/>ponitur hic et non ibi. Et si
+            quae<lb ed="#V" n="42" break="no"/>ratur, quare igitur perjurans per
+            <lb ed="#V" n="43"/>Evangelia est infamis; jurans per
+            <lb ed="#V" n="44"/>Deum non est infamis?
+            Respon<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>deo, infamatio non sequitur
+            sem<lb ed="#V" n="46" break="no"/>per qualitatem culpae, sed crimen
+            <lb ed="#V" n="47"/>publicum; statutum est autem
+            <lb ed="#V" n="48"/>quod juramentum publicum, et
+            <lb ed="#V" n="49"/>cum deliberatione est, quando
+            <lb ed="#V" n="50"/>juratur super Evangelia, et ideo
+            <lb ed="#V" n="51"/>transgressor talis juramenti
+            praesu<lb ed="#V" n="52" break="no"/>mitur tanquam violator fidei, et
+            <lb ed="#V" n="53"/>ideo rationabiliter habetur infamis;
+            <lb ed="#V" n="54"/>non sic autem potest praesumi
+            <lb ed="#V" n="55"/>de aliquo leviter perjurante per
+            <lb ed="#V" n="56"/>Deum.
+          </p>
+          <p>
+            <lb ed="#V" n="57"/>Ad ultimum, patet quomodo
+            ju<lb ed="#V" n="58" break="no"/>ramentum promissorium obligat, et
+            <lb ed="#V" n="59"/>quod non ad implendum actum
+            <lb ed="#V" n="60"/>juramenti.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>
