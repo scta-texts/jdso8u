@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 3, Praeambulum</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 3, Praeambulum</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x16">Vives, Paris, 1894, volume 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="273"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e5208"><!-- jdso8u-b4d3prae -->
+        <head>Praeambulum</head>
+        <!-- <div alias="scotus-d3prae"> -->
+          <p>
+            <lb ed="#V" n="42" type="fixed=273"/>Supra Magister (a) egit de
+            quo<lb ed="#V" n="43" break="no"/>dam praeambulo ad Baptismum
+            <lb ed="#V" n="44"/>Christi; hic agit de Scramento
+            <lb ed="#V" n="45"/>Baptismi. Et dividitur in duas, in
+            <lb ed="#V" n="46"/>prooemium et tractatum, qui
+            in<lb ed="#V" n="47" break="no"/>cipit ibi: Baptismus dicitur. Prima
+            <lb ed="#V" n="48"/>dividitur in partem principalem
+            <lb ed="#V" n="49"/>et incidentalem, quae incidentalis
+            <lb ed="#V" n="50"/>incipit capite 4. Principalis
+            dividi<lb ed="#V" n="51" break="no"/>tur in tres partes: Primo agit de
+            <lb ed="#V" n="52"/>partibus intrinsece pertinentibus
+            <lb ed="#V" n="53"/>ad Baptismum. Secundo de
+            susci<lb ed="#V" n="54" break="no"/>piente Baptismum 4. dist. Tertio
+            <lb ed="#V" n="55"/>de ministro dist. 5. Post hoc sciendum.
+            <lb ed="#V" n="56"/>Prima, quae pertinet ad
+            praesen<lb ed="#V" n="57" break="no"/>tem lectionem dividitur in tres:
+            <lb ed="#V" n="58"/>Primo, agit de quidditate Baptismi,
+            <lb ed="#V" n="59"/>sive quid sit Baptismus. Secundo,
+            <lb ed="#V" n="60"/>de forma ejus, ibi: Sed quid est
+            il<lb ed="#V" n="61" break="no"/>lud verbum. Tertio, de institutione
+            <lb ed="#V" n="62"/>ejus, ibi: De institutione. Et in illa
+            <lb ed="#V" n="63"/>tertia parte interserit de materia
+            <lb ed="#V" n="64"/>Baptismi, ibi: Celebratur autem etc.
+          </p>
+          <p>
+            <lb ed="#V" n="65"/>Circa istam distinctionem
+            ter<lb ed="#V" n="66" break="no"/>tiam, quaerendum est de quatuor:
+            <lb ed="#V" n="67"/>Primo, de Baptismi definitione,
+            <lb ed="#V" n="68"/>an illa propria sit ejus, quam
+            <lb ed="#V" n="69"/>ponit Magister: Baptismus est
+            tinc<lb ed="#V" n="70" break="no"/>tio, id est, ablutio corporis exterior,
+            <lb ed="#V" n="71"/>facta sub forma verborum praescripta?
+            <lb ed="#V" n="72"/>Secundo, de forma Baptismi, an
+            <lb ed="#V" n="73"/>haec sit praecisa forma ejus:
+            Bapti<lb ed="#V" n="74" break="no"/>20 te in nomine Patris et Filii et
+            Spiri<lb ed="#V" n="75" break="no"/>tus sancti Amen. Tertio, de materia.
+            <lb ed="#V" n="76"/>an sola aqua naturalis pura sit
+            <lb ed="#V" n="77"/>materia conveniens Baptismo.
+            <lb ed="#V" n="78"/>Quarto, de institutione, utrum
+            <lb ed="#V" n="79"/>institutio Baptismi evacuet
+            Cir<lb ed="#V" n="80" break="no"/>cumcisionem.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

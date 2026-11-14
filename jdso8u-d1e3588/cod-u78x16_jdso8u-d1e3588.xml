@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio Sexta, Pars 3, Quaestio 1</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio Sexta, Pars 3, Quaestio 1</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x16">Vives, Paris, 1894, volume 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="562"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e3588"><!-- jdso8u-b4d6p3q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum in ministro baptizante requiratur intentio debita ad baptizandum</head>
+        <!-- <div alias="scotus-d6q5-p1"> -->
+          <p>
+            <lb ed="#V" n="68" type="fixed=562"/>QUAESTIO V.
+            <lb ed="#V" n="69"/>Utrum in baptizante requiratur intentio
+            <lb ed="#V" n="70"/>baptizandi?
+          </p>
+          <p>
+            <lb ed="#V" n="71"/>Alensis 4. p. q. 13. m. 1. per tres art. D. Bonav.
+            <lb ed="#V" n="72"/>hic 2. p. a. 2. q. 1. et 2. Rich. a. 1. q. 2.
+            <lb ed="#V" n="73"/>D. Thom. q. 1. a. 2. et 3. p. q. 64. a. 8. Suar.
+            <lb ed="#V" n="74"/>ibid. 13. s. 2. et 3.
+          </p>
+          <p>
+            <lb ed="#V" n="75"/>Circa tertium principale, quaero
+            <lb ed="#V" n="76"/>duo: Primo, utrum in baptizante
+            <lb ed="#V" n="77"/>requiratur intentio baptizandi?
+            <lb ed="#V" n="78"/>Secundo, an requiratur in eo
+            <lb ed="#V" n="79"/>actualis intentio baptizandi? Ad
+            <lb ed="#V" n="80"/>primum arguitur quod non, quia
+            <lb ed="#V" n="81"/>non habens fidem potest baptizare,
+            <lb ed="#V" n="82"/>patet hoc de Pagano, de consecrat.
+            <lb ed="#V" n="83"/>dist. 4. Romanus; sed non habens
+            <lb ed="#V" n="84"/>fidem non habet intentionem, quia
+            <pb ed="#V" n="563"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>nullus vult fieri, quod non credit
+            <lb ed="#V" n="2"/>posse fieri.
+            <lb ed="#V" n="3"/>Praeterea, Augustinus super
+            <lb ed="#V" n="4"/>Joan. Homilia 5. Non timeo
+            ebri<lb ed="#V" n="5" break="no"/>osum in actu baptizandi. Sed perfecte
+            <lb ed="#V" n="6"/>ebriosus non potest habere usum
+            <lb ed="#V" n="7"/>rationis; ergo nec intentionem.
+          </p>
+          <p>
+            <lb ed="#V" n="8"/>Contra, Magister in littera c. 1.
+            <lb ed="#V" n="9"/>Solet etiam quaeri in hoc, inquit, sicut
+            <lb ed="#V" n="10"/>in aliis Sacramentis, sicut forma est
+            <lb ed="#V" n="11"/>servanda, ita intentio celebrandi est
+            ha<lb ed="#V" n="12" break="no"/>benda.
+          </p>
+          <p>
+            <lb ed="#V" n="13"/>SCHOLIUM.
+            <lb ed="#V" n="14"/>Rejecta ratione Richardi dicit duo.
+            Pri<lb ed="#V" n="15" break="no"/>mum, baptizans necessario debet intendere
+            <lb ed="#V" n="16"/>actum baptizationis, id est, libere illum
+            <lb ed="#V" n="17"/>elicere, ut valeat. Secundum, non tenetur
+            <lb ed="#V" n="18"/>intendere finem ultimum, bene tamen finem
+            <lb ed="#V" n="19"/>proximum in particulari vel generali, id
+            <lb ed="#V" n="20"/>est, facere baptizatum Christianum, vel
+            <lb ed="#V" n="21"/>quod instituit Christus, seu quod solent
+            Chri<lb ed="#V" n="22" break="no"/>stiani facere, Trid. ss. 7. can. 14. et ss. 14.
+            <lb ed="#V" n="23"/>can. 9. Vide Coccium tom. 2. lib. 5. art. 2.
+          </p>
+          <p>
+            <lb ed="#V" n="24"/>Ad istam (a) quaestionem
+            com<lb ed="#V" n="25" break="no"/>muniter conceditur quod sic. Ad
+            <lb ed="#V" n="26"/>quod ponitur talis congruitas,
+            <lb ed="#V" n="27"/>quando ex aliquibus duobus fit
+            <lb ed="#V" n="28"/>unum, oportet quod hoc fiat per
+            <lb ed="#V" n="29"/>aliquod conjungens illa; verbum
+            <lb ed="#V" n="30"/>et elementum concurrunt ad unum
+            <lb ed="#V" n="31"/>Baptismum; ergo requiritur
+            ali<lb ed="#V" n="32" break="no"/>quid conjungens illa; hoc autem
+            <lb ed="#V" n="33"/>conjungens non potest esse
+            susci<lb ed="#V" n="34" break="no"/>piens, quia habet rationem
+            mate<lb ed="#V" n="35" break="no"/>riae et susceptivi; ergo oportet,
+            <lb ed="#V" n="36"/>quod sit in ministro; sed tale nihil
+            <lb ed="#V" n="37"/>videtur, nisi intentio, quia ipse
+            <lb ed="#V" n="38"/>ministrans per potentias
+            exteri<lb ed="#V" n="39" break="no"/>ores, puta motivam qua abluit, et
+            <lb ed="#V" n="40"/>expressivam qua profert verba,
+            <lb ed="#V" n="41"/>causat illa, ut distincta.
+          </p>
+          <p>
+            <lb ed="#V" n="42"/>Haec ratio non videtur multum
+            <lb ed="#V" n="43"/>efficax, quia in signo instituto ad
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="44"/>placitum possunt multa
+            concurre<lb ed="#V" n="45" break="no"/>re ad rationem unius signi,
+            pro<lb ed="#V" n="46" break="no"/>pter actionem instituentis, licet
+            <lb ed="#V" n="47"/>nihil aliud sit, a quo habeat
+            uni<lb ed="#V" n="48" break="no"/>tatem. Patet de circulis ornatis
+            <lb ed="#V" n="49"/>foliis viridibus et aliis multis, ad
+            <lb ed="#V" n="50"/>signandum multum.
+          </p>
+          <p>
+            <lb ed="#V" n="51"/>Dico (b) ergo distinguendo de
+            <lb ed="#V" n="52"/>intentione quantum ad objectum,
+            <lb ed="#V" n="53"/>respectu cujus dicitur intentio,
+            <lb ed="#V" n="54"/>quod minister potest dici
+            intende<lb ed="#V" n="55" break="no"/>re, vel actum illum quem exercet,
+            <lb ed="#V" n="56"/>vel finem propter quem talis actus
+            <lb ed="#V" n="57"/>est exercendus. Secundo, magis
+            <lb ed="#V" n="58"/>proprie accipitur intentio, quia
+            <lb ed="#V" n="59"/>magis respicit finem propter quem
+            <lb ed="#V" n="60"/>intenditur, ut patet lib. 2. tamen
+            <lb ed="#V" n="61"/>primo modo aliter accipitur, ut
+            <lb ed="#V" n="62"/>patet per Augustinum 9. de Trin.
+            <lb ed="#V" n="63"/>et alibi frequenter, ubi vult,
+            <lb ed="#V" n="64"/>quod intentio copulat
+            intelligen<lb ed="#V" n="65" break="no"/>tiam cum parente. Hoc etiam
+            mo<lb ed="#V" n="66" break="no"/>do accipitur intentio 2. Physic, text.
+            <lb ed="#V" n="67"/>c. 9. et inde, ubi agens ex
+            intenti<lb ed="#V" n="68" break="no"/>one, quod dicitur agens a
+            proposi<lb ed="#V" n="69" break="no"/>to, distinguitur contra agens
+            natu<lb ed="#V" n="70" break="no"/>rale.
+          </p>
+          <p>
+            <lb ed="#V" n="71"/>Dico (c) ergo, quod oportet
+            mi<lb ed="#V" n="72" break="no"/>nistrum habere intentionem primo
+            <lb ed="#V" n="73"/>modo, scilicet respectu actus quem
+            <lb ed="#V" n="74"/>exercet. Cujus ratio est, quia
+            <lb ed="#V" n="75"/>intentio requiritur in quocumque
+            <lb ed="#V" n="76"/>homine agente aliquid non
+            for<lb ed="#V" n="77" break="no"/>tuite, vel exercente aliquem actum
+            <lb ed="#V" n="78"/>humanum, proprie loquendo de
+            <lb ed="#V" n="79"/>actibus humanis, qui scilicet
+            cau<lb ed="#V" n="80" break="no"/>santur per intellectum et
+            volunta<lb ed="#V" n="81" break="no"/>tem ab homine.
+          </p>
+          <p>
+            <lb ed="#V" n="82"/>Ille autem actus, quem minister
+            <lb ed="#V" n="83"/>debet exercere, debet esse
+            huma<lb ed="#V" n="84" break="no"/>nus in eo, et non casualis vel
+            for<lb ed="#V" n="85" break="no"/>tuitus; est enim actus, ad quem
+            <lb ed="#V" n="86"/>Deus obligavit ministrum ex parte
+            <lb ed="#V" n="87"/>sui, et suscipientem ex parte sua.
+            <pb ed="#V" n="564"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Actus autem ad quem homo
+            obli<lb ed="#V" n="2" break="no"/>gatur, debet esse humanus, non
+            <lb ed="#V" n="3"/>casualis vel fortuitus, quia super
+            <lb ed="#V" n="4"/>fortuita non cadit obligatio; ipsa
+            <lb ed="#V" n="5"/>etiam obligatio est, ut homo
+            in<lb ed="#V" n="6" break="no"/>tendat illud ad quod obligatur.
+          </p>
+          <p>
+            <lb ed="#V" n="7"/>Si autem loquamur de intentione
+            <lb ed="#V" n="8"/>secundo modo, scilicet respectu
+            <lb ed="#V" n="9"/>finis propter quem talis actus est
+            <lb ed="#V" n="10"/>exercendus, dicendum, quod talis
+            <lb ed="#V" n="11"/>finis est duplex, scilicet
+            principa<lb ed="#V" n="12" break="no"/>lis et remotus, utpote, quod
+            bapti<lb ed="#V" n="13" break="no"/>zatus fiat filius regni, qualis fieri
+            <lb ed="#V" n="14"/>non potest, si non habeat gratiam,
+            <lb ed="#V" n="15"/>per quam est dignus vita. Alius
+            <lb ed="#V" n="16"/>est proximus et minus principalis,
+            <lb ed="#V" n="17"/>ut scilicet baptizatus fiat
+            Christi<lb ed="#V" n="18" break="no"/>anus, sive membrum Ecclesiae
+            mi<lb ed="#V" n="19" break="no"/>litantis; et utrumque finem potest
+            <lb ed="#V" n="20"/>aliquis intendere in universali vel
+            <lb ed="#V" n="21"/>particulari.
+          </p>
+          <p>
+            <lb ed="#V" n="22"/>Dico (d) ergo, quod intentio finis
+            <lb ed="#V" n="23"/>ultimi nullo modo requiritur in
+            <lb ed="#V" n="24"/>baptizante, quia Paganus nullo
+            <lb ed="#V" n="25"/>modo intendit ordinare istum,
+            <lb ed="#V" n="26"/>quem baptizat, ad vitam aeternam;
+            <lb ed="#V" n="27"/>requiritur tamen intentio
+            respe<lb ed="#V" n="28" break="no"/>ctu finis proximi, et hoc vel in
+            <lb ed="#V" n="29"/>particulari vel in generali; in
+            par<lb ed="#V" n="30" break="no"/>ticulari, ut si intendat istum
+            in<lb ed="#V" n="31" break="no"/>trare legem Christianorum
+            ser<lb ed="#V" n="32" break="no"/>vandam; in generali, si intendit
+            <lb ed="#V" n="33"/>facere circa istum, quod
+            Christi<lb ed="#V" n="34" break="no"/>ani solent facere circa suos.
+          </p>
+          <p>
+            <lb ed="#V" n="35"/>Ratio autem quare requiritur
+            <lb ed="#V" n="36"/>ista intentio respectu finis
+            proxi<lb ed="#V" n="37" break="no"/>mi, et non respectu finis ultimi,
+            <lb ed="#V" n="38"/>est congrua, quia scilicet Deus
+            vo<lb ed="#V" n="39" break="no"/>luit istum actum exercitum a
+            mi<lb ed="#V" n="40" break="no"/>nistro esse humanum in eo, et non
+            <lb ed="#V" n="41"/>tantum ut est talis actus in
+            natu<lb ed="#V" n="42" break="no"/>ra (qui in hoc non distingueretur
+            <lb ed="#V" n="43"/>a quacumque alia balneatione,
+            <lb ed="#V" n="44"/>cum aliis verbis), sed inquantum
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>est actus alicujus, ut ministri
+            ex<lb ed="#V" n="46" break="no"/>ercentis signum Dei; habens
+            au<lb ed="#V" n="47" break="no"/>tem aliquem actum humanum
+            in<lb ed="#V" n="48" break="no"/>tendit finem illius actus, ut est sibi
+            <lb ed="#V" n="49"/>actus humanus; ergo minister
+            in<lb ed="#V" n="50" break="no"/>tendit finem proximum istius
+            ac<lb ed="#V" n="51" break="no"/>tus, ut est sibi impositus; sed finis
+            <lb ed="#V" n="52"/>ille ultimus, scilicet ordinare
+            is<lb ed="#V" n="53" break="no"/>tum ad vitam aeternam, non est
+            <lb ed="#V" n="54"/>finis hujus, ut est actus humanus,
+            <lb ed="#V" n="55"/>ad quem finem oporteat actum
+            is<lb ed="#V" n="56" break="no"/>tum ordinare, ut sit sibi humanus.
+          </p>
+          <p>
+            <lb ed="#V" n="57"/>Hoc autem rationabile est
+            uni<lb ed="#V" n="58" break="no"/>versaliter in usu signi practici. Si
+            <lb ed="#V" n="59"/>quis enim legislator institueret in
+            <lb ed="#V" n="60"/>sua politia, tactum manus esse
+            si<lb ed="#V" n="61" break="no"/>gnum practicum amicitiae, non
+            in<lb ed="#V" n="62" break="no"/>tenderet, quod utentes illo signo
+            <lb ed="#V" n="63"/>praecise haberent actum
+            huma<lb ed="#V" n="64" break="no"/>num circa istud, inquantum est
+            <lb ed="#V" n="65"/>tale quid materialiter, sed
+            inquan<lb ed="#V" n="66" break="no"/>tum est tale signum institutum.
+            <lb ed="#V" n="67"/>Et si disposuisset omne tale
+            si<lb ed="#V" n="68" break="no"/>gnum facere servari, non faceret
+            <lb ed="#V" n="69"/>hoc servari, nisi homo exerceret
+            <lb ed="#V" n="70"/>actum istum, ubi est institutus ad
+            <lb ed="#V" n="71"/>talem finem.
+          </p>
+          <p>
+            <lb ed="#V" n="72"/>SCHOLIUM.
+            <lb ed="#V" n="73"/>Explicat rationem instrumenti secundum
+            <lb ed="#V" n="74"/>quinque ejus acceptiones, de quo d. 1. q. 1.
+            <lb ed="#V" n="75"/>et 4. resolvens ministrum esse causam
+            se<lb ed="#V" n="76" break="no"/>cundam respectu Sacramenti, sed
+            instru<lb ed="#V" n="77" break="no"/>mentum respectu gratiae, eo modo quo agens
+            <lb ed="#V" n="78"/>dispositivum est instrumentum respectu
+            <lb ed="#V" n="79"/>effectus principalis.
+          </p>
+          <p>
+            <lb ed="#V" n="80"/>Sed contra istam objicitur sic:
+            <lb ed="#V" n="81"/>Instrumentum non oportet quod
+            <lb ed="#V" n="82"/>habeat actionem propriam, quia
+            <lb ed="#V" n="83"/>in actione propria non esset
+            in<lb ed="#V" n="84" break="no"/>strumentum, sed principale agens;
+            <lb ed="#V" n="85"/>nec multo magis oportet, quod
+            <lb ed="#V" n="86"/>instrumentum habeat intentionem
+            <lb ed="#V" n="87"/>respectu finis, sed sufficit, quod
+            <pb ed="#V" n="565"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>dirigatur a principali agente
+            inten<lb ed="#V" n="2" break="no"/>dente finem; minister est
+            instru<lb ed="#V" n="3" break="no"/>mentum Dei, ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="4"/>Praeterea, ad Sacramentum nihil
+            <lb ed="#V" n="5"/>per se requiritur, nisi vel pars
+            <lb ed="#V" n="6"/>vel res Sacramenti; sed intentio
+            <lb ed="#V" n="7"/>non est pars, nec aliquid
+            Sacra<lb ed="#V" n="8" break="no"/>menti, quia non est aliquid
+            sensi<lb ed="#V" n="9" break="no"/>bile, nec est res Sacramenti, quia
+            <lb ed="#V" n="10"/>res Sacramenti est in suscipiente
+            <lb ed="#V" n="11"/>Sacramentum.
+          </p>
+          <p>
+            <lb ed="#V" n="12"/>Ad primum, dico quod aliud est
+            <lb ed="#V" n="13"/>loqui de causa secunda, et aliud de
+            <lb ed="#V" n="14"/>instrumento proprie dicto, de quo
+            <lb ed="#V" n="15"/>tractatum est supra distinct. 1.
+            <lb ed="#V" n="16"/>Causa enim secunda habet
+            for<lb ed="#V" n="17" break="no"/>mam propriam in esse quieto, quae
+            <lb ed="#V" n="18"/>est sibi ratio agendi in ordine suo;
+            <lb ed="#V" n="19"/>et hoc respectu ejusdem effectus,
+            <lb ed="#V" n="20"/>respectu cujus agit causa
+            princi<lb ed="#V" n="21" break="no"/>palis in suo ordine, ita quod
+            uni<lb ed="#V" n="22" break="no"/>versaliter secunda causa proprie
+            <lb ed="#V" n="23"/>accepta, effectum principalis
+            cau<lb ed="#V" n="24" break="no"/>sae per formam suam propriam
+            <lb ed="#V" n="25"/>attingit, in virtute tamen causae
+            <lb ed="#V" n="26"/>principalis agentis, quia
+            subordi<lb ed="#V" n="27" break="no"/>natur illi. Sed instrumentum
+            pro<lb ed="#V" n="28" break="no"/>prie, si ponitur activum, vel non
+            <lb ed="#V" n="29"/>attingit effectum principalis
+            agen<lb ed="#V" n="30" break="no"/>tis, sed tantum aliquam
+            dispositi<lb ed="#V" n="31" break="no"/>onem praeviam, quomodo qualitas
+            <lb ed="#V" n="32"/>alterans dicitur instrumentum
+            <lb ed="#V" n="33"/>substantiae ad generandum
+            sub<lb ed="#V" n="34" break="no"/>stantiam; hoc tamen non est, quod
+            <lb ed="#V" n="35"/>sit instrumentum in actione
+            alte<lb ed="#V" n="36" break="no"/>randi, imo respectu alterationis
+            <lb ed="#V" n="37"/>est perfectum principium, in
+            tan<lb ed="#V" n="38" break="no"/>tum quod si per se esset, per se
+            <lb ed="#V" n="39"/>posset alterare; sed solum
+            pro<lb ed="#V" n="40" break="no"/>pter hoc dicitur instrumentum
+            <lb ed="#V" n="41"/>respectu substantiae, quia agit ad
+            <lb ed="#V" n="42"/>aliquam formam, quae est
+            disposi<lb ed="#V" n="43" break="no"/>tio ad substantiam; unde ad
+            sub<lb ed="#V" n="44" break="no"/>stantiam diceretur magis agens
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>disponens, ut dividitur contra
+            per<lb ed="#V" n="46" break="no"/>ficiens, quam agens
+            instrumenta<lb ed="#V" n="47" break="no"/>le, divisum contra principale.
+          </p>
+          <p>
+            <lb ed="#V" n="48"/>Vel si ponatur instrumentum
+            <lb ed="#V" n="49"/>activum, et tamen attingens
+            ter<lb ed="#V" n="50" break="no"/>minum principalis agentis, in hoc
+            <lb ed="#V" n="51"/>distinguitur a causa secunda, quia
+            <lb ed="#V" n="52"/>non habet in esse quieto formam,
+            <lb ed="#V" n="53"/>quae sit principium agendi in suo
+            <lb ed="#V" n="54"/>ordine, sed tantum in actuali
+            mo<lb ed="#V" n="55" break="no"/>tione, et recipit eam dum
+            actuali<lb ed="#V" n="56" break="no"/>ter movetur. Et de quocumque
+            <lb ed="#V" n="57"/>illorum trium, scilicet causa
+            se<lb ed="#V" n="58" break="no"/>cunda proprie dicta, et causa
+            in<lb ed="#V" n="59" break="no"/>strumentali dispositiva et
+            instru<lb ed="#V" n="60" break="no"/>mentali activa per formam
+            rece<lb ed="#V" n="61" break="no"/>ptam in actuali motione, falsum
+            <lb ed="#V" n="62"/>est quod non habeat intentionem
+            <lb ed="#V" n="63"/>propriam, eo modo quo agens
+            na<lb ed="#V" n="64" break="no"/>turale habet intentionem
+            natura<lb ed="#V" n="65" break="no"/>lem, quia quodlibet istorum trium
+            <lb ed="#V" n="66"/>habet formam propriam, quae est
+            <lb ed="#V" n="67"/>sibi proprium principium agendi
+            <lb ed="#V" n="68"/>in ordine suo, et per consequens
+            <lb ed="#V" n="69"/>propriam intentionem, quia
+            for<lb ed="#V" n="70" break="no"/>mam activam naturalem
+            conse<lb ed="#V" n="71" break="no"/>quitur intentio isto modo.
+          </p>
+          <p>
+            <lb ed="#V" n="72"/>Quarto modo posset poni
+            instru<lb ed="#V" n="73" break="no"/>mentum, et proprie activum
+            re<lb ed="#V" n="74" break="no"/>spectu totius, aliqua pars, cui
+            sci<lb ed="#V" n="75" break="no"/>licet, primo convenit esse
+            princi<lb ed="#V" n="76" break="no"/>pium operationis, et toti non nisi
+            <lb ed="#V" n="77"/>per partem. Et hoc modo
+            Philoso<lb ed="#V" n="78" break="no"/>phus vocat organa partes illas,
+            <lb ed="#V" n="79"/>secundum quas convenit toti
+            ope<lb ed="#V" n="80" break="no"/>ratio. Et istud quodam modo
+            ha<lb ed="#V" n="81" break="no"/>bet intentionem propriam, et
+            quo<lb ed="#V" n="82" break="no"/>dam modo non. Nam forma ejus
+            <lb ed="#V" n="83"/>activa, et est ejus, et est totius;
+            <lb ed="#V" n="84"/>sed ejus est primo; totius autem
+            <lb ed="#V" n="85"/>est per se, sed non primo, et
+            eo<lb ed="#V" n="86" break="no"/>dem modo de intentione. Non enim
+            <lb ed="#V" n="87"/>est hic ordo virtutis ad virtutem
+            <lb ed="#V" n="88"/>in esse quieto, sicut in primo
+            mem<pb ed="#V" n="566"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>bro; nec ordo effectus ad effectum,
+            <lb ed="#V" n="2"/>sicut in secundo; nec virtutis in
+            <lb ed="#V" n="3"/>fieri ad virtutem in esse quieto, sicut
+            <lb ed="#V" n="4"/>in tertio; sed est eadem virtus,
+            di<lb ed="#V" n="5" break="no"/>versimode tamen participata in
+            <lb ed="#V" n="6"/>toto et in parte; et de isto
+            mem<lb ed="#V" n="7" break="no"/>bro posset concedi, quod tale
+            in<lb ed="#V" n="8" break="no"/>strumentum non habet aliam
+            in<lb ed="#V" n="9" break="no"/>tentionem a principali agente,
+            si<lb ed="#V" n="10" break="no"/>cut nec aliam actionem proprie
+            <lb ed="#V" n="11"/>habet pars, quam totum agens per
+            <lb ed="#V" n="12"/>partem, sed alio modo habet
+            eam<lb ed="#V" n="13" break="no"/>dem. Exemplum primi, Sol et
+            pa<lb ed="#V" n="14" break="no"/>ter respectu generationis filii.
+            Ex<lb ed="#V" n="15" break="no"/>emplum secundi, ignis et calor,
+            <lb ed="#V" n="16"/>qui est disponens ad generationem
+            <lb ed="#V" n="17"/>alterius ignis. Exemplum tertii,
+            <lb ed="#V" n="18"/>color illuminatus, et species
+            colo<lb ed="#V" n="19" break="no"/>ris in aere, respectu mutationis
+            <lb ed="#V" n="20"/>oculi ad speciem vel visionem
+            co<lb ed="#V" n="21" break="no"/>loris. Exemplum quarti, organum
+            <lb ed="#V" n="22"/>potentiae nutritivae, et totum
+            ani<lb ed="#V" n="23" break="no"/>mal respectu nutritionis.
+          </p>
+          <p>
+            <lb ed="#V" n="24"/>Praeter haec quatuor, communius
+            <lb ed="#V" n="25"/>dici consuevit nomen instrumenti
+            <lb ed="#V" n="26"/>de quibusdam aliis, id est, de
+            in<lb ed="#V" n="27" break="no"/>strumentis artificum, a quibus
+            <lb ed="#V" n="28"/>primo tractum est nomen
+            instru<lb ed="#V" n="29" break="no"/>menti, ut de securi et serra, et
+            <lb ed="#V" n="30"/>hujusmodi; de quibus frequenter
+            <lb ed="#V" n="31"/>ponuntur exempla ista, quae, ut
+            <lb ed="#V" n="32"/>dictum est supra, non sunt
+            pro<lb ed="#V" n="33" break="no"/>prie activa, neque respectu
+            princi<lb ed="#V" n="34" break="no"/>palis effectus, si agens per talia
+            <lb ed="#V" n="35"/>attingit effectum principalem,
+            si<lb ed="#V" n="36" break="no"/>cut monetarius per aliquod
+            instru<lb ed="#V" n="37" break="no"/>mentum attingit figuram
+            impri<lb ed="#V" n="38" break="no"/>mendam monetae, quae est
+            termi<lb ed="#V" n="39" break="no"/>nus ejus principalis; neque
+            for<lb ed="#V" n="40" break="no"/>mae disponentis, si agens per talia
+            <lb ed="#V" n="41"/>agit ad dispositionem praeviam,
+            si<lb ed="#V" n="42" break="no"/>cut per securim agit ad divisionem
+            <lb ed="#V" n="43"/>ligni, quae est praevia formae arcae.
+            <lb ed="#V" n="44"/>Sed tamen instrumentum isto
+            mo<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>do dictum, aliud a quatuor modis
+            <lb ed="#V" n="46"/>praedictis, est motum susceptivum
+            <lb ed="#V" n="47"/>effectus prioris ordinati ad
+            effe<lb ed="#V" n="48" break="no"/>ctum posteriorem, ita quod
+            rece<lb ed="#V" n="49" break="no"/>ptum in eo, habet ordinem ad
+            ter<lb ed="#V" n="50" break="no"/>minum principalem, sicut effectus
+            <lb ed="#V" n="51"/>propinquior causae ad effectum
+            re<lb ed="#V" n="52" break="no"/>motiorem; non autem habet
+            ordi<lb ed="#V" n="53" break="no"/>nem causalitatis proprie dictae. Et
+            <lb ed="#V" n="54"/>de tali posset concedi, quod
+            in<lb ed="#V" n="55" break="no"/>strumentum non habet actionem
+            <lb ed="#V" n="56"/>propriam, respectu effectus, quia
+            <lb ed="#V" n="57"/>nec habet aliquam virtutem, nec
+            <lb ed="#V" n="58"/>in esse quieto, nec in fieri, et ideo
+            <lb ed="#V" n="59"/>simpliciter non est activum, et per
+            <lb ed="#V" n="60"/>consequens, nec habet
+            intenti<lb ed="#V" n="61" break="no"/>onem, ut convenit agenti.
+          </p>
+          <p>
+            <lb ed="#V" n="62"/>Patet ergo quomodo illa major
+            <lb ed="#V" n="63"/>debet intelligi de instrumento,
+            <lb ed="#V" n="64"/>quia vel de isto, quod scilicet non
+            <lb ed="#V" n="65"/>est activum, sed receptivum
+            effe<lb ed="#V" n="66" break="no"/>ctus prioris; vel quarto modo des.
+            <lb ed="#V" n="67"/>parte respectu totius operantis
+            <lb ed="#V" n="68"/>per partem; et minor est falsa, et
+            <lb ed="#V" n="69"/>quantum ad quartum modum, et
+            <lb ed="#V" n="70"/>etiam quintum. Imo minister est
+            <lb ed="#V" n="71"/>causa secunda respectu
+            abluti<lb ed="#V" n="72" break="no"/>onis, non tantum ut ablutio est,
+            <lb ed="#V" n="73"/>sed ut sacrumentalis; et ideo
+            ha<lb ed="#V" n="74" break="no"/>bet propriam intentionem, cum
+            <lb ed="#V" n="75"/>sit agens voluntarium, et non
+            na<lb ed="#V" n="76" break="no"/>turale, illam scilicet quae pertinet
+            <lb ed="#V" n="77"/>ad cognoscentem. Sed respectu
+            <lb ed="#V" n="78"/>principalis effectus Baptismi,
+            sci<lb ed="#V" n="79" break="no"/>licet gratiae, potest dici
+            instru<lb ed="#V" n="80" break="no"/>mentum respectu Dei, eo modo
+            <lb ed="#V" n="81"/>quo agens dispositivum dicitur
+            in<lb ed="#V" n="82" break="no"/>strumentum respectu perficientis
+            <lb ed="#V" n="83"/>in secundo modo; et tale agens
+            <lb ed="#V" n="84"/>non habet intentionem respectu
+            <lb ed="#V" n="85"/>termini principalis agentis, sed
+            <lb ed="#V" n="86"/>respectu sui proprii termini. Et
+            <lb ed="#V" n="87"/>ita concedo, quod non est necesse
+            <lb ed="#V" n="88"/>baptizantem habere intentionem
+            <pb ed="#V" n="567"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>respectu ultimi finis Baptismi, sed
+            <lb ed="#V" n="2"/>respectu Baptismi.
+          </p>
+          <p>
+            <lb ed="#V" n="3"/>Ad secundum dico, quod ad
+            Ba<lb ed="#V" n="4" break="no"/>ptismum pertinent aliqua
+            tan<lb ed="#V" n="5" break="no"/>quam intrinseca, et aliqua ut
+            ex<lb ed="#V" n="6" break="no"/>trinseca; et concedo quod nihil
+            in<lb ed="#V" n="7" break="no"/>trinsece pertinet ad ipsum, vel ad
+            <lb ed="#V" n="8"/>fundamentum ejus, nisi sensibile.
+            <lb ed="#V" n="9"/>Tamen sicut causa efficiens
+            requi<lb ed="#V" n="10" break="no"/>ritur necessario ad ipsum,
+            tan<lb ed="#V" n="11" break="no"/>quam causa extrinseca, ita illud
+            <lb ed="#V" n="12"/>quod est quasi principium agendi
+            <lb ed="#V" n="13"/>tali causae effectivae. Principium
+            <lb ed="#V" n="14"/>autem ultimatum determinans
+            <lb ed="#V" n="15"/>agens intellectuale ad agendum,
+            <lb ed="#V" n="16"/>est intentio, quia tale agens per
+            <lb ed="#V" n="17"/>imperium voluntatis, est causa
+            <lb ed="#V" n="18"/>activa motiva aliarum
+            potenti<lb ed="#V" n="19" break="no"/>arum, quae subjacent imperio
+            vo<lb ed="#V" n="20" break="no"/>luntatis. Quando ergo dicitur,
+            <lb ed="#V" n="21"/>quod nihil pertinet ad
+            Sacramen<lb ed="#V" n="22" break="no"/>tum, nisi sit aliquid Sacramenti,
+            <lb ed="#V" n="23"/>vel res ejus, verum est de eo quod
+            <lb ed="#V" n="24"/>est intrinsecum ipsius
+            fundamen<lb ed="#V" n="25" break="no"/>ti, vel signati ipsius Sacramenti.
+            <lb ed="#V" n="26"/>Sed intentio neutro modo est
+            in<lb ed="#V" n="27" break="no"/>trinsecum, requiritur tamen ex
+            <lb ed="#V" n="28"/>parte agentis.
+          </p>
+          <p>
+            <lb ed="#V" n="29"/>Ad primum principale dico, quod
+            <lb ed="#V" n="30"/>1. non habens fidem de fine ultimo,
+            <lb ed="#V" n="31"/>non intendit ordinare istum per
+            <lb ed="#V" n="32"/>Baptismum ad illum finem
+            ulti<lb ed="#V" n="33" break="no"/>mum; credens tamen eum posse
+            <lb ed="#V" n="34"/>per Baptismum adscribi sectae
+            <lb ed="#V" n="35"/>Christianorum, sive credat sectam
+            <lb ed="#V" n="36"/>illam valere, sive non, potest
+            in<lb ed="#V" n="37" break="no"/>tendere adscribere istum illi
+            se<lb ed="#V" n="38" break="no"/>ctae; vel generalius potest
+            inten<lb ed="#V" n="39" break="no"/>dere facere per actum istum circa
+            <lb ed="#V" n="40"/>hunc, quod Christiani intendunt
+            <lb ed="#V" n="41"/>facere circa tales. Exemplum,
+            <lb ed="#V" n="42"/>possem enim ego, credens Judaeos
+            <lb ed="#V" n="43"/>per circumcisionem distingui ab
+            <lb ed="#V" n="44"/>aliis, intendere hunc parvulum
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>sectae Judaeorum adscribere, et
+            fa<lb ed="#V" n="46" break="no"/>cere circa eum, quod Judaei
+            fa<lb ed="#V" n="47" break="no"/>ciunt circa suos circumcisos,
+            <lb ed="#V" n="48"/>etiamsi non crederem
+            circumci<lb ed="#V" n="49" break="no"/>sionem illam valere ad salutem.
+            <lb ed="#V" n="50"/>Hoc etiam modo aliqua verba,
+            <lb ed="#V" n="51"/>quibus utuntur magi vel magiae
+            <lb ed="#V" n="52"/>incantantes, posset aliquis bonae
+            <lb ed="#V" n="53"/>fidei proferre circa materiam
+            <lb ed="#V" n="54"/>illam, circa quam alii utuntur,
+            <lb ed="#V" n="55"/>intendens in generali facere illa
+            <lb ed="#V" n="56"/>ad illum finem, ad quem illi
+            pro<lb ed="#V" n="57" break="no"/>ferunt.
+          </p>
+          <p>
+            <lb ed="#V" n="58"/>Ad secundum dico, quod
+            ebrio<lb ed="#V" n="59" break="no"/>sus est, qui est assuetus ad
+            ebrie<lb ed="#V" n="60" break="no"/>tatem, et iste non semper est
+            <lb ed="#V" n="61"/>ebrius, quia non semper
+            impedi<lb ed="#V" n="62" break="no"/>tus ab actu rationis. Verum ergo
+            <lb ed="#V" n="63"/>dicit Augustinus: Non timeo
+            ebri<lb ed="#V" n="64" break="no"/>osum, id est, assuetum generaliter
+            <lb ed="#V" n="65"/>ad ebrietatem, quia illa
+            consue<lb ed="#V" n="66" break="no"/>tudo mala non prohibet, quin
+            Ba<lb ed="#V" n="67" break="no"/>ptismus ab eo collatus sit bonus,
+            <lb ed="#V" n="68"/>non tamen quando est ebrius. Et
+            <lb ed="#V" n="69"/>hoc dico perfecte, quando
+            tota<lb ed="#V" n="70" break="no"/>liter impeditur ratio, sed alias
+            <lb ed="#V" n="71"/>quando est non impeditus, potens
+            <lb ed="#V" n="72"/>ratione uti.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

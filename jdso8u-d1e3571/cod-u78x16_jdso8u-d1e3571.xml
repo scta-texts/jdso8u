@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio Sexta, Pars 2, Quaestio 3</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio Sexta, Pars 2, Quaestio 3</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x16">Vives, Paris, 1894, volume 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="560"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e3571"><!-- jdso8u-b4d6p2q3 -->
+        <head>Quaestio 3</head>
+        <head type="question-title">Utrum unitas baptismi requirat baptizantem esse distinctum personaliter a baptizato</head>
+        <!-- <div alias="scotus-d6q4-p1"> -->
+          <p>
+            <lb ed="#V" n="78" type="fixed=560"/>QUAESTIO. IV.
+            <lb ed="#V" n="79"/>Utrum oporteat baptizantem esse
+            per<lb ed="#V" n="80" break="no"/>sonaliter distinctum a baptizato?
+          </p>
+          <p>
+            <lb ed="#V" n="81"/>Alensis 4. p. q. 16. m. 8. Rich. hic art. 4. q. 3.
+            <lb ed="#V" n="82"/>D. Thom. 3. p. q. 66. art. 5. ad. 4. Rubion hic,
+            <lb ed="#V" n="83"/>q. 2. a. 1. Bassol. d. 5. q. 1. D. Bonav. d. 5. art.
+            <lb ed="#V" n="84"/>1. q. 1. Vasquez 3. p. d. 148. cap. 7.
+          </p>
+          <p>
+            <lb ed="#V" n="85"/>Ad tertium arguitur, quod non
+            <lb ed="#V" n="86"/>oportet baptizantem personaliter
+            <pb ed="#V" n="561"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>distingui a baptizato, quia
+            Sacer<lb ed="#V" n="2" break="no"/>dos potest sibi ipsi dare
+            Euchari<lb ed="#V" n="3" break="no"/>stiam, ut patet in Missa; ergo
+            si<lb ed="#V" n="4" break="no"/>cut potest recipere Sacramentum
+            <lb ed="#V" n="5"/>illud a seipso, ita et istud.
+          </p>
+          <p>
+            <lb ed="#V" n="6"/>Contra, Extrav. de Baptismo et
+            <lb ed="#V" n="7"/>ejus effectu, cap. debitum.
+          </p>
+          <p>
+            <lb ed="#V" n="8"/>SCHOLIUM.
+            <lb ed="#V" n="9"/>Oportere baptizantem distingui a
+            bapti<lb ed="#V" n="10" break="no"/>zato, probat figura, auctoritate et ratione.
+          </p>
+          <p>
+            <lb ed="#V" n="11"/>Ista (a) quaestio solvitur expresse
+            <lb ed="#V" n="12"/>in illo cap. Debitum, pro parte
+            affir<lb ed="#V" n="13" break="no"/>mativa, ad quod adducitur figura,
+            <lb ed="#V" n="14"/>auctoritas, et ratio congrua.
+            Fi<lb ed="#V" n="15" break="no"/>gura est, quia Christus ad hoc
+            <lb ed="#V" n="16"/>signandum, non a se, sed a Joanne
+            <lb ed="#V" n="17"/>baptizari voluit. Auctoritas
+            colli<lb ed="#V" n="18" break="no"/>gitur ex verbis Domini dicentis
+            <lb ed="#V" n="19"/>Apostolis Matth. ult. Ite, baptizate
+            <lb ed="#V" n="20"/>omnes gentes in nomine Patris, etc.
+            <lb ed="#V" n="21"/>ubi discipulos exprimit in secunda
+            <lb ed="#V" n="22"/>persona, et baptizatos in tertia.
+          </p>
+          <p>
+            <lb ed="#V" n="23"/>Ratio quae innuitur ibi, est ista,
+            <lb ed="#V" n="24"/>quia in Baptismo celebratur illa
+            <lb ed="#V" n="25"/>spiritualis generatio, de qua
+            veri<lb ed="#V" n="26" break="no"/>tas ait, Joan. 3. Oportet vos nasci
+            <lb ed="#V" n="27"/>denuo. Sicut ergo in carnali
+            gene<lb ed="#V" n="28" break="no"/>ratione alius est qui gignit, et
+            <lb ed="#V" n="29"/>alius qui gignitur, ita et in
+            sacra<lb ed="#V" n="30" break="no"/>mentali generatione, alius debet
+            <lb ed="#V" n="31"/>esse qui spiritualiter generat, et
+            <lb ed="#V" n="32"/>alius qui spiritualiter generatur.
+          </p>
+          <p>
+            <lb ed="#V" n="33"/>Ad argumentum, dico quod
+            su<lb ed="#V" n="34" break="no"/>sceptio Eucharistiae non est
+            Sacra<lb ed="#V" n="35" break="no"/>mentum, sicut tangetur in materia
+            <lb ed="#V" n="36"/>de Eucharistia, sed est comestio
+            <lb ed="#V" n="37"/>seu perceptio sacramentalis;
+            Ba<lb ed="#V" n="38" break="no"/>ptismus autem est Sacramentum.
+            <lb ed="#V" n="39"/>Et si arguas, Sacerdos saltem
+            mi<lb ed="#V" n="40" break="no"/>nistrat sibi Sacramentum
+            Eucha<lb ed="#V" n="41" break="no"/>ristiae, ergo pari ratione potest
+            <lb ed="#V" n="42"/>istud. Respondeo, ministrare illud
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43"/>Sacramentum non est
+            Sacramen<lb ed="#V" n="44" break="no"/>tum, quia Sacramentum illud non
+            <lb ed="#V" n="45"/>consistit in usu, sed ministrare
+            <lb ed="#V" n="46"/>Sacramentum Baptismi est ipsum
+            <lb ed="#V" n="47"/>Sacramentum. Et ratio
+            diversita<lb ed="#V" n="48" break="no"/>tis est, quia Sacramentum
+            Bapti<lb ed="#V" n="49" break="no"/>smi consistit in usu essentialiter,
+            <lb ed="#V" n="50"/>et non in aqua, ut dictum est in
+            <lb ed="#V" n="51"/>quaestione praecedenti; Eucharistia
+            <lb ed="#V" n="52"/>autem est quoddam permanens
+            <lb ed="#V" n="53"/>distinctum ab usu Sacramenti;
+            <lb ed="#V" n="54"/>quamvis ergo aliquis posset esse
+            <lb ed="#V" n="55"/>in usu Sacramenti permanentis
+            <lb ed="#V" n="56"/>minister et suscipiens illum usum,
+            <lb ed="#V" n="57"/>non tamen potest hoc in
+            Sacra<lb ed="#V" n="58" break="no"/>mento, quod essentialiter consistit
+            <lb ed="#V" n="59"/>in usu.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

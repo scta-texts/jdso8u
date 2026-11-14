@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio Sexta, Pars 2, Quaestio 1</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio Sexta, Pars 2, Quaestio 1</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x16">Vives, Paris, 1894, volume 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="542"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e3549"><!-- jdso8u-b4d6p2q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum unitas baptismi necessario requirat ut ab uno ministro conferatur</head>
+        <!-- <div alias="scotus-d6q2-p1"> -->
+          <p>
+            <lb ed="#V" n="57" type="fixed=542"/>QUAESTIO II.
+            <lb ed="#V" n="58"/>Utrum unitas Baptismi necessario
+            requi<lb ed="#V" n="59" break="no"/>rat, quod ab uno ministro conferatur?
+          </p>
+          <p>
+            <lb ed="#V" n="60"/>Alensis 4. p. q. 16. m. 6. D. Thom. 3. p. q. 1.
+            <lb ed="#V" n="61"/>a. 6. Richard. d. 1. a. 4. q. 1. Gabr. ibi q. 4
+            <lb ed="#V" n="62"/>art. 1. Palud. q. 2. Durand. q. 3. Sotus d.
+            <lb ed="#V" n="63"/>q. 1. a. 4.
+          </p>
+          <p>
+            <lb ed="#V" n="64"/>Ad primum (a) arguitur quod
+            <lb ed="#V" n="65"/>non, quia idem potest simul plures
+            <lb ed="#V" n="66"/>baptizare; ergo plures eumdem.
+            <lb ed="#V" n="67"/>Consequentia patet a simili.
+            Ante<lb ed="#V" n="68" break="no"/>cedens probatur, tum quia simul
+            <lb ed="#V" n="69"/>potest perfundere duos, dicendo:
+            <lb ed="#V" n="70"/>Ego baptizo vos, etc. Nec videtur ibi
+            <lb ed="#V" n="71"/>aliquid deesse, quin uterque sit
+            <lb ed="#V" n="72"/>baptizatus. Tum quia si esset
+            mon<lb ed="#V" n="73" break="no"/>strum habens duo capita, posset
+            <lb ed="#V" n="74"/>simul baptizare, et tamen
+            proba<lb ed="#V" n="75" break="no"/>bile est ibi esse duas personas,
+            <lb ed="#V" n="76"/>quia duas habet partes
+            principa<lb ed="#V" n="77" break="no"/>les. Tum tertio per simile, quia
+            <lb ed="#V" n="78"/>idem Sacerdos potest simul plures
+            <lb ed="#V" n="79"/>hostias consecrare.
+          </p>
+          <p>
+            <lb ed="#V" n="80"/>Item, quando ad aliquem
+            effe<lb ed="#V" n="81" break="no"/>ctum concurrunt plura, aeque
+            pos<lb ed="#V" n="82" break="no"/>sunt illa fieri a pluribus, sicut ab
+            <lb ed="#V" n="83"/>uno; apparet de domo, quia aeque
+            <lb ed="#V" n="84"/>potest unus lapis apponi ab uno,
+            <pb ed="#V" n="543"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>et alius ab alio; et tandem
+            comple<lb ed="#V" n="2" break="no"/>bitur domus, sicut si omnes lapides
+            <lb ed="#V" n="3"/>usque ad inductionem formae
+            ap<lb ed="#V" n="4" break="no"/>ponerentur ab eodem. Apparet
+            <lb ed="#V" n="5"/>etiam in alio exemplo, ubi est
+            ma<lb ed="#V" n="6" break="no"/>jor unitas effectus; aeque enim
+            <lb ed="#V" n="7"/>potest navis trahi uno tractu a
+            <lb ed="#V" n="8"/>pluribus, sicut ab uno habente
+            <lb ed="#V" n="9"/>aequalem virtutem illis; sed in
+            <lb ed="#V" n="10"/>Baptismo concurrunt plura, ut
+            <lb ed="#V" n="11"/>ablutio et prolatio verborum;
+            er<lb ed="#V" n="12" break="no"/>go aeque potest conferri a duobus,
+            <lb ed="#V" n="13"/>quorum alter abluat, et alter dicat
+            <lb ed="#V" n="14"/>verba, sicut ab eodem abluente et
+            <lb ed="#V" n="15"/>loquente.
+          </p>
+          <p>
+            <lb ed="#V" n="16"/>Oppositum, Minister ibi
+            reprae<lb ed="#V" n="17" break="no"/>sentat Christum, qui est mediator
+            <lb ed="#V" n="18"/>Dei et hominum.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d6q2-p2"> -->
+          <p>
+            <lb ed="#V" n="33" type="fixed=543"/>SCHOLIUM.
+            <lb ed="#V" n="34"/>Unum baptizari posse a pluribus, singulis
+            <lb ed="#V" n="35"/>ponentibus materiam et formam simul, quo
+            <lb ed="#V" n="36"/>casu, nullus esset causa totalis Baptismi; et
+            <lb ed="#V" n="37"/>duae objectiones contra hoc solvuntur.
+          </p>
+          <p>
+            <lb ed="#V" n="38"/>Respondeo (b), plures baptizare,
+            <lb ed="#V" n="39"/>potest intelligi vel eumdem
+            susci<lb ed="#V" n="40" break="no"/>pientem, vel plures suscipientes;
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="41"/>et utrumque adhuc
+            subdistingui<lb ed="#V" n="42" break="no"/>tur, quia si eumdem, vel uterque
+            <lb ed="#V" n="43"/>totum facit, vel unus abluit, et
+            <lb ed="#V" n="44"/>verba alius profert, puta unus
+            mu<lb ed="#V" n="45" break="no"/>tus est, et tantum abluit; alter
+            <lb ed="#V" n="46"/>mancus est, et verba profert.
+            Se<lb ed="#V" n="47" break="no"/>cundum etiam membrum
+            subdi<lb ed="#V" n="48" break="no"/>stinguitur, quia si baptizat plures,
+            <lb ed="#V" n="49"/>vel manifeste distinctos, vel
+            imma<lb ed="#V" n="50" break="no"/>nifeste, ut in monstro, de quo
+            du<lb ed="#V" n="51" break="no"/>bitatur si est una persona, vel
+            <lb ed="#V" n="52"/>duae. De his quatuor membris
+            di<lb ed="#V" n="53" break="no"/>cendum est per ordinem.
+          </p>
+          <p>
+            <lb ed="#V" n="54"/>De primo dico, quod ille est
+            ba<lb ed="#V" n="55" break="no"/>ptizatus, quia non est verisimile,
+            <lb ed="#V" n="56"/>quod unus faciens annullet factum
+            <lb ed="#V" n="57"/>alterius; sed si tantum unus eorum
+            <lb ed="#V" n="58"/>faceret, quod facit, factum esset,
+            <lb ed="#V" n="59"/>ergo nihil minus quod facit,
+            fa<lb ed="#V" n="60" break="no"/>ctum est, alio similiter faciente.
+          </p>
+          <p>
+            <lb ed="#V" n="61"/>Circa hoc duo sunt dubia.
+            Pri<lb ed="#V" n="62" break="no"/>mum, quia non potest idem esse a
+            <lb ed="#V" n="63"/>duabus causis totalibus; unus
+            au<lb ed="#V" n="64" break="no"/>tem abluens et proferens verba,
+            <lb ed="#V" n="65"/>est causa totalis in baptizando, et
+            <lb ed="#V" n="66"/>hoc illa causalitate, quae competit
+            <lb ed="#V" n="67"/>ministro; ergo non potest idem
+            <lb ed="#V" n="68"/>Baptismus esse ab alio, qui sit
+            <lb ed="#V" n="69"/>idem causator in eodem ordine.
+            <lb ed="#V" n="70"/>Major probata est alias per hanc
+            <lb ed="#V" n="71"/>propositionem, quia nihil causat,
+            <lb ed="#V" n="72"/>quo non existente, nihil minus est
+            <lb ed="#V" n="73"/>effectus. Praeterea si agens et
+            for<lb ed="#V" n="74" break="no"/>ma qua agit, sunt aliud et aliud,
+            <lb ed="#V" n="75"/>et forma inducta erit alia. Hoc
+            <lb ed="#V" n="76"/>accipitur a Commentatore. 5.
+            Phu<lb ed="#V" n="77" break="no"/>sic. 2. commento, sed hic est aliud et
+            <lb ed="#V" n="78"/>aliud agens, sicut ministro
+            compe<lb ed="#V" n="79" break="no"/>tit agere, et alia et alia forma qua
+            <lb ed="#V" n="80"/>agit, quia alia et alia intentio in
+            <lb ed="#V" n="81"/>isto et in illo; ergo simpliciter alia
+            <lb ed="#V" n="82"/>baptizandi actio. Sed cuilibet
+            acti<lb ed="#V" n="83" break="no"/>oni correspondet sua passio; ergo
+            <lb ed="#V" n="84"/>sunt ibi plures baptizat ones
+            pas<pb ed="#V" n="544"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>sivae, et per consequens plures
+            Ba<lb ed="#V" n="2" break="no"/>ptismi.
+          </p>
+          <p>
+            <lb ed="#V" n="3"/>Ad primum, concedo illam
+            majo<lb ed="#V" n="4" break="no"/>rem de causa inducente formam
+            <lb ed="#V" n="5"/>effective; hic autem inducit
+            for<lb ed="#V" n="6" break="no"/>mam Deus, non minister.
+          </p>
+          <p>
+            <lb ed="#V" n="7"/>Et si objicias, saltem formam
+            <lb ed="#V" n="8"/>Baptismi, ut est Sacramentum,
+            in<lb ed="#V" n="9" break="no"/>ducit minister, et sic sunt duae
+            <lb ed="#V" n="10"/>causae, et utraque totalis.
+            Respon<lb ed="#V" n="11" break="no"/>deo, si uterque abluat, neuter in
+            <lb ed="#V" n="12"/>abluendo est causa totalis, et hoc
+            <lb ed="#V" n="13"/>sive ablutio fiat immergendo (tunc
+            <lb ed="#V" n="14"/>enim ambo movent corpus
+            im<lb ed="#V" n="15" break="no"/>mersi uno motu causato a virtute
+            <lb ed="#V" n="16"/>motiva amborum; et licet alter
+            <lb ed="#V" n="17"/>posset illum motum causare,
+            ta<lb ed="#V" n="18" break="no"/>men quando simul movent, neuter
+            <lb ed="#V" n="19"/>utitur tota sua virtute motiva,
+            <lb ed="#V" n="20"/>qua posset ea uti, sicut apparet,
+            <lb ed="#V" n="21"/>quando duo portant unum pondus,
+            <lb ed="#V" n="22"/>quod aliter solus posset portare),
+            <lb ed="#V" n="23"/>sive fiat perfundendo, vel
+            asper<lb ed="#V" n="24" break="no"/>gendo, licet uterque madefaciat
+            <lb ed="#V" n="25"/>aqua a se perfusa, vel aspersa,
+            <lb ed="#V" n="26"/>neuter tamen madefacit tota illa
+            <lb ed="#V" n="27"/>madefactione, quae est per
+            asper<lb ed="#V" n="28" break="no"/>sionem amborum.
+          </p>
+          <p>
+            <lb ed="#V" n="29"/>Sed adhuc videtur stare
+            difficul<lb ed="#V" n="30" break="no"/>tas, quia uterque est causa totalis
+            <lb ed="#V" n="31"/>respectu prolationis verborum, et
+            <lb ed="#V" n="32"/>sic quantum ad unam partem
+            ef<lb ed="#V" n="33" break="no"/>fectus exterioris, qui est
+            Sacra<lb ed="#V" n="34" break="no"/>mentum, erunt duae causae
+            tota<lb ed="#V" n="35" break="no"/>les, et hoc est impossibile, ita de
+            <lb ed="#V" n="36"/>parte effectus, sicut de toto.
+          </p>
+          <p>
+            <lb ed="#V" n="37"/>Respondeo, difficile est quin
+            al<lb ed="#V" n="38" break="no"/>terius verba superfluant, ita quod
+            <lb ed="#V" n="39"/>non sint per se pars unius
+            Sacra<lb ed="#V" n="40" break="no"/>menti, quia ponere duo ejusdem
+            <lb ed="#V" n="41"/>rationis esse partes unius, quod
+            <lb ed="#V" n="42"/>simpliciter esset perfectum,
+            ha<lb ed="#V" n="43" break="no"/>bendo alterum eorum pro parte,
+            <lb ed="#V" n="44"/>videtur superfluum. Quae autem
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>superfluant, et cujus proferentis,
+            <lb ed="#V" n="46"/>difficile est assignare, quia qua
+            <lb ed="#V" n="47"/>ratione illa, et ista, et ita utraque
+            <lb ed="#V" n="48"/>vel neutra, quia uterque aeque
+            <lb ed="#V" n="49"/>complete et consimili intentione
+            <lb ed="#V" n="50"/>profert. Responsionem quaere.
+          </p>
+          <p>
+            <lb ed="#V" n="51"/>Dici potest, quod baptizatio hujus, vel
+            <lb ed="#V" n="52"/>illius valet, scilicet, cujus baptizationem
+            <lb ed="#V" n="53"/>Deus acceptavit. Cujus vero determinate,
+            <lb ed="#V" n="54"/>nobis penitus incertum est, solus novit
+            <lb ed="#V" n="55"/>Deus, et cui voluerit revelare.
+          </p>
+          <p>
+            <lb ed="#V" n="56"/>Ad secundum argumentum de
+            <lb ed="#V" n="57"/>actione, si ponatur in passo vel
+            <lb ed="#V" n="58"/>in agente, dubium est. Si in passo,
+            <lb ed="#V" n="59"/>non est plures realiter, nisi
+            pas<lb ed="#V" n="60" break="no"/>siones sint plures; nec passiones
+            <lb ed="#V" n="61"/>sunt plures, quando forma
+            rece<lb ed="#V" n="62" break="no"/>pta in passo, una est. Et hoc
+            <lb ed="#V" n="63"/>tenendo, neganda esset illa
+            pro<lb ed="#V" n="64" break="no"/>positio major, quae accipitur a
+            <lb ed="#V" n="65"/>Commentatore. Si autem actio
+            <lb ed="#V" n="66"/>ponatur in agente, sive
+            absolu<lb ed="#V" n="67" break="no"/>tum, sive respectus ad passum,
+            <lb ed="#V" n="68"/>tunc potest concedi major; sed
+            <lb ed="#V" n="69"/>tunc illa est falsa: diversis
+            acti<lb ed="#V" n="70" break="no"/>onibus correspondent diversae
+            pas<lb ed="#V" n="71" break="no"/>siones. Quocumque ergo modo
+            di<lb ed="#V" n="72" break="no"/>catur de actione, non ponitur
+            plu<lb ed="#V" n="73" break="no"/>res esse passivas baptizationes,
+            <lb ed="#V" n="74"/>sed unicam.
+          </p>
+          <p>
+            <lb ed="#V" n="75"/>Et ex isto videtur sequi
+            corol<lb ed="#V" n="76" break="no"/>larium, quod Sacramentum
+            Ba<lb ed="#V" n="77" break="no"/>ptismi magis est baptizatio
+            pas<lb ed="#V" n="78" break="no"/>siva quam activa, qui plurificata
+            <lb ed="#V" n="79"/>baptizatione activa, non
+            plurifica<lb ed="#V" n="80" break="no"/>tur passiva, nec Baptismus, quia
+            <lb ed="#V" n="81"/>passiva est una. Istud autem
+            illa<lb ed="#V" n="82" break="no"/>tum videtur probabile, quia
+            bapti<lb ed="#V" n="83" break="no"/>zatus proprie suscipit
+            Sacramen<lb ed="#V" n="84" break="no"/>tum; suscipit autem proprie
+            ab<lb ed="#V" n="85" break="no"/>lutionem passivam, et non
+            acti<lb ed="#V" n="86" break="no"/>vam, nisi dicatur idem realiter.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d6q2-p3"> -->
+          <p>
+            <lb ed="#V" n="12" type="fixed=553"/>SCHOLIUM.
+            <lb ed="#V" n="13"/>Non valere Baptismum, uno ponente
+            for<lb ed="#V" n="14" break="no"/>mam, et altero materiam; et quae hujus
+            ra<lb ed="#V" n="15" break="no"/>tio; ita Alens. 4. p. q. 16. m. 6. D. Thom. 3.
+            <lb ed="#V" n="16"/>p. q. 67. art. 6. Bonav. d. 5. art. 1. q. 1.
+            Ri<lb ed="#V" n="17" break="no"/>chard. d. 3. art. 4. q. 1. Palud. Sotus, Gabr.
+            <lb ed="#V" n="18"/>Durand. citati.
+          </p>
+          <p>
+            <lb ed="#V" n="19"/>De (c) secundo membro
+            distincti<lb ed="#V" n="20" break="no"/>onis, dico quod utroque seorsum
+            <lb ed="#V" n="21"/>aliquid faciente, et neutro totum
+            <lb ed="#V" n="22"/>simul sic abluente et proferente
+            <lb ed="#V" n="23"/>verba, nihil fit. Nec est alia ratio,
+            <lb ed="#V" n="24"/>nisi institutio Dei, qui sicut voluit
+            <lb ed="#V" n="25"/>esse unum principale agens, ita
+            <lb ed="#V" n="26"/>voluit habere unum ministrum
+            <lb ed="#V" n="27"/>in collatione integra Sacramenti.
+          </p>
+          <p>
+            <lb ed="#V" n="28"/>Hoc ctiam apparet accipiendo
+            <lb ed="#V" n="29"/>istam formam, qua nos utimur,
+            <lb ed="#V" n="30"/>nam per verba illa, proferens ea,
+            <lb ed="#V" n="31"/>significat se abluere; non autem
+            <lb ed="#V" n="32"/>debet oratio esse falsa, quae est
+            <lb ed="#V" n="33"/>forma Sacramentorum verorum.
+            <lb ed="#V" n="34"/>Consimiliter etiam debet intelligi
+            <lb ed="#V" n="35"/>verbum Graecorum dicentium,
+            ba<lb ed="#V" n="36" break="no"/>ptizetur, etc. quia non est tantum
+            <lb ed="#V" n="37"/>deprecatio, sed etiam quaedam
+            effi<lb ed="#V" n="38" break="no"/>cax optatio, ut sit sensus: per
+            <lb ed="#V" n="39"/>istum actum meum circa istum,
+            <lb ed="#V" n="40"/>baptizetur ille.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d6q2-p4"> -->
+          <p>
+            <lb ed="#V" n="62" type="fixed=554"/>SCHOLIUM.
+            <lb ed="#V" n="63"/>Unum posse baptizare simul plures,
+            pro<lb ed="#V" n="64" break="no"/>ferendo formam pluraliter, quo casu verius
+            <lb ed="#V" n="65"/>est fieri plura baptismata. Doctores citati
+            <lb ed="#V" n="66"/>commniter. Esset tamen peccatum, sine
+            ma<lb ed="#V" n="67" break="no"/>xima necessitate id facere.
+          </p>
+          <p>
+            <lb ed="#V" n="68"/>De tertio (a) membro divisionis,
+            <lb ed="#V" n="69"/>conceditur quod iste plures simul
+            <lb ed="#V" n="70"/>aspergens vel fundens, et simul
+            <lb ed="#V" n="71"/>proferens formam in plurali,
+            di<lb ed="#V" n="72" break="no"/>cendo: Ego baptizo vos, baptizat
+            <lb ed="#V" n="73"/>simul omnes, tamen peccat
+            morta<lb ed="#V" n="74" break="no"/>liter, quia non servat formam
+            im<lb ed="#V" n="75" break="no"/>positam sibi ab Ecclesia, nisi forte
+            <lb ed="#V" n="76"/>esset tanta necessitas, quod
+            immi<lb ed="#V" n="77" break="no"/>neret mors omnium, et si quando
+            <lb ed="#V" n="78"/>singulos baptizaret singillatim,
+            ali<lb ed="#V" n="79" break="no"/>quis eorum foret mortuus,
+            ante<lb ed="#V" n="80" break="no"/>quam alios baptizasset.
+          </p>
+          <p>
+            <lb ed="#V" n="81"/>Sed hic est dubium, utrum tunc
+            <lb ed="#V" n="82"/>sit unus Baptismus? Videtur quod
+            <lb ed="#V" n="83"/>non, quia plures sunt baptizati,
+            <lb ed="#V" n="84"/>et per consequens plures
+            bapti<lb ed="#V" n="85" break="no"/>zationes passivae, et ita plures
+            <pb ed="#V" n="555"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>actiones, et plures Baptismi. Sed
+            <lb ed="#V" n="2"/>oppositum videtur, quia non est
+            <lb ed="#V" n="3"/>nisi unica forma, nam verba
+            tan<lb ed="#V" n="4" break="no"/>tum sunt semel prolata. Posset
+            <lb ed="#V" n="5"/>tamen magis concedi, quod sunt
+            <lb ed="#V" n="6"/>plures Baptismi, tenendo illud,
+            <lb ed="#V" n="7"/>quod dictum est, quod
+            Sacramen<lb ed="#V" n="8" break="no"/>tum Baptismi est baptizatio
+            pas<lb ed="#V" n="9" break="no"/>siva. Et tunc ad argumentum
+            di<lb ed="#V" n="10" break="no"/>cendum, quod non oportet ad
+            plu<lb ed="#V" n="11" break="no"/>rificationem alicujus, omnia quae
+            <lb ed="#V" n="12"/>sunt in illo, plurificari, sed
+            suf<lb ed="#V" n="13" break="no"/>ficit aliquod eorum plurificari, ad
+            <lb ed="#V" n="14"/>hoc quod totum plurificetur. Et
+            <lb ed="#V" n="15"/>illa etiam forma non est
+            simpli<lb ed="#V" n="16" break="no"/>citer una, quia Iy vos includit in
+            <lb ed="#V" n="17"/>se singulare pluries geminatum.
+          </p>
+          <p>
+            <lb ed="#V" n="18"/>An autem casus ne essitatis,
+            <lb ed="#V" n="19"/>qui positus est de pluribus statim
+            <lb ed="#V" n="20"/>morituris, excusaret ministrum
+            <lb ed="#V" n="21"/>utentem illa forma, Baptizo vos, a
+            <lb ed="#V" n="22"/>peccato mortali, dubium est.
+            Vi<lb ed="#V" n="23" break="no"/>detur tamen hoc rationabile, quia
+            <lb ed="#V" n="24"/>ex quo in potestate Ecclesiae fuit
+            <lb ed="#V" n="25"/>determinare istam formam ad
+            <lb ed="#V" n="26"/>illa verba, Baptizo te, (sicut dictum
+            <lb ed="#V" n="27"/>est supra dist. 3. quaest. 2.) non
+            vi<lb ed="#V" n="28" break="no"/>detur, quod ipsa voluerit aliquem
+            <lb ed="#V" n="29"/>ita praecise ad illam formam
+            ar<lb ed="#V" n="30" break="no"/>ctare, ut per hoc alicui
+            praeclu<lb ed="#V" n="31" break="no"/>deretur via salutis. Nunc autem
+            <lb ed="#V" n="32"/>in casu praedicto, alicui illorum
+            <lb ed="#V" n="33"/>praecluditur salus, si non posset
+            <lb ed="#V" n="34"/>aliquis sine peccato mortali uti
+            <lb ed="#V" n="35"/>ista forma: Baptizo vos. Nam si in
+            <lb ed="#V" n="36"/>quocumque casu esset peccatum
+            <lb ed="#V" n="37"/>mortale, nullus deberet eos sic
+            <lb ed="#V" n="38"/>baptizare; nullus enim debet
+            sa<lb ed="#V" n="39" break="no"/>lutem alterius procurare,
+            peccan<lb ed="#V" n="40" break="no"/>do in se mortaliter.
+          </p>
+          <p>
+            <lb ed="#V" n="41"/>De quarto membro (b)
+            distincti<lb ed="#V" n="42" break="no"/>onis, dico quod si tempus haberi
+            <lb ed="#V" n="43"/>potest ad discernendum, an
+            mon<lb ed="#V" n="44" break="no"/>strum sit simpliciter una persona
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>vel duae, de hoc debet haberi
+            di<lb ed="#V" n="46" break="no"/>ligens inquisitio antequam
+            bapti<lb ed="#V" n="47" break="no"/>zetur. Potest autem iniquisitio
+            <lb ed="#V" n="48"/>haberi, vel ex partibus corporis,
+            <lb ed="#V" n="49"/>puta, si sint duo capita, vel duae
+            <lb ed="#V" n="50"/>spinae dorsi, vel principale
+            indi<lb ed="#V" n="51" break="no"/>cium de cordibus; sed illud non
+            <lb ed="#V" n="52"/>potest esse faciliter evidens, dum
+            <lb ed="#V" n="53"/>vivit. Sed nec signum de duobus!
+            <lb ed="#V" n="54"/>capitibus esset omnino certum,
+            <lb ed="#V" n="55"/>quia possibile esset aliquam
+            cel<lb ed="#V" n="56" break="no"/>lulam in matrice esse perforatam
+            <lb ed="#V" n="57"/>per totum, praeterquam in parte
+            <lb ed="#V" n="58"/>superiori, et tunc concurrerent
+            <lb ed="#V" n="59"/>partes seminis cadentes in
+            di<lb ed="#V" n="60" break="no"/>versis incastraturis matricis, pro
+            <lb ed="#V" n="61"/>tota parte inferiori, et tunc
+            di<lb ed="#V" n="62" break="no"/>stinguerentur in parte suprema,
+            <lb ed="#V" n="63"/>et ibi formarentur duo capita,
+            <lb ed="#V" n="64"/>cum tamen reliqua materia non
+            <lb ed="#V" n="65"/>sufficeret, nisi pro formatione
+            <lb ed="#V" n="66"/>unius personae.
+          </p>
+          <p>
+            <lb ed="#V" n="67"/>Breviter, evidentissimum
+            si<lb ed="#V" n="68" break="no"/>gnum distinguendi, est per actum
+            <lb ed="#V" n="69"/>intellectus et voluntatis, Si enim
+            <lb ed="#V" n="70"/>sunt duae animae, non est
+            neces<lb ed="#V" n="71" break="no"/>sarium unum scire quidquid scit
+            <lb ed="#V" n="72"/>alia, et velle quidquid vult alia,
+            <lb ed="#V" n="73"/>tamen raro vel nunquam accidit,
+            <lb ed="#V" n="74"/>quod sint duae animae, quin sint
+            <lb ed="#V" n="75"/>duo capita, vel duae partes
+            prin<lb ed="#V" n="76" break="no"/>cipales capitis, licet non e
+            con<lb ed="#V" n="77" break="no"/>verso. Et si quo modo possit
+            de<lb ed="#V" n="78" break="no"/>prehendi diversitas intellectuum
+            <lb ed="#V" n="79"/>in intelligendo, puta quod per
+            <lb ed="#V" n="80"/>aliquod signum deprehenderetur
+            <lb ed="#V" n="81"/>idem sciri et nesciri, vel posset
+            <lb ed="#V" n="82"/>deprehendi diversitas voluntatum,
+            <lb ed="#V" n="83"/>puta, quod esset ibi velle et nolle
+            <lb ed="#V" n="84"/>de eodem, absque dubitatione
+            te<lb ed="#V" n="85" break="no"/>nendum esset, quod essent ibi duae
+            <lb ed="#V" n="86"/>animae. Sed istud non potest
+            ju<lb ed="#V" n="87" break="no"/>dicari, nisi de monstro adulto,
+            <lb ed="#V" n="88"/>quale ponitur fuisse in Francia,
+            <pb ed="#V" n="556"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>habens duo capita, quorum unum
+            <lb ed="#V" n="2"/>expressit nolle de eo, de quo aliud
+            <lb ed="#V" n="3"/>expressit velle. Unum enim
+            no<lb ed="#V" n="4" break="no"/>luit continere, et sobrie vivere, et
+            <lb ed="#V" n="5"/>aliud lascivire et epulari, et cum
+            <lb ed="#V" n="6"/>unum per os suum excederet,
+            re<lb ed="#V" n="7" break="no"/>liquum clamabat se gravari.
+          </p>
+          <p>
+            <lb ed="#V" n="8"/>De tali monstro dico, quod si
+            <lb ed="#V" n="9"/>certitudo potest haberi, et sint
+            <lb ed="#V" n="10"/>partes, de quibus patet quod
+            per<lb ed="#V" n="11" break="no"/>tinent ad distinctas personas,
+            se<lb ed="#V" n="12" break="no"/>paratim perfundi deberet ista pars
+            <lb ed="#V" n="13"/>et illa, cum iteratione formae in
+            <lb ed="#V" n="14"/>singulari super utrumque. Si
+            au<lb ed="#V" n="15" break="no"/>tem certitudo haberi non possit,
+            <lb ed="#V" n="16"/>baptizandus est saltem in illis
+            <lb ed="#V" n="17"/>partibus, quae principaliter
+            per<lb ed="#V" n="18" break="no"/>tinent ad unum, cum forma in
+            <lb ed="#V" n="19"/>singulari; et secundo abluendae
+            <lb ed="#V" n="20"/>sunt aliae partes, quae non
+            viden<lb ed="#V" n="21" break="no"/>tur principaliter pertinere ad
+            il<lb ed="#V" n="22" break="no"/>lum primum, et hoc cum forma,
+            <lb ed="#V" n="23"/>quae servanda est in illis, de quibus
+            <lb ed="#V" n="24"/>est dubium, quae ponitur Extracag.
+            <lb ed="#V" n="25"/>de Baptismo et ejus effectu, capite de
+            <lb ed="#V" n="26"/>quibus.
+          </p>
+          <p>
+            <lb ed="#V" n="27"/>SCHOLIUM.
+            <lb ed="#V" n="28"/>Si constat monstrum habere duas animas,
+            <lb ed="#V" n="29"/>pars spectans ad hanc animam, seorsim
+            <lb ed="#V" n="30"/>baptizanda, a parte quae spectat ad aliam.
+            <lb ed="#V" n="31"/>Si dubium est, an haec vel illa pars sit
+            <lb ed="#V" n="32"/>alterius animae, sub conditione baptizetur.
+          </p>
+          <p>
+            <lb ed="#V" n="33"/>Ad primum (c) argumentum,
+            an<lb ed="#V" n="34" break="no"/>tecedens non est verum, loquendo
+            <lb ed="#V" n="35"/>de uno Baptismo. Nam si idem
+            <lb ed="#V" n="36"/>baptizat plures, hoc est pluribus
+            <lb ed="#V" n="37"/>baptizationibus passivis, et ita
+            <lb ed="#V" n="38"/>sunt plures baptizationes. Et si
+            <lb ed="#V" n="39"/>intendat probare majorem,
+            lo<lb ed="#V" n="40" break="no"/>quendo de unico Baptismo,
+            re<lb ed="#V" n="41" break="no"/>spondeo, quod hoc non probat
+            <lb ed="#V" n="42"/>prima probatio de multis simul
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43"/>aspersis, ut patet in tertio
+            mem<lb ed="#V" n="44" break="no"/>bro distinctionis.
+          </p>
+          <p>
+            <lb ed="#V" n="45"/>Neque secunda probatio de
+            mon<lb ed="#V" n="46" break="no"/>stris, quia si essent duae personae
+            <lb ed="#V" n="47"/>in monstro, essent singillatim
+            ba<lb ed="#V" n="48" break="no"/>ptizandae; vel si simul
+            baptiza<lb ed="#V" n="49" break="no"/>rentur hac forma: Ego Baptizo vos,
+            <lb ed="#V" n="50"/>quamvis minister peccaret sine
+            <lb ed="#V" n="51"/>necessitate, quae non posset de
+            <lb ed="#V" n="52"/>facili inveniri, talis scilicet, quod
+            <lb ed="#V" n="53"/>non posset expectari singillata
+            ba<lb ed="#V" n="54" break="no"/>ptizatio eorum, essent tamen duo
+            <lb ed="#V" n="55"/>Baptismi, sicut dictum est in
+            ter<lb ed="#V" n="56" break="no"/>tio membro distinctionis.
+          </p>
+          <p>
+            <lb ed="#V" n="57"/>Ad tertiam probationem de
+            Eu<lb ed="#V" n="58" break="no"/>charistia, quamvis Sacerdos
+            pro<lb ed="#V" n="59" break="no"/>ferendo semel verba, plures
+            ho<lb ed="#V" n="60" break="no"/>stias consecret simul, tamen sunt
+            <lb ed="#V" n="61"/>ibi plures consecrationes passivae.
+            <lb ed="#V" n="62"/>Et etiam posset concedi, quod
+            <lb ed="#V" n="63"/>essent plures Eucharistiae, sicut
+            <lb ed="#V" n="64"/>plures hostiae, similiter plura vina
+            <lb ed="#V" n="65"/>consecrata, sicut plura vina.
+          </p>
+          <p>
+            <lb ed="#V" n="66"/>Ad secundum dico, quod in
+            ali<lb ed="#V" n="67" break="no"/>quo concurrunt plura, quorumi
+            <lb ed="#V" n="68"/>quodlibet sine alio est aliquid in
+            <lb ed="#V" n="69"/>se, et sicut est aliquis in se, ita
+            <lb ed="#V" n="70"/>potest permanere ut sit aliquid
+            <lb ed="#V" n="71"/>totius, sicut est in illo exemplo
+            <lb ed="#V" n="72"/>de partibus domus. Hoc modo non
+            <lb ed="#V" n="73"/>est in proposito, quia nec verba
+            <lb ed="#V" n="74"/>sine ablutione sunt aliquid
+            Bapti<lb ed="#V" n="75" break="no"/>smi, nec ablutio sine verbis. Et
+            <lb ed="#V" n="76"/>si dicas, saltem illa ut simul
+            exi<lb ed="#V" n="77" break="no"/>stentia, sunt ad Baptismum, et
+            <lb ed="#V" n="78"/>sic possunt adhuc esse a diversis,
+            <lb ed="#V" n="79"/>hoc verum esset, si non esset
+            <lb ed="#V" n="80"/>unitas efficientis requisita,
+            in<lb ed="#V" n="81" break="no"/>quantum illa constituunt unum
+            <lb ed="#V" n="82"/>signum; est autem requisita
+            <lb ed="#V" n="83"/>propter ordinationem principalis
+            <lb ed="#V" n="84"/>agentis et instituentis; et istud
+            <lb ed="#V" n="85"/>non esset signum efficax, nisi
+            to<lb ed="#V" n="86" break="no"/>taliter ministraretur ab eodem.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

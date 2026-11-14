@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 3, Quaestio 3</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 3, Quaestio 3</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x16">Vives, Paris, 1894, volume 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="323"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e3330"><!-- jdso8u-b4d3q3 -->
+        <head>Quaestio 3</head>
+        <head type="question-title">Utrum sola aqua naturalis pura sit materia conveniens baptismi</head>
+        <!-- <div alias="scotus-d3q3-p1"> -->
+          <p>
+            <lb ed="#V" n="14" type="fixed=323"/>QUAESTIO III.
+            <lb ed="#V" n="15"/>An sola aqua naturalis pura sit
+            con<lb ed="#V" n="16" break="no"/>veniens materia Baptismi?
+          </p>
+          <p>
+            <lb ed="#V" n="17"/>Alens. 4. p. q. 13. m. 2. art. 1. D. Bonav.
+            <lb ed="#V" n="18"/>hic p. 2. a. 1. q. 1. Richard. art. 3. q.
+            <lb ed="#V" n="19"/>2. et. 3. D. Thom. q. 1. art. 3. et 2.
+            <lb ed="#V" n="20"/>p. q. 66. art 3. et 4. Suarez ibid. 30.
+          </p>
+          <p>
+            <lb ed="#V" n="21"/>Ad tertium principale sic
+            pro<lb ed="#V" n="22" break="no"/>I. ceditur, et arguitur, quod non
+            <lb ed="#V" n="23"/>solum aqua naturalis pura sit
+            <lb ed="#V" n="24"/>conveniens materia Baptismi,
+            <lb ed="#V" n="25"/>quia aqua artificialis habet
+            ea<lb ed="#V" n="26" break="no"/>dem accidentia cum aqua
+            natu<lb ed="#V" n="27" break="no"/>rali, scilicet humiditatem,
+            frigi<lb ed="#V" n="28" break="no"/>ditatem, perspicuitatem, et
+            hu<lb ed="#V" n="29" break="no"/>jusmodi; sed ex accidentibus
+            <lb ed="#V" n="30"/>cognoscitur substantia, ex
+            proce<lb ed="#V" n="31" break="no"/>mio primi de Anima.
+          </p>
+          <p>
+            <lb ed="#V" n="32"/>Item, mixtum est grossius aqua
+            <lb ed="#V" n="33"/>elementari; aqua autem
+            artifi<lb ed="#V" n="34" break="no"/>cialis est subtilior, vel saltem
+            <lb ed="#V" n="35"/>non grossior; ergo non est
+            ali<lb ed="#V" n="36" break="no"/>quod mitxum; ergo elementum,
+            <lb ed="#V" n="37"/>et non nisi aqua; ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="38"/>Item, miscibilia possunt
+            sepa<lb ed="#V" n="39" break="no"/>rari a mixto, primo de Generatione;
+            <lb ed="#V" n="40"/>ergo aliquis potest adhibere
+            acti<cb ed="#V" n="b"/><lb ed="#V" n="41" break="no"/>vum passivo ad faciendum talem
+            <lb ed="#V" n="42"/>separationem; ergo aqua
+            artifi<lb ed="#V" n="43" break="no"/>cialis potest esse aqua
+            elemen<lb ed="#V" n="44" break="no"/>taris, separata a mixto.
+          </p>
+          <p>
+            <lb ed="#V" n="45"/>Confirmatur per illud Exod. 7.
+            <lb ed="#V" n="46"/>de ranis, ubi ars daemonum
+            adhi<lb ed="#V" n="47" break="no"/>buit activum passivo ad
+            produ<lb ed="#V" n="48" break="no"/>cendum statim ex aqua fluvii
+            <lb ed="#V" n="49"/>ranas; ergo aeque possibile est
+            <lb ed="#V" n="50"/>e converso per artem exhiberi
+            <lb ed="#V" n="51"/>activum passivo, ut fiat separatio
+            <lb ed="#V" n="52"/>elementi a mixto, maxime cum
+            <lb ed="#V" n="53"/>resolutio sit facilior quam
+            gene<lb ed="#V" n="54" break="no"/>ratio vel compositio.
+          </p>
+          <p>
+            <lb ed="#V" n="55"/>Item, quantum ad illam
+            parti<lb ed="#V" n="56" break="no"/>culam pura, aqua naturalis ex
+            <lb ed="#V" n="57"/>secundo Meteororum c. 1. est subtilior
+            <lb ed="#V" n="58"/>quam usualis; et patet per
+            ex<lb ed="#V" n="59" break="no"/>perientiam, quia per decoctionem
+            <lb ed="#V" n="60"/>vel depurationem separatur terra
+            <lb ed="#V" n="61"/>ab aqua usuali, quae residet in
+            <lb ed="#V" n="62"/>fundo.
+          </p>
+          <p>
+            <lb ed="#V" n="63"/>Item, ex latere Christi fluxit,
+            <lb ed="#V" n="64"/>aqua, in qua institutus est
+            <lb ed="#V" n="65"/>Baptismus secundum illud Extrav.
+            <lb ed="#V" n="66"/>de celebratione Missarum, cap. In
+            <lb ed="#V" n="67"/>quadam. Sed illud, quod ibi fluxit,
+            <lb ed="#V" n="68"/>non fuit aqua elementaris, sed
+            <lb ed="#V" n="69"/>phlegma, quia in corpore
+            mor<lb ed="#V" n="70" break="no"/>tuo non statim est aliquis
+            hu<lb ed="#V" n="71" break="no"/>mor, qui sit aqua elementaris,
+            <lb ed="#V" n="72"/>nec per vulnerationem exiit
+            ali<lb ed="#V" n="73" break="no"/>quis humor, nisi qui tempore
+            <lb ed="#V" n="74"/>apertionis erat in corpore; sed
+            <lb ed="#V" n="75"/>tunc non erat in corpore aqua
+            <lb ed="#V" n="76"/>pura; ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="77"/>Contra, Joan. 3. Nisi quis renatus
+            <lb ed="#V" n="78"/>fuerit ex aqua et Spiritu sancte, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="79"/>Item, per Avicennam: Sciant
+            ar<lb ed="#V" n="80" break="no"/>tifices alchymiae species per artem
+            per<lb ed="#V" n="81" break="no"/>mutari non posse. Et Philosophus
+            <lb ed="#V" n="82"/>etiam 4. Meteororum; ergo non
+            <lb ed="#V" n="83"/>possunt mixtum resolvere in
+            pu<lb ed="#V" n="84" break="no"/>ram aquam.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d3q3-p2"> -->
+          <p>
+            <lb ed="#V" n="12" type="fixed=324"/>SCHOLIUM.
+            <lb ed="#V" n="13"/>Aquam esse materiam remotam et
+            lotio<lb ed="#V" n="14" break="no"/>nem proximam Baptismi, ex Joan. 3. et
+            <lb ed="#V" n="15"/>Matth. 3. Trident. sess. 7. can. 2. Flor.
+            <lb ed="#V" n="16"/>decret. Eugen. Lateranen. cap. Firmiter,
+            <lb ed="#V" n="17"/>de Sum. Trin. et ponit congruentias
+            <lb ed="#V" n="18"/>optimas talis institutionis. Proprius
+            ta<lb ed="#V" n="19" break="no"/>men loquendo, totum fundamentum
+            rela<lb ed="#V" n="20" break="no"/>tionis est materia, ex quaest. praeced.
+            <lb ed="#V" n="21"/>num. 3.
+          </p>
+          <p>
+            <lb ed="#V" n="22"/>Hic dicendum (a) est
+            proportio<lb ed="#V" n="23" break="no"/>nabiliter ad illud, quod dictum
+            <lb ed="#V" n="24"/>est in principio praecedentis
+            <lb ed="#V" n="25"/>quaestionis. Materia enim,
+            pro<lb ed="#V" n="26" break="no"/>prie accipiendo, sicut illud in
+            <lb ed="#V" n="27"/>quo est forma rei, est totum
+            <lb ed="#V" n="28"/>illud quod est ibi sensibile, in
+            <lb ed="#V" n="29"/>quo fundatur relatio signi, quod
+            <lb ed="#V" n="30"/>est formale in Baptismo; sed
+            <lb ed="#V" n="31"/>sicut in illo toto sensibili
+            ali<lb ed="#V" n="32" break="no"/>quid est principalius, ut
+            ultima<lb ed="#V" n="33" break="no"/>te determinans, et ideo dicitur
+            <lb ed="#V" n="34"/>forma, ita aliquid est minus
+            <lb ed="#V" n="35"/>principale vel determinabile, et
+            <lb ed="#V" n="36"/>illud dicitur materia; sed tale
+            <lb ed="#V" n="37"/>potest intelligi vel proximum
+            <lb ed="#V" n="38"/>ad significandum, vel remotum.
+            <lb ed="#V" n="39"/>Proximum est ipsa ablutio
+            visi<cb ed="#V" n="b"/><lb ed="#V" n="40" break="no"/>bilis, ipsa enim cum verbis
+            tan<lb ed="#V" n="41" break="no"/>quam signum proximum
+            signifi<lb ed="#V" n="42" break="no"/>cat effectum Baptismi. Et ideo
+            <lb ed="#V" n="43"/>non urget nos illa dubitatio,
+            <lb ed="#V" n="44"/>prima q. 1. Detrahe, ne forte
+            <lb ed="#V" n="45"/>asinus bibat Sacramentum, quae
+            <lb ed="#V" n="46"/>vere est dubitatio asinina, quia
+            <lb ed="#V" n="47"/>illa ablutio non durat nisi in
+            <lb ed="#V" n="48"/>fieri, et quantumcumque aqua
+            <lb ed="#V" n="49"/>posset bibi, vel huc vel illuc
+            <lb ed="#V" n="50"/>transfundi, ipsa ablutio non.
+          </p>
+          <p>
+            <lb ed="#V" n="51"/>Et intelligitur (b) ablutio hic,
+            <lb ed="#V" n="52"/>non tantum sicut aqua dicitur
+            <lb ed="#V" n="53"/>lavare corpus quasi formaliter,
+            <lb ed="#V" n="54"/>sed sicut homo dicitur lavare
+            <lb ed="#V" n="55"/>corpus cum aqua, quasi proprie
+            <lb ed="#V" n="56"/>active. Nam solus contactus
+            cor<lb ed="#V" n="57" break="no"/>poris ab aqua, quae est quasi
+            <lb ed="#V" n="58"/>ablutio formalis, non est
+            institu<lb ed="#V" n="59" break="no"/>ta tanquam signum, vel pars
+            <lb ed="#V" n="60"/>signi, sed ipsa lotio effective
+            <lb ed="#V" n="61"/>facta ab aliquo abluente. Nec
+            <lb ed="#V" n="62"/>oportet, quod sit ibi ablutio prout
+            <lb ed="#V" n="63"/>distinguitur contra lotionem, et
+            <lb ed="#V" n="64"/>includit amotionem sordium a
+            <lb ed="#V" n="65"/>corpore per contactum aquae,
+            <lb ed="#V" n="66"/>sed sufficit lotio in communi
+            dic<lb ed="#V" n="67" break="no"/>ta corporis ab aqua, alio hoc
+            <lb ed="#V" n="68"/>agente, quod nihil aliud est, nisi
+            <lb ed="#V" n="69"/>quod oportet istum contactum
+            <lb ed="#V" n="70"/>corporis ab aqua fieri, ab alio
+            <lb ed="#V" n="71"/>causante contactum istum. Et isto
+            <lb ed="#V" n="72"/>modo intelligendo ablutionem et
+            lo<lb ed="#V" n="73" break="no"/>tionem, lotio est materia
+            proxi<lb ed="#V" n="74" break="no"/>ma, quasi per se fundamentum, vel
+            <lb ed="#V" n="75"/>pars fundamenti istius
+            significa<lb ed="#V" n="76" break="no"/>tionis; aqua autem est materia
+            <lb ed="#V" n="77"/>remota, quae applicatur
+            corpo<lb ed="#V" n="78" break="no"/>ri in ista lotione.
+          </p>
+          <p>
+            <lb ed="#V" n="79"/>Et hujus probatio (c) non est
+            <lb ed="#V" n="80"/>alia, nisi quia sic institutum
+            <lb ed="#V" n="81"/>est, ut patet Joan. 3. et Matth. 3.
+            <lb ed="#V" n="82"/>Quare autem sit sic institutum,
+            <lb ed="#V" n="83"/>sunt apertae congruentiae, quia
+            <pb ed="#V" n="325"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>aqua est frigida, fluida, lucida,
+            <lb ed="#V" n="2"/>necessaria et communis. Et hae
+            <lb ed="#V" n="3"/>omnes proprietates conveniunt
+            <lb ed="#V" n="4"/>illi humori, in quo debet fieri
+            <lb ed="#V" n="5"/>Baptismus, qui est ad
+            reprimen<lb ed="#V" n="6" break="no"/>dum aestum concupiscentiae, ad
+            <lb ed="#V" n="7"/>flectendum rigorem inobedientiae,
+            <lb ed="#V" n="8"/>ad illustrandum claritatem fidei,
+            <lb ed="#V" n="9"/>ad introducendum in viam
+            salu<lb ed="#V" n="10" break="no"/>tis; et hoc est commune
+            omni<lb ed="#V" n="11" break="no"/>bus, sicut lex ista, cujus hoc
+            <lb ed="#V" n="12"/>Sacramentum est initiativum,
+            <lb ed="#V" n="13"/>communis est omnibus ad
+            salu<lb ed="#V" n="14" break="no"/>tem.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d3q3-p3"> -->
+          <p>
+            <lb ed="#V" n="3" type="fixed=330"/>SCHOLIUM.
+            <lb ed="#V" n="4"/>Aquam artificialem non esse materiam
+            Ba<lb ed="#V" n="5" break="no"/>ptismi, quia, est aequivoce tantum aqua,
+            <lb ed="#V" n="6"/>quod probat dupliciter, et impuritatem non
+            <lb ed="#V" n="7"/>obstare, modo maneat apta ad lavandum, et
+            <lb ed="#V" n="8"/>substantia aquae. De prima parte habetur in
+            <lb ed="#V" n="9"/>Florent. decret. Eugen. et in Trident. sess. 7.
+            <lb ed="#V" n="10"/>can. 2. et c. Firmiter, de Sum. Trinitate.
+          </p>
+          <p>
+            <lb ed="#V" n="11"/>Quod autem (d) in quaestione
+            <lb ed="#V" n="12"/>ponitur naturalis ad distinguendum
+            <lb ed="#V" n="13"/>aquam artificialem, respondeo,
+            <lb ed="#V" n="14"/>quod aquae illae, quae communiter
+            <lb ed="#V" n="15"/>dicuntur artificiales, sunt corpora
+            <lb ed="#V" n="16"/>quaedam mixta, et non dicuntur
+            <lb ed="#V" n="17"/>aquae, nisi aequivoce; quod patet
+            <lb ed="#V" n="18"/>primo, quia ita est ex
+            qualitati<lb ed="#V" n="19" break="no"/>bus consequentibus totam speciem,
+            <lb ed="#V" n="20"/>quod una qualitas similis non
+            con<lb ed="#V" n="21" break="no"/>cludit identitatem substantiae, sed
+            <lb ed="#V" n="22"/>una dissimilis in tota specie
+            con<lb ed="#V" n="23" break="no"/>cludit aliam esse substantiam. Illae
+            <lb ed="#V" n="24"/>autem quae dicuntur aquae
+            artifi<lb ed="#V" n="25" break="no"/>ciales, habent a tota specie
+            ali<lb ed="#V" n="26" break="no"/>quam qualitatem dissimilem aquae
+            <lb ed="#V" n="27"/>elementari. Hoc patet secundo,
+            <lb ed="#V" n="28"/>ex modo generationis istarum,
+            <lb ed="#V" n="29"/>nam impossibile est toti naturae
+            <lb ed="#V" n="30"/>creatae ex uno generare aliud,
+            <lb ed="#V" n="31"/>nisi servando determinatum
+            pro<lb ed="#V" n="32" break="no"/>cessum, per media determinata;
+            <lb ed="#V" n="33"/>tota enim natura creata non
+            <lb ed="#V" n="34"/>posset ex aceto generare
+            vi<lb ed="#V" n="35" break="no"/>num statim sed oportet
+            redi<lb ed="#V" n="36" break="no"/>re ad materiam primam
+            com<lb ed="#V" n="37" break="no"/>munem eis, quae est aqua, quae
+            <lb ed="#V" n="38"/>attracta in stipite vitis tandem in
+            <lb ed="#V" n="39"/>uva convertitur in vinum; et ista
+            <lb ed="#V" n="40"/>sententia ponitur a Philosopho 8.
+            <lb ed="#V" n="41"/>Metaphysicae, et patet ad sensum,
+            <lb ed="#V" n="42"/>quod ita est. Sed istae aquae
+            arti<lb ed="#V" n="43" break="no"/>ficiales ex quocumque sint, fiunt
+            <lb ed="#V" n="44"/>non servato processu naturae per
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>media determinata ordinata. Istae
+            <lb ed="#V" n="46"/>etiam universaliter fiunt per
+            acti<lb ed="#V" n="47" break="no"/>onem ignis decoquentis et
+            resol<lb ed="#V" n="48" break="no"/>ventis; ignis autem non videtur
+            <lb ed="#V" n="49"/>esse sufficiens in virtute activa
+            <lb ed="#V" n="50"/>ad corrumpendum vel
+            converten<lb ed="#V" n="51" break="no"/>dum quaecumque mixta in aquam
+            <lb ed="#V" n="52"/>elementarem, propter quod
+            uni<lb ed="#V" n="53" break="no"/>versaliter concedi potest, quod
+            <lb ed="#V" n="54"/>aquae illae, quae dicuntur
+            artificia<lb ed="#V" n="55" break="no"/>les, non sunt conveniens materia
+            <lb ed="#V" n="56"/>Baptismi. quia non in specie aquae
+            <lb ed="#V" n="57"/>elementaris.
+          </p>
+          <p>
+            <lb ed="#V" n="58"/>Quod additur in quaestione pura,
+            <lb ed="#V" n="59"/>est intelligendum, quod impu ritas
+            <lb ed="#V" n="60"/>in aqua potest intelligi duobus
+            <lb ed="#V" n="61"/>modis. Vel propter mixtionem,
+            <lb ed="#V" n="62"/>secundum juxtapositionem, ut
+            <lb ed="#V" n="63"/>aqua lutosa dicitur impura; vel
+            <lb ed="#V" n="64"/>propter mixtionem alterantem a
+            <lb ed="#V" n="65"/>specie, sicut humor mixtus dicitur
+            <lb ed="#V" n="66"/>non esse aqua pura. Et prima
+            <lb ed="#V" n="67"/>quidem impuritas non prohibet,
+            <lb ed="#V" n="68"/>dum tamen non excludat ab aqua,
+            <lb ed="#V" n="69"/>quin sit conveniens ad lavandum
+            <lb ed="#V" n="70"/>vel abluendum; nec est alia ratio,
+            <lb ed="#V" n="71"/>nisi quia sic institutum est. Unde
+            <lb ed="#V" n="72"/>aqua inhibita farinae in pasta, vel
+            <lb ed="#V" n="73"/>in spongia, dum ibi est, vel imbibita
+            <lb ed="#V" n="74"/>in spisso luto, et sic de aliis, si
+            <lb ed="#V" n="75"/>contingant carnem, non sunt
+            con<lb ed="#V" n="76" break="no"/>veniens materia Baptismi tales
+            <lb ed="#V" n="77"/>aquae, quia talis contactus non
+            <lb ed="#V" n="78"/>est lotio, sed tantum contactus
+            <lb ed="#V" n="79"/>aquae fluidae liberae conjungentis
+            <lb ed="#V" n="80"/>se cuti, vel separantis inter
+            cu<lb ed="#V" n="81" break="no"/>tem et aliud corpus.
+          </p>
+          <p>
+            <lb ed="#V" n="82"/>In secundo modo, dico quod
+            ali<lb ed="#V" n="83" break="no"/>qua impuritas potest esse manente
+            <lb ed="#V" n="84"/>aqua intra speciem, sicut forte si
+            <lb ed="#V" n="85"/>incipiat inspissari tendendo ad
+            ge<lb ed="#V" n="86" break="no"/>nerationem elementi grossioris,
+            <lb ed="#V" n="87"/>ista non prohibet, dum tamen sit
+            <lb ed="#V" n="88"/>fluida. Quod pro tanto dico, quia
+            <pb ed="#V" n="331"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>in glacie, nive et grandine, quae
+            ta<lb ed="#V" n="2" break="no"/>men sunt imperfecta, vel in via
+            <lb ed="#V" n="3"/>ad mixtionem, dum talia sunt,
+            <lb ed="#V" n="4"/>non potest in eis fieri Baptismus,
+            <lb ed="#V" n="5"/>quia ibi non est lotio, sicut nec
+            <lb ed="#V" n="6"/>in duro.
+          </p>
+          <p>
+            <lb ed="#V" n="7"/>Si autem per illam alterationem,
+            <lb ed="#V" n="8"/>jam sit extra speciem aquae,
+            om<lb ed="#V" n="9" break="no"/>nino non est materia Baptismi; et
+            <lb ed="#V" n="10"/>de quibusdam alterationibus satis
+            <lb ed="#V" n="11"/>patet, quia constituunt alteratum
+            <lb ed="#V" n="12"/>extra speciem aquae, puta de
+            hu<lb ed="#V" n="13" break="no"/>moribus naturaliter resolutis per
+            <lb ed="#V" n="14"/>digestionem, ut saliva, urina, et
+            <lb ed="#V" n="15"/>hujusmodi, juxta illud Extrav. de
+            <lb ed="#V" n="16"/>Baptismo et ejus effectu: Non ut
+            appo<lb ed="#V" n="17" break="no"/>neres.
+          </p>
+          <p>
+            <lb ed="#V" n="18"/>De aliis autem non est ita
+            ma<lb ed="#V" n="19" break="no"/>nifestum, puta de decoctionibus
+            <lb ed="#V" n="20"/>et admixtionibus secundum
+            sen<lb ed="#V" n="21" break="no"/>sum, in quibus non apparet
+            evi<lb ed="#V" n="22" break="no"/>denter, quod sit alterata species,
+            <lb ed="#V" n="23"/>ut patet de brodio carnium, et
+            <lb ed="#V" n="24"/>farinata, et hujusmodi, et cervisia,
+            <lb ed="#V" n="25"/>et medone. Non enim manifestum
+            <lb ed="#V" n="26"/>est, quod sit ibi aliquod activum
+            <lb ed="#V" n="27"/>corrumpens speciem aquae, tamen
+            <lb ed="#V" n="28"/>hoc discutere non pertinet ad
+            <lb ed="#V" n="29"/>Theologum determinantem
+            mate<lb ed="#V" n="30" break="no"/>riam Baptismi, inquantum
+            habe<lb ed="#V" n="31" break="no"/>ri potest ex Canone Bibliae,
+            ne<lb ed="#V" n="32" break="no"/>que ad Canonistam
+            determinan<lb ed="#V" n="33" break="no"/>tem conditiones materiae, prout
+            <lb ed="#V" n="34"/>determinantur ab ordinatione
+            Ec<lb ed="#V" n="35" break="no"/>clesiae; sed pertinet ad
+            Philoso<lb ed="#V" n="36" break="no"/>phum Naturalem, cujus est
+            inqui<lb ed="#V" n="37" break="no"/>rere, quae alteratio transferat
+            <lb ed="#V" n="38"/>aquam a specie sua, et quae non.
+            <lb ed="#V" n="39"/>Quod si de aliquibus sit dubium, et
+            <lb ed="#V" n="40"/>in talibus fuerit Baptismus factus,
+            <lb ed="#V" n="41"/>utendum est ibi illis tribus
+            maxi<lb ed="#V" n="42" break="no"/>mis positis in solutione
+            praeceden<lb ed="#V" n="43" break="no"/>tis quaestionis de remediis
+            adhi<lb ed="#V" n="44" break="no"/>bendis circa eos, de quibus
+            proba<lb ed="#V" n="45" break="no"/>biliter dubitatur.
+          </p>
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="46"/>Ad primum argumentum dico,
+            <lb ed="#V" n="47"/>quod aqua artificialis, etsi habeat
+            <lb ed="#V" n="48"/>aliqua accidentia similia, tamen
+            <lb ed="#V" n="49"/>aliquod vel aliqua dissimilia habet
+            <lb ed="#V" n="50"/>a tota specie, ex quibus sequitur
+            <lb ed="#V" n="51"/>distinctio substantiae.
+          </p>
+          <p>
+            <lb ed="#V" n="52"/>Ad secundum dicendum, quod
+            <lb ed="#V" n="53"/>etsi aliqua aqua artificialis
+            videa<lb ed="#V" n="54" break="no"/>tur subtilior quam elementaris,
+            <lb ed="#V" n="55"/>quia magis penetrativa, ista
+            ta<lb ed="#V" n="56" break="no"/>men subtilitas non est subtilitas
+            <lb ed="#V" n="57"/>simplicitatis, sed virtutis activae,
+            <lb ed="#V" n="58"/>et hoc modo vinum est subtile
+            <lb ed="#V" n="59"/>vel subtilius aqua; subtilitas
+            au<lb ed="#V" n="60" break="no"/>tem conveniens aquae elementari
+            <lb ed="#V" n="61"/>est subtilitas simplicitatis, eo
+            mo<lb ed="#V" n="62" break="no"/>do quo elementum est simplicius
+            <lb ed="#V" n="63"/>mixto.
+          </p>
+          <p>
+            <lb ed="#V" n="64"/>Ad tertium concedo, quod
+            pos<lb ed="#V" n="65" break="no"/>sibile esset Angelum bonum vel
+            <lb ed="#V" n="66"/>malum, adhibere aliqua activa
+            <lb ed="#V" n="67"/>mixto, ut passo, per quae
+            resol<lb ed="#V" n="68" break="no"/>veretur ab eo aqua elementaris.
+            <lb ed="#V" n="69"/>Non enim negavi aquam
+            artificia<lb ed="#V" n="70" break="no"/>lem esse aquam elementarem,
+            <lb ed="#V" n="71"/>quia ars ibi concurrit (quia non
+            <lb ed="#V" n="72"/>concurrit producens terminum,
+            <lb ed="#V" n="73"/>sed ut adhibens activum passivo;)
+            <lb ed="#V" n="74"/>sed dico, quod nulla ars potest
+            <lb ed="#V" n="75"/>adhibere idem activum puta
+            <lb ed="#V" n="76"/>ignem, quantumcumque diversis
+            <lb ed="#V" n="77"/>mixtis et passis, ita quod per illud
+            <lb ed="#V" n="78"/>agens, fiat immediate resolutio in
+            <lb ed="#V" n="79"/>aquam, scilicet elementarem, quia
+            <lb ed="#V" n="80"/>illud idem agens non potest
+            ha<lb ed="#V" n="81" break="no"/>bere virtutem, ut sit sine formis
+            <lb ed="#V" n="82"/>intermediis mutandi, neque etiam
+            <lb ed="#V" n="83"/>ita taliter diversa in eumdem
+            ter<lb ed="#V" n="84" break="no"/>minum corrumpendi.
+          </p>
+          <p>
+            <lb ed="#V" n="85"/>Ad quartum, patet ex dictis de
+            <lb ed="#V" n="86"/>impuritate per juxtapositionem.
+          </p>
+          <p>
+            <lb ed="#V" n="87"/>Ad quintum respondet
+            Innocen<lb ed="#V" n="88" break="no"/>tius ibi, quod illa aqua, quae
+            flu<lb ed="#V" n="89" break="no"/>xit de latere Salvatoris, non fuit
+            <pb ed="#V" n="332"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>phlegma, sed vera aqua. Quod
+            pro<lb ed="#V" n="2" break="no"/>bat ex verbis Evangelistae: Et qui
+            <lb ed="#V" n="3"/>vidit, testimonium perhibuit veritati.
+            <lb ed="#V" n="4"/>Profecto non aquam, sed phlegma
+            <lb ed="#V" n="5"/>dixisset, si non fuisset aqua, sed
+            <lb ed="#V" n="6"/>phlegma. Probat etiam a
+            poste<lb ed="#V" n="7" break="no"/>riori per materiam Sacramenti
+            <lb ed="#V" n="8"/>Baptismi: Nec in hoc, inquit,
+            ve<lb ed="#V" n="9" break="no"/>rum regenerationis Sacramentum fuisset
+            <lb ed="#V" n="10"/>ostensum, cum per Sacramentum
+            Ba<lb ed="#V" n="11" break="no"/>ptismi, non regenerentur in phlegmate,
+            <lb ed="#V" n="12"/>sed in aqua. Probat etiam per aquam
+            <lb ed="#V" n="13"/>miscendam in Sacramento
+            Eu<lb ed="#V" n="14" break="no"/>charistiae. Probat etiam quarto
+            <lb ed="#V" n="15"/>per figuram, quae praecessit super
+            <lb ed="#V" n="16"/>hoc, in veteri Testamento, quando
+            <lb ed="#V" n="17"/>Moyses percussit silicem, et ex
+            <lb ed="#V" n="18"/>ea non phlegma, sed aqua manavit.
+          </p>
+          <p>
+            <lb ed="#V" n="19"/>Ad probationem respondet ibi,
+            <lb ed="#V" n="20"/>quod vel illa aqua fuit ibi de novo
+            <lb ed="#V" n="21"/>creata miraculose, de
+            componenti<lb ed="#V" n="22" break="no"/>bus resoluta. Sed qualitercumque
+            <lb ed="#V" n="23"/>dicatur de aqua lateris Christi,
+            <lb ed="#V" n="24"/>quia fluxit sicut sibi placuit, non
+            <lb ed="#V" n="25"/>propter hoc ibi Sacramenta
+            susce<lb ed="#V" n="26" break="no"/>perunt efficaciam, ut supra dictum
+            <lb ed="#V" n="27"/>est, sed propter quamdam
+            simili<lb ed="#V" n="28" break="no"/>tudinem perfectiorem ad
+            Baptis<lb ed="#V" n="29" break="no"/>mum et Eucharistiam. Certum
+            <lb ed="#V" n="30"/>est tamen, quod Baptismus non
+            <lb ed="#V" n="31"/>potest fieri, nisi in aqua usuali,
+            <lb ed="#V" n="32"/>quia Christus hoc instituit.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

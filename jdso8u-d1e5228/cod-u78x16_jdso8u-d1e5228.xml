@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio Septima, Praeambulum</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio Septima, Praeambulum</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x16">Vives, Paris, 1894, volume 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="656"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e5228"><!-- jdso8u-b4d7prae -->
+        <head>Praeambulum</head>
+        <!-- <div alias="scotus-d7prae"> -->
+          <p>
+            <lb ed="#V" n="19" type="fixed=656"/>Postquam Magister egit de
+            pri<lb ed="#V" n="20" break="no"/>mo Sacramento, scilicet de
+            Bapti<lb ed="#V" n="21" break="no"/>smo, hic agit de secundo, scilicet
+            <lb ed="#V" n="22"/>de Sacramento Confirmationis. Et
+            <lb ed="#V" n="23"/>dividitur in duas partes, scilicet
+            <lb ed="#V" n="24"/>in Prooemium, et tractatum, qui
+            <lb ed="#V" n="25"/>incipit ibi: Forma enim. Et ille
+            tra<lb ed="#V" n="26" break="no"/>ctatus dividitur in quinque partes.
+            <lb ed="#V" n="27"/>Primo namque determinat de
+            for<lb ed="#V" n="28" break="no"/>ma Sacramenti. Secundo, de
+            mi<lb ed="#V" n="29" break="no"/>nistro, ibi: Hoc Sacramentam ab aliis.
+            <lb ed="#V" n="30"/>Tertio, de effectu, ibi: Virtus autem.
+            <lb ed="#V" n="31"/>Quarto, de conditione quadam in
+            <lb ed="#V" n="32"/>suscipiente et conferente,
+            perti<lb ed="#V" n="33" break="no"/>nente ad reverentiam Sacramenti,
+            <lb ed="#V" n="34"/>ibi: Hoc Sacramentum tantum a jejunis.
+            <lb ed="#V" n="35"/>Quinto et ultimo, de
+            initerabili<lb ed="#V" n="36" break="no"/>tate hujus Sacramenti, ibi: Nec
+            de<lb ed="#V" n="37" break="no"/>bet iterari.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

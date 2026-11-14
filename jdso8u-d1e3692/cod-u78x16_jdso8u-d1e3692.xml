@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio Septima, Quaestio 2</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio Septima, Quaestio 2</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x16">Vives, Paris, 1894, volume 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="702"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e3692"><!-- jdso8u-b4d7q2 -->
+        <head>Quaestio 2</head>
+        <head type="question-title">Utrum sacramentum confirmationis sit necessarium ad salutem</head>
+        <!-- <div alias="scotus-d7q2-p1"> -->
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43" type="fixed=702"/>QUAESTIO II.
+            <lb ed="#V" n="44"/>Utrum Sacramentum Confirmationis sit
+            <lb ed="#V" n="45"/>necessarium ad salutem?
+          </p>
+          <p>
+            <lb ed="#V" n="46"/>Alens. 4. part. q. 25. m. 2. D. Bonav. hic art.4.
+            <lb ed="#V" n="47"/>q. 2. Richard. art. 5. q. 1. D. Thom. q. 3. art.
+            <lb ed="#V" n="48"/>2. et 3. part. q. 65. art. 4. et quaest. 72. art.8.
+            <lb ed="#V" n="49"/>Suarez 3. p. tom. 3. d. 38. Coccius, et Bellarm.
+            <lb ed="#V" n="50"/>citati quaest. 1.
+          </p>
+          <p>
+            <lb ed="#V" n="51"/>Circa istam distinctionem quaeri
+            <lb ed="#V" n="52"/>possunt aliqua brevia. Primo,
+            <lb ed="#V" n="53"/>utrum istud Sacramentum sit
+            ne<lb ed="#V" n="54" break="no"/>cessarium ad salutem? Quod sic:
+            <lb ed="#V" n="55"/>De consecrat. dist. 5. Omnes fideles
+            <lb ed="#V" n="56"/>per manus impositionem Episcoporum
+            <lb ed="#V" n="57"/>post Baptismum Spiritum sanctum
+            sus<lb ed="#V" n="58" break="no"/>cipere debent, ut pleni Christiani
+            inve<lb ed="#V" n="59" break="no"/>niantur. Ex hoc habetur propositum,
+            <lb ed="#V" n="60"/>quia quilibet tenetur esse plenus
+            <lb ed="#V" n="61"/>Christianus.
+          </p>
+          <p>
+            <lb ed="#V" n="62"/>Contra, in Baptismo datur
+            gra<lb ed="#V" n="63" break="no"/>tia; ergo per illam est filius
+            re<lb ed="#V" n="64" break="no"/>gni, et ita sufficit ad salutem.
+          </p>
+          <p>
+            <lb ed="#V" n="65"/>SCHOLIUM.
+            <lb ed="#V" n="66"/>Confirmationem non esse necessariam ad
+            <lb ed="#V" n="67"/>salutem, sed necessariam esse, ne
+            contem<lb ed="#V" n="68" break="no"/>natur. Censetur autem contemnere non
+            sus<lb ed="#V" n="69" break="no"/>cipiens, qui commodissime potest suscipere.
+            <lb ed="#V" n="70"/>Videtur ergo secundum Doctorem non esse
+            <lb ed="#V" n="71"/>in praecepto, et ita tenere videtur D. Thom.
+            <lb ed="#V" n="72"/>d. art. 8. ad 4. D. Bonavent. putat esse in
+            <lb ed="#V" n="73"/>praecepto Ecclesiae. Richard. in praecepto
+            <lb ed="#V" n="74"/>divino, quem sequitur Bellarm. lib 1. de
+            <lb ed="#V" n="75"/>Sacram. cap. 22. sed non esse in praecepto
+            <lb ed="#V" n="76"/>tenet expresse Doctor infra d. 17. q. 1. n. 11.
+            <lb ed="#V" n="77"/>et D. Thom. 3. part. quaest. 65. art. 4. ad 3.
+            <lb ed="#V" n="78"/>et quaest. 72. art. 1. ad 3.
+          </p>
+          <p>
+            <lb ed="#V" n="79"/>(a) Respondeo, non est
+            simpli<lb ed="#V" n="80" break="no"/>citer necessarium ad salutem,
+            <lb ed="#V" n="81"/>juxta illud Marc. ultim. Qui
+            credi<pb ed="#V" n="703"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>derit, et baptizatus fuerit, salvus erit;
+            <lb ed="#V" n="2"/>et de consecr. dist. 5. Spiritus sanctus,
+            <lb ed="#V" n="3"/>ubi habetur, quod baptizatus per
+            <lb ed="#V" n="4"/>solum Baptismum salvatur; est
+            <lb ed="#V" n="5"/>tamen necessarium adulto sic
+            <lb ed="#V" n="6"/>quod non contemnat, sicut
+            dici<lb ed="#V" n="7" break="no"/>tur Extra de sacra unctione, ubi
+            <lb ed="#V" n="8"/>dicitur in Glossa, quod non est
+            <lb ed="#V" n="9"/>plenus Christianus qui contemnit.
+          </p>
+          <p>
+            <lb ed="#V" n="10"/>Ad argumentum dico, quod
+            lo<lb ed="#V" n="11" break="no"/>quitur de adulto, qui debet
+            susci<lb ed="#V" n="12" break="no"/>pere, id est, non contemnere, et
+            <lb ed="#V" n="13"/>pro tempore congruo suscipere
+            <lb ed="#V" n="14"/>in effectu; judicaretur enim
+            con<lb ed="#V" n="15" break="no"/>temptus, si omnimoda
+            opportuni<lb ed="#V" n="16" break="no"/>tate oblata, non susciperetur.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

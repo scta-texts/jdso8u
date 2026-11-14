@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 3, Quaestio 1</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 3, Quaestio 1</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x16">Vives, Paris, 1894, volume 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="274"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e3308"><!-- jdso8u-b4d3q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum ilia sit propria definitio baptismi quam ponit Magister: «Baptismus est tinctio, id est ablutio, corporis exterior, facta sub forma verborum praescripta»</head>
+        <!-- <div alias="scotus-d3q1-p1"> -->
+          <p>
+            <lb ed="#V" n="20" type="fixed=274"/>QUAESTIO I.
+            <lb ed="#V" n="21"/>An illa definitio Baptismi sit propria,
+            <lb ed="#V" n="22"/>quam ponit Magister, scilicet:
+            Bap<lb ed="#V" n="23" break="no"/>tismus est tinctio corporis
+            exte<lb ed="#V" n="24" break="no"/>rior, facta sub forma verborum
+            <lb ed="#V" n="25"/>praescripta?
+          </p>
+          <p>
+            <lb ed="#V" n="26"/>Hugo Vict. lib. 2. de Sacram. p. 6. cap. 2. Alens.
+            <lb ed="#V" n="27"/>4. p. q. 11. m. 2. et 3. D. Thom. 3. p. q. 66.
+            <lb ed="#V" n="28"/>art. 1. (ubi Suar. et Vasq.) et hic q 1. art. 1.
+            <lb ed="#V" n="29"/>D. Bonav. a. 1. q. 1. et 2. Richard. a. 1. q. 3.
+          </p>
+          <p>
+            <lb ed="#V" n="30"/>Ad primum arguitur (b), quod
+            <lb ed="#V" n="31"/>non, quia pars non praedicatur de
+            <lb ed="#V" n="32"/>suo toto; ablutio est pars
+            Sacra<lb ed="#V" n="33" break="no"/>menti Baptismi, quia secundum
+            <lb ed="#V" n="34"/>Augustinum quaest. 1. Detrahe:
+            Ac<lb ed="#V" n="35" break="no"/>cedit verbum ad elementum et fit
+            Sacra<lb ed="#V" n="36" break="no"/>mentum.
+            <lb ed="#V" n="37"/>Sacramentum ergo sicut non est
+            <lb ed="#V" n="38"/>verba, ita nec ablutio ipsa.
+          </p>
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="39"/>Contra, Magister in distinctione
+            <lb ed="#V" n="40"/>ista.
+          </p>
+          <p>
+            <lb ed="#V" n="41"/>In solutione hujus quaestionis
+            <lb ed="#V" n="42"/>potest procedi sicut supra
+            distinc<lb ed="#V" n="43" break="no"/>tione prima q.2. de definitione
+            Sacra<lb ed="#V" n="44" break="no"/>menti. Supponendo enim ex usu
+            <lb ed="#V" n="45"/>loquentium, significatum nominis
+            <lb ed="#V" n="46"/>Baptismi, scilicet quod Baptismus
+            <lb ed="#V" n="47"/>significat quoddam speciale
+            Sa<lb ed="#V" n="48" break="no"/>cramentum, ut si Baptismus
+            signi<lb ed="#V" n="49" break="no"/>ficet ablutionem, sicut apud
+            Ju<lb ed="#V" n="50" break="no"/>daeos erant Baptismata corporum
+            <lb ed="#V" n="51"/>et vasorum, in est, ablutiones,
+            <lb ed="#V" n="52"/>tunc hoc quod erit Sacramentum
+            <lb ed="#V" n="53"/>Baptismi, (intelligendo ibi
+            cons<lb ed="#V" n="54" break="no"/>tructionem intransitivam)
+            signifi<lb ed="#V" n="55" break="no"/>cat Sacramentum speciale, et
+            <lb ed="#V" n="56"/>hoc tam specificando
+            significatio<lb ed="#V" n="57" break="no"/>nem et effectum significatum, puta
+            <lb ed="#V" n="58"/>purificationem animae a peccato
+            <lb ed="#V" n="59"/>originali, quam specificando
+            fun<lb ed="#V" n="60" break="no"/>damentum talis significationis et
+            <lb ed="#V" n="61"/>relationis.
+          </p>
+          <p>
+            <lb ed="#V" n="62"/>Ex hoc, inquam, supposito,
+            ap<lb ed="#V" n="63" break="no"/>paret qualiter Baptismus potest
+            <lb ed="#V" n="64"/>habere definitionem, cum enim
+            de<lb ed="#V" n="65" break="no"/>finibile oporteat esse ens
+            positi<lb ed="#V" n="66" break="no"/>vum, per se unum, et reale, et
+            com<lb ed="#V" n="67" break="no"/>mune, ut habetur supra,
+            Baptis<lb ed="#V" n="68" break="no"/>mus non est pure non ens, sicut
+            <lb ed="#V" n="69"/>impossibile. Et probatur eo modo,
+            <lb ed="#V" n="70"/>quo supra de Sacramento, quia
+            ra<lb ed="#V" n="71" break="no"/>tio ejus non est in se falsa; nulla
+            <lb ed="#V" n="72"/>enim est repugnantia,
+            quodcum<lb ed="#V" n="73" break="no"/>que sensibile, vel quaecumque
+            sen<lb ed="#V" n="74" break="no"/>sibilia institui a Deo ad
+            signi<lb ed="#V" n="75" break="no"/>ficandum efficaciter ablutionem
+            <lb ed="#V" n="76"/>animae a peccato. Neque etiam
+            <lb ed="#V" n="77"/>est purum non ens, sicut negatio
+            <lb ed="#V" n="78"/>vel privatio, patet. Est etiam per
+            <lb ed="#V" n="79"/>se unum, quantum ad illud quod
+            <lb ed="#V" n="80"/>principaliter significat, quod est
+            <lb ed="#V" n="81"/>talis relatio signi ad tale
+            signifi<lb ed="#V" n="82" break="no"/>catum.
+          </p>
+          <p>
+            <pb ed="#V" n="275"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Nec huic obstat, quod connotat
+            <lb ed="#V" n="2"/>correlativum suum et
+            fundamen<lb ed="#V" n="3" break="no"/>tum, quia sic relatio quaecumque
+            <lb ed="#V" n="4"/>connotat; nec quod in fundamento
+            <lb ed="#V" n="5"/>sunt multa connotata, quia, ut
+            <lb ed="#V" n="6"/>dictum est supra, una relatio
+            <lb ed="#V" n="7"/>rationis potest fundari in
+            quan<lb ed="#V" n="8" break="no"/>tumcumque distinctis in re. Talis
+            <lb ed="#V" n="9"/>tamen connotatio bene prohibet
+            <lb ed="#V" n="10"/>habere definitionem primo; nihil
+            <lb ed="#V" n="11"/>enim habet definitionem primo,
+            <lb ed="#V" n="12"/>nisi substantia, quae non definitur
+            <lb ed="#V" n="13"/>per aliquod additum, neque sicut
+            <lb ed="#V" n="14"/>correlativum additur in
+            definitio<lb ed="#V" n="15" break="no"/>ne correlativi, nec sicut
+            subjec<lb ed="#V" n="16" break="no"/>tum in definitione accidentis,
+            <lb ed="#V" n="17"/>talia enim habent definttionem,
+            <lb ed="#V" n="18"/>sed non primo, patet 7. Met.
+            <lb ed="#V" n="19"/>S Illud autem palam.
+          </p>
+          <p>
+            <lb ed="#V" n="20"/>Sola ergo tertia conditio,
+            scili<lb ed="#V" n="21" break="no"/>cet quod oportet definibile esse ens
+            <lb ed="#V" n="22"/>reale, excludit a Sacramento
+            <lb ed="#V" n="23"/>Baptismi, quod non habeat omnino
+            <lb ed="#V" n="24"/>perfectam definitionem; habet
+            ta<lb ed="#V" n="25" break="no"/>men eo modo quo secundae
+            inten<lb ed="#V" n="26" break="no"/>tiones vel quaecumque relationes
+            <lb ed="#V" n="27"/>rationis definiuntur, quod sufficit
+            <lb ed="#V" n="28"/>quantum ad intellectum habentem
+            <lb ed="#V" n="29"/>scientiam per definitionem;
+            eo<lb ed="#V" n="30" break="no"/>dem enim modo est definitio, sicut
+            <lb ed="#V" n="31"/>illa cui correspondet quidditas
+            <lb ed="#V" n="32"/>in re.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d3q1-p2"> -->
+          <p>
+            <lb ed="#V" n="79" type="fixed=275"/>SCHOLIUM.
+            <lb ed="#V" n="80"/>Post declaratum quia nominis et ret
+            <lb ed="#V" n="81"/>in Baptismo, ponit duplicem opinionem:
+            <lb ed="#V" n="82"/>una ait ablutionem et verba esse
+            fundamen<lb ed="#V" n="83" break="no"/>tum relationis Baptismi, et secundum hanc
+            <lb ed="#V" n="84"/>falsa erit definitio Magistri, ob primum
+            ar<lb ed="#V" n="85" break="no"/>gumentum; altera ponit solam ablutionem,
+            <pb ed="#V" n="276"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>sed circumstantionatam verbis, ut
+            funda<lb ed="#V" n="2" break="no"/>mentum, et secundum hanc, teneri potest
+            <lb ed="#V" n="3"/>definitio Magistri. Prima magis placet;
+            <lb ed="#V" n="4"/>parva vis est utra teneatur.
+          </p>
+          <p>
+            <lb ed="#V" n="5"/>Secundo principaliter (c) est
+            <lb ed="#V" n="6"/>videndum, an haec sit ejus
+            defini<lb ed="#V" n="7" break="no"/>tio, quam ponit Magister. Ubi
+            <lb ed="#V" n="8"/>notandum est, quod duobus modis
+            <lb ed="#V" n="9"/>potest de fundamento relationis
+            <lb ed="#V" n="10"/>poni, quam importat Baptismus.
+            <lb ed="#V" n="11"/>Uno modo, quod illa fundetur in
+            <lb ed="#V" n="12"/>toto isto, scilicet ablutione simul
+            <lb ed="#V" n="13"/>et verbis, tanquam in uno
+            funda<lb ed="#V" n="14" break="no"/>mento; et hoc est bene possibile,
+            <lb ed="#V" n="15"/>non obstante unitate ejus, cum
+            <lb ed="#V" n="16"/>sit relatio rationis. Alio modo,
+            <lb ed="#V" n="17"/>quod ejus fundamentum sit sola
+            <lb ed="#V" n="18"/>ablutio, sola, inquam, id est, nihil
+            <lb ed="#V" n="19"/>aliud fundet, neque ut totum
+            fun<lb ed="#V" n="20" break="no"/>damentum, neque ut pars
+            funda<lb ed="#V" n="21" break="no"/>menti; sed non sola, id est, ipsa
+            <lb ed="#V" n="22"/>sine quibuscumque aliis; imo
+            <lb ed="#V" n="23"/>oportet eam habere multa alia
+            <lb ed="#V" n="24"/>concomitantia, ad hoc ut fundet,
+            <lb ed="#V" n="25"/>scilicet et quod sit a tali
+            minis<lb ed="#V" n="26" break="no"/>tro sic intendente; nec istud
+            <lb ed="#V" n="27"/>est inconveniens, quod respectus
+            <lb ed="#V" n="28"/>tales praecedant in fundamento
+            <lb ed="#V" n="29"/>relationem rationis, tanquam
+            <lb ed="#V" n="30"/>praesuppositi illi relationi
+            ratio<lb ed="#V" n="31" break="no"/>nis. Et sic in ista ablutione
+            <lb ed="#V" n="32"/>praecedit habitudo ad verba
+            con<lb ed="#V" n="33" break="no"/>comitantia, et ad personam
+            sus<lb ed="#V" n="34" break="no"/>cipientem aliqualiter
+            consentien<lb ed="#V" n="35" break="no"/>tem, et sic in omnibus
+            relatio<lb ed="#V" n="36" break="no"/>nibus talibus praecedentibus in
+            <lb ed="#V" n="37"/>fundamento sic relato per ipsas,
+            <lb ed="#V" n="38"/>posset poni relationem
+            significa<lb ed="#V" n="39" break="no"/>tionis illius, quam importat
+            Bap<lb ed="#V" n="40" break="no"/>tismus, fundari.
+          </p>
+          <p>
+            <lb ed="#V" n="41"/>Si primum istorum poneretur,
+            <lb ed="#V" n="42"/>tunc cum in definitione accidentis
+            <lb ed="#V" n="43"/>in concreto, ponatur totum suum
+            <lb ed="#V" n="44"/>subjectum, et non pars praecise,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>sicut nec ipsum in concreto
+            prae<lb ed="#V" n="46" break="no"/>dicatur de parte sui subjecti, sed
+            <lb ed="#V" n="47"/>de toto, non esset Baptismus, sive
+            <lb ed="#V" n="48"/>Sacramentum Baptismi, ablutio,
+            <lb ed="#V" n="49"/>sed ablutio et verba simul. Sicut
+            <lb ed="#V" n="50"/>e converso, ablutio non esset
+            Ba<lb ed="#V" n="51" break="no"/>ptismus, quia ablutio sola non est
+            <lb ed="#V" n="52"/>subjectum vel fundamentum
+            hu<lb ed="#V" n="53" break="no"/>jus relationis, sed ambo simul,
+            <lb ed="#V" n="54"/>scilicet ablutio et verba; ergo nec
+            <lb ed="#V" n="55"/>alterum eorum denominatur per
+            <lb ed="#V" n="56"/>se ab alio.
+          </p>
+          <p>
+            <lb ed="#V" n="57"/>Si autem secundum poneretur,
+            <lb ed="#V" n="58"/>tunc sicut de ablutione
+            denomina<lb ed="#V" n="59" break="no"/>tive praedicaretur definitio
+            Bapti<lb ed="#V" n="60" break="no"/>smi (licet illa ablutio intelligatur
+            <lb ed="#V" n="61"/>circumstantionata multis
+            relati<lb ed="#V" n="62" break="no"/>onibus talibus, ad hoc ut sibi
+            con<lb ed="#V" n="63" break="no"/>veniat illa relatio), sic et e
+            con<lb ed="#V" n="64" break="no"/>verso in definitione hujus
+            relati<lb ed="#V" n="65" break="no"/>onis in concreto acceptae, posset
+            <lb ed="#V" n="66"/>poni ablutio solummodo in recto, et
+            <lb ed="#V" n="67"/>omnia alia in obliquo, cum
+            qui<lb ed="#V" n="68" break="no"/>busdam determinationibus
+            signifi<lb ed="#V" n="69" break="no"/>cantibus illa determinare, sive
+            cir<lb ed="#V" n="70" break="no"/>cumstantiare ipsam ablutionem.
+          </p>
+          <p>
+            <lb ed="#V" n="71"/>Istorum duorum primum
+            vide<lb ed="#V" n="72" break="no"/>retur verius, quia verba non
+            viden<lb ed="#V" n="73" break="no"/>tur esse simpliciter necessaria,
+            <lb ed="#V" n="74"/>nisi essent signum, vel pars signi;
+            <lb ed="#V" n="75"/>si tamen diceretur, quod essent
+            <lb ed="#V" n="76"/>quaedam determinatio ipsius
+            a<lb ed="#V" n="77" break="no"/>blutionis, quae est signum, et
+            suf<lb ed="#V" n="78" break="no"/>ficit illud ponere signum, magis
+            <lb ed="#V" n="79"/>quam duo, quando in uno potest
+            <lb ed="#V" n="80"/>inveniri ratio sufficiens
+            signifi<lb ed="#V" n="81" break="no"/>candi, ablutio autem exterior
+            sa<lb ed="#V" n="82" break="no"/>tis potest poni significare
+            abluti<lb ed="#V" n="83" break="no"/>onem interiorem, hoc ponendo,
+            <lb ed="#V" n="84"/>posset poni talis ratio Baptismi,
+            <lb ed="#V" n="85"/>quod Baptismus est ablutio hominis
+            <lb ed="#V" n="86"/>aliqualiter consentientis, facta ab alio
+            <lb ed="#V" n="87"/>in aqua, simul verba certa cum
+            intenti<lb ed="#V" n="88" break="no"/>one debita proferente, significans
+            effi<pb ed="#V" n="277"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>caciter ex institutione divina ablutionem
+            <lb ed="#V" n="2"/>animae a peccato.
+          </p>
+          <p>
+            <lb ed="#V" n="3"/>Quod si teneatur alia via,
+            scili<lb ed="#V" n="4" break="no"/>cet, quod verba sunt pars
+            funda<lb ed="#V" n="5" break="no"/>menti, tunc posset poni alia ratio
+            <lb ed="#V" n="6"/>Baptismi, quod Baptismus est
+            Sacra<lb ed="#V" n="7" break="no"/>mentum ablutionis animae a peccato,
+            <lb ed="#V" n="8"/>consistens in ablutione hominis
+            aliqua<lb ed="#V" n="9" break="no"/>liter consentientis, facta in aqua ab alio
+            <lb ed="#V" n="10"/>abluente, et in verbis certis simul ab
+            <lb ed="#V" n="11"/>eodem abluente cum debita intentione
+            <lb ed="#V" n="12"/>prolatis.
+          </p>
+          <p>
+            <lb ed="#V" n="13"/>Qualiter autem particulae positae
+            <lb ed="#V" n="14"/>in utraque ratione sunt
+            necessa<lb ed="#V" n="15" break="no"/>riae ad rationem Baptismi, bene
+            <lb ed="#V" n="16"/>patebit specialius de singulis, in
+            <lb ed="#V" n="17"/>quaestionibus sequentibus.
+          </p>
+          <p>
+            <lb ed="#V" n="18"/>Nec est differentia inter istas
+            <lb ed="#V" n="19"/>rationes, quin eadem secundum
+            <lb ed="#V" n="20"/>utramque sint necessaria ad
+            Ba<lb ed="#V" n="21" break="no"/>ptismum; sed una ponit in
+            defi<lb ed="#V" n="22" break="no"/>nitione ejus solam ablutionem in
+            <lb ed="#V" n="23"/>recto, alia ponit et ablutionem et
+            <lb ed="#V" n="24"/>verba ex aequo ad ejus rationem
+            <lb ed="#V" n="25"/>pertinere, quae differentia
+            consur<lb ed="#V" n="26" break="no"/>git ex diverso opinandi modo de
+            <lb ed="#V" n="27"/>fundamento hujus relationis, an
+            <lb ed="#V" n="28"/>sit sola ablutio
+            circumstantiona<lb ed="#V" n="29" break="no"/>ta, an simul ablutio et verba.
+          </p>
+          <p>
+            <lb ed="#V" n="30"/>Patet ergo solutio quaestionis,
+            <lb ed="#V" n="31"/>quia Magister videtur loqui
+            se<lb ed="#V" n="32" break="no"/>cundum illam opinionem, quod
+            <lb ed="#V" n="33"/>ablutio circumstantionata sit
+            Ba<lb ed="#V" n="34" break="no"/>ptismus; et sic ponendo, tangit
+            <lb ed="#V" n="35"/>ea quae principaliter pertinent
+            <lb ed="#V" n="36"/>ad rationem Baptismi, licet multa
+            <lb ed="#V" n="37"/>concomitantia debeant intelligi,
+            <lb ed="#V" n="38"/>quae exprimit ratio illa: Ablutio
+            <lb ed="#V" n="39"/>hominis, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="40"/>Ad argumentum (d) dicitur, quod
+            <lb ed="#V" n="41"/>de re artificiali bene praedicatur
+            <lb ed="#V" n="42"/>materia, cum sit tota substantia
+            <lb ed="#V" n="43"/>artificiati; unde arca non tantum
+            <lb ed="#V" n="44"/>est lignea, sed lignum;
+            Sacramen<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>tum autem, quia res rationis,
+            <lb ed="#V" n="46"/>assimilatur artificiali. Sed hoc
+            <lb ed="#V" n="47"/>nihil est, quia pars materiae non
+            <lb ed="#V" n="48"/>praedicatur de artificiato (non
+            <lb ed="#V" n="49"/>enim domus est lapides, sed ad
+            <lb ed="#V" n="50"/>esse domus requiritur aliud cum
+            <lb ed="#V" n="51"/>lapidibus), quia, ut dictum est
+            <lb ed="#V" n="52"/>prius, nihil ponitur in concreto,
+            <lb ed="#V" n="53"/>in definitione accidentis concreti,
+            <lb ed="#V" n="54"/>nisi illud de quo accidens
+            praedi<lb ed="#V" n="55" break="no"/>catur in concreto; nullum autem
+            <lb ed="#V" n="56"/>praedicatur de parte sui subjecti.
+          </p>
+          <p>
+            <lb ed="#V" n="57"/>Oportet ergo dicere sustinendo
+            <lb ed="#V" n="58"/>definitionem Magistri, quod
+            a<lb ed="#V" n="59" break="no"/>blutio non est pars fundamenti
+            <lb ed="#V" n="60"/>relationis, quam includit
+            Bapti<lb ed="#V" n="61" break="no"/>smus, sed est totum
+            fundamen<lb ed="#V" n="62" break="no"/>tum, licet remotum, inter quod
+            <lb ed="#V" n="63"/>et relationem signi mediant
+            quae<lb ed="#V" n="64" break="no"/>dam relationes rationis, ut dictum
+            <lb ed="#V" n="65"/>est.
+          </p>
+          <p>
+            <lb ed="#V" n="66"/>Si objiciatur, quod neque sic
+            <lb ed="#V" n="67"/>neque sic, potest describi, quia
+            <lb ed="#V" n="68"/>formaliter importat relationem
+            <lb ed="#V" n="69"/>rationis; illa autem non est
+            ali<lb ed="#V" n="70" break="no"/>quid reale, neque illa realia; ergo,
+            <lb ed="#V" n="71"/>etc. Respondeo, sicut relatio
+            ra<lb ed="#V" n="72" break="no"/>tionis in concreto dicitur de re
+            <lb ed="#V" n="73"/>extra, quemadmodum haec est
+            <lb ed="#V" n="74"/>vera: haec vox homo est nomen,
+            <lb ed="#V" n="75"/>vel signum naturae humanae, ita
+            <lb ed="#V" n="76"/>e converso, in definitione talis
+            <lb ed="#V" n="77"/>concreti potest poni res extra, ut
+            <lb ed="#V" n="78"/>additum, tanquam fundamentum
+            <lb ed="#V" n="79"/>relationis, ideo non valet. Sic de
+            <lb ed="#V" n="80"/>primo.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

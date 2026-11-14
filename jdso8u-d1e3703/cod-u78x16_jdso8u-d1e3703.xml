@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio Septima, Quaestio 3</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio Septima, Quaestio 3</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x16">Vives, Paris, 1894, volume 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="704"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e3703"><!-- jdso8u-b4d7q3 -->
+        <head>Quaestio 3</head>
+        <head type="question-title">Utrum sacramentum confirmationis sit dignius baptimo</head>
+        <!-- <div alias="scotus-d7q3-p1"> -->
+          <p>
+            <pb ed="#V" n="704"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1" type="fixed=704"/>QUAESTIO III.
+            <lb ed="#V" n="2"/>Utrum Sacramentum Confirmationis sit
+            <lb ed="#V" n="3"/>dignius Baptismo?
+          </p>
+          <p>
+            <lb ed="#V" n="4"/>Alens. 4. p. q. 27. m. 2. D. Bonav. hic. dub. 3.
+            <lb ed="#V" n="5"/>Richard. a. 5. q. 2. D. Thom. q. 1. a. 1. Suar.
+            <lb ed="#V" n="6"/>3. p. tom. 3. d. 34. sect. 1. 2.
+          </p>
+          <p>
+            <lb ed="#V" n="7"/>(a) Secundo quaeritur, utrum sit
+            <lb ed="#V" n="8"/>dignius Baptismo? Quod sic,
+            vide<lb ed="#V" n="9" break="no"/>tur in littera. Item de consec. dist. 5.
+            <lb ed="#V" n="10"/>Novissime, patet quod praefertur
+            <lb ed="#V" n="11"/>istud Sacramentum Baptismo.
+          </p>
+          <p>
+            <lb ed="#V" n="12"/>Contra, Baptismus delet culpam
+            <lb ed="#V" n="13"/>et poenam sine poenitentia; hoc
+            au<lb ed="#V" n="14" break="no"/>tem non; ergo, etc.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d7q3-p2"> -->
+          <p>
+            <lb ed="#V" n="45" type="fixed=704"/>SCHOLIUM.
+            <lb ed="#V" n="46"/>Sacramentum Confirmationis secundum
+            <lb ed="#V" n="47"/>quid perfectius Baptismo, sed hoc
+            simplici<lb ed="#V" n="48" break="no"/>ter esse perfectius.
+          </p>
+          <p>
+            <lb ed="#V" n="49"/>Respondeo, quando aliquid
+            in<lb ed="#V" n="50" break="no"/>cludit, vel praesupponit aliud, illa
+            <lb ed="#V" n="51"/>possunt comparari, vel secundum
+            <lb ed="#V" n="52"/>illud, quod praecise pertinet ad
+            <lb ed="#V" n="53"/>utrumque, vel secundum illud,
+            <lb ed="#V" n="54"/>quod secundum ponit
+            praesuppo<lb ed="#V" n="55" break="no"/>sito primo. Et quidem secunda
+            <lb ed="#V" n="56"/>comparatio non est per se, quia
+            <lb ed="#V" n="57"/>sic universaliter secundum
+            exce<lb ed="#V" n="58" break="no"/>dit primum, sicut duo bona
+            exce<lb ed="#V" n="59" break="no"/>dunt alterutrum eorum. Sed
+            pri<lb ed="#V" n="60" break="no"/>ma est per se, quia est secundum
+            <lb ed="#V" n="61"/>praecisas rationes comparatorum
+            <lb ed="#V" n="62"/>Et hoc modo dico, quod baptismus
+            <lb ed="#V" n="63"/>est simpliciter nobilius
+            Sacramen<lb ed="#V" n="64" break="no"/>tum, loquendo de nobilitate
+            Sa<lb ed="#V" n="65" break="no"/>cramenti penes finem principalem
+            <lb ed="#V" n="66"/>Sacramenti, qui est collatio
+            gra<lb ed="#V" n="67" break="no"/>tiae; nam ad majorem gratiam,
+            <lb ed="#V" n="68"/>et ad plures effectus simpliciter
+            <lb ed="#V" n="69"/>nobiles confertur Baptismus quam
+            <lb ed="#V" n="70"/>Confirmatio. Loquendo tamen
+            se<lb ed="#V" n="71" break="no"/>cundum aliam comparationem,
+            <lb ed="#V" n="72"/>Confirmatio multum addit
+            Bapti<lb ed="#V" n="73" break="no"/>smo.
+          </p>
+          <p>
+            <lb ed="#V" n="74"/>Potest etiam dici secundum quid
+            <lb ed="#V" n="75"/>Confirmatio nobilior, ratione
+            mi<lb ed="#V" n="76" break="no"/>nistri, quia a nobiliori ministro
+            <lb ed="#V" n="77"/>confertur; sed non est hoc
+            sim<lb ed="#V" n="78" break="no"/>pliciter propter ejus nobilitatem,
+            <pb ed="#V" n="705"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>sed propter Baptismi majorem
+            <lb ed="#V" n="2"/>necessitatem; iste pluribus
+            mini<lb ed="#V" n="3" break="no"/>stris conceditur, ista non, nisi
+            <lb ed="#V" n="4"/>specialibus. Ex hoc ultimo de
+            no<lb ed="#V" n="5" break="no"/>bilitate secundum quid, patet ad
+            <lb ed="#V" n="6"/>argumentum oppositum.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

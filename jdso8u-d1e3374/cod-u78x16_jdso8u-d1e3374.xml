@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 4, Pars 1, Quaestio 2</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 4, Pars 1, Quaestio 2</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x16">Vives, Paris, 1894, volume 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="389"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e3374"><!-- jdso8u-b4d4p1q2 -->
+        <head>Quaestio 2</head>
+        <head type="question-title">Utrum parvuli baptizati recipiant effectum baptismi</head>
+        <!-- <div alias="scotus-d4q2-p1"> -->
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43" type="fixed=389"/>QUAESTIO II.
+            <lb ed="#V" n="44"/>Utrum parvuli baptizati recipiant
+            effe<lb ed="#V" n="45" break="no"/>ctum Baptismi?
+          </p>
+          <p>
+            <lb ed="#V" n="46"/>Alens. 4. part. quaest. 17. m. 2. D. Thom. D.
+            Bo<lb ed="#V" n="47" break="no"/>nayent. Richard. et alii citati pro quaest.
+            prae<lb ed="#V" n="48" break="no"/>ced.
+          </p>
+          <p>
+            <lb ed="#V" n="49"/>Ad secundum sic proceditur, et
+            <lb ed="#V" n="50"/>arguitur quod parvuli baptizati
+            <lb ed="#V" n="51"/>non recipiunt effectum Baptismi,
+            <lb ed="#V" n="52"/>quia talis effectus est gratia;
+            <lb ed="#V" n="53"/>parvuli non recipiunt gratiam,
+            <lb ed="#V" n="54"/>quia non infunditur sine fide, quia
+            <lb ed="#V" n="55"/>sine fide impossibile est placere Deo, ut
+            <lb ed="#V" n="56"/>habetur Hebr. 11. sed parvuli non
+            <lb ed="#V" n="57"/>recipiunt fidem. Quod probo,
+            pri<lb ed="#V" n="58" break="no"/>mo, auctoritate Apostoli Rom. 10.
+            <lb ed="#V" n="59"/>Fides est ex auditu; parvuli non
+            pos<lb ed="#V" n="60" break="no"/>sunt sic accipere fidem. Secundo,
+            <lb ed="#V" n="61"/>probo ratione, quia habens
+            habi<lb ed="#V" n="62" break="no"/>tum, potest uti eo cum voluerit
+            <lb ed="#V" n="63"/>non impeditus; parvulus
+            baptiza<lb ed="#V" n="64" break="no"/>tus cum venerit ad usum
+            rati<lb ed="#V" n="65" break="no"/>onis, non potest uti habitu fidei,
+            <lb ed="#V" n="66"/>quia non potest exire in actum
+            <lb ed="#V" n="67"/>credendi articulos fidei.
+          </p>
+          <p>
+            <lb ed="#V" n="68"/>Et confirmatur istud, quia
+            ha<lb ed="#V" n="69" break="no"/>bens habitum se habet aliter ad
+            <lb ed="#V" n="70"/>actum, quam non habens, aliquo
+            <lb ed="#V" n="71"/>enim modo habitus se habet ad
+            <lb ed="#V" n="72"/>actum, et secundum illum modum
+            <lb ed="#V" n="73"/>differt habens a non habente; sed
+            <lb ed="#V" n="74"/>parvulus baptizatus nullo modo
+            <lb ed="#V" n="75"/>aliter se habet ad actum credendi,
+            <lb ed="#V" n="76"/>quam si non fuisset baptizatus,
+            <lb ed="#V" n="77"/>quia si baptizatus nutriatur inter
+            <lb ed="#V" n="78"/>infideles, et ab eis doceatur,
+            si<lb ed="#V" n="79" break="no"/>militer acquiescet errori eorum,
+            <lb ed="#V" n="80"/>sicut alius non baptizatus; si
+            <lb ed="#V" n="81"/>etiam non baptizatus nutritur
+            <pb ed="#V" n="390"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>inter fideles, et in lege eorum
+            <lb ed="#V" n="2"/>doceatur, similiter acquiescet illi
+            <lb ed="#V" n="3"/>legi, sicut aliquis baptizatus. Si
+            <lb ed="#V" n="4"/>ergo nullo modo aliter se habet
+            <lb ed="#V" n="5"/>ad actum credendi baptizatus,
+            <lb ed="#V" n="6"/>quam non baptizatus, nullo modo
+            <lb ed="#V" n="7"/>habet habitum fidei.
+          </p>
+          <p>
+            <lb ed="#V" n="8"/>Si vero respondeatur, quod
+            ha<lb ed="#V" n="9" break="no"/>bitus acquisitus aliquo modo se
+            <lb ed="#V" n="10"/>habet ad actum, non sic autem
+            <lb ed="#V" n="11"/>infusus. Contra hoc, et ad
+            confir<lb ed="#V" n="12" break="no"/>mationem principalis argumenti,
+            <lb ed="#V" n="13"/>quia si Deus infunderet alicui
+            ha<lb ed="#V" n="14" break="no"/>bitum Geometriae concurrentibus
+            <lb ed="#V" n="15"/>sibi rationibus terminorum
+            Geo<lb ed="#V" n="16" break="no"/>metralium, posset ex illo habitu
+            <lb ed="#V" n="17"/>assentire veritatibus Geometricis;
+            <lb ed="#V" n="18"/>ergo a simili in proposito, ex fide
+            <lb ed="#V" n="19"/>infusa, si adesset, posset habens
+            <lb ed="#V" n="20"/>assentire occurrentibus rationibus
+            <lb ed="#V" n="21"/>terminorum, et ita apprehensa
+            <lb ed="#V" n="22"/>ratione mortui et resurrectionis,
+            <lb ed="#V" n="23"/>posset aliquis assentire huic
+            ve<lb ed="#V" n="24" break="no"/>ritati, mortui resurgent, cujus
+            <lb ed="#V" n="25"/>oppositum experimur.
+          </p>
+          <p>
+            <lb ed="#V" n="26"/>Tandem confirmatur
+            proposi<lb ed="#V" n="27" break="no"/>tum, quia cum habitus det
+            ali<lb ed="#V" n="28" break="no"/>quam facilitatem et delectationem
+            <lb ed="#V" n="29"/>in opere, ex secundo Ethicor, nullus
+            <lb ed="#V" n="30"/>autem facilius, nec delectabilius
+            <lb ed="#V" n="31"/>operatur contra habitum suum
+            <lb ed="#V" n="32"/>quam secundum eum; sed
+            parvu<lb ed="#V" n="33" break="no"/>lus baptizatus postquam fuerit
+            <lb ed="#V" n="34"/>adultus, facilius dissentit a
+            credi<lb ed="#V" n="35" break="no"/>bilibus quam consentiat, ut
+            expe<lb ed="#V" n="36" break="no"/>rimur; ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="37"/>Item ad principale: nullus
+            reci<lb ed="#V" n="38" break="no"/>pit gratiam a Deo, nisi aliquo
+            <lb ed="#V" n="39"/>modo sibi conjungatur, nam
+            ac<lb ed="#V" n="40" break="no"/>tualiter averso, et omnino
+            indi<lb ed="#V" n="41" break="no"/>sposito, Deus non dat gratiam.
+            <lb ed="#V" n="42"/>Prima autem conjunctio ad Deum
+            <lb ed="#V" n="43"/>fit per fidem; ergo non habenti
+            <lb ed="#V" n="44"/>illam, non datur gratia; parvulus
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>non habet eam ante Baptismum;
+            <lb ed="#V" n="46"/>ergo non datur ei in Baptismo.
+          </p>
+          <p>
+            <lb ed="#V" n="47"/>Contra, Augustinus in
+            Enchiri<lb ed="#V" n="48" break="no"/>dio: A parvulo recenter nato, usque ad
+            <lb ed="#V" n="49"/>decrepitum, sicut nullus prohibetur a
+            <lb ed="#V" n="50"/>Baptismo, ita nullus est qui non
+            moria<lb ed="#V" n="51" break="no"/>tur peccato in Baptismo; sed nullus
+            <lb ed="#V" n="52"/>moritur peccato, nisi recipiat
+            gra<lb ed="#V" n="53" break="no"/>tiam; ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="54"/>SCHOLIUM.
+            <lb ed="#V" n="55"/>Secundum fidem certum est, gratiam
+            in<lb ed="#V" n="56" break="no"/>fundi, sicut originale dimitti parvulis in
+            <lb ed="#V" n="57"/>Baptismo, de quo citati pro quaest. praeced.
+            <lb ed="#V" n="58"/>est de fide ex cap. Majores de Bapt. Trident.
+            <lb ed="#V" n="59"/>sess. 7. can. 6. 7. et 8. et Florent. decret.
+            <lb ed="#V" n="60"/>Eugen. Ambros. lib. 2. in Luc. August. 5.
+            <lb ed="#V" n="61"/>contra Donat. c. 21. vide Coccium et
+            Bel<lb ed="#V" n="62" break="no"/>tarm. citatos.
+            <lb ed="#V" n="63"/>Ad quaestionem (a) dico, quod sicut
+            <lb ed="#V" n="64"/>est creditum parvulo in Baptismo
+            <lb ed="#V" n="65"/>originale dimitti, ita et creditum
+            <lb ed="#V" n="66"/>est sibi gratiam infundi, quia, ut
+            <lb ed="#V" n="67"/>dictum est in quaestione de
+            Cir<lb ed="#V" n="68" break="no"/>cumcisione, Deus pro statu
+            natu<lb ed="#V" n="69" break="no"/>rae lapsae, nulli remittit culpam,
+            <lb ed="#V" n="70"/>nisi cui dat gratiam; nullum enim
+            <lb ed="#V" n="71"/>liberat a perditione, nisi quem
+            <lb ed="#V" n="72"/>ordinat ad hoc ut sit filius regni.
+          </p>
+          <p>
+            <lb ed="#V" n="73"/>Ad primum (b) argumentum,
+            <lb ed="#V" n="74"/>licet Deus de potentia absoluta,
+            <lb ed="#V" n="75"/>posset dare gratiam sine fide
+            (po<lb ed="#V" n="76" break="no"/>nendo quod sint duo absoluta
+            sim<lb ed="#V" n="77" break="no"/>pliciter distincta), tamen quia Dei
+            <lb ed="#V" n="78"/>perfecta sunt opera, Deuteron. 32.
+            <lb ed="#V" n="79"/>et quando hominem sanat,
+            tota<lb ed="#V" n="80" break="no"/>liter sanat, ideo conceditur, quod
+            <lb ed="#V" n="81"/>non infunditur gratia parvulo sine
+            <lb ed="#V" n="82"/>fide et sine spe.
+          </p>
+          <p>
+            <lb ed="#V" n="83"/>Illae autem probationes, quae
+            <lb ed="#V" n="84"/>sunt contra hoc de fide, locum
+            <lb ed="#V" n="85"/>habent in 3. lib. dist. 23. probant
+            <lb ed="#V" n="86"/>enim nullam esse fidem infusam,
+            <pb ed="#V" n="391"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>et ideo ibi habent solvi, sicut ibi
+            <lb ed="#V" n="2"/>habet declarari propter quid
+            po<lb ed="#V" n="3" break="no"/>nenda est fides. Vel enim ponitur
+            <lb ed="#V" n="4"/>habere aliquam causalitatem
+            re<lb ed="#V" n="5" break="no"/>spectu actus, et tunc actus non
+            <lb ed="#V" n="6"/>posset esse talis, sine ea qualis
+            <lb ed="#V" n="7"/>est, ipsa posita; vel nullam, et tunc
+            <lb ed="#V" n="8"/>manifestum est, quod ex actu non
+            <lb ed="#V" n="9"/>potest perpendi fides inesse.
+          </p>
+          <p>
+            <lb ed="#V" n="10"/>Sed etsi aliquam causalitatem
+            <lb ed="#V" n="11"/>habeat, adhuc hoc potest esse
+            du<lb ed="#V" n="12" break="no"/>pliciter: vel praecisam scilicet,
+            <lb ed="#V" n="13"/>quod nulli alii possit competere;
+            <lb ed="#V" n="14"/>vel non praecisam, puta si talis
+            <lb ed="#V" n="15"/>causalitas possit competere fidei
+            <lb ed="#V" n="16"/>acquisitae. Et si primum istorum
+            <lb ed="#V" n="17"/>poneretur, posset forte
+            certitudi<lb ed="#V" n="18" break="no"/>naliter fides cognosci inesse, per
+            <lb ed="#V" n="19"/>hoc quod aliquis cognosceret
+            ta<lb ed="#V" n="20" break="no"/>lem conditionem suo actui inesse,
+            <lb ed="#V" n="21"/>quae non posset inesse sine fide
+            <lb ed="#V" n="22"/>infusa.
+          </p>
+          <p>
+            <lb ed="#V" n="23"/>Si secundum ponatur,
+            simplici<lb ed="#V" n="24" break="no"/>ter non potest cognosci fidem
+            <lb ed="#V" n="25"/>infusam inesse ex actu, neque ex
+            <lb ed="#V" n="26"/>aliqua conditione ipsius actus, et
+            <lb ed="#V" n="27"/>tunc esset dicendum, quod licet
+            <lb ed="#V" n="28"/>nihil sit in actu, nec pertinens ad
+            <lb ed="#V" n="29"/>actum, in quo distinguatur habens
+            <lb ed="#V" n="30"/>fidem a non habente, ac per hoc
+            <lb ed="#V" n="31"/>non posset esse notum secundum
+            <lb ed="#V" n="32"/>rationem naturalem, fidem inesse,
+            <lb ed="#V" n="33"/>tamen hoc est creditum; et sic
+            <lb ed="#V" n="34"/>posset dici generaliter, quod nulla
+            <lb ed="#V" n="35"/>virtus supernaturalis potest
+            pro<lb ed="#V" n="36" break="no"/>bari inesse, neque ex actu aliquo,
+            <lb ed="#V" n="37"/>neque ex aliqua conditione
+            ali<lb ed="#V" n="38" break="no"/>cujus actus; sed nec forte in
+            <lb ed="#V" n="39"/>universali potest probari per
+            ra<lb ed="#V" n="40" break="no"/>tionem naturalem, aliquam
+            virtu<lb ed="#V" n="41" break="no"/>tem supernaturalem inesse. De
+            <lb ed="#V" n="42"/>istis amplius in 3. lib. in materia
+            <lb ed="#V" n="43"/>de virtutibus, dictum est.
+          </p>
+          <p>
+            <lb ed="#V" n="44"/>Ad secundum (c) principale
+            dici<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>tur, quod parvulus conjungitur
+            <lb ed="#V" n="46"/>Deo per fidem parentum.
+          </p>
+          <p>
+            <lb ed="#V" n="47"/>Contra, pone parentes haereticos
+            <lb ed="#V" n="48"/>vel infideles, dicitur adhuc quod
+            <lb ed="#V" n="49"/>per fidem Ecclesiae. Contra, esto
+            <lb ed="#V" n="50"/>quod in Ecclesia militante nullus
+            <lb ed="#V" n="51"/>esset fidelis, tamen intenderet
+            fa<lb ed="#V" n="52" break="no"/>cere, quod Christus fecit,
+            parvu<lb ed="#V" n="53" break="no"/>lus adhuc vere baptizaretur, et
+            <lb ed="#V" n="54"/>reciperet gratiam.
+          </p>
+          <p>
+            <lb ed="#V" n="55"/>Dico ergo ad argumentum, quod
+            <lb ed="#V" n="56"/>de facto nulli datur gratia, nisi
+            <lb ed="#V" n="57"/>per aliquam causam meritoriam,
+            <lb ed="#V" n="58"/>quae meretur conjunctionem ejus
+            <lb ed="#V" n="59"/>primam cum Deo, et haec causa
+            <lb ed="#V" n="60"/>meritoria est Christus; sed praeter
+            <lb ed="#V" n="61"/>istam non oportet dare aliam
+            in<lb ed="#V" n="62" break="no"/>trinsecam in recipiente, qua
+            con<lb ed="#V" n="63" break="no"/>jungatur Deo, antequam recipiat
+            <lb ed="#V" n="64"/>gratiam.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

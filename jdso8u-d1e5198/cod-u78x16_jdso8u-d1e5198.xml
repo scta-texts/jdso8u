@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Prologus</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Prologus</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x16">Vives, Paris, 1894, volume 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="8"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e5198"><!-- jdso8u-b4prol -->
+        <head>Prologus</head>
+        <!-- <div alias="scotus-prol"> -->
+          <p>
+            <lb ed="#V" n="73" type="fixed=8"/>PRAEFATIO DOCTORIS
+            SUB<lb ed="#V" n="74" break="no"/>TILIS.
+          </p>
+          <p>
+            <lb ed="#V" n="75"/>Samaritanus ille (a) piissimus
+            <lb ed="#V" n="76"/>spoliatum videns hominem et atro
+            <lb ed="#V" n="77"/>citer sauciatum, miserationis
+            affe<lb ed="#V" n="78" break="no"/>ctu compatiens, medicinam attulit
+            <pb ed="#V" n="9"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>efficacem, qua curatis ipsius
+            vul<lb ed="#V" n="2" break="no"/>neribus, ac plena reddita sanitate,
+            <lb ed="#V" n="3"/>in sui principium, a quo
+            descen<lb ed="#V" n="4" break="no"/>dens ab Jerusalem deviaverat,
+            <lb ed="#V" n="5"/>finaliter reducatur.
+          </p>
+          <p>
+            <lb ed="#V" n="6"/>De ista saucii (b) sanatione
+            sa<lb ed="#V" n="7" break="no"/>lubri ac devii reductione finali,
+            <lb ed="#V" n="8"/>tanquam de pedibus sedentis super
+            <lb ed="#V" n="9"/>solium excelsum, Magister in hoc
+            <lb ed="#V" n="10"/>opere finali determinat, ut sicut
+            <lb ed="#V" n="11"/>ex primo et secundo claruit, Deum
+            <lb ed="#V" n="12"/>esse Atpha, tam in se ens inter
+            <lb ed="#V" n="13"/>omnia primum, quam omnium
+            <lb ed="#V" n="14"/>aliorum originale principium; sic
+            <lb ed="#V" n="15"/>ex tertio et quarto appareat ipsum
+            <lb ed="#V" n="16"/>esse et Omega, tam in se finem
+            ulti<lb ed="#V" n="17" break="no"/>mum, quam creaturae suae per
+            <lb ed="#V" n="18"/>seipsum in seipsum finaliter
+            redu<lb ed="#V" n="19" break="no"/>ctivum. Hanc autem reductionem
+            <lb ed="#V" n="20"/>finalem praecedit curatio
+            semi<lb ed="#V" n="21" break="no"/>plena, et plena curatio comitatur.
+          </p>
+          <p>
+            <lb ed="#V" n="22"/>Secundum hanc distinctionem
+            <lb ed="#V" n="23"/>igitur potest dividi quartus iste,
+            <lb ed="#V" n="24"/>dicendo, quod Magister primo agit
+            <lb ed="#V" n="25"/>de hominis saucii curatione
+            salu<lb ed="#V" n="26" break="no"/>bri; secundo, de hominis devii
+            <lb ed="#V" n="27"/>reductione finali; curatur enim
+            <lb ed="#V" n="28"/>homo salubriter in susceptione
+            <lb ed="#V" n="29"/>devota Sacramentorum veracium,
+            <lb ed="#V" n="30"/>et reducitur finaliter in
+            percepti<lb ed="#V" n="31" break="no"/>one jucunda praemiorum
+            coele<lb ed="#V" n="32" break="no"/>stium. Sacramenta enim
+            dispo<lb ed="#V" n="33" break="no"/>nunt et praeparant, praemia vero
+            <lb ed="#V" n="34"/>perficiunt et consummant. Vel
+            <lb ed="#V" n="35"/>potest dici, quod primo agit de
+            <lb ed="#V" n="36"/>curatione semiplena seu
+            disposi<lb ed="#V" n="37" break="no"/>tiva; et secundo de curatione plena
+            <lb ed="#V" n="38"/>seu perfectiva, et utraque divisio
+            <lb ed="#V" n="39"/>redit in idem. Nam curatio
+            semi<lb ed="#V" n="40" break="no"/>plena fit per gratiam
+            Sacramen<lb ed="#V" n="41" break="no"/>torum, quae sunt medicinae
+            salu<lb ed="#V" n="42" break="no"/>bres; plena curatio seu finalis
+            <lb ed="#V" n="43"/>reductio fit per collationem
+            prae<cb ed="#V" n="b"/><lb ed="#V" n="44" break="no"/>miorum, quae sunt jucundae
+            refe<lb ed="#V" n="45" break="no"/>ctiones.
+          </p>
+          <p>
+            <lb ed="#V" n="46"/>In prima igitur parte agit de
+            <lb ed="#V" n="47"/>Sacramentis, per quae curatur
+            <lb ed="#V" n="48"/>languidus a morbo culpae. In
+            se<lb ed="#V" n="49" break="no"/>cunda de praemiis, per quae
+            libera<lb ed="#V" n="50" break="no"/>tur a languore poenae. Et incipit
+            <lb ed="#V" n="51"/>secunda in principio distinct. 43.
+            <lb ed="#V" n="52"/>Postremo, etc. Prima dividitur in
+            <lb ed="#V" n="53"/>duas; primo namque determinat
+            <lb ed="#V" n="54"/>de Sacramento in generali;
+            secun<lb ed="#V" n="55" break="no"/>do in speciali. Secunda in principio
+            <lb ed="#V" n="56"/>dist. secundae: Jam ad Sacramenta.
+            <lb ed="#V" n="57"/>Prima dividitur in duas, in
+            prooe<lb ed="#V" n="58" break="no"/>mium et tractatum, qui incipit
+            <lb ed="#V" n="59"/>ibi: Sacramentum est sacree, etc. Et
+            <lb ed="#V" n="60"/>illa in quatuor, secundum quatuor,
+            <lb ed="#V" n="61"/>quae in prooemio proponit
+            pertra<lb ed="#V" n="62" break="no"/>ctanda. Primum est, quid sit
+            Sa<lb ed="#V" n="63" break="no"/>cramentum. Secundum, quare
+            in<lb ed="#V" n="64" break="no"/>stitutum, ibi: Triplici ex causa.
+            Ter<lb ed="#V" n="65" break="no"/>tium, in quo consistat, ibi: Duo
+            <lb ed="#V" n="66"/>autem sunt, etc. Quartum, de
+            diffe<lb ed="#V" n="67" break="no"/>rentiis Sacramentorum, ibi: Jam
+            <lb ed="#V" n="68"/>videre restat. Et ista in duas, in
+            <lb ed="#V" n="69"/>principalem et incidentalem, quae
+            <lb ed="#V" n="70"/>incipit, ibi: Fuit tamen; et ista
+            <lb ed="#V" n="71"/>incidentalis in tres, quia primo
+            <lb ed="#V" n="72"/>agit de Sacramento praecipuo legis
+            <lb ed="#V" n="73"/>Mosaicae. Secundo, quid sibi
+            cor<lb ed="#V" n="74" break="no"/>respondebat in lege naturae, ibi:
+            <lb ed="#V" n="75"/>Quaeritur autem. Tertio, redit ad
+            <lb ed="#V" n="76"/>declarandum quaedam dubia de
+            <lb ed="#V" n="77"/>Circumcisione, ibi: Hic dicendum est.
+          </p>
+          <p>
+            <lb ed="#V" n="78"/>De Sacramento igitur in
+            com<lb ed="#V" n="79" break="no"/>muni, hoc primo tanquam notum
+            <lb ed="#V" n="80"/>occurrit considerantibus
+            Sacra<lb ed="#V" n="81" break="no"/>menta, scilicet quod Sacramentum
+            <lb ed="#V" n="82"/>specialiter ad gratiam ordinatur,
+            <lb ed="#V" n="83"/>quod verum generale si particu.
+            <lb ed="#V" n="84"/>larius et clarius et planius
+            expli<lb ed="#V" n="85" break="no"/>cetur, patebit veritas illorum,
+            <lb ed="#V" n="86"/>quae de Sacramento in generali
+            <lb ed="#V" n="87"/>communiter inquiruntur. Sed an
+            <pb ed="#V" n="10"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>ordo iste fuerit causae ad
+            causa<lb ed="#V" n="2" break="no"/>tum, vel signi tantum ad
+            signifi<lb ed="#V" n="3" break="no"/>catum, difficultas oritur
+            principa<lb ed="#V" n="4" break="no"/>liter ex duobus: quorum unum
+            <lb ed="#V" n="5"/>est generale, scilicet de potentia
+            <lb ed="#V" n="6"/>creaturae ad creandum gratiam;
+            <lb ed="#V" n="7"/>secundum est speciale, scilicet
+            <lb ed="#V" n="8"/>propria ratio et excellentia
+            Sacra<lb ed="#V" n="9" break="no"/>a menti ad sanctificandum animam.
+            <lb ed="#V" n="10"/>Secundum hoc igitur in prima
+            <lb ed="#V" n="11"/>distinctione, (ubi de Sacramento
+            <lb ed="#V" n="12"/>agitur in communi, et per
+            conse<lb ed="#V" n="13" break="no"/>quens de ordine ejus ad gratiam)
+            <lb ed="#V" n="14"/>principaliter est tractandum.
+            Pri<lb ed="#V" n="15" break="no"/>mo quaeritur in communi, an
+            crea<lb ed="#V" n="16" break="no"/>tura possit habere aliquam
+            acti<lb ed="#V" n="17" break="no"/>onem respectu termini creationis.
+            <lb ed="#V" n="18"/>Secundo de propria ratione
+            Sacra<lb ed="#V" n="19" break="no"/>menti et ejus institutione. Tertio
+            <lb ed="#V" n="20"/>ex istis, si Sacramentum potest
+            <lb ed="#V" n="21"/>habere respectu gratiae creandae
+            <lb ed="#V" n="22"/>aliquam causalitatem.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

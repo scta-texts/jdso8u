@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 4, Pars 1, Quaestio 3</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 4, Pars 1, Quaestio 3</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x16">Vives, Paris, 1894, volume 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="405"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e3385"><!-- jdso8u-b4d4p1q3 -->
+        <head>Quaestio 3</head>
+        <head type="question-title">Utrum parvulus exsistens in utero possit baptizari</head>
+        <!-- <div alias="scotus-d4q3-p1"> -->
+          <p>
+            <lb ed="#V" n="10" type="fixed=405"/>QUAESTIO III.
+            <lb ed="#V" n="11"/>Utrum parvulus in ventre matris
+            bapti<lb ed="#V" n="12" break="no"/>sari possit?
+          </p>
+          <p>
+            <lb ed="#V" n="13"/>Alens. 4. part. quaest. 17. m. 2. D. Bonavent.
+            <lb ed="#V" n="14"/>d. 6. p. 2. art. 1. quaest. 1. Richard. ibi art. 2.
+            <lb ed="#V" n="15"/>quaest. 1. D. Thom. quaest. 1. art. 1.
+            quaesti<lb ed="#V" n="16" break="no"/>uncula 1. et 3. part. quaest. 68. art. 11.
+            Sua<lb ed="#V" n="17" break="no"/>rez ibi d. 27. sect. 3. qui omnes cum Doct. et
+            <lb ed="#V" n="18"/>communi negant. Sed Cajet. ibi temere ait
+            <lb ed="#V" n="19"/>parvulum in utero, per Baptismun in voto,
+            <lb ed="#V" n="20"/>salvari.
+          </p>
+          <p>
+            <lb ed="#V" n="21"/>Ad tertium sic (proceditur, et
+            <lb ed="#V" n="22"/>arguitur quod parvulus in utero
+            <lb ed="#V" n="23"/>possit baptizari, quia donum Dei
+            <lb ed="#V" n="24"/>perfectius est, quam peccatum
+            <lb ed="#V" n="25"/>Adae, ut patet Rom. 5. parvulus
+            <lb ed="#V" n="26"/>autem in utero matris potest infici
+            <lb ed="#V" n="27"/>peccato Adae; ergo potest perfici
+            <lb ed="#V" n="28"/>dono Dei, et sic recipere
+            Sacra<lb ed="#V" n="29" break="no"/>mentum perfectius.
+          </p>
+          <p>
+            <lb ed="#V" n="30"/>Item, parvulus in utero
+            po<lb ed="#V" n="31" break="no"/>test liberari a servitute
+            tempo<lb ed="#V" n="32" break="no"/>rali. Patet ex manumissione
+            ma<lb ed="#V" n="33" break="no"/>tris; ergo, etc. potest ergo ibi
+            <lb ed="#V" n="34"/>baptizari.
+          </p>
+          <p>
+            <lb ed="#V" n="35"/>Item Rom. 11. cap. Si radix
+            san<lb ed="#V" n="36" break="no"/>cta et rami. Mater sancta
+            compara<lb ed="#V" n="37" break="no"/>tur arbori; ramus autem dicitur
+            <lb ed="#V" n="38"/>proles in utero; ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="39"/>Contra, 1. Cor. 15. Non prius quod
+            <lb ed="#V" n="40"/>spirituale, sed quod animale, deinde
+            <lb ed="#V" n="41"/>quod spirituale; ergo prius oportet
+            <lb ed="#V" n="42"/>nasci carnaliter, quam
+            spirituali<cb ed="#V" n="b"/><lb ed="#V" n="43" break="no"/>ter renasci. Item, ut vult Isidorus:
+            <lb ed="#V" n="44"/>Qui natus secundum Adam non est,
+            re<lb ed="#V" n="45" break="no"/>nasci per Baptismum non potest.
+          </p>
+          <p>
+            <lb ed="#V" n="46"/>SCHOLIUM.
+            <lb ed="#V" n="47"/>Rejicit opinionem Richardi dicentis, ideo
+            <lb ed="#V" n="48"/>parvulum non posse in utero baptizari, quia
+            <lb ed="#V" n="49"/>conjunctus est causae suae corruptionis; hinc
+            <lb ed="#V" n="50"/>enim sequeretur, quod non posset habere
+            <lb ed="#V" n="51"/>Baptismum flaminis, vel sanguinis in utero,
+            <lb ed="#V" n="52"/>quod est falsum, et contra August. 17.
+            <lb ed="#V" n="53"/>Civit. 7. quia Baptismus sanguinis omnibus
+            <lb ed="#V" n="54"/>valet, ut tenet communis cum D. Thom. 2. 2.
+            <lb ed="#V" n="55"/>q. 124. art. 1. et quodl. 6. art. 4. et omnes
+            <lb ed="#V" n="56"/>hic contra Armachan. lib. 8. de quaest. Armen
+            <lb ed="#V" n="57"/>cap. 27. et Adrian. quaest. ult. de Bapt.
+            <lb ed="#V" n="58"/>Dicitur (a) quod non, quia
+            par<lb ed="#V" n="59" break="no"/>vulus in matris utero conjunctus
+            <lb ed="#V" n="60"/>est causae suae corruptionis; tale
+            <lb ed="#V" n="61"/>autem sic conjunctum, non poteste
+            <lb ed="#V" n="62"/>mundari dum conjunctum est.
+          </p>
+          <p>
+            <lb ed="#V" n="63"/>Contra, quia caro matris in
+            par<lb ed="#V" n="64" break="no"/>vulo non est causa corruptionis,
+            <lb ed="#V" n="65"/>nisi mediata, caro autem ipsa
+            par<lb ed="#V" n="66" break="no"/>vuli est causa immediata, loquendo
+            <lb ed="#V" n="67"/>de corruptione originali (statim
+            <lb ed="#V" n="68"/>enim cum anima parvuli informat
+            <lb ed="#V" n="69"/>carnem ejus, inficitur illa
+            corru<lb ed="#V" n="70" break="no"/>ptione) immediatius ergo causat
+            <lb ed="#V" n="71"/>corruptionem istam in parvulo
+            <lb ed="#V" n="72"/>caro sua, quam caro matris. Si
+            <lb ed="#V" n="73"/>ergo stante conjunctione ad
+            cau<lb ed="#V" n="74" break="no"/>sam corruptionis, non potest
+            pur<lb ed="#V" n="75" break="no"/>gari ea, per te, sequitur quod
+            par<lb ed="#V" n="76" break="no"/>vulus habens carnem suam
+            pro<lb ed="#V" n="77" break="no"/>priam, nunquam a peccato
+            origi<lb ed="#V" n="78" break="no"/>nali potest purgari, quod est
+            con<lb ed="#V" n="79" break="no"/>tra fidem.
+          </p>
+          <p>
+            <lb ed="#V" n="80"/>Item, licet parvulus in utero
+            <lb ed="#V" n="81"/>matris sit conjunctus matri
+            loca<lb ed="#V" n="82" break="no"/>liter, tamen est distinctus ab ea
+            <lb ed="#V" n="83"/>personaliter, quia habet aliud
+            cor<lb ed="#V" n="84" break="no"/>pus, et aliam animam; sed
+            distin<pb ed="#V" n="406"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>ctio personalis sufficit ad
+            distin<lb ed="#V" n="2" break="no"/>ctionem secundum peccatum, vel
+            <lb ed="#V" n="3"/>justitiam, et non justitiam; nam
+            <lb ed="#V" n="4"/>peccatum et justitia insunt isti
+            <lb ed="#V" n="5"/>personae secundum quod haec, non
+            <lb ed="#V" n="6"/>quia in tali vel tali loco; ergo non
+            <lb ed="#V" n="7"/>obstante illa conjunctione locali
+            <lb ed="#V" n="8"/>propter distinctionem personalem,
+            <lb ed="#V" n="9"/>potest parvulus esse justus, licet
+            <lb ed="#V" n="10"/>mater qualitercumque habeat se
+            <lb ed="#V" n="11"/>ad justitiam.
+          </p>
+          <p>
+            <lb ed="#V" n="12"/>Item, si non posset cum
+            conjun<lb ed="#V" n="13" break="no"/>ctione ista ad causam corruptionis
+            <lb ed="#V" n="14"/>stare gratia in parvulo, ergo non
+            <lb ed="#V" n="15"/>posset parvulus in utero habere
+            <lb ed="#V" n="16"/>Baptismum flaminis vel sanguinis,
+            <lb ed="#V" n="17"/>quorum utrumque est falsum. De
+            <lb ed="#V" n="18"/>flamine patet de Jeremia, Jerem. 1.
+            <lb ed="#V" n="19"/>et de Joanne Baptista, Lucae 1. et
+            <lb ed="#V" n="20"/>de matre Christi hoc tenet firmiter
+            <lb ed="#V" n="21"/>Ecclesia.
+          </p>
+          <p>
+            <lb ed="#V" n="22"/>De secundo patet per hoc, quod
+            <lb ed="#V" n="23"/>si quis persequitur matrem
+            gravi<lb ed="#V" n="24" break="no"/>dam, eadem de causa persequitur
+            <lb ed="#V" n="25"/>parvulum in utero ejus; ergo si
+            <lb ed="#V" n="26"/>mater occiditur pro justitia,
+            simi<lb ed="#V" n="27" break="no"/>liter et parvulus. Si autem
+            parvu<lb ed="#V" n="28" break="no"/>lus occideretur extra uterum,
+            ha<lb ed="#V" n="29" break="no"/>beret Baptismum sanguinis, si pro
+            <lb ed="#V" n="30"/>justitia vel fide occideretur etiam
+            <lb ed="#V" n="31"/>non baptizatus; ergo eodem modo
+            <lb ed="#V" n="32"/>rationabile est, quod Deus non
+            <lb ed="#V" n="33"/>condemnet eum, pro simili causa
+            <lb ed="#V" n="34"/>in utero matris passum.
+          </p>
+          <p>
+            <lb ed="#V" n="35"/>Et ex hoc potest argui contra
+            <lb ed="#V" n="36"/>opinionem, quia si parvulus
+            po<lb ed="#V" n="37" break="no"/>test habere Baptismum flaminis,
+            <lb ed="#V" n="38"/>ergo potest habere purgationem a
+            <lb ed="#V" n="39"/>peccato originali. Sed conjunctus
+            <lb ed="#V" n="40"/>matri, quae est causa corruptionis,
+            <lb ed="#V" n="41"/>per te potest habere Baptismum
+            <lb ed="#V" n="42"/>flaminis; ergo, etc.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d4q3-p2"> -->
+          <p>
+            <lb ed="#V" n="6" type="fixed=410"/>SCHOLIUM.
+            <lb ed="#V" n="7"/>Si nihil pueri extra uterum est,
+            baptizabi<lb ed="#V" n="8" break="no"/>lis non est; si pars principalis, sic; si
+            au<lb ed="#V" n="9" break="no"/>tem pars minus principalis appareat,
+            bapti<lb ed="#V" n="10" break="no"/>zandus est, et postea natus, sub conditione
+            <lb ed="#V" n="11"/>rebaptizandus. Quod addit puerum de ponte
+            <lb ed="#V" n="12"/>ejectum non esse baptizatum, id tenent
+            <lb ed="#V" n="13"/>Richard. hic art. 4. q. 2. Palud. d. 6. q. 1.
+            <lb ed="#V" n="14"/>art. 3. Mars. 4. q. 4. art. 4. dub. 8. Soto. d. 3.
+            <lb ed="#V" n="15"/>q. un. art. 8. fin. Sylvest. v. Baptismus 4. S
+            <lb ed="#V" n="16"/>10. et 5. 8 1. August. et Armil. ibi. Scot. d. 5.
+            <lb ed="#V" n="17"/>d. 3. innuit oppositum, vel saltem manet
+            du<lb ed="#V" n="18" break="no"/>bius.
+          </p>
+          <p>
+            <lb ed="#V" n="19"/>Ad (b) quaestionem dico, quod
+            <lb ed="#V" n="20"/>vel puer secundum omnes partes
+            <lb ed="#V" n="21"/>est in utero matris; vel secundum
+            <lb ed="#V" n="22"/>aliquam partem apparet extra
+            <lb ed="#V" n="23"/>uterum. Si primo modo, dico quod
+            <lb ed="#V" n="24"/>non potest baptizari; non propter
+            <lb ed="#V" n="25"/>rationem priorem, quia
+            conjun<lb ed="#V" n="26" break="no"/>ctus est causae corruptionis, sed
+            <lb ed="#V" n="27"/>quia Baptismus est lotio vel
+            ablu<lb ed="#V" n="28" break="no"/>tio in aqua; sed parvulus sic in
+            <lb ed="#V" n="29"/>utero, non potest lavari, quia nec
+            <lb ed="#V" n="30"/>sic immediate tangi ab aqua.
+          </p>
+          <p>
+            <lb ed="#V" n="31"/>Ex hoc sequitur (c) corollarium,
+            <lb ed="#V" n="32"/>quod si parvulus corio
+            involvere<lb ed="#V" n="33" break="no"/>tur, et illud poneretur in aqua, ita
+            <lb ed="#V" n="34"/>quod aqua non tangeret corpus,
+            <lb ed="#V" n="35"/>non esset baptizatus, sed si
+            tan<lb ed="#V" n="36" break="no"/>geretur aqua, bene; sed projectus
+            <lb ed="#V" n="37"/>de ponte, non, quia hoc non est
+            <lb ed="#V" n="38"/>ad vitam ordinatum, vel lotionem,
+            <lb ed="#V" n="39"/>sed ad mortem.
+          </p>
+          <p>
+            <lb ed="#V" n="40"/>Si secundo (d) modo sic: aut
+            ap<lb ed="#V" n="41" break="no"/>paret pars principalis, ut caput, et
+            <lb ed="#V" n="42"/>tunc potest baptizari in illa parte,
+            <lb ed="#V" n="43"/>et in hoc etiam simpliciter
+            bapti<cb ed="#V" n="b"/><lb ed="#V" n="44" break="no"/>zari; non est enim verisimile,
+            <lb ed="#V" n="45"/>quod in die Pentecostes, quando
+            <lb ed="#V" n="46"/>baptizati sunt tria millia, Act. 2.
+            <lb ed="#V" n="47"/>quod quilibet quantum ad totum
+            <lb ed="#V" n="48"/>corpus suum lavaretur aqua, sed
+            <lb ed="#V" n="49"/>praecise quantum ad faciem
+            asper<lb ed="#V" n="50" break="no"/>gendo, vel quantum ad caput
+            per<lb ed="#V" n="51" break="no"/>fundendo. Et in isto casu, si post
+            <lb ed="#V" n="52"/>puer nasceretur, non oporteret
+            <lb ed="#V" n="53"/>ipsum baptizare. Si autem
+            appa<lb ed="#V" n="54" break="no"/>ret pars minus principalis,
+            scili<lb ed="#V" n="55" break="no"/>cet manus vel pes, illa est
+            bapti<lb ed="#V" n="56" break="no"/>zanda, quia ibi est tota anima, licet
+            <lb ed="#V" n="57"/>non omnis sensus, sicut in capite.
+            <lb ed="#V" n="58"/>Et si hoc minus sufficeret ad hoc
+            <lb ed="#V" n="59"/>ut esset simpliciter baptizatus, si
+            <lb ed="#V" n="60"/>nasceretur postea vivus, esset sub
+            <lb ed="#V" n="61"/>conditione baptizandus, ut docetur
+            <lb ed="#V" n="62"/>Extrav. de Baptismo, et ejus effectu, cap.
+            <lb ed="#V" n="63"/>de quibus. Credendum enim est,
+            <lb ed="#V" n="64"/>quod Deus suppleret illud, quod
+            <lb ed="#V" n="65"/>impotentia impediret; talis enim
+            <lb ed="#V" n="66"/>etsi mortuus nascitur, sepeliendus
+            <lb ed="#V" n="67"/>est in terra benedicta, ratione dicta.
+          </p>
+          <p>
+            <lb ed="#V" n="68"/>Ad primum concedo, quod Deus
+            <lb ed="#V" n="69"/>per donum suum potest
+            justifica<lb ed="#V" n="70" break="no"/>re parvulum non natum, sicut fuit
+            <lb ed="#V" n="71"/>de Jeremia, Joanne Baptista, de
+            <lb ed="#V" n="72"/>Virgine Maria; sed non per istud
+            <lb ed="#V" n="73"/>Sacramentum, quia dum est in
+            <lb ed="#V" n="74"/>utero matris, capax non est hujus
+            <lb ed="#V" n="75"/>Sacramenti.
+          </p>
+          <p>
+            <lb ed="#V" n="76"/>Ad secundum dico, quod
+            quan<lb ed="#V" n="77" break="no"/>tum ad servitutem temporalem,
+          </p>
+          <p>
+            <lb ed="#V" n="78"/>filius dum est in utero, non est
+            <lb ed="#V" n="79"/>distinctus a matre; non enim
+            ha<lb ed="#V" n="80" break="no"/>bet dominus dominium in parvulo,
+            <lb ed="#V" n="81"/>nisi quia in matre; sed quantum ad
+            <lb ed="#V" n="82"/>servitutem, vel libertatem
+            spiri<lb ed="#V" n="83" break="no"/>tualem, non est simile, quia ista
+            <lb ed="#V" n="84"/>respicit distinctam personam;
+            par<lb ed="#V" n="85" break="no"/>vulus autem in utero est ita
+            di<lb ed="#V" n="86" break="no"/>stinctus in persona a matre, sicut
+          </p>
+          <p>
+            <lb ed="#V" n="87"/>extra uterum.
+            <pb ed="#V" n="411"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Ad tertium, concedo quod
+            fru<lb ed="#V" n="2" break="no"/>ctus inquantum est aliquid
+            arbo<lb ed="#V" n="3" break="no"/>ris, sequitur conditionem arboris,
+            <lb ed="#V" n="4"/>tamen inquantum est aliquid in
+            <lb ed="#V" n="5"/>se, potest habere conditiones
+            op<lb ed="#V" n="6" break="no"/>positas arbori in se; potest enim
+            <lb ed="#V" n="7"/>fructus esse mollis, et arbor dura.
+            <lb ed="#V" n="8"/>Sic in proposito, quia justitia et
+            <lb ed="#V" n="9"/>injustitia respicit personam in se,
+            <lb ed="#V" n="10"/>non ut conjunctam, vel divisam
+            <lb ed="#V" n="11"/>localiter, respectu alterius
+            perso<lb ed="#V" n="12" break="no"/>nae, et ideo justitia potest
+            compe<lb ed="#V" n="13" break="no"/>tere proli, licet non matri, et e
+            <lb ed="#V" n="14"/>converso.
+            <lb ed="#V" n="15"/>1Aliter potest dici ad intentionem
+            Apo<lb ed="#V" n="16" break="no"/>stoli, sed hoc sufficit hic. Ibi enim, 11.
+            <lb ed="#V" n="17"/>c. reprehendit Romanos ab insultatione
+            <lb ed="#V" n="18"/>Judaeorum, dicebant Judaeos esse ramos
+            <lb ed="#V" n="19"/>excisos, et aliquos insertos; propter hoc,
+            <lb ed="#V" n="20"/>dicit aliquos Judaeos bonos esse, et non
+            <lb ed="#V" n="21"/>excisos, sed naturales ramos, sic
+            dicen<lb ed="#V" n="22" break="no"/>do: si radix sancta est, id est,
+            Pa<lb ed="#V" n="23" break="no"/>triarchae, qui fuerunt quasi radices plebis
+            <lb ed="#V" n="24"/>Judaicoe, et rami, scilicet Sancti, patet
+            <lb ed="#V" n="25"/>de Apostolis, qui fuerunt Judoei.
+          </p>
+          <p>
+            <lb ed="#V" n="26"/>Circa secundum membrum
+            di<lb ed="#V" n="27" break="no"/>stinctionis de recipiente
+            Sacra<lb ed="#V" n="28" break="no"/>mentum, et non rem Sacramenti,
+            <lb ed="#V" n="29"/>quod praecise convenit adultis,
+            <lb ed="#V" n="30"/>quaero duo: Primo, utrum
+            adul<lb ed="#V" n="31" break="no"/>tus non consentiens potest
+            reci<lb ed="#V" n="32" break="no"/>pere effectum Baptismi? Secundo,
+            <lb ed="#V" n="33"/>utrum adultus fictus recipiat
+            effe<lb ed="#V" n="34" break="no"/>ctum Baptismi?
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

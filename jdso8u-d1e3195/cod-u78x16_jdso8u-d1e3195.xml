@@ -1,0 +1,770 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 1, Pars 2, Quaestio 1</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 1, Pars 2, Quaestio 1</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x16">Vives, Paris, 1894, volume 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="99"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e3195"><!-- jdso8u-b4d1p2q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum haec sit ratio definitiva sacramenti quam ponit Magister: «Sacramentum est invisibilis gratiae visibilis forma»</head>
+        <!-- <div alias="scotus-d1q2-p1"> -->
+          <p>
+            <lb ed="#V" n="47" type="fixed=99"/>QUAESTIO II.
+            <lb ed="#V" n="48"/>Utrum hoec sit ratio definitiva
+            Sacra<lb ed="#V" n="49" break="no"/>menti (a), quam ponit Magister:
+            Sa<lb ed="#V" n="50" break="no"/>cramentum est invisibilis gratiae
+            <lb ed="#V" n="51"/>visibilis forma?
+          </p>
+          <p>
+            <lb ed="#V" n="52"/>Alens. 4. p. q. m. 4. et q. 8. m. 1. D. Thom. hic
+            <lb ed="#V" n="53"/>q. 1. et 3. Richard. art. 1. q. 2. D. Bonav.
+            <lb ed="#V" n="54"/>dub. 2. lit. Suar. 3. part. tom. 3. d. 1. sect. 4.
+            <lb ed="#V" n="55"/>Vasq. 3. part. d. 127. Aug. 10. Civ. cap. 5.
+            <lb ed="#V" n="56"/>Hugo t. de Sacr. p. 9. c. 1. Isidor. 6. etym. c. 18.
+          </p>
+          <p>
+            <lb ed="#V" n="57"/>Quod non videtur, quia
+            defini<lb ed="#V" n="58" break="no"/>tio non est nisi ejus, quod est
+            <lb ed="#V" n="59"/>per se unum, 7. Metaph.
+            Sacra<lb ed="#V" n="60" break="no"/>mentum non est per se unum, quia?
+            <lb ed="#V" n="61"/>secundum Augustinum super
+            Jo<lb ed="#V" n="62" break="no"/>annem homilia 81. et ponitur 1.
+            <lb ed="#V" n="63"/>quaest. 1. Detrahe: Accedit verbum
+            <lb ed="#V" n="64"/>ad elementum, et fit Sacramentum; sed
+            <lb ed="#V" n="65"/>verbum et elementum non
+            faci<lb ed="#V" n="66" break="no"/>unt aliquid per se unum, quia
+            <lb ed="#V" n="67"/>unum est permanens, aliud
+            succes<lb ed="#V" n="68" break="no"/>sivum.
+          </p>
+          <p>
+            <lb ed="#V" n="69"/>Secundo, si est forma, aut ergo.
+            <lb ed="#V" n="70"/>forma, quae est altera pars, aut
+            <lb ed="#V" n="71"/>forma exemplaris; sed non
+            pri<lb ed="#V" n="72" break="no"/>mo modo, patet, quia
+            Sacramen<lb ed="#V" n="73" break="no"/>tum non est pars gratiae; nec
+            se<lb ed="#V" n="74" break="no"/>cundo modo, quia exemplatum
+            <lb ed="#V" n="75"/>imitatur exemplar, et participat
+            <lb ed="#V" n="76"/>ipsum, non sic autem gratia
+            Sa<lb ed="#V" n="77" break="no"/>cramentum.
+          </p>
+          <p>
+            <lb ed="#V" n="78"/>Tertio sic, quia in quibusdam
+            <lb ed="#V" n="79"/>Sacramentis non est nisi verbum
+            <lb ed="#V" n="80"/>tantum, quod non est signum
+            vi<lb ed="#V" n="81" break="no"/>sibile, sed audibile tantum, ut
+            pro<lb ed="#V" n="82" break="no"/>batur inferius in sacramento
+            Poe<lb ed="#V" n="83" break="no"/>nitentiae et Matrimonii; ergo
+            ma<lb ed="#V" n="84" break="no"/>le dicitur visibile.
+          </p>
+          <p>
+            <pb ed="#V" n="100"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Quarto sic, unius rei tantum
+            <lb ed="#V" n="2"/>est una definitio propria;
+            Sacra<lb ed="#V" n="3" break="no"/>menti autem assignantur aliae
+            de<lb ed="#V" n="4" break="no"/>finitiones, patet per Magistrum in
+            <lb ed="#V" n="5"/>littera, et Hugonem, et per illud
+            <lb ed="#V" n="6"/>Augustini 10. de Civit. c. 5.
+            Sacra<lb ed="#V" n="7" break="no"/>mentum est sacrae rei signum.
+          </p>
+          <p>
+            <lb ed="#V" n="8"/>Contra, Magister in littera et
+            <lb ed="#V" n="9"/>de Consecratione dist. 2.
+            Sacrifi<lb ed="#V" n="10" break="no"/>cium.
+          </p>
+          <p>
+            <lb ed="#V" n="11"/>SCHOLIUM.
+            <lb ed="#V" n="12"/>Ponit quinque conditiones, ut aliquid sit
+            <lb ed="#V" n="13"/>vere definibile. Prima quod sit ens. Secunda
+            <lb ed="#V" n="14"/>quod unum. Tertia, quod reale. Quarta, quod
+            <lb ed="#V" n="15"/>non simpliciter simplex. Quinta, quod
+            uni<lb ed="#V" n="16" break="no"/>versale.
+          </p>
+          <p>
+            <lb ed="#V" n="17"/>Hic primo videndum (b) est,
+            cu<lb ed="#V" n="18" break="no"/>jus possit esse definitio, et cujus
+            <lb ed="#V" n="19"/>non. Secundo ex hoc, si
+            Sacra<lb ed="#V" n="20" break="no"/>menti possit esse aliqua definitio.
+            <lb ed="#V" n="21"/>Tertio si haec, de qua quaeritur.
+            <lb ed="#V" n="22"/>Quantum ad primum, notandum
+            <lb ed="#V" n="23"/>est, quod cujuscumque sive entis
+            <lb ed="#V" n="24"/>sive non entis, quod potest
+            conci<lb ed="#V" n="25" break="no"/>pi et significari, potest esse aliqua
+            <lb ed="#V" n="26"/>ratio nominis, quae scilicet
+            expli<lb ed="#V" n="27" break="no"/>cet explicite et distincte illud, quod
+            <lb ed="#V" n="28"/>nomen importat implicite et
+            con<lb ed="#V" n="29" break="no"/>fuse. Et quaelibet ratio talis potest
+            <lb ed="#V" n="30"/>dici definitio, extendendo nomen
+            <lb ed="#V" n="31"/>definitionis; sed definitio proprie
+            <lb ed="#V" n="32"/>dicta non est nisi oratio verum esse
+            <lb ed="#V" n="33"/>significans, secundum Philosophum
+            <lb ed="#V" n="34"/>1. Topic. et ideo non est
+            quaecum<lb ed="#V" n="35" break="no"/>que ratio nominis, sed ratio, per
+            <lb ed="#V" n="36"/>quam distincte indicatur verum
+            <lb ed="#V" n="37"/>quid rei. Non est ergo proprie non
+            <lb ed="#V" n="38"/>entis; et hoc, sive non ens
+            accipi<lb ed="#V" n="39" break="no"/>atur proprie pro impossibili, quod
+            <lb ed="#V" n="40"/>includit contradictionem, sive pro
+            <lb ed="#V" n="41"/>pura negatione vel privatione,
+            <lb ed="#V" n="42"/>quia non ens non habet quid est.
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43"/>Nec est ratio ejus, quod non est
+            <lb ed="#V" n="44"/>per se unum, ut patet ex 7. Metaph.
+            <lb ed="#V" n="45"/>c. 3. ut argutum est ante
+            oppo<lb ed="#V" n="46" break="no"/>situm. Intelligo autem per se unum,
+            <lb ed="#V" n="47"/>scilicet quod est simplex, vel
+            com<lb ed="#V" n="48" break="no"/>positum, quod est ex per se actu,
+            <lb ed="#V" n="49"/>et per se potentia. Nec ista unitas
+            <lb ed="#V" n="50"/>impedit, quod definitum includat
+            <lb ed="#V" n="51"/>aliquid tanquam terminum per
+            <lb ed="#V" n="52"/>se dependentiae, ut accidens
+            in<lb ed="#V" n="53" break="no"/>cludit subjectum, vel sicut aliquid
+            <lb ed="#V" n="54"/>quod simul est secum natura,
+            <lb ed="#V" n="55"/>ut relativum includit
+            correlati<lb ed="#V" n="56" break="no"/>vum, sed prohibet quod nihil
+            in<lb ed="#V" n="57" break="no"/>cludatur tanquam per se pars
+            <lb ed="#V" n="58"/>in ipso, quod non se habeat ad
+            <lb ed="#V" n="59"/>aliud in eodem, sicut per se actus
+            <lb ed="#V" n="60"/>ad per se potentiam, vel pars
+            ejus<lb ed="#V" n="61" break="no"/>dem actus, vel ejusdem potentiae,
+            <lb ed="#V" n="62"/>ad aliam partem.
+          </p>
+          <p>
+            <lb ed="#V" n="63"/>Nec est tertio entis rationis,
+            <lb ed="#V" n="64"/>quod est tantum ens diminutum,
+            <lb ed="#V" n="65"/>quia proprie quid, sicut et ens, non
+            <lb ed="#V" n="66"/>competit nisi enti reali, patet 5.
+            <lb ed="#V" n="67"/>et 6. Met. Nec intelligo hic ens
+            ra<lb ed="#V" n="68" break="no"/>tionis, quod est in intellectu
+            ob<lb ed="#V" n="69" break="no"/>jective (quia sic omne universale
+            <lb ed="#V" n="70"/>est in anima), nec illud quod est
+            <lb ed="#V" n="71"/>tantum in intellectu subjective,
+            <lb ed="#V" n="72"/>( quia sic intellectio et scientia
+            <lb ed="#V" n="73"/>sunt in anima, quae tamen sunt
+            <lb ed="#V" n="74"/>formae reales, et in genere
+            quali<lb ed="#V" n="75" break="no"/>tatis); sed intelligo ens in anima,
+            <lb ed="#V" n="76"/>tanquam secundo consideratum,
+            <lb ed="#V" n="77"/>non tanquam primo
+            considera<lb ed="#V" n="78" break="no"/>tum, ad quod considerandum
+            mo<lb ed="#V" n="79" break="no"/>vetur primo anima a re extra, sed
+            <lb ed="#V" n="80"/>tanquam ens in primo considerato,
+            <lb ed="#V" n="81"/>inquantum consideratum; et tale
+            <lb ed="#V" n="82"/>ut in summa sit dicere, non est
+            <lb ed="#V" n="83"/>nisi relatio rationis, quia nihil
+            <lb ed="#V" n="84"/>habet praecise esse in considerato,
+            <lb ed="#V" n="85"/>ut considerato, nisi comparatio
+            <lb ed="#V" n="86"/>qua consideratum comparatur ad
+            <pb ed="#V" n="101"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>aliud per actum considerantis;
+            <lb ed="#V" n="2"/>ens ergo diminutum, ut hic
+            accipi<lb ed="#V" n="3" break="no"/>tur universaliter, est ens rationis.
+          </p>
+          <p>
+            <lb ed="#V" n="4"/>Quarto, non est quid
+            expressi<lb ed="#V" n="5" break="no"/>bile per definitionem, de quo non
+            <lb ed="#V" n="6"/>potest haberi, nisi conceptus
+            sim<lb ed="#V" n="7" break="no"/>pliciter simplex, quia secundum
+            <lb ed="#V" n="8"/>Philosophum 8. Met. cap. 2.
+            De<lb ed="#V" n="9" break="no"/>finitio est ratio longa; et oportet
+            <lb ed="#V" n="10"/>terminum esse rationem longam
+            <lb ed="#V" n="11"/>exprimentem quid et quale;
+            distin<lb ed="#V" n="12" break="no"/>cte enim explicat, quod definitum
+            <lb ed="#V" n="13"/>importat implicite; ergo oportet
+            <lb ed="#V" n="14"/>quod de definito possint plures
+            <lb ed="#V" n="15"/>conceptus formari, quidditativus
+            <lb ed="#V" n="16"/>scilicet, et qualitativus, per quos
+            <lb ed="#V" n="17"/>explicatur.
+          </p>
+          <p>
+            <lb ed="#V" n="18"/>Quinto, non est singularis, quia
+            <lb ed="#V" n="19"/>non potest esse ratio omnino
+            ex<lb ed="#V" n="20" break="no"/>primens quidditatem ejus, quin illa
+            <lb ed="#V" n="21"/>explicet aliud, quod non pertinet
+            <lb ed="#V" n="22"/>ad quod quid erat esse, ut patet 2.
+            <lb ed="#V" n="23"/>lib. dist. 3. q. de Individuatione. Ex his
+            <lb ed="#V" n="24"/>sequitur, quod definitio propria
+            <lb ed="#V" n="25"/>dicta est entis positivi, per se
+            <lb ed="#V" n="26"/>unius, realis, compositi realiter,
+            <lb ed="#V" n="27"/>vel quantum ad conceptus,
+            univer<lb ed="#V" n="28" break="no"/>salis et solius talis.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d1q2-p2"> -->
+          <p>
+            <lb ed="#V" n="65" type="fixed=104"/>SCHOLIUM.
+            <lb ed="#V" n="66"/>Explicat quomodo quinque praedictae
+            con<lb ed="#V" n="67" break="no"/>ditiones rei definibilis conveniant suo
+            mo<lb ed="#V" n="68" break="no"/>do Sacramento, licet in rigore videantur
+            tan<lb ed="#V" n="69" break="no"/>tum convenire enti reali, ex 5. Met. text.
+            <lb ed="#V" n="70"/>14. et 6. Met. text. 8.
+          </p>
+          <p>
+            <lb ed="#V" n="71"/>De secundo (c) principali
+            viden<lb ed="#V" n="72" break="no"/>dum est per ordinem, an aliquod
+            <lb ed="#V" n="73"/>istorum quinque excludat a
+            Sacra<lb ed="#V" n="74" break="no"/>mento habere definitionem proprie
+            <lb ed="#V" n="75"/>dictam. Et secundum hoc iste
+            se<lb ed="#V" n="76" break="no"/>cundus articulus habet quinque:
+            <lb ed="#V" n="77"/>Primum non impedit, quod
+            osten<lb ed="#V" n="78" break="no"/>do per conclusiones ordinatas.
+            Pri<lb ed="#V" n="79" break="no"/>ma est ista: Possibile est Deum
+            <lb ed="#V" n="80"/>aliquem effectum invisibilem
+            crea<lb ed="#V" n="81" break="no"/>re pertinentem ad salutem hominis
+            <lb ed="#V" n="82"/>viatoris. Hanc non oportet
+            proba<lb ed="#V" n="83" break="no"/>re, quia Theologo est manifesta, ex
+            <lb ed="#V" n="84"/>potentia divina.
+          </p>
+          <p>
+            <pb ed="#V" n="105"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Secundo dico, quod possibile est
+            <lb ed="#V" n="2"/>Deum imponere aliquod signum
+            <lb ed="#V" n="3"/>ad signandum istum effectum
+            in<lb ed="#V" n="4" break="no"/>visibilem. Hoc patet, quia nos
+            pos<lb ed="#V" n="5" break="no"/>sumus imponere signa ad
+            signan<lb ed="#V" n="6" break="no"/>dum quodcumque intelligibile a
+            <lb ed="#V" n="7"/>nobis. Cum autem dividatur in
+            re<lb ed="#V" n="8" break="no"/>-memorativum, quod est praeteriti;
+            <lb ed="#V" n="9"/>et prognosticum, quod est futuri;
+            <lb ed="#V" n="10"/>et demonstrativum, quod est
+            prae<lb ed="#V" n="11" break="no"/>sentis; possibile est Deum
+            insti<lb ed="#V" n="12" break="no"/>tuere quodcumque istorum
+            signo<lb ed="#V" n="13" break="no"/>rum ad signandum suos effectus.
+            <lb ed="#V" n="14"/>Quod etiam probatur, quia nos
+            pos<lb ed="#V" n="15" break="no"/>sumus quodcumque istorum
+            signo<lb ed="#V" n="16" break="no"/>rum instituere ad signandum
+            nos<lb ed="#V" n="17" break="no"/>tros effectus; sic enim instituta
+            <lb ed="#V" n="18"/>sunt a nobis juramenta,
+            promis<lb ed="#V" n="19" break="no"/>siones et signa hujusmodi
+            obliga<lb ed="#V" n="20" break="no"/>toria, ad signandum nostrum
+            effec<lb ed="#V" n="21" break="no"/>tum futurum; vel assertoria ad
+            <lb ed="#V" n="22"/>signandum effectum praeteritum
+            <lb ed="#V" n="23"/>vel praesentem.
+          </p>
+          <p>
+            <lb ed="#V" n="24"/>Ulterius suppono, quod
+            possibi<lb ed="#V" n="25" break="no"/>le est Deum determinare se et
+            <lb ed="#V" n="26"/>disponere, ut cooperetur ad
+            ali<lb ed="#V" n="27" break="no"/>quod signum ab eo institutum ad
+            <lb ed="#V" n="28"/>causandum effectum signatum,
+            ni<lb ed="#V" n="29" break="no"/>si impediat indispositio ejus cui
+            <lb ed="#V" n="30"/>adhibetur. Patet, quia sicut esset
+            <lb ed="#V" n="31"/>possibile in nobis, quod aliquid
+            <lb ed="#V" n="32"/>instituens signum effectus sui,
+            <lb ed="#V" n="33"/>disponeret se semper cooperari
+            <lb ed="#V" n="34"/>hujusmodi signo, nisi impediret
+            <lb ed="#V" n="35"/>ille cui adhiberetur; puta si quis
+            <lb ed="#V" n="36"/>instituat pro signo pacis, vel
+            be<lb ed="#V" n="37" break="no"/>nevolentiae tactum manus, vel
+            ele<lb ed="#V" n="38" break="no"/>vationem digiti, vel hujusmodi,
+            <lb ed="#V" n="39"/>posset instituens tale signum
+            de<lb ed="#V" n="40" break="no"/>terminare se ad semper
+            cooperan<lb ed="#V" n="41" break="no"/>dum ad effectum signatum, nisi
+            <lb ed="#V" n="42"/>indispositio ejus, cui adhiberetur
+            <lb ed="#V" n="43"/>signum, impediret; tale autem
+            si<lb ed="#V" n="44" break="no"/>gnum, cui instituens disponit
+            re<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>gulariter cooperari, potest dici
+            <lb ed="#V" n="46"/>signum verax vel certum, ad
+            dis<lb ed="#V" n="47" break="no"/>tinctionem signi incerti vel
+            aequi<lb ed="#V" n="48" break="no"/>voci, quod aequaliter habet secum
+            <lb ed="#V" n="49"/>signatum concomitans vel
+            opposi<lb ed="#V" n="50" break="no"/>tum. Proprie tamen dicitur signum
+            <lb ed="#V" n="51"/>efficax, si adhibito signo, sequitur
+            <lb ed="#V" n="52"/>signatum ordine naturae, et non e
+            <lb ed="#V" n="53"/>converso, quia si signum
+            seque<lb ed="#V" n="54" break="no"/>retur signatum suum ordine
+            na<lb ed="#V" n="55" break="no"/>turae, etsi posset esse signum
+            <lb ed="#V" n="56"/>certum, si nunquam careret illo
+            <lb ed="#V" n="57"/>signato praecedente, non tamen
+            es<lb ed="#V" n="58" break="no"/>set efficax, quia nullo modo ejus
+            <lb ed="#V" n="59"/>positio efficaciam haberet
+            respe<lb ed="#V" n="60" break="no"/>ctu signati, sed e converso.
+          </p>
+          <p>
+            <lb ed="#V" n="61"/>Ultimo dico, quod est possibile
+            <lb ed="#V" n="62"/>Deum ad signandum effectum
+            prae<lb ed="#V" n="63" break="no"/>dictum, et modo praedicto, scilicet
+            <lb ed="#V" n="64"/>certitudinaliter et efficaciter,
+            ins<lb ed="#V" n="65" break="no"/>tituere signum aliquod sensibile.
+            <lb ed="#V" n="66"/>Hoc apparet, quia et nos
+            possu<lb ed="#V" n="67" break="no"/>mus aliquod signum sensibile
+            ins<lb ed="#V" n="68" break="no"/>tituere ad signandum effectum
+            <lb ed="#V" n="69"/>nostrum cum illis conditionibus
+            <lb ed="#V" n="70"/>praedictis; nec solum potuit
+            insti<lb ed="#V" n="71" break="no"/>tui unum solum signum sensibile,
+            <lb ed="#V" n="72"/>sed etiam sensibile plura
+            sensibi<lb ed="#V" n="73" break="no"/>lia includens in se, et hoc vel
+            ejus<lb ed="#V" n="74" break="no"/>dem sensus, vel diversorum
+            sensu<lb ed="#V" n="75" break="no"/>um. Sicut enim ad signandum
+            per<lb ed="#V" n="76" break="no"/>fectionem divinam, quae est
+            essen<lb ed="#V" n="77" break="no"/>tia simplicissima, possumus
+            ins<lb ed="#V" n="78" break="no"/>tituere istam orationem: Deus est
+            <lb ed="#V" n="79"/>infinitus perfecte, quae constituitur
+            <lb ed="#V" n="80"/>ex multis syllabis audibilibus, ita
+            <lb ed="#V" n="81"/>possumus instituere, quod aliqua
+            <lb ed="#V" n="82"/>audibilia, et aliqua visibilia simul
+            <lb ed="#V" n="83"/>signarent conceptum nostrum,
+            pu<lb ed="#V" n="84" break="no"/>ta quod actum benevolentiae
+            signa<lb ed="#V" n="85" break="no"/>rent aliqua verba certa cum aliquo
+            <lb ed="#V" n="86"/>actu manus, vel osculo.
+          </p>
+          <p>
+            <lb ed="#V" n="87"/>Ex istis sequitur ista conclusio,
+            <lb ed="#V" n="88"/>quod ista oratio totalis non est in
+            <pb ed="#V" n="106"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>se falsa, eo modo quo
+            Philoso<lb ed="#V" n="2" break="no"/>phus loquitur de oratione in se
+            <lb ed="#V" n="3"/>falsa 5. Metaph. cap. de Falso,
+            scili<lb ed="#V" n="4" break="no"/>cet: Signum sensibile gratiam Dei, vel
+            <lb ed="#V" n="5"/>ejus effectum gratuitum ex institutione
+            <lb ed="#V" n="6"/>divina efficaciter signans, effectum,
+            in<lb ed="#V" n="7" break="no"/>quam, ordinatum ad salutem hominis
+            <lb ed="#V" n="8"/>viatoris. Patet enim ex praedictis,
+            <lb ed="#V" n="9"/>quod nulla particula istius
+            oratio<lb ed="#V" n="10" break="no"/>nis repugnat alteri; non est autem
+            <lb ed="#V" n="11"/>in se ratio falsa secundum
+            Philo<lb ed="#V" n="12" break="no"/>sophum ibi, nisi partes inter se
+            <lb ed="#V" n="13"/>contradicant. Ista ergo ratio non
+            <lb ed="#V" n="14"/>est pure non entis, puta, puri
+            im<lb ed="#V" n="15" break="no"/>possibilis, quia nihil est purum
+            <lb ed="#V" n="16"/>impossibile, nisi cujus ratio est in
+            <lb ed="#V" n="17"/>se falsa, ut patet 1. libro distinct.
+            <lb ed="#V" n="18"/>2. q. 2.
+          </p>
+          <p>
+            <lb ed="#V" n="19"/>Patet etiam, quod ista ratio non
+            <lb ed="#V" n="20"/>est purae negationis vel
+            privatio<lb ed="#V" n="21" break="no"/>nis, quia includit in se aliqua
+            po<lb ed="#V" n="22" break="no"/>sitiva; quod si supponatur istam
+            <lb ed="#V" n="23"/>rationem esse hujus nominis
+            Sacra<lb ed="#V" n="24" break="no"/>mentum, sequitur quod
+            Sacramen<lb ed="#V" n="25" break="no"/>tum non est purum non ens, neque
+            <lb ed="#V" n="26"/>sicut impossibile, neque sicut
+            ne<lb ed="#V" n="27" break="no"/>gatio. Quod autem ista ratio sit
+            <lb ed="#V" n="28"/>hujus nominis Sacramentum,
+            proba<lb ed="#V" n="29" break="no"/>ri non potest, sed oportet
+            suppo<lb ed="#V" n="30" break="no"/>nere ex usu loquentium de
+            Sacra<lb ed="#V" n="31" break="no"/>mento, sicut oportet supponere
+            <lb ed="#V" n="32"/>signata vocabulorum ex usu.
+          </p>
+          <p>
+            <lb ed="#V" n="33"/>Videndum est ergo de secunda
+            <lb ed="#V" n="34"/>conditione, scilicet, de per se
+            uni<lb ed="#V" n="35" break="no"/>tate, utrum impediat definitionem
+            <lb ed="#V" n="36"/>proprie a Sacramento, vel ab
+            ha<lb ed="#V" n="37" break="no"/>bente hujus rationem nominis.
+            <lb ed="#V" n="38"/>Quod autem ens non unum per se,
+            <lb ed="#V" n="39"/>non sit definibile, potest intelligi
+            <lb ed="#V" n="40"/>duobus modis, scilicet vel quod
+            con<lb ed="#V" n="41" break="no"/>sistat ex entibus ejusdem generis
+            <lb ed="#V" n="42"/>vel alterius, quae tamen non sunt
+            <lb ed="#V" n="43"/>nata constituere per se unum.
+            Pri<lb ed="#V" n="44" break="no"/>mum tenet nomen entis aggregati
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>ut cumulus vel acervus; secundum
+            <lb ed="#V" n="46"/>dicitur proprie ens per accidens,
+            <lb ed="#V" n="47"/>patet 5. Metaph. c. de ente et de uno;
+            <lb ed="#V" n="48"/>neutrum autem horum est proprie
+            <lb ed="#V" n="49"/>definibile; primum non, patet 8.
+            <lb ed="#V" n="50"/>Metaph. cap. 1. nec secundum, ut
+            pa<lb ed="#V" n="51" break="no"/>tet 7. Metaph. cap. 2.
+          </p>
+          <p>
+            <lb ed="#V" n="52"/>Et dicitur, quod Sacramentum
+            <lb ed="#V" n="53"/>proprie non habet unitatem, ideo
+            <lb ed="#V" n="54"/>non est definibile proprie; includit
+            <lb ed="#V" n="55"/>enim multa, (ut tangit primum
+            ar<lb ed="#V" n="56" break="no"/>gumentum ad oppositum) ex
+            qui<lb ed="#V" n="57" break="no"/>bus non potest fieri per se unum.
+          </p>
+          <p>
+            <lb ed="#V" n="58"/>Sed contra hoc, licet enim unum
+            <lb ed="#V" n="59"/>acccidens esset in pluribus
+            subjec<lb ed="#V" n="60" break="no"/>tis, nihilominus illud esset
+            defini<lb ed="#V" n="61" break="no"/>bile proprie, sicut aliud accidens,
+            <lb ed="#V" n="62"/>quia illa plura non pertinent per
+            <lb ed="#V" n="63"/>se ad rationem accidentis, sed
+            tan<lb ed="#V" n="64" break="no"/>quam additamenta; in ista autem
+            <lb ed="#V" n="65"/>ratione nominis praedicta, patet
+            <lb ed="#V" n="66"/>quod illud quod dicitur sensibile,
+            <lb ed="#V" n="67"/>ponitur respectu signi, sicut
+            ad<lb ed="#V" n="68" break="no"/>ditum; ergo quantumcumque in
+            <lb ed="#V" n="69"/>illo sit non unitas, dum tamen illa
+            <lb ed="#V" n="70"/>alia, quae pertinent ad rationem
+            <lb ed="#V" n="71"/>formalem nominis, non impediant
+            <lb ed="#V" n="72"/>unitatem per se, non propter hoc
+            <lb ed="#V" n="73"/>Sacramentum erit non definibile,
+            <lb ed="#V" n="74"/>ita quod pluralitas, de qua
+            argui<lb ed="#V" n="75" break="no"/>tur, est illorum, quae concurrunt
+            <lb ed="#V" n="76"/>in sensibili signante fundamentum
+            <lb ed="#V" n="77"/>illius relationis formalis, quam
+            <lb ed="#V" n="78"/>importat Sacramentum.
+          </p>
+          <p>
+            <lb ed="#V" n="79"/>Dico ergo, quod cum in ratione
+            <lb ed="#V" n="80"/>praedicta, formale intelligatur esse
+            <lb ed="#V" n="81"/>signum, et etiam illa quae per se
+            <lb ed="#V" n="82"/>determinant rationem signi,
+            cujus<lb ed="#V" n="83" break="no"/>modi sunt ex institutione et efficaciter,
+            <lb ed="#V" n="84"/>alia duo, quae sunt ibi, scilicet
+            sen<lb ed="#V" n="85" break="no"/>sibile et effectum Dei gratuitum, sunt
+            <lb ed="#V" n="86"/>ibi ut additamenta; primum ut
+            <lb ed="#V" n="87"/>subjectum, sive ut fundamentum;
+            <lb ed="#V" n="88"/>secundum autem ut correlativum;
+            <pb ed="#V" n="107"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>pluralitas autem quaecumque, vel
+            <lb ed="#V" n="2"/>subjecti in se, vel correlativi ad
+            <lb ed="#V" n="3"/>correlativum, non prohibet
+            rela<lb ed="#V" n="4" break="no"/>tionem esse definibilem
+            simplici<lb ed="#V" n="5" break="no"/>ter; ergo nec excludit a
+            Sacramen<lb ed="#V" n="6" break="no"/>to habere definitionem, propter
+            <lb ed="#V" n="7"/>non unitatem. Ita enim est iste
+            <lb ed="#V" n="8"/>conceptus per se unus apud
+            intel<lb ed="#V" n="9" break="no"/>lectum, signum ad placitum efficax,
+            <lb ed="#V" n="10"/>sicut est conceptus paternitatis, et
+            <lb ed="#V" n="11"/>sic paternitas posset definiri
+            pro<lb ed="#V" n="12" break="no"/>prie, non obstante non unitate per
+            <lb ed="#V" n="13"/>se subjecti, si paternitas esset in
+            <lb ed="#V" n="14"/>duobus subjectis, et illa
+            poneren<lb ed="#V" n="15" break="no"/>tur ut additamenta, poneretur
+            <lb ed="#V" n="16"/>etiam correlativum paternitatis;
+            <lb ed="#V" n="17"/>ita in proposito.
+          </p>
+          <p>
+            <lb ed="#V" n="18"/>Tertio dico, quod in ratione
+            no<lb ed="#V" n="19" break="no"/>minis praedicta includitur aliquid,
+            <lb ed="#V" n="20"/>quod dicit ens rationis, scilicet
+            <lb ed="#V" n="21"/>hoc, quod est signum ex institutione;
+            <lb ed="#V" n="22"/>nam illa relatio non consequitur
+            <lb ed="#V" n="23"/>fundamentum ex natura rei, quia
+            <lb ed="#V" n="24"/>etsi in re sit aptitudo ad
+            signan<lb ed="#V" n="25" break="no"/>dum effectum signatum, tamen
+            ac<lb ed="#V" n="26" break="no"/>tualis signatio non convenit sibi,
+            <lb ed="#V" n="27"/>nisi per actum imponentis.
+            Res<lb ed="#V" n="28" break="no"/>tringendo ergo definitionem ad
+            <lb ed="#V" n="29"/>quid proprie dictum extra animam,
+            <lb ed="#V" n="30"/>ista definitio non exprimit quid
+            <lb ed="#V" n="31"/>Sacramenti; ergo non potest esse
+            <lb ed="#V" n="32"/>definitio, eo modo quo est ratio
+            <lb ed="#V" n="33"/>entis completi extra animam. Sed
+            <lb ed="#V" n="34"/>eo modo quo definitio exprimit
+            <lb ed="#V" n="35"/>unum conceptum per se in
+            intel<lb ed="#V" n="36" break="no"/>lectu, sive ille conceptus sit rei
+            <lb ed="#V" n="37"/>extra, sive rationis, bene potest
+            <lb ed="#V" n="38"/>definiri; et hoc modo tantum, et
+            <lb ed="#V" n="39"/>non aliter, definiuntur omnes
+            in<lb ed="#V" n="40" break="no"/>tentiones Logicales; non enim
+            si<lb ed="#V" n="41" break="no"/>gnant quidditates extra animam,
+            <lb ed="#V" n="42"/>sed tantummodo conceptus in
+            ani<lb ed="#V" n="43" break="no"/>ma, sed per se unos, et sic habere
+            <lb ed="#V" n="44"/>definitionem sufficit ad scientiam
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>proprie dictam, alioquin Logica
+            <lb ed="#V" n="46"/>non esset scientia. In talibus
+            defi<lb ed="#V" n="47" break="no"/>nitionibus etiam invenitur Genus,
+            <lb ed="#V" n="48"/>Differentia et Proprium, eo modo
+            <lb ed="#V" n="49"/>quo Logicus loquitur de Genere,
+            <lb ed="#V" n="50"/>Differentia et Proprio, quia
+            inve<lb ed="#V" n="51" break="no"/>nitur praedicatum in quid et in
+            qua<lb ed="#V" n="52" break="no"/>le essentiale, et in quale accidentale,
+            <lb ed="#V" n="53"/>convertibile, et sic in ratione
+            prae<lb ed="#V" n="54" break="no"/>dicta ponitur signum ut genus; ex
+            <lb ed="#V" n="55"/>institutione et efficax, ut differentia;
+            <lb ed="#V" n="56"/>sensibile vero ut fundamentum
+            re<lb ed="#V" n="57" break="no"/>lationis; gratia vero, vel effectus Dei
+            <lb ed="#V" n="58"/>gratuitus, ut correlativum.
+          </p>
+          <p>
+            <lb ed="#V" n="59"/>De quarta et quinta conditione,
+            <lb ed="#V" n="60"/>non oportet immorari; patet enim,
+            <lb ed="#V" n="61"/>quod Sacramentum secundum
+            ra<lb ed="#V" n="62" break="no"/>tionem nominis praedictam, non
+            <lb ed="#V" n="63"/>habet conceptum simpliciter
+            sim<lb ed="#V" n="64" break="no"/>plicem, nec conceptum
+            singula<lb ed="#V" n="65" break="no"/>rem, sed universalem.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d1q2-p3"> -->
+          <p>
+            <lb ed="#V" n="62" type="fixed=108"/>SCHOLIUM.
+            <lb ed="#V" n="63"/>Resolvit Sacramentum esse definibile, ad
+            <lb ed="#V" n="64"/>modum secundarum intentionum. Explicat
+            <lb ed="#V" n="65"/>quaestionem si est non intelligendam de
+            ac<lb ed="#V" n="66" break="no"/>tuali, sed de potentiali existentia, et sic
+            com<lb ed="#V" n="67" break="no"/>petere Sacramento. Ponit ordinem ejus quod
+            <lb ed="#V" n="68"/>dicitur per nomen, ad cognitionem si est.
+          </p>
+          <p>
+            <lb ed="#V" n="69"/>Ex his praedictis patet secundus
+            <lb ed="#V" n="70"/>articulus, quod Sacramentum,
+            <lb ed="#V" n="71"/>( supposito quod ejus sit ratio
+            no<lb ed="#V" n="72" break="no"/>minis, quae supra posita est, )
+            po<lb ed="#V" n="73" break="no"/>test simpliciter et per se definiri,
+            <lb ed="#V" n="74"/>eo modo, quo intentiones secundae
+            <lb ed="#V" n="75"/>sunt per se definibiles, et quod
+            ab<lb ed="#V" n="76" break="no"/>solute nihil repugnat, quin
+            abso<lb ed="#V" n="77" break="no"/>lute et verissime definiatur, nisi
+            <lb ed="#V" n="78"/>quia proprium ejus formale est
+            <lb ed="#V" n="79"/>ens rationis, vel nisi quia includit
+            <lb ed="#V" n="80"/>aliquid, quod est praecise ens
+            rati<lb ed="#V" n="81" break="no"/>onis. Ex isto articulo patet
+            corol<lb ed="#V" n="82" break="no"/>larie, quomodo se habent cognitio
+            <lb ed="#V" n="83"/>quid est et si est, ordinate. In
+            cogni<lb ed="#V" n="84" break="no"/>tione namque si est, secundum quod
+            <lb ed="#V" n="85"/>praecedit cognitionem quid est, non
+            <pb ed="#V" n="109"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>intelligitur de actuali existentia,
+            <lb ed="#V" n="2"/>alioquin demonstratio, (cujus
+            me<lb ed="#V" n="3" break="no"/>dium est definitio, ) non posset
+            ha<lb ed="#V" n="4" break="no"/>beri de non existente, cujus
+            oppo<lb ed="#V" n="5" break="no"/>situm vult Philosophus primo
+            Poste<lb ed="#V" n="6" break="no"/>riorum, et 7. Metaph. sed intelligitur
+            <lb ed="#V" n="7"/>si est, de ente, cui non repugnat
+            <lb ed="#V" n="8"/>esse in effectu.
+          </p>
+          <p>
+            <lb ed="#V" n="9"/>In prima conditione istarum
+            <lb ed="#V" n="10"/>quinque, applicando ad
+            proposi<lb ed="#V" n="11" break="no"/>tum, ostensum est de Sacramento
+            <lb ed="#V" n="12"/>si est isto modo, quia ostensum est
+            <lb ed="#V" n="13"/>Sacramentum esse tale, cui non
+            <lb ed="#V" n="14"/>repugnat esse in effectu, et hoc
+            <lb ed="#V" n="15"/>supposito, inquirebatur in
+            speci<lb ed="#V" n="16" break="no"/>ali, quid esset. Apparet etiam
+            or<lb ed="#V" n="17" break="no"/>do cognitionis ejus, quod dicitur
+            <lb ed="#V" n="18"/>per nomen ad si est, quia in prima
+            <lb ed="#V" n="19"/>conditione istarum quinque
+            prae<lb ed="#V" n="20" break="no"/>supponitur quid dicitur per nomen,
+            <lb ed="#V" n="21"/>et ex illa ratione praesupposita
+            <lb ed="#V" n="22"/>concluditur si est. Et licet idem sit
+            <lb ed="#V" n="23"/>quid nominis et quid rei in habentibus
+            <lb ed="#V" n="24"/>quid rei, tamen prius cognoscitur
+            <lb ed="#V" n="25"/>aliquid esse quid nominis, quam quid
+            <lb ed="#V" n="26"/>rei. Primum enim cognoscitur
+            co<lb ed="#V" n="27" break="no"/>gnoscendo illud nomen esse
+            intelli<lb ed="#V" n="28" break="no"/>gibile et significabile; secundum
+            <lb ed="#V" n="29"/>cognoscendo istud esse alicujus
+            <lb ed="#V" n="30"/>possibilis esse in effectu; et ex
+            <lb ed="#V" n="31"/>ratione ejus possibili concipi et
+            si<lb ed="#V" n="32" break="no"/>gnari, potest concludi aliquid
+            pos<lb ed="#V" n="33" break="no"/>se subesse illi conceptui, et per
+            <lb ed="#V" n="34"/>consequens illam rationem
+            expri<lb ed="#V" n="35" break="no"/>mere verum quid est.
+          </p>
+          <p>
+            <lb ed="#V" n="36"/>SCHOLIUM.
+            <lb ed="#V" n="37"/>Ponit definitionem Sacramenti, et exponit
+            <lb ed="#V" n="38"/>ejus particulas, nec differt in re a definitione
+            <lb ed="#V" n="39"/>Magistri, vel Catechismi Tridentini. Facile
+            <lb ed="#V" n="40"/>etiam coincidit cum ea, quam Augustinus,
+            <lb ed="#V" n="41"/>Hugo, et Isidor. citati, assignant.
+          </p>
+          <p>
+            <lb ed="#V" n="42"/>De tertio (d) principali dico, quod
+            <lb ed="#V" n="43"/>eo modo quo potest esse definitio
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="44"/>Sacramenti, ut patet ex 2. articulo,
+            <lb ed="#V" n="45"/>haec est ejus definitio, scilicet
+            si<lb ed="#V" n="46" break="no"/>gnum sensibile, gratiam Dei vel effectum
+            <lb ed="#V" n="47"/>Dei gratuitum, ex institutione divina,
+            effi<lb ed="#V" n="48" break="no"/>caciter significans, ordinatum ad salutem
+            <lb ed="#V" n="49"/>hominis viatoris. Et in hoc efficaciter
+            <lb ed="#V" n="50"/>includitur tam certitudinaliter
+            <lb ed="#V" n="51"/>quam prognostice; et hoc,
+            accipi<lb ed="#V" n="52" break="no"/>endo prognosticum pro signo non
+            <lb ed="#V" n="53"/>tantum priori duratione signato,
+            <lb ed="#V" n="54"/>sed etiam natura. Hoc probatur
+            <lb ed="#V" n="55"/>universaliter in his, quae possunt
+            <lb ed="#V" n="56"/>habere definitionem; eadem enim
+            <lb ed="#V" n="57"/>est ratio exprimens quid dicitur
+            <lb ed="#V" n="58"/>per nomen, et vera definitio. Nam
+            <lb ed="#V" n="59"/>secundum Philosophum, 4. Metaph.
+            <lb ed="#V" n="60"/>ratio quam significat nomen, est
+            <lb ed="#V" n="61"/>definitio; et hoc apparet per
+            rati<lb ed="#V" n="62" break="no"/>onem, quia nomen imponitur ad
+            <lb ed="#V" n="63"/>significandum essentiam rei; ergo
+            <lb ed="#V" n="64"/>ratio, quae exprimit quod dicitur
+            <lb ed="#V" n="65"/>per nomen distincte, et per partes,
+            <lb ed="#V" n="66"/>exprimit distincte per partes
+            con<lb ed="#V" n="67" break="no"/>ceptus essentiae rei. Ista autem
+            ra<lb ed="#V" n="68" break="no"/>tio, quae posita est, scilicet signum
+            <lb ed="#V" n="69"/>sensibile, etc. est ratio hujus
+            nomi<lb ed="#V" n="70" break="no"/>nis Sacramentum, ut suppositum est
+            <lb ed="#V" n="71"/>supra ex usu loquentium de
+            Sacra<lb ed="#V" n="72" break="no"/>mento; et Sacramentum potest
+            ha<lb ed="#V" n="73" break="no"/>bere definitionem eo modo quo
+            en<lb ed="#V" n="74" break="no"/>tia rationis definiuntur; ergo ista
+            <lb ed="#V" n="75"/>ratio est ejus definitio; sic ergo
+            <lb ed="#V" n="76"/>probatur quia ita est.
+          </p>
+          <p>
+            <lb ed="#V" n="77"/>Qualiter autem hoc possit esse,
+            <lb ed="#V" n="78"/>faciliter potest patere, quia ibi
+            po<lb ed="#V" n="79" break="no"/>nitur aliquid pertinens ad genus
+            <lb ed="#V" n="80"/>relationis, quod est genus in illo
+            <lb ed="#V" n="81"/>genere, eo modo quo in
+            relationi<lb ed="#V" n="82" break="no"/>bus rationis ponitur Genus et
+            Spe<lb ed="#V" n="83" break="no"/>cies, puta hoc quod est signum; et
+            <lb ed="#V" n="84"/>illud determinatur per differentias
+            <lb ed="#V" n="85"/>hujus Generis, scilicet signi, quae
+            <lb ed="#V" n="86"/>sunt ex institutione et efficaciter. Et
+            <lb ed="#V" n="87"/>ponuntur ibi duo addita, sicut
+            uni<pb ed="#V" n="110"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>versaliter in definitionibus
+            relati<lb ed="#V" n="2" break="no"/>onum et relativorum, scilicet
+            sub<lb ed="#V" n="3" break="no"/>jectum vel fundamentum, quod
+            in<lb ed="#V" n="4" break="no"/>telligitur per hoc quod est sensibile;
+            <lb ed="#V" n="5"/>alterum etiam, scilicet
+            correlati<lb ed="#V" n="6" break="no"/>vum, quod notatur per hoc, quod
+            <lb ed="#V" n="7"/>est gratiam vel effectum gratuitum.
+          </p>
+          <p>
+            <lb ed="#V" n="8"/>Ex his patet solutio (e)
+            quaesti<lb ed="#V" n="9" break="no"/>onis. Dicendum est enim quod illa
+            <lb ed="#V" n="10"/>ratio, de qua quaeritur, (si recte
+            <lb ed="#V" n="11"/>intelligatur, et per alia non
+            expli<lb ed="#V" n="12" break="no"/>cata suppleatur,) est propria ratio
+            <lb ed="#V" n="13"/>definitiva Sacramenti eo modo quo
+            <lb ed="#V" n="14"/>Sacramentum est definibile. Est
+            <lb ed="#V" n="15"/>enim illa ratio sic intellecta et
+            <lb ed="#V" n="16"/>suppleta eadem cum ratione
+            prae<lb ed="#V" n="17" break="no"/>dicta. Quod enim ponitur forma,
+            de<lb ed="#V" n="18" break="no"/>bet intelligi pro signo sensibili, eo
+            <lb ed="#V" n="19"/>modo quo imago Herculis dicitur
+            <lb ed="#V" n="20"/>forma Herculis. Quod ibi additur
+            <lb ed="#V" n="21"/>visibile, debet intelligi pro
+            sensibi<lb ed="#V" n="22" break="no"/>li in communi; et pro tanto debet
+            <lb ed="#V" n="23"/>intelligi visibile poni pro sensibili
+            <lb ed="#V" n="24"/>cujuslibet sensus, quia visus est
+            ex<lb ed="#V" n="25" break="no"/>cellentior omni sensu, et plurium
+            <lb ed="#V" n="26"/>differentiarum cognoscitivus,
+            se<lb ed="#V" n="27" break="no"/>cundum Philosophum 1. Metaph.
+            Po<lb ed="#V" n="28" break="no"/>nitur etiam ibi visibile pro
+            sensibi<lb ed="#V" n="29" break="no"/>li, sive uno, sive pluribus, et hoc
+            <lb ed="#V" n="30"/>pluribus pertinentibus ad eumdem
+            <lb ed="#V" n="31"/>sensum, vel alium et alium.
+            Poni<lb ed="#V" n="32" break="no"/>tur autem ibi gratia invisibilis pro
+            <lb ed="#V" n="33"/>effectu Dei gratuito interiori,
+            or<lb ed="#V" n="34" break="no"/>dinato ad salutem hominis viatoris.
+            <lb ed="#V" n="35"/>Utrum autem gratia ibi sumatur
+            <lb ed="#V" n="36"/>universaliter pro gratia inhaerente
+            <lb ed="#V" n="37"/>animae subjective, an generalius,
+            <lb ed="#V" n="38"/>ut expressi supra, ut scilicet
+            signi<lb ed="#V" n="39" break="no"/>ficet effectum Dei gratuitum, etc.
+            <lb ed="#V" n="40"/>in materia de Eucharistia patebit,
+            <lb ed="#V" n="41"/>quia ibi res Sacramenti non est
+            <lb ed="#V" n="42"/>aliqua gratia accidentalis inhaerens
+            <lb ed="#V" n="43"/>animae. Suppleri autem debent
+            dif<lb ed="#V" n="44" break="no"/>ferentiae specificantes signum,
+            pu<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>ta ex institutione, contra signum
+            si<lb ed="#V" n="46" break="no"/>gnificans naturaliter; et efficaciter,
+            <lb ed="#V" n="47"/>contra signum aequivocum, et
+            si<lb ed="#V" n="48" break="no"/>gnum sequens naturaliter
+            signi<lb ed="#V" n="49" break="no"/>ficatum.
+          </p>
+          <p>
+            <lb ed="#V" n="50"/>Ad primum (f) argumentum
+            di<lb ed="#V" n="51" break="no"/>co, quod licet fundamentum hujus
+            <lb ed="#V" n="52"/>relationis plura includat, ex
+            qui<lb ed="#V" n="53" break="no"/>bus non fit per se unum, ut
+            proba<lb ed="#V" n="54" break="no"/>tur de successivo et permanente,
+            <lb ed="#V" n="55"/>tamen non sequitur quin
+            Sacra<lb ed="#V" n="56" break="no"/>mentum, quantum ad suam
+            forma<lb ed="#V" n="57" break="no"/>lem rationem sit per se unum. Et
+            <lb ed="#V" n="58"/>si arguitur contra hoc, quia relatio
+            <lb ed="#V" n="59"/>non est per se una, nisi habeat
+            fun<lb ed="#V" n="60" break="no"/>fundamentum unum, respondeo,
+            <lb ed="#V" n="61"/>quod si forte hoc esset verum de
+            <lb ed="#V" n="62"/>relationibus realibus, de quibus
+            <lb ed="#V" n="63"/>est dubium, quia forte in multis
+            <lb ed="#V" n="64"/>trahentibus unam navem est una
+            <lb ed="#V" n="65"/>relatio trahentium ad unum
+            tra<lb ed="#V" n="66" break="no"/>ctum, tamen in relationibus
+            rati<lb ed="#V" n="67" break="no"/>onis, propositio est manifeste
+            fal<lb ed="#V" n="68" break="no"/>sa, quia quantumcumque diversa
+            <lb ed="#V" n="69"/>possunt concurrere in fundamento
+            <lb ed="#V" n="70"/>unius relationis rationis, non
+            <lb ed="#V" n="71"/>enim oportet nisi quod multa ibi
+            <lb ed="#V" n="72"/>concipiantur quasi unum, in
+            ordi<lb ed="#V" n="73" break="no"/>ne ad aliquod signatum.Hoc patet,
+            <lb ed="#V" n="74"/>quia hujus relationis unius, quae
+            <lb ed="#V" n="75"/>est signare mustum bonum, bene
+            po<lb ed="#V" n="76" break="no"/>test esse fundamentum totum
+            <lb ed="#V" n="77"/>istud, scilicet circulus coopertus foliis
+            <lb ed="#V" n="78"/>hederoe in cruce positus, etc.ita etiam
+            <lb ed="#V" n="79"/>multae orationes contextae, vel
+            <lb ed="#V" n="80"/>una ratio ex multis syllabis, quae
+            <lb ed="#V" n="81"/>nihil unum per se faciunt, sunt
+            <lb ed="#V" n="82"/>fundamentum unius relationis
+            hu<lb ed="#V" n="83" break="no"/>jus, quae est signare Deo inesse aliqua
+            <lb ed="#V" n="84"/>quee sibi intrinsece insunt, cum tamen
+            <lb ed="#V" n="85"/>illud signatum sit unum et idem
+            <lb ed="#V" n="86"/>simplicissimum.
+            <lb ed="#V" n="87"/>Ad argumentum secundum et
+            ter<pb ed="#V" n="111"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>tium, patet ex dictis in
+            explicati<lb ed="#V" n="2" break="no"/>one definitionis Magistri.
+          </p>
+          <p>
+            <lb ed="#V" n="3"/>Ad quartum, potest patere ex
+            <lb ed="#V" n="4"/>illis, quia quod una definitio non
+            <lb ed="#V" n="5"/>exprimit, alia exprimit, ut sic ex
+            <lb ed="#V" n="6"/>omnibus colligendo, quod sparsim
+            <lb ed="#V" n="7"/>invenitur in singulis, possit
+            habe<lb ed="#V" n="8" break="no"/>ri una definitio completa, qualis
+            <lb ed="#V" n="9"/>est illa supra posita.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

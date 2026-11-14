@@ -1,0 +1,1246 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio Sexta, Pars 4, Articulus Secundus, Quaestio 2</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio Sexta, Pars 4, Articulus Secundus, Quaestio 2</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x16">Vives, Paris, 1894, volume 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="615"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e3662"><!-- jdso8u-b4d6p4a2q2 -->
+        <head>Quaestio 2</head>
+        <head type="question-title">Utrum character sit aliqua forma absoluta</head>
+        <!-- <div alias="scotus-d6q10-p1"> -->
+          <p>
+            <lb ed="#V" n="31" type="fixed=615"/>QUAESTIO X.
+            <lb ed="#V" n="32"/>An character sit forma absoluta?
+          </p>
+          <p>
+            <lb ed="#V" n="33"/>Alensis 4. p. q. 19. m. 1. art. 1. et 2. D. Bonav.
+            <lb ed="#V" n="34"/>hic art. 1. q. 1. Rich. d. 5. art. 2. q. 1.
+            <lb ed="#V" n="35"/>D. Thom. 3. p. q. 63. art. 2. Suarez ibid. 11.
+            <lb ed="#V" n="36"/>sect. 2. Durand. d. 4. q. 1. Sotus d. 1. q. 4. art. 2.
+            <lb ed="#V" n="37"/>Albert. hic art. 3. Vide Scot. 7. Physic. a. 4.
+          </p>
+          <p>
+            <lb ed="#V" n="38"/>Ad secundum sic proceditur, et
+            <lb ed="#V" n="39"/>arguitur quod character non sit
+            <lb ed="#V" n="40"/>forma absoluta, quia secundum
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="41"/>Philosophum 2. Ethic. tria sunt in
+            <lb ed="#V" n="42"/>anima, potentia, passio et
+            habi<lb ed="#V" n="43" break="no"/>tus; character non est in potentia,
+            <lb ed="#V" n="44"/>patet, quia non est naturaliter
+            <lb ed="#V" n="45"/>in ipsa anima; nec est passio,
+            <lb ed="#V" n="46"/>quia est forma permanens; nec
+            <lb ed="#V" n="47"/>habitus, quia habitus est
+            secun<lb ed="#V" n="48" break="no"/>dum quem habens bene vel male
+            <lb ed="#V" n="49"/>potest operari; character non
+            <lb ed="#V" n="50"/>est principium alicujus
+            operati<lb ed="#V" n="51" break="no"/>onis bonae vel malae. Non bonae,
+            <lb ed="#V" n="52"/>quia potest stare cum peccato
+            <lb ed="#V" n="53"/>mortali; non malae, patet, quia est
+            <lb ed="#V" n="54"/>donum Dei, et effectus
+            Sacramen<lb ed="#V" n="55" break="no"/>ti; ergo si illa divisio Philosophi
+            <lb ed="#V" n="56"/>sufficienter evacuet formam
+            abso<lb ed="#V" n="57" break="no"/>lutam in anima, sequitur
+            propo<lb ed="#V" n="58" break="no"/>situm.
+          </p>
+          <p>
+            <lb ed="#V" n="59"/>Item, si esset forma absoluta,,
+            <lb ed="#V" n="60"/>non potest poni, nisi de genere
+            <lb ed="#V" n="61"/>qualitatis, patet discurrendo per
+            <lb ed="#V" n="62"/>alia genera; non enim est
+            sub<lb ed="#V" n="63" break="no"/>stantia, quia advenit post esse
+            <lb ed="#V" n="64"/>completum substantiae; non est
+            <lb ed="#V" n="65"/>quantitas, patet, quia forma
+            spi<lb ed="#V" n="66" break="no"/>ritualis et incorporea; et sic
+            dis<lb ed="#V" n="67" break="no"/>currendo de aliis. Qualitas autem
+            <lb ed="#V" n="68"/>poni non potest. Probatur
+            dis<lb ed="#V" n="69" break="no"/>currendo per species qualitatis.
+          </p>
+          <p>
+            <lb ed="#V" n="70"/>Praeterea, forma absoluta habet
+            <lb ed="#V" n="71"/>aliquam operationem propriam;
+            <lb ed="#V" n="72"/>character autem non habet
+            ali<lb ed="#V" n="73" break="no"/>quam operationem propriam;
+            er<lb ed="#V" n="74" break="no"/>go, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="75"/>Praeterea, forma absoluta
+            acci<lb ed="#V" n="76" break="no"/>dentalis quaecumque est delebilis
+            <lb ed="#V" n="77"/>ab illo in quo est, quia ab eodem
+            <lb ed="#V" n="78"/>potest deleri de subjecto a quo
+            <lb ed="#V" n="79"/>imprimitur, in subjectum saltem
+            <lb ed="#V" n="80"/>a Deo, quia ex quo est posterius
+            <lb ed="#V" n="81"/>suo subjecto, non est contradictio,
+            <lb ed="#V" n="82"/>quod non insit; character
+            simpli<lb ed="#V" n="83" break="no"/>citer est indelebilis; ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="84"/>Oppositum, character est
+            dispo<pb ed="#V" n="616"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>sitio ad gratiam; gratia autem
+            <lb ed="#V" n="2"/>est forma absoluta; ergo et ista
+            <lb ed="#V" n="3"/>forma, quae est dipositio ad eam,
+            <lb ed="#V" n="4"/>erit absoluta, nam dispositio
+            pro<lb ed="#V" n="5" break="no"/>pria videtur esse ejusdem generis
+            <lb ed="#V" n="6"/>cum forma ad quam disponit.
+            <lb ed="#V" n="7"/>Praeterea, character est
+            principi<lb ed="#V" n="8" break="no"/>um assimilandi baptizatum
+            Chri<lb ed="#V" n="9" break="no"/>sto, vel alteri baptizato; similitudo
+            <lb ed="#V" n="10"/>autem est unitas fundata in
+            quali<lb ed="#V" n="11" break="no"/>tate; ergo character est qualitas.
+          </p>
+          <p>
+            <lb ed="#V" n="12"/>SCHOLIUM.
+            <lb ed="#V" n="13"/>Ponit sententiam D. Thom. scilicet
+            chara<lb ed="#V" n="14" break="no"/>cterem esse formam absolutam, quam probat
+            <lb ed="#V" n="15"/>quatuor rationibus.
+          </p>
+          <p>
+            <lb ed="#V" n="16"/>Hic dicitur (a), quod character
+            <lb ed="#V" n="17"/>.est forma absoluta. Ad quod
+            addu<lb ed="#V" n="18" break="no"/>cuntur quatuor rationes. Prima
+            <lb ed="#V" n="19"/>talis est: Mutatio non est, nisi ad
+            <lb ed="#V" n="20"/>formam absolutam, ex 5. Physic. ad
+            <lb ed="#V" n="21"/>characterem est mutatio, patet in
+            <lb ed="#V" n="22"/>ficto baptizato, qui nihil novum
+            <lb ed="#V" n="23"/>accipit in Baptismo, nisi
+            chara<lb ed="#V" n="24" break="no"/>cterem. Secundo sic: Relatio non
+            <lb ed="#V" n="25"/>est fundamentum relationis, quia
+            <lb ed="#V" n="26"/>tunc esset processus in infinitum;
+            <lb ed="#V" n="27"/>sed character est fundamentum
+            <lb ed="#V" n="28"/>multarum relationum; est enim
+            <lb ed="#V" n="29"/>fundamentum similitudinis, ut est
+            <lb ed="#V" n="30"/>argutum; et etiam fundamentum
+            <lb ed="#V" n="31"/>illius relationis, quam importat
+            <lb ed="#V" n="32"/>signum, quia character est signum
+            <lb ed="#V" n="33"/>rememorativum respectu
+            Sacra<lb ed="#V" n="34" break="no"/>menti suscepti; est etiam
+            funda<lb ed="#V" n="35" break="no"/>mentum configurationis sive
+            obli<lb ed="#V" n="36" break="no"/>gationis ad Christum. Tertio sic:
+            <lb ed="#V" n="37"/>Relatio non est potestas aliqua,
+            <lb ed="#V" n="38"/>neque activa, neque passiva, quia
+            <lb ed="#V" n="39"/>neque principium agendi, neque
+            <lb ed="#V" n="40"/>patiendi; character autem est
+            po<lb ed="#V" n="41" break="no"/>testas aliqua, utpote character
+            <lb ed="#V" n="42"/>Baptismi est potentia passiva, per
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43"/>quam homo fit capax aliorum
+            Sa<lb ed="#V" n="44" break="no"/>cramentorum; character autem
+            <lb ed="#V" n="45"/>ordinis est potentia quaedam
+            acti<lb ed="#V" n="46" break="no"/>va ad multos actus sacros in
+            Ec<lb ed="#V" n="47" break="no"/>clesia; ergo, etc. Quarto sic: In
+            <lb ed="#V" n="48"/>quolibet Sacramento causatur
+            ali<lb ed="#V" n="49" break="no"/>qua relatio ad actionem vel
+            pas<lb ed="#V" n="50" break="no"/>sionem in anima suscipientis
+            Sa<lb ed="#V" n="51" break="no"/>cramentum, et tamen non in
+            quo<lb ed="#V" n="52" break="no"/>libet imprimitur character; ergo
+            <lb ed="#V" n="53"/>character non est talis relatio;
+            <lb ed="#V" n="54"/>ergo aliqua forma absoluta.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d6q10-p2"> -->
+          <p>
+            <lb ed="#V" n="33" type="fixed=617"/>SHCOLIUM.
+            <lb ed="#V" n="34"/>Refutat D. Thomam: Primo, ex ipsius
+            def<lb ed="#V" n="35" break="no"/>nitione data de charactere. Secundo,
+            osten<lb ed="#V" n="36" break="no"/>dendo contra ejus primam rationem, dari
+            <lb ed="#V" n="37"/>mutationem ad respectum extrinsecum, de
+            <lb ed="#V" n="38"/>quo infra d. 13. q. 1. et 3. d. 1. quaest. 1.
+          </p>
+          <p>
+            <lb ed="#V" n="39"/>Contra istud (b), et primo contra
+            <lb ed="#V" n="40"/>opinantem ex dictis ejus, quia
+            <lb ed="#V" n="41"/>contradicit sibi; ipse enim dicit
+            <lb ed="#V" n="42"/>hanc esse definitionem
+            characte<cb ed="#V" n="b"/><lb ed="#V" n="43" break="no"/>ris. Character est signum
+            com<lb ed="#V" n="44" break="no"/>munionis fidei et sanctae
+            ordinati<lb ed="#V" n="45" break="no"/>onis datum a Hierarcha, vel quod
+            <lb ed="#V" n="46"/>est signum communionis
+            divino<lb ed="#V" n="47" break="no"/>rum, et sacrae ordinationis
+            fideli<lb ed="#V" n="48" break="no"/>um. Quomodocumque sic vel sic
+            <lb ed="#V" n="49"/>definiatur, dicit quod signum
+            poni<lb ed="#V" n="50" break="no"/>tur in definitione characteris, ut
+            <lb ed="#V" n="51"/>genus. Ex hoc arguitur, quod
+            cha<lb ed="#V" n="52" break="no"/>racter non potest esse forma
+            ab<lb ed="#V" n="53" break="no"/>soluta, quia ad quidditatem formae
+            <lb ed="#V" n="54"/>absolutae non pertinet
+            essentiali<lb ed="#V" n="55" break="no"/>ter aliquis respectus, quia tunc
+            <lb ed="#V" n="56"/>illa quidditas esset ad se, et non
+            <lb ed="#V" n="57"/>esset ad se; nec etiam potest
+            <lb ed="#V" n="58"/>dici, quod relatio ponatur ibi
+            <lb ed="#V" n="59"/>tanquam genus, et non sit vere
+            <lb ed="#V" n="60"/>genus, quia hoc modo in
+            definiti<lb ed="#V" n="61" break="no"/>one accidentis ponitur subjectum;
+            <lb ed="#V" n="62"/>patet autem quod relatio non est
+            <lb ed="#V" n="63"/>subjectum absoluti, nec etiam
+            ra<lb ed="#V" n="64" break="no"/>tio receptiva.
+          </p>
+          <p>
+            <lb ed="#V" n="65"/>Praeterea, sicut non sunt
+            ponen<lb ed="#V" n="66" break="no"/>da plura sine necessitate, ita
+            <lb ed="#V" n="67"/>quando aliquid ponitur praecise
+            <lb ed="#V" n="68"/>propter aliquid, non est illud
+            po<lb ed="#V" n="69" break="no"/>nendum perfectius quam
+            requira<lb ed="#V" n="70" break="no"/>tur ad illud aliud, vel quam possit
+            <lb ed="#V" n="71"/>ex illo alio concludi; nam illa
+            per<lb ed="#V" n="72" break="no"/>fectio ulterior, quae poneretur,
+            <lb ed="#V" n="73"/>frustra poneretur. Sed propter illa
+            <lb ed="#V" n="74"/>omnia, propter quae ponitur
+            cha<lb ed="#V" n="75" break="no"/>racter, non est necesse, quod sit
+            <lb ed="#V" n="76"/>perfectio absoluta; possunt enim
+            <lb ed="#V" n="77"/>ista omnia etiam salvari sufficien
+            <lb ed="#V" n="78"/>ter, si sit forma aliqua relativa;
+            <lb ed="#V" n="79"/>ergo superflue et sine causa
+            po<lb ed="#V" n="80" break="no"/>nitur esse forma absoluta.
+          </p>
+          <p>
+            <lb ed="#V" n="81"/>Minor patebit solvendo rationes:
+            <lb ed="#V" n="82"/>Prima enim accepit majorem
+            fal<lb ed="#V" n="83" break="no"/>sam, quod probo dupliciter, primo
+            <lb ed="#V" n="84"/>per rationem; secundo, per
+            aucto<lb ed="#V" n="85" break="no"/>ritatem. Primo sic: Respectus
+            <lb ed="#V" n="86"/>non potest magis intrinsece
+            adve<pb ed="#V" n="618"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>nire fundamento, quam quod
+            ne<lb ed="#V" n="2" break="no"/>cessario sequatur ipsum, posito
+            <lb ed="#V" n="3"/>termino, quia omnino non potest
+            <lb ed="#V" n="4"/>inesse fundamento, circumscripto
+            <lb ed="#V" n="5"/>termino, quia tunc non esset
+            re<lb ed="#V" n="6" break="no"/>spectus, sed forma absoluta; ergo
+            <lb ed="#V" n="7"/>si aliquis respectus potest
+            extrin<lb ed="#V" n="8" break="no"/>secus advenire fundamento,
+            sequi<lb ed="#V" n="9" break="no"/>tur quod non necessario sequitur
+            <lb ed="#V" n="10"/>fundamentum, etiam termino
+            posi<lb ed="#V" n="11" break="no"/>to; ergo ille respectus potest esse
+            <lb ed="#V" n="12"/>novus omnino sine novitate
+            funda<lb ed="#V" n="13" break="no"/>menti vel termini; ergo ad ejus
+            <lb ed="#V" n="14"/>esse novum potest esse aliqua
+            mu<lb ed="#V" n="15" break="no"/>tatio, quia non est ad aliquod
+            ab<lb ed="#V" n="16" break="no"/>solutum. Quia si dicas respectum
+            <lb ed="#V" n="17"/>aliquem advenire extrinsecus
+            sub<lb ed="#V" n="18" break="no"/>jecto, non tamen fundamento,
+            <lb ed="#V" n="19"/>hoc nihil est, quia relationes
+            in<lb ed="#V" n="20" break="no"/>trinsecae, utpote similitudo, quae
+            <lb ed="#V" n="21"/>consequitur albedinem, et
+            hujus<lb ed="#V" n="22" break="no"/>modi, possunt extrinsecus
+            adve<lb ed="#V" n="23" break="no"/>nire subjecto, quia fundamentum
+            <lb ed="#V" n="24"/>de novo advenit; ergo si illae sunt
+            <lb ed="#V" n="25"/>intrinsecae et aliae extrinsecae, erit
+            <lb ed="#V" n="26"/>differentia earum in comparatione
+            <lb ed="#V" n="27"/>ad fundamentum.
+          </p>
+          <p>
+            <lb ed="#V" n="28"/>Praeterea, agens naturale non
+            <lb ed="#V" n="29"/>potest agere de novo, nisi aliquid
+            <lb ed="#V" n="30"/>ponatur novum, vel in ipso, vel in
+            <lb ed="#V" n="31"/>passo, vel habitudo nova eorum
+            <lb ed="#V" n="32"/>(hoc apparet, quia omnibus istis
+            <lb ed="#V" n="33"/>uniformiter se habentibus,
+            unifor<lb ed="#V" n="34" break="no"/>mis erit actio, cum tale agens
+            <lb ed="#V" n="35"/>agat ex necessitate naturae); ergo
+            <lb ed="#V" n="36"/>si aliquod agens naturale habet
+            <lb ed="#V" n="37"/>aliquam actionem novam, vel erit
+            <lb ed="#V" n="38"/>aliqua forma absoluta ante istam
+            <lb ed="#V" n="39"/>actionem novam in agente, vel
+            <lb ed="#V" n="40"/>alia nova in passo, vel habitudo
+            <lb ed="#V" n="41"/>nova agentis ad passum. Sed nec
+            <lb ed="#V" n="42"/>primum, nec secundum est
+            neces<lb ed="#V" n="43" break="no"/>sarium. Potest enim ignis de novo
+            <lb ed="#V" n="44"/>agere in lignum, absque hoc quod
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>anteistam actionem ignis recipiat
+            <lb ed="#V" n="46"/>novam formam, vel lignum, quia
+            <lb ed="#V" n="47"/>prima forma absoluta, quam
+            reci<lb ed="#V" n="48" break="no"/>pit lignum, est per istam
+            acti<lb ed="#V" n="49" break="no"/>onem; ergo est nova habitudo
+            ig<lb ed="#V" n="50" break="no"/>nis ad lignum absque omni
+            novi<lb ed="#V" n="51" break="no"/>tate formae absolutae. Hoc patet
+            <lb ed="#V" n="52"/>experimentaliter, quia activo
+            eo<lb ed="#V" n="53" break="no"/>dem modo se habente, secundum
+            <lb ed="#V" n="54"/>potentiam activam, et passivo
+            se<lb ed="#V" n="55" break="no"/>cundum potentiam passivam
+            pro<lb ed="#V" n="56" break="no"/>ximam, si fuerit aliquod
+            impedi<lb ed="#V" n="57" break="no"/>mentum interpositum inter ista,
+            <lb ed="#V" n="58"/>non aget istud agens in passum;
+            <lb ed="#V" n="59"/>amoto autem isto impedimento vel
+            <lb ed="#V" n="60"/>obstaculo, aget; ergo est ibi nova
+            <lb ed="#V" n="61"/>habitudo agentis ad passum sine
+            <lb ed="#V" n="62"/>nova forma absoluta. Istud
+            proba<lb ed="#V" n="63" break="no"/>tur ex intentione Philosophi 5.
+            <lb ed="#V" n="64"/>Physic. quia licet neget motum
+            <lb ed="#V" n="65"/>esse in Ad aliquid, prout ad genus
+            <lb ed="#V" n="66"/>Ad aliquid pertinent relationes
+            in<lb ed="#V" n="67" break="no"/>trinsecus advenientes, non negat
+            <lb ed="#V" n="68"/>tamen motum, vel mutationem
+            <lb ed="#V" n="69"/>esse in Ad aliquid intrinsecus
+            ad<lb ed="#V" n="70" break="no"/>veniens, imo concedit. Concedit
+            <lb ed="#V" n="71"/>enim in genere ubi esse motum
+            <lb ed="#V" n="72"/>proprie, et tamen ubi non est nisi
+            <lb ed="#V" n="73"/>respectus quidam corporis
+            cir<lb ed="#V" n="74" break="no"/>cumscribentis ad locatum, vel
+            lo<lb ed="#V" n="75" break="no"/>cati ad corpus circumscribens.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d6q10-p3"> -->
+          <p>
+            <lb ed="#V" n="32" type="fixed=620"/>SCHOLIUM.
+            <lb ed="#V" n="33"/>Refutat secundam rationem D. Thomae,
+            <lb ed="#V" n="34"/>ostendens unam relationem fundare aliam,
+            <lb ed="#V" n="35"/>nec inde dari processum, et salvans omnia
+            <lb ed="#V" n="36"/>quae attribuuntur characteri, sine ulla
+            for<lb ed="#V" n="37" break="no"/>ma absoluta. Refutat etiam tertiam
+            ratio<lb ed="#V" n="38" break="no"/>nem ejus, ostendens potestatem
+            ministe<lb ed="#V" n="39" break="no"/>rialem consistere posse in respectu.
+          </p>
+          <p>
+            <lb ed="#V" n="40"/>Secunda (a) ratio etiam habet
+            <lb ed="#V" n="41"/>majorem falsam, scilicet quod
+            <lb ed="#V" n="42"/>relatio non potest fundare
+            rela<lb ed="#V" n="43" break="no"/>tionem, quia secundum Euclidem
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="44"/>5. Geometriae in principio,
+            propor<lb ed="#V" n="45" break="no"/>tionalitas est similitudo duarum
+            <lb ed="#V" n="46"/>proportionum; ergo super
+            pro<lb ed="#V" n="47" break="no"/>portionem, quae dicit formaliter
+            <lb ed="#V" n="48"/>relationem, vel super unitatem
+            <lb ed="#V" n="49"/>ejus, fundatur similitudo. Et si
+            <lb ed="#V" n="50"/>arguas, similitudo est unitas in
+            <lb ed="#V" n="51"/>qualitate secundum Philosophum.
+            <lb ed="#V" n="52"/>5. Metaph. respondeo, etsi uno
+            <lb ed="#V" n="53"/>modo quid approprietur
+            gene<lb ed="#V" n="54" break="no"/>ri substantiae, et eodem modo
+            <lb ed="#V" n="55"/>idem et diversum, quae consequitur
+            <lb ed="#V" n="56"/>quid, inquantum quid fundatur in
+            <lb ed="#V" n="57"/>substantia, et aequale in unitate
+            <lb ed="#V" n="58"/>quantitatis stricte acceptae, simile
+            <lb ed="#V" n="59"/>in unitate qualitatis, tamen alio
+            <lb ed="#V" n="60"/>modo accipiendo, in omni genere
+            <lb ed="#V" n="61"/>invenitur quid, accipiendo rem
+            <lb ed="#V" n="62"/>illius generis praecisissime, et
+            in<lb ed="#V" n="63" break="no"/>venitur quale, accipiendo formam
+            <lb ed="#V" n="64"/>in isto genere in ratione formae,
+            <lb ed="#V" n="65"/>et invenitur quantitas virtualiter,
+            <lb ed="#V" n="66"/>et sic in omni genere invenitur
+            <lb ed="#V" n="67"/>idem, simile et aequale. Hoc modo,
+            <lb ed="#V" n="68"/>et possunt habentes relationes
+            <lb ed="#V" n="69"/>unius speciei dici similes
+            secun<lb ed="#V" n="70" break="no"/>dum unitatem unius relationis,
+            <lb ed="#V" n="71"/>sicut habentes unam formam
+            <lb ed="#V" n="72"/>substantialem secundum speciem.
+            <lb ed="#V" n="73"/>possunt dici similes secundum
+            <lb ed="#V" n="74"/>substantiam.
+          </p>
+          <p>
+            <lb ed="#V" n="75"/>Et quod adducitur de secunda
+            <lb ed="#V" n="76"/>relatione, quae fundatur in
+            cha<lb ed="#V" n="77" break="no"/>ractere, scilicet signi, respondeo,
+            <lb ed="#V" n="78"/>si signum est secundum
+            Augusti<lb ed="#V" n="79" break="no"/>num de doct. Christiana, quod proeter
+            <lb ed="#V" n="80"/>notitiam, quam ingerit sensibus, aliud
+            fa<lb ed="#V" n="81" break="no"/>cit in cognitionem venire (quod verum
+            <lb ed="#V" n="82"/>est non solum de signo sensibili,
+            <lb ed="#V" n="83"/>accipiendo sensum stricte pro
+            <lb ed="#V" n="84"/>sensu corporali, sed verum est
+            <lb ed="#V" n="85"/>etiam de sensum incorporali,
+            ac<lb ed="#V" n="86" break="no"/>cipiendo sensum generaliter pro
+            <lb ed="#V" n="87"/>potentia cognitiva), tunc dico,
+            <pb ed="#V" n="621"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>quod nihil est ex cujus cognitione
+            <lb ed="#V" n="2"/>non possit deveniri in
+            cognitio<lb ed="#V" n="3" break="no"/>nem alterius, saltem ut ex
+            cogni<lb ed="#V" n="4" break="no"/>tione posterioris in prius, quin
+            <lb ed="#V" n="5"/>illud posterius possit dici signum;
+            <lb ed="#V" n="6"/>et sic concedo, quod super
+            rela<lb ed="#V" n="7" break="no"/>tionem aliquam realem potest
+            <lb ed="#V" n="8"/>fundari relatio signi ad aliquid
+            <lb ed="#V" n="9"/>prius; sed talis relatio non
+            tan<lb ed="#V" n="10" break="no"/>tum ducit in cognitionem sui, sed
+            <lb ed="#V" n="11"/>etiam alterius. Et hoc modo si
+            <lb ed="#V" n="12"/>quis videret paternitatem in suo
+            <lb ed="#V" n="13"/>fundamento, posset esse signum
+            <lb ed="#V" n="14"/>rememorativum actus
+            generatio<lb ed="#V" n="15" break="no"/>nis praeteriti; et isto modo in
+            <lb ed="#V" n="16"/>proposito; et maxime non est
+            <lb ed="#V" n="17"/>hoc inconveniens, quia ista
+            rela<lb ed="#V" n="18" break="no"/>tio signi non est, nisi relatio
+            ra<lb ed="#V" n="19" break="no"/>tionis, loquendo de signo instituto
+            <lb ed="#V" n="20"/>ad placitum, cujusmodi est
+            cha<lb ed="#V" n="21" break="no"/>racter respectu suscepti
+            Sacra<lb ed="#V" n="22" break="no"/>menti.
+          </p>
+          <p>
+            <lb ed="#V" n="23"/>Quod additur ibi de relatione
+            <lb ed="#V" n="24"/>configurationis, sive obligationis,
+            <lb ed="#V" n="25"/>non cogit. Potest enim religiosus
+            <lb ed="#V" n="26"/>per votum religionis obligari ad
+            <lb ed="#V" n="27"/>servandum religionem, et qui
+            fe<lb ed="#V" n="28" break="no"/>cit homagium, per actum faciendi
+            <lb ed="#V" n="29"/>homagium obligari domino suo,
+            <lb ed="#V" n="30"/>et universaliter in talibus, per
+            <lb ed="#V" n="31"/>promissionem praecedentem; et
+            <lb ed="#V" n="32"/>tamen non est ibi aliqua forma
+            <lb ed="#V" n="33"/>absoluta, super quam fundatur
+            <lb ed="#V" n="34"/>ista obligatio, nec forte aliqua
+            <lb ed="#V" n="35"/>relatio nisi rationis, et ita
+            abun<lb ed="#V" n="36" break="no"/>danter posset salvari ratio
+            obli<lb ed="#V" n="37" break="no"/>gationis, si poneretur relatio
+            re<lb ed="#V" n="38" break="no"/>alis, sicut filiatio in filio posset
+            <lb ed="#V" n="39"/>esse fundamentum alicujus
+            habi<lb ed="#V" n="40" break="no"/>tudinis filii ad patrem, puta
+            obli<lb ed="#V" n="41" break="no"/>gationis ad dilectionem
+            natura<lb ed="#V" n="42" break="no"/>lem, etsi possibile esset
+            filiatio<lb ed="#V" n="43" break="no"/>nem solam esse.
+          </p>
+          <p>
+            <lb ed="#V" n="44"/>Et ad illam probationem, quod
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>tunc esset processus in infinitum
+            <lb ed="#V" n="46"/>in relationibus, dico quod non
+            va<lb ed="#V" n="47" break="no"/>let de realibus relationibus, quia
+            <lb ed="#V" n="48"/>aliqua est relatio ultima, in qua
+            <lb ed="#V" n="49"/>non potest fundari alia realis,
+            <lb ed="#V" n="50"/>sicut aliquod est accidens ita
+            ulti<lb ed="#V" n="51" break="no"/>mum in entibus, quod non potest
+            <lb ed="#V" n="52"/>ulterius esse subjectum alicujus
+            <lb ed="#V" n="53"/>accidentis, et ideo non sequitur,
+            <lb ed="#V" n="54"/>si accidens potest esse in
+            acci<lb ed="#V" n="55" break="no"/>dente, quod in accidentibus est
+            <lb ed="#V" n="56"/>processus in infinitum. De
+            rela<lb ed="#V" n="57" break="no"/>tionibus tamen rationis bene
+            con<lb ed="#V" n="58" break="no"/>cedo quod ibi potest esse
+            proces<lb ed="#V" n="59" break="no"/>sus in infinitum, quia quaelibet
+            <lb ed="#V" n="60"/>relatio sive realis, sive rationis,
+            <lb ed="#V" n="61"/>potest ulterius fundare aliam
+            re<lb ed="#V" n="62" break="no"/>lationem rationis.
+          </p>
+          <p>
+            <lb ed="#V" n="63"/>Tertia etiam (b) ratio non valet,
+            <lb ed="#V" n="64"/>quia vel aequivocat de potestate,
+            <lb ed="#V" n="65"/>vel habet unam propositionem
+            <lb ed="#V" n="66"/>falsam. Si enim accipiatur
+            potes<lb ed="#V" n="67" break="no"/>tas simpliciter ad aliquem
+            ac<lb ed="#V" n="68" break="no"/>tum, qui sine illa potestate
+            sim<lb ed="#V" n="69" break="no"/>pliciter non posset haberi, sic
+            <lb ed="#V" n="70"/>nego characterem esse
+            potesta<lb ed="#V" n="71" break="no"/>tem. Nam baptizatus in nullum
+            <lb ed="#V" n="72"/>actum simpliciter potest, in quem
+            <lb ed="#V" n="73"/>non posset non baptizatus, et hoc
+            <lb ed="#V" n="74"/>sive loquendo de actu in quem
+            <lb ed="#V" n="75"/>potest active, sive de actu, quem
+            <lb ed="#V" n="76"/>quodammodo potest ab alio
+            reci<lb ed="#V" n="77" break="no"/>pere; ita enim posset non
+            bapti<lb ed="#V" n="78" break="no"/>zatus inungi chrismate, sicut
+            ba<lb ed="#V" n="79" break="no"/>ptizatus, et ita posset abluere
+            si<lb ed="#V" n="80" break="no"/>cut baptizatus.
+          </p>
+          <p>
+            <lb ed="#V" n="81"/>Si autem loquamur de potestate p.
+            <lb ed="#V" n="82"/>non simpliciter, sed ministeriali,
+            <lb ed="#V" n="83"/>hoc est, per quam aliquis fit
+            con<lb ed="#V" n="84" break="no"/>veniens minister alicujus
+            princi<lb ed="#V" n="85" break="no"/>palis agentis, et sine illa
+            potesta<lb ed="#V" n="86" break="no"/>te non esset conveniens minister u
+            <lb ed="#V" n="87"/>principalis agentis; talis
+            potes<lb ed="#V" n="88" break="no"/>tas non oportet quod sit forma
+            <pb ed="#V" n="622"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>absoluta, imo sufficit in multis,
+            <lb ed="#V" n="2"/>quod sit tantummodo relatio
+            ra<lb ed="#V" n="3" break="no"/>vionis. Quod probatur secundum
+            <lb ed="#V" n="4"/>eos, quia Episcopatum non
+            di<lb ed="#V" n="5" break="no"/>cunt esse ordinem ultra
+            Sacerdo<lb ed="#V" n="6" break="no"/>tium, tamen Episcopus habet
+            <lb ed="#V" n="7"/>potestatem talem ministerialem,
+            <lb ed="#V" n="8"/>quam non habet non Episcopus;
+            <lb ed="#V" n="9"/>est enim conveniens minister in
+            <lb ed="#V" n="10"/>aliquod actu, cui Deus assistit, ut
+            <lb ed="#V" n="11"/>in actu ordinandi, et non similiter
+            <lb ed="#V" n="12"/>assisteret, si alter non Episcopus
+            <lb ed="#V" n="13"/>exequeretur similem actum.
+            Con<lb ed="#V" n="14" break="no"/>similiter constitutus judex si
+            fe<lb ed="#V" n="15" break="no"/>rat sententiam, sententia tenet;
+            <lb ed="#V" n="16"/>prius autem non tenuisset, quia
+            <lb ed="#V" n="17"/>sententia a non suo judice lata,
+            <lb ed="#V" n="18"/>nulla est ipso jure; nec tamen ille
+            <lb ed="#V" n="19"/>judex, nec ille Episcopus habet
+            ali<lb ed="#V" n="20" break="no"/>quam formam absolutam realem,
+            <lb ed="#V" n="21"/>nec forte relativam, nisi tantum
+            <lb ed="#V" n="22"/>rationis, quam prius non habebat.
+            <lb ed="#V" n="23"/>Per illam enim relationem
+            ratio<lb ed="#V" n="24" break="no"/>nis, qua ipse a principe
+            institui<lb ed="#V" n="25" break="no"/>tur judex, voluntas principis
+            ra<lb ed="#V" n="26" break="no"/>tificat sententiam ab eo latam, et
+            <lb ed="#V" n="27"/>vult eam observari; non autem
+            <lb ed="#V" n="28"/>ratificat sententiam alterius non
+            <lb ed="#V" n="29"/>constituti judicis, nec vult illam
+            <lb ed="#V" n="30"/>observari. Et ita iste per illam
+            <lb ed="#V" n="31"/>habitudinem ad voluntatem
+            prin<lb ed="#V" n="32" break="no"/>cipis, habet potestatem
+            ministe<lb ed="#V" n="33" break="no"/>rialem respectu principis, ut
+            prin<lb ed="#V" n="34" break="no"/>cipalis agentis ad aliquem actum
+            <lb ed="#V" n="35"/>convenienter exequendum
+            mini<lb ed="#V" n="36" break="no"/>sterialiter, quem sine tali
+            relatio<lb ed="#V" n="37" break="no"/>ne non posset convenienter
+            exe<lb ed="#V" n="38" break="no"/>qui; et multo magis posset
+            rela<lb ed="#V" n="39" break="no"/>tio rea lis, si inesset, poni talis
+            <lb ed="#V" n="40"/>potestas convenienter exequendi
+            <lb ed="#V" n="41"/>ministerialiter aliquem actum.
+            <lb ed="#V" n="42"/>Patet enim quod filius qua filius,
+            <lb ed="#V" n="43"/>potest habere aliquam
+            auctorita<lb ed="#V" n="44" break="no"/>tem exequendi aliquem actum in
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>domo patris, quem non potest non
+            <lb ed="#V" n="46"/>filius. Et iterum, nepos habet
+            ali<lb ed="#V" n="47" break="no"/>quam auctoritatem exequendi
+            a<lb ed="#V" n="48" break="no"/>liquem actum, licet inferiorem,
+            <lb ed="#V" n="49"/>quem non potest non nepos; et
+            po<lb ed="#V" n="50" break="no"/>testas ista sic praecipiendi vel
+            im<lb ed="#V" n="51" break="no"/>perandi non est nisi cognatio vel
+            <lb ed="#V" n="52"/>filiatio.
+          </p>
+          <p>
+            <lb ed="#V" n="53"/>Sic etiam apparet ad illas
+            pote<lb ed="#V" n="54" break="no"/>states, de quibus arguitur in
+            spe<lb ed="#V" n="55" break="no"/>ciali. Nam potestas ordinandi et
+            <lb ed="#V" n="56"/>confirmandi, si est activa, non est
+            <lb ed="#V" n="57"/>nisi ad ministrandum
+            convenien<lb ed="#V" n="58" break="no"/>ter in tali actu tali domino, ut ipse
+            <lb ed="#V" n="59"/>ad actum ministerialem
+            hujusmo<lb ed="#V" n="60" break="no"/>di assistat, operando
+            principali<lb ed="#V" n="61" break="no"/>ter, eo modo quo non assisteret
+            <lb ed="#V" n="62"/>simili ministerio exhibito ab alio.
+            <lb ed="#V" n="63"/>Character autem Baptismalis, si
+            <lb ed="#V" n="64"/>ponitur potestas passiva, non
+            po<lb ed="#V" n="65" break="no"/>nitur passiva, nec ut receptiva,
+            <lb ed="#V" n="66"/>neque ut ratio recipiendi; nihil
+            <lb ed="#V" n="67"/>enim absolute potest recipere
+            ani<lb ed="#V" n="68" break="no"/>ma baptizati, quod non possit
+            re<lb ed="#V" n="69" break="no"/>cipere anima non baptizati; sed
+            <lb ed="#V" n="70"/>est potestas quaedam relativa de
+            <lb ed="#V" n="71"/>congruo ordinata a principali
+            a<lb ed="#V" n="72" break="no"/>gente disponente agere in passum
+            <lb ed="#V" n="73"/>habens talem formam, et non in
+            <lb ed="#V" n="74"/>aliud passum. Talis autem forma
+            <lb ed="#V" n="75"/>relativa de congruo respectu
+            ali<lb ed="#V" n="76" break="no"/>cujus agentis principalis
+            volunta<lb ed="#V" n="77" break="no"/>rie potest esse sola relatio, sicut
+            <lb ed="#V" n="78"/>aliquis disponit agere aliquid in
+            <lb ed="#V" n="79"/>aliquem, quia filius, vel quia
+            con<lb ed="#V" n="80" break="no"/>sanguineus, nolens aliquid simile
+            <lb ed="#V" n="81"/>causare in non habente talem
+            re<lb ed="#V" n="82" break="no"/>lationem.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d6q10-p4"> -->
+          <p>
+            <lb ed="#V" n="60" type="fixed=625"/>SCHOLIUM.
+            <lb ed="#V" n="61"/>Rejicit quartam rationem D. Thom. quia
+            <lb ed="#V" n="62"/>destruit primam, et resolvit, non obstantibus
+            <lb ed="#V" n="63"/>rationibus allatis, posse defendi characterem
+            <lb ed="#V" n="64"/>esse relationem extrinsecus advenientem.
+            <lb ed="#V" n="65"/>Favet Trid. ss. 7. can. 9. dicens esse signum.
+            <lb ed="#V" n="66"/>De hujusmodi relationibus agit 3. dist. 1.
+            <lb ed="#V" n="67"/>quaest. 1. et infr. d. 13. quaest. 1.
+          </p>
+          <p>
+            <lb ed="#V" n="68"/>Quarta (c) vero ratio destruit
+            <lb ed="#V" n="69"/>primam. Si enim universaliter in
+            <lb ed="#V" n="70"/>aliis Sacramentis causaretur
+            re<lb ed="#V" n="71" break="no"/>latio nova ad actionem vel
+            passi<lb ed="#V" n="72" break="no"/>onem Sacramenti, et non
+            chara<lb ed="#V" n="73" break="no"/>cter, ergo est ibi relatio nova
+            <lb ed="#V" n="74"/>sive absolutio aliquo novo, nisi
+            <lb ed="#V" n="75"/>fingas in quolibet alio poni
+            ali<lb ed="#V" n="76" break="no"/>quod absolutum correspondens
+            <lb ed="#V" n="77"/>characteri, utpote ornatum
+            quem<lb ed="#V" n="78" break="no"/>dam. Sed si ille ornatus est forma
+            <lb ed="#V" n="79"/>supernaturalis, erit indelebilis, eo
+            <lb ed="#V" n="80"/>modo quo character est
+            indele<lb ed="#V" n="81" break="no"/>bilis, quia non poterit habere
+            cau<lb ed="#V" n="82" break="no"/>sam demeritoriam. Et tunc
+            vide<lb ed="#V" n="83" break="no"/>tur fictio, quare non possit dici
+            <lb ed="#V" n="84"/>character, cum sit forma prior
+            <lb ed="#V" n="85"/>ipso effectu principali
+            Sacramen<lb ed="#V" n="86" break="no"/>ti, et forma indelebilis, quare
+            <pb ed="#V" n="626"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>etiam ille ornatus non poterit
+            <lb ed="#V" n="2"/>habere effectum suum, cessante
+            <lb ed="#V" n="3"/>fictione in aliis Sacramentis, sicut
+            <lb ed="#V" n="4"/>ponitur character in Sacramentis
+            <lb ed="#V" n="5"/>imprimentibus characterem.
+          </p>
+          <p>
+            <lb ed="#V" n="6"/>Respondeo ergo, quod ratio
+            ni<lb ed="#V" n="7" break="no"/>hil probat, nisi quod character
+            <lb ed="#V" n="8"/>non est quaecumque relatio ad
+            <lb ed="#V" n="9"/>actionem vel passionem
+            Sacra<lb ed="#V" n="10" break="no"/>menti; sicut si esset forma
+            abso<lb ed="#V" n="11" break="no"/>luta, non esset quaecumque
+            abso<lb ed="#V" n="12" break="no"/>luta, quia in aliis Sacramentis,
+            <lb ed="#V" n="13"/>secundum istos, imprimitur
+            ali<lb ed="#V" n="14" break="no"/>qua forma absoluta, sed non
+            cha<lb ed="#V" n="15" break="no"/>racter. Et propter hoc potest dici,
+            <lb ed="#V" n="16"/>quod non in quolibet alio
+            Sacra<lb ed="#V" n="17" break="no"/>mento imprimitur aliqua relatio
+            <lb ed="#V" n="18"/>manens post actum; character
+            <lb ed="#V" n="19"/>autem si est relatio, manet post
+            <lb ed="#V" n="20"/>actum suscepti Baptismi, imo
+            <lb ed="#V" n="21"/>semper. Non obstantibus ergo
+            <lb ed="#V" n="22"/>istis rationibus, quae non
+            conclu<lb ed="#V" n="23" break="no"/>dunt, ut visum est, potest dici
+            <lb ed="#V" n="24"/>characterem esse tantummodo
+            <lb ed="#V" n="25"/>quemdam respectum extrinsecus
+            <lb ed="#V" n="26"/>advenientem ipsi animae,
+            causa<lb ed="#V" n="27" break="no"/>tum a Deo immediate in
+            suscepti<lb ed="#V" n="28" break="no"/>one Sacramenti initerabilis, quia
+            <lb ed="#V" n="29"/>sic ponendo saltem omnes
+            condi<lb ed="#V" n="30" break="no"/>tiones salvantur, quae
+            communi<lb ed="#V" n="31" break="no"/>ter attribuuntur characteri.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d6q10-p5"> -->
+          <p>
+            <lb ed="#V" n="55" type="fixed=626"/>SCHOLIUM.
+            <lb ed="#V" n="56"/>Tenendo characterem esse respectum, ut
+            <lb ed="#V" n="57"/>tenet Albert. supra, refutat sententiam, quae
+            <lb ed="#V" n="58"/>videtur D. Thom. dicentem fundari in actu
+            <lb ed="#V" n="59"/>praeterito. Primo, quia fundamentum et
+            re<lb ed="#V" n="60" break="no"/>spectus sunt in eodem subjecto. Secundo,
+            <lb ed="#V" n="61"/>non ens nequit fundare ens reale. Tertio,
+            <lb ed="#V" n="62"/>sequeretur characterem non esse
+            annihila<lb ed="#V" n="63" break="no"/>bilem. Resolvit fundari in anima ejusve
+            <lb ed="#V" n="64"/>potentia.
+          </p>
+          <p>
+            <lb ed="#V" n="65"/>Sed restant duo dubia. Primum,
+            <lb ed="#V" n="66"/>de fundamento proximo illius
+            rela<lb ed="#V" n="67" break="no"/>tionis. Aliud, quo modo possunt
+            <lb ed="#V" n="68"/>characteres diversorum
+            Sacra<lb ed="#V" n="69" break="no"/>mentorum distingui ab invicem. 4
+            <lb ed="#V" n="70"/>De primo, videretur alicui, quod
+            <lb ed="#V" n="71"/>actus susceptionis Sacramenti
+            <lb ed="#V" n="72"/>transiens in praeteritum, esset
+            <lb ed="#V" n="73"/>proximum fundamentum, vel
+            pro<lb ed="#V" n="74" break="no"/>xima ratio fundandi istam
+            rela<lb ed="#V" n="75" break="no"/>tionem. Sed istud est falsum
+            spe<lb ed="#V" n="76" break="no"/>cialiter in proposito, quia ratio
+            <lb ed="#V" n="77"/>fundandi et relatio sunt in eodem
+            <lb ed="#V" n="78"/>subjecto proximo; susceptio
+            au<lb ed="#V" n="79" break="no"/>tem Sacramenti et character, licet
+            <lb ed="#V" n="80"/>sint in eodem supposito, non
+            ta<lb ed="#V" n="81" break="no"/>men in eodem subjecto proximo,
+            <lb ed="#V" n="82"/>quia susceptio Baptismi infuit
+            <lb ed="#V" n="83"/>secundum corpus, character
+            se<lb ed="#V" n="84" break="no"/>cundum animam.
+          </p>
+          <p>
+            <pb ed="#V" n="627"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Istud etiam est generaliter
+            fal<lb ed="#V" n="2" break="no"/>sum hic et in aliis, propter duo.
+            <lb ed="#V" n="3"/>Primo, quia non ens non potest
+            <lb ed="#V" n="4"/>esse fundamentum, vel ratio
+            fun<lb ed="#V" n="5" break="no"/>dandi aliquam relationem realem,
+            <lb ed="#V" n="6"/>quia nec terminus. Propter hoc
+            <lb ed="#V" n="7"/>enim ponitur contradictio relatio
+            <lb ed="#V" n="8"/>rationis, quia habet fundamentum
+            <lb ed="#V" n="9"/>vel terminum, negationem; actus
+            <lb ed="#V" n="10"/>autem transiens in praeteritum,
+            <lb ed="#V" n="11"/>postquam transiit, simpliciter non
+            <lb ed="#V" n="12"/>est; ergo postquam transiit, nulla
+            <lb ed="#V" n="13"/>relatio talis fundatur super eum.
+            <lb ed="#V" n="14"/>Hoc secundo patet, quia ad
+            termi<lb ed="#V" n="15" break="no"/>num immutabilem super
+            funda<lb ed="#V" n="16" break="no"/>mentum omnino immutabile, non
+            <lb ed="#V" n="17"/>potest fundari relatio, nisi
+            simpli<lb ed="#V" n="18" break="no"/>citer immutabilis, et etiam
+            neces<lb ed="#V" n="19" break="no"/>sario inhaerens fundamento. Unde
+            <lb ed="#V" n="20"/>si aliqua essentia creaturae esset
+            <lb ed="#V" n="21"/>simpliciter immutabilis, relatio
+            <lb ed="#V" n="22"/>illius ad Deum esset simpliciter
+            <lb ed="#V" n="23"/>immutabilis; ergo si character
+            <lb ed="#V" n="24"/>dicat aliquem relationem ad Deum,
+            <lb ed="#V" n="25"/>(de quo patet, quod est terminus
+            <lb ed="#V" n="26"/>immutabilis, et fundatur in actu
+            <lb ed="#V" n="27"/>ut praeteritus est, cum actus
+            prae<lb ed="#V" n="28" break="no"/>teritus, ut praeteritus, sit
+            simpli<lb ed="#V" n="29" break="no"/>ter necessarius, in tantum quod
+            <lb ed="#V" n="30"/>de potentia absoluta divina non
+            po<lb ed="#V" n="31" break="no"/>test esse non praeteritus),
+            sequi<lb ed="#V" n="32" break="no"/>tur quod ista relatio realis esset
+            <lb ed="#V" n="33"/>omnino immutabilis, etiam
+            lo<lb ed="#V" n="34" break="no"/>quendo de potentia Dei absoluta.
+            <lb ed="#V" n="35"/>Hoc autem videtur inconveniens,
+            <lb ed="#V" n="36"/>quod aliqua sit relatio realis alia
+            <lb ed="#V" n="37"/>a suo fundamento, quam non
+            pos<lb ed="#V" n="38" break="no"/>sit Deus de potentia absoluta
+            de<lb ed="#V" n="39" break="no"/>lere a fundamento suo, sicut
+            po<lb ed="#V" n="40" break="no"/>sterius a priori; et illae duae
+            pro<lb ed="#V" n="41" break="no"/>bationes ultimae probant
+            paterni<lb ed="#V" n="42" break="no"/>tatem non fundari super genuisse.
+          </p>
+          <p>
+            <lb ed="#V" n="43"/>Et si adducas Philosophum
+            con<lb ed="#V" n="44" break="no"/>tra hoc, 5. Metaph. cap. de ad aliquid,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>Pater dicitur eo quod generat.
+            <lb ed="#V" n="46"/>Respondeo, actus potuit esse causa
+            <lb ed="#V" n="47"/>in fieri ipsius relationis, et quidem
+            <lb ed="#V" n="48"/>quando fuit causa, tunc relatio
+            <lb ed="#V" n="49"/>infiebat, sed non est causa in esse,
+            <lb ed="#V" n="50"/>sicut non manet, manente
+            relati<lb ed="#V" n="51" break="no"/>one; fundamentum autem non
+            tan<lb ed="#V" n="52" break="no"/>tum est causa in fieri relationis,
+            <lb ed="#V" n="53"/>sed in esse. Quid est ergo
+            funda<lb ed="#V" n="54" break="no"/>mentum paternitatis? Respondeo,
+            <lb ed="#V" n="55"/>fundamentum proximum est ipsa
+            <lb ed="#V" n="56"/>potentia generativa, non loquendo
+            <lb ed="#V" n="57"/>de respectu quem de se dicit
+            po<lb ed="#V" n="58" break="no"/>tentia, sed de isto absoluto, quod
+            <lb ed="#V" n="59"/>denominatur a respectu.
+          </p>
+          <p>
+            <lb ed="#V" n="60"/>Dico ergo a simili in proposito,
+            <lb ed="#V" n="61"/>si character ponatur relatio realis,
+            <lb ed="#V" n="62"/>ejus fundamentum proximum est
+            <lb ed="#V" n="63"/>ipsa nuda anima, sive essentia,
+            <lb ed="#V" n="64"/>sive potentia (de hoc in sequenti
+            <lb ed="#V" n="65"/>quaestione), quia respectus
+            extrin<lb ed="#V" n="66" break="no"/>secus adveniens potest fundari
+            <lb ed="#V" n="67"/>super fundamentum, ex cujus
+            prin<lb ed="#V" n="68" break="no"/>cipiis nullo modo egrediatur;
+            <lb ed="#V" n="69"/>nec fundamentum ejus proximum
+            <lb ed="#V" n="70"/>oportet determinari ad illum
+            ali<lb ed="#V" n="71" break="no"/>quo modo ex ratione sua propria,
+            <lb ed="#V" n="72"/>quia tunc non esset respectus
+            <lb ed="#V" n="73"/>extrinsecus adveniens, sed
+            tan<lb ed="#V" n="74" break="no"/>tummodo determinatur ad illum
+            <lb ed="#V" n="75"/>ab ipso agente; sic in proposito.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d6q10-p6"> -->
+          <p>
+            <lb ed="#V" n="76" type="fixed=629"/>SCHOLIUM.
+            <lb ed="#V" n="77"/>Characteres se ipsis formaliter distingui,
+            <lb ed="#V" n="78"/>et explicat optime per congruentias, quare
+            <lb ed="#V" n="79"/>tantum sint tres, et initerabiles, per
+            compa<lb ed="#V" n="80" break="no"/>rationem ad politiam mundanam.
+          </p>
+          <p>
+            <lb ed="#V" n="81"/>(e) Ad secundum dubium dico,
+            <lb ed="#V" n="82"/>quod sicut character, si poneretur
+            <lb ed="#V" n="83"/>forma absoluta, diceretur
+            distin<lb ed="#V" n="84" break="no"/>gui characteres seipsis
+            formali<lb ed="#V" n="85" break="no"/>ter, ita si ponantur respectus illi,
+            <pb ed="#V" n="630"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>licet ab extrinseco possint
+            distin<lb ed="#V" n="2" break="no"/>gui extrinsece, tamen formaliter
+            <lb ed="#V" n="3"/>distinguuntur seipsis.
+          </p>
+          <p>
+            <lb ed="#V" n="4"/>Sed si quaeras, quare ergo sunt
+            <lb ed="#V" n="5"/>tantum tres characteres?
+            Respon<lb ed="#V" n="6" break="no"/>deo, quia de hoc non faciam
+            men<lb ed="#V" n="7" break="no"/>tionem specialem in materia de
+            <lb ed="#V" n="8"/>Confirmatione vel Ordine, ideo
+            di<lb ed="#V" n="9" break="no"/>co quod hoc potest patere per
+            si<lb ed="#V" n="10" break="no"/>mile in politiis istis mundanis;
+            <lb ed="#V" n="11"/>nullus enim habet determinatum
+            <lb ed="#V" n="12"/>gradum in familia regis, quia
+            co<lb ed="#V" n="13" break="no"/>medit vel bibit, nec quia post
+            of<lb ed="#V" n="14" break="no"/>fensam dominus reconciliatur sibi,
+            <lb ed="#V" n="15"/>nec quia multiplicat personas in
+            <lb ed="#V" n="16"/>ista politia, nam isti actus
+            com<lb ed="#V" n="17" break="no"/>munes possunt esse omnibus in
+            <lb ed="#V" n="18"/>quocumque gradu; sed alium
+            gra<lb ed="#V" n="19" break="no"/>dum habet aliquis, quando
+            recipi<lb ed="#V" n="20" break="no"/>tur in familiam domini; alium
+            <lb ed="#V" n="21"/>quando ulterius proficit et
+            consti<lb ed="#V" n="22" break="no"/>tuitur, ut miles ad defendendum
+            <lb ed="#V" n="23"/>rempublicam; alium quando
+            con<lb ed="#V" n="24" break="no"/>stituitur ut supremus sub domino
+            <lb ed="#V" n="25"/>ad constituendos alios in gradibus
+            <lb ed="#V" n="26"/>determinatis in sua familia, utpote
+            <lb ed="#V" n="27"/>aliquis Senescallus generalis, ut
+            <lb ed="#V" n="28"/>immediatus sub domino, cui
+            com<lb ed="#V" n="29" break="no"/>missa est auctoritas universalis
+            <lb ed="#V" n="30"/>ad recipiendum aliquos in
+            famili<lb ed="#V" n="31" break="no"/>am domini. Et ideo si esset nomen
+            <lb ed="#V" n="32"/>impositum, quod significaret
+            gra<lb ed="#V" n="33" break="no"/>dum in familia, vel baliviam, non
+            <lb ed="#V" n="34"/>diceretur habere gradum vel
+            di<lb ed="#V" n="35" break="no"/>gnitatem aliquis, quia accedens
+            <lb ed="#V" n="36"/>ad mensam, vel quia conjugatus,
+            <lb ed="#V" n="37"/>vel quia rediens ad gratiam post
+            <lb ed="#V" n="38"/>offensam, sed diceretur tantum
+            <lb ed="#V" n="39"/>habere gradum, qui de populo
+            es<lb ed="#V" n="40" break="no"/>set assumptus in familiam domini,
+            <lb ed="#V" n="41"/>et ulteriorem gradum, qui in
+            fa<lb ed="#V" n="42" break="no"/>milia constitueretur ad
+            defenden<lb ed="#V" n="43" break="no"/>dum domum vel dominum, et
+            ulte<lb ed="#V" n="44" break="no"/>riorem, qui constitueretur
+            tan<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>quam praepositus ad recipiendum
+            <lb ed="#V" n="46"/>aliquos ad familiam, et
+            instruen<lb ed="#V" n="47" break="no"/>dum inferiores.
+          </p>
+          <p>
+            <lb ed="#V" n="48"/>Sic in proposito, tria
+            Sacramen<lb ed="#V" n="49" break="no"/>ta, scilicet Eucharistia ad
+            nutriti<lb ed="#V" n="50" break="no"/>onem spiritualem, Matrimonium
+            <lb ed="#V" n="51"/>ad procreationem corporalem,
+            <lb ed="#V" n="52"/>Poenitentia ad reconciliationem
+            <lb ed="#V" n="53"/>annualem, in nullo certo gradu
+            <lb ed="#V" n="54"/>constituunt in Ecclesia, imo
+            pos<lb ed="#V" n="55" break="no"/>sunt esse communes omni
+            mem<lb ed="#V" n="56" break="no"/>bro Ecclesiae, in quocumque
+            gra<lb ed="#V" n="57" break="no"/>du. Sed primus gradus in Ecclesia,
+            <lb ed="#V" n="58"/>et quidem universalissimus est
+            <lb ed="#V" n="59"/>recipi in familiam Christi, quod
+            <lb ed="#V" n="60"/>fit in Baptismo. Secundus
+            speci<lb ed="#V" n="61" break="no"/>alis in militiam ad defensionem
+            <lb ed="#V" n="62"/>fidei Christianae, quod fit in
+            con<lb ed="#V" n="63" break="no"/>firmatione. Tertius constitui in
+            <lb ed="#V" n="64"/>patrem et pastorem ad
+            introdu<lb ed="#V" n="65" break="no"/>cendum alios in Ecclesiam, et ad
+            <lb ed="#V" n="66"/>dirigendum et ad instruendum eos,
+            <lb ed="#V" n="67"/>quod fit in Ordine. Et sicut in
+            po<lb ed="#V" n="68" break="no"/>litia illa non congruit illas tres
+            <lb ed="#V" n="69"/>dignitates iterari, scilicet
+            recepti<lb ed="#V" n="70" break="no"/>onem in familiam, promotionem
+            <lb ed="#V" n="71"/>ad militiam, et praelationem ad
+            <lb ed="#V" n="72"/>doctrinam, bene tamen iterari
+            <lb ed="#V" n="73"/>possunt nutritio, et procreatio, et
+            <lb ed="#V" n="74"/>reconciliatio; ita in proposito,
+            <lb ed="#V" n="75"/>tria Sacramenta non decet iterari,
+            <lb ed="#V" n="76"/>alia autem iterantur, et in non
+            <lb ed="#V" n="77"/>iterandis gradus initerabilis
+            ac<lb ed="#V" n="78" break="no"/>quiritur, et character dicitur, in
+            <lb ed="#V" n="79"/>iterandis autem non.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d6q10-p7"> -->
+          <p>
+            <lb ed="#V" n="48" type="fixed=631"/>SCHOLIUM.
+            <lb ed="#V" n="49"/>Resolutive tenet ut problema, characterem
+            <lb ed="#V" n="50"/>esse formam absolutam, vel relationem
+            re<lb ed="#V" n="51" break="no"/>alem extrinsecam. Ex quo constat Vasq. 3.
+            <lb ed="#V" n="52"/>p. d. 34. cap. 2. falso imposuisse Scoto, quod
+            <lb ed="#V" n="53"/>dixerit characterem esse relationem
+            rati<lb ed="#V" n="54" break="no"/>onis. Constat etiam alios esse temerarios,
+            <lb ed="#V" n="55"/>qui ob hoc Scotum temeritatis notant; imo
+            <lb ed="#V" n="56"/>non tenet esse respectum realem, ut falso ei
+            <lb ed="#V" n="57"/>imponit Sotus supra, sed tantum hoc posse
+            <lb ed="#V" n="58"/>defendi, probabilius tamen poni formam
+            <lb ed="#V" n="59"/>absolutam, ita ejus discipuli, Bassol. hic. q.
+            <lb ed="#V" n="60"/>3. Mayron. d. 7. q. 5. a. 10. Rubion. q. 2. a.
+            <lb ed="#V" n="61"/>2. Vorillon. d. 3. q. 3. concl. 1.
+          </p>
+          <p>
+            <lb ed="#V" n="62"/>(g) Ad quaestionem potest dici,
+            <lb ed="#V" n="63"/>quod sicut non potest probari
+            ali<lb ed="#V" n="64" break="no"/>quam formam realem imprimi in
+            <lb ed="#V" n="65"/>susceptione Baptismi, aliam a
+            gra<lb ed="#V" n="66" break="no"/>tia et virtutibus, et hoc neque per
+            <lb ed="#V" n="67"/>rationem naturalem, neque etiam
+            <lb ed="#V" n="68"/>per rationem evidentem ex
+            credi<lb ed="#V" n="69" break="no"/>tis manifestis, ita non potest
+            pro<lb ed="#V" n="70" break="no"/>bari characterem, si ponatur
+            for<lb ed="#V" n="71" break="no"/>ma realis, esse formam absolutam
+            <lb ed="#V" n="72"/>realem vel respectivam, quia
+            u<lb ed="#V" n="73" break="no"/>trumque salvari potest, quod sit,
+            <lb ed="#V" n="74"/>scilicet forma respectiva, sicut
+            <lb ed="#V" n="75"/>jam ostensum est, vel quod sit
+            for<lb ed="#V" n="76" break="no"/>ma realis absoluta. Si ponatur,
+            <lb ed="#V" n="77"/>non potest evidenter improbari;
+            <lb ed="#V" n="78"/>quaedam enim sunt satis
+            rationa<lb ed="#V" n="79" break="no"/>biliter concedenda de charactere.
+            <lb ed="#V" n="80"/>si ponatur esse, utpote quod est
+            <lb ed="#V" n="81"/>forma spiritualis impressa a Deo
+            cui<lb ed="#V" n="82" break="no"/>cumque suscipienti Sacramentum non
+            <lb ed="#V" n="83"/>iterabile. Et quod ex institutione.
+            <lb ed="#V" n="84"/>divina efficaciter significat
+            grati<lb ed="#V" n="85" break="no"/>am illius Sacramenti; et quod
+            di<lb ed="#V" n="86" break="no"/>sponat ad eam, sicut declaratum
+            <pb ed="#V" n="632"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>est in quaestione praecedente, quia
+            <lb ed="#V" n="2"/>est in eodem susceptivo, et ab
+            eo<lb ed="#V" n="3" break="no"/>dem agente, et forma prior et
+            im<lb ed="#V" n="4" break="no"/>perfectior; et quod sit indelebilis,
+            <lb ed="#V" n="5"/>cum non habeat causam
+            demerito<lb ed="#V" n="6" break="no"/>riam corruptivam. Et quod sit
+            <lb ed="#V" n="7"/>signum memorativum respectu
+            <lb ed="#V" n="8"/>susceptionis Sacramenti, quae
+            <lb ed="#V" n="9"/>praeteriit, et signum
+            configurati<lb ed="#V" n="10" break="no"/>vum, id est, signans obligationem
+            <lb ed="#V" n="11"/>animae ad Christum. Quod etiam
+            <lb ed="#V" n="12"/>sit forma assimilativa alteri
+            su<lb ed="#V" n="13" break="no"/>scipienti Sacramentum, et ab alio
+            <lb ed="#V" n="14"/>distinctiva, qui non suscipit.
+          </p>
+          <p>
+            <lb ed="#V" n="15"/>(h) Haec omnia, quae videntur
+            <lb ed="#V" n="16"/>rationabiliter concedenda de
+            cha<lb ed="#V" n="17" break="no"/>ractere, si ponatur forma realis
+            <lb ed="#V" n="18"/>absoluta, possunt salvari, si
+            pona<lb ed="#V" n="19" break="no"/>tur respectus realis per modum
+            <lb ed="#V" n="20"/>praedictum, sicut si est forma
+            ab<lb ed="#V" n="21" break="no"/>soluta realis. Si autem ponatur
+            <lb ed="#V" n="22"/>respectus realis, dictum est prius,
+            <lb ed="#V" n="23"/>qualiter ista salvabuntur, qualis
+            <lb ed="#V" n="24"/>respectus sit, quia extrinsecus
+            ad<lb ed="#V" n="25" break="no"/>veniens. Sed si ponatur forma
+            ab<lb ed="#V" n="26" break="no"/>soluta, necesse est dicere quod
+            <lb ed="#V" n="27"/>pertineat ad genus qualitatis, nec
+            <lb ed="#V" n="28"/>oportet declarare quomodo omnes
+            <lb ed="#V" n="29"/>istae conditiones sibi conveniant,
+            <lb ed="#V" n="30"/>quia satis patet.
+          </p>
+          <p>
+            <lb ed="#V" n="31"/>(i) Sed tunc est dubium, in qua
+            <lb ed="#V" n="32"/>specie qualitatis debeat poni?
+            Di<lb ed="#V" n="33" break="no"/>citur, quod quia est qualitas
+            su<lb ed="#V" n="34" break="no"/>pernaturalis, non oportet quod
+            <lb ed="#V" n="35"/>ponatur in genere Qualitatis
+            se<lb ed="#V" n="36" break="no"/>cundum Philosophum 10.
+            Meta<lb ed="#V" n="37" break="no"/>phys. Corruptibile et incorruptibile
+            dif<lb ed="#V" n="38" break="no"/>ferunt plusquam secundum genus.
+            Na<lb ed="#V" n="39" break="no"/>turale vero et supernaturale
+            diffe<lb ed="#V" n="40" break="no"/>runt plus quam corruptibile et
+            <lb ed="#V" n="41"/>incorruptibile, quia corruptibile
+            <lb ed="#V" n="42"/>et incorruptibile continentur sub
+            <lb ed="#V" n="43"/>uno membro, scilicet sub
+            natura<lb ed="#V" n="44" break="no"/>li; ergo multo magis naturale et
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>supernaturale plus differunt quam
+            <lb ed="#V" n="46"/>secundum genus.
+            <lb ed="#V" n="47"/>Contra, fides, spes et charitas
+            <lb ed="#V" n="48"/>sunt supernaturalia quaedam, et
+            <lb ed="#V" n="49"/>tamen conceduntur esse proprie
+            <lb ed="#V" n="50"/>in genere Qualitatis. Hoc idem
+            pa<lb ed="#V" n="51" break="no"/>tet aliter, quia naturalitas et
+            su<lb ed="#V" n="52" break="no"/>pernaturalitas non sunt
+            conditi<lb ed="#V" n="53" break="no"/>ones, nisi per comparationem ad
+            <lb ed="#V" n="54"/>agens; talis autem comparatio
+            <lb ed="#V" n="55"/>non variat aliquid quantum ad esse
+            <lb ed="#V" n="56"/>in genere, quia aliquid ponitur in
+            <lb ed="#V" n="57"/>genere secundum suam propriam
+            <lb ed="#V" n="58"/>quidditatem formalem,
+            circumscri<lb ed="#V" n="59" break="no"/>pta relatione ad agens. Nec valet
+            <lb ed="#V" n="60"/>dictum Philosophi 1. Metaph. quia
+            <lb ed="#V" n="61"/>loquitur de genere Physico; sic
+            <lb ed="#V" n="62"/>enim nulla duo sunt ejusdem
+            ge<lb ed="#V" n="63" break="no"/>neris, nisi sint transmutabilia ad
+            <lb ed="#V" n="64"/>invicem. Sed idem genus Logicum
+            <lb ed="#V" n="65"/>bene potest continere multa, quae
+            <lb ed="#V" n="66"/>non pertinent ad idem genus
+            Phy<lb ed="#V" n="67" break="no"/>sicum, ut patet de substantia
+            cor<lb ed="#V" n="68" break="no"/>porea et incorporea, et de
+            quali<lb ed="#V" n="69" break="no"/>tate corporali et spirituali.
+          </p>
+          <p>
+            <lb ed="#V" n="70"/>Aliter dicitur, quod secundum
+            <lb ed="#V" n="71"/>quod est principium configurandi,
+            <lb ed="#V" n="72"/>potest poni in quarta specie
+            Qua<lb ed="#V" n="73" break="no"/>litatis; secundum autem quod est
+            <lb ed="#V" n="74"/>principium assimilandi, poni
+            po<lb ed="#V" n="75" break="no"/>test in tertia; et, ut est potestas
+            <lb ed="#V" n="76"/>quaedam, in secunda; et ut est
+            di<lb ed="#V" n="77" break="no"/>spositio ad gratiam, in prima, quae
+            <lb ed="#V" n="78"/>est dispositio; inquantum vero
+            <lb ed="#V" n="79"/>immobiliter permanens, in prima,
+            <lb ed="#V" n="80"/>quae est habitus. Sed hoc non
+            va<lb ed="#V" n="81" break="no"/>let, quia etsi posset habere multas
+            <lb ed="#V" n="82"/>proprietates, secundum quas
+            assi<lb ed="#V" n="83" break="no"/>miletur formis diversarum
+            speci<lb ed="#V" n="84" break="no"/>erum Qualitatis, tamen non potest
+            <lb ed="#V" n="85"/>esse in se tot quidditative. Non
+            <lb ed="#V" n="86"/>enim est in se, nisi una quidditas
+            <lb ed="#V" n="87"/>simpliciter; ergo tantum erit in
+            <lb ed="#V" n="88"/>una specie.
+          </p>
+          <p>
+            <pb ed="#V" n="633"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Verumtamen istud posset
+            habe<lb ed="#V" n="2" break="no"/>re aliquam probabilitatem de una
+            <lb ed="#V" n="3"/>alia forma, quia secundum
+            verita<lb ed="#V" n="4" break="no"/>tem, illa divisio Qualitatis in
+            qua<lb ed="#V" n="5" break="no"/>tuor species, non est proprie
+            ge<lb ed="#V" n="6" break="no"/>neris in species, sed est tantum
+            <lb ed="#V" n="7"/>secundum quosdam modos
+            diver<lb ed="#V" n="8" break="no"/>sos convenientes diversis
+            quali<lb ed="#V" n="9" break="no"/>tatibus. Et forte eidem qualitati
+            <lb ed="#V" n="10"/>in se secundum essentiam,
+            pos<lb ed="#V" n="11" break="no"/>sent competere plures modi, qui
+            <lb ed="#V" n="12"/>ponuntur in diversis qualitatibus.
+            <lb ed="#V" n="13"/>Aliter dicitur, quod est in quarta
+            <lb ed="#V" n="14"/>specie Qualitatis, quia est figura
+            <lb ed="#V" n="15"/>quaedam spiritualis. Sed hoc nihil
+            <lb ed="#V" n="16"/>est, quia nil collocatur in genere
+            <lb ed="#V" n="17"/>per proprietates metaphoricas;
+            <lb ed="#V" n="18"/>alioquin Christus esset vere in
+            ge<lb ed="#V" n="19" break="no"/>nere substantiae inanimatae, quia
+            <lb ed="#V" n="20"/>dicitur Petra; et esset in genere
+            a<lb ed="#V" n="21" break="no"/>nimalis irrationalis, quia Leo
+            dici<lb ed="#V" n="22" break="no"/>tur metaphorice; et in genere
+            <lb ed="#V" n="23"/>Qualitatis, quia dicitur lux: Ego
+            <lb ed="#V" n="24"/>sum lux mundi, etc. Sed ex
+            meta<lb ed="#V" n="25" break="no"/>phoricis colligenda est propria
+            <lb ed="#V" n="26"/>conditio rei in se, et secundum
+            <lb ed="#V" n="27"/>illam collocanda est in genere et
+            <lb ed="#V" n="28"/>specie, sicut posset species
+            intel<lb ed="#V" n="29" break="no"/>ligibilis poni in quarta specie
+            <lb ed="#V" n="30"/>Qualitatis, quia configurat
+            ani<lb ed="#V" n="31" break="no"/>mam ipsi objecto cognito.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d6q10-p8"> -->
+          <p>
+            <lb ed="#V" n="23" type="fixed=634"/>SCHOLIUM.
+            <lb ed="#V" n="24"/>Refutatis opinionibus Richardi et Bonav.
+            <lb ed="#V" n="25"/>ponit characterem, si sit forma absoluta, in
+            <lb ed="#V" n="26"/>prima vel secunda specie Qualitatis; et
+            sol<lb ed="#V" n="27" break="no"/>vit quatuor rationes in contrarium. D.
+            <lb ed="#V" n="28"/>Thom. ponit in secunda specie, Alens. et D.
+            <lb ed="#V" n="29"/>Bonav. in prima.
+          </p>
+          <p>
+            <lb ed="#V" n="30"/>Respondeo (a) ergo, quod si
+            po<lb ed="#V" n="31" break="no"/>natur accidens absolutum, potest
+            <lb ed="#V" n="32"/>poni in secunda specie Qualitatis,
+            <lb ed="#V" n="33"/>vel etiam in prima; nec alterum
+            <lb ed="#V" n="34"/>istorum potest evidenter
+            improba<lb ed="#V" n="35" break="no"/>ri. Si enim arguitur sic: non est
+            <lb ed="#V" n="36"/>in secunda specie, quae est
+            poten<lb ed="#V" n="37" break="no"/>tia, quia est supernaturalis, et ad
+            <lb ed="#V" n="38"/>illam speciem secundam non
+            per<lb ed="#V" n="39" break="no"/>tinet, nisi potentia naturalis, hoc
+            <lb ed="#V" n="40"/>nihil est, quia etsi Philosophus
+            <lb ed="#V" n="41"/>non loquebatur, nisi de potentia
+            <lb ed="#V" n="42"/>naturali, exemplificando, tamen
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43"/>potentia supernaturalis, si est
+            <lb ed="#V" n="44"/>absoluta et accidentalis et
+            spiri<lb ed="#V" n="45" break="no"/>tualis, bene potest pertinere ad
+            <lb ed="#V" n="46"/>idem genus intermedium, sub
+            qua<lb ed="#V" n="47" break="no"/>litate cum potentia naturali,
+            si<lb ed="#V" n="48" break="no"/>cut et habitus supernaturalis
+            po<lb ed="#V" n="49" break="no"/>nitur pertinere ad idem genus
+            in<lb ed="#V" n="50" break="no"/>termedium cum habitu naturali.
+            <lb ed="#V" n="51"/>Si etiam ponatur in prima specie
+            <lb ed="#V" n="52"/>ut habitus, quia de difficili
+            mobi<lb ed="#V" n="53" break="no"/>lis, non potest improbari.
+          </p>
+          <p>
+            <lb ed="#V" n="54"/>Si autem contra hoc arguitur,
+            <lb ed="#V" n="55"/>quia est potentia supernaturalis,
+            <lb ed="#V" n="56"/>ergo non habitus; et
+            consequen<lb ed="#V" n="57" break="no"/>tia probatur per simile, quia
+            po<lb ed="#V" n="58" break="no"/>tentia naturalis non est habitus
+            <lb ed="#V" n="59"/>naturalis; et secundo, quia est
+            <lb ed="#V" n="60"/>dispositio ad gratiam, ergo non
+            <lb ed="#V" n="61"/>est habitus; et tertio, quia omnis
+            <lb ed="#V" n="62"/>habitus disponit ad bene vel ad
+            <lb ed="#V" n="63"/>male agendum, 2. Ethicor, sed
+            cha<lb ed="#V" n="64" break="no"/>racter non; et quarto, quia omnis
+            <lb ed="#V" n="65"/>habitus disponit ad faciliter
+            ope<lb ed="#V" n="66" break="no"/>randum, ex codem, 2. Ethicor.
+            cha<lb ed="#V" n="67" break="no"/>racter autem non.
+          </p>
+          <p>
+            <lb ed="#V" n="68"/>Haec non concludunt. Primum
+            <lb ed="#V" n="69"/>non, quia potest habitus
+            superna<lb ed="#V" n="70" break="no"/>turalis, ut est forma
+            supernatura<lb ed="#V" n="71" break="no"/>lis, de difficili mobilis esse
+            princi<lb ed="#V" n="72" break="no"/>pium agendi vel resistendi
+            cor<lb ed="#V" n="73" break="no"/>ruptivo, et sic habere rationem
+            <lb ed="#V" n="74"/>potentiae supernaturalis. Nec
+            si<lb ed="#V" n="75" break="no"/>mile illud valet, quia habitus
+            na<lb ed="#V" n="76" break="no"/>turalis dicit quamdam
+            facilita<lb ed="#V" n="77" break="no"/>tionem inductam super
+            poten<lb ed="#V" n="78" break="no"/>tiam naturalem, quia potentia
+            <lb ed="#V" n="79"/>naturalis est, qua naturaliter
+            pos<lb ed="#V" n="80" break="no"/>sumus actus quos possumus; sed
+            <lb ed="#V" n="81"/>potentia potest esse aliqua
+            su<lb ed="#V" n="82" break="no"/>pernaturalis forma spiritualis
+            im<lb ed="#V" n="83" break="no"/>mobilis, et pro tanto potest dici
+            <lb ed="#V" n="84"/>habitus, et tamen est principium
+            <lb ed="#V" n="85"/>quo possumus in talem actum
+            <lb ed="#V" n="86"/>spiritualem vel supernaturalem.
+          </p>
+          <p>
+            <pb ed="#V" n="635"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Secundum vero non cogit, quia
+            <lb ed="#V" n="2"/>bene potest esse unus habitus
+            dis<lb ed="#V" n="3" break="no"/>positio ad alium, sicut secundum
+            <lb ed="#V" n="4"/>distinguentes habitum principii
+            <lb ed="#V" n="5"/>ab habitu conclusionis, habitus
+            <lb ed="#V" n="6"/>principii disponit ad habitum
+            <lb ed="#V" n="7"/>conclusionis; nec per hoc est
+            <lb ed="#V" n="8"/>dispositio, ut distinguitur contra
+            <lb ed="#V" n="9"/>habitum in prima specie, nam illa
+            <lb ed="#V" n="10"/>est qualitas de facili mobilis per
+            <lb ed="#V" n="11"/>oppositum ad habitum.
+          </p>
+          <p>
+            <lb ed="#V" n="12"/>Tertium de bene (b) et male non
+            <lb ed="#V" n="13"/>est necessarium, quia aliquis
+            po<lb ed="#V" n="14" break="no"/>test esse actus indifferens; sicut
+            <lb ed="#V" n="15"/>enim ex frequenter bene agere
+            <lb ed="#V" n="16"/>acquiritur habitus inclinans
+            adbe<lb ed="#V" n="17" break="no"/>ne agendum. et ex frequenter
+            ma<lb ed="#V" n="18" break="no"/>le agere, inclinans ad male
+            agen<lb ed="#V" n="19" break="no"/>dum, sic ex frequenter agere
+            <lb ed="#V" n="20"/>absolute, acquiritur habilitas ad
+            <lb ed="#V" n="21"/>agendum tali actione, neque cum
+            <lb ed="#V" n="22"/>bonitate, neque cum malitia, sicut
+            <lb ed="#V" n="23"/>nec actus generativus fuit talis,
+            <lb ed="#V" n="24"/>scilicet bonus vel malus, hoc
+            pa<lb ed="#V" n="25" break="no"/>tet; potest enim aliquis
+            frequen<lb ed="#V" n="26" break="no"/>ter considerans Geometriam
+            ha<lb ed="#V" n="27" break="no"/>bere facilitatem magnam ad
+            con<lb ed="#V" n="28" break="no"/>siderandum conclusionem in illa
+            <lb ed="#V" n="29"/>scientia, nec est ibi habitus bonus
+            <lb ed="#V" n="30"/>vel malus, sicut nec actus ex quo
+            <lb ed="#V" n="31"/>generabatur, sic et in habitu
+            su<lb ed="#V" n="32" break="no"/>pernaturali potest esse.
+            <lb ed="#V" n="33"/>Et si dicas (c), quod habitus
+            <lb ed="#V" n="34"/>supernaturalis non est talis, quia
+            <lb ed="#V" n="35"/>datur ad perfectionem recipientis.
+            <lb ed="#V" n="36"/>respondeo, habitus
+            supernatura<lb ed="#V" n="37" break="no"/>lis potest esse disponens ad actum
+            <lb ed="#V" n="38"/>bonum, licet non sit ejus
+            princi<lb ed="#V" n="39" break="no"/>pium elicitivum proximum vel
+            <lb ed="#V" n="40"/>sufficiens; et hoc modo fides
+            in<lb ed="#V" n="41" break="no"/>fusa non est principium sufficiens
+            <lb ed="#V" n="42"/>eliciendi actum credendi, nec
+            cha<lb ed="#V" n="43" break="no"/>ritas infusa eliciendi actum
+            dili<lb ed="#V" n="44" break="no"/>gendi, sed inclinant, ut
+            concurren<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>tibus aliis necessariis actus bonus
+            <lb ed="#V" n="46"/>eliciatur. Et ita dico, quod
+            ali<lb ed="#V" n="47" break="no"/>quis habitus supernaturalis
+            po<lb ed="#V" n="48" break="no"/>test remotius et imperfectius
+            in<lb ed="#V" n="49" break="no"/>clinare ad actum bonum, et talis
+            <lb ed="#V" n="50"/>ponitur character tanquam
+            pri<lb ed="#V" n="51" break="no"/>mo et remotissime disponens ad
+            <lb ed="#V" n="52"/>bonos actus. Illud autem quartum
+            <lb ed="#V" n="53"/>de facilitate nihil valet, quia non
+            <lb ed="#V" n="54"/>est verum, nisi de habitu
+            acquisi<lb ed="#V" n="55" break="no"/>to; habitus enim infusus non dat
+            <lb ed="#V" n="56"/>facilitatem ad actum, ut patet de
+            <lb ed="#V" n="57"/>noviter converso, cui non est
+            fa<lb ed="#V" n="58" break="no"/>cile post conversionem actus
+            bo<lb ed="#V" n="59" break="no"/>nos elicere, sed difficile quousque
+            <lb ed="#V" n="60"/>ex frequentia actuum bonorum
+            <lb ed="#V" n="61"/>acquirat aliquam virtutem
+            ac<lb ed="#V" n="62" break="no"/>quisitam.
+          </p>
+          <p>
+            <lb ed="#V" n="63"/>Ad argumenta, ad utramque
+            <lb ed="#V" n="64"/>partem. Ad primum, si ponatur
+            <lb ed="#V" n="65"/>forma absoluta, potest poni vel
+            <lb ed="#V" n="66"/>potentia, vel habitus, secundum,
+            <lb ed="#V" n="67"/>duas vias jam dictas. Ad
+            secun<lb ed="#V" n="68" break="no"/>dum patet, in qua specie
+            Quali<lb ed="#V" n="69" break="no"/>tatis poneretur, et qualiter. Ad
+            <lb ed="#V" n="70"/>aliud, quantitas est forma
+            absolu<lb ed="#V" n="71" break="no"/>ta, et tamen non ponitur activa.
+            <lb ed="#V" n="72"/>Oportet ergo exponere, quod
+            ha<lb ed="#V" n="73" break="no"/>beat operationem respectu ejus,
+            <lb ed="#V" n="74"/>cujus sit sufficiens principium,
+            <lb ed="#V" n="75"/>vel quod aliquo modo se habeat
+            <lb ed="#V" n="76"/>ad operationem. Et sic concedo
+            <lb ed="#V" n="77"/>in proposito, quod illa forma est
+            <lb ed="#V" n="78"/>dispositio remota ad
+            operati<lb ed="#V" n="79" break="no"/>onem. Ad quartum patet ex fine
+            <lb ed="#V" n="80"/>quaestionis praecedentis.
+          </p>
+          <p>
+            <lb ed="#V" n="81"/>Ad primum in oppositum, non,
+            <lb ed="#V" n="82"/>est inconveniens aliquam
+            relatio<lb ed="#V" n="83" break="no"/>nem disponere ad formam
+            absolu<lb ed="#V" n="84" break="no"/>tam, loquendo de dispositione non
+            <lb ed="#V" n="85"/>respectu agentis naturalis, nec
+            <lb ed="#V" n="86"/>quae sit ratio receptivi, sed de
+            <lb ed="#V" n="87"/>dispositione conveniente
+            respec<lb ed="#V" n="88" break="no"/>tu agentis supernaturalis, hoc
+            <pb ed="#V" n="636"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>est, per quam habens illam, est
+            <lb ed="#V" n="2"/>convenienter natum pati a tali
+            <lb ed="#V" n="3"/>agente, quia et isto modo potest
+            <lb ed="#V" n="4"/>relatio esse dispositio respectu
+            <lb ed="#V" n="5"/>cujuscumqne agentis voluntarii,
+            <lb ed="#V" n="6"/>sicut aliquis voluntarie habet
+            fi<lb ed="#V" n="7" break="no"/>lium pro convenienti objecto,
+            si<lb ed="#V" n="8" break="no"/>ve passo alicujus actionis; alium
+            <lb ed="#V" n="9"/>autem non sine tali relatione
+            ha<lb ed="#V" n="10" break="no"/>bet pro convenienti passo, licet
+            <lb ed="#V" n="11"/>aequalis sit in omnibus absolutis
+            <lb ed="#V" n="12"/>filio.
+          </p>
+          <p>
+            <lb ed="#V" n="13"/>Ad aliud de similitudine, patet
+            <lb ed="#V" n="14"/>quomodo similitudo non tantum
+            <lb ed="#V" n="15"/>fundatur super Qualitatem, ut est
+            <lb ed="#V" n="16"/>genus distinctum, sed ut generaliter
+            <lb ed="#V" n="17"/>invenitur in omnibus formis ratio
+            <lb ed="#V" n="18"/>ejus; hoc enim modo mentaliter
+            <lb ed="#V" n="19"/>crucifixus potest dici similis
+            Chri<lb ed="#V" n="20" break="no"/>sto crucifixo corporaliter.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

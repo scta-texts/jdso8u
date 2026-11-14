@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 4, Pars 2, Quaestio 1</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 4, Pars 2, Quaestio 1</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x16">Vives, Paris, 1894, volume 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="416"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e3402"><!-- jdso8u-b4d4p2q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum adultus consentiens potest recipere effectum baptismi</head>
+        <!-- <div alias="scotus-d4q4-p1"> -->
+          <p>
+            <lb ed="#V" n="29" type="fixed=416"/>QUAESTIO IV.
+            <lb ed="#V" n="30"/>Utrum non consentiens possit recipere
+            <lb ed="#V" n="31"/>effectum Baptismi?
+          </p>
+          <p>
+            <lb ed="#V" n="32"/>Alensis 4. p. q. 18. m. 1. D. Bonav. hac 1. p. a.
+            <lb ed="#V" n="33"/>2. q. 1. D. Thom. 3. p. q. 68. a. 7. Richard.
+            <lb ed="#V" n="34"/>d. 6. a. 2. q. 3. Palud. quaest. 2. Durand. q. 7.
+            <lb ed="#V" n="35"/>Suar. 3. p. tom. 3. d. 14. s. 2. Vasq. d. 157.
+          </p>
+          <p>
+            <lb ed="#V" n="36"/>Ad primum arguitur quod non.
+            <lb ed="#V" n="37"/>Nullus dissentiens contrahit
+            Ma<lb ed="#V" n="38" break="no"/>trimonium carnale; ergo nec
+            spi<lb ed="#V" n="39" break="no"/>rituale, quia ibi non minus, sed
+            <lb ed="#V" n="40"/>magis requiritur consensus
+            spiri<lb ed="#V" n="41" break="no"/>tualis. In Baptismo autem
+            con<cb ed="#V" n="b"/><lb ed="#V" n="42" break="no"/>trahitur quoddam Matrimonium
+            <lb ed="#V" n="43"/>spirituale, quia anima
+            desponsa<lb ed="#V" n="44" break="no"/>tur Deo; ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="45"/>Item Augustinus, sicut patrinus
+            <lb ed="#V" n="46"/>respondet pro parvulo, ita adultus
+            <lb ed="#V" n="47"/>respondet pro seipso; sed si
+            pa<lb ed="#V" n="48" break="no"/>trinus non consentiat, parvulus
+            <lb ed="#V" n="49"/>pro quo respondet non baptizatur;
+            <lb ed="#V" n="50"/>ergo, etc. Videtur enim conferri
+            <lb ed="#V" n="51"/>Baptismus in virtute responsionis
+            <lb ed="#V" n="52"/>illius, qua ad quaestionem illam:
+            <lb ed="#V" n="53"/>Vis baptizari? respondet patrinus:
+            <lb ed="#V" n="54"/>Volo; et subjungit Sacerdos, et ego
+            <lb ed="#V" n="55"/>te baptizo, etc. quod autem fit sub
+            <lb ed="#V" n="56"/>conditione, si conditio non existat,
+            <lb ed="#V" n="57"/>nihil est.
+          </p>
+          <p>
+            <lb ed="#V" n="58"/>Item, in Baptismo fit quoddam
+            <lb ed="#V" n="59"/>votum abrenuntiandi Satanae, et
+            <lb ed="#V" n="60"/>adhaerendi Deo; sed nullus
+            invi<lb ed="#V" n="61" break="no"/>tus, vel dissentiens vovet, vel se
+            <lb ed="#V" n="62"/>obligat; ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="63"/>Item, magis nocet baptizato
+            <lb ed="#V" n="64"/>malitia sui, quam ministri
+            bapti<lb ed="#V" n="65" break="no"/>zantis; sed in baptizante
+            requiri<lb ed="#V" n="66" break="no"/>tur non tantum consensus, sed
+            <lb ed="#V" n="67"/>intentio baptizandi; ergo multo
+            <lb ed="#V" n="68"/>magis requiritur consensus
+            bapti<lb ed="#V" n="69" break="no"/>zati.
+          </p>
+          <p>
+            <lb ed="#V" n="70"/>Contra, Extravag. de Baptismo, et
+            <lb ed="#V" n="71"/>ejus effectu, cap. Majores. Qui
+            terro<lb ed="#V" n="72" break="no"/>ribus atque suppliciis violenter
+            <lb ed="#V" n="73"/>attrahitur, ne detrimentum
+            incur<lb ed="#V" n="74" break="no"/>rat Baptismi, suscipit
+            Sacramen<lb ed="#V" n="75" break="no"/>tum talis, sicut et is, qui ficte ad
+            <lb ed="#V" n="76"/>Baptismum accedit, characterem
+            <lb ed="#V" n="77"/>suscipit christianitatis
+            impres<lb ed="#V" n="78" break="no"/>sum; et ipse tanquam
+            conditiona<lb ed="#V" n="79" break="no"/>liter volens, licet absolute non
+            <lb ed="#V" n="80"/>velit, cogendus est ad
+            observati<lb ed="#V" n="81" break="no"/>onem fidei Christianae; ergo
+            abso<lb ed="#V" n="82" break="no"/>lute non volens recipit
+            Sacra<lb ed="#V" n="83" break="no"/>mentum Baptismi.
+          </p>
+          <p>
+            <pb ed="#V" n="417"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>SCHOLIUM.
+            <lb ed="#V" n="2"/>Adultum a nativitate furiosum,
+            baptizan<lb ed="#V" n="3" break="no"/>dum esse, sicut infantem, expectandum
+            <lb ed="#V" n="4"/>tamen lucidum intervallum, si speratur;
+            <lb ed="#V" n="5"/>furiosum, quandoque ratione usum, juxta
+            <lb ed="#V" n="6"/>desiderium quod ante furiam habuit erga
+            <lb ed="#V" n="7"/>Baptismum, baptizandum esse, vel non.
+          </p>
+          <p>
+            <lb ed="#V" n="8"/>Hic distinguo (a), tam ex parte
+            <lb ed="#V" n="9"/>ejus, qui dicitur adultus, quam ex
+            <lb ed="#V" n="10"/>parte ejus, qui dicitur non volens.
+            <lb ed="#V" n="11"/>De primo, aut adultus non utitur
+            <lb ed="#V" n="12"/>nunc ratione, nec est usus
+            un<lb ed="#V" n="13" break="no"/>quam, ut furiosus, vel fatuus a
+            <lb ed="#V" n="14"/>nativitate; aut non utitur nunc
+            <lb ed="#V" n="15"/>ratione, sed aliquando est usus;
+            <lb ed="#V" n="16"/>aut tertio nunc utitur actualiter
+            <lb ed="#V" n="17"/>ratione.
+          </p>
+          <p>
+            <lb ed="#V" n="18"/>De primo breviter dicendum est,
+            <lb ed="#V" n="19"/>sicut de parvulo, nisi quod in hoc
+            <lb ed="#V" n="20"/>est differentia, quod si speratur
+            ip<lb ed="#V" n="21" break="no"/>sum aliquando curandum, et
+            usu<lb ed="#V" n="22" break="no"/>rum ratione, expectandum est
+            tem<lb ed="#V" n="23" break="no"/>pus illud, ut cum majori reverentia
+            <lb ed="#V" n="24"/>suscipiat Sacramentum. Si autem
+            <lb ed="#V" n="25"/>desperatur de eo quod ad usum
+            <lb ed="#V" n="26"/>rationis nunquam attingat, statim
+            <lb ed="#V" n="27"/>conferendum est sibi
+            Sacramen<lb ed="#V" n="28" break="no"/>tum, quia nulli Deus excludit
+            re<lb ed="#V" n="29" break="no"/>medium ad salutem.
+          </p>
+          <p>
+            <lb ed="#V" n="30"/>De secundo, scilicet nunc non
+            <lb ed="#V" n="31"/>utente, qui aliquando tamen usus
+            <lb ed="#V" n="32"/>est ratione, dico quod supponitur
+            <lb ed="#V" n="33"/>nunc habitualiter consentiens vel
+            <lb ed="#V" n="34"/>dissentiens, secundum quod se
+            ha<lb ed="#V" n="35" break="no"/>buit in sanitate, ante istud
+            impe<lb ed="#V" n="36" break="no"/>dimentum immediate, scilicet si
+            <lb ed="#V" n="37"/>tunc actualiter consensit, judicatur
+            <lb ed="#V" n="38"/>nunc habitualiter consentiens; si
+            <lb ed="#V" n="39"/>tunc actualiter dissensit, nunc
+            ju<lb ed="#V" n="40" break="no"/>dicatur habitualiter dissentiens. Et
+            <lb ed="#V" n="41"/>dixi, immediate, ita quod inter
+            ac<lb ed="#V" n="42" break="no"/>tum illum et istud impedimentum,
+            <lb ed="#V" n="43"/>non intervenit motus voluntatis
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="44"/>oppositus. Et sic universaliter
+            <lb ed="#V" n="45"/>dico, quod iste habitualiter se
+            ha<lb ed="#V" n="46" break="no"/>bens, potest recipere
+            Sacramen<lb ed="#V" n="47" break="no"/>tum, sicut patuit prius, quando
+            <lb ed="#V" n="48"/>actu sic vel sic se habuit
+            Qua<lb ed="#V" n="49" break="no"/>liter autem actualiter se habens,
+            <lb ed="#V" n="50"/>possit baptizari, statim dicetur in
+            <lb ed="#V" n="51"/>tertio membro.
+          </p>
+          <p>
+            <lb ed="#V" n="52"/>Sed, expeditne talem baptizari?
+            <lb ed="#V" n="53"/>Multa enim licet, quae non
+            expe<lb ed="#V" n="54" break="no"/>diunt, 1. Corinth. 6. Respondeo, si
+            <lb ed="#V" n="55"/>speretur eum rediturum ad usum
+            <lb ed="#V" n="56"/>rationis, magis expedit tempus
+            <lb ed="#V" n="57"/>expectare, quo uteretur ratione,
+            <lb ed="#V" n="58"/>puta de dormiente, tempus vigiliae
+            <lb ed="#V" n="59"/>expedit expectare, et de furioso
+            <lb ed="#V" n="60"/>tempus lucidi intervalli. Si autem
+            <lb ed="#V" n="61"/>non speretur, puta de eo, qui
+            <lb ed="#V" n="62"/>incidit in perpetuum
+            impedimen<lb ed="#V" n="63" break="no"/>tum usus rationis, eum expedit
+            <lb ed="#V" n="64"/>baptizare, si tamen est capax
+            <lb ed="#V" n="65"/>Baptismi, quia alias exponeretur
+            <lb ed="#V" n="66"/>periculo damnationis. Qualiter
+            au<lb ed="#V" n="67" break="no"/>tem sit capax, statim dicetur de
+            <lb ed="#V" n="68"/>utente ratione.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d4q4-p2"> -->
+          <p>
+            <lb ed="#V" n="5" type="fixed=419"/>SCHOLIUM.
+            <lb ed="#V" n="6"/>Nullum esse Baptismum datum nolenti
+            <lb ed="#V" n="7"/>illud, secus si ex metu velit. Ratio primi,
+            <lb ed="#V" n="8"/>quia Deus neminem invitum suae familiae
+            <lb ed="#V" n="9"/>adscribit. Ratio secundi, quia talis
+            simplici<lb ed="#V" n="10" break="no"/>ter vult. Utraque pars habetur, cap. Majores,
+            <lb ed="#V" n="11"/>de Bapt. Item sufficere intentionem
+            virtua<lb ed="#V" n="12" break="no"/>lem ad Baptismum. De triplici intentione vide
+            <lb ed="#V" n="13"/>Scot. 2. d. 41. et infra d. 9.q. 4. Requiri autem
+            <lb ed="#V" n="14"/>aliquam intentionem tenent citati, et omnes,
+            <lb ed="#V" n="15"/>et colligitur ex Carthag. Ill. cap. 34. et Araus.
+            <lb ed="#V" n="16"/>1. c. 12 et cap. Majores de Bapt. Unde Cajet. 3.
+            <lb ed="#V" n="17"/>p. q. 68. art. 7. dicens nullum consensum
+            <lb ed="#V" n="18"/>baptizati requiri, cum glossa c. Solet. v.
+            im<lb ed="#V" n="19" break="no"/>plorand. de consecr. d. 4. merito
+            reprehen<lb ed="#V" n="20" break="no"/>duntur.
+          </p>
+          <p>
+            <lb ed="#V" n="21"/>De tertio membro (b), scilicet
+            <lb ed="#V" n="22"/>de adulto utente ratione, distinguo
+            <lb ed="#V" n="23"/>de eo, quod ponitur in quaestionc,
+            <lb ed="#V" n="24"/>non consentiens, quod potest intelligi
+            <lb ed="#V" n="25"/>contrarie vel negative. Negative
+            <lb ed="#V" n="26"/>tantum negat actualem
+            consen<lb ed="#V" n="27" break="no"/>sum; contrarie vero ponit actualem
+            <lb ed="#V" n="28"/>dissensum, et patet distinctio, quia
+            <lb ed="#V" n="29"/>non est idem non velle et nolle: si
+            <lb ed="#V" n="30"/>autem accipiatur contrarie, pro
+            dis<lb ed="#V" n="31" break="no"/>sentiente actu, aut dissentit
+            sim<lb ed="#V" n="32" break="no"/>pliciter, aut secundum quid; et
+            in<lb ed="#V" n="33" break="no"/>telligo simpliciter, sicut est
+            exposi<lb ed="#V" n="34" break="no"/>tum in tertio libro, quod ille, qui
+            <lb ed="#V" n="35"/>ut fugiat aliquod incommodum,
+            <lb ed="#V" n="36"/>vult aliquid, simpliciter vult illud,
+            <lb ed="#V" n="37"/>sicut projiciens merces in mare,
+            <lb ed="#V" n="38"/>ut fugiat submersionem,
+            simplici<lb ed="#V" n="39" break="no"/>ter vult projicere merces. Nam
+            <lb ed="#V" n="40"/>potentiam suam motivam ad
+            pro<lb ed="#V" n="41" break="no"/>jiciendum, voluntas movet
+            impe<lb ed="#V" n="42" break="no"/>rando, et ipsa seipsam libere
+            mo<lb ed="#V" n="43" break="no"/>vet, quia cogi non potest.
+            Simplici<lb ed="#V" n="44" break="no"/>ter ergo volens projicit, sed
+            se<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>cundum quid nolens, hoc est, sub
+            <lb ed="#V" n="46"/>conditione nolens, quia nollet, si
+            <lb ed="#V" n="47"/>posset alio modo salvare vitam.
+          </p>
+          <p>
+            <lb ed="#V" n="48"/>Si ergo iste sit utroque modo
+            <lb ed="#V" n="49"/>dissentiens, dico quod non recipit
+            <lb ed="#V" n="50"/>Sacramentum, quia Deus per
+            Sa<lb ed="#V" n="51" break="no"/>pientem dicit Proverb. 23. Fili
+            proe<lb ed="#V" n="52" break="no"/>be mihi cor tuum, nolens aliquem
+            <lb ed="#V" n="53"/>omnino invitum adscribi familiae
+            <lb ed="#V" n="54"/>suae; suscipiens autem Baptismum,
+            <lb ed="#V" n="55"/>adscribitur per hoc familiae Chriti.
+            <lb ed="#V" n="56"/>Nec oportet hic distinguere de
+            re<lb ed="#V" n="57" break="no"/>clamante sive protestante, signo
+            <lb ed="#V" n="58"/>exteriori, suum dissensum, et de
+            <lb ed="#V" n="59"/>non reclamante, quia in rei
+            veri<lb ed="#V" n="60" break="no"/>tate si est dissensus, omnino idem
+            <lb ed="#V" n="61"/>est quoad Deum; tamen quantum
+            <lb ed="#V" n="62"/>ad judicium Ecclesiae judicantis de
+            <lb ed="#V" n="63"/>manifestis, et eum qui tacet
+            prae<lb ed="#V" n="64" break="no"/>sumentis consentire, non cogetur
+            <lb ed="#V" n="65"/>reclamans ad observantiam
+            reli<lb ed="#V" n="66" break="no"/>gionis Christianae, cogetur autem
+            <lb ed="#V" n="67"/>non reclamans. Nec in hoc potest
+            <lb ed="#V" n="68"/>argui Ecclesia, quod isti nolenti,
+            <lb ed="#V" n="69"/>tamen non reclamanti fiat injuria.
+            <lb ed="#V" n="70"/>Minus enim malum est sibi, quod
+            <lb ed="#V" n="71"/>invitus servet legem Christianam,
+            <lb ed="#V" n="72"/>quam quod impune permittatur
+            <lb ed="#V" n="73"/>agere contra eam, quia minus
+            ma<lb ed="#V" n="74" break="no"/>lum est invitum aliqua bona
+            face<lb ed="#V" n="75" break="no"/>re, et mala fugere, quam libere et
+            <lb ed="#V" n="76"/>impune mala agere, et bona
+            dimit<lb ed="#V" n="77" break="no"/>tere.
+          </p>
+          <p>
+            <lb ed="#V" n="78"/>Si autem secundum quid
+            dissen<lb ed="#V" n="79" break="no"/>tiat, sed simpliciter consentit, et
+            <lb ed="#V" n="80"/>hoc non tantum in illam
+            abluti<lb ed="#V" n="81" break="no"/>onem, tanquam in quoddam
+            bal<lb ed="#V" n="82" break="no"/>neum, sed in ablutionem eo modo
+            <lb ed="#V" n="83"/>quo illam intendit facere Ecclesia,
+            <lb ed="#V" n="84"/>ille simpliciter recipit
+            Sacramen<lb ed="#V" n="85" break="no"/>tum, quia simpliciter est volens,
+            <lb ed="#V" n="86"/>licet secundum quid nolens, et de
+            <lb ed="#V" n="87"/>tali loquitur illud Concilium
+            To<lb ed="#V" n="88" break="no"/>letanum, quod allegatur Extrav. de
+            <pb ed="#V" n="420"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Baptismo, et ejus effectibus, cap.
+            <lb ed="#V" n="2"/>Majores: Quod illi, qui jam pridem ad
+            <lb ed="#V" n="3"/>Christianitatem coacti sunt, quia jam
+            <lb ed="#V" n="4"/>constat Sacramentis divinis associatos,
+            <lb ed="#V" n="5"/>oportet ut fidem, quam necessitate
+            susce<lb ed="#V" n="6" break="no"/>perunt, tenere cogantur, ne nomen
+            Do<lb ed="#V" n="7" break="no"/>mini blasphemetur, et fides, quam
+            susce<lb ed="#V" n="8" break="no"/>perunt, contemptibilis habeatur.
+          </p>
+          <p>
+            <lb ed="#V" n="9"/>Exemplum hujus, qualiter
+            ali<lb ed="#V" n="10" break="no"/>quis potest consentire in illam
+            <lb ed="#V" n="11"/>ablutionem suscipiendam, eo
+            mo<lb ed="#V" n="12" break="no"/>do quo confertur ab Ecclesia, et
+            <lb ed="#V" n="13"/>tamen nollet, si posset evadere
+            <lb ed="#V" n="14"/>tormenta, quia non credit eam
+            ali<lb ed="#V" n="15" break="no"/>quid valere; sicut potest haberi de
+            <lb ed="#V" n="16"/>eo, qui non credit verba
+            incanta<lb ed="#V" n="17" break="no"/>tionis posse habere aliquem
+            effe<lb ed="#V" n="18" break="no"/>ctum, tamen concedit incantanti,
+            <lb ed="#V" n="19"/>quod dicat illa verba super eum,
+            <lb ed="#V" n="20"/>ea intentione, qua solet ea dicere,
+            <lb ed="#V" n="21"/>dicendo in corde suo, valeant
+            quan<lb ed="#V" n="22" break="no"/>tum valere poterunt, iste vere
+            di<lb ed="#V" n="23" break="no"/>ceretur incantatus; et si talis
+            in<lb ed="#V" n="24" break="no"/>cantatio super aliquem diceretur
+            <lb ed="#V" n="25"/>consecratio diabolo, ille esset
+            dia<lb ed="#V" n="26" break="no"/>bolo consecratus. Patet autem
+            <lb ed="#V" n="27"/>differentia istius membri
+            secun<lb ed="#V" n="28" break="no"/>dum quid dissentientis a membro
+            <lb ed="#V" n="29"/>praecedenti, quia ille simpliciter
+            <lb ed="#V" n="30"/>dissentiens, omnino non recipit
+            <lb ed="#V" n="31"/>Sacramentum, et ideo cessante
+            <lb ed="#V" n="32"/>dissensu esset simpliciter
+            bapti<lb ed="#V" n="33" break="no"/>zandus. Iste vero, quia
+            simplici<lb ed="#V" n="34" break="no"/>ter consensit, licet secundum quid
+            <lb ed="#V" n="35"/>dissentiat, est baptizatus, et
+            ces<lb ed="#V" n="36" break="no"/>sante dissensu illo secundum quid,
+            <lb ed="#V" n="37"/>non est iterumibaptizandus.
+          </p>
+          <p>
+            <lb ed="#V" n="38"/>Si quis autem non consentiat
+            <lb ed="#V" n="39"/>tantum negative, dico quod
+            reci<lb ed="#V" n="40" break="no"/>pit Sacramentum, si consensit
+            vir<lb ed="#V" n="41" break="no"/>tualiter, quia noluit Deus obligare
+            <lb ed="#V" n="42"/>hominem ad impossibile, vel
+            se<lb ed="#V" n="43" break="no"/>cundum statum hujus vitae, nimis
+            <lb ed="#V" n="44"/>difficile. Nunc autem non distrahi,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>nimis videtur difficile homini pro
+            <lb ed="#V" n="46"/>statu, quia secundum Augustinum
+            <lb ed="#V" n="47"/>3. de liber. arbit. Non est in
+            volunta<lb ed="#V" n="48" break="no"/>te nostra, quin visis tangamur; ergo
+            <lb ed="#V" n="49"/>noluit Deus salutem hominis
+            po<lb ed="#V" n="50" break="no"/>nere in ista conditione, si non
+            di<lb ed="#V" n="51" break="no"/>strahatur. Nec ergo voluit obligare
+            <lb ed="#V" n="52"/>eum, quod in suscipiendo
+            Baptis<lb ed="#V" n="53" break="no"/>mum, non distraheretur; et ita
+            <lb ed="#V" n="54"/>est universaliter in aliis
+            Sacra<lb ed="#V" n="55" break="no"/>mentis. Sacerdos etiam in
+            conse<lb ed="#V" n="56" break="no"/>crando Eucharistiam, non
+            obliga<lb ed="#V" n="57" break="no"/>tur (necessario dico) ad hoc ut
+            <lb ed="#V" n="58"/>non sit distractus; vere enim
+            <lb ed="#V" n="59"/>conficit distractus, dum tamen
+            <lb ed="#V" n="60"/>prius induendo se, intenderet
+            cele<lb ed="#V" n="61" break="no"/>brare Missam, secundum morem
+            <lb ed="#V" n="62"/>Ecclesiae.
+          </p>
+          <p>
+            <lb ed="#V" n="63"/>Et si quaeras, esto quod non
+            con<lb ed="#V" n="64" break="no"/>sentiens actualiter, tamen
+            consen<lb ed="#V" n="65" break="no"/>tiens virtualiter (eo modo quo
+            <lb ed="#V" n="66"/>positum est exemplum de
+            Sacer<lb ed="#V" n="67" break="no"/>dote celebrante) recipiat
+            Baptis<lb ed="#V" n="68" break="no"/>mum, numquid et ille qui solum
+            <lb ed="#V" n="69"/>consentit habitualiter recipit?
+            di<lb ed="#V" n="70" break="no"/>stinctio autem istorum, virtualiter
+            <lb ed="#V" n="71"/>et habitualiter, patet 2. tib. dist. 41.
+            <lb ed="#V" n="72"/>Et esto quod sic, numquid ille, qui
+            <lb ed="#V" n="73"/>tantum negative non consentit,
+            ne<lb ed="#V" n="74" break="no"/>gative etiam non dissentit? quia
+            <lb ed="#V" n="75"/>nec actum, nec habitum oppositum
+            <lb ed="#V" n="76"/>habet. De primo posset dici, quod
+            <lb ed="#V" n="77"/>talis judicatur habitualiter
+            con<lb ed="#V" n="78" break="no"/>sentiens, quia aliquando habuit
+            <lb ed="#V" n="79"/>consensum actualem, non
+            inter<lb ed="#V" n="80" break="no"/>veniente dissensu; et talis, licet
+            <lb ed="#V" n="81"/>utens ratione, recipit
+            Sacramen<lb ed="#V" n="82" break="no"/>tum, quia non videtur propter
+            ali<lb ed="#V" n="83" break="no"/>quam conditionem minus capax, si
+            <lb ed="#V" n="84"/>utitur ratione, quam si prius usus,
+            <lb ed="#V" n="85"/>non utatur nunc; sed in tali non
+            <lb ed="#V" n="86"/>utente nunc, prius tamen uso,
+            suffi<lb ed="#V" n="87" break="no"/>ceret habitualis consensus; ergo et
+            <lb ed="#V" n="88"/>hic. De secundo, licet difficile esset
+            <pb ed="#V" n="421"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>aliquem talem invenire, praecipue
+            <lb ed="#V" n="2"/>qui prius aliquando cogitasset de
+            <lb ed="#V" n="3"/>Baptismo, quia vel tunc placuisset
+            <lb ed="#V" n="4"/>sibi baptizari, vel non placuisset,
+            <lb ed="#V" n="5"/>imo displicuisset, et secundum
+            ul<lb ed="#V" n="6" break="no"/>timum modum judicaretur talis
+            <lb ed="#V" n="7"/>habitualis consensus vel dissensus
+            <lb ed="#V" n="8"/>esse in posterum, tamen si quis
+            <lb ed="#V" n="9"/>esset omnino non consentiens, nec
+            <lb ed="#V" n="10"/>dissentiens, tam actualiter quam
+            <lb ed="#V" n="11"/>habitualiter, et tamen utens
+            rati<lb ed="#V" n="12" break="no"/>one, non esset capax Baptismi,
+            <lb ed="#V" n="13"/>quia ex quo utitur ratione,
+            opor<lb ed="#V" n="14" break="no"/>tet quod habeat devotionem
+            ali<lb ed="#V" n="15" break="no"/>quam ad Sacramentum, si debet
+            <lb ed="#V" n="16"/>sibi valere, aliter enim videretur
+            <lb ed="#V" n="17"/>contemnere.
+          </p>
+          <p>
+            <lb ed="#V" n="18"/>Ad primum argumentum dico,
+            <lb ed="#V" n="19"/>quod in Baptismo magis proprie
+            <lb ed="#V" n="20"/>est adoptio in filium, quam
+            Matri<lb ed="#V" n="21" break="no"/>monium, quia parvulus non potest
+            <lb ed="#V" n="22"/>dici proprie contrahere
+            Matrimo<lb ed="#V" n="23" break="no"/>nium, cum non utatur ratione,
+            <lb ed="#V" n="24"/>cujus usus requiritur ad omnem
+            <lb ed="#V" n="25"/>contractum; in adoptione autem
+            <lb ed="#V" n="26"/>sufficit solus actus adoptantis, etsi
+            <lb ed="#V" n="27"/>nullum habeat adoptatus.
+          </p>
+          <p>
+            <lb ed="#V" n="28"/>Ad secundum dico, quod malitia
+            <lb ed="#V" n="29"/>potest esse ministri, inquantum
+            <lb ed="#V" n="30"/>minister, scilicet in male
+            minis<lb ed="#V" n="31" break="no"/>trando, vel quia non bene credit,
+            <lb ed="#V" n="32"/>vel quia non intendit conferre
+            Sa<lb ed="#V" n="33" break="no"/>cramentum; et haec malitia,
+            ma<lb ed="#V" n="34" break="no"/>xime non intendendi, impedit
+            Sa<lb ed="#V" n="35" break="no"/>cramentum conferri, magis quam
+            <lb ed="#V" n="36"/>malitia moris in suscipiente, et
+            <lb ed="#V" n="37"/>ratio dicetur in distinctione
+            se<lb ed="#V" n="38" break="no"/>quenti. Alia autem potest esse
+            ma<lb ed="#V" n="39" break="no"/>litia ministri, non inquantum
+            mi<lb ed="#V" n="40" break="no"/>nister, sed concomitans, puta quod
+            <lb ed="#V" n="41"/>est in peccato mortali; et hoc non
+            <lb ed="#V" n="42"/>impedit Sacramentum conferri.
+            <lb ed="#V" n="43"/>Patet ergo quod non intentio
+            mi<lb ed="#V" n="44" break="no"/>nistri impedit, sed non quaelibet
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>alia malitia. Non autem sequitur
+            <lb ed="#V" n="46"/>ex hoc, ergo non intentio
+            susci<lb ed="#V" n="47" break="no"/>pientis impedit, quia in agente
+            <lb ed="#V" n="48"/>secundo, etiam requiritur quod
+            <lb ed="#V" n="49"/>per se pertinet ad agens, quod est
+            <lb ed="#V" n="50"/>intendere in agente per rationem;
+            <lb ed="#V" n="51"/>intentio autem non per se est
+            <lb ed="#V" n="52"/>suscipientis, inquantum
+            hujus<lb ed="#V" n="53" break="no"/>modi.
+          </p>
+          <p>
+            <lb ed="#V" n="54"/>Ad tertium, dicendum quod si
+            <lb ed="#V" n="55"/>adultus baptizandus, ex voto
+            in<lb ed="#V" n="56" break="no"/>tendit renuntiare Diabolo et
+            pom<lb ed="#V" n="57" break="no"/>pis ejus, tamen illud votum
+            prae<lb ed="#V" n="58" break="no"/>cedens non est de necessitate
+            Sa<lb ed="#V" n="59" break="no"/>cramenti, sed pertinens tantum ad
+            <lb ed="#V" n="60"/>ejus solemnitatem.
+          </p>
+          <p>
+            <lb ed="#V" n="61"/>Ad aliud, concedo quod
+            consue<lb ed="#V" n="62" break="no"/>tudo Ecclesiae bona est, quod
+            nul<lb ed="#V" n="63" break="no"/>lum adultum baptizat, nisi
+            res<lb ed="#V" n="64" break="no"/>pondeat pro seipso, et est
+            consue<lb ed="#V" n="65" break="no"/>tudo laudabilis et rationabilis, ut
+            <lb ed="#V" n="66"/>solum volens adscribatur familiae
+            <lb ed="#V" n="67"/>Christi. Sed licet non responderet,
+            <lb ed="#V" n="68"/>quia scilicet non uteretur ratione,
+            <lb ed="#V" n="69"/>ut dormiens, posset sibi
+            Sacra<lb ed="#V" n="70" break="no"/>mentum conferri, dum tamen
+            es<lb ed="#V" n="71" break="no"/>set habitualiter consentiens; sed
+            <lb ed="#V" n="72"/>hoc, ut dictum est prius, non
+            ex<lb ed="#V" n="73" break="no"/>pedit facere, sed expectare
+            tem<lb ed="#V" n="74" break="no"/>pus, quo actualiter consentiat.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

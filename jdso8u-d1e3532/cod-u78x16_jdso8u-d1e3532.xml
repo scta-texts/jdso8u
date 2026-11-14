@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio Sexta, Pars 1, Quaestio 1</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio Sexta, Pars 1, Quaestio 1</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x16">Vives, Paris, 1894, volume 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="530"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e3532"><!-- jdso8u-b4d6p1q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum solus sacerdos possit baptizare</head>
+        <!-- <div alias="scotus-d6q1-p1"> -->
+          <p>
+            <lb ed="#V" n="29" type="fixed=530"/>QUAESTIO I.
+            <lb ed="#V" n="30"/>Utrum solus Sacerdos possit baptizare?
+          </p>
+          <p>
+            <lb ed="#V" n="31"/>Alensis 4. p. q. 16. m. 1. D. Bonav. d. 5. art. 1.
+            <lb ed="#V" n="32"/>q. 1. Richard. hic art. 4. q. 1. D. Thom. d. 5
+            <lb ed="#V" n="33"/>q. 1. art. 2. et 3. part. p. 67. art. 3. Suarez 3.
+            <lb ed="#V" n="34"/>part. d. 23. sect. 1.
+          </p>
+          <p>
+            <lb ed="#V" n="35"/>De primo, quaero unam
+            quaesti<lb ed="#V" n="36" break="no"/>onem, utrum solus Sacerdos
+            pos<lb ed="#V" n="37" break="no"/>sit baptizare? Et arguitur quod
+            <lb ed="#V" n="38"/>sic. Isidorus de offic. lib. 2. cap 25.
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="39"/>Constat Baptismum solis Sacerdotibus
+            <lb ed="#V" n="40"/>tradi.
+          </p>
+          <p>
+            <lb ed="#V" n="41"/>Praeterea, soli Sacerdoti
+            conces<lb ed="#V" n="42" break="no"/>sum est dimittere peccata, Joan.
+            <lb ed="#V" n="43"/>20. et Matth. 18. in baptismo autem
+            <lb ed="#V" n="44"/>peccata dimittuntur; ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="45"/>Oppositum de consecr. dist. 4.
+            Ro<lb ed="#V" n="46" break="no"/>manus, ubi dicitur, quod Romanus
+            <lb ed="#V" n="47"/>Pontifex hominem non judicat, qui
+            ba<lb ed="#V" n="48" break="no"/>ptizat, sed Spiritus sanctus subministrat
+            <lb ed="#V" n="49"/>gratiam Baptismi, licet Paganus sit qui
+            <lb ed="#V" n="50"/>baptizat, multo magis, vel aeque,
+            quili<lb ed="#V" n="51" break="no"/>bet Christianus.
+          </p>
+          <p>
+            <lb ed="#V" n="52"/>SCHOLIUM.
+            <lb ed="#V" n="53"/>Continet hoec littera aliquot dicta.
+            Pri<lb ed="#V" n="54" break="no"/>mum: in baptizante requiruntur, virtus
+            <lb ed="#V" n="55"/>motiva, vox et usus rationis. Secundum: si
+            <lb ed="#V" n="56"/>Angelus bonus baptizaret, valide faceret.
+            <lb ed="#V" n="57"/>Tertium: si Angelus malus id faceret, sine
+            <lb ed="#V" n="58"/>revelatione, pro nihilo haberetur.
+            Quar<lb ed="#V" n="59" break="no"/>tum: maxime congruum est Baptismum a
+            <lb ed="#V" n="60"/>solo homine viatore fieri. Quintum: inter
+            <lb ed="#V" n="61"/>homines solum Sacerdotem baptizare ex
+            <lb ed="#V" n="62"/>officio, congruum est. Adde Diaconis ex
+            of<lb ed="#V" n="63" break="no"/>ficio baptizare competere, in absentia seu
+            <lb ed="#V" n="64"/>jussu Sacerdotis. Tertull. lib. de Bapt.
+            Hi<lb ed="#V" n="65" break="no"/>eron. dialog. contra Lucifer.
+          </p>
+          <p>
+            <lb ed="#V" n="66"/>Respondeo (a), cum oporteat
+            <lb ed="#V" n="67"/>baptizantem abluere baptizatum,
+            <lb ed="#V" n="68"/>quod est active facere corpus ejus
+            <lb ed="#V" n="69"/>contingi ab aqua; et hoc vel per
+            <lb ed="#V" n="70"/>motionem corporis ad aquam,
+            ut<lb ed="#V" n="71" break="no"/>pote immergendo, vel per
+            moti<lb ed="#V" n="72" break="no"/>onem aquae ad corpus ejus, puta
+            <lb ed="#V" n="73"/>perfundendo vel aspergendo;
+            ne<lb ed="#V" n="74" break="no"/>cessaria requiritur in baptizante
+            <lb ed="#V" n="75"/>virtus motiva, qua potest aliquo
+            <lb ed="#V" n="76"/>istorum modorum active abluere
+            <lb ed="#V" n="77"/>alium. Cum etiam oporteat
+            mini<lb ed="#V" n="78" break="no"/>strum proferre verba, in quibusi
+            <lb ed="#V" n="79"/>est forma, necesse est ipsum
+            pos<lb ed="#V" n="80" break="no"/>se loqui. Cum etiam requiratur
+            <lb ed="#V" n="81"/>intentio in ministro (ut dicetur in
+            <pb ed="#V" n="531"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>tertio articulo), necesse est ipsum
+            <lb ed="#V" n="2"/>habere usum rationis. Simpliciter
+            <lb ed="#V" n="3"/>ergo nullum suppositum naturae
+            <lb ed="#V" n="4"/>intellectualis excluditur a posse
+            <lb ed="#V" n="5"/>baptizare, nisi propter aliquem
+            <lb ed="#V" n="6"/>illorum trium defectuum, vel
+            pro<lb ed="#V" n="7" break="no"/>pter plures, vel omnes simul.
+          </p>
+          <p>
+            <lb ed="#V" n="8"/>Cum (b) ergo non Sacerdotes
+            <lb ed="#V" n="9"/>multi possint habere, et habeant
+            <lb ed="#V" n="10"/>haec tria, sequitur quod
+            simplici<lb ed="#V" n="11" break="no"/>ter possint baptizare. Dixi autem
+            <lb ed="#V" n="12"/>generaliter, suppositum naturae
+            intel<lb ed="#V" n="13" break="no"/>lectualis, quia si bonus Angelus
+            ba<lb ed="#V" n="14" break="no"/>ptizaret in corpore assumpto cum
+            <lb ed="#V" n="15"/>omnibus praedictis conditionibus,
+            <lb ed="#V" n="16"/>tunc supponendum esset verum
+            <lb ed="#V" n="17"/>esse ejus Baptismum, quia non
+            <lb ed="#V" n="18"/>fieret, nisi de praecepto Dei; nec
+            <lb ed="#V" n="19"/>esset ille baptizatus ab Angelo
+            ite<lb ed="#V" n="20" break="no"/>rum rebaptizandus, sicut Michael
+            <lb ed="#V" n="21"/>prohibuit Episcopo dedicare
+            Ec<lb ed="#V" n="22" break="no"/>clesiam suam in monte Gargano,
+            <lb ed="#V" n="23"/>asserens eam a se dedicatam
+            <lb ed="#V" n="24"/>fuisse.
+          </p>
+          <p>
+            <lb ed="#V" n="25"/>Si (c) etiam malus Angelus in
+            <lb ed="#V" n="26"/>corpore assumpto baptizet, et
+            con<lb ed="#V" n="27" break="no"/>stet quod esset de praecepto Dei,
+            <lb ed="#V" n="28"/>talis habendus esset pro baptizato,
+            <lb ed="#V" n="29"/>quia oportet malum Angelum
+            eti<lb ed="#V" n="30" break="no"/>am invitum obedire Deo. Sed non
+            <lb ed="#V" n="31"/>esset sine certa revelatione super
+            <lb ed="#V" n="32"/>hoc habita credendum, quod malus
+            <lb ed="#V" n="33"/>Angelus vere baptizaret; tum quia
+            <lb ed="#V" n="34"/>Deus non ministrat Sacramenta
+            <lb ed="#V" n="35"/>per exclusos finaliter a salute;
+            <lb ed="#V" n="36"/>tum quia si non esset arctatus de
+            <lb ed="#V" n="37"/>praecepto divino ad oppositum,
+            <lb ed="#V" n="38"/>supponendum est semper ipsum
+            <lb ed="#V" n="39"/>fraudulenter agere, nec complete
+            <lb ed="#V" n="40"/>facere ea, quae essent necessaria
+            <lb ed="#V" n="41"/>ad salutem baptizati, propter
+            ini<lb ed="#V" n="42" break="no"/>micitiam, quam habet ad salutem
+            <lb ed="#V" n="43"/>hominum ex invidia procedentem.
+          </p>
+          <p>
+            <lb ed="#V" n="44"/>Generaliter (d) etiam congruum
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>est ab homine viatore conferri
+            <lb ed="#V" n="46"/>Baptismum, et non ab Angelo
+            ali<lb ed="#V" n="47" break="no"/>quo; tum quia Christus, qui
+            insti<lb ed="#V" n="48" break="no"/>tuit, homo fuit; tum quia in
+            Sa<lb ed="#V" n="49" break="no"/>cramento est aliquid sensibile, et
+            <lb ed="#V" n="50"/>aliquid spirituale, et per
+            conse<lb ed="#V" n="51" break="no"/>quens magis congruit ministro, et
+            <lb ed="#V" n="52"/>utenti sensu et intellectu, quam
+            <lb ed="#V" n="53"/>pure intellectuali; et tertio, quia
+            <lb ed="#V" n="54"/>per susceptionem Baptismi
+            adscri<lb ed="#V" n="55" break="no"/>bitur aliquis ut sit membrum
+            Ec<lb ed="#V" n="56" break="no"/>clesiae militantis; ergo congruum
+            <lb ed="#V" n="57"/>est hoc fieri per aliquem in illa
+            <lb ed="#V" n="58"/>Ecclesia.
+          </p>
+          <p>
+            <lb ed="#V" n="59"/>(e) Tandem dico, quod licet
+            se<lb ed="#V" n="60" break="no"/>cundum praedicta quodlibet
+            suppo<lb ed="#V" n="61" break="no"/>situm habens tres praedictas
+            con<lb ed="#V" n="62" break="no"/>ditiones possit baptizare, etiam
+            <lb ed="#V" n="63"/>cum hoc congruit solum hominem
+            <lb ed="#V" n="64"/>viatorem baptizare; congruum
+            ta<lb ed="#V" n="65" break="no"/>men est inter viatores solum
+            Sa<lb ed="#V" n="66" break="no"/>cerdotem baptizare, et soli
+            Sacer<lb ed="#V" n="67" break="no"/>doti congruit ex officio.
+          </p>
+          <p>
+            <lb ed="#V" n="68"/>Cujus est ratio, quia per
+            Bapti<lb ed="#V" n="69" break="no"/>smum recipitur baptizatus in
+            col<lb ed="#V" n="70" break="no"/>legium Ecclesiae militantis;
+            rece<lb ed="#V" n="71" break="no"/>ptio autem alicujus in collegium
+            <lb ed="#V" n="72"/>pertinet ad praesidentem et
+            haben<lb ed="#V" n="73" break="no"/>tem auctoritatem in collegio; et
+            <lb ed="#V" n="74"/>ideo quanto aliquis haberet
+            majo<lb ed="#V" n="75" break="no"/>rem auctoritatem in Ecclesia,
+            <lb ed="#V" n="76"/>tanto magis pertineret ad eum
+            re<lb ed="#V" n="77" break="no"/>cipere et introducere in
+            Eccle<lb ed="#V" n="78" break="no"/>siam, et per consequens baptizare.
+            <lb ed="#V" n="79"/>Unde magis competeret Episcopo
+            <lb ed="#V" n="80"/>quam simplici Sacerdoti, si
+            suffi<lb ed="#V" n="81" break="no"/>cere possent Episcopi; sed propter
+            <lb ed="#V" n="82"/>paucitatem Episcoporum, et
+            plu<lb ed="#V" n="83" break="no"/>ralitatem baptizandorum,
+            regula<lb ed="#V" n="84" break="no"/>riter conceditur omnibus
+            Sacer<lb ed="#V" n="85" break="no"/>dotibus.
+          </p>
+          <p>
+            <lb ed="#V" n="86"/>Per hoc apparet ad auctoritatem
+            <lb ed="#V" n="87"/>Isidori. Loquitur enim de officio
+            <pb ed="#V" n="532"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>baptizandi, quia illud est
+            commis<lb ed="#V" n="2" break="no"/>sum Sacerdoti.
+          </p>
+          <p>
+            <lb ed="#V" n="3"/>Ad rationem, dico quod solus
+            <lb ed="#V" n="4"/>Sacerdos potest dimittere
+            pecca<lb ed="#V" n="5" break="no"/>ta, per modum judicis, vel
+            arbi<lb ed="#V" n="6" break="no"/>tri, quomodo remittuntur in
+            Poe<lb ed="#V" n="7" break="no"/>nitentia; sed in Baptismo virtute
+            <lb ed="#V" n="8"/>Sacramenti, absque arbitrio, vel
+            <lb ed="#V" n="9"/>judicio remittuntur.
+          </p>
+          <p>
+            <lb ed="#V" n="10"/>Circa secundum principale
+            <lb ed="#V" n="11"/>quaero tria: Primo, an unitas
+            Ba<lb ed="#V" n="12" break="no"/>ptismi necessario requirat, quod
+            <lb ed="#V" n="13"/>ab uno ministro conferatur.
+            Se<lb ed="#V" n="14" break="no"/>cundo, an requirat simul esse
+            <lb ed="#V" n="15"/>ablutionem, et prolationem
+            ver<lb ed="#V" n="16" break="no"/>borum.
+          </p>
+          <p>
+            <lb ed="#V" n="17"/>Tertio, quia unum est in se
+            indi<lb ed="#V" n="18" break="no"/>visum, et ab alio divisum, an
+            re<lb ed="#V" n="19" break="no"/>quirat baptizantem esse
+            discre<lb ed="#V" n="20" break="no"/>tum personaliter a baptizato.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 5, Praeambulum</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 5, Praeambulum</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x16">Vives, Paris, 1894, volume 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="500"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e5218"><!-- jdso8u-b4d5prae -->
+        <head>Praeambulum</head>
+        <!-- <div alias="scotus-d5prae"> -->
+          <p>
+            <lb ed="#V" n="65" type="fixed=500"/>Postquam Magister egit de
+            Ba<lb ed="#V" n="66" break="no"/>ptismo in se et de suscipiente, hic
+            <lb ed="#V" n="67"/>agit de ministro. Primo ergo agit
+            <lb ed="#V" n="68"/>de conditionibus ministri. Secundo
+            <lb ed="#V" n="69"/>de modo ministrandi, ibi; Hic
+            <lb ed="#V" n="70"/>etiam sciendum est. Prima in duas;
+            <lb ed="#V" n="71"/>primo de ministri potestate;
+            se<lb ed="#V" n="72" break="no"/>cundo de ejus statu et, gradu.
+            <lb ed="#V" n="73"/>Secunda in principio dist. 6: Nunc
+            <lb ed="#V" n="74"/>quibus liceat baptizare. Prima in duas,
+            <lb ed="#V" n="75"/>primo ostendit, quod illa potestas
+            <lb ed="#V" n="76"/>non est impedibilis per malitiam
+            <lb ed="#V" n="77"/>ministri; secundo ad quid se
+            ex<lb ed="#V" n="78" break="no"/>tendit, ibi: Hic queeritur. Prima in
+            <lb ed="#V" n="79"/>duas, primo ostendit, quod ita est;
+            <lb ed="#V" n="80"/>secundo ostendit propter quid
+            <lb ed="#V" n="81"/>ita est, ibi: Quia ministerium.
+          </p>
+          <p>
+            <lb ed="#V" n="82"/>Circa hanc distinctionem
+            quin<lb ed="#V" n="83" break="no"/>tam, quaerendum est qualiter
+            <lb ed="#V" n="84"/>malitia ministrantis se habet ad
+            <lb ed="#V" n="85"/>impedimentum, vel non
+            impedi<lb ed="#V" n="86" break="no"/>mentum Baptismi; et circa hoc
+            <lb ed="#V" n="87"/>quaero duo: Primum, utrum
+            ma<pb ed="#V" n="501"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>litia ministri impediat conferri
+            <lb ed="#V" n="2"/>verum Baptismum? Secundo,
+            <lb ed="#V" n="3"/>utrum recipiens Baptismum
+            sci<lb ed="#V" n="4" break="no"/>enter a malo ministro, mortaliter
+            <lb ed="#V" n="5"/>peccet?
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

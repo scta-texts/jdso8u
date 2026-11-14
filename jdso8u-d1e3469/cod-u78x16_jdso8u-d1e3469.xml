@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 4, Pars 4, Quaestio 3</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 4, Pars 4, Quaestio 3</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x16">Vives, Paris, 1894, volume 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="487"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e3469"><!-- jdso8u-b4d4p4q3 -->
+        <head>Quaestio 3</head>
+        <head type="question-title">Utrum parvuli Iudaeorum et infidelium sint invitis parentibus baptizandi</head>
+        <!-- <div alias="scotus-d4q9-p1"> -->
+          <p>
+            <lb ed="#V" n="29" type="fixed=487"/>QUAESTIO IX.
+            <lb ed="#V" n="30"/>Utrum parvuli Judaeorum et infidelium
+            <lb ed="#V" n="31"/>sint invitis parentibus baptizandi?
+          </p>
+          <p>
+            <lb ed="#V" n="32"/>D. Thom. 3. p. 1q. 68. a. 10. (ubi Cajet. et alii)
+            <lb ed="#V" n="33"/>et 2. 2. q. 10. et. 11. Richardus d. 6. a. 3.
+            <lb ed="#V" n="34"/>q. 3. Durand. hic q. 6. Palud. q. 4. Gabr.
+            <lb ed="#V" n="35"/>q. 2. a. 3. Vasq. 3. p. d. 155. Suarez 3. p.
+            <lb ed="#V" n="36"/>tom. 3. d. 25. s. 4. Sotus d. 5. q. a. 7.
+          </p>
+          <p>
+            <lb ed="#V" n="37"/>De parvulis (a) Judaeorum et
+            in<lb ed="#V" n="38" break="no"/>fidelium, an sint invitis parentibus
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="39"/>baptizandi, dicitur quod non, quia
+            <lb ed="#V" n="40"/>aut redderentur parentibus, et
+            <lb ed="#V" n="41"/>tunc baptizatio eorum esset in
+            <lb ed="#V" n="42"/>contumeliam fidei Christianae, quia
+            <lb ed="#V" n="43"/>post nutrirentur a parentibus in
+            <lb ed="#V" n="44"/>errore parentum; aut non
+            redden<lb ed="#V" n="45" break="no"/>tur, et tunc fieret injuria, quia
+            <lb ed="#V" n="46"/>dum sunt parvuli, jus habent
+            pa<lb ed="#V" n="47" break="no"/>rentes in eos.
+          </p>
+          <p>
+            <lb ed="#V" n="48"/>Sed haec ratio, licet forte
+            conclu<lb ed="#V" n="49" break="no"/>dat de quacumque persona privata,
+            <lb ed="#V" n="50"/>quod non posset parvulos a
+            tali<lb ed="#V" n="51" break="no"/>bus auferre, nec juste baptizare,
+            <lb ed="#V" n="52"/>non videtur tamen concludere de
+            <lb ed="#V" n="53"/>Principe, cui in regimine
+            reipu<lb ed="#V" n="54" break="no"/>blicae tales sunt subditi. Nam in
+            <lb ed="#V" n="55"/>parvulo Deus habet majus jus
+            do<lb ed="#V" n="56" break="no"/>minii quam parentes;
+            universali<lb ed="#V" n="57" break="no"/>ter enim in potestatibus ordinatis,
+            <lb ed="#V" n="58"/>potestas inferior non obligat in
+            <lb ed="#V" n="59"/>his, quae sunt contra superiorem,
+            <lb ed="#V" n="60"/>sicut docet Augustinus de verbis
+            <lb ed="#V" n="61"/>Domini, hom. 6. et ponitur cap. ult.
+            <lb ed="#V" n="62"/>lib. 2. Si aliquid jubet potestas, quod
+            <lb ed="#V" n="63"/>non debes facere, hic sane contemne
+            po<lb ed="#V" n="64" break="no"/>testatem, timendo potestatem majorem;
+            <lb ed="#V" n="65"/>et declarat in exemplo de
+            Curato<lb ed="#V" n="66" break="no"/>re et Proconsule, de Proconsule
+            <lb ed="#V" n="67"/>et Imperatore, de Imperatore et
+            <lb ed="#V" n="68"/>Deo; ergo si quis habet regere
+            <lb ed="#V" n="69"/>rempublicam, magis debet
+            quan<lb ed="#V" n="70" break="no"/>tum in se est, cogere
+            unumquem<lb ed="#V" n="71" break="no"/>que subdi domino superiori quam
+            <lb ed="#V" n="72"/>inferiori, imo superiori
+            contem<lb ed="#V" n="73" break="no"/>pto inferiori, quando inferior in
+            <lb ed="#V" n="74"/>tali dominio resistit superiori.
+          </p>
+          <p>
+            <lb ed="#V" n="75"/>Sicut ergo Imperator deberet
+            <lb ed="#V" n="76"/>sententiare aliquem obedire
+            debe<lb ed="#V" n="77" break="no"/>re Proconsuli, contempto
+            praece<lb ed="#V" n="78" break="no"/>pto Curatoris, id est, inferioris
+            <lb ed="#V" n="79"/>Proconsule, si contradiceret
+            Pro<lb ed="#V" n="80" break="no"/>consuli, ita etiam, si essent sub
+            <lb ed="#V" n="81"/>eodem dominio ordinata, scilicet,
+            <lb ed="#V" n="82"/>quod aliquis esset servus Titii, et
+            <pb ed="#V" n="488"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Titius Petri, magis deberet
+            Im<lb ed="#V" n="2" break="no"/>perator cogere servum servire
+            Pe<lb ed="#V" n="3" break="no"/>tro, quia superior est Titio quam
+            <lb ed="#V" n="4"/>Titio, si Titius vellet uti servo
+            il<lb ed="#V" n="5" break="no"/>lo contra dominium Petri;
+            er<lb ed="#V" n="6" break="no"/>go maxime debet Princeps
+            ze<lb ed="#V" n="7" break="no"/>lare pro dominio servando
+            supre<lb ed="#V" n="8" break="no"/>mi Domini, scilicet Dei, et per
+            <lb ed="#V" n="9"/>consequens non solum licet, sed
+            <lb ed="#V" n="10"/>debet Princeps auferre parvulos
+            <lb ed="#V" n="11"/>a dominio parentum volentium
+            <lb ed="#V" n="12"/>eos educare contra cultum Dei,
+            <lb ed="#V" n="13"/>qui est supremus et
+            honestissi<lb ed="#V" n="14" break="no"/>mus dominus, et debet eos
+            appli<lb ed="#V" n="15" break="no"/>care cultui divino.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d4q9-p2"> -->
+          <p>
+            <lb ed="#V" n="63" type="fixed=488"/>SCHOLIUM.
+            <lb ed="#V" n="64"/>Principem posse invitis parentibus
+            infide<lb ed="#V" n="65" break="no"/>libus subditis baptizari facere eorum
+            par<lb ed="#V" n="66" break="no"/>vulos, modo provideat ne majora mala inde
+            <lb ed="#V" n="67"/>sequantur; imo ipsi parentes forte minis
+            <lb ed="#V" n="68"/>inducendi essent ad professionem fidei, si
+            <lb ed="#V" n="69"/>circumstantiae id utile suaderent in fidei
+            fa<lb ed="#V" n="70" break="no"/>vorem. Ratio, quia Princeps debet zelare
+            <lb ed="#V" n="71"/>pro dominio Dei, quod habet in parvulos ut
+            <lb ed="#V" n="72"/>baptizentur, et ei serviant, et compescere
+            <lb ed="#V" n="73"/>subditos abutentes suo subordinato dominio
+            <lb ed="#V" n="74"/>in contrarium. Ratio est Augustini citati a
+            <lb ed="#V" n="75"/>Doctore, non tamen sub poena mortis essent
+            <lb ed="#V" n="76"/>compellendi, sed bene poena exilii vel
+            mor<lb ed="#V" n="77" break="no"/>tis civilis; et sic intelligit Doctor. Et hoc
+            se<lb ed="#V" n="78" break="no"/>cundum practicavit Ferdinand. Rex Hispan.
+            <lb ed="#V" n="79"/>et habetur ex 1. Cunctos C. de sum. Trin.
+            <lb ed="#V" n="80"/>Primum prohibuit Concil. Tol. IV. ut
+            habe<lb ed="#V" n="81" break="no"/>tur, c. de Judais d. 45. illud certum et
+            com<lb ed="#V" n="82" break="no"/>mune, parvulos invitis parentibus
+            infideli<lb ed="#V" n="83" break="no"/>bus valide baptizari, quia non requiritur
+            <lb ed="#V" n="84"/>prop ia, nec parentum intentio in parvulo,
+            <lb ed="#V" n="85"/>ex August. 24. Est contra Durand. hic q. 7.
+            <lb ed="#V" n="86"/>et Cathar. opusc. de infantibus Jud. baptiz.
+          </p>
+          <p>
+            <pb ed="#V" n="489"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Dico ergo breviter (b), quod si
+            <lb ed="#V" n="2"/>Princeps hoc faceret cum cautela
+            <lb ed="#V" n="3"/>bona, scilicet ne parentes prius
+            <lb ed="#V" n="4"/>cognoscentes hoc futurum,
+            occide<lb ed="#V" n="5" break="no"/>rent pueros suos, et quod
+            baptiza<lb ed="#V" n="6" break="no"/>tos faceret religiose educari, bene
+            <lb ed="#V" n="7"/>fieret. Imo quod plus est,
+            crede<lb ed="#V" n="8" break="no"/>rem religiose fieri si ipsi parentes
+            <lb ed="#V" n="9"/>cogerentur minis et terroribus
+            <lb ed="#V" n="10"/>ad suscipiendum Baptismum, et
+            <lb ed="#V" n="11"/>ad conservandum postea
+            susce<lb ed="#V" n="12" break="no"/>ptum, quia esto quod ipsi non
+            es<lb ed="#V" n="13" break="no"/>sent vere fideles in animo, tamen
+            <lb ed="#V" n="14"/>minus malum esset eis, non posse
+            <lb ed="#V" n="15"/>impune legem suam illicitam
+            ser<lb ed="#V" n="16" break="no"/>vare, quam posse eam libere
+            ser<lb ed="#V" n="17" break="no"/>vare. Item filii eorum, si bene
+            edu<lb ed="#V" n="18" break="no"/>carentur in tertia et quarta
+            pro<lb ed="#V" n="19" break="no"/>genie, essent vere fideles.
+          </p>
+          <p>
+            <lb ed="#V" n="20"/>Et si dicas quod secundum
+            pro<lb ed="#V" n="21" break="no"/>phetiam Isaiae, quam recitat
+            Pau<lb ed="#V" n="22" break="no"/>lus Rom. 9. Reliquice Israel
+            conver<lb ed="#V" n="23" break="no"/>tentur in fine; et ideo Judaeos non
+            <lb ed="#V" n="24"/>oportet cogere totaliter ad
+            Bapti<lb ed="#V" n="25" break="no"/>smum suscipiendum et
+            relinquen<lb ed="#V" n="26" break="no"/>dum legem suam. Respondeo, non
+            <lb ed="#V" n="27"/>dubito, quin vera sit prophetia
+            <lb ed="#V" n="28"/>Christi, quam recitat Christus
+            <lb ed="#V" n="29"/>Joan. 5. Ego veni in nomine Patris mei,
+            <lb ed="#V" n="30"/>et non accepistis me; si alius venerit in
+            <lb ed="#V" n="31"/>nomine suo, illum suscipietis; ergo ad
+            <lb ed="#V" n="32"/>minus ex verbo Christi erunt
+            per<lb ed="#V" n="33" break="no"/>vertendi, quia adhaerebunt illi
+            pes<lb ed="#V" n="34" break="no"/>simo Antichristo, de quo est
+            ser<lb ed="#V" n="35" break="no"/>mo Christi praedictus.
+          </p>
+          <p>
+            <lb ed="#V" n="36"/>Et si dicas, quod visa
+            destructi<lb ed="#V" n="37" break="no"/>one Antichristi, illi qui sibi
+            adhae<lb ed="#V" n="38" break="no"/>serant, convertentur, dico pro
+            <lb ed="#V" n="39"/>tam paucis, et sic tarde
+            conver<lb ed="#V" n="40" break="no"/>tendis, non oporteret tot Judaeos,
+            <lb ed="#V" n="41"/>in tot partibus mundi, tantis
+            <lb ed="#V" n="42"/>temporibus sustinere in lege sua
+            <lb ed="#V" n="43"/>persistere, quia finalis fructus de
+            <lb ed="#V" n="44"/>eis Ecclesiae est, et erit modicus.
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>Unde sufficeret aliquos paucos in
+            <lb ed="#V" n="46"/>aliqua insula sequestratos
+            permit<lb ed="#V" n="47" break="no"/>ti legem suam servare, de quibus
+            <lb ed="#V" n="48"/>tandem illa prophetia Isaiae
+            im<lb ed="#V" n="49" break="no"/>pleretur.
+          </p>
+          <p>
+            <lb ed="#V" n="50"/>Istud autem de parentibus
+            infi<lb ed="#V" n="51" break="no"/>delibus cogendis per minas et
+            ter<lb ed="#V" n="52" break="no"/>rores, videtur probari, quia
+            si<lb ed="#V" n="53" break="no"/>mile commendat illud Concilium
+            <lb ed="#V" n="54"/>Toletanum supra allegatum d.
+            <lb ed="#V" n="55"/>Qui pridem ad Christianitatem coacti
+            <lb ed="#V" n="56"/>sunt, sicut factum est temporibus
+            reli<lb ed="#V" n="57" break="no"/>giosissimi principis: Assebuci; ergo in
+            <lb ed="#V" n="58"/>hoc approbat eum tanquam
+            prin<lb ed="#V" n="59" break="no"/>cipem religiosum, quia infideles
+            <lb ed="#V" n="60"/>coegit ad fidem.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

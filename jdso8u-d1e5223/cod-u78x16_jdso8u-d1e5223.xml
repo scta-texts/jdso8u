@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio Sexta, Praeambulum</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio Sexta, Praeambulum</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x16">Vives, Paris, 1894, volume 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="529"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e5223"><!-- jdso8u-b4d6prae -->
+        <head>Praeambulum</head>
+        <!-- <div alias="scotus-d6prae"> -->
+          <p>
+            <lb ed="#V" n="40" type="fixed=529"/>Postquam Magister determinavit
+            <lb ed="#V" n="41"/>distinctione quinta de potestate
+            <lb ed="#V" n="42"/>ministri, hic determinat de ejus
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43"/>statu et gradu. De gradu in primo
+            <lb ed="#V" n="44"/>capite; de statu in sequenti
+            capi<lb ed="#V" n="45" break="no"/>tulo. De illis vero qui ab hoereticis.
+            <lb ed="#V" n="46"/>Hoc etiam sciendum est, haec est
+            ter<lb ed="#V" n="47" break="no"/>tia pars istius sextae distinctionis,
+            <lb ed="#V" n="48"/>quae similiter potest continuari
+            <lb ed="#V" n="49"/>dupliciter cum praecedentibus,
+            sic<lb ed="#V" n="50" break="no"/>ut pars principalis contra
+            inciden<lb ed="#V" n="51" break="no"/>talem. Et potest dividi, uno modo,
+            <lb ed="#V" n="52"/>ut dividatur contra totum
+            praece<lb ed="#V" n="53" break="no"/>dens de Baptismo, a principio
+            di<lb ed="#V" n="54" break="no"/>stinctionis tertiae, sicut pars
+            prin<lb ed="#V" n="55" break="no"/>cipalis contra incidentalem, et sic
+            <lb ed="#V" n="56"/>divisa est distinctio tertia. Alio
+            <lb ed="#V" n="57"/>modo, ut distinguatur contra ea,
+            <lb ed="#V" n="58"/>quae praecedunt distinctione quinta
+            <lb ed="#V" n="59"/>et sexta, ut dicatur prius fuisse
+            <lb ed="#V" n="60"/>determinatum de ordine ministri.
+            <lb ed="#V" n="61"/>Secundo, de conditione
+            ministran<lb ed="#V" n="62" break="no"/>di, sive sic, sive sic, eadem est
+            sen<lb ed="#V" n="63" break="no"/>tentia. Ista pars dividitur in duas
+            <lb ed="#V" n="64"/>partes. Primo namque determinat
+            <lb ed="#V" n="65"/>de quibusdam concurrentibus in
+            <lb ed="#V" n="66"/>Baptismo; secundo, de quibusdam
+            <lb ed="#V" n="67"/>praeambulis ad ministrationem
+            Ba<lb ed="#V" n="68" break="no"/>ptismi, scilicet, catechismo, ibi:
+            <lb ed="#V" n="69"/>Porro cuncti. Prima pars habet sex.
+            <lb ed="#V" n="70"/>In prima namque tractat ipse de
+            <lb ed="#V" n="71"/>unitate Baptismi. Secundo, de
+            su<lb ed="#V" n="72" break="no"/>scipiente, ibi: Illud etiam ignorandum.
+            <lb ed="#V" n="73"/>Tertio de forma, ibi: Queeri etiam
+            <lb ed="#V" n="74"/>solet. Quarto, de certitudine
+            haben<lb ed="#V" n="75" break="no"/>da circa suscipientem, ibi:
+            Praete<lb ed="#V" n="76" break="no"/>rea. Quinto, de intentione ministri,
+            <lb ed="#V" n="77"/>ibi: Solet etiam quaeri. Sexto, de
+            tem<lb ed="#V" n="78" break="no"/>pore baptizandi, ibi: Cognoscendum
+            <lb ed="#V" n="79"/>etiam.
+          </p>
+          <p>
+            <lb ed="#V" n="80"/>Circa istam distinctionem
+            quae<lb ed="#V" n="81" break="no"/>rendum est de quatuor. Primo, de
+            <lb ed="#V" n="82"/>gradu ministri. Secundo, de
+            unita<lb ed="#V" n="83" break="no"/>te Baptismi. Tertio, de intentione
+            <lb ed="#V" n="84"/>ministri. Quarto, de iterabilitate
+            <lb ed="#V" n="85"/>Baptismi.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

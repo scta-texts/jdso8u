@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 1, Pars 3, Quaestio 1</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 1, Pars 3, Quaestio 1</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x16">Vives, Paris, 1894, volume 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="139"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e3223"><!-- jdso8u-b4d1p3q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum sit possibile aliquod sacramentum quantumcumque perfectum habere causalitatem activam respectu gratiae conferendae</head>
+        <!-- <div alias="scotus-d1q4-p1"> -->
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="38" type="fixed=139"/>QUAESTIO IV.
+            <lb ed="#V" n="39"/>Utrum sit possibile aliquod
+            Sacramen<lb ed="#V" n="40" break="no"/>tum quantumcumque perfectum habere
+            <lb ed="#V" n="41"/>causalitatem activam respectu gratiae
+            <lb ed="#V" n="42"/>conferendae?
+          </p>
+          <p>
+            <lb ed="#V" n="43"/>Alens. 4. p. q. 5. m. 3. a. 4. et q. 8. m. 3. a. 5.
+            <lb ed="#V" n="44"/>D. Bonav. hic 1. p. a. 1. q. 4. Richard. a. 4.
+            <lb ed="#V" n="45"/>q. 2. D. Thom. q. 1. et 4. et 3. p. q. 62. a. 2.
+            Du<lb ed="#V" n="46" break="no"/>rand. hic q. 4. 5. Gabr. q. 1. Aureol. q. 1. a. 3.
+            <lb ed="#V" n="47"/>Sotus q. 3. a. 1. Suarez 3. p. tom. 3. d. 7.
+            <lb ed="#V" n="48"/>Vasquez 3. p. d. 131. vide Scot. 4. Metaph. q. 11.
+          </p>
+          <p>
+            <lb ed="#V" n="49"/>Quod sic, Augustinus super Joan.
+            <lb ed="#V" n="50"/>homil. 80. et 1. q. 1. Detrahe: Quae
+            <lb ed="#V" n="51"/>est virtus ista aquae, ut corpus tangat, et i.
+            <lb ed="#V" n="52"/>cor abluat? Loquitur de aqua
+            Bapti<lb ed="#V" n="53" break="no"/>smali, ergo illa cor abluit; cor
+            <lb ed="#V" n="54"/>autem, id est, anima, non abluitur
+            <lb ed="#V" n="55"/>nisi per gratiam, vel gratiae
+            cau<lb ed="#V" n="56" break="no"/>sam; ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="57"/>Item, Magister ponit in littera a
+            <lb ed="#V" n="58"/>rationem Sacramenti, quod est
+            si<lb ed="#V" n="59" break="no"/>gnum gratiae, ita ut ejus
+            similitu<lb ed="#V" n="60" break="no"/>dinem gerat, et causa existat, et
+            <lb ed="#V" n="61"/>per hoc assignat differentiam
+            Sa<lb ed="#V" n="62" break="no"/>cramentorum novae legis et
+            vete<lb ed="#V" n="63" break="no"/>ris, quia illa veteris erant tantum
+            <lb ed="#V" n="64"/>signa gratiae; ista novae legis non
+            <lb ed="#V" n="65"/>sunt solum signa, sed causae; ergo
+            <lb ed="#V" n="66"/>esse causam gratiae est conditio
+            <lb ed="#V" n="67"/>completiva in definitione
+            Sacra<lb ed="#V" n="68" break="no"/>menti perfecti.
+          </p>
+          <p>
+            <lb ed="#V" n="69"/>Item, in quadam oratione petit a
+            <lb ed="#V" n="70"/>Ecclesia: Perficiant in nobis Domine
+            <lb ed="#V" n="71"/>tua Sacramenta quae continent. Ex hoc
+            <lb ed="#V" n="72"/>arguitur dupliciter: Primo, quia
+            <lb ed="#V" n="73"/>petitur gratia, et non petitur
+            im<lb ed="#V" n="74" break="no"/>possibile; ergo est possibile
+            Sacra<lb ed="#V" n="75" break="no"/>menta efficere gratiam. Secundo,
+            <lb ed="#V" n="76"/>quia innuitur Sacramenta
+            conti<lb ed="#V" n="77" break="no"/>nere quod petitur, scilicet
+            gra<lb ed="#V" n="78" break="no"/>tiam; non autem continent eam
+            <lb ed="#V" n="79"/>formaliter, patet; ergo virtualiter
+            <lb ed="#V" n="80"/>aut causaliter.
+          </p>
+          <p>
+            <pb ed="#V" n="140"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Contra, Bernardus in sermone de
+            <lb ed="#V" n="2"/>Coena Domini: Sicut investitur
+            canoni<lb ed="#V" n="3" break="no"/>cus per librum, Abbas per baculum,
+            Epi<lb ed="#V" n="4" break="no"/>scopus per annulum, sic divisiones
+            gra<lb ed="#V" n="5" break="no"/>tiarum diversae sunt traditae a
+            Sacra<lb ed="#V" n="6" break="no"/>mentis. Patet quod illa, de quibus
+            <lb ed="#V" n="7"/>exemplificat, sunt tantum signa,
+            <lb ed="#V" n="8"/>et non causae.
+          </p>
+          <p>
+            <lb ed="#V" n="9"/>Item, Augustinus: Quaedam sunt,
+            <lb ed="#V" n="10"/>quae Deus efficit per seipsum, sicut est
+            <lb ed="#V" n="11"/>illuminare animas; ergo et sic causat
+            <lb ed="#V" n="12"/>gratiam. Item, si Sacramentum
+            <lb ed="#V" n="13"/>esset causa gratiae, aut univoca,
+            <lb ed="#V" n="14"/>aut aequivoca; non univoca, patet,
+            <lb ed="#V" n="15"/>quia non potest esse gratia
+            forma<lb ed="#V" n="16" break="no"/>liter in Sacramento; nec
+            aequivo<lb ed="#V" n="17" break="no"/>ca, quia causa aequivoca est
+            sim<lb ed="#V" n="18" break="no"/>pliciter perfectior suo causato;
+            <lb ed="#V" n="19"/>nobilius autem aliquid vel
+            eminen<lb ed="#V" n="20" break="no"/>tius gratia non potest esse in re
+            <lb ed="#V" n="21"/>sensibili, ut in subjecto ejus.
+          </p>
+          <p>
+            <lb ed="#V" n="22"/>SCHOLIUM.
+            <lb ed="#V" n="23"/>De hoc tractat, in quaest. seq. n. 2. et
+            refu<lb ed="#V" n="24" break="no"/>tat opin. D. Thom. de ea, a num. 4. ponit
+            <lb ed="#V" n="25"/>suam num. 12. et solvit argumenta hic
+            po<lb ed="#V" n="26" break="no"/>sita num. 17.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

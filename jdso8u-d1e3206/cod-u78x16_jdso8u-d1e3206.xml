@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 1, Pars 2, Quaestio 2</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 1, Pars 2, Quaestio 2</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x16">Vives, Paris, 1894, volume 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="122"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e3206"><!-- jdso8u-b4d1p2q2 -->
+        <head>Quaestio 2</head>
+        <head type="question-title">Utrum tempore cuiuscumque Legis a Deo datae debuerit institui aliquod sacramentum</head>
+        <!-- <div alias="scotus-d1q3-p1"> -->
+          <p>
+            <lb ed="#V" n="38" type="fixed=122"/>QUAESTIO III.
+            <lb ed="#V" n="39"/>Utrum pro tempore cujusque legis a
+            <lb ed="#V" n="40"/>Deo datce, debuerit institui aliquod
+            <lb ed="#V" n="41"/>Sacramentum?
+          </p>
+          <p>
+            <lb ed="#V" n="42"/>Alens 4. p. q. 1. m. 1. a. 2. Hug. Vict. de Sacr.
+            <lb ed="#V" n="43"/>p. 9. c. 1. D. Thom. 3. p. q. 61. a. 1. et 2. D.
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="44"/>Bonav. hic a. 1. q. 1. Richard. art. 1. q. 2. Gabr.
+            <lb ed="#V" n="45"/>.2. Sotus q. 1. art. 1. Major. q. 4. Palud. q. 4.
+            <lb ed="#V" n="46"/>Suar. tom. 3 p. 3. d. 3. s. 3. et d. 4. s. 4. Vasq.
+            <lb ed="#V" n="47"/>3. p. d. 130.
+          </p>
+          <p>
+            <lb ed="#V" n="48"/>Habito de Sacramenti quidditate,
+            <lb ed="#V" n="49"/>quaero de ejus institutione, utrum,
+            <lb ed="#V" n="50"/>pro tempore cujuscumque legis a
+            <lb ed="#V" n="51"/>Deo datae, debuerit institui aliquod
+            <lb ed="#V" n="52"/>Sacramentum? Quod non, quia non
+            <lb ed="#V" n="53"/>legimus de aliquo Sacramento
+            in<lb ed="#V" n="54" break="no"/>stituto a Deo pro tempore legis
+            <lb ed="#V" n="55"/>naturae; Sacramentum autem non
+            <lb ed="#V" n="56"/>potest institui nisi a Deo,
+            secun<lb ed="#V" n="57" break="no"/>dum ejus definitionem; ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="58"/>Confirmatur per Gregorium,
+            Mo<lb ed="#V" n="59" break="no"/>ral. 4. libro, et ponitur de Consec.
+            <lb ed="#V" n="60"/>distinct. 4. quod apud nos valet aqua
+            <lb ed="#V" n="61"/>Baptismi, hoc egit apud veteres, vel pro
+            <lb ed="#V" n="62"/>parvulis sola fides, vel pro majoribus
+            <lb ed="#V" n="63"/>virtus sacrificii; ergo non fuit apud
+            <lb ed="#V" n="64"/>eos Sacramentum. Sed major
+            vide<lb ed="#V" n="65" break="no"/>tur esse necessitas pro aliqua lege
+            <lb ed="#V" n="66"/>ratio Sacramenti contra morbum,
+            <lb ed="#V" n="67"/>quam aliquid aliud.
+          </p>
+          <p>
+            <lb ed="#V" n="68"/>Item, Deus non est causa, nec
+            <lb ed="#V" n="69"/>dat directe occasionem errandi
+            <lb ed="#V" n="70"/>homini; sed in sensibilibus esse
+            sa<lb ed="#V" n="71" break="no"/>lutem est directe occasio errandi,
+            <lb ed="#V" n="72"/>quia scilicet credendi aliquid
+            nu<lb ed="#V" n="73" break="no"/>minis esse in talibus sensibilibus,
+            <lb ed="#V" n="74"/>et per consequens idololatrandi;
+            <lb ed="#V" n="75"/>ergo Deus non instituit aliquid
+            sen<lb ed="#V" n="76" break="no"/>sibile, ut in eo vel per illud esset
+            <lb ed="#V" n="77"/>salus quaerenda.
+          </p>
+          <p>
+            <lb ed="#V" n="78"/>Item, Deus non immediate, sed 4
+            <lb ed="#V" n="79"/>per ministrum aliquam legem
+            de<lb ed="#V" n="80" break="no"/>dit. Patet de lege Mosaica per
+            to<lb ed="#V" n="81" break="no"/>tum; ergo similiter de lege
+            Evan<lb ed="#V" n="82" break="no"/>gelica videtur, quod institui potuit
+            <lb ed="#V" n="83"/>vel ordinari illud Sacramentum
+            <lb ed="#V" n="84"/>per alium ministrum, et non
+            neces<lb ed="#V" n="85" break="no"/>sario immediate a Deo.
+          </p>
+          <p>
+            <lb ed="#V" n="86"/>Item, cum plures leges fuerint
+            <lb ed="#V" n="87"/>eo datae, si cujuslibet tempore
+            <lb ed="#V" n="88"/>fuerit Sacramentum a Deo
+            institu<pb ed="#V" n="123"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>tum, ergo aliud, et aliud; quia si
+            <lb ed="#V" n="2"/>Sacramentum legis prioris
+            reman<lb ed="#V" n="3" break="no"/>sisset tempore legis posterioris,
+            <lb ed="#V" n="4"/>non fuisset aliud institutum pro
+            le<lb ed="#V" n="5" break="no"/>ge posteriori; sed consequens est
+            <lb ed="#V" n="6"/>inconveniens, quia vox semel
+            impo<lb ed="#V" n="7" break="no"/>sita ad significandum, semper
+            ma<lb ed="#V" n="8" break="no"/>net significativa ejusdem; ergo
+            <lb ed="#V" n="9"/>multo magis signum semel a Deo
+            <lb ed="#V" n="10"/>impositum semper manet
+            signifi<lb ed="#V" n="11" break="no"/>catum ejusdem.
+          </p>
+          <p>
+            <lb ed="#V" n="12"/>Contra, Augustinus contra
+            Fau<lb ed="#V" n="13" break="no"/>stum 19. In nullum nomen religionis
+            coa<lb ed="#V" n="14" break="no"/>gulari possunt homines, nisi aliquorum
+            <lb ed="#V" n="15"/>signorum velut Sacramentorum visibilium
+            <lb ed="#V" n="16"/>consortio colligentur.
+          </p>
+          <p>
+            <lb ed="#V" n="17"/>SCHOLIUM.
+            <lb ed="#V" n="18"/>Necessitas Sacramenti probari non potest;
+            <lb ed="#V" n="19"/>congruitas et utilitas ejus per rationem
+            con<lb ed="#V" n="20" break="no"/>stat; illud institutum esse, per auctoritatem
+            <lb ed="#V" n="21"/>tantum habetur.
+          </p>
+          <p>
+            <lb ed="#V" n="22"/>Hic quatuor (a) sunt videnda.
+            <lb ed="#V" n="23"/>Primo, quod Sacramentum aliquod
+            <lb ed="#V" n="24"/>fuit instituendum. Secundo, a quo,
+            <lb ed="#V" n="25"/>quia immediate a Deo. Tertio, an
+            <lb ed="#V" n="26"/>pro tempore cujuscumque status
+            <lb ed="#V" n="27"/>viae post lapsum. Quarto, an aliud
+            <lb ed="#V" n="28"/>et aliud pro statu alterius et
+            alte<lb ed="#V" n="29" break="no"/>rius legis?
+          </p>
+          <p>
+            <lb ed="#V" n="30"/>De primo dico, quod
+            Sacramen<lb ed="#V" n="31" break="no"/>tum debere institui, non potest
+            pro<lb ed="#V" n="32" break="no"/>bari necessario, neque a priori, quia
+            <lb ed="#V" n="33"/>Deus extra se nihil agit necessario,
+            <lb ed="#V" n="34"/>neque a posteriori sicut a fine, quia
+            <lb ed="#V" n="35"/>absolute possibile esset effectum
+            <lb ed="#V" n="36"/>invisibilem haberi sine tali signo.
+            <lb ed="#V" n="37"/>Sed quod congruum fuerit
+            Sacra<lb ed="#V" n="38" break="no"/>mentum institui, probatur ratione
+            <lb ed="#V" n="39"/>simili illi, quae posita est in
+            praeceden<lb ed="#V" n="40" break="no"/>te quaestione, in primo articulo,
+            proban<lb ed="#V" n="41" break="no"/>te possibilitatem Sacramenti.
+            Con<lb ed="#V" n="42" break="no"/>gruum enim est effectum
+            invisibi<lb ed="#V" n="43" break="no"/>lem causandum a Deo, ordinantem
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="44"/>hominem ad salutem, significari
+            <lb ed="#V" n="45"/>per aliquod signum sensibile, ut
+            <lb ed="#V" n="46"/>viator inquirens cognitionem ex
+            <lb ed="#V" n="47"/>sensibilibus, effectum illum
+            invi<lb ed="#V" n="48" break="no"/>sibilem certius cognoscat. Nec
+            so<lb ed="#V" n="49" break="no"/>lum congruit esse signum hujus
+            <lb ed="#V" n="50"/>effectus quasi speculativum, per
+            <lb ed="#V" n="51"/>quod scilicet possit haberi
+            conce<lb ed="#V" n="52" break="no"/>ptus in intellectu de illo signato,ut
+            <lb ed="#V" n="53"/>homo signat naturam humanam,
+            <lb ed="#V" n="54"/>sed signum quasi practicum,
+            sci<lb ed="#V" n="55" break="no"/>licet quod signat signatum esse
+            <lb ed="#V" n="56"/>vel fieri. Nec adhuc signum
+            pra<lb ed="#V" n="57" break="no"/>cticum dubium seu aequivocum,
+            <lb ed="#V" n="58"/>vel incertum, quia etsi per tale
+            <lb ed="#V" n="59"/>signum duceretur homo in
+            cogniti<lb ed="#V" n="60" break="no"/>onem fieri hujus effectus, non
+            ta<lb ed="#V" n="61" break="no"/>men appeteret illud signum sibi
+            <lb ed="#V" n="62"/>adhiberi propter incertitudinem
+            <lb ed="#V" n="63"/>signi respectu fieri signati; ergo
+            <lb ed="#V" n="64"/>talem effectum signari per signum
+            <lb ed="#V" n="65"/>practicum certum et efficax, fuit
+            <lb ed="#V" n="66"/>congruum, ut et homo ex tali
+            si<lb ed="#V" n="67" break="no"/>gno effectum cognoscat, et in tali
+            <lb ed="#V" n="68"/>signo effectum ardenter quaerat.
+          </p>
+          <p>
+            <lb ed="#V" n="69"/>Nec tamen congruit signum
+            il<lb ed="#V" n="70" break="no"/>lud esse certum certitudine
+            de<lb ed="#V" n="71" break="no"/>monstrativa, sed quasi ut in
+            pluri<lb ed="#V" n="72" break="no"/>bus. Sicut enim in speculabilibus
+            <lb ed="#V" n="73"/>aliquod signum est certum, et
+            ne<lb ed="#V" n="74" break="no"/>cessarium aliquod, ut in pluribus,
+            <lb ed="#V" n="75"/>primo Posteriorum, sic posset
+            si<lb ed="#V" n="76" break="no"/>gnum practicum habere
+            certitudi<lb ed="#V" n="77" break="no"/>nem quasi necessariam, si ipsum
+            <lb ed="#V" n="78"/>universaliter et quasi necessario
+            <lb ed="#V" n="79"/>concomitaretur fieri effectus, vel
+            <lb ed="#V" n="80"/>certitudinem, ut in pluribus, si
+            ip<lb ed="#V" n="81" break="no"/>sum concomitaretur effectus, ut in
+            <lb ed="#V" n="82"/>pluribus. Non fuit autem
+            con<lb ed="#V" n="83" break="no"/>gruum esse signum aliquod certum
+            <lb ed="#V" n="84"/>sensibile primo modo, quia cum
+            <lb ed="#V" n="85"/>illud signum sensibile debeat
+            adhi<lb ed="#V" n="86" break="no"/>beri ab homine, sequeretur quod
+            <lb ed="#V" n="87"/>in potestate hominis esset signum
+            <pb ed="#V" n="124"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>aliquod, ad quod Deus
+            universali<lb ed="#V" n="2" break="no"/>ter causaret illum effectum
+            invisi<lb ed="#V" n="3" break="no"/>bilem, quod auferret a suscipiente
+            <lb ed="#V" n="4"/>debitam pr aeparationem; sufficeret
+            <lb ed="#V" n="5"/>enim sibi, quod qualitercumque
+            in<lb ed="#V" n="6" break="no"/>dispositus illud signum susciperet.
+            <lb ed="#V" n="7"/>Congruit igitur effectum talem
+            in<lb ed="#V" n="8" break="no"/>visibilem significari per signum
+            <lb ed="#V" n="9"/>sensibile practicum certum
+            certi<lb ed="#V" n="10" break="no"/>tudine ut in pluribus, id est,
+            sem<lb ed="#V" n="11" break="no"/>per, nisi indispositio suscipientis
+            <lb ed="#V" n="12"/>impediat, et hoc signo naturaliter
+            <lb ed="#V" n="13"/>praecedente fieri signati, ut sic
+            su<lb ed="#V" n="14" break="no"/>sceptio signi sit quasi dispositio
+            <lb ed="#V" n="15"/>ad signatum.
+          </p>
+          <p>
+            <lb ed="#V" n="16"/>Has autem omnes conditiones,
+            <lb ed="#V" n="17"/>quod scilicet sit practicum certum,
+            <lb ed="#V" n="18"/>ut in pluribus, et praecedens
+            natu<lb ed="#V" n="19" break="no"/>raliter fieri signati, intelligo per
+            <lb ed="#V" n="20"/>hanc conditionem efficax; tale
+            au<lb ed="#V" n="21" break="no"/>tem signum non potest esse
+            ali<lb ed="#V" n="22" break="no"/>quod sensibile significans
+            natura<lb ed="#V" n="23" break="no"/>liter, quia nullum sensibile habet
+            <lb ed="#V" n="24"/>efficaciam naturalem ad effectum
+            <lb ed="#V" n="25"/>invisibilem; ergo congruit, quod
+            <lb ed="#V" n="26"/>sit signum institutum, sive
+            impo<lb ed="#V" n="27" break="no"/>situm. Sic ergo habetur secundum
+            <lb ed="#V" n="28"/>totam rationem Sacramenti, quod
+            <lb ed="#V" n="29"/>congruum fuit Sacramentum
+            insti<lb ed="#V" n="30" break="no"/>tui propter cognitionem et
+            deside<lb ed="#V" n="31" break="no"/>rium causandum in viatore,
+            respe<lb ed="#V" n="32" break="no"/>ctu effectus invisibilis. Et haec est
+            <lb ed="#V" n="33"/>ratio, quam tangit Magister in
+            <lb ed="#V" n="34"/>littera, scilicet, propter
+            eruditi<lb ed="#V" n="35" break="no"/>onem; alias duas rationes tangit,
+            <lb ed="#V" n="36"/>propter scilicet exercitationem et
+            <lb ed="#V" n="37"/>humiliationem; quam
+            expositio<lb ed="#V" n="38" break="no"/>nem tangit in littera, et istae tres
+            <lb ed="#V" n="39"/>rationes concludunt rationem
+            in<lb ed="#V" n="40" break="no"/>stitutionis Sacramenti, ex parte
+            <lb ed="#V" n="41"/>cujuscumque personae privatae.
+          </p>
+          <p>
+            <lb ed="#V" n="42"/>Est etiam alia ratio, quae tangit
+            <lb ed="#V" n="43"/>illam congruitatem ex parte totius
+            <lb ed="#V" n="44"/>communitatis. Congruum est enim
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>omnibus viatoribus unius sectae,
+            <lb ed="#V" n="46"/>aliquibus signis exterioribus
+            com<lb ed="#V" n="47" break="no"/>municare et convenire, per quae
+            eti<lb ed="#V" n="48" break="no"/>am ab aliis alterius sectae
+            distin<lb ed="#V" n="49" break="no"/>guantur. Nam ex talibus signis
+            nos<lb ed="#V" n="50" break="no"/>cit homo quis est suae sectae, et quis
+            <lb ed="#V" n="51"/>alterius; hoc autem expedit, quia
+            <lb ed="#V" n="52"/>qui sciunt se ejusdem sectae, juvant
+            <lb ed="#V" n="53"/>se mutuo ad observationem ejus;
+            <lb ed="#V" n="54"/>et qui sciunt se dissimilis sectae,
+            <lb ed="#V" n="55"/>vitant se mutuo tanquam mutuo
+            <lb ed="#V" n="56"/>se impedientes. Tale autem signum
+            <lb ed="#V" n="57"/>unitivum eorum, qui sunt ejusdem
+            <lb ed="#V" n="58"/>sectae, et distinctivum ab aliis,
+            ex<lb ed="#V" n="59" break="no"/>pedit esse practicum, respectu
+            ali<lb ed="#V" n="60" break="no"/>cujus effectus invisibilis
+            pertinen<lb ed="#V" n="61" break="no"/>tis ad observationem sectae.
+          </p>
+          <p>
+            <lb ed="#V" n="62"/>Sic ergo patet, quod necessitas
+            <lb ed="#V" n="63"/>probari non potest, sed congruitas
+            <lb ed="#V" n="64"/>probatur per rationem. Factum
+            <lb ed="#V" n="65"/>autem probatur per auctoritatem,
+            <lb ed="#V" n="66"/>ut tangetur in quarto articulo, quia
+            <lb ed="#V" n="67"/>auctoritates non loquuntur de
+            Sa<lb ed="#V" n="68" break="no"/>cramento in communi sumpto,
+            <lb ed="#V" n="69"/>sicut hic adhuc tractatur, sed
+            lo<lb ed="#V" n="70" break="no"/>quuntur in speciali de tali et tali
+            <lb ed="#V" n="71"/>Sacramento talis vel talis legis.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d1q3-p2"> -->
+          <p>
+            <lb ed="#V" n="28" type="fixed=126"/>SCHOLIUM.
+            <lb ed="#V" n="29"/>Aliud esse signum practicum instituere,
+            <lb ed="#V" n="30"/>aliud, illud certum facere. Homo posset
+            ins<lb ed="#V" n="31" break="no"/>tituere signum practicim gratiae, sed non
+            <lb ed="#V" n="32"/>posset illud facere certum, nec posset Deus
+            <lb ed="#V" n="33"/>ei talem institutionem positive committere,
+            <lb ed="#V" n="34"/>nisi se astringeret ad causandam gratiam.
+            <lb ed="#V" n="35"/>Hic videtur Doctor dicere potestatem
+            insti<lb ed="#V" n="36" break="no"/>tuendi Sacramenta non posse communicari
+            <lb ed="#V" n="37"/>creaturae, quod tenent Dur. 4. d. 2.q. 1. et Gab.
+            <lb ed="#V" n="38"/>hic quaest. 2. Si enim Deus determinaret se
+            <lb ed="#V" n="39"/>generaliter ad assistendum signo per me
+            in<lb ed="#V" n="40" break="no"/>stituendo ad causandam gratiam, et ego
+            in<lb ed="#V" n="41" break="no"/>stituerem signum aliquod, adhuc institutio
+            <lb ed="#V" n="42"/>non esset a me, ut sit efficax et infallibilis,
+            <lb ed="#V" n="43"/>sed a generali Dei voluntate, et ego essem
+            <lb ed="#V" n="44"/>praeco vel promulgator. Sed non apparet
+            cer<lb ed="#V" n="45" break="no"/>to Doctorem hoc tenuisse, quia non est hic
+            <lb ed="#V" n="46"/>clarus, neque hic est in re controversia, sed
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="47"/>in voce, quia negantes potestatem
+            instituen<lb ed="#V" n="48" break="no"/>di Sacramentum non posse communicari,
+            in<lb ed="#V" n="49" break="no"/>telligunt per hanc, potestatem
+            independen<lb ed="#V" n="50" break="no"/>tem ab alio quoad executionem.
+          </p>
+          <p>
+            <lb ed="#V" n="51"/>De secundo (b) dico, quod
+            aliun<lb ed="#V" n="52" break="no"/>de signum practicum habet, quod
+            <lb ed="#V" n="53"/>significet practice signatum, et
+            <lb ed="#V" n="54"/>aliunde quod sit certum signum,
+            <lb ed="#V" n="55"/>quod patet, quia possibile est
+            quan<lb ed="#V" n="56" break="no"/>doque aliquem non veracem uti
+            <lb ed="#V" n="57"/>illo signo, signationem enim habet
+            <lb ed="#V" n="58"/>ex institutione; sed quod sit
+            cer<lb ed="#V" n="59" break="no"/>tum, non habet nisi ex
+            determina<lb ed="#V" n="60" break="no"/>tione alicujus causae cooperantis
+            <lb ed="#V" n="61"/>illi signo, ad causandum
+            significa<lb ed="#V" n="62" break="no"/>tum. Verbi gratia, si ab aliquo
+            <lb ed="#V" n="63"/>legislatore instituatur in politia
+            <lb ed="#V" n="64"/>sua pro signo pacis, tactus manus,
+            <lb ed="#V" n="65"/>vel hujusmodi, et si ex ista
+            impo<lb ed="#V" n="66" break="no"/>sitione habet istud signum, quod
+            <lb ed="#V" n="67"/>practice significet pacem; tamen
+            <lb ed="#V" n="68"/>si alius non verax potest uti isto
+            <lb ed="#V" n="69"/>signo, istud signum non est
+            cer<lb ed="#V" n="70" break="no"/>tum ex impositione legislatoris,
+            <lb ed="#V" n="71"/>sed remanet aequivocum,
+            quando<lb ed="#V" n="72" break="no"/>que scilicet verum, quando habet
+            <lb ed="#V" n="73"/>concomitans signatum, quandoque
+            <lb ed="#V" n="74"/>falsum. Falsus enim utitur isto
+            <lb ed="#V" n="75"/>signo sine signato, sicut uteretur
+            <lb ed="#V" n="76"/>signo speculativo benevolentiae sine
+            <lb ed="#V" n="77"/>signato, dicendo, concedo tibi
+            di<lb ed="#V" n="78" break="no"/>lectionem meam, habens aliud,
+            sci<lb ed="#V" n="79" break="no"/>licet oppositum in mente.
+          </p>
+          <p>
+            <lb ed="#V" n="80"/>Ad propositum, Sacramentum
+            <lb ed="#V" n="81"/>et practice significat effectum
+            pra<lb ed="#V" n="82" break="no"/>cticum causari in illo cui
+            adhibe<lb ed="#V" n="83" break="no"/>tur, et sic signat, quod est signum
+            <lb ed="#V" n="84"/>certum ut in pluribus, sive
+            regu<lb ed="#V" n="85" break="no"/>lariter, quantum est ex parte ejus.
+            <lb ed="#V" n="86"/>Quantum autem ad signationem,
+            <lb ed="#V" n="87"/>possibile esset quod institueretur
+            <lb ed="#V" n="88"/>ab aliqua creatura, quia sicut
+            pos<lb ed="#V" n="89" break="no"/>set homo imponere signum
+            specu<lb ed="#V" n="90" break="no"/>lativum effectus Dei, ut patet de
+            <pb ed="#V" n="127"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>ista oratione: Deus causat gratiam in
+            <lb ed="#V" n="2"/>anima, ita posset imponere signum,
+            <lb ed="#V" n="3"/>quod practice signaret Deum
+            invi<lb ed="#V" n="4" break="no"/>sibiliter agere, sed non posset dare
+            <lb ed="#V" n="5"/>illi signo, quod esset regulariter
+            <lb ed="#V" n="6"/>certum; non enim potest dare
+            cer<lb ed="#V" n="7" break="no"/>titudinem alicui signo practico,
+            <lb ed="#V" n="8"/>nisi in cujus potestate est posse
+            <lb ed="#V" n="9"/>causare signatum illius signi;
+            so<lb ed="#V" n="10" break="no"/>lus autem Deus potest se
+            determi<lb ed="#V" n="11" break="no"/>nare ad causandum effectum sibi
+            <lb ed="#V" n="12"/>proprium; ergo solus Deus potest
+            <lb ed="#V" n="13"/>dare certitudinem signo practico
+            <lb ed="#V" n="14"/>sui effectus. Sic ergo patet, quod
+            <lb ed="#V" n="15"/>a Deo solo potest institui
+            Sacra<lb ed="#V" n="16" break="no"/>mentum, quantum ad signum
+            cer<lb ed="#V" n="17" break="no"/>tum; inquantum autem absolute
+            <lb ed="#V" n="18"/>est signum practicum, posset
+            in<lb ed="#V" n="19" break="no"/>stitui ab aliquo alio, sed non
+            con<lb ed="#V" n="20" break="no"/>gruit, quia institutio talis signi
+            <lb ed="#V" n="21"/>esset omnino frustra, cum ex
+            im<lb ed="#V" n="22" break="no"/>positione nunquam sine aliquo
+            in<lb ed="#V" n="23" break="no"/>trinseco, posset habere veritatem,
+            <lb ed="#V" n="24"/>cum non sit in potestate
+            imponen<lb ed="#V" n="25" break="no"/>tis, nec utentis, nec congruit, quod
+            <lb ed="#V" n="26"/>Deus committat inferiori se in
+            si<lb ed="#V" n="27" break="no"/>tuere Sacramentum, inquantum
+            <lb ed="#V" n="28"/>certum signum, ne Deus esset
+            <lb ed="#V" n="29"/>approbator signi falsi vel
+            aequi<lb ed="#V" n="30" break="no"/>voci. Potest tamen Sacramentum
+            <lb ed="#V" n="31"/>inquantum signum, et inquantum
+            <lb ed="#V" n="32"/>certum, ab alio a Deo promulgari,
+            <lb ed="#V" n="33"/>ut a praecone; sed ista promulgatio
+            <lb ed="#V" n="34"/>non est institutio, sed
+            praesuppo<lb ed="#V" n="35" break="no"/>nit institutionem.
+          </p>
+          <p>
+            <lb ed="#V" n="36"/>Ex isto patet, an Sacramentum
+            <lb ed="#V" n="37"/>ex institutione sua habeat
+            effica<lb ed="#V" n="38" break="no"/>ciam. Si enim intelligatur
+            institu<lb ed="#V" n="39" break="no"/>tio praecise impositio ad
+            signan<lb ed="#V" n="40" break="no"/>dum practice, dico quod non, et
+            <lb ed="#V" n="41"/>patet ex dictis. Si autem
+            intelliga<lb ed="#V" n="42" break="no"/>tur institutio determinatio
+            quae<lb ed="#V" n="43" break="no"/>dam voluntatis ipsius instituentis
+            <lb ed="#V" n="44"/>ad cooperandum illi signo, quae
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>institutio non est praecisa
+            imposi<lb ed="#V" n="46" break="no"/>tio ad signandum practice, sed
+            <lb ed="#V" n="47"/>cum hoc determinatio signi ad
+            <lb ed="#V" n="48"/>veritatem et ad certitudinem; hoc
+            <lb ed="#V" n="49"/>modo ex institutione habet
+            effica<lb ed="#V" n="50" break="no"/>ciam, hoc est, quod signatum
+            con<lb ed="#V" n="51" break="no"/>comitetur istud signum.
+          </p>
+          <p>
+            <lb ed="#V" n="52"/>Et sicut in homine esset alius
+            <lb ed="#V" n="53"/>actus realiter, quo institueret
+            <lb ed="#V" n="54"/>osculum, ut sit signum
+            reconcili<lb ed="#V" n="55" break="no"/>ationis; et alius actus, quo
+            deter<lb ed="#V" n="56" break="no"/>minaret voluntatem ad istud
+            si<lb ed="#V" n="57" break="no"/>gnatum causandum, signo
+            exhibi<lb ed="#V" n="58" break="no"/>to; ita est in Deo alius actus
+            rati<lb ed="#V" n="59" break="no"/>onis ad instituendum signum
+            sen<lb ed="#V" n="60" break="no"/>sibile, ad practice signandum
+            effe<lb ed="#V" n="61" break="no"/>ctum Dei, et alius, quo determinat
+            <lb ed="#V" n="62"/>se realiter ad cooperandum tali
+            <lb ed="#V" n="63"/>signo regulariter, id est, semper,
+            <lb ed="#V" n="64"/>quando indispositio suscipientis
+            <lb ed="#V" n="65"/>non impedit. Isti tamen duo actus
+            <lb ed="#V" n="66"/>simul concurrentes possunt dici
+            <lb ed="#V" n="67"/>una Sacramenti institutio
+            comple<lb ed="#V" n="68" break="no"/>ta, inquantum est signum certum
+            <lb ed="#V" n="69"/>et distinctum a signo aequivoco.
+          </p>
+          <p>
+            <lb ed="#V" n="70"/>Quod si hoc est de ratione
+            Sacra<lb ed="#V" n="71" break="no"/>menti, uti videtur ex illa particula a
+            <lb ed="#V" n="72"/>efficax, sequitur quod de ratione
+            <lb ed="#V" n="73"/>ejus proprie dicta est, quod a solo
+            <lb ed="#V" n="74"/>Deo possit institui. Si autem non
+            <lb ed="#V" n="75"/>est de ratione ejus, quia accidit
+            <lb ed="#V" n="76"/>signo, utrum signatum
+            concomi<lb ed="#V" n="77" break="no"/>tetur ipsum, vel non, saltem ipsa
+            <lb ed="#V" n="78"/>perfectio superaddita rationi
+            Sa<lb ed="#V" n="79" break="no"/>cramenti, quae est veritas vel
+            con<lb ed="#V" n="80" break="no"/>formitas in signando ad rem
+            signa<lb ed="#V" n="81" break="no"/>tam, requirit ut instituatur a Deo,
+            <lb ed="#V" n="82"/>sive quod Deus determinet se
+            re<lb ed="#V" n="83" break="no"/>gulariter cooperari illi signo.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d1q3-p3"> -->
+          <p>
+            <lb ed="#V" n="4" type="fixed=130"/>SCHOLIUM.
+            <lb ed="#V" n="5"/>Pro omni statu post lapsum, congruum
+            <lb ed="#V" n="6"/>fuisse institui Sacramentum, non tamen pro
+            <lb ed="#V" n="7"/>statu innocentiae vel patriae. Alens. sup m. 2.
+            <lb ed="#V" n="8"/>et communis. Et licet asserat ibi cum Hug.
+            <lb ed="#V" n="9"/>lib. 1. de Sacram. p. 8. c. 12. 13.
+            Matrimo<lb ed="#V" n="10" break="no"/>nium in statu innocentiae esse Sacramentum,
+            <lb ed="#V" n="11"/>intelligit de Sacramento secundum quid,
+            <lb ed="#V" n="12"/>quatenus significat quodcumque mysterium.
+          </p>
+          <p>
+            <lb ed="#V" n="13"/>De tertio (c) articulo apparet ex
+            <lb ed="#V" n="14"/>primo. Nam pro quocumque statu
+            <lb ed="#V" n="15"/>in quo est morbus, necessaria est
+            <lb ed="#V" n="16"/>medicina, et pro quocumque statu
+            <lb ed="#V" n="17"/>viae ( maxime post lapsum)
+            con<lb ed="#V" n="18" break="no"/>gruum est hominem manuduci ad
+            <lb ed="#V" n="19"/>invisibilia per aliquod sensibile;
+            <lb ed="#V" n="20"/>sed in omni statu viae ( maxime
+            <lb ed="#V" n="21"/>post lapsum) morbus est in
+            natu<lb ed="#V" n="22" break="no"/>ra; ergo pro omni illo, congruum
+            <lb ed="#V" n="23"/>est aliquod institui Sacramentum.
+            <lb ed="#V" n="24"/>In speciali autem, an plura pro
+            <lb ed="#V" n="25"/>tempore ejusdem legis, et quae, vel
+            <lb ed="#V" n="26"/>quot, tangetur inferius; hic enim
+            <lb ed="#V" n="27"/>tantum quaeritur in generali de
+            <lb ed="#V" n="28"/>quando, sicut de aliis conditionibus
+            <lb ed="#V" n="29"/>pertinentibus ad institutionem.
+          </p>
+          <p>
+            <lb ed="#V" n="30"/>Ex hoc apparet, quod in statu
+            <lb ed="#V" n="31"/>patriae nullum congruit
+            Sacra<lb ed="#V" n="32" break="no"/>mentum, quia tunc non indiget
+            <lb ed="#V" n="33"/>homo sensibilibus, ut cognoscat
+            <lb ed="#V" n="34"/>intelligibilia pertinentia ad
+            salu<lb ed="#V" n="35" break="no"/>tem suam, neque tunc indiget
+            ex<lb ed="#V" n="36" break="no"/>citari ad quaerendum pertinentia
+            <lb ed="#V" n="37"/>ad salutem, quia est perfecte
+            con<lb ed="#V" n="38" break="no"/>secutus salutem. Pro statu etiam
+            <lb ed="#V" n="39"/>innocentiae non fuit congruum
+            in<lb ed="#V" n="40" break="no"/>stitui Sacramentum, sicut post
+            <lb ed="#V" n="41"/>lapsum, quia etsi tunc homo
+            po<lb ed="#V" n="42" break="no"/>tuerit ex sensibilibus cognoscere
+            <lb ed="#V" n="43"/>intelligibilia, tamen nullum
+            sen<cb ed="#V" n="b"/><lb ed="#V" n="44" break="no"/>sibile fuit necessarium, tanquam
+            <lb ed="#V" n="45"/>conferens ad salutem,
+            removen<lb ed="#V" n="46" break="no"/>do aliquod impedimentum salutis,
+            <lb ed="#V" n="47"/>ut scilicet possit dici proprie
+            me<lb ed="#V" n="48" break="no"/>dicina. An vero Matrimonium,
+            <lb ed="#V" n="49"/>(quod certum est fuisse in statu
+            <lb ed="#V" n="50"/>innocentiae) fuerit Sacramentum,
+            <lb ed="#V" n="51"/>de hoc inferius.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d1q3-p4"> -->
+          <p>
+            <lb ed="#V" n="36" type="fixed=135"/>SCHOLIUM.
+            <lb ed="#V" n="37"/>Sacramentum proprie dictum, id est,
+            cau<lb ed="#V" n="38" break="no"/>sativum gratiae, vel deletivum peccati, fuisse
+            <lb ed="#V" n="39"/>aliud et aliud in alia et alia lege, et explicat
+            <lb ed="#V" n="40"/>quomodo. Et ex hic dictis et dicendis q. 6.
+            <lb ed="#V" n="41"/>colligitur Sacramenta haec nova et vetera
+            <lb ed="#V" n="42"/>univoce participare rationem Sacramenti.
+          </p>
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43"/>De quarto, (d) primo oportet
+            <lb ed="#V" n="44"/>videre, quomodo Sacramentum
+            <lb ed="#V" n="45"/>possit distingui, et secundo ad
+            <lb ed="#V" n="46"/>propositum. De primo sciendum,
+            <lb ed="#V" n="47"/>quod Sacramentum uno modo
+            distin<lb ed="#V" n="48" break="no"/>guitur quasi vox in significationes,
+            <lb ed="#V" n="49"/>in Sacramentum proprie et
+            im<lb ed="#V" n="50" break="no"/>proprie dictum; alio modo
+            distin<lb ed="#V" n="51" break="no"/>guitur quasi superius in inferiora,
+            <lb ed="#V" n="52"/>et hoc quidem tripliciter. Cum
+            <lb ed="#V" n="53"/>enim sit sensibile signans aliquid,
+            <lb ed="#V" n="54"/>vel potest esse aliud et aliud
+            Sa<lb ed="#V" n="55" break="no"/>cramentum, quia aliud et aliud
+            <lb ed="#V" n="56"/>sensibile; vel aliud Sacramentum,
+            <lb ed="#V" n="57"/>quia aliam signationem habens,
+            <lb ed="#V" n="58"/>et hoc dupliciter: vel simpliciter
+            <lb ed="#V" n="59"/>aliam respectu alterius et alterius
+            <lb ed="#V" n="60"/>signati; vel secundum quid seu
+            im<lb ed="#V" n="61" break="no"/>perfecte aliam, respectu ejusdem
+            <lb ed="#V" n="62"/>variati secundum magis et minus.
+          </p>
+          <p>
+            <lb ed="#V" n="63"/>Ad propositum dico, quod in
+            <lb ed="#V" n="64"/>quacumque lege potest inveniri
+            <lb ed="#V" n="65"/>Sacramentum distinctum primo
+            <lb ed="#V" n="66"/>modo. In qualibet enim lege sicut
+            <lb ed="#V" n="67"/>fuit Sacramentum aliquod
+            pro<lb ed="#V" n="68" break="no"/>prie dictum ex tertio articulo, sic
+            <lb ed="#V" n="69"/>fuit Sacramentum aliquod
+            impro<lb ed="#V" n="70" break="no"/>prie dictum; imo multa talia, puta
+            <lb ed="#V" n="71"/>a principio, genuflexiones,
+            incli<lb ed="#V" n="72" break="no"/>nationes et prostrationes ad
+            ter<lb ed="#V" n="73" break="no"/>ram, et hujusmodi, quae possunt
+            <lb ed="#V" n="74"/>generaliter dici sacra signa, et ita
+            <lb ed="#V" n="75"/>improprie Sacramenta, haec etiam
+            <lb ed="#V" n="76"/>poterant esse eadem, et multa alia
+            <lb ed="#V" n="77"/>in lege Moysi et Evangelii.
+          </p>
+          <p>
+            <lb ed="#V" n="78"/>Sed loquendo de Sacramento
+            <lb ed="#V" n="79"/>proprie dicto, dico quod debuit
+            <lb ed="#V" n="80"/>esse aliud et aliud in alia et alia
+            <lb ed="#V" n="81"/>lege; et hoc non curando hic de
+            <lb ed="#V" n="82"/>aliis Sacramentis, saltem hoc fuit
+            <lb ed="#V" n="83"/>congruum de eo, quod
+            institueba<lb ed="#V" n="84" break="no"/>tur ut medicina contra morbum
+            <lb ed="#V" n="85"/>originalis peccati. Debuit etiam
+            <lb ed="#V" n="86"/>esse aliud in ratione signi, et
+            ra<pb ed="#V" n="136"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>tione sensibilis instituti ad
+            signan<lb ed="#V" n="2" break="no"/>dum. Primum probatur, non
+            qui<lb ed="#V" n="3" break="no"/>dem quod signatio esset
+            simplici<lb ed="#V" n="4" break="no"/>ter alia et alia respectu alterius
+            <lb ed="#V" n="5"/>simpliciter, nam ex quo in
+            quali<lb ed="#V" n="6" break="no"/>bet lege fuit medicina contra
+            eum<lb ed="#V" n="7" break="no"/>dem morbum, non fuit simpliciter
+            <lb ed="#V" n="8"/>aliud, quod signabatur per tale
+            <lb ed="#V" n="9"/>Sacramentum in alia et alia lege;
+            <lb ed="#V" n="10"/>sed debuit significatio esse alia
+            re<lb ed="#V" n="11" break="no"/>spectu alterius, secundum minus et
+            <lb ed="#V" n="12"/>magis variati. Quod probatur, quia
+            <lb ed="#V" n="13"/>in processu generationis
+            huma<lb ed="#V" n="14" break="no"/>nae semper crevit notitia veritatis,
+            <lb ed="#V" n="15"/>ut patet per Gregorium super
+            Eze<lb ed="#V" n="16" break="no"/>chielem; ergo congruum fuit in lege
+            <lb ed="#V" n="17"/>posteriori signum institutum
+            evi<lb ed="#V" n="18" break="no"/>dentius signare signatum; lex
+            au<lb ed="#V" n="19" break="no"/>tem posterior semper fuit
+            perfe<lb ed="#V" n="20" break="no"/>ctior, quia Deus ordinate agens,
+            <lb ed="#V" n="21"/>procedit de imperfecto ad
+            perfe<lb ed="#V" n="22" break="no"/>ctum; lex (e) autem perfectior
+            <lb ed="#V" n="23"/>requirit adjutoria perfectiora ad
+            <lb ed="#V" n="24"/>sui observationem; ergo lex
+            poste<lb ed="#V" n="25" break="no"/>rior debuit habere Sacramentum
+            <lb ed="#V" n="26"/>signans perfectiorem gratiam. Sic
+            <lb ed="#V" n="27"/>ergo congruum fuit in alia et alia
+            <lb ed="#V" n="28"/>lege esse signationem aliam et
+            <lb ed="#V" n="29"/>aliam manifestiorem in posteriori,
+            <lb ed="#V" n="30"/>et respectu signati perfectioris.
+          </p>
+          <p>
+            <lb ed="#V" n="31"/>Ex hoc sequitur, quod decuit
+            <lb ed="#V" n="32"/>esse aliud et aliud Sacramentum,
+            <lb ed="#V" n="33"/>quantum ad sensibile signans, nam
+            <lb ed="#V" n="34"/>magis congruum est ad signandum
+            <lb ed="#V" n="35"/>perfectiorem gratiam, et
+            manife<lb ed="#V" n="36" break="no"/>stius signandum, novum signum
+            <lb ed="#V" n="37"/>imponi, quam antiquum
+            remane<lb ed="#V" n="38" break="no"/>re. Antiquum enim ex prima
+            im<lb ed="#V" n="39" break="no"/>positione nullo modo potuit aliud
+            <lb ed="#V" n="40"/>signare quam primo; ipsum
+            au<lb ed="#V" n="41" break="no"/>tem primum, seu idem sensibile
+            <lb ed="#V" n="42"/>poni in secunda lege, ad aliud
+            si<lb ed="#V" n="43" break="no"/>gnandum quam primo, vel alio
+            <lb ed="#V" n="44"/>modo signandum, non erat ita
+            con<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>gruum, sicut aliud imponi, ut
+            pa<lb ed="#V" n="46" break="no"/>tet etiam in signis practicis
+            insti<lb ed="#V" n="47" break="no"/>tutis a nobis, quod rationabilius
+            <lb ed="#V" n="48"/>est ad significandum perfectiorem
+            <lb ed="#V" n="49"/>effectum nostrum, et manifestius
+            <lb ed="#V" n="50"/>imponere novum signum, quam
+            an<lb ed="#V" n="51" break="no"/>tiquum remanere, aut aliud prius
+            <lb ed="#V" n="52"/>impositum de novo imponere.
+          </p>
+          <p>
+            <lb ed="#V" n="53"/>Ad argumenta. Ad primum dico,
+            <lb ed="#V" n="54"/>quod Deus non erat causa directe,
+            <lb ed="#V" n="55"/>nec occasio idololatrandi; non
+            e<lb ed="#V" n="56" break="no"/>nim instituit illa sensibilia quasi in
+            <lb ed="#V" n="57"/>eis sit, vel crederetur aliquid
+            numi<lb ed="#V" n="58" break="no"/>nis, sed instituit illa tanquam signa
+            <lb ed="#V" n="59"/>effectus sui creandi, ex quibus
+            co<lb ed="#V" n="60" break="no"/>gnitio et directio viatoris posset
+            <lb ed="#V" n="61"/>haberi ad quaerendam salutem. Ad
+            <lb ed="#V" n="62"/>secundum argumentum inferius
+            <lb ed="#V" n="63"/>patebit.
+          </p>
+          <p>
+            <lb ed="#V" n="64"/>Ad tertium dico, quod nullus
+            <lb ed="#V" n="65"/>alius a Deo erat legislator, nisi
+            <lb ed="#V" n="66"/>sicut praeco praenuntians legem,
+            <lb ed="#V" n="67"/>et ita potuit esse pronuntiator
+            <lb ed="#V" n="68"/>Sacramentorum hujus legis, sed
+            <lb ed="#V" n="69"/>non institutor. Ad quartum, patet
+            <lb ed="#V" n="70"/>ex quarto articulo, quia aliud et aliud
+            <lb ed="#V" n="71"/>fuit institutum Sacramentum pro
+            <lb ed="#V" n="72"/>tempore alterius et alterius legis,
+            <lb ed="#V" n="73"/>saltem de illo sacramento, per
+            <lb ed="#V" n="74"/>quod fiebat principalis distinctio
+            <lb ed="#V" n="75"/>legis a lege, quia in illo debuerunt
+            <lb ed="#V" n="76"/>homines ejusdem legis, et inter se
+            <lb ed="#V" n="77"/>convenire, et ab aliis alterius legis
+            <lb ed="#V" n="78"/>distingui.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

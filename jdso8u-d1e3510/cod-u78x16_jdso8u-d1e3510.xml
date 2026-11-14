@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 5, Quaestio 3</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 5, Quaestio 3</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x16">Vives, Paris, 1894, volume 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="519"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e3510"><!-- jdso8u-b4d5q3 -->
+        <head>Quaestio 3</head>
+        <head type="question-title">Utrum aliquis debeat ministrare sacramentum baptismale quando praesumitur baptizationem vergere in periculum vitae corporalis eius qui suscipit</head>
+        <!-- <div alias="scotus-d5q3-p1"> -->
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43" type="fixed=519"/>QUAESTIO III.
+            <lb ed="#V" n="44"/>An aliquis debeat ministrare
+            Sacramen<lb ed="#V" n="45" break="no"/>tum Baptismi, quando praesumitur
+            <lb ed="#V" n="46"/>baptizationem vergere in periculum
+            <lb ed="#V" n="47"/>vitae corporalis ejus qui suscipit?
+          </p>
+          <p>
+            <lb ed="#V" n="48"/>Richard. d. 4. art. 4. q. 2. Palud. a. 6. q. 1.
+            <lb ed="#V" n="49"/>art. 3. Marsil. 4. q. 4. art. 4. dub. 8. Soto
+            <lb ed="#V" n="50"/>d. 3. q. un. art. 8. fin. Sylv. v. Baptismus 4.
+            <lb ed="#V" n="51"/>S 10. Angelus et Armil. ibi aiunt projectum in
+            <lb ed="#V" n="52"/>puteum non esse baptizatum. Communis tenet
+            <lb ed="#V" n="53"/>oppositum. Gabr. d. 4. q. 2. art. 3. Major. q. 2.
+            <lb ed="#V" n="54"/>Suar. tom. 3. 4. 20. sect 3. Valent. tom 4. d. 4.
+            <lb ed="#V" n="55"/>q. 1. p. 2.
+          </p>
+          <p>
+            <lb ed="#V" n="56"/>Juxta (a) hoc quaeritur sine
+            ar<lb ed="#V" n="57" break="no"/>gumentis: An aliquis debeat
+            mi<lb ed="#V" n="58" break="no"/>nistrare Sacramentum Baptismi,
+            <lb ed="#V" n="59"/>quando praesumitur baptizationem
+            <lb ed="#V" n="60"/>vergere in periculum vitae
+            cor<lb ed="#V" n="61" break="no"/>poralis ejus qui suscipit?
+            Respon<lb ed="#V" n="62" break="no"/>deo, aut talis praesumptio est
+            <lb ed="#V" n="63"/>certa ex signis certis, utpote si
+            <lb ed="#V" n="64"/>quis non habens aquam quam
+            pos<lb ed="#V" n="65" break="no"/>sit attingere, nisi de ponte
+            pro<lb ed="#V" n="66" break="no"/>pellat puerum in fluvium, vel in
+            <lb ed="#V" n="67"/>puteum, hoc certum est, quod
+            <lb ed="#V" n="68"/>quantum est ex ratione talis
+            ac<lb ed="#V" n="69" break="no"/>tus, nata est mors subsequi, quia
+            <lb ed="#V" n="70"/>submersio. Dico quod quando
+            <lb ed="#V" n="71"/>sic presumitur mors, nullo modo
+            <lb ed="#V" n="72"/>debet aliquis eum propellere aut
+            <lb ed="#V" n="73"/>projicere, quia peccabit
+            mortali<lb ed="#V" n="74" break="no"/>ter occidendo, et quilibet tenetur
+            <lb ed="#V" n="75"/>magis vitare peccatum mortale in
+            <lb ed="#V" n="76"/>seipso, quam quaerere salutem
+            <lb ed="#V" n="77"/>proximi, quia ordinata charitas
+            <lb ed="#V" n="78"/>magis est ad seipsum. Dicitur
+            <lb ed="#V" n="79"/>etiam, quod talis sic projectus
+            <lb ed="#V" n="80"/>non esset baptizatus, quia
+            bapti<lb ed="#V" n="81" break="no"/>smus est ablutio ordinata ad vitam
+            <lb ed="#V" n="82"/>illius abluti; non sic ordinatur
+            ta<lb ed="#V" n="83" break="no"/>lis dimersio. Esset ergo in tali
+            <lb ed="#V" n="84"/>casu aliquis pannus dimittendus
+            <pb ed="#V" n="520"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>in puteum, vel fluvium (si non
+            ha<lb ed="#V" n="2" break="no"/>betur vas in quo posset aqua
+            hau<lb ed="#V" n="3" break="no"/>ririt), de isto panno aqua
+            expri<lb ed="#V" n="4" break="no"/>menda, qua baptizetur talis.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d5q3-p2"> -->
+          <p>
+            <lb ed="#V" n="23" type="fixed=522"/>SCHOLIUM.
+            <lb ed="#V" n="24"/>Posquam docuit non licere projicere
+            <lb ed="#V" n="25"/>puerum in puteum, ut baptizetur (ubi
+            in<lb ed="#V" n="26" break="no"/>nuit, quod valeret talis Baptismus, vel
+            sal<lb ed="#V" n="27" break="no"/>tem dubitat de hoc, licet id negare videatur
+            <lb ed="#V" n="28"/>sup. d. 4. q. 3. quia affert oppositam
+            sen<lb ed="#V" n="29" break="no"/>tentiam Richardi negantis valere, nec eam
+            <lb ed="#V" n="30"/>approbat, nec reprobat), resolvit modo quid
+            <lb ed="#V" n="31"/>faciendum, quando minister falso sibi suadet
+            <lb ed="#V" n="32"/>baptizatione interimendum puerum.
+          </p>
+          <p>
+            <lb ed="#V" n="33"/>Quod (b) si praesumptio illa de
+            <lb ed="#V" n="34"/>morte imminenti vel acceleranda
+            <lb ed="#V" n="35"/>propter Baptismum, non sit
+            cer<lb ed="#V" n="36" break="no"/>ta, sed levis, et forte
+            -irrationabi<lb ed="#V" n="37" break="no"/>lis, utpote si parvulus vel
+            adul<lb ed="#V" n="38" break="no"/>tus est in articulo mortis
+            consti<lb ed="#V" n="39" break="no"/>tutus, dico, quod habens
+            consci<lb ed="#V" n="40" break="no"/>entiam de acceleratione mortis
+            <lb ed="#V" n="41"/>talis infirmi per baptizationem
+            <lb ed="#V" n="42"/>ejus, habet conscientiam
+            errone<lb ed="#V" n="43" break="no"/>am, quae, si nullus alius adsit
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="44"/>qui baptizet, facit eum
+            perple<lb ed="#V" n="45" break="no"/>xum. Nullus enim perplexus est
+            <lb ed="#V" n="46"/>ex lege divina, sed potest esse in
+            <lb ed="#V" n="47"/>aliquo actu vel casu perplexus
+            <lb ed="#V" n="48"/>ex erronea scientia, nam si
+            il<lb ed="#V" n="49" break="no"/>le decedat sine Baptismo,
+            dam<lb ed="#V" n="50" break="no"/>natur; ergo ille tenetur de
+            neces<lb ed="#V" n="51" break="no"/>sitate salutis, ( si nullus adsit)
+            <lb ed="#V" n="52"/>baptizare istum, ne damnetur;
+            <lb ed="#V" n="53"/>magis enim tenetur diligere vitam
+            <lb ed="#V" n="54"/>ejus aeternam, quam vitam ejus
+            <lb ed="#V" n="55"/>temporalem. Si ergo peccaret,
+            <lb ed="#V" n="56"/>non salvando in casu necessitatis
+            <lb ed="#V" n="57"/>vitam ejus corporalem, puta
+            per<lb ed="#V" n="58" break="no"/>mittendo eum submergi, nolendo
+            <lb ed="#V" n="59"/>ei porrigere manum ad
+            extrahen<lb ed="#V" n="60" break="no"/>dum, multo magis peccaret
+            mor<lb ed="#V" n="61" break="no"/>taliter permittendo istum
+            damna<lb ed="#V" n="62" break="no"/>ri propter defectum Baptismi. Si
+            <lb ed="#V" n="63"/>etiam ille stante illa conscientia
+            <lb ed="#V" n="64"/>erronea, quod baptizando
+            accele<lb ed="#V" n="65" break="no"/>ret mortem, baptizet, peccat etiam
+            <lb ed="#V" n="66"/>mortaliter, quia secundum
+            con<lb ed="#V" n="67" break="no"/>scientiam facit homicidium. Quid
+            <lb ed="#V" n="68"/>ergo? Necesse est (si nullus alius
+            <lb ed="#V" n="69"/>adsit, qui possit baptizare)
+            dimit<lb ed="#V" n="70" break="no"/>tere istam conscientiam, quia in
+            <lb ed="#V" n="71"/>casu illo, nullum est aliud
+            reme<lb ed="#V" n="72" break="no"/>dium vitandi peccatum mortale.
+            <lb ed="#V" n="73"/>Apparet etiam satis
+            rationabili<lb ed="#V" n="74" break="no"/>ter, quod illa praesumptio est fatua
+            <lb ed="#V" n="75"/>et irrationabilis, quia non multum
+            <lb ed="#V" n="76"/>noceret etiam graviter infirmo
+            <lb ed="#V" n="77"/>parum aspergi de aqua in capite;
+            <lb ed="#V" n="78"/>et si forte aqua frigida noceret,
+            <lb ed="#V" n="79"/>saltem tepida non noceret, quia
+            <lb ed="#V" n="80"/>parvuli tenerrimi pro remedio
+            <lb ed="#V" n="81"/>balneantur aqua tepida.
+          </p>
+          <p>
+            <lb ed="#V" n="82"/>Sed numquid baptizans cum ista
+            <lb ed="#V" n="83"/>conscientia erronea est
+            irregula<lb ed="#V" n="84" break="no"/>ris, si post mors sequatur?
+            Re<lb ed="#V" n="85" break="no"/>spondeo, non est irregularis, quia
+            <lb ed="#V" n="86"/>nulla lex Ecclesiastica quantum
+            <lb ed="#V" n="87"/>ad illud, reddit irregularem, nisi
+            <pb ed="#V" n="523"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>vere homicidam; iste autem
+            se<lb ed="#V" n="2" break="no"/>cundum veritatem non est
+            homici<lb ed="#V" n="3" break="no"/>da. Tamen post mortem illius
+            ba<lb ed="#V" n="4" break="no"/>ptizati, stante illa conscientia,
+            te<lb ed="#V" n="5" break="no"/>netur se habere tanquam
+            irregu<lb ed="#V" n="6" break="no"/>larem, quia se habet tamquam
+            <lb ed="#V" n="7"/>homicidam; sed cessante vel
+            amo<lb ed="#V" n="8" break="no"/>ta illa conscientia, non oportet
+            <lb ed="#V" n="9"/>dispensationem quaerere, quia
+            <lb ed="#V" n="10"/>nunquam fuit vere irregularis. Et
+            <lb ed="#V" n="11"/>si quaeras cui magis sit cavendum
+            <lb ed="#V" n="12"/>Clerico vel laico baptizare
+            infir<lb ed="#V" n="13" break="no"/>mum constitutum in articulo
+            mor<lb ed="#V" n="14" break="no"/>tis? dico, quod neutri est
+            caven<lb ed="#V" n="15" break="no"/>dum, quia neuter transgreditur
+            <lb ed="#V" n="16"/>praeceptum divinum de non
+            occi<lb ed="#V" n="17" break="no"/>dendo, nec Clericus poenam
+            ali<lb ed="#V" n="18" break="no"/>quam repellentem ipsum a
+            cleri<lb ed="#V" n="19" break="no"/>catu incurrit. Si tamen uterque
+            <lb ed="#V" n="20"/>poneretur aequaliter habere
+            con<lb ed="#V" n="21" break="no"/>scientiam erroneam, simpliciter
+            <lb ed="#V" n="22"/>neuter posset baptizare, quia
+            prae<lb ed="#V" n="23" break="no"/>ceptum divinum utrumque aeque
+            <lb ed="#V" n="24"/>ligat, et contra illud uterque
+            se<lb ed="#V" n="25" break="no"/>cundum suam conscientiam facit;
+            <lb ed="#V" n="26"/>Clericus tamen secundum
+            opini<lb ed="#V" n="27" break="no"/>onem suam falsam, crederet se
+            <lb ed="#V" n="28"/>incurrere aliam poenam ultra
+            pec<lb ed="#V" n="29" break="no"/>catum mortale, et ideo ipse habet
+            <lb ed="#V" n="30"/>plura retractiva in casu illo, quam
+            <lb ed="#V" n="31"/>laicus.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

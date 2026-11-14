@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 4, Pars 4, Quaestio 1</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 4, Pars 4, Quaestio 1</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x16">Vives, Paris, 1894, volume 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="476"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e3447"><!-- jdso8u-b4d4p4q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum omnes baptizati recipiant aequaliter effectum baptismi</head>
+        <!-- <div alias="scotus-d4q7-p1"> -->
+          <p>
+            <lb ed="#V" n="57" type="fixed=476"/>QUAESTIO VII.
+            <lb ed="#V" n="58"/>Utrum omnes baptizati recipiant
+            aequali<lb ed="#V" n="59" break="no"/>ter effectum Baptismi?
+          </p>
+          <p>
+            <lb ed="#V" n="60"/>Alens. 4. p. q. 21. m. 3. D. Bonav. hic p. 2. art.
+            <lb ed="#V" n="61"/>2. q. 3. Richard. art. 3. q. 3. D. Thom. 3. p.
+            <lb ed="#V" n="62"/>b. 69. art. 8. Suarez et Vasquez ibi, Sotus d. 6.
+            <lb ed="#V" n="63"/>q. unic. art. 6. Palud.hic q. 1. Gabr. q. 2. art.
+            <lb ed="#V" n="64"/>2. Bassol. q. 1. art. 3. Eckius de Bapt. hom. 13.
+          </p>
+          <p>
+            <lb ed="#V" n="65"/>Ultimo quaero (a), utrum omnes
+            <lb ed="#V" n="66"/>baptizati recipiant aequaliter
+            effe<lb ed="#V" n="67" break="no"/>ctum Baptismi? Videtur quod sic,
+            <lb ed="#V" n="68"/>quia effectus Baptismi magis
+            de<lb ed="#V" n="69" break="no"/>pendet a conferente quam a
+            susci<lb ed="#V" n="70" break="no"/>piente, sicut effectus universaliter
+            <lb ed="#V" n="71"/>magis dependet a causa efficiente
+            <lb ed="#V" n="72"/>quam a materia. Apparet etiam in
+            <lb ed="#V" n="73"/>proposito, quia in ministro
+            requi<lb ed="#V" n="74" break="no"/>ritur perfectior intentio, quam in
+            <lb ed="#V" n="75"/>recipiente, quod non est, nisi quia
+            <lb ed="#V" n="76"/>ab eo magis dependet Baptismus
+            <lb ed="#V" n="77"/>quam a suscipiente; sed
+            ministro<lb ed="#V" n="78" break="no"/>rum inaequalitas nihil facit ad
+            inae<lb ed="#V" n="79" break="no"/>qualitatem effectus Baptismi; ergo
+            <lb ed="#V" n="80"/>multo magis inaequalitas
+            susci<lb ed="#V" n="81" break="no"/>pientium; et per consequens nulla
+            <lb ed="#V" n="82"/>est causa inaequalitatis effectus
+            <lb ed="#V" n="83"/>hujus.
+          </p>
+          <p>
+            <lb ed="#V" n="84"/>Contra, actus activorum sunt in
+            pa<lb ed="#V" n="85" break="no"/>tiente disposito 2. de Anima; ergo in
+            <pb ed="#V" n="477"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>magis disposito perfectius
+            recipi<lb ed="#V" n="2" break="no"/>tur effectus; ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="3"/>Respondeo, aliqui distinguunt de
+            <lb ed="#V" n="4"/>effectu, qui est res, et
+            Sacramen<lb ed="#V" n="5" break="no"/>tum, qui dicitur character, et de
+            <lb ed="#V" n="6"/>eeffectu, qui est res tantum. Sed de
+            <lb ed="#V" n="7"/>primo effectu nondum habitus est
+            <lb ed="#V" n="8"/>sermo, sed habebitur distinct. 6. De
+            <lb ed="#V" n="9"/>secundo ergo est quaestio, et
+            dici<lb ed="#V" n="10" break="no"/>tur quod plures effectus tales habet
+            <lb ed="#V" n="11"/>Baptismus, ordine tamen quodam,
+            <lb ed="#V" n="12"/>quia causare gratiam, et
+            remitte<lb ed="#V" n="13" break="no"/>re fomitem, et hujusmodi. Patet
+            <lb ed="#V" n="14"/>autem quod non in omnibus
+            bapti<lb ed="#V" n="15" break="no"/>zatis aeque remittitur fomes.
+          </p>
+          <p>
+            <lb ed="#V" n="16"/>Sed istud non est verum, nisi
+            <lb ed="#V" n="17"/>intelligatur sane, quia fomes cum
+            <lb ed="#V" n="18"/>sit in carne, vel in virtute aliqua
+            <lb ed="#V" n="19"/>corporali, per gratiam quae est in
+            <lb ed="#V" n="20"/>anima, non potest formaliter
+            dimi<lb ed="#V" n="21" break="no"/>nui, quia non est inter ipsum,
+            <lb ed="#V" n="22"/>et gratiam formalis repugnantia,
+            <lb ed="#V" n="23"/>cum non sint nata fieri circa idem.
+            <lb ed="#V" n="24"/>Sed dicitur fomes diminui quantum
+            <lb ed="#V" n="25"/>ad effectum, quem consuevit
+            cau<lb ed="#V" n="26" break="no"/>sare in anima, scilicet peccatum;
+            <lb ed="#V" n="27"/>nam secundum quod gratia
+            auge<lb ed="#V" n="28" break="no"/>tur, fomes minorem habet
+            effica<lb ed="#V" n="29" break="no"/>ciam inclinandi ad peccatum.
+            Poni<lb ed="#V" n="30" break="no"/>tur autem exemplum conveniens
+            <lb ed="#V" n="31"/>de lapillo alligato alis aquilae, quia
+            <lb ed="#V" n="32"/>si cresceret virtus motiva aquilae,
+            <lb ed="#V" n="33"/>licet non diminueretur gravitas
+            <lb ed="#V" n="34"/>lapilli (quia opposita non sunt nec
+            <lb ed="#V" n="35"/>in eodem), tamen gravitas lapilli
+            <lb ed="#V" n="36"/>diminuitur quantum ad effectum;
+            <lb ed="#V" n="37"/>quanto enim major est virtus in
+            <lb ed="#V" n="38"/>ala, tanto lapillus minus impedit
+            <lb ed="#V" n="39"/>ascensum vel volatum.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d4q7-p2"> -->
+          <p>
+            <lb ed="#V" n="18" type="fixed=478"/>SCHOLIUM.
+            <lb ed="#V" n="19"/>Ex parte Dei communiter aequalem dari
+            <lb ed="#V" n="20"/>gratiam baptismalem, possibile tamen est
+            <lb ed="#V" n="21"/>unum accipere majorem gratiam alio per
+            <lb ed="#V" n="22"/>Baptismum sine majori dispositione, si Deus
+            <lb ed="#V" n="23"/>ita statuisset. Nec Scotus dicit de facto dari
+            <lb ed="#V" n="24"/>majorem gratiam baptismalem ei qui
+            prae<lb ed="#V" n="25" break="no"/>destinatus est ad majorem gloriam, ut falso
+            <lb ed="#V" n="26"/>ei imponit Sotus supra, sed tantum loquitur
+            <lb ed="#V" n="27"/>de possibili, quocum convenire videntur
+            <lb ed="#V" n="28"/>Alens. et Bonav. supr. sed de facto dari
+            te<lb ed="#V" n="29" break="no"/>nent Palud. Gabr. Bassol. Eckius citati.
+          </p>
+          <p>
+            <lb ed="#V" n="30"/>Sic ergo (b) ponendo unicum
+            ef<lb ed="#V" n="31" break="no"/>fectum Baptismi, scilicet gratiam,
+            <lb ed="#V" n="32"/>respondeo quod cum ad effectum
+            <lb ed="#V" n="33"/>Baptismi, scilicet gratiam,
+            con<lb ed="#V" n="34" break="no"/>currat causa principalis, scilicet
+            <lb ed="#V" n="35"/>Deus, et causa meritoria, ut passio
+            <lb ed="#V" n="36"/>Christi, et ipse suscipiens
+            Bapti<lb ed="#V" n="37" break="no"/>smum, ex parte cujuslibet istorum
+            <lb ed="#V" n="38"/>posset attendi aequalitas vel
+            inae<lb ed="#V" n="39" break="no"/>qualitas. Quantum ad Deum
+            deter<lb ed="#V" n="40" break="no"/>minantem se cooperari isti signo
+            <lb ed="#V" n="41"/>per effectum significatum, et in
+            <lb ed="#V" n="42"/>hoc instituentem istud signum, in
+            <lb ed="#V" n="43"/>ratione signi certi (ut dictum est
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="44"/>supra), aliquo modo potest esse
+            <lb ed="#V" n="45"/>differentia, aliquo modo non.
+            Ali<lb ed="#V" n="46" break="no"/>quam enim gratiam disposuit
+            re<lb ed="#V" n="47" break="no"/>gulariter conferre cum isto signo,
+            <lb ed="#V" n="48"/>ita quod nulli minorem; et ista
+            <lb ed="#V" n="49"/>potest dici conferri virtute
+            Bapti<lb ed="#V" n="50" break="no"/>smi, quia virtute veritatis hujus
+            <lb ed="#V" n="51"/>signi; et sicut determinatio illa
+            <lb ed="#V" n="52"/>universalis, quantum ad istum
+            <lb ed="#V" n="53"/>gradum, est uniformis, ita effectus
+            <lb ed="#V" n="54"/>aequalis.
+          </p>
+          <p>
+            <lb ed="#V" n="55"/>Verumtamen, quia Deus
+            praede<lb ed="#V" n="56" break="no"/>destinavit diversos electos ad
+            di<lb ed="#V" n="57" break="no"/>versos gradus gloriae, et hoc ante
+            <lb ed="#V" n="58"/>determinationem hujus signi ad
+            <lb ed="#V" n="59"/>tantam vel tantam gratiam
+            con<lb ed="#V" n="60" break="no"/>ferendam, et ordinato ad
+            majo<lb ed="#V" n="61" break="no"/>rem gloriam, rationabiliter
+            po<lb ed="#V" n="62" break="no"/>test conferri major gratia; potest
+            <lb ed="#V" n="63"/>Deus in determinando veritatem
+            <lb ed="#V" n="64"/>seu certitudinem hujus signi
+            di<lb ed="#V" n="65" break="no"/>sponere, conferre alicui
+            suscipien<lb ed="#V" n="66" break="no"/>ti praecise illam gratiam, quae
+            re<lb ed="#V" n="67" break="no"/>quiritur ad certitudinem signi, et
+            <lb ed="#V" n="68"/>alicui majorem, quem
+            praedestina<lb ed="#V" n="69" break="no"/>vit ad majorem gloriam; sed ille
+            <lb ed="#V" n="70"/>ulterior gradus non conferretur
+            <lb ed="#V" n="71"/>virtute Baptismi, sed de speciali
+            <lb ed="#V" n="72"/>benevolentia divina. Propter hoc
+            <lb ed="#V" n="73"/>dici potest, quod ex parte causae
+            <lb ed="#V" n="74"/>principalis, effectus est
+            regula<lb ed="#V" n="75" break="no"/>riter aequalis simpliciter qui datur
+            <lb ed="#V" n="76"/>virtute Baptismi, quia supponitur,
+            <lb ed="#V" n="77"/>quod de lege communi, prima
+            gra<lb ed="#V" n="78" break="no"/>tia non datur major absque omni
+            <lb ed="#V" n="79"/>differentia extra causam
+            princi<lb ed="#V" n="80" break="no"/>palem.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d4q7-p3"> -->
+          <p>
+            <lb ed="#V" n="61" type="fixed=479"/>SCHOLIUM.
+            <lb ed="#V" n="62"/>Possibile est Christum obtulisse suam
+            pas<lb ed="#V" n="63" break="no"/>sionem ad majorem gratiam obtinendam per
+            <lb ed="#V" n="64"/>Baptismum his quam illis; et forte
+            Bapti<lb ed="#V" n="65" break="no"/>smus post passionem, majorem gratiam dat
+            <lb ed="#V" n="66"/>quam ante. Videtur enim supra dicere
+            ma<lb ed="#V" n="67" break="no"/>jorem gratiam parvulo dari, ob devotionem
+            <lb ed="#V" n="68"/>ministri, sed tantum loquitur de possibili,
+            <lb ed="#V" n="69"/>vel dubitat; id tamen asserunt Bassol. et
+            <lb ed="#V" n="70"/>Gabr, citati, et Eckius tom. 3. hom. de 8.
+            <lb ed="#V" n="71"/>Nicol. Sed hoc intelligi debet de merito de
+            <lb ed="#V" n="72"/>congruo, et forte tantum de gratia actuali,
+            <lb ed="#V" n="73"/>non de justificante, quia hanc de condigno
+            <lb ed="#V" n="74"/>purus homo alteri mereri nequit, de quo 1.
+            <lb ed="#V" n="75"/>2. quaest. 114. art. 6.
+          </p>
+          <p>
+            <lb ed="#V" n="76"/>De secundo (c) potest dici, quod
+            <lb ed="#V" n="77"/>illa causa meritoria potest
+            effica<lb ed="#V" n="78" break="no"/>cius operari ad gratiam in uno:
+            <lb ed="#V" n="79"/>quam in alio; vel quia specialius
+            <lb ed="#V" n="80"/>oblata pro uno quantum ad
+            inten<lb ed="#V" n="81" break="no"/>tionem offerentis quam pro alio;
+            <lb ed="#V" n="82"/>vel quantum ad executionem pro
+            <lb ed="#V" n="83"/>uno oblata in effectu, pro alio
+            <lb ed="#V" n="84"/>non, nisi in praevisione divina.
+            <lb ed="#V" n="85"/>Primo modo Christus, ponitur
+            <lb ed="#V" n="86"/>communiter nosse omnia, quae
+            <lb ed="#V" n="87"/>Deus novit scientia visionis,
+            <pb ed="#V" n="480"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>et per consequens novit omnes
+            <lb ed="#V" n="2"/>electos, et ad quem gradum
+            glo<lb ed="#V" n="3" break="no"/>riae fuerunt electi. Potuit ergo pro
+            <lb ed="#V" n="4"/>praedestinato ad majorem
+            glo<lb ed="#V" n="5" break="no"/>riam, plenius offerre passionem
+            <lb ed="#V" n="6"/>suam, et praecipue cum se offerret
+            <lb ed="#V" n="7"/>pro genere humano ad hoc, ut de
+            <lb ed="#V" n="8"/>eis impleretur divina
+            praedestina<lb ed="#V" n="9" break="no"/>tio.
+          </p>
+          <p>
+            <lb ed="#V" n="10"/>Secundo modo, passio Christi
+            <lb ed="#V" n="11"/>efficacius cooperatur pro nobis,
+            <lb ed="#V" n="12"/>qui sumus in lege Evangelica,
+            <lb ed="#V" n="13"/>quam pro Patribus in lege
+            Moy<lb ed="#V" n="14" break="no"/>si, quia obsequium praestitum ad
+            <lb ed="#V" n="15"/>majus bonum retribuendum,
+            ma<lb ed="#V" n="16" break="no"/>gis acceptatur quam beneficium
+            <lb ed="#V" n="17"/>praevisum. Et illo secundo modo
+            <lb ed="#V" n="18"/>est inaequalitas in suscipientibus
+            <lb ed="#V" n="19"/>gratiam per Circumcisionem et
+            <lb ed="#V" n="20"/>Baptismum, propter inaequalem
+            <lb ed="#V" n="21"/>applicationem causae meritoriae
+            <lb ed="#V" n="22"/>ad istos, et forte etiam in
+            bapti<lb ed="#V" n="23" break="no"/>zatis ante passionem, et post
+            pas<lb ed="#V" n="24" break="no"/>sionem. Si autem primo modo,
+            <lb ed="#V" n="25"/>scilicet propter specialem
+            obla<lb ed="#V" n="26" break="no"/>tionem in voluntate Christi, sit
+            <lb ed="#V" n="27"/>inaequalitas gratiae in aliquibus
+            <lb ed="#V" n="28"/>nunc baptizatis, dubium est de
+            <lb ed="#V" n="29"/>facto, sed possibilitas est ostensa.
+          </p>
+          <p>
+            <lb ed="#V" n="30"/>De tertio dico (d), quod vel
+            ba<lb ed="#V" n="31" break="no"/>ptizati sunt parvuli, vel adulti.
+            <lb ed="#V" n="32"/>Comparando parvulum ad
+            parvu<lb ed="#V" n="33" break="no"/>lum, cum nullum habeant motum
+            <lb ed="#V" n="34"/>proprium, nullam habent
+            inaequa<lb ed="#V" n="35" break="no"/>litatem ad gratiam, ex parte sui
+            <lb ed="#V" n="36"/>recipiendam. Potest tamen in
+            pa<lb ed="#V" n="37" break="no"/>a rentibus unius esse major motus
+            <lb ed="#V" n="38"/>quam alterius pro suo parvulo,
+            <lb ed="#V" n="39"/>vel in aliquibus aliis
+            ministranti<lb ed="#V" n="40" break="no"/>bus vel assistentibus Baptismo,
+            <lb ed="#V" n="41"/>propter quorum merita Deus uni
+            <lb ed="#V" n="42"/>parvulo potest conferre majorem
+            <lb ed="#V" n="43"/>gratiam quam alteri; sed hoc non
+            <lb ed="#V" n="44"/>virtute Baptismi, sed meriti. Et
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>hoc modo forte parentes beati
+            <lb ed="#V" n="46"/>Nicolai orationibus suis
+            merue<lb ed="#V" n="47" break="no"/>runt sibi majorem gratiam, quae
+            <lb ed="#V" n="48"/>erat in eo etiam parvulo
+            princi<lb ed="#V" n="49" break="no"/>pium tam mirabilis effectus, ut
+            <lb ed="#V" n="50"/>duobus diebus in hebdomada unica
+            <lb ed="#V" n="51"/>tantum lactatione contentus
+            ma<lb ed="#V" n="52" break="no"/>neret. Et quoad hoc magis
+            optan<lb ed="#V" n="53" break="no"/>dum est puerum baptizari bono
+            <lb ed="#V" n="54"/>Sacerdote quam a malo, quia
+            ora<lb ed="#V" n="55" break="no"/>tiones Sacerdotis boni, quas
+            mul<lb ed="#V" n="56" break="no"/>tas facit ante et post Baptismum,
+            <lb ed="#V" n="57"/>magis exaudiuntur, et valent illi,
+            <lb ed="#V" n="58"/>pro quo fiunt, quam orationes
+            <lb ed="#V" n="59"/>mali.
+          </p>
+          <p>
+            <lb ed="#V" n="60"/>Si autem baptizati sint adulti,
+            <lb ed="#V" n="61"/>cum illi per motum proprium
+            <lb ed="#V" n="62"/>possint esse inaequaliter dispositi,
+            <lb ed="#V" n="63"/>et in Sacramento confertur
+            gra<lb ed="#V" n="64" break="no"/>tia secundum proportionem
+            dis<lb ed="#V" n="65" break="no"/>positionis in suscipiente, sequitur
+            <lb ed="#V" n="66"/>inaequalis effectus.
+          </p>
+          <p>
+            <lb ed="#V" n="67"/>Quod si compares parvulum
+            <lb ed="#V" n="68"/>adulto, regulariter parvulus
+            nul<lb ed="#V" n="69" break="no"/>lum meritum habet; adultus
+            quan<lb ed="#V" n="70" break="no"/>tumcumque tenuem habeat
+            volun<lb ed="#V" n="71" break="no"/>tatem, dum tamen consentiat
+            reci<lb ed="#V" n="72" break="no"/>pere Sacramentum, nec ponat
+            <lb ed="#V" n="73"/>obicem aliquem, videtur habere
+            <lb ed="#V" n="74"/>meritum proprium, et pro tanto
+            <lb ed="#V" n="75"/>magis dispositus est, quam
+            par<lb ed="#V" n="76" break="no"/>vulus; ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="77"/>Sed esto, quod adultus toto
+            tem<lb ed="#V" n="78" break="no"/>pore Baptismi peccet venialiter,
+            <lb ed="#V" n="79"/>videtur ergo esse indispositus
+            <lb ed="#V" n="80"/>quodammodo; parvulus autem
+            <lb ed="#V" n="81"/>nullam indispositionem habet;
+            <lb ed="#V" n="82"/>ergo in illo casu parvulus
+            majo<lb ed="#V" n="83" break="no"/>rem gratiam recipiet.
+            Respon<lb ed="#V" n="84" break="no"/>deo, peccatum veniale non
+            prohi<lb ed="#V" n="85" break="no"/>bet gratiam infundi, nec etiam
+            <lb ed="#V" n="86"/>actum meritorium simul habere,
+            <lb ed="#V" n="87"/>tamen quia anima pluribus
+            acti<lb ed="#V" n="88" break="no"/>bus non potest simul aeque
+            perfec<pb ed="#V" n="481"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>te esse intenta, actus bonus, cum
+            <lb ed="#V" n="2"/>quo concurrit veniale, est minus
+            <lb ed="#V" n="3"/>intensus, et ideo minus meritorius,
+            <lb ed="#V" n="4"/>quam foret sine ullo veniali. Et
+            <lb ed="#V" n="5"/>ad propositum sequitur, quod
+            <lb ed="#V" n="6"/>adultus, si non ponit obicem
+            pec<lb ed="#V" n="7" break="no"/>cati mortalis, et in susceptione
+            <lb ed="#V" n="8"/>Baptismi consentit, aliquem
+            mo<lb ed="#V" n="9" break="no"/>tum habet disponentem, quo caret
+            <lb ed="#V" n="10"/>parvulus, non obstante quod ille
+            <lb ed="#V" n="11"/>habeat veniale peccatum simul.
+          </p>
+          <p>
+            <lb ed="#V" n="12"/>Ad argumentum dico, quod
+            Ba<lb ed="#V" n="13" break="no"/>ptismus plus dependet a ministro,
+            <lb ed="#V" n="14"/>ad hoc ut sit Sacramentum, quia
+            <lb ed="#V" n="15"/>in eo simpliciter requiritur
+            in<lb ed="#V" n="16" break="no"/>tentio; non sic in suscipiente,
+            <lb ed="#V" n="17"/>quia non potest uti ratione; sed
+            <lb ed="#V" n="18"/>quoad hoc, ut hic effectus major
+            <lb ed="#V" n="19"/>vel minor recipiatur, magis
+            de<lb ed="#V" n="20" break="no"/>pendet a baptizato.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

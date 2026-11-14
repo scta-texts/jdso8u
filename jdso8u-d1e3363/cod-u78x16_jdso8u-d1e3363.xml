@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 4, Pars 1, Quaestio 1</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 4, Pars 1, Quaestio 1</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x16">Vives, Paris, 1894, volume 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="383"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e3363"><!-- jdso8u-b4d4p1q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum parvuli sint baptizandi</head>
+        <!-- <div alias="scotus-d4q1-p1"> -->
+          <p>
+            <lb ed="#V" n="35" type="fixed=383"/>QUAESTIO I.
+            <lb ed="#V" n="36"/>Utrum parvuli (b) sint baptizandi?
+          </p>
+          <p>
+            <lb ed="#V" n="37"/>Aleus. 4. p. q. 17. m. 1. D. Bonav. hic 2. part.
+            <lb ed="#V" n="38"/>2. q. 1. et 2 Richard. art. 1. q. 2. D. Thom. q.
+            <lb ed="#V" n="39"/>6. et 3. p. q. 69. art. 6. Suar. 3. p. tom. 3.
+            <lb ed="#V" n="40"/>d. 25. sect. 1. et 2. Aug. 6. contra Julian. 5.
+            <lb ed="#V" n="41"/>Concil. Milevit. 2. Lateran. c. Majores, de Bapt.
+            <lb ed="#V" n="42"/>Clem. 1. de sum. Trin. Trident. sess. 5. de
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43"/>pecc. orig. et sess. 7. can. 12. 13. Coccius late
+            <lb ed="#V" n="44"/>2. com. lib. 5. art. 6.
+          </p>
+          <p>
+            <lb ed="#V" n="45"/>Ad primum, arguitur quod non,
+            <lb ed="#V" n="46"/>quia baptismus est remedium
+            <lb ed="#V" n="47"/>contra peccatum; sed parvuli
+            <lb ed="#V" n="48"/>non habent peccatum, quia nec
+            <lb ed="#V" n="49"/>usum rationis vel voluntatis; et
+            <lb ed="#V" n="50"/>secundum Augustinum de vera
+            <lb ed="#V" n="51"/>Religione: Peccatum adeo est
+            volun<lb ed="#V" n="52" break="no"/>tarium, quod si non sit voluntarium,
+            <lb ed="#V" n="53"/>non est peccatum; ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="54"/>Item, Matth. ult. Qui non
+            credi<lb ed="#V" n="55" break="no"/>derit, condemnabitur. Parvulus non
+            <lb ed="#V" n="56"/>potest credere; ergo per
+            Bapti<lb ed="#V" n="57" break="no"/>smum non potest salvari; ergo
+            <lb ed="#V" n="58"/>frustra baptizatur.
+          </p>
+          <p>
+            <lb ed="#V" n="59"/>Contra, Augustinus de fide ad
+            <lb ed="#V" n="60"/>Petrum: Firmissime tene, parvulos,
+            <lb ed="#V" n="61"/>qui sine Sacramento Baptismi de hoc
+            <lb ed="#V" n="62"/>soeculo transeunt, aeterno supplici
+            pu<lb ed="#V" n="63" break="no"/>niendos, quia originale peccatum in
+            <lb ed="#V" n="64"/>carnali conceptione contraxerunt.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d4q1-p2"> -->
+          <p>
+            <lb ed="#V" n="52" type="fixed=385"/>SCHOLIUM.
+            <lb ed="#V" n="53"/>Parvulos esse baptizandos ut liberentur
+            <lb ed="#V" n="54"/>ad originali, contra Pelagium, de quo
+            Dio<lb ed="#V" n="55" break="no"/>nysius, c. ult. Eccles. Hierach. Cyprian. 3.
+            <lb ed="#V" n="56"/>epist. 8. Nazianzen. orat. in sanctum
+            lava<lb ed="#V" n="57" break="no"/>crum. August. 10. de Genes. 23. Prosp. 2. de
+            <lb ed="#V" n="58"/>voc. gent. 8. Milevitanum Concil. can. 2.
+            <lb ed="#V" n="59"/>vide Bellarm. lib. 1. de Bapt. c. 8. Castro
+            <lb ed="#V" n="60"/>v. Baptismus, haer. 9. Trident. sess. 6. c. 4. et
+            <lb ed="#V" n="61"/>sess. 7. de Bapt. can. 12. 13. Coccium supr.
+            <lb ed="#V" n="62"/>ubi citantur Patres Graeci et Latini.
+          </p>
+          <p>
+            <lb ed="#V" n="63"/>Hic fuit error Pelagii, quod
+            par<lb ed="#V" n="64" break="no"/>vuli non habent peccatum
+            origi<lb ed="#V" n="65" break="no"/>nale. De hoc et ejus improbatione
+            <lb ed="#V" n="66"/>tactum est lib. 2. d. 30.
+          </p>
+          <p>
+            <lb ed="#V" n="67"/>Teneo (c) ergo oppositum, quia
+            <lb ed="#V" n="68"/>cum secundum Scripturam et
+            fi<lb ed="#V" n="69" break="no"/>dem, parvuli contrahant
+            origi<lb ed="#V" n="70" break="no"/>nale peccatum, ad ejus
+            deleti<lb ed="#V" n="71" break="no"/>onem, quae necessaria est ad
+            sa<lb ed="#V" n="72" break="no"/>lutem, sunt baptizandi, quia
+            tem<lb ed="#V" n="73" break="no"/>pore legis Evangelicae, Baptismus
+            <lb ed="#V" n="74"/>institutus est in remedium contra
+            <lb ed="#V" n="75"/>illam culpam.
+          </p>
+          <p>
+            <lb ed="#V" n="76"/>Ad primum argumentum, illa
+            <lb ed="#V" n="77"/>auctoritas Augustini debet de
+            ac<lb ed="#V" n="78" break="no"/>tuali peccato intelligi, et isto
+            <lb ed="#V" n="79"/>modo peccatum originale fuit in
+            <lb ed="#V" n="80"/>primo parente voluntarium, non
+            <lb ed="#V" n="81"/>tamen oportet quod quodcumque
+            <lb ed="#V" n="82"/>peccatum sit voluntarium
+            volun<lb ed="#V" n="83" break="no"/>tate illius in quo est.
+          </p>
+          <p>
+            <lb ed="#V" n="84"/>Ad alind patet, quod debet
+            in<lb ed="#V" n="85" break="no"/>telligi de adultis, per illud quod
+            <lb ed="#V" n="86"/>praecedit: Qui crediderit, et baptizatus
+            <lb ed="#V" n="87"/>fuerit. Vel potest dici, quod qui
+            <pb ed="#V" n="386"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>non crediderit, nec actu, nec
+            ha<lb ed="#V" n="2" break="no"/>bitu, condemnabitur, quia
+            secun<lb ed="#V" n="3" break="no"/>dum Apostolum Hebr. 11. Sine fide
+            <lb ed="#V" n="4"/>impossibile est placere Deo, credere enim
+            <lb ed="#V" n="5"/>oportet accedentem ad Deum. Parvuli
+            <lb ed="#V" n="6"/>autem, etsi non possunt habere
+            <lb ed="#V" n="7"/>actum credendi, possunt tamen
+            <lb ed="#V" n="8"/>habere habitum, ut in sequenti
+            <lb ed="#V" n="9"/>quaestione dicetur, ideo non valet.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

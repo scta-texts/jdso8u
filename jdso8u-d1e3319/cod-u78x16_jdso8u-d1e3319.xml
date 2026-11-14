@@ -1,0 +1,925 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 3, Quaestio 2</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 3, Quaestio 2</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x16">Vives, Paris, 1894, volume 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="282"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e3319"><!-- jdso8u-b4d3q2 -->
+        <head>Quaestio 2</head>
+        <head type="question-title">Utrum haec sit praecisa forma baptismi: «Ego te baptizo in nomine Patris et Filii et Spiritus Sancti»</head>
+        <!-- <div alias="scotus-d3q2-p1"> -->
+          <p>
+            <pb ed="#V" n="282"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1" type="fixed=282"/>QUAESTIO II.
+            <lb ed="#V" n="2"/>Utrum haec sit praecisa forma Baptismi:
+            <lb ed="#V" n="3"/>Ego baptizo te in nomine Patris
+            <lb ed="#V" n="4"/>et Filii et Spiritus sancti.
+          </p>
+          <p>
+            <lb ed="#V" n="5"/>Alens. 4. p. q. 13. m. 3. per quatuor art. D. Bonav.
+            <lb ed="#V" n="6"/>hic art. 2. per totum. Richard. art. 2. q. 3.
+            <lb ed="#V" n="7"/>D. Thom. q. 2. et 3. p. q. 66. art. 5. ubi Suarez
+            <lb ed="#V" n="8"/>disp. 21.
+          </p>
+          <p>
+            <lb ed="#V" n="9"/>Ad secundum (a) principale, sic
+            <lb ed="#V" n="10"/>proceditur, et arguitur, quod haec
+            <lb ed="#V" n="11"/>non sit forma Baptismi: Ego baptizo
+            <lb ed="#V" n="12"/>te in nomine Patris et Filii et Spiritus
+            <lb ed="#V" n="13"/>sancti. Primo, quia cujuscumque
+            <lb ed="#V" n="14"/>habentis materiam et formam,
+            <lb ed="#V" n="15"/>forma ejus est in materia; sed
+            <lb ed="#V" n="16"/>haec verba non sunt in aqua, nec in
+            <lb ed="#V" n="17"/>ablutione, ut in subjecto, patet.
+          </p>
+          <p>
+            <lb ed="#V" n="18"/>Secundo, quia Christus Matthoei
+            <lb ed="#V" n="19"/>ultimo, exprimens formam
+            Bapti<lb ed="#V" n="20" break="no"/>smi, non expressit istam; sed ab
+            <lb ed="#V" n="21"/>ipso habetur forma
+            Sacramento<lb ed="#V" n="22" break="no"/>rum, quae instituit; ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="23"/>Tertio, si ista est forma, aut ut
+            <lb ed="#V" n="24"/>vera, aut ut falsa. Non ut falsa,
+            <lb ed="#V" n="25"/>quia nihil falsitatis est in
+            Sacra<lb ed="#V" n="26" break="no"/>mentis veritatis. Non ut vera, quia
+            <lb ed="#V" n="27"/>veritas ejus sequitur ordine
+            natu<lb ed="#V" n="28" break="no"/>rae collationem Sacramenti
+            Bapti<lb ed="#V" n="29" break="no"/>smi; veritas enim orationis
+            sequi<lb ed="#V" n="30" break="no"/>tur esse ejus, quod significatur per
+            <lb ed="#V" n="31"/>ipsam. Ista autem oratio significat
+            <lb ed="#V" n="32"/>collationem Sacramenti Baptismi;
+            <lb ed="#V" n="33"/>forma autem, eo quod est forma,
+            <lb ed="#V" n="34"/>non est posterior eo cujus est
+            for<lb ed="#V" n="35" break="no"/>ma naturaliter, sed prior, 7.
+            Me<lb ed="#V" n="36" break="no"/>taph. text. 7.
+          </p>
+          <p>
+            <lb ed="#V" n="37"/>Item, de partibus istius formae
+            <lb ed="#V" n="38"/>arguitur, primo sic: Graeci vere
+            <lb ed="#V" n="39"/>baptizant, et baptizati ab eis,
+            <lb ed="#V" n="40"/>quando veniunt ad nos, non
+            reba<cb ed="#V" n="b"/><lb ed="#V" n="41" break="no"/>ptizantur; non autem servant
+            no<lb ed="#V" n="42" break="no"/>stram formam, sed hanc:
+            Baptize<lb ed="#V" n="43" break="no"/>tur servus Christi in nomine Patris et
+            <lb ed="#V" n="44"/>Filii et Spiritus sancti.
+          </p>
+          <p>
+            <lb ed="#V" n="45"/>Item, secundum Priscianum, 4
+            <lb ed="#V" n="46"/>verbum primae personae dat
+            intel<lb ed="#V" n="47" break="no"/>ligere Nominativum; ergo
+            suffi<lb ed="#V" n="48" break="no"/>ceret dicere, Baptizo te, absque hoc
+            <lb ed="#V" n="49"/>Pronomine, quod est ego. Et
+            con<lb ed="#V" n="50" break="no"/>firmatur per illud. Extravag. de
+            Ba<lb ed="#V" n="51" break="no"/>ptismo, et ejus effectibus: Si quis,
+            <lb ed="#V" n="52"/>ubi dicit glossa, quod pronomen
+            <lb ed="#V" n="53"/>non est de substantia formae, quia
+            <lb ed="#V" n="54"/>plenum sensum generat haec vox
+            <lb ed="#V" n="55"/>baptizo, sine pronomine.
+          </p>
+          <p>
+            <lb ed="#V" n="56"/>Item arguitur, de consecr.
+            di<lb ed="#V" n="57" break="no"/>stinct. 4. Retulerunt, ubi dicitur: Si
+            <lb ed="#V" n="58"/>quis dicit te baptizo, etc. baptizatus
+            <lb ed="#V" n="59"/>est, ex quo baptizare intendit, sed ibi
+            <lb ed="#V" n="60"/>non ponitur Pronomen.
+          </p>
+          <p>
+            <lb ed="#V" n="61"/>Item, Ambrosius de Consecratione
+            <lb ed="#V" n="62"/>distinct. 4. A quodam: Si in nomine
+            <lb ed="#V" n="63"/>Trinitatis, vel in nomine Christi
+            bapti<lb ed="#V" n="64" break="no"/>zati sunt, non debent rebaptizari, quia
+            <lb ed="#V" n="65"/>sic Apostoli baptizabant, ut habetur
+            <lb ed="#V" n="66"/>Act. 2. 10. et 19.
+          </p>
+          <p>
+            <lb ed="#V" n="67"/>Item 5. de Trin. cap. 7. Idem est,
+            <lb ed="#V" n="68"/>Patrem esse, et genitum; aeque ergo
+            <lb ed="#V" n="69"/>esse valeret dicere, in nomine
+            ge<lb ed="#V" n="70" break="no"/>nitoris et geniti, sicut Patris et
+            <lb ed="#V" n="71"/>Filii.
+          </p>
+          <p>
+            <lb ed="#V" n="72"/>Item Ambrosius de Spiratione
+            <lb ed="#V" n="73"/>Spiritus sancti, cap. 4. et ponitur
+            <lb ed="#V" n="74"/>in littera: Si fide mysterium
+            Trinita<lb ed="#V" n="75" break="no"/>tis tenetur, et una tantum persona
+            nomi<lb ed="#V" n="76" break="no"/>netur, plenum est Sacramentum.
+          </p>
+          <p>
+            <lb ed="#V" n="77"/>Item 2. Perihermenias c. 1. nomina.
+            <lb ed="#V" n="78"/>et verba transposita idem
+            signifi<lb ed="#V" n="79" break="no"/>cant; ergo aequivaleret, si ista
+            <lb ed="#V" n="80"/>verba essent transposita; ergo ista
+            <lb ed="#V" n="81"/>forma non est praecisa.
+            <lb ed="#V" n="82"/>Contra, de Baptismo, et ejus esse,
+            <lb ed="#V" n="83"/>Extrav. Si quis: Si quis puerum ter
+            <lb ed="#V" n="84"/>in aqua merserit, in nomine Patris et
+            <pb ed="#V" n="283"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Filii et Spiritus sancti, amen; et non
+            <lb ed="#V" n="2"/>dixerit: Ego baptizo te in nomine
+            <lb ed="#V" n="3"/>Patris et Filii et Spiritus sancti, amen,
+            <lb ed="#V" n="4"/>non est puer baptizatus.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d3q2-p2"> -->
+          <p>
+            <lb ed="#V" n="21" type="fixed=283"/>SCHOLIUM.
+            <lb ed="#V" n="22"/>Proprie loquendo, relationem signi esse
+            <lb ed="#V" n="23"/>formam cujuslibet Sacramenti, et
+            fundamen<lb ed="#V" n="24" break="no"/>tum hujus ejus materiam; tamen
+            comparan<lb ed="#V" n="25" break="no"/>do partes fundamenti inter se, illa quae est
+            <lb ed="#V" n="26"/>actualior et magis determinans, est forma
+            <lb ed="#V" n="27"/>respectu aliarum, et ideo verba in omni
+            <lb ed="#V" n="28"/>Sacramento, in quo interveniunt, sunt
+            for<lb ed="#V" n="29" break="no"/>ma, quia seundum August. 2. de Doctr.
+            <lb ed="#V" n="30"/>Christ. 1. obtinent principatum in
+            signifi<lb ed="#V" n="31" break="no"/>cando.
+          </p>
+          <p>
+            <lb ed="#V" n="32"/>Hic primo (b) videndum est, si
+            <lb ed="#V" n="33"/>aliqua verba possunt esse forma
+            <lb ed="#V" n="34"/>hujus Sacramenti. Ubi
+            adverten<lb ed="#V" n="35" break="no"/>dum est, quod (proprie loquendo
+            <lb ed="#V" n="36"/>de forma, prout est altera pars
+            <lb ed="#V" n="37"/>compositi,) forma Sacramenti est
+            <lb ed="#V" n="38"/>ipsa relatio signi, qua formaliter
+            <lb ed="#V" n="39"/>est tale Sacramentum, et materia
+            <lb ed="#V" n="40"/>est totum fundamentum ipsius
+            re<cb ed="#V" n="b"/><lb ed="#V" n="41" break="no"/>lationis. Verumtamen, si in
+            fun<lb ed="#V" n="42" break="no"/>damento isto sint plura, ex quibus
+            <lb ed="#V" n="43"/>aliquo modo fit unum
+            Sacramen<lb ed="#V" n="44" break="no"/>tum, quae non omnino aequaliter
+            <lb ed="#V" n="45"/>se habent, sed alterum sit quasi
+            <lb ed="#V" n="46"/>praevium et determinabile,
+            alte<lb ed="#V" n="47" break="no"/>rum quasi posterius et
+            determi<lb ed="#V" n="48" break="no"/>nat.» praecedentis, primum potest
+            <lb ed="#V" n="49"/>dici quasi materia, per quamdam
+            <lb ed="#V" n="50"/>similitudinem ad materiam, et
+            al<lb ed="#V" n="51" break="no"/>terum forma. Materiae enim est
+            <lb ed="#V" n="52"/>praecedere secundum originem, et
+            <lb ed="#V" n="53"/>determinari; formae autem sequi,
+            <lb ed="#V" n="54"/>et determinare. Similiter illud
+            <lb ed="#V" n="55"/>quod est principalius et actualius,
+            <lb ed="#V" n="56"/>potest dici forma, respectu
+            poten<lb ed="#V" n="57" break="no"/>tialioris. Similiter quod est
+            spiri<lb ed="#V" n="58" break="no"/>tualius, potest dici forma respectu
+            <lb ed="#V" n="59"/>ejus, quod est minus spirituale.
+          </p>
+          <p>
+            <lb ed="#V" n="60"/>Ad propositum, in fundamento
+            <lb ed="#V" n="61"/>relationis Baptismi concurrunt
+            <lb ed="#V" n="62"/>ablutio et verba, sive tanquam
+            <lb ed="#V" n="63"/>partes fundamenti, secundum
+            <lb ed="#V" n="64"/>unam opinionem, sive tanquam
+            <lb ed="#V" n="65"/>fundamentum, et circumstantiae
+            <lb ed="#V" n="66"/>fundamenti, secundum aliam.
+          </p>
+          <p>
+            <lb ed="#V" n="67"/>Si primo modo, pars
+            principa<lb ed="#V" n="68" break="no"/>lior in significando sunt verba,
+            <lb ed="#V" n="69"/>quia secundum Augustinum 2. de
+            <lb ed="#V" n="70"/>doctrina Christiana, cap. 1. Verba
+            <lb ed="#V" n="71"/>inter homines obtinuerunt principatum
+            <lb ed="#V" n="72"/>in significando, et similem
+            sententi<lb ed="#V" n="73" break="no"/>am dicit, 15. de Trin. tunc propter
+            <lb ed="#V" n="74"/>istam principalitatem, verba
+            pos<lb ed="#V" n="75" break="no"/>sent dici forma, respectu alterius.
+          </p>
+          <p>
+            <lb ed="#V" n="76"/>Secundo modo patet, quod verba
+            <lb ed="#V" n="77"/>sunt determinantia respectu
+            ablu<lb ed="#V" n="78" break="no"/>tionis, et sive sic, sive sic, patet,
+            <lb ed="#V" n="79"/>quod verba sunt magis spiritualia
+            <lb ed="#V" n="80"/>ablutione. Sic ergo secundum istas
+            <lb ed="#V" n="81"/>metaphoras praedictas, patet quod
+            <lb ed="#V" n="82"/>ubi aliquod signum concurrit
+            sen<lb ed="#V" n="83" break="no"/>sibile in fundamento alicujus
+            re<lb ed="#V" n="84" break="no"/>lationis Sacramenti, et aliqua
+            ver<pb ed="#V" n="284"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>ba simul, verba semper dicuntur
+            <lb ed="#V" n="2"/>forma. Haec de primo.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d3q2-p3"> -->
+          <p>
+            <lb ed="#V" n="36" type="fixed=287"/>SCHOLIUM.
+            <lb ed="#V" n="37"/>De necessitate praecepti formam
+            consue<lb ed="#V" n="38" break="no"/>tam Baptismi esse necessariam, nec
+            ordina<lb ed="#V" n="39" break="no"/>rium ministrum excusari ignorantia.
+            For<lb ed="#V" n="40" break="no"/>mam vero Graecorum olim fuisse licitam, et
+            <lb ed="#V" n="41"/>juste in ea non exprimi personam ministri,
+            <lb ed="#V" n="42"/>nec constare quod nec modo apud eos sit
+            <lb ed="#V" n="43"/>licita.
+          </p>
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="44"/>De secundo (c) videndum est,
+            <lb ed="#V" n="45"/>quae verba sint forma isto modo.
+            <lb ed="#V" n="46"/>Ubi sciendum est, quod in
+            Sacra<lb ed="#V" n="47" break="no"/>mentis est aliquid necessarium
+            <lb ed="#V" n="48"/>simpliciter, scilicet ex parte
+            Sa<lb ed="#V" n="49" break="no"/>cramenti, quo scilicet non
+            existen<lb ed="#V" n="50" break="no"/>te, omnino non est Sacramentum.
+            <lb ed="#V" n="51"/>Aliquid est necessarium
+            aliquali<lb ed="#V" n="52" break="no"/>ter, scilicet ex parte ministri, sine
+            <lb ed="#V" n="53"/>quo minister dispensando
+            Sacra<lb ed="#V" n="54" break="no"/>mentum, non potest vitare
+            pec<lb ed="#V" n="55" break="no"/>catum.
+          </p>
+          <p>
+            <lb ed="#V" n="56"/>Si quaeratur de forma secundo
+            <lb ed="#V" n="57"/>modo necessaria, hoc est, de
+            for<lb ed="#V" n="58" break="no"/>ma necessario observanda a
+            mi<lb ed="#V" n="59" break="no"/>nistro, dico quod in tota Ecclesia
+            <lb ed="#V" n="60"/>Romana forma necessaria haec
+            <lb ed="#V" n="61"/>est, de qua quaeritur, forma
+            neces<lb ed="#V" n="62" break="no"/>saria scilicet ministro, et hoc
+            lo<lb ed="#V" n="63" break="no"/>quendo de ministro, cui competit
+            <lb ed="#V" n="64"/>ex officio baptizare. Quis sit ille,
+            <lb ed="#V" n="65"/>dicetur distinct. 5. nam istum non
+            <lb ed="#V" n="66"/>potest ignorantia excusare, quia
+            <lb ed="#V" n="67"/>tenetur scire illa quae sunt sui
+            <lb ed="#V" n="68"/>officii, ad quod deputatur.
+            Proba<lb ed="#V" n="69" break="no"/>tur, quia quilibet minister in
+            Eccle<lb ed="#V" n="70" break="no"/>sia Romana tenetur necessario
+            il<lb ed="#V" n="71" break="no"/>lam formam servare, quam talis
+            <lb ed="#V" n="72"/>Ecclesia imposuit ministris;
+            hu<lb ed="#V" n="73" break="no"/>jusmodi est ista, de qua quaeritur,
+            <lb ed="#V" n="74"/>ut patet Extrav. in arguendo,
+            scili<lb ed="#V" n="75" break="no"/>cet ad oppositum in illo capitulo:
+            <lb ed="#V" n="76"/>Si quis.
+          </p>
+          <p>
+            <lb ed="#V" n="77"/>Si quaeras de forma (d)
+            necessa<lb ed="#V" n="78" break="no"/>ria ministro apud Graecos, dici
+            <lb ed="#V" n="79"/>potest quod quantum ad aliqua
+            <lb ed="#V" n="80"/>verba, non principalia in forma,
+            <lb ed="#V" n="81"/>scilicet illa, quibus exprimitur
+            <lb ed="#V" n="82"/>suscipiens, et actus, sive minister,
+            <lb ed="#V" n="83"/>Ecclesia Graeca quandoque non
+            <lb ed="#V" n="84"/>voluit formam istam servare,
+            cu<lb ed="#V" n="85" break="no"/>jus causam tangit Apostolus
+            pri<lb ed="#V" n="86" break="no"/>mae Corinth. 1. Hoc autem dico, quod
+            <lb ed="#V" n="87"/>unusquisque vestrum dicit, ego quidem
+            <pb ed="#V" n="288"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>sum Pauli, etc. gloriabantur enim
+            <lb ed="#V" n="2"/>de ministris baptizantibus, quasi
+            <lb ed="#V" n="3"/>eis adscriberetur Baptismus; et
+            <lb ed="#V" n="4"/>redarguit eos, et istam eorum
+            <lb ed="#V" n="5"/>contentionem, dicens: Divisus est
+            <lb ed="#V" n="6"/>Christus?
+          </p>
+          <p>
+            <lb ed="#V" n="7"/>Et propter hoc, ortum fuit inter
+            <lb ed="#V" n="8"/>eos schisma et ordinatum fuit
+            <lb ed="#V" n="9"/>inter eos, ad istud schisma
+            tol<lb ed="#V" n="10" break="no"/>lendum, ne minister exprimeretur
+            <lb ed="#V" n="11"/>in propria persona, nec actus in
+            <lb ed="#V" n="12"/>indicativo modo, sed optativo, quia
+            <lb ed="#V" n="13"/>tunc minister non significatur esse
+            <lb ed="#V" n="14"/>auctor Baptismi, sed tantum
+            mini<lb ed="#V" n="15" break="no"/>ster desiderans et orans effectum
+            <lb ed="#V" n="16"/>Baptismi conferendum a Deo, et
+            <lb ed="#V" n="17"/>sufficiens etiam non exprimeretur
+            <lb ed="#V" n="18"/>in secunda persona, sed in tertia,
+            <lb ed="#V" n="19"/>quasi non praecise reciperet, quod
+            <lb ed="#V" n="20"/>recipit ab aliquo sermone sibi
+            di<lb ed="#V" n="21" break="no"/>rigente. Verumtamen melius
+            po<lb ed="#V" n="22" break="no"/>tuisset suscipiens fuisse
+            expres<lb ed="#V" n="23" break="no"/>sus, quam per hoc: servus Christi,
+            <lb ed="#V" n="24"/>scilicet nomine proprio. Non enim
+            <lb ed="#V" n="25"/>jam servus Christi baptizatur, sed
+            <lb ed="#V" n="26"/>baptizatur ut sit servus Christi,
+            <lb ed="#V" n="27"/>loquendo de servitio spirituali,
+            <lb ed="#V" n="28"/>quo Christianus est servus Christi.
+          </p>
+          <p>
+            <lb ed="#V" n="29"/>De hac forma potest dici, quod
+            <lb ed="#V" n="30"/>quamdiu tolerata fuit ab Ecclesia
+            <lb ed="#V" n="31"/>Romana, licita fuit eis, et pro
+            <lb ed="#V" n="32"/>tempore, pro quo instituta fuit,
+            <lb ed="#V" n="33"/>rationabilis fuit durante causa
+            <lb ed="#V" n="34"/>praedicta; sed cessante illa causa,
+            <lb ed="#V" n="35"/>rationabiliter potuit forma
+            com<lb ed="#V" n="36" break="no"/>munis fuisse eis imposita. Vel
+            <lb ed="#V" n="37"/>ergo Romana Ecclesia prohibuit
+            <lb ed="#V" n="38"/>illam formam, quantum ad eos,
+            <lb ed="#V" n="39"/>et tunc peccant servando (quod
+            <lb ed="#V" n="40"/>expresse non invenitur in aliquo
+            <lb ed="#V" n="41"/>capitulo, specialem mentionem
+            <lb ed="#V" n="42"/>faciente de eis), vel si permisit,
+            <lb ed="#V" n="43"/>sive concessit, licitum videtur eis
+            <lb ed="#V" n="44"/>illam formam continuare: Et si
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>tali permissione seu licentia
+            stan<lb ed="#V" n="46" break="no"/>te, in Conciliis suis particularibus,
+            <lb ed="#V" n="47"/>ordinaverunt inter se talem
+            for<lb ed="#V" n="48" break="no"/>mam esse servandam, videtur quod
+            <lb ed="#V" n="49"/>minister eorum tenetur eam
+            ser<lb ed="#V" n="50" break="no"/>vare, sicut stante ista
+            permissi<lb ed="#V" n="51" break="no"/>one Ecclesiae Romanae, quod
+            ali<lb ed="#V" n="52" break="no"/>cubi fiat trina immersio, alicubi
+            <lb ed="#V" n="53"/>una, in illa Ecclesia, quae
+            deter<lb ed="#V" n="54" break="no"/>minavit trinam immersionem
+            ser<lb ed="#V" n="55" break="no"/>vandam, sic faciendum est, et est
+            <lb ed="#V" n="56"/>de necessitate ministri,
+            praece<lb ed="#V" n="57" break="no"/>ptum et modum propriae Ecclesiae
+            <lb ed="#V" n="58"/>servare. Haec de forma necessaria
+            <lb ed="#V" n="59"/>ex parte ministri.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d3q2-p4"> -->
+          <p>
+            <lb ed="#V" n="70" type="fixed=290"/>SCHOLIUM.
+            <lb ed="#V" n="71"/>Haec littera tractans de forma necessaria,
+            <lb ed="#V" n="72"/>necessitate Sacramenti, continet aliquot
+            di<lb ed="#V" n="73" break="no"/>cta. Primum, minister et Iy ego non
+            <lb ed="#V" n="74"/>necessario exprimuntur. Secundum, actus
+            <lb ed="#V" n="75"/>et suspiciens necessario exprimuntur.
+            Ter<lb ed="#V" n="76" break="no"/>tium, quoad mutationem substantiae
+            verbo<lb ed="#V" n="77" break="no"/>rum, si ponatur aliud verbum, idem
+            eadem<lb ed="#V" n="78" break="no"/>que ratione significans, valide fit. Quartum,
+            <lb ed="#V" n="79"/>non Baptismus datus in nomine genitoris,
+            <lb ed="#V" n="80"/>etc. nec Trinitatis. Quintum, baptizatus in
+            <lb ed="#V" n="81"/>nomine Christi, dubius est de suo Baptismo;
+            <lb ed="#V" n="82"/>olim tamen licuit sic baptizare, ex Ambr.
+            <lb ed="#V" n="83"/>adducto a Magistro hic; et colligitur ex Act.
+            <lb ed="#V" n="84"/>c. 8. 10. et 19. ubi est mentio de Baptismo in
+            <lb ed="#V" n="85"/>nomine Jesu Christi, sine ulla Trinitatis
+            <lb ed="#V" n="86"/>expressione, ita Mag. hic. Alens. 4. p. q. 8.
+            <lb ed="#V" n="87"/>m. 3. art. 3. D. Thom. 3. p. q. 66. art. 6. ad 1.
+            <lb ed="#V" n="88"/>Atb. hic. art. 2. Bonavent. p. 1. art. 2. q. 2.
+            <lb ed="#V" n="89"/>Richard. art. 2. q. 3. ad 10. cum Scoto hic
+            <pb ed="#V" n="291"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>et aliis. Est contra Suar. supra s 3. Canum
+            <lb ed="#V" n="2"/>6. de loc. cap. 8. ad 7. et alios, qui putant
+            <lb ed="#V" n="3"/>Apostolos nunquam baptizasse in nomine
+            <lb ed="#V" n="4"/>Christi.
+          </p>
+          <p>
+            <lb ed="#V" n="5"/>Tertio (e) de forma necessaria
+            <lb ed="#V" n="6"/>ex parte Sacramenti, patet, quod
+            <lb ed="#V" n="7"/>ista non est talis quantum ad
+            <lb ed="#V" n="8"/>omnia verba, ex hoc quod dictum
+            <lb ed="#V" n="9"/>est, quod Graeci vere baptizabant,
+            <lb ed="#V" n="10"/>non tamen sub eadem forma. Unde
+            <lb ed="#V" n="11"/>advertendum est, quod in ista
+            for<lb ed="#V" n="12" break="no"/>ma sunt verba principaliter
+            per<lb ed="#V" n="13" break="no"/>tinentia ad eam; aliqua autem
+            <lb ed="#V" n="14"/>non principaliter pertinent, quia
+            <lb ed="#V" n="15"/>exprimunt ministrum, actum et
+            <lb ed="#V" n="16"/>suscipientem. Ministrum enim
+            <lb ed="#V" n="17"/>non est simpliciter necessarium
+            <lb ed="#V" n="18"/>aliquo verbo exprimi neque
+            pro<lb ed="#V" n="19" break="no"/>nomine cujuscumque personae,
+            <lb ed="#V" n="20"/>quia non est in verbis Christi,
+            <lb ed="#V" n="21"/>Matth. ultimo. Alia autem duo,
+            sci<lb ed="#V" n="22" break="no"/>licet actum et suscipientem,
+            ne<lb ed="#V" n="23" break="no"/>cessarium est exprimi, sed non
+            <lb ed="#V" n="24"/>determinate eodem modo quo istis
+            <lb ed="#V" n="25"/>verbis exprimuntur, scilicet actus
+            <lb ed="#V" n="26"/>verbo indicativi modi, et
+            susci<lb ed="#V" n="27" break="no"/>piens pronomine secundae
+            perso<lb ed="#V" n="28" break="no"/>nae; sed potest actus exprimi verbo
+            <lb ed="#V" n="29"/>alterius modi, et suscipiens verbo
+            <lb ed="#V" n="30"/>alterius personae ut Graeci
+            expri<lb ed="#V" n="31" break="no"/>munt. Ratio autem necessitatis,
+            <lb ed="#V" n="32"/>quod illa duo sic vel sic
+            expri<lb ed="#V" n="33" break="no"/>merentur, sumitur ex illo Matth.
+            <lb ed="#V" n="34"/>ultimo: Baptizantes eos, etc. ubi
+            <lb ed="#V" n="35"/>exprimitur actus et suscipiens.
+          </p>
+          <p>
+            <lb ed="#V" n="36"/>De verbis autem (f)
+            principali<lb ed="#V" n="37" break="no"/>bus quae sunt: In nomine Patris et
+            <lb ed="#V" n="38"/>Filii et Spiritus sancti, an ista sint
+            <lb ed="#V" n="39"/>praecise pertinentia ad formam?
+            <lb ed="#V" n="40"/>Ad hujus intellectum advertendum
+            <lb ed="#V" n="41"/>est, quod secundum Philosophum
+            <lb ed="#V" n="42"/>5. Physic. quadruplex est mutatio,
+            <lb ed="#V" n="43"/>scilicet secundum substantiam,
+            <lb ed="#V" n="44"/>e qualitatem, quantitatem, et ubi.
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>Sic secundum ista verba, potest
+            <lb ed="#V" n="46"/>fieri quadruplex variatio, scilicet
+            <lb ed="#V" n="47"/>secundum substantiam, alia verba
+            po<lb ed="#V" n="48" break="no"/>nendo pro istis, vel aliud verbum
+            <lb ed="#V" n="49"/>pro isto; secundum quantitatem,
+            ap<lb ed="#V" n="50" break="no"/>ponendo, vel subtrahendo, et si
+            <lb ed="#V" n="51"/>apponendo, vel anteponendo, vel
+            <lb ed="#V" n="52"/>postponendo, vel interponendo;
+            <lb ed="#V" n="53"/>secundum qualitatem, scilicet
+            aufe<lb ed="#V" n="54" break="no"/>rendo aliquam requisitam
+            termi<lb ed="#V" n="55" break="no"/>nationem ad congruam
+            locuti<lb ed="#V" n="56" break="no"/>onem; secundum ubi, transponendo.
+          </p>
+          <p>
+            <lb ed="#V" n="57"/>Et de quacumque istarum
+            va<lb ed="#V" n="58" break="no"/>riationum, dico, quod si varians
+            <lb ed="#V" n="59"/>intendit uti verbis, quibus utitur
+            <lb ed="#V" n="60"/>tanquam forma Ecclesiae, praecise,
+            <lb ed="#V" n="61"/>non baptizat, quia deficit sibi
+            in<lb ed="#V" n="62" break="no"/>tentio utendi verbis, quibus utitur,
+            <lb ed="#V" n="63"/>tanquam forma Ecclesiae; intendit
+            <lb ed="#V" n="64"/>enim uti illis verbis aliqualiter
+            <lb ed="#V" n="65"/>variatis, tanquam forma praecisa
+            <lb ed="#V" n="66"/>Baptismi.
+          </p>
+          <p>
+            <lb ed="#V" n="67"/>Supposito ergo, quod non
+            defi<lb ed="#V" n="68" break="no"/>ciat intentio, quaeramus ex parte
+            <lb ed="#V" n="69"/>verborum in se, quae istarum
+            va<lb ed="#V" n="70" break="no"/>riationum potest stare cum forma,
+            <lb ed="#V" n="71"/>et quae non? Et hoc de singulis
+            <lb ed="#V" n="72"/>per ordinem.
+          </p>
+          <p>
+            <lb ed="#V" n="73"/>De prima dico, quod potest
+            in<lb ed="#V" n="74" break="no"/>telligi dupliciter, vel quod aliud
+            <lb ed="#V" n="75"/>verbum secundum quid ponatur
+            <lb ed="#V" n="76"/>in loco alicujus verborum
+            illo<lb ed="#V" n="77" break="no"/>rum, puta alia vox, tamen idem
+            <lb ed="#V" n="78"/>et sub eadem ratione
+            signifi<lb ed="#V" n="79" break="no"/>cans; vel aliud verbum
+            simplici<lb ed="#V" n="80" break="no"/>ter, scilicet alia vox aliud
+            signi<lb ed="#V" n="81" break="no"/>ficatum habens. Et si secundo
+            <lb ed="#V" n="82"/>modo, adhuc dupliciter, quia vel
+            <lb ed="#V" n="83"/>illud significatum est omnino
+            di<lb ed="#V" n="84" break="no"/>sparatum a significato vocis, pro
+            <lb ed="#V" n="85"/>qua ponitur, ut si poneretur lapis
+            <lb ed="#V" n="86"/>loco hujus, quod est pater; vel est
+            <lb ed="#V" n="87"/>significatum conveniens omnino.
+            <lb ed="#V" n="88"/>habens idem substratum in re. Et
+            <pb ed="#V" n="292"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>hoc contingit dupliciter, vel quia
+            <lb ed="#V" n="2"/>exprimi distincte tres personas
+            <lb ed="#V" n="3"/>sub aliis rationibus significatas,
+            <lb ed="#V" n="4"/>quam sigtnificantur per hoc: Pater
+            <lb ed="#V" n="5"/>et Filius, et Spiritus sanctus, et sic
+            <lb ed="#V" n="6"/>est de istis nominibus genitoris,
+            <lb ed="#V" n="7"/>geniti et spirati; ista enim
+            signifi<lb ed="#V" n="8" break="no"/>cant personas sub ratione
+            pro<lb ed="#V" n="9" break="no"/>prietatum, non autem sub ratione
+            <lb ed="#V" n="10"/>subsistentium et hypostasum. Vel
+            <lb ed="#V" n="11"/>illae personae significantur
+            impli<lb ed="#V" n="12" break="no"/>cite, et hoc vel tantum in toto
+            <lb ed="#V" n="13"/>collectivo, quomodo significat eas
+            <lb ed="#V" n="14"/>hoc nomen sancta Trinitas; vel
+            im<lb ed="#V" n="15" break="no"/>plicite, ut in quodam importante
+            <lb ed="#V" n="16"/>personas per correspondentiam
+            <lb ed="#V" n="17"/>effectus ad causam, et sic
+            impor<lb ed="#V" n="18" break="no"/>tantur per hoc nomen Christus.
+            <lb ed="#V" n="19"/>Hoc enim nomen significat Filium
+            <lb ed="#V" n="20"/>secundum naturam humanam, qui
+            <lb ed="#V" n="21"/>unctus est; et dat intelligere
+            Pa<lb ed="#V" n="22" break="no"/>trem, a quo unctus est, et Spiritum
+            <lb ed="#V" n="23"/>sanctum, quo unctus est. Sic ergo
+            <lb ed="#V" n="24"/>habemus quantum ad istud
+            mem<lb ed="#V" n="25" break="no"/>brum, nomen aliud tantum
+            se<lb ed="#V" n="26" break="no"/>cundum vocem, vel nomen, aliud
+            <lb ed="#V" n="27"/>habens significatum omnino
+            di<lb ed="#V" n="28" break="no"/>sparatum, vel nomina
+            significan<lb ed="#V" n="29" break="no"/>tia tres personas, non sub ratione
+            <lb ed="#V" n="30"/>personarum, ut genitor et genitus,
+            <lb ed="#V" n="31"/>vel nomen significans ista
+            colle<lb ed="#V" n="32" break="no"/>ctive, ut Trinitas, vel nomen
+            con<lb ed="#V" n="33" break="no"/>notans personas, sicut effectus
+            <lb ed="#V" n="34"/>causam.
+          </p>
+          <p>
+            <lb ed="#V" n="35"/>De istis quinque, de primo patet,
+            <lb ed="#V" n="36"/>quod manet eadem forma, quia in
+            <lb ed="#V" n="37"/>qualibet lingua potest fieri
+            Ba<lb ed="#V" n="38" break="no"/>ptismus; forte tamen non licet
+            <lb ed="#V" n="39"/>baptizanti ex officio et
+            solemni<lb ed="#V" n="40" break="no"/>ter, uti verbis cujuslibet linguae,
+            <lb ed="#V" n="41"/>sicut nec in confectione
+            Eucha<lb ed="#V" n="42" break="no"/>ristiae, quia ordinavit Ecclesia
+            <lb ed="#V" n="43"/>Romana, quod officia
+            Ecclesiasti<lb ed="#V" n="44" break="no"/>ca dicantur, et Sacramenta
+            mini<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>strentur in Latino Grammatico;
+            <lb ed="#V" n="46"/>et hoc rationabiliter, quia istud
+            <lb ed="#V" n="47"/>distinctius potest scribi et
+            pro<lb ed="#V" n="48" break="no"/>ferri. De omnino impertinente
+            <lb ed="#V" n="49"/>patet, quod omnino forma non
+            <lb ed="#V" n="50"/>servatur.
+          </p>
+          <p>
+            <lb ed="#V" n="51"/>De nominibus (g) significantibusi
+            <lb ed="#V" n="52"/>proprietates, et non personas, ut
+            <lb ed="#V" n="53"/>genitor, etc. dico, quod non servatur
+            <lb ed="#V" n="54"/>in eis forma, quia Christus voluit
+            <lb ed="#V" n="55"/>personas vocari nominibus
+            perso<lb ed="#V" n="56" break="no"/>narum, et rationabiliter secundum
+            <lb ed="#V" n="57"/>illud, quod tactum est in primo libro
+            <lb ed="#V" n="58"/>dist. 2. ut sicut Judaeis datum erat
+            <lb ed="#V" n="59"/>aliquod nomen significans
+            essen<lb ed="#V" n="60" break="no"/>tiam divinam sub propria ratione,
+            <lb ed="#V" n="61"/>quod ipsi vocabant nomen Dei
+            <lb ed="#V" n="62"/>Tetragrammaton; ita Christus
+            de<lb ed="#V" n="63" break="no"/>dit Ecclesiae nomina significantia
+            <lb ed="#V" n="64"/>personas sub propriis rationibus.
+            <lb ed="#V" n="65"/>Si etiam non sic dederit, tamen
+            <lb ed="#V" n="66"/>bene probabile est in aliqua
+            invo<lb ed="#V" n="67" break="no"/>catione, nomen personae habere
+            <lb ed="#V" n="68"/>aliquam efficaciam, quam non
+            ha<lb ed="#V" n="69" break="no"/>bet nomen proprietatis personae;
+            <lb ed="#V" n="70"/>petendo enim aliquod donum ab
+            <lb ed="#V" n="71"/>aliquo pro amore Joannis, citius
+            <lb ed="#V" n="72"/>impetraretur, quam si loco
+            no<lb ed="#V" n="73" break="no"/>minis proprii poneretur nomen
+            <lb ed="#V" n="74"/>significans proprietatem suppositi.
+          </p>
+          <p>
+            <lb ed="#V" n="75"/>De nomine Trinitatis patet, quod
+            <lb ed="#V" n="76"/>Christus intellexit illas personas
+            <lb ed="#V" n="77"/>explicandas; in hoc autem nomine
+            <lb ed="#V" n="78"/>Trinitatis, tantum importantur
+            im<lb ed="#V" n="79" break="no"/>plicite; et ideo quod dicit illud
+            ca<lb ed="#V" n="80" break="no"/>pitulum: A quodam, Trinitas debet
+            <lb ed="#V" n="81"/>intelligi explicite pro tribus
+            per<lb ed="#V" n="82" break="no"/>sonis.
+          </p>
+          <p>
+            <lb ed="#V" n="83"/>De quinto, scilicet de nomine
+            <lb ed="#V" n="84"/>Christi, patet, quod aliquando
+            li<lb ed="#V" n="85" break="no"/>citum fuit baptizare, Act. 2. 10. de
+            <lb ed="#V" n="86"/>Cornelio, et 19. Sed an (h) modo
+            <lb ed="#V" n="87"/>esset baptizatus, si sic traderetur, i
+            <lb ed="#V" n="88"/>dubium est. Videtur quod sic
+            ba<pb ed="#V" n="293"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>ptizans peccaret mortaliter, imo
+            <lb ed="#V" n="2"/>omnino non baptizaret. Primum
+            <lb ed="#V" n="3"/>probatur, quia legem superioris
+            <lb ed="#V" n="4"/>nullus inferior potest revocare,
+            <lb ed="#V" n="5"/>nec simpliciter, nec ad tempus;
+            <lb ed="#V" n="6"/>lex de baptizando in ista forma
+            <lb ed="#V" n="7"/>communi: In nomine Patris et
+            <lb ed="#V" n="8"/>Filii, etc. promulgata fuit a
+            <lb ed="#V" n="9"/>Christo Matth. ultimo; ergo eam
+            <lb ed="#V" n="10"/>pro tempore, pro quo Christus
+            <lb ed="#V" n="11"/>non revocavit, nullus alius potest
+            <lb ed="#V" n="12"/>revocare. Sed licet dispensaverit
+            <lb ed="#V" n="13"/>in illa lege, pro tempore primitivae
+            <lb ed="#V" n="14"/>Ecclesiae, quia fuit ratio
+            dispen<lb ed="#V" n="15" break="no"/>sandi, ut divulgaretur nomen
+            Chri<lb ed="#V" n="16" break="no"/>sti, tamen illa ratione cessante,
+            <lb ed="#V" n="17"/>non dispensavit; ergo nullus
+            in<lb ed="#V" n="18" break="no"/>ferior pro tempore illo posteriori,
+            <lb ed="#V" n="19"/>potest aliqualiter a lege illa
+            absol<lb ed="#V" n="20" break="no"/>vi.
+          </p>
+          <p>
+            <lb ed="#V" n="21"/>Consimiliter probatur
+            secun<lb ed="#V" n="22" break="no"/>dum, quia forma tradita
+            commu<lb ed="#V" n="23" break="no"/>niter semper manet forma nisi per
+            <lb ed="#V" n="24"/>formae institutorem pro aliquo
+            <lb ed="#V" n="25"/>tempore fiat aliqua dispensatio.
+            <lb ed="#V" n="26"/>Sed forma non fuit dispensative
+            <lb ed="#V" n="27"/>tradita nisi pro tempore pro quo
+            <lb ed="#V" n="28"/>fuit dispensandi ratio, scilicet in
+            <lb ed="#V" n="29"/>Ecclesia primitiva, ut nomen
+            <lb ed="#V" n="30"/>Christi divulgaretur; ergo
+            tempo<lb ed="#V" n="31" break="no"/>re illius dispensationis cessante,
+            <lb ed="#V" n="32"/>forma illa sola manet, quae fuit
+            <lb ed="#V" n="33"/>forma ex institutione.
+          </p>
+          <p>
+            <lb ed="#V" n="34"/>Quid ergo? Non audeo dicere,
+            <lb ed="#V" n="35"/>quod baptizatus hodie in nomine
+            <lb ed="#V" n="36"/>Christi, esset baptizatus, sed nec
+            <lb ed="#V" n="37"/>audeo dicere, quod non esset
+            bapti<lb ed="#V" n="38" break="no"/>zatus, quia non lego ubi fuerit illa
+            <lb ed="#V" n="39"/>dispensatio revocata. In hoc ergo
+            <lb ed="#V" n="40"/>casu reputo dubium an talis sit
+            <lb ed="#V" n="41"/>baptizatus?
+          </p>
+          <p>
+            <lb ed="#V" n="42"/>Circa istum autem tale
+            reme<lb ed="#V" n="43" break="no"/>dium habendum est, sicut
+            univer<lb ed="#V" n="44" break="no"/>saliter in aliis dubiis adhibetur, de
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>quo Extrav. de Baptismo, et ejus
+            ef<lb ed="#V" n="46" break="no"/>fectu, de quibus dubium est, an
+            <lb ed="#V" n="47"/>baptizati fuerint, baptizentur
+            ver<lb ed="#V" n="48" break="no"/>bis istis praemissis: Si baptizatus
+            <lb ed="#V" n="49"/>es, non baptizo te; sed si non es
+            bapti<lb ed="#V" n="50" break="no"/>zatus, ego te baptizo in nomine Patris et
+            <lb ed="#V" n="51"/>Filii, etc. Et universaliter in
+            omni<lb ed="#V" n="52" break="no"/>bus dubiis quantum ad materiam
+            <lb ed="#V" n="53"/>et formam, sunt tres maximae:
+            <lb ed="#V" n="54"/>Prima est ista: Si possibilitas adest,
+            <lb ed="#V" n="55"/>via tutissima est eligenda. Secunda:
+            <lb ed="#V" n="56"/>Si non adest possibilitas, viae tutissimae
+            <lb ed="#V" n="57"/>proxima est tenenda. Tertia est ista:
+            <lb ed="#V" n="58"/>Cessante impossibilitate, caute est
+            sup<lb ed="#V" n="59" break="no"/>plendum, quod impossibilitas prohibebat.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d3q2-p5"> -->
+          <p>
+            <lb ed="#V" n="3" type="fixed=317"/>SCHOLIUM.
+            <lb ed="#V" n="4"/>Si addatur aliquid repugnans verbis
+            <lb ed="#V" n="5"/>essentialibus formae, vel diminuens illa
+            <lb ed="#V" n="6"/>ut ponendo conditionem non existentem,
+            <lb ed="#V" n="7"/>nihil fit. Idem est, quando interponitur
+            <lb ed="#V" n="8"/>aliquid etiam non repugnans, si
+            discon<lb ed="#V" n="9" break="no"/>tinuat sermonem; subtrahere verbum
+            prin<lb ed="#V" n="10" break="no"/>cipale, annullat; subtrahere syllabam, non.
+          </p>
+          <p>
+            <lb ed="#V" n="11"/>De secunda (i) variatione
+            prin<lb ed="#V" n="12" break="no"/>cipali, scilicet, secundum
+            Quan<lb ed="#V" n="13" break="no"/>titatem, dico quod si aliquid
+            ad<lb ed="#V" n="14" break="no"/>datur repugnans verbis
+            principa<lb ed="#V" n="15" break="no"/>libus formae, vel diminuens verba
+            <lb ed="#V" n="16"/>illa, nihil fit, quia non servatur
+            <lb ed="#V" n="17"/>forma, verbi gratia, de primo,
+            <lb ed="#V" n="18"/>si sic dicatur: In nomine Patris
+            <lb ed="#V" n="19"/>majoris, et Filii minoris, etc. verbi
+            <lb ed="#V" n="20"/>gratia, de secundo, si
+            praemitta<lb ed="#V" n="21" break="no"/>tur vel disjungatur vel
+            interpo<lb ed="#V" n="22" break="no"/>natur aliqua conditio, quae non
+            <lb ed="#V" n="23"/>existat, utpote: Si ego sum
+            omni<lb ed="#V" n="24" break="no"/>potens, ego te baptizo, etc. vel si
+            <lb ed="#V" n="25"/>sit aliqua oratio disjunctiva
+            con<lb ed="#V" n="26" break="no"/>tra rationem formae, quia
+            dis<lb ed="#V" n="27" break="no"/>junctiva non ponit determinate
+            <lb ed="#V" n="28"/>alteram partem, et eodem modo
+            <lb ed="#V" n="29"/>de similibus. Similiter si
+            ante<lb ed="#V" n="30" break="no"/>ponitur vel postponitur aliquid
+            <lb ed="#V" n="31"/>non repugnans, fit; si aliter,
+            <lb ed="#V" n="32"/>non.
+          </p>
+          <p>
+            <lb ed="#V" n="33"/>De interpositione tamen, esto
+            <lb ed="#V" n="34"/>quod non sit alicujus
+            distrahen<lb ed="#V" n="35" break="no"/>tis vel repugnantis, est speciale
+            <lb ed="#V" n="36"/>hoc, quia si interrumpat
+            unita<lb ed="#V" n="37" break="no"/>tem debitam formae, non manet
+            <lb ed="#V" n="38"/>forma. Quando autem talis
+            uni<lb ed="#V" n="39" break="no"/>tas necessaria interrumpitur,
+            ju<lb ed="#V" n="40" break="no"/>dicatur ex aliis actibus humanis.
+            <lb ed="#V" n="41"/>Quando enim ex communi
+            lo<lb ed="#V" n="42" break="no"/>quela, ex interpositione
+            imper<cb ed="#V" n="b"/><lb ed="#V" n="43" break="no"/>tinentis non judicatur quin
+            pos<lb ed="#V" n="44" break="no"/>set prior sermo continuari,
+            <lb ed="#V" n="45"/>consimiliter nec debet in
+            propo<lb ed="#V" n="46" break="no"/>sito judicari, utpote si quis
+            in<lb ed="#V" n="47" break="no"/>ciperet orationem, et diceret,
+            <lb ed="#V" n="48"/>Tacete vel recedite, non propter
+            <lb ed="#V" n="49"/>hoc esset necessarium incipere
+            <lb ed="#V" n="50"/>orationem; sed non obstante tali
+            <lb ed="#V" n="51"/>interruptione posset eamdem
+            <lb ed="#V" n="52"/>continuare et complere.
+          </p>
+          <p>
+            <lb ed="#V" n="53"/>De subtractione vero, si
+            sub<lb ed="#V" n="54" break="no"/>trahatur aliquod verbum de non
+            <lb ed="#V" n="55"/>principalibus, dictum est prius.
+            <lb ed="#V" n="56"/>Si autem de principalibus aliquod
+            <lb ed="#V" n="57"/>subtrahatur, nihil fit, quia
+            quod<lb ed="#V" n="58" break="no"/>libet verbum illorum est per se
+            <lb ed="#V" n="59"/>necessarium ad formam; sed si
+            <lb ed="#V" n="60"/>subtrahatur aliqua syllaba per
+            <lb ed="#V" n="61"/>syncopam, non propter hoc
+            des<lb ed="#V" n="62" break="no"/>truitur forma. Non enim voluit
+            <lb ed="#V" n="63"/>Deus omnino determinare
+            homi<lb ed="#V" n="64" break="no"/>nem ad verba in Sacramentis,
+            <lb ed="#V" n="65"/>ultra illum modum, quo verba
+            <lb ed="#V" n="66"/>sufficiunt ad exprimendum
+            conce<lb ed="#V" n="67" break="no"/>ptum; sed cum syncopa bene
+            in<lb ed="#V" n="68" break="no"/>telligit audiens conceptum
+            loquen<lb ed="#V" n="69" break="no"/>tis. Hoc autem magis cavendum
+            <lb ed="#V" n="70"/>est in verbis sacramentalibus,
+            <lb ed="#V" n="71"/>quam in aiiis verbis, propter
+            re<lb ed="#V" n="72" break="no"/>verentiam Sacramenti. Nec tamen
+            <lb ed="#V" n="73"/>auderem dicere, quod non
+            vi<lb ed="#V" n="74" break="no"/>tans eam peccet mortaliter, si
+            <lb ed="#V" n="75"/>non vitat, non ex contemptu, sed
+            <lb ed="#V" n="76"/>ex quadam infirmitate vel
+            incon<lb ed="#V" n="77" break="no"/>sideratione humana, quae non
+            <lb ed="#V" n="78"/>praecavet omnibus quantum
+            pos<lb ed="#V" n="79" break="no"/>set.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d3q2-p6"> -->
+          <p>
+            <lb ed="#V" n="18" type="fixed=320"/>SCHOLIUM.
+            <lb ed="#V" n="19"/>Incongruitas in fine verborum, si
+            singulo<lb ed="#V" n="20" break="no"/>rum verborum conceptus capi possunt, non
+            <lb ed="#V" n="21"/>annullat, et idem est de transpositione
+            <lb ed="#V" n="22"/>mutante conceptum orationis.
+          </p>
+          <p>
+            <lb ed="#V" n="23"/>De tertia (k) variatione
+            princi<lb ed="#V" n="24" break="no"/>pali, quantum ad Qualitatem,
+            <lb ed="#V" n="25"/>id est, terminationes, quae
+            per<lb ed="#V" n="26" break="no"/>tinent ad congruitatem, patet
+            <lb ed="#V" n="27"/>per illud, capite de consecr. dist.
+            <lb ed="#V" n="28"/>4. Retulerunt, ubi Papa respondet
+            <lb ed="#V" n="29"/>de Sacerdote qui baptizavit in
+            <lb ed="#V" n="30"/>nomine Patria, et filia, et spiritu
+            <lb ed="#V" n="31"/>sancta. Quod si hoc fecit ex
+            im<lb ed="#V" n="32" break="no"/>peritia linguae Latinae, non
+            inten<lb ed="#V" n="33" break="no"/>dens inducere errorem, vere
+            <lb ed="#V" n="34"/>baptizavit. Quod intelligendum
+            <lb ed="#V" n="35"/>est, quando est talis
+            incongrui<lb ed="#V" n="36" break="no"/>tas in fine dictionis, quae non
+            <lb ed="#V" n="37"/>prohibet quin possit capi
+            con<lb ed="#V" n="38" break="no"/>ceptus significatus per dictionem.
+            <lb ed="#V" n="39"/>Et quomodo hoc sit possibile,
+            <lb ed="#V" n="40"/>bene experiuntur aliqui audientes
+            <lb ed="#V" n="41"/>quosdam illiteratos, qui
+            loquun<lb ed="#V" n="42" break="no"/>tur incongrue, et tamen bene
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43"/>concipiunt quid volunt dicere,
+            <lb ed="#V" n="44"/>etiam quantum ad singula verba.
+          </p>
+          <p>
+            <lb ed="#V" n="45"/>De quarta (I) variatione
+            princi<lb ed="#V" n="46" break="no"/>pali, scilicet Ubi, dico quod
+            ali<lb ed="#V" n="47" break="no"/>qua transpositio omnino variat
+            <lb ed="#V" n="48"/>sententiam, ut si diceretur: Ego
+            <lb ed="#V" n="49"/>Patris baptizo te in nomine Filii, etc.
+            <lb ed="#V" n="50"/>Aliqua autem transpositio
+            permit<lb ed="#V" n="51" break="no"/>tit ut transposita teneant quasi
+            <lb ed="#V" n="52"/>eamdem virtutem in ipsa forma,
+            <lb ed="#V" n="53"/>ut si diceretur: In nomine Filii et
+            <lb ed="#V" n="54"/>Patris etc. Et prima transpositio
+            <lb ed="#V" n="55"/>impedit, quia aufert conceptum
+            <lb ed="#V" n="56"/>orationis, ut instituta est.
+            Secun<lb ed="#V" n="57" break="no"/>da non impedit, quia etsi
+            con<lb ed="#V" n="58" break="no"/>gruum esset servare ordinem
+            <lb ed="#V" n="59"/>proferendo personas, qui est
+            per<lb ed="#V" n="60" break="no"/>sonarum secundum originem, et
+            <lb ed="#V" n="61"/>necessarium sit hoc quantum ad
+            <lb ed="#V" n="62"/>ministrum, tamen non videtur
+            <lb ed="#V" n="63"/>omnino necessarium ex parte
+            <lb ed="#V" n="64"/>Sacramenti, quia personae
+            quo<lb ed="#V" n="65" break="no"/>cumque ordine nominatae, sunt
+            <lb ed="#V" n="66"/>unum efficiens principale in
+            <lb ed="#V" n="67"/>Baptismo, et ut sic invocantur.
+          </p>
+          <p>
+            <lb ed="#V" n="68"/>Ad primum argumentum patet
+            <lb ed="#V" n="69"/>ex primo articulo, quid sit
+            pro<lb ed="#V" n="70" break="no"/>prie forma hic. et qualiter verba
+            <lb ed="#V" n="71"/>sunt forma.
+          </p>
+          <p>
+            <lb ed="#V" n="72"/>Ad secundum patet ex secundo
+            <lb ed="#V" n="73"/>articulo, quod Christus
+            expres<lb ed="#V" n="74" break="no"/>sit verba, quae sunt principalia
+            <lb ed="#V" n="75"/>in forma illa, et quae non
+            princi<lb ed="#V" n="76" break="no"/>palia, scilicet actum et
+            suscipien<lb ed="#V" n="77" break="no"/>tem; sed in potestate Ecclesiae
+            <lb ed="#V" n="78"/>fuit determinare quibus verbis
+            <lb ed="#V" n="79"/>primae vel secundae personae, et
+            <lb ed="#V" n="80"/>indicativi vel optativi modi
+            expri<lb ed="#V" n="81" break="no"/>merentur suscipiens et actus;
+            <lb ed="#V" n="82"/>et Ecclesia Latina elegit
+            expri<lb ed="#V" n="83" break="no"/>mere suscipientem in secunda
+            <lb ed="#V" n="84"/>persona, et actum indicative et
+            <lb ed="#V" n="85"/>rationabiliter, ut notaret
+            minis<lb ed="#V" n="86" break="no"/>trum vere conferre
+            Sacramen<pb ed="#V" n="321"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>tum. Ecclesia autem Graeca elegit
+            <lb ed="#V" n="2"/>aliter et rationabiliter pro
+            tem<lb ed="#V" n="3" break="no"/>pore, ut dictum est, ut
+            auferre<lb ed="#V" n="4" break="no"/>tur schisma gloriantium de
+            bapti<lb ed="#V" n="5" break="no"/>zantibus ministris.
+          </p>
+          <p>
+            <lb ed="#V" n="6"/>Ad tertium potest dici, quod
+            <lb ed="#V" n="7"/>divisio non est sufficiens, quia
+            <lb ed="#V" n="8"/>bene possibile est, quod verba
+            <lb ed="#V" n="9"/>aliqua materialiter sumpta sint
+            <lb ed="#V" n="10"/>forma in aliquo Sacramento,
+            <lb ed="#V" n="11"/>imo potuit Deus instituisse
+            ver<lb ed="#V" n="12" break="no"/>ba non significativa pro forma.
+          </p>
+          <p>
+            <lb ed="#V" n="13"/>Aliter potest dici, quod oratio
+            <lb ed="#V" n="14"/>ut vera, non pro tempore
+            pro<lb ed="#V" n="15" break="no"/>lationis, sed pro ultimo instanti
+            <lb ed="#V" n="16"/>complente prolationem, sicut
+            di<lb ed="#V" n="17" break="no"/>cetur inferius in materia de
+            Eu<lb ed="#V" n="18" break="no"/>charistia; et tunc cum arguitur,
+            <lb ed="#V" n="19"/>ut vera sequitur actum rei, verum
+            <lb ed="#V" n="20"/>est, quod consequitur ipsam
+            ablu<lb ed="#V" n="21" break="no"/>tionem, et ipsa ablutio
+            importa<lb ed="#V" n="22" break="no"/>tur per hoc verbum baptizo, et
+            <lb ed="#V" n="23"/>tunc non erit sensus baptizo, id
+            <lb ed="#V" n="24"/>est, Sacramentum Baptismi
+            con<lb ed="#V" n="25" break="no"/>fero, sed baptizo, hoc est, abluo.
+          </p>
+          <p>
+            <lb ed="#V" n="26"/>Ad quartum de Graecis patet.
+            <lb ed="#V" n="27"/>Ad quintum de pronomine ego,
+            <lb ed="#V" n="28"/>verum est quod non est
+            simplici<lb ed="#V" n="29" break="no"/>ter de necessitate formae, neque
+            <lb ed="#V" n="30"/>expressum, neque ut implicitum
+            <lb ed="#V" n="31"/>in verbo primae personae, sed
+            <lb ed="#V" n="32"/>quantum ad Ecclesiam Latinam
+            <lb ed="#V" n="33"/>(ad minus post tempus
+            Alexan<lb ed="#V" n="34" break="no"/>dri) necessarium est ministro
+            ex<lb ed="#V" n="35" break="no"/>primere ego; et glossa illa, Si
+            <lb ed="#V" n="36"/>quis, cum probatione sua.
+            (Retule<lb ed="#V" n="37" break="no"/>runt) potest intelligi pro tempore
+            <lb ed="#V" n="38"/>praecedente illam constitutionem
+            <lb ed="#V" n="39"/>Alexandri III Si quis.
+          </p>
+          <p>
+            <lb ed="#V" n="40"/>Ad illud de Trinitate et
+            Chris<lb ed="#V" n="41" break="no"/>to, patet in dictis de prima
+            va<lb ed="#V" n="42" break="no"/>riatione verborum.
+          </p>
+          <p>
+            <lb ed="#V" n="43"/>Ad illud de genitoris, etc.
+            dicen<lb ed="#V" n="44" break="no"/>dum, quod Augustinus ibi
+            intel<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>ligit, quod idem est genitor et
+            <lb ed="#V" n="46"/>pater quantum ad hoc, quod est
+            <lb ed="#V" n="47"/>dici ad alterum, sive importare
+            <lb ed="#V" n="48"/>proprietatem ejusdem personae;
+            <lb ed="#V" n="49"/>sed non sunt idem quantum ad
+            <lb ed="#V" n="50"/>primum conceptum significatum
+            <lb ed="#V" n="51"/>utrobique, quia Pater significat
+            <lb ed="#V" n="52"/>primo, et per se suppositum in
+            <lb ed="#V" n="53"/>natura divina; aliud autem
+            si<lb ed="#V" n="54" break="no"/>gnificat primo, et per se
+            proprie<lb ed="#V" n="55" break="no"/>tatem; et non est eadem vis
+            no<lb ed="#V" n="56" break="no"/>minis proprii et proprietatis
+            <lb ed="#V" n="57"/>nominis, in invocatione facta
+            ali<lb ed="#V" n="58" break="no"/>cujus personae, ad aliquem
+            effec<lb ed="#V" n="59" break="no"/>tum.
+          </p>
+          <p>
+            <lb ed="#V" n="60"/>Ad ultimum dico, quod
+            propo<lb ed="#V" n="61" break="no"/>sitio Philosophi vera est
+            absolu<lb ed="#V" n="62" break="no"/>te de nominibus transpositis, sed
+            <lb ed="#V" n="63"/>non sequitur quod conceptus
+            to<lb ed="#V" n="64" break="no"/>tius orationis ex talibus
+            nomini<lb ed="#V" n="65" break="no"/>bus sic et sic transpositis, sit
+            <lb ed="#V" n="66"/>idem; forma autem non consistit
+            <lb ed="#V" n="67"/>tantum in significatione
+            incom<lb ed="#V" n="68" break="no"/>plexorum, sed in significatione
+            <lb ed="#V" n="69"/>totius orationis.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

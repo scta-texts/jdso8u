@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio Septima, Quaestio 1</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio Septima, Quaestio 1</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x16">Vives, Paris, 1894, volume 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="657"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e5233"><!-- jdso8u-b4d7q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Quid sit sacramentum confirmationis</head>
+        <!-- <div alias="scotus-d7q1-p1"> -->
+          <p>
+            <pb ed="#V" n="657"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1" type="fixed=657"/>QUAESTIO I.
+            <lb ed="#V" n="2"/>Quid sit Sacramentum Confirmationis?
+            <lb ed="#V" n="3"/>De materia et forma. De suscipiente
+            <lb ed="#V" n="4"/>et ministro, et de conditionibus
+            re<lb ed="#V" n="5" break="no"/>quisitis in conferente et suscipiente
+            <lb ed="#V" n="6"/>hoc Sacramentum.
+          </p>
+          <p>
+            <lb ed="#V" n="7"/>Alens. 4. p. q. 24. m. 2. D. Bonav. hic art. 1.
+            <lb ed="#V" n="8"/>q. 1. Rich. art. 1. q. 1. 2. D. Thom. q. 1. art. 1.
+            <lb ed="#V" n="9"/>et 3. p. q. 65. art. 1. et 4. et q. 72. art. 1. et 4.
+            <lb ed="#V" n="10"/>Suarez 3. p. tom. 3. d. 32. late Coccius in
+            the<lb ed="#V" n="11" break="no"/>sauro tom. 2. lib. 5. art. 20. Bellarm. lio. 2. de
+            <lb ed="#V" n="12"/>Sacram. Confirm. et an Episcopus tantum sit
+            <lb ed="#V" n="13"/>minister. Vide Alens. q. 28. m. 1. art. 3.
+            <lb ed="#V" n="14"/>D. Thom. 3. p. q. 72. art. 11. D. Bonav. hic
+            <lb ed="#V" n="15"/>art. 1. q. 3. Rich. art. 2. q. 1. Suarez 3. p.
+            <lb ed="#V" n="16"/>tom. 3. d. 36.
+          </p>
+          <p>
+            <lb ed="#V" n="17"/>Circa istam (a) distinctionem
+            <lb ed="#V" n="18"/>possent multa quaeri
+            proportiona<lb ed="#V" n="19" break="no"/>liter illis, quae quaesita sunt de
+            Ba<lb ed="#V" n="20" break="no"/>ptismo. Sed praemitto quamdam
+            <lb ed="#V" n="21"/>rationem Sacramenti hujus, ex
+            <lb ed="#V" n="22"/>quo patet solutio multarum
+            quae<lb ed="#V" n="23" break="no"/>stionum. Et supponendo, quod
+            re<lb ed="#V" n="24" break="no"/>lationis, quae est formale in hoc
+            <lb ed="#V" n="25"/>Sacramento, fundamentum totale
+            <lb ed="#V" n="26"/>sit unctio determinata cum
+            con<lb ed="#V" n="27" break="no"/>ditionibus multis aliis requisitis,
+            <lb ed="#V" n="28"/>potest assignari ratio talis:
+            Con<lb ed="#V" n="29" break="no"/>firmatio, seu Sacramentum
+            Confirma<lb ed="#V" n="30" break="no"/>tionis est unctio (b) hominis viatoris
+            <lb ed="#V" n="31"/>aliqualiter consentientis, vel libero
+            arbi<lb ed="#V" n="32" break="no"/>trio nunquam usi, facta in fronte in
+            <lb ed="#V" n="33"/>figura (c) Crucis cum chrismate (d)
+            <lb ed="#V" n="34"/>sanctificato (e), et hoc a ministro
+            ido<lb ed="#V" n="35" break="no"/>neo (f), simul cum (g) intentione debita
+            <lb ed="#V" n="36"/>inungente, et verba certa proferente,
+            <lb ed="#V" n="37"/>significans efficaciter ex institutione
+            di<lb ed="#V" n="38" break="no"/>vina unctionem animae per gratiam
+            robo<lb ed="#V" n="39" break="no"/>rantem, ad confitendum cum constantia
+            <lb ed="#V" n="40"/>fidem Christi.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d7q1-p2"> -->
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43" type="fixed=689"/>SCHOLIUM.
+            <lb ed="#V" n="44"/>Posita definitione Confirmationis, explicat
+            <lb ed="#V" n="45"/>exactissime omnes ejus particulas, ex parte
+            <lb ed="#V" n="46"/>materiae, formae, suscipientis et ministri.
+            <lb ed="#V" n="47"/>Solvit tres objectiones contra doctrinam
+            da<lb ed="#V" n="48" break="no"/>tam. Nihil determinat de tempore
+            instituti<lb ed="#V" n="49" break="no"/>onis, quia de eo nihil est certum, probabile
+            <lb ed="#V" n="50"/>tamen est fuisse factam nocte coenae, ex
+            Fa<lb ed="#V" n="51" break="no"/>bian. ep. 2. c. 1.
+          </p>
+          <p>
+            <lb ed="#V" n="52"/>Hic (a) patet, quae sit hujus
+            <lb ed="#V" n="53"/>Sacramenti materia, quia cum
+            <lb ed="#V" n="54"/>posset distingui de materia, sicut
+            <lb ed="#V" n="55"/>distinctum est de materia in
+            Ba<lb ed="#V" n="56" break="no"/>ptismo dist. 3. quaest. 3. materia
+            pro<lb ed="#V" n="57" break="no"/>xima, id est, illud visibile, quod
+            <lb ed="#V" n="58"/>concurrit in fundamento, est
+            un<lb ed="#V" n="59" break="no"/>ctio, facta in fronte in figura
+            cru<lb ed="#V" n="60" break="no"/>cis, cum chrismate sanctificato.
+            <lb ed="#V" n="61"/>Materia autem remota est
+            chri<lb ed="#V" n="62" break="no"/>sma compositum ex oleo olivae et
+            <lb ed="#V" n="63"/>balsamo, et sanctificatum
+            specia<lb ed="#V" n="64" break="no"/>liter ab Episcopo, vel ab alio cui
+            <lb ed="#V" n="65"/>talis sanctificatio poterit
+            com<lb ed="#V" n="66" break="no"/>mitti.
+          </p>
+          <p>
+            <lb ed="#V" n="67"/>Forma est talis: Signo, vel
+            con<lb ed="#V" n="68" break="no"/>signo te signo crucis, confirmo te
+            chri<lb ed="#V" n="69" break="no"/>smate salutis, vel sanctificationis, in
+            <lb ed="#V" n="70"/>nomine Patris et Filii et Spiritus
+            <lb ed="#V" n="71"/>sancti. Suscipiens est homo viator
+            <lb ed="#V" n="72"/>aliqualiter consentiens; quod
+            in<lb ed="#V" n="73" break="no"/>telligendum est sicut de Baptismo,
+            <lb ed="#V" n="74"/>ut patet dist. 4. Sed hic tantum
+            <lb ed="#V" n="75"/>suscipiens est secundum
+            determi<lb ed="#V" n="76" break="no"/>natam partem, propter quod
+            <lb ed="#V" n="77"/>additur in fronte. Minister est
+            <lb ed="#V" n="78"/>Episcopus vel alius, cui
+            com<lb ed="#V" n="79" break="no"/>mitti poterit, ideo dicitur in
+            ge<lb ed="#V" n="80" break="no"/>nerali a ministro idoneo. Ex parte
+            <lb ed="#V" n="81"/>ministri requiritur simultas in
+            <lb ed="#V" n="82"/>faciendo utrumque actum, scilicet
+            <lb ed="#V" n="83"/>unctionis et prolationis formae,
+            <lb ed="#V" n="84"/>et etiam debita intentio, quae
+            <pb ed="#V" n="690"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>omnia debent intelligi, sicut
+            ex<lb ed="#V" n="2" break="no"/>positum est de ministro in
+            Bapti<lb ed="#V" n="3" break="no"/>smo, dist. 6. Quae adduntur,
+            signifi<lb ed="#V" n="4" break="no"/>cans efficaciter etc. dicunt illud quod
+            <lb ed="#V" n="5"/>formale est in isto Sacramento.
+            <lb ed="#V" n="6"/>Et quod ultimo additur, unctionem
+            <lb ed="#V" n="7"/>interiorem, signat correlativum
+            <lb ed="#V" n="8"/>illius relationis, quae est formale
+            <lb ed="#V" n="9"/>in isto Sacramento
+          </p>
+          <p>
+            <lb ed="#V" n="10"/>Et si (b) objiciatur primo
+            con<lb ed="#V" n="11" break="no"/>tra materiam et formam simul,
+            <lb ed="#V" n="12"/>quia Chritus non sic instituit, ut
+            <lb ed="#V" n="13"/>patet Joan. 20. quando insufflavit,
+            <lb ed="#V" n="14"/>et dedit discipulis Spiritum
+            san<lb ed="#V" n="15" break="no"/>ctum, et similiter Act. 2. quando
+            <lb ed="#V" n="16"/>misso Spiritu sancto in linguis
+            <lb ed="#V" n="17"/>igneis confirmabantur; nec etiam
+            <lb ed="#V" n="18"/>Apostoli tali forma utebantur, vel
+            <lb ed="#V" n="19"/>materia, ut patet in Actibus, sed
+            im<lb ed="#V" n="20" break="no"/>positione manuum. Si secundo
+            ob<lb ed="#V" n="21" break="no"/>jiciatur specialiter contra
+            materi<lb ed="#V" n="22" break="no"/>am, quia non oportet eam esse
+            <lb ed="#V" n="23"/>chrisma consecratum, quia nec
+            <lb ed="#V" n="24"/>in Baptismo necessaria est aqua
+            <lb ed="#V" n="25"/>consecrata, sufficit enim
+            quaecum<lb ed="#V" n="26" break="no"/>que aqua. Si tertio objiciatur, quod
+            <lb ed="#V" n="27"/>Sacerdos communis potest istud
+            <lb ed="#V" n="28"/>Sacramentum conferre, juxta illud
+            <lb ed="#V" n="29"/>dist. 95. Pervenit, ubi Gregorius
+            <lb ed="#V" n="30"/>Januario Episcopo scribit: Pervenit
+            <lb ed="#V" n="31"/>ad nos quosdam scandalizatos fuisse, eo
+            <lb ed="#V" n="32"/>quod Presbyteros tangere chrismate eos,
+            <lb ed="#V" n="33"/>qui baptizati sunt, prohibuimus. Et
+            <lb ed="#V" n="34"/>sequitur: Si omnino de hac re aliqui
+            <lb ed="#V" n="35"/>contristentur, ubi Episcopi desunt, ut
+            <lb ed="#V" n="36"/>Presbyteri etiam in frontibus baptizatos
+            <lb ed="#V" n="37"/>chrismate tangere debeant, concedimus.
+          </p>
+          <p>
+            <lb ed="#V" n="38"/>Ad primum istorum dicendum,
+            <lb ed="#V" n="39"/>quod Christus non alligavit
+            poten<lb ed="#V" n="40" break="no"/>tiam suam Sacramentis, et ideo
+            <lb ed="#V" n="41"/>ipse sive in terris, sive post
+            ascen<lb ed="#V" n="42" break="no"/>sionem in coelo existens, potuit
+            <lb ed="#V" n="43"/>confirmare Apostolos sine tali
+            <lb ed="#V" n="44"/>materia et tali forma. Cum
+            Apo<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>stolis etiam in primitiva Ecclesia
+            <lb ed="#V" n="46"/>potuit dispensare, et maxime quia
+            <lb ed="#V" n="47"/>in Confirmatione ab eis collata
+            <lb ed="#V" n="48"/>erant aliqua signa sensibilia,
+            <lb ed="#V" n="49"/>puta communiter descensus
+            Spi<lb ed="#V" n="50" break="no"/>ritus sanctus super confirmatos,
+            <lb ed="#V" n="51"/>et donum linguarum. Sed tamen
+            <lb ed="#V" n="52"/>cessantibus talibus miraculis,
+            mi<lb ed="#V" n="53" break="no"/>nistri debuerunt hanc materiam
+            <lb ed="#V" n="54"/>et hanc formam servare.
+          </p>
+          <p>
+            <lb ed="#V" n="55"/>Supponitur (c) enim institutum
+            <lb ed="#V" n="56"/>esse a Deo, licet tempus et modus
+            <lb ed="#V" n="57"/>hujus institutionis in Scriptura
+            <lb ed="#V" n="58"/>non legatur; forte, quia
+            Historio<lb ed="#V" n="59" break="no"/>graphi Scripturam usque ad
+            tem<lb ed="#V" n="60" break="no"/>pus illud non produxerunt. Non
+            <lb ed="#V" n="61"/>enim produxerunt ultra tempus
+            <lb ed="#V" n="62"/>Apostolorum, nec etiam usque ad
+            <lb ed="#V" n="63"/>plures annos ante mortem eorum;
+            <lb ed="#V" n="64"/>toto autem tempore Apostolorum,
+            <lb ed="#V" n="65"/>forte mansit donum linguarum in
+            <lb ed="#V" n="66"/>Sacramento Confirmationis. Nec
+            <lb ed="#V" n="67"/>est improbabile multa esse
+            tra<lb ed="#V" n="68" break="no"/>dita auctoritative a Christo
+            Eccle<lb ed="#V" n="69" break="no"/>siae per Apostolos, quae tamen in
+            <lb ed="#V" n="70"/>Scriptura non legimus, ut dicit
+            <lb ed="#V" n="71"/>Damascenus 4. lib. cap. 4. ubi
+            lo<lb ed="#V" n="72" break="no"/>quens de adoratione imaginum,
+            <lb ed="#V" n="73"/>ait: Est autem nobis tradita ista
+            tra<lb ed="#V" n="74" break="no"/>ditio, quemadmodum oportet ad
+            Orien<lb ed="#V" n="75" break="no"/>tem adorare crucem, et altera plurima
+            <lb ed="#V" n="76"/>his similia.
+          </p>
+          <p>
+            <lb ed="#V" n="77"/>Ad secundum dicendum, quod
+            <lb ed="#V" n="78"/>Christus contactu suae carnis
+            <lb ed="#V" n="79"/>mundissimae omnem aquam
+            con<lb ed="#V" n="80" break="no"/>secravit in usum Baptismi, non
+            <lb ed="#V" n="81"/>sic autem materiam illam
+            confir<lb ed="#V" n="82" break="no"/>mationis, et ideo requiritur hic
+            <lb ed="#V" n="83"/>specialis sanctificatio. Quod etiam
+            <lb ed="#V" n="84"/>est rationabile magis hic quam
+            <lb ed="#V" n="85"/>ibi, quia Baptismus est
+            Sacra<lb ed="#V" n="86" break="no"/>mentum necessitatis, et ideo
+            po<lb ed="#V" n="87" break="no"/>test a quocumque ministro
+            con<lb ed="#V" n="88" break="no"/>ferri, et rationabile est quod in
+            <pb ed="#V" n="691"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>aqua non consecrata, alioquin
+            <lb ed="#V" n="2"/>materia conveniens non posset
+            <lb ed="#V" n="3"/>esse communis, et impediretur
+            <lb ed="#V" n="4"/>salus multorum.
+          </p>
+          <p>
+            <lb ed="#V" n="5"/>SCHOLIUM.
+            <lb ed="#V" n="6"/>Occasione facti D. Gregorii concedentis
+            <lb ed="#V" n="7"/>Presbyteris facultatem confirmandi, ponit
+            <lb ed="#V" n="8"/>quatuor modos dicendi, et duos primos
+            reji<lb ed="#V" n="9" break="no"/>cit. Tertius videtur Hieronymi, scilicet olim
+            <lb ed="#V" n="10"/>Episcopos non differre jure divino a
+            Pre<lb ed="#V" n="11" break="no"/>sbyteris, sed jure tantum Ecclesiae eis fuisse
+            <lb ed="#V" n="12"/>praepositos. Affert Scot. responsionem glossae
+            <lb ed="#V" n="13"/>cap. legimus d. 95. quae etiam Chrys. in ad
+            <lb ed="#V" n="14"/>Philip. 1. et D. Thom. 2. 2. q. 184. a. 6. ad 1.
+            <lb ed="#V" n="15"/>olim nomina esse communia Presbytero et
+            <lb ed="#V" n="16"/>Episcopo, non tamen rem. Non solvit Scot.
+            <lb ed="#V" n="17"/>loca Hieronymi, sed potius videtur dicere
+            so<lb ed="#V" n="18" break="no"/>lutionem datam non esse juxta ejus mentem;
+            <lb ed="#V" n="19"/>sed juxta eum dicendum, vel omnes
+            Pre<lb ed="#V" n="20" break="no"/>sbyteros Episcopos tunc fuisse, vel si alii
+            <lb ed="#V" n="21"/>Presbyteri fuerunt, quod cesserunt juri
+            <lb ed="#V" n="22"/>confir mandi. De quo nihil asserit Scotus. Sed
+            <lb ed="#V" n="23"/>pie interpretari potest Hieronym. quod non
+            <lb ed="#V" n="24"/>neget potestatem ordinis Episcopo jure
+            divi<lb ed="#V" n="25" break="no"/>no supra Sacerdotem, imo eam asserit d
+            <lb ed="#V" n="26"/>c. legimus. Ait tamen jure tantum Ecclesiae,
+            <lb ed="#V" n="27"/>eum superponi Presbytero, quod satis
+            proba<lb ed="#V" n="28" break="no"/>bile est, tenendo Episcopos non habere
+            juris<lb ed="#V" n="29" break="no"/>dictionem immediate a Deo, sed ab Ecclesia,
+            <lb ed="#V" n="30"/>quod ait D. Thom. 2. 2. q. 39. a. 3. Turrecr.
+            <lb ed="#V" n="31"/>lib. 2. c. 54. Bellarm. 4. de Sum. Pont. 24.
+            <lb ed="#V" n="32"/>Suar. tom. 4. d. 25. s. 1. Relinquit Doct. n.7.
+            <lb ed="#V" n="33"/>ut dubium, an olim Presbyteri poterant
+            con<lb ed="#V" n="34" break="no"/>firmare, et sic Castro v. Episcopus intelligit
+            <lb ed="#V" n="35"/>Hieronym. quod poterant; idque tenet auctor
+            <lb ed="#V" n="36"/>epist. ad Rusticum Narbon. de 7. grad.
+            Ec<lb ed="#V" n="37" break="no"/>cles. c. de 7. grad. apud Hier. tom. 9. Favet
+            <lb ed="#V" n="38"/>Ambr. in 4. ad Ephes.
+          </p>
+          <p>
+            <lb ed="#V" n="39"/>Ad tertium sunt quatuor modi
+            di<lb ed="#V" n="40" break="no"/>cendi. Primus, quod Papa
+            consen<lb ed="#V" n="41" break="no"/>sit, quod possent ungere in fronte
+            <lb ed="#V" n="42"/>oleo, sed non chrismate, sed hoc
+            <lb ed="#V" n="43"/>est contra textum litterae, sicut
+            <lb ed="#V" n="44"/>patet ibidem. Item, hoc concessit,
+            <lb ed="#V" n="45"/>eo quod pro ejus subtractione
+            <lb ed="#V" n="46"/>erant quidam scandalizati; et si
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="47"/>concessisset illud fieri oleo solo,
+            <lb ed="#V" n="48"/>ostendens quasi fieret chrismate,
+            <lb ed="#V" n="49"/>esset simulatio contra veritatem
+            <lb ed="#V" n="50"/>doctrinae, sicut si concederetur
+            pa<lb ed="#V" n="51" break="no"/>nem benedictum pro Eucharistia
+            <lb ed="#V" n="52"/>dari. Secundus modus dicendi est,
+            <lb ed="#V" n="53"/>quod propter scandalum vitandum
+            <lb ed="#V" n="54"/>concessit illud ad tempus, vel
+            ma<lb ed="#V" n="55" break="no"/>gis permisit; sed istud nihil est,
+            <lb ed="#V" n="56"/>quia utilius scandalum nasci
+            per<lb ed="#V" n="57" break="no"/>mittitur, quam veritas
+            relinqua<lb ed="#V" n="58" break="no"/>tur, Extrav. de regulis juris. Item in
+            <lb ed="#V" n="59"/>hac concessione, peccasset
+            Grego<lb ed="#V" n="60" break="no"/>rius mortaliter, si concessisset de
+            <lb ed="#V" n="61"/>facto, quod non potuisset de jure,
+            <lb ed="#V" n="62"/>et praebuisset Sacerdotibus
+            occa<lb ed="#V" n="63" break="no"/>sionem peccandi mortaliter,
+            scili<lb ed="#V" n="64" break="no"/>cet faciendi, quod non licebat eis
+            <lb ed="#V" n="65"/>facere.
+          </p>
+          <p>
+            <lb ed="#V" n="66"/>Alii possunt esse duo modi
+            di<lb ed="#V" n="67" break="no"/>cendi probabiles. Unus, quod in
+            <lb ed="#V" n="68"/>primitiva Ecclesia non erat
+            diffe<lb ed="#V" n="69" break="no"/>rentia inter Sacerdotes et
+            Episco<lb ed="#V" n="70" break="no"/>pos. Quod probatur per duas
+            au<lb ed="#V" n="71" break="no"/>ctoritates Hieronymi, quae
+            ponun<lb ed="#V" n="72" break="no"/>tur in Canone dist. 95. Prima
+            illa<lb ed="#V" n="73" break="no"/>rum est, c. olim. et cap. seq. et
+            in<lb ed="#V" n="74" break="no"/>titulatur Hieronymi super epistola
+            <lb ed="#V" n="75"/>ad Titum 1. dicentis: Olim, inquit,
+            <lb ed="#V" n="76"/>idem erat Presbyter, qui et Episcopus, et
+            <lb ed="#V" n="77"/>antequam diaboli instinctu studia in
+            re<lb ed="#V" n="78" break="no"/>ligione fierent, et diceretur in populis:
+            <lb ed="#V" n="79"/>Ego sum Pauli, ego Apollo, ego autem
+            <lb ed="#V" n="80"/>Cephae, communi Presbyterorum consilio
+            <lb ed="#V" n="81"/>Ecclesiae gubernabantur. Postquam vero
+            <lb ed="#V" n="82"/>unusquisque eos quos baptizaverat, suos;
+            <lb ed="#V" n="83"/>putabat esse, non Christi, in toto orbe
+            de<lb ed="#V" n="84" break="no"/>cretum est, ut unus de Presbyteris electus
+            <lb ed="#V" n="85"/>superponeretur, et schismatum semina
+            <lb ed="#V" n="86"/>tollerentur. Et paulo post: Sicut ergo
+            <lb ed="#V" n="87"/>Presbyteri sciunt se ex Ecclesiae
+            consu<lb ed="#V" n="88" break="no"/>ctudine ei, qui sibi praepositus fuerit, esse
+            <lb ed="#V" n="89"/>subjectos, ita Episcopi noverint se magis
+            <lb ed="#V" n="90"/>consuetudine, quam dispensatione
+            domi<pb ed="#V" n="692"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>nicae veritatis, Presbyteris esse majores,
+            <lb ed="#V" n="2"/>et in communi debere Ecclesiam regere.
+          </p>
+          <p>
+            <lb ed="#V" n="3"/>Item ad Evagrium
+            Presbyte<lb ed="#V" n="4" break="no"/>rum, et ponitur dist. 93. cap. 24.
+            <lb ed="#V" n="5"/>legimus: Cum Apostolus perspicue
+            do<lb ed="#V" n="6" break="no"/>ceat cosdem esse Presbyteros, quos
+            Epi<lb ed="#V" n="7" break="no"/>scopos. Hoc probat ibi per multas
+            <lb ed="#V" n="8"/>auctoritates; et infra: Alexandrice,
+            <lb ed="#V" n="9"/>a Marco Evangelista usque ad Heraclam
+            <lb ed="#V" n="10"/>et Dionysium Episcopos, Presbyteri
+            sem<lb ed="#V" n="11" break="no"/>per unum ex se electum, in excelsiori
+            <lb ed="#V" n="12"/>gradu collocatum, Episcopum
+            nomina<lb ed="#V" n="13" break="no"/>bant; quomodo si exercitus Imperatorem
+            <lb ed="#V" n="14"/>faciat, aut Diaconi eligant de se, quem
+            <lb ed="#V" n="15"/>industrium noverint, et Archidiaconum
+            <lb ed="#V" n="16"/>vocent. Quid enim facit, excepta
+            ordina<lb ed="#V" n="17" break="no"/>tione, Episcopus, quod Presbyter non
+            <lb ed="#V" n="18"/>faciat?
+          </p>
+          <p>
+            <lb ed="#V" n="19"/>Respondet Glossa ibi:
+            Intelli<lb ed="#V" n="20" break="no"/>guntur ibi, quae non fiunt nisi ab
+            <lb ed="#V" n="21"/>Episcopis. Sed hoc exponitur,
+            <lb ed="#V" n="22"/>quod non fiunt licite; quod enim
+            <lb ed="#V" n="23"/>absolute fiant, probatur per
+            Glos<lb ed="#V" n="24" break="no"/>sam praecedentem, ubi disputatur
+            <lb ed="#V" n="25"/>in quo facta fuit praelatio, aut in
+            <lb ed="#V" n="26"/>officio, vel in nomine; et in fine
+            <lb ed="#V" n="27"/>dicit, quod facta est praelatio
+            <lb ed="#V" n="28"/>quoad nomen, et quoad aliquam
+            <lb ed="#V" n="29"/>administrationem, et quoad
+            quae<lb ed="#V" n="30" break="no"/>dam Sacramenta, quae modo
+            Epi<lb ed="#V" n="31" break="no"/>scopis appropriantur.
+          </p>
+          <p>
+            <lb ed="#V" n="32"/>Ex hoc dupliciter arguitur:
+            Pri<lb ed="#V" n="33" break="no"/>mo, si tunc post Apostolos facta
+            <lb ed="#V" n="34"/>est talis praelatio Episcoporum
+            su<lb ed="#V" n="35" break="no"/>per Presbyteros, ergo a principio
+            <lb ed="#V" n="36"/>Ecclesiae non fuit ita. Item, si
+            <lb ed="#V" n="37"/>modo appropriantur, ergo prius
+            <lb ed="#V" n="38"/>a principio non fuerunt propria.
+          </p>
+          <p>
+            <lb ed="#V" n="39"/>Respondeo, si a principio fuit
+            <lb ed="#V" n="40"/>aliquis actus proprius Episcopo,
+            <lb ed="#V" n="41"/>sicut dicit Hieronymus, praeter
+            <lb ed="#V" n="42"/>consecrationem, quid potest
+            Epi<lb ed="#V" n="43" break="no"/>scopus quod non potest Presbyter,
+            <lb ed="#V" n="44"/>Glossa per consecrationem
+            intel<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>ligit alia, sequitur quod a
+            prin<lb ed="#V" n="46" break="no"/>cipio erat differentia Episcopi et
+            <lb ed="#V" n="47"/>Presbyteri; et tamen illae
+            aucto<lb ed="#V" n="48" break="no"/>ritates non concludunt oppositum,
+            <lb ed="#V" n="49"/>sed sunt exponendae, sicut Glossa
+            <lb ed="#V" n="50"/>exponit, scilicet quod forte
+            no<lb ed="#V" n="51" break="no"/>mina erant synonyma; et
+            admi<lb ed="#V" n="52" break="no"/>nistratio, id est, gubernatio
+            Eccle<lb ed="#V" n="53" break="no"/>siae communis fuit; sed tamen non
+            <lb ed="#V" n="54"/>dispensatio quaecumque
+            Sacramen<lb ed="#V" n="55" break="no"/>torum. Quod probatur dist. 21. In
+            <lb ed="#V" n="56"/>novo, in loco Apostolorum
+            sur<lb ed="#V" n="57" break="no"/>rexerunt Episcopi; sed
+            septuagin<lb ed="#V" n="58" break="no"/>ta duorum discipulorum vicem
+            <lb ed="#V" n="59"/>gerunt Presbyteri; ergo a Christo
+            <lb ed="#V" n="60"/>fuit distinctio Episcopi et
+            simpli<lb ed="#V" n="61" break="no"/>cis Presbyteri. Contra, nonne
+            <lb ed="#V" n="62"/>Philippus fuit de septuaginta
+            duo<lb ed="#V" n="63" break="no"/>bus, et Stephanus, et caeteri
+            Dia<lb ed="#V" n="64" break="no"/>coni non Presbyteri? Item ad Tit.
+            <lb ed="#V" n="65"/>c. 1. Propter hoc te reliqui Cretae, ut con.
+            <lb ed="#V" n="66"/>stitueres Presbyteros; ergo non
+            Epi<lb ed="#V" n="67" break="no"/>scopus hoc non potuit. Hoc etiam
+            <lb ed="#V" n="68"/>probatur per cap seq. 95. dist. quod
+            <lb ed="#V" n="69"/>super illud Pauli fundatur: Noli
+            ne<lb ed="#V" n="70" break="no"/>gligere gratiam, quee in te est, quae tibi
+            da<lb ed="#V" n="71" break="no"/>ta est per prophetiam, per impositionem
+            <lb ed="#V" n="72"/>manuum Presbyteri. Quoniam (ait)
+            Pre<lb ed="#V" n="73" break="no"/>sbyteri Episcopi nuncupantur, secundum
+            <lb ed="#V" n="74"/>quod scriptum est ad Episcopum: Noli
+            <lb ed="#V" n="75"/>negligere gratiam, quae data est tibi, etc.
+            <lb ed="#V" n="76"/>et alibi ad majores natu: Qui vos posuit
+            <lb ed="#V" n="77"/>Episcopos regere Ecclesiam Dei. Haec
+            <lb ed="#V" n="78"/>Hieronymus. Non distinguit ergo
+            <lb ed="#V" n="79"/>Episcopum a Presbytero, quia
+            <lb ed="#V" n="80"/>non dicit quod Confirmatio fuerit
+            <lb ed="#V" n="81"/>data per Episcopum tantum, sed
+            <lb ed="#V" n="82"/>loquitur de Presbytero. Nec etiam
+            <lb ed="#V" n="83"/>legitur in actibus distinctio
+            Sacer<lb ed="#V" n="84" break="no"/>dotum ab Apostolis, qui erant
+            <lb ed="#V" n="85"/>Episcopi. Et si istud est verum,
+            <lb ed="#V" n="86"/>tunc Sacerdoti ex officio potuit
+            <lb ed="#V" n="87"/>competere confirmare, sicut et
+            <lb ed="#V" n="88"/>Episcopo, quia ex prima
+            instituti<pb ed="#V" n="693"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>one non erat alius gradus in
+            Ec<lb ed="#V" n="2" break="no"/>clesia, tamen propter
+            necessita<lb ed="#V" n="3" break="no"/>tem postea multiplicati sunt
+            <lb ed="#V" n="4"/>Sacerdotes, et restricta est
+            pote<lb ed="#V" n="5" break="no"/>stas ab eis, quantum ad aliqua,
+            <lb ed="#V" n="6"/>quae reservata sunt solis
+            Sacerdo<lb ed="#V" n="7" break="no"/>tibus majoribus, qui dicti sunt
+            <lb ed="#V" n="8"/>Episcopi, et talis actus esset
+            con<lb ed="#V" n="9" break="no"/>firmare. Quod si verum est,
+            Grego<lb ed="#V" n="10" break="no"/>rius bene potuit Sacerdotes illos
+            <lb ed="#V" n="11"/>subjectos Januario Episcopo
+            li<lb ed="#V" n="12" break="no"/>centiare ad confirmandum, quia
+            <lb ed="#V" n="13"/>in hoc non concessit potestatem
+            <lb ed="#V" n="14"/>eis non convenientem eis, sed
+            re<lb ed="#V" n="15" break="no"/>vocavit prohibitionem prius eis
+            <lb ed="#V" n="16"/>factam.
+          </p>
+          <p>
+            <lb ed="#V" n="17"/>Sed si contra hoc objicias, quia
+            <lb ed="#V" n="18"/>secundum ista, cum in primitiva
+            <lb ed="#V" n="19"/>Ecclesia non legantur alii
+            confir<lb ed="#V" n="20" break="no"/>masse, quam Apostoli, si tunc
+            <lb ed="#V" n="21"/>quicumque Sacerdotes erant
+            Epi<lb ed="#V" n="22" break="no"/>scopi, vel aequales, quantum ad
+            <lb ed="#V" n="23"/>istum actum, ergo solis Episcopis
+            <lb ed="#V" n="24"/>debetur ex officio. Respondeo,
+            <lb ed="#V" n="25"/>quod vel nulli alii ab Apostolis
+            <lb ed="#V" n="26"/>erant Sacerdotes, quia illi soli
+            <lb ed="#V" n="27"/>tunc potuerunt sufficere, vel si
+            <lb ed="#V" n="28"/>alii erant, detulerunt Apostolis in
+            <lb ed="#V" n="29"/>isto actu propter manifestationem
+            <lb ed="#V" n="30"/>Spiritus sancti evidentem, quae
+            <lb ed="#V" n="31"/>fiebat in collatione istius
+            Sacra<lb ed="#V" n="32" break="no"/>menti, ut cum majori reverentia
+            <lb ed="#V" n="33"/>et devotione susciperetur propter
+            <lb ed="#V" n="34"/>excellentiam ministrorum.
+          </p>
+          <p>
+            <lb ed="#V" n="35"/>Quartus modus dicendi est, quod
+            <lb ed="#V" n="36"/>si a principio non licuit Sacerdoti
+            <lb ed="#V" n="37"/>simplici, Papa tamen potuit
+            quem<lb ed="#V" n="38" break="no"/>libet Sacerdotem illius regionis
+            <lb ed="#V" n="39"/>facere Episcopum, quantum ad
+            <lb ed="#V" n="40"/>istum actum, non tamen
+            confe<lb ed="#V" n="41" break="no"/>rendo sibi simpliciter gradum
+            <lb ed="#V" n="42"/>Episcopalem, nec quantum ad
+            <lb ed="#V" n="43"/>alios actus, et tunc quilibet eorum
+            <lb ed="#V" n="44"/>vere confirmavit tanquam
+            Episco<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>pus quantum ad istum actum; et
+            <lb ed="#V" n="46"/>ratio conferendi istum gradum
+            <lb ed="#V" n="47"/>cuilibet Sacerdoti quantum ad
+            <lb ed="#V" n="48"/>istum actum, poterat esse
+            scan<lb ed="#V" n="49" break="no"/>dalum vitandum.
+          </p>
+          <p>
+            <lb ed="#V" n="50"/>Materia autem remota, scilicet
+            <lb ed="#V" n="51"/>chrisma, habet similitudinem cum
+            <lb ed="#V" n="52"/>effectu hujus Sacramenti; oleum
+            <lb ed="#V" n="53"/>enim nitorem habet, et
+            superemi<lb ed="#V" n="54" break="no"/>net caeteris liquidis, et est materia
+            <lb ed="#V" n="55"/>proxima incendii. Per primum
+            <lb ed="#V" n="56"/>significat castitatem vel
+            mundi<lb ed="#V" n="57" break="no"/>tiam; per alia duo significat
+            cha<lb ed="#V" n="58" break="no"/>ritatem. Et balsamum, quod habet
+            <lb ed="#V" n="59"/>bonum odorem, significat bonam
+            <lb ed="#V" n="60"/>famam, juxta illud 2. Corinth. 2.
+            <lb ed="#V" n="61"/>Christi bonus odor sumus Deo. Balsamo
+            <lb ed="#V" n="62"/>etiam corpora mortuorum
+            con<lb ed="#V" n="63" break="no"/>diuntur ne putrefiant; ideo
+            signi<lb ed="#V" n="64" break="no"/>ficat incorruptionem. Per illam
+            <lb ed="#V" n="65"/>ergo materiam, scilicet chrisma
+            <lb ed="#V" n="66"/>confectum ex oleo et balsamo,
+            si<lb ed="#V" n="67" break="no"/>gnificatur quod qui confirmatur
+            <lb ed="#V" n="68"/>debet habere munditiam et
+            chari<lb ed="#V" n="69" break="no"/>tatem et bonam famam, quia sine
+            <lb ed="#V" n="70"/>istis non est multum authentica
+            <lb ed="#V" n="71"/>confirmatio fidei Christianae.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

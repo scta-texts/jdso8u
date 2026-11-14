@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 2, Praeambulum</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 2, Praeambulum</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x16">Vives, Paris, 1894, volume 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="238"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e5203"><!-- jdso8u-b4d2prae -->
+        <head>Praeambulum</head>
+        <!-- <div alias="scotus-d2prae"> -->
+          <p>
+            <pb ed="#V" n="238"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1" type="fixed=238"/>In prima distinctione egit
+            Magi<lb ed="#V" n="2" break="no"/>ster de Sacramento legis Mosaicae
+            <lb ed="#V" n="3"/>et legis naturae; in hac secunda
+            <lb ed="#V" n="4"/>distinctione incipit agere de
+            Sa<lb ed="#V" n="5" break="no"/>cramentis novae legis. Haec pars
+            <lb ed="#V" n="6"/>dividitur in duas partes. Primo
+            <lb ed="#V" n="7"/>namque determinat de eis
+            conjun<lb ed="#V" n="8" break="no"/>ctim, secundo de singulis
+            separa<lb ed="#V" n="9" break="no"/>tim ibi: Nunc vero de Baptismi.
+            Pri<lb ed="#V" n="10" break="no"/>ma habet duas partes, secundum
+            <lb ed="#V" n="11"/>quod primo determinat, quae et
+            <lb ed="#V" n="12"/>quot sint Sacramenta novae legis;
+            <lb ed="#V" n="13"/>secundo de tempore institutionis,
+            <lb ed="#V" n="14"/>et efficacia eorumdem, ibi: Si
+            <lb ed="#V" n="15"/>vero quaeritur.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

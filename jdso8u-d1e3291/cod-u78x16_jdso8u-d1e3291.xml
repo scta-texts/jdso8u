@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 2, Quaestio 2</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 2, Quaestio 2</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x16">Vives, Paris, 1894, volume 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="263"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e3291"><!-- jdso8u-b4d2q2 -->
+        <head>Quaestio 2</head>
+        <head type="question-title">Utrum baptizatus baptismo Ioannis necessaria tenebatur baptizari baptismo Christi</head>
+        <!-- <div alias="scotus-d2q2-p1"> -->
+          <p>
+            <pb ed="#V" n="263"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1" type="fixed=263"/>QUAESTIO II.
+            <lb ed="#V" n="2"/>Utrum baptizatus Baptismo Joannis,
+            ne<lb ed="#V" n="3" break="no"/>cessario tenebatur baptizari baptismo
+            <lb ed="#V" n="4"/>Christo?
+          </p>
+          <p>
+            <lb ed="#V" n="5"/>Alens. 4. p. q. 9. m. 7. D. Thom. 3. p. q. 38. art.
+            <lb ed="#V" n="6"/>6. et q. 66. art. 9. D. Bonav. hic art. 2. q. 3.
+            <lb ed="#V" n="7"/>Richard. art. 2. q. 4. Durand. q. 4. Gabr. q
+            <lb ed="#V" n="8"/>2. Bellarm. lib. 1. de Baptismo, cap. 20. et
+            <lb ed="#V" n="9"/>tribus seqq. Abulens. in c. 3. Metaph. a. q. 36.
+          </p>
+          <p>
+            <lb ed="#V" n="10"/>Videtur quod non, quia Magister
+            <lb ed="#V" n="11"/>in littera cap. ultim. dicit: Qui spem
+            <lb ed="#V" n="12"/>non posuerunt in Baptismo
+            Joan<lb ed="#V" n="13" break="no"/>nis, et Patrem et Filium et
+            Spi<lb ed="#V" n="14" break="no"/>ritum sanctum credebant, non
+            <lb ed="#V" n="15"/>sunt postea rebaptizandi.
+          </p>
+          <p>
+            <lb ed="#V" n="16"/>Item, in receptione
+            Sacramen<lb ed="#V" n="17" break="no"/>torum, quod datur non est
+            ite<lb ed="#V" n="18" break="no"/>randum, sed si aliquid omittatur,
+            <lb ed="#V" n="19"/>caute est supplendum: Extra de
+            <lb ed="#V" n="20"/>clerico per falsum promoto, cap. unico,
+            <lb ed="#V" n="21"/>et de Sacramentis non iterandis, cap. 1.
+            <lb ed="#V" n="22"/>sed in Baptismo Joannis dabatur
+            <lb ed="#V" n="23"/>ablutio exterior; ergo si defuit
+            <lb ed="#V" n="24"/>interior, illa fuit supplenda, sed
+            <lb ed="#V" n="25"/>non exterior iteranda.
+          </p>
+          <p>
+            <lb ed="#V" n="26"/>Contra, de consec. dist. 4. Aliud;
+            <lb ed="#V" n="27"/>et accipitur ab Augustino super
+            <lb ed="#V" n="28"/>Joan. hom. 5. Si quos baptizavit
+            <lb ed="#V" n="29"/>Joannes, iterum sunt baptizandi, plane
+            <lb ed="#V" n="30"/>iterum, sed non iterato Baptismo; quos
+            <lb ed="#V" n="31"/>enim Judas baptizavit, et Christus; quos
+            <lb ed="#V" n="32"/>baptizavit Joannes, non, etc. Item
+            <lb ed="#V" n="33"/>Augustinus de Baptismo contra
+            <lb ed="#V" n="34"/>Donatistas lib. 5 Christus tali
+            Bapti<lb ed="#V" n="35" break="no"/>smo mundat Ecclesiam, quo accepto,
+            <lb ed="#V" n="36"/>alterum non erat necessarium. Joannes
+            <lb ed="#V" n="37"/>autem tali Baptismo pertingebat, quo
+            <lb ed="#V" n="38"/>accepto esset Baptismum dominicum
+            ne<lb ed="#V" n="39" break="no"/>cessarium.
+          </p>
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="40"/>SCHOLIUM.
+            <lb ed="#V" n="41"/>Respondet affirmative ex c. Aliud, de
+            <lb ed="#V" n="42"/>consecr. d. 4. et August. citato, et ex illo
+            <lb ed="#V" n="43"/>Joan. 1. Ego baptizo in aqua. Ratio est,
+            <lb ed="#V" n="44"/>quia Baptismus Joannis non fuit
+            Sacramen<lb ed="#V" n="45" break="no"/>tum, de quo dedit Christus praeceptum, de
+            <lb ed="#V" n="46"/>quo habetur Act. 19. Trident. sess. 7. c. 1.
+            <lb ed="#V" n="47"/>Vide Nazianz. oratione 39. in sancta
+            Lumi<lb ed="#V" n="48" break="no"/>na, Chrysost. hom. 10. et 11. in Matth.
+            Hie<lb ed="#V" n="49" break="no"/>ronym. dialog. contra Lucifer. c. 3. et in
+            <lb ed="#V" n="50"/>c. 2. Joel. Ambros. lib. 1. de Spiritu sancto
+            <lb ed="#V" n="51"/>cap. 3. Vide Coccium 2. Tom. lib. 5. art. 6.
+            <lb ed="#V" n="52"/>citantem pro hoc PP. Graecos et Latinos,
+            <lb ed="#V" n="53"/>contra haereticos novos et veteres,
+            opposi<lb ed="#V" n="54" break="no"/>tum tenentes.
+          </p>
+          <p>
+            <lb ed="#V" n="55"/>Respondeo (a), potest intelligi
+            <lb ed="#V" n="56"/>dupliciter Joannem baptizavisse.
+            <lb ed="#V" n="57"/>Uno modo, in forma Baptismi
+            <lb ed="#V" n="58"/>Christi, quam potuit scire a
+            disci<lb ed="#V" n="59" break="no"/>pulis Christi, vel ab aliis
+            audien<lb ed="#V" n="60" break="no"/>tibus hos baptizare, et tunc
+            <lb ed="#V" n="61"/>non diceretur proprie Baptismus
+            <lb ed="#V" n="62"/>Joannis, sicut nunc non dicitur
+            <lb ed="#V" n="63"/>Baptismus Petri vel Pauli. Istum
+            <lb ed="#V" n="64"/>enim errorem reprehendit
+            Apo<lb ed="#V" n="65" break="no"/>stolus 1. ad Corinth. Et si isto
+            <lb ed="#V" n="66"/>modo baptizaret Joannes, planum
+            <lb ed="#V" n="67"/>est quod talis non esset iterum
+            <lb ed="#V" n="68"/>baptizandus.
+          </p>
+          <p>
+            <lb ed="#V" n="69"/>Alio modo (b), potest intelligi
+            <lb ed="#V" n="70"/>Joannem baptizasse non in forma
+            <lb ed="#V" n="71"/>Baptismi Christi, sed vel in
+            ali<lb ed="#V" n="72" break="no"/>qua alia forma propria, scilicet
+            <lb ed="#V" n="73"/>in nomine venturi, vel absque
+            ali<lb ed="#V" n="74" break="no"/>qua forma; et de sic baptizato
+            <lb ed="#V" n="75"/>satis videtur manifestum, quod
+            <lb ed="#V" n="76"/>erat baptizandus Baptismo
+            Chri<lb ed="#V" n="77" break="no"/>sti, tum, propter praeceptum ejus
+            <lb ed="#V" n="78"/>generale obligans omnes, quod
+            <lb ed="#V" n="79"/>praeceptum non impleverat
+            ba<lb ed="#V" n="80" break="no"/>ptizatus a Joanne (istud autem
+            <lb ed="#V" n="81"/>praeceptum generale fuit
+            rationa<lb ed="#V" n="82" break="no"/>bile, quia rationabile fuit omnes
+            <pb ed="#V" n="264"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>obligari ad hoc, quod essent
+            mem<lb ed="#V" n="2" break="no"/>bra Ecclesiae, et ad suscipiendum
+            <lb ed="#V" n="3"/>signum illud commune omnibus
+            <lb ed="#V" n="4"/>ingredientibus Ecclesiam); tum,
+            <lb ed="#V" n="5"/>quia medicina praeparativa
+            su<lb ed="#V" n="6" break="no"/>scepta, congruum est recipere
+            <lb ed="#V" n="7"/>medicinam curativam;
+            dispositi<lb ed="#V" n="8" break="no"/>one etiam inducta, congruum est
+            <lb ed="#V" n="9"/>adhuc induci formam
+            principa<lb ed="#V" n="10" break="no"/>lem; sed ille Baptismus Joannis
+            <lb ed="#V" n="11"/>erat sicut dispositio mere
+            praepa<lb ed="#V" n="12" break="no"/>rativa ad Baptismum Christi, ut
+            <lb ed="#V" n="13"/>per illam ablutionem facilius
+            <lb ed="#V" n="14"/>inclinarentur homines ad
+            susci<lb ed="#V" n="15" break="no"/>piendum ablutionem sibi
+            saluta<lb ed="#V" n="16" break="no"/>rem, nec esset molestum ipsis
+            <lb ed="#V" n="17"/>jam ad simile exercitatis. Et hanc
+            <lb ed="#V" n="18"/>rationem innuit Joannes Baptista,
+            <lb ed="#V" n="19"/>Joan. 1. Baptizo vos aqua, (supple
+            <lb ed="#V" n="20"/>tantum) medius autem vestrum stetit.
+            <lb ed="#V" n="21"/>quem vos nescitis, qui (supple)
+            ba<lb ed="#V" n="22" break="no"/>ptizat vos non in aqua tantum,
+            <lb ed="#V" n="23"/>sed in Spiritu et veritate.
+          </p>
+          <p>
+            <lb ed="#V" n="24"/>Si dicatur (c), quod Magister
+            <lb ed="#V" n="25"/>loquitur de Baptizatis a Joanne
+            <lb ed="#V" n="26"/>primo modo, utente scilicet
+            for<lb ed="#V" n="27" break="no"/>ma Christi in Baptizando, hoc
+            <lb ed="#V" n="28"/>non potest stare, quia infidelitas
+            <lb ed="#V" n="29"/>suscipientis Baptismum, non est
+            <lb ed="#V" n="30"/>causa sufficiens, quod oporteat
+            <lb ed="#V" n="31"/>eum alias baptizari, dum tamen
+            <lb ed="#V" n="32"/>adsit intentio suscipiendi illud,
+            <lb ed="#V" n="33"/>quod confert Ecclesia. Et si ergo
+            <lb ed="#V" n="34"/>a Joanne baptizatus non habuisset
+            <lb ed="#V" n="35"/>fidem Trinitatis, dum tamen
+            in<lb ed="#V" n="36" break="no"/>tenderet recipere illum
+            Baptis<lb ed="#V" n="37" break="no"/>mum, quem Joannes intendebat
+            <lb ed="#V" n="38"/>dare, (qui sic intelligendo,
+            pote<lb ed="#V" n="39" break="no"/>rat esse verus Baptismus Christi)
+            <lb ed="#V" n="40"/>non erat iste postea
+            bapti<lb ed="#V" n="41" break="no"/>zandus, cujus oppositum dicit
+            <lb ed="#V" n="42"/>Magister de postea baptizandis.
+          </p>
+          <p>
+            <lb ed="#V" n="43"/>Ad primum argumentum dico,
+            <lb ed="#V" n="44"/>quod non tenetur Magister, nec
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>argumentum, quod sumitur ex
+            Ac<lb ed="#V" n="46" break="no"/>tibus 19. concludit. Verum enim
+            <lb ed="#V" n="47"/>est, quod non habentes fidem
+            fu<lb ed="#V" n="48" break="no"/>erunt baptizandi Baptismo
+            Chri<lb ed="#V" n="49" break="no"/>sti, sed non sequitur, ergo
+            ha<lb ed="#V" n="50" break="no"/>bentes fidem non erant postea
+            <lb ed="#V" n="51"/>baptizandi. Iste modus arguendi
+            <lb ed="#V" n="52"/>non tenet, nisi in causis praecisis,
+            <lb ed="#V" n="53"/>quod non est in proposito.
+            In<lb ed="#V" n="54" break="no"/>fidelitas enim non erat causa
+            <lb ed="#V" n="55"/>praecisa rebaptizationis Baptismo
+            <lb ed="#V" n="56"/>Christi, imo magis, quia prius
+            <lb ed="#V" n="57"/>non receperant gratiam Baptismi.
+          </p>
+          <p>
+            <lb ed="#V" n="58"/>Ad secundum argumentum dico,
+            <lb ed="#V" n="59"/>quod major est vera, quando
+            ali<lb ed="#V" n="60" break="no"/>quid Sacramenti Baptismi
+            con<lb ed="#V" n="61" break="no"/>fertur; in Baptismo autem
+            Joan<lb ed="#V" n="62" break="no"/>nis nihil Sacramenti Baptismi
+            <lb ed="#V" n="63"/>conferebatur; ablutio enim
+            exte<lb ed="#V" n="64" break="no"/>rior, sine determinatis verbis et
+            <lb ed="#V" n="65"/>determinata intentione prolatis,
+            <lb ed="#V" n="66"/>omnino nihil est Sacramenti
+            Ba<lb ed="#V" n="67" break="no"/>ptismi, sicut nec quaecumque alia
+            <lb ed="#V" n="68"/>balneatio.
+          </p>
+          <p>
+            <lb ed="#V" n="69"/>Et si objicias, ubi ergo habet
+            <lb ed="#V" n="70"/>veritatem illa maxima: Ubi
+            omis<lb ed="#V" n="71" break="no"/>sum est aliquid, caute supplendum est?
+            <lb ed="#V" n="72"/>Respondeo, vel non potest habere
+            <lb ed="#V" n="73"/>locum in Sacramento vere uno,
+            <lb ed="#V" n="74"/>quia duobus concurrentibus ad
+            <lb ed="#V" n="75"/>istud Sacramentum, alterum sine
+            <lb ed="#V" n="76"/>altero nihil est Sacramenti, quia
+            <lb ed="#V" n="77"/>alterum sine altero nec significat
+            <lb ed="#V" n="78"/>gratiam, nec efficit, et tunc
+            expo<lb ed="#V" n="79" break="no"/>nenda est illa maxime de diversis
+            <lb ed="#V" n="80"/>Sacramentis ordinatis, cujusmodi
+            <lb ed="#V" n="81"/>sunt ordinatio in Diaconum,
+            Sub<lb ed="#V" n="82" break="no"/>diaconum et hujusmodi, et de
+            <lb ed="#V" n="83"/>talibus est ibi sermo. Vel si
+            pos<lb ed="#V" n="84" break="no"/>sibile est in aliquo Sacramento
+            <lb ed="#V" n="85"/>vere uno, unam partem esse sine
+            <lb ed="#V" n="86"/>alia, puta in Eucharistia,
+            (loquen<lb ed="#V" n="87" break="no"/>do de speciebus panis et vini,)
+            <pb ed="#V" n="265"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>ibi locum habet illud, quod omissum
+            <lb ed="#V" n="2"/>est, est supplendum.
+          </p>
+          <p>
+            <lb ed="#V" n="3"/>Sed in proposito non, quia
+            ab<lb ed="#V" n="4" break="no"/>lutio Joannis nihil erat
+            Sacra<lb ed="#V" n="5" break="no"/>menti Baptismi; ideo non valet.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 4, Pars 4, Quaestio 2</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 4, Pars 4, Quaestio 2</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x16">Vives, Paris, 1894, volume 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="486"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e3458"><!-- jdso8u-b4d4p4q2 -->
+        <head>Quaestio 2</head>
+        <head type="question-title">Quid faciendum est de parvulo exposito</head>
+        <!-- <div alias="scotus-d4q8-p1"> -->
+          <p>
+            <lb ed="#V" n="67" type="fixed=486"/>QUAESTIO VIII.
+            <lb ed="#V" n="68"/>Quid faciendum de parvulo exposito?
+          </p>
+          <p>
+            <lb ed="#V" n="69"/>D. Thom. q. 66. a. 9. Richard. hic art. ult. q. 1.
+            <lb ed="#V" n="70"/>Sotus d. 3. a. 9. Suar. tom. 3. 3. p. d. 22. s. 2.
+            <lb ed="#V" n="71"/>et d. 31. s. 6. cap. cum itaque. c. similia. et
+            <lb ed="#V" n="72"/>c. parvulos, de consec. d. 4. sunt Leon. et Greg.
+          </p>
+          <p>
+            <lb ed="#V" n="73"/>Juxta ista patent quaedam
+            quae<lb ed="#V" n="74" break="no"/>stiones sine argumentis. Primo,
+            <lb ed="#V" n="75"/>quid faciendum est de parvulo
+            ex<lb ed="#V" n="76" break="no"/>posito? Respondeo, aut
+            inveniun<lb ed="#V" n="77" break="no"/>tur in eo certa signa, quod non
+            <lb ed="#V" n="78"/>est baptizatus, sicut mulierculae
+            <lb ed="#V" n="79"/>consueverunt cum eo apponere
+            <lb ed="#V" n="80"/>sal, sicut cum deportandis ad
+            Ba<lb ed="#V" n="81" break="no"/>ptismum fit, et tunc absque aliqua
+            <lb ed="#V" n="82"/>haesitatione baptizandus est
+            abso<lb ed="#V" n="83" break="no"/>lute. Aut non inveniuntur cum
+            <lb ed="#V" n="84"/>eo talia signa, et adhuc, quod
+            <pb ed="#V" n="487"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>non potest de eo haberi tale
+            si<lb ed="#V" n="2" break="no"/>gnum per viciniam, nec per
+            testi<lb ed="#V" n="3" break="no"/>monium fide digni, quod sit
+            bapti<lb ed="#V" n="4" break="no"/>zatus, baptizandus est; tamen
+            <lb ed="#V" n="5"/>tutius est uti illa illius capituli
+            <lb ed="#V" n="6"/>Extrav. de Baptismo, et ejus
+            effe<lb ed="#V" n="7" break="no"/>ctu, de quibus dubium. Et de isto
+            ca<lb ed="#V" n="8" break="no"/>su loquitur Leo de consec. dist. 4.
+            <lb ed="#V" n="9"/>De quibus (inquit Leo) nulla extant
+            <lb ed="#V" n="10"/>indicia inter propinquos et vicinos,
+            qui<lb ed="#V" n="11" break="no"/>bus baptizati fuisse doceantur, agendum
+            <lb ed="#V" n="12"/>est ut renascantur, ne pereant; in quibus,
+            <lb ed="#V" n="13"/>quod non ostenditur gestum, ratio non
+            <lb ed="#V" n="14"/>sinit, ut videatur iteratum.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>
