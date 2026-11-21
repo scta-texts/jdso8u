@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 36, Quaestio 1</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 36, Quaestio 1</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x19">Vives, Paris, 1894, volume 19</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="445"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e4674"><!-- jdso8u-b4d36q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum servitus impediat matrimonium</head>
+        <!-- <div alias="scotus-d36q1-p1"> -->
+          <p>
+            <lb ed="#V" n="55" type="fixed=445"/>QUAESTIO I.
+            <lb ed="#V" n="56"/>Utrum servitus impediat matrimonium?.
+          </p>
+          <p>
+            <lb ed="#V" n="57"/>D. Thom. in addit. quaest. 52. art. 1. et hic
+            <lb ed="#V" n="58"/>quaest. 1. art. 1. D. Bonavent. art. 1. quaest. 1.
+            <lb ed="#V" n="59"/>et 2. Richardus art. 1. quaest. 1. Durandus
+            <lb ed="#V" n="60"/>quaest. 1. Sanchius lib. 7. de matrim. disp.
+            <lb ed="#V" n="61"/>19. et tribus seqq.
+          </p>
+          <p>
+            <lb ed="#V" n="62"/>Circa istam trigesimam sextam
+            <lb ed="#V" n="63"/>distinctionem quaero, utrum
+            servi<lb ed="#V" n="64" break="no"/>tus impediat matrimonium? Quod
+            <lb ed="#V" n="65"/>sic; nullus potest dare alienum;
+            <lb ed="#V" n="66"/>sed corpus servi est domini,
+            se<lb ed="#V" n="67" break="no"/>cundum Philosophum, 3.
+            Politi<lb ed="#V" n="68" break="no"/>corum.
+          </p>
+          <p>
+            <lb ed="#V" n="69"/>Praeterea, favorabilior est
+            pro<lb ed="#V" n="70" break="no"/>fessio Religionis quam
+            matrimo<lb ed="#V" n="71" break="no"/>nium carnale; sed servus non
+            po<lb ed="#V" n="72" break="no"/>test profiteri Religionem sine
+            <lb ed="#V" n="73"/>voluntate domini; igitur nec
+            ma<lb ed="#V" n="74" break="no"/>trimonium contrahere.
+          </p>
+          <p>
+            <lb ed="#V" n="75"/>Contra, Extra de conjugio servorum,
+            <lb ed="#V" n="76"/>cap. 1.
+          </p>
+          <p>
+            <lb ed="#V" n="77"/>SCHOLIUM.
+            <lb ed="#V" n="78"/>Distinguit duplicem servitutem,
+            natura<lb ed="#V" n="79" break="no"/>lem et legalem. Hanc ait dupliciter esse posse
+            <lb ed="#V" n="80"/>justam. Primo, quando aliquis se vendit.
+            <lb ed="#V" n="81"/>Secundo, si ob crimina juste damnetur ad
+            <pb ed="#V" n="446"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>servitutem, quod ait forte esse contra Jus
+            <lb ed="#V" n="2"/>naturae. Sic etiam dicitur 1. Libertas, fr de
+            <lb ed="#V" n="3"/>statu hom. Sed tantum vult esse dissonum
+            <lb ed="#V" n="4"/>ei, quatenus natura inclinat ad libertatem;
+            <lb ed="#V" n="5"/>non enim vult esse contra praeceptum
+            natu<lb ed="#V" n="6" break="no"/>rae, quia supra docuit, dist. 26. num. 10.
+            <lb ed="#V" n="7"/>exemplo B. Paulini, liberum posse se
+            ven<lb ed="#V" n="8" break="no"/>dere. Dubitat de justitia servitutis capti in
+            <lb ed="#V" n="9"/>bello, quia videtur sapere crudelitatem,
+            <lb ed="#V" n="10"/>quando jam hostis subest et obedit, et
+            suffi<lb ed="#V" n="11" break="no"/>cere videtur quod subsit more subditi
+            politi<lb ed="#V" n="12" break="no"/>ce, non instar mancipii, despotice. Si tamen
+            <lb ed="#V" n="13"/>captus subesse nollet politice, colligitur ex
+            <lb ed="#V" n="14"/>Doctore (ibi fieret obediens libertate sibi
+            <lb ed="#V" n="15"/>donata) licere eum in servitutem redigi; sed
+            <lb ed="#V" n="16"/>secundum communem, quam non negat
+            Do<lb ed="#V" n="17" break="no"/>ctor, talis servitus absolute justa est, 8
+            <lb ed="#V" n="18"/>Item ea, Inst. de rerum divisione. 1. Si
+            capti<lb ed="#V" n="19" break="no"/>vus, 8 1. ff. de capt. et d. 1. Libertas,
+            Sum<lb ed="#V" n="20" break="no"/>mistae, v. Servitus. Sed ex consuetudine
+            prae<lb ed="#V" n="21" break="no"/>scripta Christiani a Christianis non
+            redi<lb ed="#V" n="22" break="no"/>guntur in servitutem; quo privilegio non
+            <lb ed="#V" n="23"/>fruuntur apostatae secundum rem et nomen,
+            <lb ed="#V" n="24"/>ut notant Salon. 2. 2. tom. 1. tract. de dom.
+            <lb ed="#V" n="25"/>q. 3. art. 1. Zayrus lib. 9. cap. 6. num. 10.
+            <lb ed="#V" n="26"/>et alii. Servi tamen belli fugere possunt
+            <lb ed="#V" n="27"/>juxta communem, Soto 4. de justit. q. 2. art.
+            <lb ed="#V" n="28"/>2. Covar. reg. Peccatum, part. 2. S 11. n. 5.
+            <lb ed="#V" n="29"/>et 1. Var. cap. 2. Salon. supr. Petr. Navar. 3.
+            <lb ed="#V" n="30"/>de restit. cap. 1. num. 200.
+          </p>
+          <p>
+            <lb ed="#V" n="31"/>Hic (a) sunt duo videnda:
+            Pri<lb ed="#V" n="32" break="no"/>mo, unde inducta sit servitus, et
+            <lb ed="#V" n="33"/>si juste inducta; secundo ad
+            propo<lb ed="#V" n="34" break="no"/>situm. De primo dico, quod de
+            le<lb ed="#V" n="35" break="no"/>ge naturae omnes nascuntur liberi;
+            <lb ed="#V" n="36"/>tamen servitus, vel magis proprie
+            <lb ed="#V" n="37"/>subjectio filialis ad patrem, est de
+            <lb ed="#V" n="38"/>lege naturae, puta obedientia
+            filia<lb ed="#V" n="39" break="no"/>lis pertinens ad disciplinationem,
+            <lb ed="#V" n="40"/>quia secundum Philosophum 8.
+            <lb ed="#V" n="41"/>Ethic. Filius habet a patre esse et
+            disci<lb ed="#V" n="42" break="no"/>plinam. Ista autem servitus, de qua
+            <lb ed="#V" n="43"/>loquimur, secundum quam
+            domi<lb ed="#V" n="44" break="no"/>nus potest vendere servum, sicut
+            <lb ed="#V" n="45"/>pecudem, de qua loquitur
+            Philoso<lb ed="#V" n="46" break="no"/>phus 1. Politicorum, quod servus non
+            <lb ed="#V" n="47"/>potest exercere actus virtutis, pro
+            <lb ed="#V" n="48"/>eo quod. oportet eum ad
+            praece<cb ed="#V" n="b"/><lb ed="#V" n="49" break="no"/>ptum domini exercere actus
+            servi<lb ed="#V" n="50" break="no"/>les, ista non est inducta, nisi
+            ali<lb ed="#V" n="51" break="no"/>qua lege positiva.
+          </p>
+          <p>
+            <lb ed="#V" n="52"/>Sed an justa? Respondeo, sicut
+            <lb ed="#V" n="53"/>dictum est, dist. 15. quomodo
+            ince<lb ed="#V" n="54" break="no"/>perunt primo dominia esse justa,
+            <lb ed="#V" n="55"/>ita dico quod ista vilis servitus non
+            <lb ed="#V" n="56"/>potest esse juste inducta, nisi
+            du<lb ed="#V" n="57" break="no"/>pliciter: Uno modo, quia aliquis
+            <lb ed="#V" n="58"/>voluntarie se subjecit tali
+            servitu<lb ed="#V" n="59" break="no"/>ti, licet talis subjectio esset fatua;
+            <lb ed="#V" n="60"/>imo forte contra legem? naturae,
+            <lb ed="#V" n="61"/>quod homo libertatem suam a se
+            <lb ed="#V" n="62"/>abdicet, post quam tamen facta est,
+            <lb ed="#V" n="63"/>necesse est servare, quia hoc est
+            <lb ed="#V" n="64"/>justum. Alio modo, si aliquis juste
+            <lb ed="#V" n="65"/>dominans communitati, videns
+            ali<lb ed="#V" n="66" break="no"/>quos ita vitiosos, quod libertas
+            <lb ed="#V" n="67"/>eorum nocet eis et Reipublicae,
+            po<lb ed="#V" n="68" break="no"/>test juste punire eos poena
+            servi<lb ed="#V" n="69" break="no"/>tutis, sicut et juste posset eos
+            occi<lb ed="#V" n="70" break="no"/>dere in certis casibus propter
+            bo<lb ed="#V" n="71" break="no"/>num Reipublicae.
+          </p>
+          <p>
+            <lb ed="#V" n="72"/>Si dicas, quod est tertia causa
+            <lb ed="#V" n="73"/>servitutis, utpote si captus in
+            bel<lb ed="#V" n="74" break="no"/>lo servetur, et sic servatus a
+            mor<lb ed="#V" n="75" break="no"/>te, fiat servus deputatus ad
+            ser<lb ed="#V" n="76" break="no"/>viendum, non apparet manifeste
+            <lb ed="#V" n="77"/>justitia hic, quia forte, etsi captor
+            <lb ed="#V" n="78"/>potuerit occidere captivum, si
+            ha<lb ed="#V" n="79" break="no"/>buit bellum justum defendendo se,
+            <lb ed="#V" n="80"/>non autem invadendo, et hoc
+            stan<lb ed="#V" n="81" break="no"/>te pertinacia ipsius contra
+            bellan<lb ed="#V" n="82" break="no"/>tem, tamen ex quo desinit esse
+            <lb ed="#V" n="83"/>pertinax, quia est in voluntate
+            <lb ed="#V" n="84"/>ipsius jam captus, inhumanum
+            vi<lb ed="#V" n="85" break="no"/>detur infligere sibi poenam contra
+            <lb ed="#V" n="86"/>legem naturae; non enim est hic
+            <lb ed="#V" n="87"/>ratio, quia in hoc casu non
+            rema<lb ed="#V" n="88" break="no"/>neret iste rebellis, nec abuteretur
+            <lb ed="#V" n="89"/>sua libertate, sed forte fieret
+            obe<lb ed="#V" n="90" break="no"/>diens, et libertate sibi donata bene
+            <lb ed="#V" n="91"/>uteretur.
+          </p>
+          <p>
+            <lb ed="#V" n="92"/>Si arguatur contra primum
+            <pb ed="#V" n="447"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>membrum, scilicet quod servitus
+            <lb ed="#V" n="2"/>non est contra legem naturae, quia
+            <lb ed="#V" n="3"/>secundum Philosophum 1.
+            Poltti<lb ed="#V" n="4" break="no"/>corum: Pollens mente debet proesidere.
+            <lb ed="#V" n="5"/>pollens viribus debet servire. Aliqui
+            <lb ed="#V" n="6"/>sunt naturaliter pollentes mente;
+            <lb ed="#V" n="7"/>ergo naturaliter ad dominium
+            ap<lb ed="#V" n="8" break="no"/>ti; aliqui minus prudentes mente,
+            <lb ed="#V" n="9"/>et magis robusti corpore; ergo
+            <lb ed="#V" n="10"/>naturaliter debent esse servi.
+            Re<lb ed="#V" n="11" break="no"/>spondeo, hoc non est intelligendum
+            <lb ed="#V" n="12"/>de ista servitute extrema de qua
+            <lb ed="#V" n="13"/>loquimur, sed tantum de servitute
+            <lb ed="#V" n="14"/>politica, qua inferior disponitur a
+            <lb ed="#V" n="15"/>superiore, non tamen sicut
+            inani<lb ed="#V" n="16" break="no"/>matum, sed sicut minus vigens
+            <lb ed="#V" n="17"/>mente, ordinatur per illum qui
+            <lb ed="#V" n="18"/>magis pollet mente.
+          </p>
+          <p>
+            <lb ed="#V" n="19"/>Si arguas contra secundum
+            <lb ed="#V" n="20"/>membrum, quod illud quod est
+            con<lb ed="#V" n="21" break="no"/>tra legem naturae non potest fieri
+            <lb ed="#V" n="22"/>justum, nec antiquitas temporis
+            <lb ed="#V" n="23"/>ratificat crimina, sed magis
+            con<lb ed="#V" n="24" break="no"/>demnat; omnis autem servitus alia
+            <lb ed="#V" n="25"/>ab illis duobus casibus, est injusta
+            <lb ed="#V" n="26"/>et contra legem naturae; igitur
+            <lb ed="#V" n="27"/>per nullam longinquitatem
+            tempo<lb ed="#V" n="28" break="no"/>ris videtur justum quod dominus
+            <lb ed="#V" n="29"/>dominetur talibus servis.
+            Respon<lb ed="#V" n="30" break="no"/>deo, tactum est dist. I5. quomodo
+            <lb ed="#V" n="31"/>per praescriptionem potest jus
+            <lb ed="#V" n="32"/>acquiri, si concurrant conditiones
+            <lb ed="#V" n="33"/>illae, quas Jura determinant,
+            scili<lb ed="#V" n="34" break="no"/>cet quod justo titulo acquirat, et
+            <lb ed="#V" n="35"/>sit bonae fidei possessor, et quod
+            <lb ed="#V" n="36"/>possederit sine interruptione
+            tem<lb ed="#V" n="37" break="no"/>poris a lege derminati. Sed illud
+            <lb ed="#V" n="38"/>extendit se ad possessiones, non
+            <lb ed="#V" n="39"/>autem ad servitutem, quia non est
+            <lb ed="#V" n="40"/>eadem ratio in possidendo aurum
+            <lb ed="#V" n="41"/>et servum, quantum ad legem
+            na<lb ed="#V" n="42" break="no"/>turae; et ideo esset difficile salvare
+            <lb ed="#V" n="43"/>per praescriptionem, justitiam esse
+            <lb ed="#V" n="44"/>detinere tales servos, nisi
+            praesu<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>matur quod altero duorum
+            modo<lb ed="#V" n="46" break="no"/>rum fuerint facti servi a principio.
+          </p>
+          <p>
+            <lb ed="#V" n="47"/>Si objicitur, quare igitur
+            Aposto<lb ed="#V" n="48" break="no"/>lus praecipit tales servos obedire
+            <lb ed="#V" n="49"/>dominis suis? Respondeo, multae
+            <lb ed="#V" n="50"/>obligationes sunt injustae ex parte
+            <lb ed="#V" n="51"/>illorum, quibus fiunt, et tamen
+            <lb ed="#V" n="52"/>postquam factae fuerint, servandae
+            <lb ed="#V" n="53"/>sunt. Unde Apostolus ostendens
+            <lb ed="#V" n="54"/>servitutem secundum se non esse
+            <lb ed="#V" n="55"/>laudabilem, nec multo magis
+            de<lb ed="#V" n="56" break="no"/>tentionem alicujus in servitute,
+            <lb ed="#V" n="57"/>ait: Si servus vocatus es, non sit tihi
+            <lb ed="#V" n="58"/>curoe, sed si potes liber fieri, magis utere.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d36q1-p2"> -->
+          <p>
+            <lb ed="#V" n="80" type="fixed=447"/>SCHOLIUM.
+            <lb ed="#V" n="81"/>Rejicit sententiam asserentium ideo
+            ser<lb ed="#V" n="82" break="no"/>vum posse contrahere invito domino, quia
+            <lb ed="#V" n="83"/>servitus est de lege positiva, et matrimonium
+            <lb ed="#V" n="84"/>de Jure naturae. Refutatio est efficax et clara.
+          </p>
+          <p>
+            <pb ed="#V" n="448"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>De (b) secundo dicunt aliqui, quod
+            <lb ed="#V" n="2"/>servus potest contrahere
+            matri<lb ed="#V" n="3" break="no"/>monium, invito domino; et hoc ex
+            <lb ed="#V" n="4"/>isto articulo primo, quia
+            matrimo<lb ed="#V" n="5" break="no"/>nium est de lege naturae. Servitus
+            <lb ed="#V" n="6"/>autem non est de lege naturae, sed
+            <lb ed="#V" n="7"/>magis contra; quod autem est de
+            <lb ed="#V" n="8"/>lege naturae, non tollitur per aliud,
+            <lb ed="#V" n="9"/>quod est tantum de lege positiva.
+            <lb ed="#V" n="10"/>Alia ratio ponitur, quia servus
+            <lb ed="#V" n="11"/>non est ita sui domini, quin sit sui
+            <lb ed="#V" n="12"/>juris, quantum ad actus naturales,
+            <lb ed="#V" n="13"/>pertinentes ad conservationem
+            in<lb ed="#V" n="14" break="no"/>dividui. Patet, quia potest uti
+            ne<lb ed="#V" n="15" break="no"/>cessariis ad vitam; ergo a simili,
+            <lb ed="#V" n="16"/>quantum ad actus pertinentes ad
+            <lb ed="#V" n="17"/>conservationem speciei.
+            Conse<lb ed="#V" n="18" break="no"/>quentia probatur, quia
+            conserva<lb ed="#V" n="19" break="no"/>tio speciei, cum sit majus bonum
+            <lb ed="#V" n="20"/>naturale quam conservatio
+            indivi<lb ed="#V" n="21" break="no"/>dui, magis est de lege naturae.
+          </p>
+          <p>
+            <lb ed="#V" n="22"/>Rationes (c) istae possent solvi:
+            <lb ed="#V" n="23"/>Prima, quia obligatio, quae non est
+            <lb ed="#V" n="24"/>de lege naturae, bene potest
+            impe<lb ed="#V" n="25" break="no"/>dire aliquam libertatem, quae
+            com<lb ed="#V" n="26" break="no"/>petit alicui ex lege naturae.
+            Exem<lb ed="#V" n="27" break="no"/>plum, nam ex lege naturae nihil
+            <lb ed="#V" n="28"/>tibi debeo, tamen si voveo tibi
+            obe<lb ed="#V" n="29" break="no"/>dientiam, teneor tibi obedire.
+            Ma<lb ed="#V" n="30" break="no"/>trimonium etiam non est de lege
+            <lb ed="#V" n="31"/>naturae, nisi secundario, ut dictum
+            <lb ed="#V" n="32"/>t est supra, et aeque videtur de lege
+            <lb ed="#V" n="33"/>naturae reddere unicuique quod
+            <lb ed="#V" n="34"/>suum est, imo primario; igitur ex
+            <lb ed="#V" n="35"/>quo per obligationem servus fecit
+            <lb ed="#V" n="36"/>se domini, tenetur ei reddere
+            <lb ed="#V" n="37"/>suum, et abstinere ab illo quod
+            <lb ed="#V" n="38"/>impedit talem redditionem, licet
+            <lb ed="#V" n="39"/>illud aliud impediens competeret
+            <lb ed="#V" n="40"/>sibi non obligato secundario
+            secun<lb ed="#V" n="41" break="no"/>dum legem naturae.
+          </p>
+          <p>
+            <lb ed="#V" n="42"/>Secunda ratio non concludit,
+            <lb ed="#V" n="43"/>quia certum est quod non omnis,
+            <lb ed="#V" n="44"/>qui tenetur conservare
+            indivi<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>duum, tenetur multiplicare
+            spe<lb ed="#V" n="46" break="no"/>ciem. Si dicas, quod saltem ita
+            <lb ed="#V" n="47"/>licet sibi, quod illud licere non
+            po<lb ed="#V" n="48" break="no"/>test sibi tolli per hominem, verum
+            <lb ed="#V" n="49"/>est in casu necessitatis, in quo
+            <lb ed="#V" n="50"/>conservatio speciei dependeret ab
+            <lb ed="#V" n="51"/>actu ejus. Sed quia multi non
+            ser<lb ed="#V" n="52" break="no"/>vi intendunt generationi, etiam in
+            <lb ed="#V" n="53"/>lege Christiana, ideo non est
+            ne<lb ed="#V" n="54" break="no"/>cessarius ad conservationem
+            spe<lb ed="#V" n="55" break="no"/>ciei actus istius pertinens ad hoc,
+            <lb ed="#V" n="56"/>et ideo per aliquam obligationem
+            <lb ed="#V" n="57"/>potest hoc sibi praecludi. Et
+            confir<lb ed="#V" n="58" break="no"/>matur, quia ante matrimonium
+            <lb ed="#V" n="59"/>tenetur domino ad certos actus,
+            <lb ed="#V" n="60"/>puta ad 4, B, C, si contrahat
+            ma<lb ed="#V" n="61" break="no"/>trimonium, obligatio illa erit ad
+            <lb ed="#V" n="62"/>aliquid incompossibile ipsi B, vel
+            <lb ed="#V" n="63"/>C; igitur illa obligatio sequens non
+            <lb ed="#V" n="64"/>potest juste fieri, quia in illa
+            tolli<lb ed="#V" n="65" break="no"/>tur alienum, quod non potest
+            red<lb ed="#V" n="66" break="no"/>di post istam obligationem factam.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d36q1-p3"> -->
+          <p>
+            <pb ed="#V" n="452"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1" type="fixed=452"/>SCHOLIUM.
+            <lb ed="#V" n="2"/>Potest servus de licentia domini
+            matrimo<lb ed="#V" n="3" break="no"/>nium contrahere, et tunc tenetur dominus
+            <lb ed="#V" n="4"/>tollere servitia repugnantia actibus
+            conju<lb ed="#V" n="5" break="no"/>gii; potest etiam invito domino contrahere,
+            <lb ed="#V" n="6"/>quia non se privavit omni libertate ad
+            quos<lb ed="#V" n="7" break="no"/>cumque actus. Ita D. Thom. hic, quaest.
+            <lb ed="#V" n="8"/>unic. art. 2. et habetur cap. 1. de conjug.
+            <lb ed="#V" n="9"/>serv. Sed non videtur tunc quod tenetur
+            do<lb ed="#V" n="10" break="no"/>minus ex justitia, non mittere eum ubi non
+            <lb ed="#V" n="11"/>possit vacare rei uxoriae. Videndus Sanchius
+            <lb ed="#V" n="12"/>lib. 7. de Matrim. disp. 21.
+          </p>
+          <p>
+            <lb ed="#V" n="13"/>Dico (d) ergo quantum ad istum
+            <lb ed="#V" n="14"/>articulum, quod servus de
+            volunta<lb ed="#V" n="15" break="no"/>te domini potest contrahere
+            matri<lb ed="#V" n="16" break="no"/>monium; et si onus matrimonii
+            <lb ed="#V" n="17"/>sit in aliquo repugnans servitiis
+            <lb ed="#V" n="18"/>consuetis, dominus concedens sibi
+            <lb ed="#V" n="19"/>contrahere, relaxat sibi implicite
+            <lb ed="#V" n="20"/>illa servitia consueta. Et si
+            domi<lb ed="#V" n="21" break="no"/>nus postea revocaret istam
+            con<lb ed="#V" n="22" break="no"/>cessionem, utpote ipsum totaliter
+            <lb ed="#V" n="23"/>impediendo a copula carnali, vel
+            <lb ed="#V" n="24"/>mittendo eum in partes
+            longin<lb ed="#V" n="25" break="no"/>quas, vel detinendo eum in
+            labori<lb ed="#V" n="26" break="no"/>bus, ita quod non posset aliquando
+            <lb ed="#V" n="27"/>visitare uxorem, peccaret
+            mor<lb ed="#V" n="28" break="no"/>taliter, et in manifestis esset per
+            <lb ed="#V" n="29"/>Ecclesiam corrigendus.
+          </p>
+          <p>
+            <lb ed="#V" n="30"/>Potest (e) etiam contrahere
+            do<lb ed="#V" n="31" break="no"/>mino invito, pro quanto habet
+            ali<lb ed="#V" n="32" break="no"/>quid juris in corpore suo; non
+            <lb ed="#V" n="33"/>enim privavit se quacumque
+            liber<lb ed="#V" n="34" break="no"/>tate ad quoscumque actus; et pro
+            <lb ed="#V" n="35"/>quanto corpus ejus est suum,
+            po<lb ed="#V" n="36" break="no"/>test commutare cum alio, quia si
+            <lb ed="#V" n="37"/>alius, sive servus, sive liber, velit
+            <lb ed="#V" n="38"/>esse contentus illa modica
+            potesta<lb ed="#V" n="39" break="no"/>te, sive ad modicum usum, quem
+            <lb ed="#V" n="40"/>scit eum posse dare, bene potest
+            <lb ed="#V" n="41"/>sibiipsi praejudicare, et tenet
+            com<lb ed="#V" n="42" break="no"/>mutatio.
+          </p>
+          <p>
+            <lb ed="#V" n="43"/>Ex (f) hoc sequitur quod servus
+            <lb ed="#V" n="44"/>potest contrahere cum libera, dum
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>tamen ipsa sciat conditionem ejus,
+            <lb ed="#V" n="46"/>et consentiat in eum, non obstante
+            <lb ed="#V" n="47"/>tali conditione, quia tunc
+            commu<lb ed="#V" n="48" break="no"/>tat potestatem sui corporis pro
+            <lb ed="#V" n="49"/>illo modico, quod habet servus,
+            po<lb ed="#V" n="50" break="no"/>testatis in suo corpore. Et potest
+            <lb ed="#V" n="51"/>contrahere cum ancilla, et tunc
+            <lb ed="#V" n="52"/>videtur uterque concedere id quod
+            <lb ed="#V" n="53"/>potest; et sicut contrahunt, ita
+            te<lb ed="#V" n="54" break="no"/>nentur postea secundum justitiam
+            <lb ed="#V" n="55"/>reddere debitum, pro quanto
+            scili<lb ed="#V" n="56" break="no"/>cet illi actus non impediunt a
+            ser<lb ed="#V" n="57" break="no"/>vitiis consuetis.
+          </p>
+          <p>
+            <lb ed="#V" n="58"/>Sed (g) esto quod in casu isto
+            con<lb ed="#V" n="59" break="no"/>trahunt sine voluntate domini, et
+            <lb ed="#V" n="60"/>unus dominus mittit servum in
+            Afri<lb ed="#V" n="61" break="no"/>cam, et alius dominus mittit
+            ancil<lb ed="#V" n="62" break="no"/>lam in Franciam, numquid licet hoc
+            <lb ed="#V" n="63"/>facere? Respondeo, cum causa
+            ma<lb ed="#V" n="64" break="no"/>trimonii sit favorabilis, inducendi
+            <lb ed="#V" n="65"/>essent domini ne hoc facerent; sed
+            <lb ed="#V" n="66"/>si facerent, non apparet qualiter
+            <lb ed="#V" n="67"/>supposita servitute, facerent
+            con<lb ed="#V" n="68" break="no"/>tra justitiam, quia iste prius fuit
+            <lb ed="#V" n="69"/>in potestate domini ut mitteret eum
+            <lb ed="#V" n="70"/>illuc, imo ut venderet eum; et
+            si<lb ed="#V" n="71" break="no"/>militer illa fuit in potestate domini
+            <lb ed="#V" n="72"/>sui, similiter quantum ad illum
+            lo<lb ed="#V" n="73" break="no"/>cum, et per actus proprios sine
+            <lb ed="#V" n="74"/>voluntate dominorum non
+            potu<lb ed="#V" n="75" break="no"/>erunt se facere liberiores, nec se
+            <lb ed="#V" n="76"/>a jure dominorum suorum magis
+            <lb ed="#V" n="77"/>eximere quam prius; igitur adhuc
+            <lb ed="#V" n="78"/>licet.
+          </p>
+          <p>
+            <lb ed="#V" n="79"/>Sed (h) si ancilla credit
+            contra<lb ed="#V" n="80" break="no"/>here cum libero, qui tamen est
+            <lb ed="#V" n="81"/>servus, numquid contrahitur?
+            Pos<lb ed="#V" n="82" break="no"/>set dici quod error conditionis
+            pe<lb ed="#V" n="83" break="no"/>joris impedit contractum, quia
+            im<lb ed="#V" n="84" break="no"/>pedit commutantem recipere
+            tan<lb ed="#V" n="85" break="no"/>tum pro quanto intendit
+            commu<lb ed="#V" n="86" break="no"/>tare; sed ignorantia melioris
+            con<lb ed="#V" n="87" break="no"/>ditionis, vel aequalis non impedit
+            <lb ed="#V" n="88"/>propter contrariam rationem.
+          </p>
+          <p>
+            <pb ed="#V" n="453"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Ad (i) argumenta. Ad primum,
+            <lb ed="#V" n="2"/>patet secundum istam viam
+            ulti<lb ed="#V" n="3" break="no"/>mam, quod servus non est domini
+            <lb ed="#V" n="4"/>secundum omnia, sed secundum
+            <lb ed="#V" n="5"/>aliqua est sui juris, ut ad
+            comeden<lb ed="#V" n="6" break="no"/>dum, bibendum, dormiendum, et
+            <lb ed="#V" n="7"/>breviter ad quoscumque actus
+            ex<lb ed="#V" n="8" break="no"/>ercendum, propter quos non
+            sub<lb ed="#V" n="9" break="no"/>trahuntur domino debita servitia;
+            <lb ed="#V" n="10"/>igitur cum pro tunc posset uti actu
+            <lb ed="#V" n="11"/>carnali, potest ad illum se
+            obliga<lb ed="#V" n="12" break="no"/>re, quantum sui juris est. Quod
+            <lb ed="#V" n="13"/>Philosophus dicit de servitute illa
+            <lb ed="#V" n="14"/>maledicta, qua servus est, sicut
+            pe<lb ed="#V" n="15" break="no"/>cus, potest intelligi quod est
+            domi<lb ed="#V" n="16" break="no"/>ni sui sicut possessio vel pecunia;
+            <lb ed="#V" n="17"/>non tamen quod in actibus suis
+            du<lb ed="#V" n="18" break="no"/>catur tantum, et non ducat, quia
+            <lb ed="#V" n="19"/>quantumcumque sit servus, est
+            ta<lb ed="#V" n="20" break="no"/>men homo, et ita liberi arbitrii;
+            <lb ed="#V" n="21"/>ex quo patet magna crudelitas
+            <lb ed="#V" n="22"/>fuisse in prima inductione
+            servitu<lb ed="#V" n="23" break="no"/>tis, quia hominem arbitrio
+            libe<lb ed="#V" n="24" break="no"/>rum et dominum suorum actuum
+            <lb ed="#V" n="25"/>ad virtuose agendum, facit quasi
+            <lb ed="#V" n="26"/>brutum, et libero arbitrio non
+            <lb ed="#V" n="27"/>utentem, nec potentem agere
+            vir<lb ed="#V" n="28" break="no"/>tuose.
+          </p>
+          <p>
+            <lb ed="#V" n="29"/>Ad secundum, non est simile,
+            <lb ed="#V" n="30"/>quia profitens in Religione
+            totali<lb ed="#V" n="31" break="no"/>ter se submittit obedientiae
+            Prae<lb ed="#V" n="32" break="no"/>lati illius Religionis, et in hoc ex
+            <lb ed="#V" n="33"/>toto subtrahit se a consuetis servi.
+            <lb ed="#V" n="34"/>tiis domini sui; non sic contrahens
+            <lb ed="#V" n="35"/>matrimonium, sed solum in
+            aliqui<lb ed="#V" n="36" break="no"/>bus actibus, qui possunt stare cum
+            <lb ed="#V" n="37"/>hoc quod reddat servitia consueta.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

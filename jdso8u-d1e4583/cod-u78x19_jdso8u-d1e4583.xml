@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 32, Quaestio 1</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 32, Quaestio 1</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x19">Vives, Paris, 1894, volume 19</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="333"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e4583"><!-- jdso8u-b4d32q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum in matrimonio sit simpliciter necessarium reddere debitum coniugale alteri petenti</head>
+        <!-- <div alias="scotus-d32q1-p1"> -->
+          <p>
+            <lb ed="#V" n="60" type="fixed=333"/>QUESTIO UNICA.
+            <lb ed="#V" n="61"/>Utrum sit simpliciter necessarium in
+            ma<lb ed="#V" n="62" break="no"/>trimonio reddere debitum petenti?
+          </p>
+          <p>
+            <lb ed="#V" n="63"/>D. Thom. in addit. q. 53. art. 1. et hic q. 1.
+            <lb ed="#V" n="64"/>art. 1. D. Bonav. art. 2. q. 1. et art. 2. et 3.
+            <lb ed="#V" n="65"/>per totum. Richard. art. 1. q. 1. et 2. Durandus
+            <lb ed="#V" n="66"/>quaest. 1. Sanchius lib. 9. de matrim. disput.
+            <lb ed="#V" n="67"/>1. et 2. late, et per totum lib. 9.
+          </p>
+          <p>
+            <lb ed="#V" n="68"/>Circa istam trigesimam
+            secun<lb ed="#V" n="69" break="no"/>dam distinctionem quaero, utrum
+            <lb ed="#V" n="70"/>sit simpliciter necessarium in
+            ma<lb ed="#V" n="71" break="no"/>trimonio reddere debitum petenti?
+            <lb ed="#V" n="72"/>Quod non; nullus obligatur
+            sim<lb ed="#V" n="73" break="no"/>pliciter ad peccatum mortale; sed
+            <lb ed="#V" n="74"/>reddere illud debitum est peccatum
+            <lb ed="#V" n="75"/>mortale; tum quia privat se
+            ma<lb ed="#V" n="76" break="no"/>ximo bono, scilicet usu rationis,
+            <lb ed="#V" n="77"/>quod est majus bonum quam actus
+            <lb ed="#V" n="78"/>virtutis (agens autem actum
+            con<lb ed="#V" n="79" break="no"/>trarium actui virtutis, vel actum
+            <pb ed="#V" n="334"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>vitiosum, peccat mortaliter); sed
+            <lb ed="#V" n="2"/>privare se actu virtutis est
+            pecca<lb ed="#V" n="3" break="no"/>tum mortale; ergo et privare se
+            <lb ed="#V" n="4"/>usu rationis, quod contingit in
+            <lb ed="#V" n="5"/>actu illo; tum quia si non esset
+            <lb ed="#V" n="6"/>contractus matrimonii, talis actus
+            <lb ed="#V" n="7"/>esset peccatum mortale; sed
+            nul<lb ed="#V" n="8" break="no"/>lus potest seipsum licentiare, et
+            <lb ed="#V" n="9"/>per consequens ex actu suo
+            pro<lb ed="#V" n="10" break="no"/>prio non licet sibi, quod prius non
+            <lb ed="#V" n="11"/>licuit; contractus matrimonii est
+            <lb ed="#V" n="12"/>actus istorum.
+          </p>
+          <p>
+            <lb ed="#V" n="13"/>Praeterea, contrahens
+            matrimo<lb ed="#V" n="14" break="no"/>nium antequam consummet, si
+            <lb ed="#V" n="15"/>intret Religionem, non tenetur
+            <lb ed="#V" n="16"/>reddere debitum, et tamen tunc
+            <lb ed="#V" n="17"/>est conjux; et si dicas, mortuus
+            <lb ed="#V" n="18"/>est civiliter. Contra, ante
+            profes<lb ed="#V" n="19" break="no"/>sionem non est sic mortuus, et
+            <lb ed="#V" n="20"/>tamen illo tempore non tenetur
+            <lb ed="#V" n="21"/>reddere.
+          </p>
+          <p>
+            <lb ed="#V" n="22"/>Praeterea tempore observationis
+            <lb ed="#V" n="23"/>et orationis sacrae et jejunii, non
+            <lb ed="#V" n="24"/>tenetur quis reddere debitum,
+            <lb ed="#V" n="25"/>quia tunc esset indispositus ad
+            <lb ed="#V" n="26"/>comedendum carnes agni, sicut
+            ha<lb ed="#V" n="27" break="no"/>betur in littera; sed nullus fit
+            <lb ed="#V" n="28"/>inidoneus ad Eucharistiam
+            pro<lb ed="#V" n="29" break="no"/>pter actum illum, ad quem
+            neces<lb ed="#V" n="30" break="no"/>sario obligatur.
+          </p>
+          <p>
+            <lb ed="#V" n="31"/>Praeterea, in loco sacro non
+            te<lb ed="#V" n="32" break="no"/>netur quis reddere, quia majus
+            <lb ed="#V" n="33"/>malum sequitur quam vitetur,
+            sci<lb ed="#V" n="34" break="no"/>licet interdictum loci, quod est
+            <lb ed="#V" n="35"/>malum commune quoad
+            multitu<lb ed="#V" n="36" break="no"/>dinem, et malum quodammodo
+            <lb ed="#V" n="37"/>reducibile in Deum, cujus cultus
+            <lb ed="#V" n="38"/>impeditur in loco illo.
+          </p>
+          <p>
+            <lb ed="#V" n="39"/>Contra 1. Corinth. 7. Nolite
+            frau<lb ed="#V" n="40" break="no"/>dare invicem, nisi ex consensu ad
+            tem<lb ed="#V" n="41" break="no"/>pus; et vir uxori debitum reddat, et
+            <lb ed="#V" n="42"/>uxor viro; et probat ibi, quia vir
+            <lb ed="#V" n="43"/>non habet potestatem corporis sui, sed
+            <lb ed="#V" n="44"/>uxor, et e converso similiter.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d32q1-p2"> -->
+          <p>
+            <lb ed="#V" n="53" type="fixed=334"/>SCHOLIUM.
+            <lb ed="#V" n="54"/>Reddere debitum conjugi petenti, esse
+            ac<lb ed="#V" n="55" break="no"/>tum justitiae ex praecepto affirmativo,
+            obli<lb ed="#V" n="56" break="no"/>gante secundum debitas circumstantias, non
+            <lb ed="#V" n="57"/>aliter; in duobus casibus in genere non
+            tene<lb ed="#V" n="58" break="no"/>tur quis illud reddere. Primus est, quando
+            <lb ed="#V" n="59"/>petens non habet jus, ut si est adulter;
+            pro<lb ed="#V" n="60" break="no"/>babilius est tamen adulterum posse petere,
+            <lb ed="#V" n="61"/>quia non est privatus ipso facto, sed
+            privan<lb ed="#V" n="62" break="no"/>dus, ut tenent Sotus dist. 36. q. unic. art. 4.
+            <lb ed="#V" n="63"/>vers. Utrum vero. Palacius dist. 35. disp. 1.
+            <lb ed="#V" n="64"/>Henriquez lib. 11. de Matrim. cap. 15. num.
+            <lb ed="#V" n="65"/>6. Item, non est jus petendi post ratum ad
+            <lb ed="#V" n="66"/>bimestre, cap. Ex publico, de convers.
+            con<lb ed="#V" n="67" break="no"/>jug. movet dub. an ingressus Religionem de
+            <lb ed="#V" n="68"/>licentia uxoris, ipsa non vivente
+            continen<lb ed="#V" n="69" break="no"/>ter, sit extrahendus; et dicendum non posse
+            <lb ed="#V" n="70"/>profiteri, nisi altero conjuge votum
+            conti<lb ed="#V" n="71" break="no"/>nentiae emittente, si est senex, et cogitur
+            <lb ed="#V" n="72"/>intrare Religionem, si est juvenis, c. 1. cap.
+            <lb ed="#V" n="73"/>Cum sis, et cap. Conjugatus, de convers.
+            <lb ed="#V" n="74"/>conjug. si aliter professus fuerit, est
+            extra<lb ed="#V" n="75" break="no"/>hendus.
+          </p>
+          <p>
+            <lb ed="#V" n="76"/>Ad (b) quaestionem dico, quod
+            <lb ed="#V" n="77"/>reddere debitum conjugale, potest
+            <lb ed="#V" n="78"/>intelligi dupliciter; vel propter
+            <lb ed="#V" n="79"/>duplicem finem, sicut
+            matrimo<lb ed="#V" n="80" break="no"/>nium duplici de causa est
+            institu<lb ed="#V" n="81" break="no"/>tum, ut dictum est supra quaest. 1.
+            <lb ed="#V" n="82"/>de matrimonio; et propter primum
+            <lb ed="#V" n="83"/>finem, scilicet bonum prolis,
+            red<lb ed="#V" n="84" break="no"/>dere est dupliciter laudabile. Uno
+            <lb ed="#V" n="85"/>modo, quia ad finem laudabilem,
+            <lb ed="#V" n="86"/>scilicet ad bonum prolis. Alio
+            mo<lb ed="#V" n="87" break="no"/>do, quia in se actus justitiae
+            red<pb ed="#V" n="335"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>dentis illi quod suum est, quia ad
+            <lb ed="#V" n="2"/>finem ad quem debet esse. Propter
+            <lb ed="#V" n="3"/>secundum finem, scilicet causa
+            vi<lb ed="#V" n="4" break="no"/>tandae fornicationis, est laudabile
+            <lb ed="#V" n="5"/>tantum secundo modo, scilicet
+            <lb ed="#V" n="6"/>quia actus justitiae; istud tamen
+            <lb ed="#V" n="7"/>juste redditum non esset justum,
+            <lb ed="#V" n="8"/>nec illi deberet reddi, nisi Deus
+            <lb ed="#V" n="9"/>dispensasset propter pronitatem
+            <lb ed="#V" n="10"/>hominis post lapsum.
+          </p>
+          <p>
+            <lb ed="#V" n="11"/>Praescindendo ergo primum
+            bo<lb ed="#V" n="12" break="no"/>num laudabile, scilicet bonum
+            pro<lb ed="#V" n="13" break="no"/>lis, si quaeratur de redditione
+            <lb ed="#V" n="14"/>debiti universaliter ex obligatione
+            <lb ed="#V" n="15"/>conjugum, dico quod est actus
+            <lb ed="#V" n="16"/>praecepti affirmativi explicantis
+            <lb ed="#V" n="17"/>justitiam commutativam.
+            Praece<lb ed="#V" n="18" break="no"/>ptum autem affirmativum obligat
+            <lb ed="#V" n="19"/>semper, sed non ad semper, sed
+            <lb ed="#V" n="20"/>pro quando actus potest esse
+            debi<lb ed="#V" n="21" break="no"/>te circumstantionatus.
+          </p>
+          <p>
+            <lb ed="#V" n="22"/>Et ita hic in genere potest
+            ali<lb ed="#V" n="23" break="no"/>quis juste non reddere debitum
+            <lb ed="#V" n="24"/>conjugi dupliciter. Uno modo, si
+            <lb ed="#V" n="25"/>conjux amisit jus petendi, vel non
+            <lb ed="#V" n="26"/>habet jus petendi pro tunc. Alio
+            <lb ed="#V" n="27"/>modo, quando obligatur ad non
+            <lb ed="#V" n="28"/>reddendum vinculo fortiori.
+            Pri<lb ed="#V" n="29" break="no"/>mum (c) contingit in fornicatione
+            <lb ed="#V" n="30"/>conjugis, maxime si alter tantum
+            <lb ed="#V" n="31"/>fuerit fornicatus; tunc enim
+            inno<lb ed="#V" n="32" break="no"/>cens potest lapsum, si sibi publice
+            <lb ed="#V" n="33"/>constiterit, repellere, et amisit
+            <lb ed="#V" n="34"/>lapsus jus petendi, pro eo quod
+            <lb ed="#V" n="35"/>non servavit fidem, et ideo non est
+            <lb ed="#V" n="36"/>necessario sibi fides servanda,
+            sal<lb ed="#V" n="37" break="no"/>tem affirmative. Si autem uterque
+            <lb ed="#V" n="38"/>lapsus sit, tunc paria crimina pari
+            <lb ed="#V" n="39"/>vindicta sunt delenda. Sic (d) non
+            <lb ed="#V" n="40"/>habet jus petendi statim post
+            ma<lb ed="#V" n="41" break="no"/>trimonium ratum, licet adhuc non
+            <lb ed="#V" n="42"/>amiserit, quia nondum peccavit,
+            <lb ed="#V" n="43"/>eo quod post matrimonium ratum
+            <lb ed="#V" n="44"/>licet intrare Religionem; nec
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>oportet statim, sed ad tempus
+            po<lb ed="#V" n="46" break="no"/>test stare in saeculo, et deliberare;
+            <lb ed="#V" n="47"/>et si teneretur statim reddere,
+            <lb ed="#V" n="48"/>teneretur facere se inhabilem ad
+            <lb ed="#V" n="49"/>Religionem.
+          </p>
+          <p>
+            <lb ed="#V" n="50"/>Sed (e) esto post ingressum
+            Reli<lb ed="#V" n="51" break="no"/>gionis mulier remanens in saeculo
+            <lb ed="#V" n="52"/>non continet, vel timetur ne
+            con<lb ed="#V" n="53" break="no"/>tinere velit, numquid vir professus
+            <lb ed="#V" n="54"/>extrahendus est de Religione, et
+            <lb ed="#V" n="55"/>sibi reddendus? 33. quoest. 5.
+            habe<lb ed="#V" n="56" break="no"/>tur expresse, quod qui uxorem suam
+            <lb ed="#V" n="57"/>velare permiserit, aliam non accipiat,
+            <lb ed="#V" n="58"/>sed similiter convertatur. Sed
+            contra<lb ed="#V" n="59" break="no"/>rium videtur expresse haberi
+            Ex<lb ed="#V" n="60" break="no"/>tra de conversione conjugatorum,
+            <lb ed="#V" n="61"/>c. 1. Laicus uxoratus qui de licentia et
+            <lb ed="#V" n="62"/>permissione uxoris Religionem ingressus
+            <lb ed="#V" n="63"/>professionem fecerit, uxore in soeculari
+            <lb ed="#V" n="64"/>habitu, vel in soeculo permanente, nec
+            <lb ed="#V" n="65"/>transeunte ad Religionem, aut perpetuam
+            <lb ed="#V" n="66"/>continentiam non vovente; dicimus quod
+            <lb ed="#V" n="67"/>nisi uxor ad Religionem transierit, aut
+            <lb ed="#V" n="68"/>castitatem perpetuo servare promiserit,
+            <lb ed="#V" n="69"/>vir potest et debet de monasterio revocari.
+          </p>
+          <p>
+            <lb ed="#V" n="70"/>Si autem dicatur quod debet
+            <lb ed="#V" n="71"/>intelligi, quando mulier non
+            renun<lb ed="#V" n="72" break="no"/>tiat juri suo, sed tantum ad
+            tem<lb ed="#V" n="73" break="no"/>pus, ut vir vacaret orationi; hoc
+            <lb ed="#V" n="74"/>est contra planum sensum litterae,
+            <lb ed="#V" n="75"/>quia habetur ibi, quod si de licentia
+            <lb ed="#V" n="76"/>et permissione uxoris
+            monaste<lb ed="#V" n="77" break="no"/>rium ingressus, professionem
+            fe<lb ed="#V" n="78" break="no"/>cerit, quid de stricto rigore esset
+            <lb ed="#V" n="79"/>faciendum, an illa compellenda
+            <lb ed="#V" n="80"/>esset ad continentiam, an iste
+            <lb ed="#V" n="81"/>extrahendus, in casu isto, quia
+            <lb ed="#V" n="82"/>scilicet ignorante Episcopo
+            fa<lb ed="#V" n="83" break="no"/>ctum est. Sed praesentibus
+            Presby<lb ed="#V" n="84" break="no"/>teris et Monachis, dubium est,
+            <lb ed="#V" n="85"/>quia ista videtur renuntiasse juri
+            <lb ed="#V" n="86"/>suo perpetuo quantum ad debitum
+            <lb ed="#V" n="87"/>petendum, licentians eum publice
+            <lb ed="#V" n="88"/>ad profitendum in Religione; non
+            <pb ed="#V" n="336"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>enim talis renuntiatio requiritur
+            <lb ed="#V" n="2"/>necessario, quod sit de scitu
+            Epi<lb ed="#V" n="3" break="no"/>scopi; si ergo renuntiavit
+            suffi<lb ed="#V" n="4" break="no"/>cienter, nihil juris habet illa ad
+            <lb ed="#V" n="5"/>repetendum eum. Similiter coactio
+            <lb ed="#V" n="6"/>ejus ad continentiam est aliquid
+            <lb ed="#V" n="7"/>licitum, et licet poenale, tamen
+            <lb ed="#V" n="8"/>debitum ex ista licentia data viro;
+            <lb ed="#V" n="9"/>coactio autem viri ad standum
+            <lb ed="#V" n="10"/>cum uxore videtur ad illicitum
+            <lb ed="#V" n="11"/>inducere, quia ad peccatum
+            mor<lb ed="#V" n="12" break="no"/>tale, cum ille voverit castitatem,
+            <lb ed="#V" n="13"/>et potuit vovere, quia licentiatus.
+          </p>
+          <p>
+            <lb ed="#V" n="14"/>Saltem (f) de hoc cautum est in
+            <lb ed="#V" n="15"/>regula Fratrum Minorum, ubi, de
+            <lb ed="#V" n="16"/>his qui volunt vitam istam accipere,
+            <lb ed="#V" n="17"/>dicitur: Si uxores non habent, vel si
+            <lb ed="#V" n="18"/>habent, et jam Monasterium intraverint
+            <lb ed="#V" n="19"/>uxores, vel licentiam eis dederint
+            aucto<lb ed="#V" n="20" break="no"/>ritate dioecesani Episcopi, voto
+            continen<lb ed="#V" n="21" break="no"/>tiae jam emisso, et illius aetatis sint
+            <lb ed="#V" n="22"/>uxores, quod non possit de eis oriri
+            <lb ed="#V" n="23"/>suspicio, dicant illis verbum sancti
+            Evan<lb ed="#V" n="24" break="no"/>gelii, etc. Unde praetermissis istis
+            <lb ed="#V" n="25"/>conditionibus, scilicet voto
+            conti<lb ed="#V" n="26" break="no"/>nentiae emisso, vel saltem licentia
+            <lb ed="#V" n="27"/>data auctoritate dioecesani
+            Episco<lb ed="#V" n="28" break="no"/>pi, videtur quod hodie fieret
+            se<lb ed="#V" n="29" break="no"/>cundum illud capitulum, scilicet
+            <lb ed="#V" n="30"/>quod vir extraheretur et
+            reddere<lb ed="#V" n="31" break="no"/>tur uxori.
+          </p>
+          <p>
+            <lb ed="#V" n="32"/>Et tunc quando dicitur quod ipsa
+            <lb ed="#V" n="33"/>dicitur renuntiare juri, respondeo,
+            <lb ed="#V" n="34"/>non sufficienter et perfecte
+            quan<lb ed="#V" n="35" break="no"/>tum ad forum Ecclesiae, quae
+            deter<lb ed="#V" n="36" break="no"/>minavit modum debitum istius
+            <lb ed="#V" n="37"/>renuntiationis per votum
+            conti<lb ed="#V" n="38" break="no"/>nentiae emissum, et licentiam
+            da<lb ed="#V" n="39" break="no"/>tam auctoritate dioecesani
+            Epi<lb ed="#V" n="40" break="no"/>scopi.
+          </p>
+          <p>
+            <lb ed="#V" n="41"/>Et (g) quod tangitur de peccato
+            <lb ed="#V" n="42"/>mortali ipsius revocati, posset dici
+            <lb ed="#V" n="43"/>quod tenetur non petere, quia
+            re<lb ed="#V" n="44" break="no"/>nuntiavit juri suo, quantum in se
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>fuit, sed potest reddere, quia non
+            <lb ed="#V" n="46"/>potuit renuntiare juri alieno. Et
+            <lb ed="#V" n="47"/>quia putavit se absolutum a jure
+            <lb ed="#V" n="48"/>illius, ideo pro tunc non peccavit;
+            <lb ed="#V" n="49"/>tamen quando constat sibi per
+            <lb ed="#V" n="50"/>Ecclesiam, quod non fuit
+            absolu<lb ed="#V" n="51" break="no"/>tus a jure uxoris, tenetur sibi
+            red<lb ed="#V" n="52" break="no"/>dere illud cui non potuit
+            renun<lb ed="#V" n="53" break="no"/>tiare.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d32q1-p3"> -->
+          <p>
+            <lb ed="#V" n="80" type="fixed=344"/>SCHOLIUM.
+            <lb ed="#V" n="81"/>Secundus casus excusans in genere a
+            de<lb ed="#V" n="82" break="no"/>bito reddendo, est periculum salutis
+            pro<lb ed="#V" n="83" break="no"/>priae, vel vitae foetus. Ita D. Thom. hic
+            <lb ed="#V" n="84"/>quaest. unic. Richard. art. 1. quaest. 1.
+            San<lb ed="#V" n="85" break="no"/>chius lib. 9. disput. 24. num. 1. imo tunc
+            <lb ed="#V" n="86"/>non liceret reddere, quamvis quoad salutis
+            <lb ed="#V" n="87"/>propriae incommodum, grave periculum
+            in<lb ed="#V" n="88" break="no"/>continentiae in altero, reddentem excusaret.
+            <pb ed="#V" n="345"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Secundo ait debitum reddendum leproso,
+            <lb ed="#V" n="2"/>quod intellige, quando inde non oritur
+            evi<lb ed="#V" n="3" break="no"/>dens periculum infectionis. Ita D. Thom.
+            <lb ed="#V" n="4"/>hic quaest. unic. art. 1. D. Bonav. art. 2.
+            <lb ed="#V" n="5"/>quaest. 1. Richard. art. 2. quaest. 2. Tertio
+            <lb ed="#V" n="6"/>ait, accedere ad menstruatam esse culpam,
+            <lb ed="#V" n="7"/>et quidam, quibus favet Gregor.
+            re<lb ed="#V" n="8" break="no"/>spon. 10. ad August. et habetur c. fin.
+            <lb ed="#V" n="9"/>dist. 5. putant esse mortale (quibus videtur
+            <lb ed="#V" n="10"/>Doctor favere, sed nihil asserit.) Ita Anton.
+            <lb ed="#V" n="11"/>Rub. de sponsal. num. 14. et ibi Alex. de
+            <lb ed="#V" n="12"/>Nevo, num. 21. Alens. 2. part. q. 166.
+            <lb ed="#V" n="13"/>memb. 2. ad 5. D. Bonav. art. 3. quaest. 1.
+            <lb ed="#V" n="14"/>Vorillon, Orbellis hic, Palacius dist. 1. Alii
+            <lb ed="#V" n="15"/>volunt tantum esse veniale. Palud. hic q. 1.
+            <lb ed="#V" n="16"/>artic. 3. Tabiena matrim. 3. q. 7. S 8. et Soto
+            <lb ed="#V" n="17"/>hic quaest. unic. artic. 2. fin. Oppositum
+            <lb ed="#V" n="18"/>tamen, scilicet nullum esse peccatum sic
+            <lb ed="#V" n="19"/>accedere, est communior sententia. Navar.
+            <lb ed="#V" n="20"/>Summ. c. 16. num. 32. Castro. 1. de leg.
+            <lb ed="#V" n="21"/>poen. c. ultim. Sanchius 9. de matrim.
+            di<lb ed="#V" n="22" break="no"/>sput. 21. Ad tertium innuit esse veniale
+            <lb ed="#V" n="23"/>exercere actum conjugalem ante
+            commu<lb ed="#V" n="24" break="no"/>nionem. Ita Alens. 2. part. q. 166. memb. 2.
+            <lb ed="#V" n="25"/>ad 3. Mayron. hic q. unic. fin. Tabiena v.
+            <lb ed="#V" n="26"/>Communicare S 43. Armil. v. Communio,
+            <lb ed="#V" n="27"/>n. 5. Manuel 1. tom. Summ. cap. 65. et est
+            <lb ed="#V" n="28"/>certum si exerceatur causa voluptatis; si
+            <lb ed="#V" n="29"/>tamen causa generationis, vel vitandae
+            for<lb ed="#V" n="30" break="no"/>nicationis, oppositum est satis commune et
+            <lb ed="#V" n="31"/>probabilissimum.
+          </p>
+          <p>
+            <lb ed="#V" n="32"/>Secundus (b) casus est, quando
+            <lb ed="#V" n="33"/>obligatur fortiori vinculo ad non
+            <lb ed="#V" n="34"/>,reddendum, puta si vergat in
+            de<lb ed="#V" n="35" break="no"/>trimentum propriae incolumitatis;
+            <lb ed="#V" n="36"/>tenetur enim magis diligere
+            pro<lb ed="#V" n="37" break="no"/>priam incolumitatem, quam istud
+            <lb ed="#V" n="38"/>debitum reddere alteri conjugi;
+            <lb ed="#V" n="39"/>vel sit causa occisionis foetus in
+            <lb ed="#V" n="40"/>utero praegnantis, vel sit causa
+            <lb ed="#V" n="41"/>aborsus. Ad haec enim cavenda
+            <lb ed="#V" n="42"/>tenetur fortiori vinculo, quam ad
+            <lb ed="#V" n="43"/>reddendum debitum isti. Ubi ergo
+            <lb ed="#V" n="44"/>est probabile periculum de
+            extin<lb ed="#V" n="45" break="no"/>ctione foetus, vel quod nascatur
+            <lb ed="#V" n="46"/>aborsus, non tenetur reddere.
+            Con<lb ed="#V" n="47" break="no"/>similiter majori praecepto tenetur
+            <lb ed="#V" n="48"/>non agere, unde proles nascatur
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="49"/>leprosa, quae posset alias
+            pro<lb ed="#V" n="50" break="no"/>creari sana, quam pro nunc
+            satis<lb ed="#V" n="51" break="no"/>facere voluntati mulieris, pro
+            <lb ed="#V" n="52"/>quando ut in pluribus, puer
+            na<lb ed="#V" n="53" break="no"/>scitur leprosus. Unde non sine
+            <lb ed="#V" n="54"/>causa in lege Mosaica accedens
+            <lb ed="#V" n="55"/>ad mulierem menstruatam, debuit
+            <lb ed="#V" n="56"/>mori, nec mors infligebatur ibi,
+            <lb ed="#V" n="57"/>nisi pro peccato mortali et gravi;
+            <lb ed="#V" n="58"/>nec est probabile quod in lege
+            <lb ed="#V" n="59"/>Evangelica, quae est lex castitatis,
+            <lb ed="#V" n="60"/>sit minus prohibitus ad
+            menstrua<lb ed="#V" n="61" break="no"/>tam accedere.
+          </p>
+          <p>
+            <lb ed="#V" n="62"/>Si (i) objicitur, ergo leprosae non
+            <lb ed="#V" n="63"/>debet sanus reddere debitum, quia
+            <lb ed="#V" n="64"/>et est contra bonum prolis, quae
+            <lb ed="#V" n="65"/>nascitur leprosa, et contra
+            inco<lb ed="#V" n="66" break="no"/>lumitatem propriam, quia posset
+            <lb ed="#V" n="67"/>ex tali actu incurrere lepram,
+            <lb ed="#V" n="68"/>cujus tamen oppositum habetur
+            <lb ed="#V" n="69"/>Extra de conjugio leprosorum, cap. 1.
+            <lb ed="#V" n="70"/>ubi habetur: Mandamus, ut uxores
+            <lb ed="#V" n="71"/>viros, et viri uxores, quae lepree morbum
+            <lb ed="#V" n="72"/>inccurrunt, sequantur, et eis conjugali
+            <lb ed="#V" n="73"/>affectione ministrent, et ad hoc eos
+            <lb ed="#V" n="74"/>sollicitis exhortationibus inducere non
+            <lb ed="#V" n="75"/>postponas. Si vero ad hoc induci non
+            <lb ed="#V" n="76"/>poterunt, injungas eis, ut uterque
+            con<lb ed="#V" n="77" break="no"/>tinentiam servet. Quod si mandatum
+            <lb ed="#V" n="78"/>tuum servare contemnant, vinculo
+            ex<lb ed="#V" n="79" break="no"/>communicationis adstringas; et cap.
+            <lb ed="#V" n="80"/>sequenti: Si virum vel uxorem
+            lepro<lb ed="#V" n="81" break="no"/>sum fieri contigerit, et infirmus a sano
+            <lb ed="#V" n="82"/>carnale debitum exigat, generali
+            proe<lb ed="#V" n="83" break="no"/>cepto Apostoli, quod exigitur est
+            sol<lb ed="#V" n="84" break="no"/>vendum, cujus praecepti in hoc casu
+            <lb ed="#V" n="85"/>nulla exceptio invenitur.
+          </p>
+          <p>
+            <lb ed="#V" n="86"/>Respondeo, quod licet conjugi
+            <lb ed="#V" n="87"/>leprosae conjux sanus vel
+            lepro<lb ed="#V" n="88" break="no"/>sus debeat reddere debitum
+            se<lb ed="#V" n="89" break="no"/>cundum ista capita, tamen non
+            <lb ed="#V" n="90"/>sequitur quod tempore
+            menstruo<lb ed="#V" n="91" break="no"/>rum, quia ibi non est contra
+            <lb ed="#V" n="92"/>bonum prolis, quod procreetur
+            <pb ed="#V" n="346"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>leprosa; imo magis est contra
+            <lb ed="#V" n="2"/>bonum prolis, quod nunquam
+            pro<lb ed="#V" n="3" break="no"/>creetur de ista matre, si propter
+            <lb ed="#V" n="4"/>lepram vitetur; haec autem etsi
+            <lb ed="#V" n="5"/>non procreabitur tempore
+            men<lb ed="#V" n="6" break="no"/>struorum, procreabitur tamen
+            <lb ed="#V" n="7"/>postea tempore competenti, et
+            <lb ed="#V" n="8"/>tunc sana, nunc autem leprosa.
+            <lb ed="#V" n="9"/>Si autem objicias de periculo
+            <lb ed="#V" n="10"/>leprae in sano reddente, posset
+            <lb ed="#V" n="11"/>dici quod in illa conjunctione non
+            <lb ed="#V" n="12"/>est probabile lepram incurri, sed
+            <lb ed="#V" n="13"/>diuturna cohabitatio non
+            praeci<lb ed="#V" n="14" break="no"/>pitur, quia ex illa potest sanus
+            <lb ed="#V" n="15"/>infici ab infirmo. Esto etiam quod
+            <lb ed="#V" n="16"/>timeretur ex tali conjunctione
+            <lb ed="#V" n="17"/>infectio leprae in sano reddente
+            <lb ed="#V" n="18"/>saltem ex frequenti, quoties
+            le<lb ed="#V" n="19" break="no"/>prosa peteret, dico quod ad talem
+            <lb ed="#V" n="20"/>poenam se obligavit in contractu
+            <lb ed="#V" n="21"/>matrimonii; unde et alicubi
+            Sa<lb ed="#V" n="22" break="no"/>cerdotes expresse ad ostium
+            Ec<lb ed="#V" n="23" break="no"/>clesiae exprimunt illud.
+          </p>
+          <p>
+            <lb ed="#V" n="24"/>Ad (k) argumenta. Ad primum
+            <lb ed="#V" n="25"/>nego minorem. Ad primam
+            pro<lb ed="#V" n="26" break="no"/>bationem, dico quod perpetuus
+            <lb ed="#V" n="27"/>usus rationis est majus bonum
+            <lb ed="#V" n="28"/>quam actus virtutis; et ideo qui
+            <lb ed="#V" n="29"/>per aliquem actum privaret se
+            <lb ed="#V" n="30"/>sic usu rationis, pec caret
+            mor<lb ed="#V" n="31" break="no"/>taliter, imo mortalissime. Sed
+            <lb ed="#V" n="32"/>carentia usus rationis pro
+            mo<lb ed="#V" n="33" break="no"/>mento non est tantum malum,
+            <lb ed="#V" n="34"/>sicut actus oppositus actui
+            vir<lb ed="#V" n="35" break="no"/>tutis, nec quodcumque privans usu
+            <lb ed="#V" n="36"/>rationis ad tempus, est peccatum;
+            <lb ed="#V" n="37"/>nam nimia tormenta ita
+            impe<lb ed="#V" n="38" break="no"/>diunt usum rationis, sicut
+            volu<lb ed="#V" n="39" break="no"/>ptates, et tamen martyres
+            scien<lb ed="#V" n="40" break="no"/>ter se exponentes talibus
+            tormen<lb ed="#V" n="41" break="no"/>tis, non peccarunt, sed meruerunt.
+          </p>
+          <p>
+            <lb ed="#V" n="42"/>Ad secundam probationem,
+            con<lb ed="#V" n="43" break="no"/>cedo, quod istis ante contractum
+            <lb ed="#V" n="44"/>non liceret talis actus, licet
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>tamen post contractum, non quod
+            <lb ed="#V" n="46"/>ipsi seipsos licentiare possint, sed
+            <lb ed="#V" n="47"/>faciunt quemdam actum, quo
+            <lb ed="#V" n="48"/>facto Deus licentiat eos ad
+            quem<lb ed="#V" n="49" break="no"/>dam actum sequentem, ad quem
+            <lb ed="#V" n="50"/>non licentiaret sine illo praevio;
+            <lb ed="#V" n="51"/>et ista responsio videtur bene
+            <lb ed="#V" n="52"/>persuadere, quod iste usus non
+            <lb ed="#V" n="53"/>est licitus ex sola justitia, qua
+            <lb ed="#V" n="54"/>voluntate propria dant se mutuo,
+            <lb ed="#V" n="55"/>sed adveniente approbatione
+            Su<lb ed="#V" n="56" break="no"/>perioris.
+          </p>
+          <p>
+            <lb ed="#V" n="57"/>Ad (1) secundum, patet ex
+            solu<lb ed="#V" n="58" break="no"/>tione, quod conjux non habet pro
+            <lb ed="#V" n="59"/>tunc jus petendi.
+          </p>
+          <p>
+            <lb ed="#V" n="60"/>Ad (m) tertium, Apostolus non
+            <lb ed="#V" n="61"/>dicit absolute abstinendum
+            tem<lb ed="#V" n="62" break="no"/>pore sacro, sed consuluit ad
+            <lb ed="#V" n="63"/>tempus, ut vacent orationi, et
+            <lb ed="#V" n="64"/>iterum reducantur in seipsis, ne
+            <lb ed="#V" n="65"/>tentet eos satanas. Et quod
+            addu<lb ed="#V" n="66" break="no"/>citur de Hieronymo, et ponitur
+            <lb ed="#V" n="67"/>33. quaest. 4. Quicumque uxori
+            debi<lb ed="#V" n="68" break="no"/>tum reddit, non potest carnes agni
+            <lb ed="#V" n="69"/>edere; respondeo, non potest
+            om<lb ed="#V" n="70" break="no"/>nino, cum reverentia debita. Et
+            <lb ed="#V" n="71"/>cum dicis, non excluditur aliquis
+            <lb ed="#V" n="72"/>propter actum praecepti a
+            com<lb ed="#V" n="73" break="no"/>municando, nego, quia aliquis
+            <lb ed="#V" n="74"/>actus praeceptus est, propter
+            <lb ed="#V" n="75"/>quem iste est minus dispositus
+            <lb ed="#V" n="76"/>ad reverenter percipiendum
+            Eu<lb ed="#V" n="77" break="no"/>charistiam. Si tamen loquaris de
+            <lb ed="#V" n="78"/>excludi ex necessitate praecepti,
+            <lb ed="#V" n="79"/>concedo quod non, quia non
+            vi<lb ed="#V" n="80" break="no"/>deo quo modo propter hoc solum
+            <lb ed="#V" n="81"/>peccaret mortaliter, si perciperet
+            <lb ed="#V" n="82"/>corpus Domini.
+          </p>
+          <p>
+            <lb ed="#V" n="83"/>Ad (n) ultimum dico quod in
+            lo<lb ed="#V" n="84" break="no"/>co sacro regulariter abstinendum
+            <lb ed="#V" n="85"/>est, quia non statim imminet
+            <lb ed="#V" n="86"/>periculum fornicationis, quin
+            sta<lb ed="#V" n="87" break="no"/>tim committi possit in loco non
+            <lb ed="#V" n="88"/>sacro. Si tamen diu oporteret eos
+            <pb ed="#V" n="347"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>commanere in loco sacro, negaret
+            <lb ed="#V" n="2"/>aliquis istum peccare, si redderet
+            <lb ed="#V" n="3"/>debitum ibi petitum. Quod
+            addu<lb ed="#V" n="4" break="no"/>citur de interdicto loci, diceretur
+            <lb ed="#V" n="5"/>forte, quod propter actum
+            occul<lb ed="#V" n="6" break="no"/>tum non est locus interdictus
+            sal<lb ed="#V" n="7" break="no"/>tem publice, ut oporteat cultum
+            <lb ed="#V" n="8"/>divinum ibidem publice
+            praeter<lb ed="#V" n="9" break="no"/>mitti.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

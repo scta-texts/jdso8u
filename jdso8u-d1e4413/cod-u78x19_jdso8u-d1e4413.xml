@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 24, Quaestio 1</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 24, Quaestio 1</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x19">Vives, Paris, 1894, volume 19</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="45"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e4413"><!-- jdso8u-b4d24q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum in Ecclesia sint septem Ordines eo modo quo Ordo vel Ordinatio ponitur sacramentum</head>
+        <!-- <div alias="scotus-d24q1-p1"> -->
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="37" type="fixed=45"/>QUAESTIO UNICA.
+            <lb ed="#V" n="38"/>Utrum in Ecclesia sint septem Ordines
+            <lb ed="#V" n="39"/>eo modo quo Ordo vel ordinatio
+            <lb ed="#V" n="40"/>ponitur Sacramentum?
+          </p>
+          <p>
+            <lb ed="#V" n="41"/>D. B onav. hic 1. part. art. 2. quaest. 2. D. Thom.
+            <lb ed="#V" n="42"/>in Supplem. quaest. 24. art. 3. Richard. hic
+            <lb ed="#V" n="43"/>art. 3. q. 2. Bellarm. lib. de Sacram. Ordin.
+            <lb ed="#V" n="44"/>cap. 2. Ruard. tom. 2. art. 17. Vasqu ez 3. part
+            <lb ed="#V" n="45"/>disp. 225. cap. 2. et disp. 240. cap. 3. Gabr. hic.
+            <lb ed="#V" n="46"/>quaest. unic. Major. 1. et 2. Navar. Sum.
+            <lb ed="#V" n="47"/>cap. 22.
+          </p>
+          <p>
+            <lb ed="#V" n="48"/>Circa istam vigesimam quartam
+            <lb ed="#V" n="49"/>distinctionem quaero unam
+            quae<lb ed="#V" n="50" break="no"/>stionem tantum: Utrum in
+            Eccle<lb ed="#V" n="51" break="no"/>sia sint septem Ordines, eo modo
+            <lb ed="#V" n="52"/>quo Ordo vel Ordinatio ponitur
+            <lb ed="#V" n="53"/>Sacramentum? Quod non, quia
+            <lb ed="#V" n="54"/>tunc in Ecclesia essent tredecim
+            <lb ed="#V" n="55"/>Sacramenta, quia praeter
+            Sacra<lb ed="#V" n="56" break="no"/>mentum Ordinis sunt alia sex.
+          </p>
+          <p>
+            <lb ed="#V" n="57"/>Praeterea, quilibet Ordo habet.
+            <lb ed="#V" n="58"/>characterem sibi proprium; ergo
+            <lb ed="#V" n="59"/>illis septem corresponderent
+            se<lb ed="#V" n="60" break="no"/>ptem characteres; consequens est
+            <lb ed="#V" n="61"/>falsum, quia aut illi essent
+            ejus<lb ed="#V" n="62" break="no"/>dem speciei, quod est falsum, quia
+            <lb ed="#V" n="63"/>plura accidentia ejusdem speciei
+            <lb ed="#V" n="64"/>non possunt esse simul et semel in
+            <lb ed="#V" n="65"/>eodem subjecto, ex 5. Metaph. aut
+            <lb ed="#V" n="66"/>alterius speciei; et hoc videtur
+            <lb ed="#V" n="67"/>inconveniens, quia in speciebus est
+            <lb ed="#V" n="68"/>essentialis nobilitas major et
+            mi<lb ed="#V" n="69" break="no"/>nor; non sic videretur assignari
+            <lb ed="#V" n="70"/>posse essentialis excellentia in
+            <lb ed="#V" n="71"/>istis characteribus.
+          </p>
+          <p>
+            <lb ed="#V" n="72"/>Praeterea, in primitiva Ecclesia
+            <lb ed="#V" n="73"/>tantum videntur fuisse duo
+            Ordi<lb ed="#V" n="74" break="no"/>nes, scilicet Sacerdotium et
+            Diaco<lb ed="#V" n="75" break="no"/>natus. Siquidem in Actibus
+            Apo<lb ed="#V" n="76" break="no"/>stolorum non legimus alios fuisse
+            <lb ed="#V" n="77"/>Ordines tunc in Ecclesia; ergo nec
+            <lb ed="#V" n="78"/>nunc sunt, quia Ecclesia post
+            tem<pb ed="#V" n="46"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>pus Apostolorum nullum Ordinem
+            <lb ed="#V" n="2"/>superaddidit, quia in isto
+            Sacra<lb ed="#V" n="3" break="no"/>mento, sicut et in aliis, oportet
+            in<lb ed="#V" n="4" break="no"/>venire institutionem ejus a Christo.
+          </p>
+          <p>
+            <lb ed="#V" n="5"/>Praeterea, Dionysius 5.
+            Ecclesiasti<lb ed="#V" n="6" break="no"/>coe Hierarch. ponit tantum tres
+            Or<lb ed="#V" n="7" break="no"/>dines, scilicet Episcopatum,
+            Sa<lb ed="#V" n="8" break="no"/>cerdotium et Diaconatum.
+          </p>
+          <p>
+            <lb ed="#V" n="9"/>Praeterea, Isidorus Etymoloq. lib.
+            <lb ed="#V" n="10"/>7. cap. 12. ponit Episcopatum esse
+            <lb ed="#V" n="11"/>Ordinem; sed nullus est istorum
+            <lb ed="#V" n="12"/>septem; ergo sunt plures. Idem
+            <lb ed="#V" n="13"/>de Episcopatu habetur in Canone
+            <lb ed="#V" n="14"/>dist. 21. cap. Cleros.
+          </p>
+          <p>
+            <lb ed="#V" n="15"/>Praeterea, prima tonsura
+            vide<lb ed="#V" n="16" break="no"/>tur Sacramentum, et quia signum
+            <lb ed="#V" n="17"/>sacrae rei, et quia habentes istam
+            <lb ed="#V" n="18"/>tonsuram, gaudent privilegio
+            cle<lb ed="#V" n="19" break="no"/>ricali, quod videtur proprium
+            or<lb ed="#V" n="20" break="no"/>dinatis. Oppositum Magister in
+            <lb ed="#V" n="21"/>littera.
+          </p>
+          <p>
+            <lb ed="#V" n="22"/>SCHOLIUM.
+            <lb ed="#V" n="23"/>Refutat definitionem Ordinis, quam ponit
+            <lb ed="#V" n="24"/>D. Bonav. tribus rationibus. Ponit
+            descripti<lb ed="#V" n="25" break="no"/>onem Ordinis ut sic, ex August. ac duplicem
+            <lb ed="#V" n="26"/>ejus acceptionem; ut vero hic tractatur,
+            af<lb ed="#V" n="27" break="no"/>fert duas definitiones ejus, unam secundum
+            <lb ed="#V" n="28"/>negantes Episcopatum esse Ordinem, aliam
+            <lb ed="#V" n="29"/>juxta id asserentes.
+          </p>
+          <p>
+            <lb ed="#V" n="30"/>Circa (a) quaestionem hanc sunt
+            <lb ed="#V" n="31"/>quatuor videnda: Primo, quid sit
+            <lb ed="#V" n="32"/>Ordo, secundum quod loquitur de
+            <lb ed="#V" n="33"/>Ordine. Secundo, quot sunt
+            Ordi<lb ed="#V" n="34" break="no"/>nes in Ecclesia, isto modo
+            loquen<lb ed="#V" n="35" break="no"/>di. Tertio, si Ordo est
+            Sacramen<lb ed="#V" n="36" break="no"/>tum. Quarto, quomodo sunt
+            <lb ed="#V" n="37"/>unum? De (b) primo dicitur, quod
+            <lb ed="#V" n="38"/>Sacramentum Ordinis est potestas
+            spiri<lb ed="#V" n="39" break="no"/>tualis ad aliquem actum exequendum in
+            <lb ed="#V" n="40"/>Ecclesiastica Hierachia; et per
+            conse<lb ed="#V" n="41" break="no"/>quens secundum ordinem
+            diversi<lb ed="#V" n="42" break="no"/>tatis ad tales actus in Ecclesia,
+            es<lb ed="#V" n="43" break="no"/>sent ordines distinguendi.
+          </p>
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="44"/>Contra, ex ista descriptione
+            se<lb ed="#V" n="45" break="no"/>quitur, quod Episcopatus sit Ordo,
+            <lb ed="#V" n="46"/>quod est contra eos. Patet enim
+            <lb ed="#V" n="47"/>quod Episcopatus est potestas ad
+            <lb ed="#V" n="48"/>aliquem actum in Ecclesia, utpote
+            <lb ed="#V" n="49"/>ad actum confirmandi et
+            conferen<lb ed="#V" n="50" break="no"/>di Ordines sacros; et non tantum
+            <lb ed="#V" n="51"/>potestas congrue exercendi, sed
+            <lb ed="#V" n="52"/>simpliciter exercendi, quia non
+            <lb ed="#V" n="53"/>Episcopus, si attentet istos actus,
+            <lb ed="#V" n="54"/>ut videtur, nihil facit.
+          </p>
+          <p>
+            <lb ed="#V" n="55"/>Secundo, sequitur quod sub
+            Or<lb ed="#V" n="56" break="no"/>dine sacerdotali non sit aliquis
+            Or<lb ed="#V" n="57" break="no"/>do in Ecclesia, quod est contra
+            <lb ed="#V" n="58"/>omnes. Probatio consequentiae,
+            <lb ed="#V" n="59"/>nam potestatem spiritualem,
+            lo<lb ed="#V" n="60" break="no"/>quendo de potestate spirituali
+            sim<lb ed="#V" n="61" break="no"/>pliciter, non habet Diaconus vel
+            <lb ed="#V" n="62"/>Subdiaconus, quia etsi aliquid
+            <lb ed="#V" n="63"/>congrue possit facere, quod non
+            <lb ed="#V" n="64"/>faceret congrue laicus, tamen, si
+            <lb ed="#V" n="65"/>laicus attentaret illud facere,
+            sim<lb ed="#V" n="66" break="no"/>pliciter faceret. Tertio sequitur,
+            <lb ed="#V" n="67"/>quod Sacerdotium sint duo Ordines
+            <lb ed="#V" n="68"/>quia Sacerdoti competit duplex
+            po<lb ed="#V" n="69" break="no"/>testas spiritualis, scilicet
+            conficien<lb ed="#V" n="70" break="no"/>di Eucharistiam, et absolvendi
+            poe<lb ed="#V" n="71" break="no"/>nitentiam, quae non sunt una
+            pote<lb ed="#V" n="72" break="no"/>stas, quia una videtur prior fuisse
+            <lb ed="#V" n="73"/>altera; cum in coena contulit Deus
+            <lb ed="#V" n="74"/>primam; secundam autem non,
+            <lb ed="#V" n="75"/>nisi post resurrectionem, Joan. 20.
+          </p>
+          <p>
+            <lb ed="#V" n="76"/>Intelligendum ergo, quod uno
+            <lb ed="#V" n="77"/>modo accipitur Ordo, sicut eum
+            <lb ed="#V" n="78"/>describit Augustinus 19. de Civit.
+            <lb ed="#V" n="79"/>Dei, cap. 13. quod Ordo est rerum
+            pari<lb ed="#V" n="80" break="no"/>um dispariumque unicuique sua loca
+            <lb ed="#V" n="81"/>tribuens, congrua dispositio. Isto modo
+            <lb ed="#V" n="82"/>accipimus communiter Ordinem,
+            <lb ed="#V" n="83"/>cum dicimus entium in universo
+            <lb ed="#V" n="84"/>esse ordinem; et ita loquitur
+            Ari<lb ed="#V" n="85" break="no"/>stoteles 12. Metaph. text. 52.
+            Om<lb ed="#V" n="86" break="no"/>nia ordinata sunt aliqualiter, et
+            de<lb ed="#V" n="87" break="no"/>clarat quomodo. Hoc modo etiam
+            <pb ed="#V" n="47"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>accipitur Ordo in politiis bene
+            di<lb ed="#V" n="2" break="no"/>spositis, ubi personarum parium
+            <lb ed="#V" n="3"/>et imparium in illa politia
+            con<lb ed="#V" n="4" break="no"/>grua dispositio dicitur esse Ordo
+            <lb ed="#V" n="5"/>illius politiae, a quo ipsa dicitur
+            <lb ed="#V" n="6"/>esse ordinata; sed alio modo
+            gra<lb ed="#V" n="7" break="no"/>dus praeeminens in tali politia
+            dici<lb ed="#V" n="8" break="no"/>tur Ordo; et sic persona in gradu
+            <lb ed="#V" n="9"/>praeeminenti dicitur habere
+            ordi<lb ed="#V" n="10" break="no"/>nem, sicut dicitur habere gradum,
+            <lb ed="#V" n="11"/>quasi antonomastice, quia qui sunt
+            <lb ed="#V" n="12"/>in gradu inferiori, non dicuntur
+            <lb ed="#V" n="13"/>sic habere gradum.
+          </p>
+          <p>
+            <lb ed="#V" n="14"/>Hoc modo in Ecclesia, quae est
+            <lb ed="#V" n="15"/>politia ordinata, congrue est Ordo
+            <lb ed="#V" n="16"/>secundum istam duplicem
+            accepti<lb ed="#V" n="17" break="no"/>onem; nam secundum primam,
+            to<lb ed="#V" n="18" break="no"/>ta Ecclesia est ordinata, illa
+            con<lb ed="#V" n="19" break="no"/>grua dispositione parium et
+            impa<lb ed="#V" n="20" break="no"/>rium uniuscujusque in suo loco.
+            <lb ed="#V" n="21"/>Secundo modo persona habens
+            <lb ed="#V" n="22"/>gradum eminentem in Ecclesia,
+            di<lb ed="#V" n="23" break="no"/>citur habere ordinem; et licet haec
+            <lb ed="#V" n="24"/>duo signata ponant se mutuo, quia
+            <lb ed="#V" n="25"/>ubi est Ordo primo modo in
+            poli<lb ed="#V" n="26" break="no"/>tia, ibi est gradus eminens, et ita
+            <lb ed="#V" n="27"/>Ordo secundo modo, tamen hoc
+            si<lb ed="#V" n="28" break="no"/>gnum et illud non sunt idem, ut
+            <lb ed="#V" n="29"/>satis patet. Sicut ergo loquitur de
+            <lb ed="#V" n="30"/>Ordine hic, accipitur pro secundo
+            <lb ed="#V" n="31"/>significato, non pro primo.
+          </p>
+          <p>
+            <lb ed="#V" n="32"/>Ulterius, gradus eminens in
+            Ec<lb ed="#V" n="33" break="no"/>clesia dicitur in ordine ad actum
+            <lb ed="#V" n="34"/>Ecclesiasticum eminentem, non sic
+            <lb ed="#V" n="35"/>quidem, quod gradus sit potestas
+            <lb ed="#V" n="36"/>exequendi actum illum, ut dixit
+            <lb ed="#V" n="37"/>prior opinio improbata, sed quod
+            <lb ed="#V" n="38"/>gradus sit disponens de congruo
+            <lb ed="#V" n="39"/>vel simpliciter ad exequendum, vel
+            <lb ed="#V" n="40"/>debite illum actum, ut sic possit
+            <lb ed="#V" n="41"/>Ordo, ut hic loquimur de Ordine,
+            <lb ed="#V" n="42"/>dici gradus praeeminens in
+            Eccle<lb ed="#V" n="43" break="no"/>sia disponens ad actum aliquem
+            <lb ed="#V" n="44"/>Ecclesiasticum eminentem; et quia
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>specialiter actus eminentes in
+            Ec<lb ed="#V" n="46" break="no"/>clesia sunt actus rescipientes
+            Sa<lb ed="#V" n="47" break="no"/>cramenta, ideo potest specialius
+            di<lb ed="#V" n="48" break="no"/>ci quod est gradus disponens ad
+            <lb ed="#V" n="49"/>aliquem actum sacramentalem.
+          </p>
+          <p>
+            <lb ed="#V" n="50"/>Ex hac ratione quasi generali,
+            <lb ed="#V" n="51"/>posset inquiri specialior ratio
+            Or<lb ed="#V" n="52" break="no"/>dinis, ut hic loquimur de Ordine,
+            <lb ed="#V" n="53"/>sed in hoc est quaedam
+            controver<lb ed="#V" n="54" break="no"/>sia. Qui enim ponunt Sacerdotium
+            <lb ed="#V" n="55"/>esse simpliciter supremum
+            Ordi<lb ed="#V" n="56" break="no"/>nem, negando Episcopatum esse
+            <lb ed="#V" n="57"/>Ordinem, ex quo Sacerdotium est
+            <lb ed="#V" n="58"/>gradus disponens ad Eucharistiam
+            <lb ed="#V" n="59"/>consecrandam, tanquam ad actum
+            <lb ed="#V" n="60"/>excellentiorem convenientem illi
+            <lb ed="#V" n="61"/>gradui, et ratio omnium Ordinum
+            <lb ed="#V" n="62"/>inferiorum vel graduum debet
+            acci<lb ed="#V" n="63" break="no"/>pi in ordine eorum ad istud primum
+            <lb ed="#V" n="64"/>diceretur, quod esset congrua
+            <lb ed="#V" n="65"/>descriptio Ordinis, quod est gradus
+            <lb ed="#V" n="66"/>eminens in Ecclesia disponens de congruo
+            <lb ed="#V" n="67"/>ad actum aliquem, ad consecrationem
+            <lb ed="#V" n="68"/>vel dispensationem Eucharistiae
+            pertinen<lb ed="#V" n="69" break="no"/>tem.
+          </p>
+          <p>
+            <lb ed="#V" n="70"/>Alii dicentes Episcopatum esse
+            <lb ed="#V" n="71"/>Ordinem, quia sibi competit aliquis
+            <lb ed="#V" n="72"/>gradus in Ecclesia, qui non
+            compe<lb ed="#V" n="73" break="no"/>tit Sacerdoti, non restringunt
+            <lb ed="#V" n="74"/>rationem Ordinis, quia disponat
+            <lb ed="#V" n="75"/>ad actum eminentem pertinentem
+            <lb ed="#V" n="76"/>ad Eucharistiam, sed in genere,
+            <lb ed="#V" n="77"/>quod sit gradus eminens in
+            Eccle<lb ed="#V" n="78" break="no"/>sia disponens ad actum aliquem
+            <lb ed="#V" n="79"/>sacramentalem exequendum. Et
+            <lb ed="#V" n="80"/>isto modo potestas, quam addit
+            <lb ed="#V" n="81"/>Episcopatus supra Sacerdotium,
+            <lb ed="#V" n="82"/>respicit aliquem actum
+            sacramen<lb ed="#V" n="83" break="no"/>talem, videlicet confirmare, et
+            <lb ed="#V" n="84"/>Ordines conferre, qui actus sunt
+            <lb ed="#V" n="85"/>proprii Episcopo.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d24q1-p2"> -->
+          <p>
+            <lb ed="#V" n="82" type="fixed=48"/>SCHOLIUM.
+            <lb ed="#V" n="83"/>Prima sententia dicens Episcopatum esse
+            <lb ed="#V" n="84"/>Ordinem et Sacramentum, quia non est
+            po<lb ed="#V" n="85" break="no"/>testas jurisdictionis; et ponit duos modos
+            <lb ed="#V" n="86"/>explicandi, unus quod includat Sacerdotium,
+            <pb ed="#V" n="49"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>et sic est eo perfectior, quia in actum ejus
+            <lb ed="#V" n="2"/>et in alios potesf. Secundus, quod
+            condistin<lb ed="#V" n="3" break="no"/>guatur ab eo, et sic licet illud supponat, est
+            <lb ed="#V" n="4"/>tamen eo imperfectior. Ponit sententiam
+            ne<lb ed="#V" n="5" break="no"/>gantem esse Ordinem, sed altercantem an
+            <lb ed="#V" n="6"/>possit a Papa tolli; quam altercationem
+            pu<lb ed="#V" n="7" break="no"/>tat Doctor variam, tenendo non esse
+            Ordi<lb ed="#V" n="8" break="no"/>nem, quia certum est quod potestas
+            jurisdi<lb ed="#V" n="9" break="no"/>ctionis tolli potest. In primam inclinat
+            <lb ed="#V" n="10"/>Doctor, quia impugnat secundam; et sic eum
+            <lb ed="#V" n="11"/>equitur Bassol. hic, et sic eum intelligits
+            <lb ed="#V" n="12"/>Bellarm. lib. 1. de Sacram. Ordin. cap. 5. et
+            <lb ed="#V" n="13"/>hoc puto verius. Ita Altisiod. lib. 4. Sum.
+            <lb ed="#V" n="14"/>tract. 8. quaest. 1. Palud. hic quaest. 6.
+            <lb ed="#V" n="15"/>art. 3. et quaest. 7. art. 3. Durand. quaest. 5.
+            <lb ed="#V" n="16"/>Supplem. Gabr. hic quaest unic. art. 3. dub. 9.
+            <lb ed="#V" n="17"/>Major quaest. 1. Navar. cap. 22. n. 18. noster
+            <lb ed="#V" n="18"/>Med.lib.1.de sacrorum hom. contin. cap. 3. 4.
+            <lb ed="#V" n="19"/>Bellarm. supra dicens esse Patrum Vasquez
+            <lb ed="#V" n="20"/>3. part. tom. 2. disp. 240. cap. 3. dicens
+            re<lb ed="#V" n="21" break="no"/>centiores in hoc conspirasse, canonistae c.
+            <lb ed="#V" n="22"/>Cleros 21. dist. et cap. Perlectis 25. dist.
+          </p>
+          <p>
+            <lb ed="#V" n="23"/>De (c) secundo articulo,
+            inniten<lb ed="#V" n="24" break="no"/>tes dictis Dionysii et Isidori
+            alle<lb ed="#V" n="25" break="no"/>gatis ad primam partem, et
+            cano<lb ed="#V" n="26" break="no"/>nistae dicunt Episcopatum esse
+            <lb ed="#V" n="27"/>proprie Ordinem. Ad quod videtur
+            <lb ed="#V" n="28"/>esse ratio, cum Episcopo
+            conveni<lb ed="#V" n="29" break="no"/>at quaedam potestas specialis,
+            in<lb ed="#V" n="30" break="no"/>quantum Episcopus, aut illa erit
+            <lb ed="#V" n="31"/>Ordinis, et tunc propositum; aut
+            <lb ed="#V" n="32"/>jurisdictionis, et tunc posset
+            aufer<lb ed="#V" n="33" break="no"/>ri per superiorem, quod videtur
+            <lb ed="#V" n="34"/>inconveniens, quia consecratio alia
+            <lb ed="#V" n="35"/>multo minor consecratione
+            Epis<lb ed="#V" n="36" break="no"/>copi, non potest auferri, quin
+            se<lb ed="#V" n="37" break="no"/>mel consecratum semper maneat
+            <lb ed="#V" n="38"/>consecratum. Probatur Extra de
+            <lb ed="#V" n="39"/>consecratione Ecclesice vel altaris, cap.
+            <lb ed="#V" n="40"/>aqua in Gloss.
+          </p>
+          <p>
+            <lb ed="#V" n="41"/>Ista via posset dupliciter teneri,
+            <lb ed="#V" n="42"/>comparando Episcopatum ad
+            Sa<lb ed="#V" n="43" break="no"/>cerdotium. Uno modo sic, quod
+            <lb ed="#V" n="44"/>gradus potest dici eminens
+            <lb ed="#V" n="45"/>vel propter universalitatem
+            actu<lb ed="#V" n="46" break="no"/>um, quos respicit, vel propter
+            no<cb ed="#V" n="b"/><lb ed="#V" n="47" break="no"/>bilitatem actus, quem respicit. Ista
+            <lb ed="#V" n="48"/>distinctio patet in aliis politiis, ubi
+            <lb ed="#V" n="49"/>alicui competunt plures actus, et
+            <lb ed="#V" n="50"/>alicui pauciores, tamen nobilior
+            <lb ed="#V" n="51"/>potest sibi competere; ut judex
+            <lb ed="#V" n="52"/>potest sententiare, qui est actus
+            <lb ed="#V" n="53"/>nobilior, quam multi alii, qui
+            <lb ed="#V" n="54"/>conveniunt personae inferiori. Sed
+            <lb ed="#V" n="55"/>cui competit universalitas ad
+            <lb ed="#V" n="56"/>actus, ei competit etiam actus
+            no<lb ed="#V" n="57" break="no"/>bilior, quia in universalitate
+            actu<lb ed="#V" n="58" break="no"/>um comprehenditur ille actus
+            <lb ed="#V" n="59"/>nobilior; et ex hoc videretur, quod
+            <lb ed="#V" n="60"/>gradus ille, qui respicit
+            universa<lb ed="#V" n="61" break="no"/>litatem actuum, sit simpliciter
+            <lb ed="#V" n="62"/>superior quam ille qui respicit
+            <lb ed="#V" n="63"/>praecise actum nobilissimum; et
+            <lb ed="#V" n="64"/>sic diceretur Episcopatus
+            simpli<lb ed="#V" n="65" break="no"/>citer superior Ordo, quia habet
+            <lb ed="#V" n="66"/>Ordinem ad omnes actus
+            Ecclesia<lb ed="#V" n="67" break="no"/>Sticos; Sacerdos non ad omnes,
+            li<lb ed="#V" n="68" break="no"/>cet ad nobilissimum.
+          </p>
+          <p>
+            <lb ed="#V" n="69"/>Et tunc argumentum cujusdam:
+            <lb ed="#V" n="70"/>Doctoris contra istam
+            conclusi<lb ed="#V" n="71" break="no"/>onem, quod est: Unus Ordo non
+            <lb ed="#V" n="72"/>dependet ad alium quantum ad
+            ne<lb ed="#V" n="73" break="no"/>cessitatem Sacramenti, sed si non
+            <lb ed="#V" n="74"/>Presbyter ordinaretur in
+            Episco<lb ed="#V" n="75" break="no"/>pum, nihil esset factum; concludit
+            <lb ed="#V" n="76"/>magis oppositum; nam quanto
+            <lb ed="#V" n="77"/>Ordo Episcopatus intimius includit
+            <lb ed="#V" n="78"/>Sacerdotium et alios gradus
+            infe<lb ed="#V" n="79" break="no"/>riores, tanto est simpliciter
+            per<lb ed="#V" n="80" break="no"/>fectior, quia essentialius respicit
+            <lb ed="#V" n="81"/>actus istorum inclusorum.
+          </p>
+          <p>
+            <lb ed="#V" n="82"/>Tenendo tamen istam
+            conclusi<lb ed="#V" n="83" break="no"/>onem, scilicet quod Episcopatus
+            <lb ed="#V" n="84"/>esset proprie Ordo, et alius a
+            Sa<lb ed="#V" n="85" break="no"/>cerdotio, posset adhuc dici quod
+            <lb ed="#V" n="86"/>non esset nobilior, quia etsi
+            in<lb ed="#V" n="87" break="no"/>cludendo Sacerdotium et
+            Episco<lb ed="#V" n="88" break="no"/>patum, sit eminentia gradus, quia
+            <lb ed="#V" n="89"/>ad plures actus quam per alterum
+            <lb ed="#V" n="90"/>solum, tamen illud quod praecise
+            <pb ed="#V" n="50"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>addit Episcopatus supra
+            Sacerdo<lb ed="#V" n="2" break="no"/>tium, non est ita excellens gradus.
+            <lb ed="#V" n="3"/>sicut Sacerdotium, quia per illud
+            <lb ed="#V" n="4"/>quod sibi superadditur, non
+            con<lb ed="#V" n="5" break="no"/>veniunt sibi actus ita nobiles, sicut
+            <lb ed="#V" n="6"/>conveniunt Sacerdoti per
+            Sacer<lb ed="#V" n="7" break="no"/>dotium.
+          </p>
+          <p>
+            <lb ed="#V" n="8"/>Nec haberent isti pro
+            inconveni<lb ed="#V" n="9" break="no"/>enti, quod imperfectior Ordo
+            <lb ed="#V" n="10"/>praesupponat, et hoc necessario, ut
+            <lb ed="#V" n="11"/>recipiatur post Ordinem
+            perfecti<lb ed="#V" n="12" break="no"/>orem, quando imperfectior addit
+            <lb ed="#V" n="13"/>aliquam universalitatem ad actus
+            <lb ed="#V" n="14"/>Ecclesiasticos, quam non includit
+            <lb ed="#V" n="15"/>ille, qui est perfectior, sed
+            tan<lb ed="#V" n="16" break="no"/>tum Ordinem ad actum
+            perfecti<lb ed="#V" n="17" break="no"/>orem.
+          </p>
+          <p>
+            <lb ed="#V" n="18"/>Alii contradicunt conclusioni,
+            <lb ed="#V" n="19"/>quam tenent illae duae viae, quia
+            <lb ed="#V" n="20"/>negant Episcopatum esse Ordinem
+            <lb ed="#V" n="21"/>proprie dictum, et ideo nec
+            Ordi<lb ed="#V" n="22" break="no"/>nem superiorem Sacerdotio, ut
+            <lb ed="#V" n="23"/>dicit prima via, nec eo
+            inferi<lb ed="#V" n="24" break="no"/>orem, ut dicit secunda. Nec dicit
+            <lb ed="#V" n="25"/>ibi characterem imprimi; sed an
+            <lb ed="#V" n="26"/>sit delebilis a Papa deponente
+            <lb ed="#V" n="27"/>Episcopum, vel non delebilis
+            pro<lb ed="#V" n="28" break="no"/>pter consecrationem, cum qua
+            <lb ed="#V" n="29"/>confertur, altercantur inter se;
+            <lb ed="#V" n="30"/>sed vana videtur altercatio,
+            negan<lb ed="#V" n="31" break="no"/>do Episcopatum esse Ordinem.
+            <lb ed="#V" n="32"/>Quaecumque enim jurisdictio in
+            <lb ed="#V" n="33"/>Ecclesia, vel per superiorem
+            sus<lb ed="#V" n="34" break="no"/>pendi potest, ita quod si tempore
+            <lb ed="#V" n="35"/>suspensionis attentet aliquid
+            face<lb ed="#V" n="36" break="no"/>re, nihil facit; vel potest totaliter
+            <lb ed="#V" n="37"/>pro omni tempore tolli.
+          </p>
+          <p>
+            <lb ed="#V" n="38"/>Saltem (a) quidquid sit de ista
+            <lb ed="#V" n="39"/>controversia de Episcopatu,
+            ac<lb ed="#V" n="40" break="no"/>tus nobilissimus in Ecclesia
+            sim<lb ed="#V" n="41" break="no"/>pliciter est consecratio
+            Euchari<lb ed="#V" n="42" break="no"/>stiae, et ita supremus gradus sive
+            <lb ed="#V" n="43"/>nobilissimus propter nobilitatem
+            <lb ed="#V" n="44"/>actus ad quem disponit, est
+            Sacer<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>dotium, et per consequens isto
+            mo<lb ed="#V" n="46" break="no"/>do accipiendo descriptionem
+            Ordi<lb ed="#V" n="47" break="no"/>nis juxta primam descriptionem
+            <lb ed="#V" n="48"/>positam in primo articulo, et
+            di<lb ed="#V" n="49" break="no"/>stinctionem Ordinis in Ecclesia,
+            <lb ed="#V" n="50"/>tantum sunt septem Ordines,
+            quo<lb ed="#V" n="51" break="no"/>rum primus est gradus disponens
+            <lb ed="#V" n="52"/>ad consecrationem Eucharistiae, et
+            <lb ed="#V" n="53"/>est Sacerdotium. Secundus gradus
+            <lb ed="#V" n="54"/>est disponens ad dispensationem
+            <lb ed="#V" n="55"/>Eucharistiae saltem sanguinis, et
+            <lb ed="#V" n="56"/>est Diaconatus. Tertius est
+            dispo<lb ed="#V" n="57" break="no"/>nens ad oblationem materiae
+            Eu<lb ed="#V" n="58" break="no"/>charistiae consccrandae, et est
+            Sub<lb ed="#V" n="59" break="no"/>diaconatus. Et patet ratio, quare
+            <lb ed="#V" n="60"/>tres isti gradus Sacramenti
+            dicun<lb ed="#V" n="61" break="no"/>tur Ordines, quia immediate
+            dis<lb ed="#V" n="62" break="no"/>ponunt ad actum aliquem, vel
+            mi<lb ed="#V" n="63" break="no"/>nisterium circa Eucharistiam,
+            <lb ed="#V" n="64"/>vel ejus materiam exhibendam.
+          </p>
+          <p>
+            <lb ed="#V" n="65"/>Alterius, aliqui alii gradus
+            dis<lb ed="#V" n="66" break="no"/>ponunt ad actus aliquos remote se
+            <lb ed="#V" n="67"/>habentes ad Eucharistiam; vel
+            er<lb ed="#V" n="68" break="no"/>go ad convenientem dispositionem
+            <lb ed="#V" n="69"/>in populo ad orandum et
+            suscipien<lb ed="#V" n="70" break="no"/>dum; vel removendum
+            impedimen<lb ed="#V" n="71" break="no"/>tum, seu dispositionem
+            inconve<lb ed="#V" n="72" break="no"/>nientem. Primo modo dispositio
+            <lb ed="#V" n="73"/>conveniens pertinens ad effectum
+            <lb ed="#V" n="74"/>est devotio, et ad hanc devotionem
+            <lb ed="#V" n="75"/>attendit Acolytus illuminando
+            ce<lb ed="#V" n="76" break="no"/>reos. Alia dispositio est pertinens
+            <lb ed="#V" n="77"/>ad intellectum, scilicet cognitio, et
+            <lb ed="#V" n="78"/>ad hanc agit Lector. Removere
+            <lb ed="#V" n="79"/>prohibens est arcere indignos, ne
+            <lb ed="#V" n="80"/>approximent; vel ergo indignos
+            <lb ed="#V" n="81"/>homines, et hoc pertinet ad
+            offi<lb ed="#V" n="82" break="no"/>cium Ostiarii; vel daemones, et hoc
+            <lb ed="#V" n="83"/>pertinet ad officium Exorcistae.
+          </p>
+          <p>
+            <lb ed="#V" n="84"/>Ex dictis apparet, quod non est
+            <lb ed="#V" n="85"/>proprius actus Diaconi legere
+            E<lb ed="#V" n="86" break="no"/>vangelium, et Subdiaconi
+            Episto<lb ed="#V" n="87" break="no"/>lam; sed isti sunt remoti, et minus
+            <lb ed="#V" n="88"/>perfecti actus eorum;
+            perfectissi<pb ed="#V" n="51"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>mi autem et proprii illorum
+            Ordi<lb ed="#V" n="2" break="no"/>num sunt, quos habet unus
+            imme<lb ed="#V" n="3" break="no"/>diate circa Eucharistiam
+            dispen<lb ed="#V" n="4" break="no"/>sandam, alius circa materiam ejus
+            <lb ed="#V" n="5"/>offerendam.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d24q1-p3"> -->
+          <p>
+            <lb ed="#V" n="22" type="fixed=76"/>SCHOLIUM.
+            <lb ed="#V" n="23"/>Ordinationem (Ordo enim proprie est ipse
+            <lb ed="#V" n="24"/>gradus seu character invisibilis) esse
+            Sacra<lb ed="#V" n="25" break="no"/>mentum. Hanc supponit Doctor. Ita Dionys.
+            <lb ed="#V" n="26"/>5. Eccles. Hierarch. Leo epist. 81. Gregor.
+            <lb ed="#V" n="27"/>lib. 4. in lib. Reg. c. 5. Concil. Chalced, can.
+            <lb ed="#V" n="28"/>2. act. 15. Flor. Decret. Eugen. Trident. sess.
+            <lb ed="#V" n="29"/>13. can. 3. de quo Bellarm. 1ib. 2. de sacr.
+            <lb ed="#V" n="30"/>Ordin. Castro v. Ordo. Waldens. tom. 2. c.
+            <lb ed="#V" n="31"/>123. Ponit descriptionem ordinationis
+            lon<lb ed="#V" n="32" break="no"/>gam, sed valde utilem et doctrinalem.
+          </p>
+          <p>
+            <lb ed="#V" n="33"/>De (e) tertio articulo dico, quod
+            <lb ed="#V" n="34"/>loquendo proprie de Sacramento,
+            <lb ed="#V" n="35"/>Ordo non est Sacramentum, quia
+            <lb ed="#V" n="36"/>omne Sacramentum est signum
+            <lb ed="#V" n="37"/>sensibile, et Ordo (ut dictum est)
+            <lb ed="#V" n="38"/>quidam gradus est spiritualis.
+            Ta<lb ed="#V" n="39" break="no"/>men accipiendo Sacramentum pro
+            <lb ed="#V" n="40"/>signo invisibili, sicut aliquid
+            dici<lb ed="#V" n="41" break="no"/>tur res et Sacramentum, hoc
+            <lb ed="#V" n="42"/>modo potest dici Sacramentum,
+            <lb ed="#V" n="43"/>quia signum convenientis gradus
+            <lb ed="#V" n="44"/>executioni actus debiti illi gradui,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>et etiam signum illius actus
+            con<lb ed="#V" n="46" break="no"/>venientis tali gradui.
+          </p>
+          <p>
+            <lb ed="#V" n="47"/>Quid (f) ergo est sextum
+            Sacra<lb ed="#V" n="48" break="no"/>mentum? Dico quod ordinatio,
+            <lb ed="#V" n="49"/>cujus descriptio potest esse ista:
+            <lb ed="#V" n="50"/>Ordinatio est institutio alicujus in gradu
+            <lb ed="#V" n="51"/>Ecclesice proeeminente, cui convenit
+            ali<lb ed="#V" n="52" break="no"/>quod ministerium circa Eucharistiam
+            <lb ed="#V" n="53"/>exhibendum, facta a ministro idoneo,
+            <lb ed="#V" n="54"/>certa verba proferente, et simul cum
+            <lb ed="#V" n="55"/>intentione debita ministerium gradus
+            <lb ed="#V" n="56"/>illius aliquo signo visibili repreesentans,
+            <lb ed="#V" n="57"/>ex institutione divina efficaciter signans
+            <lb ed="#V" n="58"/>gratiam proeeminentem, qua ordinatus
+            <lb ed="#V" n="59"/>digne aliquod ministerium exequatur.
+          </p>
+          <p>
+            <lb ed="#V" n="60"/>Et secundum universalem istam
+            <lb ed="#V" n="61"/>rationem ordinationis possunt
+            <lb ed="#V" n="62"/>proportionaliter accipi rationes
+            <lb ed="#V" n="63"/>speciales Ordinum, puta
+            ordina<lb ed="#V" n="64" break="no"/>tionis in Sacerdotem: Institutio in
+            <lb ed="#V" n="65"/>gradu Ecclesice simpliciter proeeminente
+            <lb ed="#V" n="66"/>disponens habentem ad conficiendum
+            Eu<lb ed="#V" n="67" break="no"/>charistiae Sacramentum, facta ab
+            Episco<lb ed="#V" n="68" break="no"/>po certa verba, cum intentione debita,
+            <lb ed="#V" n="69"/>proferente.
+          </p>
+          <p>
+            <lb ed="#V" n="70"/>Et si circa particulas hujusmodi
+            <lb ed="#V" n="71"/>descriptionis particularis, quaeras,
+            <lb ed="#V" n="72"/>quis est minister idoneus?
+            Respon<lb ed="#V" n="73" break="no"/>deo, dico quod Episcopus est solus
+            <lb ed="#V" n="74"/>in sacris Ordinibus; in aliis autem
+            <lb ed="#V" n="75"/>non sacris aliquando ex
+            commis<lb ed="#V" n="76" break="no"/>sione aliqui privilegiati, ut
+            Abba<lb ed="#V" n="77" break="no"/>tes.
+          </p>
+          <p>
+            <lb ed="#V" n="78"/>Si (g) quaeras quae verba, vel
+            <lb ed="#V" n="79"/>quae forma? Respondeo, illa quam
+            <lb ed="#V" n="80"/>Episcopi habent in suis libris
+            Epi<lb ed="#V" n="81" break="no"/>scopalibus. (h) Sed in Sacerdotio
+            <lb ed="#V" n="82"/>videtur probabile, quod ibi sint
+            <lb ed="#V" n="83"/>duae formae partiales, in quarum
+            <lb ed="#V" n="84"/>altera confertur potestas
+            confi<lb ed="#V" n="85" break="no"/>ciendi Eucharistiam; in reliqua
+            <lb ed="#V" n="86"/>potestas absolvendi in poenitentia.
+            <lb ed="#V" n="87"/>Et istis conjunguntur duae
+            mate<lb ed="#V" n="88" break="no"/>riae, hoc est, duo signa visibilia
+            <pb ed="#V" n="77"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>propria: formae primae traditio
+            <lb ed="#V" n="2"/>calicis et patenae cum hostia;
+            <lb ed="#V" n="3"/>Accipe potestatem celebrandi, etc.
+            se<lb ed="#V" n="4" break="no"/>cundae formae, impositio manus
+            <lb ed="#V" n="5"/>Episcopi super caput: Accipe
+            Spiri<lb ed="#V" n="6" break="no"/>tum sanctum, ut sic Episcopus
+            con<lb ed="#V" n="7" break="no"/>corditer agat summo Episcopo
+            <lb ed="#V" n="8"/>Christo, qui, ut dictum est prius,
+            <lb ed="#V" n="9"/>contulit potestatem Apostolis tam
+            <lb ed="#V" n="10"/>conficiendi quam absolvendi. Ex
+            <lb ed="#V" n="11"/>hoc etiam patet quomodo sunt
+            <lb ed="#V" n="12"/>septem Ordines, qui sunt'
+            institu<lb ed="#V" n="13" break="no"/>tiones in ordinibus; et illi septem
+            <lb ed="#V" n="14"/>dicuntur contineri sub
+            Sacramen<lb ed="#V" n="15" break="no"/>to Ordinis, vel magis proprie sub
+            <lb ed="#V" n="16"/>Sacramento ordinationis,
+            inquan<lb ed="#V" n="17" break="no"/>tum est unum Sacramentum.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d24q1-p4"> -->
+          <p>
+            <lb ed="#V" n="14" type="fixed=103"/>SCHOLIUM.
+            <lb ed="#V" n="15"/>Ordinationis Sacramentum esse unum
+            uni<lb ed="#V" n="16" break="no"/>tate generis propinqui, non unitate specifica,
+            <lb ed="#V" n="17"/>eo modo quo dicitur tres esse virtutes
+            mora<lb ed="#V" n="18" break="no"/>les, non in specie, sed in genere, de quo
+            <lb ed="#V" n="19"/>lib. 3. dist. 36. Ponit etiam aliam rationem
+            <lb ed="#V" n="20"/>unitatis ordinationis, sed haec praecipua.
+          </p>
+          <p>
+            <lb ed="#V" n="21"/>Sed (i) tunc de quarto qualiter
+            <lb ed="#V" n="22"/>est Sacramentum Ordinis unum?
+            <lb ed="#V" n="23"/>Respondeo, unitate generis
+            pro<lb ed="#V" n="24" break="no"/>pinqui, sicut virtutes morales
+            di<lb ed="#V" n="25" break="no"/>cuntur esse tres secundum genus,
+            <lb ed="#V" n="26"/>justitia, fortitudo, temperantia, et
+            <lb ed="#V" n="27"/>in prima divisione virtutis
+            mora<lb ed="#V" n="28" break="no"/>lis hae primo occurrunt; tamen in
+            <lb ed="#V" n="29"/>speciali quaelibet istarum ulterius
+            <lb ed="#V" n="30"/>dividitur, ut dictum est lib. 3.
+          </p>
+          <p>
+            <lb ed="#V" n="31"/>Est etiam alia unitas inter
+            Ordi<lb ed="#V" n="32" break="no"/>nes. Congruum est enim prius
+            <lb ed="#V" n="33"/>recipere Ordinem inferiorem quam
+            <lb ed="#V" n="34"/>superiorem, nec tamen ille Ordo
+            <lb ed="#V" n="35"/>est simpliciter necessarius, ita
+            <lb ed="#V" n="36"/>quod si praetermittatur, nihil fit,
+            <lb ed="#V" n="37"/>ut apparet Extra de clerico per
+            sal<lb ed="#V" n="38" break="no"/>tum promoto, ubi habetur quod non
+            <lb ed="#V" n="39"/>est iterandum quod est factum.
+            <lb ed="#V" n="40"/>Sed quod fuit praetermissum,
+            cau<lb ed="#V" n="41" break="no"/>te est supplendum, et per
+            conse<cb ed="#V" n="b"/><lb ed="#V" n="42" break="no"/>quens non nihil fit in collatione
+            <lb ed="#V" n="43"/>Ordinis superioris, etsi non fuerit
+            <lb ed="#V" n="44"/>Ordo inferior prius collatus; ista
+            <lb ed="#V" n="45"/>tamen unitas Ordinis non est illa,
+            <lb ed="#V" n="46"/>propter quam Ordo vel ordinatio
+            <lb ed="#V" n="47"/>est unum Sacramentum, sed
+            ma<lb ed="#V" n="48" break="no"/>gis unitas prior, scilicet generis.
+          </p>
+          <p>
+            <lb ed="#V" n="49"/>Ad argumenta. Ad primum dico,
+            <lb ed="#V" n="50"/>quod in divisione illa primaria
+            <lb ed="#V" n="51"/>Sacramenti in septem, Ordo vel
+            <lb ed="#V" n="52"/>magis ordinatio est ibi tantum
+            <lb ed="#V" n="53"/>unum membrum, licet possit
+            ul<lb ed="#V" n="54" break="no"/>terius dividi in quaedam specialia
+            <lb ed="#V" n="55"/>contenta sub ipso, quia illa prima
+            <lb ed="#V" n="56"/>divisio non est in species
+            specia<lb ed="#V" n="57" break="no"/>lissimas, sed in quaedam
+            propin<lb ed="#V" n="58" break="no"/>quius contenta sub ipso.
+          </p>
+          <p>
+            <lb ed="#V" n="59"/>Ad secundum, concedo plures
+            <lb ed="#V" n="60"/>esse characteres, et probabilius
+            <lb ed="#V" n="61"/>quod alterius speciei, ut apparet
+            <lb ed="#V" n="62"/>ex actibus, ad quos isti gradus
+            <lb ed="#V" n="63"/>disponunt; qui gradus vel sunt
+            <lb ed="#V" n="64"/>character, vel habent proprios
+            <lb ed="#V" n="65"/>characteres necessario
+            correspon<lb ed="#V" n="66" break="no"/>dentes. Cum arguitur de illa
+            ex<lb ed="#V" n="67" break="no"/>cellentia specifica, potest concedi
+            <lb ed="#V" n="68"/>quod eo modo quo characteres
+            <lb ed="#V" n="69"/>sunt entia, habent talem
+            excel<lb ed="#V" n="70" break="no"/>lentiam. Si etiam ponerentur
+            ejus<lb ed="#V" n="71" break="no"/>dem speciei, illa improbatio quod
+            <lb ed="#V" n="72"/>tunc non essent simul, non
+            con<lb ed="#V" n="73" break="no"/>cluderet; illa enim propositio non
+            <lb ed="#V" n="74"/>est vera de relationibus etiam
+            <lb ed="#V" n="75"/>realibus, et, sic ut dictum est supra
+            <lb ed="#V" n="76"/>dist. 6. quoest. 10. characterem non
+            <lb ed="#V" n="77"/>oportet ponere formam
+            absolu<lb ed="#V" n="78" break="no"/>tam.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d24q1-p5"> -->
+          <p>
+            <lb ed="#V" n="25" type="fixed=104"/>SCHOLIUM.
+            <lb ed="#V" n="26"/>In privativa Ecclesia, intelligendo per
+            <lb ed="#V" n="27"/>hanc, ipsum tempus Apostolorum, vel ei
+            <lb ed="#V" n="28"/>vicinum, rarus videtur fuisse usus
+            quorum<lb ed="#V" n="29" break="no"/>dam Ordinum, quia pauci erant tunc
+            fide<lb ed="#V" n="30" break="no"/>les. Tamen Cornelius creatus ann. 254. epist.
+            <lb ed="#V" n="31"/>ad Fabianum, ponit tunc Romae fuisse
+            Dia<lb ed="#V" n="32" break="no"/>conos septem, Subdiaconos totidem,
+            Acoly<lb ed="#V" n="33" break="no"/>tos 42. Exorcistas cum Lectoribus et
+            Ostia<lb ed="#V" n="34" break="no"/>riis 52. Iidem numerantur in Concil. Rom.
+            <lb ed="#V" n="35"/>sub Sylv. c. 3. et in Concil. Carthagin. IV.
+            <lb ed="#V" n="36"/>et licet ponat Psalmistam, can. 10. advertit
+            <lb ed="#V" n="37"/>non esse Ordinem. Isidor. 7. etym. 12.
+            Ra<lb ed="#V" n="38" break="no"/>banus de instit. cleric. c. 6. Hugo 2. de sacr.
+            <lb ed="#V" n="39"/>p. 3. cap. 5. Florent. et Trident. haec. 7.
+            <lb ed="#V" n="40"/>tantum ponunt et explicant. De quo Castro
+            <lb ed="#V" n="41"/>v. Ordo. Vasquez 3. part. tom. 2. disput. 236.
+            <lb ed="#V" n="42"/>et seq.
+          </p>
+          <p>
+            <lb ed="#V" n="43"/>Ad (k) tertium dico, quod in
+            <lb ed="#V" n="44"/>primitiva Ecclesia erant pauci
+            <lb ed="#V" n="45"/>credentes, et ideo pauci ministri
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="46"/>sufficiebant ad dispensandum eis
+            <lb ed="#V" n="47"/>Eucharistiam, et ideo non
+            opor<lb ed="#V" n="48" break="no"/>tuit tunc ministros in singulis
+            <lb ed="#V" n="49"/>gradibus institui. Post autem
+            mul<lb ed="#V" n="50" break="no"/>tiplicata est fides, et etiam
+            con<lb ed="#V" n="51" break="no"/>comitabatur devotio ad
+            commu<lb ed="#V" n="52" break="no"/>nicandum quotidie; et tunc fuit
+            <lb ed="#V" n="53"/>necessitas habendi multos
+            mini<lb ed="#V" n="54" break="no"/>stros ad singula ministeria ad
+            <lb ed="#V" n="55"/>Eucharistiam pertinentia; et ideo
+            <lb ed="#V" n="56"/>tunc Ecclesia multos ministros
+            <lb ed="#V" n="57"/>in singulis gradibus instituit.
+          </p>
+          <p>
+            <lb ed="#V" n="58"/>Nec tamen tunc de novo
+            insti<lb ed="#V" n="59" break="no"/>tuti sunt illi Ordines, imo
+            Magi<lb ed="#V" n="60" break="no"/>ster in littera dicit quod Christus
+            <lb ed="#V" n="61"/>actus singulorum Ordinum in
+            sei<lb ed="#V" n="62" break="no"/>pso exercuit, et etiam quod
+            an<lb ed="#V" n="63" break="no"/>tiquitus praefigurabantur in
+            qui<lb ed="#V" n="64" break="no"/>busdam gradibus
+            correspondenti<lb ed="#V" n="65" break="no"/>bus eis in lege Mosaica. Sed
+            Or<lb ed="#V" n="66" break="no"/>dines ab antiquo instituti, tunc
+            <lb ed="#V" n="67"/>quando multiplicatus est numerus
+            <lb ed="#V" n="68"/>fidelium, collati sunt ministris,
+            <lb ed="#V" n="69"/>quos prius non oportuit conferri
+            <lb ed="#V" n="70"/>alicui, quia non fuit prius
+            neces<lb ed="#V" n="71" break="no"/>sarium ejus ministerium.
+          </p>
+          <p>
+            <lb ed="#V" n="72"/>Haec est etiam ratio, quare
+            <lb ed="#V" n="73"/>modo in Ecclesia non sunt in
+            <lb ed="#V" n="74"/>singulis Ordinibus determinati
+            <lb ed="#V" n="75"/>ministri, quia etsi modo sit
+            mul<lb ed="#V" n="76" break="no"/>tiplicata multitudo fidelium,
+            ta<lb ed="#V" n="77" break="no"/>men est' immutata laetitia
+            devoti<lb ed="#V" n="78" break="no"/>one. Unde multi vix semel in
+            <lb ed="#V" n="79"/>anno volunt communicari, et ideo
+            <lb ed="#V" n="80"/>circa Eucharistiam dispensandam
+            <lb ed="#V" n="81"/>non oportet modo tot ministros
+            <lb ed="#V" n="82"/>assistere. Et propter hoc quatuor
+            <lb ed="#V" n="83"/>Ordines non sacri simul
+            confe<lb ed="#V" n="84" break="no"/>runtur, ita quod nullus est
+            depu<lb ed="#V" n="85" break="no"/>tatus ad ministrandum in gradu
+            <lb ed="#V" n="86"/>inferiori, quasi ille sit sibi
+            pro<lb ed="#V" n="87" break="no"/>prius, et alius alii.
+          </p>
+          <p>
+            <lb ed="#V" n="88"/>Ad aliud Dionysii, Isidori et
+            <lb ed="#V" n="89"/>Canonis patet ex dictis in secundo
+            <pb ed="#V" n="105"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>articulo; qui enim negant
+            Epi<lb ed="#V" n="2" break="no"/>scopatum esse Ordinem, exponunt
+            <lb ed="#V" n="3"/>eos accipere Sacramentum pro
+            <lb ed="#V" n="4"/>Sacramentali.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d24q1-p6"> -->
+          <p>
+            <lb ed="#V" n="15" type="fixed=105"/>SCHOLIUM.
+            <lb ed="#V" n="16"/>Primam tonsuram non esse Ordinem nec
+            <lb ed="#V" n="17"/>Sacramentum, sed quatuor minores
+            utrum<lb ed="#V" n="18" break="no"/>que habere. Ratio primae partis, quia non
+            <lb ed="#V" n="19"/>habet ullum actum vel ministerium, nec a
+            <lb ed="#V" n="20"/>Conciliis inter Ordines numeratur; ratio
+            <lb ed="#V" n="21"/>secundae est opposita. Ita D. Thom. hic
+            <lb ed="#V" n="22"/>quaest. 2. artic. 1. D. Bonav. art. 2. q. 1.
+            <lb ed="#V" n="23"/>Richard. art. 4. quaest. 1. Gabr. quaest. unic.
+            <lb ed="#V" n="24"/>art. 2. Alii multi tenent cum Cajet. tom. 1.
+            <lb ed="#V" n="25"/>opusc. tract. 11. post. princ. Navar. cap. 22.
+            <lb ed="#V" n="26"/>num. 18. Durand. hic quaest. 2. nec
+            tonsu<lb ed="#V" n="27" break="no"/>ram, nec minores esse Sacramenta.
+          </p>
+          <p>
+            <lb ed="#V" n="28"/>Ad (i) ultimum, nego primam
+            <lb ed="#V" n="29"/>tonsuram esse Ordinem. Et cum
+            <lb ed="#V" n="30"/>dicis, est signum sacrae rei,
+            re<lb ed="#V" n="31" break="no"/>spondeo, non est signum
+            practi<lb ed="#V" n="32" break="no"/>cum efficax rei sacramentalis, id
+            <lb ed="#V" n="33"/>est, gratiae, quomodo
+            intelligen<lb ed="#V" n="34" break="no"/>dum est Sacramentum esse
+            si<lb ed="#V" n="35" break="no"/>gnum rei sacrae, ut dictum est
+            <lb ed="#V" n="36"/>dist. 1. Quod additur ibi de
+            privile<lb ed="#V" n="37" break="no"/>gio clericali, non valet, quia laici
+            <lb ed="#V" n="38"/>conversi in Religionem gaudent
+            <lb ed="#V" n="39"/>privilegio clericali, et potuit
+            le<lb ed="#V" n="40" break="no"/>gislator illud privilegium
+            dedis<lb ed="#V" n="41" break="no"/>se Principi, vel alicui simpliciter
+            <lb ed="#V" n="42"/>laico; falsa est igitur illa
+            propo<cb ed="#V" n="b"/><lb ed="#V" n="43" break="no"/>sitio, quod illud privilegium est
+            <lb ed="#V" n="44"/>proprium ordinato.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

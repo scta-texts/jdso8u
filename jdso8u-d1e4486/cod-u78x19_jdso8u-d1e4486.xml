@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 27, Quaestio 2</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 27, Quaestio 2</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x19">Vives, Paris, 1894, volume 19</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="199"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e4486"><!-- jdso8u-b4d27q2 -->
+        <head>Quaestio 2</head>
+        <head type="question-title">Utrum consensus expressus verbis sit causa efficiens matrimonii</head>
+        <!-- <div alias="scotus-d27q2-p1"> -->
+          <p>
+            <lb ed="#V" n="58" type="fixed=199"/>QUAESTIO II.
+            <lb ed="#V" n="59"/>Utrum consensus expressus per verba sit
+            <lb ed="#V" n="60"/>causa sufficiens matrimonii?
+          </p>
+          <p>
+            <lb ed="#V" n="61"/>D. Thom. Supplem. quaest. 45. art. 3. et hic.
+            <lb ed="#V" n="62"/>quaest. 1. art. 2. D. Bonav. art. 1. quaest. 1.
+            <lb ed="#V" n="63"/>Richard. art. 1. q. 2. Argent. quaest. 1. art. 2.
+            <lb ed="#V" n="64"/>Sanchez 2. de Matrim. disput. 24. 25. et
+            <lb ed="#V" n="65"/>disput. 30. 31.
+            <lb ed="#V" n="66"/>Secundo quaero: An consensus
+            <lb ed="#V" n="67"/>expressus per verba sit causa
+            suf<lb ed="#V" n="68" break="no"/>ficiens matrimonii? Quod non,
+            <lb ed="#V" n="69"/>quia tunc nullus posset esse certus
+            <lb ed="#V" n="70"/>de matrimonio, sicut nec de
+            con<lb ed="#V" n="71" break="no"/>sensu alterius; non enim videt quis
+            <lb ed="#V" n="72"/>voluntatem alterius. Consequens
+            <lb ed="#V" n="73"/>est inconveniens, quia nullus
+            pos<lb ed="#V" n="74" break="no"/>set tunc uti certitudinaliter actu
+            <lb ed="#V" n="75"/>matrimonii sine periculo.
+            <lb ed="#V" n="76"/>Praeterea, 32. q. 2. Honorantur, in
+            <lb ed="#V" n="77"/>textu et in Glossa. et Extra de
+            sponsali<lb ed="#V" n="78" break="no"/>bus, Tuae. sufficit expressio
+            paren<lb ed="#V" n="79" break="no"/>tum pro filiis.
+            <lb ed="#V" n="80"/>Contra, Magister in littera, et
+            Ex<pb ed="#V" n="200"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>tra de sponsalibus, Tua nos, in fin. Sine
+            <lb ed="#V" n="2"/>consensu, etc. nequeunt matrimonium
+            <lb ed="#V" n="3"/>facere; consensus autem tacitus
+            <lb ed="#V" n="4"/>non sufficit ad Sacramentum, quia
+            <lb ed="#V" n="5"/>non est ibi signum sensibile
+            <lb ed="#V" n="6"/>SCHOLIUM.
+            <lb ed="#V" n="7"/>Consensum expressum per verba esse
+            di<lb ed="#V" n="8" break="no"/>spositionem, seu lato modo causam
+            efficien<lb ed="#V" n="9" break="no"/>tem matrimonii; de aliis signis, praeter
+            <lb ed="#V" n="10"/>verba, nihil affirmat, an sufficiant necne;
+            <lb ed="#V" n="11"/>de quo dist. praeced. num. 14.
+            <lb ed="#V" n="12"/>(b) Solutio istius quaestionis
+            pa<lb ed="#V" n="13" break="no"/>tet ex secunda conclusione primae
+            <lb ed="#V" n="14"/>quaestionis, quia ibi habetur
+            quali<lb ed="#V" n="15" break="no"/>ter contractus mutuae donationis
+            <lb ed="#V" n="16"/>potestatis corporum est honestus,
+            <lb ed="#V" n="17"/>et qualiter se habeat ad vinculum
+            <lb ed="#V" n="18"/>derelictum inter conjuges; et tunc
+            <lb ed="#V" n="19"/>ad formam quaestionis, non est
+            <lb ed="#V" n="20"/>dicendum quod sit proprie causa
+            <lb ed="#V" n="21"/>efficiens illius vinculi, sed est
+            dis<lb ed="#V" n="22" break="no"/>positio praevia, sicut baptizari et
+            <lb ed="#V" n="23"/>ordinari est praevia dispositio ad
+            <lb ed="#V" n="24"/>characterem. Consensus autem
+            ex<lb ed="#V" n="25" break="no"/>pressus verbis sufficientibus,
+            in<lb ed="#V" n="26" break="no"/>cludendo ista duo, nihil aliud est
+            <lb ed="#V" n="27"/>quam contractus matrimonii, et
+            <lb ed="#V" n="28"/>ideo se habet ad matrimonium,
+            sic<lb ed="#V" n="29" break="no"/>ut iste contractus.
+            <lb ed="#V" n="30"/>Ad (c) primum argumentum
+            di<lb ed="#V" n="31" break="no"/>co, quod potest ibi esse certitudo
+            <lb ed="#V" n="32"/>talis qualis requiritur in actibus
+            <lb ed="#V" n="33"/>humanis; in aliis enim
+            contracti<lb ed="#V" n="34" break="no"/>bus, puta venditionis vel
+            commu<lb ed="#V" n="35" break="no"/>tationis rerum, non requiritur
+            <lb ed="#V" n="36"/>certitudo demonstrativa, sed
+            suf<lb ed="#V" n="37" break="no"/>ficit probabilis, et ut in pluribus;
+            <lb ed="#V" n="38"/>et talis est in proposito, ex
+            suppo<lb ed="#V" n="39" break="no"/>sitione istius propositionis, quilibet
+            <lb ed="#V" n="40"/>habendus est verax, de quo non habetur
+            <lb ed="#V" n="41"/>evidens signum oppositi; et ista de
+            <lb ed="#V" n="42"/>lege naturae, id est, consona legi
+            <lb ed="#V" n="43"/>naturali, quod pro fideli et veraci
+            qui<cb ed="#V" n="b"/><lb ed="#V" n="44" break="no"/>libet habeatur, quousque per
+            experienti<lb ed="#V" n="45" break="no"/>am, vel per testimonium aliorum, fuerit
+            <lb ed="#V" n="46"/>certitudinaliter contrarium cestimatum.
+            <lb ed="#V" n="47"/>Si autem aliquis dicat se fraudasse
+            <lb ed="#V" n="48"/>personam secum contrahentem, de
+            <lb ed="#V" n="49"/>hoc infra dist. 30. q. 1.
+          </p>
+          <p>
+            <lb ed="#V" n="50"/>Ad secundum, concedo quod ad
+            <lb ed="#V" n="51"/>contractum sufficit parentes
+            con<lb ed="#V" n="52" break="no"/>trahere pro filiis, et sufficeret sine
+            <lb ed="#V" n="53"/>quibuscumque verbis contractus
+            <lb ed="#V" n="54"/>per litteras. Siquidem in aliis
+            con<lb ed="#V" n="55" break="no"/>tractibus emptionis et venditionis
+            <lb ed="#V" n="56"/>firmior contractus habetur in
+            lit<lb ed="#V" n="57" break="no"/>teris, quam in verbis nudis. Sed an
+            <lb ed="#V" n="58"/>in istis signis, aliis a verbis, vel
+            <lb ed="#V" n="59"/>exhibitis ab aliis, vel a
+            contrahen<lb ed="#V" n="60" break="no"/>tibus salvetur ratio Sacramenti,
+            <lb ed="#V" n="61"/>tactum est in conclusione quarta
+            <lb ed="#V" n="62"/>solutionis praecedentis.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

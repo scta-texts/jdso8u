@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 23, Quaestio 1</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 23, Quaestio 1</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x19">Vives, Paris, 1894, volume 19</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="3"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e4395"><!-- jdso8u-b4d23q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum extrema unctio sit sacramentum Novae Legis</head>
+        <!-- <div alias="scotus-d23q1-p1"> -->
+          <p>
+            <lb ed="#V" n="34" type="fixed=3"/>QUAESTIO UNICA.
+            <lb ed="#V" n="35"/>Utrum extrema Unctio sit Sacramentum
+            <lb ed="#V" n="36"/>novae legis.
+          </p>
+          <p>
+            <lb ed="#V" n="37"/>D. Thom. in suppl. q. 29. art. 1. et hic q. 1.
+            <lb ed="#V" n="38"/>art. 1. Richard. art. 1. q. 1. et per totum.
+            <lb ed="#V" n="39"/>D. Bonavent. art 1. et 2. per totum. Suar. tom.
+            <lb ed="#V" n="40"/>4. disp. 39. sect. 1. Bellarm. 1. 1. de Sacram.
+            <lb ed="#V" n="41"/>unct. cap. 4.
+          </p>
+          <p>
+            <lb ed="#V" n="42"/>Circa hanc (a) distinctionem
+            vi<lb ed="#V" n="43" break="no"/>1. gesimamtertiam, quaero hanc
+            quae<cb ed="#V" n="b"/><lb ed="#V" n="44" break="no"/>stionem includentem totam
+            mate<lb ed="#V" n="45" break="no"/>riam distinctionis: Utrum
+            extre<lb ed="#V" n="46" break="no"/>ma unctio sit Sacramentum novae
+            <lb ed="#V" n="47"/>legis? Quod non. Omnia
+            Sacra<lb ed="#V" n="48" break="no"/>menta novae legis sunt instituta a
+            <lb ed="#V" n="49"/>Christo, supra dist. 2. quoest. 1. sed
+            <lb ed="#V" n="50"/>istud videtur institutum fuisse a
+            <lb ed="#V" n="51"/>Jacobo in sua Canonica 5. cap.
+            <lb ed="#V" n="52"/>Infirmatur quis in vobis, inducat
+            presby<lb ed="#V" n="53" break="no"/>teros, et orent super eum, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="54"/>Item Sacramentum unum habet
+            <lb ed="#V" n="55"/>unam materiam et unam formam;
+            <lb ed="#V" n="56"/>hoc autem, secundum quod
+            mini<lb ed="#V" n="57" break="no"/>stratur ab Ecclesia, habet multas
+            <lb ed="#V" n="58"/>materias, quia multas unctiones, et
+            <lb ed="#V" n="59"/>multas formas, quia multas
+            orati<lb ed="#V" n="60" break="no"/>ones conjunctas multis
+            unctioni<lb ed="#V" n="61" break="no"/>bus. Oppositum Magister in
+            lit<lb ed="#V" n="62" break="no"/>tera.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d23q1-p2"> -->
+          <p>
+            <lb ed="#V" n="8" type="fixed=4"/>SCHOLIUM.
+            <lb ed="#V" n="9"/>Respectu finalis remissionis venialium,
+            <lb ed="#V" n="10"/>convenit esse, et de facto est, Sacramentum
+            <lb ed="#V" n="11"/>institutum in lege nova, scilicet extrema
+            <lb ed="#V" n="12"/>unctio. Pro hoc est locus Jacob. 5. et Marc.
+            <lb ed="#V" n="13"/>6. Nicaenum ex Arabico latine redditum
+            <lb ed="#V" n="14"/>cap. 69. Cabilonense can. 48. Flor. in
+            in<lb ed="#V" n="15" break="no"/>struct. Armen. Trid. sess. 14. can. 1. patres
+            <lb ed="#V" n="16"/>quos citat Bellarm. 1. 1. de Sacram. unct.
+            <lb ed="#V" n="17"/>cap. 4.
+          </p>
+          <p>
+            <lb ed="#V" n="18"/>Hic sunt duo videnda. (b) Primo,
+            <lb ed="#V" n="19"/>quod possibile est esse aliquod
+            Sa<lb ed="#V" n="20" break="no"/>cramentum novae legis, quod sit
+            <lb ed="#V" n="21"/>signum efficax finalis remissionis
+            <lb ed="#V" n="22"/>venialium, quod congruit, et quod
+            <lb ed="#V" n="23"/>hoc factum est. Secundo, quod
+            <lb ed="#V" n="24"/>extrema unctio est tale
+            Sacramen<lb ed="#V" n="25" break="no"/>tum, et de totali ratione extremae
+            <lb ed="#V" n="26"/>unctionis. Primum sic, possibile
+            <lb ed="#V" n="27"/>est Deum finaliter remittere
+            venia<lb ed="#V" n="28" break="no"/>lia; ergo possibile est sibi institui
+            <lb ed="#V" n="29"/>signum efficax istius remissionis.
+            <lb ed="#V" n="30"/>Consequentia patet, quia possibile
+            <lb ed="#V" n="31"/>est hominem instituere signum
+            <lb ed="#V" n="32"/>efficax practicum cujuscumque
+            <lb ed="#V" n="33"/>operis sui; ergo multo fortius est
+            <lb ed="#V" n="34"/>Deo possibile, et ita potest
+            quod<lb ed="#V" n="35" break="no"/>cumque signum sensibile, cujus
+            <lb ed="#V" n="36"/>institutio non includit
+            contradi<lb ed="#V" n="37" break="no"/>ctionem, instituere tanquam
+            si<lb ed="#V" n="38" break="no"/>gnum practicum efficax istius
+            <lb ed="#V" n="39"/>effectus.
+          </p>
+          <p>
+            <lb ed="#V" n="40"/>Hoc etiam congruum est,
+            reces<lb ed="#V" n="41" break="no"/>surum scilicet ab hac vita,
+            finali<lb ed="#V" n="42" break="no"/>ter a venialibus absolvi, quia ista
+            <lb ed="#V" n="43"/>non remissa essent impedimentum
+            <lb ed="#V" n="44"/>gloriae consequendae, et non
+            remis<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>sa possunt esse usque ad exitum,
+            <lb ed="#V" n="46"/>quia peccator quasi continue
+            pec<lb ed="#V" n="47" break="no"/>cat talibus peccatis. Hoc etiam
+            <lb ed="#V" n="48"/>factum est. Probatur ex illo verbo
+            <lb ed="#V" n="49"/>Jac. 5. Si in peccatis sit, remittentur
+            <lb ed="#V" n="50"/>ei; non intelligit de mortalibus,
+            <lb ed="#V" n="51"/>quia haec non remittuntur, nisi in
+            <lb ed="#V" n="52"/>Baptismo vel Poenitentia; ergo de
+            <lb ed="#V" n="53"/>venialibus. Sit ergo prima
+            conclu<lb ed="#V" n="54" break="no"/>sio, quod respectu finalis
+            remis<lb ed="#V" n="55" break="no"/>sionis venialium, convenit esse, et
+            <lb ed="#V" n="56"/>potest esse, et est Sacramentum
+            <lb ed="#V" n="57"/>novae legis.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d23q1-p3"> -->
+          <p>
+            <lb ed="#V" n="70" type="fixed=4"/>SCHOLIUM.
+            <lb ed="#V" n="71"/>Definit extremam Unctionem, et declarat
+            <lb ed="#V" n="72"/>optime particulas omnes definitionis,
+            mini<lb ed="#V" n="73" break="no"/>strum, subjectum, effectum, dispositionem,
+            <lb ed="#V" n="74"/>materiam, formam, etc. Quod ait effectum
+            <lb ed="#V" n="75"/>esse remissionem venialium, tenet D. Bonav.
+            <lb ed="#V" n="76"/>hic art. 1. q. 1. Richard. art. 1. q. 5. 6.
+            Du<lb ed="#V" n="77" break="no"/>rand. q. 1. Alens. 4. p. q. 5. memb. 7. art. 2.
+            <lb ed="#V" n="78"/>Navarr. c. 22. n. 13. quod intellige de effectu
+            <lb ed="#V" n="79"/>primario, quia habet alios effectus
+            secunda<lb ed="#V" n="80" break="no"/>rios, ut curationem corporis, excitationem
+            <lb ed="#V" n="81"/>devotionis, etc. Suarez tom. 4. d. 41. sect. 1.
+            <lb ed="#V" n="82"/>et Bellarm. lib. 1. de Sacr. Unct. putant ejus
+            <lb ed="#V" n="83"/>effectum non esse venialium ablationem.
+          </p>
+          <p>
+            <lb ed="#V" n="84"/>De secunda (c) conclusione
+            prin<lb ed="#V" n="85" break="no"/>cipali dicendum, quod illud
+            Sacra<lb ed="#V" n="86" break="no"/>mentum vocatur extrema unctio,
+            <lb ed="#V" n="87"/>cujus assignari potest ratio talis:
+            <pb ed="#V" n="5"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Extrema unctio est unctio hominis (d)
+            <lb ed="#V" n="2"/>infirmi poenitentis, facta in determinatis
+            <lb ed="#V" n="3"/>(e) partibus corporis, cum oleo consecrato
+            <lb ed="#V" n="4"/>ab Episcopo, ministrata a Sacerdote,
+            si<lb ed="#V" n="5" break="no"/>mul verba certa cum intentione debita
+            <lb ed="#V" n="6"/>proferente, ex institutione divina
+            effica<lb ed="#V" n="7" break="no"/>citer significans curationem finalem
+            ve<lb ed="#V" n="8" break="no"/>nialium. Ista ratio apparet bona,
+            <lb ed="#V" n="9"/>quia non est in se falsa, ex 5.
+            <lb ed="#V" n="10"/>Metaph. c. 17. quia nulla pars ejus
+            <lb ed="#V" n="11"/>repugnat alteri. Exponendo ergo
+            <lb ed="#V" n="12"/>partes, primo ponitur quod est
+            <lb ed="#V" n="13"/>unctio, cujus congruentia est, quia
+            <lb ed="#V" n="14"/>istud signum sensibile congruit
+            <lb ed="#V" n="15"/>effectui, scilicet interiori unctioni
+            <lb ed="#V" n="16"/>curativae; subditur: hominis infirmi.
+            <lb ed="#V" n="17"/>ideo non debet conferri sano, nec
+            <lb ed="#V" n="18"/>qualitercumque exposito periculo
+            <lb ed="#V" n="19"/>mortis, quia non ei cui imminet
+            <lb ed="#V" n="20"/>mors ex periculo extrinsecae
+            vio<lb ed="#V" n="21" break="no"/>lentiae, ut armorum, vel
+            submer<lb ed="#V" n="22" break="no"/>sionis, vel hujusmodi; nec
+            quali<lb ed="#V" n="23" break="no"/>tercumque infirmo, sed periculose,
+            <lb ed="#V" n="24"/>ita quod probabiliter immineat
+            <lb ed="#V" n="25"/>sibi exitus de statu viatoris ad
+            <lb ed="#V" n="26"/>terminum.
+          </p>
+          <p>
+            <lb ed="#V" n="27"/>Quod additur poenitentis, patet,
+            <lb ed="#V" n="28"/>quia nullus est capax istius
+            Sacra<lb ed="#V" n="29" break="no"/>menti digne, nisi sit in gratia;
+            <lb ed="#V" n="30"/>istud enim Sacramentum non est
+            <lb ed="#V" n="31"/>remedium acquirendi gratiam,
+            <lb ed="#V" n="32"/>quia ad hoc sunt tantum
+            Bapti<lb ed="#V" n="33" break="no"/>smus et Poenitentia. Et ex hoc
+            <lb ed="#V" n="34"/>excluduntur non utentes ratione,
+            <lb ed="#V" n="35"/>ut parvuli, et qui non habent
+            ma<lb ed="#V" n="36" break="no"/>teriam poenitentiae, saltem qui non
+            <lb ed="#V" n="37"/>habent poenitentiam de venialibus,
+            <lb ed="#V" n="38"/>ut perfecte innocentes, quia etiam
+            <lb ed="#V" n="39"/>non utentes ratione non possunt
+            <lb ed="#V" n="40"/>esse poenitentes; excluduntur
+            fu<lb ed="#V" n="41" break="no"/>riosi et amentes, et hoc nisi per
+            <lb ed="#V" n="42"/>voluntatem praecedentem
+            expres<lb ed="#V" n="43" break="no"/>sam praesumantur illud velle.
+          </p>
+          <p>
+            <lb ed="#V" n="44"/>Quod additur in determinatis
+            parti<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>bus, istae partes sunt organa
+            poten<lb ed="#V" n="46" break="no"/>tiarum, per quarum actus
+            pecca<lb ed="#V" n="47" break="no"/>tur frequenter venialiter, utpote
+            <lb ed="#V" n="48"/>organa quinque sensuum, et
+            po<lb ed="#V" n="49" break="no"/>tentiae motivae. Et hoc aliquando
+            <lb ed="#V" n="50"/>respectu ejusdem sensus, vel
+            po<lb ed="#V" n="51" break="no"/>tentiae geminatae, ut organa
+            poten<lb ed="#V" n="52" break="no"/>tiae visivae, ut oculi duo, organa
+            <lb ed="#V" n="53"/>potentiae auditivae duae aures,
+            or<lb ed="#V" n="54" break="no"/>gana potentiae olfactivae nares,
+            or<lb ed="#V" n="55" break="no"/>gana potentiae tactivae manus. Et
+            <lb ed="#V" n="56"/>sic istis praedictis, sicut
+            geminan<lb ed="#V" n="57" break="no"/>tur organa, ita geminantur
+            uncti<lb ed="#V" n="58" break="no"/>ones; organum gustus est lingua,
+            <lb ed="#V" n="59"/>in qua non fit propter
+            abomina<lb ed="#V" n="60" break="no"/>tionem tollendam, unctio, sed
+          </p>
+          <p>
+            <lb ed="#V" n="61"/>os. Propter
+            <lb ed="#V" n="62"/>exterius super
+            <lb ed="#V" n="63"/>autem organum potentiae
+            genera<lb ed="#V" n="64" break="no"/>tivae fit unctio ad lumbos, juxta
+            <lb ed="#V" n="65"/>illud Gregorii super illud Lucae:
+            <lb ed="#V" n="66"/>Sint lumbi vestri proecincti, etc. Viris,
+            <lb ed="#V" n="67"/>inquit, luxuria in lumbis est. Propter
+            <lb ed="#V" n="68"/>organum motivae quantum ad
+            pro<lb ed="#V" n="69" break="no"/>gressivam, quae est principalis
+            <lb ed="#V" n="70"/>motiva, fit duplex inunctio in
+            <lb ed="#V" n="71"/>duobus pedibus tanquam organis
+            <lb ed="#V" n="72"/>ad illum motum ordinatis.
+          </p>
+          <p>
+            <lb ed="#V" n="73"/>Alia motio, qua frequenter
+            pec<lb ed="#V" n="74" break="no"/>catur, est motio linguae, juxta
+            <lb ed="#V" n="75"/>illud Jacob. 3. Qui non offendit verbo,
+            <lb ed="#V" n="76"/>hic perfectus est vir, et multa alia ibi.
+            <lb ed="#V" n="77"/>Et contra istud est unctio oris, ita
+            <lb ed="#V" n="78"/>quod ipsa est remedium contra
+            <lb ed="#V" n="79"/>duplex peccatum veniale, sicut
+            <lb ed="#V" n="80"/>lingua congruit in duo opera
+            na<lb ed="#V" n="81" break="no"/>turae, 2. de Anima, in gustum
+            scili<lb ed="#V" n="82" break="no"/>cet et loquelam. Sunt ergo
+            unde<lb ed="#V" n="83" break="no"/>cim unctiones, scilicet partiales;
+            <lb ed="#V" n="84"/>sed aliquae sunt geminatae quasi
+            <lb ed="#V" n="85"/>una, ita quod sunt septem
+            princi<lb ed="#V" n="86" break="no"/>pales, quinque in organis quinque
+            <lb ed="#V" n="87"/>sensuum; sexta in organo
+            princi<lb ed="#V" n="88" break="no"/>pali potentiae motivae
+            progressi<lb ed="#V" n="89" break="no"/>vae; septima in organo principali
+            <lb ed="#V" n="90"/>generativae.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d23q1-p4"> -->
+          <p>
+            <lb ed="#V" n="67" type="fixed=16"/>SCHOLIUM.
+            <lb ed="#V" n="68"/>Materiam extremae unctionis esse oleum
+            <lb ed="#V" n="69"/>olivarum ab Episcopo consecratum. Prima
+            <lb ed="#V" n="70"/>pars patet ex loco Jacobi; et utraque pars ex
+            <lb ed="#V" n="71"/>Florentino, Decret. Eugen. Trident. sess. 14.
+            <lb ed="#V" n="72"/>de extrem. unction. cap. 1. et D. Thom. hic
+            <lb ed="#V" n="73"/>quaest. 1. art. 2. D. Bonavent. ar. 1. q. 3.
+            <lb ed="#V" n="74"/>Paludan. quaest. 1. Durand. quaest. 2. Quare
+            <lb ed="#V" n="75"/>Victoia summ. n. 216. vitandus est, quod
+            <lb ed="#V" n="76"/>dicat non requiri nocessario benedictionem.
+            <lb ed="#V" n="77"/>An vero per Presbyterum ex commissione
+            <lb ed="#V" n="78"/>Papae benedici possit oleum, non est
+            cer<lb ed="#V" n="79" break="no"/>tum; sed multi aiunt, multique negant, tam
+            <lb ed="#V" n="80"/>hic, quam agentes de materia
+            confirmati<lb ed="#V" n="81" break="no"/>onis. Explicat formam, quae est
+            deprecati<lb ed="#V" n="82" break="no"/>va, quam ponunt Florent. et Trident. supr.
+            <lb ed="#V" n="83"/>An autem sufficeret indicativa, non
+            conve<lb ed="#V" n="84" break="no"/>nit.
+          </p>
+          <p>
+            <lb ed="#V" n="85"/>Sequitur cum oleo (f). Nec oportet
+            <lb ed="#V" n="86"/>ibi esse aliquid confectum ex oleo
+            <lb ed="#V" n="87"/>et balsamo, ut in materia
+            confir<lb ed="#V" n="88" break="no"/>mationis, quia confirmatio est adb
+            <pb ed="#V" n="17"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>confessionem et confirmationem
+            <lb ed="#V" n="2"/>fidei; et ideo in confirmato
+            requi<lb ed="#V" n="3" break="no"/>ritur non tantum puritas
+            conscien<lb ed="#V" n="4" break="no"/>tiae significata per oleum, sed odor
+            <lb ed="#V" n="5"/>bonae famae significatus per
+            balsa<lb ed="#V" n="6" break="no"/>mum. Sed hic, qui habet exire in
+            <lb ed="#V" n="7"/>brevi de vita ad terminum, sufficit
+            <lb ed="#V" n="8"/>conscientia pura. Consecratio (g)
+            <lb ed="#V" n="9"/>autem Episcopalis est necessaria
+            <lb ed="#V" n="10"/>ad hoc, ut sit materia apta, quia
+            <lb ed="#V" n="11"/>communiter in Sacramentis
+            con<lb ed="#V" n="12" break="no"/>sistentibus in usu, solus
+            Baptis<lb ed="#V" n="13" break="no"/>mus non requirit materiam
+            spe<lb ed="#V" n="14" break="no"/>cialiter consecratam, quia
+            Chri<lb ed="#V" n="15" break="no"/>stus tactu mundissimae carnis
+            <lb ed="#V" n="16"/>suae, quando voluit a Joanne
+            ba<lb ed="#V" n="17" break="no"/>ptizari, totam aquam consecravit,
+            <lb ed="#V" n="18"/>hoc est, in usum istum
+            dedica<lb ed="#V" n="19" break="no"/>vit.
+          </p>
+          <p>
+            <lb ed="#V" n="20"/>Quod autem sequitur (h),
+            mini<lb ed="#V" n="21" break="no"/>strata a sacerdote, exprimit
+            mini<lb ed="#V" n="22" break="no"/>strum idoneum, non solum qui
+            li<lb ed="#V" n="23" break="no"/>cite exerceat, sed qui solus
+            Sa<lb ed="#V" n="24" break="no"/>cramentum ministret, ita quod si
+            <lb ed="#V" n="25"/>alius attentaret, nihil facit, sicut
+            <lb ed="#V" n="26"/>si non Sacerdos attentet
+            confice<lb ed="#V" n="27" break="no"/>re, nihil facit. Determinatio
+            au<lb ed="#V" n="28" break="no"/>tem hujus ministri habetur per
+            <lb ed="#V" n="29"/>illud Jac. 5. Inducant Presbyteros.
+          </p>
+          <p>
+            <lb ed="#V" n="30"/>Quae sequuntur, (i) verba debita et
+            <lb ed="#V" n="31"/>simul cum intentione debita proferente,
+            <lb ed="#V" n="32"/>pertinet ad formam hujus
+            Sacra<lb ed="#V" n="33" break="no"/>menti, et simultatem ejus cum
+            <lb ed="#V" n="34"/>materia et intentione ministri.
+            <lb ed="#V" n="35"/>Simultas et intentio exposita sunt
+            <lb ed="#V" n="36"/>satis supra in materia deBaptismo
+            <lb ed="#V" n="37"/>Forma autem haec septuplex ad
+            <lb ed="#V" n="38"/>septem unctiones principales est:
+            <lb ed="#V" n="39"/>Per stam sanctam unctionemet suam
+            piis<lb ed="#V" n="40" break="no"/>simam misericordiam, parcat tibi
+            Domi<lb ed="#V" n="41" break="no"/>nus quidquid narium, linquae, tactus,
+            <lb ed="#V" n="42"/>vel hujusmodi, vitio deliquisti.
+          </p>
+          <p>
+            <lb ed="#V" n="43"/>Ista ratio posita completa est,
+            <lb ed="#V" n="44"/>quia continet susceptivum, quia
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>hominem poenitentem infirmum, et
+            <lb ed="#V" n="46"/>hoc in partibus determinatis prius
+            <lb ed="#V" n="47"/>expressis, et materiam remotam,
+            <lb ed="#V" n="48"/>scilicet oleum consecratum ab
+            <lb ed="#V" n="49"/>Episcopo, vel proximam, ipsam
+            <lb ed="#V" n="50"/>unctionem factam cum oleo; et hoc
+            <lb ed="#V" n="51"/>septenariam principalem, et
+            unde<lb ed="#V" n="52" break="no"/>nariam, computando omnes
+            par<lb ed="#V" n="53" break="no"/>tiales. Continet etiam formam,
+            <lb ed="#V" n="54"/>quia certa verba, id est, septem
+            <lb ed="#V" n="55"/>orationes a Sacerdote cum septem
+            <lb ed="#V" n="56"/>unctionibus principalibus
+            profe<lb ed="#V" n="57" break="no"/>rendas; continet etiam ministrum,
+            <lb ed="#V" n="58"/>quia Sacerdotem; et hoc colligitur
+            <lb ed="#V" n="59"/>ut dictum est Jac. 5. ungentes oleo
+            <lb ed="#V" n="60"/>sancio, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="61"/>Ad primum dicitur hoc
+            Sacra<lb ed="#V" n="62" break="no"/>mentum fuisse institutum a
+            Chri<lb ed="#V" n="63" break="no"/>Sto, ut supra patuit dist. et queest.
+            pree<lb ed="#V" n="64" break="no"/>dictis. Jacobus autem non erat nisi
+            <lb ed="#V" n="65"/>promulgator, sive praeco hujus
+            Sa<lb ed="#V" n="66" break="no"/>cramenti a Christo instituti.
+          </p>
+          <p>
+            <lb ed="#V" n="67"/>Ad secundum dico, quod est unum
+            <lb ed="#V" n="68"/>Sacramentum unitate integritatis,
+            <lb ed="#V" n="69"/>sed non unitate indivisibilitatis,
+            <lb ed="#V" n="70"/>sicut effectus ejus non est unus
+            <lb ed="#V" n="71"/>indivisibiliter, quia non remissio
+            <lb ed="#V" n="72"/>unius venialis, sed unus unitate
+            <lb ed="#V" n="73"/>plenariae remissionis omnium
+            ve<lb ed="#V" n="74" break="no"/>nialium, ut omnibus remissis
+            ni<lb ed="#V" n="75" break="no"/>hil remaneat retardans a
+            perce<lb ed="#V" n="76" break="no"/>ptione beatitudinis, quam nobis
+            <lb ed="#V" n="77"/>concedat, etc.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

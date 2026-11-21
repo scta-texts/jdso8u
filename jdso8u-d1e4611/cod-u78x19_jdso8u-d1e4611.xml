@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 33, Quaestio 2</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 33, Quaestio 2</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x19">Vives, Paris, 1894, volume 19</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="374"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e4611"><!-- jdso8u-b4d33q2 -->
+        <head>Quaestio 2</head>
+        <head type="question-title">Utrum 'bigamus ante baptismum' possit post baptismum ad sacros Ordines promoveri</head>
+        <!-- <div alias="scotus-d33q2-p1"> -->
+          <p>
+            <lb ed="#V" n="31" type="fixed=374"/>QUAESTIO II.
+            <lb ed="#V" n="32"/>Utrum bigamus ante Baptismum, posset
+            <lb ed="#V" n="33"/>post Baptismum ordinari?
+          </p>
+          <p>
+            <lb ed="#V" n="34"/>D. Thom. 4. dist. 27. q. 3. artic. 2. c. Acutius,
+            <lb ed="#V" n="35"/>dist. 26. quod est August. et c. fin. 28. dist.
+            <lb ed="#V" n="36"/>Canonistae cap. Gaudemus, de divort. gloss. c. 1.
+            <lb ed="#V" n="37"/>dist. 26. Bellarm. tib. 1. de cler. c. 24.
+            IIenri<lb ed="#V" n="38" break="no"/>quez lib. 14. cap. 17. Sanchius lib. 7. de
+            ma<lb ed="#V" n="39" break="no"/>trim. disp. 83. num. 3. Suarez tom. 5. disp.
+            <lb ed="#V" n="40"/>41. sect. 1. Sylvest. v. Irregularitas, quaest 28.
+          </p>
+          <p>
+            <lb ed="#V" n="41"/>Ad (i) secundum, arguitur quod
+            <lb ed="#V" n="42"/>.sic, quia secundum Hieronymum
+            <lb ed="#V" n="43"/>in epistola ad Oceanum, et ponitur
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="44"/>dist. 26. cap. 1. Si ante Baptismum
+            <lb ed="#V" n="45"/>conjugem habuit, quae habuit virum, non
+            <lb ed="#V" n="46"/>imputatur ei, cui prorsus novo, nec
+            stu<lb ed="#V" n="47" break="no"/>pra, nec alia quoe ante fuerant, obsunt.
+          </p>
+          <p>
+            <lb ed="#V" n="48"/>Praeterea dist. 50. habetur: Si quis
+            <lb ed="#V" n="49"/>viduam; et hic in Glossa quod si ante
+            <lb ed="#V" n="50"/>Baptismum occidit, post Baptismum
+            po<lb ed="#V" n="51" break="no"/>test promoveri; ergo a simili de
+            bi<lb ed="#V" n="52" break="no"/>gamia ante Baptismum.
+          </p>
+          <p>
+            <lb ed="#V" n="53"/>Contra, Augustinus super
+            episto<lb ed="#V" n="54" break="no"/>lam ad Titum; et ponitur dist. 26.
+            <lb ed="#V" n="55"/>cap. 2. Acutius intelligunt, qui nec eum
+            <lb ed="#V" n="56"/>qui catechumenus vel Paganus ante
+            Ba<lb ed="#V" n="57" break="no"/>ptismum habuit unam, et post Baptismum
+            <lb ed="#V" n="58"/>aliam, ordinandum censuerunt.
+            Praete<lb ed="#V" n="59" break="no"/>rea ibidem, cap. Una tantum, et est
+            <lb ed="#V" n="60"/>Ambrosii de offic. Ante Baptisma,
+            ite<lb ed="#V" n="61" break="no"/>rata conjugia proerogativae ordinationis
+            <lb ed="#V" n="62"/>impedimenta generant.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d33q2-p2"> -->
+          <p>
+            <lb ed="#V" n="81" type="fixed=374"/>SCHOLIUM.
+            <lb ed="#V" n="82"/>Bigamia (id est, irregularitas ex defectu
+            si<lb ed="#V" n="83" break="no"/>gnificationis Sacramenti) non tollitur per
+            <lb ed="#V" n="84"/>Baptismum. Ita Augustin. de bono conjug.
+            <lb ed="#V" n="85"/>18. et habetur c. Acutius, dist. 26. Ambros.
+            <pb ed="#V" n="375"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>lib. 1. de offic. c. ult. habetur c. pen. dist.
+            <lb ed="#V" n="2"/>26. D. Thom. 4. dist. 27. q. 3. art. 2. Juristae,
+            <lb ed="#V" n="3"/>c. Gaudemus, de divort. Vide Bellarm. 1. de
+            <lb ed="#V" n="4"/>cler. c. 24. Henriq. lib. 14. c. 17. n. 2. est
+            <lb ed="#V" n="5"/>contra Hieron. ut habetur c. 1. 26. dist.
+          </p>
+          <p>
+            <lb ed="#V" n="6"/>Hic (k) sunt duo videnda: Primo,
+            <lb ed="#V" n="7"/>quid tenendum; secundo, propter
+            <lb ed="#V" n="8"/>quam causam. De (1) primo,
+            con<lb ed="#V" n="9" break="no"/>cordant omnes quod bigamus, sive
+            <lb ed="#V" n="10"/>ante Baptismum, sive post, est
+            ir<lb ed="#V" n="11" break="no"/>regularis, sicut habetur expresse
+            <lb ed="#V" n="12"/>per capita allegata ad oppositum.
+            <lb ed="#V" n="13"/>Homicida tamen ante Baptismum,
+            <lb ed="#V" n="14"/>post Baptismum non est
+            irregula<lb ed="#V" n="15" break="no"/>ris, sicut habetur expresse in
+            <lb ed="#V" n="16"/>Glossa dist. 50. Si quis viduam, ubi
+            <lb ed="#V" n="17"/>Glossa super illud verbum: Post
+            <lb ed="#V" n="18"/>Baptismum, arguit a contrario
+            sen<lb ed="#V" n="19" break="no"/>su; ergo si ante Baptismum
+            con<lb ed="#V" n="20" break="no"/>scius est homicidii, non obest.
+            <lb ed="#V" n="21"/>Quod autem dicitur ab aliquibus,
+            <lb ed="#V" n="22"/>nullum posse contrahere
+            irregula<lb ed="#V" n="23" break="no"/>ritatem ante Baptismum, cujus
+            <lb ed="#V" n="24"/>rationem assignant, quia tunc non
+            <lb ed="#V" n="25"/>potest aliquid habere privationem,
+            <lb ed="#V" n="26"/>quando non est natum habere
+            ha<lb ed="#V" n="27" break="no"/>bitum, sicut catulus ante nonam
+            <lb ed="#V" n="28"/>diem non potest esse caecus, sed
+            <lb ed="#V" n="29"/>ante Baptismum non est homo
+            ca<lb ed="#V" n="30" break="no"/>pax ordinis, probatur Extra de
+            Pre<lb ed="#V" n="31" break="no"/>sbytero non baptizato, cap. Si quis
+            Pre<lb ed="#V" n="32" break="no"/>sbyter non fuerit baptizatus, baptizetur, et
+            <lb ed="#V" n="33"/>postea ordinetur.
+          </p>
+          <p>
+            <lb ed="#V" n="34"/>Ex quo patet, quod nihil recepit
+            <lb ed="#V" n="35"/>prius, quando videbatur ordinari
+            <lb ed="#V" n="36"/>Sacerdos, nam si recepisset
+            Ordi<lb ed="#V" n="37" break="no"/>nem, non esset postea
+            reordinan<lb ed="#V" n="38" break="no"/>dus; sicut habetur Extra de clerico
+            <lb ed="#V" n="39"/>per saltum promoto, ubi dicitur quod
+            <lb ed="#V" n="40"/>recipiens Ordinem posteriorem
+            <lb ed="#V" n="41"/>sine priori, recipiat postea
+            Ordi<lb ed="#V" n="42" break="no"/>nem praetermissum, non iterando
+            <lb ed="#V" n="43"/>posteriorem prius receptum.
+          </p>
+          <p>
+            <lb ed="#V" n="44"/>Sed haec ratio non valet, quia
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>etsi privatio non possit inesse
+            ali<lb ed="#V" n="46" break="no"/>cui, nisi quando natum est habere
+            <lb ed="#V" n="47"/>habitum, tamen impedimentum
+            <lb ed="#V" n="48"/>habendi habitum pro tempore quo
+            <lb ed="#V" n="49"/>deberet inesse, potest praecedere
+            <lb ed="#V" n="50"/>tempus habendi habitum, sicut
+            pa<lb ed="#V" n="51" break="no"/>tet in exemplo adducto, quia
+            catu<lb ed="#V" n="52" break="no"/>lus ante nonam diem potest
+            habe<lb ed="#V" n="53" break="no"/>re aliquod impedimentum, ne
+            ha<lb ed="#V" n="54" break="no"/>beat visum, tempore quo sibi
+            com<lb ed="#V" n="55" break="no"/>peteret. Trregularitas autem non
+            <lb ed="#V" n="56"/>est privatio proprie ejus, quod est
+            <lb ed="#V" n="57"/>habere Ordines, sed magis est
+            im<lb ed="#V" n="58" break="no"/>pedimentum, ne quis sit capax
+            Or<lb ed="#V" n="59" break="no"/>dinis pro tempore, quo sibi
+            com<lb ed="#V" n="60" break="no"/>peteret; ergo potest esse ante
+            Ba<lb ed="#V" n="61" break="no"/>ptismum. Esto etiam, quod
+            priva<lb ed="#V" n="62" break="no"/>tio non possit inesse, tamen causa
+            <lb ed="#V" n="63"/>privationis potest inesse, quando
+            <lb ed="#V" n="64"/>habitus non est natus inesse; et ita
+            <lb ed="#V" n="65"/>haec irregularitas, quae est causa
+            <lb ed="#V" n="66"/>privandi vel carendi Ordine pro
+            <lb ed="#V" n="67"/>tempore congruo.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d33q2-p3"> -->
+          <p>
+            <lb ed="#V" n="77" type="fixed=376"/>SCHOLIUM.
+            <lb ed="#V" n="78"/>Ideo de congruo bigamum esse
+            irregula<lb ed="#V" n="79" break="no"/>rem, quia non potest repraesentare Christum
+            <lb ed="#V" n="80"/>unicum sponsum unius sponsae Ecclesiae.
+            <lb ed="#V" n="81"/>Refutat duas opiniones de ratione hujus a
+            <lb ed="#V" n="82"/>priori, et resolvit eam esse Ecclesiae
+            statu<lb ed="#V" n="83" break="no"/>tum quo cavetur, irregularitatem bigamiae
+            <lb ed="#V" n="84"/>per Baptismum non tolli, sicut tollitur
+            irre<lb ed="#V" n="85" break="no"/>gularitas homicidii, et ponit pro hoc bonam
+            <lb ed="#V" n="86"/>congruentiam.
+          </p>
+          <p>
+            <pb ed="#V" n="377"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>De (m) secundo, aliud est loqui
+            <lb ed="#V" n="2"/>de causa congruitatis, et de causa
+            <lb ed="#V" n="3"/>necessitatis; nam causa quare
+            con<lb ed="#V" n="4" break="no"/>gruit bigamum arceri ab
+            Ordini<lb ed="#V" n="5" break="no"/>bus sacris, una communiter
+            poni<lb ed="#V" n="6" break="no"/>tur ab omnibus, defectus
+            Sacra<lb ed="#V" n="7" break="no"/>menti, quam tangit Augustinus
+            <lb ed="#V" n="8"/>dist. 26. cap. Acutius, Ambrosius
+            ibi<lb ed="#V" n="9" break="no"/>dem cad. Una. Et arguitur sic:
+            Sa<lb ed="#V" n="10" break="no"/>cerdos tanquam Christi Vicarius
+            <lb ed="#V" n="11"/>in Ecclesia repraesentans
+            perso<lb ed="#V" n="12" break="no"/>nam Christi, non debet habere
+            ali<lb ed="#V" n="13" break="no"/>quid repugnans Christo, in
+            compa<lb ed="#V" n="14" break="no"/>ratione Christi ad Ecclesiam, et e
+            <lb ed="#V" n="15"/>converso; nunc autem Christus
+            <lb ed="#V" n="16"/>est unicus sponsus unius Ecclesiae,
+            <lb ed="#V" n="17"/>et Ecclesia est unica sponsa unici
+            <lb ed="#V" n="18"/>sponsi Christi; ergo habens
+            oppo<lb ed="#V" n="19" break="no"/>situm hujus non recte signat, vel
+            <lb ed="#V" n="20"/>repraesentat Christum in Ecclesia;
+            <lb ed="#V" n="21"/>sed bigamus, qui habuit duas vel
+            <lb ed="#V" n="22"/>unam, quae fuit duorum, habet
+            ali<lb ed="#V" n="23" break="no"/>quid repugnans isti conjunctioni
+            <lb ed="#V" n="24"/>Christi et Ecclesiae; ergo.
+          </p>
+          <p>
+            <lb ed="#V" n="25"/>Sed (n) quaerendo causam
+            neces<lb ed="#V" n="26" break="no"/>sitatis, propter quam iste
+            necessa<lb ed="#V" n="27" break="no"/>rio excluditur ab Ordinibus, est
+            du<lb ed="#V" n="28" break="no"/>plex opinio: Una, quia per
+            Bapti<lb ed="#V" n="29" break="no"/>smum deletur peccatum, et
+            seque<lb ed="#V" n="30" break="no"/>la peccati proprie; bigamia autem
+            <lb ed="#V" n="31"/>nec est peccatum, nec proprie
+            se<lb ed="#V" n="32" break="no"/>quela peccati. Et per hoc
+            respon<lb ed="#V" n="33" break="no"/>detur ad illud de homicidio
+            com<lb ed="#V" n="34" break="no"/>misso ante Baptismum, quia non
+            <lb ed="#V" n="35"/>est simile; illud enim est sequela
+            <lb ed="#V" n="36"/>peccati, vel peccatum, maxime si
+            <lb ed="#V" n="37"/>peccet in occidendo. Sed quid si
+            <lb ed="#V" n="38"/>occidat juste, sicut judex; ergo
+            il<lb ed="#V" n="39" break="no"/>lud homicidium non deletur
+            quan<lb ed="#V" n="40" break="no"/>tum ad irregularitatem? Hoc
+            con<lb ed="#V" n="41" break="no"/>cedit unus Glossator, et
+            irrationa<lb ed="#V" n="42" break="no"/>biliter, quia tunc esset melior
+            <lb ed="#V" n="43"/>conditio peccantis, quam non
+            pec<lb ed="#V" n="44" break="no"/>cantis
+          </p>
+          <p>
+            <lb ed="#V" n="45"/>in simili actu. Alii
+            di<cb ed="#V" n="b"/><lb ed="#V" n="46" break="no"/>cunt, quod istud homicidium est
+            <lb ed="#V" n="47"/>peccatum hoc modo, quia esset
+            <lb ed="#V" n="48"/>peccatum, nisi esset per
+            circum<lb ed="#V" n="49" break="no"/>stantias aliquas excusatum, ideo
+            <lb ed="#V" n="50"/>ex se non exit genus actus peccati.
+          </p>
+          <p>
+            <lb ed="#V" n="51"/>Si quaeritur, quare ergo
+            Bapti<lb ed="#V" n="52" break="no"/>smus non tollit poenas istius
+            mor<lb ed="#V" n="53" break="no"/>talitatis, quae sequitur peccatum
+            <lb ed="#V" n="54"/>mortale vel originale?
+            responde<lb ed="#V" n="55" break="no"/>tur, quia non sunt sequela peccati
+            <lb ed="#V" n="56"/>proprii. Stat igitur tota ratio in
+            <lb ed="#V" n="57"/>hoc quod Baptismus delet omne
+            <lb ed="#V" n="58"/>peccatum proprium, et quod
+            na<lb ed="#V" n="59" break="no"/>tum est esse peccatum ex genere
+            <lb ed="#V" n="60"/>actus, nisi circumstantiae
+            impedi<lb ed="#V" n="61" break="no"/>rent, et sequelas ad istud; non
+            au<lb ed="#V" n="62" break="no"/>tem tollit quod neutro modo est
+            <lb ed="#V" n="63"/>peccatum proprium, vel sequela,
+            <lb ed="#V" n="64"/>et sic est bigamia.
+          </p>
+          <p>
+            <lb ed="#V" n="65"/>Contra hoc, esto quod bigamus
+            <lb ed="#V" n="66"/>peccet in bigamia, puta in
+            contra<lb ed="#V" n="67" break="no"/>hendo illicite, sequeretur, cum ille
+            <lb ed="#V" n="68"/>contractus sit peccatum, vel
+            anne<lb ed="#V" n="69" break="no"/>xum peccato, quod deleretur.
+            Prae<lb ed="#V" n="70" break="no"/>terea Augustinus in illo cap. Acutius:
+            <lb ed="#V" n="71"/>Foemina si catechumena vitiata est, non
+            <lb ed="#V" n="72"/>potest post Baptismum inter Dei virgines
+            <lb ed="#V" n="73"/>consecrari; et tamen possibile est
+            <lb ed="#V" n="74"/>illam corruptionem ante
+            Bapti<lb ed="#V" n="75" break="no"/>smum fuisse peccatum; ergo non
+            <lb ed="#V" n="76"/>deletur per Baptismum, quantum
+            <lb ed="#V" n="77"/>ad poenas proprias
+            corresponden<lb ed="#V" n="78" break="no"/>tes sibi. Praeterea, si ex ista causa
+            <lb ed="#V" n="79"/>esset necessario irregularitas ir
+            <lb ed="#V" n="80"/>bigamia, quia scilicet non est
+            pec<lb ed="#V" n="81" break="no"/>catum, nec sequela, Ecclesia non
+            <lb ed="#V" n="82"/>posset istam irregularitatem
+            tol<lb ed="#V" n="83" break="no"/>lere, quia non potest tribuere
+            bi<lb ed="#V" n="84" break="no"/>gamiae, quod sit ex se peccatum
+            <lb ed="#V" n="85"/>vel sequela peccati.
+          </p>
+          <p>
+            <lb ed="#V" n="86"/>Alia (o) opinio dicit, quod sicut
+            <lb ed="#V" n="87"/>aliqua est infamia consequens
+            ac<lb ed="#V" n="88" break="no"/>tum ex natura actus, aliqua
+            conse<lb ed="#V" n="89" break="no"/>quens actum praecise ex statuto
+            <pb ed="#V" n="378"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Ecclesiae; et primam non potest
+            <lb ed="#V" n="2"/>Ecclesia, nec Sacramentum
+            Eccle<lb ed="#V" n="3" break="no"/>siae tollere, puta Baptismum; se.
+            <lb ed="#V" n="4"/>cundam potest; ita et de
+            irregula<lb ed="#V" n="5" break="no"/>ritate. Nunc autem bigamia non
+            <lb ed="#V" n="6"/>ex statuto Ecclesiae, sed ex defectu
+            <lb ed="#V" n="7"/>significationis inducit
+            irregulari<lb ed="#V" n="8" break="no"/>tatem, quia bigamus non
+            reprae<lb ed="#V" n="9" break="no"/>sentat Christum, ut est sponsus
+            <lb ed="#V" n="10"/>Ecclesiae, quomodo Sacerdos debet
+            <lb ed="#V" n="11"/>repraesentare, vel saltem non
+            ha<lb ed="#V" n="12" break="no"/>bere aliquid repugnans illi
+            reprae<lb ed="#V" n="13" break="no"/>sentationi; homicidium autem non
+            <lb ed="#V" n="14"/>inducit irregularitatem, nisi ex
+            <lb ed="#V" n="15"/>statuto Ecclesiae, ideo per
+            Sacra<lb ed="#V" n="16" break="no"/>mentum primum Ecclesiae, scilicet
+            <lb ed="#V" n="17"/>Baptismum, tollitur, et aliud non.
+          </p>
+          <p>
+            <lb ed="#V" n="18"/>Contra, si irregularitas bigamiae
+            <lb ed="#V" n="19"/>esset ex aliquo priori quam ex
+            sta<lb ed="#V" n="20" break="no"/>tuto Ecclesiae, Ecclesia non posset
+            <lb ed="#V" n="21"/>ibi dispensare, cujus oppositum
+            <lb ed="#V" n="22"/>habetur distinct. 34. cap. Lector, ubi
+            <lb ed="#V" n="23"/>Papa Martinus concedit Lectorem,
+            <lb ed="#V" n="24"/>qui duxit viduam, posse in
+            Subdi<lb ed="#V" n="25" break="no"/>aconum promoveri, sed non ultra.
+            <lb ed="#V" n="26"/>Sed Glossa dicit ibi, quod Papa
+            di<lb ed="#V" n="27" break="no"/>spensat; contra Apostolus 1.
+            Ti<lb ed="#V" n="28" break="no"/>moth. Unius uxoris virum, etc. et
+            di<lb ed="#V" n="29" break="no"/>cit Innocentium tenere contrarium,
+            <lb ed="#V" n="30"/>quia non licet dispensare cum
+            bi<lb ed="#V" n="31" break="no"/>gamo, ut hic Extra de bigamis, nuper.
+            <lb ed="#V" n="32"/>Et idem Martinus hoc dicit dist. 50.
+            <lb ed="#V" n="33"/>Si quis viduam. Lucius tamen
+            di<lb ed="#V" n="34" break="no"/>spensavit cum Panormitano
+            Epi<lb ed="#V" n="35" break="no"/>scopo, qui fuit bigamus.
+          </p>
+          <p>
+            <lb ed="#V" n="36"/>Sed quaedam Glossa ista
+            concor<lb ed="#V" n="37" break="no"/>dat, scilicet quod in primitiva
+            Ec<lb ed="#V" n="38" break="no"/>clesia, Subdiaconatus non erat
+            Or<lb ed="#V" n="39" break="no"/>do sacer, et ideo Martinus
+            conce<lb ed="#V" n="40" break="no"/>dit bigamum fieri Subdiaconum,
+            <lb ed="#V" n="41"/>sed ultra non ascendere.
+            Disputa<lb ed="#V" n="42" break="no"/>tionem contra Glossam istam
+            cu<lb ed="#V" n="43" break="no"/>jusdam, qui dicebatur Nicolaus
+            fu<lb ed="#V" n="44" break="no"/>riosus, habent aliqui libri dist. 59.
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>Quidquid sit, hoc saltem tenet
+            Ec<lb ed="#V" n="46" break="no"/>clesia, scilicet nec ad Diaconatum,
+            <lb ed="#V" n="47"/>nec ad Sacerdotium cum bigamo
+            <lb ed="#V" n="48"/>dispensari; nec factum Lucii
+            quan<lb ed="#V" n="49" break="no"/>tum ad Episcopum Panormitanum
+            <lb ed="#V" n="50"/>reprobatur in hoc, quasi fecerit
+            <lb ed="#V" n="51"/>aliquid quod facere non potuerit,
+            <lb ed="#V" n="52"/>sed quod hoc non decuit, nisi ex
+            <lb ed="#V" n="53"/>magna causa.
+          </p>
+          <p>
+            <lb ed="#V" n="54"/>Dico (p) ergo quod causa
+            irregu<lb ed="#V" n="55" break="no"/>laritatis non est nisi ex statuto
+            <lb ed="#V" n="56"/>Ecclesiae. Sed quare regulariter
+            <lb ed="#V" n="57"/>illa poena de homicidio perpetrato
+            <lb ed="#V" n="58"/>remittitur in Baptismo, et haec quae
+            <lb ed="#V" n="59"/>ex statuto Ecclesiae sequitur
+            biga<lb ed="#V" n="60" break="no"/>miam, non remittitur? Causa non
+            <lb ed="#V" n="61"/>est, nisi statutum Ecclesiae
+            volen<lb ed="#V" n="62" break="no"/>tis istam poenam remitti, et non
+            <lb ed="#V" n="63"/>illam. Ista autem ordinatio
+            Eccle<lb ed="#V" n="64" break="no"/>siae rationabilis est ex hoc quod
+            <lb ed="#V" n="65"/>iste homicidia non est inhabilis ad
+            <lb ed="#V" n="66"/>Ordines, nisi propter horrorem
+            <lb ed="#V" n="67"/>sanguinis effusi, propter quem
+            <lb ed="#V" n="68"/>horrorem David fuit prohibitus
+            <lb ed="#V" n="69"/>aedificare templum Domino 2. Reg.
+            <lb ed="#V" n="70"/>c. 7. Iste autem horror tollitur in
+            <lb ed="#V" n="71"/>Baptismo, quia praesupponitur
+            <lb ed="#V" n="72"/>quod de lupo factus sit agnus, sicut
+            <lb ed="#V" n="73"/>et Paulus ante Baptismum
+            perse<lb ed="#V" n="74" break="no"/>cutor, post Baptismum factus est
+            <lb ed="#V" n="75"/>ovis et pastor.
+          </p>
+          <p>
+            <lb ed="#V" n="76"/>Cum igitur in Baptismo cesset
+            <lb ed="#V" n="77"/>causa illius inhabilitatis, debet
+            <lb ed="#V" n="78"/>cessare etiam effectus. Sed causa
+            <lb ed="#V" n="79"/>inhabilitatis in bigamo ad Ordines
+            <lb ed="#V" n="80"/>non cessat in Baptismo, quia
+            sem<lb ed="#V" n="81" break="no"/>per remanet defectus Sacramenti,
+            <lb ed="#V" n="82"/>id est, significationis, quae
+            requiri<lb ed="#V" n="83" break="no"/>tur in Sacerdote repraesentante
+            <lb ed="#V" n="84"/>personam Christi, in comparatione
+            <lb ed="#V" n="85"/>ad Ecclesiam; ideo nec ibi tollitur
+            <lb ed="#V" n="86"/>effectus, nisi postea per specialem
+            <lb ed="#V" n="87"/>dis pensationem.
+          </p>
+          <p>
+            <lb ed="#V" n="88"/>Ad (q) argumenta. Ad primum,
+            <pb ed="#V" n="379"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>vel Hieronymus negatur, sicut
+            <lb ed="#V" n="2"/>communiter Canonistae negant
+            <lb ed="#V" n="3"/>eum, tenentes Augustinum; vel
+            po<lb ed="#V" n="4" break="no"/>test exponi, crimina non obsunt
+            <lb ed="#V" n="5"/>quantum ad gratiam recipiendam,
+            <lb ed="#V" n="6"/>obsunt tamen quantum ad gradum
+            <lb ed="#V" n="7"/>dignitatis in Ecclesia habendum;
+            <lb ed="#V" n="8"/>haec autem distinctio accipitur ex
+            <lb ed="#V" n="9"/>illo cap. Ambrosii Una.
+          </p>
+          <p>
+            <lb ed="#V" n="10"/>Ad secundum, non est simile de
+            <lb ed="#V" n="11"/>irregularitate ista et illa, cujus
+            <lb ed="#V" n="12"/>causa dicta est in solutione
+            quae<lb ed="#V" n="13" break="no"/>stionis.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 39, Quaestio 1</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 39, Quaestio 1</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x19">Vives, Paris, 1894, volume 19</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="503"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e4736"><!-- jdso8u-b4d39q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum disparitas cultus impediat matrimonium</head>
+        <!-- <div alias="scotus-d39q1-p1"> -->
+          <p>
+            <lb ed="#V" n="15" type="fixed=503"/>QUAESTIO UNICA.
+            <lb ed="#V" n="16"/>Utrum disparitas cultus impediat
+            matri<lb ed="#V" n="17" break="no"/>monium?
+          </p>
+          <p>
+            <lb ed="#V" n="18"/>D. Thom. in addit. q. 59. art. 1. et hic q. 1. art.
+            <lb ed="#V" n="19"/>1. D. Bonavent. art. 1. q. 1. Richard. art. 1.
+            <lb ed="#V" n="20"/>q. 1. Gabr. quaest. unic. Sotus q. unic. art. 2.
+            <lb ed="#V" n="21"/>Sanchius lib. 7. de matrim. disp. 71. Valent. 4.
+            <lb ed="#V" n="22"/>tom. d. 10. q. 5. p. 3. Lud. Lop. 2. part.
+            in<lb ed="#V" n="23" break="no"/>struct. cap. 53. Summistae, v. Impedimentum,
+            <lb ed="#V" n="24"/>de dispari cultu.
+          </p>
+          <p>
+            <lb ed="#V" n="25"/>Circa (a) istam trigesimam
+            no<lb ed="#V" n="26" break="no"/>nam distinctionem quaero, utrum
+            <lb ed="#V" n="27"/>dispar cultus impediat
+            matrimo<lb ed="#V" n="28" break="no"/>nium? Quod non, Genes. 41. Joseph
+            <lb ed="#V" n="29"/>accepit Aseneth filiam Putipharis,
+            <lb ed="#V" n="30"/>cum tamen ipse esset fidelis, et
+            <lb ed="#V" n="31"/>ipsa infidelis.
+          </p>
+          <p>
+            <lb ed="#V" n="32"/>Praeterea, Exod. 2. Moyses
+            acce<lb ed="#V" n="33" break="no"/>pit filiam Jethro infidelis. Quod
+            <lb ed="#V" n="34"/>probatur ex hoc. quia cum vellent
+            <lb ed="#V" n="35"/>redire in AEgyptum, Moyses
+            cir<lb ed="#V" n="36" break="no"/>cumcidit filium suum; unde ipsa
+            <lb ed="#V" n="37"/>ait, sponsus sanguinis tu mihi es
+          </p>
+          <p>
+            <lb ed="#V" n="38"/>Praeterea, Esther 2. habetur,
+            quo<lb ed="#V" n="39" break="no"/>modo Esther nupsit Assuero, qui
+            <lb ed="#V" n="40"/>non fuit Judaeus, sed Gentilis.
+          </p>
+          <p>
+            <lb ed="#V" n="41"/>Praeterea, 4. Regum c. 11.
+            Salo<lb ed="#V" n="42" break="no"/>mon accepit filiam Pharaonis,
+            Mo<cb ed="#V" n="b"/><lb ed="#V" n="43" break="no"/>abitidas, Ammonitidas, Idumacas,
+            <lb ed="#V" n="44"/>Sidonias et Hethaeas.
+          </p>
+          <p>
+            <lb ed="#V" n="45"/>Praeterea, 1. ad Corinth. 7. Si quis
+            <lb ed="#V" n="46"/>frater habet uxorem infidelem, et hoec
+            <lb ed="#V" n="47"/>consentit habitare cum eo, non dimittat
+            <lb ed="#V" n="48"/>eam; igitur dispar cultus non
+            diri<lb ed="#V" n="49" break="no"/>mit matrimonium jam
+            contra<lb ed="#V" n="50" break="no"/>ctum; nec per se repugnat
+            matri<lb ed="#V" n="51" break="no"/>monio, quia tunc consilium
+            Apo<lb ed="#V" n="52" break="no"/>stoli, quod frater stet cum infideli,
+            <lb ed="#V" n="53"/>esset consilium de fornicatione.
+          </p>
+          <p>
+            <lb ed="#V" n="54"/>Contra, Esdroe lib. 1. c. 9. et 10. ubi
+            <lb ed="#V" n="55"/>separatio fiebat conjugum
+            alieni<lb ed="#V" n="56" break="no"/>genarum. Praeterea, 2. ad Corinth.
+            <lb ed="#V" n="57"/>6. Nolite jugum ducere cum infidelibus;
+            <lb ed="#V" n="58"/>quae enim participatio lucis ad tenebras,
+            <lb ed="#V" n="59"/>aut quae pars fidelis cum infideli?
+            Prae<lb ed="#V" n="60" break="no"/>terea, 28. quaest. 1. Sic non nisi
+            ejus<lb ed="#V" n="61" break="no"/>dem Religionis et fidei maneant copulata
+            <lb ed="#V" n="62"/>conjugia. Et ibid. cap. Cave, non nisi
+            <lb ed="#V" n="63"/>baptizata sumatur in conjugium, quia
+            <lb ed="#V" n="64"/>Baptismus est primum Sacramentum.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d39q1-p2"> -->
+          <p>
+            <lb ed="#V" n="73" type="fixed=503"/>SCHOLIUM.
+            <lb ed="#V" n="74"/>Sententia Richardi dicentis inter infideles
+            <lb ed="#V" n="75"/>non posse esse matrimonium, quia carent
+            <lb ed="#V" n="76"/>bono fidei, cum sint infideles, et bono prolis,
+            <lb ed="#V" n="77"/>cum educanda sit in infidelitate, et bono
+            <lb ed="#V" n="78"/>Sacramenti, quia carent primo Sacramento,
+            <lb ed="#V" n="79"/>rejicit Doct. quia fidelitas conjugi servari
+            <lb ed="#V" n="80"/>potest sine fide divina, et proles educari
+            <lb ed="#V" n="81"/>potest secundum rationem naturalem, nec
+            <lb ed="#V" n="82"/>ratio Sacramenti est essentialis matrimonio,
+            <lb ed="#V" n="83"/>quia non fuisset in statu innocentiae. Movet
+            <lb ed="#V" n="84"/>et solvit duo bona dubia; et quoad primum,
+            <pb ed="#V" n="504"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>innuit si infideles non habuissent
+            consuetu<lb ed="#V" n="2" break="no"/>dinem (forte acceperunt a progenitoribus
+            <lb ed="#V" n="3"/>fidelibus) matrimonia ineundi, quod multi
+            <lb ed="#V" n="4"/>eorum ea non observarent, quia, ut dictum
+            <lb ed="#V" n="5"/>est, d. 26. non est de stricto Jure naturae, ut
+            <lb ed="#V" n="6"/>ibi explicui; et ideo multae nationes
+            polyga<lb ed="#V" n="7" break="no"/>miam et repudium admiserunt.
+          </p>
+          <p>
+            <lb ed="#V" n="8"/>Hic (b) sunt duo videnda:
+            Pri<lb ed="#V" n="9" break="no"/>mum, quomodo infideles possunt
+            <lb ed="#V" n="10"/>contrahere vel habere conjugium,
+            <lb ed="#V" n="11"/>et quomodo fidelis cum infideli. De
+            <lb ed="#V" n="12"/>primo, dicitur quod non, quia ibi
+            <lb ed="#V" n="13"/>non potest esse bonum fidei ex
+            <lb ed="#V" n="14"/>parte ejus, quia non est fidelis
+            <lb ed="#V" n="15"/>Deo; igitur nec proximo. Secundo,
+            <lb ed="#V" n="16"/>quia ex parte ejus non est bonum
+            <lb ed="#V" n="17"/>prolis, quia quantum in ipso est,
+            <lb ed="#V" n="18"/>educaret prolem in ritu suo, et ita
+            <lb ed="#V" n="19"/>non religiose. Tertio, quia ibi non
+            <lb ed="#V" n="20"/>est bonum Sacramenti, quia
+            infi<lb ed="#V" n="21" break="no"/>delis ex quo non habet primum
+            <lb ed="#V" n="22"/>Sacramentum, non est capax
+            alio<lb ed="#V" n="23" break="no"/>rum, ut probatur Extra de Presbytero
+            <lb ed="#V" n="24"/>non baptizato, cap. 1.
+          </p>
+          <p>
+            <lb ed="#V" n="25"/>Haec (c) non movent. Primum
+            <lb ed="#V" n="26"/>non, quia fides, id est, fidelitas,
+            <lb ed="#V" n="27"/>servari potest sine fide, qua
+            cre<lb ed="#V" n="28" break="no"/>ditur in Deum, et hanc servant
+            <lb ed="#V" n="29"/>infideles fidelibus in contractibus,
+            <lb ed="#V" n="30"/>et e converso, et habetur per
+            Au<lb ed="#V" n="31" break="no"/>gustinum in epistola ad Publicolam.
+            <lb ed="#V" n="32"/>Non enim sequitur, non vult
+            ser<lb ed="#V" n="33" break="no"/>vare fidem istam ad Deum, a qua
+            <lb ed="#V" n="34"/>dicuntur Christiani fideles; ergo
+            <lb ed="#V" n="35"/>non vult servare fidem, id est,
+            fide<lb ed="#V" n="36" break="no"/>litatem proximo; tum quia non
+            <lb ed="#V" n="37"/>sequitur, non vult servare
+            perfe<lb ed="#V" n="38" break="no"/>ctius; igitur nec minus perfectum;
+            <lb ed="#V" n="39"/>tum etiam quia non potest
+            attin<lb ed="#V" n="40" break="no"/>gere per rationem naturalem ad
+            <lb ed="#V" n="41"/>observantiam hujus fidei, sicut
+            <lb ed="#V" n="42"/>illius.
+          </p>
+          <p>
+            <lb ed="#V" n="43"/>Secunda ratio non movet, quia
+            <lb ed="#V" n="44"/>vult educare prolem, quantum
+            po<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>test per rationem naturalem
+            no<lb ed="#V" n="46" break="no"/>scere ipsam esse educandam;
+            igi<lb ed="#V" n="47" break="no"/>tur non potes plus habere, nisi
+            <lb ed="#V" n="48"/>quod non est ibi perfectum bonum
+            <lb ed="#V" n="49"/>prolis, scilicet quod educetur ad
+            <lb ed="#V" n="50"/>cultum Dei; nec mirum, quia
+            <lb ed="#V" n="51"/>educator non novit ipsam sic esse
+            <lb ed="#V" n="52"/>educandam.
+          </p>
+          <p>
+            <lb ed="#V" n="53"/>Tertia etiam ratio non movet,
+            <lb ed="#V" n="54"/>quia omnibus contractibus
+            matri<lb ed="#V" n="55" break="no"/>monii praecedentibus legem
+            Evan<lb ed="#V" n="56" break="no"/>gelicam non fuit annexum
+            Sacra<lb ed="#V" n="57" break="no"/>mentum proprie dictum; nec
+            fuis<lb ed="#V" n="58" break="no"/>set annexum contractui in statu
+            <lb ed="#V" n="59"/>innocentiae, si semper in illo
+            man<lb ed="#V" n="60" break="no"/>sisset, sicut dictum est supra dist.
+            <lb ed="#V" n="61"/>26. nec tamen tunc defecisset
+            ali<lb ed="#V" n="62" break="no"/>quid de perfectione pertinente ad
+            <lb ed="#V" n="63"/>contractum matrimonii.
+          </p>
+          <p>
+            <lb ed="#V" n="64"/>Sed (d) duo alia sunt, quae faciunt
+            <lb ed="#V" n="65"/>difficultatem: Unum, quomodo
+            in<lb ed="#V" n="66" break="no"/>fidelis potest dare corpus suum
+            <lb ed="#V" n="67"/>alteri, cum non faciat hoc, innitens
+            <lb ed="#V" n="68"/>approbationi legis divinae, quia
+            <lb ed="#V" n="69"/>illam ignorat, et sine illa non
+            <lb ed="#V" n="70"/>potest simpliciter dare, vel saltem
+            <lb ed="#V" n="71"/>non potest licite dare, nisi in
+            vir<lb ed="#V" n="72" break="no"/>tute approbationis domini
+            superi<lb ed="#V" n="73" break="no"/>oris.
+          </p>
+          <p>
+            <lb ed="#V" n="74"/>Secundum est, quia cum
+            matri<lb ed="#V" n="75" break="no"/>monium essentialiter includat
+            in<lb ed="#V" n="76" break="no"/>dissolubilitatem, quomodo infidelis
+            <lb ed="#V" n="77"/>contrahit matrimonium, cum illud
+            <lb ed="#V" n="78"/>sit dissolubile, si postea alter
+            con<lb ed="#V" n="79" break="no"/>jugum convertatur ad fidem sine
+            <lb ed="#V" n="80"/>altero; potest enim tunc discedere.
+            <lb ed="#V" n="81"/>Et istam rationem ponit Magister
+            <lb ed="#V" n="82"/>in littera, dicens matrimonium
+            <lb ed="#V" n="83"/>illud non esse ratum, licet
+            legiti<lb ed="#V" n="84" break="no"/>mum.
+          </p>
+          <p>
+            <lb ed="#V" n="85"/>Sed (e) ad primum istorum
+            po<lb ed="#V" n="86" break="no"/>test dici, quod Deus post lapsum
+            <lb ed="#V" n="87"/>generaliter licentiavit omnes ad
+            <lb ed="#V" n="88"/>talem commutationem, non
+            tan<pb ed="#V" n="505"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>tum propter primum finem,
+            scili<lb ed="#V" n="2" break="no"/>cet propter officium, sed etiam
+            <lb ed="#V" n="3"/>propter secundum, scilicet in
+            re<lb ed="#V" n="4" break="no"/>medium; et tunc utentes
+            commu<lb ed="#V" n="5" break="no"/>tatione ista, licet nesciant se
+            licen<lb ed="#V" n="6" break="no"/>tiatos, quia ignorant legem Dei,
+            <lb ed="#V" n="7"/>non tamen peccant. Sicut in aliis
+            <lb ed="#V" n="8"/>licentiis, licet quis nesciat se
+            li<lb ed="#V" n="9" break="no"/>centiatum, dum tamen non sciat
+            <lb ed="#V" n="10"/>illud quod agit esse illicitum, non
+            <lb ed="#V" n="11"/>peccat. Probabile enim est, quod a
+            <lb ed="#V" n="12"/>principio ex virtute illius licentiae
+            <lb ed="#V" n="13"/>divinae, vel praecepti inolevit usus
+            <lb ed="#V" n="14"/>contrahendi matrimonium, etiam
+            <lb ed="#V" n="15"/>apud infideles, quia a Patribus suis
+            <lb ed="#V" n="16"/>secundum quamdam
+            consuetudi<lb ed="#V" n="17" break="no"/>nem derivatam hoc acceperunt.
+          </p>
+          <p>
+            <lb ed="#V" n="18"/>Et licet primi infideles nollent
+            <lb ed="#V" n="19"/>sequi patres in fide, quae est ad
+            <lb ed="#V" n="20"/>Deum, tamen in isto imitati sunt
+            <lb ed="#V" n="21"/>eos; nec mirum, quia hoc est de
+            <lb ed="#V" n="22"/>lege naturae secundario, ut dictum
+            <lb ed="#V" n="23"/>est supra, et ideo valde consonum
+            <lb ed="#V" n="24"/>mentibus singulorum. Esto etiam,
+            <lb ed="#V" n="25"/>quod nullo modo licite
+            transtulis<lb ed="#V" n="26" break="no"/>sent; transtulerunt tamen ex quo
+            <lb ed="#V" n="27"/>Dominus superior omnibus
+            con<lb ed="#V" n="28" break="no"/>cessit transferre, non tantum
+            fide<lb ed="#V" n="29" break="no"/>libus, sed etiam infidelibus; igitur
+            <lb ed="#V" n="30"/>ex parte domini superioris erat
+            <lb ed="#V" n="31"/>forte translatio illa licita, et ad
+            <lb ed="#V" n="32"/>minus aliqua, et ex parte
+            contra<lb ed="#V" n="33" break="no"/>hentium, firma et justa, licet non
+            <lb ed="#V" n="34"/>completa, tamen non injusta, si
+            <lb ed="#V" n="35"/>servabant conditiones, quas
+            ser<lb ed="#V" n="36" break="no"/>vandas dictabat ratio naturalis.
+          </p>
+          <p>
+            <lb ed="#V" n="37"/>Ad (f) secundum, rata erant, nisi
+            <lb ed="#V" n="38"/>superveniret aliquod fortius
+            vincu<lb ed="#V" n="39" break="no"/>lum, cum quo non posset stare
+            <lb ed="#V" n="40"/>istud, cujusmodi est obligatio nova
+            <lb ed="#V" n="41"/>ad Deum, per fidei susceptionem,
+            <lb ed="#V" n="42"/>quando alter conjux nollet
+            com<lb ed="#V" n="43" break="no"/>morari absque impedimento illius
+            <lb ed="#V" n="44"/>fidei, ad quam magis tenetur quam
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>ad vinculum conjugale. Est igitur
+            <lb ed="#V" n="46"/>ratum stantibus eisdem
+            conditi<lb ed="#V" n="47" break="no"/>onibus extremorum, sed non
+            ra<lb ed="#V" n="48" break="no"/>tum pro tunc, pro quando fortius
+            <lb ed="#V" n="49"/>vinculum superveniret, cui
+            obser<lb ed="#V" n="50" break="no"/>vantia istius vinculi repugnaret.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d39q1-p3"> -->
+          <p>
+            <lb ed="#V" n="68" type="fixed=509"/>SCHOLIUM.
+            <lb ed="#V" n="69"/>Matrimonium inter fidelem et infidelem
+            <lb ed="#V" n="70"/>esse absolute possibile (et de facto saepe est,
+            <lb ed="#V" n="71"/>quando initum fuit, dum ambo essent
+            infide<lb ed="#V" n="72" break="no"/>les), tamen Jure Ecclesiae redditur nullum,
+            <lb ed="#V" n="73"/>quod inter tales contrahitur, et hoc valde
+            <lb ed="#V" n="74"/>congrue, 28. q. 1. cap. Sic enim. et cap.
+            <lb ed="#V" n="75"/>Cave.
+          </p>
+          <p>
+            <lb ed="#V" n="76"/>De (g) secundo articulo, aliud
+            <lb ed="#V" n="77"/>est esse inter aliquos
+            matrimo<lb ed="#V" n="78" break="no"/>nium, vel contrahi simpliciter et
+            <lb ed="#V" n="79"/>absolute; et aliud licite et honeste.
+            <lb ed="#V" n="80"/>Posse autem esse matrimonium
+            <lb ed="#V" n="81"/>inter fidelem et infidelem primo
+            <lb ed="#V" n="82"/>modo, necesse est dicere, et etiam
+            <lb ed="#V" n="83"/>secundo. Probatur utrumque per
+            <lb ed="#V" n="84"/>illud Apostoli: Vir fidelis non
+            dimit<lb ed="#V" n="85" break="no"/>tat uxorem infidelem, quoe consentit
+            habi<lb ed="#V" n="86" break="no"/>tare cum eo; si enim non esset
+            <pb ed="#V" n="510"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>matrimonium, suaderet
+            fornica<lb ed="#V" n="2" break="no"/>tionem; si autem non esset hoc
+            <lb ed="#V" n="3"/>licitum et honestum, Apostolus
+            <lb ed="#V" n="4"/>non consuleret. Sic igitur patet
+            <lb ed="#V" n="5"/>qualiter potest esse matrimonium
+            <lb ed="#V" n="6"/>inter fidelem et infidelem; et
+            ra<lb ed="#V" n="7" break="no"/>tiones adductae ad primum
+            articu<lb ed="#V" n="8" break="no"/>lum, possent adduci contra istud;
+            <lb ed="#V" n="9"/>sed patet prius earum solutio.
+          </p>
+          <p>
+            <lb ed="#V" n="10"/>Numquid igitur potest contrahi?
+            <lb ed="#V" n="11"/>Respondeo quod sic, quantum est
+            <lb ed="#V" n="12"/>ex Jure divino, quia ex illo non
+            <lb ed="#V" n="13"/>magis habetur, quod contractus
+            <lb ed="#V" n="14"/>sit nullus, quam quod obligatio ex
+            <lb ed="#V" n="15"/>contractu priori sit nulla, quia
+            <lb ed="#V" n="16"/>non posito novo impedimento, qui
+            <lb ed="#V" n="17"/>potest esse alterius, potest se dare
+            <lb ed="#V" n="18"/>alteri. Sed de Jure positivo (h)
+            Ec<lb ed="#V" n="19" break="no"/>clesiae simpliciter non potest, quia
+            <lb ed="#V" n="20"/>Ecclesia illegitimavit fidelem, non
+            <lb ed="#V" n="21"/>simpliciter, sed respectu infidelis,
+            <lb ed="#V" n="22"/>sicut patet in auctoritate adducta
+            <lb ed="#V" n="23"/>-ad oppositum, 28. quaest. 1.
+          </p>
+          <p>
+            <lb ed="#V" n="24"/>Hoc autem Ecclesia
+            rationabili<lb ed="#V" n="25" break="no"/>ter ordinavit, quia hoc non potest
+            <lb ed="#V" n="26"/>congrue et honeste fieri, et ad hoc
+            <lb ed="#V" n="27"/>valent aliquae rationes adductae ad
+            <lb ed="#V" n="28"/>primum articulum. Non enim est
+            <lb ed="#V" n="29"/>honestum fidelem contrahere cum
+            <lb ed="#V" n="30"/>aliquo, ubi deficiat bonum prolis
+            <lb ed="#V" n="31"/>completum, quod est educatio ad
+            <lb ed="#V" n="32"/>cultum veri Dei; nec honestum est
+            <lb ed="#V" n="33"/>fidelem contrahere, cui contractui
+            <lb ed="#V" n="34"/>non sit annexum Sacramentum
+            <lb ed="#V" n="35"/>fidei Christianae, et etiam ubi non
+            <lb ed="#V" n="36"/>sit bonum Sacramenti, id est,
+            <lb ed="#V" n="37"/>indissolubilitas, quia conjugium
+            <lb ed="#V" n="38"/>Christianorum natum est habere
+            <lb ed="#V" n="39"/>haec bona.
+          </p>
+          <p>
+            <lb ed="#V" n="40"/>(i) Si quaeris, quare Apostolus
+            <lb ed="#V" n="41"/>suadet matrimonium inter
+            infide<lb ed="#V" n="42" break="no"/>les contractum esse servandum
+            <lb ed="#V" n="43"/>post conversionem alterius; si
+            <lb ed="#V" n="44"/>enim propter aliquem bonum
+            fi<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>nem honeste servatur, igitur
+            pro<lb ed="#V" n="46" break="no"/>pter eumdem posset honeste
+            con<lb ed="#V" n="47" break="no"/>trahi. Respondeo, causa Apostoli
+            <lb ed="#V" n="48"/>patet ibi: Salvabitur, inquit, vir
+            infi<lb ed="#V" n="49" break="no"/>delis per mulierem fidelem; igitur
+            <lb ed="#V" n="50"/>servare matrimonium prius
+            con<lb ed="#V" n="51" break="no"/>tractum, est occasio convertendi
+            <lb ed="#V" n="52"/>conjugem infidelem; cessante
+            au<lb ed="#V" n="53" break="no"/>tem evidenter causa illa, non
+            de<lb ed="#V" n="54" break="no"/>bent insimul commanere, ut puta,
+            <lb ed="#V" n="55"/>si non consentit habitare cum
+            con<lb ed="#V" n="56" break="no"/>verso, vel non sine injuria
+            Crea<lb ed="#V" n="57" break="no"/>toris, blasphemando scilicet, vel
+            <lb ed="#V" n="58"/>sollicitando conversum ad
+            infide<lb ed="#V" n="59" break="no"/>litatem; vitanda est enim tam
+            sin<lb ed="#V" n="60" break="no"/>gularis familiaritas cum
+            quocum<lb ed="#V" n="61" break="no"/>que contrariae sectae, nisi propter
+            <lb ed="#V" n="62"/>majus bonum.
+          </p>
+          <p>
+            <lb ed="#V" n="63"/>Ad propositum autem,
+            contrahe<lb ed="#V" n="64" break="no"/>re de novo cum infideli non est
+            <lb ed="#V" n="65"/>occasio probabilis ad expectandum
+            <lb ed="#V" n="66"/>tantum bonum, scilicet
+            conversi<lb ed="#V" n="67" break="no"/>onem ejus, quia multum amans
+            <lb ed="#V" n="68"/>conjugium, multa et magna
+            face<lb ed="#V" n="69" break="no"/>ret, ut illud attingeret quae non
+            <lb ed="#V" n="70"/>esset facturus ipso adepto; et ideo
+            <lb ed="#V" n="71"/>si iste non vult converti in primo,
+            <lb ed="#V" n="72"/>ut possit habere conjugium cum
+            <lb ed="#V" n="73"/>Christiana, non est probabile quod
+            <lb ed="#V" n="74"/>ista postea lucretur eum, sed
+            ma<lb ed="#V" n="75" break="no"/>gis e converso, quia ille videtur
+            <lb ed="#V" n="76"/>abducere istam; et ideo cessat
+            <lb ed="#V" n="77"/>ratio tantae familiaritatis ad
+            infi<lb ed="#V" n="78" break="no"/>delem, et manet ratio fugiendi
+            <lb ed="#V" n="79"/>illam familiaritatem; et ideo idem
+            <lb ed="#V" n="80"/>Apostolus, qui consuluit manere
+            <lb ed="#V" n="81"/>conversum cum non conversa,
+            dis<lb ed="#V" n="82" break="no"/>suasit contrahere fidelem cum
+            <lb ed="#V" n="83"/>infideli, siut argutum est ad
+            oppo<lb ed="#V" n="84" break="no"/>situm.
+          </p>
+          <p>
+            <lb ed="#V" n="85"/>Ad (j) argumenta. Ad primas
+            <lb ed="#V" n="86"/>duas auctoritates, dico quod non
+            <lb ed="#V" n="87"/>fuit tunc ista lex positiva
+            illegiti<lb ed="#V" n="88" break="no"/>mans fidelem respectu infidelis. Si
+            <pb ed="#V" n="511"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>arguas, saltem illa ratio naturalis
+            <lb ed="#V" n="2"/>tunc fuit, quae nunc est ratio
+            ille<lb ed="#V" n="3" break="no"/>gitimandi? respondeo, in illis
+            casi<lb ed="#V" n="4" break="no"/>bus de quibus nunc arguitur, forte
+            <lb ed="#V" n="5"/>erat probabile quod fidelis
+            lucra<lb ed="#V" n="6" break="no"/>retur infidelem; vel erat
+            necessi<lb ed="#V" n="7" break="no"/>tas fugiendi majus inconveniens
+            <lb ed="#V" n="8"/>cum certa confidentia de adjutorio
+            <lb ed="#V" n="9"/>divino, quod fidelis non
+            subverte<lb ed="#V" n="10" break="no"/>retur per infidelem; et ita liceret
+            <lb ed="#V" n="11"/>hodie, nisi esset illegitimatio
+            <lb ed="#V" n="12"/>Ecclesiae superaddita. Unde non
+            <lb ed="#V" n="13"/>oportet ordinationem Ecclesiae
+            <lb ed="#V" n="14"/>fundari super naturalem
+            ratic<lb ed="#V" n="15" break="no"/>nem necessariam, sed sufficit quod
+            <lb ed="#V" n="16"/>super probabilem.
+          </p>
+          <p>
+            <lb ed="#V" n="17"/>Ad aliud, non fuit prohibitum
+            <lb ed="#V" n="18"/>tempore legis Mosaicae conjugium
+            <lb ed="#V" n="19"/>cum alienigenis, nisi cum illis
+            Cha<lb ed="#V" n="20" break="no"/>nanaeis; illos enim voluit Deus ex
+            <lb ed="#V" n="21"/>toto extirpari; ideo Esther non
+            il<lb ed="#V" n="22" break="no"/>licite nupsit Assuero.
+          </p>
+          <p>
+            <lb ed="#V" n="23"/>Ad illud de Salomone, concedo
+            <lb ed="#V" n="24"/>quod ipse, sicut pessimus et
+            ingra<lb ed="#V" n="25" break="no"/>tissimus homo Deo suo, non solum
+            <lb ed="#V" n="26"/>in hoc peccavit, quia alienigenas
+            <lb ed="#V" n="27"/>duxit contra legem, etiam de
+            gen<lb ed="#V" n="28" break="no"/>tibus specialiter prohibitis, sed
+            <lb ed="#V" n="29"/>etiam in multitudine mulierum,
+            <lb ed="#V" n="30"/>siquidem habuit secundum unam
+            <lb ed="#V" n="31"/>litteram 700. uxores quasi reginas,
+            <lb ed="#V" n="32"/>et 300. concubinas, cum tamen
+            <lb ed="#V" n="33"/>diceret lex specialiter de Rege,
+            <lb ed="#V" n="34"/>Deuter. c. 17. Non habebit uxores
+            <lb ed="#V" n="35"/>plurimas, quae alliciant animum ejus.
+            <lb ed="#V" n="36"/>Quod forte specialiter dixit Moyses
+            <lb ed="#V" n="37"/>propter malitiam istius praevisam,
+            <lb ed="#V" n="38"/>ut si non compesceretur, saltem
+            <lb ed="#V" n="39"/>confunderetur, ne alii etiam eum
+            <lb ed="#V" n="40"/>imitarentur; et quod pejus est,
+            <lb ed="#V" n="41"/>copulatus est eis amore
+            ardentis<lb ed="#V" n="42" break="no"/>simo, in tantum ut faceret eis
+            <lb ed="#V" n="43"/>idola et templa ad colendum deos
+            <lb ed="#V" n="44"/>suos; unde non sine causa
+            subjun<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>xit Moses, ut supra, que alliciant
+            <lb ed="#V" n="46"/>animum ejus. Et haec omnia
+            aggra<lb ed="#V" n="47" break="no"/>vat singularis ingratitudo
+            sapien<lb ed="#V" n="48" break="no"/>tiae eminentis sibi subito a Deo
+            <lb ed="#V" n="49"/>concessae; ita quod ista auctoritas
+            <lb ed="#V" n="50"/>non requirit responsionem, sed
+            <lb ed="#V" n="51"/>solam detestationem.
+          </p>
+          <p>
+            <lb ed="#V" n="52"/>(k) Ad ultimum, patet ex secundo
+            <lb ed="#V" n="53"/>articulo, qualiter licet servare
+            ma<lb ed="#V" n="54" break="no"/>trimonium contractum cum
+            infide<lb ed="#V" n="55" break="no"/>li, nec tamen contrahere, quia non
+            <lb ed="#V" n="56"/>est eadem ratio utrobique.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

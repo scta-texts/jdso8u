@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 36, Quaestio 2</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 36, Quaestio 2</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x19">Vives, Paris, 1894, volume 19</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="459"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e4685"><!-- jdso8u-b4d36q2 -->
+        <head>Quaestio 2</head>
+        <head type="question-title">Utrum aetas puerilis possit impedire matrimonium</head>
+        <!-- <div alias="scotus-d36q2-p1"> -->
+          <p>
+            <lb ed="#V" n="58" type="fixed=459"/>QUAESTIO II.
+            <lb ed="#V" n="59"/>Utrum cetas puerilis possit impedire
+            <lb ed="#V" n="60"/>matrimonium?
+          </p>
+          <p>
+            <lb ed="#V" n="61"/>D. Thom. in addit. quaest. 58. art. 5. et hic
+            <lb ed="#V" n="62"/>quaest. 1. art. 5. D. Bonavent. art. 2. quaest. 1.
+            <lb ed="#V" n="63"/>Richard. art. 6. quaest. 2. Covar. 4. Decret. 2.
+            <lb ed="#V" n="64"/>part. cap. 5. num. 5. gloss. c. Continebatur, v.
+            <lb ed="#V" n="65"/>Proxima, de despons. impub. ubi Innocent.
+            <lb ed="#V" n="66"/>num. 2. Anchar. num. 4. Cordub. num. 3.
+            <lb ed="#V" n="67"/>Henriquez. lib. 11. de matrim. cap. 13. num.
+            <lb ed="#V" n="68"/>11. Sanchius lib. 7. disput. 104. a num. 37.
+          </p>
+          <p>
+            <lb ed="#V" n="69"/>Secundo (a) quaero, utrum aetas
+            <lb ed="#V" n="70"/>puerilis possit impedire
+            matrimo<lb ed="#V" n="71" break="no"/>nium? Quod non, quia aliquis
+            po<lb ed="#V" n="72" break="no"/>test accipere potestatem antequam
+            <lb ed="#V" n="73"/>possit in usum; igitur in contractu
+            <lb ed="#V" n="74"/>matrimonii, ubi est datio usus et
+            <lb ed="#V" n="75"/>acceptio potestatis, potest aliquis
+            <lb ed="#V" n="76"/>antequam possit in usum, et ita
+            <lb ed="#V" n="77"/>puer. Confirmatur, quia aetas
+            pu<lb ed="#V" n="78" break="no"/>erilis non impedit susceptionem
+            <lb ed="#V" n="79"/>Ordinis, de hoc supra dictum est
+            <lb ed="#V" n="80"/>dist. 25. et tamen ibi recipit
+            pote<lb ed="#V" n="81" break="no"/>statem exequendi actum Ordinis,
+            <lb ed="#V" n="82"/>quem pro-tunc non potest exequi.
+          </p>
+          <p>
+            <lb ed="#V" n="83"/>Contra, Extra de frigid. et malef.
+            <lb ed="#V" n="84"/>Quod Sedem: Puer, qui non potest
+            <lb ed="#V" n="85"/>reddere debitum, non est aptus conjugio.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d36q2-p2"> -->
+          <p>
+            <lb ed="#V" n="6" type="fixed=460"/>SCHOLIUM.
+            <lb ed="#V" n="7"/>Puerum non posse contrahere
+            matrimoni<lb ed="#V" n="8" break="no"/>um, quia pro praesenti est impotens; aetas ad
+            <lb ed="#V" n="9"/>contrahendum in masculo, est 14. annorum,
+            <lb ed="#V" n="10"/>in foemina 12. Sed saepe malitia supplet
+            aeta<lb ed="#V" n="11" break="no"/>tem, c. Puberes, de despons. impub. Vide
+            <lb ed="#V" n="12"/>Sanchium supra.
+          </p>
+          <p>
+            <lb ed="#V" n="13"/>Respondeo (b), sicut dictum est
+            <lb ed="#V" n="14"/>supra dist. 34. impotentia
+            simplici<lb ed="#V" n="15" break="no"/>ter prohibet contrahere, quia datio
+            <lb ed="#V" n="16"/>potestatis conjugii est in isto
+            con<lb ed="#V" n="17" break="no"/>tractu, et qui non habet
+            potesta<lb ed="#V" n="18" break="no"/>tem, nihil dat. Ratio ista concludit
+            <lb ed="#V" n="19"/>de pueris pro tempore, pro quo
+            <lb ed="#V" n="20"/>sunt pueri; sed quia illa
+            impoten<lb ed="#V" n="21" break="no"/>tia non est perpetua, sed
+            expecta<lb ed="#V" n="22" break="no"/>tur futura potentia, ideo potest (c)
+            <lb ed="#V" n="23"/>nunc promittere potentiam pro
+            <lb ed="#V" n="24"/>tempore futuro pro quo habebit;
+            <lb ed="#V" n="25"/>et hoc fit in sponsalibus, quia puer
+            <lb ed="#V" n="26"/>potest contrahere sponsalia, non
+            <lb ed="#V" n="27"/>matrimonium. Ratio (d) autem
+            <lb ed="#V" n="28"/>quae ponitur ibi de defectu
+            intenti<lb ed="#V" n="29" break="no"/>onis, sive adducatur hoc ad
+            contra<lb ed="#V" n="30" break="no"/>ctum, sive ad matrimonium, nihil
+            <lb ed="#V" n="31"/>est ad B, quia ante potest habere
+            <lb ed="#V" n="32"/>discretionem sufficientem ad
+            inten<lb ed="#V" n="33" break="no"/>tionem debitam quam habeat
+            po<lb ed="#V" n="34" break="no"/>tentiam, quae debet commutari in
+            <lb ed="#V" n="35"/>isto contractu.
+          </p>
+          <p>
+            <lb ed="#V" n="36"/>Si (e) quaeras tempus pubertatis,
+            <lb ed="#V" n="37"/>regulariter ponitur in masculo
+            <lb ed="#V" n="38"/>tempus quatuordecim annorum,
+            <lb ed="#V" n="39"/>foeminae duodecim; sed tamen
+            ali<lb ed="#V" n="40" break="no"/>quando malitia supplet aetatem, et
+            <lb ed="#V" n="41"/>complexio praevenit tempus
+            regu<cb ed="#V" n="b"/><lb ed="#V" n="42" break="no"/>lare. Et tunc ex quo habet
+            potesta<lb ed="#V" n="43" break="no"/>tem istam et discretionem
+            suffici<lb ed="#V" n="44" break="no"/>entem ad debitum consensum,
+            po<lb ed="#V" n="45" break="no"/>test contrahere, quia habet quod
+            <lb ed="#V" n="46"/>det, et consensum sufficientem et
+            <lb ed="#V" n="47"/>signa.
+          </p>
+          <p>
+            <lb ed="#V" n="48"/>Ad argumenta, concedo quod
+            ali<lb ed="#V" n="49" break="no"/>quis potest suscipere potestatem
+            <lb ed="#V" n="50"/>antequam possit uti illa, sed non
+            <lb ed="#V" n="51"/>potest dare potestatem antequam
+            <lb ed="#V" n="52"/>habeat illam; in isto autem
+            con<lb ed="#V" n="53" break="no"/>tractu est datio potestatis.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

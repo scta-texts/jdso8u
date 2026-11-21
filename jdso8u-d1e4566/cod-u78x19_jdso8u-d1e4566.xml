@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 31, Quaestio 1</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 31, Quaestio 1</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x19">Vives, Paris, 1894, volume 19</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="300"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e4566"><!-- jdso8u-b4d31q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum sint tria bona matrimonii, quae Magister ponit in littera, scilicet fides, proles et sacramentum</head>
+        <!-- <div alias="scotus-d31q1-p1"> -->
+          <p>
+            <lb ed="#V" n="27" type="fixed=300"/>QUAESTIO UNICA.
+            <lb ed="#V" n="28"/>Utrum sint tria bona matrimonii, quae
+            <lb ed="#V" n="29"/>Magister ponit in littera, scilicet fides,
+            <lb ed="#V" n="30"/>proles et Sacramentum?
+          </p>
+          <p>
+            <lb ed="#V" n="31"/>D. Thom. in addit. quaest. 49. art. 2. et hic quaest
+            <lb ed="#V" n="32"/>1. art. 1. et 2. D. Bonav. art. 1. q. 2. Richard.
+            <lb ed="#V" n="33"/>art. 1. q. 1. et 2. Durand. quaest. 2. Sanchius
+            <lb ed="#V" n="34"/>lib. 2. de matrim. disput. 29. late. August. 9.
+            <lb ed="#V" n="35"/>super Genes. ad lit. 7. et de bon. conjug. c. 6.
+            <lb ed="#V" n="36"/>7. habetur c. Omne itaque 27. quaest. 2.
+          </p>
+          <p>
+            <lb ed="#V" n="37"/>Quaero (a) circa istam trigesimam
+            <lb ed="#V" n="38"/>primam distinctionem, utrum sint
+            <lb ed="#V" n="39"/>tria bona matrimonii, quae
+            Magi<lb ed="#V" n="40" break="no"/>ster ponit in littera, scilicet fides,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="41"/>proles et Sacramentum? Quod
+            <lb ed="#V" n="42"/>non, quia Sacramentum est
+            for<lb ed="#V" n="43" break="no"/>maliter in se bonum; ergo non est
+            <lb ed="#V" n="44"/>aliis bonis bonum.
+          </p>
+          <p>
+            <lb ed="#V" n="45"/>Praeterea, inter adulteram et
+            <lb ed="#V" n="46"/>adulterum potest esse
+            matrimoni<lb ed="#V" n="47" break="no"/>um, ubi tamen non est bonum fidei.
+          </p>
+          <p>
+            <lb ed="#V" n="48"/>Praeterea, cum sterili potest esse.
+            <lb ed="#V" n="49"/>matrimonium, ubi non est bonum
+            <lb ed="#V" n="50"/>prolis.
+          </p>
+          <p>
+            <lb ed="#V" n="51"/>Praeterea, cum matrimonium sit.
+            <lb ed="#V" n="52"/>Sacramentum, non est bonum
+            par<lb ed="#V" n="53" break="no"/>tiale matrimonii, quia idein non
+            <lb ed="#V" n="54"/>est pars sui.
+          </p>
+          <p>
+            <lb ed="#V" n="55"/>Contra Magister in littera.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d31q1-p2"> -->
+          <p>
+            <lb ed="#V" n="65" type="fixed=300"/>SCHOLIUM.
+            <lb ed="#V" n="66"/>Impugnat sententiam tenentem nullum se
+            <lb ed="#V" n="67"/>posse obligare ad actum carnalem, nisi
+            ha<lb ed="#V" n="68" break="no"/>beat tria bona excusantia, scilicet bonum
+            <lb ed="#V" n="69"/>fidei, prolis, Sacramenti. Primo, quia in
+            in<lb ed="#V" n="70" break="no"/>nocentia non requirerentur excusantia.
+            Se<lb ed="#V" n="71" break="no"/>cundo, non fuerunt in matrimonio B.
+            Vir<lb ed="#V" n="72" break="no"/>ginis. Tertio, magis privatur quis usu
+            rati<lb ed="#V" n="73" break="no"/>onis per somnum quam per actum carnalem.
+          </p>
+          <p>
+            <lb ed="#V" n="74"/>Hic (b) dicitur quod contrahens
+            <lb ed="#V" n="75"/>matrimonium obligat se ad
+            copu<lb ed="#V" n="76" break="no"/>lam carnalem, saltem sub
+            conditi<lb ed="#V" n="77" break="no"/>one, si petatur, et certitudo de non
+            <lb ed="#V" n="78"/>petendo in paucissimis habetur. In
+            <lb ed="#V" n="79"/>isto autem actu privatur homo
+            <lb ed="#V" n="80"/>magno bono, scilicet usu rationis
+            <pb ed="#V" n="301"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>secundum Philosophum 7. Ethic.
+            <lb ed="#V" n="2"/>Talis, inquit, actus furatur intellectum
+            <lb ed="#V" n="3"/>scepissime sapientis. Unde August. 14.
+            <lb ed="#V" n="4"/>de civit. cap. 16. Voluptas, qua major
+            <lb ed="#V" n="5"/>in corporis voluptatibus nulla est, in ipso
+            <lb ed="#V" n="6"/>momento temporis, quo ad ejus
+            perveni<lb ed="#V" n="7" break="no"/>tur extremum, pene omnis acies, et quasi
+            <lb ed="#V" n="8"/>vigilia cogitationis obruitur. Nullus
+            au<lb ed="#V" n="9" break="no"/>tem secundum rectam rationem
+            <lb ed="#V" n="10"/>debet se obligare ad aliquid, in que
+            <lb ed="#V" n="11"/>tantum malum patitur, nisi sit ibi
+            <lb ed="#V" n="12"/>aliquid bonum recompensans;
+            er<lb ed="#V" n="13" break="no"/>go nullus debet contrahere
+            matri<lb ed="#V" n="14" break="no"/>monium, nisi sint aliqua bona
+            re<lb ed="#V" n="15" break="no"/>compensantia istam jacturam usus
+            <lb ed="#V" n="16"/>rationis; et haec dicuntur a Sanctis
+            <lb ed="#V" n="17"/>excusantia illum actum carnalem;
+            <lb ed="#V" n="18"/>ista autem sunt bonum fidei, prolis
+            <lb ed="#V" n="19"/>et Sacramentum.
+          </p>
+          <p>
+            <lb ed="#V" n="20"/>Contra hoc, quia in statu
+            inno<lb ed="#V" n="21" break="no"/>centiae fuisset matrimonium
+            ha<lb ed="#V" n="22" break="no"/>bens ista bona, nec tamen fuissent
+            <lb ed="#V" n="23"/>tunc posita, ut excusantia illum
+            <lb ed="#V" n="24"/>actum.
+          </p>
+          <p>
+            <lb ed="#V" n="25"/>Praeterea, in matrimonio Joseph
+            <lb ed="#V" n="26"/>et Mariae non oportuit ponere
+            ex<lb ed="#V" n="27" break="no"/>cusantia ista, nec universaliter in
+            <lb ed="#V" n="28"/>spirituali matrimoniovidelicet, cum
+            <lb ed="#V" n="29"/>pari voto castitatis conjugum.
+          </p>
+          <p>
+            <lb ed="#V" n="30"/>Praeterea, multo magis privatur
+            <lb ed="#V" n="31"/>homo usu rationis per somnrm
+            <lb ed="#V" n="32"/>quam per actum illum, et hoc tam
+            <lb ed="#V" n="33"/>intensive, unde secundum
+            Philo<lb ed="#V" n="34" break="no"/>sophum I. Ethic. Felix non differt a
+            <lb ed="#V" n="35"/>misero, nisi secundum medietatem vitae.
+            <lb ed="#V" n="36"/>scilicet in vigilia, quam etiam
+            exten<lb ed="#V" n="37" break="no"/>sive, quia somnus diu privat; iste
+            <lb ed="#V" n="38"/>autem actus quasi momentanee;
+            <lb ed="#V" n="39"/>ergo nullus secundum rectam
+            ra<lb ed="#V" n="40" break="no"/>tionem debet se exponere somno,
+            <lb ed="#V" n="41"/>nisi essent bona excusantia, et
+            ma<lb ed="#V" n="42" break="no"/>jora istis, quod tamen non
+            conce<lb ed="#V" n="43" break="no"/>ditur.
+          </p>
+          <p>
+            <lb ed="#V" n="44"/>Dicitur, quod sunt haec bona
+            ex<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>cusantia, scilicet necessitas
+            natu<lb ed="#V" n="46" break="no"/>rae, et confortatio organorum,
+            <lb ed="#V" n="47"/>quia sine somno esset nimia
+            fati<lb ed="#V" n="48" break="no"/>gatio virium sensitivarum, et per
+            <lb ed="#V" n="49"/>consequens impedimentum in
+            in<lb ed="#V" n="50" break="no"/>tellectu, quia intellectus impeditur
+            <lb ed="#V" n="51"/>phantasia impedita. Aliter dicitur,
+            <lb ed="#V" n="52"/>quod non patitur quis proprie
+            <lb ed="#V" n="53"/>damnum in somno, sicut in isto
+            <lb ed="#V" n="54"/>actu, quia post somnum vigoratur
+            <lb ed="#V" n="55"/>intellectus; post actum istum
+            he<lb ed="#V" n="56" break="no"/>betatur, ita quod per istum actum
+            <lb ed="#V" n="57"/>non tantum privatur quis illo
+            bo<lb ed="#V" n="58" break="no"/>no, sed redditur minus aptus vel
+            <lb ed="#V" n="59"/>habilis ad illud, et alia post actum
+            <lb ed="#V" n="60"/>illum; oppositum autem est de
+            <lb ed="#V" n="61"/>somno.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d31q1-p3"> -->
+          <p>
+            <pb ed="#V" n="304"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1" type="fixed=304"/>SCHOLIUM.
+            <lb ed="#V" n="2"/>Bonum intrinsecum seu formam
+            matrimo<lb ed="#V" n="3" break="no"/>nii pro vinculo sumpti, esse
+            indissolubilita<lb ed="#V" n="4" break="no"/>tem; bonum vero extrinsecum seu finem
+            <lb ed="#V" n="5"/>esse duplicem, propinquum, et est fides in
+            <lb ed="#V" n="6"/>juste reddendo, et remotum ac ultimum, et
+            <lb ed="#V" n="7"/>est bonum prolis. De indissolubilitate
+            matri<lb ed="#V" n="8" break="no"/>monii rati, rejicit duos dicendi modos, et
+            <lb ed="#V" n="9"/>resolvit id esse indissolubile usque ad
+            mor<lb ed="#V" n="10" break="no"/>tem naturalem, nisi Deus relaxet, quod facit
+            <lb ed="#V" n="11"/>per ingressum religionis. Quod vero hoc
+            <lb ed="#V" n="12"/>ingressu tollatur vinculum matrimonii, tenet
+            <lb ed="#V" n="13"/>Trident. sess. 24. can. 6. Quod ait Doctor de
+            <lb ed="#V" n="14"/>Joanne Evangelista, vocato post nuptias,
+            te<lb ed="#V" n="15" break="no"/>net Beda in prooemium Joann. et multi idem
+            <lb ed="#V" n="16"/>tribuunt. Aug. et Hier. in eodem prooemio,
+            <lb ed="#V" n="17"/>sed Baro n. tom. 1. an. 31 fol. 106. probat illud
+            <lb ed="#V" n="18"/>prooemium non esse istorum Patrum, sed de
+            <lb ed="#V" n="19"/>Alexio; id habent Metaphrastes et Surius, ac
+            <lb ed="#V" n="20"/>etiam de D. Caecilia, de B. Thecla post ratum
+            <lb ed="#V" n="21"/>conversa per Paulum, testantur Ambros.
+            <lb ed="#V" n="22"/>lib. 2. de virgin. et Epiph. haer. 58. Alia
+            ex<lb ed="#V" n="23" break="no"/>empla habent Gregor. 3. dial. 14. et August.
+            <lb ed="#V" n="24"/>8. confess. 6. et de Macario id refert Hier.
+            <lb ed="#V" n="25"/>ut habetur 27. quaest. 2. cap. scripsit.
+          </p>
+          <p>
+            <lb ed="#V" n="26"/>Ad (e) quaestionem ergo dico,
+            <lb ed="#V" n="27"/>quod secundum Philosophum 5.
+            <lb ed="#V" n="28"/>Metaphys. cap. de perfecto, bonum et
+            <lb ed="#V" n="29"/>perfectum idem est: duplex autem
+            <lb ed="#V" n="30"/>est perfectio rei, scilicet
+            intrinse<lb ed="#V" n="31" break="no"/>ca, ut forma; et extrinseca, ut
+            <lb ed="#V" n="32"/>finis. Alicujus etiam potest esse
+            <lb ed="#V" n="33"/>duplex finis, scilicet remotus et
+            <lb ed="#V" n="34"/>propinquus; et remotior est
+            regu<lb ed="#V" n="35" break="no"/>lariter principalior, quia ad illum
+            <lb ed="#V" n="36"/>ordinatur propinquior. Accipiendo
+            <lb ed="#V" n="37"/>(d) ergo matrimonium pro isto
+            <lb ed="#V" n="38"/>vinculo de relicto ex primo
+            con<lb ed="#V" n="39" break="no"/>tractu, forma ejus est
+            indissolubi<lb ed="#V" n="40" break="no"/>litas, sicut tactum est in 1. q.
+            con<lb ed="#V" n="41" break="no"/>clus. 1. et ista indissolubilitas dicit
+            <lb ed="#V" n="42"/>Sacramentum pro eo quod
+            signifi<lb ed="#V" n="43" break="no"/>cat indissolubilitatem
+            conjuncti<lb ed="#V" n="44" break="no"/>onis Christi et Ecclesiae; ergo
+            Sa<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>cramentum, ut hic accipitur, est
+            <lb ed="#V" n="46"/>bonum intrinsecum matrimonii,
+            <lb ed="#V" n="47"/>quia ejus prima perfectio et
+            for<lb ed="#V" n="48" break="no"/>malis. Haac autem ordinatur ad
+            <lb ed="#V" n="49"/>actum carnalem mutuo reddendum,
+            <lb ed="#V" n="50"/>si petatur, quae redditio justa est
+            <lb ed="#V" n="51"/>ex ista obligatione mutua
+            praece<lb ed="#V" n="52" break="no"/>dente; ergo hujus matrimonii
+            <lb ed="#V" n="53"/>fides, id est, fidelitas, sive justitia
+            <lb ed="#V" n="54"/>ad actum ad quem conjuges mutuo
+            <lb ed="#V" n="55"/>obligantur, est ejus bonum
+            extrin<lb ed="#V" n="56" break="no"/>secum, sicut finis propinquus.
+            Ul<lb ed="#V" n="57" break="no"/>timo, iste actus ordinatur ad
+            pro<lb ed="#V" n="58" break="no"/>creandum prolem debite vel
+            religi<lb ed="#V" n="59" break="no"/>ose educandam; ergo proles
+            reli<lb ed="#V" n="60" break="no"/>giose educanda, si sequatur, est
+            <lb ed="#V" n="61"/>bonum extrinsecum matrimonii,
+            <lb ed="#V" n="62"/>tanquam finis principalis.
+          </p>
+          <p>
+            <lb ed="#V" n="63"/>Sic ergo patet quomodo
+            Sacra<lb ed="#V" n="64" break="no"/>mentum, ut hic accipitur, est
+            bo<lb ed="#V" n="65" break="no"/>num matrimonii primum et
+            in<lb ed="#V" n="66" break="no"/>trinsecum et forma; Fides, id est,
+            <lb ed="#V" n="67"/>fidelitas in juste reddendo actum
+            <lb ed="#V" n="68"/>debitum, est bonum ejus, ut finis
+            <lb ed="#V" n="69"/>proximus, sed minus principalis;
+            <lb ed="#V" n="70"/>bonum prolis est ejus bonum
+            ex<lb ed="#V" n="71" break="no"/>trinsecum, ut finis ultimus, sed
+            <lb ed="#V" n="72"/>principalis.
+          </p>
+          <p>
+            <lb ed="#V" n="73"/>Sed (e) propter argumenta
+            viden<lb ed="#V" n="74" break="no"/>dum est quomodo haec tria sunt in
+            <lb ed="#V" n="75"/>quolibet matrimonio. Non enim
+            <lb ed="#V" n="76"/>videtur esse bonum Sacramenti in
+            <lb ed="#V" n="77"/>matrimonio rato non
+            consumma<lb ed="#V" n="78" break="no"/>to, quia illud est dissolubile per
+            <lb ed="#V" n="79"/>Religionis ingressum, sicut patet
+            <lb ed="#V" n="80"/>Extra de reqularibus, Ad Apostolicam;
+            <lb ed="#V" n="81"/>nec bonum prolis videtur esse, ubi
+            <lb ed="#V" n="82"/>est impossibilitas ad susceptionem
+            <lb ed="#V" n="83"/>prolis; nec bonum fidei, ubi non
+            <lb ed="#V" n="84"/>servatur fides, ut in adulteris.
+          </p>
+          <p>
+            <lb ed="#V" n="85"/>Respondeo (f), Sacramentum, ut
+            <lb ed="#V" n="86"/>est bonum matrimonii, (sicut
+            di<lb ed="#V" n="87" break="no"/>ctum est) non accipitur pro
+            Sa<lb ed="#V" n="88" break="no"/>cramento novae legis, quia illud
+            <pb ed="#V" n="305"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>est sensibile; ista autem
+            indis<lb ed="#V" n="2" break="no"/>solubilitas est quid spirituale in
+            <lb ed="#V" n="3"/>mentibus contrahentium.
+            Sacra<lb ed="#V" n="4" break="no"/>mentum etiam matrimonii
+            sta<lb ed="#V" n="5" break="no"/>tim transit, quia consistit in
+            fi<lb ed="#V" n="6" break="no"/>eri; ista autem indissolubilitas
+            <lb ed="#V" n="7"/>manet, et est in esse quieto, non
+            <lb ed="#V" n="8"/>in fieri. Sacramentum etiam est
+            <lb ed="#V" n="9"/>dispositio ad gratiam in digne
+            su<lb ed="#V" n="10" break="no"/>scipientibus, non autem ista
+            indis<lb ed="#V" n="11" break="no"/>solubilitas. Hoc enim est
+            intrinse<lb ed="#V" n="12" break="no"/>cum bonum omnis matrimonii
+            <lb ed="#V" n="13"/>novae legis, ita quod impossibile
+            <lb ed="#V" n="14"/>est esse matrimonium formaliter
+            <lb ed="#V" n="15"/>sine illo, quod est forma ejus. Sed
+            <lb ed="#V" n="16"/>alia duo bona non sunt intrinseca
+            <lb ed="#V" n="17"/>matrimonio, nec necessaria ibi
+            <lb ed="#V" n="18"/>formaliter, sed sunt ibi necessaria
+            <lb ed="#V" n="19"/>in obligatione et virtualiter.
+            Bo<lb ed="#V" n="20" break="no"/>num quidem fidei servandae in
+            ac<lb ed="#V" n="21" break="no"/>tu, reddendo conjugi quod suum
+            <lb ed="#V" n="22"/>est, et non dando alteri alienum;
+            <lb ed="#V" n="23"/>est enim necessario in obligatione,
+            <lb ed="#V" n="24"/>et quantum ad negativam, saltem
+            <lb ed="#V" n="25"/>est ibi obligatio semper et ad
+            sem<lb ed="#V" n="26" break="no"/>per; quantum autem ad
+            affirmati<lb ed="#V" n="27" break="no"/>vam, dicetur in sequenti
+            distinctio<lb ed="#V" n="28" break="no"/>ne, et ideo non servans fidem peccat
+            <lb ed="#V" n="29"/>mortaliter. Tertium bonum,
+            scili<lb ed="#V" n="30" break="no"/>cet prolis, est ibi in obligatione sub
+            <lb ed="#V" n="31"/>conditione, si eveniat, ut
+            suscipi<lb ed="#V" n="32" break="no"/>atur gratanter, et religiose
+            educe<lb ed="#V" n="33" break="no"/>tur; ideo est ibi sub obligatione
+            <lb ed="#V" n="34"/>pro semper et ad semper non
+            im<lb ed="#V" n="35" break="no"/>pedire illud bonum studiose.
+          </p>
+          <p>
+            <lb ed="#V" n="36"/>Ex (g) his ad instantias. Ad
+            pri<lb ed="#V" n="37" break="no"/>mum dicitur uno modo quod
+            indis<lb ed="#V" n="38" break="no"/>solubilitas manet usque ad
+            mor<lb ed="#V" n="39" break="no"/>tem. Quod autem dicit Apostolus
+            <lb ed="#V" n="40"/>1. Corinth. 7. Si dormierit vir ejus,
+            <lb ed="#V" n="41"/>soluta est mulier a lege matrimonii,
+            <lb ed="#V" n="42"/>dicunt esse verum de morte civili,
+            <lb ed="#V" n="43"/>non tantum de morte carnali, quia
+            <lb ed="#V" n="44"/>iste actus non competit, nisi
+            vi<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>venti vita civili; profitens autem
+            <lb ed="#V" n="46"/>vitam religiosam moritur
+            civi<lb ed="#V" n="47" break="no"/>liter.
+          </p>
+          <p>
+            <lb ed="#V" n="48"/>Contra hoc, si matrimonium esset
+            <lb ed="#V" n="49"/>consummatum, esset indissolubile
+            <lb ed="#V" n="50"/>omnino usque ad mortem, ita quod
+            <lb ed="#V" n="51"/>si conjuges etiam pari voto
+            conti<lb ed="#V" n="52" break="no"/>nerent, non dissolveretur
+            vincu<lb ed="#V" n="53" break="no"/>lum inter eos, etiam per
+            ingres<lb ed="#V" n="54" break="no"/>sum Religionis; ergo secundum
+            <lb ed="#V" n="55"/>istam viam indissolubilitas ista
+            <lb ed="#V" n="56"/>competeret matrimonio, non ex
+            <lb ed="#V" n="57"/>contractu matrimonii simpliciter,
+            <lb ed="#V" n="58"/>qui est datio mutua, sed ex actu
+            <lb ed="#V" n="59"/>carnali superaddito; quod non
+            vi<lb ed="#V" n="60" break="no"/>detur probabile, quia iste actus
+            <lb ed="#V" n="61"/>non est aliquid novi contractus,
+            <lb ed="#V" n="62"/>nec per consequens aliquam
+            no<lb ed="#V" n="63" break="no"/>vam indissolubilitatem
+            obligatio<lb ed="#V" n="64" break="no"/>nis inducit.
+          </p>
+          <p>
+            <lb ed="#V" n="65"/>Aliter (h) dicitur, quod per
+            pro<lb ed="#V" n="66" break="no"/>fessionem Religionis non
+            dissolvi<lb ed="#V" n="67" break="no"/>tur vinculum conjugale; sed si
+            <lb ed="#V" n="68"/>arguitur, quod sponsa manens in
+            <lb ed="#V" n="69"/>saeculo potest alteri nubere, et esse
+            <lb ed="#V" n="70"/>uxor ejus, et ita erit simul uxor
+            <lb ed="#V" n="71"/>duorum, respondet, quod hoc non
+            <lb ed="#V" n="72"/>est inconveniens, ita tamen quod
+            <lb ed="#V" n="73"/>unius tantum spiritualiter, scilicet
+            <lb ed="#V" n="74"/>vinculo spirituali, alterius
+            spiritu<lb ed="#V" n="75" break="no"/>aliter et carnaliter; esset autem
+            <lb ed="#V" n="76"/>inconveniens, quod esset duorum
+            <lb ed="#V" n="77"/>simul carnaliter, et secundum hoc
+            <lb ed="#V" n="78"/>haberet consequenter concedere
+            <lb ed="#V" n="79"/>quod una posset esse uxor centum
+            <lb ed="#V" n="80"/>simul, isto vinculo spirituali, et
+            <lb ed="#V" n="81"/>tunc matrimonium unde
+            matrimo<lb ed="#V" n="82" break="no"/>nium, non determinaret quod una
+            <lb ed="#V" n="83"/>esset unius, nec illa justitia
+            com<lb ed="#V" n="84" break="no"/>mutativa, quae ibi requiritur; nec
+            <lb ed="#V" n="85"/>videtur quod illa copula carnalis
+            <lb ed="#V" n="86"/>sequens, aliquam novam justitiam
+            <lb ed="#V" n="87"/>commutativam tribuat.
+          </p>
+          <p>
+            <lb ed="#V" n="88"/>Tertio (i) modo dici potest quod
+            <pb ed="#V" n="306"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>in matrimonio rato, etiamsi
+            con<lb ed="#V" n="2" break="no"/>trahens intendat non consentire
+            <lb ed="#V" n="3"/>in carnalem copulam, sed statim
+            <lb ed="#V" n="4"/>ad Religionem avolare ante
+            con<lb ed="#V" n="5" break="no"/>summationem, non est
+            accommo<lb ed="#V" n="6" break="no"/>datio, sed permutatio potestatis,
+            <lb ed="#V" n="7"/>non ad tempus, sed pro usu
+            perpe<lb ed="#V" n="8" break="no"/>tuo; alioquin non esset vere
+            matri<lb ed="#V" n="9" break="no"/>monium novae legis, et ex datione
+            <lb ed="#V" n="10"/>ista oritur vinculum indissolubile,
+            <lb ed="#V" n="11"/>nisi per mortem naturalem
+            alte<lb ed="#V" n="12" break="no"/>rius conjugum, vel per
+            revocatio<lb ed="#V" n="13" break="no"/>nem seu relaxationem illius, qui
+            <lb ed="#V" n="14"/>statuit hoc esse sic indissolubile.
+            <lb ed="#V" n="15"/>Christus autem, qui istam
+            indisso<lb ed="#V" n="16" break="no"/>lubilitatem induxit, Matth. 19.
+            re<lb ed="#V" n="17" break="no"/>probans pro lege sua repudium
+            <lb ed="#V" n="18"/>Mosaicum, ipse relaxavit istam
+            <lb ed="#V" n="19"/>indissolubilitatem, quando alter
+            <lb ed="#V" n="20"/>conjugum convertitur ad
+            Reli<lb ed="#V" n="21" break="no"/>gionem.
+          </p>
+          <p>
+            <lb ed="#V" n="22"/>Unde (k) Ecclesia nunquam
+            at<lb ed="#V" n="23" break="no"/>tentasset post matrimonia rata
+            <lb ed="#V" n="24"/>non consummata, licentiare
+            alte<lb ed="#V" n="25" break="no"/>rum ad Religionem, altero
+            manen<lb ed="#V" n="26" break="no"/>te in saeculo, nisi Christus hoc
+            <lb ed="#V" n="27"/>instituisset; habetur autem hoc ex
+            <lb ed="#V" n="28"/>facto Christi vocantis Joannem
+            <lb ed="#V" n="29"/>Apostolum et Evangelistam ad
+            <lb ed="#V" n="30"/>Apostolatum a nuptiis, Joan. 2.
+            cu<lb ed="#V" n="31" break="no"/>jus exemplum imitati sunt sancti
+            <lb ed="#V" n="32"/>Patres, Alexius, Theonas, et alii.
+            <lb ed="#V" n="33"/>Nec tamen illa nubens alii erit
+            si<lb ed="#V" n="34" break="no"/>mul uxor duorum, sed tantum
+            se<lb ed="#V" n="35" break="no"/>cundi, quia vinculum ipsius ad
+            <lb ed="#V" n="36"/>primum dissolutum est per
+            rela<lb ed="#V" n="37" break="no"/>xationem Christi; non autem
+            <lb ed="#V" n="38"/>praecise per talem vel talem
+            mor<lb ed="#V" n="39" break="no"/>tem ejus, quia dissolutio, quae est
+            <lb ed="#V" n="40"/>per mortem, est per defectum
+            alte<lb ed="#V" n="41" break="no"/>rius extremi, nec requirit
+            specia<lb ed="#V" n="42" break="no"/>lem relaxationem legislatoris.
+          </p>
+          <p>
+            <lb ed="#V" n="43"/>Haec (1) autem relaxatio Christi
+            <lb ed="#V" n="44"/>rationabilis fuit, quia rationabile
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>est obligationem ad minus bonum,
+            <lb ed="#V" n="46"/>commutari in obligationem ad
+            ma<lb ed="#V" n="47" break="no"/>jus bopum, ab eo qui habet
+            aucto<lb ed="#V" n="48" break="no"/>ritatem commutandi. Professio
+            <lb ed="#V" n="49"/>autem in Religione est obligatio
+            <lb ed="#V" n="50"/>ad majus bonum, quia ad
+            spiritu<lb ed="#V" n="51" break="no"/>ale. Unde et Christus statum
+            vir<lb ed="#V" n="52" break="no"/>ginitatis intelligit non tantum per
+            <lb ed="#V" n="53"/>carentiam actus, sed cum
+            proposi<lb ed="#V" n="54" break="no"/>to continendi perpetuo; et istum
+            <lb ed="#V" n="55"/>praetulit statui conjugali, Matth.
+            <lb ed="#V" n="56"/>19. Sunt eunuchi qui se castraverunt
+            <lb ed="#V" n="57"/>propter regnum coelorum; qui potest
+            ca<lb ed="#V" n="58" break="no"/>pere capiat. Unde haec castitas
+            divi<lb ed="#V" n="59" break="no"/>sa contra conjugalem dicitur
+            ha<lb ed="#V" n="60" break="no"/>bere fructum centenarium, illa
+            <lb ed="#V" n="61"/>vero trigenarium, secundum
+            Hie<lb ed="#V" n="62" break="no"/>ronymum contra Jovinianum.
+          </p>
+          <p>
+            <lb ed="#V" n="63"/>Si (m) quaeras, an ista
+            indisso<lb ed="#V" n="64" break="no"/>lubilitas conveniat m trimonio
+            <lb ed="#V" n="65"/>Evangelico propter rationem
+            Sa<lb ed="#V" n="66" break="no"/>cramenti? dico quod in lege
+            na<lb ed="#V" n="67" break="no"/>turae fuisset indissolubile, et
+            ta<lb ed="#V" n="68" break="no"/>men tunc non fuisset proprie
+            <lb ed="#V" n="69"/>Sacramentum annexum
+            contra<lb ed="#V" n="70" break="no"/>ctui matrimonii, et Christus
+            po<lb ed="#V" n="71" break="no"/>tuisset istam indissolubilitatem
+            <lb ed="#V" n="72"/>praecepisse in matrimonio suae
+            <lb ed="#V" n="73"/>legis, licet nullum Sacramentum
+            <lb ed="#V" n="74"/>adjunxisset illi contractui.
+            Potuis<lb ed="#V" n="75" break="no"/>set etiam Sacramentum adjungere
+            <lb ed="#V" n="76"/>contractui, ex quo tamen
+            contra<lb ed="#V" n="77" break="no"/>ctu non vellet nasci vinculum
+            in<lb ed="#V" n="78" break="no"/>dissolubile, si voluisset repudium
+            <lb ed="#V" n="79"/>Mosaicum approbare; est ergo
+            <lb ed="#V" n="80"/>ista indissolubilitas a domino
+            su<lb ed="#V" n="81" break="no"/>periori determinante contractum
+            <lb ed="#V" n="82"/>debere fieri pro semper, et
+            obliga<lb ed="#V" n="83" break="no"/>tionem debere sequi pro semper,
+            <lb ed="#V" n="84"/>nisi ipsemet in aliquo casu
+            dispen<lb ed="#V" n="85" break="no"/>set. Ad hoc etiam consonat ratio
+            <lb ed="#V" n="86"/>naturalis recta.
+          </p>
+          <p>
+            <lb ed="#V" n="87"/>Ex (n) ista solutione sequitur
+            <lb ed="#V" n="88"/>corollarium notabile, quod
+            contra<pb ed="#V" n="307"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>hentes sub aliqua conditione
+            repu<lb ed="#V" n="2" break="no"/>gnante alicui istorum trium
+            bono<lb ed="#V" n="3" break="no"/>i rum, nihil faciunt, puta contra
+            <lb ed="#V" n="4"/>primum: accipio te in meam,
+            do<lb ed="#V" n="5" break="no"/>nec occurrat magis placens.
+            Con<lb ed="#V" n="6" break="no"/>tra secundum: accipio te in meam,
+            <lb ed="#V" n="7"/>ita ut non tenear tibi servare
+            <lb ed="#V" n="8"/>fidem; nec affirmative ad
+            redden<lb ed="#V" n="9" break="no"/>dum, nisi quando voluero; nec
+            ne<lb ed="#V" n="10" break="no"/>gative, quin possim pro libitu meo
+            <lb ed="#V" n="11"/>alteri conjungi. Contra tertium:
+            <lb ed="#V" n="12"/>accipio te in meam, si
+            procurave<lb ed="#V" n="13" break="no"/>ris venena sterilitatis, vel
+            consen<lb ed="#V" n="14" break="no"/>tias mecum in procuratione talium
+            <lb ed="#V" n="15"/>venenorum.
+          </p>
+          <p>
+            <lb ed="#V" n="16"/>Et ratio quare isti contractus
+            <lb ed="#V" n="17"/>non sunt matrimoniales, est, quia
+            <lb ed="#V" n="18"/>non tenent nisi sub illa conditione,
+            <lb ed="#V" n="19"/>cum sint conditionales; sed
+            impos<lb ed="#V" n="20" break="no"/>sibile est quod sint matrimoniales
+            <lb ed="#V" n="21"/>sub illa conditione, quia repugnat
+            <lb ed="#V" n="22"/>contractui matrimoniali, imo
+            nul<lb ed="#V" n="23" break="no"/>lus contractus est, quia iste non
+            <lb ed="#V" n="24"/>potest dare se contra praeceptum
+            <lb ed="#V" n="25"/>superioris. Prohibitio autem
+            supe<lb ed="#V" n="26" break="no"/>rioris est de translatione sub istis
+            <lb ed="#V" n="27"/>conditionibus, quia praecepit
+            trans<lb ed="#V" n="28" break="no"/>lationem, quae debet fieri sub
+            con<lb ed="#V" n="29" break="no"/>ditionibus oppositis fieri. Unde
+            <lb ed="#V" n="30"/>quicumque attentaverint, non
+            so<lb ed="#V" n="31" break="no"/>lum peccant mortaliter, sed
+            obli<lb ed="#V" n="32" break="no"/>gantur ad recedendum ab omni
+            <lb ed="#V" n="33"/>usu mutuo virtute talis contractus.
+          </p>
+          <p>
+            <lb ed="#V" n="34"/>Ad (o) argumenta. Ad primum,
+            <lb ed="#V" n="35"/>patet quod ista non sunt tria bona
+            <lb ed="#V" n="36"/>Sacramenti matrimonii; illud enim
+            <lb ed="#V" n="37"/>est quoddam signum concomitans
+            <lb ed="#V" n="38"/>contractum sed sunt tria bona
+            <lb ed="#V" n="39"/>matrimonii vinculi indissolubilis
+            <lb ed="#V" n="40"/>manentis post contractum; et non
+            <lb ed="#V" n="41"/>est inconveniens illud esse bonum
+            <lb ed="#V" n="42"/>aliis bonis, et esse bonum uno
+            isto<lb ed="#V" n="43" break="no"/>rum tanquam bonitate intrinseca,
+            <lb ed="#V" n="44"/>aliis tanquam finibus propinquiori
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>et remotiori seu principaliori.
+          </p>
+          <p>
+            <lb ed="#V" n="46"/>Ad (p) secundum, patet ex
+            solu<lb ed="#V" n="47" break="no"/>tione quaestionis, quia bonum fidei
+            <lb ed="#V" n="48"/>est semper in obligatione, licet non
+            <lb ed="#V" n="49"/>in executione.
+          </p>
+          <p>
+            <lb ed="#V" n="50"/>Ad tertium patet per idem, quia
+            <lb ed="#V" n="51"/>obligatio non est absolute ad
+            bo<lb ed="#V" n="52" break="no"/>num prolis, sed sub conditione, si
+            <lb ed="#V" n="53"/>eveniat, ad gratanter
+            suscipien<lb ed="#V" n="54" break="no"/>dum, et religiose educandum, et
+            <lb ed="#V" n="55"/>ad non procurandum studiose
+            op<lb ed="#V" n="56" break="no"/>positum, scilicet ne eveniat.
+            Ta<lb ed="#V" n="57" break="no"/>nem secundum veritatem ubi est
+            <lb ed="#V" n="58"/>certa impossibilitas ad bonum
+            <lb ed="#V" n="59"/>prolis, non videtur actus ille
+            con<lb ed="#V" n="60" break="no"/>jugalis multum excusari per istud
+            <lb ed="#V" n="61"/>bonum, nisi forte dicas quod
+            mira<lb ed="#V" n="62" break="no"/>culose Deus daret foecunditatem
+            <lb ed="#V" n="63"/>sterili. Sed si nec illud est
+            proba<lb ed="#V" n="64" break="no"/>bile, nec intentum ab istis
+            uten<lb ed="#V" n="65" break="no"/>tibus tali actu, alia duo bona
+            excu<lb ed="#V" n="66" break="no"/>sant, et tunc matrimonium est ibi
+            <lb ed="#V" n="67"/>tantum ut in remedium, non
+            au<lb ed="#V" n="68" break="no"/>tem ut in officium, de quo dictum
+            <lb ed="#V" n="69"/>est dist. 26. in solutione quaestionis.
+          </p>
+          <p>
+            <lb ed="#V" n="70"/>Ad ultimum, patet quomodo
+            <lb ed="#V" n="71"/>aequivocatur de Sacramento, quia
+            <lb ed="#V" n="72"/>ut est unum bonum matrimonii,
+            <lb ed="#V" n="73"/>non est formaliter nisi
+            indissolu<lb ed="#V" n="74" break="no"/>bilitas illius vinculi vel
+            obligatio<lb ed="#V" n="75" break="no"/>nis; ut autem est Sacramentum
+            <lb ed="#V" n="76"/>matrimonii, est signum sensibile
+            <lb ed="#V" n="77"/>gratiae collatae digne
+            contrahenti<lb ed="#V" n="78" break="no"/>bus matrimonium, ad
+            conjunctio<lb ed="#V" n="79" break="no"/>nem gratiosam animorum.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

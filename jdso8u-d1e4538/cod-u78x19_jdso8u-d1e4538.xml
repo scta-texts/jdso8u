@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 30, Quaestio 1</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 30, Quaestio 1</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x19">Vives, Paris, 1894, volume 19</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="243"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e4538"><!-- jdso8u-b4d30q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum ad contractum matrimonii requiratur consensus sequens apprehensionem non erroneam</head>
+        <!-- <div alias="scotus-d30q1-p1"> -->
+          <p>
+            <pb ed="#V" n="243"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1" type="fixed=243"/>QUAESTIO
+            <lb ed="#V" n="2"/>I.
+            <lb ed="#V" n="3"/>Utrum ad contractum matrimonii
+            requi<lb ed="#V" n="4" break="no"/>ratur consensus sequens rationem non
+            <lb ed="#V" n="5"/>erroneam, sive apprehensionem?
+          </p>
+          <p>
+            <lb ed="#V" n="6"/>D. Thom. in addit. quaest. 51. art. 1. et hic
+            quaest<lb ed="#V" n="7" break="no"/>1. art. 1. D. Bonav. art. 1. quaest. 1. et 2.
+            Richard<lb ed="#V" n="8" break="no"/>art. 1. q. 1. Argent. quaest. 1. art. 3. Sanchius
+            <lb ed="#V" n="9"/>lib. 7. de Matrim. disp. 18. 19.
+          </p>
+          <p>
+            <lb ed="#V" n="10"/>Quaero circa istam trigesimam
+            <lb ed="#V" n="11"/>distinctionem duas quaestiones:
+            <lb ed="#V" n="12"/>Prima, utrum ad contractum
+            ma<lb ed="#V" n="13" break="no"/>trimonii requiratur consensus
+            se<lb ed="#V" n="14" break="no"/>quens rationem non erroneam
+            <lb ed="#V" n="15"/>sive apprehensionem? Quod non,
+            <lb ed="#V" n="16"/>Genes. 29. de Jacob et Lia, in quam
+            <lb ed="#V" n="17"/>non consensit, nisi ex errore,
+            cre<lb ed="#V" n="18" break="no"/>dens eam esse Rachelem; et
+            ta<lb ed="#V" n="19" break="no"/>men videtur fuisse matrimonium.
+            <lb ed="#V" n="20"/>alioquin copula carnalis fuisset
+            <lb ed="#V" n="21"/>fornicatio. Quod si excuses eum
+            <lb ed="#V" n="22"/>per ignorantiam, licet non forte
+            <lb ed="#V" n="23"/>sufficientem, quia non
+            invincibi<lb ed="#V" n="24" break="no"/>lem; contra, saltem in crastino
+            <lb ed="#V" n="25"/>potuisset eam repellere, tanquam
+            <lb ed="#V" n="26"/>non suam.
+          </p>
+          <p>
+            <lb ed="#V" n="27"/>Praeterea, Genes. 27. Isaac ex
+            <lb ed="#V" n="28"/>errore benedixit Jacob, credens
+            <lb ed="#V" n="29"/>ipsum esse Esau, et tamen postea
+            <lb ed="#V" n="30"/>dixit: Benedixit ei, eritque benedictus;
+            <lb ed="#V" n="31"/>ergo a simili in proposito.
+          </p>
+          <p>
+            <lb ed="#V" n="32"/>Praeterea, Sacerdos credens
+            ba<lb ed="#V" n="33" break="no"/>ptizare unam personam, si
+            bapti<lb ed="#V" n="34" break="no"/>zaret aliam, esset baptizata;
+            er<lb ed="#V" n="35" break="no"/>go error non ibi impedit, et pari
+            <lb ed="#V" n="36"/>ratione nec hic.
+          </p>
+          <p>
+            <lb ed="#V" n="37"/>Praeterea, plus obest conjugi
+            <lb ed="#V" n="38"/>moralis malitia in conjuge contra
+            <lb ed="#V" n="39"/>legem divinam, quam poena
+            servi<lb ed="#V" n="40" break="no"/>tutis. Sed apprehensio erronea
+            <lb ed="#V" n="41"/>quoad istam malitiam, si sequatur
+            <lb ed="#V" n="42"/>consensus in istam personam, non
+            <lb ed="#V" n="43"/>impedit contractum matrimonii;
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="44"/>ergo nec error in conditione
+            ser<lb ed="#V" n="45" break="no"/>vitutis.
+          </p>
+          <p>
+            <lb ed="#V" n="46"/>Contra, Magister in littera.
+          </p>
+          <p>
+            <lb ed="#V" n="47"/>SCHOLIUM.
+            <lb ed="#V" n="48"/>Triplicem errorem annullare
+            matrimo<lb ed="#V" n="49" break="no"/>nium, scilicet personae, conditionis pejoris,
+            <lb ed="#V" n="50"/>et consensus correspondentis in altero
+            contra<lb ed="#V" n="51" break="no"/>hente; et dat rationem solidam pro singulis.
+          </p>
+          <p>
+            <lb ed="#V" n="52"/>Ad (a) istam quaestionem dico ex
+            <lb ed="#V" n="53"/>2. concl. 1. q. dist. 26. quod iste
+            con<lb ed="#V" n="54" break="no"/>tractus est donationis liberae et
+            <lb ed="#V" n="55"/>voluntariae, sicut dictum est dist.
+            <lb ed="#V" n="56"/>praeced. Ignorantia autem, et
+            maxi<lb ed="#V" n="57" break="no"/>me illius conditionis, quae
+            requiri<lb ed="#V" n="58" break="no"/>tur ad actum voluntatis, causat
+            <lb ed="#V" n="59"/>involuntarium secundum
+            Philoso<lb ed="#V" n="60" break="no"/>phum 3. Ethic. et secundum
+            Augu<lb ed="#V" n="61" break="no"/>stinum 8. de Trin. cap. 4. Nihil est
+            <lb ed="#V" n="62"/>amatum vel volitum, nisi prius cognitum.
+            <lb ed="#V" n="63"/>Ex (b) hoc sequitur breve
+            corolla<lb ed="#V" n="64" break="no"/>rium, quod error sive
+            apprehen<lb ed="#V" n="65" break="no"/>sio erronea quantum ad omnem
+            <lb ed="#V" n="66"/>conditionem requisitam, per se, ad
+            <lb ed="#V" n="67"/>contractum, facit contractum
+            nul<lb ed="#V" n="68" break="no"/>lum esse; sunt autem in genere
+            <lb ed="#V" n="69"/>tres tales conditiones, duae ex
+            par<lb ed="#V" n="70" break="no"/>te personarum. Una, quod haec
+            <lb ed="#V" n="71"/>persona putetur esse illa; alia,
+            <lb ed="#V" n="72"/>quod persona serva credatur
+            libe<lb ed="#V" n="73" break="no"/>ra. Tertia conditio est error sibi
+            <lb ed="#V" n="74"/>correspondens ex parte
+            contra<lb ed="#V" n="75" break="no"/>ctus, puta si credatur aliam
+            perso<lb ed="#V" n="76" break="no"/>nam simili contractu contrahere,
+            <lb ed="#V" n="77"/>cum tamen in rei veritate non
+            <lb ed="#V" n="78"/>contrahat, quia non intendit dare,
+            <lb ed="#V" n="79"/>sicut alia intendit accipere.
+          </p>
+          <p>
+            <lb ed="#V" n="80"/>De (c) primo errore patet, quia
+            <lb ed="#V" n="81"/>impedit omnem venditionem et
+            <lb ed="#V" n="82"/>traditionem rerum, puta, si
+            ema<lb ed="#V" n="83" break="no"/>tur aurum, et venditor vendit
+            au<lb ed="#V" n="84" break="no"/>richalcum; ita hic intelligitur,
+            <pb ed="#V" n="244"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>quod B det potestatem sui
+            corpo<lb ed="#V" n="2" break="no"/>ris, si alia det, alias nihil fit.
+          </p>
+          <p>
+            <lb ed="#V" n="3"/>Secunda (d) conditio est hic
+            spe<lb ed="#V" n="4" break="no"/>cialis, quia haec est permutatio
+            <lb ed="#V" n="5"/>potestatis corporis pro potestate
+            <lb ed="#V" n="6"/>corporis; servus autem non potest
+            <lb ed="#V" n="7"/>dare potestatem sui corporis
+            libe<lb ed="#V" n="8" break="no"/>rae, sicut illa e converso; et illa
+            ne<lb ed="#V" n="9" break="no"/>sciens servitutem ejus, per
+            conse<lb ed="#V" n="10" break="no"/>quens non consentit scienter in
+            <lb ed="#V" n="11"/>servum, nec vult commutare
+            po<lb ed="#V" n="12" break="no"/>testatem sui corporis pro
+            potesta<lb ed="#V" n="13" break="no"/>te corporis, quam servus non
+            <lb ed="#V" n="14"/>potest facere, quia non habet illam.
+          </p>
+          <p>
+            <lb ed="#V" n="15"/>Et (e) ex hoc sequitur aliud
+            co<lb ed="#V" n="16" break="no"/>rollarium, quod error conditionis
+            <lb ed="#V" n="17"/>melioris non impedit, nec servitus,
+            <lb ed="#V" n="18"/>si non sit ignota.
+          </p>
+          <p>
+            <lb ed="#V" n="19"/>Tertia (f) conditio generalis
+            om<lb ed="#V" n="20" break="no"/>ni contractui est, quia si unus
+            <lb ed="#V" n="21"/>contrahit animo simplici, et alter
+            <lb ed="#V" n="22"/>dolose, utens signis contractus sine
+            <lb ed="#V" n="23"/>animo contrahendi, non est
+            contra<lb ed="#V" n="24" break="no"/>ctus, quia deficit ibi principalior
+            <lb ed="#V" n="25"/>causa, scilicet actus mutuus
+            vo<lb ed="#V" n="26" break="no"/>luntatis, sine quo causa minus
+            <lb ed="#V" n="27"/>principalis, scilicet signum
+            exte<lb ed="#V" n="28" break="no"/>rius, non sufficit.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d30q1-p2"> -->
+          <p>
+            <lb ed="#V" n="84" type="fixed=252"/>SCHOLIUM.
+            <lb ed="#V" n="85"/>Conjugem credentem alteri conjugi,
+            asse<lb ed="#V" n="86" break="no"/>renti quod non consensit in matrimonium,
+            <lb ed="#V" n="87"/>non posse ei reddere dubitum, nec ire ad
+            <lb ed="#V" n="88"/>alias nuptias; deponat ergo scrupulum, si
+            <pb ed="#V" n="253"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>vult vitare perplexitatem, sibique suadeat
+            <lb ed="#V" n="2"/>quod mentitur alter. Non loquitur Doctor in
+            <lb ed="#V" n="3"/>casu quo conjux tantum dubitaret de valore
+            <lb ed="#V" n="4"/>matrimonii, ut ei imponunt quidam; hoc
+            <lb ed="#V" n="5"/>enim casu videtur probabilius quod conjux
+            <lb ed="#V" n="6"/>dubitans speculative, non practice facta
+            dili<lb ed="#V" n="7" break="no"/>gentia, potest reddere et petere debitum. De
+            <lb ed="#V" n="8"/>redditione habetur c. Dominus, de secund.
+            <lb ed="#V" n="9"/>nupt. De utroque tenent Sotus 4. de justit. q.
+            <lb ed="#V" n="10"/>5. art. ult. fin. et dist. 27. q. 1. Henriq. 1ib.
+            <lb ed="#V" n="11"/>12. c. 6. num. 5. 7. Emanuel 1. tom. Summ.
+            <lb ed="#V" n="12"/>c. 213. Sanchium citans multos 2. de Matrim.
+            <lb ed="#V" n="13"/>disput. 41. num. 46.
+          </p>
+          <p>
+            <lb ed="#V" n="14"/>Sed (g) hic sunt dubia: Primum,
+            <lb ed="#V" n="15"/>esto quod aliquis ad exequendum
+            <lb ed="#V" n="16"/>libidinem dicat verba, animo
+            ta<lb ed="#V" n="17" break="no"/>men non intendens contrahere,
+            <lb ed="#V" n="18"/>alia persona simplici animo
+            con<lb ed="#V" n="19" break="no"/>trahens numquid obligatur?
+            Vide<lb ed="#V" n="20" break="no"/>tur quod sic, quia ex parte sua
+            <lb ed="#V" n="21"/>sunt, tam consensus quam verba,
+            <lb ed="#V" n="22"/>et ita tota causa obligationis.
+          </p>
+          <p>
+            <lb ed="#V" n="23"/>Praeterea, esto quod dolose
+            con<lb ed="#V" n="24" break="no"/>trahens exprimat alteri dolum
+            <lb ed="#V" n="25"/>suum, ista persona simplici animo
+            <lb ed="#V" n="26"/>contrahens non potest recedere a
+            <lb ed="#V" n="27"/>contractu, quia exponeret se
+            peri<lb ed="#V" n="28" break="no"/>culo fornicationis. Nec potest
+            sta<lb ed="#V" n="29" break="no"/>re, quia non potest reddere
+            debi<lb ed="#V" n="30" break="no"/>tum certitudinaliter ex parte sua,
+            <lb ed="#V" n="31"/>et probabiliter ex parte alterius,
+            <lb ed="#V" n="32"/>de quo praesumendum est melius,
+            <lb ed="#V" n="33"/>quia tunc exponeret se periculo
+            <lb ed="#V" n="34"/>fornicationis; ergo videtur in tali
+            <lb ed="#V" n="35"/>casu persona ista simplex esse
+            <lb ed="#V" n="36"/>perplexa.
+          </p>
+          <p>
+            <lb ed="#V" n="37"/>Ad primum dico quod contractus
+            <lb ed="#V" n="38"/>matrimonii non claudicat, et ideo
+            <lb ed="#V" n="39"/>si secunda persona non dat, nihil
+            <lb ed="#V" n="40"/>fit, ut dictum est in 1. quoest, conclus.
+            <lb ed="#V" n="41"/>2. do ut des, vel, do si des; et ideo
+            <lb ed="#V" n="42"/>si illa non dat, ista nihil facit, licet
+            <lb ed="#V" n="43"/>ex parte sua non sit
+            impedimen<lb ed="#V" n="44" break="no"/>tum facti, nisi ex consequenti.
+          </p>
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>Sed de secundo est major
+            alter<lb ed="#V" n="46" break="no"/>catio, quibusdam dicentibus, quod
+            <lb ed="#V" n="47"/>ista persona non potest reddere
+            <lb ed="#V" n="48"/>debitum, stante conscientia de dolo
+            <lb ed="#V" n="49"/>alterius; nec recedere, quia
+            expo<lb ed="#V" n="50" break="no"/>nit se periculo fornicationis, ut
+            <lb ed="#V" n="51"/>dictum est. Dico tamen breviter,
+            <lb ed="#V" n="52"/>quod nullus est perplexus in lege
+            <lb ed="#V" n="53"/>divina, etiam quocumque actu
+            pro<lb ed="#V" n="54" break="no"/>prio posito, dum tamen non
+            ma<lb ed="#V" n="55" break="no"/>neat aliquod peccatum mortale,
+            <lb ed="#V" n="56"/>per quod fiat perplexus; ista
+            sim<lb ed="#V" n="57" break="no"/>plici animo contrahens cum
+            dolo<lb ed="#V" n="58" break="no"/>so, nec tunc, nec multo magis
+            <lb ed="#V" n="59"/>post, habet aliquem actum, per
+            <lb ed="#V" n="60"/>quem sit perplexa; ergo
+            simpli<lb ed="#V" n="61" break="no"/>citer patet sibi via salutis.
+          </p>
+          <p>
+            <lb ed="#V" n="62"/>Dico (h) ergo quod via tutior
+            <lb ed="#V" n="63"/>est non facere sibi conscientiam,
+            <lb ed="#V" n="64"/>quod alter dolose consenserit, imo
+            <lb ed="#V" n="65"/>quod tunc veraciter consensit, sed
+            <lb ed="#V" n="66"/>modo mentitur, et in hoc casu
+            <lb ed="#V" n="67"/>faciat, sicut vero conjugi. Si
+            au<lb ed="#V" n="68" break="no"/>tem non potest tollere
+            conscien<lb ed="#V" n="69" break="no"/>tiam, quam habet in verbo
+            privati<lb ed="#V" n="70" break="no"/>vo alterius conjugis, stante illa
+            <lb ed="#V" n="71"/>conscientia, peccat mortaliter
+            red<lb ed="#V" n="72" break="no"/>dendo debitum, quia fornicatur;
+            <lb ed="#V" n="73"/>non reddendo autem et multo
+            ma<lb ed="#V" n="74" break="no"/>gis recedendo, exponit se periculo
+            <lb ed="#V" n="75"/>peccati mortalis, quia forte iste
+            <lb ed="#V" n="76"/>mentitur. Et probabilius est, quod
+            <lb ed="#V" n="77"/>nunc mentiatur, quam quod
+            men<lb ed="#V" n="78" break="no"/>titus fuerit in principali
+            contra<lb ed="#V" n="79" break="no"/>ctu, et tunc ista, vel negat sibi,
+            <lb ed="#V" n="80"/>quod suum est, vel si recedit,
+            <lb ed="#V" n="81"/>moechatur secundum Evangelium;
+            <lb ed="#V" n="82"/>in magnam ergo brigam ponitur
+            <lb ed="#V" n="83"/>contrahens cum dolose
+            contra<lb ed="#V" n="84" break="no"/>hente.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d30q1-p3"> -->
+          <p>
+            <pb ed="#V" n="256"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1" type="fixed=256"/>SCHOLIUM.
+            <lb ed="#V" n="2"/>Ficte contrahentem teneri vere
+            contrahe<lb ed="#V" n="3" break="no"/>re. Ita Sotus hic quaest. 1. vers. Respondeo
+            <lb ed="#V" n="4"/>stante. Navar. cap. 22. num. 76. Medin.
+            <lb ed="#V" n="5"/>Summ. cap. 16. s 13. Henriq. lib. 11. cap. 11.
+            <lb ed="#V" n="6"/>Bannes 2. 2. q. 77. art. 3. dub. 1. Major. 4.
+            <lb ed="#V" n="7"/>dist. 27. quaest. 1. videtur D. Thom. ibi. art.
+            <lb ed="#V" n="8"/>2. quaestiunc. 4. ad 1. Ratio est, quia vix
+            <lb ed="#V" n="9"/>aliter satisfieri potest parti deceptae, quia
+            <lb ed="#V" n="10"/>non potest aliud matrimonium inire, et si
+            <lb ed="#V" n="11"/>sunt aequales, etiamsi posset, graviter
+            mane<lb ed="#V" n="12" break="no"/>ret laesa in fama. Si tamen posset his damnis
+            <lb ed="#V" n="13"/>aliter sufficienter occurri sine eo quod
+            de<lb ed="#V" n="14" break="no"/>ceptor contrahat, non video quare non
+            suffi<lb ed="#V" n="15" break="no"/>ceret; quod tenet Petr. Ledesm. de matrim.
+            <lb ed="#V" n="16"/>quaest. 45. artic. 4. dub. 1. s in hac
+            difficui<lb ed="#V" n="17" break="no"/>tate. Secundo, ait defloratorem virginis
+            <lb ed="#V" n="18"/>teneri ei ad dotem juxta consuetudinem
+            <lb ed="#V" n="19"/>patriae. Puto loqui de deflorante per raptum,
+            <lb ed="#V" n="20"/>vel violenter, quia deflorans volentem ad id
+            <lb ed="#V" n="21"/>non tenetur, quia haec defloratio non differt
+            <lb ed="#V" n="22"/>a simplici fornicatione, ut tenet Sotus 4.
+            <lb ed="#V" n="23"/>distinct. 28. quaest. 2. art. 4. col. 13. Suarez
+            <lb ed="#V" n="24"/>tom. 4. disput. 22. sect. 4. num. 6. Quod nec
+            <lb ed="#V" n="25"/>etiam eo casu restitutio debeatur parentibus,
+            <lb ed="#V" n="26"/>tenent Sotus 4. de justit. quaest. 7. artic. 1.
+            <lb ed="#V" n="27"/>ad 2. Navar. 1ib. 2. de restit. part. 4. cap. 3.
+            <lb ed="#V" n="28"/>Bannes 2. 2. quaest. 64. artic. 2. dub, 7.
+            Sa<lb ed="#V" n="29" break="no"/>lon. ibi controv. 5. Sanchius lib. 7. de
+            Matri<lb ed="#V" n="30" break="no"/>monio, disput. 14. num. 11.
+          </p>
+          <p>
+            <lb ed="#V" n="31"/>Sed (i) numquid iste dolosus erit
+            <lb ed="#V" n="32"/>immunis? Respondeo, stante illo
+            <lb ed="#V" n="33"/>dolo, in foro conscientiae dicendum
+            <lb ed="#V" n="34"/>est sibi quod nullo modo reddat,
+            <lb ed="#V" n="35"/>nec petat, quia fornicaretur; et
+            <lb ed="#V" n="36"/>cum hoc dicendum est sibi, quod
+            <lb ed="#V" n="37"/>de necessitate salutis tenetur
+            sa<lb ed="#V" n="38" break="no"/>tisfacere personae laesae, ut sibi
+            <lb ed="#V" n="39"/>reddat de suo, quantum sibi
+            abstu<lb ed="#V" n="40" break="no"/>lit; erat autem istius de jure
+            cor<lb ed="#V" n="41" break="no"/>pus dolosi, quia commutavit
+            cor<lb ed="#V" n="42" break="no"/>pus suum pro corpore illius, sicut
+            <lb ed="#V" n="43"/>qui veraciter contrahit cum alia,
+            <lb ed="#V" n="44"/>quod est servandum; et ideo
+            tene<lb ed="#V" n="45" break="no"/>tur iste dolosus commutare dolum
+            <lb ed="#V" n="46"/>in verum contractum. Sed esto (k)
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="47"/>quod tempore intermedio
+            contra<lb ed="#V" n="48" break="no"/>hat cum alia veraciter, respondeo,
+            <lb ed="#V" n="49"/>servandum illud est cum
+            satisfa<lb ed="#V" n="50" break="no"/>ctione exteriori possibili, puta
+            <lb ed="#V" n="51"/>cum procuratione matrimonii
+            <lb ed="#V" n="52"/>convenientis, sicut dicitur Exod.
+            <lb ed="#V" n="53"/>22. et de impossibilitate reddendi
+            <lb ed="#V" n="54"/>huic quod sibi debetur, est
+            poeni<lb ed="#V" n="55" break="no"/>tendum.
+          </p>
+          <p>
+            <lb ed="#V" n="56"/>Quid (1) de dormiente cum
+            vir<lb ed="#V" n="57" break="no"/>gine? Tenetur sibi ad certam
+            re<lb ed="#V" n="58" break="no"/>stitutionem, secundum morem
+            <lb ed="#V" n="59"/>dotis, quam solent accipere
+            vir<lb ed="#V" n="60" break="no"/>gines in patria illa.
+          </p>
+          <p>
+            <lb ed="#V" n="61"/>Si (m) arguatur: contra
+            soluti<lb ed="#V" n="62" break="no"/>onem istam de errore, qui
+            con<lb ed="#V" n="63" break="no"/>sistit in hoc quod commutatio non
+            <lb ed="#V" n="64"/>est, nisi secundum
+            apprehensi<lb ed="#V" n="65" break="no"/>onem valoris commutati ad illud
+            <lb ed="#V" n="66"/>pro quo commutatur. Contra hoc,
+            <lb ed="#V" n="67"/>aliquis potest aliquid dare, vel
+            <lb ed="#V" n="68"/>commutare expectans magnum
+            <lb ed="#V" n="69"/>sibi dari, cui tamen nihil
+            redde<lb ed="#V" n="70" break="no"/>tur, nec tamen propter hoc datio
+            <lb ed="#V" n="71"/>prima est nulla. Respondeo,
+            quae<lb ed="#V" n="72" break="no"/>dam est datio non liberalis,
+            expe<lb ed="#V" n="73" break="no"/>ctans redditionem futuram;
+            quae<lb ed="#V" n="74" break="no"/>dam est exigens dationem
+            prae<lb ed="#V" n="75" break="no"/>sentem concomitantem, quae
+            pro<lb ed="#V" n="76" break="no"/>prie commutatio est. Prima bene
+            <lb ed="#V" n="77"/>tenet, etiamsi postea non
+            sequa<lb ed="#V" n="78" break="no"/>tur redditio expectata, quia in
+            <lb ed="#V" n="79"/>praesenti fit translatio solum sub
+            <lb ed="#V" n="80"/>spe redditionis futurae. Secunda
+            <lb ed="#V" n="81"/>nunquam est, nisi sit statim
+            red<lb ed="#V" n="82" break="no"/>ditio concomitans, quia contractus
+            <lb ed="#V" n="83"/>commutativus est conditionalis, et
+            <lb ed="#V" n="84"/>si non expressa conditione, tamen
+            <lb ed="#V" n="85"/>universaliter ex natura
+            contra<lb ed="#V" n="86" break="no"/>ctus subintellecta, et contractus
+            <lb ed="#V" n="87"/>conditionatus non est, non stante
+            <lb ed="#V" n="88"/>conditione.
+          </p>
+          <p>
+            <lb ed="#V" n="89"/>Ad (n) primum argumentum,
+            <lb ed="#V" n="90"/>sive Jacob possit excusari a
+            pec<pb ed="#V" n="257"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>cato, si cognovit Liam prima
+            <lb ed="#V" n="2"/>nocte, sive non, non est magna
+            <lb ed="#V" n="3"/>vis, quia non fuit confirmatus; sed
+            <lb ed="#V" n="4"/>postquam deprehendit illam esse
+            <lb ed="#V" n="5"/>Liam, consensit novo consensu
+            <lb ed="#V" n="6"/>propter illa verba Laban: Non est
+            <lb ed="#V" n="7"/>consuetudinis in loco isto, ut minores
+            <lb ed="#V" n="8"/>prius tradantur ad nuptias; et ex tunc
+            <lb ed="#V" n="9"/>fuit uxor ejus; alias bene concedo,
+            <lb ed="#V" n="10"/>quod potuisset repudiasse eam,
+            <lb ed="#V" n="11"/>sicut non suam.
+          </p>
+          <p>
+            <lb ed="#V" n="12"/>Ad secundum subditur ibi, quod
+            <lb ed="#V" n="13"/>post egressum Jacob, et ingres.
+            <lb ed="#V" n="14"/>sum Esau, Isaac stupore
+            vehemen<lb ed="#V" n="15" break="no"/>ti, et ultra quam dici possit
+            admi<lb ed="#V" n="16" break="no"/>rans expavit: Et quis ergo? etc. et
+            <lb ed="#V" n="17"/>tunc subjunxit: Benedixi ei, eritque
+            <lb ed="#V" n="18"/>benedictus; ubi ex textu datur
+            intel<lb ed="#V" n="19" break="no"/>ligi, quod fuerit raptus in illa
+            <lb ed="#V" n="20"/>admiratione vehementi, et in ea
+            <lb ed="#V" n="21"/>vidit Jacob esse juste
+            benedicen<lb ed="#V" n="22" break="no"/>dum: et ita, licet illam
+            benedicti<lb ed="#V" n="23" break="no"/>onem primo ab homine, et
+            huma<lb ed="#V" n="24" break="no"/>na cautela extortam dedisset,
+            ta<lb ed="#V" n="25" break="no"/>men postea in extasi, a Spiritu
+            <lb ed="#V" n="26"/>sancto approbatam pronuntiavit,
+            <lb ed="#V" n="27"/>tanquam firmam, subjungens,
+            erit<lb ed="#V" n="28" break="no"/>que benedictus.
+          </p>
+          <p>
+            <lb ed="#V" n="29"/>Ad aliud dico, quod non est
+            simi<lb ed="#V" n="30" break="no"/>le de Baptismo ignoranter collato,
+            <lb ed="#V" n="31"/>quia ibi non est contractus
+            mu<lb ed="#V" n="32" break="no"/>tuus. Si tamen aliquis ad
+            solu<lb ed="#V" n="33" break="no"/>tionem hujus quaestionis acciperet
+            <lb ed="#V" n="34"/>rationem ex ratione Sacramenti,
+            <lb ed="#V" n="35"/>quod non posset conferri ab
+            er<lb ed="#V" n="36" break="no"/>rante, videtur probabile, quod
+            <lb ed="#V" n="37"/>errans in baptizando circa
+            per<lb ed="#V" n="38" break="no"/>sonam, non baptizaret, sicut nec
+            <lb ed="#V" n="39"/>in matrimonio. Sed ista ratio non
+            <lb ed="#V" n="40"/>est posita ad solutionem
+            quaesti<lb ed="#V" n="41" break="no"/>onis, nec talis error, quod sit A
+            <lb ed="#V" n="42"/>vel B, dum tamen intendat
+            con<lb ed="#V" n="43" break="no"/>ferre Sacramentum illi personae,
+            <lb ed="#V" n="44"/>quae praesens, est videtur impedire
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>collationem aliorum
+            Sacramento<lb ed="#V" n="46" break="no"/>rum, sicut hic impedit; non quod
+            <lb ed="#V" n="47"/>impediat Sacramentum primo, sed
+            <lb ed="#V" n="48"/>quia impedit contractum
+            donati<lb ed="#V" n="49" break="no"/>onis faciendum illi cui non vult
+            <lb ed="#V" n="50"/>donare illud quod hic datur.
+          </p>
+          <p>
+            <lb ed="#V" n="51"/>Ad ultimum dico, quod malitia
+            <lb ed="#V" n="52"/>moralis non est aliquid per se
+            <lb ed="#V" n="53"/>requisitum, nec ejus oppositum
+            <lb ed="#V" n="54"/>ad istum contractum, et ideo non
+            <lb ed="#V" n="55"/>impedit ipsum; secus est de
+            servi<lb ed="#V" n="56" break="no"/>tute, propter rationem dictam in
+            <lb ed="#V" n="57"/>solutione quaestionis.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 41, Quaestio 1</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 41, Quaestio 1</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x19">Vives, Paris, 1894, volume 19</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="537"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e4770"><!-- jdso8u-b4d41q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum affinitas impediat matrimonium</head>
+        <!-- <div alias="scotus-d41q1-p1"> -->
+          <p>
+            <lb ed="#V" n="22" type="fixed=537"/>QUAESTIO UNICA.
+            <lb ed="#V" n="23"/>Utrum affinitas impediat matrimonium?
+          </p>
+          <p>
+            <lb ed="#V" n="24"/>D. Thom. in addit. q. 55. art. 2. et hic q. 1.
+            <lb ed="#V" n="25"/>art. 6. D. Bonavent. art. 1. q. 3. Richard.
+            <lb ed="#V" n="26"/>art. 2. q. 1. Paludanus q. 1. Sotus quaest. unic.
+            <lb ed="#V" n="27"/>Durand. quaest. 1. Henriq. lib. 12. de matrim.
+            <lb ed="#V" n="28"/>c. 3. Ovando hic propos. ult. Petr. Ledesm.
+            <lb ed="#V" n="29"/>de matrim. quaest. 55. art. 1. diffic. 1.
+            San<lb ed="#V" n="30" break="no"/>chius lib. 7. de matrim. disput. 64. et tribus
+            <lb ed="#V" n="31"/>seqq.
+          </p>
+          <p>
+            <lb ed="#V" n="32"/>Circa (a) istam quadragesimam
+            <lb ed="#V" n="33"/>primam distinctionem quaero,
+            <lb ed="#V" n="34"/>utrum affinitas impediat
+            matri<lb ed="#V" n="35" break="no"/>monium? Quod non, effectus non
+            <lb ed="#V" n="36"/>repugnat suae causae; sed affinitas
+            <lb ed="#V" n="37"/>est effectus matrimonii; ergo non
+            <lb ed="#V" n="38"/>repugnat matrimonio.
+          </p>
+          <p>
+            <lb ed="#V" n="39"/>Praeterea, tunc incestus cum
+            <lb ed="#V" n="40"/>sorore uxoris impediret copulam
+            <lb ed="#V" n="41"/>conjugalem cum ea simpliciter,
+            <lb ed="#V" n="42"/>quia per illum incestum fit affinis
+            <lb ed="#V" n="43"/>uxoris suae: consequens est
+            fal<cb ed="#V" n="b"/><lb ed="#V" n="44" break="no"/>sum, ut habetur Extra eod. tit. de
+            <lb ed="#V" n="45"/>affinitate et consanguinitate: Non debet.
+          </p>
+          <p>
+            <lb ed="#V" n="46"/>Oppositum, 35. quaest. de
+            propin<lb ed="#V" n="47" break="no"/>quis.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d41q1-p2"> -->
+          <p>
+            <lb ed="#V" n="59" type="fixed=537"/>SCHOLIUM.
+            <lb ed="#V" n="60"/>Definit affinitatem, et ponit regulam,
+            sci<lb ed="#V" n="61" break="no"/>licet toto gradu affinitatis te attingere
+            ali<lb ed="#V" n="62" break="no"/>quem, quoto consanguinitatis attingis,
+            perso<lb ed="#V" n="63" break="no"/>nam, cui carnaliter commixtus es. Ad
+            <lb ed="#V" n="64"/>affinitatem proprie dictam non sufficit
+            <lb ed="#V" n="65"/>aliquam esse uxorem, sed requiritur et
+            <lb ed="#V" n="66"/>sufficit copula. Lato modo,
+            impedimen<lb ed="#V" n="67" break="no"/>tum ex matrimonio rato dicitur affinitas, et
+            <lb ed="#V" n="68"/>dirimit usque ad quartum gradum, licet
+            <lb ed="#V" n="69"/>non habeatur expressum de hoc jus. Ita
+            <lb ed="#V" n="70"/>Sotus hic quaest. unic. art. 2. col, pen.
+            Ab<lb ed="#V" n="71" break="no"/>bas de cap. Non debet, n. 13. Navar. 4.
+            <lb ed="#V" n="72"/>consil. de sponsal. 1. edit. cons. 13. Sanchius
+            <lb ed="#V" n="73"/>lib. 7. disput. 70. n. 1. Magis proprie dicitur
+            <lb ed="#V" n="74"/>hoc impedimentum publica honestas, ut ait
+            <lb ed="#V" n="75"/>Scot. hic. quem sequitur Sanchius citans
+            <lb ed="#V" n="76"/>multos.
+          </p>
+          <p>
+            <lb ed="#V" n="77"/>Hic (b) breviter ratio affinitatis
+            <lb ed="#V" n="78"/>potest poni talis: Affinitas est
+            <lb ed="#V" n="79"/>vinculum quoddam personae ad
+            <lb ed="#V" n="80"/>personam aliquam, ex carnali
+            co<lb ed="#V" n="81" break="no"/>pula cum persona alteri
+            consan<lb ed="#V" n="82" break="no"/>guinea contractum. Semper enim,
+            <lb ed="#V" n="83"/>quia persona carnaliter copulata
+            <lb ed="#V" n="84"/>est consanguinea alicui, ideo illa
+            <lb ed="#V" n="85"/>cui copulatur, fit affinis illius, et
+            <lb ed="#V" n="86"/>e converso; et est quasi expositio
+            <pb ed="#V" n="538"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>nominis affinis, id est, accessio ad
+            <lb ed="#V" n="2"/>affines. Conjunctus enim
+            carnali<lb ed="#V" n="3" break="no"/>ter alicui de consanguinitate
+            ali<lb ed="#V" n="4" break="no"/>qua accedit per hoc ad affines
+            <lb ed="#V" n="5"/>illius consanguinitatis, et ideo
+            <lb ed="#V" n="6"/>habet vinculum talis accessus ad
+            <lb ed="#V" n="7"/>omnes de illa consanguinitate.
+            <lb ed="#V" n="8"/>In isto vinculo possunt assignari
+            <lb ed="#V" n="9"/>gradu et lineae, sicut prius in
+            con<lb ed="#V" n="10" break="no"/>sanguinitate; et pro his omnibus
+            <lb ed="#V" n="11"/>est una brevis regula.
+          </p>
+          <p>
+            <lb ed="#V" n="12"/>Quoto (c) gradu consanguinitatis
+            <lb ed="#V" n="13"/>aliquis distat ab alio, toto gradu
+            <lb ed="#V" n="14"/>affinitatis distat ab eodem, illa
+            <lb ed="#V" n="15"/>quae est ab isto carnaliter cognita.
+            <lb ed="#V" n="16"/>Non (d) dico uxor, quia hoc non
+            <lb ed="#V" n="17"/>requiritur; non solum enim cum
+            <lb ed="#V" n="18"/>uxore, sed cum concubina vel
+            <lb ed="#V" n="19"/>meretrice contrahitur affinitas
+            <lb ed="#V" n="20"/>consanguineorum ipsius viri, imo
+            <lb ed="#V" n="21"/>in incestu.
+          </p>
+          <p>
+            <lb ed="#V" n="22"/>Non (e) sufficit ad affinitatem
+            <lb ed="#V" n="23"/>proprie dictam, quod sit uxor, sed
+            <lb ed="#V" n="24"/>requiritur carnalis conjunctio, ut
+            <lb ed="#V" n="25"/>habetur 35. quaest. ultim.
+            Fraterni<lb ed="#V" n="26" break="no"/>tatis, dicitur de conjugibus, quod si
+            <lb ed="#V" n="27"/>una caro fuerint, non potest esse, quod
+            <lb ed="#V" n="28"/>aliquis sit propinquus uni eorum, quin
+            <lb ed="#V" n="29"/>pertineat alteri; in quo datur
+            intel<lb ed="#V" n="30" break="no"/>ligi affinitatem non contrahi, nisi
+            <lb ed="#V" n="31"/>mediante commixtione carnali;
+            <lb ed="#V" n="32"/>extendendo tamen affinitatem,
+            di<lb ed="#V" n="33" break="no"/>citur contrahi non solum cum
+            <lb ed="#V" n="34"/>uxore carnaliter cognita, sed
+            <lb ed="#V" n="35"/>etiam cum non cognita, et quod
+            <lb ed="#V" n="36"/>plus est, cum illa cum qua praecise
+            <lb ed="#V" n="37"/>contrahuntur sponsalia. Ubi est
+            <lb ed="#V" n="38"/>advertendum, quod istud
+            vincu<lb ed="#V" n="39" break="no"/>lum contractum ad aliquam
+            pro<lb ed="#V" n="40" break="no"/>pter conjunctionem ejus cum
+            <lb ed="#V" n="41"/>aliquo consanguineo, et hoc sive
+            <lb ed="#V" n="42"/>conjunctionem matrimonialem,
+            si<lb ed="#V" n="43" break="no"/>ve concubinariam, dicitur
+            commu<lb ed="#V" n="44" break="no"/>niter publicae honestatis justitia.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d41q1-p3"> -->
+          <p>
+            <lb ed="#V" n="85" type="fixed=539"/>SCHOLIUM.
+            <lb ed="#V" n="86"/>Affinitas impedit Jure Ecclesiae, et dirimit
+            <lb ed="#V" n="87"/>usque ad quartum gradum, d. c. Non debet;
+            <lb ed="#V" n="88"/>et c. 1. de consangnin. Idem ait de publica
+            <pb ed="#V" n="540"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>honestate ex matrimonio rato vel
+            sponsali<lb ed="#V" n="2" break="no"/>bus, etiam nullis, aliter quam defectu
+            con<lb ed="#V" n="3" break="no"/>sensus, ex cap. unic. de sponsal. 6. Tamen
+            <lb ed="#V" n="4"/>Trident. sess. 24. cap. 3. impedimentum
+            pu<lb ed="#V" n="5" break="no"/>blicae honestatis ex sponsalibus restrinxit ad
+            <lb ed="#V" n="6"/>primum gradum tantum, et ad sponsalia
+            va<lb ed="#V" n="7" break="no"/>lida. Sed nihil restrinxit circa
+            impedimen<lb ed="#V" n="8" break="no"/>tum ex matrimonio rato, atque adeo oritur
+            <lb ed="#V" n="9"/>modo usque ad quartum gradum, et ex
+            con<lb ed="#V" n="10" break="no"/>tractu irrito, ex motu proprio Pii V. de quo
+            <lb ed="#V" n="11"/>Sanchius lib. 7. disp. 70. num. 5. Restrinxit
+            <lb ed="#V" n="12"/>etiam Concilium ibidem, cap. 4. affinitatem
+            <lb ed="#V" n="13"/>ortam ex illicito coitu, ad secundum
+            gra<lb ed="#V" n="14" break="no"/>dum. De hoc impedimento tradit exactissime
+            <lb ed="#V" n="15"/>Sanchius lib. 7. disp. 64. et tribus seqq.
+          </p>
+          <p>
+            <lb ed="#V" n="16"/>Ad (f) quaestionem ergo dico,
+            <lb ed="#V" n="17"/>quod affinitas simpliciter impedit
+            <lb ed="#V" n="18"/>matrimonium; et ratio non est
+            <lb ed="#V" n="19"/>nisi statutum Ecclesiae
+            illegiti<lb ed="#V" n="20" break="no"/>mantis affines, et (g) in eodem
+            <lb ed="#V" n="21"/>gradu impedit matrimonium in
+            <lb ed="#V" n="22"/>quo consanguinitas, et hoc
+            qui<lb ed="#V" n="23" break="no"/>dem de affinitate proprie dicta,
+            <lb ed="#V" n="24"/>patet in tit. illo de consanguinitate et
+            <lb ed="#V" n="25"/>affinitate, cap. Non debet.
+            Consimili<lb ed="#V" n="26" break="no"/>ter de affinitate (h) communiter
+            <lb ed="#V" n="27"/>et extensive dicta, quae vocatur
+            <lb ed="#V" n="28"/>publicae honestatis justitia,
+            habe<lb ed="#V" n="29" break="no"/>tur Extra de consang. et affinit, cap. 1.
+            <lb ed="#V" n="30"/>aeque, ut Canones dicunt,
+            absti<lb ed="#V" n="31" break="no"/>nendum est a consanguineis
+            uxo<lb ed="#V" n="32" break="no"/>ris et propriis. De ista etiam
+            <lb ed="#V" n="33"/>publicae honestatis justitia, multa
+            <lb ed="#V" n="34"/>habentur Extra de consanguin, et
+            af<lb ed="#V" n="35" break="no"/>finit. et in 6. lib. quod ex sponsalibus,
+            <lb ed="#V" n="36"/>quae ipso jure sunt nulla, vel
+            qua<lb ed="#V" n="37" break="no"/>litercumque, dum tamen non sunt
+            <lb ed="#V" n="38"/>nulla ex defectu consensus, oritur
+            <lb ed="#V" n="39"/>istud impedimentum matrimonii
+            <lb ed="#V" n="40"/>impediens contrahendum, et
+            diri<lb ed="#V" n="41" break="no"/>mens jam contractum.
+          </p>
+          <p>
+            <lb ed="#V" n="42"/>Ad primum argumentum dico
+            <lb ed="#V" n="43"/>quod affinitas, quae est effectus
+            <lb ed="#V" n="44"/>matrimonii cujusdam
+            praeceden<lb ed="#V" n="45" break="no"/>tis, illud non impedit; sed impedit
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="46"/>aliud inter illos, inter quos per
+            <lb ed="#V" n="47"/>matrimonium est contracta
+            affi<lb ed="#V" n="48" break="no"/>nitas.
+          </p>
+          <p>
+            <lb ed="#V" n="49"/>Ad secundum dico, quod affinitas
+            <lb ed="#V" n="50"/>contracta per copulam cum
+            so<lb ed="#V" n="51" break="no"/>rore uxoris ante matrimonium,
+            <lb ed="#V" n="52"/>simpliciter impediret
+            matrimo<lb ed="#V" n="53" break="no"/>nium pro futuro, sed post
+            matri<lb ed="#V" n="54" break="no"/>monium contractum, affinitas
+            <lb ed="#V" n="55"/>superveniens non dirimit; et
+            <lb ed="#V" n="56"/>ratio est, quia multa impediunt
+            <lb ed="#V" n="57"/>nondum factum, quae non
+            de<lb ed="#V" n="58" break="no"/>struunt jam factum; privatur
+            <lb ed="#V" n="59"/>tamen vir jure petendi propter
+            <lb ed="#V" n="60"/>illud crimen, et post mortem
+            uxo<lb ed="#V" n="61" break="no"/>ris sine conjugio permanet, ut
+            <lb ed="#V" n="62"/>habetur ibidem.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>
