@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 11, Pars 1, Articulus 2, Quaestio 3</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 11, Pars 1, Articulus 2, Quaestio 3</title>
+          <date when="2026-11-20">Nov 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x17">Vives, Paris, 1894, volume 17</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="469"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e3982"><!-- jdso8u-b4d11p1a2q3 -->
+        <head>Quaestio 3</head>
+        <head type="question-title">Quibus propositionibus conversio panis in corpus Christi possit vere exprimi</head>
+        <!-- <div alias="scotus-d11q5-p1"> -->
+          <p>
+            <pb ed="#V" n="469"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1" type="fixed=469"/>QUAESTIO V
+            <lb ed="#V" n="2"/>An conversio panis in corpus Christi
+            <lb ed="#V" n="3"/>possit vere exprimi, et quibus
+            propo<lb ed="#V" n="4" break="no"/>sitionibus?
+          </p>
+          <p>
+            <lb ed="#V" n="5"/>Damasc. lib. 4. c. 14. Innoc. 4. de hoc myst. c. 6.
+            <lb ed="#V" n="6"/>Ambros. 5. de Sacram. cap. 3. Cyprian. serm.
+            <lb ed="#V" n="7"/>de caen. Dom. Beda in 1. Corinh. 11. habetur
+            <lb ed="#V" n="8"/>cap. Non omnis, de consecrat. dist. 2.
+          </p>
+          <p>
+            <lb ed="#V" n="9"/>Ultimo (a) quaeritur sine
+            argu<lb ed="#V" n="10" break="no"/>mentis, quibus propositionibus
+            <lb ed="#V" n="11"/>possit haec conversio vere
+            expri<lb ed="#V" n="12" break="no"/>mi?
+          </p>
+          <p>
+            <lb ed="#V" n="13"/>Respondeo, non potest vere
+            si<lb ed="#V" n="14" break="no"/>gnari per verbum essendi, nec
+            <lb ed="#V" n="15"/>fiendi, neque etiam per hoc
+            ver<lb ed="#V" n="16" break="no"/>bum posse vel possibile, et hoc
+            se<lb ed="#V" n="17" break="no"/>cundum nullam differentiam
+            tem<lb ed="#V" n="18" break="no"/>poris. Nec enim panis fuit corpus,
+            <lb ed="#V" n="19"/>nec est, nec erit, et e converso
+            <lb ed="#V" n="20"/>corpus non fuit, nec est, nec erit
+            <lb ed="#V" n="21"/>panis. Et ratio omnium istorum
+            <lb ed="#V" n="22"/>est, quia esse notat unionem
+            ex<lb ed="#V" n="23" break="no"/>tremorum essentialem vel
+            acci<lb ed="#V" n="24" break="no"/>dentalem pro illo tempore quod
+            <lb ed="#V" n="25"/>assignat; sed pro nulla differentia
+            <lb ed="#V" n="26"/>temporis habent haec extrema
+            uni<lb ed="#V" n="27" break="no"/>onem essentialem, nec
+            accidenta<lb ed="#V" n="28" break="no"/>lem, sed pro omni instanti, vel
+            <lb ed="#V" n="29"/>disparationem, puta quando
+            ex<lb ed="#V" n="30" break="no"/>trema sunt entia positiva, vel
+            <lb ed="#V" n="31"/>majorem repugnantiam, scilicet
+            <lb ed="#V" n="32"/>entis ad non ens pro illo instanti,
+            <lb ed="#V" n="33"/>pro quo unum est, et aliud non
+            <lb ed="#V" n="34"/>est.
+          </p>
+          <p>
+            <lb ed="#V" n="35"/>Secundo dico, quod panis nec fit,
+            <lb ed="#V" n="36"/>nec factus est, nec fiet corpus
+            <lb ed="#V" n="37"/>Christi, nec e converso; et ratio
+            <lb ed="#V" n="38"/>istorum est, quia fieri, quando
+            <lb ed="#V" n="39"/>praedicatur secundum adjacens.
+            <lb ed="#V" n="40"/>praedicat fieri simpliciter ejus de
+            <lb ed="#V" n="41"/>quo dicitur, et sic non conjungit
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="42"/>aliquod oppositum ipsi subjecto,
+            <lb ed="#V" n="43"/>sicut panis fiebat, quando
+            coque<lb ed="#V" n="44" break="no"/>batur, et sic corpus fiebat, quando
+            <lb ed="#V" n="45"/>in utero Virginis formabatur, sed
+            <lb ed="#V" n="46"/>nihil ad B. Sed quando fieri
+            prae<lb ed="#V" n="47" break="no"/>dicatur tertium adjacens, tunc
+            <lb ed="#V" n="48"/>denotat subjectum fieri secundum
+            <lb ed="#V" n="49"/>formam praedicati; sed panis pro
+            <lb ed="#V" n="50"/>nulla differentia temporis fit
+            se<lb ed="#V" n="51" break="no"/>cundum formam praedicati,
+            scili<lb ed="#V" n="52" break="no"/>cet corporis, nec e converso, et
+            <lb ed="#V" n="53"/>patet illud in simili per
+            opposi<lb ed="#V" n="54" break="no"/>tum, ideo enim, haec est vera;
+            <lb ed="#V" n="55"/>homo fit albus, quia hic homo fit
+            <lb ed="#V" n="56"/>sub forma albedinis; et per
+            oppo<lb ed="#V" n="57" break="no"/>situm haec est impossibilis: homo
+            <lb ed="#V" n="58"/>fit asinus, et hoc, loquendo stricte
+            <lb ed="#V" n="59"/>de virtute sermonis; sic videtur
+            <lb ed="#V" n="60"/>esse in proposito.
+          </p>
+          <p>
+            <lb ed="#V" n="61"/>Tertio dico, quod panis non
+            po<lb ed="#V" n="62" break="no"/>test, nec potuit, nec poterit esse
+            <lb ed="#V" n="63"/>corpus Christi, nec e converso.
+            <lb ed="#V" n="64"/>Et ratio omnium istorum est, quia
+            <lb ed="#V" n="65"/>illa de possibili est falsa, cujus
+            <lb ed="#V" n="66"/>illa de inesse est impossibilis;
+            quae<lb ed="#V" n="67" break="no"/>libet enim de possibili potest
+            ex<lb ed="#V" n="68" break="no"/>poni in aliquam de inesse
+            pos<lb ed="#V" n="69" break="no"/>sibilem, licet forte falsam; sed
+            <lb ed="#V" n="70"/>quaelibet de inesse correspondens
+            <lb ed="#V" n="71"/>cuilibet istarum de possibili, est
+            <lb ed="#V" n="72"/>impossibilis ex prima conclusione
+            <lb ed="#V" n="73"/>jam probata.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d11q5-p2"> -->
+          <p>
+            <lb ed="#V" n="32" type="fixed=470"/>SCHOLIUM.
+            <lb ed="#V" n="33"/>Ostenso, panem non esse, fieri, nec posse
+            <lb ed="#V" n="34"/>esse vel fieri corpus, declarat alterum
+            ho<lb ed="#V" n="35" break="no"/>rum de altero dici tantum in obliquo, ut
+            <lb ed="#V" n="36"/>dicendo ex pane fit corpus, vel panis transit
+            <lb ed="#V" n="37"/>in corpus; et haec secunda est magis
+            pro<lb ed="#V" n="38" break="no"/>pria, quia ly ea significat manere
+            subje<lb ed="#V" n="39" break="no"/>ctum commune utrique termino secundum
+            <lb ed="#V" n="40"/>Philosophum.
+          </p>
+          <p>
+            <lb ed="#V" n="41"/>Dico ergo, quod nullo istorum
+            <lb ed="#V" n="42"/>modorum, accipiendo utrumque
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43"/>extremum in recto, oportet
+            alte<lb ed="#V" n="44" break="no"/>rum de altero praedicari. Si ergo
+            <lb ed="#V" n="45"/>vera debet esse praedicatio,
+            opor<lb ed="#V" n="46" break="no"/>tet alterum eorum in obliquo
+            ac<lb ed="#V" n="47" break="no"/>cipere, denotando ordinem
+            extre<lb ed="#V" n="48" break="no"/>mi ad extremum; et hoc potest
+            <lb ed="#V" n="49"/>esse dupliciter: vel cum hac
+            prae<lb ed="#V" n="50" break="no"/>positione ex, vel de, addendo ad
+            <lb ed="#V" n="51"/>terminum a quo, sicut dicit
+            Philo<lb ed="#V" n="52" break="no"/>sophus, 2. Metaphysicae, cap. 3.
+            <lb ed="#V" n="53"/>Quod ex mane fit meridies, et non e
+            <lb ed="#V" n="54"/>converso; et hoc modo potest
+            con<lb ed="#V" n="55" break="no"/>cedi, quod ex pane vel de pane fit
+            <lb ed="#V" n="56"/>corpus Christi. Alio modo addendo
+            <lb ed="#V" n="57"/>termino ad quem, hanc
+            praepositi<lb ed="#V" n="58" break="no"/>onem in, quae denotat ipsum esse
+            <lb ed="#V" n="59"/>terminum ad quem, hoc modo
+            pa<lb ed="#V" n="60" break="no"/>nis transit in corpus Christi.
+          </p>
+          <p>
+            <lb ed="#V" n="61"/>Et omnes aliae locutiones de
+            vir<lb ed="#V" n="62" break="no"/>tute sermonis ad aliquam istarum
+            <lb ed="#V" n="63"/>reducuntur; sed secunda est
+            ma<lb ed="#V" n="64" break="no"/>gis propria, quia non denotat
+            <lb ed="#V" n="65"/>aliquid commune manere, sicut
+            <lb ed="#V" n="66"/>aliquo modo denotat ista
+            praepo<lb ed="#V" n="67" break="no"/>sitio ex, secundum modum
+            pro<lb ed="#V" n="68" break="no"/>prium accipiendi ex; non enim
+            <lb ed="#V" n="69"/>ex opposito fit oppositum, nisi
+            <lb ed="#V" n="70"/>quia ex subjecto communi
+            utri<lb ed="#V" n="71" break="no"/>que, secundum Philosophum, 1.
+            <lb ed="#V" n="72"/>Physic. primo de Generat. et 11.
+            Meta<lb ed="#V" n="73" break="no"/>phys. Nulla autem propositio cum
+            <lb ed="#V" n="74"/>mutatione accepta, vel moveri,
+            <lb ed="#V" n="75"/>etiam accipiendo unum terminum
+            <lb ed="#V" n="76"/>in obliquo, et alterum in recto,
+            <lb ed="#V" n="77"/>vera est, utpote panis mutatur in
+            <lb ed="#V" n="78"/>corpus, quia non est hic mutatio,
+            <lb ed="#V" n="79"/>ut dictum est in 1. quaest. istius
+            <lb ed="#V" n="80"/>distinct. transire autem, seu verti,
+            <lb ed="#V" n="81"/>abstrahit a ratione mutationis,
+            <lb ed="#V" n="82"/>quia ponunt habitudinem termini
+            <lb ed="#V" n="83"/>ad terminum, non importando
+            sub<lb ed="#V" n="84" break="no"/>jectum commune manere.
+          </p>
+          <p>
+            <lb ed="#V" n="85"/>Circa secundam partem istius
+            <lb ed="#V" n="86"/>distinctionis, quaerendum est de
+            <pb ed="#V" n="471"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>materia conveniente isti
+            conver<lb ed="#V" n="2" break="no"/>sioni; et duo hic quaeruntur:
+            <lb ed="#V" n="3"/>Primo, utrum solus panis
+            triti<lb ed="#V" n="4" break="no"/>ceus cum aqua elementari
+            coa<lb ed="#V" n="5" break="no"/>gulatus sit conveniens materia
+            <lb ed="#V" n="6"/>conversionis in corpus Christi?
+            <lb ed="#V" n="7"/>Secundo, utrum solum vinum
+            ex<lb ed="#V" n="8" break="no"/>pressum de uva sit conveniens
+            <lb ed="#V" n="9"/>materia conversionis in
+            sangui<lb ed="#V" n="10" break="no"/>nem?
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 12, Pars 3, Articulus 1, Quaestio 2</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 12, Pars 3, Articulus 1, Quaestio 2</title>
+          <date when="2026-11-20">Nov 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x17">Vives, Paris, 1894, volume 17</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="633"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e4095"><!-- jdso8u-b4d12p3a1q2 -->
+        <head>Quaestio 2</head>
+        <head type="question-title">Utrum possibile sit circa eucharistiam fieri transmutationem corruptivam accidentium</head>
+        <!-- <div alias="scotus-d12q5-p1"> -->
+          <p>
+            <lb ed="#V" n="71" type="fixed=633"/>QUAESTIO V.
+            <lb ed="#V" n="72"/>Utrum possibile sit circa Eucharistiam
+            <lb ed="#V" n="73"/>fieri transmutationem corruptivam
+            illo<lb ed="#V" n="74" break="no"/>rum accidentium?
+          </p>
+          <p>
+            <lb ed="#V" n="75"/>Alens. 4. p. q. 40. memb. 2. art. 4. S. 11. D.
+            Bo<lb ed="#V" n="76" break="no"/>nav. hic art. 2. q. 1. Richard. art. 2. q. 2. et
+            <lb ed="#V" n="77"/>art. 4. q. 2. D. Thom. q. 2. art. 2. et 3. p.
+            <lb ed="#V" n="78"/>q. 77. art. 4. Capreol. hic, q. 1. Palud. q. 4.
+            <lb ed="#V" n="79"/>Gabr. q. 1. Suarez 3. p. tom. 3. disp. 57.
+            <lb ed="#V" n="80"/>sect. 2.
+          </p>
+          <p>
+            <lb ed="#V" n="81"/>De transmutatione corruptiva,
+            <lb ed="#V" n="82"/>quaero, utrum possibile sit circa
+            <lb ed="#V" n="83"/>Eucharistiam fieri
+            transmutati<lb ed="#V" n="84" break="no"/>onem corruptivam illorum acciden
+            <lb ed="#V" n="85"/>tium? videtur quod non. Forma
+            <lb ed="#V" n="86"/>est simplex invariabili essentia
+            <lb ed="#V" n="87"/>consistens lib. 6. Principiorum.
+          </p>
+          <p>
+            <pb ed="#V" n="634"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Item, Boetius Lib. de Trin.
+            For<lb ed="#V" n="2" break="no"/>ma simplex subjectum esse non potest.
+          </p>
+          <p>
+            <lb ed="#V" n="3"/>Item, materia est, qua res potest
+            <lb ed="#V" n="4"/>esse et non esse, 7. Metaph. Ex his
+            <lb ed="#V" n="5"/>omnibus habetur, quod simplex ad
+            <lb ed="#V" n="6"/>minus forma non potest corrumpi;
+            <lb ed="#V" n="7"/>sed accidens separatum in
+            Eucha<lb ed="#V" n="8" break="no"/>ristia est forma simplex isto
+            <lb ed="#V" n="9"/>modo; ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="10"/>Item, si corrumperetur, aut in
+            <lb ed="#V" n="11"/>subtantiam, aut in aliud accidens,
+            <lb ed="#V" n="12"/>aut in nihil; non in nihil, quia tunc
+            <lb ed="#V" n="13"/>creatura annihilaret; non in
+            acci<lb ed="#V" n="14" break="no"/>dens, quia tunc creatura causaret
+            <lb ed="#V" n="15"/>accidens sine subjecto; nec in
+            sub<lb ed="#V" n="16" break="no"/>stantiam, quia ex accidente non
+            <lb ed="#V" n="17"/>potest fieri substantia; ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="18"/>Contra, illa accidentia possunt
+            <lb ed="#V" n="19"/>frangi, teri, et digeri, et patet ad
+            <lb ed="#V" n="20"/>sensum; et probatur ex quadam
+            <lb ed="#V" n="21"/>Glossa, 1. Corinth. 12. nutrimentum
+            <lb ed="#V" n="22"/>autem convertitur in substantiam
+            <lb ed="#V" n="23"/>rei nutriendae, ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="24"/>SCHOLIUM.
+            <lb ed="#V" n="25"/>Sententia D. Thomae, accidentia separata
+            <lb ed="#V" n="26"/>eodem modo quo unita, tripliciter posse
+            cor<lb ed="#V" n="27" break="no"/>rumpi. Primo, corruptione subjecti, scilicet
+            <lb ed="#V" n="28"/>quantitatis. Secundo, corruptione per
+            con<lb ed="#V" n="29" break="no"/>trarium, manente subjecto. Tertio,
+            divisi<lb ed="#V" n="30" break="no"/>one subjecti, quia si dividatur in tam parvas
+            <lb ed="#V" n="31"/>partes, quod sub eis non maneret substantia
+            <lb ed="#V" n="32"/>panis, pereunt. Hanc rejicit Doctor, primo
+            <lb ed="#V" n="33"/>quia quantitas non habet modum substantiae
+            <lb ed="#V" n="34"/>nisi tantum negative, ex quaest. 1. Secundo,
+            <lb ed="#V" n="35"/>licet substantia composita sibi determinet
+            <lb ed="#V" n="36"/>qualitatem propriam, tamen quantitas id
+            <lb ed="#V" n="37"/>non facit. Ex quibus habetur, quod non
+            eo<lb ed="#V" n="38" break="no"/>dem modo corrumpuntur accidentia separata
+            <lb ed="#V" n="39"/>et conjuncta.
+          </p>
+          <p>
+            <lb ed="#V" n="40"/>Hic dicitur (a), quod esse
+            sub<lb ed="#V" n="41" break="no"/>sistens, quod manentibus
+            acciden<lb ed="#V" n="42" break="no"/>tibus convenit, est conforme
+            il<lb ed="#V" n="43" break="no"/>li formae, quam prius substantia
+            <lb ed="#V" n="44"/>panis habuit; et ideo esse, in quo
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>dimensiones subsistunt, tollitur
+            <lb ed="#V" n="46"/>eisdem passionibus, quibus
+            tollere<lb ed="#V" n="47" break="no"/>tur substantia panis existente ibi, et
+            <lb ed="#V" n="48"/>propter hoc eodem modo
+            corrum<lb ed="#V" n="49" break="no"/>puntur accidentia remanentia,
+            sic<lb ed="#V" n="50" break="no"/>ut prius poterant corrumpi. Prius
+            <lb ed="#V" n="51"/>autem poterant corrumpi
+            duplici<lb ed="#V" n="52" break="no"/>ter, uno modo manente substantia
+            <lb ed="#V" n="53"/>panis; alio modo per corruptionem
+            <lb ed="#V" n="54"/>substantiae, quae contingit ex
+            trans<lb ed="#V" n="55" break="no"/>mutatione accidentium, quia sicut
+            <lb ed="#V" n="56"/>generatio est terminus
+            alterati<lb ed="#V" n="57" break="no"/>onis, ita et corruptio; et ex parte
+            <lb ed="#V" n="58"/>etiam quantitatis, quia cum
+            una<lb ed="#V" n="59" break="no"/>quaeque res habeat quantitatem
+            <lb ed="#V" n="60"/>determinatam, in tantum poterit
+            <lb ed="#V" n="61"/>fieri divisio, quod species non
+            re<lb ed="#V" n="62" break="no"/>manebit.
+          </p>
+          <p>
+            <lb ed="#V" n="63"/>In hoc ergo Sacramento aliqua
+            <lb ed="#V" n="64"/>transmutatione facta, adhuc manet
+            <lb ed="#V" n="65"/>illud esse dimensivum substantiae
+            <lb ed="#V" n="66"/>praecedenti conforme; aliquando
+            <lb ed="#V" n="67"/>tollitur esse praedictum, et tunc
+            <lb ed="#V" n="68"/>desinit esse Sacramentum. Et
+            si<lb ed="#V" n="69" break="no"/>militer ex parte quantitatis, quia
+            <lb ed="#V" n="70"/>si fiat divisio in partes tantae
+            quan<lb ed="#V" n="71" break="no"/>titatis, quod sufficiat ad speciem
+            <lb ed="#V" n="72"/>panis vel vini, etsi sint aliae
+            di<lb ed="#V" n="73" break="no"/>mensiones, quia partes continui
+            <lb ed="#V" n="74"/>quae erant in potentia, fiunt in
+            ac<lb ed="#V" n="75" break="no"/>tu, tamen esse conforme
+            substan<lb ed="#V" n="76" break="no"/>tiae praeexistenti manet. Si autem
+            <lb ed="#V" n="77"/>quantitas partium ad hoc non
+            suf<lb ed="#V" n="78" break="no"/>ficiat, esse utrumque desinit esse,
+            <lb ed="#V" n="79"/>scilicet dimensio, et esse praedictum,
+            <lb ed="#V" n="80"/>et ideo tunc corpus Christi desinit
+            <lb ed="#V" n="81"/>ibi esse. In quid autem fiat ista
+            cor<lb ed="#V" n="82" break="no"/>ruptio, quando est potentialis,
+            <lb ed="#V" n="83"/>tangetur in quoest. seq.
+          </p>
+          <p>
+            <lb ed="#V" n="84"/>Contra conclusionem
+            principa<lb ed="#V" n="85" break="no"/>lem, quae dicit quod eodem modo
+            <lb ed="#V" n="86"/>potest tolli dimensio ista sicut
+            sub<lb ed="#V" n="87" break="no"/>stantia, quia habet esse conforme
+            <lb ed="#V" n="88"/>substantiae panis, arguo sic: non
+            <pb ed="#V" n="635"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>potest intelligi ista conformitas
+            <lb ed="#V" n="2"/>in aliquo positivo novo, quia nihil
+            <lb ed="#V" n="3"/>tale advenit ipsi accidenti per hoc,
+            <lb ed="#V" n="4"/>quod est sine subjecto, sed illud
+            <lb ed="#V" n="5"/>quod ei advenit, conforme est
+            tan<lb ed="#V" n="6" break="no"/>tum in ista negatione non inhaerere
+            <lb ed="#V" n="7"/>actu. Sed conformitas in ista
+            nega<lb ed="#V" n="8" break="no"/>tione non sufficit ad hoc, ut
+            uni<lb ed="#V" n="9" break="no"/>formiter tollatur, quia ideo tollitur
+            <lb ed="#V" n="10"/>esse substantiae, quia est passum
+            <lb ed="#V" n="11"/>proportionatum agenti naturali,
+            <lb ed="#V" n="12"/>scilicet habens partem potentialem
+            <lb ed="#V" n="13"/>et actualem, quarum potentialis
+            <lb ed="#V" n="14"/>potest esse sine actuali; istud autem
+            <lb ed="#V" n="15"/>habens tantum conformitatem in
+            <lb ed="#V" n="16"/>negatione, non habet aliquas tales
+            <lb ed="#V" n="17"/>partes; ergo, etc.
+            <lb ed="#V" n="18"/>Item, substantia composita
+            neces<lb ed="#V" n="19" break="no"/>sario sibi determinat qualitatem
+            <lb ed="#V" n="20"/>aliquam propriam, et maxime
+            <lb ed="#V" n="21"/>secundum eum, qui ponit quod
+            <lb ed="#V" n="22"/>substantia corrumpitur ad
+            corru<lb ed="#V" n="23" break="no"/>ptionem qualitatis, quod non esset.
+            <lb ed="#V" n="24"/>nisi necessario determinaret sibi
+            <lb ed="#V" n="25"/>illam qualitatem. Sed quantitas non
+            <lb ed="#V" n="26"/>necessario sibi determinat aliquam
+            <lb ed="#V" n="27"/>qualitatem; ita enim est indifferens
+            <lb ed="#V" n="28"/>ad contrariam, sicut ad istam, et
+            <lb ed="#V" n="29"/>ad unum gradum ejus, sicut ad
+            <lb ed="#V" n="30"/>alium, quia ex principiis
+            quantita<lb ed="#V" n="31" break="no"/>tis nulla qualitas, nec ullus gradus
+            <lb ed="#V" n="32"/>egreditur qualitatis; ergo, etc.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d12q5-p2"> -->
+          <p>
+            <lb ed="#V" n="85" type="fixed=636"/>SCHOLIUM.
+            <lb ed="#V" n="86"/>Sententia Doctoris, qualitates in
+            Eucha<lb ed="#V" n="87" break="no"/>ristia corrumpi per contrarias, manente
+            <pb ed="#V" n="637"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>manente quantitate, tenendo hanc
+            distin<lb ed="#V" n="2" break="no"/>gui a substantia, de quo supra quaest. 2.
+            <lb ed="#V" n="3"/>tenendo tamen non distingui, eadem
+            difficul<lb ed="#V" n="4" break="no"/>tas est, sicut quaest. praeced. quomodo
+            Eu<lb ed="#V" n="5" break="no"/>charistia corrumpitur corruptione
+            quantita<lb ed="#V" n="6" break="no"/>tatis; et dicendum est, quod non
+            corrumpe<lb ed="#V" n="7" break="no"/>retur a causa naturali, ut ibi dictum est
+            <lb ed="#V" n="8"/>num. 14.
+          </p>
+          <p>
+            <lb ed="#V" n="9"/>Dico (b) ergo ad quaestionem,
+            <lb ed="#V" n="10"/>quod accidentia Eucharistiae
+            pos<lb ed="#V" n="11" break="no"/>sunt corrumpi; et hoc quidem de
+            <lb ed="#V" n="12"/>qualitatibus, quarum transmutatio
+            <lb ed="#V" n="13"/>non requirit aliam quantitatem,
+            <lb ed="#V" n="14"/>satis est manifestum secundum
+            <lb ed="#V" n="15"/>communem opinionem, quia illae
+            <lb ed="#V" n="16"/>possunt poni habere subjectum
+            <lb ed="#V" n="17"/>commune manens, scilicet
+            quan<lb ed="#V" n="18" break="no"/>titatem; sed secundum aliam
+            opi<lb ed="#V" n="19" break="no"/>nionem, quae ponit quantitatem
+            <lb ed="#V" n="20"/>substantiae non differre a
+            substan<lb ed="#V" n="21" break="no"/>tia, nec quantitatem albedinis ab
+            <lb ed="#V" n="22"/>albedine, et per consequens nullam
+            <lb ed="#V" n="23"/>esse hic quantitatem magis
+            sepa<lb ed="#V" n="24" break="no"/>ratam a subjecto, quam
+            substan<lb ed="#V" n="25" break="no"/>stiam, cujus est quantitas, non
+            <lb ed="#V" n="26"/>est aeque facile salvare
+            corrup<lb ed="#V" n="27" break="no"/>tionem qualitatis; tunc enim
+            opor<lb ed="#V" n="28" break="no"/>tet ponere, quod cum pari ratione
+            <lb ed="#V" n="29"/>quaelibet qualitas sit sine
+            subje<lb ed="#V" n="30" break="no"/>cto, sicut et una, quaecumque
+            <lb ed="#V" n="31"/>transmutaretur, transmutaretur
+            <lb ed="#V" n="32"/>sine subjecto, et tunc redit istud
+            <lb ed="#V" n="33"/>ad difficultatem tactam in quaest.
+            <lb ed="#V" n="34"/>praeced. quomodo Eucharistia
+            cor<lb ed="#V" n="35" break="no"/>rumpitur per corruptionem
+            quan<lb ed="#V" n="36" break="no"/>titatis, et quomodo quantitas illa
+            <lb ed="#V" n="37"/>possit esse nova.
+          </p>
+          <p>
+            <lb ed="#V" n="38"/>Tamen ad conclusionem in
+            com<lb ed="#V" n="39" break="no"/>muni potest sic argui: Virtus
+            agen<lb ed="#V" n="40" break="no"/>tis non diminuitur per hoc, quod
+            <lb ed="#V" n="41"/>accidens est sine subjecto; sed si
+            <lb ed="#V" n="42"/>accidens esset in subjecto, posset
+            <lb ed="#V" n="43"/>corrumpi ab agente naturali; ergo
+            <lb ed="#V" n="44"/>et modo. Haec ratio non
+            conclu<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>dit, quia non sufficit sola virtus
+            <lb ed="#V" n="46"/>aequalis agentis naturalis, sed
+            <lb ed="#V" n="47"/>oportet quod habeat passum sibi
+            <lb ed="#V" n="48"/>proportionatum ad hoc quod agat
+            <lb ed="#V" n="49"/>sicut prius.
+          </p>
+          <p>
+            <lb ed="#V" n="50"/>Respondeo, quamdiu manet
+            <lb ed="#V" n="51"/>quantitas, satis facile est secundum
+            <lb ed="#V" n="52"/>communem opinionem salvare
+            <lb ed="#V" n="53"/>passum res pectu agentis naturalis;
+            <lb ed="#V" n="54"/>et hoc bene possibile est respectu
+            <lb ed="#V" n="55"/>qualitatum contrariarum, quia
+            <lb ed="#V" n="56"/>non omnis alteratio inter
+            contra<lb ed="#V" n="57" break="no"/>ria requirit quantitatem mutari;
+            <lb ed="#V" n="58"/>et tamen in tali alteratione ad
+            <lb ed="#V" n="59"/>qualitatem, cum qua non posset
+            <lb ed="#V" n="60"/>stare species panis, desinit esse
+            <lb ed="#V" n="61"/>Eucharistia, quia Deus instituit
+            <lb ed="#V" n="62"/>non conservare Eucharistiam, hoc
+            <lb ed="#V" n="63"/>est, accidentia sine subjecto, in
+            <lb ed="#V" n="64"/>quibus sit corpus Christi, nisi
+            <lb ed="#V" n="65"/>quamdiu manent ibi qualitates
+            <lb ed="#V" n="66"/>natae perficere substantias jam
+            <lb ed="#V" n="67"/>conversas; ergo simpliciter
+            sal<lb ed="#V" n="68" break="no"/>vatur Eucharistiam posse
+            desine<lb ed="#V" n="69" break="no"/>re esse actione agentis naturalis;
+            <lb ed="#V" n="70"/>nec ibi est aliquod miraculum
+            no<lb ed="#V" n="71" break="no"/>vum, quia eadem voluntate
+            anti<lb ed="#V" n="72" break="no"/>qua, qua Deus voluit Eucharistiam
+            <lb ed="#V" n="73"/>esse in Ecclesia, voluit etiam illam
+            <lb ed="#V" n="74"/>non manere, nisi quamdiu
+            qualita<lb ed="#V" n="75" break="no"/>tes aptae natae perficere substantias
+            <lb ed="#V" n="76"/>jam conversas, manent.
+          </p>
+          <p>
+            <lb ed="#V" n="77"/>De corruptione autem
+            Euchari<lb ed="#V" n="78" break="no"/>stiae per corruptionem quantitatis,
+            <lb ed="#V" n="79"/>a quo agente possit fieri, tactum
+            <lb ed="#V" n="80"/>est in quaestione proecedenti. An autem
+            <lb ed="#V" n="81"/>in desitione Eucharistiae per
+            con<lb ed="#V" n="82" break="no"/>versionem, vel transmutationem
+            <lb ed="#V" n="83"/>in quantitatem novam oporteat
+            <lb ed="#V" n="84"/>substantiam redire, dicetur in
+            <lb ed="#V" n="85"/>quaest. seq.
+          </p>
+          <p>
+            <lb ed="#V" n="86"/>Ad rationes. Ad primam dico,
+            <lb ed="#V" n="87"/>quod auctor ille loquitur de illis
+            <lb ed="#V" n="88"/>sex principiis, de quibus
+            determi<pb ed="#V" n="638"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>nat; illa autem sunt formae
+            res<lb ed="#V" n="2" break="no"/>pectivae extrinsecus advenientes.
+            <lb ed="#V" n="3"/>Unde hic auctor non arguit de
+            <lb ed="#V" n="4"/>formis absolutis.
+          </p>
+          <p>
+            <lb ed="#V" n="5"/>Ad secundum potest dici, quod
+            <lb ed="#V" n="6"/>Boetius loquitur de forma, quae est
+            <lb ed="#V" n="7"/>pura forma, id est, purus actus,
+            sic<lb ed="#V" n="8" break="no"/>ut applicat ibi de Deo. Et verum
+            <lb ed="#V" n="9"/>est quod forma, quae non est nata
+            <lb ed="#V" n="10"/>perficere aliquod potentiale, non
+            <lb ed="#V" n="11"/>est nata recipere accidens; et ita
+            <lb ed="#V" n="12"/>est de essentia divina, nisi forte
+            <lb ed="#V" n="13"/>fiat instantia de essentia Angelica
+            <lb ed="#V" n="14"/>et intellectione; sed de hoc in
+            quoe<lb ed="#V" n="15" break="no"/>stione de simplicitate Angeli, an habeat
+            <lb ed="#V" n="16"/>materiam.
+          </p>
+          <p>
+            <lb ed="#V" n="17"/>Ad Philosophum 7. Metaph.
+            pla<lb ed="#V" n="18" break="no"/>num est, quod non concederet
+            <lb ed="#V" n="19"/>aliquid posse corrumpi, nisi
+            habe<lb ed="#V" n="20" break="no"/>ret potentiam distinctam ab
+            ac<lb ed="#V" n="21" break="no"/>tu, sicut partem a parte; sed hoc
+            <lb ed="#V" n="22"/>poneret, quia ponit ordinem
+            causa<lb ed="#V" n="23" break="no"/>rum simpliciter necessarium; vel
+            <lb ed="#V" n="24"/>quia poneret simpliciter nihil
+            pos<lb ed="#V" n="25" break="no"/>se corrumpi, nisi cujus pars manet
+            <lb ed="#V" n="26"/>post corruptionem, sicut ponit
+            <lb ed="#V" n="27"/>nihil proprie posse generari, nisi
+            <lb ed="#V" n="28"/>cujus pars fuit ante generationem;
+            <lb ed="#V" n="29"/>sed nec in ordine causarum, nec in
+            <lb ed="#V" n="30"/>ista partis separatione a toto,
+            <lb ed="#V" n="31"/>concordamus cum ipso.
+          </p>
+          <p>
+            <lb ed="#V" n="32"/>Ad rationem dico, quod qualitas
+            <lb ed="#V" n="33"/>non corrumpitur in nihil, sed in
+            <lb ed="#V" n="34"/>qualitatem aliam contrariam, vel
+            <lb ed="#V" n="35"/>alterius gradus in eadem specie,
+            <lb ed="#V" n="36"/>nec sequitur, quod agens naturale
+            <lb ed="#V" n="37"/>faciat accidens sine subjecto, quia
+            <lb ed="#V" n="38"/>qualitas nova habet idem
+            subje<lb ed="#V" n="39" break="no"/>ctum, quod et prior qualitas
+            ha<lb ed="#V" n="40" break="no"/>buit, vel saltem quantum est de se
+            <lb ed="#V" n="41"/>habere posset. Si autem loquaris
+            <lb ed="#V" n="42"/>de corruptione quantitatis, cui non
+            <lb ed="#V" n="43"/>potest assignari aliquod aliud
+            pri<lb ed="#V" n="44" break="no"/>us subjectum, illa non
+            corrumpi<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>tur actione naturalis agentis sine
+            <lb ed="#V" n="46"/>subjecto, vel praeexistente, de quo
+            <lb ed="#V" n="47"/>dictum est in quaest. praeced. vel de
+            <lb ed="#V" n="48"/>novo creato, de quo dicetur in
+            <lb ed="#V" n="49"/>quoest. seq.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

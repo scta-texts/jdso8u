@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 11, Praeambulum</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 11, Praeambulum</title>
+          <date when="2026-11-20">Nov 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x17">Vives, Paris, 1894, volume 17</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="318"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e5258"><!-- jdso8u-b4d11prae -->
+        <head>Praeambulum</head>
+        <!-- <div alias="scotus-d11prae"> -->
+          <p>
+            <lb ed="#V" n="8" type="fixed=318"/>Supra Magister determinavit
+            <lb ed="#V" n="9"/>veritatem de Eucharistia,
+            quan<lb ed="#V" n="10" break="no"/>tum ad Sacramentum et rem
+            Sa<lb ed="#V" n="11" break="no"/>cramenti et usum ejus; hic
+            deter<lb ed="#V" n="12" break="no"/>minat de consecratione
+            sacramen<lb ed="#V" n="13" break="no"/>tali, quae est quasi inceptio
+            Sacra<lb ed="#V" n="14" break="no"/>menti, et dividitur in duas partes.
+            <lb ed="#V" n="15"/>Primo enim determinat de ipsa
+            <lb ed="#V" n="16"/>consecratione, quantum ad actum
+            <lb ed="#V" n="17"/>consecrationis. Secundo quantum
+            <lb ed="#V" n="18"/>ad materiam, ibi: Sub alia autem
+            <lb ed="#V" n="19"/>specie. Prima in duas. Primo
+            deter<lb ed="#V" n="20" break="no"/>minat veritatem; secundo excludit
+            <lb ed="#V" n="21"/>errorem circa hoc, ibi: Quidam
+            <lb ed="#V" n="22"/>autem. Secunda pars in tres. Primo
+            <lb ed="#V" n="23"/>determinat de materia praecedente
+            <lb ed="#V" n="24"/>et concomitante consecrationem
+            <lb ed="#V" n="25"/>in communi, scilicet quare est
+            <lb ed="#V" n="26"/>species alia, et alia ab ipsa specie
+            <lb ed="#V" n="27"/>rei contentae; secundo de ipsa in
+            <lb ed="#V" n="28"/>speciali, quantum ad duplicem
+            <lb ed="#V" n="29"/>speciem concurrentem ibi: Sed
+            <lb ed="#V" n="30"/>quia sub duplici. Tertio de quadam
+            <lb ed="#V" n="31"/>specie apponenda alii speciei
+            prin<lb ed="#V" n="32" break="no"/>cipali, ibi: Aqua.
+          </p>
+          <p>
+            <lb ed="#V" n="33"/>Circa distinctionem istam
+            unde<lb ed="#V" n="34" break="no"/>cimam quaerendum est
+            principali<lb ed="#V" n="35" break="no"/>ter de duobus. Primo, de
+            conver<lb ed="#V" n="36" break="no"/>sione, seu transubstantiatione.
+            <lb ed="#V" n="37"/>Secundo, de materia apta
+            tran<lb ed="#V" n="38" break="no"/>substantiationi vel conversioni.
+            <lb ed="#V" n="39"/>Circa primum, primo quaerendum
+            <lb ed="#V" n="40"/>est de possibilitate. Secundo, de
+            <lb ed="#V" n="41"/>actualitate. De possibilitate quaero
+            <lb ed="#V" n="42"/>duo. Primo, utrum sit possibilis
+            <lb ed="#V" n="43"/>transubstantiatio? Secundo, utrum
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="44"/>sit possibile quodlibet ens
+            conver<lb ed="#V" n="45" break="no"/>ti in quodcumque?
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

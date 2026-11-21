@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 12, Praeambulum</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 12, Praeambulum</title>
+          <date when="2026-11-20">Nov 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x17">Vives, Paris, 1894, volume 17</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="517"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e5263"><!-- jdso8u-b4d12prae -->
+        <head>Praeambulum</head>
+        <!-- <div alias="scotus-d12prae"> -->
+          <p>
+            <lb ed="#V" n="73" type="fixed=517"/>In ista (a) distinctione determinat
+            <lb ed="#V" n="74"/>Magister de his, quae remanent post
+            <lb ed="#V" n="75"/>consecrationem Eucharistiae, et
+            <lb ed="#V" n="76"/>dividitur in duo. Primo enim
+            de<lb ed="#V" n="77" break="no"/>terminat de esse illorum
+            acciden<lb ed="#V" n="78" break="no"/>tium, quae remanent ibi sine
+            subjec<lb ed="#V" n="79" break="no"/>to; secundo, de quadam
+            transmu<lb ed="#V" n="80" break="no"/>tatione facta circa illa accidentia,
+            <lb ed="#V" n="81"/>scilicet fractione hostiae in partes,
+            <lb ed="#V" n="82"/>ibi: Solet etiam quaeri. Et juxta illud
+            <lb ed="#V" n="83"/>incidenter determinat de
+            signifi<lb ed="#V" n="84" break="no"/>catione illarum partium, in quas
+            <lb ed="#V" n="85"/>frangitur hostia; ibi, Quid autem
+            <lb ed="#V" n="86"/>partes illae figurant. Sequitur illa
+            <pb ed="#V" n="518"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>pars: Post hoc quaeritur. Quae potest
+            <lb ed="#V" n="2"/>poni incidentalis in ista
+            distincti<lb ed="#V" n="3" break="no"/>one, vel principaliter divisa
+            con<lb ed="#V" n="4" break="no"/>tra totam praecedentem partem.
+            <lb ed="#V" n="5"/>In ista enim determinat de
+            Eu<lb ed="#V" n="6" break="no"/>charistia sub ratione sacrificii,
+            <lb ed="#V" n="7"/>postquam determinavit prius de
+            <lb ed="#V" n="8"/>ea sub ratione Sacramenti. Et
+            <lb ed="#V" n="9"/>ista habet principalem et
+            inciden<lb ed="#V" n="10" break="no"/>talem, quae dividitur in duas,
+            qua<lb ed="#V" n="11" break="no"/>rum prima pars est de institutione
+            <lb ed="#V" n="12"/>hujus Sacramenti et sacrificii, ibi:
+            <lb ed="#V" n="13"/>Ut institutum est. Secunda de
+            perce<lb ed="#V" n="14" break="no"/>ptione, ibi: Si autem requiratur.
+          </p>
+          <p>
+            <lb ed="#V" n="15"/>Circa istam distinctionem
+            quae<lb ed="#V" n="16" break="no"/>rendum est principaliter de
+            acci<lb ed="#V" n="17" break="no"/>dentibus remanentibus sine
+            sub<lb ed="#V" n="18" break="no"/>jecto, et ibi tria. Primo, de esse
+            <lb ed="#V" n="19"/>istorum accidentium. Secundo, de
+            <lb ed="#V" n="20"/>actionibus. Tertio, de
+            transmuta<lb ed="#V" n="21" break="no"/>tione circa ipsa. Circa primum
+            <lb ed="#V" n="22"/>quaeruntur duo: Primo, an in
+            <lb ed="#V" n="23"/>Eucharistia sit aliquod accidens
+            <lb ed="#V" n="24"/>sine subjecto? Secundo, an
+            quod<lb ed="#V" n="25" break="no"/>cumque accidens remanens sit
+            si<lb ed="#V" n="26" break="no"/>ne subjecto?
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

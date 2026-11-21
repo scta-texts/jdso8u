@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 8, Quaestio 3</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 8, Quaestio 3</title>
+          <date when="2026-11-20">Nov 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x17">Vives, Paris, 1894, volume 17</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="74"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e3764"><!-- jdso8u-b4d8q3 -->
+        <head>Quaestio 3</head>
+        <head type="question-title">Utrum sacramentum eucharistiae convenienter fuit institutum post cenam eu utrum possit recipi a nonieiunis</head>
+        <!-- <div alias="scotus-d8q3-p1"> -->
+          <p>
+            <lb ed="#V" n="64" type="fixed=74"/>QUAESTIO III.
+            <lb ed="#V" n="65"/>Utrum Sacramentum Eucharistiae possit
+            <lb ed="#V" n="66"/>recipi a non jejunis?
+          </p>
+          <p>
+            <lb ed="#V" n="67"/>Alens. 4. p. q. 52. m. 1. Richard. hic art. 2. q. 31
+            <lb ed="#V" n="68"/>D. Thom. 3. p. q. 80. a. 8. (Suar. ibi d. 68.
+            <lb ed="#V" n="69"/>s. 3. 4. 5. 6. Palud. hic q. 2. Sylv. v.
+            Eucha<lb ed="#V" n="70" break="no"/>ristia. 1. 8 8.
+          </p>
+          <p>
+            <lb ed="#V" n="71"/>Tertio quaeritur (a), utrum hoc
+            <lb ed="#V" n="72"/>Sacramentum possit recipi a non
+            <lb ed="#V" n="73"/>jejunis? Videtur quod sic, quia
+            <lb ed="#V" n="74"/>Christus post coenam discipulis
+            <lb ed="#V" n="75"/>suis pransis dedit Eucharistiam.
+          </p>
+          <p>
+            <lb ed="#V" n="76"/>Item, primae Corinth. 11. Si quis
+            <lb ed="#V" n="77"/>esurit, domi manducet, ubi videtur
+            <lb ed="#V" n="78"/>Apostolus innuere, quod antequam
+            <lb ed="#V" n="79"/>convenirent ad Ecclesiam,
+            debe<lb ed="#V" n="80" break="no"/>rent famem extinguere in domibus
+            <lb ed="#V" n="81"/>suis, ne ibi immoderate de
+            specie<lb ed="#V" n="82" break="no"/>bus illis sumerent. Unde redarguit
+            <lb ed="#V" n="83"/>eos ibidem dicens: Unus quidem
+            esu<lb ed="#V" n="84" break="no"/>rit, alter autem ebrius est.
+          </p>
+          <p>
+            <pb ed="#V" n="75"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Contra, de consecrat. dist. 2. liquido.
+            <lb ed="#V" n="2"/>et sumitur ab Augustino ad
+            inqui<lb ed="#V" n="3" break="no"/>sitiones Januarii: Placuit Spiritui
+            <lb ed="#V" n="4"/>sancto, ut in honorem tanti Sacramenti
+            <lb ed="#V" n="5"/>prius in os Christiani dominicum
+            cor<lb ed="#V" n="6" break="no"/>pus intraret quam alii cibi, ideo mos ille
+            <lb ed="#V" n="7"/>ubique servatur.
+          </p>
+          <p>
+            <lb ed="#V" n="8"/>Respondeo (b), aliquis potest
+            <lb ed="#V" n="9"/>percipere hoc Sacramentum, et
+            <lb ed="#V" n="10"/>non sacramentaliter, nec
+            spiritua<lb ed="#V" n="11" break="no"/>liter; aliquis Sacramentum
+            sacra<lb ed="#V" n="12" break="no"/>mentaliter, sed non spiritualiter;
+            <lb ed="#V" n="13"/>aliquis et Sacramentum, et
+            sacra<lb ed="#V" n="14" break="no"/>mentaliter et spiritualiter; aliquis
+            <lb ed="#V" n="15"/>tantum spiritualiter, et non sacra
+            <lb ed="#V" n="16"/>mentaliter. Primo modo recipit
+            <lb ed="#V" n="17"/>quicumque recipit hostiam
+            conse<lb ed="#V" n="18" break="no"/>cratam, quia ibi est vere
+            Sacramen<lb ed="#V" n="19" break="no"/>tum, et tamen non recipit eam, ut
+            <lb ed="#V" n="20"/>consecratam, sed omnino non
+            dis<lb ed="#V" n="21" break="no"/>cernens eam a communi cibo. Talis
+            <lb ed="#V" n="22"/>secundum Apostolum, 1. Cor. 11.
+            <lb ed="#V" n="23"/>Judicium sibi manducat, et bibit, non
+            <lb ed="#V" n="24"/>dijudicans corpus Domini, id est, non
+            <lb ed="#V" n="25"/>discernens a communibus cibis, et
+            <lb ed="#V" n="26"/>hoc potest esse, vel ex infidelitate.
+            <lb ed="#V" n="27"/>sicut paganus, si daretur sibi
+            com<lb ed="#V" n="28" break="no"/>munio; vel ex contemptu, stante
+            <lb ed="#V" n="29"/>etiam fide, sicut in malo
+            Chri<lb ed="#V" n="30" break="no"/>stiano.
+          </p>
+          <p>
+            <lb ed="#V" n="31"/>Secundo modo recipit ille, qui
+            <lb ed="#V" n="32"/>non tantum recipit Sacramentum,
+            <lb ed="#V" n="33"/>sed recipit illud ut Sacramentum,
+            <lb ed="#V" n="34"/>credens ibi esse corpus Christi, et
+            <lb ed="#V" n="35"/>se recipere communionem
+            corpo<lb ed="#V" n="36" break="no"/>ris Christi, sicut in Ecclesia
+            con<lb ed="#V" n="37" break="no"/>suevit fieri talis communio; sed si
+            <lb ed="#V" n="38"/>est in peccato mortali non
+            contri<lb ed="#V" n="39" break="no"/>tus, non recipit spiritualiter, quia
+            <lb ed="#V" n="40"/>non recipit effectum spiritualem,
+            <lb ed="#V" n="41"/>ad quem ordinatur hujus
+            susce<lb ed="#V" n="42" break="no"/>ptio, qui est animae nutritio
+            spiri<lb ed="#V" n="43" break="no"/>tualis per gratiam datam a
+            Chri<lb ed="#V" n="44" break="no"/>sto.
+          </p>
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>Sed tertio (c) modo recipit bonus
+            <lb ed="#V" n="46"/>fidelis sine peccato mortali,
+            secun<lb ed="#V" n="47" break="no"/>dum possibilitatem suam, et quia
+            <lb ed="#V" n="48"/>diligenter conscientiam
+            examina<lb ed="#V" n="49" break="no"/>vit, et talis vere nutritur, et
+            Chri<lb ed="#V" n="50" break="no"/>sto cibo spirituali unitur et
+            <lb ed="#V" n="51"/>incorporatur, secundum
+            Augusti<lb ed="#V" n="52" break="no"/>num: Crede, et manducabis me; non
+            <lb ed="#V" n="53"/>me convertens in te, sed tu converteris
+            <lb ed="#V" n="54"/>in me. Hoc enim interest inter
+            <lb ed="#V" n="55"/>cibum corporalem et spiritualem,
+            <lb ed="#V" n="56"/>quia cibus corporalis convertitur
+            <lb ed="#V" n="57"/>in nutriendum, sed in nutritione
+            <lb ed="#V" n="58"/>spirituali cibatus convertitur in
+            <lb ed="#V" n="59"/>cibum.
+          </p>
+          <p>
+            <lb ed="#V" n="60"/>Quarto modo recipitur
+            spiritu<lb ed="#V" n="61" break="no"/>aliter, non sacramentaliter, scilicet
+            <lb ed="#V" n="62"/>quando bonus homo est secundum
+            <lb ed="#V" n="63"/>posse suum bene et devote
+            para<lb ed="#V" n="64" break="no"/>tus, tamen propter reverentiam
+            <lb ed="#V" n="65"/>abstinet, vel propter aliquam
+            infir<lb ed="#V" n="66" break="no"/>mitatem, vel forte, quia non potest
+            <lb ed="#V" n="67"/>habere ministrum, cui convenit
+            <lb ed="#V" n="68"/>illud Augustini de consecr. dist. 3.
+            <lb ed="#V" n="69"/>ut quid paras dentem et ventrem? Crede.
+            <lb ed="#V" n="70"/>et manducasti, et talis spiritualiter
+            <lb ed="#V" n="71"/>nutritur.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d8q3-p2"> -->
+          <p>
+            <lb ed="#V" n="58" type="fixed=103"/>SCHOLIUM.
+            <lb ed="#V" n="59"/>Posito quadruplici modo percipiendi
+            Eu<lb ed="#V" n="60" break="no"/>charistiam, resolvit eam sacramentaliter a
+            <lb ed="#V" n="61"/>jejuno suscipiendam esse regulariter, et hoc
+            <lb ed="#V" n="62"/>quia Christus ita instituit fieri, per se
+            im<lb ed="#V" n="63" break="no"/>mediate, vel per Apostolos et Ecclesiam. Et
+            <lb ed="#V" n="64"/>ratio institutionis datur, et ponit casus,
+            qui<lb ed="#V" n="65" break="no"/>bus liceat non jejuno communicare.
+            Sume<lb ed="#V" n="66" break="no"/>batur olim a pransis, ex Conc. Africano, c.
+            <lb ed="#V" n="67"/>8. habetur de consec. d. 1. c. Sacramenta.
+          </p>
+          <p>
+            <lb ed="#V" n="68"/>Ad propositum dico, quod
+            pri<lb ed="#V" n="69" break="no"/>mis duobus modis sine tertio,
+            po<lb ed="#V" n="70" break="no"/>test recipi a non jejunis. Sed de
+            <lb ed="#V" n="71"/>tertio modo, scilicet de posse non
+            <lb ed="#V" n="72"/>absolute, sed licite et utiliter,
+            ha<lb ed="#V" n="73" break="no"/>bet quaestio difficultatem.
+            Distin<lb ed="#V" n="74" break="no"/>guo ergo de jejunio naturae et
+            <lb ed="#V" n="75"/>Ecclesiae. Jejunium Ecclesiae non
+            <lb ed="#V" n="76"/>solvitur, nisi per aliquam
+            refec<lb ed="#V" n="77" break="no"/>tionem extraordinariam praeter
+            <lb ed="#V" n="78"/>morem Ecclesiae. Unde per
+            spe<lb ed="#V" n="79" break="no"/>cierum sumptionem, vel
+            medici<lb ed="#V" n="80" break="no"/>nalium, vel per potum saltem post
+            <lb ed="#V" n="81"/>prandium, non solvitur jejunium
+            <lb ed="#V" n="82"/>Ecclesime. Sed jejunium naturae est
+            <lb ed="#V" n="83"/>carentia cibi suscepti in
+            stoma<lb ed="#V" n="84" break="no"/>cho, vel in via ad stomachum, ita
+            <lb ed="#V" n="85"/>quod nihil intret stomachum in
+            <pb ed="#V" n="104"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>illa die a principio, scilicet hujus
+            <lb ed="#V" n="2"/>diei, a quo dicitur aliquis jejunus.
+            <lb ed="#V" n="3"/>Similiter distinguo de debere vel
+            <lb ed="#V" n="4"/>licere, aut intelligitur regulariter,
+            <lb ed="#V" n="5"/>vel in casu aliquo particulari.
+          </p>
+          <p>
+            <lb ed="#V" n="6"/>Dico (a) ergo quod regulariter
+            <lb ed="#V" n="7"/>oportet ad perceptionem
+            spiritu<lb ed="#V" n="8" break="no"/>alem et sacramentalem,
+            susci<lb ed="#V" n="9" break="no"/>pientem esse jejunum simpliciter,
+            <lb ed="#V" n="10"/>id est, jejunio naturae. Nec istius
+            <lb ed="#V" n="11"/>est aliqua causa principalis, nisi
+            <lb ed="#V" n="12"/>institutio divina, quam vel
+            Chri<lb ed="#V" n="13" break="no"/>stus discipulis dedit, vel per ipsos
+            <lb ed="#V" n="14"/>promulgavit, vel eis instituendum
+            <lb ed="#V" n="15"/>reliquit; et quidem rationalis est
+            <lb ed="#V" n="16"/>institutio propter reverentiam
+            <lb ed="#V" n="17"/>Sacramenti, quae minor est
+            regu<lb ed="#V" n="18" break="no"/>lariter in pranso quam jejuno; et
+            <lb ed="#V" n="19"/>etiam ut primo quaeratur cibus
+            <lb ed="#V" n="20"/>spiritualis quam corporalis.
+          </p>
+          <p>
+            <lb ed="#V" n="21"/>Si autem (b) intelligitur in casu,
+            <lb ed="#V" n="22"/>dico quo aliquis potest esse casus,
+            <lb ed="#V" n="23"/>in quo quasi generaliter licet
+            ac<lb ed="#V" n="24" break="no"/>cedere non jejunum, ut in
+            infirmi<lb ed="#V" n="25" break="no"/>tate gravi, quando timetur
+            pericu<lb ed="#V" n="26" break="no"/>lum mortis imminentis; tunc
+            <lb ed="#V" n="27"/>enim esset periculum negare
+            in<lb ed="#V" n="28" break="no"/>firmo, licet pranso, poscenti
+            Sa<lb ed="#V" n="29" break="no"/>cramentum, cum sit viaticum; et
+            <lb ed="#V" n="30"/>ideo dandum est ei, qui
+            proficisci<lb ed="#V" n="31" break="no"/>tur ex hoc mundo, ut per ipsum
+            <lb ed="#V" n="32"/>ducatur ad terminum.
+          </p>
+          <p>
+            <lb ed="#V" n="33"/>Alius casus specialis est, quia in
+            <lb ed="#V" n="34"/>aliqua regione celebratur
+            commu<lb ed="#V" n="35" break="no"/>niter in vino albo, minister parat
+            <lb ed="#V" n="36"/>calicem Sacerdoti, et ex aliqua
+            <lb ed="#V" n="37"/>negligentia pro vino ponit aquam,
+            <lb ed="#V" n="38"/>Sacerdos non advertens, sed
+            sup<lb ed="#V" n="39" break="no"/>ponens ministrum bene fecisse,
+            <lb ed="#V" n="40"/>procedit dicendo verba, et alia
+            <lb ed="#V" n="41"/>faciendo usque ad perceptionem;
+            <lb ed="#V" n="42"/>percipiens vero liquorem de
+            cali<lb ed="#V" n="43" break="no"/>ce, advertit esse aquam: videtur
+            <lb ed="#V" n="44"/>quod ipse non posset illo die
+            perci<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>pere sanguinem, si oportet
+            jeju<lb ed="#V" n="46" break="no"/>num esse suscipientem.
+          </p>
+          <p>
+            <lb ed="#V" n="47"/>Dico (c), quod in isto casu
+            tene<lb ed="#V" n="48" break="no"/>tur consecrare sanguinem de
+            no<lb ed="#V" n="49" break="no"/>vo, et consecratum percipere.
+            <lb ed="#V" n="50"/>Quod probatur, quia quando sunt.
+            <lb ed="#V" n="51"/>duo praecepta ordinata,
+            praece<lb ed="#V" n="52" break="no"/>ptum superioris magis ligat; nunc
+            <lb ed="#V" n="53"/>autem praeceptum Christi et
+            Ec<lb ed="#V" n="54" break="no"/>clesiae, et ex ipsa ratione
+            Sacra<lb ed="#V" n="55" break="no"/>menti, est, quod Sacramentum
+            <lb ed="#V" n="56"/>quando conficitur, conficiatur
+            in<lb ed="#V" n="57" break="no"/>tegrum, quoniam Sacramentum
+            <lb ed="#V" n="58"/>est in se quoddam integrum ex
+            <lb ed="#V" n="59"/>duobus. De ista etiam
+            integri<lb ed="#V" n="60" break="no"/>tate servanda est districta
+            obli<lb ed="#V" n="61" break="no"/>gatio Ecclesiae de consecr, dist.
+            <lb ed="#V" n="62"/>2. Comperimus, ut Sacramenta
+            in<lb ed="#V" n="63" break="no"/>tegra percipiant, aut ab integris
+            ar<lb ed="#V" n="64" break="no"/>ceantur; loquitur de Sacerdotibus
+            <lb ed="#V" n="65"/>conficientibus, et postea non
+            com<lb ed="#V" n="66" break="no"/>municantibus; et subditur ratio:
+            <lb ed="#V" n="67"/>quia divisio ejusdem Sacramenti sine
+            <lb ed="#V" n="68"/>grandi sacrilegio, non potest provenire;
+            <lb ed="#V" n="69"/>ergo quocumque praecepto alio
+            <lb ed="#V" n="70"/>Ecclesiae posito, et maxime quod
+            <lb ed="#V" n="71"/>non respicit ipsam propriam et
+            <lb ed="#V" n="72"/>essentialem rationem
+            Sacramen<lb ed="#V" n="73" break="no"/>ti, necessario tenetur semper
+            om<lb ed="#V" n="74" break="no"/>nis celebrans ad istam int
+            egrita<lb ed="#V" n="75" break="no"/>tem servandam; ergo qui jam
+            <lb ed="#V" n="76"/>percepit aquam, simpliciter
+            tene<lb ed="#V" n="77" break="no"/>tur ad illud complendum, quod
+            <lb ed="#V" n="78"/>praetermisit, scilicet ad
+            consecran<lb ed="#V" n="79" break="no"/>dum integre Sacramentum; et
+            <lb ed="#V" n="80"/>tunc ultra, si tenetur consecrare
+            <lb ed="#V" n="81"/>sanguinem, tenetur eumdem
+            con<lb ed="#V" n="82" break="no"/>secratum sumere. Unde habetur de
+            <lb ed="#V" n="83"/>consecr. dist. 2. Relatum: Certum est
+            <lb ed="#V" n="84"/>quod hi qui sacrificantes non edunt, rei
+            <lb ed="#V" n="85"/>sunt dominici Sacramenti; et sequitur.
+            <lb ed="#V" n="86"/>quod talis a communione uno anno
+            re<lb ed="#V" n="87" break="no"/>pulsum se noverit; ergo omnibus
+            mo<lb ed="#V" n="88" break="no"/>dis tenendum est, ut
+            quotiescum<pb ed="#V" n="105"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>que Sacerdos corpus et sanguinem
+            <lb ed="#V" n="2"/>immolat, toties perceptionis
+            cor<lb ed="#V" n="3" break="no"/>poris et sanguinis participem se
+            <lb ed="#V" n="4"/>praebeat; iste ergo necessario
+            te<lb ed="#V" n="5" break="no"/>netur ex institutione Christi, et
+            <lb ed="#V" n="6"/>propter integritatem Sacramenti,
+            <lb ed="#V" n="7"/>conficere sanguinem, et ex
+            stri<lb ed="#V" n="8" break="no"/>ctissimo praecepto Ecclesiae sub
+            <lb ed="#V" n="9"/>poena repulsae uno anno, tenetur
+            <lb ed="#V" n="10"/>consecratum percipere.
+          </p>
+          <p>
+            <lb ed="#V" n="11"/>Et si objicitur, iste non est
+            jeju<lb ed="#V" n="12" break="no"/>nus; ergo peccat mortaliter. Vel
+            <lb ed="#V" n="13"/>ergo non debet conficere ne
+            perci<lb ed="#V" n="14" break="no"/>piat, vel si oportet eum conficere
+            <lb ed="#V" n="15"/>et percipere, oportet quod peccet
+            <lb ed="#V" n="16"/>contra praeceptum Ecclesiae, et
+            <lb ed="#V" n="17"/>tunc est perplexus, quod non est
+            <lb ed="#V" n="18"/>dicendum de aliquo ex praeceptis
+            <lb ed="#V" n="19"/>Dei et Ecclesiae.
+          </p>
+          <p>
+            <lb ed="#V" n="20"/>Respondeo, Ecclesia non ita
+            <lb ed="#V" n="21"/>stricte praecepit suscipientem esse
+            <lb ed="#V" n="22"/>jejunum prohibendo non jejunum
+            <lb ed="#V" n="23"/>suscipere, sicut prohibet
+            divisi<lb ed="#V" n="24" break="no"/>onem Sacramenti (imo ipsa
+            divi<lb ed="#V" n="25" break="no"/>sio prohibetur a Christo ex prima
+            <lb ed="#V" n="26"/>institutione Sacramenti), nec etiam
+            <lb ed="#V" n="27"/>ita stricte prohibet non jejunum
+            <lb ed="#V" n="28"/>percipere, sicut praecipit
+            conse<lb ed="#V" n="29" break="no"/>crantem percipere; ergo ex una
+            <lb ed="#V" n="30"/>parte habet iste praeceptum
+            Chri<lb ed="#V" n="31" break="no"/>sti ad sic consecrandum, et
+            <lb ed="#V" n="32"/>post consecrationem
+            strictissi<lb ed="#V" n="33" break="no"/>mum praeceptum Ecclesiae de
+            per<lb ed="#V" n="34" break="no"/>cipiendo; ex alia parte non habet,
+            <lb ed="#V" n="35"/>nisi praeceptum Ecclesiae leve
+            <lb ed="#V" n="36"/>comparative de jejunio; non enim
+            <lb ed="#V" n="37"/>ibi ponitur, quod suscipiens non
+            <lb ed="#V" n="38"/>jejunus sit reus dominici
+            Sacra<lb ed="#V" n="39" break="no"/>menti, neque quod ibi sit
+            sacrile<lb ed="#V" n="40" break="no"/>gium, neque repellitur a
+            commu<lb ed="#V" n="41" break="no"/>nione per annum sicut hic.
+          </p>
+          <p>
+            <lb ed="#V" n="42"/>Simpliciter enim Ecclesia non
+            <lb ed="#V" n="43"/>intendebat ligare in isto casu ad
+            <lb ed="#V" n="44"/>jejunium, imo, cum alia duo
+            prae<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>cepta tum virtute Christi, tum
+            <lb ed="#V" n="46"/>virtute Ecclesiae, fortius et magis
+            <lb ed="#V" n="47"/>obligent, potius intendit in tali
+            <lb ed="#V" n="48"/>casu obligari ad illa. Non est ergo
+            <lb ed="#V" n="49"/>iste perplexus, quia servando
+            prae<lb ed="#V" n="50" break="no"/>ceptum superioris, et praeceptum
+            <lb ed="#V" n="51"/>strictius Ecclesiae, bene facit, et si
+            <lb ed="#V" n="52"/>non servaret, peccaret
+            mortali<lb ed="#V" n="53" break="no"/>ter. Omittendo autem aliud
+            prae<lb ed="#V" n="54" break="no"/>ceptum minus strictum, non
+            pec<lb ed="#V" n="55" break="no"/>cat novo peccato, quia in isto casu
+            <lb ed="#V" n="56"/>non tenetur servare, nec Ecclesia
+            <lb ed="#V" n="57"/>voluit ligare ad hoc praeceptum
+            <lb ed="#V" n="58"/>in hoc casu, sed magis ad
+            opposi<lb ed="#V" n="59" break="no"/>tum.
+          </p>
+          <p>
+            <lb ed="#V" n="60"/>Patet etiam manifeste, quod
+            je<lb ed="#V" n="61" break="no"/>junium non est conditio ita
+            neces<lb ed="#V" n="62" break="no"/>saria in Sacerdote percipiente,
+            <lb ed="#V" n="63"/>quia in die Parasceves particula
+            <lb ed="#V" n="64"/>posita in calice, percipitur cum
+            <lb ed="#V" n="65"/>vino non consecrato, quia illo die
+            <lb ed="#V" n="66"/>calix non consecratur; et
+            verisi<lb ed="#V" n="67" break="no"/>mile est, quod vinum citius
+            des<lb ed="#V" n="68" break="no"/>cendat in ventrem quam illa
+            par<lb ed="#V" n="69" break="no"/>ticula quae masticatur, ergo ex
+            <lb ed="#V" n="70"/>consuetudine Ecclesiae Sacerdos
+            <lb ed="#V" n="71"/>ibi percipit Eucharistiam non
+            je<lb ed="#V" n="72" break="no"/>junus.
+          </p>
+          <p>
+            <lb ed="#V" n="73"/>Et si objicitur, quod scandalum
+            <lb ed="#V" n="74"/>erit si populus percipiat illum
+            se<lb ed="#V" n="75" break="no"/>cundo conficere sanguinem. Est
+            <lb ed="#V" n="76"/>una responsio, quod si
+            scandali<lb ed="#V" n="77" break="no"/>zetur, est scandalum
+            Pharisae<lb ed="#V" n="78" break="no"/>orum acceptum, scilicet, non
+            da<lb ed="#V" n="79" break="no"/>tum, nam factum in se bonum est
+            <lb ed="#V" n="80"/>et necessarium. Et quilibet debet
+            <lb ed="#V" n="81"/>judicare, quod est bonum, si
+            cau<lb ed="#V" n="82" break="no"/>sam nesciat, supponendo, quod
+            <lb ed="#V" n="83"/>Sacerdos habet bonam causam;
+            <lb ed="#V" n="84"/>quilibet etiam, si sciret causam,
+            de<lb ed="#V" n="85" break="no"/>beret approbare; unde de tali
+            scan<lb ed="#V" n="86" break="no"/>dalo ait Christus contemnendo.
+            <lb ed="#V" n="87"/>Matth. 16. de Pharisaeis: Sinite (ait)
+            <lb ed="#V" n="88"/>eos, caeci sunt et duces coecorum. Omnis
+            <pb ed="#V" n="106"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>enim plantatio quam non plantavit, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="2"/>Alio modo potest responderi,
+            <lb ed="#V" n="3"/>quod satis bene cavere potest a
+            <lb ed="#V" n="4"/>scandalo, si caute fiat. Nam
+            va<lb ed="#V" n="5" break="no"/>t dens ad cornu altaris, quasi pro
+            <lb ed="#V" n="6"/>vino recipiendo post
+            communi<lb ed="#V" n="7" break="no"/>onem, infuso vino et aqua, vel jam
+            <lb ed="#V" n="8"/>remanente aqua, quia non totam
+            <lb ed="#V" n="9"/>sumpsit, vel aliqua de novo
+            posi<lb ed="#V" n="10" break="no"/>ta, poterit redire ad medium
+            alta<lb ed="#V" n="11" break="no"/>ris, et satis in brevi tempore ab
+            <lb ed="#V" n="12"/>illo loco: Simili modo postquam
+            coe<lb ed="#V" n="13" break="no"/>natum est, accipiens hunc calicem,
+            con<lb ed="#V" n="14" break="no"/>tinuare poterit usque ibi: Haec
+            quo<lb ed="#V" n="15" break="no"/>tiescumque, vel usque ibi; Unde et
+            <lb ed="#V" n="16"/>memores; et illis verbis prolatis cum
+            <lb ed="#V" n="17"/>reverentia debita suscipere illud
+            <lb ed="#V" n="18"/>tanquam sanguinem verum. Nec
+            <lb ed="#V" n="19"/>totum istud percipietur, nec
+            tan<lb ed="#V" n="20" break="no"/>tum tempus occupabit, quod
+            po<lb ed="#V" n="21" break="no"/>pulus habeat etiam occasionem
+            <lb ed="#V" n="22"/>accepti scandali.
+          </p>
+          <p>
+            <lb ed="#V" n="23"/>Et si arguitur contra illud, quod
+            <lb ed="#V" n="24"/>dictum est de integritate
+            Sacra<lb ed="#V" n="25" break="no"/>menti, quia Sacerdos die
+            Parasce<lb ed="#V" n="26" break="no"/>ves non recipit sanguinem,
+            re<lb ed="#V" n="27" break="no"/>spondeo, illa integritas requiritur
+            <lb ed="#V" n="28"/>in consecratione, ita quod nullus
+            <lb ed="#V" n="29"/>consecret corpus, nisi consecret
+            <lb ed="#V" n="30"/>etiam sanguinem; non autem
+            re<lb ed="#V" n="31" break="no"/>quiritur in quacumque
+            percepti<lb ed="#V" n="32" break="no"/>one, quia laicus percipit bene
+            cor<lb ed="#V" n="33" break="no"/>pus et non sanguinem, sed
+            requi<lb ed="#V" n="34" break="no"/>ritur in illa perceptione, quae
+            se<lb ed="#V" n="35" break="no"/>quitur ad consecrationem quae
+            <lb ed="#V" n="36"/>habetur in illo capite Relatum.
+          </p>
+          <p>
+            <lb ed="#V" n="37"/>Ad argumentum in oppositum,
+            <lb ed="#V" n="38"/>bene respondet Augustinus in illo
+            <lb ed="#V" n="39"/>cap. Liquido: Non quia post cibos
+            de<lb ed="#V" n="40" break="no"/>dit Dominus (scilicet Eucharistiam)
+            <lb ed="#V" n="41"/>«discipulis, ideo pransi illud debent
+            acci<lb ed="#V" n="42" break="no"/>pere, ut faciebant, quos Apostolus
+            redar<lb ed="#V" n="43" break="no"/>guit, supple 1. Corinth. 11. Et subdit
+            <lb ed="#V" n="44"/>causam, quare Christus hoc fecit:
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>Nam Salvator, inquit, quo vehementius
+            <lb ed="#V" n="46"/>commendaret mysterii hujus
+            altitudi<lb ed="#V" n="47" break="no"/>nem, vltimum hoc voluit infigere in
+            cor<lb ed="#V" n="48" break="no"/>dibus discipulorum, quo autem ordine
+            <lb ed="#V" n="49"/>deinceps sumeretur, Apostolis, per quos
+            <lb ed="#V" n="50"/>Ecclesias dispositurus erat, reservavit
+            <lb ed="#V" n="51"/>docendum.
+          </p>
+          <p>
+            <lb ed="#V" n="52"/>Per hoc patet ad argumentum
+            <lb ed="#V" n="53"/>secundum, quia secundum
+            Augu<lb ed="#V" n="54" break="no"/>stinum Apostolus reprehendit
+            il<lb ed="#V" n="55" break="no"/>los, qui pransi Eucharistiam
+            su<lb ed="#V" n="56" break="no"/>sceperunt. Et ideo istud verbum:
+            <lb ed="#V" n="57"/>Si quis esurit, domi manducet, non
+            de<lb ed="#V" n="58" break="no"/>bet intelligi domi, antequam veniat
+            <lb ed="#V" n="59"/>ad Ecclesiam, sed post recessum
+            <lb ed="#V" n="60"/>ab Ecclesia, ita quod non
+            satisfa<lb ed="#V" n="61" break="no"/>ciat fami suae de, Eucharistia,
+            si<lb ed="#V" n="62" break="no"/>cut ait: alius ebrius est, sed
+            expe<lb ed="#V" n="63" break="no"/>ctans, quod sibi necessarium
+            fu<lb ed="#V" n="64" break="no"/>erit in domo sua percipiat. Et
+            <lb ed="#V" n="65"/>ideo laudabilis est consuetudo
+            Ec<lb ed="#V" n="66" break="no"/>clesiae Latinae, quae nulli dispensat
+            <lb ed="#V" n="67"/>Eucharistiam, nisi in modica
+            <lb ed="#V" n="68"/>quantitate, quae non posset suscipi
+            <lb ed="#V" n="69"/>ad crapulam, et sufficit valde bene
+            <lb ed="#V" n="70"/>ad reverentiam debitam
+            Sacra<lb ed="#V" n="71" break="no"/>menti.
+          </p>
+          <p>
+            <lb ed="#V" n="72"/>De quarto, de quo tangit
+            Magis<lb ed="#V" n="73" break="no"/>ter in ita distinctione, scilicet de re
+            <lb ed="#V" n="74"/>Sacramenti, magis proprie
+            perti<lb ed="#V" n="75" break="no"/>net pertractare in 10. dist. ideo ad
+            <lb ed="#V" n="76"/>praesens supersedeo, custodiens in
+            <lb ed="#V" n="77"/>futurum in dicto loco.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

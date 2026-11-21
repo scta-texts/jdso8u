@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 13, Praeambulum</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 13, Praeambulum</title>
+          <date when="2026-11-20">Nov 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x17">Vives, Paris, 1894, volume 17</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="660"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e5268"><!-- jdso8u-b4d13prae -->
+        <head>Praeambulum</head>
+        <!-- <div alias="scotus-d13prae"> -->
+          <p>
+            <lb ed="#V" n="38" type="fixed=660"/>Haec est (a) ultima pars, in qua
+            <lb ed="#V" n="39"/>Magister, determinat de causa
+            <lb ed="#V" n="40"/>efficiente consecrationis
+            Euchari<lb ed="#V" n="41" break="no"/>stiae. Et dividitur in duas: in
+            prin<cb ed="#V" n="b"/><lb ed="#V" n="42" break="no"/>cipalem, in qua determinat hanc
+            <lb ed="#V" n="43"/>conclusionem, quod a quocumque i
+            <lb ed="#V" n="44"/>Sacerdote bono vel malo
+            indiffe<lb ed="#V" n="45" break="no"/>renter potest confici Eucharistia;
+            <lb ed="#V" n="46"/>et incidentalem, quae tangit de
+            <lb ed="#V" n="47"/>perceptione Sacramenti hujus.
+            <lb ed="#V" n="48"/>Secunda ibi: Illud etiam sane. Et
+            <lb ed="#V" n="49"/>sequitur epilogus respectu istius
+            <lb ed="#V" n="50"/>tractatus totius, ibi: De hoc coelesti
+            <lb ed="#V" n="51"/>mysterio, et pars incidentalis ibi,
+            <lb ed="#V" n="52"/>quis sit dicendus haereticus, quae
+            <lb ed="#V" n="53"/>incipit ibi: Ne autem ignores.
+          </p>
+          <p>
+            <lb ed="#V" n="54"/>Circa hanc distinctionem quaero
+            <lb ed="#V" n="55"/>duo: Primo, utrum sola actione
+            <lb ed="#V" n="56"/>divina possit confici corpus
+            Chri<lb ed="#V" n="57" break="no"/>sti? Secundo, utrum quicumque
+            <lb ed="#V" n="58"/>Sacerdos proferens verba
+            conse<lb ed="#V" n="59" break="no"/>crationis cum intentione
+            deter<lb ed="#V" n="60" break="no"/>minata, et circa materiam
+            con<lb ed="#V" n="61" break="no"/>venientem, posset conficere
+            Eu<lb ed="#V" n="62" break="no"/>charistiam?
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

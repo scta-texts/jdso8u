@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 10, Pars 2, Quaestio 2</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 10, Pars 2, Quaestio 2</title>
+          <date when="2026-11-20">Nov 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x17">Vives, Paris, 1894, volume 17</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="254"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e3853"><!-- jdso8u-b4d10p2q2 -->
+        <head>Quaestio 2</head>
+        <head type="question-title">Utrum quaelibet actio immanens quae est in Christo naturaliter exsistente, eadem insit sibi ut in eucharistia sacramentaliter exsistenti</head>
+        <!-- <div alias="scotus-d10q5-p1"> -->
+          <p>
+            <pb ed="#V" n="254"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1" type="fixed=254"/>QUAESTIO V
+            <lb ed="#V" n="2"/>Utrum quaecumque actio immanens, quee
+            <lb ed="#V" n="3"/>est in Christo naturaliter existente,
+            <lb ed="#V" n="4"/>insit sibi in Eucharistia
+            sacramenta<lb ed="#V" n="5" break="no"/>liter existenti?
+          </p>
+          <p>
+            <lb ed="#V" n="6"/>D. Thom. 3. part. q. 76. art. 7. et q. 91. art. 4.
+            <lb ed="#V" n="7"/>D. Bonav. hic 2. part. art. 2. q. 2. Richard.
+            <lb ed="#V" n="8"/>art. 3 q. 2. Palud. quaest. 4. Capreol. quaest. 4.
+            <lb ed="#V" n="9"/>Marsil. quaest. 8. Suarez 3. part. tom. 3.
+            <lb ed="#V" n="10"/>disp. 53. sect. 2.
+          </p>
+          <p>
+            <lb ed="#V" n="11"/>Ad secundum sic proceditur, et
+            <lb ed="#V" n="12"/>arguitur quod non quaecumque
+            <lb ed="#V" n="13"/>actio immanens, quae inest Christo
+            <lb ed="#V" n="14"/>naturaliter existenti, insit sibi
+            <lb ed="#V" n="15"/>sacramentaliter in Eucharistia
+            <lb ed="#V" n="16"/>existenti, quia nec auditio, nec
+            vi<lb ed="#V" n="17" break="no"/>sio, et sic universaliter de
+            sensa<lb ed="#V" n="18" break="no"/>tione. Probatur primo, quia
+            obje<lb ed="#V" n="19" break="no"/>ctum non est sibi praesens in
+            <lb ed="#V" n="20"/>debita proportione requisita ad
+            <lb ed="#V" n="21"/>talem actum, loquendo de objecto,
+            <lb ed="#V" n="22"/>quod est sibi praesens, ut in coelo.
+            <lb ed="#V" n="23"/>. Secundo, quia organum non
+            ha<lb ed="#V" n="24" break="no"/>bet hic modum extensivum sub
+            <lb ed="#V" n="25"/>quo, et non aliter est receptivum
+            <lb ed="#V" n="26"/>sensationis.
+          </p>
+          <p>
+            <lb ed="#V" n="27"/>Tertio, quia inter oculum, ut
+            <lb ed="#V" n="28"/>hic, et objectum, ut in coelo, est
+            <lb ed="#V" n="29"/>obstaculum prohibens
+            multiplica<lb ed="#V" n="30" break="no"/>tionem coloris vel lucis; ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="31"/>Quarto, quia hic non sentit ea,
+            <lb ed="#V" n="32"/>quae sunt hic praesentia; ergo
+            <lb ed="#V" n="33"/>multo minus aliquod aliud
+            sensi<lb ed="#V" n="34" break="no"/>bile. Antecedens probatur, quia
+            <lb ed="#V" n="35"/>organum sensus non est hic sub
+            <lb ed="#V" n="36"/>modo requisito ad sensationem.
+          </p>
+          <p>
+            <lb ed="#V" n="37"/>Contra, quia tunc simul esset
+            <lb ed="#V" n="38"/>videns, et non videns idem
+            objec<lb ed="#V" n="39" break="no"/>tum, et eodem modo de aliis
+            sen<lb ed="#V" n="40" break="no"/>sationibus; consequens est
+            fal<lb ed="#V" n="41" break="no"/>sum, quia contradictoria
+            simplici<cb ed="#V" n="b"/><lb ed="#V" n="42" break="no"/>ter inessent eidem. Evidentia
+            <lb ed="#V" n="43"/>hujus rationis patet ex solutione
+            <lb ed="#V" n="44"/>quaestionis praecedentis articulo
+            <lb ed="#V" n="45"/>secundo.
+          </p>
+          <p>
+            <lb ed="#V" n="46"/>Item, operatio est perfectio
+            <lb ed="#V" n="47"/>potentiae operativae, et in ipsa
+            <lb ed="#V" n="48"/>consistit beatitudo ipsius
+            poten<lb ed="#V" n="49" break="no"/>tiae; ipsam etiam consequitur
+            <lb ed="#V" n="50"/>delectatio proportionata
+            perfec<lb ed="#V" n="51" break="no"/>tioni operationis, patent haec
+            <lb ed="#V" n="52"/>ex 10. Ethicorum; ergo si oculus
+            <lb ed="#V" n="53"/>Christi, ut hic, careret visione,
+            <lb ed="#V" n="54"/>quam habet in coelo, careret hic
+            <lb ed="#V" n="55"/>sua propria perfectione; et haec
+            <lb ed="#V" n="56"/>est beatitudo ejus, eo modo quo
+            <lb ed="#V" n="57"/>visus dicitur beatificabilis.
+            Care<lb ed="#V" n="58" break="no"/>ret etiam delectatione
+            consequen<lb ed="#V" n="59" break="no"/>te illam operationem perfectam;
+            <lb ed="#V" n="60"/>et tunc sequeretur, quod oculus
+            <lb ed="#V" n="61"/>ut hic, esset miser, et cum
+            dolo<lb ed="#V" n="62" break="no"/>re et tristitia, quia quod tollit
+            <lb ed="#V" n="63"/>delectationem, est dolorosum et
+            <lb ed="#V" n="64"/>triste, et tunc simpliciter esset
+            <lb ed="#V" n="65"/>contra appetitum naturalem
+            sen<lb ed="#V" n="66" break="no"/>sitivum, quod haberet esse in
+            Eu<lb ed="#V" n="67" break="no"/>charistia.
+          </p>
+          <p>
+            <lb ed="#V" n="68"/>SCHOLIUM.
+            <lb ed="#V" n="69"/>Explicat, quid sit primo in esse ut hic,
+            <lb ed="#V" n="70"/>et concomitanter inesse ut hic, et ponit tres
+            <lb ed="#V" n="71"/>conclusiones. Prima, Christo ut in
+            Eucha<lb ed="#V" n="72" break="no"/>ristia concomitanter inest omnis operatio,
+            <lb ed="#V" n="73"/>quae primo inest ipsi ut in coelo. Probat
+            pri<lb ed="#V" n="74" break="no"/>mo, quia operatio est absolutum, et sic non
+            <lb ed="#V" n="75"/>dependet ab ubi, juxta dicta quaest. praeced.
+            <lb ed="#V" n="76"/>et latius quaest. 2. Secundo, si anima
+            Chri<lb ed="#V" n="77" break="no"/>sti intelligeret ut viator, haberet
+            sensati<lb ed="#V" n="78" break="no"/>onem, etiam in Eucharistia, quia in ea
+            ha<lb ed="#V" n="79" break="no"/>beret intellectionem. Tertio, dolor infuisset
+            <lb ed="#V" n="80"/>hic, si in modo naturali infuisset Christo.
+          </p>
+          <p>
+            <lb ed="#V" n="81"/>(a) Respondeo primo, dicitur
+            ali<lb ed="#V" n="82" break="no"/>quid inesse Christo, ut hic, quod
+            <lb ed="#V" n="83"/>sibi inesset, si nusquam alibi esset
+            <pb ed="#V" n="255"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>nisi hic; concomitanter autem
+            di<lb ed="#V" n="2" break="no"/>citur aliquid sibi inesse hic, quod
+            <lb ed="#V" n="3"/>primo inest sibi, ut alibi, et ex hoc
+            <lb ed="#V" n="4"/>sibi inest, ut hic propter
+            identita<lb ed="#V" n="5" break="no"/>tem subjecti et formae.
+          </p>
+          <p>
+            <lb ed="#V" n="6"/>Secundum hoc ergo est prima
+            <lb ed="#V" n="7"/>conclusio, scilicet quod Christo,
+            <lb ed="#V" n="8"/>ut hic, concomitanter inest omnis
+            <lb ed="#V" n="9"/>operatio, quae primo sibi inest, ut
+            <lb ed="#V" n="10"/>in coelo.
+          </p>
+          <p>
+            <lb ed="#V" n="11"/>Secunda conclusio est, quod
+            nul<lb ed="#V" n="12" break="no"/>la sensatio potest primo inesse
+            <lb ed="#V" n="13"/>Christo, ut in Sacramento.
+          </p>
+          <p>
+            <lb ed="#V" n="14"/>Tertia, quod operatio spiritualis
+            <lb ed="#V" n="15"/>ut intellectus et voluntatis potest
+            <lb ed="#V" n="16"/>primo inesse Christo, ut in
+            Eucha<lb ed="#V" n="17" break="no"/>ristia.
+          </p>
+          <p>
+            <lb ed="#V" n="18"/>Prima conclusio probatur,
+            pri<lb ed="#V" n="19" break="no"/>mo in universali per hoc, quod
+            nul<lb ed="#V" n="20" break="no"/>lum absolutum desinit esse in
+            ali<lb ed="#V" n="21" break="no"/>quo propter novum respectum
+            <lb ed="#V" n="22"/>extrinsecus advenientem; operatio
+            <lb ed="#V" n="23"/>autem est forma absoluta, ut
+            os<lb ed="#V" n="24" break="no"/>tensum est in primo lib. dist. 3. ergo
+            <lb ed="#V" n="25"/>propter praesentiam novam, quae
+            <lb ed="#V" n="26"/>est respectus novus extrinsecus
+            <lb ed="#V" n="27"/>adveniens, non desinit illa operatio
+            <lb ed="#V" n="28"/>inesse suo subjecto. Evidentia
+            hu<lb ed="#V" n="29" break="no"/>jus rationis potest haberi ex fine
+            <lb ed="#V" n="30"/>solutionis praecedentis quaestionis,
+            <lb ed="#V" n="31"/>ubi ista ratio diffusius
+            pertra<lb ed="#V" n="32" break="no"/>ctatur.
+          </p>
+          <p>
+            <lb ed="#V" n="33"/>Dicunt quidam ad hoc, quod
+            ma<lb ed="#V" n="34" break="no"/>jor est vera de forma simpliciter
+            <lb ed="#V" n="35"/>absoluta; operatio autem non est
+            <lb ed="#V" n="36"/>sic absoluta, quia requirit
+            respe<lb ed="#V" n="37" break="no"/>ctum potentiae ad objectum.
+          </p>
+          <p>
+            <lb ed="#V" n="38"/>Contra, etiam aliae quantitates
+            <lb ed="#V" n="39"/>vel qualitates in suo fieri
+            depen<lb ed="#V" n="40" break="no"/>dent ab approximatione agentis,
+            <lb ed="#V" n="41"/>ut patet de calore et frigore, et
+            <lb ed="#V" n="42"/>aliis qualitatibus, ad quas est
+            alte<lb ed="#V" n="43" break="no"/>ratio, et tamen in esse suo sunt
+            <lb ed="#V" n="44"/>simpliciter absolutae. Similiter
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>operationes in suo fieri non
+            requi<lb ed="#V" n="46" break="no"/>runt talem respectum, et hoc ubi
+            <lb ed="#V" n="47"/>infiunt concomitanter, et non
+            pri<lb ed="#V" n="48" break="no"/>mo; apparet enim, quod si corpus
+            <lb ed="#V" n="49"/>Christi in cruce fuit infrigidatum,
+            <lb ed="#V" n="50"/>frigus etiam fiebat in corpore
+            <lb ed="#V" n="51"/>Christi, ut in pyxide
+            concomitan<lb ed="#V" n="52" break="no"/>ter, sed non primo; et ad illud fieri
+            <lb ed="#V" n="53"/>non requirebatur approximatio
+            <lb ed="#V" n="54"/>agentis ad passum ibi; ergo a
+            si<lb ed="#V" n="55" break="no"/>mili ista qualitas, cum sit in se
+            <lb ed="#V" n="56"/>absoluta, licet in fieri requirat
+            prae<lb ed="#V" n="57" break="no"/>sentiam objecti ad potentiam, hoc
+            <lb ed="#V" n="58"/>non erit nisi ubi primo insit;
+            po<lb ed="#V" n="59" break="no"/>test ergo concomitanter infieri
+            si<lb ed="#V" n="60" break="no"/>ne tali respectu.
+          </p>
+          <p>
+            <lb ed="#V" n="61"/>Respondent, quod operatio
+            ma<lb ed="#V" n="62" break="no"/>gis includit respectum quam aliae
+            <lb ed="#V" n="63"/>formae, de quibus arguitur, puta
+            ca<lb ed="#V" n="64" break="no"/>lor, frigus et hujusmodi, quia illae
+            <lb ed="#V" n="65"/>tantum requirunt respectum
+            agen<lb ed="#V" n="66" break="no"/>tis ad passum, et hoc ubi infiunt
+            <lb ed="#V" n="67"/>primo, sed post suum fieri in esse
+            <lb ed="#V" n="68"/>proprio, non requirunt hujusmodi
+            <lb ed="#V" n="69"/>respectum; sed operatio est in
+            <lb ed="#V" n="70"/>continuo fieri, et ideo requirit
+            con<lb ed="#V" n="71" break="no"/>tinuam approximationem
+            poten<lb ed="#V" n="72" break="no"/>tiae ad objectum. Et ex hoc videtur
+            <lb ed="#V" n="73"/>quod magis repugnet isti infieri,
+            <lb ed="#V" n="74"/>vel inesse sine tali respectu quam
+            <lb ed="#V" n="75"/>crloai.
+          </p>
+          <p>
+            <lb ed="#V" n="76"/>Dico quod licet sit in fieri
+            <lb ed="#V" n="77"/>continue, tamen non sequitur,
+            <lb ed="#V" n="78"/>quin concomitanter possit inesse,
+            <lb ed="#V" n="79"/>et continue infieri sine objecti
+            <lb ed="#V" n="80"/>praesentia vel approximatione.
+            <lb ed="#V" n="81"/>Sicut enim calor potest infieri
+            <lb ed="#V" n="82"/>corpori in Eucharistia sine
+            ap<lb ed="#V" n="83" break="no"/>proximatione agentis, ut ibi, ita
+            <lb ed="#V" n="84"/>si esse caloris esset in fieri, semper
+            <lb ed="#V" n="85"/>posset causari calor in corpore
+            <lb ed="#V" n="86"/>in hostia, et tamen sine tali
+            appro<lb ed="#V" n="87" break="no"/>ximatione; non enim magis
+            requi<lb ed="#V" n="88" break="no"/>ritur continuus respectus ad fieri
+            <pb ed="#V" n="256"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>continuum, quam ad fieri
+            trans<lb ed="#V" n="2" break="no"/>iens respectus pro tunc praesens.
+          </p>
+          <p>
+            <lb ed="#V" n="3"/>Et (b) si objicias, ad
+            operati<lb ed="#V" n="4" break="no"/>onem requiritur respectus ad
+            ob<lb ed="#V" n="5" break="no"/>jectum, non tantum, ut est causa
+            <lb ed="#V" n="6"/>in fieri, sed cum hoc requiritur
+            <lb ed="#V" n="7"/>objectum in ratione terminantis;
+            <lb ed="#V" n="8"/>sicut ergo impossibile est
+            operati<lb ed="#V" n="9" break="no"/>onem esse, et non terminari ad
+            ob<lb ed="#V" n="10" break="no"/>jectum, sic impossibile est, quod
+            ali<lb ed="#V" n="11" break="no"/>cubi insit, et ut ibi non terminetur
+            <lb ed="#V" n="12"/>ad objectum praesens. Dico, quod
+            <lb ed="#V" n="13"/>non oportet objectum in se esse
+            <lb ed="#V" n="14"/>praesens propter terminationem
+            <lb ed="#V" n="15"/>actus, sed tantum propter
+            causati<lb ed="#V" n="16" break="no"/>onem, ita quod quando est aliqua
+            <lb ed="#V" n="17"/>causa sufficiens ipsius actus, non
+            <lb ed="#V" n="18"/>requiritur praesentia obje ti'
+            pro<lb ed="#V" n="19" break="no"/>pter terminationem, sicut patet de
+            <lb ed="#V" n="20"/>vidente creaturam in essentia
+            divi<lb ed="#V" n="21" break="no"/>na, si essentia esset causa illius
+            <lb ed="#V" n="22"/>visionis, non requiritur illud
+            ob<lb ed="#V" n="23" break="no"/>jectum ad quod terminatur haec
+            <lb ed="#V" n="24"/>visio praesens propria
+            praesentia<lb ed="#V" n="25" break="no"/>litate.
+          </p>
+          <p>
+            <lb ed="#V" n="26"/>Secundo, probatur haec prima
+            <lb ed="#V" n="27"/>conclusio in speciali, quia omnis
+            <lb ed="#V" n="28"/>intellectio inest Christo ibi et hic;
+            <lb ed="#V" n="29"/>sed si anima Christi intelligeret
+            <lb ed="#V" n="30"/>praecise secundum modum
+            intel<lb ed="#V" n="31" break="no"/>ligendi animae viatoris, non haberet
+            <lb ed="#V" n="32"/>intellectionem intuitivam istius
+            ob<lb ed="#V" n="33" break="no"/>jecti sine sensatione concomitante
+            <lb ed="#V" n="34"/>ejusdem; ergo cum illam
+            intelle<lb ed="#V" n="35" break="no"/>ctionem haberet eamdem hic et
+            <lb ed="#V" n="36"/>ibi, sequitur quod etiam
+            sensa<lb ed="#V" n="37" break="no"/>tionem requisitam ad ipsam
+            ha<lb ed="#V" n="38" break="no"/>beret hic, sicut ibi.
+          </p>
+          <p>
+            <lb ed="#V" n="39"/>Tertio probatur sic, quia passio
+            <lb ed="#V" n="40"/>appetitus sensitivi, utpote dolor,
+            <lb ed="#V" n="41"/>eadem infuisset hic et ibi; ergo
+            <lb ed="#V" n="42"/>sensatio eadem. Antecedens
+            pro<lb ed="#V" n="43" break="no"/>batur, quia mors secuta fuisset
+            <lb ed="#V" n="44"/>hic, sicut ibi; ibi autem
+            sequeba<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>tur ad dolorem immoderatum; ergo
+            <lb ed="#V" n="46"/>et hic. Consequentia prima
+            pro<lb ed="#V" n="47" break="no"/>batur, quia non est idem effectus
+            <lb ed="#V" n="48"/>sine eadem causa, et hoc non
+            <lb ed="#V" n="49"/>ponendo miraculum, et loquendo
+            <lb ed="#V" n="50"/>de causa naturali praecisa; dolor
+            <lb ed="#V" n="51"/>est effectus sensationis vel objecti
+            <lb ed="#V" n="52"/>non nisi sensati; ergo non potest
+            <lb ed="#V" n="53"/>esse idem dolor sine sensatione
+            <lb ed="#V" n="54"/>eadem absque miraculo.
+          </p>
+          <p>
+            <lb ed="#V" n="55"/>Respondent quidam, quod actus
+            <lb ed="#V" n="56"/>imaginationis sufficeret ad hoc in
+            <lb ed="#V" n="57"/>Christo, scilicet ad illum dolorem.
+            <lb ed="#V" n="58"/>Contra haec dupliciter: primo,
+            <lb ed="#V" n="59"/>quia responsio destruit se; non
+            <lb ed="#V" n="60"/>enim possibile est actum
+            imagina<lb ed="#V" n="61" break="no"/>tionis inesse, cui actus secundum
+            <lb ed="#V" n="62"/>sensum non potest inesse, quia
+            <lb ed="#V" n="63"/>imaginatio est motus factus a
+            sen<lb ed="#V" n="64" break="no"/>su, 2. de Anima. Secundo, quia
+            ima<lb ed="#V" n="65" break="no"/>ginatio non est causa doloris
+            ejus<lb ed="#V" n="66" break="no"/>dem secundum speciem, cujus
+            cau<lb ed="#V" n="67" break="no"/>sa est sensatio exterior, alioquin
+            <lb ed="#V" n="68"/>somnians doleret dolore ejusdem
+            <lb ed="#V" n="69"/>speciei cum dolore vigilantis.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d10q5-p2"> -->
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="44" type="fixed=260"/>SCHOLIUM.
+            <lb ed="#V" n="45"/>Secunda conclusio est, nullam sensationem
+            <lb ed="#V" n="46"/>posse inesse Christo primo, ut in
+            Euchari<lb ed="#V" n="47" break="no"/>stia. Ratio est, quia non est ibi, modo
+            quan<lb ed="#V" n="48" break="no"/>to, nec proportionato, ut patiatur a corpore,
+            <lb ed="#V" n="49"/>sed instar Angeli. Tertia conclusio, operatio
+            <lb ed="#V" n="50"/>spiritualis potest primo ines e Christo, ut in
+            <lb ed="#V" n="51"/>Eucharistia. Ratio, quia cum anima ejus sit
+            <lb ed="#V" n="52"/>beata, non dependet a sensibilibus, sed
+            sic<lb ed="#V" n="53" break="no"/>ut Angelus, potest intelligere intuitive sibi
+            <lb ed="#V" n="54"/>praesentia.
+          </p>
+          <p>
+            <lb ed="#V" n="55"/>Secunda conclusio principalis
+            <lb ed="#V" n="56"/>probatur sic, quia organum
+            sen<lb ed="#V" n="57" break="no"/>sus non est in corpore Christi in
+            <lb ed="#V" n="58"/>Eucharistia sub modo illo, qui
+            re<lb ed="#V" n="59" break="no"/>quiritur ad hoc quod immutetur
+            <lb ed="#V" n="60"/>ab objecto, quia oportet, quod tale
+            <lb ed="#V" n="61"/>habeat modum quantitativum, et
+            <lb ed="#V" n="62"/>sic sit localiter in loco, ad hoc ut
+            <lb ed="#V" n="63"/>patiatur a corpore objecto.
+            Simi<lb ed="#V" n="64" break="no"/>liter ei, ut in Eucharistia, non est
+            <lb ed="#V" n="65"/>objectum approximatum; ita enim
+            <lb ed="#V" n="66"/>est hic praesens cuicumque
+            corpo<lb ed="#V" n="67" break="no"/>ri, ut agenti, ac si non esset
+            prae<lb ed="#V" n="68" break="no"/>sens, quia sic hic est, ac si
+            nus<lb ed="#V" n="69" break="no"/>quam esset quantum ad rationem
+            <lb ed="#V" n="70"/>patiendi a corpore; esse enim
+            cor<lb ed="#V" n="71" break="no"/>pus agens requirit passum
+            appro<lb ed="#V" n="72" break="no"/>ximatum sibi localiter. Sic autem
+            <lb ed="#V" n="73"/>non est hic corpus Christi
+            locali<lb ed="#V" n="74" break="no"/>ter, sed solum species est hic isto
+            <lb ed="#V" n="75"/>modo, nec illud est magis praesens
+            <lb ed="#V" n="76"/>hic alicui corpori in ratione passi.
+            <lb ed="#V" n="77"/>quam si Angelus esset hic; ergo
+            <lb ed="#V" n="78"/>nulla sensatio potest sibi inesse
+            <lb ed="#V" n="79"/>primo, ut in Eucharistia existit.
+          </p>
+          <p>
+            <lb ed="#V" n="80"/>Tertia conclusio, scilicet quod
+            <lb ed="#V" n="81"/>operatio intellectus et voluntatis
+            <lb ed="#V" n="82"/>primo potest inesse Christo, ut in
+            <lb ed="#V" n="83"/>Eucharistia. Probatur sic, quia
+            <lb ed="#V" n="84"/>anima Christi nunc beata
+            intelli<lb ed="#V" n="85" break="no"/>git, sicut Angelus quoad hoc, quod
+            <pb ed="#V" n="261"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>non dependet a sensibus, nec ex
+            <lb ed="#V" n="2"/>sensibilibus in intelligendo; ergo
+            <lb ed="#V" n="3"/>sicut Angelus alicubi existens
+            pos<lb ed="#V" n="4" break="no"/>set intuitive intelligere objectum
+            <lb ed="#V" n="5"/>sibi proportionaliter praesens, ita
+            <lb ed="#V" n="6"/>anima Christi ibidem existens
+            po<lb ed="#V" n="7" break="no"/>test illud objectum intueri; ergo
+            <lb ed="#V" n="8"/>anima Christi, ut hic, potest
+            in<lb ed="#V" n="9" break="no"/>tuitive intelligere illa
+            intelligibi<lb ed="#V" n="10" break="no"/>lia, quae sunt sibi ut hic praesentia,
+            <lb ed="#V" n="11"/>sicut Angelus posset, ut pote
+            intu<lb ed="#V" n="12" break="no"/>itive, videre Angelum hic
+            praesen<lb ed="#V" n="13" break="no"/>tem et animam Sacerdotis. Haec
+            <lb ed="#V" n="14"/>autem intuitio inest animae
+            Chri<lb ed="#V" n="15" break="no"/>sti: primo, ut hic, quia non inest
+            <lb ed="#V" n="16"/>illi animae primo, ut in coelo,
+            sup<lb ed="#V" n="17" break="no"/>posito quod immoderata distantia
+            <lb ed="#V" n="18"/>impediat intellectionem intuitivam
+            <lb ed="#V" n="19"/>creatam; sic enim Angelus
+            exi<lb ed="#V" n="20" break="no"/>stens in coelo intuitive non videt
+            <lb ed="#V" n="21"/>quidquid praesens hic videt
+            intu<lb ed="#V" n="22" break="no"/>itive.
+          </p>
+          <p>
+            <lb ed="#V" n="23"/>Ex hoc sequitur corollarium,
+            <lb ed="#V" n="24"/>quod Christus propter suum esse in
+            <lb ed="#V" n="25"/>Eucharistia, non tantum non
+            pri<lb ed="#V" n="26" break="no"/>vatur aliqua operatione quam
+            ha<lb ed="#V" n="27" break="no"/>bet, ut in coelo; sed ut in
+            Eucha<lb ed="#V" n="28" break="no"/>ristia est, habet aliquam
+            operati<lb ed="#V" n="29" break="no"/>onem primo, quam per consequens
+            <lb ed="#V" n="30"/>concomitanter habet, ut in coelo,
+            <lb ed="#V" n="31"/>utpote intellectionem et
+            voli<lb ed="#V" n="32" break="no"/>tionem cujuscumque objecti, cujus
+            <lb ed="#V" n="33"/>Angelus hic praesens haberet, et
+            <lb ed="#V" n="34"/>per consequens non est ad
+            imper<lb ed="#V" n="35" break="no"/>fectionem suam, quod sit in
+            Eu<lb ed="#V" n="36" break="no"/>charistia, sed ad ampliorem
+            per<lb ed="#V" n="37" break="no"/>fectionem.
+          </p>
+          <p>
+            <lb ed="#V" n="38"/>Ex his ad argumenta. Ad
+            pri<lb ed="#V" n="39" break="no"/>mum dico, quod omnis sensatio
+            <lb ed="#V" n="40"/>ejusdem objecti, quae inest sensui
+            <lb ed="#V" n="41"/>Christi, ut in coelo, inest eidem in
+            <lb ed="#V" n="42"/>Eucharistia, sicut probatum est
+            <lb ed="#V" n="43"/>in prima conclusione per tres
+            <lb ed="#V" n="44"/>vias. Ad primam probationem in
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>oppositum dico, quod non
+            requiri<lb ed="#V" n="46" break="no"/>tur objectum in debita
+            proporti<lb ed="#V" n="47" break="no"/>one praesens ad actum sentiendi,
+            <lb ed="#V" n="48"/>nisi ubi objectum est aliquo modo
+            <lb ed="#V" n="49"/>causa sensationis, et hic, ut primo
+            <lb ed="#V" n="50"/>infiendae.
+          </p>
+          <p>
+            <lb ed="#V" n="51"/>Ad secundam dico, quod
+            orga<lb ed="#V" n="52" break="no"/>num hoc vere est quantum hic,
+            <lb ed="#V" n="53"/>sicut in coelo, et per consequens
+            <lb ed="#V" n="54"/>potest recipere sensationem, non
+            <lb ed="#V" n="55"/>obstante quod sensatio non
+            recipi<lb ed="#V" n="56" break="no"/>tur absolute, nisi in quanto habente
+            <lb ed="#V" n="57"/>modum quantitativum; sed non
+            <lb ed="#V" n="58"/>habet hic modum quantitativum,
+            <lb ed="#V" n="59"/>id est, coextensum quanto, cui est
+            <lb ed="#V" n="60"/>praesens, nec replet locum, et ideo
+            <lb ed="#V" n="61"/>ut hic non potest sibi primo
+            infi<lb ed="#V" n="62" break="no"/>eri sensatio. Iste enim, modus
+            <lb ed="#V" n="63"/>quantitativus requiritur in
+            orga<lb ed="#V" n="64" break="no"/>no ad hoc, quod primo sibi infiat
+            <lb ed="#V" n="65"/>sensatio; sed non requiritur ad
+            <lb ed="#V" n="66"/>hoc, quod concomitanter sibi
+            in<lb ed="#V" n="67" break="no"/>fiat vel insit, quia non est causa
+            <lb ed="#V" n="68"/>necessaria recipiendi sensationem
+            <lb ed="#V" n="69"/>hujusmodi modus quantitativus,
+            <lb ed="#V" n="70"/>sed tantummodo conditio
+            requisi<lb ed="#V" n="71" break="no"/>ta per comparationem ad agens
+            <lb ed="#V" n="72"/>primo transmutans.
+          </p>
+          <p>
+            <lb ed="#V" n="73"/>Ad tertiam probationem dico
+            <lb ed="#V" n="74"/>per idem, quod obstaculum non
+            <lb ed="#V" n="75"/>est obstaculum, nisi ad
+            sensati<lb ed="#V" n="76" break="no"/>onem primo infiendam, vel infieri.
+          </p>
+          <p>
+            <lb ed="#V" n="77"/>Ad quartum argumentum, nego
+            <lb ed="#V" n="78"/>consequentiam, nam antecedens
+            <lb ed="#V" n="79"/>est verum ex secunda conclusione
+            <lb ed="#V" n="80"/>solutionis; consequens autem
+            fal<lb ed="#V" n="81" break="no"/>sum est ex prima conclusione.
+            Ra<lb ed="#V" n="82" break="no"/>tio defectus consequentiae patet
+            <lb ed="#V" n="83"/>ex dictis, quia ad sentiendum illa
+            <lb ed="#V" n="84"/>quae sunt hic, oporteret
+            sensati<lb ed="#V" n="85" break="no"/>onem primo fieri in oculo ut
+            <lb ed="#V" n="86"/>hic; non enim potest illa sensatio
+            <lb ed="#V" n="87"/>primo infieri oculo, ut in coelo,
+            <lb ed="#V" n="88"/>quia illud sensibile non est
+            prae<pb ed="#V" n="262"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>sens oculo ut in coelo, sed ad hoc,
+            <lb ed="#V" n="2"/>quod infiat sensatio concomitanter
+            <lb ed="#V" n="3"/>alicujus objecti oculo ut hic,
+            suf<lb ed="#V" n="4" break="no"/>ficit quod illud sit
+            proportionali<lb ed="#V" n="5" break="no"/>ter praesens oculo, ut alibi, et ut
+            <lb ed="#V" n="6"/>possit sibi ut ibi primo infieri; sic
+            <lb ed="#V" n="7"/>autem est de objectis, quae sentit
+            <lb ed="#V" n="8"/>sensus Christi, ut in coelo.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

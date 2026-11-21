@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 9, Quaestio 1</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 9, Quaestio 1</title>
+          <date when="2026-11-20">Nov 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x17">Vives, Paris, 1894, volume 17</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="119"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e3781"><!-- jdso8u-b4d9q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum exsistens in mortali peccato peccet mortaliter percipiendo sacramentum eucharistiae</head>
+        <!-- <div alias="scotus-d9q1-p1"> -->
+          <p>
+            <lb ed="#V" n="20" type="fixed=119"/>QUAESTIO UNICA.
+            <lb ed="#V" n="21"/>Utrum existens in peccato mortali, peccet
+            <lb ed="#V" n="22"/>mortaliter percipiendo Sacramentum
+            <lb ed="#V" n="23"/>Eucharistiae?
+          </p>
+          <p>
+            <lb ed="#V" n="24"/>Alens. 4. p. q. 46. m. 5. D. Bonav. hic art. 2. q.
+            <lb ed="#V" n="25"/>2. D. Thom. q. 2. et 3. p. q. 80. a. 4. 5. Suar.
+            <lb ed="#V" n="26"/>3. p. tom. 3. d. 66. s. 1. 2.
+          </p>
+          <p>
+            <lb ed="#V" n="27"/>Circa istam distinctionem (a)
+            <lb ed="#V" n="28"/>quaero tantum unam quaestionem
+            <lb ed="#V" n="29"/>de perceptione Sacramenti istius:
+            <lb ed="#V" n="30"/>Utrum scilicet, existens in
+            pecca<lb ed="#V" n="31" break="no"/>to mortali peccet mortaliter
+            per<lb ed="#V" n="32" break="no"/>cipiendo hoc Sacramentum?
+            Vide<lb ed="#V" n="33" break="no"/>tur quod non, quia nullus peccat
+            <lb ed="#V" n="34"/>faciendo illud ad quod tenetur; sed
+            <lb ed="#V" n="35"/>aliquis quandoque, non obstante
+            <lb ed="#V" n="36"/>quod sit in peccato mortali,
+            tene<lb ed="#V" n="37" break="no"/>tur communicare; ergo, etc.
+            Pro<lb ed="#V" n="38" break="no"/>batio minoris in duobus casibus.
+            <lb ed="#V" n="39"/>Extravag. Omnis utriusque sexus, de
+            <lb ed="#V" n="40"/>paenit. et remiss. dicitur, quod omnis
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="41"/>Christianus tenetur semel in anno
+            <lb ed="#V" n="42"/>communicare.
+          </p>
+          <p>
+            <lb ed="#V" n="43"/>Item, de consecrat, distinct. 2.
+            Rela<lb ed="#V" n="44" break="no"/>tum, dicitur quod Sacerdos, qui
+            <lb ed="#V" n="45"/>consecravit, tenetur percipere
+            Sa<lb ed="#V" n="46" break="no"/>cramentum, et tamen possibile
+            <lb ed="#V" n="47"/>est, quod tunc sit in peccato
+            mor<lb ed="#V" n="48" break="no"/>tali, vel tempore intermedio
+            inci<lb ed="#V" n="49" break="no"/>dat in peccatum mortale, et tunc
+            <lb ed="#V" n="50"/>non tenetur confiteri, quia tantum
+            <lb ed="#V" n="51"/>semel in anno sufficit.
+          </p>
+          <p>
+            <lb ed="#V" n="52"/>Item nullus tenetur confiteri,
+            <lb ed="#V" n="53"/>nisi semel in anno, ut patet
+            Ex<lb ed="#V" n="54" break="no"/>travag. Omnis utriusque sexus, etc.
+            <lb ed="#V" n="55"/>ergo potest exercere sibi actus
+            <lb ed="#V" n="56"/>convenientes, etsi non pluries
+            con<lb ed="#V" n="57" break="no"/>fiteatur; ergo Sacerdos potest
+            <lb ed="#V" n="58"/>pluries celebrare quantumcumque
+            <lb ed="#V" n="59"/>peccaverit sine iterata
+            confessi<lb ed="#V" n="60" break="no"/>one. Non enim videtur quare
+            di<lb ed="#V" n="61" break="no"/>ctum praeceptum non sibi sufficiat
+            <lb ed="#V" n="62"/>ad salutem in semel confitendo,
+            <lb ed="#V" n="63"/>sicut et alteri Christiano, cum
+            <lb ed="#V" n="64"/>non videatur speciali lege
+            adstri<lb ed="#V" n="65" break="no"/>ctus.
+          </p>
+          <p>
+            <lb ed="#V" n="66"/>Contra, primae Corinth. 11. Qui
+            <lb ed="#V" n="67"/>manducat et bibit indigne, judicium sibi
+            <lb ed="#V" n="68"/>manducat, et bibit; talis est
+            hujusmo<lb ed="#V" n="69" break="no"/>di, qui non spiritualiter est
+            mem<lb ed="#V" n="70" break="no"/>brum Christi, et percipit
+            Eucha<lb ed="#V" n="71" break="no"/>ristiam, quae perceptio significat
+            <lb ed="#V" n="72"/>ipsum spiritualiter incorporari
+            <lb ed="#V" n="73"/>Christo. Praeterea, Augustinus
+            su<lb ed="#V" n="74" break="no"/>per Joan. homil. 26. loquens de malo
+            <lb ed="#V" n="75"/>Sacerdote: Tantae, inquit, rei
+            Sacra<lb ed="#V" n="76" break="no"/>mentum ad judicium percipit.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d9q1-p2"> -->
+          <p>
+            <lb ed="#V" n="55" type="fixed=130"/>SCHOLIUM.
+            <lb ed="#V" n="56"/>Accedentem ad Eucharistiam cum mortali
+            <lb ed="#V" n="57"/>peccato, peccare mortaliter; excusatur qui
+            <lb ed="#V" n="58"/>facto examine talis peccati non recordatur.
+            <lb ed="#V" n="59"/>Confessio post mortale commissum
+            praemit<lb ed="#V" n="60" break="no"/>tenda est, nisi necessitas communicandi et
+            <lb ed="#V" n="61"/>inopia confessoris excusent, ita Trid. ss. 13.
+            <lb ed="#V" n="62"/>c. 7. et can. 11. Cypr. lib. 3. epist. 15. Unde
+            <lb ed="#V" n="63"/>merito temeritatis notatur Cajet. quod
+            op<lb ed="#V" n="64" break="no"/>positum teneat 3. p. q. 80. art. 4. et in
+            sum<lb ed="#V" n="65" break="no"/>ma v. communio; quod etiam tenet Abbas,
+            <lb ed="#V" n="66"/>c. de homine, de celebrat. missae.
+          </p>
+          <p>
+            <lb ed="#V" n="67"/>Dicendum, quod aliquis potest
+            <lb ed="#V" n="68"/>intelligi esse in peccato mortali
+            <lb ed="#V" n="69"/>tripliciter. Primo, in actu, quia
+            <lb ed="#V" n="70"/>scilicet tunc peccat mortaliter
+            <lb ed="#V" n="71"/>peccato interiori vel exteriori;
+            <lb ed="#V" n="72"/>secundo, quia post peccatum
+            mor<lb ed="#V" n="73" break="no"/>tale praeteritum, de quo non
+            re<lb ed="#V" n="74" break="no"/>colit, non poenituit, nec poenitet;
+            <lb ed="#V" n="75"/>tertio, quia etsi de illo praeterito
+            <lb ed="#V" n="76"/>poenituit, vel poenitet, non tamen
+            <lb ed="#V" n="77"/>confessus est, nec ablutus in
+            Ec<lb ed="#V" n="78" break="no"/>clesia.
+          </p>
+          <p>
+            <lb ed="#V" n="79"/>De primo (a) dico, quod peccat
+            <lb ed="#V" n="80"/>mortaliter, quia simpliciter
+            man<lb ed="#V" n="81" break="no"/>ducat indigne.
+          </p>
+          <p>
+            <lb ed="#V" n="82"/>De secundo (b) dico, quod si est
+            <lb ed="#V" n="83"/>negligentia affectata vel crassa,
+            <lb ed="#V" n="84"/>propter quam non recolit
+            pecca<lb ed="#V" n="85" break="no"/>tum, non excusatur a peccato,
+            <lb ed="#V" n="86"/>licet minus peccet quam primus.
+            <pb ed="#V" n="131"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Quod patet 1. Cor. 11. Probet,
+            in<lb ed="#V" n="2" break="no"/>quit, seipsum homo, etc. tenetur
+            <lb ed="#V" n="3"/>enim se examinare, secundum
+            di<lb ed="#V" n="4" break="no"/>ligentiam nostrae fragilitati
+            pos<lb ed="#V" n="5" break="no"/>sibilem, antequam communicet.
+            <lb ed="#V" n="6"/>Si aut em non sit negligentia
+            <lb ed="#V" n="7"/>crassa, puta quia praecessit
+            exa<lb ed="#V" n="8" break="no"/>minatio sufficiens, et nullum
+            oc<lb ed="#V" n="9" break="no"/>currit peccatum, de quo non
+            fu<lb ed="#V" n="10" break="no"/>erit, vel sit contritus et confessus
+            <lb ed="#V" n="11"/>prius, non peccat communicando,
+            <lb ed="#V" n="12"/>licet forte aliquid lateat, vel
+            tra<lb ed="#V" n="13" break="no"/>ditum fuerit oblivioni. Quod
+            pro<lb ed="#V" n="14" break="no"/>batur, tum quia post talem
+            in<lb ed="#V" n="15" break="no"/>quisitionem, contritus et
+            confes<lb ed="#V" n="16" break="no"/>sus, si moreretur, salvaretur; non
+            <lb ed="#V" n="17"/>autem requiritur major
+            exami<lb ed="#V" n="18" break="no"/>natio ad communicandum, quam ad
+            <lb ed="#V" n="19"/>secure moriendum; tum quia alias
+            <lb ed="#V" n="20"/>quilibet se exponeret periculo
+            com<lb ed="#V" n="21" break="no"/>municando, quia dicit Psalm. 13.
+            <lb ed="#V" n="22"/>Delicta quis intelligit? et Eccles. 9.
+            <lb ed="#V" n="23"/>Nescit homo, utrum amore vel odio
+            di<lb ed="#V" n="24" break="no"/>gnus sit; ergo si oporteret
+            com<lb ed="#V" n="25" break="no"/>municantem scire se esse in
+            cha<lb ed="#V" n="26" break="no"/>ritate, quilibet communicando
+            ex<lb ed="#V" n="27" break="no"/>poneret se periculo, nesciens an
+            <lb ed="#V" n="28"/>illo actu peccaret.
+          </p>
+          <p>
+            <lb ed="#V" n="29"/>Tertio probatur, quia tunc non
+            <lb ed="#V" n="30"/>esset Sacramentum viatoris, quia
+            <lb ed="#V" n="31"/>talis certitudo non convenit
+            via<lb ed="#V" n="32" break="no"/>tori. Propter hoc dico, quod
+            dili<lb ed="#V" n="33" break="no"/>genti inquisitione facta secundum
+            <lb ed="#V" n="34"/>possibilitatem nostrae fragilitatis,
+            <lb ed="#V" n="35"/>et praemissa contritione et
+            con<lb ed="#V" n="36" break="no"/>fessione, quantum videtur homini
+            <lb ed="#V" n="37"/>sufficere, si tunc communicet, non
+            <lb ed="#V" n="38"/>peccat; imo si qua alia peccata
+            <lb ed="#V" n="39"/>lateant, per istud Sacramentum
+            <lb ed="#V" n="40"/>etiam remittuntur.
+          </p>
+          <p>
+            <lb ed="#V" n="41"/>De tertio (c) dico, quod si
+            oc<lb ed="#V" n="42" break="no"/>currat opportunitas, tenetur prius
+            <lb ed="#V" n="43"/>confiteri quam communicare.
+            Cu<lb ed="#V" n="44" break="no"/>jus ratio est, quia non tantum
+            de<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>bet reconciliari Deo, sed Ecclesiae,
+            <lb ed="#V" n="46"/>ad hoc, quod digne recipiat
+            Sacra<lb ed="#V" n="47" break="no"/>mentum Ecclesiasticae unitatis. Si
+            <lb ed="#V" n="48"/>autem non occurrat opportunitas
+            <lb ed="#V" n="49"/>confitendi, si potest sine scandalo
+            <lb ed="#V" n="50"/>vitare, ne tunc communicet,
+            te<lb ed="#V" n="51" break="no"/>netur non communicare, sed
+            expe<lb ed="#V" n="52" break="no"/>ctare confessionem propter
+            eam<lb ed="#V" n="53" break="no"/>dem rationem, quae dicta est nunc.
+            <lb ed="#V" n="54"/>Si vero occurrit scandalum, nisi
+            <lb ed="#V" n="55"/>statim communicet, utpote si est
+            <lb ed="#V" n="56"/>indutus, et postquam indutus est,
+            <lb ed="#V" n="57"/>occurrit sibi conscientia de
+            pec<lb ed="#V" n="58" break="no"/>cato mortali, de quo non fuit
+            con<lb ed="#V" n="59" break="no"/>fessus, et non habet in promptu
+            <lb ed="#V" n="60"/>idoneum confessorem, tum cum
+            <lb ed="#V" n="61"/>contritione et voluntate confitendi
+            <lb ed="#V" n="62"/>tempore opportuno potest
+            cele<lb ed="#V" n="63" break="no"/>brare, ut scandalum evitetur. Et
+            <lb ed="#V" n="64"/>similiter de alio communicaturo,
+            <lb ed="#V" n="65"/>qui non celebrat; utpote
+            consue<lb ed="#V" n="66" break="no"/>tudo est in aliqua religione, vel
+            <lb ed="#V" n="67"/>Ecclesia, ut omnes non Sacerdotes
+            <lb ed="#V" n="68"/>communicent in simili casu,
+            sci<lb ed="#V" n="69" break="no"/>licet si tunc cum debet
+            communi<lb ed="#V" n="70" break="no"/>care non habet idoneum
+            confes<lb ed="#V" n="71" break="no"/>sorem, potest tunc non confessus
+            <lb ed="#V" n="72"/>communicare. Nec est dicendum,
+            <lb ed="#V" n="73"/>quod peccat mortaliter, vel
+            trans<lb ed="#V" n="74" break="no"/>greditur praeceptum, ut evitet
+            <lb ed="#V" n="75"/>scandalum, quia nullum
+            praece<lb ed="#V" n="76" break="no"/>ptum excludit istum ab isto actu
+            <lb ed="#V" n="77"/>in hoc casu, quia dilatio
+            confes<lb ed="#V" n="78" break="no"/>sionis in actu, quae nunc habetur
+            <lb ed="#V" n="79"/>in affectu, non excludit, quin sit
+            <lb ed="#V" n="80"/>membrum etiam Ecclesiae
+            militan<lb ed="#V" n="81" break="no"/>tis, habile ad actus, in quibus
+            <lb ed="#V" n="82"/>membra communicant, et tenetur
+            <lb ed="#V" n="83"/>vitare scandalum proximi.
+          </p>
+          <p>
+            <lb ed="#V" n="84"/>De peccato (d) autem veniali,
+            <lb ed="#V" n="85"/>non oportet dubitare quia de illo
+            <lb ed="#V" n="86"/>non est necessitas, poenitentiae.
+            <lb ed="#V" n="87"/>Verumtamen auctoritas quaedam
+            <lb ed="#V" n="88"/>de Ecclesiasticis dogmatibus 22. quae
+            <pb ed="#V" n="132"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>ponitur in littera dist. 12. videtur
+            <lb ed="#V" n="2"/>facere mentionem de peccato
+            ve<lb ed="#V" n="3" break="no"/>niali, ait enim: Licet quis peccato
+            <lb ed="#V" n="4"/>mordeatur, si peccandi de coetero non
+            <lb ed="#V" n="5"/>habet voluntatem, et satisfaciat
+            lacry<lb ed="#V" n="6" break="no"/>mis et orationibus, accedat securus, et
+            <lb ed="#V" n="7"/>hoc dico de illo, quem mortalia peccata
+            <lb ed="#V" n="8"/>non gravant. Ergo videtur, quod
+            <lb ed="#V" n="9"/>non potest aliquis securus
+            acce<lb ed="#V" n="10" break="no"/>dere, nisi qui sit sine voluntate
+            <lb ed="#V" n="11"/>peccandi venialiter, et de
+            praete<lb ed="#V" n="12" break="no"/>ritis satisfecerit lacrymis et
+            ora<lb ed="#V" n="13" break="no"/>tionibus.
+          </p>
+          <p>
+            <lb ed="#V" n="14"/>Respondeo, potest intelligi de
+            <lb ed="#V" n="15"/>mortali peccato, non quod jam
+            <lb ed="#V" n="16"/>inest, neque praeterito, sine omni
+            <lb ed="#V" n="17"/>poenitentia, sed confesso, si
+            mor<lb ed="#V" n="18" break="no"/>deatur, quia non complete
+            satis<lb ed="#V" n="19" break="no"/>fecit, et tunc intelligitur de
+            pecca<lb ed="#V" n="20" break="no"/>to mortali; et tunc quod sequitur,
+            <lb ed="#V" n="21"/>quem peccata mortalia non gravant,
+            <lb ed="#V" n="22"/>supple in actu, vel praeterita, sine
+            <lb ed="#V" n="23"/>poenitentia sequente.
+          </p>
+          <p>
+            <lb ed="#V" n="24"/>Ad primum argumentum dico,
+            <lb ed="#V" n="25"/>quod faciens modo debito illud
+            <lb ed="#V" n="26"/>quod tenetur, non peccat. Ad
+            mi<lb ed="#V" n="27" break="no"/>norem dico, quod nullus tenetur
+            <lb ed="#V" n="28"/>communicare in peccato mortali,
+            <lb ed="#V" n="29"/>Extrav: Omnis utriusque sexus, etc.
+            <lb ed="#V" n="30"/>Ad primam probationem dico,
+            <lb ed="#V" n="31"/>quod sicut tenetur semel
+            commu<lb ed="#V" n="32" break="no"/>nicare, ita tenetur laborare, ut
+            <lb ed="#V" n="33"/>sit extra peccatum mortale per
+            <lb ed="#V" n="34"/>poenitentiam: Extrav. eodem cap.
+          </p>
+          <p>
+            <lb ed="#V" n="35"/>Ad secundam dico, quod
+            Sacer<lb ed="#V" n="36" break="no"/>dos priusquam consecret, tenetur
+            <lb ed="#V" n="37"/>laborare ut sit extra peccatum
+          </p>
+          <p>
+            <lb ed="#V" n="38"/>mortale. Si autem contingat, quod
+            <lb ed="#V" n="39"/>post consecrationem, ante tamen
+            <lb ed="#V" n="40"/>communicationem, occurrat sibi
+            <lb ed="#V" n="41"/>memoria peccati mortalis, olim
+          </p>
+          <p>
+            <lb ed="#V" n="42"/>commissi, de quo non praecessit
+            <lb ed="#V" n="43"/>poenitentia interior vel exterior,
+            <lb ed="#V" n="44"/>tenetur tunc habere poenitentiam
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>interiorem antequam percipiat,
+            <lb ed="#V" n="46"/>et differre poenitentiam
+            exterio<lb ed="#V" n="47" break="no"/>rem donec occurrat opportunitas
+            <lb ed="#V" n="48"/>confitendi.
+          </p>
+          <p>
+            <lb ed="#V" n="49"/>Ad argumentum secundum dico,
+            <lb ed="#V" n="50"/>quod illud praeceptum de semel
+            <lb ed="#V" n="51"/>confitendo, est minimum, in quo
+            <lb ed="#V" n="52"/>debent fideles recipere
+            Sacramen<lb ed="#V" n="53" break="no"/>tum Poenitentiae, sed in multis
+            <lb ed="#V" n="54"/>aliis casibus specialibus tenentur
+            <lb ed="#V" n="55"/>ad poenitentiam exteriorem, ut
+            <lb ed="#V" n="56"/>graviter infirmus, de quo
+            despe<lb ed="#V" n="57" break="no"/>ratur, vel acceptans actum, in
+            <lb ed="#V" n="58"/>quo verisimile est, secundum
+            hu<lb ed="#V" n="59" break="no"/>manum judicium, quod exponit se
+            <lb ed="#V" n="60"/>periculo mortis, sicut in bello
+            <lb ed="#V" n="61"/>mortali; sic etiam speciali lege
+            <lb ed="#V" n="62"/>tenetur Sacerdos antequam
+            exer<lb ed="#V" n="63" break="no"/>ceat istum actum ad poenitentiam
+            <lb ed="#V" n="64"/>exteriorem. Et si dicas, qua lege?
+            <lb ed="#V" n="65"/>Dico, quod illa lege Apostoli, quae
+            <lb ed="#V" n="66"/>ponitur 1. Corinth. 11. Probet
+            sei<lb ed="#V" n="67" break="no"/>psum homo, etc.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

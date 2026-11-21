@@ -1,0 +1,1255 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 13, Quaestio 2</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 13, Quaestio 2</title>
+          <date when="2026-11-20">Nov 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x17">Vives, Paris, 1894, volume 17</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="696"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e4142"><!-- jdso8u-b4d13q2 -->
+        <head>Quaestio 2</head>
+        <head type="question-title">Utrum quilibet sacerdos, proferens verba consecrationis cum intentione debita et circa materiam convenientem, possit conficere eucharistiam</head>
+        <!-- <div alias="scotus-d13q2-p1"> -->
+          <p>
+            <lb ed="#V" n="21" type="fixed=696"/>QUAESTIO II.
+            <lb ed="#V" n="22"/>Utrum quilibet Sacerdos proferens verba
+            <lb ed="#V" n="23"/>consecrationis cum intentione debita.
+            <lb ed="#V" n="24"/>et circa materiam convenientem possit
+            <lb ed="#V" n="25"/>conficere Eucharistiam?
+          </p>
+          <p>
+            <lb ed="#V" n="26"/>Alensis 4. part. q. 35. memb. 4. 5. 6. D. Bonav. hic
+            <lb ed="#V" n="27"/>art. 1. q. 1. Richard. art. 1. q. 1. D. Thom.
+            <lb ed="#V" n="28"/>3. p. q. 82. art. 1. Suarez 3. part. tom. 3.
+            <lb ed="#V" n="29"/>disp. 61. sect. 3. Bellarm. lib. 4. de Eucharist.
+            <lb ed="#V" n="30"/>c. 16. Waldens. de Sacram. c. 7. et 27.
+          </p>
+          <p>
+            <lb ed="#V" n="31"/>Ad secundum (a) sic proceditur:
+            <lb ed="#V" n="32"/>Arguo quod non quilibet Sacerdos
+            <lb ed="#V" n="33"/>potest conficere Eucharistiam, per
+            <lb ed="#V" n="34"/>illud, 1. quaest. 1. Multi soecularium.
+            <lb ed="#V" n="35"/>ubi adducitur illud Malach. 2.
+            Ma<lb ed="#V" n="36" break="no"/>ledicam benedictionibus vestris; et
+            ex<lb ed="#V" n="37" break="no"/>ponitur uno modo: Maledicam
+            quid<lb ed="#V" n="38" break="no"/>quid a vobis benedicitur; et fit illa
+            <lb ed="#V" n="39"/>comminatio malis Sacerdotibus;
+            <lb ed="#V" n="40"/>ergo quidquid ab eis benedicitur, a
+            <lb ed="#V" n="41"/>Deo maledicitur, et per consequens
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="42"/>nihil simpliciter per ministerium
+            <lb ed="#V" n="43"/>eorum benedicitur.
+          </p>
+          <p>
+            <lb ed="#V" n="44"/>Item ibidem, 1. quaest. 1. Quod.
+            <lb ed="#V" n="45"/>quidam, 8 opponitur: suspenso vel
+            <lb ed="#V" n="46"/>deposito Sacerdote nulla ei relinquitur
+            <lb ed="#V" n="47"/>potestas; ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="48"/>Item, virtus Missae in
+            Sacramen<lb ed="#V" n="49" break="no"/>to Eucharistiae principaliter
+            con<lb ed="#V" n="50" break="no"/>sistit; ergo si malus Sacerdos
+            po<lb ed="#V" n="51" break="no"/>test conficere, sicut bonus, aeque
+            <lb ed="#V" n="52"/>valeret missa mali, sicut boni, et e
+            <lb ed="#V" n="53"/>converso.
+          </p>
+          <p>
+            <lb ed="#V" n="54"/>Item, laicus potest sumere
+            Eu<lb ed="#V" n="55" break="no"/>charistiam; sed sumptio est finis
+            <lb ed="#V" n="56"/>consecrationis, et per consequens
+            <lb ed="#V" n="57"/>est simpliciter melius et nobilius;
+            <lb ed="#V" n="58"/>ergo aeque vel magis potest laicus
+            <lb ed="#V" n="59"/>conficere; non ergo solus Sacerdos.
+          </p>
+          <p>
+            <lb ed="#V" n="60"/>Item, beatus Laurentius
+            sangui<lb ed="#V" n="61" break="no"/>nem dispensavit, ut patet ex verbis
+            <lb ed="#V" n="62"/>ejus ad Sixtum, Cui commisisti, etc.
+            <lb ed="#V" n="63"/>et hoc probatur per illud dist. 93.
+            <lb ed="#V" n="64"/>praesente Presbystero Diaconus
+            Euchari<lb ed="#V" n="65" break="no"/>stiam corporis Christi, si necessitas
+            co<lb ed="#V" n="66" break="no"/>git, jussus eroget.
+          </p>
+          <p>
+            <lb ed="#V" n="67"/>Contra, 1. q. 1. Quod quidam,
+            <lb ed="#V" n="68"/>nulla causa ostenditur, cur ille qui
+            Ba<lb ed="#V" n="69" break="no"/>ptismum non potest amittere, jus amittere
+            <lb ed="#V" n="70"/>possit baptizandi; ergo a simili, qui
+            <lb ed="#V" n="71"/>ordinem sacerdotalem amittere
+            <lb ed="#V" n="72"/>non potest, nec jus conficiendi
+            <lb ed="#V" n="73"/>amittere potest; sed nullus
+            Sacer<lb ed="#V" n="74" break="no"/>dos potest amittere potestatem
+            sa<lb ed="#V" n="75" break="no"/>cerdotalem, quia character est
+            in<lb ed="#V" n="76" break="no"/>delebilis; ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="77"/>Item, ibidem 8 de his:
+            Sacramen<lb ed="#V" n="78" break="no"/>torum sanctitatem in perversis
+            homini<lb ed="#V" n="79" break="no"/>bus, sive qui intus sunt, sive qui foris,
+            <lb ed="#V" n="80"/>constat impollutam atque inviolabilem
+            <lb ed="#V" n="81"/>permanere; ergo quicumque
+            Sacer<lb ed="#V" n="82" break="no"/>dos quantumcumque malus potes
+            <lb ed="#V" n="83"/>habere sanctitatem Sacramento
+            <lb ed="#V" n="84"/>rum camdem cum bono.
+          </p>
+          <p>
+            <lb ed="#V" n="85"/>Quod etiam solus Sacerdos
+            pos<pb ed="#V" n="697"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>sit tam consecrare quam
+            dispensa<lb ed="#V" n="2" break="no"/>re, probatur sic per illud dist. 93.
+            <lb ed="#V" n="3"/>Non oportet Diaconos panem dare, id est,
+            <lb ed="#V" n="4"/>corpus Domini, secundum Glossam.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d13q2-p2"> -->
+          <p>
+            <lb ed="#V" n="11" type="fixed=697"/>SCHOLIUM.
+            <lb ed="#V" n="12"/>Sacerdotem non esse causam principalem
+            <lb ed="#V" n="13"/>conversionis, omnem tamen, et solum
+            Sa<lb ed="#V" n="14" break="no"/>cerdotem rationis compotem et potentem
+            lo<lb ed="#V" n="15" break="no"/>qui, posse valide consecrare.
+          </p>
+          <p>
+            <lb ed="#V" n="16"/>Ad (b) quaestionem dico, quod
+            <lb ed="#V" n="17"/>conficere Eucharistiam, ut
+            princi<lb ed="#V" n="18" break="no"/>palis causa, nulli potest competere
+            <lb ed="#V" n="19"/>nisi soli Deo, patet ex quaestione
+            <lb ed="#V" n="20"/>praecedente, licet ut causa
+            instru<lb ed="#V" n="21" break="no"/>mentalis, vel, ut magis proprie
+            <lb ed="#V" n="22"/>dicam, ut minister, potest
+            compe<lb ed="#V" n="23" break="no"/>tere alicui homini, quia sic Deus
+            <lb ed="#V" n="24"/>ordinavit, quod in quibuscumque
+            <lb ed="#V" n="25"/>Sacramentis minister possit esse
+            <lb ed="#V" n="26"/>homo.
+          </p>
+          <p>
+            <lb ed="#V" n="27"/>Sic ergo loquendo de conficiente,
+            <lb ed="#V" n="28"/>dico quod ministrum posse
+            confi<lb ed="#V" n="29" break="no"/>cere, potest intelligi dupliciter:
+            <lb ed="#V" n="30"/>Uno modo absolute, ita scilicet
+            <lb ed="#V" n="31"/>quod si attentet facere, facit quod
+            <lb ed="#V" n="32"/>intendit; alio modo de posse
+            ordi<lb ed="#V" n="33" break="no"/>nate facere. Et haec distinctio
+            ge<lb ed="#V" n="34" break="no"/>neralis est in omnibus
+            Sacramen<lb ed="#V" n="35" break="no"/>tis, quia plus requirit ordinate
+            <lb ed="#V" n="36"/>ministrare in eis, quam
+            simplici<lb ed="#V" n="37" break="no"/>ter ministrare.
+          </p>
+          <p>
+            <lb ed="#V" n="38"/>Loquendo de posse simpliciter,
+            <lb ed="#V" n="39"/>nihil requiritur ultra materiam
+            <lb ed="#V" n="40"/>debitam, de qua dictum est in fine
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="41"/>dist. 11. nisi minister debitus, ad
+            <lb ed="#V" n="42"/>quem requiruntur tres
+            conditi<lb ed="#V" n="43" break="no"/>ones, scilicet quod sit Sacerdos,
+            <lb ed="#V" n="44"/>quod possit proferre verba
+            conse<lb ed="#V" n="45" break="no"/>crationis, et quod possit habere
+            <lb ed="#V" n="46"/>intentionem debitam faciendi,
+            sci<lb ed="#V" n="47" break="no"/>licet quod intendit Ecclesia facere.
+            <lb ed="#V" n="48"/>Secunda conditio et tertia, sunt
+            <lb ed="#V" n="49"/>communes hic, et in ministrante
+            <lb ed="#V" n="50"/>alia Sacramenta; propter defectum
+            <lb ed="#V" n="51"/>secundae non potest mutus
+            confice<lb ed="#V" n="52" break="no"/>re; propter defectum tertiae carens
+            <lb ed="#V" n="53"/>usu rationis non potest conficere. Et
+            <lb ed="#V" n="54"/>eodem modo de baptizando et
+            con<lb ed="#V" n="55" break="no"/>ferendo quaecumque alia
+            Sacra<lb ed="#V" n="56" break="no"/>menta. Sed potentia conditio est
+            <lb ed="#V" n="57"/>hic propria, scilicet quod solus
+            <lb ed="#V" n="58"/>Sacerdos potest, et quilibet potest,
+            <lb ed="#V" n="59"/>cui possunt competere illae duae
+            <lb ed="#V" n="60"/>conditiones, scilicet prolatio et
+            <lb ed="#V" n="61"/>intentio; quod solus, probatur per
+            <lb ed="#V" n="62"/>illud Extra de Sum. Trinit, et fid.
+            Ca<lb ed="#V" n="63" break="no"/>thot. ubi dicitur: Hoc Sacramentum
+            <lb ed="#V" n="64"/>nemo potest conficere, nisi Sacerdos, qui
+            <lb ed="#V" n="65"/>rite fuerit ordinatus, secundum claves
+            <lb ed="#V" n="66"/>Ecclesice.
+          </p>
+          <p>
+            <lb ed="#V" n="67"/>Sed unde accipit Ecclesia
+            funda<lb ed="#V" n="68" break="no"/>mentum istius sententiae?
+            Respon<lb ed="#V" n="69" break="no"/>deo, ex illo verbo Christi: Hoec
+            <lb ed="#V" n="70"/>quotiescumque feceritis, etc. ubi
+            loqui<lb ed="#V" n="71" break="no"/>tur Apostolis, vel ad minus, non
+            <lb ed="#V" n="72"/>nisi Discipulis, quibus in Ecclesia
+            <lb ed="#V" n="73"/>ad minus non succedunt nisi
+            Sa<lb ed="#V" n="74" break="no"/>cerdotes; Apostolis succedunt
+            Epi<lb ed="#V" n="75" break="no"/>scopi, Discipulis Presbyteri, ut
+            ha<lb ed="#V" n="76" break="no"/>betur dist. 21. In novo Testamento.
+            Ha<lb ed="#V" n="77" break="no"/>betur idem etiam ex illa sententia
+            <lb ed="#V" n="78"/>Pauli 1. ad Corinth, cap. 10. Panis
+            <lb ed="#V" n="79"/>quem frangimus, nonne communicatio
+            <lb ed="#V" n="80"/>corporis Domini est? quem frangimus
+            <lb ed="#V" n="81"/>nos, inquit, scilicet Apostoli et
+            Di<lb ed="#V" n="82" break="no"/>scipuli ejus. Si enim quilibet fidelis
+            <lb ed="#V" n="83"/>posset conficere, non oporteret
+            <lb ed="#V" n="84"/>aliquem alium aliis frangere, sed
+            <pb ed="#V" n="698"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>quilibet posset de suo sacrificio
+            <lb ed="#V" n="2"/>communicare.
+          </p>
+          <p>
+            <lb ed="#V" n="3"/>Secunda pars, scilicet quod
+            <lb ed="#V" n="4"/>omnis Sacerdos potens proferre
+            <lb ed="#V" n="5"/>verba cum intentione possit
+            con<lb ed="#V" n="6" break="no"/>ficere, patet per auctoritates
+            ad<lb ed="#V" n="7" break="no"/>ductas ad oppositum; nec obstat,
+            <lb ed="#V" n="8"/>si instetur de degradato, quia fit
+            <lb ed="#V" n="9"/>non Sacerdos. Si enim hoc verum
+            <lb ed="#V" n="10"/>est, non est instantia ista de
+            ali<lb ed="#V" n="11" break="no"/>quo Sacerdote; dicitur tamen non
+            <lb ed="#V" n="12"/>esse verum, quia characterem non
+            <lb ed="#V" n="13"/>potest aliquis degradans delere.
+            <lb ed="#V" n="14"/>Nec conceditur, quod si quis
+            po<lb ed="#V" n="15" break="no"/>test aliquid ministerialiter
+            confer<lb ed="#V" n="16" break="no"/>re, quod sic possit ministerialiter
+            <lb ed="#V" n="17"/>auferre, quia Deus non sic eum
+            <lb ed="#V" n="18"/>instituit ministrum in amotione,
+            <lb ed="#V" n="19"/>sicut in collatione, et tunc illa
+            <lb ed="#V" n="20"/>regula: Facilius est destruere quam
+            <lb ed="#V" n="21"/>contruere, non conceditur de
+            mini<lb ed="#V" n="22" break="no"/>sterialiter agente in Sacramentis.
+            <lb ed="#V" n="23"/>Pro quo adduci potest illud Pauli
+            <lb ed="#V" n="24"/>2. Corinth. c. ult. Non dedit nobis
+            <lb ed="#V" n="25"/>Deus potestatem in destructionem, sed in
+            <lb ed="#V" n="26"/>cedificationem.
+          </p>
+          <p>
+            <lb ed="#V" n="27"/>SCHOLIUM.
+            <lb ed="#V" n="28"/>Incidenter agit de exemptione Clericorum,
+            <lb ed="#V" n="29"/>quam videtur (inquit) Constantinus
+            conces<lb ed="#V" n="30" break="no"/>sisse. Constat ante Constantinum Ecclesiam
+            <lb ed="#V" n="31"/>hanc exemptionem praecepisse ex epist. Alex.
+            <lb ed="#V" n="32"/>I. ad omnes orthodoxos. et epist. Caii ad
+            <lb ed="#V" n="33"/>Felicem Epi copum, et epist. 2. Marcellini
+            <lb ed="#V" n="34"/>ad universos Episcopos Orientales. Primus
+            <lb ed="#V" n="35"/>sedit ann. 109. alii duo tertio saeculo. Sed
+            <lb ed="#V" n="36"/>Constantinus, primus Principum hoc
+            admi<lb ed="#V" n="37" break="no"/>sit secundum aliquos in Concil. Nicaeno,
+            <lb ed="#V" n="38"/>quando pronuntiavit Episcopos a solo Deo
+            <lb ed="#V" n="39"/>judicandos. Vide I. 1. C. de Episc. et cler.
+            <lb ed="#V" n="40"/>habetur C. Theodos. 1. 16. 1. 8. et 1. 1. de
+            <lb ed="#V" n="41"/>lustral. collat. ibidem. An vero haec
+            exem<lb ed="#V" n="42" break="no"/>ptio sit de jure civili primario, ut tenent
+            <lb ed="#V" n="43"/>Med. C. de rest. q. 15. Palac. 4. d. 25. d. 3. et
+            <lb ed="#V" n="44"/>alii, vel de jure Ecclesiastico, vel divino,
+            <lb ed="#V" n="45"/>Doctor hic non tractat. Covarr. pract. qq. c.
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="46"/>31. Soto d. 25. q. 1. a. 2. Molina tom. 1. de
+            <lb ed="#V" n="47"/>just. d. 31. Henriq. 1. 7. de indulg. cap. 2. q.
+            <lb ed="#V" n="48"/>Salon. 2. 2. quaest. 67. a. 1. controversia 1.
+            <lb ed="#V" n="49"/>Bannes ibi dub. 2. negant esse juris divini;
+            <lb ed="#V" n="50"/>alii multi affirmant, quos citant et sequuntur
+            <lb ed="#V" n="51"/>Bellarm. 1. de memb. Eccles. 28. et 29. Suar.
+            <lb ed="#V" n="52"/>defensione fidei lib. 4. cap. 8. 9. 10. Quod
+            <lb ed="#V" n="53"/>Doctor ait de sacrificio offerri hostiam non
+            <lb ed="#V" n="54"/>consecratam, intelligit de materia ex qua,
+            <lb ed="#V" n="55"/>quo sensu PP. dicunt offerri panem et
+            vi<lb ed="#V" n="56" break="no"/>num, quia quodl. 20. expresse docet
+            Chri<lb ed="#V" n="57" break="no"/>stum esse rem oblatam, nec ponit duo
+            sacri<lb ed="#V" n="58" break="no"/>ficia, ut Richard. art. 18. et Gaspar Casalius
+            <lb ed="#V" n="59"/>2. de sacrif. Miss. 22. quibus favet Bellarm.
+            <lb ed="#V" n="60"/>1. de Missa. 27.
+          </p>
+          <p>
+            <lb ed="#V" n="61"/>Si etiam objicitur de degradato,
+            <lb ed="#V" n="62"/>quod non maneat Sacerdos, quia
+            <lb ed="#V" n="63"/>spoliatur privilegio clericali, et
+            <lb ed="#V" n="64"/>traditur curiae saeculari,
+            respon<lb ed="#V" n="65" break="no"/>deo, non est essentiale ordini
+            ha<lb ed="#V" n="66" break="no"/>bere illud privilegium
+            concomi<lb ed="#V" n="67" break="no"/>tans, quod satis persuadetur, quia
+            <lb ed="#V" n="68"/>illud privilegium videtur
+            conces<lb ed="#V" n="69" break="no"/>sum ab Imperatore Constantino
+            <lb ed="#V" n="70"/>ordo non. Aliquando etiam
+            Sacer<lb ed="#V" n="71" break="no"/>dos erat sine tali privilegio,
+            scili<lb ed="#V" n="72" break="no"/>cet ante concessionem. Hoc tamen
+            <lb ed="#V" n="73"/>posset esse unum brocardicum
+            <lb ed="#V" n="74"/>Juristis, quia illud privilegium
+            <lb ed="#V" n="75"/>consistit in hoc, quod non possit
+            <lb ed="#V" n="76"/>judicari in causa sanguinis nisi a
+            <lb ed="#V" n="77"/>judice Ecclesiastico, vel quasi in
+            <lb ed="#V" n="78"/>causa sanguinis. Sed si Papa exuit
+            <lb ed="#V" n="79"/>aliquem privilegio Ecclesiastico,
+            <lb ed="#V" n="80"/>commendans eum curiae saeculari,
+            <lb ed="#V" n="81"/>judex saecularis est minister, vel
+            <lb ed="#V" n="82"/>executor judicis Ecclesiatici;
+            nul<lb ed="#V" n="83" break="no"/>lus autem alius a judice
+            Ecclesia<lb ed="#V" n="84" break="no"/>stico, potest eum committere
+            judi<lb ed="#V" n="85" break="no"/>ci saeculari; ergo non est possibile,
+            <lb ed="#V" n="86"/>quod committatur sibi, nisi sicut
+            <lb ed="#V" n="87"/>ministro judicis Ecclesiastici, et
+            <lb ed="#V" n="88"/>per consequens non spoliatur
+            pri<lb ed="#V" n="89" break="no"/>vilegio, quia dum manet
+            privile<lb ed="#V" n="90" break="no"/>gium, potest aliquis saecularis in
+            <pb ed="#V" n="699"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>eum esse minister judicis
+            Eccle<lb ed="#V" n="2" break="no"/>siastici.
+          </p>
+          <p>
+            <lb ed="#V" n="3"/>Si objicis de haeretico et
+            schi<lb ed="#V" n="4" break="no"/>smatico, quod non conficiat, quia
+            <lb ed="#V" n="5"/>Sacerdos non offert in persona
+            <lb ed="#V" n="6"/>propria, sed in persona Ecclesiae,
+            <lb ed="#V" n="7"/>cujus est minister; hic autem est
+            <lb ed="#V" n="8"/>praecisus ab ea; et huic rationi
+            <lb ed="#V" n="9"/>videtur Magister inniti in littera.
+            <lb ed="#V" n="10"/>Probatur antecedens per hoc, quod
+            <lb ed="#V" n="11"/>dicit Sacerdos: Offerrimus tibi, etc.
+            <lb ed="#V" n="12"/>non dicit offero. Respondeo, quod
+            <lb ed="#V" n="13"/>oblatio non pertinet ad rationem
+            <lb ed="#V" n="14"/>consecrationis, nec necessario
+            re<lb ed="#V" n="15" break="no"/>quiritur quod offeratur; offertur
+            <lb ed="#V" n="16"/>enim hostia non consecrata, et
+            <lb ed="#V" n="17"/>tunc est sacrificium, non
+            Sacra<lb ed="#V" n="18" break="no"/>mentum, sicut Eucharistia
+            conse<lb ed="#V" n="19" break="no"/>crata conservata in pyxide est
+            <lb ed="#V" n="20"/>Sacramentum, licet non ut ibi sit
+            <lb ed="#V" n="21"/>sacrificium, nisi aptitudinaliter.
+          </p>
+          <p>
+            <lb ed="#V" n="22"/>Esto etiam quod verum sit,
+            <lb ed="#V" n="23"/>quod oportet quemlibet
+            conficien<lb ed="#V" n="24" break="no"/>tem conficere in fide Ecclesiae,
+            <lb ed="#V" n="25"/>bene potest non solum
+            schismati<lb ed="#V" n="26" break="no"/>cus, sed etiam haereticus, quod
+            <lb ed="#V" n="27"/>plus est; pone quod sit haereticus,
+            <lb ed="#V" n="28"/>potest circa Eucharistiam habere
+            <lb ed="#V" n="29"/>intentionem Ecclesiae in
+            conficien<lb ed="#V" n="30" break="no"/>do, et hanc intentionem in
+            univer<lb ed="#V" n="31" break="no"/>sali intendendo, scilicet facere
+            <lb ed="#V" n="32"/>quod Christus instituit faciendum,
+            <lb ed="#V" n="33"/>et quod Ecclesia facit, licet non
+            <lb ed="#V" n="34"/>intendat speciali, quia credit
+            Eu<lb ed="#V" n="35" break="no"/>charistiam nihil valere, sicut
+            dici<lb ed="#V" n="36" break="no"/>tur 2. Priorum: Contingit scire
+            <lb ed="#V" n="37"/>omnem mulam esse sterilem, et dubitare
+            <lb ed="#V" n="38"/>de hac. Et de ista intentione
+            univer<lb ed="#V" n="39" break="no"/>sali dictum est satis distinct. 5. in
+            <lb ed="#V" n="40"/>materia de Baptismo.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d13q2-p3"> -->
+          <p>
+            <lb ed="#V" n="85" type="fixed=748"/>SCHOLIUM.
+            <lb ed="#V" n="86"/>Suppositis iis quae ad valide
+            consecran<lb ed="#V" n="87" break="no"/>dum requiruntur, docet primo, ad licite
+            <pb ed="#V" n="749"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>consecrandum requiri carentiam culpae
+            mor<lb ed="#V" n="2" break="no"/>talis, de quo supra d. 9. Secundo, jejunium,
+            <lb ed="#V" n="3"/>de quo supra d. 8. quaest. 3. Tertio,
+            carenti<lb ed="#V" n="4" break="no"/>am poenae prohibitivae administrationis
+            Sacramen<lb ed="#V" n="5" break="no"/>torum. Quarto, vestimenta debita.
+          </p>
+          <p>
+            <lb ed="#V" n="6"/>Restat (q) ergo videre secundum
+            <lb ed="#V" n="7"/>membrum, scilicet de posse
+            ordi<lb ed="#V" n="8" break="no"/>nate conficere, et ad hoc multa
+            <lb ed="#V" n="9"/>concurrunt, quae tamen omnia
+            <lb ed="#V" n="10"/>possunt reduci ad tria, loquendo
+            <lb ed="#V" n="11"/>de illis, quae non requiruntur ad
+            <lb ed="#V" n="12"/>simpliciter posse, quia vel ista
+            <lb ed="#V" n="13"/>requiruntur ex parte ministri,
+            <lb ed="#V" n="14"/>vel loci, vel temporis. Et
+            secun<lb ed="#V" n="15" break="no"/>dum hoc tres sunt articuli: Primo,
+            <lb ed="#V" n="16"/>videndum est de requisitis ex
+            <lb ed="#V" n="17"/>parte ministri ad hoc, ut ordinate
+            <lb ed="#V" n="18"/>possit conficere, supposito quod
+            <lb ed="#V" n="19"/>habeat materiam convenientem,
+            <lb ed="#V" n="20"/>et possit verba proferre, cum
+            <lb ed="#V" n="21"/>intentione debita superaddita
+            hu<lb ed="#V" n="22" break="no"/>jusmodi.
+          </p>
+          <p>
+            <lb ed="#V" n="23"/>Ex parte ministri sunt in
+            du<lb ed="#V" n="24" break="no"/>plici differentia, quaedam sunt
+            <lb ed="#V" n="25"/>amotiones impedimentorum, et
+            <lb ed="#V" n="26"/>quaedam appositiones
+            convenien<lb ed="#V" n="27" break="no"/>tium seu idoneorum. De primo
+            <lb ed="#V" n="28"/>impedimento ejus, quod est
+            ordi<lb ed="#V" n="29" break="no"/>nate conficere, sunt vel culpa
+            <lb ed="#V" n="30"/>tantum, vel poena tantum, vel
+            <lb ed="#V" n="31"/>nec poena nec culpa. De
+            impedi<lb ed="#V" n="32" break="no"/>mento culpae, quomodo scilicet
+            <lb ed="#V" n="33"/>existens in peccato mortali non
+            <lb ed="#V" n="34"/>potest ordinate conficere, dictum
+            <lb ed="#V" n="35"/>est dist. 9. De impedimento autem,
+            <lb ed="#V" n="36"/>quod nec est culpa nec poena,
+            <lb ed="#V" n="37"/>scilicet cum quis non est jejunus
+            <lb ed="#V" n="38"/>jejunio naturae, dictum est ibidem.
+          </p>
+          <p>
+            <lb ed="#V" n="39"/>Restat ergo hic praecise videre
+            <lb ed="#V" n="40"/>de impedimento, quod est poena;
+            <lb ed="#V" n="41"/>nulla autem talis poena est
+            natu<lb ed="#V" n="42" break="no"/>ralis, sive in corpore, sive in
+            ani<lb ed="#V" n="43" break="no"/>ma, quia talis poena non
+            simpli<lb ed="#V" n="44" break="no"/>citer impedit; sed tantum poena
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>canonica, vel naturalis,
+            inquan<lb ed="#V" n="46" break="no"/>tum super eam fundatur poena
+            <lb ed="#V" n="47"/>canonica. Poena autem canonica
+            <lb ed="#V" n="48"/>(ut breviter dicam) est aliqua
+            <lb ed="#V" n="49"/>prohibitio actus exercendi, vel
+            <lb ed="#V" n="50"/>gradus recipiendi, qui alias
+            com<lb ed="#V" n="51" break="no"/>peteret non prohibito. Hujusmodi
+            <lb ed="#V" n="52"/>autem poenae multae sunt non
+            <lb ed="#V" n="53"/>fundatae super aliquam poenam,
+            <lb ed="#V" n="54"/>vel defectum naturalem, ut
+            de<lb ed="#V" n="55" break="no"/>gradatio, irregularitas,
+            excommu<lb ed="#V" n="56" break="no"/>nicatio major, suspensio ab
+            exe<lb ed="#V" n="57" break="no"/>cutione eorum, quae sunt
+            ordi<lb ed="#V" n="58" break="no"/>nis, simonia, infamia, et quaedam
+            <lb ed="#V" n="59"/>alia hujusmodi ad ista reducibilia,
+            <lb ed="#V" n="60"/>ut sub infamia potest contineri
+            <lb ed="#V" n="61"/>esse publicum peccatorem, quod
+            <lb ed="#V" n="62"/>continet multa, scilicet publicum
+            <lb ed="#V" n="63"/>fornicarium, publicum
+            usura<lb ed="#V" n="64" break="no"/>rium, et hujusmodi.
+          </p>
+          <p>
+            <lb ed="#V" n="65"/>Aliquae autem poenae canonicae
+            <lb ed="#V" n="66"/>fundantur super defectus
+            natura<lb ed="#V" n="67" break="no"/>les; non enim voluit Ecclesia
+            <lb ed="#V" n="68"/>quascumque personas defectuosas
+            <lb ed="#V" n="69"/>ministrare in altari; et merito,
+            <lb ed="#V" n="70"/>quia in veteri lege Levit. 21.
+            poni<lb ed="#V" n="71" break="no"/>tur lex homini qui habuerit
+            ma<lb ed="#V" n="72" break="no"/>culam, quod non offerret Deo
+            <lb ed="#V" n="73"/>suo panem, nec accedat ad
+            mini<lb ed="#V" n="74" break="no"/>sterium ejus.
+          </p>
+          <p>
+            <lb ed="#V" n="75"/>Isti autem defectus sunt, in
+            <lb ed="#V" n="76"/>quibus esset scandalum
+            pusil<lb ed="#V" n="77" break="no"/>lorum, si taliter defectuosus in
+            <lb ed="#V" n="78"/>naturalibus ministraret; et
+            rati<lb ed="#V" n="79" break="no"/>onabiliter, quia quidquid sine
+            pec<lb ed="#V" n="80" break="no"/>cato mortali potest dimitti,
+            vitan<lb ed="#V" n="81" break="no"/>dum est, si ex exercitio ejus
+            oria<lb ed="#V" n="82" break="no"/>tur scandalum pusillorum; tale
+            <lb ed="#V" n="83"/>scandalum oriretur si notabiliter
+            <lb ed="#V" n="84"/>defectuosi in naturalibus, ut
+            mu<lb ed="#V" n="85" break="no"/>tilati, vel horribili infirmitate
+            in<lb ed="#V" n="86" break="no"/>firmi, ut lepra, et hujusmodi,
+            mi<lb ed="#V" n="87" break="no"/>nistrent in altari.
+          </p>
+          <p>
+            <lb ed="#V" n="88"/>Ideo Ecclesia rationabiliter
+            tali<pb ed="#V" n="750"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>bus defectibus naturalibus
+            adjun<lb ed="#V" n="2" break="no"/>xit poenas canonicas, scilicet
+            pro<lb ed="#V" n="3" break="no"/>hibitiones ministrandi propter
+            <lb ed="#V" n="4"/>reverentiam Sacramenti, et ad
+            <lb ed="#V" n="5"/>vitandum scandalum pusillorum.
+            <lb ed="#V" n="6"/>Et istae prohibitiones patent in
+            <lb ed="#V" n="7"/>canone dist. 25. et Extr. de corpore
+            <lb ed="#V" n="8"/>vitiatis.
+          </p>
+          <p>
+            <lb ed="#V" n="9"/>Requiritur ergo in ordinate
+            <lb ed="#V" n="10"/>conficiente ablatio omnium
+            ho<lb ed="#V" n="11" break="no"/>rum impedimentorum, quia habens
+            <lb ed="#V" n="12"/>quodcumque istorum, si conficit,
+            <lb ed="#V" n="13"/>facit contra prohibitionem
+            Eccle<lb ed="#V" n="14" break="no"/>siae, et per consequens non
+            ordi<lb ed="#V" n="15" break="no"/>nate.
+          </p>
+          <p>
+            <lb ed="#V" n="16"/>Secundum (r) requisitum ex
+            <lb ed="#V" n="17"/>parte ministri est appositio
+            con<lb ed="#V" n="18" break="no"/>venientium, scilicet ornamentorum
+            <lb ed="#V" n="19"/>ut habetur de cons. dist. 1.
+            Vestimen<lb ed="#V" n="20" break="no"/>ta. Dicitur ibi quod vestimenta
+            <lb ed="#V" n="21"/>Ecclesiae, quibus Deo ministratur.
+            <lb ed="#V" n="22"/>debent esse sacrata et honesta,
+            <lb ed="#V" n="23"/>quibus in aliis usibus non debent
+            <lb ed="#V" n="24"/>uti, quam in Ecclesiasticis, et Deo
+            <lb ed="#V" n="25"/>dignis officiis.
+          </p>
+          <p>
+            <lb ed="#V" n="26"/>Quae (s) autem sint haec
+            indu<lb ed="#V" n="27" break="no"/>menta, exponit Innoc. de offic.
+            <lb ed="#V" n="28"/>Missae part. 1. c. 10. Sunt, inquit,
+            <lb ed="#V" n="29"/>sex indumenta communia Episcopis et
+            <lb ed="#V" n="30"/>Presbyteris, scilicet amictus, alba,
+            cinqu<lb ed="#V" n="31" break="no"/>lum, stola, manipulus et planeta. In
+            qui<lb ed="#V" n="32" break="no"/>busdam tamen locis consuetudo
+            ob<lb ed="#V" n="33" break="no"/>tinuit, quod non oportet cingulum
+            <lb ed="#V" n="34"/>benedici, et sic non apparet quin
+            <lb ed="#V" n="35"/>liceat uti cingulo non benedicto.
+          </p>
+          <p>
+            <lb ed="#V" n="36"/>SCHOLIUM.
+            <lb ed="#V" n="37"/>Eum, qui non est Sacerdos, attentando
+            con<lb ed="#V" n="38" break="no"/>secrare, fieri irregularem, idque esse
+            univer<lb ed="#V" n="39" break="no"/>sale de quocumque exercente actum ordinis,
+            <lb ed="#V" n="40"/>quem non habet, nisi ignorantia facti
+            incul<lb ed="#V" n="41" break="no"/>pabilis excuset; et insinuat ignorantiam
+            <lb ed="#V" n="42"/>juris probabilem excusare, juxta quod
+            expo<lb ed="#V" n="43" break="no"/>nendus est supra d. 6. q. 8. ubi videtur
+            <lb ed="#V" n="44"/>oppositum docere. Docet simoniacum esse
+            <lb ed="#V" n="45"/>irregularem, (non tamen publicum
+            peccato<cb ed="#V" n="b"/><lb ed="#V" n="46" break="no"/>rem, etiam usurarium); ita Nav. c. 23. n. 3.
+            <lb ed="#V" n="47"/>Henriq. 1ib. 14. c. 5. 8 1. et c. 6. 8 7. et
+            <lb ed="#V" n="48"/>communis, tenentes talem esse ipso facto
+            <lb ed="#V" n="49"/>suspensum, sed de simoniaco in beneficio
+            <lb ed="#V" n="50"/>negat Nav. et Innoc. in c. Tanta. de simon.
+            <lb ed="#V" n="51"/>Quod publicus peccator non sit irregularis,
+            <lb ed="#V" n="52"/>nec suspensus, colligitur ex Trid. ss. 25.
+            <lb ed="#V" n="53"/>c. 14. de Reform. et ex c. 2. de cohabit. Cler.
+            <lb ed="#V" n="54"/>ubi agitur de poenis talium, et nulla
+            imponi<lb ed="#V" n="55" break="no"/>tur ipso jure; ita Covarr. Clem. Si furiosus,
+            <lb ed="#V" n="56"/>p. 1. 8 1. n. 5. et communis.
+          </p>
+          <p>
+            <lb ed="#V" n="57"/>De his (t) omnibus ex parte
+            mi<lb ed="#V" n="58" break="no"/>nistri, sive in primo membro de
+            <lb ed="#V" n="59"/>requisitis ad simpliciter posse,
+            <lb ed="#V" n="60"/>sive in isto secundo membro de
+            re<lb ed="#V" n="61" break="no"/>quisitis, ex parte ministri ad
+            ordi<lb ed="#V" n="62" break="no"/>nate posse, si quaeritur quae poenae
+            <lb ed="#V" n="63"/>ministri attentantis? Respondeo,
+            <lb ed="#V" n="64"/>si est mutus, non potest attentare
+            <lb ed="#V" n="65"/>loqui. Si non utitur ratione, non
+            <lb ed="#V" n="66"/>potest attentare habere
+            intenti<lb ed="#V" n="67" break="no"/>onem debitam. Si non est
+            Sacer<lb ed="#V" n="68" break="no"/>dos, et attentat facere ut Sacerdos,
+            <lb ed="#V" n="69"/>non solum peccat mortaliter, et
+            <lb ed="#V" n="70"/>nihil facit, sed irregularis est, ut
+            <lb ed="#V" n="71"/>habetur Extra de clerico non ordinato
+            <lb ed="#V" n="72"/>ministrante, c. 1. et 2. Et universaliter
+            <lb ed="#V" n="73"/>quicumque exequens, vel
+            atten<lb ed="#V" n="74" break="no"/>tans actum alicujus ordinis, quem
+            <lb ed="#V" n="75"/>non debet, irregularis est. Patet
+            <lb ed="#V" n="76"/>hoc in illo titulo in diversis
+            capi<lb ed="#V" n="77" break="no"/>tulis.
+          </p>
+          <p>
+            <lb ed="#V" n="78"/>Poena autem (u) ministrantis in
+            <lb ed="#V" n="79"/>quocumque impedimento
+            canoni<lb ed="#V" n="80" break="no"/>co, videtur esse irregularitas, ut
+            <lb ed="#V" n="81"/>patet Extra de clerico excommunicato,
+            <lb ed="#V" n="82"/>vel deposito, in diversis capitulis, et hoc
+            <lb ed="#V" n="83"/>maxime, si ministrans sciat talem
+            <lb ed="#V" n="84"/>poenam sibi inflictam.
+          </p>
+          <p>
+            <lb ed="#V" n="85"/>Sed hoc potest distingui de
+            igno<lb ed="#V" n="86" break="no"/>rantia juris vel facti. Ignorantia
+            <lb ed="#V" n="87"/>juris non excusat, quia tenetur
+            il<lb ed="#V" n="88" break="no"/>le, qui se exponit ad tantum actum,
+            <lb ed="#V" n="89"/>scire jura, secundum quae potest
+            <lb ed="#V" n="90"/>exercere tantum et talem actum,
+            <pb ed="#V" n="751"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>et ideo talis ignorantia juris non
+            <lb ed="#V" n="2"/>excusat, sed forte magis aggravat.
+          </p>
+          <p>
+            <lb ed="#V" n="3"/>Ignorantia autem facti excusat,
+            <lb ed="#V" n="4"/>ut habetur in codem titulo
+            cap<lb ed="#V" n="5" break="no"/>Apostolicae, et hoc nisi fama
+            veridi<lb ed="#V" n="6" break="no"/>ca et publica sibi manifestet, quod
+            <lb ed="#V" n="7"/>sit tali poena impeditus. Quod
+            pro<lb ed="#V" n="8" break="no"/>batur per capitulum illud, eodem
+            <lb ed="#V" n="9"/>titulo, ibi: Cum ei non nisi per famam
+            <lb ed="#V" n="10"/>de sententia contra eum lata constaret.
+            <lb ed="#V" n="11"/>peccare non credidit, si divina officia
+            <lb ed="#V" n="12"/>quantumcumque solemniter celebravit;
+            <lb ed="#V" n="13"/>subditur ibi: quia in dubiis via tutior
+            <lb ed="#V" n="14"/>est eligenda, si de lata in eum sententia
+            <lb ed="#V" n="15"/>dubitaret, debuerat tamen potius
+            abstine<lb ed="#V" n="16" break="no"/>re, quam Sacramenta Ecclesiastica
+            per<lb ed="#V" n="17" break="no"/>tractare. Et in fine subditur: Cum eo
+            <lb ed="#V" n="18"/>misericordiam facientes, poenam, quam
+            <lb ed="#V" n="19"/>canon his, qui post excommunicationem
+            <lb ed="#V" n="20"/>divina proesumpserunt celebrare, infligit,
+            <lb ed="#V" n="21"/>non duximus infligendam. Ex hoc
+            pa<lb ed="#V" n="22" break="no"/>tet, quod misericorditer relaxat
+            <lb ed="#V" n="23"/>dubitanti poenam, quam incurrit
+            <lb ed="#V" n="24"/>ex canone, qui celebravit divina,
+            <lb ed="#V" n="25"/>postquam innotuit sibi per famam
+            <lb ed="#V" n="26"/>de excommunicatione in eum lata.
+          </p>
+          <p>
+            <lb ed="#V" n="27"/>Inter ista tamen impedimenta,
+            <lb ed="#V" n="28"/>non includitur minor
+            excommuni<lb ed="#V" n="29" break="no"/>catio, quoad hoc, quod poena
+            irre<lb ed="#V" n="30" break="no"/>gularitatis sequatur, quia etsi
+            <lb ed="#V" n="31"/>peccet graviter, in
+            excommunica<lb ed="#V" n="32" break="no"/>tione minori celebrans, nullius
+            <lb ed="#V" n="33"/>tamen irregularitatis notam
+            in<lb ed="#V" n="34" break="no"/>currit, ut habetur eodem titulo, si
+            <lb ed="#V" n="35"/>celebrat.
+          </p>
+          <p>
+            <lb ed="#V" n="36"/>Verum de simoniaco et
+            peccato<lb ed="#V" n="37" break="no"/>a re notorio, dubium est; sed
+            pri<lb ed="#V" n="38" break="no"/>mum videtur solvi per illud
+            decre<lb ed="#V" n="39" break="no"/>tum distinct. 33. Maritum, ubi inter
+            <lb ed="#V" n="40"/>non promovendos nominatur ille,
+            <lb ed="#V" n="41"/>qui per emptionem ad imitationem
+            <lb ed="#V" n="42"/>Simonis magi pecuniam obtulit; et
+            <lb ed="#V" n="43"/>1. quaest. 1. Eos qui, Papa Gregorius
+            <lb ed="#V" n="44"/>eos omnino simoniacos damnat, ac
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>deponendos auctoritate Apostolica
+            <lb ed="#V" n="46"/>censet; et de hoc dicitur Extra de
+            <lb ed="#V" n="47"/>simonia, in textu, et in Glossa: ergo
+            <lb ed="#V" n="48"/>iste videtur simpliciter
+            inhabi<lb ed="#V" n="49" break="no"/>lis, propter poenam canonicam, ad
+            <lb ed="#V" n="50"/>exercendum actum ordinis, sicut
+            <lb ed="#V" n="51"/>omnino est dejiciendus a clero
+            se<lb ed="#V" n="52" break="no"/>cundum auctoritatem adductam.
+          </p>
+          <p>
+            <lb ed="#V" n="53"/>De (x) peccatore autem publico
+            <lb ed="#V" n="54"/>seu notorio, certum est quod ante
+            <lb ed="#V" n="55"/>poenitentiam peccat mortaliter
+            <lb ed="#V" n="56"/>conficiendo, non tantum, quia est
+            <lb ed="#V" n="57"/>in peccato mortali, sed quia
+            scan<lb ed="#V" n="58" break="no"/>dalizat. Sed estne irregularis?
+            <lb ed="#V" n="59"/>Forte non invenitur hic poena in
+            <lb ed="#V" n="60"/>canone sibi inflicta, licet enim
+            <lb ed="#V" n="61"/>prohibeatur dist. 33. Nullus, quod
+            <lb ed="#V" n="62"/>nullus audiat Missam Presbyteri,
+            <lb ed="#V" n="63"/>quem indubitanter scit concubinam
+            <lb ed="#V" n="64"/>habere, et ex hoc videatur, quod
+            <lb ed="#V" n="65"/>sibi prohibetur celebrare, quia
+            <lb ed="#V" n="66"/>magis adstringitur ad cavendum
+            <lb ed="#V" n="67"/>quam audiens, ut non audiat, et per
+            <lb ed="#V" n="68"/>consequens si celebrat, contra
+            <lb ed="#V" n="69"/>praeceptum Ecclesiae facit; tamen
+            <lb ed="#V" n="70"/>ista consequentia non est
+            necessa<lb ed="#V" n="71" break="no"/>ria in poenis, quia poenae non sunt
+            <lb ed="#V" n="72"/>ampliandae, et quandoque
+            prohibe<lb ed="#V" n="73" break="no"/>tur communicatio cum isto in
+            <lb ed="#V" n="74"/>aliquo actu, ut corrigatur, non
+            <lb ed="#V" n="75"/>tamen infligitur isti poena
+            irregu<lb ed="#V" n="76" break="no"/>laritatis, si exerceat istum
+            ac<lb ed="#V" n="77" break="no"/>tum.
+          </p>
+          <p>
+            <lb ed="#V" n="78"/>Idem posset dici de publico
+            usu<lb ed="#V" n="79" break="no"/>rario, etiam manente in peccato
+            <lb ed="#V" n="80"/>usurae. De infami autem, qui
+            ta<lb ed="#V" n="81" break="no"/>men poenituit de peccato, sed
+            non<lb ed="#V" n="82" break="no"/>dum est restitutus in integrum,
+            <lb ed="#V" n="83"/>si celebrando fiat irregularis, non
+            <lb ed="#V" n="84"/>est dicendum quod sic, nisi
+            inve<lb ed="#V" n="85" break="no"/>niatur in jure canonico. De
+            cele<lb ed="#V" n="86" break="no"/>brante autem sine illis
+            ornamen<lb ed="#V" n="87" break="no"/>tis, vel omnibus, vel aliquibus, vel
+            <lb ed="#V" n="88"/>non consecratis, non invenitur in
+            <pb ed="#V" n="752"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>canone poena irregularitatis
+            infli<lb ed="#V" n="2" break="no"/>cta; breviter ex quo ista est poena
+            <lb ed="#V" n="3"/>juris positivi, quando non
+            infligi<lb ed="#V" n="4" break="no"/>tur, non incurritur.
+          </p>
+          <p>
+            <lb ed="#V" n="5"/>Nulla (y) ergo conditio ex parte
+            <lb ed="#V" n="6"/>ministri requisita, et non observata
+            <lb ed="#V" n="7"/>facit incurrere irregularitatem,
+            <lb ed="#V" n="8"/>nisi defectus Sacerdotii, vel alia
+            <lb ed="#V" n="9"/>poena simpliciter prohibens et
+            re<lb ed="#V" n="10" break="no"/>movens ab excercitio Sacerdotii;
+            <lb ed="#V" n="11"/>et per consequens Sacerdos non
+            <lb ed="#V" n="12"/>prohibitus per talem poenam,
+            con<lb ed="#V" n="13" break="no"/>ficiendo non incurrit
+            irregulari<lb ed="#V" n="14" break="no"/>tatem; nec ergo propter peccatum
+            <lb ed="#V" n="15"/>nisi sit tale, cui annexa sit
+            prohi<lb ed="#V" n="16" break="no"/>bitio canonica, nec propter non
+            <lb ed="#V" n="17"/>jejunum, nec propter carentiam
+            <lb ed="#V" n="18"/>ornamentorum debitorum, nec
+            <lb ed="#V" n="19"/>breviter propter quaecumque alia
+            <lb ed="#V" n="20"/>sub praedictis non contenta,
+            incur<lb ed="#V" n="21" break="no"/>ritur irregularitas.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d13q2-p4"> -->
+          <p>
+            <lb ed="#V" n="40" type="fixed=755"/>SCHOLIUM.
+            <lb ed="#V" n="41"/>Ad celebrationem licitam requiri locum
+            <lb ed="#V" n="42"/>esse sacrum, et non interdictum; licere
+            ta<lb ed="#V" n="43" break="no"/>men in necessitate celebrare in loco non
+            <lb ed="#V" n="44"/>sacro. Item requiri lumen, quod secundum
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>consuetudinem debet esse ex cera; docet
+            al<lb ed="#V" n="46" break="no"/>taria debere esse lapidea, calices et patenas,
+            <lb ed="#V" n="47"/>saltem ex stanno, et omnia haec consecrata;
+            <lb ed="#V" n="48"/>privilegium Minorum et Praedicatorum, de
+            <lb ed="#V" n="49"/>celebrando in portatili sine licentia
+            Episco<lb ed="#V" n="50" break="no"/>pi, non esse abrogatum per Trident. sess. 22.
+            <lb ed="#V" n="51"/>decret. de observandis in celebr. Missae, docet
+            <lb ed="#V" n="52"/>Emmanuel 1. tom. q. 43. art. 5. et 2. tom.
+            <lb ed="#V" n="53"/>q. 75 art. 1. Vide Suarez 3. tom. disp. 81.
+            <lb ed="#V" n="54"/>sect. 3. (De his quaestionibus consulendum
+            <lb ed="#V" n="55"/>jus hodiernum.)
+          </p>
+          <p>
+            <lb ed="#V" n="56"/>Sequitur (z) secundum
+            principa<lb ed="#V" n="57" break="no"/>le, scilicet de requisitis ex parte
+            <lb ed="#V" n="58"/>loci, ubi possumus distinguere
+            lo<lb ed="#V" n="59" break="no"/>cum in locum proprie dictum,
+            <lb ed="#V" n="60"/>et in vas, quod est locus mobilis
+            <lb ed="#V" n="61"/>secundum Aristotelem 4. Physicor.
+            <lb ed="#V" n="62"/>Ex parte loci proprie dicti
+            requi<lb ed="#V" n="63" break="no"/>ritur amotio impedimenti, scilicet
+            <lb ed="#V" n="64"/>quod locus non sit interdictus, et
+            <lb ed="#V" n="65"/>requiritur appositio convenientis
+            <lb ed="#V" n="66"/>dispositionis, scilicet quod sit
+            <lb ed="#V" n="67"/>sanctificatus.
+          </p>
+          <p>
+            <lb ed="#V" n="68"/>Primum est simpliciter
+            neces<lb ed="#V" n="69" break="no"/>sarium, quia celebrans in loco
+            <lb ed="#V" n="70"/>interdicto facit contra
+            prohibiti<lb ed="#V" n="71" break="no"/>onem Ecclesiae, et per consequens
+            <lb ed="#V" n="72"/>non ordinate. Secundum est
+            ne<lb ed="#V" n="73" break="no"/>cessarium, nisi casus necessitatis
+            <lb ed="#V" n="74"/>occurrat, ut probatur per illud de
+            <lb ed="#V" n="75"/>consecrat. dist. 1. sicut ubi dicitur;
+            <lb ed="#V" n="76"/>Non in aliis, quam Domino consecratis
+            <lb ed="#V" n="77"/>locis, id est, tabernaculis a Pontificibus
+            <lb ed="#V" n="78"/>delibutis, Missas cantare ac celebrare
+            <lb ed="#V" n="79"/>licet. Item patet cap. sequent. et
+            <lb ed="#V" n="80"/>cap. Hic ergo, et cap. sequent. ubi
+            <lb ed="#V" n="81"/>dicitur; Nullus Presbyter Missas
+            cele<lb ed="#V" n="82" break="no"/>brare proesumat, nisi in sacratis ab
+            Epi<lb ed="#V" n="83" break="no"/>scopo locis, qui sui particeps de caetero
+            <lb ed="#V" n="84"/>voluerit esse Sacerdotii; sel exceptio
+            <lb ed="#V" n="85"/>illa de casu necessitatis patet
+            ea<lb ed="#V" n="86" break="no"/>dem dist. c. Concedimus.
+          </p>
+          <p>
+            <lb ed="#V" n="87"/>Casus autem (a) illi sunt isti, ut
+            <lb ed="#V" n="88"/>si Ecclesiae in patria sunt
+            destru<lb ed="#V" n="89" break="no"/>ctae, vel si quis in via penitus non
+            <pb ed="#V" n="756"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>poterit accedere ad aliquam
+            Eccle<lb ed="#V" n="2" break="no"/>siam consecratam, quod
+            regulari<lb ed="#V" n="3" break="no"/>ter verum est de navigantibus, et
+            <lb ed="#V" n="4"/>caeteris hujusmodi. Non enim
+            vi<lb ed="#V" n="5" break="no"/>detur verisimile, quod
+            observati<lb ed="#V" n="6" break="no"/>onem illius praecepti Decalogi:
+            <lb ed="#V" n="7"/>Sanctifica Sabbatum, ( quod
+            praecep<lb ed="#V" n="8" break="no"/>tum, Ecclesia interpretata est in
+            <lb ed="#V" n="9"/>hoc, quod est audire Missam die
+            <lb ed="#V" n="10"/>Dominico, de consecrat. dist. 1. Missas.)
+            <lb ed="#V" n="11"/>voluerit Ecclesia impedire per
+            <lb ed="#V" n="12"/>aliquod praeceptum minoris
+            obli<lb ed="#V" n="13" break="no"/>gationis, ut per talem vel talem
+            <lb ed="#V" n="14"/>locum requiri ad hoc, ut Missa
+            <lb ed="#V" n="15"/>audiatur, cum non debeat quis
+            <lb ed="#V" n="16"/>restringi ab observatione magis
+            <lb ed="#V" n="17"/>necessarii, per arctationem ad
+            <lb ed="#V" n="18"/>minus necessarium.
+          </p>
+          <p>
+            <lb ed="#V" n="19"/>Quae autem (b) vel ubi sint loca
+            <lb ed="#V" n="20"/>consecrata, dico quod regulariter
+            <lb ed="#V" n="21"/>Ecclesiae Parochiales, et aliae
+            so<lb ed="#V" n="22" break="no"/>lemnes Collegiatae. Oratoria
+            au<lb ed="#V" n="23" break="no"/>tem, quae dicuntur capellae, non
+            <lb ed="#V" n="24"/>possunt haberi, quae sint
+            consecra<lb ed="#V" n="25" break="no"/>tae, nisi de licentia Episcopi, ut
+            <lb ed="#V" n="26"/>habetur de consecrat. dist. 1.
+            Uni<lb ed="#V" n="27" break="no"/>cuique fidelium licet habere
+            orato<lb ed="#V" n="28" break="no"/>rium, et ibi orare; Missas autem
+            <lb ed="#V" n="29"/>ibi celebrare non licet, nisi in
+            casi<lb ed="#V" n="30" break="no"/>bus supradictis. Oratorium tamen
+            <lb ed="#V" n="31"/>sacrum facere non licet, nisi
+            au<lb ed="#V" n="32" break="no"/>ctoritate Episcopi, de consecrat.
+            <lb ed="#V" n="33"/>dist. 1. Nemo. Istius etiam loci
+            <lb ed="#V" n="34"/>requiritur ornatus, scilicet lumen,
+            <lb ed="#V" n="35"/>ut dicitur Extra de celebrat. Miss,
+            ca<lb ed="#V" n="36" break="no"/>pitulo ultimo, de eo, qui sine igne
+            <lb ed="#V" n="37"/>sanctificabat, et aqua; et sequitur:
+            <lb ed="#V" n="38"/>Mandamus, quod officio et beneficio
+            ip<lb ed="#V" n="39" break="no"/>sum prives perpetuo.
+            <lb ed="#V" n="40"/>De loco (c) autem mobili, sive
+            <lb ed="#V" n="41"/>vase, distinguo, quod vas
+            remo<lb ed="#V" n="42" break="no"/>tum est altare, quod debet esse
+            <lb ed="#V" n="43"/>lapideum, de consecrat. dist. 1.
+            Al<lb ed="#V" n="44" break="no"/>Itaria si non sunt lapidea,
+            chris<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>matis unctione non consecrantur.
+            <lb ed="#V" n="46"/>Vasa propinqua sunt calix et
+            <lb ed="#V" n="47"/>patena, quae debent esse de auro
+            <lb ed="#V" n="48"/>vel argento, vel ubi paupertas
+            co<lb ed="#V" n="49" break="no"/>git ad minus de stanno, sicut
+            habe<lb ed="#V" n="50" break="no"/>tur de consecrat. dist. 1. Calix. Calix
+            <lb ed="#V" n="51"/>Domini cum patena, si non ex auro,
+            <lb ed="#V" n="52"/>omnino ex argento fiat. Si quis autem
+            <lb ed="#V" n="53"/>tam pauper est, saltem ut stanneum
+            <lb ed="#V" n="54"/>calicem habeat; de cere autem, aut
+            auri<lb ed="#V" n="55" break="no"/>chalco non fiat, quia ob vini virtutem
+            <lb ed="#V" n="56"/>ceruginem vel rubiginem pariter et
+            vomi<lb ed="#V" n="57" break="no"/>tum provocat. Nullus autem in lian eo,
+            <lb ed="#V" n="58"/>vel vitreo proesumat Missas celebrare.
+            <lb ed="#V" n="59"/>De vitreo autem rationale est
+            pro<lb ed="#V" n="60" break="no"/>pter ejus fragilitatem, ne sanguis
+            <lb ed="#V" n="61"/>Domini periculo exponatur; de
+            <lb ed="#V" n="62"/>ligneo propter imhibitionem
+            hu<lb ed="#V" n="63" break="no"/>moris.
+          </p>
+          <p>
+            <lb ed="#V" n="64"/>Ista vasa omnia debent esse
+            <lb ed="#V" n="65"/>consecrata. De altari habetur de
+            <lb ed="#V" n="66"/>consecratione, distinctione prima,
+            Eccle<lb ed="#V" n="67" break="no"/>sioe, et cap. Concedimus, et duobus
+            <lb ed="#V" n="68"/>capitulis sequentibus.
+          </p>
+          <p>
+            <lb ed="#V" n="69"/>Sive autem sit fixum, sicut est
+            <lb ed="#V" n="70"/>communiter in Ecclesis, sive
+            por<lb ed="#V" n="71" break="no"/>tabile, non est magna differentia,
+            <lb ed="#V" n="72"/>quia in altari portabili, sive in
+            <lb ed="#V" n="73"/>alio fixo, convenit Missas
+            celebra<lb ed="#V" n="74" break="no"/>re, ut habetur Extra de
+            privile<lb ed="#V" n="75" break="no"/>giis, et excessibus
+            privilegiato<lb ed="#V" n="76" break="no"/>rum, cap. In his, que ad cultum cum
+            <lb ed="#V" n="77"/>fratribus Minoribus et Proedicatoribus
+            <lb ed="#V" n="78"/>duximus indulgendum, ut ubicumque
+            fu<lb ed="#V" n="79" break="no"/>erint, sine Parochialis praejudicio,
+            vale<lb ed="#V" n="80" break="no"/>ant cum altari viatico celebrare.
+            Qui<lb ed="#V" n="81" break="no"/>dam nimis stricte interpretando
+            <lb ed="#V" n="82"/>nostram indulgentiam, nituntur
+            <lb ed="#V" n="83"/>asserere, quod per ea praedicti
+            fra<lb ed="#V" n="84" break="no"/>tres praeter Praelatorum assensum
+            <lb ed="#V" n="85"/>facere hoc non possunt. Et paulo
+            <lb ed="#V" n="86"/>post: Cum autem nihil eis conferret
+            <lb ed="#V" n="87"/>indulgentia memorata, sine qua idem
+            <lb ed="#V" n="88"/>Proelatis annuentibus liceret eisdem,
+            man<pb ed="#V" n="757"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>damus quod interpretatione hujusmodi
+            <lb ed="#V" n="2"/>reprobata, dum tamen ab aliis, quae juri
+            <lb ed="#V" n="3"/>Parochiali prorsus conveniunt,
+            abstine<lb ed="#V" n="4" break="no"/>ant, datam eis licentiam celebrandi
+            <lb ed="#V" n="5"/>etiam auctoritate nostra non differas
+            <lb ed="#V" n="6"/>publicare, ita quod dicti fratres ex
+            in<lb ed="#V" n="7" break="no"/>dulgentia nostra gratiam videantur
+            con<lb ed="#V" n="8" break="no"/>secuti, ait Honorius III.
+          </p>
+          <p>
+            <lb ed="#V" n="9"/>Si objicitur ex hoc capitulo, quod
+            <lb ed="#V" n="10"/>non licet uti altari viatico, nisi
+            <lb ed="#V" n="11"/>ex privilegiis; respondeo, verum
+            <lb ed="#V" n="12"/>est, quantum ad usum ejus
+            indiffe<lb ed="#V" n="13" break="no"/>renter in quocumque loco
+            conse<lb ed="#V" n="14" break="no"/>crato, vel non consecrato; sed
+            <lb ed="#V" n="15"/>quantum ad usum ejus in loco
+            <lb ed="#V" n="16"/>consecrato videtur satis esse jus
+            <lb ed="#V" n="17"/>commune, quia ante dedicationem
+            <lb ed="#V" n="18"/>altaris in Ecclesiis quibuscumque
+            <lb ed="#V" n="19"/>communiter celebratur cum altari
+            <lb ed="#V" n="20"/>parvo.
+          </p>
+          <p>
+            <lb ed="#V" n="21"/>Hoc etiam altare, sive fixum,
+            si<lb ed="#V" n="22" break="no"/>ve mobile et portabile, oportet
+            <lb ed="#V" n="23"/>esse non enormiter fractum, Extra
+            <lb ed="#V" n="24"/>de consecrat. Eccl. vel altaris. Ad haec,
+            <lb ed="#V" n="25"/>si sit altare, ubi dicitur quod si
+            <lb ed="#V" n="26"/>lapis benedictus fuerit imminutus, debet
+            <lb ed="#V" n="27"/>iterum benedici, et cap. Quod in
+            du<lb ed="#V" n="28" break="no"/>biis, ibidem. Calicem etiam, et
+            pa<lb ed="#V" n="29" break="no"/>tenam oportet esse consecratam,
+            <lb ed="#V" n="30"/>ut habetur Extra ubi supra.
+          </p>
+          <p>
+            <lb ed="#V" n="31"/>Haec etiam vasa oportet esse
+            <lb ed="#V" n="32"/>ornata, altare quidem tobaliis
+            du<lb ed="#V" n="33" break="no"/>abus, ubi est mos Ecclesiae,
+            conse<lb ed="#V" n="34" break="no"/>« cratis, et quod magis praecisum
+            <lb ed="#V" n="35"/>est, corporali de sindone munda.
+            <lb ed="#V" n="36"/>Et oportet quod illud corporale
+            <lb ed="#V" n="37"/>cooperiat ad minus locum calicis
+            <lb ed="#V" n="38"/>et hostiae, quae debent collocari
+            <lb ed="#V" n="39"/>super altare consecratum, sive
+            <lb ed="#V" n="40"/>totum immobile consecratum sit,
+            <lb ed="#V" n="41"/>sive super mobile ubi requiritur
+            <lb ed="#V" n="42"/>usus ejus.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d13q2-p5"> -->
+          <p>
+            <lb ed="#V" n="31" type="fixed=760"/>SCHOLIUM.
+            <lb ed="#V" n="32"/>Celebrantem sine requisitis praedictis ex
+            <lb ed="#V" n="33"/>parte loci, vasis (et idem est de vestibus)
+            <lb ed="#V" n="34"/>non fieri irregularem, nisi scienter celebret
+            <lb ed="#V" n="35"/>in Ecclesia interdicta a judice, vel in calice
+            <lb ed="#V" n="36"/>inidoneo; solvit tamen jura, quae pro primo
+            <lb ed="#V" n="37"/>casu citantur, sed videtur haberi. c. 15.
+            <lb ed="#V" n="38"/>Qui, de sent. excomm, 6. Secundum casum
+            <lb ed="#V" n="39"/>relinquit sub dubio.
+          </p>
+          <p>
+            <lb ed="#V" n="40"/>Si (d) quaeritur, quae poena sit
+            <lb ed="#V" n="41"/>celebrantibus sine istis
+            conditi<cb ed="#V" n="b"/><lb ed="#V" n="42" break="no"/>onibus, quae dictae sunt ex parte
+            <lb ed="#V" n="43"/>loci et vasis?
+          </p>
+          <p>
+            <lb ed="#V" n="44"/>Respondeo, in nullo
+            praemisso<lb ed="#V" n="45" break="no"/>rum incurritur irregularitas, nisi
+            <lb ed="#V" n="46"/>in duobus casibus. Primus si
+            sci<lb ed="#V" n="47" break="no"/>enter celebrat in loco interdicto
+            <lb ed="#V" n="48"/>a judice; alius, si celebrat in
+            cali<lb ed="#V" n="49" break="no"/>ce non idoneo. Circa primum
+            sci<lb ed="#V" n="50" break="no"/>endum quod locus potest esse
+            in<lb ed="#V" n="51" break="no"/>terdictus a judice, vel a jure.
+            <lb ed="#V" n="52"/>A jure quidem, si est pollutus
+            <lb ed="#V" n="53"/>sanguine vel semine, Extra de
+            con<lb ed="#V" n="54" break="no"/>secr. Eccles. cap. ult. si in Ecclesia,
+            <lb ed="#V" n="55"/>et in talibus notorium est,
+            pecca<lb ed="#V" n="56" break="no"/>tum est celebrare, non tamen
+            <lb ed="#V" n="57"/>incurritur irregularitas, quia non
+            <lb ed="#V" n="58"/>est a jure inflicta expresse.
+          </p>
+          <p>
+            <lb ed="#V" n="59"/>Si autem privatum est, nec
+            pec<lb ed="#V" n="60" break="no"/>catum est, quia nec
+            reconciliati<lb ed="#V" n="61" break="no"/>one indiget, Extra de adulter.
+            Signi<lb ed="#V" n="62" break="no"/>ficasti. Si autem interdictum sit (e) a
+            <lb ed="#V" n="63"/>judice latum contra locum,
+            cele<lb ed="#V" n="64" break="no"/>brans ibidem scienter dicitur
+            in<lb ed="#V" n="65" break="no"/>currere irregularitatem. Quod
+            <lb ed="#V" n="66"/>probatur per unum capitulum
+            Ex<lb ed="#V" n="67" break="no"/>tra de clerico excommunicato
+            ministran<lb ed="#V" n="68" break="no"/>te, Postulasti, et per aliud capitulum
+            <lb ed="#V" n="69"/>Extra de excess. proelat. Tanta. Sed
+            <lb ed="#V" n="70"/>utrumque capitulum bene posset
+            <lb ed="#V" n="71"/>exponi, cum neutrum est juris
+            <lb ed="#V" n="72"/>expositivum, neque etiam juris
+            <lb ed="#V" n="73"/>positivi responsivum, ut appareat
+            <lb ed="#V" n="74"/>talem sic celebrantem irregularem
+            <lb ed="#V" n="75"/>esse simpliciter; quod patet,
+            expo<lb ed="#V" n="76" break="no"/>nendo verba illa, quae ponderantur
+            <lb ed="#V" n="77"/>de privatione beneficiorum, et
+            hu<lb ed="#V" n="78" break="no"/>jusmodi.
+          </p>
+          <p>
+            <lb ed="#V" n="79"/>In (f) secundo casu, scilicet de
+            <lb ed="#V" n="80"/>defectu calicis idonei, dubium est
+            <lb ed="#V" n="81"/>an propter illud irregularitas
+            in<lb ed="#V" n="82" break="no"/>curratur, quia poena illa
+            depositi<lb ed="#V" n="83" break="no"/>onis, quae habetur Extra de celebr
+            <lb ed="#V" n="84"/>Miss. c. ult. infligitur propter multa
+            <lb ed="#V" n="85"/>scilicet, quia non utebatur calice
+            <pb ed="#V" n="761"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>debito, nec aqua, nec igne. Et ita
+            <lb ed="#V" n="2"/>dubium est si, propter
+            quod<lb ed="#V" n="3" break="no"/>cumque istorum separatim debeat
+            <lb ed="#V" n="4"/>infligi depositio, quia ibi omnia
+            <lb ed="#V" n="5"/>concurrebant.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d13q2-p6"> -->
+          <p>
+            <lb ed="#V" n="65" type="fixed=762"/>SCHOLIUM.
+            <lb ed="#V" n="66"/>Tempus Missae celebrandae esse ab
+            auro<lb ed="#V" n="67" break="no"/>ra, id est, a prima Solis irradiatione, quae
+            <lb ed="#V" n="68"/>incipit paulo plus media hora ante Solis
+            or<lb ed="#V" n="69" break="no"/>tum, usque ad horam nonam, cujus
+            deter<lb ed="#V" n="70" break="no"/>minatio sumenda est ex consuetudine
+            Eccle<lb ed="#V" n="71" break="no"/>siarum. Quidam putant licere celebrare
+            us<lb ed="#V" n="72" break="no"/>que ad tertiam horam, Navar. sum. c. 25.
+            <lb ed="#V" n="73"/>num. 85. et de oratione, cap. 21. num. 22.
+            <lb ed="#V" n="74"/>Durand. hic quaest. 2. Rosell. verbo Missa
+            <lb ed="#V" n="75"/>num. 46. Angel. ibi; sed communis tenet
+            in<lb ed="#V" n="76" break="no"/>choari debere ante meridiem, secluso
+            privi<lb ed="#V" n="77" break="no"/>legio. Suarez 3. tom. disput. 80. sect. 4.
+            im<lb ed="#V" n="78" break="no"/>ponit Scoto quod velit licere celebrare 5.
+            <lb ed="#V" n="79"/>quadrantibus ante ortum Solis; forte non
+            <lb ed="#V" n="80"/>vidit eum.
+          </p>
+          <p>
+            <lb ed="#V" n="81"/>Tertium (g) principale, scilicet
+            <lb ed="#V" n="82"/>ex parte temporis, breviter teneas
+            <lb ed="#V" n="83"/>quod a principio diei usque ad
+            no<lb ed="#V" n="84" break="no"/>nam Missa congrue celebratur;
+            <lb ed="#V" n="85"/>non computando principium diei
+            <lb ed="#V" n="86"/>ab ascensu Solis super
+            Horizon<lb ed="#V" n="87" break="no"/>tem nostrum; sed ab illa hora ex
+            <pb ed="#V" n="763"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>qua radii solares illuminant
+            hemi<lb ed="#V" n="2" break="no"/>sphaerium nostrum, quod dicitur
+            <lb ed="#V" n="3"/>principium aurorae, et incipit
+            se<lb ed="#V" n="4" break="no"/>cundum auctores in lib. de
+            crepuscu<lb ed="#V" n="5" break="no"/>lis, quando Sol est sub Horizonte
+            <lb ed="#V" n="6"/>ad decem vel octo gradus, quorum
+            <lb ed="#V" n="7"/>ascensus non continet spatium
+            <lb ed="#V" n="8"/>ultra medietatem horae, et quintam
+            <lb ed="#V" n="9"/>unius horae; et ille terminus
+            cele<lb ed="#V" n="10" break="no"/>brandi tunc, et non ante, probatur
+            <lb ed="#V" n="11"/>de consecrat. dist. 1. Nocte sancta
+            Na<lb ed="#V" n="12" break="no"/>tivitatis Missas celebrent Presbyteri, et
+            <lb ed="#V" n="13"/>infra eadem dist. 8 de Jejuniis: In
+            <lb ed="#V" n="14"/>Sabbato sancto circa noctis initium
+            Mis<lb ed="#V" n="15" break="no"/>sarum solemnia sunt celebranda. Et
+            <lb ed="#V" n="16"/>ratio est, quia illa pars diei
+            arti<lb ed="#V" n="17" break="no"/>ficialis, quae est post nonam
+            Sab<lb ed="#V" n="18" break="no"/>bati sancti, computatur cum nocte
+            <lb ed="#V" n="19"/>praecedente diem Dominicam.
+            Un<lb ed="#V" n="20" break="no"/>de in benedictione cerei dicitur, hoec
+            <lb ed="#V" n="21"/>nox est, etc. et etiam in oratione
+            <lb ed="#V" n="22"/>dicitur: Deus qui hanc sacratissimam
+            <lb ed="#V" n="23"/>noctem.
+          </p>
+          <p>
+            <lb ed="#V" n="24"/>Terminus (h) autem
+            celebrati<lb ed="#V" n="25" break="no"/>onis, scilicet hora nona,
+            celli<lb ed="#V" n="26" break="no"/>gitur ex consuetudine
+            Ecclesia<lb ed="#V" n="27" break="no"/>rum, et ille terminus maxime
+            at<lb ed="#V" n="28" break="no"/>tingitur in diebus jejuniorum,
+            <lb ed="#V" n="29"/>quando regulariter in Ecclesiis
+            <lb ed="#V" n="30"/>collegiatis consuevit circa horam
+            <lb ed="#V" n="31"/>nonam Missa de jejunio celebrari.
+            <lb ed="#V" n="32"/>Istam autem circumstantiam
+            tem<lb ed="#V" n="33" break="no"/>poris concomitatur quoddam
+            ne<lb ed="#V" n="34" break="no"/>cessarium ad faciendum tractum
+            <lb ed="#V" n="35"/>temporis in celebratione Missae
+            <lb ed="#V" n="36"/>ordinata, quacumque hora diei
+            ar<lb ed="#V" n="37" break="no"/>tificialis fiat, scilicet legere
+            introi<lb ed="#V" n="38" break="no"/>tum, orationes et epistolam, sicut
+            <lb ed="#V" n="39"/>in Missalibus secundum usum
+            <lb ed="#V" n="40"/>.Ecclesiae Romanae notatur, sine
+            <lb ed="#V" n="41"/>quibus praemissis nullus ordinate
+            <lb ed="#V" n="42"/>conficit, nec forte absolute quis
+            <lb ed="#V" n="43"/>conficere posset, ut supra tactum est
+            <lb ed="#V" n="44"/>dist. 8. nisi praemitteret ad minus
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>r illa verba, per quae significaret se
+            <lb ed="#V" n="46"/>proferre verba consecrationis in
+            <lb ed="#V" n="47"/>persona Christi, non in persona
+            <lb ed="#V" n="48"/>Sacerdotis
+          </p>
+          <p>
+            <lb ed="#V" n="49"/>Ultimum (i) est, quod
+            celebran<lb ed="#V" n="50" break="no"/>tem oportet habere aliquem
+            re<lb ed="#V" n="51" break="no"/>spondentem in persona totius
+            <lb ed="#V" n="52"/>Ecclesiae, ut denotetur esse
+            medi<lb ed="#V" n="53" break="no"/>ator inter Deum et Ecclesiam.
+            of<lb ed="#V" n="54" break="no"/>ferens sacrificium Deo pro
+            Eccle<lb ed="#V" n="55" break="no"/>sia, quae sibi assistit in offerendo.
+          </p>
+          <p>
+            <lb ed="#V" n="56"/>Ad (k) argumenta. Ad primum,
+            <lb ed="#V" n="57"/>potest exponi illa Glossa illius.
+            <lb ed="#V" n="58"/>verbi Malachiae: quidquid a vobis
+            be<lb ed="#V" n="59" break="no"/>nedicitur, supple inquantum mali
+            <lb ed="#V" n="60"/>estis, quia ma li inquantum
+            hujus<lb ed="#V" n="61" break="no"/>modi adulando benedicunt malis,
+            <lb ed="#V" n="62"/>quibus Deus veraciter maledicit;
+            <lb ed="#V" n="63"/>sed in Eucharistia Sacerdos non
+            <lb ed="#V" n="64"/>benedicit inquantum malus, sed
+            <lb ed="#V" n="65"/>inquantum habet in benedicendo
+            <lb ed="#V" n="66"/>et consecrando intentionem
+            Eccle<lb ed="#V" n="67" break="no"/>siae.
+          </p>
+          <p>
+            <lb ed="#V" n="68"/>Ad secundum, cum dicitur, nulla
+            <lb ed="#V" n="69"/>ei relinquitur potestas, verum est
+            <lb ed="#V" n="70"/>de potestate ad ordinate
+            exequen<lb ed="#V" n="71" break="no"/>dum, non autem de potestate ad
+            <lb ed="#V" n="72"/>simpliciter exequendum.
+          </p>
+          <p>
+            <lb ed="#V" n="73"/>Ad tertium, si oblatio
+            Sacramen<lb ed="#V" n="74" break="no"/>ti, inquantum oblatio Sacramenti
+            <lb ed="#V" n="75"/>habeat efficaciam pro illo pro
+            <lb ed="#V" n="76"/>quo offertur, necesse est
+            concede<lb ed="#V" n="77" break="no"/>re quod oblatio facta a malo
+            aequa<lb ed="#V" n="78" break="no"/>lem habeat efficaciam, sicut illa
+            <lb ed="#V" n="79"/>quae est facta a bono. Sed si multa
+            <lb ed="#V" n="80"/>alia concurrentia in Missa per
+            <lb ed="#V" n="81"/>modum orationis multum faciant
+            <lb ed="#V" n="82"/>ad efficaciam Missae (quod
+            vide<lb ed="#V" n="83" break="no"/>tur probabile, quia devotio in una
+            <lb ed="#V" n="84"/>alia oratione, non multo minus
+            <lb ed="#V" n="85"/>distat apud Deum a devotione, in
+            <lb ed="#V" n="86"/>quibusdam pertinentibus ad
+            Mis<lb ed="#V" n="87" break="no"/>sam, et devotio acceptatur
+            secun<lb ed="#V" n="88" break="no"/>dum merita illius, cujus est
+            de<pb ed="#V" n="764"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>votio), sequitur quod Missa
+            <lb ed="#V" n="2"/>melioris erit melior, et tamen
+            <lb ed="#V" n="3"/>Sacramentum utrobique est
+            aequa<lb ed="#V" n="4" break="no"/>le.
+          </p>
+          <p>
+            <lb ed="#V" n="5"/>Si quaeras quid simpliciter
+            te<lb ed="#V" n="6" break="no"/>nendum? Respondeo, nullum
+            bo<lb ed="#V" n="7" break="no"/>num recompensat Deus secundum
+            <lb ed="#V" n="8"/>justitiam retributivam, nisi
+            pro<lb ed="#V" n="9" break="no"/>pter aliquod meritum, cui
+            cor<lb ed="#V" n="10" break="no"/>respondet illud bonum; istud
+            me<lb ed="#V" n="11" break="no"/>ritum, quod dicitur esse in
+            cele<lb ed="#V" n="12" break="no"/>bratione Missae, ut Missa est, non
+            <lb ed="#V" n="13"/>potest esse meritum abstractum
+            <lb ed="#V" n="14"/>sicut idea Platonis; ergo oportet
+            <lb ed="#V" n="15"/>quod sit realiter aliquod meritum.
+            <lb ed="#V" n="16"/>Vel ergo totius Ecclesiae, vel
+            ali<lb ed="#V" n="17" break="no"/>cujus membri; non est autem
+            <lb ed="#V" n="18"/>totius Ecclesiae, nisi quia alicujus
+            <lb ed="#V" n="19"/>partis; non est autem partis malae
+            <lb ed="#V" n="20"/>et mortuae in toto, sicut esset
+            par<lb ed="#V" n="21" break="no"/>tis vivae, id est, existentis et
+            ope<lb ed="#V" n="22" break="no"/>rantis in charitate; ergo in Missa
+            <lb ed="#V" n="23"/>non est tantum meritum
+            cujus<lb ed="#V" n="24" break="no"/>cumque, quando est mali, sicut
+            <lb ed="#V" n="25"/>quando est boni; et per
+            conse<lb ed="#V" n="26" break="no"/>quens Deus secundum justitiam
+            <lb ed="#V" n="27"/>retributivam non habet alicui in
+            <lb ed="#V" n="28"/>Ecclesia nec toti Ecclesiae
+            recom<lb ed="#V" n="29" break="no"/>pensare tantum bonum pro ista,
+            <lb ed="#V" n="30"/>sicut pro illa.
+          </p>
+          <p>
+            <lb ed="#V" n="31"/>Ad quartum dico, quod sumere
+            <lb ed="#V" n="32"/>est magis commune et necessarium
+            <lb ed="#V" n="33"/>quam conficere; et magis
+            neces<lb ed="#V" n="34" break="no"/>sarium, licet in se aliquando
+            no<lb ed="#V" n="35" break="no"/>bilius, pluribus tamen quandoque
+            <lb ed="#V" n="36"/>competit quam minus nobile, quod
+            <lb ed="#V" n="37"/>est minoris nobilitatis, et ratio
+            <lb ed="#V" n="38"/>est major, sive communior
+            neces<lb ed="#V" n="39" break="no"/>sitas. Ita est hic, quia Christus
+            <lb ed="#V" n="40"/>expresse docuit se velle sumi
+            <lb ed="#V" n="41"/>Eucharistiam a quolibet
+            Christi<lb ed="#V" n="42" break="no"/>ano, Joan. 6. Nisi manducaveritis
+            <lb ed="#V" n="43"/>carnem filii hominis, et ibi loquitur
+            <lb ed="#V" n="44"/>omnibus; sed consecrationem seu
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>dispensationem noluit ita esse
+            <lb ed="#V" n="46"/>communem, quia non fuit ita
+            <lb ed="#V" n="47"/>necessarium, ut esset communis,
+            <lb ed="#V" n="48"/>possunt enim pauciores dispensare
+            <lb ed="#V" n="49"/>quam suscipere.
+          </p>
+          <p>
+            <lb ed="#V" n="50"/>Ad (1) quintum dico, quod
+            Lau<lb ed="#V" n="51" break="no"/>rentius dispensavit sanguinem
+            <lb ed="#V" n="52"/>Christi, ut patet in Legenda, quod
+            <lb ed="#V" n="53"/>bene est congruum, quia sanguis
+            <lb ed="#V" n="54"/>non dispensatur nisi in calice,
+            <lb ed="#V" n="55"/>tactus autem calicis conceditur
+            <lb ed="#V" n="56"/>Diacono. Sed corpus non
+            dispen<lb ed="#V" n="57" break="no"/>satur, nisi species panis
+            tanga<lb ed="#V" n="58" break="no"/>tur; ideo sequens auctoritas de
+            <lb ed="#V" n="59"/>dispensatione corporis a
+            Diaco<lb ed="#V" n="60" break="no"/>no, videtur difficilior. Ad quam
+            <lb ed="#V" n="61"/>dici potest, quod simpliciter in
+            <lb ed="#V" n="62"/>casu necessitatis conceditur
+            Dia<lb ed="#V" n="63" break="no"/>cono dispensare corpus Christi, ut
+            <lb ed="#V" n="64"/>dicit auctoritas allegata; sed non
+            <lb ed="#V" n="65"/>sequitur ex hoc quod possit
+            confi<lb ed="#V" n="66" break="no"/>cere, quia minus est dispensare
+            <lb ed="#V" n="67"/>quam conficere. Nullo autem
+            mo<lb ed="#V" n="68" break="no"/>do laico conficere nec etiam
+            dis<lb ed="#V" n="69" break="no"/>pensare convenit, secundum illud
+            <lb ed="#V" n="70"/>de consecr. dist. 2. c. Pervenit, ubi
+            dici<lb ed="#V" n="71" break="no"/>tur, quod quidam Presbyteri intantum
+            <lb ed="#V" n="72"/>parvipendunt divina mysteria, ut laico
+            <lb ed="#V" n="73"/>corpus Domini tradant ad deferendum
+            <lb ed="#V" n="74"/>infirmis; et sequitur: Interdicit
+            Syno<lb ed="#V" n="75" break="no"/>dus ne talis temeraria praesumptio
+            am<lb ed="#V" n="76" break="no"/>plius fiat.
+          </p>
+          <p>
+            <lb ed="#V" n="77"/>Ratio congua est, quia sicut ab
+            <lb ed="#V" n="78"/>anima mediante corde derivantur
+            <lb ed="#V" n="79"/>virtutes animae ad caetera
+            mem<lb ed="#V" n="80" break="no"/>bra, et in corde est principalis
+            <lb ed="#V" n="81"/>sedes (vide 16. de Animalibus), et
+            <lb ed="#V" n="82"/>etiam in qualibet politia actus
+            <lb ed="#V" n="83"/>principales pertinentes ad illam
+            <lb ed="#V" n="84"/>politiam pertinent ad aliquam
+            per<lb ed="#V" n="85" break="no"/>sonam principalem in illa politia,
+            <lb ed="#V" n="86"/>ita rationale est istum actum
+            con<lb ed="#V" n="87" break="no"/>ficiendi et dispensandi
+            Euchari<lb ed="#V" n="88" break="no"/>stiam, residere apud illum, qui est
+            <pb ed="#V" n="765"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>principalis in Hierarchia
+            Eccle<lb ed="#V" n="2" break="no"/>siastica; hujusmodi autem est
+            Sa<lb ed="#V" n="3" break="no"/>cerdos; ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="4"/>Confirmatur hoc, quia non
+            mi<lb ed="#V" n="5" break="no"/>noris reverentiae vel auctoritatis
+            <lb ed="#V" n="6"/>est posse super corpus Christi
+            ve<lb ed="#V" n="7" break="no"/>rum, quam super corpus Christi
+            <lb ed="#V" n="8"/>mysticum; secundum autem soli
+            <lb ed="#V" n="9"/>Sacerdoti convenit; aeque ergo vel
+            <lb ed="#V" n="10"/>magis propter reverentiam
+            corpo<lb ed="#V" n="11" break="no"/>ris Christi veri soli Sacerdoti
+            con<lb ed="#V" n="12" break="no"/>veniet auctoritas respectu ipsius
+            <lb ed="#V" n="13"/>conficiendi, et regulariter
+            dispen<lb ed="#V" n="14" break="no"/>sandi. Non enim potest in Ecclesia
+            <lb ed="#V" n="15"/>nimis digna persona, nec nimis
+            di<lb ed="#V" n="16" break="no"/>gnus gradus inveniri ad
+            consecra<lb ed="#V" n="17" break="no"/>tionem, vel dispensationem istius
+            <lb ed="#V" n="18"/>Sacramenti, in quo veraciter et
+            re<lb ed="#V" n="19" break="no"/>aliter continetur ille, qui est
+            San<lb ed="#V" n="20" break="no"/>ctus Sanctorum, cui sit gloria in
+            <lb ed="#V" n="21"/>saecula saeculorum.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 9, Praeambulum</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 9, Praeambulum</title>
+          <date when="2026-11-20">Nov 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x17">Vives, Paris, 1894, volume 17</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="119"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e5248"><!-- jdso8u-b4d9prae -->
+        <head>Praeambulum</head>
+        <!-- <div alias="scotus-d9prae"> -->
+          <p>
+            <lb ed="#V" n="4" type="fixed=119"/>In ista distinctione nona tractat
+            <lb ed="#V" n="5"/>Magister de perceptione
+            Sacra<lb ed="#V" n="6" break="no"/>menti istius. Et prima pars manet
+            <lb ed="#V" n="7"/>indivisa, in qua determinat
+            veri<lb ed="#V" n="8" break="no"/>tatem. Secunda pars, quae incipit
+            <lb ed="#V" n="9"/>ibi: haec verba et alia. In qua
+            scili<lb ed="#V" n="10" break="no"/>cet excludit errorem circa
+            verita<lb ed="#V" n="11" break="no"/>tes determinatas, dividitur in
+            du<lb ed="#V" n="12" break="no"/>as. Primo namque excludit
+            erro<lb ed="#V" n="13" break="no"/>rem circa istam perceptionem
+            Sa<lb ed="#V" n="14" break="no"/>cramenti. Secundo, alium circa
+            <lb ed="#V" n="15"/>rem Sacramenti, et sic errores
+            <lb ed="#V" n="16"/>exclusi correspondent veritatibus
+            <lb ed="#V" n="17"/>praedeterminatis. Secunda pars
+            <lb ed="#V" n="18"/>incipit in principio distinct. 10. ibi:
+            <lb ed="#V" n="19"/>Sunt quidam alii.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

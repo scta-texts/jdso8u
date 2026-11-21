@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 11, Pars 2, Quaestio 1</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 11, Pars 2, Quaestio 1</title>
+          <date when="2026-11-20">Nov 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x17">Vives, Paris, 1894, volume 17</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="471"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e4000"><!-- jdso8u-b4d11p2q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum panis triticeus cum aqua elementari coagulatus sit materia conveniens conversionis in corpus Christi</head>
+        <!-- <div alias="scotus-d11q6-p1"> -->
+          <p>
+            <lb ed="#V" n="11" type="fixed=471"/>QUAESTIO VI.
+            <lb ed="#V" n="12"/>Utrum solus panis triticeus cum aqua
+            <lb ed="#V" n="13"/>elementari coagulatus sit conveniens
+            <lb ed="#V" n="14"/>materia conversionis in corpus Christi?
+          </p>
+          <p>
+            <lb ed="#V" n="15"/>Alensis 4. p. q. 32. memb. 4. D. Bonav. hic 2.
+            <lb ed="#V" n="16"/>p. art. 1. q. 4. Richard. art. 2. q. 1. 2.
+            <lb ed="#V" n="17"/>D. Thom, q. 2. art. 2. et 3. p. q. 74. Suarez
+            <lb ed="#V" n="18"/>ibi tom. 3. disp. 44. et 45. Bellarm. lib. 4. de
+            <lb ed="#V" n="19"/>Eucharistia, cap. 7. 8. Coccius 2. tom. lib. 6.
+            <lb ed="#V" n="20"/>art. 1.
+            <lb ed="#V" n="21"/>Ad (a) primam quaestionem
+            pa<lb ed="#V" n="22" break="no"/>tet de consecrat. dist. 2. cap. 1. et cap.
+            <lb ed="#V" n="23"/>Non oportet, et cap. sequenti. Ratio
+            <lb ed="#V" n="24"/>principalis est, quia Christus
+            ta<lb ed="#V" n="25" break="no"/>lem materiam consecrandam
+            in<lb ed="#V" n="26" break="no"/>stituit, et in signum institutionis
+            <lb ed="#V" n="27"/>tali materia consecranda usus est.
+          </p>
+          <p>
+            <lb ed="#V" n="28"/>Quod etiam panis triticeus, et non
+            <lb ed="#V" n="29"/>alius, habetur de consecrat, distinct.
+            <lb ed="#V" n="30"/>.2. in Sacramento. Et hujus
+            con<lb ed="#V" n="31" break="no"/>gruentia accipitur ex illo verbo,
+            <lb ed="#V" n="32"/>Joan. 12. Nisi granum frumenti, etc.
+            <lb ed="#V" n="33"/>ubi Christus se grano frumenti
+            <lb ed="#V" n="34"/>comparat. Unde Augustinus ibi:
+            <lb ed="#V" n="35"/>Cum sint multa grana frugum, nulli se
+            <lb ed="#V" n="36"/>comparat, nisi illi. Unde mos coepit
+            Ec<lb ed="#V" n="37" break="no"/>clesiae de hoc solo grano confici corpus
+            <lb ed="#V" n="38"/>Domini.
+          </p>
+          <p>
+            <lb ed="#V" n="39"/>De hac etiam farina triticea
+            <lb ed="#V" n="40"/>aqua elementari coagulata debet
+            <lb ed="#V" n="41"/>panis formari, quia ita
+            supponi<lb ed="#V" n="42" break="no"/>tur panem illum fuisse formatum,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43"/>quo usus est Christus
+            consecran<lb ed="#V" n="44" break="no"/>do, nec sufficit pasta, sed panis,
+            <lb ed="#V" n="45"/>quia sic constitutum est; et ad
+            <lb ed="#V" n="46"/>omnia est congruentia, quia cum
+            <lb ed="#V" n="47"/>Sacramentum illud sit signum
+            <lb ed="#V" n="48"/>nutrimenti spiritualis, in illis
+            <lb ed="#V" n="49"/>congrue instituitur, quae sunt
+            si<lb ed="#V" n="50" break="no"/>gna principalis nutritionis
+            corpo<lb ed="#V" n="51" break="no"/>ralis; principale autem
+            nutrimen<lb ed="#V" n="52" break="no"/>tum quantum ad cibum est panis
+            <lb ed="#V" n="53"/>triticeus.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d11q6-p2"> -->
+          <p>
+            <lb ed="#V" n="77" type="fixed=473"/>SCHOLIUM.
+            <lb ed="#V" n="78"/>Ostenso, materiam conversionis in corpus
+            <lb ed="#V" n="79"/>esse panem triticeum, movet tria dubia.
+            <lb ed="#V" n="80"/>Primum, an amidum sit materia? et
+            resol<lb ed="#V" n="81" break="no"/>vit, nihil esse certum, praeter hoc quod
+            <lb ed="#V" n="82"/>utens eo peccaret, nisi ignorantia
+            excusare<lb ed="#V" n="83" break="no"/>tur. Negat D. Thom. hic q. 2. art. 2. aiunt
+            <lb ed="#V" n="84"/>Palud. q. 1. art. 4. Sotus d. 9. q. 1. art. 3.
+            <lb ed="#V" n="85"/>panem et vinum esse materiam. Habetur ex
+            <lb ed="#V" n="86"/>Matth. 26. et definitur in Lateranen, cap.
+            <lb ed="#V" n="87"/>Firmiter, de Sum. Trinit. Flor. decret.
+            Eu<lb ed="#V" n="88" break="no"/>gen. Trident. sess. 13. 21. et 22. Quod panis
+            <lb ed="#V" n="89"/>debeat esse triticeus docet Florent. ibidem.
+          </p>
+          <p>
+            <pb ed="#V" n="474"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Sed (a) hic est dubium, primo de
+            <lb ed="#V" n="2"/>amido, an ex ipso possit formari
+            <lb ed="#V" n="3"/>panis consecrabilis. Secundo. an
+            <lb ed="#V" n="4"/>de farina triticea pasta confecta,
+            <lb ed="#V" n="5"/>non cocta possit confici. Tertio,
+            <lb ed="#V" n="6"/>an panis azymus, vel fermentatus,
+            <lb ed="#V" n="7"/>vel uterque.
+          </p>
+          <p>
+            <lb ed="#V" n="8"/>Quantum ad primum, videretur
+            <lb ed="#V" n="9"/>prima facie, quod talis panis esset
+            <lb ed="#V" n="10"/>consecrabilis; tum quia ille
+            usu<lb ed="#V" n="11" break="no"/>aliter reputatur panis triticeus,
+            <lb ed="#V" n="12"/>et Christus instituit Sacramentum
+            <lb ed="#V" n="13"/>in pane triticeo usuali; tum quia
+            <lb ed="#V" n="14"/>illae depurationes, quae fiunt circa
+            <lb ed="#V" n="15"/>amidum praeparandum, non
+            viden<lb ed="#V" n="16" break="no"/>tur alterare a specie farinae
+            triti<lb ed="#V" n="17" break="no"/>ceae; non enim fiunt ibi, nisi
+            deco<lb ed="#V" n="18" break="no"/>lationes et purgationes, et
+            hujus<lb ed="#V" n="19" break="no"/>modi; haec autem non videntur
+            <lb ed="#V" n="20"/>alterare medullam tritici a specie
+            <lb ed="#V" n="21"/>sua.
+          </p>
+          <p>
+            <lb ed="#V" n="22"/>Sed si credatur expertis in rebus
+            <lb ed="#V" n="23"/>de qualitatibus consequentibus eas,
+            <lb ed="#V" n="24"/>-quae innotescunt ex operationibus,
+            <lb ed="#V" n="25"/>per quas qualitates cognoscimus
+            <lb ed="#V" n="26"/>et distinguimus substantias, aliter
+            <lb ed="#V" n="27"/>enim non cognoscimus
+            distincti<lb ed="#V" n="28" break="no"/>onem ignis ab aqua, nisi per ea
+            <lb ed="#V" n="29"/>quae innotescunt nobis ex
+            operati<lb ed="#V" n="30" break="no"/>onibus; et secundum Medicos
+            quae<lb ed="#V" n="31" break="no"/>libet species habet qualitatem et
+            <lb ed="#V" n="32"/>operationem a tota specie, quae
+            <lb ed="#V" n="33"/>non competit sibi per talem
+            mix<lb ed="#V" n="34" break="no"/>tionem, sed consequitur formam
+            <lb ed="#V" n="35"/>propriam talis speciei, et
+            hujus<lb ed="#V" n="36" break="no"/>modi quantitas, et operatio alia
+            <lb ed="#V" n="37"/>est in tota specie amido, et alia in
+            <lb ed="#V" n="38"/>pane triticeo, sicut apparet
+            cer<lb ed="#V" n="39" break="no"/>nentibus eas, et assignantibus
+            pro<lb ed="#V" n="40" break="no"/>prietates tales et tales quantum
+            <lb ed="#V" n="41"/>ad effectus; ex quo videtur quod
+            <lb ed="#V" n="42"/>amidum sit totaliter alterius
+            spe<lb ed="#V" n="43" break="no"/>ciei a pane triticeo. Et
+            confirma<lb ed="#V" n="44" break="no"/>tur istud: non enim per aliud
+            pro<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>bamus acetum et agrestam
+            dif<lb ed="#V" n="46" break="no"/>ferre specie a vino, et per
+            conse<lb ed="#V" n="47" break="no"/>quens non esse materiam
+            conse<lb ed="#V" n="48" break="no"/>crationis quantum ad vinum, nisi
+            <lb ed="#V" n="49"/>quantum ad qualitates et
+            operati<lb ed="#V" n="50" break="no"/>ones, quia scilicet acetum est a
+            <lb ed="#V" n="51"/>tota specie frigidum; vinum autem
+            <lb ed="#V" n="52"/>a tota specie calidum.
+          </p>
+          <p>
+            <lb ed="#V" n="53"/>Hic breviter potest dici, quod
+            <lb ed="#V" n="54"/>cum certum sit farinam tritici
+            <lb ed="#V" n="55"/>purgatam secundum communem
+            <lb ed="#V" n="56"/>purgationem, eo modo scilicet
+            <lb ed="#V" n="57"/>quo pistores solent eam purgare,
+            <lb ed="#V" n="58"/>esse materiam convenientem ad
+            <lb ed="#V" n="59"/>faciendum panem consecrabilem,
+            <lb ed="#V" n="60"/>et dubium sit, an amidum sit
+            hujus<lb ed="#V" n="61" break="no"/>modi materia, et pars negativa
+            <lb ed="#V" n="62"/>multum sit probabilior, non sine
+            <lb ed="#V" n="63"/>peccato aliquis se exponit tali
+            du<lb ed="#V" n="64" break="no"/>bio, maxime ille qui praeparat
+            <lb ed="#V" n="65"/>hostias consecrandas, quia sibi
+            <lb ed="#V" n="66"/>simpliciter est certum, quod de
+            <lb ed="#V" n="67"/>tali materia praeparat. Utens forte
+            <lb ed="#V" n="68"/>potest magis excusari de peccato,
+            <lb ed="#V" n="69"/>quia supponit talem materiam
+            <lb ed="#V" n="70"/>esse bene praeparatam. Sed si in
+            <lb ed="#V" n="71"/>veritate non est ista materia
+            con<lb ed="#V" n="72" break="no"/>secrabilis, in consecrando nihil
+            fa<lb ed="#V" n="73" break="no"/>cit. Nec tamen est idololatria, nec
+            <lb ed="#V" n="74"/>occasio idololatriae populo, quia
+            <lb ed="#V" n="75"/>quantum in se est, supponit
+            mate<lb ed="#V" n="76" break="no"/>riam esse idoneam, et a se et ab
+            <lb ed="#V" n="77"/>aliis adorandam.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d11q6-p3"> -->
+          <p>
+            <lb ed="#V" n="28" type="fixed=475"/>SCHOLIUM.
+            <lb ed="#V" n="29"/>Pastam, licet non differat specie a pane
+            <lb ed="#V" n="30"/>cocto, non esse consecrabilem; panem tamen
+            <lb ed="#V" n="31"/>redactum in pastam, consecrabilem esse.
+            <lb ed="#V" n="32"/>D. Thom. hic quaest. 1. art. 1. et 3. part.
+            <lb ed="#V" n="33"/>quaest. 75. art. G. docet distingui pastam
+            <lb ed="#V" n="34"/>specie a pane cocto.
+          </p>
+          <p>
+            <lb ed="#V" n="35"/>Quoad (a) secundum dubium bene
+            <lb ed="#V" n="36"/>probabile est, quod pasta et panis
+            <lb ed="#V" n="37"/>non differunt specie, quia per
+            de<lb ed="#V" n="38" break="no"/>coctionem pastae in furno, vel alio
+            <lb ed="#V" n="39"/>modo ab igne, non fit nisi
+            exhala<lb ed="#V" n="40" break="no"/>tio humoris aquei commixti cum
+            <lb ed="#V" n="41"/>partibus farinae, et haec mixtio
+            <lb ed="#V" n="42"/>est per juxtapositionem; talis
+            au<lb ed="#V" n="43" break="no"/>tem separatio non mutat speciem,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="44"/>quia nec etiam mixtio. Nec tamen
+            <lb ed="#V" n="45"/>de pasta potest confici, quia noluit
+            <lb ed="#V" n="46"/>Christus in Sacramentis suis istam
+            <lb ed="#V" n="47"/>subtilem disputationem de
+            diffe<lb ed="#V" n="48" break="no"/>rentia specifica imponere nobis,
+            <lb ed="#V" n="49"/>sed quod panem triticeum usualem
+            <lb ed="#V" n="50"/>haberemus communiter pro
+            mate<lb ed="#V" n="51" break="no"/>ria consecrationis, ut sic
+            secun<lb ed="#V" n="52" break="no"/>dum Damascenum lib. 4. cap. 14.
+            <lb ed="#V" n="53"/>illud quod communiter consuevit
+            <lb ed="#V" n="54"/>esse nutrimentum corporale,
+            ip<lb ed="#V" n="55" break="no"/>sum vel simile esset nobis
+            Sacra<lb ed="#V" n="56" break="no"/>mentum institutum spirituale.
+          </p>
+          <p>
+            <lb ed="#V" n="57"/>Et si arguas: Panis fit pasta per
+            <lb ed="#V" n="58"/>modicam compressionem in
+            digi<lb ed="#V" n="59" break="no"/>tis, quare nec post talem
+            compres<lb ed="#V" n="60" break="no"/>sionem a digitis videtur materia
+            <lb ed="#V" n="61"/>consecranda, sicut ante
+            decocti<lb ed="#V" n="62" break="no"/>onem? Respondeo, hoc probat
+            <lb ed="#V" n="63"/>quod non differt specie panis a
+            <lb ed="#V" n="64"/>pasta, sed non probat quod pasta
+            <lb ed="#V" n="65"/>sit materia consecrabilis. Et si
+            <lb ed="#V" n="66"/>quaeras de pane tali recenti et
+            <lb ed="#V" n="67"/>reducto in pastam, an sit
+            conse<lb ed="#V" n="68" break="no"/>crabilis? Respondeo quod sic, quia
+            <lb ed="#V" n="69"/>quantumcumque remittatur in illo
+            <lb ed="#V" n="70"/>consueta duritia, quae consuevit
+            <lb ed="#V" n="71"/>esse in pane cocto, tamen ex quo
+            <lb ed="#V" n="72"/>semel coctus est, et panis fuit,
+            <lb ed="#V" n="73"/>nisi manifeste recedat a ratione
+            <lb ed="#V" n="74"/>panis usualis, non recedit a
+            rati<lb ed="#V" n="75" break="no"/>one panis consecrabilis.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d11q6-p4"> -->
+          <p>
+            <lb ed="#V" n="6" type="fixed=476"/>SCHOLIUM.
+            <lb ed="#V" n="7"/>Sententia Graecorum, Christum passum
+            <lb ed="#V" n="8"/>esse luna 14. et Coenam instituisse luna 13.
+            <lb ed="#V" n="9"/>et per consequens consecrasse in fermentato,
+            <lb ed="#V" n="10"/>suadetur tribus argumentis.
+          </p>
+          <p>
+            <lb ed="#V" n="11"/>Tertium (a) dubium includit
+            ma<lb ed="#V" n="12" break="no"/>jorem difficultatem. Graeci enim
+            <lb ed="#V" n="13"/>dicunt, quod necesse est conficere
+            <lb ed="#V" n="14"/>in fermento, et ideo negant
+            Lati<lb ed="#V" n="15" break="no"/>nos conficere; et antecedens
+            ni<lb ed="#V" n="16" break="no"/>tuntur probare per Evangelia.
+            <lb ed="#V" n="17"/>Dicunt enim, quod Christus
+            pas<lb ed="#V" n="18" break="no"/>sus est luna quartadecima, ut
+            <lb ed="#V" n="19"/>impleretur figura legis de Agno
+            <lb ed="#V" n="20"/>Paschali, qui immolabatur luna 14.
+            <lb ed="#V" n="21"/>et hoc futurum Christus
+            praeno<lb ed="#V" n="22" break="no"/>scens praevenit comedere Agnum
+            <lb ed="#V" n="23"/>Paschalem ante lunam 14. dicunt
+            <lb ed="#V" n="24"/>autem tunc inter Judaeos panem
+            <lb ed="#V" n="25"/>fermentatum esse in usu; non
+            <lb ed="#V" n="26"/>enim erat eis interdictus panis
+            <lb ed="#V" n="27"/>fermentatus ante 14. diem mensis
+            <lb ed="#V" n="28"/>primi ad vesperam. Ex hoc
+            con<lb ed="#V" n="29" break="no"/>cludunt Christum tunc usum fuisse
+            <lb ed="#V" n="30"/>fermento, et per consequens ipsum
+            <lb ed="#V" n="31"/>confecisse in fermento.
+          </p>
+          <p>
+            <lb ed="#V" n="32"/>Pro ista opinione adducunt alia
+            <lb ed="#V" n="33"/>de Evangelistis, ut illud Joan. 18.
+            <lb ed="#V" n="34"/>cap. Quod non introierant Judcei in
+            <lb ed="#V" n="35"/>proetorium, ut non contaminarentur, sed
+            <lb ed="#V" n="36"/>manducarent Pascha. Pascha autem
+            <lb ed="#V" n="37"/>e accipitur ibi pro Agno Paschali,
+            <lb ed="#V" n="38"/>qui debebat comedi 14. luna; ergo
+            <lb ed="#V" n="39"/>14. luna tradiderunt Christum
+            Pi<lb ed="#V" n="40" break="no"/>lato. Item Joan. 13. legitur, quod
+            <lb ed="#V" n="41"/>ante diem festum Paschae, et sequitur
+            <lb ed="#V" n="42"/>totum illud de Coena et institutione
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43"/>Eucharistiae; ergo ante diem
+            il<lb ed="#V" n="44" break="no"/>lum, in quo immolabatur Agnus
+            <lb ed="#V" n="45"/>Paschalis, per consequens ante
+            <lb ed="#V" n="46"/>lunam 14.
+          </p>
+          <p>
+            <lb ed="#V" n="47"/>Item, Matth. 26. dicitur, quomodo
+            <lb ed="#V" n="48"/>Judaei cogitaverunt occidere
+            Chri<lb ed="#V" n="49" break="no"/>stum dicentes: non in die festo; ille
+            <lb ed="#V" n="50"/>autem dies festus principalis erat
+            <lb ed="#V" n="51"/>luna 15. juxta illud Numer. 28.
+            <lb ed="#V" n="52"/>Quartadecima die mensis primi Pascha
+            <lb ed="#V" n="53"/>erit, et decimaquinta die solemnitas,
+            <lb ed="#V" n="54"/>supple principalis; ergo de illo
+            <lb ed="#V" n="55"/>intelligitur in Joanne, cum
+            dici<lb ed="#V" n="56" break="no"/>tur: Ante diem festum, etc.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d11q6-p5"> -->
+          <p>
+            <pb ed="#V" n="484"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1" type="fixed=484"/>SCHOLIUM.
+            <lb ed="#V" n="2"/>Refutat Graecos, ostendens ex Evangeliis
+            <lb ed="#V" n="3"/>expresse, Christum passum fuisse luna 15.
+            <lb ed="#V" n="4"/>et coenam instituisse luna 14. et solvit
+            argu<lb ed="#V" n="5" break="no"/>menta ad oppositum. De hoc vide Bellarm.
+            <lb ed="#V" n="6"/>4. de Euchar. cap. 7. 8. 9. Burgens. in 26.
+            <lb ed="#V" n="7"/>Matth. Tolet. in 13. Joann. Suar. tom. 3.
+            <lb ed="#V" n="8"/>d. 44. qui loca Patrum adducunt. Festa
+            Ju<lb ed="#V" n="9" break="no"/>daeorum incipiebant a vespera, Levit. 23.
+            <lb ed="#V" n="10"/>Annus a novilunio proximo aequinoctio
+            ver<lb ed="#V" n="11" break="no"/>nali. Exod. 12. Mensis erat lunaris 30.
+            die<lb ed="#V" n="12" break="no"/>rum, et prima dies primi mensis erat radix
+            <lb ed="#V" n="13"/>omnium festorum, quorum maximum erat
+            <lb ed="#V" n="14"/>Pascha celebrandum luna 14. Exod. 12. et
+            <lb ed="#V" n="15"/>Levit. 23.
+          </p>
+          <p>
+            <lb ed="#V" n="16"/>Sed in proposito tam antecedens
+            <lb ed="#V" n="17"/>est falsum quam consequens.
+            Pri<lb ed="#V" n="18" break="no"/>ma enim consequentia nulla est,
+            <lb ed="#V" n="19"/>nec secunda est necessaria. Quod
+            <lb ed="#V" n="20"/>enim passus fuerit luna 15. et per
+            <lb ed="#V" n="21"/>consequens fecit coenam luna 14.
+            <lb ed="#V" n="22"/>probatur expresse per illud Matth.
+            <lb ed="#V" n="23"/>26. Prima die azymorum, quoesierunt
+            <lb ed="#V" n="24"/>discipuli: Ubi vis paremus tibi comedere
+            <lb ed="#V" n="25"/>Pascha? et Marc. 14. Prima autem
+            <lb ed="#V" n="26"/>die azymorum, quando Pascha
+            immola<lb ed="#V" n="27" break="no"/>bant: Quo vis eamus, et paremus tibi, ut
+            <lb ed="#V" n="28"/>manduces Pascha? et Luc. 22. Venit
+            <lb ed="#V" n="29"/>dies azymorum, in qua necesse erat
+            occi<lb ed="#V" n="30" break="no"/>di Pascha, et misit Petrum et Joannem
+            <lb ed="#V" n="31"/>dicens: Euntes parate nobis Pascha, ut
+            <lb ed="#V" n="32"/>manducemus.
+          </p>
+          <p>
+            <lb ed="#V" n="33"/>Ex istis patet, quod die
+            azymo<lb ed="#V" n="34" break="no"/>rum prima, scilicet 14. luna
+            co<lb ed="#V" n="35" break="no"/>medit agnum Paschalem, et hoc
+            <lb ed="#V" n="36"/>juxta illud Numer. 28. quod
+            allega<lb ed="#V" n="37" break="no"/>t tum est statim, et 15 die erat
+            <lb ed="#V" n="38"/>solemnitas, hoc est, primus dies
+            <lb ed="#V" n="39"/>integer solemnis solemnitatis
+            Pa<lb ed="#V" n="40" break="no"/>schae, et illa die passus est
+            Chri<lb ed="#V" n="41" break="no"/>stus. Et sic illa hora qua comedi
+            <lb ed="#V" n="42"/>debuit agnus Paschalis secundum
+            <lb ed="#V" n="43"/>legem, scilicet 14. die mensis
+            pri<lb ed="#V" n="44" break="no"/>mi, comederunt discipuli verum
+            <lb ed="#V" n="45"/>agnum.
+          </p>
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="46"/>Ad probationes eorum, quas
+            ad<lb ed="#V" n="47" break="no"/>dunt pro antecedente, patet per
+            <lb ed="#V" n="48"/>unam distinctionem, positam ab
+            <lb ed="#V" n="49"/>Innocentio de officio Missae, parte 3.
+            <lb ed="#V" n="50"/>cap. 4. quod Pascha quinque modis
+            <lb ed="#V" n="51"/>accipitur. Uno modo pro
+            solemni<lb ed="#V" n="52" break="no"/>tate diei azymorum, quae erat
+            <lb ed="#V" n="53"/>luna 15. Alio modo pro die, in
+            cu<lb ed="#V" n="54" break="no"/>jus vespere comedebatur agnus,
+            <lb ed="#V" n="55"/>quae erat luna 14. Tertio pro hora
+            <lb ed="#V" n="56"/>immolationis agni, quae erat pars
+            <lb ed="#V" n="57"/>diei 14. Quarto pro agno, qui
+            <lb ed="#V" n="58"/>comedebatur, vel immolabatur.
+            <lb ed="#V" n="59"/>Quinto modo pro panibus azymis.
+          </p>
+          <p>
+            <lb ed="#V" n="60"/>Ad propositum sufficit primum
+            <lb ed="#V" n="61"/>membrum distinctionis pro
+            sol<lb ed="#V" n="62" break="no"/>venda auctoritate prima de Joan. 18.
+            <lb ed="#V" n="63"/>et similiter pro secunda
+            auctori<lb ed="#V" n="64" break="no"/>tate.
+          </p>
+          <p>
+            <lb ed="#V" n="65"/>Hoc (b) ergo simpliciter
+            tenen<lb ed="#V" n="66" break="no"/>dum est, quod de necessitate panis
+            <lb ed="#V" n="67"/>consecrabilis non est, neque quod
+            <lb ed="#V" n="68"/>sit azymus, neque quod sit
+            fer<lb ed="#V" n="69" break="no"/>mentatus, quia secundum
+            An<lb ed="#V" n="70" break="no"/>selmum in lib. suo de azymo et
+            <lb ed="#V" n="71"/>fermentato, non differunt
+            substan<lb ed="#V" n="72" break="no"/>tialiter azymus et fermentatus,
+            <lb ed="#V" n="73"/>et ideo non negamus vere
+            confice<lb ed="#V" n="74" break="no"/>re Graecos. Quod (c) etiam patet,
+            <lb ed="#V" n="75"/>quia tempore Leonis Papae fuit
+            <lb ed="#V" n="76"/>constitutum, quod conficeretur in
+            <lb ed="#V" n="77"/>fermento, sed fuit ad tempus, ad
+            <lb ed="#V" n="78"/>extinguendam haeresim
+            Ebioni<lb ed="#V" n="79" break="no"/>tarum, qui dixerunt quod
+            neces<lb ed="#V" n="80" break="no"/>sarium erat Christianos
+            Judaiza<lb ed="#V" n="81" break="no"/>re, et per consequens Pascha
+            <lb ed="#V" n="82"/>suum in azymo conficere, sicut
+            <lb ed="#V" n="83"/>fecerunt Judaei; et ad extinctionem
+            <lb ed="#V" n="84"/>hujus haeresis fuit ordinatum
+            con<lb ed="#V" n="85" break="no"/>secrare in fermento. Sed post
+            <lb ed="#V" n="86"/>haeresi illa extincta, rediit
+            Eccle<lb ed="#V" n="87" break="no"/>sia Occidentalis ad primam
+            con<lb ed="#V" n="88" break="no"/>suetudinem, quae conformis est
+            <lb ed="#V" n="89"/>institutioni Christi, et
+            promulga<pb ed="#V" n="485"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>tioni factae per ejus Vicarium
+            <lb ed="#V" n="2"/>Petrum.
+          </p>
+          <p>
+            <lb ed="#V" n="3"/>Sed de necessitate ministri ad
+            <lb ed="#V" n="4"/>minus in Ecclesia Latina est hodie
+            <lb ed="#V" n="5"/>conficere in azymo, sicut dictum
+            <lb ed="#V" n="6"/>est supra ista distinctione de
+            ma<lb ed="#V" n="7" break="no"/>teria conveniente. Et forte etiam
+            <lb ed="#V" n="8"/>graviter peccant Graeci, qui non
+            <lb ed="#V" n="9"/>se conformant Ecclesiae Petri,
+            ma<lb ed="#V" n="10" break="no"/>xime cum hic habeatur
+            fundamen<lb ed="#V" n="11" break="no"/>tum solidum, quod sic Christus
+            <lb ed="#V" n="12"/>instituit istud Sacramentum
+            cele<lb ed="#V" n="13" break="no"/>brandum; ad minus, licet non
+            ne<lb ed="#V" n="14" break="no"/>cessario, quin aliter fieri posset,
+            <lb ed="#V" n="15"/>tamen sic magis congrue
+            celebra<lb ed="#V" n="16" break="no"/>tur.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

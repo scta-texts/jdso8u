@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 10, Praeambulum</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 10, Praeambulum</title>
+          <date when="2026-11-20">Nov 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x17">Vives, Paris, 1894, volume 17</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="151"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e5253"><!-- jdso8u-b4d10prae -->
+        <head>Praeambulum</head>
+        <!-- <div alias="scotus-d10prae"> -->
+          <p>
+            <lb ed="#V" n="33" type="fixed=151"/>Hic incipit distinctio decima,
+            <lb ed="#V" n="34"/>in qua Magister excludit errorem
+            <lb ed="#V" n="35"/>quorumdam de re hujus
+            Sacra<lb ed="#V" n="36" break="no"/>menti, qui scilicet negabant verum
+            <lb ed="#V" n="37"/>corpus Christi in Eucharistia
+            con<lb ed="#V" n="38" break="no"/>tineri. Haec dividitur in tres
+            par<lb ed="#V" n="39" break="no"/>tes. Primo, ponit errorem.
+            Secun<lb ed="#V" n="40" break="no"/>do, ejus affirmationem. Tertio,
+            <lb ed="#V" n="41"/>ejus improbationem. Secunda ibi:
+            <lb ed="#V" n="42"/>Qui errandi occasionem. Tertia ibi:
+            <lb ed="#V" n="43"/>Quorum perfidiam. Secunda potest
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="44"/>dividi, quia primo ponit quatuoa
+            <lb ed="#V" n="45"/>auctoritates pro eis; secundo,
+            sol<lb ed="#V" n="46" break="no"/>vit illas auctoritates ibi: Qui eadem
+            <lb ed="#V" n="47"/>ratione; tertio, confirmat suam
+            so<lb ed="#V" n="48" break="no"/>lutionem ibi: Ait enim Augustinus. Et
+            <lb ed="#V" n="49"/>illa tertia potest dividi, quia
+            pri<lb ed="#V" n="50" break="no"/>mo ponit auctoritatem, quae est
+            <lb ed="#V" n="51"/>contra se; secundo, ponderat
+            quam<lb ed="#V" n="52" break="no"/>dam partem, quae videtur facere
+            <lb ed="#V" n="53"/>dubium ibi: Deinde addit; tertio
+            re<lb ed="#V" n="54" break="no"/>spondet ad illud dubium ibi:
+            Atten<lb ed="#V" n="55" break="no"/>dat diligenter.
+          </p>
+          <p>
+            <lb ed="#V" n="56"/>Quia vero conclusio principalis
+            <lb ed="#V" n="57"/>hujus distinctionis est, quod verum
+            <lb ed="#V" n="58"/>corpus Christi in Eucharistia
+            <lb ed="#V" n="59"/>realiter continetur, et hoc quidem,
+            <lb ed="#V" n="60"/>quia prima est de Eucharistia
+            <lb ed="#V" n="61"/>ordine doctrinae (unde et
+            suppo<lb ed="#V" n="62" break="no"/>sita fuit in prima quoest. dist. 8.)
+            <lb ed="#V" n="63"/>ideo circa hanc conclusionem de
+            <lb ed="#V" n="64"/>tribus principaliter quaeram.
+            Pri<lb ed="#V" n="65" break="no"/>mo, de possibilitate existentiae
+            <lb ed="#V" n="66"/>corporis Christi in Eucharistia.
+            <lb ed="#V" n="67"/>Secundo, de his quae
+            conveni<lb ed="#V" n="68" break="no"/>re possunt corpori Christi in
+            <lb ed="#V" n="69"/>Eucharistia existenti. Tertio, de
+            <lb ed="#V" n="70"/>actione quae convenire potest
+            <lb ed="#V" n="71"/>Christo in Eucharistia existenti.
+            <lb ed="#V" n="72"/>Circa primum quaero tria: Primo,
+            <lb ed="#V" n="73"/>utrum possibile sit corpus Christi
+            <lb ed="#V" n="74"/>sub specie panis et vini realiter
+            <lb ed="#V" n="75"/>contineri? Secundo, utrum possit
+            <lb ed="#V" n="76"/>simul esse localiter in coelo et
+            ali<lb ed="#V" n="77" break="no"/>bi? Tertio, utrum possit esse
+            <lb ed="#V" n="78"/>simul in coelo localiter, et in
+            alta<lb ed="#V" n="79" break="no"/>ri sacramentaliter?
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>
