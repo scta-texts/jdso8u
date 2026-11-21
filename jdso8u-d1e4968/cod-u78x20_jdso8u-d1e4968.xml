@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 46, Quaestio 1</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 46, Quaestio 1</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x20">Vives, Paris, 1894, volume 20</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="399"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e4968"><!-- jdso8u-b4d46q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum in Deo sit iustitia</head>
+        <!-- <div alias="scotus-d46q1-p1"> -->
+          <p>
+            <lb ed="#V" n="50" type="fixed=399"/>QUAESTIO I.
+            <lb ed="#V" n="51"/>Utrum in Deo sit justitia?
+          </p>
+          <p>
+            <lb ed="#V" n="52"/>D. Thom. 1. part. quaest. 21. art. 1. et 1. 2.
+            <lb ed="#V" n="53"/>quaest. ult. art. 1. et hic quaest. 1. Richard.
+            <lb ed="#V" n="54"/>art. 1. quaest. 1. Vasquez 1. part. disp. 85.
+            <lb ed="#V" n="55"/>86. et 1. 2. d. ult. Suarez opusc. de just.
+            <lb ed="#V" n="56"/>qua Deus reddit praemia.
+          </p>
+          <p>
+            <lb ed="#V" n="57"/>Ad primum (a) arguitur quod
+            <lb ed="#V" n="58"/>non, ex 5. Ethicor, cap. 11. Domini
+            <lb ed="#V" n="59"/>ad servum nulla est justitia, quia
+            <lb ed="#V" n="60"/>nulla aequalitas; ergo multo
+            for<lb ed="#V" n="61" break="no"/>tius, nec Dei ad creaturam, vel
+            <lb ed="#V" n="62"/>e converso, cum potissime ille
+            do<lb ed="#V" n="63" break="no"/>minus posset dicere servo illud 1.
+            <lb ed="#V" n="64"/>ad Cor. 4. Quid habes, quod non
+            acce<lb ed="#V" n="65" break="no"/>pisti a me?
+          </p>
+          <p>
+            <lb ed="#V" n="66"/>Praeterea, 10. Ethicor,
+            inconve<lb ed="#V" n="67" break="no"/>niens est laudare substantias
+            se<lb ed="#V" n="68" break="no"/>paratas ex operatione virtutum,
+            <lb ed="#V" n="69"/>sicut deducit de justitia specialiter.
+            <lb ed="#V" n="70"/>Et confirmatur per simile, quia
+            <lb ed="#V" n="71"/>non est in Deo temperantia, ergo
+            <lb ed="#V" n="72"/>nec pari ratione justitia.
+          </p>
+          <p>
+            <lb ed="#V" n="73"/>Praeterea, justitia inclinat ad
+            <lb ed="#V" n="74"/>reddendum debitum; Deus nulli est
+            <lb ed="#V" n="75"/>debitor; ergo.
+          </p>
+          <p>
+            <lb ed="#V" n="76"/>Oppositum in Psal. 47. Justitia
+            <lb ed="#V" n="77"/>plena est dextera tua.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d46q1-p2"> -->
+          <p>
+            <lb ed="#V" n="6" type="fixed=400"/>SCHOLIUM.
+            <lb ed="#V" n="7"/>Ponit rationem generalem justitiae ex
+            An<lb ed="#V" n="8" break="no"/>selmo, et specialiorem ex Aristotele; item
+            <lb ed="#V" n="9"/>divisionem ejus in legalem et particularem,
+            <lb ed="#V" n="10"/>et an utraque sit in Deo. Vide D. Thom. 1.
+            <lb ed="#V" n="11"/>2. quaest. 60. artic. 3. Subdividit justitiam
+            <lb ed="#V" n="12"/>particularem ad alterum, in commutativam
+            <lb ed="#V" n="13"/>et distributivam. De quo supra dist. 14.
+            <lb ed="#V" n="14"/>quaest. 2. num. 8.
+          </p>
+          <p>
+            <lb ed="#V" n="15"/>(b) Hic primo videndum est de
+            <lb ed="#V" n="16"/>justitiae definitione. Rationem
+            ge<lb ed="#V" n="17" break="no"/>neralissimam justitiae ponit
+            An<lb ed="#V" n="18" break="no"/>selmus de veritate, capitul. 12. quod
+            <lb ed="#V" n="19"/>justitia est rectitudo voluntatis propter
+            <lb ed="#V" n="20"/>se servata. Haec ratio specificatur
+            <lb ed="#V" n="21"/>per justitiam, secundum quod de
+            <lb ed="#V" n="22"/>ea tractat Aristoteles quinto
+            Ethi<lb ed="#V" n="23" break="no"/>cor, qui addit ultra hanc rationem
+            <lb ed="#V" n="24"/>hoc, quod est esse ad alterum, et
+            <lb ed="#V" n="25"/>utroque modo accipiendo, patet
+            <lb ed="#V" n="26"/>quod justitia competit Deo. Primo
+            <lb ed="#V" n="27"/>modo, habet enim rectitudinem
+            <lb ed="#V" n="28"/>voluntatis, imo voluntatem
+            inobli<lb ed="#V" n="29" break="no"/>quabilem, quia prima regula est,
+            <lb ed="#V" n="30"/>et servata propter se, non prout
+            <lb ed="#V" n="31"/>servata dicit aliquam susceptionem
+            <lb ed="#V" n="32"/>vel passionem respectu alicujus
+            <lb ed="#V" n="33"/>servantis; sed servata propter se,
+            <lb ed="#V" n="34"/>id est, spontanee propter se
+            sem<lb ed="#V" n="35" break="no"/>per habita. Secundo etiam modo
+            <lb ed="#V" n="36"/>patet, quia potest habere
+            rectitu<lb ed="#V" n="37" break="no"/>dinem ad alterum, et ideo in omni
+            <lb ed="#V" n="38"/>actione sua ad alterum est
+            recti<lb ed="#V" n="39" break="no"/>tudo.
+          </p>
+          <p>
+            <lb ed="#V" n="40"/>(c) Ista secunda subdividitur,
+            <lb ed="#V" n="41"/>quia vel est quasi universalis ad
+            <lb ed="#V" n="42"/>alterum, puta ad legislatorem et
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43"/>ad legem, inquantum est regula
+            <lb ed="#V" n="44"/>quaedam determinata a legislatore,
+            <lb ed="#V" n="45"/>et haec dicitur a quibusdam justitia
+            <lb ed="#V" n="46"/>legalis; vel est particularis, puta
+            <lb ed="#V" n="47"/>in aliquo particulari determinato
+            <lb ed="#V" n="48"/>pertinente ad legem, rectitudo
+            ad<lb ed="#V" n="49" break="no"/>alterum. Et haec secunda
+            subdivi<lb ed="#V" n="50" break="no"/>tur, quia vel potest esse
+            simplici<lb ed="#V" n="51" break="no"/>ter ad alterum, vel ad se quasi ad
+            <lb ed="#V" n="52"/>alterum. Et secundum membrum
+            <lb ed="#V" n="53"/>patet ex eo quod dictum est in
+            ma<lb ed="#V" n="54" break="no"/>teria de poenitentia, quod ipsa est
+            <lb ed="#V" n="55"/>justitia punitiva, non tantum
+            re<lb ed="#V" n="56" break="no"/>spectu alterius simpliciter, sed
+            <lb ed="#V" n="57"/>sui, quasi alterius, quia sibi, ut
+            <lb ed="#V" n="58"/>Judicis ministro concessa est
+            pu<lb ed="#V" n="59" break="no"/>nitio sui, ut rei.
+          </p>
+          <p>
+            <lb ed="#V" n="60"/>(d) Prima istarum, scilicet
+            lega<lb ed="#V" n="61" break="no"/>lis, posset poni in Deo, si esset
+            <lb ed="#V" n="62"/>alia lex prior determinatione
+            vo<lb ed="#V" n="63" break="no"/>luntatis suae, cui legi, et in hoc
+            <lb ed="#V" n="64"/>legislatori, quasi alteri voluntas
+            <lb ed="#V" n="65"/>sua recte concordaret; et est
+            qui<lb ed="#V" n="66" break="no"/>dem ista lex: Deus est diligendus. Sed
+            <lb ed="#V" n="67"/>si non debet dici lex, sive
+            princi<lb ed="#V" n="68" break="no"/>pium practicum legis, saltem est
+            <lb ed="#V" n="69"/>veritas practica, praecedens
+            om<lb ed="#V" n="70" break="no"/>nem determinationem voluntatis
+            <lb ed="#V" n="71"/>divinae
+          </p>
+          <p>
+            <lb ed="#V" n="72"/>Justitia etiam illa particularis
+            <lb ed="#V" n="73"/>ad se, quasi ad alterum, est in
+            <lb ed="#V" n="74"/>ipso, quia voluntas sua
+            determina<lb ed="#V" n="75" break="no"/>tur per rectitudinem ad volendum
+            <lb ed="#V" n="76"/>illud quod decet suam bonitatem;
+            <lb ed="#V" n="77"/>et haec est quasi redditio debiti sibi
+            <lb ed="#V" n="78"/>ipsi, id est, suae bonitati, tanquam
+            <lb ed="#V" n="79"/>alteri, si tamen posset dici
+            parti<lb ed="#V" n="80" break="no"/>cularis, quia aliquo modo est
+            uni<lb ed="#V" n="81" break="no"/>versalis, scilicet virtualiter.
+          </p>
+          <p>
+            <lb ed="#V" n="82"/>Et illa duo membra, scilicet
+            ju<lb ed="#V" n="83" break="no"/>stitia legalis et particularis ad se
+            <lb ed="#V" n="84"/>quasi ad alterum, in Deo quasi
+            <lb ed="#V" n="85"/>idem sunt, quia rectitudo
+            volunta<lb ed="#V" n="86" break="no"/>tis divinae respectu suae bonitatis.
+          </p>
+          <p>
+            <pb ed="#V" n="401"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Si autem loquamur (e) de
+            reli<lb ed="#V" n="2" break="no"/>qua justitia, quae simpliciter est
+            <lb ed="#V" n="3"/>ad alterum, illa dividitur in
+            com<lb ed="#V" n="4" break="no"/>mutativam et distributivam; et ita
+            <lb ed="#V" n="5"/>distinguitur justitia in nobis, ut
+            <lb ed="#V" n="6"/>patet per Philosophum 5. Ethicor.
+            <lb ed="#V" n="7"/>In distributiva requiritur
+            aequali<lb ed="#V" n="8" break="no"/>tas proportionis, non quantitatis;
+            <lb ed="#V" n="9"/>in commutativa, secundum
+            ali<lb ed="#V" n="10" break="no"/>quos, aequalitas quantitatis, non
+            <lb ed="#V" n="11"/>tantum proportionis. Ista
+            expo<lb ed="#V" n="12" break="no"/>nuntur ibi.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d46q1-p3"> -->
+          <p>
+            <lb ed="#V" n="30" type="fixed=404"/>SCHOLIUM.
+            <lb ed="#V" n="31"/>Describit commutativam et distributivam,
+            <lb ed="#V" n="32"/>et primam negat esse in Deo simpliciter;
+            <lb ed="#V" n="33"/>secundam simpliciter ei tribuit. Primam
+            <lb ed="#V" n="34"/>partem tenet D. Thom. 1. part. quaest. 21.
+            <lb ed="#V" n="35"/>art. 1. et 1. 2. quaest. ult. artic. 1. et
+            commu<lb ed="#V" n="36" break="no"/>nis. De quo late Vasquez 1. part. disp. 85.
+            <lb ed="#V" n="37"/>c. 2. et disp. 86. et 1. 2. disp. ult. ubi agit
+            <lb ed="#V" n="38"/>contra Suar. opusc. de justitia, qua Deus
+            <lb ed="#V" n="39"/>reddit praemia. Quoad secundam partem,
+            <lb ed="#V" n="40"/>Doctor non sumit distributivam proprie, quia
+            <lb ed="#V" n="41"/>non admittit ullam justitiam proprie in Deo,
+            <lb ed="#V" n="42"/>ex solut. ad primum et tertium.
+          </p>
+          <p>
+            <lb ed="#V" n="43"/>(f) Ad propositum, commutativa
+            <lb ed="#V" n="44"/>proprie respicit punitionem et
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>praemiationem, ut scilicet pro me.
+            <lb ed="#V" n="46"/>ritis quasi commutando, reddantur
+            <lb ed="#V" n="47"/>praemia, et pro peccatis supplicia.
+            <lb ed="#V" n="48"/>Distributiva (g) respicit quasi
+            na<lb ed="#V" n="49" break="no"/>turas et perfectiones superadditas,
+            <lb ed="#V" n="50"/>ut scilicet naturae distribuatur
+            per<lb ed="#V" n="51" break="no"/>fectio sibi proportionata. Sicut
+            no<lb ed="#V" n="52" break="no"/>stra in Republica, distributiva
+            per<lb ed="#V" n="53" break="no"/>sonis secundum gradus suos,
+            pro<lb ed="#V" n="54" break="no"/>portionaliter distribuuntur bona
+            <lb ed="#V" n="55"/>pertinentia ad gradus eorum; sicut
+            <lb ed="#V" n="56"/>in Hierarchia universi naturae
+            no<lb ed="#V" n="57" break="no"/>biliori ab Hierarcha, id est,
+            prin<lb ed="#V" n="58" break="no"/>cipe Deo, distribuuntur
+            perfectio<lb ed="#V" n="59" break="no"/>nes nobiliores seu convenientes tali
+            <lb ed="#V" n="60"/>naturae, et naturae inferiori
+            distri<lb ed="#V" n="61" break="no"/>buuntur perfectiones sibi
+            conve<lb ed="#V" n="62" break="no"/>nientes.
+          </p>
+          <p>
+            <lb ed="#V" n="63"/>(h) Prima illarum non potest
+            <lb ed="#V" n="64"/>simpliciter esse in Deo respectu,
+            <lb ed="#V" n="65"/>creaturae, quia non potest esse
+            <lb ed="#V" n="66"/>simpliciter aequalitas, sed potest
+            <lb ed="#V" n="67"/>esse aliqualiter secundum
+            propor<lb ed="#V" n="68" break="no"/>tionem, sicut inter dominum et
+            <lb ed="#V" n="69"/>servum; dominum enim liberalem
+            <lb ed="#V" n="70"/>decet retribuere majus bonum,
+            <lb ed="#V" n="71"/>quam servus possit mereri, dum
+            <lb ed="#V" n="72"/>tamen sit talis proportio, quod
+            si<lb ed="#V" n="73" break="no"/>cut servus facit quod suum est, ita
+            <lb ed="#V" n="74"/>dominus retribuat quod suum est,
+            <lb ed="#V" n="75"/>et eodem modo puniendo citra
+            <lb ed="#V" n="76"/>condignum.
+          </p>
+          <p>
+            <lb ed="#V" n="77"/>Sed secunda justitia (i) potest hic
+            <lb ed="#V" n="78"/>esse simpliciter, quia simpliciter
+            <lb ed="#V" n="79"/>potest dare naturis perfectiones
+            <lb ed="#V" n="80"/>debitas vel convenientes eis
+            secun<lb ed="#V" n="81" break="no"/>dum gradus perficientes.
+          </p>
+          <p>
+            <lb ed="#V" n="82"/>(K) Sic ergo in genere tota illa
+            <lb ed="#V" n="83"/>definitio justitiae eo modo quo
+            po<lb ed="#V" n="84" break="no"/>test ad Deum pertinere, potest
+            re<lb ed="#V" n="85" break="no"/>duci ad duo membra, ut primo
+            di<lb ed="#V" n="86" break="no"/>catur justitia rectitudo voluntatis
+            <lb ed="#V" n="87"/>in ordine ad condecentiam
+            volun<lb ed="#V" n="88" break="no"/>tatis divinae; alio modo rectitudo
+            <pb ed="#V" n="405"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>voluntatis in ordine ad exigentiam
+            <lb ed="#V" n="2"/>ejus, quod est in creatura; et illa
+            <lb ed="#V" n="3"/>distinctio potest haberi ab
+            Ansel<lb ed="#V" n="4" break="no"/>mo Prosot. 10. ubi loquens ad Deum
+            <lb ed="#V" n="5"/>dicit: Cum punis malos, justum est, quia
+            <lb ed="#V" n="6"/>illorum meritis congruit. Quantum ad
+            <lb ed="#V" n="7"/>secundum membrum subdit statim,
+            <lb ed="#V" n="8"/>cum parcis malis, justum est, non quia
+            <lb ed="#V" n="9"/>illorum meritis, sed quia tuae voluntati
+            <lb ed="#V" n="10"/>et bonitati condecens est, quantum ad
+            <lb ed="#V" n="11"/>primum membrum. Et tanta est
+            <lb ed="#V" n="12"/>illorum membrorum distinctio,
+            <lb ed="#V" n="13"/>quod Deus contra primam
+            justiti<lb ed="#V" n="14" break="no"/>am operari non potest, nec
+            prae<lb ed="#V" n="15" break="no"/>ter eam, sed praeter justitiam
+            se<lb ed="#V" n="16" break="no"/>cundam potest operari, licet non
+            <lb ed="#V" n="17"/>universaliter, quia non potest
+            <lb ed="#V" n="18"/>damnare justum vel Beatum.
+          </p>
+          <p>
+            <lb ed="#V" n="19"/>(1) Si objicitur quod non potest
+            <lb ed="#V" n="20"/>in Deo esse alia justitia haec et illa,
+            <lb ed="#V" n="21"/>quia tunc una esset regula, ut
+            pri<lb ed="#V" n="22" break="no"/>ma, et alia regulata, ut secunda; in
+            <lb ed="#V" n="23"/>voluntate autem divina non potest
+            <lb ed="#V" n="24"/>esse rectitudo regulata, et
+            proba<lb ed="#V" n="25" break="no"/>tur hoc in nobis, nam idem
+            incli<lb ed="#V" n="26" break="no"/>nat in finem proprium, et ad ea
+            <lb ed="#V" n="27"/>quae sunt ad finem, ut sunt ad
+            fi<lb ed="#V" n="28" break="no"/>nem; ergo si illud inclinans ad
+            fi<lb ed="#V" n="29" break="no"/>nem esset simpliciter perfectum,
+            <lb ed="#V" n="30"/>simpliciter perfecte inclinaret ad
+            <lb ed="#V" n="31"/>ea quae sunt ad finem, sicut patet
+            <lb ed="#V" n="32"/>de charitate Beatorum. Justitia
+            <lb ed="#V" n="33"/>autem Dei potest esse simpliciter
+            <lb ed="#V" n="34"/>perfecta; ergo praeter illam, nulla
+            <lb ed="#V" n="35"/>alia requiritur in voluntate divina.
+          </p>
+          <p>
+            <lb ed="#V" n="36"/>(m) Quod etiam dicitur, quod
+            <lb ed="#V" n="37"/>quandoque non potest. agere
+            prae<lb ed="#V" n="38" break="no"/>ter secundam, non videtur
+            probabi<lb ed="#V" n="39" break="no"/>le, quia quidquid non includit
+            con<lb ed="#V" n="40" break="no"/>tradictionem, potest simpliciter
+            <lb ed="#V" n="41"/>agere, et ita velle. Sed non potest
+            <lb ed="#V" n="42"/>aliquid velle, quod non possit recte
+            <lb ed="#V" n="43"/>velle, quia voluntas sua est prima
+            <lb ed="#V" n="44"/>regula; ergo quidquid non includit
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>contradictionem potest intelligi
+            <lb ed="#V" n="46"/>velle, et ita cum illa justitia
+            se<lb ed="#V" n="47" break="no"/>cunda determinet ad aliquid, cujus
+            <lb ed="#V" n="48"/>oppositum non includit
+            contradi<lb ed="#V" n="49" break="no"/>ctionem, potest Deus velle, et
+            re<lb ed="#V" n="50" break="no"/>cte velle, et agere praeter illam
+            <lb ed="#V" n="51"/>justitiam secundam.
+          </p>
+          <p>
+            <lb ed="#V" n="52"/>Primum istorum forte
+            concede<lb ed="#V" n="53" break="no"/>rent aliqui, quod non est in Deo
+            <lb ed="#V" n="54"/>duplex justitia, sed tantum unica
+            <lb ed="#V" n="55"/>habens tamen quasi alium et
+            ali<lb ed="#V" n="56" break="no"/>um effectum, utpote velle
+            concor<lb ed="#V" n="57" break="no"/>diter condecentiae bonita tis suae, et
+            <lb ed="#V" n="58"/>velle concorditer exigentiae
+            crea<lb ed="#V" n="59" break="no"/>turae.
+          </p>
+          <p>
+            <lb ed="#V" n="60"/>Sed secunda ratio videtur
+            evi<lb ed="#V" n="61" break="no"/>denter concludere quod ad
+            quid<lb ed="#V" n="62" break="no"/>quid prima justitia inclinat, justitia
+            <lb ed="#V" n="63"/>secunda inclinare potest
+            volun<lb ed="#V" n="64" break="no"/>tatem divinam, cum determinate
+            <lb ed="#V" n="65"/>inclinet, quia per modum naturae;
+            <lb ed="#V" n="66"/>non tamen sic inclinat, quin
+            prae<lb ed="#V" n="67" break="no"/>ter eam, et contra eam possit
+            <lb ed="#V" n="68"/>voluntas divina velle, et ita non
+            <lb ed="#V" n="69"/>erit distinctio istarum in hoc
+            <lb ed="#V" n="70"/>quod est posse agere praeter eam,
+            <lb ed="#V" n="71"/>et non posse agere praeter eam.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d46q1-p4"> -->
+          <p>
+            <lb ed="#V" n="67" type="fixed=424"/>SCHOLIUM.
+            <lb ed="#V" n="68"/>Non esse in Deo justitiam formaliter
+            di<lb ed="#V" n="69" break="no"/>stinctam a sua voluntate, alioquin in
+            ali<lb ed="#V" n="70" break="no"/>quod objectum secundarium posset
+            ten<lb ed="#V" n="71" break="no"/>dere injuste, vel saltem ita tenderet in
+            <lb ed="#V" n="72"/>aliquod tale, quod non posset juste
+            ten<lb ed="#V" n="73" break="no"/>dere in ejus oppositum. Estque sententia
+            <lb ed="#V" n="74"/>expresssa Anselmi citati, et Augustini
+            <lb ed="#V" n="75"/>serm. 16. de verb. Apost. Bernardi serm.
+            <lb ed="#V" n="76"/>de Annuntiat. D. Thomae 1. 2. quaest. ult.
+            <lb ed="#V" n="77"/>art. 1. de quo late Vasq. 1. part. d. 86. 1. 2.
+            <lb ed="#V" n="78"/>disp. ult. contra Suarez citatum.
+          </p>
+          <p>
+            <lb ed="#V" n="79"/>(n) Non improbando
+            distincti<lb ed="#V" n="80" break="no"/>ones, dico tamen brevius ad
+            quae<lb ed="#V" n="81" break="no"/>stionem, quod in Deo non est nisi
+            <lb ed="#V" n="82"/>unica justitia, re et ratione, tamen
+            <lb ed="#V" n="83"/>praeter illam extendendo justitiam,
+            <lb ed="#V" n="84"/>poni potest aliqua justitia, vel
+            <lb ed="#V" n="85"/>magis aliquid justum in creaturis.
+          </p>
+          <p>
+            <lb ed="#V" n="86"/>(o) Primum declaratur, quia cum
+            <pb ed="#V" n="425"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>justitia proprie sit rectitudo
+            vo<lb ed="#V" n="2" break="no"/>luntatis quasi habituatae, et per
+            <lb ed="#V" n="3"/>consequens, quasi naturaliter
+            in<lb ed="#V" n="4" break="no"/>clinans ad alterum, vel ad se quasi
+            <lb ed="#V" n="5"/>ad alterum; et voluntas divina non
+            <lb ed="#V" n="6"/>habeat rectitudinem inclinantem
+            <lb ed="#V" n="7"/>determinate ad aliquid, nisi ad
+            su<lb ed="#V" n="8" break="no"/>am bonitatem, quasi ad alterum,
+            <lb ed="#V" n="9"/>(nam ad quodcumque aliud obje.
+            <lb ed="#V" n="10"/>ctum mere contingenter se habet,
+            <lb ed="#V" n="11"/>ita quod aeque potest in hoc et in
+            <lb ed="#V" n="12"/>ejus oppositum), sequitur quod
+            <lb ed="#V" n="13"/>nullam justitiam habet, nisi ad
+            <lb ed="#V" n="14"/>reddendum suae bonitati vel
+            volun<lb ed="#V" n="15" break="no"/>tati, quod eam condecet.
+          </p>
+          <p>
+            <lb ed="#V" n="16"/>Sic autem habet unum actum rei
+            <lb ed="#V" n="17"/>et rationis, ad quem determinate
+            <lb ed="#V" n="18"/>inclinat illa justitia, quae est
+            re<lb ed="#V" n="19" break="no"/>spectu suae bonitatis; sed ille actus
+            <lb ed="#V" n="20"/>ex consequenti respicit multa
+            <lb ed="#V" n="21"/>objecta secundaria, et eo modo
+            <lb ed="#V" n="22"/>quod dictum est in primo lib. dist. 35.
+            <lb ed="#V" n="23"/>quod intellectus divinus praeter
+            <lb ed="#V" n="24"/>hoc quod habet unum objectum
+            <lb ed="#V" n="25"/>primum, et unum actum, respicit
+            <lb ed="#V" n="26"/>multa objecta secundaria. Sed in
+            <lb ed="#V" n="27"/>hoc est differentia hic et ibi, quia
+            <lb ed="#V" n="28"/>intellectus objecta secundaria
+            ne<lb ed="#V" n="29" break="no"/>cessario respicit; hic autem
+            volun<lb ed="#V" n="30" break="no"/>tas objecta secundaria tantum
+            <lb ed="#V" n="31"/>contingenter. Et ideo non solum
+            <lb ed="#V" n="32"/>non dependet ab eis actus hic, sicut
+            <lb ed="#V" n="33"/>nec ibi, sed nec necessario
+            deter<lb ed="#V" n="34" break="no"/>minatur ad illa hic, sicut
+            determi<lb ed="#V" n="35" break="no"/>natur ibi.
+          </p>
+          <p>
+            <lb ed="#V" n="36"/>Si autem velimus distinguere
+            <lb ed="#V" n="37"/>unum actum re in multos
+            rati<lb ed="#V" n="38" break="no"/>onis, sicut ibi distinguitur una
+            <lb ed="#V" n="39"/>intellectio rei in multas ratione,
+            <lb ed="#V" n="40"/>ut transit super multa objecta
+            se<lb ed="#V" n="41" break="no"/>cundaria, dico quod respectu
+            illa<lb ed="#V" n="42" break="no"/>rum non sunt quasi distinctae
+            <lb ed="#V" n="43"/>justitiae ratione. Sed nec una
+            qua<lb ed="#V" n="44" break="no"/>litercumque distincta vel
+            indistin<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>cta, quia habitus inclinat per
+            mo<lb ed="#V" n="46" break="no"/>dum naturae, et ita determinate ad
+            <lb ed="#V" n="47"/>unum, ut per hoc repugnet
+            poten<lb ed="#V" n="48" break="no"/>tiae habituatae per habitum illum,
+            <lb ed="#V" n="49"/>tendere in oppositum. Sed ad
+            nul<lb ed="#V" n="50" break="no"/>lum objectum secundarium ita
+            <lb ed="#V" n="51"/>determinate inclinatur voluntas
+            <lb ed="#V" n="52"/>divina per aliquid in ipsa, quod sibi
+            <lb ed="#V" n="53"/>repugnet, juste inclinari ad
+            oppo<lb ed="#V" n="54" break="no"/>situm illius, quia sicut sine
+            con<lb ed="#V" n="55" break="no"/>tradictione potest oppositum velle,
+            <lb ed="#V" n="56"/>ita potest juste velle, alioquin
+            <lb ed="#V" n="57"/>posset absolute velle, et non juste,
+            <lb ed="#V" n="58"/>quod est inconveniens.
+          </p>
+          <p>
+            <lb ed="#V" n="59"/>Et hoc est quod dicit Anselmus
+            <lb ed="#V" n="60"/>Prosol. 11. Illud solum est justum, quod
+            <lb ed="#V" n="61"/>vis, non justum, quod non vis, ut sic,
+            <lb ed="#V" n="62"/>si poneretur in intellectu divino
+            <lb ed="#V" n="63"/>aliquis habitus intellectivus
+            respe<lb ed="#V" n="64" break="no"/>ctu sui et aliorum, magis potest
+            <lb ed="#V" n="65"/>distingui in multos habitus
+            rati<lb ed="#V" n="66" break="no"/>one, ut inclinat in objecta
+            secun<lb ed="#V" n="67" break="no"/>daria quam in proposito, quia ibi
+            <lb ed="#V" n="68"/>ad quodlibet secundarium
+            determi<lb ed="#V" n="69" break="no"/>nate inclinatur intellectus, non
+            <lb ed="#V" n="70"/>sic haec voluntas. Unde posset
+            <lb ed="#V" n="71"/>dici quod illa unica justitia, quae
+            <lb ed="#V" n="72"/>non inclinat determinate, nisi ad
+            <lb ed="#V" n="73"/>primum actum, modificat actus
+            <lb ed="#V" n="74"/>secundario, licet nullum eorum
+            <lb ed="#V" n="75"/>necessario, quin posset modificare
+            <lb ed="#V" n="76"/>oppositum. Nec quasi praevenit
+            <lb ed="#V" n="77"/>voluntatem inclinando eam per
+            <lb ed="#V" n="78"/>modum naturae ad aliquem actum
+            <lb ed="#V" n="79"/>secundarium, sed voluntas primo
+            <lb ed="#V" n="80"/>determinat seipsam ad
+            quodcum<lb ed="#V" n="81" break="no"/>que objectum secundarium. Et ex
+            <lb ed="#V" n="82"/>hoc ille actus est modificatus ab
+            <lb ed="#V" n="83"/>illa prima justitia, quia consonus
+            <lb ed="#V" n="84"/>voluntati cui adaequatur, quasi pro
+            <lb ed="#V" n="85"/>rectitudine inclinante justitia
+            pri<lb ed="#V" n="86" break="no"/>ma.
+          </p>
+          <p>
+            <lb ed="#V" n="87"/>(p) Secundo modo, justum
+            dici<lb ed="#V" n="88" break="no"/>tur esse in creatura ex
+            correspon<pb ed="#V" n="426"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>dentia unius creati ad aliud, sicut
+            <lb ed="#V" n="2"/>justum est ex parte creaturae,
+            <lb ed="#V" n="3"/>ignem esse calidum, aquam
+            frigi<lb ed="#V" n="4" break="no"/>dam, ignem sursum, et terram
+            <lb ed="#V" n="5"/>deorsum, quia natura ista creata
+            <lb ed="#V" n="6"/>hoc exigit, tanquam sibi
+            corre<lb ed="#V" n="7" break="no"/>spondens; sicut possemus dicere
+            <lb ed="#V" n="8"/>in politiis, quod esto quod in solo
+            <lb ed="#V" n="9"/>principe esset justitia, tamen in
+            re<lb ed="#V" n="10" break="no"/>bus ordinatis esset quodammodo
+            ju<lb ed="#V" n="11" break="no"/>stum, ut scilicet tales res sic
+            dis<lb ed="#V" n="12" break="no"/>ponerentur, et tales sic, quia hoc
+            <lb ed="#V" n="13"/>res ipsae, ut natae cedere in usum
+            <lb ed="#V" n="14"/>civium, exigunt. Sed ad istud
+            ju<lb ed="#V" n="15" break="no"/>stum non determinat justitia
+            di<lb ed="#V" n="16" break="no"/>vina intrinseca prima, ut est
+            re<lb ed="#V" n="17" break="no"/>spectu primi actus isto modo, quia
+            <lb ed="#V" n="18"/>ille actus non respicit illud
+            obje<lb ed="#V" n="19" break="no"/>ctum, neque respectu actus
+            secun<lb ed="#V" n="20" break="no"/>darii, quia ut respicit istud
+            obje<lb ed="#V" n="21" break="no"/>ctum secundarium, non est illa
+            <lb ed="#V" n="22"/>justitia determinate inclinans, ut
+            <lb ed="#V" n="23"/>dictum est.
+          </p>
+          <p>
+            <lb ed="#V" n="24"/>(q) Contra ista, primo, quia
+            ju<lb ed="#V" n="25" break="no"/>stitia non potest esse in aliqua
+            <lb ed="#V" n="26"/>voluntate, nisi inclinet
+            concordi<lb ed="#V" n="27" break="no"/>ter dictamini prudentiae, et per
+            <lb ed="#V" n="28"/>consequens conclusioni syllogismi
+            <lb ed="#V" n="29"/>practici; intellectus autem divinus
+            <lb ed="#V" n="30"/>non syllogizat, cum non discurrat.
+          </p>
+          <p>
+            <lb ed="#V" n="31"/>Praeterea, intellectus divinus
+            <lb ed="#V" n="32"/>prius apprehendit actibile, quam
+            <lb ed="#V" n="33"/>voluntas illud velit, et voluntas
+            <lb ed="#V" n="34"/>non potest discordare ab intellectu
+            <lb ed="#V" n="35"/>apprehendente; intellectus autem
+            <lb ed="#V" n="36"/>determinate apprehendit hoc
+            agi<lb ed="#V" n="37" break="no"/>bile, ita quod non indifferenter
+            <lb ed="#V" n="38"/>hoc et illud, quia tunc erraret;
+            <lb ed="#V" n="39"/>ergo voluntas determinate vult hoc
+            <lb ed="#V" n="40"/>agibile, ita quod non potest velle
+            <lb ed="#V" n="41"/>oppositum, sicut non potest
+            ali<lb ed="#V" n="42" break="no"/>quid injustum velle, si recte
+            ve<lb ed="#V" n="43" break="no"/>lit.
+          </p>
+          <p>
+            <lb ed="#V" n="44"/>Praeterea, si justum est Petrum
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>salvari, et Deus hoc juste vult,
+            <lb ed="#V" n="46"/>ergo injustum est Petrum
+            damna<lb ed="#V" n="47" break="no"/>ri, et ita si Deus potest hoc velle,
+            <lb ed="#V" n="48"/>potest aliquid injustum velle.
+          </p>
+          <p>
+            <lb ed="#V" n="49"/>Ad primum dico, quod si in
+            no<lb ed="#V" n="50" break="no"/>bis potest esse alia virtus moralis,
+            <lb ed="#V" n="51"/>vel habitus inclinans concorditer
+            <lb ed="#V" n="52"/>conclusioni practici syllogismi,
+            <lb ed="#V" n="53"/>multo magis est in nobis habitus
+            <lb ed="#V" n="54"/>rectus appetitivus, qui inclinat
+            <lb ed="#V" n="55"/>concorditer principio primo
+            pra<lb ed="#V" n="56" break="no"/>ctico, quia illud principium
+            practi<lb ed="#V" n="57" break="no"/>cum est verius, et per consequens
+            <lb ed="#V" n="58"/>rectius. Justitia autem, quae est in
+            <lb ed="#V" n="59"/>Deo unica, re et ratione, ut dictum
+            <lb ed="#V" n="60"/>est, concorditer inclinat primo
+            <lb ed="#V" n="61"/>principio practico, puta: Deus est
+            <lb ed="#V" n="62"/>ditigendus. Sed si stricte accipias
+            <lb ed="#V" n="63"/>quod non inclinat concorditer
+            con<lb ed="#V" n="64" break="no"/>clusioni syllogismi practici, ideo
+            <lb ed="#V" n="65"/>non est virtus aliqua specialis,
+            <lb ed="#V" n="66"/>concedo quod illa justitia, quae est
+            <lb ed="#V" n="67"/>in Deo, non est nisi quasi
+            univer<lb ed="#V" n="68" break="no"/>salis et radicalis virtus, a cujus
+            <lb ed="#V" n="69"/>actus rectitudine, natae sunt omnes
+            <lb ed="#V" n="70"/>justitiae particulares procedere,
+            <lb ed="#V" n="71"/>licet non necessario.
+          </p>
+          <p>
+            <lb ed="#V" n="72"/>Ad secundum dico, quod
+            intel<lb ed="#V" n="73" break="no"/>lectus apprehendit agibile,
+            ante<lb ed="#V" n="74" break="no"/>quam voluntas illud velit, sed non
+            <lb ed="#V" n="75"/>apprehendit determinate hoc esse
+            <lb ed="#V" n="76"/>agendum, quod apprehendere dicitur
+            <lb ed="#V" n="77"/>dictare; imo, ut neutrum est, offert
+            <lb ed="#V" n="78"/>voluntati divinae, qua determinate
+            <lb ed="#V" n="79"/>per volitionem suam illud esse
+            <lb ed="#V" n="80"/>agendum, intellectus apprehendit
+            <lb ed="#V" n="81"/>tanquam verum illud agendum, ut
+            <lb ed="#V" n="82"/>dictum est in materia de futuris
+            <lb ed="#V" n="83"/>contingentibus lib. 1. distinct. 39.
+          </p>
+          <p>
+            <lb ed="#V" n="84"/>Esto tamen quod intellectus de
+            <lb ed="#V" n="85"/>aliquo ante apprehenderet illud
+            es<lb ed="#V" n="86" break="no"/>se agendum, quam voluntas illud
+            <lb ed="#V" n="87"/>vellet, sicut apprehendit de hoc:
+            <lb ed="#V" n="88"/>Deus est diligendus, non sequitur
+            na<pb ed="#V" n="427"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>turali necessitate, illud
+            appre<lb ed="#V" n="2" break="no"/>hendit, et voluntas non potest
+            dis<lb ed="#V" n="3" break="no"/>cordare, ergo voluntas naturali
+            <lb ed="#V" n="4"/>necessitate hoc vult, quia non
+            po<lb ed="#V" n="5" break="no"/>test discordare in objecto, ut
+            scili<lb ed="#V" n="6" break="no"/>cet velit aut nolit illud quod
+            osten<lb ed="#V" n="7" break="no"/>dit volendum, sed in modo tendendi
+            <lb ed="#V" n="8"/>in illud objectum discordat.
+          </p>
+          <p>
+            <lb ed="#V" n="9"/>Vel magis proprie distinguitur,
+            <lb ed="#V" n="10"/>quia intellectus suo modo tendit
+            <lb ed="#V" n="11"/>in illud, scilicet naturaliter, et
+            <lb ed="#V" n="12"/>voluntas suo modo, scilicet libere.
+            <lb ed="#V" n="13"/>Et illae potentiae concordant, quae
+            <lb ed="#V" n="14"/>semper in idem objectum tendunt
+            <lb ed="#V" n="15"/>suis propriis modis tendendi, sicut
+            <lb ed="#V" n="16"/>phantasia et intellectus non
+            dis<lb ed="#V" n="17" break="no"/>cordant, licet illa tendat in
+            ob<lb ed="#V" n="18" break="no"/>jectum, ut singulare, hic in
+            obje<lb ed="#V" n="19" break="no"/>ctum, ut universale.
+          </p>
+          <p>
+            <lb ed="#V" n="20"/>Ad tertium, dico quod sicut in
+            <lb ed="#V" n="21"/>istis politiis legislator respicit
+            <lb ed="#V" n="22"/>in se simpliciter justum, quod est
+            <lb ed="#V" n="23"/>justum boni publici, secundum
+            <lb ed="#V" n="24"/>quid autem respicit alia justa
+            par<lb ed="#V" n="25" break="no"/>t tialia, semper quidem in
+            propor<lb ed="#V" n="26" break="no"/>tione ad hoc justum, et ideo in
+            <lb ed="#V" n="27"/>quibusdam casibus justum est non
+            <lb ed="#V" n="28"/>servare leges justas, respicientes
+            <lb ed="#V" n="29"/>aliqua justa partialia, quando
+            sci<lb ed="#V" n="30" break="no"/>licet observatio earum vergeret
+            <lb ed="#V" n="31"/>in detrimentum justi publici,
+            sci<lb ed="#V" n="32" break="no"/>licet bene esse reipublicae, ita
+            <lb ed="#V" n="33"/>Deus simpliciter determinatur ad
+            <lb ed="#V" n="34"/>justum publicum communitatis,
+            <lb ed="#V" n="35"/>non ut communitate
+            aggregati<lb ed="#V" n="36" break="no"/>onis, sicut in civitate, sed
+            commu<lb ed="#V" n="37" break="no"/>nitate eminentis continentiae, quod
+            <lb ed="#V" n="38"/>est justum condecens bonitatem
+            <lb ed="#V" n="39"/>suam. Omne autem aliud justum
+            <lb ed="#V" n="40"/>est particulare, et nunc hoc
+            ju<lb ed="#V" n="41" break="no"/>stum, nunc illud justum,
+            secun<lb ed="#V" n="42" break="no"/>dum quod ordinatur, vel convenit
+            <lb ed="#V" n="43"/>huic justo.
+          </p>
+          <p>
+            <lb ed="#V" n="44"/>Dico ergo, quod potest velle
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>Petrum damnari, et juste velle,
+            <lb ed="#V" n="46"/>quia illud particulare justum:
+            <lb ed="#V" n="47"/>Petrum salvari, non necessario
+            re<lb ed="#V" n="48" break="no"/>quiritur ad justum publicum, quin
+            <lb ed="#V" n="49"/>oppositum ejus possit ordinari ad
+            <lb ed="#V" n="50"/>illud idem, scilicet ad
+            condecen<lb ed="#V" n="51" break="no"/>tiam divinae bonitatis. Est enim
+            <lb ed="#V" n="52"/>illud finis quod, nullum ens ad
+            <lb ed="#V" n="53"/>finem determinate necessario
+            re<lb ed="#V" n="54" break="no"/>quirens.
+          </p>
+          <p>
+            <lb ed="#V" n="55"/>(r) Ad argumenta principalia.
+            <lb ed="#V" n="56"/>Ad primum dico, quod non est ibi
+            <lb ed="#V" n="57"/>aequalitas simpliciter, nisi ad
+            se<lb ed="#V" n="58" break="no"/>ipsum, ideo nec justitia
+            simpli<lb ed="#V" n="59" break="no"/>citer, nisi ad se, quasi ad alterum;
+            <lb ed="#V" n="60"/>sed aequalitas aliqualis potest ibi
+            <lb ed="#V" n="61"/>poni, qualis potest esse domini
+            <lb ed="#V" n="62"/>excedentis valde, ad servum
+            ex<lb ed="#V" n="63" break="no"/>cessum.
+          </p>
+          <p>
+            <lb ed="#V" n="64"/>(S) Ad aliud, dicendum quod non
+            <lb ed="#V" n="65"/>sunt ibi virtutes secundum illud
+            <lb ed="#V" n="66"/>imperfectionis, quod est in eis,
+            <lb ed="#V" n="67"/>sed ablato eo quod est
+            imperfecti<lb ed="#V" n="68" break="no"/>onis, sicut patet in exemplo
+            addu<lb ed="#V" n="69" break="no"/>cto de temperantia. Illud enim:
+            <lb ed="#V" n="70"/>requirit in natura temperata,
+            pos<lb ed="#V" n="71" break="no"/>se esse aliquam delectationem
+            im<lb ed="#V" n="72" break="no"/>moderatam, et hoc est
+            imperfecti<lb ed="#V" n="73" break="no"/>onis; et propter hoc magis proprie
+            <lb ed="#V" n="74"/>ponimus ibi justitiam quam
+            tem<lb ed="#V" n="75" break="no"/>perantiam, quia illa non ita
+            requi<lb ed="#V" n="76" break="no"/>rit aliquem excessum in
+            passi<lb ed="#V" n="77" break="no"/>one, vel aliquam talem
+            imperfe<lb ed="#V" n="78" break="no"/>ctionem, sicut requirit
+            temperan<lb ed="#V" n="79" break="no"/>tia. Utrum tamen justitia, ut ibi
+            <lb ed="#V" n="80"/>est, sit virtus quantum ad illam
+            <lb ed="#V" n="81"/>rationem, quod sit distincta
+            for<lb ed="#V" n="82" break="no"/>maliter a voluntate, et quasi
+            regu<lb ed="#V" n="83" break="no"/>la ejus, vel tantummodo sit
+            volun<lb ed="#V" n="84" break="no"/>tas sub ratione primae regulae
+            se<lb ed="#V" n="85" break="no"/>ipsam determinantis, dubium est,
+            <lb ed="#V" n="86"/>quia si secundum ponatur, magis
+            <lb ed="#V" n="87"/>solvitur ratio, quia tunc non est
+            <lb ed="#V" n="88"/>ibi sub ratione virtutis moralis.
+          </p>
+          <p>
+            <pb ed="#V" n="428"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>(t) Ad tertium dico quod non
+            <lb ed="#V" n="2"/>simpliciter est debitor, nisi
+            boni<lb ed="#V" n="3" break="no"/>tati suae, ut diligat eam; creaturis
+            <lb ed="#V" n="4"/>autem est debitor ex liberalitate
+            <lb ed="#V" n="5"/>sua, ut communicet eis quod
+            na<lb ed="#V" n="6" break="no"/>tura sua exigit, quae exigentia in
+            <lb ed="#V" n="7"/>eis ponitur quoddam justum, quasi
+            <lb ed="#V" n="8"/>secundarium objectum istius
+            justi<lb ed="#V" n="9" break="no"/>tiae: tamen secundum veritatem,
+            <lb ed="#V" n="10"/>nihil est determinate justum, et
+            <lb ed="#V" n="11"/>extra Deum, nisi secundum quid,
+            <lb ed="#V" n="12"/>scilicet cum hac modificatione,
+            <lb ed="#V" n="13"/>quantum est ex parte creaturae,
+            <lb ed="#V" n="14"/>sed simpliciter justum
+            tantum<lb ed="#V" n="15" break="no"/>modo est relatum ad primam
+            ju<lb ed="#V" n="16" break="no"/>stitiam, quia scilicet actualiter
+            <lb ed="#V" n="17"/>volitum a divina voluntate.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

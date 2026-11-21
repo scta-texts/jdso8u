@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 46, Quaestio 2</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 46, Quaestio 2</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x20">Vives, Paris, 1894, volume 20</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="442"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e4979"><!-- jdso8u-b4d46q2 -->
+        <head>Quaestio 2</head>
+        <head type="question-title">Utrum in Deo sit misericordia</head>
+        <!-- <div alias="scotus-d46q2-p1"> -->
+          <p>
+            <pb ed="#V" n="442"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1" type="fixed=442"/>QUAESTIO II.
+            <lb ed="#V" n="2"/>Utrum in Deo sit misericordia?
+          </p>
+          <p>
+            <lb ed="#V" n="3"/>Alens. 1. part. quaest. 39. m. 1. D. Thom. 2.
+            <lb ed="#V" n="4"/>2. q. 30. art. 2. et hic q. 2. art. 1. D. Bonav.
+            <lb ed="#V" n="5"/>art. 2. quaest. 1. Richard. art. 2. quaest. 1.
+            <lb ed="#V" n="6"/>Argent. quaest. 1. art. 4.
+          </p>
+          <p>
+            <lb ed="#V" n="7"/>Ad secundum sic proceditur, et
+            <lb ed="#V" n="8"/>arguitur quod non, quia secundum
+            <lb ed="#V" n="9"/>Damascenum lib. 2. c. 13.
+            Miseri<lb ed="#V" n="10" break="no"/>cordia est compassio de malo alieno; in
+            <lb ed="#V" n="11"/>Deo nulla est compassio, quia
+            nul<lb ed="#V" n="12" break="no"/>la passio; ergo.
+          </p>
+          <p>
+            <lb ed="#V" n="13"/>Praeterea misericors est
+            prom<lb ed="#V" n="14" break="no"/>ptus ad tollendum miseriam, et
+            <lb ed="#V" n="15"/>compatiendum; sed Deus non est
+            <lb ed="#V" n="16"/>sic promptus, quia cum posset
+            om<lb ed="#V" n="17" break="no"/>nem tollere, omnem tolleret.
+          </p>
+          <p>
+            <lb ed="#V" n="18"/>Oppositum in Psal. 102
+            Longani<lb ed="#V" n="19" break="no"/>mis et multum misericors.
+          </p>
+          <p>
+            <lb ed="#V" n="20"/>SCHOLIUM.
+            <lb ed="#V" n="21"/>Misericordiam ut dicit nolitionem miseriae
+            <lb ed="#V" n="22"/>esse in Deo, non tamen ut dicit
+            compassi<lb ed="#V" n="23" break="no"/>onem, quia passionum non est capax.
+          </p>
+          <p>
+            <lb ed="#V" n="24"/>(a) Respondeo, misericordia in
+            <lb ed="#V" n="25"/>nobis est habitus, vel
+            qualitercum<lb ed="#V" n="26" break="no"/>que dicatur, forma, qua nolumus
+            <lb ed="#V" n="27"/>miseriam alterius, ita quod primo
+            <lb ed="#V" n="28"/>inclinat ad actum nolendi miseriam
+            <lb ed="#V" n="29"/>in alio, et hoc vel futuram, et tunc
+            <lb ed="#V" n="30"/>praeservat ab illa, si potest, vel
+            <lb ed="#V" n="31"/>praesentem, et nunc relevat a
+            mi<lb ed="#V" n="32" break="no"/>seria si potest; et ex consequenti,
+            <lb ed="#V" n="33"/>post operationem disponit ad
+            pas<lb ed="#V" n="34" break="no"/>sionem, scilicet displicentiam de
+            <lb ed="#V" n="35"/>miseria imminente vel praesente.
+          </p>
+          <p>
+            <lb ed="#V" n="36"/>Quantum ad secundum, prout
+            <lb ed="#V" n="37"/>scilicet misericordia inclinat ad
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="38"/>passionem illam, non est in Deo;
+            <lb ed="#V" n="39"/>et ab illo videtur imponi
+            principa<lb ed="#V" n="40" break="no"/>liter nomen misericordiae, exponendo
+            <lb ed="#V" n="41"/>misericors et ymologice, id est,
+            mise<lb ed="#V" n="42" break="no"/>rum cor habens, quia compatiens
+            <lb ed="#V" n="43"/>miseriae alienae in hoc habet cor
+            <lb ed="#V" n="44"/>miserum, hoc est communicans in
+            <lb ed="#V" n="45"/>miseria.
+          </p>
+          <p>
+            <lb ed="#V" n="46"/>(b) Sed quantum ad istam
+            opera<lb ed="#V" n="47" break="no"/>tionem nolendi miseriam, sive
+            im<lb ed="#V" n="48" break="no"/>minentem, sive praesentem,
+            misc<lb ed="#V" n="49" break="no"/>ricordia proprie in Deo est. Quod
+            <lb ed="#V" n="50"/>probatur de imminente, quia sicut
+            <lb ed="#V" n="51"/>nullum bonum evenit, nisi volente
+            <lb ed="#V" n="52"/>Deo, ita nihil prohibetur ne
+            eve<lb ed="#V" n="53" break="no"/>niat nisi Deo nolente; multae
+            au<lb ed="#V" n="54" break="no"/>tem miseriae possibiles evenire
+            <lb ed="#V" n="55"/>alicui prohibentur, ne eveniant;
+            <lb ed="#V" n="56"/>ergo Deus habet nolle respectu
+            <lb ed="#V" n="57"/>illarum. Consimiliter de miseria
+            <lb ed="#V" n="58"/>praesente, quia nulla miseria
+            tolli<lb ed="#V" n="59" break="no"/>tur, nisi Deo nolente illam inesse;
+            <lb ed="#V" n="60"/>multae autem frequenter tolluntur;
+            <lb ed="#V" n="61"/>ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="62"/>(c) De hac misericordia posset
+            <lb ed="#V" n="63"/>distingui, sicut de nolle miseriaml
+            <lb ed="#V" n="64"/>inesse, quia sicut distinguit
+            Au<lb ed="#V" n="65" break="no"/>gustinus in Deo velle antecedens et
+            <lb ed="#V" n="66"/>consequens, ita posset distingui
+            <lb ed="#V" n="67"/>in eo duplex nolle respectu
+            mise<lb ed="#V" n="68" break="no"/>riae; et sicut semper habet velle
+            <lb ed="#V" n="69"/>antecedens respectu boni creaturae,
+            <lb ed="#V" n="70"/>ita semper habet nolle antecedens
+            <lb ed="#V" n="71"/>respectu mali creaturae prohibendi
+            <lb ed="#V" n="72"/>vel tollendi, juxta illud Apostoli 1.
+            <lb ed="#V" n="73"/>ad Tim. 2. Vult omnes homines salvos
+            <lb ed="#V" n="74"/>fieri. Sed sicut non habet semper
+            <lb ed="#V" n="75"/>velle consequens respectu boni, ita
+            <lb ed="#V" n="76"/>nec nolle consequens respectu mali
+            <lb ed="#V" n="77"/>amovendi. Primum autem nolle non
+            <lb ed="#V" n="78"/>est misericordis, sed secundum.
+          </p>
+          <p>
+            <lb ed="#V" n="79"/>(d) Et illud potest distingui in
+            <lb ed="#V" n="80"/>hoc, quod vel habet nolle respectu
+            <lb ed="#V" n="81"/>mali imminentis totaliter vel
+            par<pb ed="#V" n="443"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>tialiter. Si primo modo, dicitur
+            <lb ed="#V" n="2"/>misericordia liberans, quae scilicet
+            <lb ed="#V" n="3"/>excludit omne malum, vel
+            immi<lb ed="#V" n="4" break="no"/>nens, vel jam praesens. Secundo
+            <lb ed="#V" n="5"/>modo dicitur misericordia parcens
+            <lb ed="#V" n="6"/>vel mitigans, quae scilicet non
+            to<lb ed="#V" n="7" break="no"/>tum malum excludit, sed aliquam
+            <lb ed="#V" n="8"/>partem mali debiti isti secundum
+            <lb ed="#V" n="9"/>merita sua. Utroque autem modo
+            <lb ed="#V" n="10"/>misericordia est in Deo, quia vel
+            <lb ed="#V" n="11"/>subvenit quibusdam omnem
+            mise<lb ed="#V" n="12" break="no"/>riam imminentem prohibendo, vel
+            <lb ed="#V" n="13"/>praesentem relevando; aliis autem
+            <lb ed="#V" n="14"/>partem miseriae debitam
+            dimit<lb ed="#V" n="15" break="no"/>tendo.
+          </p>
+          <p>
+            <lb ed="#V" n="16"/>(e) Ad argumenta. Ad primum
+            pa<lb ed="#V" n="17" break="no"/>tet quod illa descriptio
+            misericor<lb ed="#V" n="18" break="no"/>diae est quantum ad effectum ejus
+            <lb ed="#V" n="19"/>remotum vel ultimum, scilicet
+            pas<lb ed="#V" n="20" break="no"/>« sionem ordinatam compatiendi,
+            <lb ed="#V" n="21"/>sequentem ex actione ordinata
+            <lb ed="#V" n="22"/>nolendi malum proximo; sed
+            quan<lb ed="#V" n="23" break="no"/>tum ad illum effectum remotum,
+            <lb ed="#V" n="24"/>concessum est misericordiam non
+            <lb ed="#V" n="25"/>esse in Deo, sed tantum quantum ad
+            <lb ed="#V" n="26"/>proximum, qui est nolle miseriam
+            <lb ed="#V" n="27"/>inesse.
+          </p>
+          <p>
+            <lb ed="#V" n="28"/>(f) Ad secundum, misericors non
+            <lb ed="#V" n="29"/>infligit miseriam, nisi secundum
+            <lb ed="#V" n="30"/>rectam rationem; nunc autem
+            re<lb ed="#V" n="31" break="no"/>cta ratio aliquando dictat
+            mise<lb ed="#V" n="32" break="no"/>riam aliquibus infligendam, ut
+            se<lb ed="#V" n="33" break="no"/>cundum aliquos appareat justitia,
+            <lb ed="#V" n="34"/>ut in damnatione reproborum; et
+            <lb ed="#V" n="35"/>ideo non infligit ille poenam, nec
+            <lb ed="#V" n="36"/>permittit, nisi eo modo quo eam
+            <lb ed="#V" n="37"/>infligi statuit cum misericordia,
+            <lb ed="#V" n="38"/>vel cum dictamine rectae
+            rati<lb ed="#V" n="39" break="no"/>onis.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

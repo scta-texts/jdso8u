@@ -1,0 +1,945 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 44, Pars 2, Quaestio 1</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 44, Pars 2, Quaestio 1</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x20">Vives, Paris, 1894, volume 20</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="208"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e4889"><!-- jdso8u-b4d44p2q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum ignis infernalis cruciet malignos spiritus</head>
+        <!-- <div alias="scotus-d44q2-p1"> -->
+          <p>
+            <lb ed="#V" n="6" type="fixed=208"/>QUAESTIO II.
+            <lb ed="#V" n="7"/>Utrum ignis infernalis cruciet malignos
+            <lb ed="#V" n="8"/>spiritus?
+          </p>
+          <p>
+            <lb ed="#V" n="9"/>D. Thom. in addit. quaest. 97. art. 1. et 4. dist.
+            <lb ed="#V" n="10"/>50. quaest. 2. art. 3. D. Bonavent. hic 2. part.
+            <lb ed="#V" n="11"/>3. quaest. 2. Richard. art. 2. quaest. 6. et 9.
+            <lb ed="#V" n="12"/>Durand. quaest. 10. Gabr. quaest. 3. art. 2.
+            <lb ed="#V" n="13"/>Vasq. 1. p. disp. 243. Vide Scot. in Theor. S
+            <lb ed="#V" n="14"/>Omne agens est praestantius.
+          </p>
+          <p>
+            <lb ed="#V" n="15"/>(a) Circa istam secundam
+            par<lb ed="#V" n="16" break="no"/>tem hujus distinctionis, quaero
+            <lb ed="#V" n="17"/>primo: Utrum ignis infernalis
+            <lb ed="#V" n="18"/>cruciet malignos spiritus? Quod
+            <lb ed="#V" n="19"/>non, Augustinus 12. super Gen.
+            <lb ed="#V" n="20"/>arguit ex intentione sic: Agens est
+            <lb ed="#V" n="21"/>proestantius patiente; corpus autem non
+            <lb ed="#V" n="22"/>est proestantius spiritu, sed e converso;
+            <lb ed="#V" n="23"/>ergo nullum corpus agit in spiritum.
+          </p>
+          <p>
+            <lb ed="#V" n="24"/>Praeterea, secundum ipsum
+            ibi<lb ed="#V" n="25" break="no"/>dem, non sunt corporalia, sed
+            <lb ed="#V" n="26"/>corporalibus similia, quibus
+            ani<lb ed="#V" n="27" break="no"/>mae exutae afficiuntur; ergo non
+            <lb ed="#V" n="28"/>afficiuntur poena corporea.
+          </p>
+          <p>
+            <lb ed="#V" n="29"/>Praeterea, 1. de Generat, corpus
+            <lb ed="#V" n="30"/>non agit, nisi per contactum;
+            <lb ed="#V" n="31"/>corpus autem non potest tangere
+            <lb ed="#V" n="32"/>spiritum, quia illa tangunt se,
+            <lb ed="#V" n="33"/>quorum ultima sunt simul;
+            spiri<lb ed="#V" n="34" break="no"/>tus non habet ultimum. Et
+            confir<lb ed="#V" n="35" break="no"/>matur istud per Philosophum 7.
+            <lb ed="#V" n="36"/>Phys. ubi vult quod agens et
+            <lb ed="#V" n="37"/>patiens oportet esse simul, et
+            <lb ed="#V" n="38"/>nihil horum medium; spiritus
+            <lb ed="#V" n="39"/>autem non potest esse simul cum
+            <lb ed="#V" n="40"/>corpore, quia respectu corporis
+            <lb ed="#V" n="41"/>quasi non est in loco.
+          </p>
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="42"/>Praeterea, 1. de Generatione, agens
+            <lb ed="#V" n="43"/>intendit sibi assimilare passum;
+            <lb ed="#V" n="44"/>sed corpus non potest sibi
+            assi<lb ed="#V" n="45" break="no"/>milare spiritum, quia tunc
+            spiri<lb ed="#V" n="46" break="no"/>tus esset capax alicujus formae,
+            <lb ed="#V" n="47"/>in qua assimilaretur corpori.
+          </p>
+          <p>
+            <lb ed="#V" n="48"/>Oppositum Matth. 25. Ite
+            maledi<lb ed="#V" n="49" break="no"/>cti in ignem aeternum, qui paratus est
+            <lb ed="#V" n="50"/>Diabolo et Angelis ejus. Praeterea,
+            <lb ed="#V" n="51"/>Gregorius 4. Dialog. cap. 30. Si
+            <lb ed="#V" n="52"/>Diabolus, ejusque Angeli, cum sint
+            in<lb ed="#V" n="53" break="no"/>corporei, corporeo sunt igne cruciandi,
+            <lb ed="#V" n="54"/>quid mirum si animae, antequam
+            reci<lb ed="#V" n="55" break="no"/>piant corpora, possint corporea sentire
+            <lb ed="#V" n="56"/>tormenta? Praeterea, Augustinus 21.
+            <lb ed="#V" n="57"/>de civ. Dei. c. 10. Cur non dicamus
+            <lb ed="#V" n="58"/>quamvis miris, veris tamen modis,
+            spi<lb ed="#V" n="59" break="no"/>ritus incorporeos posse poena corporalis
+            <lb ed="#V" n="60"/>ignis affligi? Et istud probat ibi
+            <lb ed="#V" n="61"/>per hoc, quod spiritus hominum
+            <lb ed="#V" n="62"/>incorporei possunt, vel poterunt
+            <lb ed="#V" n="63"/>corporum suorum vinculis
+            inso<lb ed="#V" n="64" break="no"/>lubiliter alligari.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d44q2-p2"> -->
+          <p>
+            <lb ed="#V" n="76" type="fixed=208"/>SCHOLIUM.
+            <lb ed="#V" n="77"/>Sententia D. Thom. et AEgid. spiritum
+            <lb ed="#V" n="78"/>torqueri igne, quatenus eum apprehendit
+            <lb ed="#V" n="79"/>sibi disconvenientem. Hanc refutat Doctor
+            <lb ed="#V" n="80"/>ratione et auctoritate. Secunda sententia est
+            <lb ed="#V" n="81"/>Henrici, per habitum supernaturalem
+            spiri<pb ed="#V" n="209"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>tum subdi corporali agenti ut puniatur.
+            <lb ed="#V" n="2"/>Hanc rejicit triplici ratione.
+          </p>
+          <p>
+            <lb ed="#V" n="3"/>(b). Hic dicitur quod spiritus
+            <lb ed="#V" n="4"/>cruciatur igne, inquantum eum
+            <lb ed="#V" n="5"/>apprehendit sub ratione
+            disconve<lb ed="#V" n="6" break="no"/>nientis. Et confirmatur per
+            Gre<lb ed="#V" n="7" break="no"/>gorium Dial. 4. cap. Eo patitur, quo
+            <lb ed="#V" n="8"/>videt, et quia cremari se respicit,
+            crucia<lb ed="#V" n="9" break="no"/>tur. Ad possibilitatem hujus est
+            <lb ed="#V" n="10"/>Avicenna 9. Metaph. ubi
+            exemplifi<lb ed="#V" n="11" break="no"/>cat de somnio, quod aliquis magis
+            <lb ed="#V" n="12"/>cruciatur ex somnio ex tali
+            appre<lb ed="#V" n="13" break="no"/>hensione phantastica alicujus
+            dis<lb ed="#V" n="14" break="no"/>convenientis, quam affligeretur
+            <lb ed="#V" n="15"/>quandoque in vigilia ex praesentia
+            <lb ed="#V" n="16"/>ejusdem.
+          </p>
+          <p>
+            <lb ed="#V" n="17"/>Contra hoc, aut vera
+            apprehen<lb ed="#V" n="18" break="no"/>sione apprehendit ignem, ut
+            dis<lb ed="#V" n="19" break="no"/>convenientem sibi, aut falsa. Si
+            <lb ed="#V" n="20"/>vera, oporteret ponere modum
+            <lb ed="#V" n="21"/>illius disconvenientiae, qui non
+            <lb ed="#V" n="22"/>apparet possibilis, quia tanquam
+            <lb ed="#V" n="23"/>contrarium realiter corruptivum,
+            <lb ed="#V" n="24"/>nullo modo potest esse
+            disconve<lb ed="#V" n="25" break="no"/>niens, nec a ratione, nec a
+            volun<lb ed="#V" n="26" break="no"/>tate, quia objectum, ut objectum,
+            <lb ed="#V" n="27"/>est conveniens potentiae. Si falsa,
+            <lb ed="#V" n="28"/>sequitur primo, quod non ab igne,
+            <lb ed="#V" n="29"/>sed a sua falsa aestimatione
+            cru<lb ed="#V" n="30" break="no"/>ciatur, quod est inconveniens, quia
+            <lb ed="#V" n="31"/>sicut nullus falsa opinione est
+            <lb ed="#V" n="32"/>beatus, ita nullus est falsa
+            opini<lb ed="#V" n="33" break="no"/>one miser. Secundo, si illa falsa
+            <lb ed="#V" n="34"/>aestimatio est a Deo, Deus erit
+            <lb ed="#V" n="35"/>immediata causa deceptionis; si
+            <lb ed="#V" n="36"/>autem ab ipso Angelo, non
+            vide<lb ed="#V" n="37" break="no"/>tur probabile, quia secundum
+            Dio<lb ed="#V" n="38" break="no"/>nysium de divin, nom. Naturalia sunt
+            <lb ed="#V" n="39"/>in eis splendidissima; ergo possunt
+            <lb ed="#V" n="40"/>naturaliter apprehendere, quod
+            <lb ed="#V" n="41"/>ignis non est eis disconveniens.
+          </p>
+          <p>
+            <lb ed="#V" n="42"/>Praeterea, Gregorius ubi supra:
+            <lb ed="#V" n="43"/>Anima non solum videndo, sed etiam
+            <lb ed="#V" n="44"/>experiendo, incendium patitur.
+          </p>
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>(c) Aliter dicitur, quod spiritui
+            <lb ed="#V" n="46"/>datur quidam habitus
+            supernatu<lb ed="#V" n="47" break="no"/>ralis propter demeritum peccati,
+            <lb ed="#V" n="48"/>et per illum habitum subjicitur
+            <lb ed="#V" n="49"/>corporali agenti, ut possit ab eo
+            <lb ed="#V" n="50"/>pati.
+          </p>
+          <p>
+            <lb ed="#V" n="51"/>Contra hoc, aut ille habitus est
+            <lb ed="#V" n="52"/>forma corporalis aut spiritualis.
+            <lb ed="#V" n="53"/>Si corporalis, ita potest Deus dare
+            <lb ed="#V" n="54"/>illum habitum Angelo, ut inhaereat,
+            <lb ed="#V" n="55"/>sicut quod Angelus sit albus, vel
+            <lb ed="#V" n="56"/>lapis sapiens, quia aequalis est
+            <lb ed="#V" n="57"/>repugnantia utrobique
+            suscipien<lb ed="#V" n="58" break="no"/>tis ad susceptum. Si spiritualis,
+            <lb ed="#V" n="59"/>ergo non per illum magis est
+            pas<lb ed="#V" n="60" break="no"/>sum proportionatum corpori ut
+            <lb ed="#V" n="61"/>agenti quam prius.
+          </p>
+          <p>
+            <lb ed="#V" n="62"/>Praeterea, habitus non est quo
+            <lb ed="#V" n="63"/>simpliciter possumus, sed quo
+            ali<lb ed="#V" n="64" break="no"/>qualiter possumus; ergo in quo
+            <lb ed="#V" n="65"/>non est potentia simpliciter ad
+            <lb ed="#V" n="66"/>agere vel pati, in eo non est
+            poten<lb ed="#V" n="67" break="no"/>tia ad sic agere vel pati; sed in
+            <lb ed="#V" n="68"/>natura illa non est sufficienter
+            <lb ed="#V" n="69"/>potentia ad pati, nec ille habitus
+            <lb ed="#V" n="70"/>potest dare posse, quia non est
+            <lb ed="#V" n="71"/>potentia.
+          </p>
+          <p>
+            <lb ed="#V" n="72"/>Praeterea, illa poena reciperetur
+            <lb ed="#V" n="73"/>immediate in illo habitu tanquam
+            <lb ed="#V" n="74"/>in proximo receptivo, imo nec
+            me<lb ed="#V" n="75" break="no"/>diate in ipsa natura Angeli, si
+            re<lb ed="#V" n="76" break="no"/>pugnat illi naturae; et si detur
+            <lb ed="#V" n="77"/>primum, sequitur quod ille habitus
+            <lb ed="#V" n="78"/>separatus ab Angelo posset puniri
+            <lb ed="#V" n="79"/>eadem poena; si secundum,
+            sequi<lb ed="#V" n="80" break="no"/>tur quod nullo modo Angelus
+            puni<lb ed="#V" n="81" break="no"/>tur, sed tantum ille habitus.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d44q2-p3"> -->
+          <p>
+            <lb ed="#V" n="60" type="fixed=216"/>SCHOLIUM.
+            <lb ed="#V" n="61"/>Posita definitione doloris, et ejus
+            differen<lb ed="#V" n="62" break="no"/>tia a tristitia, et ostenso quod est ejus et
+            sen<lb ed="#V" n="63" break="no"/>sationum subjectum, definit tristitiam, et in
+            <lb ed="#V" n="64"/>spiritu ostendit non esse ex falsa
+            apprehen<lb ed="#V" n="65" break="no"/>sione, sed ex vera existentia objecti noliti;
+            <lb ed="#V" n="66"/>hoc autem objectum in proposito est ignis.
+            <lb ed="#V" n="67"/>Primo, ut detinens; secundo, ut objective
+            <lb ed="#V" n="68"/>immutans spiritum. Explicat quomodo
+            spi<lb ed="#V" n="69" break="no"/>ritus nolens detinetur in igne a Deo
+            effecti<lb ed="#V" n="70" break="no"/>ve, et ab igne formaliter, unde provenit ejus
+            <lb ed="#V" n="71"/>tristitia, cujus immediata causa est ipsa
+            <lb ed="#V" n="72"/>ignis detinentia nolita.
+          </p>
+          <p>
+            <lb ed="#V" n="73"/>(d) Ad quaestionem dico, quod
+            se<lb ed="#V" n="74" break="no"/>cundum Augustinum 14. de
+            Civi<lb ed="#V" n="75" break="no"/>tat. Dei cap. 15. Dolor carnis
+            tantum<lb ed="#V" n="76" break="no"/>modo est offensio animae ex carne, et
+            <lb ed="#V" n="77"/>quaedam ab ejus passione dissensio, sicut
+            <lb ed="#V" n="78"/>animae dolor, qui nuncupatur tristitia,
+            <lb ed="#V" n="79"/>est ab his rebus quae nobis nolentibus
+            <lb ed="#V" n="80"/>accidunt. Ex hoc apparet, quod
+            do<lb ed="#V" n="81" break="no"/>lor est passio consequens
+            appre<lb ed="#V" n="82" break="no"/>hensionem sensitivam, et in
+            appe<lb ed="#V" n="83" break="no"/>titu sensitivo; tristitia autem est
+            <lb ed="#V" n="84"/>proprie in appetitu intellectivo,
+            <lb ed="#V" n="85"/>aut in voluntate, et consequens
+            <lb ed="#V" n="86"/>apprehensionem eventus alicujus
+            <lb ed="#V" n="87"/>objecti noliti.
+          </p>
+          <p>
+            <pb ed="#V" n="217"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Primum, scilicet dolorem
+            pro<lb ed="#V" n="2" break="no"/>prie dictum, non oportet quaerere
+            <lb ed="#V" n="3"/>in spiritibus, sive Angelis sive
+            <lb ed="#V" n="4"/>animabus separatis, nisi fingatur
+            <lb ed="#V" n="5"/>quod in spiritu separato sit
+            appe<lb ed="#V" n="6" break="no"/>titus sensitivus, et pari ratione
+            sen<lb ed="#V" n="7" break="no"/>sus; et tunc etiam possit inesse sibi
+            <lb ed="#V" n="8"/>passio, tam secundum appetitum
+            <lb ed="#V" n="9"/>illum, quam secundum sensum.
+            <lb ed="#V" n="10"/>quod trufaticum est secundum
+            <lb ed="#V" n="11"/>Aristotelem 1. de Anima: Nihil
+            <lb ed="#V" n="12"/>aliud est dicere animam tristari vel
+            <lb ed="#V" n="13"/>gaudere, quam texere vel cedificare;
+            <lb ed="#V" n="14"/>quod utique verum est prout sunt
+            <lb ed="#V" n="15"/>passiones appetitus sensitivi, quia
+            <lb ed="#V" n="16"/>illae sunt passiones totius
+            conjun<lb ed="#V" n="17" break="no"/>cti, sicut et sentire, ad quod
+            conse<lb ed="#V" n="18" break="no"/>quitur passio; est ergo totius
+            con<lb ed="#V" n="19" break="no"/>juncti ex libro de Sensu et de Somno.
+          </p>
+          <p>
+            <lb ed="#V" n="20"/>Nec tamen nego in anima
+            sepa<lb ed="#V" n="21" break="no"/>rata esse illam perfectionem, quae
+            <lb ed="#V" n="22"/>est completiva in ratione potentiae
+            <lb ed="#V" n="23"/>sensitivae, nam illa non est aliud ab
+            <lb ed="#V" n="24"/>ipsa essentia animae intellectivae,
+            <lb ed="#V" n="25"/>tenendo quod tenui 2. lib dist. 16.
+            <lb ed="#V" n="26"/>quod principia operandi ex parte
+            <lb ed="#V" n="27"/>animae non sunt accidentia animae.
+            <lb ed="#V" n="28"/>Sed illa perfectio, quae est in
+            ani<lb ed="#V" n="29" break="no"/>ma, imo est realiter ipsa natura
+            <lb ed="#V" n="30"/>animae, non est in potentia visiva vel
+            <lb ed="#V" n="31"/>auditiva, nisi partialiter. Sed
+            pro<lb ed="#V" n="32" break="no"/>pria potentia visiva est quoddam
+            <lb ed="#V" n="33"/>essentialiter includens illam
+            per<lb ed="#V" n="34" break="no"/>fectionem animae, et aliam
+            perfe<lb ed="#V" n="35" break="no"/>ctionem corporis mixti,
+            corres<lb ed="#V" n="36" break="no"/>pondentem isti ad operationem
+            <lb ed="#V" n="37"/>communem; et eodem modo ipsa
+            <lb ed="#V" n="38"/>sensatio est primo totius
+            conjun<lb ed="#V" n="39" break="no"/>cti ex istis duobus, ita quod
+            pro<lb ed="#V" n="40" break="no"/>ximum susceptivum, et ratio
+            sus<lb ed="#V" n="41" break="no"/>cipiendi non est in anima, vel
+            ali<lb ed="#V" n="42" break="no"/>quid quod praecise est in anima,
+            <lb ed="#V" n="43"/>nec forma mixtionis in organo,
+            <lb ed="#V" n="44"/>sed forma totius compositi ex
+            cor<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>pore mixto et anima, et talis
+            per<lb ed="#V" n="46" break="no"/>fectio est proxima ratio recipiendi
+            <lb ed="#V" n="47"/>sensationem; et ideo illa forma
+            to<lb ed="#V" n="48" break="no"/>talis est potentia sensitiva, nec
+            <lb ed="#V" n="49"/>una pars ejus, scilicet forma
+            mix<lb ed="#V" n="50" break="no"/>ti, nec alia, scilicet forma animae
+            <lb ed="#V" n="51"/>intellectivae; ergo de dolore, ut
+            <lb ed="#V" n="52"/>distinguitur a tristitia, non
+            opor<lb ed="#V" n="53" break="no"/>tet quaerere causam, nec in spiritu
+            <lb ed="#V" n="54"/>separato, nec in anima separata,
+            <lb ed="#V" n="55"/>quia non potest esse ibi.
+          </p>
+          <p>
+            <lb ed="#V" n="56"/>De tristitia videamus. Dico quod
+            <lb ed="#V" n="57"/>cum sit in voluntate ex
+            apprehen<lb ed="#V" n="58" break="no"/>sione existentiae objecti
+            disconve<lb ed="#V" n="59" break="no"/>nientis secundum rationem, vel
+            <lb ed="#V" n="60"/>oportet quaerere objectum, quod
+            <lb ed="#V" n="61"/>statim ostendatur ut disconveniens
+            <lb ed="#V" n="62"/>per rationem, et tamen positum;
+            <lb ed="#V" n="63"/>vel si non potest statim
+            os<lb ed="#V" n="64" break="no"/>tendi ut disconveniens, nisi a
+            rati<lb ed="#V" n="65" break="no"/>one errante, quia non esset
+            discon<lb ed="#V" n="66" break="no"/>veniens Michaeli, et non videtur
+            <lb ed="#V" n="67"/>rationabile, quod illa afflictio
+            se<lb ed="#V" n="68" break="no"/>quatur apprehensionem
+            errone<lb ed="#V" n="69" break="no"/>am, oportet invenire ibi objectum
+            <lb ed="#V" n="70"/>disconveniens secundum rationem
+            <lb ed="#V" n="71"/>et nolitum, et tamen positum.
+          </p>
+          <p>
+            <lb ed="#V" n="72"/>(e) Dico autem quod ignis ille
+            <lb ed="#V" n="73"/>est objectum sic disconveniens, et
+            <lb ed="#V" n="74"/>hoc dupliciter: Primo ut detinens
+            <lb ed="#V" n="75"/>spiritum definitive; secundo ut
+            <lb ed="#V" n="76"/>immutans objective.
+          </p>
+          <p>
+            <lb ed="#V" n="77"/>(f) De primo, nullum corpus ut
+            <lb ed="#V" n="78"/>locans est locato disconveniens,
+            ni<lb ed="#V" n="79" break="no"/>si quia aliud corpus est sibi
+            conve<lb ed="#V" n="80" break="no"/>niens; spiritus autem, sicut cum
+            <lb ed="#V" n="81"/>nullo corpore habet naturalem
+            <lb ed="#V" n="82"/>convenientiam, quia tunc illud
+            es<lb ed="#V" n="83" break="no"/>set naturale salvativum ejus, ita
+            <lb ed="#V" n="84"/>ad nullum corpus habet naturalem
+            <lb ed="#V" n="85"/>disconvenientiam, propter quam
+            <lb ed="#V" n="86"/>detineri ibi sit naturae suae
+            discon<lb ed="#V" n="87" break="no"/>veniens. Unde si Michael
+            cuicum<lb ed="#V" n="88" break="no"/>que corpori esset ex praecepto
+            divi<pb ed="#V" n="218"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>no conjunctus localiter, definitive
+            <lb ed="#V" n="2"/>etiam perpetuo, et hoc
+            apprehen<lb ed="#V" n="3" break="no"/>deret, nullo modo apprehenderet
+            <lb ed="#V" n="4"/>ut disconveniens, nec ut materiam
+            <lb ed="#V" n="5"/>tristitiae; ergo ad habendum
+            tri<lb ed="#V" n="6" break="no"/>stitiam de igne detinente, oportet
+            <lb ed="#V" n="7"/>ut inveniatur primo ratio noliti.
+          </p>
+          <p>
+            <lb ed="#V" n="8"/>Sic Angelus malus habet nolle
+            <lb ed="#V" n="9"/>detineri perpetuo ab igne, et
+            spe<lb ed="#V" n="10" break="no"/>cialiter sub ista ratione ex
+            senten<lb ed="#V" n="11" break="no"/>tia divina, vel voluntate divina illic
+            <lb ed="#V" n="12"/>effective detinente; et ad istud nolle
+            <lb ed="#V" n="13"/>inclinat affectio commodi,
+            secun<lb ed="#V" n="14" break="no"/>dum quam appetit liberum usum
+            <lb ed="#V" n="15"/>potentiae, ut sicut natura sua est
+            <lb ed="#V" n="16"/>indifferens ad quodcumque corpus,
+            <lb ed="#V" n="17"/>sic posset se facere praesentem
+            <lb ed="#V" n="18"/>cuicumque corpori. Promovet
+            au<lb ed="#V" n="19" break="no"/>tem superbia, propter quam
+            appe<lb ed="#V" n="20" break="no"/>tit uti propria potestate;
+            consum<lb ed="#V" n="21" break="no"/>mat invidia, propter quam
+            nun<lb ed="#V" n="22" break="no"/>quam vellet determinate esse
+            pro<lb ed="#V" n="23" break="no"/>pter sententiam vel actionem
+            divi<lb ed="#V" n="24" break="no"/>nam. Istud nolle praecedit detentio
+            <lb ed="#V" n="25"/>et apprehensio detentionis; isto
+            <lb ed="#V" n="26"/>autem nolle, licet inordinate posito
+            <lb ed="#V" n="27"/>in voluntate ejus, sequitur
+            appre<lb ed="#V" n="28" break="no"/>hensio certa de eventu istius
+            noli<lb ed="#V" n="29" break="no"/>ti; et ex hoc tertio vel quinto,
+            com<lb ed="#V" n="30" break="no"/>putando ista duo quae praecedunt
+            <lb ed="#V" n="31"/>nolle, sequitur tristitia.
+          </p>
+          <p>
+            <lb ed="#V" n="32"/>Si quaeras, numquid illam
+            tristi<lb ed="#V" n="33" break="no"/>tiam effective causat ignis
+            deti<lb ed="#V" n="34" break="no"/>nens? respondeo, ignis non
+            deti<lb ed="#V" n="35" break="no"/>net spiritum effective, quia quod
+            <lb ed="#V" n="36"/>non locat aliquid effective, nec
+            im<lb ed="#V" n="37" break="no"/>pedit ipsum amoveri ab hoc loco,
+            <lb ed="#V" n="38"/>non detinet ipsum; haec domus
+            <lb ed="#V" n="39"/>quidem non detinet me effective
+            <lb ed="#V" n="40"/>quantum ad primum, quia non
+            lo<lb ed="#V" n="41" break="no"/>cat me effective, tamen impedit
+            <lb ed="#V" n="42"/>me moveri ad alium locum, et ideo
+            <lb ed="#V" n="43"/>potest dici quodammodo effective
+            <lb ed="#V" n="44"/>me detinere, sicut prohibens aliam
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>detentionem formalem; unde locus
+            <lb ed="#V" n="46"/>formaliter me continet et locat,
+            <lb ed="#V" n="47"/>non autem effective.
+          </p>
+          <p>
+            <lb ed="#V" n="48"/>Sed neutro modo potest aliquis
+            <lb ed="#V" n="49"/>locus corporalis detinere
+            Ange<lb ed="#V" n="50" break="no"/>lum, ergo tantummodo ille ignis
+            <lb ed="#V" n="51"/>formaliter detinet, ita quod nulla
+            <lb ed="#V" n="52"/>est detentio ignis pertinens ad
+            ge<lb ed="#V" n="53" break="no"/>nus Actionis, sed tantummodo
+            res<lb ed="#V" n="54" break="no"/>pectus extrinsecus adveniens
+            redu<lb ed="#V" n="55" break="no"/>cibilis ad genus ubi; detinens
+            au<lb ed="#V" n="56" break="no"/>tem active, sive primo modo, quia
+            <lb ed="#V" n="57"/>determinans active ad locum
+            il<lb ed="#V" n="58" break="no"/>lum; sive secundo modo, quia
+            pro<lb ed="#V" n="59" break="no"/>hibens ab illo loco ad alium locum,
+            <lb ed="#V" n="60"/>Deus est immediate, quia contra
+            <lb ed="#V" n="61"/>voluntatem Angeli non habentis
+            <lb ed="#V" n="62"/>saltem Angelum superiorem, non
+            <lb ed="#V" n="63"/>posset fieri sic detentio nisi a Deo
+            <lb ed="#V" n="64"/>immediate.
+          </p>
+          <p>
+            <lb ed="#V" n="65"/>Sed ulterius Angelus non tantum
+            <lb ed="#V" n="66"/>odit detentionem activam Dei, et
+            <lb ed="#V" n="67"/>suam passivam a Deo, sed odit
+            de<lb ed="#V" n="68" break="no"/>tentionem formalem perpetuam
+            <lb ed="#V" n="69"/>ab illo igne, nec tantum
+            apprehen<lb ed="#V" n="70" break="no"/>dit illam detentionem activam vel
+            <lb ed="#V" n="71"/>passivam ut positam vel
+            continu<lb ed="#V" n="72" break="no"/>andam, sed illam detentionem
+            for<lb ed="#V" n="73" break="no"/>malem, et per consequens de illa
+            <lb ed="#V" n="74"/>detentione formali tristatur.
+            Obje<lb ed="#V" n="75" break="no"/>ctum autem tristabile proprie
+            cau<lb ed="#V" n="76" break="no"/>sa est ipsius tristitiae, quia non
+            <lb ed="#V" n="77"/>voluntas immediate, tunc enim
+            <lb ed="#V" n="78"/>esset in potestate ejus immediate
+            <lb ed="#V" n="79"/>tristari vel non tristari, quod non
+            <lb ed="#V" n="80"/>est verum, posita nolitione et
+            ap<lb ed="#V" n="81" break="no"/>prehensione noliti, ita quod
+            deten<lb ed="#V" n="82" break="no"/>tio illa formalis, vel ignis ille
+            deti<lb ed="#V" n="83" break="no"/>nens formaliter effective
+            constri<lb ed="#V" n="84" break="no"/>stat; et sic ultra, cum tristari sit
+            <lb ed="#V" n="85"/>formaliter cruciari eo modo quo
+            <lb ed="#V" n="86"/>possibile est spiritum cruciari,
+            se<lb ed="#V" n="87" break="no"/>quitur quod ignis, ut formaliter
+            de<lb ed="#V" n="88" break="no"/>tinens spiritum, effective cruciat; et
+            <pb ed="#V" n="219"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>secundum illum modum potest
+            sal<lb ed="#V" n="2" break="no"/>vari dictum illud quo modo ignis
+            <lb ed="#V" n="3"/>est instrumentum Dei cruciando,
+            <lb ed="#V" n="4"/>quia principalius odit detentionem
+            <lb ed="#V" n="5"/>activam Dei, et suam passionem a
+            <lb ed="#V" n="6"/>Deo, quam detentionem illam
+            for<lb ed="#V" n="7" break="no"/>malem ignis, quia secundam non
+            <lb ed="#V" n="8"/>odit, nisi in ordine ad primam; et
+            <lb ed="#V" n="9"/>ita quod affligit objective, in
+            se<lb ed="#V" n="10" break="no"/>cundo affligit in virtute primi, et
+            <lb ed="#V" n="11"/>ita instrumentaliter. Nec sequitur,
+            <lb ed="#V" n="12"/>ignis non detinet effective, sed
+            tan<lb ed="#V" n="13" break="no"/>tum formaliter; ergo non affligit
+            <lb ed="#V" n="14"/>effective, quia ipsum, ut detinens
+            <lb ed="#V" n="15"/>formaliter, est objectum nolitum et
+            <lb ed="#V" n="16"/>apprehensum ut positum, et ideo
+            <lb ed="#V" n="17"/>effective infert tristitiam.
+          </p>
+          <p>
+            <lb ed="#V" n="18"/>Si dicas, hoc est non tantum quia
+            <lb ed="#V" n="19"/>nolitum, sed quia objectum est
+            se<lb ed="#V" n="20" break="no"/>cundum se disconveniens, quia
+            <lb ed="#V" n="21"/>spiritui convenit libertas ac
+            indif<lb ed="#V" n="22" break="no"/>ferentia ad quemcumque locum
+            <lb ed="#V" n="23"/>corporalem; ergo antecedens est
+            <lb ed="#V" n="24"/>falsum, ut dictum est supra de
+            Mi<lb ed="#V" n="25" break="no"/>chaele, si apprehenderet se
+            perpe<lb ed="#V" n="26" break="no"/>tuo determinari ad certum locum
+            <lb ed="#V" n="27"/>unum a sententia divina, non
+            trista<lb ed="#V" n="28" break="no"/>retur, quia etsi in eo sit libertas
+            <lb ed="#V" n="29"/>vel indifferentia ad loca, non
+            ta<lb ed="#V" n="30" break="no"/>men ad illa, ut in actu tanquam
+            <lb ed="#V" n="31"/>perfectio naturalis, quia sicut nec
+            <lb ed="#V" n="32"/>unus locus, ita nec indifferentia ad
+            <lb ed="#V" n="33"/>quaecumque loca naturaliter
+            perfi<lb ed="#V" n="34" break="no"/>.cit Angelum; et ideo determinatio
+            <lb ed="#V" n="35"/>ad unum non est contra naturalem
+            <lb ed="#V" n="36"/>inclinationem Angeli.
+          </p>
+          <p>
+            <lb ed="#V" n="37"/>Exemplum illius modi tristandi
+            <lb ed="#V" n="38"/>potest esse in hominibus
+            deside<lb ed="#V" n="39" break="no"/>rantibus mori, quibus tristis est
+            <lb ed="#V" n="40"/>vita. Hoc modo odiunt animam in
+            <lb ed="#V" n="41"/>corpore suo esse usque ad instans
+            <lb ed="#V" n="42"/>mortis naturalis, propter alicuod
+            <lb ed="#V" n="43"/>odibile concomitans vitam
+            morta<lb ed="#V" n="44" break="no"/>lem; et secundo apprehendunt
+            is<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>tud nolitum fore; et ideo tertio
+            <lb ed="#V" n="46"/>sequitur tristitia de detentione
+            ani<lb ed="#V" n="47" break="no"/>mae in corpore seu de corpore, ut
+            <lb ed="#V" n="48"/>detinente animam, non quod
+            cor<lb ed="#V" n="49" break="no"/>pus detineat effective animam, sed
+            <lb ed="#V" n="50"/>quomodocumque, ut susceptivum
+            <lb ed="#V" n="51"/>formae, et ut sic detinet, est
+            obje<lb ed="#V" n="52" break="no"/>ctum nolitum, et ut sic
+            apprehen<lb ed="#V" n="53" break="no"/>sum effective contristat; et istud
+            <lb ed="#V" n="54"/>haberi potest a Gregorio Dialog.
+            <lb ed="#V" n="55"/>4. Si viventis hominis spiritus
+            incorpo<lb ed="#V" n="56" break="no"/>reus tenetur in corpore, cur non post
+            <lb ed="#V" n="57"/>mortem incorporeus spiritus corporeo
+            <lb ed="#V" n="58"/>igne tenetur? Et Augustinus 21. de
+            <lb ed="#V" n="59"/>Civit. Dei cap. 10. Si spiritus
+            homi<lb ed="#V" n="60" break="no"/>num profecto incorporei, et nunc
+            potu<lb ed="#V" n="61" break="no"/>erunt includi corporalibus membris, et
+            <lb ed="#V" n="62"/>tunc poterunt corporum suorum vinculis
+            <lb ed="#V" n="63"/>insolubiliter alligari.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d44q2-p4"> -->
+          <p>
+            <lb ed="#V" n="59" type="fixed=229"/>SCHOLIUM.
+            <lb ed="#V" n="60"/>Ostendit quomodo intellectus Angeli
+            per<lb ed="#V" n="61" break="no"/>petuo determinatur ab igne objective, et
+            <lb ed="#V" n="62"/>quomodo hoc nolitum causat tristitiam, quod
+            <lb ed="#V" n="63"/>eodem fere modo intelligitur, ac detinentia
+            <lb ed="#V" n="64"/>ignis localis, de qua dictum est. Differunt
+            <lb ed="#V" n="65"/>tamen in aliquibus, quae bene explicat
+            Do<lb ed="#V" n="66" break="no"/>ctor, qui convenit in hac quaest. cum
+            <lb ed="#V" n="67"/>D. Thom. 1. part. quaest. 64. a. 4. et clarius
+            <lb ed="#V" n="68"/>4. contra Gent. c. 90. D. Bonavent. hic part.
+            <lb ed="#V" n="69"/>2. art. 3. quaest. 2. Durand. quaest. ult.
+            <lb ed="#V" n="70"/>Palud. quaest. 7. Major q. 6. Gabr. q. 3. a. 2.
+            <lb ed="#V" n="71"/>Vasq. 1. p. d. 243. c. 6. Differt tamen a
+            <lb ed="#V" n="72"/>D. Thom. quod non putat ignem ullo modo
+            <lb ed="#V" n="73"/>physice detinere spiritum localiter. D. Thom.
+            <lb ed="#V" n="74"/>putat quod sic instrumentaliter, contra quod
+            <lb ed="#V" n="75"/>faciunt omnia, quibus impugnatur
+            efficien<lb ed="#V" n="76" break="no"/>tia physica Sacramentorum, de quo supra
+            <lb ed="#V" n="77"/>dist. 1. quaest. 5.
+          </p>
+          <p>
+            <lb ed="#V" n="78"/>(g) De secundo modo, scilicet
+            <lb ed="#V" n="79"/>qualiter ut objectum immutans
+            <lb ed="#V" n="80"/>contristat, consimiliter quoad
+            ali<lb ed="#V" n="81" break="no"/>quid dicendum est. Primo,
+            intel<lb ed="#V" n="82" break="no"/>lectus Angeli determinatur
+            per<lb ed="#V" n="83" break="no"/>petuo ad intense considerandum
+            <lb ed="#V" n="84"/>ignem in ratione objecti.
+            Secun<lb ed="#V" n="85" break="no"/>do, apprehendit istam
+            determina<lb ed="#V" n="86" break="no"/>tionem ad talem considerationem.
+            <lb ed="#V" n="87"/>Tertio (h) odit, et sicut prius,
+            <pb ed="#V" n="230"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>istud odium oritur ex affectione
+            <lb ed="#V" n="2"/>commodi, ex qua vult
+            quodcum<lb ed="#V" n="3" break="no"/>que objectum prout sibi
+            delecta<lb ed="#V" n="4" break="no"/>bile fuerit, considerare nunc hoc,
+            <lb ed="#V" n="5"/>et nunc illud; promovetur ex
+            su<lb ed="#V" n="6" break="no"/>perbia, ex qua vult uti intellectiva
+            <lb ed="#V" n="7"/>sua, secundum imperium
+            volun<lb ed="#V" n="8" break="no"/>tatis propriae; et consummatur
+            <lb ed="#V" n="9"/>ex invidia, propter quam odit
+            <lb ed="#V" n="10"/>determinari a Deo ad aliquam
+            <lb ed="#V" n="11"/>considerationem unicam. Quarto,
+            <lb ed="#V" n="12"/>sequitur apprehensio, non tantum
+            <lb ed="#V" n="13"/>nuda istius considerationis, sicut
+            <lb ed="#V" n="14"/>in secundo, sed apprehensio certa
+            <lb ed="#V" n="15"/>de eventu istius considerationis
+            <lb ed="#V" n="16"/>intensae et perpetuae. Quinto, ex
+            <lb ed="#V" n="17"/>hoc sequitur tristitia.
+          </p>
+          <p>
+            <lb ed="#V" n="18"/>(i) Quoad aliquid autem est
+            dis<lb ed="#V" n="19" break="no"/>simile hic et in praecedenti, quoad
+            <lb ed="#V" n="20"/>primum, quia ignis hic habet
+            ra<lb ed="#V" n="21" break="no"/>tionem agentis effective detinentis
+            <lb ed="#V" n="22"/>intellectum Angeli in intensa
+            con<lb ed="#V" n="23" break="no"/>sideratione sui, et non ex imperio
+            <lb ed="#V" n="24"/>voluntatis Angeli.
+          </p>
+          <p>
+            <lb ed="#V" n="25"/>Et si quaeras quomodo illa
+            pos<lb ed="#V" n="26" break="no"/>sit competere igni, cum nullum
+            <lb ed="#V" n="27"/>corpus possit intelligentiam
+            spi<lb ed="#V" n="28" break="no"/>ritus ita efficaciter movere, ut
+            <lb ed="#V" n="29"/>non magis subsit intelligentia
+            <lb ed="#V" n="30"/>voluntati ipsius spiritus quantum
+            <lb ed="#V" n="31"/>ad determinationem actus
+            consi<lb ed="#V" n="32" break="no"/>derandi, scilicet hoc vel illud,
+            <lb ed="#V" n="33"/>sicut Augustinus dicit, quod
+            vo<lb ed="#V" n="34" break="no"/>luntas avertit, et convertit
+            intel<lb ed="#V" n="35" break="no"/>ligentiam, nunc ad hoc, nunc ad
+            <lb ed="#V" n="36"/>aliud; oportet dicere quod istud
+            <lb ed="#V" n="37"/>non convenit igni virtute propria,
+            <lb ed="#V" n="38"/>quia tota virtute activa ignis
+            <lb ed="#V" n="39"/>posita, Angelus sibi dimissus
+            pos<lb ed="#V" n="40" break="no"/>set ignem, vel aliud corpus
+            indif<lb ed="#V" n="41" break="no"/>ferenter considerare pro imperio
+            <lb ed="#V" n="42"/>voluntatis suae.
+          </p>
+          <p>
+            <lb ed="#V" n="43"/>Ideo oportet dicere, quod illa
+            <lb ed="#V" n="44"/>detentio in consideratione ignis
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>intensa et perpetua, et contra
+            <lb ed="#V" n="46"/>voluntatem Angeli, sit effective a
+            <lb ed="#V" n="47"/>Deo principaliter, et ab igne, ut
+            <lb ed="#V" n="48"/>active, sed minus principaliter.
+            <lb ed="#V" n="49"/>Et potest poni exemplum, sicut
+            <lb ed="#V" n="50"/>intellectus agens et phantasma se
+            <lb ed="#V" n="51"/>habent ad movendum intellectum
+            <lb ed="#V" n="52"/>possibilem in nobis, sic in
+            propo<lb ed="#V" n="53" break="no"/>sito Deus habet similem modum
+            <lb ed="#V" n="54"/>intellectui agenti, et ignis
+            phan<lb ed="#V" n="55" break="no"/>tasmati; et esset omnino simile,
+            <lb ed="#V" n="56"/>si in nobis intellectus agens esset
+            <lb ed="#V" n="57"/>formaliter volens, et possibilis
+            <lb ed="#V" n="58"/>similiter; et agens per
+            volunta<lb ed="#V" n="59" break="no"/>tem suam determinaret aliquod
+            <lb ed="#V" n="60"/>certum phantasma ad movendum
+            <lb ed="#V" n="61"/>efficacissime intellectum
+            possibi<lb ed="#V" n="62" break="no"/>lem contra voluntatem ejus. Nec
+            <lb ed="#V" n="63"/>obstat quod principale agens et
+            <lb ed="#V" n="64"/>instrumentum non sunt in eodem
+            <lb ed="#V" n="65"/>supposito hic, sicut ibi intellectus
+            <lb ed="#V" n="66"/>agens et phantasma, quia ordo
+            <lb ed="#V" n="67"/>agentium illorum non requirit
+            <lb ed="#V" n="68"/>identitatem suppositi.
+          </p>
+          <p>
+            <lb ed="#V" n="69"/>In tertio etiam est differentia
+            <lb ed="#V" n="70"/>hic et prius, quia multo magis
+            <lb ed="#V" n="71"/>odit Angelus perpetuam
+            detenti<lb ed="#V" n="72" break="no"/>onem intelligentiae suae in intensa
+            <lb ed="#V" n="73"/>consideratione ignis, quam
+            deten<lb ed="#V" n="74" break="no"/>tionem formalem sui localiter
+            <lb ed="#V" n="75"/>definitive ab igne, quia in opposito
+            <lb ed="#V" n="76"/>primi, scilicet libero usu
+            intelli<lb ed="#V" n="77" break="no"/>gentiae suae pro imperio voluntatis
+            <lb ed="#V" n="78"/>circa quodcumque objectum,
+            mul<lb ed="#V" n="79" break="no"/>to magis consistit perfectio ejus,
+            <lb ed="#V" n="80"/>et multo magis desideratur quam
+            <lb ed="#V" n="81"/>in libero usu potestatis suae
+            mo<lb ed="#V" n="82" break="no"/>tivae quantum ad ubi definitive.
+            <lb ed="#V" n="83"/>Illa autem detentio in
+            considera<lb ed="#V" n="84" break="no"/>tione intensissima ignis impedit
+            <lb ed="#V" n="85"/>primam libertatem, quia per hoc
+            <lb ed="#V" n="86"/>impeditur intellectus ejus
+            perfe<lb ed="#V" n="87" break="no"/>cte considerare alia
+            considerabi<lb ed="#V" n="88" break="no"/>lia. Sed detensio definitiva ab igne
+            <pb ed="#V" n="231"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>non impedit nisi secundum,
+            sci<lb ed="#V" n="2" break="no"/>licet liberum usum potentiae
+            mo<lb ed="#V" n="3" break="no"/>tivae, ut non possit se facere
+            prae<lb ed="#V" n="4" break="no"/>sentem cuicumque corpori.
+          </p>
+          <p>
+            <lb ed="#V" n="5"/>Ex hoc sequitur differentia in
+            <lb ed="#V" n="6"/>quinto, quod multo major erit
+            <lb ed="#V" n="7"/>tristitia ex illa secunda causa
+            <lb ed="#V" n="8"/>quam ex praecedente, quia ubi est
+            <lb ed="#V" n="9"/>major nolitio, et aeque certa
+            ap<lb ed="#V" n="10" break="no"/>prehensio de eventu, sequitur
+            <lb ed="#V" n="11"/>major tristitia. Est etiam
+            diffe<lb ed="#V" n="12" break="no"/>rentia in isto et praecedenti
+            quo<lb ed="#V" n="13" break="no"/>ad hoc aliqualiter, quod magis
+            <lb ed="#V" n="14"/>potest dici ignis effective affligere
+            <lb ed="#V" n="15"/>spiritum isto modo quam modo
+            <lb ed="#V" n="16"/>praecedenti, quia ibi tantummodo
+            <lb ed="#V" n="17"/>affligit effective, quia ut objectum
+            <lb ed="#V" n="18"/>nolitum apprehensum causat
+            tri<lb ed="#V" n="19" break="no"/>stitiam. Hic autem effective
+            cau<lb ed="#V" n="20" break="no"/>sat primam apprehensionem, ad
+            <lb ed="#V" n="21"/>quam determinatur intellectus,
+            <lb ed="#V" n="22"/>quae est nolita, et ita haec habet
+            <lb ed="#V" n="23"/>quasi duplicem actionem; in
+            <lb ed="#V" n="24"/>priori non nisi simplicem, sed
+            sic<lb ed="#V" n="25" break="no"/>ut in priori non ponebatur
+            discon<lb ed="#V" n="26" break="no"/>venientia ignis ex natura rei, sed
+            <lb ed="#V" n="27"/>tantummodo nolitio detinentiae,
+            <lb ed="#V" n="28"/>ita et haec disconvenientia non est
+            <lb ed="#V" n="29"/>ignis, ut objecti considerati, sed
+            <lb ed="#V" n="30"/>finaliter, quia nolitum est illud
+            <lb ed="#V" n="31"/>objectum sic considerari, tamen
+            <lb ed="#V" n="32"/>est major inclinatio ad nolle sic
+            <lb ed="#V" n="33"/>quam in modo priori.
+          </p>
+          <p>
+            <lb ed="#V" n="34"/>(K) Contra utrumque modum
+            <lb ed="#V" n="35"/>sunt instantiae. Contra primum,
+            <lb ed="#V" n="36"/>quia omnes detinet aequaliter;
+            <lb ed="#V" n="37"/>ergo omnes cruciabuntur
+            aequa<lb ed="#V" n="38" break="no"/>liter. Consequens est contra
+            Au<lb ed="#V" n="39" break="no"/>gustinum 21. de Civit. c. 10.
+            Nequa<lb ed="#V" n="40" break="no"/>quam negandum est ipsum aeternum
+            <lb ed="#V" n="41"/>ignem aliis leviorem, aliis futurum esse
+            <lb ed="#V" n="42"/>graviorem; sive ipsius ardor pro poena
+            <lb ed="#V" n="43"/>digna cujuscumque varietur, sive
+            aequa<lb ed="#V" n="44" break="no"/>liter ipse ardeat, sed non aequali
+            mole<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>stia sentiatur. Ex qua etiam
+            aucto<lb ed="#V" n="46" break="no"/>ritate videtur haberi, quod ardor
+            <lb ed="#V" n="47"/>cruciabit eos, et non tantum
+            de<lb ed="#V" n="48" break="no"/>tentio.
+          </p>
+          <p>
+            <lb ed="#V" n="49"/>Contra secundum (I), quia si non
+            <lb ed="#V" n="50"/>nisi intelligibiliter imprimit
+            ta<lb ed="#V" n="51" break="no"/>lem impressionem, sequitur
+            decla<lb ed="#V" n="52" break="no"/>ratio, quia illa est conveniens
+            <lb ed="#V" n="53"/>potentiae intellectivae. Probatur
+            <lb ed="#V" n="54"/>etiam, quia delectaret Michaelem.
+          </p>
+          <p>
+            <lb ed="#V" n="55"/>(m) Contra utrumque simul,
+            <lb ed="#V" n="56"/>quia si non nolit vel non odiat
+            <lb ed="#V" n="57"/>sic detineri, vel ab objecto sic
+            <lb ed="#V" n="58"/>immutari, non tristabitur, ac per
+            <lb ed="#V" n="59"/>hoc cum in potestate ejus sit non
+            <lb ed="#V" n="60"/>nolle, in potestate ejus erit non
+            <lb ed="#V" n="61"/>cruciari. Praeterea, aeque posset
+            <lb ed="#V" n="62"/>affligi in lapide vel Sole, vel coelo
+            <lb ed="#V" n="63"/>Empyreo, si detineretur definitive
+            <lb ed="#V" n="64"/>ab illis, et mutaretur ab illis
+            <lb ed="#V" n="65"/>objective.
+          </p>
+          <p>
+            <lb ed="#V" n="66"/>Ad primum, detentio formalis,
+            <lb ed="#V" n="67"/>quae est secundum definitionem
+            <lb ed="#V" n="68"/>formalem, aequalis est; sed nolle
+            <lb ed="#V" n="69"/>non est aequale, imo intensius in
+            <lb ed="#V" n="70"/>his qui magis peccaverunt, et
+            <lb ed="#V" n="71"/>ideo major tristitia.
+          </p>
+          <p>
+            <lb ed="#V" n="72"/>Ad aliud, prima impressio quae
+            <lb ed="#V" n="73"/>est ad intellectionem ignis,
+            dele<lb ed="#V" n="74" break="no"/>ctabilis esset ex seipsa intellectui,
+            <lb ed="#V" n="75"/>sed in quinto instanti post
+            noli<lb ed="#V" n="76" break="no"/>tionem, id est, apprehensionem
+            <lb ed="#V" n="77"/>eventus noliti, ex illa
+            apprehen<lb ed="#V" n="78" break="no"/>sione nolita et apprehensa,
+            cau<lb ed="#V" n="79" break="no"/>satur tristitia.
+          </p>
+          <p>
+            <lb ed="#V" n="80"/>Et si dicas, saltem apprehensio,
+            <lb ed="#V" n="81"/>ut in primo instanti posita,
+            cau<lb ed="#V" n="82" break="no"/>sabit delectationem, respondeo,
+            <lb ed="#V" n="83"/>non potest, quia appetitus ille in
+            <lb ed="#V" n="84"/>eodem instanti habet tristitiam
+            <lb ed="#V" n="85"/>vehementem, et illa excludit omne
+            <lb ed="#V" n="86"/>gaudium, non tantum contrarium,
+            <lb ed="#V" n="87"/>sed impertinens, ex 7. Ethicorum.
+          </p>
+          <p>
+            <lb ed="#V" n="88"/>Si dicas, causa delectationis est
+            <pb ed="#V" n="232"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>prior naturaliter quam causa
+            tri<lb ed="#V" n="2" break="no"/>stitiae, respondeo, in habentibus
+            <lb ed="#V" n="3"/>tantum ordinem naturalem et
+            si<lb ed="#V" n="4" break="no"/>multatem realem efficacius
+            exclu<lb ed="#V" n="5" break="no"/>dit minus efficax, licet efficacius sit
+            <lb ed="#V" n="6"/>posterius natura. Nec mirum,
+            <lb ed="#V" n="7"/>quia impediens, sive prohibens,
+            <lb ed="#V" n="8"/>quandoque est posterius
+            natura<lb ed="#V" n="9" break="no"/>liter; agens tamen primum
+            im<lb ed="#V" n="10" break="no"/>peditur per contractionem ejus.
+            <lb ed="#V" n="11"/>Exemplum in generativo unius,
+            <lb ed="#V" n="12"/>et alterativo ad contrarium.
+          </p>
+          <p>
+            <lb ed="#V" n="13"/>Ad tertium, non est in
+            potesta<lb ed="#V" n="14" break="no"/>te eorum illud nolle vel non nolle,
+            <lb ed="#V" n="15"/>sicut tangitur de continuatione
+            <lb ed="#V" n="16"/>mali actus in eis, cujus causa
+            <lb ed="#V" n="17"/>forte est actio continua causae
+            <lb ed="#V" n="18"/>superioris agentis ad aliquid
+            uni<lb ed="#V" n="19" break="no"/>forme in eis propter demeritum
+            <lb ed="#V" n="20"/>praecedens, ad quod uniforme
+            se<lb ed="#V" n="21" break="no"/>quatur uniformiter afflictio
+            eo<lb ed="#V" n="22" break="no"/>rum; et propter hoc non potest
+            ali<lb ed="#V" n="23" break="no"/>quis remissius nolle quam modo
+            no<lb ed="#V" n="24" break="no"/>lit, quia sicut non est in potestate
+            <lb ed="#V" n="25"/>ejus actus, ita nec modus actus;
+            <lb ed="#V" n="26"/>et sicut causa superior
+            uniformi<lb ed="#V" n="27" break="no"/>ter agit ad nolle, propter quod
+            <lb ed="#V" n="28"/>causa inferior non potest
+            diffor<lb ed="#V" n="29" break="no"/>miter agere ab ipsa, ita
+            unifor<lb ed="#V" n="30" break="no"/>miter agit ad intentionem hujus
+            <lb ed="#V" n="31"/>nolle.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d44q2-p5"> -->
+          <p>
+            <lb ed="#V" n="19" type="fixed=247"/>SCHOLIUM.
+            <lb ed="#V" n="20"/>Ad primum explicat bene illud: agens est
+            <lb ed="#V" n="21"/>proestantibus passo, intelligi de agente
+            aequi<lb ed="#V" n="22" break="no"/>voco, vel saltem non intelligi de
+            instrumen<lb ed="#V" n="23" break="no"/>tali vel partiali. Ad secundum, non requiri
+            <lb ed="#V" n="24"/>contactum mathematicum, sed virtualem,
+            <lb ed="#V" n="25"/>ut corpus agat, nec requiri indistantiam
+            <lb ed="#V" n="26"/>agentis ad passum, de quo 1. d. 37. et 2. d.
+            <lb ed="#V" n="27"/>9. q. 2. num. 16. Ad tertium explicat
+            quo<lb ed="#V" n="28" break="no"/>modo corpus agens in spiritum possit dici
+            <lb ed="#V" n="29"/>assimilare sibi passum.
+          </p>
+          <p>
+            <lb ed="#V" n="30"/>(n) Ad argumenta. Ad primum,
+            <lb ed="#V" n="31"/>illa propositio Augustini pendet
+            <lb ed="#V" n="32"/>ex ista, quod agens est
+            praestan<lb ed="#V" n="33" break="no"/>tius termino formali actionis, et
+            <lb ed="#V" n="34"/>terminus formalis actionis est
+            <lb ed="#V" n="35"/>praestantior suo receptivo.
+          </p>
+          <p>
+            <lb ed="#V" n="36"/>Secunda autem istarum non est
+            <lb ed="#V" n="37"/>vera, nisi inquantum hoc est actus,
+            <lb ed="#V" n="38"/>et illud potentia, et sic
+            conceden<lb ed="#V" n="39" break="no"/>dum est agens, inquantum in actu
+            <lb ed="#V" n="40"/>formali vel virtuali, esse
+            praestan<lb ed="#V" n="41" break="no"/>tius passo, inquantum est in
+            po<cb ed="#V" n="b"/><lb ed="#V" n="42" break="no"/>tentia ad illud. Unde illa
+            proposi<lb ed="#V" n="43" break="no"/>tio: Agens est proestantius passo, vera
+            <lb ed="#V" n="44"/>est quantum ad hoc, quod patiens
+            <lb ed="#V" n="45"/>recipit ab agente; et quantum ad
+            <lb ed="#V" n="46"/>hoc non potest se facere in actu
+            <lb ed="#V" n="47"/>per se, sicut secundum id fit in
+            <lb ed="#V" n="48"/>actu per agens; sed ex hoc non
+            se<lb ed="#V" n="49" break="no"/>quitur quod sit praestantius
+            abso<lb ed="#V" n="50" break="no"/>lute natura illius, quod est
+            susce<lb ed="#V" n="51" break="no"/>ptivum, sicut nec de termino
+            for<lb ed="#V" n="52" break="no"/>mali respectu ejusdem.
+          </p>
+          <p>
+            <lb ed="#V" n="53"/>Sed quia Augustinus intendit
+            <lb ed="#V" n="54"/>concludere per illud argumentum,
+            <lb ed="#V" n="55"/>quod corpus non agit in spiritum,
+            <lb ed="#V" n="56"/>potest dici quod major sua est vera
+            <lb ed="#V" n="57"/>de agente aequivoco, et totali seu
+            <lb ed="#V" n="58"/>principali, aliter non, et sic
+            con<lb ed="#V" n="59" break="no"/>clusio est vera. Et concessum est
+            <lb ed="#V" n="60"/>quod ignis non est agens
+            princi<lb ed="#V" n="61" break="no"/>pale in spiritum, sive in illa
+            de<lb ed="#V" n="62" break="no"/>tentione, quia in illa non agit, sed
+            <lb ed="#V" n="63"/>formaliter definitive continet; sive
+            <lb ed="#V" n="64"/>in immutatione, quia ibi non agit,
+            <lb ed="#V" n="65"/>nisi ut instrumentum Dei, sicut
+            <lb ed="#V" n="66"/>phantasma se habet ad intellectum
+            <lb ed="#V" n="67"/>agentem. In causando autem
+            tri<lb ed="#V" n="68" break="no"/>stitiam hoc modo vel illo, non est
+            <lb ed="#V" n="69"/>principale agens, sed ipsa voluntas
+            <lb ed="#V" n="70"/>nolens illud objectum; magis enim
+            <lb ed="#V" n="71"/>ex hoc quod objectum est nolitum,
+            <lb ed="#V" n="72"/>sequitur tristitia quam ex ratione
+            <lb ed="#V" n="73"/>objecti in se, vel ipsa apprehensio
+            <lb ed="#V" n="74"/>eventus objecti noliti, quia
+            obje<lb ed="#V" n="75" break="no"/>ctum non tantum nolitum, sed ut
+            <lb ed="#V" n="76"/>nolitum apprehensum esse vel fore
+            <lb ed="#V" n="77"/>contristat.
+          </p>
+          <p>
+            <lb ed="#V" n="78"/>Ad aliud (o) Augustini, potest
+            <lb ed="#V" n="79"/>exponi ibi de his, quibus spiritus
+            <lb ed="#V" n="80"/>afficiuntur immediate, quia illa
+            <lb ed="#V" n="81"/>sunt similia corporibus, quia
+            pas<lb ed="#V" n="82" break="no"/>siones aliquo modo causatae a
+            cor<lb ed="#V" n="83" break="no"/>poribus; non autem de illis quibus
+            <lb ed="#V" n="84"/>afficiuntur spiritus mediate, quia
+            <lb ed="#V" n="85"/>ista sunt corporalia, vel quod idem
+            <pb ed="#V" n="248"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>est, exponatur de afficiente
+            forma<lb ed="#V" n="2" break="no"/>liter, non effective.
+          </p>
+          <p>
+            <lb ed="#V" n="3"/>(p) Ad aliud, hoc universaliter
+            <lb ed="#V" n="4"/>est verum, quod oportet agens
+            <lb ed="#V" n="5"/>esse praesens patienti, saltem
+            se<lb ed="#V" n="6" break="no"/>cundum virtutem activam, et ex
+            <lb ed="#V" n="7"/>hoc sequitur, ubi praesentia
+            pro<lb ed="#V" n="8" break="no"/>portionata non potest haberi nisi
+            <lb ed="#V" n="9"/>per contactum, requiritur
+            con<lb ed="#V" n="10" break="no"/>tactus; ubi autem verior potest
+            <lb ed="#V" n="11"/>haberi, illa multo magis sufficit ad
+            <lb ed="#V" n="12"/>actionem; sed multo verior potest
+            <lb ed="#V" n="13"/>esse praesentia spiritus ad corpus
+            <lb ed="#V" n="14"/>per coexistentiam, quam sit illa
+            <lb ed="#V" n="15"/>per contactum.
+          </p>
+          <p>
+            <lb ed="#V" n="16"/>Aliter potest dici quod
+            requiri<lb ed="#V" n="17" break="no"/>tur contactus virtualis, non
+            ma<lb ed="#V" n="18" break="no"/>thematicus; contactus autem
+            vir<lb ed="#V" n="19" break="no"/>tualis est, quod aliquid in isto
+            <lb ed="#V" n="20"/>possit esse terminus virtutis in
+            <lb ed="#V" n="21"/>illo, quod nihil est aliud quam
+            il<lb ed="#V" n="22" break="no"/>lud habere virtutem causativam
+            <lb ed="#V" n="23"/>alicujus in illo; et isto modo Deus,
+            <lb ed="#V" n="24"/>si non esset citra orbem Lunae,
+            <lb ed="#V" n="25"/>praesens esset centro terrae, sicut
+            <lb ed="#V" n="26"/>dictum est in lib. 1. dist. 37.
+          </p>
+          <p>
+            <lb ed="#V" n="27"/>(q) Ad aliud, potest dici quod
+            <lb ed="#V" n="28"/>causa aequivoca aequivoce
+            assimi<lb ed="#V" n="29" break="no"/>lat secundum aliquid, quod habet
+            <lb ed="#V" n="30"/>in se, non formaliter, sed
+            virtuali<lb ed="#V" n="31" break="no"/>ler; et hoc modo objectum, quod
+            <lb ed="#V" n="32"/>est nolibile, habet in se tristitiam,
+            <lb ed="#V" n="33"/>et secundum illam assimilat. Alio
+            <lb ed="#V" n="34"/>modo potest dici quod illa
+            propo<lb ed="#V" n="35" break="no"/>sitio est vera de agente principali,
+            <lb ed="#V" n="36"/>non instrumentali. Deus autem est
+            <lb ed="#V" n="37"/>hic agens principale, et sibi
+            assi<lb ed="#V" n="38" break="no"/>milat passum, quia intelligit et
+            <lb ed="#V" n="39"/>vult afflictionem illius, et
+            secun<lb ed="#V" n="40" break="no"/>dum hoc intellectum et volitum,
+            <lb ed="#V" n="41"/>assimilat sibi passum.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

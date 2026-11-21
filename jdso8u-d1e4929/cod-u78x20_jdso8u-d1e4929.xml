@@ -1,0 +1,859 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 45, Quaestio 2</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 45, Quaestio 2</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x20">Vives, Paris, 1894, volume 20</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="279"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e4929"><!-- jdso8u-b4d45q2 -->
+        <head>Quaestio 2</head>
+        <head type="question-title">Utrum anima separata possit acquirere cognitionem alicuius prius ignoti</head>
+        <!-- <div alias="scotus-d45q2-p1"> -->
+          <p>
+            <lb ed="#V" n="20" type="fixed=279"/>QUAESTIO II.
+            <lb ed="#V" n="21"/>Utrum anima separata possit acquirere
+            <lb ed="#V" n="22"/>cognitionem alicujus prius ignoti?
+          </p>
+          <p>
+            <lb ed="#V" n="23"/>Alens. 2. part. quaest. 26. m. 1. D. Thom. 1.
+            <lb ed="#V" n="24"/>part. quaest. 89. art. 1. ad 3. et quaest. 55.
+            <lb ed="#V" n="25"/>art. 2. D. Bonav. 2. ad 3. art. 3. quaest. 1.
+            Ri<lb ed="#V" n="26" break="no"/>chard. art. 6. quaest. 1. Mayron, quaest. 4.
+            Ca<lb ed="#V" n="27" break="no"/>preol. quaest. 2. Conimbric. tract. de Anima
+            se<lb ed="#V" n="28" break="no"/>parata disp. 3. art. 5.
+          </p>
+          <p>
+            <lb ed="#V" n="29"/>(a) Secundo quaero, utrum anima
+            <lb ed="#V" n="30"/>separata possit acquirere
+            cogniti<lb ed="#V" n="31" break="no"/>onem alicujus prius ignoti? Quod
+            <lb ed="#V" n="32"/>non, quia tunc intellectus frustra
+            <lb ed="#V" n="33"/>uniretur corpori. Probatio
+            conse<lb ed="#V" n="34" break="no"/>quentiae, non unitur propter
+            per<lb ed="#V" n="35" break="no"/>fectionem corporis, quia forma
+            <lb ed="#V" n="36"/>non est propter materiam, sed e
+            <lb ed="#V" n="37"/>et converso. 2. Physic, ergo unitur
+            <lb ed="#V" n="38"/>propter perfectionem sui
+            acqui<lb ed="#V" n="39" break="no"/>rendam, ut scilicet per usum
+            sen<lb ed="#V" n="40" break="no"/>suum in corpore acquirat
+            scien<lb ed="#V" n="41" break="no"/>tiam; sed istud esset frustra, si
+            <lb ed="#V" n="42"/>separata sine usu sensuum posset
+            <lb ed="#V" n="43"/>eam acquirere.
+          </p>
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="44"/>Praeterea, transitus ab extremo
+            <lb ed="#V" n="45"/>in extremum, non potest esse
+            <lb ed="#V" n="46"/>nisi per medium; res extra est
+            <lb ed="#V" n="47"/>omnino materialiter, in intellectu
+            <lb ed="#V" n="48"/>omnino immaterialiter; ergo
+            opor<lb ed="#V" n="49" break="no"/>tet quod transeat per medium, in
+            <lb ed="#V" n="50"/>quo sit aliquo modo materialiter,
+            <lb ed="#V" n="51"/>et aliquo modo immaterialiter. Sic
+            <lb ed="#V" n="52"/>autem est in sensu materialiter,
+            <lb ed="#V" n="53"/>quia secundum conditiones
+            indivi<lb ed="#V" n="54" break="no"/>duales; et immaterialiter, quia
+            <lb ed="#V" n="55"/>secundum Philosophum 2. de
+            Ani<lb ed="#V" n="56" break="no"/>ma: Sensus est receptivus specierum sine
+            <lb ed="#V" n="57"/>materia; materia, inquam, tali,
+            <lb ed="#V" n="58"/>qualem requirit forma realiter
+            <lb ed="#V" n="59"/>existens extra.
+          </p>
+          <p>
+            <lb ed="#V" n="60"/>Praeterea, si posset acquirere
+            <lb ed="#V" n="61"/>cognitionem unius ignoti, pari
+            <lb ed="#V" n="62"/>ratione et cujuslibet, et ita
+            distan<lb ed="#V" n="63" break="no"/>tia localis quantacumque non
+            im<lb ed="#V" n="64" break="no"/>pediret ejus cognitionem; quod
+            vi<lb ed="#V" n="65" break="no"/>detur esse contra Augustinum inlib.
+            <lb ed="#V" n="66"/>de Cura pro mortuis agenda, ubi vult
+            <lb ed="#V" n="67"/>quod, animae separatae non noverunt ea
+            <lb ed="#V" n="68"/>quae hic aguntur, nisi eis exprimantur
+            <lb ed="#V" n="69"/>ab Angelis, vel ab animabus ad eas
+            ve<lb ed="#V" n="70" break="no"/>nientibus, quae illa hic noverunt.
+          </p>
+          <p>
+            <lb ed="#V" n="71"/>Oppositum, natura non est sine
+            <lb ed="#V" n="72"/>propria operatione specifica, et
+            <lb ed="#V" n="73"/>accipitur ex 2. de Caelo et Mundo, et a
+            <lb ed="#V" n="74"/>Damasceno cap. 64. Anima autem
+            <lb ed="#V" n="75"/>humana est perfectissima formas
+            <lb ed="#V" n="76"/>et ejus propria operatio secundum
+            <lb ed="#V" n="77"/>intellectum possibilem est
+            intelli<lb ed="#V" n="78" break="no"/>gere, secundum agentem abstrahere,
+            <lb ed="#V" n="79"/>et secundum voluntatem velle; ergo
+            <lb ed="#V" n="80"/>nullus modus essendi potest
+            con<lb ed="#V" n="81" break="no"/>venire animae secundum naturam
+            <lb ed="#V" n="82"/>suam, in quo non possit in istas
+            <lb ed="#V" n="83"/>operationes. Secundum autem
+            na<lb ed="#V" n="84" break="no"/>turam suam, talis est, quod potest
+            <lb ed="#V" n="85"/>habere esse separatum, et hoc est
+            <lb ed="#V" n="86"/>ex perfectione naturae suae ( unde,
+            <lb ed="#V" n="87"/>hoc non convenit aliis formis
+            im<pb ed="#V" n="280"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>perfectis); ergo in illo esse potest in
+            <lb ed="#V" n="2"/>illas operationes; sed possibile est
+            <lb ed="#V" n="3"/>eam non acquisivisse prius species
+            <lb ed="#V" n="4"/>objectorum, sicut patet de
+            ani<lb ed="#V" n="5" break="no"/>ma parvuli defuncti; ergo poterit
+            <lb ed="#V" n="6"/>tunc acquirere.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d45q2-p2"> -->
+          <p>
+            <lb ed="#V" n="15" type="fixed=280"/>SCHOLIUM.
+            <lb ed="#V" n="16"/>Sententia D. Thom. et Henrici, animam
+            <lb ed="#V" n="17"/>separatam non posse acquirere cognitionem
+            <lb ed="#V" n="18"/>ullius ignoti, clare fuseque explicatur. De
+            <lb ed="#V" n="19"/>qua actum est 2. dist. 3. quaest. 10. et 11. et
+            <lb ed="#V" n="20"/>ibi efficaciter refutata est.
+          </p>
+          <p>
+            <lb ed="#V" n="21"/>(b) Hic tenetur negativa,
+            pro<lb ed="#V" n="22" break="no"/>pter rationem secundam in
+            virtu<lb ed="#V" n="23" break="no"/>te. Arguitur enim, quod oportet
+            <lb ed="#V" n="24"/>esse quamdam convenientiam
+            in<lb ed="#V" n="25" break="no"/>ter recipiens et receptum; species
+            <lb ed="#V" n="26"/>autem in sensibus jexistentes
+            ha<lb ed="#V" n="27" break="no"/>bent convenientiam cum
+            intelle<lb ed="#V" n="28" break="no"/>ctu, inquantum sunt sine materia,
+            <lb ed="#V" n="29"/>et cum rebus materialibus,
+            in<lb ed="#V" n="30" break="no"/>quantum sunt cum conditionibus
+            <lb ed="#V" n="31"/>materialibus; et ideo convenienter
+            <lb ed="#V" n="32"/>sensus recipit a rebus
+            materiali<lb ed="#V" n="33" break="no"/>jus, et intellectus a sensu; non
+            au<lb ed="#V" n="34" break="no"/>tem intellectus immediate a rebus
+            <lb ed="#V" n="35"/>materialibus, quia non est ibi talis
+            <lb ed="#V" n="36"/>convenientia; et ideo ad hoc quod
+            <lb ed="#V" n="37"/>post separationem a corpore,
+            in<lb ed="#V" n="38" break="no"/>telligat, non requiruntur aliquae
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="39"/>formae a rebus acceptae, vel tunc,
+            <lb ed="#V" n="40"/>vel prius.
+          </p>
+          <p>
+            <lb ed="#V" n="41"/>Quomodo ergo intelliget?
+            Re<lb ed="#V" n="42" break="no"/>spondeo, per influentiam a
+            substan<lb ed="#V" n="43" break="no"/>tiis superioribus, Deo videlicet,
+            <lb ed="#V" n="44"/>vel Angelis, et hoc loquendo de
+            <lb ed="#V" n="45"/>naturali influentia, et naturali
+            co<lb ed="#V" n="46" break="no"/>gnitione ejus, quod ostenditur sic:
+            <lb ed="#V" n="47"/>Intellectus noster est medius inter
+            <lb ed="#V" n="48"/>substantias intellectuales et res
+            <lb ed="#V" n="49"/>corporales ( unde dicitur anima
+            es<lb ed="#V" n="50" break="no"/>se creata in horizonte aeternitatis,
+            <lb ed="#V" n="51"/>lib. de causis, et hoc ideo, quia per
+            <lb ed="#V" n="52"/>intellectum attingit ad substantias
+            <lb ed="#V" n="53"/>intellectuales; inquantum vero est
+            <lb ed="#V" n="54"/>actus corporis, attingit res
+            cor<lb ed="#V" n="55" break="no"/>porales); omne autem medium
+            <lb ed="#V" n="56"/>quanto magis appropinquat uni
+            <lb ed="#V" n="57"/>extremo, tanto magis recedit ab
+            <lb ed="#V" n="58"/>alio, et e contra. Sed anima
+            rati<lb ed="#V" n="59" break="no"/>onalis, quae mediat inter
+            substan<lb ed="#V" n="60" break="no"/>tias intelligibiles et res corporales
+            <lb ed="#V" n="61"/>(ut dictum est) dum separatur,
+            <lb ed="#V" n="62"/>quodammodo recedit a rebus
+            cor<lb ed="#V" n="63" break="no"/>poralibus; igitur tunc accedit ad
+            <lb ed="#V" n="64"/>influxum substantiarum
+            intelli<lb ed="#V" n="65" break="no"/>gibilium.
+          </p>
+          <p>
+            <lb ed="#V" n="66"/>Unde cum anima nostra in statu
+            <lb ed="#V" n="67"/>viae maxime ad corpus accedat,
+            ut<lb ed="#V" n="68" break="no"/>pote ejus actus existens, non
+            ha<lb ed="#V" n="69" break="no"/>bet respectum ad res
+            intellectu<lb ed="#V" n="70" break="no"/>ales, et ideo non recipit
+            influen<lb ed="#V" n="71" break="no"/>tiam a superioribus substantiis, ut
+            <lb ed="#V" n="72"/>cognoscat, sed cognoscit per
+            spe<lb ed="#V" n="73" break="no"/>cies a sensibus acceptas; et ideo
+            <lb ed="#V" n="74"/>etiam in hac vita, quanto anima
+            <lb ed="#V" n="75"/>magis abstrahitur a corpore, tanto
+            <lb ed="#V" n="76"/>magis a substantiis spiritualibus
+            <lb ed="#V" n="77"/>influxum cognitionis recipit; et
+            <lb ed="#V" n="78"/>inde est quod quaedam occulta
+            co<lb ed="#V" n="79" break="no"/>gnoscit in dormiendo, et in
+            exces<lb ed="#V" n="80" break="no"/>su mentis.
+          </p>
+          <p>
+            <lb ed="#V" n="81"/>Unde quando actu erit a corpore
+            <lb ed="#V" n="82"/>separata, erit paratissima ad
+            re<pb ed="#V" n="281"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>cipiendum influentiam ab
+            Intelli<lb ed="#V" n="2" break="no"/>gentiis superioribus, scilicet Deo
+            <lb ed="#V" n="3"/>et Angelis; et sic per hujusmodi
+            <lb ed="#V" n="4"/>influentiam habebit cognitionem
+            <lb ed="#V" n="5"/>majorem vel minorem, secundum
+            <lb ed="#V" n="6"/>modum capacitatis suae. Et sic
+            <lb ed="#V" n="7"/>et Commentator loquitur 3. de Anima,
+            <lb ed="#V" n="8"/>quia ponit intellectum
+            possibi<lb ed="#V" n="9" break="no"/>lem esse substantiam separatam;
+            <lb ed="#V" n="10"/>quamvis in hoc erret, tamen
+            <lb ed="#V" n="11"/>quantum ad hoc recte dicit, quod
+            <lb ed="#V" n="12"/>ex hoc quod ponitur substantia
+            se<lb ed="#V" n="13" break="no"/>parata, habet respectum ad
+            sub<lb ed="#V" n="14" break="no"/>stantias intellectuales superiores,
+            <lb ed="#V" n="15"/>ut eas intelligat; sed secundum
+            <lb ed="#V" n="16"/>alium respectum, quo comparatur
+            <lb ed="#V" n="17"/>ad intellectum nostrum recipiendo
+            <lb ed="#V" n="18"/>species a phantasmatibus, non
+            <lb ed="#V" n="19"/>conjungitur substantiis
+            altiori<lb ed="#V" n="20" break="no"/>bus.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d45q2-p3"> -->
+          <p>
+            <lb ed="#V" n="68" type="fixed=281"/>SCHOLIUM.
+            <lb ed="#V" n="69"/>Refutat praedictam sententiam. Primo,
+            <lb ed="#V" n="70"/>quia pluralitas non est ponenda sine
+            ne<lb ed="#V" n="71" break="no"/>cessitate; ergo anima separata sine
+            influ<lb ed="#V" n="72" break="no"/>entia speciali a Deo, vel ab Angelis, potest
+            <lb ed="#V" n="73"/>intelligere. Secundo, aliquando esset vilior
+            <lb ed="#V" n="74"/>lapide, quia hic potest in operationem sibi
+            <lb ed="#V" n="75"/>proportionatam. Tertio, servat species hic
+            <lb ed="#V" n="76"/>acquisitas; ergo non accipit alias ejusdem
+            ob<lb ed="#V" n="77" break="no"/>jecti, quia essent ejusdem speciei plura
+            <lb ed="#V" n="78"/>accidentia in eodem subjecto, quod est contra
+            <lb ed="#V" n="79"/>D. Thom. 3. part. quaest. 35. art. 5.
+          </p>
+          <p>
+            <lb ed="#V" n="80"/>(c) Contra istam positionem, etsi
+            <lb ed="#V" n="81"/>non esset alia ratio, nisi ex istis
+            <lb ed="#V" n="82"/>duobus principiis, quorum
+            pri<lb ed="#V" n="83" break="no"/>mum est, quod plura non sunt
+            po<lb ed="#V" n="84" break="no"/>nenda sine necessitate, et accipitur
+            <lb ed="#V" n="85"/>a Philosopho 1. Physic. et
+            secun<pb ed="#V" n="282"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>dum quod in nulla natura
+            ponen<lb ed="#V" n="2" break="no"/>dum est quod derogat ejus
+            digni<lb ed="#V" n="3" break="no"/>tati, nisi sit evidens ex aliquo
+            <lb ed="#V" n="4"/>convenienti tali naturae, quod
+            po<lb ed="#V" n="5" break="no"/>test accipi a Philosopho 2. de
+            Ge<lb ed="#V" n="6" break="no"/>neratione, semper inquimus naturam
+            <lb ed="#V" n="7"/>desiderare id quod melius est; et sicut
+            <lb ed="#V" n="8"/>in toto universo, ita in qualibet parte,
+            <lb ed="#V" n="9"/>magis ponendum est id quod melius est
+            <lb ed="#V" n="10"/>sibi, si non evidenter appareat sibi illud
+            <lb ed="#V" n="11"/>non convenire. Nunc autem hic
+            po<lb ed="#V" n="12" break="no"/>nitur pluralitas, quia species tales
+            <lb ed="#V" n="13"/>influxae a Deo vel Angelis; et sine
+            <lb ed="#V" n="14"/>necessitate, quia natura illa
+            suf<lb ed="#V" n="15" break="no"/>ficienter habet in se unde possit
+            <lb ed="#V" n="16"/>attingere ad perfectionem
+            propri<lb ed="#V" n="17" break="no"/>am sine talibus datis infusis a Deo
+            <lb ed="#V" n="18"/>vel Angelis. Unde hoc non videtur
+            <lb ed="#V" n="19"/>nisi quidam recursus ad Deum vel
+            <lb ed="#V" n="20"/>Angelos, propter hoc quod non
+            ca<lb ed="#V" n="21" break="no"/>pitur perfectio illius naturae in se.
+          </p>
+          <p>
+            <lb ed="#V" n="22"/>(d) Haec etiam opinio vivificat
+            <lb ed="#V" n="23"/>naturam animae intellectivae; sicut
+            <lb ed="#V" n="24"/>enim simpliciter vilior est natura,
+            <lb ed="#V" n="25"/>quae in nullam operationem, vel
+            <lb ed="#V" n="26"/>non nisi in viliorem potest, ita
+            <lb ed="#V" n="27"/>proportionaliter est illa natura
+            <lb ed="#V" n="28"/>vilior, quae in operationem sibi
+            <lb ed="#V" n="29"/>convenientem non potest, quam
+            <lb ed="#V" n="30"/>quae potest. Anima autem
+            separa<lb ed="#V" n="31" break="no"/>ta, per te, ex intrinsecis sibi,
+            eti<lb ed="#V" n="32" break="no"/>am cum objectis extrinsecis
+            con<lb ed="#V" n="33" break="no"/>currentibus, non potest in illam
+            <lb ed="#V" n="34"/>operationem sibi convenientem,
+            <lb ed="#V" n="35"/>nisi Deus, vel Angeli dent sibi
+            ta<lb ed="#V" n="36" break="no"/>les species lapis autem ex
+            in<lb ed="#V" n="37" break="no"/>trinsecis sibi, sine influxu tali
+            men<lb ed="#V" n="38" break="no"/>dicato, potest in operationem sibi
+            <lb ed="#V" n="39"/>proportionatam, quia descendere
+            <lb ed="#V" n="40"/>in centrum, et ibi quiescere; ergo
+            <lb ed="#V" n="41"/>magis vilificatur anima secundum
+            <lb ed="#V" n="42"/>proportionem ad suam nobilitatem
+            <lb ed="#V" n="43"/>ex illa positione quam natura
+            lapi<lb ed="#V" n="44" break="no"/>dis.
+          </p>
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>(e) Praeterea, sic opinans tenet
+            <lb ed="#V" n="46"/>alibi, quod duo accidentia ejusdem
+            <lb ed="#V" n="47"/>speciei non possunt simul esse;
+            <lb ed="#V" n="48"/>illa autem species lapidis ut
+            obje<lb ed="#V" n="49" break="no"/>cti, influxa, est ejusdem speciei
+            <lb ed="#V" n="50"/>cum specie intelligibili acquisita
+            <lb ed="#V" n="51"/>ab anima hic in corpore; ergo vel
+            <lb ed="#V" n="52"/>illa influxa non poterit esse, vel
+            <lb ed="#V" n="53"/>oportet istam hic acquisitam non
+            <lb ed="#V" n="54"/>manere; sed secundum est falsum,
+            <lb ed="#V" n="55"/>quia cum proprium subjectum
+            <lb ed="#V" n="56"/>speciei illius sit incorruptibile, et
+            <lb ed="#V" n="57"/>ipsa species ex se possit
+            incorru<lb ed="#V" n="58" break="no"/>ptibiliter manere, sequitur quod
+            <lb ed="#V" n="59"/>ipsa manebit; ergo non dabitur
+            <lb ed="#V" n="60"/>a Deo aliqua species lapidis, et per
+            <lb ed="#V" n="61"/>consequens vel nunquam poterit
+            <lb ed="#V" n="62"/>intelligere lapidem, vel poterit
+            <lb ed="#V" n="63"/>intelligere per speciem priorem
+            <lb ed="#V" n="64"/>acceptam a rebus, quod negant.
+          </p>
+          <p>
+            <lb ed="#V" n="65"/>Si dicas non dari speciem prius
+            <lb ed="#V" n="66"/>habenti, non videtur rationabile
+            <lb ed="#V" n="67"/>quod illa specie perfecta, qualis
+            da<lb ed="#V" n="68" break="no"/>tur alteri non habenti, careat ista
+            <lb ed="#V" n="69"/>anima; et saltem hoc habetur
+            con<lb ed="#V" n="70" break="no"/>tra opinionem, quod aliqua
+            intelle<lb ed="#V" n="71" break="no"/>ctio erit tunc per speciem prius
+            <lb ed="#V" n="72"/>a re acceptam. Si dicas speciem
+            in<lb ed="#V" n="73" break="no"/>fusam et acquisitam differre
+            spe<lb ed="#V" n="74" break="no"/>cie, sicut virtutem acquisitam et
+            <lb ed="#V" n="75"/>infusam, et quae simul sunt, istud
+            <lb ed="#V" n="76"/>est axioma de quo in 3. lib. dist. 26.
+            <lb ed="#V" n="77"/>quaest. 1. Sed esto quod
+            conceda<lb ed="#V" n="78" break="no"/>tur eis de virtutibus, non sequitur
+            <lb ed="#V" n="79"/>propositum hic, quia virtus infusa
+            <lb ed="#V" n="80"/>habebit aliam regulam propriam
+            <lb ed="#V" n="81"/>quam acquisita, et ex alietate
+            re<lb ed="#V" n="82" break="no"/>gulae poterit poni alia virtus
+            spe<lb ed="#V" n="83" break="no"/>cie, quia virtus in ratione
+            essen<lb ed="#V" n="84" break="no"/>tiali virtutis, dependet a regula cui
+            <lb ed="#V" n="85"/>conformatur; haec autem non
+            po<lb ed="#V" n="86" break="no"/>terit fingi differentia specifica
+            spe<lb ed="#V" n="87" break="no"/>ciei infusae, et prius acquisitae,
+            <lb ed="#V" n="88"/>quia non est haec differentia nisi
+            <pb ed="#V" n="283"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>tantummodo principii effectivi, vel
+            <lb ed="#V" n="2"/>modi efficiendi; talis autem non
+            <lb ed="#V" n="3"/>distinguit effectus specie,
+            secun<lb ed="#V" n="4" break="no"/>dum quod innuit Augustinus 3. de
+            <lb ed="#V" n="5"/>Trinit, cap. 10.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d45q2-p4"> -->
+          <p>
+            <lb ed="#V" n="54" type="fixed=301"/>SCHOLIUM.
+            <lb ed="#V" n="55"/>Solvit rationes pro sententia D. Thomae et
+            <lb ed="#V" n="56"/>Henrici, adductas n. 3. ostendens manifeste
+            <lb ed="#V" n="57"/>nihil conficere, quia in prima, altera
+            prae<lb ed="#V" n="58" break="no"/>missa est falsa, vel est ex quatuor terminis;
+            <lb ed="#V" n="59"/>in secunda, altera praemissa est falsa, vel
+            <lb ed="#V" n="60"/>mutatur sensus medii, et utrumque
+            expli<lb ed="#V" n="61" break="no"/>cat optime.
+          </p>
+          <p>
+            <lb ed="#V" n="62"/>(f) Rationes opinionis non
+            con<lb ed="#V" n="63" break="no"/>cludunt. Prima ad partem
+            negati<lb ed="#V" n="64" break="no"/>vam, vel erit ex quatuor terminis;
+            <lb ed="#V" n="65"/>vel concludet oppositum; vel una
+            <lb ed="#V" n="66"/>propositio erit falsa. Si enim
+            acci<lb ed="#V" n="67" break="no"/>pias pro majore, oportet esse
+            conveni<lb ed="#V" n="68" break="no"/>entiam inter recipiens et receptum, et
+            <lb ed="#V" n="69"/>pro minore, res materialis extra non
+            <lb ed="#V" n="70"/>habet convenientiam cum intellectu;
+            <lb ed="#V" n="71"/>quid sequitur? ergo intellectus
+            <lb ed="#V" n="72"/>non recipit rem materialem extra,
+            <lb ed="#V" n="73"/>nec e converso. Si autem
+            conclu<lb ed="#V" n="74" break="no"/>das, quod non recipit a re
+            materi<lb ed="#V" n="75" break="no"/>ali extra, sunt quatuor termini,
+            <lb ed="#V" n="76"/>quia istud praedicatum non fuit in
+            <lb ed="#V" n="77"/>majori. Si autem accipias
+            majo<lb ed="#V" n="78" break="no"/>rem istam, quam tamen non ponis
+            <lb ed="#V" n="79"/>in scripto, sed primam, oportet
+            <lb ed="#V" n="80"/>esse convenientiam inter recipiens, et
+            <lb ed="#V" n="81"/>illud a quo recipit, dico, quod magis
+            <lb ed="#V" n="82"/>proprie diceretur esse
+            proporti<lb ed="#V" n="83" break="no"/>onem quam convenientiam, quia
+            <lb ed="#V" n="84"/>recipiens habet rationem passi, et
+            <lb ed="#V" n="85"/>illud a quo recipit, rationem
+            agen<lb ed="#V" n="86" break="no"/>tis; agens autem et passum sunt
+            <pb ed="#V" n="302"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>proportionalia, non autem proprie
+            <lb ed="#V" n="2"/>convenientia, nisi extendendo
+            conve<lb ed="#V" n="3" break="no"/>nientiam ad proportionem; imo
+            pro<lb ed="#V" n="4" break="no"/>portio eorum requirit
+            disconveni<lb ed="#V" n="5" break="no"/>entiam, quia requirit quod unum
+            <lb ed="#V" n="6"/>sit in actu tale, et aliud in
+            poten<lb ed="#V" n="7" break="no"/>tia tale.
+          </p>
+          <p>
+            <lb ed="#V" n="8"/>Sic ergo major ista nova, vel erit
+            <lb ed="#V" n="9"/>falsa, si intelligatur de
+            convenien<lb ed="#V" n="10" break="no"/>tia proprie dicta; vel si extendat
+            <lb ed="#V" n="11"/>convenientiam ad proportionem,
+            <lb ed="#V" n="12"/>concedatur, et tunc minor, res extra
+            <lb ed="#V" n="13"/>non habet convenientiam ( isto modo)
+            <lb ed="#V" n="14"/>cum intellectu, falsa est. Est enim in
+            <lb ed="#V" n="15"/>actu saltem virtuali, tale quale
+            <lb ed="#V" n="16"/>formaliter intellectus est in
+            poten<lb ed="#V" n="17" break="no"/>tia.
+          </p>
+          <p>
+            <lb ed="#V" n="18"/>Hoc confirmatur primo, quia tu
+            <lb ed="#V" n="19"/>concedis phantasma habere talem
+            <lb ed="#V" n="20"/>convenientiam ad intellectum, et
+            <lb ed="#V" n="21"/>tamen phantasma est oppositae
+            con<lb ed="#V" n="22" break="no"/>ditionis ad illud quod recipitur in
+            <lb ed="#V" n="23"/>intellectu, in hoc quod non
+            reprae<lb ed="#V" n="24" break="no"/>sentat, nisi objectum ut hic et
+            <lb ed="#V" n="25"/>nunc, quod intelligitur sub ratione
+            <lb ed="#V" n="26"/>universali, abstractum ab istis
+            <lb ed="#V" n="27"/>conditionibus; nec illa alia
+            conve<lb ed="#V" n="28" break="no"/>nientia, scilicet quod phantasma
+            <lb ed="#V" n="29"/>est sine materia extrinseca, facit
+            <lb ed="#V" n="30"/>quod phantasma sit activum. Est
+            <lb ed="#V" n="31"/>enim vere in materia, hoc est,
+            <lb ed="#V" n="32"/>in organo extenso, et tantum
+            im<lb ed="#V" n="33" break="no"/>pediret actionem in intellectum
+            <lb ed="#V" n="34"/>«immaterialem existere in hac
+            <lb ed="#V" n="35"/>materia extensa, quantum
+            existe<lb ed="#V" n="36" break="no"/>re in illa materia extensa; sed
+            <lb ed="#V" n="37"/>tantummodo per hoc agit
+            phan<lb ed="#V" n="38" break="no"/>tasma in intellectum, quia est
+            re<lb ed="#V" n="39" break="no"/>praesentativum objecti; ergo hoc
+            <lb ed="#V" n="40"/>aeque potest ipsa res in se, quae
+            <lb ed="#V" n="41"/>aeque est repraesentativa sui. Et
+            <lb ed="#V" n="42"/>hoc credo esse verum, quia licet
+            in<lb ed="#V" n="43" break="no"/>tellectus possit abstrahere a
+            phan<lb ed="#V" n="44" break="no"/>tasmate manente sine re, tamen
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>potest immediate accipere
+            cogni<lb ed="#V" n="46" break="no"/>tionem a re extra, et habetur in
+            <lb ed="#V" n="47"/>quodam Commento, 3. de Anima.
+            <lb ed="#V" n="48"/>Confirmatur secundo, quia
+            seque<lb ed="#V" n="49" break="no"/>retur quod Angelus non posset
+            ac<lb ed="#V" n="50" break="no"/>cipere cognitionem a re, quod
+            <lb ed="#V" n="51"/>improbatum est in lib. 2. dist. 2.
+            <lb ed="#V" n="52"/>quoest. ult.
+          </p>
+          <p>
+            <lb ed="#V" n="53"/>(g) Secunda ratio quae est ad
+            <lb ed="#V" n="54"/>conclusionem affirmativam de illo
+            <lb ed="#V" n="55"/>influxu, vel peccat secundum
+            di<lb ed="#V" n="56" break="no"/>versum intellectum medii, vel
+            ha<lb ed="#V" n="57" break="no"/>bet alteram praemissam falsam.
+            <lb ed="#V" n="58"/>Cum enim accipis in majori,
+            medi<lb ed="#V" n="59" break="no"/>um quanto magis recedit ab uno extremo,
+            <lb ed="#V" n="60"/>tanto magis accedit ad aliud; si
+            intelli<lb ed="#V" n="61" break="no"/>gas uniformiter medium accedere
+            <lb ed="#V" n="62"/>et recedere, concedo; si
+            difformi<lb ed="#V" n="63" break="no"/>ter, falsa est, utpote si est medium
+            <lb ed="#V" n="64"/>in essendo, et recedit ab hoc
+            ex<lb ed="#V" n="65" break="no"/>tremo in essendo, accedit ad aliud
+            <lb ed="#V" n="66"/>in essendo. Similiter si est
+            medi<lb ed="#V" n="67" break="no"/>um in operando, et recedit ab hoc
+            <lb ed="#V" n="68"/>in operando, accedit ad illud in
+            <lb ed="#V" n="69"/>operando. Sed si est medium in
+            <lb ed="#V" n="70"/>essendo vel operando, et recedit in
+            <lb ed="#V" n="71"/>essendo ab uno extremo, non
+            pro<lb ed="#V" n="72" break="no"/>pter hoc accedet ad aliud in
+            ope<lb ed="#V" n="73" break="no"/>rando.
+          </p>
+          <p>
+            <lb ed="#V" n="74"/>Modo minor potest intelligi, vel
+            <lb ed="#V" n="75"/>de medio in essendo, et verum est,
+            <lb ed="#V" n="76"/>quia quodammodo anima
+            conjun<lb ed="#V" n="77" break="no"/>cta habet esse medium inter
+            sub<lb ed="#V" n="78" break="no"/>stantiam separatam, et esse
+            cor<lb ed="#V" n="79" break="no"/>poreum, et tunc conclude; ergo
+            <lb ed="#V" n="80"/>anima separata quando recedit
+            <lb ed="#V" n="81"/>a corpore in essendo, magis
+            acce<lb ed="#V" n="82" break="no"/>dit ad substantiam separatam in
+            <lb ed="#V" n="83"/>modo essendi, concedo; sed ex hoc
+            <lb ed="#V" n="84"/>nihil ad B, quod magis accedat in
+            <lb ed="#V" n="85"/>recipiendo influxum ejus
+            perti<lb ed="#V" n="86" break="no"/>nentem ad operationem; et si ad
+            <lb ed="#V" n="87"/>hoc deduceretur ratio,
+            manife<lb ed="#V" n="88" break="no"/>stum est quod non concludit, tunc
+            <pb ed="#V" n="303"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>enim anima separata magis esset
+            <lb ed="#V" n="2"/>capax talis influentiae, quam ipsa
+            <lb ed="#V" n="3"/>conjuncta corpori glorioso, quia
+            <lb ed="#V" n="4"/>conjuncta corpori glorioso magis
+            <lb ed="#V" n="5"/>accedit ad corpus secundum esse,
+            <lb ed="#V" n="6"/>quam ipsa separata, imo magis,
+            <lb ed="#V" n="7"/>hoc est, perfectius, quam ipsa
+            con<lb ed="#V" n="8" break="no"/>juncta corpori corruptibili.
+          </p>
+          <p>
+            <lb ed="#V" n="9"/>Si autem accipias in minori,
+            <lb ed="#V" n="10"/>quod anima separata magis
+            rece<lb ed="#V" n="11" break="no"/>dit a corpore in operando quam
+            <lb ed="#V" n="12"/>conjuncta, falsum est, ut ab
+            obje<lb ed="#V" n="13" break="no"/>cto circa quod operetur; ita enim
+            <lb ed="#V" n="14"/>potest separata cognoscere
+            cor<lb ed="#V" n="15" break="no"/>pus, sicut conjuncta potuit; et ideo
+            <lb ed="#V" n="16"/>non sequitur quod magis accedat
+            <lb ed="#V" n="17"/>ad substantiam separatam, ut ad
+            <lb ed="#V" n="18"/>objectum cognoscibile, vel ut a
+            <lb ed="#V" n="19"/>quo recipiat objectum
+            cognosci<lb ed="#V" n="20" break="no"/>bile.
+          </p>
+          <p>
+            <lb ed="#V" n="21"/>(h) Quae autem adducuntur pro
+            <lb ed="#V" n="22"/>confirmatione illius positionis,
+            <lb ed="#V" n="23"/>unum de somno et extasi, aliud de
+            <lb ed="#V" n="24"/>dicto Commentatoris 3. de Anima,
+            <lb ed="#V" n="25"/>t videntur figmenta; non enim ideo
+            <lb ed="#V" n="26"/>in somno videntur vera, quia
+            ani<lb ed="#V" n="27" break="no"/>a ma recedit a corpore in operando,
+            <lb ed="#V" n="28"/>ut ab objecto; tunc enim quanto
+            <lb ed="#V" n="29"/>somnus profundior, tanto magis
+            <lb ed="#V" n="30"/>talia viderentur; hoc autem falsum
+            <lb ed="#V" n="31"/>est, quia somnia non accidunt in
+            <lb ed="#V" n="32"/>somno profundissimo, sed in
+            som<lb ed="#V" n="33" break="no"/>no tenui; tunc enim epileptici
+            re<lb ed="#V" n="34" break="no"/>gulariter viderent vera a
+            spiriti<lb ed="#V" n="35" break="no"/>bus illis. Unde istud fundamentum
+            <lb ed="#V" n="36"/>videtur esse acceptum ex
+            fictioni<lb ed="#V" n="37" break="no"/>bus Mahometi, qui dicitur fuisse
+            <lb ed="#V" n="38"/>epilepticus, et ad cooperiendum
+            <lb ed="#V" n="39"/>mendaciter miseriam suam, dixit
+            <lb ed="#V" n="40"/>se oportere cadere, quando
+            Ange<lb ed="#V" n="41" break="no"/>lus loquebatur sibi, et secundum
+            <lb ed="#V" n="42"/>illam fictionem ejus, Avicenna
+            re<lb ed="#V" n="43" break="no"/>verenter loquens de lege sua,
+            fin<lb ed="#V" n="44" break="no"/>git in 9. Metaph. tales abstractiones
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>a sensu, ut fiat relevatio ab
+            Ange<lb ed="#V" n="46" break="no"/>lis.
+          </p>
+          <p>
+            <lb ed="#V" n="47"/>Nos autem Christiani non
+            dici<lb ed="#V" n="48" break="no"/>mus aliquem in somno vel extasi
+            <lb ed="#V" n="49"/>aliqua videre, nisi sit ibi aliqua
+            <lb ed="#V" n="50"/>causa positiva, utpote quod Deus
+            <lb ed="#V" n="51"/>tunc intellectum immutet; de
+            con<lb ed="#V" n="52" break="no"/>gruo autem magis tunc disponitur
+            <lb ed="#V" n="53"/>per amotionem impedimenti, quia
+            <lb ed="#V" n="54"/>scilicet non est distractus circa
+            <lb ed="#V" n="55"/>alia objecta, et vehemens
+            occupa<lb ed="#V" n="56" break="no"/>tio circa illud objectum, impedit
+            <lb ed="#V" n="57"/>intense operari circa istud; imo
+            <lb ed="#V" n="58"/>magis videtur miraculum, quod in
+            <lb ed="#V" n="59"/>somno reveletur veritas quam in
+            <lb ed="#V" n="60"/>vigilia in intellectu non nimis
+            in<lb ed="#V" n="61" break="no"/>tento circa sensibilia, quia
+            natura<lb ed="#V" n="62" break="no"/>le est quod in vigilia homo habeat
+            <lb ed="#V" n="63"/>usum rationis, in somno autem
+            <lb ed="#V" n="64"/>non.
+          </p>
+          <p>
+            <lb ed="#V" n="65"/>Illud secundum de Averroe,
+            pla<lb ed="#V" n="66" break="no"/>num est quod totum est figmentum,
+            <lb ed="#V" n="67"/>et ad propositum, quod ista
+            sub<lb ed="#V" n="68" break="no"/>stantia separata recipiat a
+            supe<lb ed="#V" n="69" break="no"/>rioribus, et tamen ut conjungitur
+            <lb ed="#V" n="70"/>nobis non recipiat, contraditio est,
+            <lb ed="#V" n="71"/>quia nulla substantia separata
+            <lb ed="#V" n="72"/>posset nobis conjungi, nisi in
+            ra<lb ed="#V" n="73" break="no"/>tione causae efficientis vel
+            moven<lb ed="#V" n="74" break="no"/>tis. Activum autem aliquod si in
+            <lb ed="#V" n="75"/>essendo recipit aliquid a superiori,
+            <lb ed="#V" n="76"/>et inquantum est activum, est
+            re<lb ed="#V" n="77" break="no"/>cipiens ab eodem.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d45q2-p5"> -->
+          <p>
+            <lb ed="#V" n="73" type="fixed=304"/>SCHOLIUM.
+            <lb ed="#V" n="74"/>Anima separata potest acquirere notitiam
+            <lb ed="#V" n="75"/>rei alias ignotae, tam abstractive quam
+            in<lb ed="#V" n="76" break="no"/>tuitive, ( de hac divisione scientiae agit 1.d. 1.
+            <lb ed="#V" n="77"/>quaest. 2. et dist. 8. quaest. pen. et 2. d. 3.
+            <lb ed="#V" n="78"/>quaest. 9. ). Ratio est, quia habet activum et
+            <lb ed="#V" n="79"/>passivum sufficiens ad istud; primum est
+            <lb ed="#V" n="80"/>objectum, et intellectus agens; secundum
+            <lb ed="#V" n="81"/>intellectus possibilis.
+          </p>
+          <p>
+            <lb ed="#V" n="82"/>(i) Ad quaestionem ergo dico quod
+            <lb ed="#V" n="83"/>anima separata potest acquirere
+            <lb ed="#V" n="84"/>cognitionem objecti prius ignoti, et
+            <lb ed="#V" n="85"/>hoc tam de cognitione abstractiva
+            <lb ed="#V" n="86"/>quam intuitiva. Rationes istorum
+            <lb ed="#V" n="87"/>terminorum alias dictae sunt.
+            <pb ed="#V" n="305"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Primum probo, quia activo
+            suffi<lb ed="#V" n="2" break="no"/>cienti, et passivo sufficienti
+            suffi<lb ed="#V" n="3" break="no"/>cienter approximatis, potest sequi
+            <lb ed="#V" n="4"/>effectus, et si agens sit naturaliter
+            <lb ed="#V" n="5"/>agens, sequitur effectus; nunc
+            au<lb ed="#V" n="6" break="no"/>tem in anima separata habente
+            <lb ed="#V" n="7"/>lapidem, vel aliud objectum
+            pro<lb ed="#V" n="8" break="no"/>portionaliter sibi praesens,
+            concur<lb ed="#V" n="9" break="no"/>runt haec omnia, agens sufficiens
+            <lb ed="#V" n="10"/>et passum sufficiens respectu
+            co<lb ed="#V" n="11" break="no"/>gnitionis abstractivae, sive
+            spe<lb ed="#V" n="12" break="no"/>ciei intelligibilis talis objecti, per
+            <lb ed="#V" n="13"/>quam habetur cognitio
+            abstracti<lb ed="#V" n="14" break="no"/>va; ergo, etc. Minor probatur, quia
+            <lb ed="#V" n="15"/>intellectus agens cum objecto est
+            <lb ed="#V" n="16"/>sufficiens causa activa speciei
+            in<lb ed="#V" n="17" break="no"/>telligibilis, nec minus cum objecto
+            <lb ed="#V" n="18"/>extra, quam cum phantasmate (de
+            <lb ed="#V" n="19"/>quo isti concedunt, quia, ut dictum
+            <lb ed="#V" n="20"/>est, contra opinionem arguendo,
+            <lb ed="#V" n="21"/>nihil est in phantasmate propter
+            <lb ed="#V" n="22"/>quod sufficiat ad causandum
+            speci<lb ed="#V" n="23" break="no"/>em intelligibilem, quin eminentius
+            <lb ed="#V" n="24"/>sit in re cujus est phantasma);
+            <lb ed="#V" n="25"/>intellectus autem possibilis est
+            <lb ed="#V" n="26"/>sufficienter receptivus.
+          </p>
+          <p>
+            <lb ed="#V" n="27"/>Per istam rationem probatur
+            <lb ed="#V" n="28"/>secundum, scilicet de cognitione
+            <lb ed="#V" n="29"/>intuitiva, nam causae illius
+            suffici<lb ed="#V" n="30" break="no"/>entes sunt objectum in actuali
+            <lb ed="#V" n="31"/>existentia praesens, et intellectus
+            <lb ed="#V" n="32"/>agens et possibilis; haec omnia
+            <lb ed="#V" n="33"/>possunt concurrere, et ita, ut
+            vide<lb ed="#V" n="34" break="no"/>tur, probatur quod necesse est rem
+            <lb ed="#V" n="35"/>ipsam immediate sufficere ad
+            co<lb ed="#V" n="36" break="no"/>gnitionem intellectualem
+            haben<lb ed="#V" n="37" break="no"/>«dam de ipsa, quia solum
+            phanta<lb ed="#V" n="38" break="no"/>sma non sufficit ad cognitionem
+            <lb ed="#V" n="39"/>intuitivam objecti, quia phantasma
+            <lb ed="#V" n="40"/>repraesentat rem existentem vel
+            <lb ed="#V" n="41"/>non existentem, praesentem vel
+            <lb ed="#V" n="42"/>non praesentem; et per consequens
+            <lb ed="#V" n="43"/>per ipsum non potest haberi
+            co<lb ed="#V" n="44" break="no"/>gnitio de re ut existente, et in
+            pro<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>pria existentia praesente; talis
+            <lb ed="#V" n="46"/>autem cognitio, quae dicitur
+            intui<lb ed="#V" n="47" break="no"/>tiva, potest esse intellectiva,
+            alio<lb ed="#V" n="48" break="no"/>quin intellectus non esset certus
+            <lb ed="#V" n="49"/>de aliqua existentia alicujus
+            obje<lb ed="#V" n="50" break="no"/>cti.
+          </p>
+          <p>
+            <lb ed="#V" n="51"/>Sed nec ista intuitio intellectiva,
+            <lb ed="#V" n="52"/>vel intellectio intuitiva haberie
+            <lb ed="#V" n="53"/>potest per speciem praesentem,
+            <lb ed="#V" n="54"/>quia illa repraesentat rem
+            indif<lb ed="#V" n="55" break="no"/>ferenter existentem vel non
+            exi<lb ed="#V" n="56" break="no"/>stentem, praesentem vel non
+            prae<lb ed="#V" n="57" break="no"/>sentem; et per hoc sequitur quod
+            <lb ed="#V" n="58"/>per solas species influxas a Deo
+            <lb ed="#V" n="59"/>vel Angelis, non est possibilis
+            in<lb ed="#V" n="60" break="no"/>tellectui separato utraque
+            intelle<lb ed="#V" n="61" break="no"/>ctio, quia non secunda; si ergo
+            <lb ed="#V" n="62"/>illa est possibilis, quia et nunc est
+            <lb ed="#V" n="63"/>possibilis, sequitur quod erit de
+            <lb ed="#V" n="64"/>re in se, non per talem influxum.
+          </p>
+          <p>
+            <lb ed="#V" n="65"/>(k) Distantia etiam immoderata
+            <lb ed="#V" n="66"/>objecti impedit illam
+            intellecti<lb ed="#V" n="67" break="no"/>onem objecti intuitivam, quia
+            se<lb ed="#V" n="68" break="no"/>cundum Augustinum de Cura pro
+            <lb ed="#V" n="69"/>mortuis agenda: Animae illae nesciunt
+            <lb ed="#V" n="70"/>quee hic aguntur, nisi ab Angelis discant,
+            <lb ed="#V" n="71"/>vel ab aliis animabus de novo ad eas
+            <lb ed="#V" n="72"/>venientibus, quia illae quae hic noverunt,
+            <lb ed="#V" n="73"/>possunt illis dicere; sicut Joannes
+            <lb ed="#V" n="74"/>Baptista praedixit animabus
+            san<lb ed="#V" n="75" break="no"/>ctis in Limbo Christum esse
+            des<lb ed="#V" n="76" break="no"/>censurum, sicut exponit
+            Grego<lb ed="#V" n="77" break="no"/>rius illam quaestionem ejus in
+            <lb ed="#V" n="78"/>Matth. Tu es, qui venturus es? Nunc
+            <lb ed="#V" n="79"/>autem si per species influxas
+            co<lb ed="#V" n="80" break="no"/>gnoscerent illas conditiones
+            exi<lb ed="#V" n="81" break="no"/>stentiae rerum, non oporteret talia
+            <lb ed="#V" n="82"/>nuntiari eis a Sanctis ea
+            scienti<lb ed="#V" n="83" break="no"/>bus, scilicet Angelis vel animabus,
+            <lb ed="#V" n="84"/>sicut dicunt isti.
+          </p>
+          <p>
+            <lb ed="#V" n="85"/>(1) Ad argumenta principalia.
+            <lb ed="#V" n="86"/>Ad primum dico quod non
+            sequi<lb ed="#V" n="87" break="no"/>tur frustra animam uniri corpori.
+            <lb ed="#V" n="88"/>Esto enim quod propter
+            perfecti<pb ed="#V" n="306"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>onem animae fieret ista unio, ut
+            <lb ed="#V" n="2"/>scilicet acquireret perfectionem
+            <lb ed="#V" n="3"/>suam ex tali unione, non sequitur
+            <lb ed="#V" n="4"/>quod frustra uniatur, si per aliam
+            <lb ed="#V" n="5"/>viam posset eam acquirere; si
+            <lb ed="#V" n="6"/>enim aliquid ordinatur ad finem,
+            <lb ed="#V" n="7"/>non frustra fit, si alio modo possit
+            <lb ed="#V" n="8"/>finis acquiri, sicut si sanitas
+            pos<lb ed="#V" n="9" break="no"/>sit acquiri per lotionem et
+            poti<lb ed="#V" n="10" break="no"/>onem, non frustra fit lotio, etsi
+            <lb ed="#V" n="11"/>per potionem possit sanitas
+            habe<lb ed="#V" n="12" break="no"/>ri; ita etsi cognitio possit acquiri
+            <lb ed="#V" n="13"/>per usum sensuum, et per alium
+            <lb ed="#V" n="14"/>modum ab anima separata, non
+            <lb ed="#V" n="15"/>frustra fit unio, ex quo ipsa est
+            <lb ed="#V" n="16"/>conveniens uno modo acquirendi
+            <lb ed="#V" n="17"/>cognitionem.
+          </p>
+          <p>
+            <lb ed="#V" n="18"/>Aliter, et magis ad rem, quod
+            <lb ed="#V" n="19"/>unio animae ad corpus non est
+            <lb ed="#V" n="20"/>finaliter propter perfectionem
+            <lb ed="#V" n="21"/>corporis, nec solam perfectionem
+            <lb ed="#V" n="22"/>animae, sed propter perfectionem
+            <lb ed="#V" n="23"/>totius consistentis ex istis
+            parti<lb ed="#V" n="24" break="no"/>bus; et ideo licet nulla perfectio
+            <lb ed="#V" n="25"/>possit accrescere huic parti vel
+            il<lb ed="#V" n="26" break="no"/>li, quae non posset haberi sine tali
+            <lb ed="#V" n="27"/>unione, tamen non fit frustra unio,
+            <lb ed="#V" n="28"/>quia perfectio totius, quae
+            princi<lb ed="#V" n="29" break="no"/>paliter intenditur a natura, non
+            <lb ed="#V" n="30"/>posset haberi nisi illo modo.
+          </p>
+          <p>
+            <lb ed="#V" n="31"/>(m) Ad secundum dico, quod
+            ali<lb ed="#V" n="32" break="no"/>quid est medium uni virtuti, quod
+            <lb ed="#V" n="33"/>non est medium alteri, loquendo
+            <lb ed="#V" n="34"/>de medio necessario, sicut in
+            trans<lb ed="#V" n="35" break="no"/>ferendo corpus de loco ad locum,
+            <lb ed="#V" n="36"/>ubi aliquod est medium
+            necessa<lb ed="#V" n="37" break="no"/>t rium virtuti naturali motivae, ita
+            <lb ed="#V" n="38"/>quod virtus naturalis non potest
+            <lb ed="#V" n="39"/>transferre de ubi remoto ad aliud
+            <lb ed="#V" n="40"/>ubi, nisi per ubi medium; et tamen
+            <lb ed="#V" n="41"/>illud non est medium virtuti
+            di<lb ed="#V" n="42" break="no"/>vinae, quae potest subito transferre
+            <lb ed="#V" n="43"/>de quocumque ubi ad quodcumque
+            <lb ed="#V" n="44"/>ubi. Sic in proposito, imperfectae
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>virtuti abstractivae necessarium
+            <lb ed="#V" n="46"/>medium est inter se sensibile extra
+            <lb ed="#V" n="47"/>et pure intelligibile, scilicet esse
+            <lb ed="#V" n="48"/>imaginabile; sed virtuti
+            perfecti<lb ed="#V" n="49" break="no"/>ori abstractivae non est istud
+            me<lb ed="#V" n="50" break="no"/>dium necessarium. Unde
+            argu<lb ed="#V" n="51" break="no"/>mentum posset duci ad oppositum,
+            <lb ed="#V" n="52"/>quod si virtus intellectus separati
+            <lb ed="#V" n="53"/>esset perfectior quam conjuncti,
+            <lb ed="#V" n="54"/>posset sine tali medio transferre
+            <lb ed="#V" n="55"/>objectum ab extremo in
+            extre<lb ed="#V" n="56" break="no"/>mum.
+          </p>
+          <p>
+            <lb ed="#V" n="57"/>Alio modo posset dici, quod sub
+            <lb ed="#V" n="58"/>altero extremo cadit esse
+            imagi<lb ed="#V" n="59" break="no"/>nabile, quia illud est simpliciter
+            <lb ed="#V" n="60"/>esse sensibile. Illud autem
+            extre<lb ed="#V" n="61" break="no"/>mum habet sub se diversa, et in
+            di<lb ed="#V" n="62" break="no"/>versis gradibus, quia aliquo modo
+            <lb ed="#V" n="63"/>in gradu sensibili remotiori ab
+            in<lb ed="#V" n="64" break="no"/>telligibili est sensibile extra, quam
+            <lb ed="#V" n="65"/>sensibile ut est in imaginabili;
+            <lb ed="#V" n="66"/>nunc autem in gradu aliquo in
+            <lb ed="#V" n="67"/>extremo potest alia virtus agere,
+            <lb ed="#V" n="68"/>et alia minor non potest agere,
+            <lb ed="#V" n="69"/>sed ab alio gradu propinquiori. Ita
+            <lb ed="#V" n="70"/>hic, licet virtus abstractiva
+            intel<lb ed="#V" n="71" break="no"/>lectus nostri conjuncti non possit
+            <lb ed="#V" n="72"/>agere a sensibili abstrahendo
+            in<lb ed="#V" n="73" break="no"/>telligibile, nisi ab hoc gradu
+            infi<lb ed="#V" n="74" break="no"/>mo sensibili, scilicet ab
+            imagina<lb ed="#V" n="75" break="no"/>bili, tamen illa virtus superior vel
+            <lb ed="#V" n="76"/>efficacior potest abstrahere a
+            gra<lb ed="#V" n="77" break="no"/>du magis distante, puta a sensibili
+            <lb ed="#V" n="78"/>extra.
+          </p>
+          <p>
+            <lb ed="#V" n="79"/>(n) Ad tertium, conceditur quod
+            <lb ed="#V" n="80"/>cujuslibet, caeteris paribus, potest
+            <lb ed="#V" n="81"/>acquiri notitia. Et cum dicis de
+            <lb ed="#V" n="82"/>distantia locali, quod non
+            impe<lb ed="#V" n="83" break="no"/>diat, respondeo, non sequitur,
+            <lb ed="#V" n="84"/>quia requiritur determinata
+            prae<lb ed="#V" n="85" break="no"/>sentia objecti ad potentiam; istam
+            <lb ed="#V" n="86"/>autem determinatam praesentiam
+            <lb ed="#V" n="87"/>impedit improportionata
+            distan<lb ed="#V" n="88" break="no"/>tia, nec mirum, quia ad minus
+            ob<pb ed="#V" n="307"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>jectum quod est aliquo modo hic
+            <lb ed="#V" n="2"/>activum, non potest agere in
+            pas<lb ed="#V" n="3" break="no"/>sum, quantumcumque distans; et
+            <lb ed="#V" n="4"/>per consequens concedo quod non
+            <lb ed="#V" n="5"/>potest respectu objecti
+            quantum<lb ed="#V" n="6" break="no"/>cumque localiter distincti, notitia
+            <lb ed="#V" n="7"/>causari in intellectu separato,
+            sic<lb ed="#V" n="8" break="no"/>ut nec in conjuncto.
+          </p>
+          <p>
+            <lb ed="#V" n="9"/>Si contra hoc objiciatur, quia
+            <lb ed="#V" n="10"/>secundum Boetium de
+            Hebdomadi<lb ed="#V" n="11" break="no"/>bus, per se notum est incorporalia in
+            <lb ed="#V" n="12"/>loco non esse; ergo nec in
+            operati<lb ed="#V" n="13" break="no"/>one sua distantiam localem
+            requi<lb ed="#V" n="14" break="no"/>rere. Respondeo, Philosophus
+            vi<lb ed="#V" n="15" break="no"/>detur ponere distantiam
+            determi<lb ed="#V" n="16" break="no"/>natam requiri ad actionem, etiam
+            <lb ed="#V" n="17"/>substantiae separatae. Unde in 8.
+            <lb ed="#V" n="18"/>d Physic. videtur ponere quod
+            Intel<lb ed="#V" n="19" break="no"/>ligentia movens orbem sit in
+            ali<lb ed="#V" n="20" break="no"/>qua parte illius orbis, a qua
+            inci<lb ed="#V" n="21" break="no"/>pit motus, quasi ad actionem
+            mo<lb ed="#V" n="22" break="no"/>vendi non nihil faceret praesentia
+            <lb ed="#V" n="23"/>localis, saltem definitiva
+            moven<lb ed="#V" n="24" break="no"/>tis. Similiter in 7. Physic, vult ex
+            <lb ed="#V" n="25"/>intentione quod agens et patiens
+            <lb ed="#V" n="26"/>sunt simul, quod vel intelligitur
+            <lb ed="#V" n="27"/>de simultate per contactum, ubi
+            <lb ed="#V" n="28"/>non potest esse major, sicut est in
+            <lb ed="#V" n="29"/>corporibus, secundum eum; vel
+            <lb ed="#V" n="30"/>ubi ista esse non potest, sed alia
+            <lb ed="#V" n="31"/>major, puta praesentia mutua, de
+            <lb ed="#V" n="32"/>illa intelligatur; spiritus autem
+            <lb ed="#V" n="33"/>ad corpus potest habere
+            praesen<lb ed="#V" n="34" break="no"/>tiam majorem quam per
+            conta<lb ed="#V" n="35" break="no"/>ctum: ergo ex intentione sua
+            si<lb ed="#V" n="36" break="no"/>multas per contactum mutuum
+            <lb ed="#V" n="37"/>erit ex praesentia mutua, et per
+            <lb ed="#V" n="38"/>consequens nimia distantia
+            impe<lb ed="#V" n="39" break="no"/>dit actionem.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

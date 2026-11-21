@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 43, Quaestio 4</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 43, Quaestio 4</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x20">Vives, Paris, 1894, volume 20</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="112"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e4838"><!-- jdso8u-b4d43q4 -->
+        <head>Quaestio 4</head>
+        <head type="question-title">Utrum resurrectio sit naturalis</head>
+        <!-- <div alias="scotus-d43q4-p1"> -->
+          <p>
+            <lb ed="#V" n="20" type="fixed=112"/>QUAESTIO IV.
+            <lb ed="#V" n="21"/>Utrum resurrectio sit naturalis?
+          </p>
+          <p>
+            <lb ed="#V" n="22"/>D. Thom. quodlib. 4. art. 5. opus. 9. cap. 82.
+            <lb ed="#V" n="23"/>Richard. hic art. 3. quaest. 1. Capreol. quaest.
+            <lb ed="#V" n="24"/>11. Palud. quaest. 2. et 3. Bassol. quaest. 4.
+            <lb ed="#V" n="25"/>Sotus dist. 44. Durand. hic quaest. 3. Henr.
+            <lb ed="#V" n="26"/>quodlib. 7. quaest. 16. AEgid. Theor. 1. Suar.
+            <lb ed="#V" n="27"/>tom. 2. in 3. p. disp. 44. s. 6. Vide Scot. 7.
+            <lb ed="#V" n="28"/>Met. q. 12. ad 2. mot. princ. et 9. Met.
+            <lb ed="#V" n="29"/>quast. 12. et in Theor. S Actio naturalis potest
+            <lb ed="#V" n="30"/>subesse, et 2. Phys. quaest. 4.
+          </p>
+          <p>
+            <lb ed="#V" n="31"/>(o) Quarto quaero, utrum
+            resur<lb ed="#V" n="32" break="no"/>rectio sit naturalis? Quod sic,
+            <lb ed="#V" n="33"/>secundum Damascenum lib. 3.
+            <lb ed="#V" n="34"/>cap. 14. Quod commune est omnibus
+            <lb ed="#V" n="35"/>in eadem specie, naturale est;
+            resur<lb ed="#V" n="36" break="no"/>rectio est hujusmodi; ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="37"/>Praeterea, motus est naturalis,
+            <lb ed="#V" n="38"/>qui terminatur ad quietem
+            natu<lb ed="#V" n="39" break="no"/>ralem, quia naturaliter movetur
+            <lb ed="#V" n="40"/>mobile ad illud in quo naturaliter
+            <lb ed="#V" n="41"/>quiescit; et pari ratione mutatio
+            <lb ed="#V" n="42"/>est naturalis quae terminatur
+            na<lb ed="#V" n="43" break="no"/>turaliter ad formam naturaliter
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="44"/>perficientem mutabile; sed
+            resur<lb ed="#V" n="45" break="no"/>rectio est hujusmodi, quia
+            per<lb ed="#V" n="46" break="no"/>fectibile naturaliter perficietur
+            <lb ed="#V" n="47"/>illa forma reunita; ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="48"/>Oppositum, Dionysius de div.
+            <lb ed="#V" n="49"/>nom. cap. 16. dicit de resurrectione,
+            <lb ed="#V" n="50"/>ipsam visam esse supra naturam;
+            <lb ed="#V" n="51"/>ergo non est naturalis. Praeterea
+            <lb ed="#V" n="52"/>ad cognoscendum effectus
+            natu<lb ed="#V" n="53" break="no"/>rales potest pertingi per rationem
+            <lb ed="#V" n="54"/>naturalem; non sic ad
+            resurre<lb ed="#V" n="55" break="no"/>ctionem, ex 2. quaest. hujus dist.
+            <lb ed="#V" n="56"/>ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="57"/>Praeterea, quod naturale est,
+            <lb ed="#V" n="58"/>evenit ut in pluribus, non tantum
+            <lb ed="#V" n="59"/>suppositis, sed etiam temporibus,
+            <lb ed="#V" n="60"/>quia evenit quoties causa ejus,
+            <lb ed="#V" n="61"/>quae naturalis est, non est
+            impe<lb ed="#V" n="62" break="no"/>dita; est autem impedita in
+            pau<lb ed="#V" n="63" break="no"/>cioribus; sed resurrectio tantum
+            <lb ed="#V" n="64"/>semel evenit; ergo, etc.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d43q4-p2"> -->
+          <p>
+            <lb ed="#V" n="72" type="fixed=112"/>SCHOLIUM.
+            <lb ed="#V" n="73"/>Explicat optime rationem naturalis,
+            vio<lb ed="#V" n="74" break="no"/>lenti et supernaturalis, et quomodo
+            natu<lb ed="#V" n="75" break="no"/>rale sumitur tripliciter; et rursus dupliciter
+            <lb ed="#V" n="76"/>in ordine ad agens, ut scilicet opponitur
+            <lb ed="#V" n="77"/>supernaturali, et libero; et dupliciter in
+            <lb ed="#V" n="78"/>ordine ad passum, ut opponitur violento et
+            <lb ed="#V" n="79"/>neutrali. Ad quaest. resolvit resurrectionem
+            <lb ed="#V" n="80"/>esse naturalem, ut opponitur violento, non
+            <lb ed="#V" n="81"/>ut opponitur supernaturali; loquendo de
+            <lb ed="#V" n="82"/>resurrectione activa, est supernaturalis et
+            <lb ed="#V" n="83"/>libera. De his Doct. quaest. 1. prolog. a
+            <lb ed="#V" n="84"/>num. 20.
+          </p>
+          <p>
+            <lb ed="#V" n="85"/>(p) Intelligendum est hoc, quod
+            <lb ed="#V" n="86"/>naturale aequivoce accipitur, quod
+            <pb ed="#V" n="113"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>apparet ex hoc, quia diversis
+            <lb ed="#V" n="2"/>opponitur; et illa est una doctrina
+            <lb ed="#V" n="3"/>cognoscendi multiplex, 1. Topic.
+            <lb ed="#V" n="4"/>cap. 12. Opponitur enim naturale
+            <lb ed="#V" n="5"/>uno modo supernaturali; alio modo
+            <lb ed="#V" n="6"/>libero vel voluntario; tertio modo
+            <lb ed="#V" n="7"/>violento. Naturalitas enim
+            aliquan<lb ed="#V" n="8" break="no"/>do pertinet ad, principium
+            ac<lb ed="#V" n="9" break="no"/>tivum, et tunc opponuntur sibi
+            <lb ed="#V" n="10"/>liberum uno modo, et alio modo
+            <lb ed="#V" n="11"/>supernaturale. Nam agens naturale,
+            <lb ed="#V" n="12"/>vel naturaliter dicitur quod
+            op<lb ed="#V" n="13" break="no"/>ponitur libero, quia agit
+            necessi<lb ed="#V" n="14" break="no"/>tate naturali; sed voluntarium vel
+            <lb ed="#V" n="15"/>liberum, quod seipsum determinat
+            <lb ed="#V" n="16"/>ad agendum; et illo modo
+            loqui<lb ed="#V" n="17" break="no"/>tur Philosophus. 2. Physic,
+            divi<lb ed="#V" n="18" break="no"/>dens naturam contra agens a
+            <lb ed="#V" n="19"/>proposito; et 9. Metaphysic, cap. 2.
+            <lb ed="#V" n="20"/>et 4. de potentiis activis
+            irrati<lb ed="#V" n="21" break="no"/>onalibus, et activis rationalibus,
+            <lb ed="#V" n="22"/>sive liberis.
+          </p>
+          <p>
+            <lb ed="#V" n="23"/>Alio modo ex parte principii
+            <lb ed="#V" n="24"/>activi naturale dicitur, quod habet
+            <lb ed="#V" n="25"/>naturalem ordinem activi ad
+            pas<lb ed="#V" n="26" break="no"/>sum; et supernaturale quod excedit
+            <lb ed="#V" n="27"/>omnem talem ordinem naturalem;
+            <lb ed="#V" n="28"/>et illo modo quodcumque agens
+            <lb ed="#V" n="29"/>causatum dicitur naturale, et
+            <lb ed="#V" n="30"/>solum agens increatum dicitur
+            <lb ed="#V" n="31"/>supernaturale.
+          </p>
+          <p>
+            <lb ed="#V" n="32"/>Ex parte autem passi
+            opponi<lb ed="#V" n="33" break="no"/>tur naturale uno modo violento,
+            <lb ed="#V" n="34"/>prout naturaliter dicitur moveri
+            <lb ed="#V" n="35"/>vel pati, quod patitur secundum
+            <lb ed="#V" n="36"/>propriam inclinationem passi;
+            <lb ed="#V" n="37"/>violenter vero, quod patitur
+            con<lb ed="#V" n="38" break="no"/>tra inclinationem passi.
+          </p>
+          <p>
+            <lb ed="#V" n="39"/>Et ex hoc sequitur, quod naturale
+            <lb ed="#V" n="40"/>et violentum, non sunt opposita
+            <lb ed="#V" n="41"/>contraria immediata, imo est
+            <lb ed="#V" n="42"/>inter ea medium, quando scilicet
+            <lb ed="#V" n="43"/>passum neutro modo se habet.
+            <lb ed="#V" n="44"/>neque inclinatur ad illud quod
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>recipit, neque ad oppositum,
+            sic<lb ed="#V" n="46" break="no"/>ut superficies ad albedinem vel
+            <lb ed="#V" n="47"/>nigredinem, vel ad medium.
+            Se<lb ed="#V" n="48" break="no"/>quitur etiam, quod non potest
+            <lb ed="#V" n="49"/>esse violentia in primo passo,
+            <lb ed="#V" n="50"/>scilicet materia prima, quia non
+            <lb ed="#V" n="51"/>inclinatur contra aliquid, cujus
+            <lb ed="#V" n="52"/>est absolute receptivum, et haec
+            <lb ed="#V" n="53"/>distinctio illorum oppositorum et
+            <lb ed="#V" n="54"/>medii accipitur in passo, ut
+            com<lb ed="#V" n="55" break="no"/>paratur ad formam, ad quam
+            <lb ed="#V" n="56"/>transmutatur. Ut autem passum
+            <lb ed="#V" n="57"/>comparatur ad agens a quo
+            re<lb ed="#V" n="58" break="no"/>cipit formam, dicitur naturaliter
+            <lb ed="#V" n="59"/>moveri, quando movetur ab
+            agen<lb ed="#V" n="60" break="no"/>te naturaliter sibi
+            correspon<lb ed="#V" n="61" break="no"/>dente; supernaturaliter autem
+            <lb ed="#V" n="62"/>moveri, quando ab agente supra
+            <lb ed="#V" n="63"/>totum ordinem agentis naturaliter
+            <lb ed="#V" n="64"/>proportionato isti.
+          </p>
+          <p>
+            <lb ed="#V" n="65"/>Sic ergo habemus naturale
+            dupli<lb ed="#V" n="66" break="no"/>citer, ut pertinet ad activum, quia
+            <lb ed="#V" n="67"/>ut distinguitur contra liberum et
+            <lb ed="#V" n="68"/>supernaturale; et naturale, vel
+            natu<lb ed="#V" n="69" break="no"/>raliter dupliciter, ut pertinet ad
+            <lb ed="#V" n="70"/>passum, quia ut distinguitur
+            con<lb ed="#V" n="71" break="no"/>tra neutraliter, et contra violentum.
+          </p>
+          <p>
+            <lb ed="#V" n="72"/>Sed contra distinctionem
+            duo<lb ed="#V" n="73" break="no"/>rum ultimorum membrorum
+            ar<lb ed="#V" n="74" break="no"/>guitur, quia secundum
+            Philoso<lb ed="#V" n="75" break="no"/>phum 3. Ethicor. Violentum est,
+            <lb ed="#V" n="76"/>cujus principium est extra, non
+            con<lb ed="#V" n="77" break="no"/>ferente vim passo; ergo in definitione
+            <lb ed="#V" n="78"/>violenti ponitur principium
+            moti<lb ed="#V" n="79" break="no"/>vum, et per consequens violentum
+            <lb ed="#V" n="80"/>essentialiter, non tantum
+            accipi<lb ed="#V" n="81" break="no"/>tur ex comparatione passi ad
+            <lb ed="#V" n="82"/>formam, sed ad agens.
+          </p>
+          <p>
+            <lb ed="#V" n="83"/>Respondeo, et ad quotcumque
+            <lb ed="#V" n="84"/>tales instantias, per hanc
+            propo<lb ed="#V" n="85" break="no"/>sitionem: Illud est per se causa, quo
+            <lb ed="#V" n="86"/>posito et circumscripto alio vel variato,
+            <lb ed="#V" n="87"/>sequitur effectus; nunc autem, licet
+            <lb ed="#V" n="88"/>forma, contra quam inclinatur
+            <pb ed="#V" n="114"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>receptivum, non inducatur nisi per
+            <lb ed="#V" n="2"/>agens per se violentans passum;
+            <lb ed="#V" n="3"/>tamen per se ratio violenti est ex
+            <lb ed="#V" n="4"/>habitudine passi ad formam, quia
+            <lb ed="#V" n="5"/>passo et forma manentibus in sua
+            <lb ed="#V" n="6"/>ratione, puta quod forma sit
+            re<lb ed="#V" n="7" break="no"/>ceptibilis, tamen contra
+            inclina<lb ed="#V" n="8" break="no"/>tionem passi quomodocumque
+            va<lb ed="#V" n="9" break="no"/>riatur agens, passum violenter
+            <lb ed="#V" n="10"/>recipit. Hoc etiam apparet, quia
+            <lb ed="#V" n="11"/>non tantum in induci, sed etiam in
+            <lb ed="#V" n="12"/>permanere, dicitur quod aliqua
+            for<lb ed="#V" n="13" break="no"/>ma violenter permanet in passo,
+            <lb ed="#V" n="14"/>et diu, aliqua autem naturaliter;
+            <lb ed="#V" n="15"/>ita quod circumscribendo agens,
+            <lb ed="#V" n="16"/>quod scilicet non habet actionem
+            <lb ed="#V" n="17"/>post inductionem formae, ibi est
+            <lb ed="#V" n="18"/>naturalitas vel violentia, praecise
+            <lb ed="#V" n="19"/>comparando formam ad
+            recepti<lb ed="#V" n="20" break="no"/>vum.
+          </p>
+          <p>
+            <lb ed="#V" n="21"/>Concedo ergo quod in
+            descri<lb ed="#V" n="22" break="no"/>ptione violenti, ponitur agens
+            tan<lb ed="#V" n="23" break="no"/>quam extrinsecum, sed non
+            tan<lb ed="#V" n="24" break="no"/>quam per se complens, nec
+            <lb ed="#V" n="25"/>tanquam per se constituens
+            rati<lb ed="#V" n="26" break="no"/>onem violenti; sed tantummodo
+            <lb ed="#V" n="27"/>completur per illud, passo vim noh
+            <lb ed="#V" n="28"/>conferente; et tamen modo maneret
+            <lb ed="#V" n="29"/>violentum post omnem actionem
+            <lb ed="#V" n="30"/>agentis, sicut si lapis posset
+            quie<lb ed="#V" n="31" break="no"/>scere sursum sine continua
+            acti<lb ed="#V" n="32" break="no"/>one detinentis; additur tamen
+            <lb ed="#V" n="33"/>principium in descriptione violenti,
+            <lb ed="#V" n="34"/>tanquam causa extrinseca.
+          </p>
+          <p>
+            <lb ed="#V" n="35"/>Consimiliter, licet passum
+            re<lb ed="#V" n="36" break="no"/>cipiat aliquam formam aliquo
+            <lb ed="#V" n="37"/>modo supernaturalem, et in hoc
+            <lb ed="#V" n="38"/>posset supernaturalitas dicere
+            <lb ed="#V" n="39"/>modum habitudinis passi ad
+            for<lb ed="#V" n="40" break="no"/>mam, tamen nunquam dicitur
+            <lb ed="#V" n="41"/>supernaturale, nisi quia recipit
+            <lb ed="#V" n="42"/>eam a tali agente, cujus probatio
+            <lb ed="#V" n="43"/>est, quia si formam naturaliter
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="44"/>sui perfectivam reciperet a tali
+            <lb ed="#V" n="45"/>agente, adhuc reciperet eam
+            su<lb ed="#V" n="46" break="no"/>pernaturaliter, non quidem
+            pro<lb ed="#V" n="47" break="no"/>pter habitudinem ad formam, quia
+            <lb ed="#V" n="48"/>sic naturaliter recipit, sed
+            pro<lb ed="#V" n="49" break="no"/>pter habitudinem ad agens a quo
+            <lb ed="#V" n="50"/>recipit.
+          </p>
+          <p>
+            <lb ed="#V" n="51"/>(q) Ad propositum resurrectio
+            <lb ed="#V" n="52"/>significat passionem, cui
+            corre<lb ed="#V" n="53" break="no"/>spondet pro actione resuscitatio;
+            <lb ed="#V" n="54"/>ergo in quaestione, an resurrectio
+            <lb ed="#V" n="55"/>sit naturalis, non accipitur
+            natu<lb ed="#V" n="56" break="no"/>ralitas, nisi prout pertinet ad
+            <lb ed="#V" n="57"/>passionem; sed in quaestione, an
+            <lb ed="#V" n="58"/>resuscitatio activa sit naturalis,
+            <lb ed="#V" n="59"/>accipietur naturale, ut pertinet ad
+            <lb ed="#V" n="60"/>actionem et ad causam activam.
+          </p>
+          <p>
+            <lb ed="#V" n="61"/>Primo ergo modo dico, quod
+            <lb ed="#V" n="62"/>erit naturalis, ut naturale
+            opponi<lb ed="#V" n="63" break="no"/>tur violento, sed non naturalis, ut
+            <lb ed="#V" n="64"/>naturale opponitur supernaturali, sed
+            <lb ed="#V" n="65"/>erit supernaturalis. Et ratio
+            utri<lb ed="#V" n="66" break="no"/>usque membri patet ex dictis in
+            <lb ed="#V" n="67"/>1. artic. Ratio primi, quia passum
+            <lb ed="#V" n="68"/>inclinatur naturaliter ad formam
+            <lb ed="#V" n="69"/>quam recipit. Ratio secundi, quia
+            <lb ed="#V" n="70"/>non recipit ab agente naturalem
+            <lb ed="#V" n="71"/>ordinem habente ad istud
+            agen<lb ed="#V" n="72" break="no"/>dum, sed supra totum istud.
+          </p>
+          <p>
+            <lb ed="#V" n="73"/>Si vero quaeratur de
+            resuscita<lb ed="#V" n="74" break="no"/>tione activa, an erit naturalis?
+            <lb ed="#V" n="75"/>Respondendum est, quod utroque
+            <lb ed="#V" n="76"/>modo, quo naturalis pertinet ad
+            <lb ed="#V" n="77"/>actionem, illa erit non naturalis,
+            <lb ed="#V" n="78"/>quia et ab agente libere, non
+            na<lb ed="#V" n="79" break="no"/>turali necessitate, et ab agente
+            <lb ed="#V" n="80"/>supra totum ordinem causarum
+            <lb ed="#V" n="81"/>creatarum, quae dicuntur habere
+            <lb ed="#V" n="82"/>ordinem naturalem agendi in
+            <lb ed="#V" n="83"/>passo.
+            <lb ed="#V" n="84"/>(r) Ad argumenta. Ad primum,
+            <lb ed="#V" n="85"/>auctoritas Damasceni intelligenda
+            <lb ed="#V" n="86"/>est de eo quod est commune
+            om<lb ed="#V" n="87" break="no"/>nibus in specie a principio
+            intrin<pb ed="#V" n="115"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>seco vel a causa naturali; non sic
+            <lb ed="#V" n="2"/>hic, et patet quod sic intelligit,
+            <lb ed="#V" n="3"/>quia propositionem sic intelle.
+            <lb ed="#V" n="4"/>ctam applicat ad operationem
+            <lb ed="#V" n="5"/>duplicem de Christo, qui est in
+            <lb ed="#V" n="6"/>omnibus in specie humana, a causa
+            <lb ed="#V" n="7"/>intrinseca, vel saltem naturali.
+          </p>
+          <p>
+            <lb ed="#V" n="8"/>Ad secundum, probat
+            tantum<lb ed="#V" n="9" break="no"/>modo quod resurrectio sit
+            natu<lb ed="#V" n="10" break="no"/>ralis, ut naturale opponitur viclento.
+            <lb ed="#V" n="11"/>Tamen quod tangitur ibi de
+            mu<lb ed="#V" n="12" break="no"/>tatione, habet dubium, an
+            resur<lb ed="#V" n="13" break="no"/>rectio sit mutatio, et dicetur in
+            <lb ed="#V" n="14"/>sequenti quaestione.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 46, Praeambulum</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 46, Praeambulum</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x20">Vives, Paris, 1894, volume 20</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="399"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e5273"><!-- jdso8u-b4d46prae -->
+        <head>Praeambulum</head>
+        <!-- <div alias="scotus-d46prae"> -->
+          <p>
+            <lb ed="#V" n="22" type="fixed=399"/>Sequitur hic de valde malis,
+            <lb ed="#V" n="23"/>quia in hac distinctione agitur de
+            <lb ed="#V" n="24"/>justitia Dei, et misericordia
+            con<lb ed="#V" n="25" break="no"/>currentibus in punitione
+            malo<lb ed="#V" n="26" break="no"/>rum. Ideo quaeruntur quatuor:
+            <lb ed="#V" n="27"/>Primo, utrum in Deo sit justitia?
+            <lb ed="#V" n="28"/>Secundo, utrum in Deo sit
+            mise<lb ed="#V" n="29" break="no"/>ricordia? Tertio, an in Deo
+            distin<lb ed="#V" n="30" break="no"/>guatur justitia et misericordia?
+            <lb ed="#V" n="31"/>Quarto, an in punitione malorum
+            <lb ed="#V" n="32"/>concurrat ex parte Dei punientis
+            <lb ed="#V" n="33"/>justitia cum misericordia?
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

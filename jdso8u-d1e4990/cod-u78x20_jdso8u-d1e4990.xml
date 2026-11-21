@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 46, Quaestio 3</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 46, Quaestio 3</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x20">Vives, Paris, 1894, volume 20</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="446"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e4990"><!-- jdso8u-b4d46q3 -->
+        <head>Quaestio 3</head>
+        <head type="question-title">Utrum in Deo distinguatur iustitia a misericordia</head>
+        <!-- <div alias="scotus-d46q3-p1"> -->
+          <p>
+            <lb ed="#V" n="30" type="fixed=446"/>QUAESTIO III.
+            <lb ed="#V" n="31"/>An in Deo distinguantur justitia et
+            <lb ed="#V" n="32"/>misericordia?
+          </p>
+          <p>
+            <lb ed="#V" n="33"/>Alens. 1. part. quaest. 48. m. 3. Richard. hic
+            <lb ed="#V" n="34"/>art. 2. quaest. 2. Henric. quodlib. 5. quaest. 1.
+            <lb ed="#V" n="35"/>et in sum. art. 51. Cajet. 1. part. quaest. 13.
+            <lb ed="#V" n="36"/>art. 4. Scot. 4. Met. quaest. 2. et 7. Met.
+            <lb ed="#V" n="37"/>quaest. 19.
+          </p>
+          <p>
+            <lb ed="#V" n="38"/>Ad tertium arguitur quod sic.
+            <lb ed="#V" n="39"/>Cassiodorus super Psalm. 50. Hoe
+            <lb ed="#V" n="40"/>duce res sunt in viis Domini semper
+            ad<cb ed="#V" n="b"/><lb ed="#V" n="41" break="no"/>junctae, et loquitur de misericordia
+            <lb ed="#V" n="42"/>et justitia.
+          </p>
+          <p>
+            <lb ed="#V" n="43"/>Praeterea, si non
+            distingueren<lb ed="#V" n="44" break="no"/>tur, sed essent idem, ergo
+            utrius<lb ed="#V" n="45" break="no"/>que esset idem effectus.
+            Consequen<lb ed="#V" n="46" break="no"/>tia patet, quia idem principium
+            <lb ed="#V" n="47"/>formale non habet nisi eumdem
+            <lb ed="#V" n="48"/>effectum; sed consequens est
+            fal<lb ed="#V" n="49" break="no"/>sum, quia effectus misericordiae
+            <lb ed="#V" n="50"/>est liberare sine meritis; effectus
+            <lb ed="#V" n="51"/>justitiae est condemnare ubi non
+            <lb ed="#V" n="52"/>sunt merita, vel salvare pro
+            meri<lb ed="#V" n="53" break="no"/>tis.
+          </p>
+          <p>
+            <lb ed="#V" n="54"/>Oppositum vult Augustinus 11.
+            <lb ed="#V" n="55"/>de Civit. cap. 10. Eo simplex est Deus,
+            <lb ed="#V" n="56"/>quod est quidquid habet, et hoc de eo
+            <lb ed="#V" n="57"/>quod dicitur ad se; hujusmodi est
+            <lb ed="#V" n="58"/>misericordia et justitia; ergo Deus
+            <lb ed="#V" n="59"/>est misericordia, Deus est justitia;
+            <lb ed="#V" n="60"/>ergo hoc est illud.
+          </p>
+          <p>
+            <lb ed="#V" n="61"/>SCHOLIUM.
+            <lb ed="#V" n="62"/>Tenendo opinionem, quae videtur D.
+            Tho<lb ed="#V" n="63" break="no"/>mae, scilicet in Deo duplicem esse justitiam,
+            <lb ed="#V" n="64"/>unam, quae respicit condecentiam divinae
+            <lb ed="#V" n="65"/>bonitatis, et aliam, quae respicit exigentiam
+            <lb ed="#V" n="66"/>creaturae; dicendum est misericordiam esse
+            <lb ed="#V" n="67"/>partem justitiae. Sed tenendo in Deo esse
+            <lb ed="#V" n="68"/>unam justitiam formaliter (de quo q. 1.
+            <lb ed="#V" n="69"/>num. 7.) misericordia ab ea distinguitur,
+            <lb ed="#V" n="70"/>quia objecta sunt distincta. Doctor non
+            deci<lb ed="#V" n="71" break="no"/>dit utrum horum sit asserendum, quia
+            pa<lb ed="#V" n="72" break="no"/>rum, aut nihil interest, utrum teneas. De
+            <lb ed="#V" n="73"/>distinctione formali attributorum agit
+            Do<lb ed="#V" n="74" break="no"/>ctor 1. d. 2. q. 7. et d. 8. quaest. 4. et alibi
+            <lb ed="#V" n="75"/>saepe.
+            <lb ed="#V" n="76"/>(a) Ad quaestionem sustinendo
+            pri<lb ed="#V" n="77" break="no"/>mam opinionem positam in prima
+            <lb ed="#V" n="78"/>quaest. dicitur quod misericordia est
+            <lb ed="#V" n="79"/>quaedam pars justitiae primo
+            mo<lb ed="#V" n="80" break="no"/>do dictae, quae scilicet est
+            conde<lb ed="#V" n="81" break="no"/>centia suae bonitatis, quia suae
+            bo<lb ed="#V" n="82" break="no"/>nitati condecet misereri.
+            Sustinen<lb ed="#V" n="83" break="no"/>do tamen secundam viam, patet
+            <lb ed="#V" n="84"/>quod justitia et misericordia non
+            <pb ed="#V" n="447"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>sunt formaliter idem, quia justitia
+            <lb ed="#V" n="2"/>respicit pro primo objecto
+            boni<lb ed="#V" n="3" break="no"/>tatem divinam. Misericordia
+            au<lb ed="#V" n="4" break="no"/>tem respicit aliquid in creatura,
+            <lb ed="#V" n="5"/>praetermisso etiam justo, quod
+            po<lb ed="#V" n="6" break="no"/>test esse in creatura, scilicet
+            exi<lb ed="#V" n="7" break="no"/>gentia, quia non est misericordia
+            <lb ed="#V" n="8"/>in Deo, ubi sic est justum in
+            cre<lb ed="#V" n="9" break="no"/>atura; istud autem objectum et
+            <lb ed="#V" n="10"/>illud non respiciuntur primo ab
+            <lb ed="#V" n="11"/>hoc et illo, nisi in hoc et in illo sit
+            <lb ed="#V" n="12"/>aliqua non identitas formalis, cum
+            <lb ed="#V" n="13"/>tamen non identitate formaliter
+            <lb ed="#V" n="14"/>stat identitas simpliciter, sicut
+            <lb ed="#V" n="15"/>dictum est distinct. 2. et dist. 8.
+            pri<lb ed="#V" n="16" break="no"/>mi, q. 4.
+            <lb ed="#V" n="17"/>(b) Si autem quaeritur ordo
+            ju<lb ed="#V" n="18" break="no"/>stitiae illo modo acceptae in hoc et
+            <lb ed="#V" n="19"/>in illo, justitia est simpliciter
+            <lb ed="#V" n="20"/>prior misericordia, comparando
+            <lb ed="#V" n="21"/>ad objecta, sicut objectum est
+            <lb ed="#V" n="22"/>prius simpliciter objecto. Ex parte
+            <lb ed="#V" n="23"/>autem ipsorum inter se, ut sunt
+            <lb ed="#V" n="24"/>intrinseca Deo, non habent
+            ordi<lb ed="#V" n="25" break="no"/>nem, nisi eo modo quo aliae
+            per<lb ed="#V" n="26" break="no"/>fectiones non eaedem formaliter
+            <lb ed="#V" n="27"/>ponuntur habere ordinem, per hoc
+            <lb ed="#V" n="28"/>quod una prius dicereturinesse
+            re<lb ed="#V" n="29" break="no"/>aliter, si esset ibi distinctio realis,
+            <lb ed="#V" n="30"/>et per consequens secundum illam
+            <lb ed="#V" n="31"/>distinctionem quam habent, una
+            <lb ed="#V" n="32"/>est prior natura altera; et illa
+            pri<lb ed="#V" n="33" break="no"/>oritate possibili, justitia est prior
+            <lb ed="#V" n="34"/>misericordia, secundum illud
+            An<lb ed="#V" n="35" break="no"/>selmi Prosol. 11. ex justitia nascitur
+            <lb ed="#V" n="36"/>misericordia.
+          </p>
+          <p>
+            <lb ed="#V" n="37"/>(c) Ad argumenta. Ad primum,
+            <lb ed="#V" n="38"/>extendit duas res ad qualitatem
+            <lb ed="#V" n="39"/>secundum quid, de qua dictum est
+            <lb ed="#V" n="40"/>q. praedicta primi, dist. 8. Nec oportet
+            <lb ed="#V" n="41"/>exponere res per realitates et
+            for<lb ed="#V" n="42" break="no"/>malitates, quia similis est
+            distin<lb ed="#V" n="43" break="no"/>ctio rei et rei, sicut realitatis et
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="44"/>realitatis, vel formalitatis et
+            for<lb ed="#V" n="45" break="no"/>malitatis.
+          </p>
+          <p>
+            <lb ed="#V" n="46"/>(d) Ad secundum dicitur quod
+            <lb ed="#V" n="47"/>misericordia connotat aliud quam
+            <lb ed="#V" n="48"/>justitia, licet ista duo sint inter
+            <lb ed="#V" n="49"/>se simpliciter eadem; sed contra
+            <lb ed="#V" n="50"/>hoc, connotatio illa non requirit
+            <lb ed="#V" n="51"/>aliquam distinctionem hujus ab
+            il<lb ed="#V" n="52" break="no"/>lo, ut est in se, sed tantummodo ut
+            <lb ed="#V" n="53"/>concipitur et signatur, quia ad hoc
+            <lb ed="#V" n="54"/>requiritur connotatio;
+            argumen<lb ed="#V" n="55" break="no"/>tum autem requirit quod illorum
+            <lb ed="#V" n="56"/>inter se, ut sunt causae
+            distincto<lb ed="#V" n="57" break="no"/>rum effectuum, sit aliqua
+            distin<lb ed="#V" n="58" break="no"/>ctio. Nec sufficit, ut videtur, ad
+            <lb ed="#V" n="59"/>hoc differentia rationis, quia res
+            <lb ed="#V" n="60"/>rationis non est illud, quo
+            ali<lb ed="#V" n="61" break="no"/>quis effectus realiter efficitur, imo
+            <lb ed="#V" n="62"/>generaliter nulla distinctio realis
+            <lb ed="#V" n="63"/>in effectu dependet a relatione
+            <lb ed="#V" n="64"/>rationis in causa, ut probatum
+            <lb ed="#V" n="65"/>est distinct. 13. primi. ista autem
+            <lb ed="#V" n="66"/>distinctio effectuum essentialiter
+            <lb ed="#V" n="67"/>dependet ex distinctione in causa;
+            <lb ed="#V" n="68"/>ergo non est solius rationis.
+          </p>
+          <p>
+            <lb ed="#V" n="69"/>Concedo ergo istam rationem,
+            <lb ed="#V" n="70"/>quod sicut in Deo intellectus non
+            <lb ed="#V" n="71"/>est formaliter voluntas, nec e
+            con<lb ed="#V" n="72" break="no"/>verso, licet unum verissima
+            iden<lb ed="#V" n="73" break="no"/>titate sit idem alteri, ita justitia
+            <lb ed="#V" n="74"/>non est formaliter, vel
+            quidditati<lb ed="#V" n="75" break="no"/>ve idem misericordiae, vel e
+            con<lb ed="#V" n="76" break="no"/>verso, et propter hanc non
+            identi<lb ed="#V" n="77" break="no"/>tatem formalem, potest istud esse
+            <lb ed="#V" n="78"/>principium proximum alicujus
+            <lb ed="#V" n="79"/>effectus extra, cujus reliquum non
+            <lb ed="#V" n="80"/>est principium formale; eodem
+            <lb ed="#V" n="81"/>modo sicut si hoc et illud essent
+            <lb ed="#V" n="82"/>duae res, quia esse principium
+            <lb ed="#V" n="83"/>formale competit alicui, ut est
+            ta<lb ed="#V" n="84" break="no"/>le formaliter.
+          </p>
+          <p>
+            <lb ed="#V" n="85"/>Contra hoc, esse divinum est
+            <lb ed="#V" n="86"/>actualissimum; ergo includit
+            om<lb ed="#V" n="87" break="no"/>nem perfectionem divinam; non;
+            <pb ed="#V" n="448"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>includeret autem, si esset
+            distin<lb ed="#V" n="2" break="no"/>cta perfectio a perfectione et ab
+            <lb ed="#V" n="3"/>essentia, quia quodcumque
+            distin<lb ed="#V" n="4" break="no"/>ctum ab eo formaliter est ibi
+            actu<lb ed="#V" n="5" break="no"/>aliter, et per consequens ut
+            distin<lb ed="#V" n="6" break="no"/>ctum, est ibi actu, et ita essentia
+            <lb ed="#V" n="7"/>ut distincta non includit omnem
+            <lb ed="#V" n="8"/>actum.
+          </p>
+          <p>
+            <lb ed="#V" n="9"/>Praeterea, si sint ibi distinctae
+            <lb ed="#V" n="10"/>formalitates reales, ergo
+            distin<lb ed="#V" n="11" break="no"/>ctae sunt ibi realitates, et ita
+            <lb ed="#V" n="12"/>distinctae res. Probatio primae
+            con<lb ed="#V" n="13" break="no"/>sequentiae, quia quaelibet
+            forma<lb ed="#V" n="14" break="no"/>litas propria realitate est
+            distin<lb ed="#V" n="15" break="no"/>cta.
+          </p>
+          <p>
+            <lb ed="#V" n="16"/>Ad primum, essentia unitive
+            con<lb ed="#V" n="17" break="no"/>tinet omnem actualitatem divinae
+            <lb ed="#V" n="18"/>essentiae; unitive autem non
+            con<lb ed="#V" n="19" break="no"/>tinentur quae sine omni
+            distincti<lb ed="#V" n="20" break="no"/>one continentur, quia unio non
+            <lb ed="#V" n="21"/>est absque omni distinctione. Nec
+            <lb ed="#V" n="22"/>unitive continentur quae
+            simplici<lb ed="#V" n="23" break="no"/>ter realiter distincta continentur,
+            <lb ed="#V" n="24"/>quia illa multipliciter, seu
+            disper<lb ed="#V" n="25" break="no"/>sim continentur; ergo hoc
+            voca<lb ed="#V" n="26" break="no"/>bulum unitive includit aliqualem
+            <lb ed="#V" n="27"/>distinctionem contentorum, quae
+            <lb ed="#V" n="28"/>sufficit ad unionem; non tamen
+            <lb ed="#V" n="29"/>talem unionem quae repugnet
+            om<lb ed="#V" n="30" break="no"/>ni compositioni et aggregationi
+            <lb ed="#V" n="31"/>distinctorum, hoc non potest esse,
+            <lb ed="#V" n="32"/>nisi ponatur non identitas formalis
+            <lb ed="#V" n="33"/>cum identitate reali.
+          </p>
+          <p>
+            <lb ed="#V" n="34"/>Ad argumentum ergo concedo
+            <lb ed="#V" n="35"/>quod essentia continet omnem
+            <lb ed="#V" n="36"/>actualitatem, et per consequens
+            <lb ed="#V" n="37"/>et omnem formalitatem, sed non ut
+            <lb ed="#V" n="38"/>formaliter eadem, quia tunc non
+            <lb ed="#V" n="39"/>contineret unitive. Et si dicas,
+            <lb ed="#V" n="40"/>continet quantum potest
+            contine<lb ed="#V" n="41" break="no"/>ri, verum est quantum unum unius
+            <lb ed="#V" n="42"/>rationis; nihil autem unius
+            rati<lb ed="#V" n="43" break="no"/>onis potest continere plura non
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="44"/>formaliter eadem, perfectius quam
+            <lb ed="#V" n="45"/>unitive vel identice.
+          </p>
+          <p>
+            <lb ed="#V" n="46"/>Ad secundum, potest dici quod
+            <lb ed="#V" n="47"/>quot sunt ibi formalitates, tot sunt
+            <lb ed="#V" n="48"/>ibi realitates et res; sed quaelibet
+            <lb ed="#V" n="49"/>pluralitas est tantum secundum
+            <lb ed="#V" n="50"/>quid, sicut ostensum est ibi. Vel
+            <lb ed="#V" n="51"/>posset negari consequentia, plures
+            <lb ed="#V" n="52"/>formalitates reales, ergo plures
+            <lb ed="#V" n="53"/>realitates, sicut negatur, plures
+            <lb ed="#V" n="54"/>personae divinae, ergo plures
+            divi<lb ed="#V" n="55" break="no"/>nitates; sed prima responsio est
+            <lb ed="#V" n="56"/>realior.
+          </p>
+          <p>
+            <lb ed="#V" n="57"/>Ad auctoritatem in oppositum,
+            <lb ed="#V" n="58"/>probat veram identitatem in Deo:
+            <lb ed="#V" n="59"/>cujuscumque ad quodcumque,
+            lo<lb ed="#V" n="60" break="no"/>quendo de intrinsecis ipsi Deo;
+            <lb ed="#V" n="61"/>sed ex hoc non sequitur, ergo
+            <lb ed="#V" n="62"/>quodlibet est formaliter idem
+            <lb ed="#V" n="63"/>cuilibet, quia vera identitas, imo
+            <lb ed="#V" n="64"/>verissima, quae sufficit ad omnino
+            <lb ed="#V" n="65"/>simplex, potest stare cum non
+            <lb ed="#V" n="66"/>identitate formali, ut dictum est
+            <lb ed="#V" n="67"/>praedicta quoest. 4. dist. 8. primi.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

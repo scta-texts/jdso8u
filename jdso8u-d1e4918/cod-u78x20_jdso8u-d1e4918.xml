@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 45, Quaestio 1</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 45, Quaestio 1</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x20">Vives, Paris, 1894, volume 20</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="263"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e4918"><!-- jdso8u-b4d45q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum anima separata possit intelligere quiditates sibi ante separationem habitualiter notas</head>
+        <!-- <div alias="scotus-d45q1-p1"> -->
+          <p>
+            <lb ed="#V" n="76" type="fixed=263"/>QUAESTIO I.
+            <lb ed="#V" n="77"/>Utrum anima separata possit intelligere
+            <lb ed="#V" n="78"/>quidditates sibi ante separationem
+            <lb ed="#V" n="79"/>habitualiter notas?
+          </p>
+          <p>
+            <lb ed="#V" n="80"/>Henricus quodl. 5. q. 14. D. Thom. 1. part.
+            <lb ed="#V" n="81"/>quaest. 89. art. 5. et hic quaest. 2. art. 1. Abul
+            <lb ed="#V" n="82"/>in 25. Matth. quaest. 580. Occham. 4. quaest. 2.
+            <pb ed="#V" n="264"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>art. 1. Bellarm. 1tb. 2. de Purgat. cap. 9.
+            Co<lb ed="#V" n="2" break="no"/>nimbr. tract. de Anima separata disp. 3. art.
+            <lb ed="#V" n="3"/>3. Goffred. Quodlib. quaest. 9.
+          </p>
+          <p>
+            <lb ed="#V" n="4"/>Circa istam (a) distinctionem
+            <lb ed="#V" n="5"/>quadragesimam quintam, quaero
+            <lb ed="#V" n="6"/>quatuor. Primo, utrum anima
+            se<lb ed="#V" n="7" break="no"/>parata possit intelligere
+            quiddita<lb ed="#V" n="8" break="no"/>tes sibi ante separationem
+            habi<lb ed="#V" n="9" break="no"/>tualiter notas? Quod non, 3. de
+            <lb ed="#V" n="10"/>Anima: Phantasmata se habent ad
+            intel<lb ed="#V" n="11" break="no"/>lectum, sicut sensibilia ad sensum; sed
+            <lb ed="#V" n="12"/>sensus non potest aliquam
+            sensa<lb ed="#V" n="13" break="no"/>tionem habere, nisi moveatur a
+            <lb ed="#V" n="14"/>sensibili; ergo nec intellectus
+            ali<lb ed="#V" n="15" break="no"/>quam intellectionem, nisi
+            movea<lb ed="#V" n="16" break="no"/>tur a phantasmate, sed tunc non
+            <lb ed="#V" n="17"/>movebitur a phantasmate.
+          </p>
+          <p>
+            <lb ed="#V" n="18"/>Praeterea, 1. de Anima:
+            Intelle<lb ed="#V" n="19" break="no"/>ctus corrumpitur quodam interiori
+            cor<lb ed="#V" n="20" break="no"/>rupto; illud interius non potest
+            <lb ed="#V" n="21"/>esse, nisi organum phantasiae;
+            <lb ed="#V" n="22"/>illuc autem corrumpitur in
+            mor<lb ed="#V" n="23" break="no"/>te; ergo et intellectus.
+          </p>
+          <p>
+            <lb ed="#V" n="24"/>Praeterea, nullus intellectus
+            in<lb ed="#V" n="25" break="no"/>telligit, nisi intellectus possibilis,
+            <lb ed="#V" n="26"/>quia agens non intelligit; sed
+            pos<lb ed="#V" n="27" break="no"/>sibilis non manet post mortem,
+            <lb ed="#V" n="28"/>quia 3. de Anima, intellectus passivus
+            <lb ed="#V" n="29"/>corrumpitur; possibilis est passivus,
+            <lb ed="#V" n="30"/>ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="31"/>Oppositum 3. de Anima: Anima
+            <lb ed="#V" n="32"/>est locus specierum, non tota, sed
+            intel<lb ed="#V" n="33" break="no"/>lectus. Loci autem est salvare
+            loca<lb ed="#V" n="34" break="no"/>tum; ergo intellectus salvat
+            spe<lb ed="#V" n="35" break="no"/>cies; etc. Praeterea, Boetius 5.
+            <lb ed="#V" n="36"/>Consolationum: Receptum est in
+            reci<lb ed="#V" n="37" break="no"/>piente per modum recipientis; anima
+            <lb ed="#V" n="38"/>recipiens species intelligibiles,
+            <lb ed="#V" n="39"/>est incorruptibilis; ergo recipit eas
+            <lb ed="#V" n="40"/>incorruptibiliter. Praeterea,
+            Avi<lb ed="#V" n="41" break="no"/>cenna 6. Naturalium 1. parte, cap.
+            <lb ed="#V" n="42"/>6. Anima separata clarius videbit
+            verita<lb ed="#V" n="43" break="no"/>tem quam conjuncta; et concordat
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="44"/>cum illo Sap. 9. Corpus quod corrum.
+            <lb ed="#V" n="45"/>pitur aggravat animam.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d45q1-p2"> -->
+          <p>
+            <lb ed="#V" n="73" type="fixed=264"/>SCHOLIUM.
+            <lb ed="#V" n="74"/>Supponit dari speciem intelligibilem, ut
+            <lb ed="#V" n="75"/>probavit late 1. dist. 3. quaest. 6. a n. 5.
+            <lb ed="#V" n="76"/>eamque manere post actum, ut ibi probavit
+            <lb ed="#V" n="77"/>num. 27. de quo 2. dist. 3. quaest. 10. n. 18.
+            <lb ed="#V" n="78"/>Ex his probat animam separatam per
+            spe<lb ed="#V" n="79" break="no"/>cies retentas posse intelligere quidditates.
+          </p>
+          <p>
+            <lb ed="#V" n="80"/>(b) Hic est una opinio de
+            intelle<lb ed="#V" n="81" break="no"/>ctione animae separatae, quod ipsa
+            <lb ed="#V" n="82"/>intelligit per species sibi influxas
+            <lb ed="#V" n="83"/>a Deo; sed ejus pertractatio magis
+            <lb ed="#V" n="84"/>est propria in seq. quaest. De specie
+            <lb ed="#V" n="85"/>ergo non influxa, sive per modum
+            <pb ed="#V" n="265"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>naturalem acquisita, videtur esse
+            <lb ed="#V" n="2"/>opinio Avicennae 6. Naturalium,
+            <lb ed="#V" n="3"/>part. 6. cap. 5. quod ipsa non
+            ma<lb ed="#V" n="4" break="no"/>net sine actu intelligendi. Ad hoc
+            <lb ed="#V" n="5"/>adducitur etiam Augustinus 2.
+            <lb ed="#V" n="6"/>Trinit, cap. 3. quod cessante actu
+            <lb ed="#V" n="7"/>cogitandi nihil manet in intelligentia,
+            <lb ed="#V" n="8"/>sed postquam conversa est ad memoriam,
+            <lb ed="#V" n="9"/>recipit ab ea. Haec sonant quod nulla
+            <lb ed="#V" n="10"/>species intelligibilis remaneat in
+            <lb ed="#V" n="11"/>intellectu habitualiter, cessante
+            <lb ed="#V" n="12"/>actu.
+          </p>
+          <p>
+            <lb ed="#V" n="13"/>Alia opinio est, quod in
+            intelle<lb ed="#V" n="14" break="no"/>ctu nulla est species intelligibilis,
+            <lb ed="#V" n="15"/>sed tantum phantasma in virtute
+            <lb ed="#V" n="16"/>phantastica. Circa hoc diffuse
+            ha<lb ed="#V" n="17" break="no"/>bitus est tractatus dist. 3. primi q.
+            <lb ed="#V" n="18"/>6. et dist. 3. secundi, quoest. 10. unde
+            <lb ed="#V" n="19"/>ex probatis supponatur primo,
+            <lb ed="#V" n="20"/>quod species intelligibilis sit
+            po<lb ed="#V" n="21" break="no"/>nenda. Secundo, quod ipsa
+            rema<lb ed="#V" n="22" break="no"/>neat in intellectu cessante omni
+            <lb ed="#V" n="23"/>actu intelligendi, nec tantum
+            re<lb ed="#V" n="24" break="no"/>maneat, ut raptim transiens, sed
+            <lb ed="#V" n="25"/>ut habitus quoad rationem
+            per<lb ed="#V" n="26" break="no"/>manentiae; an autem sit habitus,
+            <lb ed="#V" n="27"/>tactum est ibi in secundo lib.
+            Lo<lb ed="#V" n="28" break="no"/>quendo enim de habitu usitate,
+            <lb ed="#V" n="29"/>prout est aliqua qualitas inclinans
+            <lb ed="#V" n="30"/>ad faciliter considerandum,
+            spe<lb ed="#V" n="31" break="no"/>cies non est habitus, sed praecedit
+            <lb ed="#V" n="32"/>eum, imo praecedit actum a quo
+            <lb ed="#V" n="33"/>generatur ille habitus proprie
+            <lb ed="#V" n="34"/>dictus. Qualiter autem
+            Augusti<lb ed="#V" n="35" break="no"/>nus et Avicenna exponendi sunt,
+            <lb ed="#V" n="36"/>patet ibi, quia Augustinus non
+            <lb ed="#V" n="37"/>loquitur nisi de acie sensitiva,
+            <lb ed="#V" n="38"/>quam vocat aciem cogitationis,
+            <lb ed="#V" n="39"/>quae non manebit in anima
+            sepa<lb ed="#V" n="40" break="no"/>rata. Avicenna autem videtur
+            <lb ed="#V" n="41"/>ponere duplicem modum
+            intelli<lb ed="#V" n="42" break="no"/>gendi ab inferiori et superiori,
+            <lb ed="#V" n="43"/>ut tactum est ibi; et ab inferiori
+            <lb ed="#V" n="44"/>quidem notitiam permansivam, a
+            <lb ed="#V" n="45"/>superiori non.
+          </p>
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="46"/>(c) Ex his suppositis habemus
+            <lb ed="#V" n="47"/>istam conclusionem, quod in
+            intel<lb ed="#V" n="48" break="no"/>lectu secundum se manet species
+            <lb ed="#V" n="49"/>intelligibilis post actum
+            intelli<lb ed="#V" n="50" break="no"/>gendi. Ex hoc arguo sic: In
+            <lb ed="#V" n="51"/>intellectu, ut est subjectum
+            spe<lb ed="#V" n="52" break="no"/>ciei intelligibilis, non est per se
+            <lb ed="#V" n="53"/>requisitum, nec necessario,
+            con<lb ed="#V" n="54" break="no"/>junctio ejus ad corpus; ergo per non
+            <lb ed="#V" n="55"/>conjungi ad corpus, non se habet
+            <lb ed="#V" n="56"/>aliter in recipiendo speciem
+            in<lb ed="#V" n="57" break="no"/>telligibilem. Consequentia patet,
+            <lb ed="#V" n="58"/>quia subjectum non aliter se habet
+            <lb ed="#V" n="59"/>in recipiendo accidens propter
+            <lb ed="#V" n="60"/>variationem ejus, quod non est
+            <lb ed="#V" n="61"/>ratio recipiendi illud, nec aliquo
+            <lb ed="#V" n="62"/>modo necessarium in recipiendo;
+            <lb ed="#V" n="63"/>ipsa autem anima secundum se,
+            <lb ed="#V" n="64"/>et inquantum perficit corpus, est
+            <lb ed="#V" n="65"/>subjectum totale speciei, quia
+            ali<lb ed="#V" n="66" break="no"/>ter Angelus non posset esse
+            sub<lb ed="#V" n="67" break="no"/>jectum talium specierum.
+            Ante<lb ed="#V" n="68" break="no"/>cedens probo, quia species ista
+            <lb ed="#V" n="69"/>est forma simplex immaterialis
+            <lb ed="#V" n="70"/>vel spiritualis, ad minus in hoc
+            <lb ed="#V" n="71"/>quod est inextensa et
+            inextensi<lb ed="#V" n="72" break="no"/>bilis. Unde dicit Commentator
+            <lb ed="#V" n="73"/>quod transfertur objectum de
+            or<lb ed="#V" n="74" break="no"/>dine in ordinem, quando de
+            phan<lb ed="#V" n="75" break="no"/>tasmate transfertur per
+            intelle<lb ed="#V" n="76" break="no"/>ctum agentem, ad ordinem
+            intel<lb ed="#V" n="77" break="no"/>lectus possibilis. Quod non
+            intelli<lb ed="#V" n="78" break="no"/>go nisi de ordine materialis et
+            <lb ed="#V" n="79"/>extensibilis ad ordinem
+            immate<lb ed="#V" n="80" break="no"/>rialem et inextensibilem; sed nihil
+            <lb ed="#V" n="81"/>simpliciter immaterialiter
+            recipi<lb ed="#V" n="82" break="no"/>tur in intellectu, inquantum
+            con<lb ed="#V" n="83" break="no"/>junctus est simpliciter corpori,
+            <lb ed="#V" n="84"/>quia si inquantum sic, vel ergo
+            <lb ed="#V" n="85"/>in toto primo, vel illa conjunctio
+            <lb ed="#V" n="86"/>erit aliqua ratio recipiendi, sive
+            <lb ed="#V" n="87"/>sic, sive sic receptum, non erit
+            <lb ed="#V" n="88"/>omnino immateriale isto modo.
+          </p>
+          <p>
+            <lb ed="#V" n="89"/>(d) Ex hoc habeo, quod species
+            <pb ed="#V" n="266"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>intelligibilis eodem modo potest
+            <lb ed="#V" n="2"/>informare intellectum separatum,
+            <lb ed="#V" n="3"/>sicut conjunctum; et tunc ultra
+            <lb ed="#V" n="4"/>cum species intelligibilis
+            conjun<lb ed="#V" n="5" break="no"/>cta intellectui agenti et possibili,
+            <lb ed="#V" n="6"/>eodem modo constituat rationem
+            <lb ed="#V" n="7"/>memoriae perfectae, eo modo quo
+            <lb ed="#V" n="8"/>alias dictum est de memoria
+            in<lb ed="#V" n="9" break="no"/>1. tellectiva, quod continet objectum
+            <lb ed="#V" n="10"/>intelligibile, et intellectum
+            gigni<lb ed="#V" n="11" break="no"/>tivum, sequitur quod in intellectu
+            <lb ed="#V" n="12"/>separato poterit esse memoria
+            <lb ed="#V" n="13"/>ejusdem rationis, quae fuit in
+            con<lb ed="#V" n="14" break="no"/>juncto; et ultra cum memoria
+            <lb ed="#V" n="15"/>aeque perfecta sit aeque parens
+            <lb ed="#V" n="16"/>perfecti actus in intelligentia, et
+            <lb ed="#V" n="17"/>verbi perfecti per Augustinum 13.
+            <lb ed="#V" n="18"/>de Trinit per totum, sequitur quod
+            <lb ed="#V" n="19"/>in intellectu separato poterit esse
+            <lb ed="#V" n="20"/>aeque talis gignitio, sicut
+            intelle<lb ed="#V" n="21" break="no"/>ctui conjuncto; ergo anima
+            sepa<lb ed="#V" n="22" break="no"/>rata per speciem intelligibilem
+            <lb ed="#V" n="23"/>retentam cujuscumque, cujus
+            <lb ed="#V" n="24"/>prius, poterit habere actualem
+            <lb ed="#V" n="25"/>intellectionem.
+          </p>
+          <p>
+            <lb ed="#V" n="26"/>Huic consonat intentio
+            Philoso<lb ed="#V" n="27" break="no"/>.phi, qui vult primo de Anima, quod si
+            <lb ed="#V" n="28"/>non potest habere operationem separatam.
+            <lb ed="#V" n="29"/>nec esse. Ponit etiam scientiam
+            <lb ed="#V" n="30"/>proprie in intellectu 3. de Anima,
+            <lb ed="#V" n="31"/>dicens quod sicut anima per sensus
+            <lb ed="#V" n="32"/>est sensibilis, ita per scientiam est
+            sci<lb ed="#V" n="33" break="no"/>bilis. Scientia autem ex parte sua
+            <lb ed="#V" n="34"/>nata est incorruptibiliter manere,
+            <lb ed="#V" n="35"/>et per consequens ex parte
+            sub<lb ed="#V" n="36" break="no"/>jecti, cum subjectum sit
+            incorru<lb ed="#V" n="37" break="no"/>ptibile; habens autem ipsam, est
+            <lb ed="#V" n="38"/>in potentia accidentali ad
+            consi<lb ed="#V" n="39" break="no"/>derandum, ex eodem 3. et 8. Physic.
+            <lb ed="#V" n="40"/>Igitur anima separata est in
+            po<lb ed="#V" n="41" break="no"/>tentia accidentali ad intelligendum
+            <lb ed="#V" n="42"/>objecta prius habitualiter sibi
+            no<lb ed="#V" n="43" break="no"/>ta; ergo potest ex se exire in
+            <lb ed="#V" n="44"/>actum.
+          </p>
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>Huic etiam consonat illud
+            Hie<lb ed="#V" n="46" break="no"/>ronymi, in prologo Bibliae:
+            Disca<lb ed="#V" n="47" break="no"/>mus in terris, quorum nobis scientia
+            <lb ed="#V" n="48"/>remanebit in caelis. Valde enim
+            indi<lb ed="#V" n="49" break="no"/>gnum esset tantum laborare circa
+            <lb ed="#V" n="50"/>scientiam et virtutes, si desinerent
+            <lb ed="#V" n="51"/>esse in morte, et valde
+            irrationa<lb ed="#V" n="52" break="no"/>bile est quod maneant, quin
+            eo<lb ed="#V" n="53" break="no"/>rum actus possint haberi.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d45q1-p3"> -->
+          <p>
+            <lb ed="#V" n="74" type="fixed=270"/>SCHOLIUM.
+            <lb ed="#V" n="75"/>Arguit quadrupliciter, quod anima
+            sepa<lb ed="#V" n="76" break="no"/>rata non intelligat quidditates sibi antea
+            <lb ed="#V" n="77"/>notas, et solvit per optimam doctrinam.
+          </p>
+          <p>
+            <lb ed="#V" n="78"/>(c) Contra hoc videntur aliquae
+            <lb ed="#V" n="79"/>dubitationes: Primo, quia si
+            mul<lb ed="#V" n="80" break="no"/>tae species intelligibiles sint
+            con<lb ed="#V" n="81" break="no"/>servatae in intellectu, aut quaelibet
+            <lb ed="#V" n="82"/>movebit ad intellectionem, vel ad
+            <lb ed="#V" n="83"/>considerandum objectum
+            reprae<lb ed="#V" n="84" break="no"/>sentatum per ipsam, vel nulla.
+            <lb ed="#V" n="85"/>Primum est inconveniens, quia
+            <pb ed="#V" n="271"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>non convenit intelligere multa
+            <lb ed="#V" n="2"/>distincta; ergo relinquitur
+            secun<lb ed="#V" n="3" break="no"/>dum, quod nihil continget
+            intelli<lb ed="#V" n="4" break="no"/>gere.
+          </p>
+          <p>
+            <lb ed="#V" n="5"/>Praeterea intellectio sine
+            phan<lb ed="#V" n="6" break="no"/>tasmate perfectior est quam cum
+            <lb ed="#V" n="7"/>phantasmate (cujus probatio est,
+            <lb ed="#V" n="8"/>quia convenit cum intellectione
+            <lb ed="#V" n="9"/>Dei et Angelorum, quae est
+            sim<lb ed="#V" n="10" break="no"/>pliciter perfectior in genere
+            intel<lb ed="#V" n="11" break="no"/>lectionum); ergo si intellectus
+            se<lb ed="#V" n="12" break="no"/>paratus possit intelligere sine
+            <lb ed="#V" n="13"/>phantasmate, haberet
+            intellecti<lb ed="#V" n="14" break="no"/>onem simpliciter perfectiorem
+            <lb ed="#V" n="15"/>quam conjunctus, quod est
+            incon<lb ed="#V" n="16" break="no"/>veniens.
+          </p>
+          <p>
+            <lb ed="#V" n="17"/>Praeterea, in intellectu
+            conjun<lb ed="#V" n="18" break="no"/>cto non sufficit species
+            intelligibi<lb ed="#V" n="19" break="no"/>lis ad intellectionem sine
+            phanta<lb ed="#V" n="20" break="no"/>smate, quia oportet converti ad
+            <lb ed="#V" n="21"/>phantasmata, 3. de Anima. Sed ista
+            <lb ed="#V" n="22"/>species intelligibilis est aeque
+            per<lb ed="#V" n="23" break="no"/>fecta in intellectu conjuncto sicut
+            <lb ed="#V" n="24"/>in separato; ergo ipsa sola in
+            sepa<lb ed="#V" n="25" break="no"/>rato non sufficiet ad
+            intellecti<lb ed="#V" n="26" break="no"/>onem, quia nec phantasma poterit
+            <lb ed="#V" n="27"/>tunc haberi; ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="28"/>Praeterea, operatio propria
+            to<lb ed="#V" n="29" break="no"/>tius non potest esse propria
+            ope<lb ed="#V" n="30" break="no"/>ratio partis, quia nec esse totale
+            <lb ed="#V" n="31"/>totius poterit esse partis; sed
+            intel<lb ed="#V" n="32" break="no"/>ligere est propria operatio hominis,
+            <lb ed="#V" n="33"/>ex 1. Ethic. Et probatur per
+            rati<lb ed="#V" n="34" break="no"/>onem, quia est aliqua propria
+            ope<lb ed="#V" n="35" break="no"/>ratio istius speciei, et non alia
+            <lb ed="#V" n="36"/>quam ista; ergo illa non potest
+            es<lb ed="#V" n="37" break="no"/>se operatio animae, quae est tantum
+            <lb ed="#V" n="38"/>pars speciei.
+          </p>
+          <p>
+            <lb ed="#V" n="39"/>Ad primum, difficultas ista de
+            in<lb ed="#V" n="40" break="no"/>tellectione multorum, vel unius
+            <lb ed="#V" n="41"/>objecti, primo communis est,
+            ta<lb ed="#V" n="42" break="no"/>men in proposito habet
+            difficulta<lb ed="#V" n="43" break="no"/>tem specialem, quia hic non potest
+            <lb ed="#V" n="44"/>recurri ad sensus particulares
+            per<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>cipientes sensibilia, nec ad
+            phantas<lb ed="#V" n="46" break="no"/>mata efficacius, vel minus
+            efficaci<lb ed="#V" n="47" break="no"/>ter moventia, sicut de intellectu
+            <lb ed="#V" n="48"/>conjuncto. Si enim sint plura
+            intel<lb ed="#V" n="49" break="no"/>ligibilia praesentia intellectui, illud
+            <lb ed="#V" n="50"/>cujus species fortius imprimitur
+            <lb ed="#V" n="51"/>sensui, et est efficacior in
+            reprae<lb ed="#V" n="52" break="no"/>sentando, illud in ipso efficacius
+            <lb ed="#V" n="53"/>movet intellectum ad sui
+            conside<lb ed="#V" n="54" break="no"/>rationem.
+          </p>
+          <p>
+            <lb ed="#V" n="55"/>Dico ergo breviter ad istud hic,
+            <lb ed="#V" n="56"/>et per consequens ubique de ista
+            <lb ed="#V" n="57"/>simultate, quod objecta
+            prae<lb ed="#V" n="58" break="no"/>sentia habitualiter vel sunt aeque;
+            <lb ed="#V" n="59"/>motiva intellectus, vel aliquod est
+            <lb ed="#V" n="60"/>efficacius motivum ejus quam alia.
+            <lb ed="#V" n="61"/>Si primo modo, et cum hoc
+            po<lb ed="#V" n="62" break="no"/>neretur aequalis inclinatio
+            intel<lb ed="#V" n="63" break="no"/>lectus ad quodlibet illorum,
+            nul<lb ed="#V" n="64" break="no"/>lum illorum prius intelligeretur
+            <lb ed="#V" n="65"/>quam aliud; sed hypothesis est
+            <lb ed="#V" n="66"/>impossibilis. Si autem aliquod
+            ef<lb ed="#V" n="67" break="no"/>ficacius motivum, ablata
+            inclina<lb ed="#V" n="68" break="no"/>tione majori ad unum objectum
+            <lb ed="#V" n="69"/>quam ad aliud, quod est efficacius
+            <lb ed="#V" n="70"/>motivum, prius movebit, et prius
+            <lb ed="#V" n="71"/>intelligetur. Pensatis ergo hinc
+            <lb ed="#V" n="72"/>et inde virtute motiva, et
+            inclina<lb ed="#V" n="73" break="no"/>tione, apparet quod prius
+            intel<lb ed="#V" n="74" break="no"/>ligetur.
+          </p>
+          <p>
+            <lb ed="#V" n="75"/>Ad secundum dico, quod aliquid
+            <lb ed="#V" n="76"/>potest dici perfectius positive vel
+            <lb ed="#V" n="77"/>permissive. Exemplum, animal
+            <lb ed="#V" n="78"/>est perfectius musca permissive,
+            <lb ed="#V" n="79"/>quia ratio animalis permittit quod
+            <lb ed="#V" n="80"/>animal salvetur in homine; musca
+            <lb ed="#V" n="81"/>autem est perfectius positive, quia
+            <lb ed="#V" n="82"/>quaelibet species aliquam
+            perfe<lb ed="#V" n="83" break="no"/>ctionem ponit ultra genus. Ad
+            <lb ed="#V" n="84"/>propositum, intelligere sine
+            phan<lb ed="#V" n="85" break="no"/>tasmate est perfectius quam
+            intel<lb ed="#V" n="86" break="no"/>ligere cum phantasmate; verum
+            <lb ed="#V" n="87"/>est permissive, sed non positive,
+            <lb ed="#V" n="88"/>id est, non ponit plus
+            perfecti<pb ed="#V" n="272"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>onis; quod probatur, quia agens
+            <lb ed="#V" n="2"/>potens uti instrumento non
+            posi<lb ed="#V" n="3" break="no"/>tive, perfectius agit, si non utatur
+            <lb ed="#V" n="4"/>instrumento; tamen actio sine
+            in<lb ed="#V" n="5" break="no"/>strumento, possibile est quod sit
+            <lb ed="#V" n="6"/>perfectior actione, quae est cum
+            <lb ed="#V" n="7"/>instrumento; ita hic de
+            phanta<lb ed="#V" n="8" break="no"/>smate, quod est ut instrumentum,
+            <lb ed="#V" n="9"/>concedo quod aliquam conditionem
+            <lb ed="#V" n="10"/>perfectionis habet intellectio sine
+            <lb ed="#V" n="11"/>phantasmate, quam non habet
+            in<lb ed="#V" n="12" break="no"/>tellectio cum phantasmate, quia
+            <lb ed="#V" n="13"/>similitudinem quamdam cum
+            in<lb ed="#V" n="14" break="no"/>tellectione simpliciter perfecta
+            <lb ed="#V" n="15"/>substantiae separatae; sed non
+            se<lb ed="#V" n="16" break="no"/>quitur ex hoc quod quaecumque
+            <lb ed="#V" n="17"/>talis sit positive perfectior
+            qua<lb ed="#V" n="18" break="no"/>cumque tali.
+          </p>
+          <p>
+            <lb ed="#V" n="19"/>Ad tertium dico, quod si species
+            <lb ed="#V" n="20"/>intelligibilis in conjuncto non
+            suf<lb ed="#V" n="21" break="no"/>ficit sine phantasmate, hoc non
+            <lb ed="#V" n="22"/>est quod phantasma requiratur
+            <lb ed="#V" n="23"/>ibi tanquam principium aliquod
+            <lb ed="#V" n="24"/>actus intelligendi, sed praecise
+            re<lb ed="#V" n="25" break="no"/>quiritur ut principium operationis
+            <lb ed="#V" n="26"/>virtutis phantasticae; et illa
+            ope<lb ed="#V" n="27" break="no"/>ratio requiritur ad intellectionem
+            <lb ed="#V" n="28"/>propter connexionem
+            potentia<lb ed="#V" n="29" break="no"/>rum superiorum et inferiorum
+            <lb ed="#V" n="30"/>in agendo; siquidem superior non
+            <lb ed="#V" n="31"/>perfecte operatur circa aliquod
+            <lb ed="#V" n="32"/>objectum, nisi inferiores quae
+            pos<lb ed="#V" n="33" break="no"/>sunt operari, operentur circa
+            <lb ed="#V" n="34"/>idem. Et haec est ratio quare
+            di<lb ed="#V" n="35" break="no"/>stractio potentiarum animae circa
+            <lb ed="#V" n="36"/>diversa objecta impediunt
+            opera<lb ed="#V" n="37" break="no"/>tiones earum.
+          </p>
+          <p>
+            <lb ed="#V" n="38"/>Est tamen aliqua perfectio,
+            <lb ed="#V" n="39"/>quam phantasma tribuit
+            intellecti<lb ed="#V" n="40" break="no"/>oni, per hoc quod intendit speciem
+            <lb ed="#V" n="41"/>intelligibilem regulariter in
+            qua<lb ed="#V" n="42" break="no"/>libet intellectione, sicut
+            declara<lb ed="#V" n="43" break="no"/>tum est lib. 1. dist. 3. sed illa
+            perfec<lb ed="#V" n="44" break="no"/>tio haberi non potest sine
+            phantas<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>mate; et ideo quoad hoc
+            conceden<lb ed="#V" n="46" break="no"/>dum esset quod intellectio
+            separa<lb ed="#V" n="47" break="no"/>ta esset minus perfecta quam
+            con<lb ed="#V" n="48" break="no"/>juncta, nisi esset aliquod
+            refor<lb ed="#V" n="49" break="no"/>mans, quod sufficeret pro aequali
+            <lb ed="#V" n="50"/>perfectione restauranda. Et ex hoc
+            <lb ed="#V" n="51"/>patet quomodo necessaria est
+            <lb ed="#V" n="52"/>conversio ad phantasmata, non
+            <lb ed="#V" n="53"/>sicut ad principium intelligendi,
+            <lb ed="#V" n="54"/>sed sicut ad illud quo oportet
+            po<lb ed="#V" n="55" break="no"/>tentiam inferiorem uti, ad hoc
+            <lb ed="#V" n="56"/>quod superior habeat operationem
+            <lb ed="#V" n="57"/>suam; et hoc propter ordinem
+            po<lb ed="#V" n="58" break="no"/>tentiarum in agendo, quas ad
+            per<lb ed="#V" n="59" break="no"/>fecte agendum oportet concurrere
+            <lb ed="#V" n="60"/>in agendo circa idem objectum.
+          </p>
+          <p>
+            <lb ed="#V" n="61"/>Ad quartum, cujuscumque
+            to<lb ed="#V" n="62" break="no"/>tius forma non est nata esse per
+            <lb ed="#V" n="63"/>se, ejus totius potest esse aliqua
+            <lb ed="#V" n="64"/>operatio propria quae non potest
+            <lb ed="#V" n="65"/>esse formae suae. Sed per
+            opposi<lb ed="#V" n="66" break="no"/>tum, cujus forma specifica nata
+            <lb ed="#V" n="67"/>est per se esse, illius totius non
+            <lb ed="#V" n="68"/>potest esse aliqua operatio
+            perfe<lb ed="#V" n="69" break="no"/>cta, quae non possit esse formae
+            <lb ed="#V" n="70"/>ut operantis, quia operatio
+            perfe<lb ed="#V" n="71" break="no"/>ctissima non posset inesse, nisi
+            <lb ed="#V" n="72"/>insit secundum formam
+            perfectis<lb ed="#V" n="73" break="no"/>simam; et non potest esse
+            secun<lb ed="#V" n="74" break="no"/>dum formam possibilem per se
+            <lb ed="#V" n="75"/>esse, nisi possit illi per se inesse,
+            <lb ed="#V" n="76"/>quia illud erit per se immediatum
+            <lb ed="#V" n="77"/>receptivum, et ita si per se est,
+            <lb ed="#V" n="78"/>per se potest recipere.
+          </p>
+          <p>
+            <lb ed="#V" n="79"/>Concedo ergo quod intellectio
+            <lb ed="#V" n="80"/>est propria operatio totius
+            homi<lb ed="#V" n="81" break="no"/>nis, sed secundum formam
+            perfe<lb ed="#V" n="82" break="no"/>ctissimam in eo tanquam
+            secun<lb ed="#V" n="83" break="no"/>dum propriam rationem operandi,
+            <lb ed="#V" n="84"/>nec hoc solum, sed quia haec
+            for<lb ed="#V" n="85" break="no"/>ma est separabilis, sic inest
+            secun<lb ed="#V" n="86" break="no"/>dum eam quod potest esse ejus,
+            <lb ed="#V" n="87"/>et ideo sic est propria totius quod
+            <lb ed="#V" n="88"/>potest esse partis; nego ergo
+            <pb ed="#V" n="273"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>majorem in proposito. Ad
+            pro<lb ed="#V" n="2" break="no"/>bationem de esse, licet aliqui
+            di<lb ed="#V" n="3" break="no"/>cant quod esse totius est esse
+            ani<lb ed="#V" n="4" break="no"/>mae, tamen hoc improbatum est
+            <lb ed="#V" n="5"/>supra dist. 42. quaest. 1. Unde
+            con<lb ed="#V" n="6" break="no"/>cedo quod esse totius non potest
+            <lb ed="#V" n="7"/>esse esse animae, nec e
+            conver<lb ed="#V" n="8" break="no"/>so, loquendo de esse totali et
+            prae<lb ed="#V" n="9" break="no"/>ciso; et tamen operatio
+            perfectis<lb ed="#V" n="10" break="no"/>sima totius istius, quia non potest
+            <lb ed="#V" n="11"/>inesse nisi secundum animam, et
+            <lb ed="#V" n="12"/>non potest inesse secundum eam,
+            <lb ed="#V" n="13"/>ut secundum proximum
+            recepti<lb ed="#V" n="14" break="no"/>vum, nisi possit esse ejus, quando
+            <lb ed="#V" n="15"/>ipsa per se est, sequitur quod
+            <lb ed="#V" n="16"/>operatio totius potest esse
+            ope<lb ed="#V" n="17" break="no"/>ratio illius; unde nego
+            consequen<lb ed="#V" n="18" break="no"/>tiam, esse hujus non potest esse
+            <lb ed="#V" n="19"/>illius, ergo nec operatio ejus,
+            ope<lb ed="#V" n="20" break="no"/>ratio istius. Ad probationem,
+            ope<lb ed="#V" n="21" break="no"/>rari praesupponit esse, verum est,
+            <lb ed="#V" n="22"/>sed non ut praecisam rationem
+            <lb ed="#V" n="23"/>recipiendi.
+          </p>
+          <p>
+            <lb ed="#V" n="24"/>(f) Ad argumenta principalia.
+            <lb ed="#V" n="25"/>Ad primum, illa auctoritas 3. de
+            <lb ed="#V" n="26"/>Anima, debet intelligi quoad
+            acqui<lb ed="#V" n="27" break="no"/>sitionem intellectionis, et hoc per
+            <lb ed="#V" n="28"/>se et primo, sed quoad usum non
+            <lb ed="#V" n="29"/>est intelligendum. Et ratio est,
+            <lb ed="#V" n="30"/>quia intellectus potest uti forma
+            <lb ed="#V" n="31"/>prius acquisita, licet illa non
+            ha<lb ed="#V" n="32" break="no"/>beantur, quae prius necessaria
+            <lb ed="#V" n="33"/>erant ad acquirendam illam
+            for<lb ed="#V" n="34" break="no"/>mam; non sic sensus, loquendo
+            <lb ed="#V" n="35"/>de sensu exteriori, potest uti
+            ali<lb ed="#V" n="36" break="no"/>qua forma prius acquisita, quia
+            <lb ed="#V" n="37"/>non est conservativus speciei prius
+            <lb ed="#V" n="38"/>receptae ad posterius operandum.
+            <lb ed="#V" n="39"/>Aliter posset dici, quod haec
+            pro<lb ed="#V" n="40" break="no"/>positio intelligitur pro statu isto,
+            <lb ed="#V" n="41"/>quia intellectionem istam nobis
+            <lb ed="#V" n="42"/>convenientem per experientiam
+            <lb ed="#V" n="43"/>non novit Philosophus, nisi pro
+            <lb ed="#V" n="44"/>statu isto, quia nullam aliam
+            ex<lb ed="#V" n="45" break="no"/>periebatur.
+          </p>
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="46"/>Ad secundum, intellectus
+            cor<lb ed="#V" n="47" break="no"/>rumpitur, id est, impeditur
+            quan<lb ed="#V" n="48" break="no"/>tum ad operationem, et sic quasi
+            <lb ed="#V" n="49"/>corruptus habetur, quodam
+            inte<lb ed="#V" n="50" break="no"/>riori corrupto, quia sine
+            operati<lb ed="#V" n="51" break="no"/>one phantasiae non potest in
+            ope<lb ed="#V" n="52" break="no"/>rationem suam; sed ex hoc non
+            <lb ed="#V" n="53"/>sequitur quod sit in se corruptio
+            <lb ed="#V" n="54"/>vel corruptibilis, nec quod illud
+            <lb ed="#V" n="55"/>aliud necessario requiratur ad
+            <lb ed="#V" n="56"/>actum ejus, sed tantummodo quod
+            <lb ed="#V" n="57"/>requiratur secundum ordinem
+            po<lb ed="#V" n="58" break="no"/>tentiarum, qui nunc invenitur in
+            <lb ed="#V" n="59"/>natura humana in operando circa
+            <lb ed="#V" n="60"/>idem objectum.
+          </p>
+          <p>
+            <lb ed="#V" n="61"/>Ad tertium, dico, quod
+            intelle<lb ed="#V" n="62" break="no"/>ctus passivus non intelligitur ibi
+            <lb ed="#V" n="63"/>intellectus possibilis, sed aliqua
+            <lb ed="#V" n="64"/>virtus sensitiva, quam aliqui
+            vo<lb ed="#V" n="65" break="no"/>cant cogitativam, et verum est
+            <lb ed="#V" n="66"/>quod omnis sensitiva
+            corrumpi<lb ed="#V" n="67" break="no"/>tur, et ideo intellectus passivus
+            <lb ed="#V" n="68"/>illo modo acceptus; non tamen
+            in<lb ed="#V" n="69" break="no"/>tellectus passivus, eo modo quo
+            <lb ed="#V" n="70"/>dicimus intellectum possibilem
+            <lb ed="#V" n="71"/>esse passivum.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

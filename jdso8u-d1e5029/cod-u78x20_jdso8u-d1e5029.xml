@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 47, Quaestio 2</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 47, Quaestio 2</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x20">Vives, Paris, 1894, volume 20</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="503"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e5029"><!-- jdso8u-b4d47q2 -->
+        <head>Quaestio 2</head>
+        <head type="question-title">Utrum mundus sit purgandus per ignem</head>
+        <!-- <div alias="scotus-d47q2-p1"> -->
+          <p>
+            <lb ed="#V" n="61" type="fixed=503"/>QUAESTIO II.
+            <lb ed="#V" n="62"/>Utrum mundus sit purgandus per ignem?
+          </p>
+          <p>
+            <lb ed="#V" n="63"/>D. Thom. in addit. quaest. 97. art. 5. et 4. d. 44.
+            <lb ed="#V" n="64"/>quaest. 3. art. 2. D. Bonav. hic art. 2. quaest.
+            <lb ed="#V" n="65"/>1. et 2. Richard. art. 2. quaest. 2. et 4. et d. 44.
+            <lb ed="#V" n="66"/>art. 2. quaest 3. Suar. 3. part. tom. 2. disp.
+            <lb ed="#V" n="67"/>57. sect. 1.
+          </p>
+          <p>
+            <lb ed="#V" n="68"/>(a) Secundo quaero, utrum
+            mun<lb ed="#V" n="69" break="no"/>dus sit purgandus per ignem?
+            <lb ed="#V" n="70"/>Quod non, quia tunc idem
+            purga<lb ed="#V" n="71" break="no"/>ret se, quod est inconveniens.
+          </p>
+          <p>
+            <lb ed="#V" n="72"/>Oppositum in Psalm. 96. Ignis
+            an<lb ed="#V" n="73" break="no"/>te ipsum proecedet, et adducitur in
+            <lb ed="#V" n="74"/>littera.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d47q2-p2"> -->
+          <p>
+            <lb ed="#V" n="82" type="fixed=503"/>SCHOLIUM.
+            <lb ed="#V" n="83"/>Ignem verum praecessurum adventum
+            Ju<lb ed="#V" n="84" break="no"/>dicis, ex 2. Petr. 3. Joel. 2. Isai. 66. Daniel. 7.
+            <pb ed="#V" n="504"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>1. Cor. 3. Ita D. Thom. hic quaest. 2. art. 3.
+            <lb ed="#V" n="2"/>Richard. art. 2. quaest. 4. 5. Palud. quaest. 1.
+            <lb ed="#V" n="3"/>Durand. q. 3. qui putant conflagrationem
+            <lb ed="#V" n="4"/>futuram ante resurrectionem. Alii cumt D.
+            <lb ed="#V" n="5"/>Bonav. hic art. 2. quaest. 4. putant futuram
+            <lb ed="#V" n="6"/>post judicium; quod tenet August. 20. Civit.
+            <lb ed="#V" n="7"/>cap. 30. et 18. et Anselm. in Elucidario.
+            Po<lb ed="#V" n="8" break="no"/>nit quod ignis iste potest creari vel generari,
+            <lb ed="#V" n="9"/>prout Deus voluerit. Si creabitur, oportebit
+            <lb ed="#V" n="10"/>aliqua alia corpora annihilari, ne detur
+            pe<lb ed="#V" n="11" break="no"/>netratio. Item si generabitur, ut id
+            inconve<lb ed="#V" n="12" break="no"/>niens vitetur, necesse erit alia corpora
+            con<lb ed="#V" n="13" break="no"/>densari, vel in densiora converti, quod
+            opti<lb ed="#V" n="14" break="no"/>me explicat exemplo.
+          </p>
+          <p>
+            <lb ed="#V" n="15"/>(b) Respondeo, illa conflagratio
+            <lb ed="#V" n="16"/>vel purgatio per conflagrationem,
+            <lb ed="#V" n="17"/>quae praedicitur in multis
+            auctori<lb ed="#V" n="18" break="no"/>tatibus, et praecipue 2. Petri 3.
+            Coe<lb ed="#V" n="19" break="no"/>li ardentes solventur, elementa vero ignis
+            <lb ed="#V" n="20"/>ardore tabescent, etc. multipliciter
+            <lb ed="#V" n="21"/>est possibilis, eo, quia omni modo,
+            <lb ed="#V" n="22"/>qui non includit contradictionem.
+            <lb ed="#V" n="23"/>Sed quis modus sit magis consonus
+            <lb ed="#V" n="24"/>naturae partium universi
+            inquira<lb ed="#V" n="25" break="no"/>mus. Potest esse quod aliquis ignis
+            <lb ed="#V" n="26"/>sit de novo creatus, et magnae vel
+            <lb ed="#V" n="27"/>parvae quantitatis; et potest esse.
+            <lb ed="#V" n="28"/>quod sit simul in aliqua tota
+            lati<lb ed="#V" n="29" break="no"/>tudine et spissitudine circa terram,
+            <lb ed="#V" n="30"/>et non ubique, nisi per motum
+            cir<lb ed="#V" n="31" break="no"/>ca terram, et similiter potest esse
+            <lb ed="#V" n="32"/>utrumque illorum. Primum quod
+            <lb ed="#V" n="33"/>ignis sit creatus, secundum quod
+            <lb ed="#V" n="34"/>sit in aliqua determinata parte
+            su<lb ed="#V" n="35" break="no"/>per terram, et non ubique, nisi per
+            <lb ed="#V" n="36"/>motum circa terram. De his ergo
+            <lb ed="#V" n="37"/>duobus, scilicet productione illius
+            <lb ed="#V" n="38"/>ignis, et loco productionis vel
+            con<lb ed="#V" n="39" break="no"/>servationis, sive continuationis
+            in<lb ed="#V" n="40" break="no"/>quiratur.
+          </p>
+          <p>
+            <lb ed="#V" n="41"/>De primo, si ponatur creatus,
+            <lb ed="#V" n="42"/>oportet ponere quod tantumdem
+            <lb ed="#V" n="43"/>de alio corpore corruptibili
+            anni<lb ed="#V" n="44" break="no"/>hiletur; vel quod in tota substantia
+            <lb ed="#V" n="45"/>corporea corruptibili fiat
+            conden<cb ed="#V" n="b"/><lb ed="#V" n="46" break="no"/>satio correspondens quantitati
+            il<lb ed="#V" n="47" break="no"/>lius ignis creati; vel oportet
+            pone<lb ed="#V" n="48" break="no"/>re quod ille ignis creatus sit simul
+            <lb ed="#V" n="49"/>cum alio corpore. Si etiam
+            pona<lb ed="#V" n="50" break="no"/>tur generatus, per consequens ex
+            <lb ed="#V" n="51"/>alio corpore grossiori (quia ignis
+            <lb ed="#V" n="52"/>est subtilissimum corpus inter
+            <lb ed="#V" n="53"/>corpora corruptibilia), oportet
+            di<lb ed="#V" n="54" break="no"/>cere quod aliud corpus
+            corruptibi<lb ed="#V" n="55" break="no"/>le intantum condensetur, quantum
+            <lb ed="#V" n="56"/>istud est rarius corpore, ex quo
+            <lb ed="#V" n="57"/>generatur; vel quod
+            proportiona<lb ed="#V" n="58" break="no"/>biliter isti quantitati e converso
+            <lb ed="#V" n="59"/>corpus rarius convertatur in
+            den<lb ed="#V" n="60" break="no"/>sius. Si ergo generaretur ex aere,
+            <lb ed="#V" n="61"/>oporteret vel quod aer in aquam
+            <lb ed="#V" n="62"/>converteretur, vel aqua in terram,
+            <lb ed="#V" n="63"/>in tanta proportione quae
+            corre<lb ed="#V" n="64" break="no"/>spondet locationi illius ignis geniti.
+          </p>
+          <p>
+            <lb ed="#V" n="65"/>Patet in exemplo. Esto enim
+            <lb ed="#V" n="66"/>quod tota sphaera aeris dividatur
+            <lb ed="#V" n="67"/>in decem partes, ex una illarum
+            <lb ed="#V" n="68"/>generatur ignis, et habet decem
+            <lb ed="#V" n="69"/>partes, quarum quaelibet est
+            aequa<lb ed="#V" n="70" break="no"/>lis illi ex qua generetur totus
+            <lb ed="#V" n="71"/>ignis, tunc quaero, novem partes
+            <lb ed="#V" n="72"/>aeris, quae remanent, ubi habebunt
+            <lb ed="#V" n="73"/>locum, vel oportet duo corpora
+            es<lb ed="#V" n="74" break="no"/>se simul, vel oportet illas
+            con<lb ed="#V" n="75" break="no"/>densari, vel alia corpora
+            circum<lb ed="#V" n="76" break="no"/>stantia usque ad non repletionem
+            <lb ed="#V" n="77"/>loci novem partium. Si autem hoc
+            <lb ed="#V" n="78"/>fiat per conversionem illarum
+            no<lb ed="#V" n="79" break="no"/>vem partium in aquam, habebitur
+            <lb ed="#V" n="80"/>locatio ignis geniti, etsi non fiat
+            <lb ed="#V" n="81"/>condensatio alicujus alterius, quia
+            <lb ed="#V" n="82"/>illae novem non generant unam
+            <lb ed="#V" n="83"/>partem aquae, sed fere, quae cum
+            <lb ed="#V" n="84"/>decem partibus ignis prius geniti,
+            <lb ed="#V" n="85"/>quarum una locatur in loco aeris
+            <lb ed="#V" n="86"/>corrupti in ignem, impleret totum
+            <lb ed="#V" n="87"/>locum decem partium aeris, et
+            <lb ed="#V" n="88"/>tunc esset cum incendio ignis
+            di<lb ed="#V" n="89" break="no"/>luvium aquae, licet non in tanta
+            <pb ed="#V" n="505"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>quantitate, in quanta est
+            incen<lb ed="#V" n="2" break="no"/>dium ignis; aqua quippe
+            excede<lb ed="#V" n="3" break="no"/>ret aquam praeexistentem in
+            deci<lb ed="#V" n="4" break="no"/>ma parte ad illum ignem novum
+            <lb ed="#V" n="5"/>genitum.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d47q2-p3"> -->
+          <p>
+            <lb ed="#V" n="34" type="fixed=506"/>SCHOLIUM.
+            <lb ed="#V" n="35"/>Explicat quomodo ille ignis depurabit
+            <lb ed="#V" n="36"/>mundum, et ex qua materia fiet, vel fieri
+            <lb ed="#V" n="37"/>poterit, et quod tandem in purum aerem
+            <lb ed="#V" n="38"/>convertetur.
+          </p>
+          <p>
+            <lb ed="#V" n="39"/>(c) De secundo, cum ignis non
+            <lb ed="#V" n="40"/>maneat extra sphaeram suam, nisi
+            <lb ed="#V" n="41"/>in continua generatione, secundum
+            <lb ed="#V" n="42"/>illud Philosophi de Juventute et
+            <lb ed="#V" n="43"/>Senectute, semper est in fieri,
+            quo<cb ed="#V" n="b"/><lb ed="#V" n="44" break="no"/>modo permaneret in aliqua
+            sphae<lb ed="#V" n="45" break="no"/>ra completa circa terram?
+            Quo<lb ed="#V" n="46" break="no"/>modo etiam depuraret, cum
+            depu<lb ed="#V" n="47" break="no"/>ratio non sit nisi per
+            consumpti<lb ed="#V" n="48" break="no"/>onem alicujus impuritatis utpote
+            <lb ed="#V" n="49"/>vaporum vel aliorum talium
+            cor<lb ed="#V" n="50" break="no"/>porum mixtorum, ex quibus est
+            <lb ed="#V" n="51"/>impuritas aeris.
+          </p>
+          <p>
+            <lb ed="#V" n="52"/>Breviter ergo quantum ad
+            utrum<lb ed="#V" n="53" break="no"/>que articulum, videtur probabilius
+            <lb ed="#V" n="54"/>dicere quod sicut ignis potest
+            ex<lb ed="#V" n="55" break="no"/>tra suam sphaeram esse in materia
+            <lb ed="#V" n="56"/>aliena, utpote in corpore ignito,
+            <lb ed="#V" n="57"/>ut carbone vel flamma (non quod
+            <lb ed="#V" n="58"/>ibi sit in partibus solidis vere
+            for<lb ed="#V" n="59" break="no"/>ma ignis, nisi ponatur formas
+            <lb ed="#V" n="60"/>specificas distinctas simul
+            perfice<lb ed="#V" n="61" break="no"/>re eamdem materiam, quod videtur
+            <lb ed="#V" n="62"/>inconveniens), sic vapores
+            existen<lb ed="#V" n="63" break="no"/>tes in aere per juxtapositionem
+            <lb ed="#V" n="64"/>possunt igniri. Et ista ignitio
+            <lb ed="#V" n="65"/>successiva nunc illorum vaporum,
+            <lb ed="#V" n="66"/>nunc istorum, saltem pro toto
+            <lb ed="#V" n="67"/>aere supraposito regioni habitabili
+            <lb ed="#V" n="68"/>hominum, potest dici illa
+            confla<lb ed="#V" n="69" break="no"/>gratio. Et per istud bene
+            depura<lb ed="#V" n="70" break="no"/>tur aer, quia illa corpora ignita
+            <lb ed="#V" n="71"/>convertuntur statim in verum et
+            <lb ed="#V" n="72"/>purum aerem in sua regione
+            prae<lb ed="#V" n="73" break="no"/>dominante, et illo corpore ignito
+            <lb ed="#V" n="74"/>propter qualitates mutuas
+            contra<lb ed="#V" n="75" break="no"/>rias in ipso, scilicet ignis et
+            vapo<lb ed="#V" n="76" break="no"/>ris, modicum resistente aeri (quia
+            <lb ed="#V" n="77"/>quodammodo agit ad
+            destructio<lb ed="#V" n="78" break="no"/>nem sui; vapor autem non ignitus,
+            <lb ed="#V" n="79"/>non sic esset statim convertibilis
+            <lb ed="#V" n="80"/>ab igne in purum aerem) apparet
+            <lb ed="#V" n="81"/>quomodo flamma potest ad
+            depura<lb ed="#V" n="82" break="no"/>tionem aeris grossi, quia per
+            acti<lb ed="#V" n="83" break="no"/>onem illam praeviam corporis
+            igni<lb ed="#V" n="84" break="no"/>ti, id est, habentis qualitatem
+            igne<lb ed="#V" n="85" break="no"/>am in seipsum; aqueum vero et
+            <lb ed="#V" n="86"/>substantialiter habens qualitatem
+            <lb ed="#V" n="87"/>aquae, disponitur a continente, ut
+            <pb ed="#V" n="507"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>statim convertatur in ipsum
+            conti<lb ed="#V" n="2" break="no"/>nens, et sic generatur aer purus,
+            <lb ed="#V" n="3"/>qui non sic poterat in seipsum
+            con<lb ed="#V" n="4" break="no"/>vertere illum vaporem manentem
+            <lb ed="#V" n="5"/>grossum.
+          </p>
+          <p>
+            <lb ed="#V" n="6"/>(d) Ad argumentum dico, quod
+            <lb ed="#V" n="7"/>ignis semper manet in se purus
+            <lb ed="#V" n="8"/>puritate naturali, tum quia
+            sum<lb ed="#V" n="9" break="no"/>me activus, ita quod statim
+            con<lb ed="#V" n="10" break="no"/>verteret ignis in se, si quid
+            extra<lb ed="#V" n="11" break="no"/>neae naturae ascenderet ad
+            regi<lb ed="#V" n="12" break="no"/>onem illam; tum quia nihil per
+            <lb ed="#V" n="13"/>actionem corporum coelestium
+            <lb ed="#V" n="14"/>elevat ad illam regionem ignis
+            <lb ed="#V" n="15"/>puri, ut sic fiat ignis impurus.
+            <lb ed="#V" n="16"/>Specialiter autem illa impuritas
+            <lb ed="#V" n="17"/>de fumo sacrificiorum oblatorum
+            <lb ed="#V" n="18"/>idolis, et de infectione ex peccatis
+            <lb ed="#V" n="19"/>hominis, non ascendit ad sphaeram
+            <lb ed="#V" n="20"/>ignis, quia nec fumus ille, nec
+            ali<lb ed="#V" n="21" break="no"/>qua infectio quaecumque ex
+            acti<lb ed="#V" n="22" break="no"/>bus immundis usque ad ignem
+            po<lb ed="#V" n="23" break="no"/>test ascendere; illa autem
+            depura<lb ed="#V" n="24" break="no"/>tio ponitur propter impuritatem
+            <lb ed="#V" n="25"/>aeris contractam ex actibus
+            pec<lb ed="#V" n="26" break="no"/>cati humani, ideo non sequitur
+            <lb ed="#V" n="27"/>ignem purgare seipsum.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

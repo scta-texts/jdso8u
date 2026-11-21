@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 45, Quaestio 4</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 45, Quaestio 4</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x20">Vives, Paris, 1894, volume 20</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="375"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e4951"><!-- jdso8u-b4d45q4 -->
+        <head>Quaestio 4</head>
+        <head type="question-title">Utrum beati cognoscant orationes quas eis offerimus</head>
+        <!-- <div alias="scotus-d45q4-p1"> -->
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="40" type="fixed=375"/>QUAESTIO IV.
+            <lb ed="#V" n="41"/>Utrum Beati cognoscant orationes quas
+            <lb ed="#V" n="42"/>offerimus?
+          </p>
+          <p>
+            <lb ed="#V" n="43"/>D. Thom. 2. 2. quaest. 83. art. 4. et 3. part.
+            <lb ed="#V" n="44"/>quaest. 10. art. 2. et hic quaest. 3. art. 5.
+            <lb ed="#V" n="45"/>D. Bonav. art. 3. quaest. 1. 2. 3. Bellarm. 1. 1.
+            <lb ed="#V" n="46"/>de Beatit. Sanct. cap. 17. Suarez 1. part.
+            <lb ed="#V" n="47"/>tract. 1. l. 2. cap. 28. Feuarden. tom. 1. l. 10.
+            <lb ed="#V" n="48"/>et 12.
+          </p>
+          <p>
+            <lb ed="#V" n="49"/>Ultimo quaero, utrum Beati
+            co<lb ed="#V" n="50" break="no"/>gnoscant orationes quas
+            offeri<lb ed="#V" n="51" break="no"/>mus? Quod non, Isai. 63. Abraham
+            <lb ed="#V" n="52"/>nescivit nos, et Israel ignoravit nos.
+            <lb ed="#V" n="53"/>Ibi dicit Augustinus quod mortui
+            <lb ed="#V" n="54"/>nesciunt, imo Sancti, quid agant
+            <lb ed="#V" n="55"/>vivi. Et Hieronymus ibi. Quaere in
+            <lb ed="#V" n="56"/>originali.
+          </p>
+          <p>
+            <lb ed="#V" n="57"/>Praeterea, Deus solus novit
+            se<lb ed="#V" n="58" break="no"/>creta cordis; oratio mentalis, quae
+            <lb ed="#V" n="59"/>maxime est Deo accepta, est
+            hu<lb ed="#V" n="60" break="no"/>jusmodi; ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="61"/>Praeterea, non oportet eos
+            nos<lb ed="#V" n="62" break="no"/>se nisi ad hoc ut orent pro nobis;
+            <lb ed="#V" n="63"/>sed consequens est inconveniens,
+            <lb ed="#V" n="64"/>quia non sunt in statu meriti;
+            er<lb ed="#V" n="65" break="no"/>go non possunt orare, quia in
+            <lb ed="#V" n="66"/>oratione per se consistit
+            meri<lb ed="#V" n="67" break="no"/>tum.
+          </p>
+          <p>
+            <lb ed="#V" n="68"/>Contra hoc est unus error, quem
+            <lb ed="#V" n="69"/>tangit Hieronymus in epistola ad
+            <lb ed="#V" n="70"/>Vigilantium.
+          </p>
+          <p>
+            <lb ed="#V" n="71"/>SCHOLIUM.
+            <lb ed="#V" n="72"/>Animam separatam posse acquirere
+            noti<lb ed="#V" n="73" break="no"/>tiam abstractivam et intuitivam omnium
+            <lb ed="#V" n="74"/>sensibilium et spiritualium finitorum; unde
+            <lb ed="#V" n="75"/>cogitationes cordium ab ea sciri possunt,
+            <lb ed="#V" n="76"/>si sibi relinquatur; de quo 2. dist. 9. q. 2.
+            <lb ed="#V" n="77"/>ad 1. et 4. dist. 10. quaest. 8. ad 3.
+            Opposi<lb ed="#V" n="78" break="no"/>tum tenent Thomistae 1. part. quaest. 57. art. 4.
+            <lb ed="#V" n="79"/>Scotum sequuntur Occham 2. quaest. 20.
+            <pb ed="#V" n="376"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>quodl. 4. quaest. 13. Gabr. 2 dist.9. quaest. 2.
+            <lb ed="#V" n="2"/>art. 2. et lect. 31. in Can. Bassol. ibi, q. 2.
+            <lb ed="#V" n="3"/>Leuchet q. 1. Major quaest. 3. Holcot. 1. 2.
+            <lb ed="#V" n="4"/>q. 4. ad 2. et omnes Scotistae.
+          </p>
+          <p>
+            <lb ed="#V" n="5"/>(a) Hic tria sunt videnda:
+            Pri<lb ed="#V" n="6" break="no"/>mo, si Beatus naturali cognitione
+            <lb ed="#V" n="7"/>novit orationes nostras. Secundo,
+            <lb ed="#V" n="8"/>si cognitione supernaturali.
+            Ter<lb ed="#V" n="9" break="no"/>tio, si cognoscens pro nobis oret.
+          </p>
+          <p>
+            <lb ed="#V" n="10"/>(b) De primo est tactum in
+            soluti<lb ed="#V" n="11" break="no"/>one 2. quaest. hujus dist. qualiter
+            ani<lb ed="#V" n="12" break="no"/>ma separata potest acquirere
+            noti<lb ed="#V" n="13" break="no"/>tiam, non solum abstractivam, sed
+            <lb ed="#V" n="14"/>etiam intuitivam, non solum
+            <lb ed="#V" n="15"/>sensibilium, sicut potest conjuncta,
+            <lb ed="#V" n="16"/>sed etiam quorumcumque
+            intelligi<lb ed="#V" n="17" break="no"/>bilium proportionatorum, et
+            pro<lb ed="#V" n="18" break="no"/>portionaliter praesentium;
+            propor<lb ed="#V" n="19" break="no"/>tionatum autem est sibi
+            quodcum<lb ed="#V" n="20" break="no"/>que intelligibile creatum; ergo
+            <lb ed="#V" n="21"/>orationem, sive vocalem, quam et
+            <lb ed="#V" n="22"/>conjuncta posset nosse per sensus
+            <lb ed="#V" n="23"/>corporis, sive mentalem, quae tunc
+            <lb ed="#V" n="24"/>erit sibi proportionata, potest
+            <lb ed="#V" n="25"/>tunc intuitive nosse, si tamen
+            <lb ed="#V" n="26"/>immoderata distantia non
+            impe<lb ed="#V" n="27" break="no"/>diat, de qua tactum est quaest. illa
+            <lb ed="#V" n="28"/>secunda.
+          </p>
+          <p>
+            <lb ed="#V" n="29"/>(c) Nec valet, quod intellectus
+            <lb ed="#V" n="30"/>actum suum proprium habet
+            oc<lb ed="#V" n="31" break="no"/>cultum cuicumque creaturae, et
+            <lb ed="#V" n="32"/>actum voluntatis pari ratione
+            <lb ed="#V" n="33"/>occultum, quia haec sunt intima
+            <lb ed="#V" n="34"/>creaturae, et per consequens nihil
+            <lb ed="#V" n="35"/>potest ista nosse, nisi quod est
+            in<lb ed="#V" n="36" break="no"/>timum creaturae; tale est solus
+            <lb ed="#V" n="37"/>Deus, qui illabitur. Hoc non
+            con<lb ed="#V" n="38" break="no"/>cludit, quia manifestum est quod
+            <lb ed="#V" n="39"/>omnem actum voluntatis meae
+            <lb ed="#V" n="40"/>potest intellectus meus nosse; sed
+            <lb ed="#V" n="41"/>intellectus alius perfectior creatus
+            <lb ed="#V" n="42"/>potest in illud objectum, in quod
+            <lb ed="#V" n="43"/>potest intellectus meus, si non
+            im<cb ed="#V" n="b"/><lb ed="#V" n="44" break="no"/>pediat determinatus ordo ad alia
+            <lb ed="#V" n="45"/>intelligibilia, nec defectus
+            propor<lb ed="#V" n="46" break="no"/>tionatae praesentiae. Intellectus
+            <lb ed="#V" n="47"/>autem separatus aeque perfectus
+            <lb ed="#V" n="48"/>est, sicut intellectus conjunctus,
+            <lb ed="#V" n="49"/>vel perfectior, et non determinatur
+            <lb ed="#V" n="50"/>ex aliquo ordine ad non
+            cognoscen<lb ed="#V" n="51" break="no"/>dum operationes alterius
+            intelle<lb ed="#V" n="52" break="no"/>ctus vel voluntatis, nec praesentia
+            <lb ed="#V" n="53"/>requisita necessario deficit, quia
+            <lb ed="#V" n="54"/>potest esse sine illapsu; alioquin
+            <lb ed="#V" n="55"/>enim Angelus nullam potest
+            habe<lb ed="#V" n="56" break="no"/>re praesentiam debitam respectu
+            <lb ed="#V" n="57"/>alterius a se, cum nulli illabatur,
+            <lb ed="#V" n="58"/>quia hoc repugnat creaturae.
+          </p>
+          <p>
+            <lb ed="#V" n="59"/>Quod ergo dicis talem
+            operati<lb ed="#V" n="60" break="no"/>onem esse intimam, respondeo,
+            in<lb ed="#V" n="61" break="no"/>timior est sibi essentia quam
+            ope<lb ed="#V" n="62" break="no"/>ratio, et tamen intellectus alius
+            <lb ed="#V" n="63"/>separatus potest essentiam
+            intelli<lb ed="#V" n="64" break="no"/>gere. Nec valet, hoc est intimum
+            <lb ed="#V" n="65"/>inhaerendo, vel quod plus est, idem
+            <lb ed="#V" n="66"/>in essendo; ergo nihil cognoscit
+            <lb ed="#V" n="67"/>illud intimum, nisi per illapsum.
+            <lb ed="#V" n="68"/>Imo ratio videtur praetendere ad
+            <lb ed="#V" n="69"/>hoc, quod quasi extrinseca rei
+            ma<lb ed="#V" n="70" break="no"/>gis possint cognosci ab intellectu
+            <lb ed="#V" n="71"/>separato, quam spiritualia
+            intrin<lb ed="#V" n="72" break="no"/>seca, quod non est verum; imo
+            ma<lb ed="#V" n="73" break="no"/>gis proportionatum est objectum
+            <lb ed="#V" n="74"/>intellectui separato essentia rei
+            <lb ed="#V" n="75"/>intelligibilis, vel operatio
+            intrinse<lb ed="#V" n="76" break="no"/>ca, quam aliquod sensibile, quia
+            in<lb ed="#V" n="77" break="no"/>tellectui puro, purum intelligibile
+            <lb ed="#V" n="78"/>est magis proportionatum
+            intelli<lb ed="#V" n="79" break="no"/>gibile, dum tamen sit finitum.
+          </p>
+          <p>
+            <lb ed="#V" n="80"/>Si objicias, intellectus separatus
+            <lb ed="#V" n="81"/>et intellectus conjunctus habent
+            <lb ed="#V" n="82"/>idem objectum primum; sub
+            obje<lb ed="#V" n="83" break="no"/>cto autem primo intellectus
+            con<lb ed="#V" n="84" break="no"/>juncti, non continetur operatio;
+            <lb ed="#V" n="85"/>ergo nec sub objecto intellectus
+            <lb ed="#V" n="86"/>separati. Respondeo, dictum est
+            <lb ed="#V" n="87"/>alibi, quod generalius est
+            obje<pb ed="#V" n="377"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>ctum primum intellectus ut est
+            <lb ed="#V" n="2"/>talis potentia, quam objectum
+            pri<lb ed="#V" n="3" break="no"/>mum motivum ejus pro statu isto,
+            <lb ed="#V" n="4"/>et sub objecto primo modo
+            acce<lb ed="#V" n="5" break="no"/>pto, continetur quodcumque ens
+            <lb ed="#V" n="6"/>creatum, non autem sub objecto
+            <lb ed="#V" n="7"/>secundo modo. Et ratio est
+            <lb ed="#V" n="8"/>quia nunc determinate movetur a
+            <lb ed="#V" n="9"/>sensibilibus, vel ab his quae
+            abstra<lb ed="#V" n="10" break="no"/>huntur ab his, propter ordinem
+            <lb ed="#V" n="11"/>immediatum ad phantasticam
+            vir<lb ed="#V" n="12" break="no"/>tutem, quae tunc non erit. Primo
+            <lb ed="#V" n="13"/>ergo modo accipiendo objectum
+            <lb ed="#V" n="14"/>primum, major est vera, minor
+            <lb ed="#V" n="15"/>falsa; secundo modo minor vera, et
+            <lb ed="#V" n="16"/>major falsa
+          </p>
+        <!-- </div>
+    <div alias="scotus-d45q4-p2"> -->
+          <p>
+            <lb ed="#V" n="26" type="fixed=378"/>SCHOLIUM.
+            <lb ed="#V" n="27"/>Probabilius est orationes ad Sanctos
+            dire<lb ed="#V" n="28" break="no"/>ctas, vel ad Deum, ipsorum nomine, ipsis
+            <lb ed="#V" n="29"/>revelari, hoc tamen ad beatitudinem non
+            <lb ed="#V" n="30"/>requiritur. Ita D. Thom. 2. 2. quaest. 83.
+            <lb ed="#V" n="31"/>art. 4. et 3. part. q. 10. art. 2. et hic quaest. 3.
+            <lb ed="#V" n="32"/>art. 5. Vide Suar. 1. part. tract. 1. 1. 2.
+            <lb ed="#V" n="33"/>cap. 28. de Bellarm. 1. 1. Beatit. Sanct. c. 17.
+            <lb ed="#V" n="34"/>Feuard. tom. 1. 1. 10. cap. 12.
+          </p>
+          <p>
+            <lb ed="#V" n="35"/>(d) De secundo articulo, dico
+            <lb ed="#V" n="36"/>quod non est necesse ex ratione
+            <lb ed="#V" n="37"/>beatitudinis quod Beatus videat
+            <lb ed="#V" n="38"/>orationes nostras, neque
+            regulari<lb ed="#V" n="39" break="no"/>ter, sive universaliter in Verbo,
+            <lb ed="#V" n="40"/>quia non est aliquid quasi
+            neces<lb ed="#V" n="41" break="no"/>saria sequela beatitudinis; neque
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="42"/>quod revelentur, quia neque talis
+            <lb ed="#V" n="43"/>revelatio necessario sequitur
+            bea<lb ed="#V" n="44" break="no"/>titudinem. Beatitudo enim
+            intel<lb ed="#V" n="45" break="no"/>lectus in objectis creatis non
+            trans<lb ed="#V" n="46" break="no"/>cendit quidditates, seu illa quorum
+            <lb ed="#V" n="47"/>essentia visa est necessaria ratio
+            <lb ed="#V" n="48"/>videndi.
+          </p>
+          <p>
+            <lb ed="#V" n="49"/>(e) Tamen quia congruum est
+            <lb ed="#V" n="50"/>Beatum esse coadjutorem Dei in
+            <lb ed="#V" n="51"/>procurando salutem electi, eo
+            mo<lb ed="#V" n="52" break="no"/>do quo hoc sibi potest competere;
+            <lb ed="#V" n="53"/>et ad istud requiritur sibi revelari
+            <lb ed="#V" n="54"/>orationes nostras specialiter,
+            <lb ed="#V" n="55"/>quae sibi offeruntur, quia illae
+            spe<lb ed="#V" n="56" break="no"/>cialiter innituntur meritis ejus,
+            <lb ed="#V" n="57"/>tanquam mediatoris perducentis ad
+            <lb ed="#V" n="58"/>salutem, quae petitur; ideo
+            proba<lb ed="#V" n="59" break="no"/>bile est quod Deus Beatis revelat
+            <lb ed="#V" n="60"/>de orationibus sibi, vel Deo in
+            no<lb ed="#V" n="61" break="no"/>mine ejus oblatis.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d45q4-p3"> -->
+          <p>
+            <lb ed="#V" n="11" type="fixed=383"/>SCHOLIUM.
+            <lb ed="#V" n="12"/>Sanctos pro nobis orare, quod late ex
+            San<lb ed="#V" n="13" break="no"/>ctis Patribus probant Feuard. et Bellarm.
+            <lb ed="#V" n="14"/>citati. Explicat optime modum quo pro
+            no<lb ed="#V" n="15" break="no"/>bis orant, et an sciant se exaudiendos, necne
+            <lb ed="#V" n="16"/>pro quibus orant.
+          </p>
+          <p>
+            <lb ed="#V" n="17"/>(f) De tertio articulo videtur
+            du<lb ed="#V" n="18" break="no"/>bium, quia si revelatur eis talem
+            <lb ed="#V" n="19"/>petere per eos salutem, aut aliquid
+            <lb ed="#V" n="20"/>pertinens ad salutem; aut vident
+            <lb ed="#V" n="21"/>Deum talem velle salvari, aut
+            nol<lb ed="#V" n="22" break="no"/>le, aut non velle. Si velle, ergo
+            <lb ed="#V" n="23"/>sciunt quod salvabitur; frustra
+            er<lb ed="#V" n="24" break="no"/>go orant. Si nolle, non orabunt pro
+            <lb ed="#V" n="25"/>aliquo nolito ipsi Deo; si non
+            vel<lb ed="#V" n="26" break="no"/>le, sciunt quod non eveniet; ergo
+            <lb ed="#V" n="27"/>frustra orarent.
+          </p>
+          <p>
+            <lb ed="#V" n="28"/>Respondeo, Beatum orare pro
+            <lb ed="#V" n="29"/>aliquo potest intelligi, vel oratione
+            <lb ed="#V" n="30"/>habituali vel actuali; et loquor hic
+            <lb ed="#V" n="31"/>tantum de oratione mentali, quae
+            <lb ed="#V" n="32"/>est desiderium oblatum Deo ea
+            in<lb ed="#V" n="33" break="no"/>tentione, ut ab ipso habeatur
+            opta<lb ed="#V" n="34" break="no"/>tum; si de habituali, illa est
+            perpe<lb ed="#V" n="35" break="no"/>tua et generalis pro omnibus
+            ele<lb ed="#V" n="36" break="no"/>ctis, sed de ista non est difficultas.
+            <lb ed="#V" n="37"/>Si de actuali, istam habet aliquis
+            <lb ed="#V" n="38"/>Sanctus specialiter, quando sibi
+            <lb ed="#V" n="39"/>revelatur aliquem ipsum actu
+            in<lb ed="#V" n="40" break="no"/>vocare, quia rationabile est, ut
+            ve<lb ed="#V" n="41" break="no"/>lit merita sua illi valere ad
+            salu<lb ed="#V" n="42" break="no"/>tem, qui Deum specialiter invocat
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43"/>sibi per illa merita subvenire. Illa
+            <lb ed="#V" n="44"/>autem oratio non repugnat
+            beati<lb ed="#V" n="45" break="no"/>tudini, quia bene potest aliquis
+            per<lb ed="#V" n="46" break="no"/>fectionem summam adeptus, velle
+            <lb ed="#V" n="47"/>ut per sua merita, per quae ad illam
+            <lb ed="#V" n="48"/>perfectionem attigit, alius per
+            <lb ed="#V" n="49"/>suam orationem attingat, ita ut sua
+            <lb ed="#V" n="50"/>merita non sibi soli sint propria,
+            <lb ed="#V" n="51"/>sed alii de beneficio Dei
+            acceptan<lb ed="#V" n="52" break="no"/>tis valeant, sicut posset aliquis
+            <lb ed="#V" n="53"/>summum gradum adeptus in curia
+            <lb ed="#V" n="54"/>Regis, per aliqua obsequia, velle
+            <lb ed="#V" n="55"/>orare pro aliis, non ut per
+            orati<lb ed="#V" n="56" break="no"/>onem hujusmodi ad majorem
+            gra<lb ed="#V" n="57" break="no"/>dum amicitiae attingat, sed ut
+            me<lb ed="#V" n="58" break="no"/>rita, per quae attigit ad talem
+            gra<lb ed="#V" n="59" break="no"/>dum, aliis ad hujusmodi merita
+            <lb ed="#V" n="60"/>recurrentibus succurrant. Et hoc,
+            <lb ed="#V" n="61"/>supposita liberalitate Regis
+            acce<lb ed="#V" n="62" break="no"/>ptantis illa, non tantum pro illo,
+            <lb ed="#V" n="63"/>sed pro aliis ex liberalitate sua,
+            <lb ed="#V" n="64"/>qua pro minori bono retribuit, non
+            <lb ed="#V" n="65"/>tantum magis bonum, sed etiam
+            <lb ed="#V" n="66"/>plura bona, dum tamen per novum
+            <lb ed="#V" n="67"/>actum voluntatis plures illud
+            bo<lb ed="#V" n="68" break="no"/>num sibi applicent, et faciant
+            qua<lb ed="#V" n="69" break="no"/>si suum.
+          </p>
+          <p>
+            <lb ed="#V" n="70"/>(g) Cum igitur arguis, Beatus
+            <lb ed="#V" n="71"/>aut videt Deum velle, aut nolle,
+            <lb ed="#V" n="72"/>respondeo, nullum membrum
+            <lb ed="#V" n="73"/>oportet dare, nedum de salute
+            fi<lb ed="#V" n="74" break="no"/>nali illius, qui orat, sed nec de
+            <lb ed="#V" n="75"/>exauditione illius orationis, quam
+            <lb ed="#V" n="76"/>nunc offert; non enim sequitur,
+            <lb ed="#V" n="77"/>Deus revelat Petro Joannem nunc
+            <lb ed="#V" n="78"/>petere 4, per merita Petri; ergo
+            <lb ed="#V" n="79"/>revelatur Petro Joannem
+            salvan<lb ed="#V" n="80" break="no"/>dum, vel non salvandum. Nec
+            eti<lb ed="#V" n="81" break="no"/>amsequitur, ergo sibi revelat
+            Jo<lb ed="#V" n="82" break="no"/>annem exaudiendum, vel non
+            exau<lb ed="#V" n="83" break="no"/>diendum in ista petitione; tamen
+            <lb ed="#V" n="84"/>esto, quod revelaretur sibi istum
+            <lb ed="#V" n="85"/>exaudiendum, vel non
+            exaudien<lb ed="#V" n="86" break="no"/>dum in ista petitione, non sequitur,
+            <pb ed="#V" n="384"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>ergo frustra orat, quia sicut Deus
+            <lb ed="#V" n="2"/>vult illum salvare et exaudire, ita
+            <lb ed="#V" n="3"/>vult per determinata media, utpote
+            <lb ed="#V" n="4"/>per orationem talis Beati ipsum
+            <lb ed="#V" n="5"/>consequi. Si autem reveletur Petro
+            <lb ed="#V" n="6"/>determinate quod Deus nollet
+            il<lb ed="#V" n="7" break="no"/>lam orationem exaudire, Petrus
+            <lb ed="#V" n="8"/>non esset ibi mediator in orando.
+            <lb ed="#V" n="9"/>Si vero non revelatur sibi quod
+            <lb ed="#V" n="10"/>velit, nec quod nolit, Petrus orat
+            <lb ed="#V" n="11"/>expectans ut orationem suam
+            con<lb ed="#V" n="12" break="no"/>sequatur determinata revelatio
+            <lb ed="#V" n="13"/>exauditionis, vel saltem
+            determi<lb ed="#V" n="14" break="no"/>natus effectus exauditionis
+            quan<lb ed="#V" n="15" break="no"/>tum ad ipsum petentem.
+          </p>
+          <p>
+            <lb ed="#V" n="16"/>(h) Ad argumenta principalia. Ad
+            <lb ed="#V" n="17"/>primum, dico quod Abraham pro
+            <lb ed="#V" n="18"/>tempore, pro quo intelligitur illud
+            <lb ed="#V" n="19"/>Isaiae, fuit in Lymbo, et per
+            conse<lb ed="#V" n="20" break="no"/>quens non Beatus, et ideo nescivit
+            <lb ed="#V" n="21"/>filios suos Judaeos habitantes in
+            <lb ed="#V" n="22"/>terra Israel, quia nec notitia
+            natu<lb ed="#V" n="23" break="no"/>rali intuitiva, quae impeditur per
+            <lb ed="#V" n="24"/>immoderatam distantiam, sicut est
+            <lb ed="#V" n="25"/>dictum in 2. quoest. nec notitia
+            reve<lb ed="#V" n="26" break="no"/>lationis specialis, quia non habuit
+            <lb ed="#V" n="27"/>illam visionem in Verbo, quam
+            con<lb ed="#V" n="28" break="no"/>comitatur regulariter talis
+            revela<lb ed="#V" n="29" break="no"/>tio. Non ergo concludit de Beatis,
+            <lb ed="#V" n="30"/>quibus in Verbo regulariter
+            reve<lb ed="#V" n="31" break="no"/>lantur, quae a Deo spectant, vel
+            <lb ed="#V" n="32"/>tanquam beatitudinem eorum
+            au<lb ed="#V" n="33" break="no"/>gens, vel tanquam pertinens ad
+            <lb ed="#V" n="34"/>causalitatem eorum respectu
+            bea<lb ed="#V" n="35" break="no"/>titudinis aliorum.
+          </p>
+          <p>
+            <lb ed="#V" n="36"/>(i) Ad secundum, dico quod nihil
+            <lb ed="#V" n="37"/>est in mente, operatio
+            scili<lb ed="#V" n="38" break="no"/>cet quaecumque intellectus, vel
+            <lb ed="#V" n="39"/>voluntatis, vel quaecumque
+            pro<lb ed="#V" n="40" break="no"/>prietas, vel conditio realis
+            hu<lb ed="#V" n="41" break="no"/>jus vel istius, quin totum ita
+            pa<lb ed="#V" n="42" break="no"/>teat Angelo proportionaliter
+            prae<lb ed="#V" n="43" break="no"/>senti non impedito, vel animae
+            <lb ed="#V" n="44"/>non impeditae proportionaliter
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>praesenti sicut animae conjunctae
+            <lb ed="#V" n="46"/>apparet albedo praesens per sensus.
+            <lb ed="#V" n="47"/>Illud ergo dictum, quod solus
+            <lb ed="#V" n="48"/>Deus novit abscondita cordium.
+            <lb ed="#V" n="49"/>verum est universaliter et ex
+            pro<lb ed="#V" n="50" break="no"/>pria perfectione, ita quod
+            impossi<lb ed="#V" n="51" break="no"/>bile est quod per aliquid impediens
+            <lb ed="#V" n="52"/>sibi lateat. Novit etiam, ut judex
+            <lb ed="#V" n="53"/>universalis omnium talium
+            occul<lb ed="#V" n="54" break="no"/>torum, illo modo quo nec Angeli
+            <lb ed="#V" n="55"/>boni nec mali, nec animae separatae
+            <lb ed="#V" n="56"/>noverunt; imo de facto Beati
+            mul<lb ed="#V" n="57" break="no"/>tos tales motus non noverunt
+            pro<lb ed="#V" n="58" break="no"/>pter defectum praesentiae debitae;
+            <lb ed="#V" n="59"/>mali autem multa talia etiam
+            <lb ed="#V" n="60"/>praesentia proportionaliter non
+            <lb ed="#V" n="61"/>noverunt, Deo impediente,
+            pro<lb ed="#V" n="62" break="no"/>pter cujus impedimentum non
+            <lb ed="#V" n="63"/>possunt multa, quae tamen non
+            <lb ed="#V" n="64"/>impediti naturaliter possent.
+          </p>
+          <p>
+            <lb ed="#V" n="65"/>(k) Ad tertium, dico quod oratio
+            <lb ed="#V" n="66"/>nostra nunc duplicem habet
+            effe<lb ed="#V" n="67" break="no"/>ctum; unum, quia meritoria
+            oran<lb ed="#V" n="68" break="no"/>ti, imo opus valde meritorium;
+            <lb ed="#V" n="69"/>alium, quia ex hoc quod specialiter
+            <lb ed="#V" n="70"/>dirigitur pro alio, meritoria est
+            <lb ed="#V" n="71"/>illi pro quo offertur; et primo
+            <lb ed="#V" n="72"/>modo Beati non habent orationem,
+            <lb ed="#V" n="73"/>sed secundo modo. Nec est
+            incon<lb ed="#V" n="74" break="no"/>veniens, aliquem, qui jam est in
+            <lb ed="#V" n="75"/>termino quoad se, per orationem
+            <lb ed="#V" n="76"/>mereri alteri, sicut videmus in
+            po<lb ed="#V" n="77" break="no"/>litiis, ubi Rex illud quod vult dare,
+            <lb ed="#V" n="78"/>vult tamen per intercessionem
+            ali<lb ed="#V" n="79" break="no"/>cujus dare, alicui qui non esset
+            <lb ed="#V" n="80"/>dignus statim exaudiri, et maxime
+            <lb ed="#V" n="81"/>vult, si aliquis apud eum maxime
+            <lb ed="#V" n="82"/>acceptus intercedat, qui tamen
+            <lb ed="#V" n="83"/>acceptus nullum gradum
+            ulterio<lb ed="#V" n="84" break="no"/>rem amicitiae sibi mereretur.
+          </p>
+          <p>
+            <lb ed="#V" n="85"/>Aliter posset dici breviter, et
+            <lb ed="#V" n="86"/>quasi redit in idem, quod sicut
+            im<lb ed="#V" n="87" break="no"/>petrat Beatus aliis, non sibi, ita
+            <pb ed="#V" n="385"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>causat meritum aliis, et non sibi.
+            <lb ed="#V" n="2"/>Oratio enim sua est dispositio de
+            <lb ed="#V" n="3"/>congruo, ut propter eam Deus
+            <lb ed="#V" n="4"/>concedat illud, quod impetrat illi
+            <lb ed="#V" n="5"/>cui petit; et ista est meritum, non
+            <lb ed="#V" n="6"/>istius pro se, sed pro illo cui
+            red<lb ed="#V" n="7" break="no"/>ditur, quod huic merito, quasi pro
+            <lb ed="#V" n="8"/>praemio proximo correspondet.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

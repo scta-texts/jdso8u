@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 43, Quaestio 1</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 43, Quaestio 1</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x20">Vives, Paris, 1894, volume 20</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="4"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e4805"><!-- jdso8u-b4d43q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum resurrectio generalis hominum sit futura</head>
+        <!-- <div alias="scotus-d43q1-p1"> -->
+          <p>
+            <lb ed="#V" n="78" type="fixed=4"/>QUAESTIO I.
+            <lb ed="#V" n="79"/>Utrum resurrectio generalis hominum
+            <lb ed="#V" n="80"/>sit futura?
+          </p>
+          <p>
+            <lb ed="#V" n="81"/>D. Thom. 3. part. quaest. 53. art. 1. et in addit.
+            <lb ed="#V" n="82"/>quaest. 69. art. 1. et hic quaest. 1. art. 1.
+            <pb ed="#V" n="5"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>D. Bonav. art. 1. q. 1. 2. et 3. Richard. art. 1.
+            <lb ed="#V" n="2"/>quaest. 1. Suar. 3. part. tom. 2. d. 50. sect. 2.
+            <lb ed="#V" n="3"/>et 3. Vide Scot. 1. Phys. q. 24. et ibi Aretin.
+          </p>
+          <p>
+            <lb ed="#V" n="4"/>Circa istam quadragesimam
+            ter<lb ed="#V" n="5" break="no"/>tiam distinctionem quaero
+            quin<lb ed="#V" n="6" break="no"/>que. Primo, utrum resurrectio
+            ge<lb ed="#V" n="7" break="no"/>neralis hominum sit futura? Quod
+            <lb ed="#V" n="8"/>non, Ecclesiastes 3. Unus est interitus
+            <lb ed="#V" n="9"/>hominum et jumentorum; sed jumenta
+            <lb ed="#V" n="10"/>non resurgunt; ergo.
+          </p>
+          <p>
+            <lb ed="#V" n="11"/>Praeterea, Job. 14. Homo cum
+            dor<lb ed="#V" n="12" break="no"/>mierit, non resurget; donec atteratur
+            <lb ed="#V" n="13"/>coelum non evigilabit, sed coelum
+            <lb ed="#V" n="14"/>nunquam atteretur, cum sit
+            in<lb ed="#V" n="15" break="no"/>corruptibile; ergo.
+          </p>
+          <p>
+            <lb ed="#V" n="16"/>Praeterea, Philosophus 2. de
+            Ge<lb ed="#V" n="17" break="no"/>neratione: Quae corrumpuntur
+            secun<lb ed="#V" n="18" break="no"/>dum substantiam, non redeunt eadem
+            <lb ed="#V" n="19"/>numero, sed specie. Idem ult.5. Physic.
+          </p>
+          <p>
+            <lb ed="#V" n="20"/>Prueterea per rationem; totum
+            <lb ed="#V" n="21"/>requirit unionem partium; ergo et
+            <lb ed="#V" n="22"/>idem totum eamdem unionem; sed
+            <lb ed="#V" n="23"/>non redibit eadem unio, quia
+            inter<lb ed="#V" n="24" break="no"/>rupta est; sed interruptum non
+            <lb ed="#V" n="25"/>redit idem, quia si redit idem,
+            ite<lb ed="#V" n="26" break="no"/>ratio erit; sed iteratio repugnat
+            <lb ed="#V" n="27"/>identitati, quia iteratio ponit
+            nu<lb ed="#V" n="28" break="no"/>merum, identitas privat; ergo.
+          </p>
+          <p>
+            <lb ed="#V" n="29"/>Oppositum, Job. 19. Scio quod in
+            <lb ed="#V" n="30"/>novissimo die de terra surrecturus sum,
+            <lb ed="#V" n="31"/>etc. Praeterea, 1. ad Cor. 15. Omnes
+            <lb ed="#V" n="32"/>resurgemus.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d43q1-p2"> -->
+          <p>
+            <lb ed="#V" n="69" type="fixed=5"/>SCHOLIUM.
+            <lb ed="#V" n="70"/>Ponit sententiam D. Thom. negantis alia
+            <lb ed="#V" n="71"/>ab homine corrupta, posse eadem numero
+            <lb ed="#V" n="72"/>redire; hominem tamen corruptum posse
+            <lb ed="#V" n="73"/>eumdem numero redire. Eamdem clarius
+            te<lb ed="#V" n="74" break="no"/>nent Durand. hic quaest. 3. Marsil. 2. de
+            ge<lb ed="#V" n="75" break="no"/>ner. quaest. ult. Joan. de Neapol. quodl. 21.
+            <lb ed="#V" n="76"/>quaest. 6. Hanc late refutat Doctor, ex Aug.
+            <lb ed="#V" n="77"/>ratione, ab inconvenientibus, et ex ipso
+            <lb ed="#V" n="78"/>D. Thom.
+          </p>
+          <p>
+            <lb ed="#V" n="79"/>(a) Hic duo sunt videnda: Primo,
+            <lb ed="#V" n="80"/>de possibilitate; secundo, de facto. r
+            <lb ed="#V" n="81"/>De primo (b) dicitur sic, quod si in
+            <lb ed="#V" n="82"/>homine anima sensibilis esset
+            di<lb ed="#V" n="83" break="no"/>versa ab anima rationali, et per
+            <lb ed="#V" n="84"/>consequens corruptibilis, sicut in
+            <lb ed="#V" n="85"/>aliis animalibus, optime!
+            conclude<lb ed="#V" n="86" break="no"/>retur, quod in resurrectione non
+            <pb ed="#V" n="6"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>erit eadem anima sensibilis, et per
+            <lb ed="#V" n="2"/>consequens, nec idem animal. Si
+            <lb ed="#V" n="3"/>autem ponatur, quod eadem anima
+            <lb ed="#V" n="4"/>secundum substantiam sit in
+            ho<lb ed="#V" n="5" break="no"/>mine, rationalis et sensibilis,
+            nul<lb ed="#V" n="6" break="no"/>las in hoc angustias patiemur.
+            <lb ed="#V" n="7"/>Quod declarat alibi, ostendens
+            dif<lb ed="#V" n="8" break="no"/>ferentiam hominis ad alia
+            corru<lb ed="#V" n="9" break="no"/>ptibilia.
+          </p>
+          <p>
+            <lb ed="#V" n="10"/>Ad propositum, quia aliorum
+            <lb ed="#V" n="11"/>animalium forma non est per se
+            <lb ed="#V" n="12"/>subsistens, ut post compositi
+            cor<lb ed="#V" n="13" break="no"/>ruptionem manere valeat, sicut
+            <lb ed="#V" n="14"/>est de anima rationali, quae esse,
+            <lb ed="#V" n="15"/>quod sibi in corpore acquiritur,
+            <lb ed="#V" n="16"/>etiam post separationem a
+            corpo<lb ed="#V" n="17" break="no"/>re retinet, et in participationem
+            <lb ed="#V" n="18"/>illius esse, corpus per
+            resurrecti<lb ed="#V" n="19" break="no"/>onem adducitur; ita quod non sit
+            <lb ed="#V" n="20"/>aliud esse corporis, et aliud animae
+            <lb ed="#V" n="21"/>in homine, alias conjunctio
+            ani<lb ed="#V" n="22" break="no"/>mae et corporis esset accidentalis;
+            <lb ed="#V" n="23"/>et sic nulla interruptio facta est
+            <lb ed="#V" n="24"/>in esse substantiali hominis, ut non
+            <lb ed="#V" n="25"/>possit idem numero redire,
+            pro<lb ed="#V" n="26" break="no"/>pter interruptionem essendi, sicut
+            <lb ed="#V" n="27"/>accidit in aliis rebus corruptis,
+            <lb ed="#V" n="28"/>quarum esse omnino corrumpitur.
+            <lb ed="#V" n="29"/>Stat ergo istud dictum in hoc quod
+            <lb ed="#V" n="30"/>etsi interruptum non possit redire
+            <lb ed="#V" n="31"/>idem numero, tamen quia esse
+            ani<lb ed="#V" n="32" break="no"/>mae intellectivae est idem quod esse
+            <lb ed="#V" n="33"/>totius, et materia manet eadem,
+            <lb ed="#V" n="34"/>et sic in nullo pertinente ad
+            sub<lb ed="#V" n="35" break="no"/>stantiam hominis facta est
+            inter<lb ed="#V" n="36" break="no"/>ruptio essentiae, ideo possibile est
+            <lb ed="#V" n="37"/>hominem redire eumdem numero,
+            <lb ed="#V" n="38"/>non sic in aliis corruptis.
+          </p>
+          <p>
+            <lb ed="#V" n="39"/>(e) Contra hoc primo
+            auctorita<lb ed="#V" n="40" break="no"/>te Augustini 22. de Civit. Dei. cap.20.
+            <lb ed="#V" n="41"/>loquens de carne reddenda homini
+            <lb ed="#V" n="42"/>in resurrectione: Et si, inquit,
+            om<lb ed="#V" n="43" break="no"/>nibus periisset nodis, nec ulla ejus
+            mate<lb ed="#V" n="44" break="no"/>ria in ullis naturae latebris mansisset,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>tamen si vellet, eam repararet
+            Omnipo<lb ed="#V" n="46" break="no"/>tens; ergo totaliter destructum et
+            <lb ed="#V" n="47"/>corruptum in totali esse, potest
+            <lb ed="#V" n="48"/>idem reparari.
+          </p>
+          <p>
+            <lb ed="#V" n="49"/>Praeterea per rationem: Si
+            de<lb ed="#V" n="50" break="no"/>structum esset annihilatum, illud
+            <lb ed="#V" n="51"/>nihil, sequens annihilationem ejus,
+            <lb ed="#V" n="52"/>esset ejusdem rationis cum nihilo,
+            <lb ed="#V" n="53"/>quod erat terminus a quo
+            creati<lb ed="#V" n="54" break="no"/>onis. Patet, quia illae mutationes
+            <lb ed="#V" n="55"/>oppositae habent idem pro
+            termi<lb ed="#V" n="56" break="no"/>no; una pro termino a quo; alia
+            <lb ed="#V" n="57"/>pro termino ad quem.Sed nihil
+            prae<lb ed="#V" n="58" break="no"/>cedens creationem non repugnabat
+            <lb ed="#V" n="59"/>quin illud cui opponitur, poterat
+            <lb ed="#V" n="60"/>creari; ergo et post annihilationem
+            <lb ed="#V" n="61"/>poterit idem recreari.
+          </p>
+          <p>
+            <lb ed="#V" n="62"/>Confirmatur ratio, quia planum
+            <lb ed="#V" n="63"/>est quod ex parte causae remanet
+            <lb ed="#V" n="64"/>eadem potestas; ex parte autem
+            <lb ed="#V" n="65"/>lapidis, esto quod lapis sit
+            annihi<lb ed="#V" n="66" break="no"/>latus, tanta est possibilitas
+            simpli<lb ed="#V" n="67" break="no"/>citer ad esse post annihilationem,
+            <lb ed="#V" n="68"/>quanta ante creationem, quia non
+            <lb ed="#V" n="69"/>magis includit contradictionem,
+            <lb ed="#V" n="70"/>neque illud nihil in quod cessit
+            <lb ed="#V" n="71"/>lapis, magis privat possibilitatem,
+            <lb ed="#V" n="72"/>quia non privaret, nisi tanquam
+            <lb ed="#V" n="73"/>oppositum, sed eidem, et aequaliter
+            <lb ed="#V" n="74"/>opponebatur ante creationem.
+          </p>
+          <p>
+            <lb ed="#V" n="75"/>(d) Praeterea, in homine est
+            ali<lb ed="#V" n="76" break="no"/>qua entitas positiva, quae neque
+            <lb ed="#V" n="77"/>est pars materialis, nec formalis,
+            <lb ed="#V" n="78"/>nec partes, sicut probatum est 3.
+            <lb ed="#V" n="79"/>lib. distinct. 3. quaest. 2. et ad
+            pro<lb ed="#V" n="80" break="no"/>positum sufficit repetere unam
+            <lb ed="#V" n="81"/>rationem, quia aliquid est ibi
+            cau<lb ed="#V" n="82" break="no"/>satum a causis intrinsecis; sed
+            <lb ed="#V" n="83"/>nec materialis, nec formalis est
+            <lb ed="#V" n="84"/>causata a causis intrinsecis, nec
+            <lb ed="#V" n="85"/>ambo simul; ergo aliqua alia
+            en<lb ed="#V" n="86" break="no"/>titas a causis divisim et
+            conjun<lb ed="#V" n="87" break="no"/>ctim acceptis, et illa destruitur;
+            <lb ed="#V" n="88"/>alioquin homo non esset vere
+            mor<pb ed="#V" n="7"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>tuus, quia non esset corruptio
+            <lb ed="#V" n="2"/>totalis entitatis hominis, et tamen
+            <lb ed="#V" n="3"/>illa entitas reparabitur eadem
+            nu<lb ed="#V" n="4" break="no"/>mero, alioquin non esset idem
+            ho<lb ed="#V" n="5" break="no"/>mo numero.
+          </p>
+          <p>
+            <lb ed="#V" n="6"/>Praeterea, si Deus in hoc
+            instan<lb ed="#V" n="7" break="no"/>ti A, et in toto illo tempore medio,
+            <lb ed="#V" n="8"/>usque ad B, et in instanti B.
+            <lb ed="#V" n="9"/>conservaret istud esse, concederet
+            <lb ed="#V" n="10"/>quod esset omnino idem numero;
+            <lb ed="#V" n="11"/>ergo si in A conservat, et iterum
+            <lb ed="#V" n="12"/>in instanti B, et in tempore
+            inter<lb ed="#V" n="13" break="no"/>medio esse non conservat, adhuc
+            <lb ed="#V" n="14"/>erit idem, et tamen erit
+            interru<lb ed="#V" n="15" break="no"/>ptum in tempore intermedio.
+            Pro<lb ed="#V" n="16" break="no"/>batio consequentiae, quia identitas
+            <lb ed="#V" n="17"/>illius esse, ut est in B, ad seipsum,
+            <lb ed="#V" n="18"/>ut est in A, non dependet
+            essenti<lb ed="#V" n="19" break="no"/>aliter ex conservatione pro
+            tem<lb ed="#V" n="20" break="no"/>pore illo medio, quia neque ut a
+            <lb ed="#V" n="21"/>causa formali, neque ut a
+            quacum<lb ed="#V" n="22" break="no"/>que causa essentiali.
+          </p>
+          <p>
+            <lb ed="#V" n="23"/>Hoc etiam probatur aliter, quia
+            <lb ed="#V" n="24"/>alioquin non posset Deus idem esse
+            <lb ed="#V" n="25"/>creare in alio instanti posteriori,
+            <lb ed="#V" n="26"/>quod in instanti priori creat, quia
+            <lb ed="#V" n="27"/>si in instanti priori creat, et in
+            <lb ed="#V" n="28"/>tempore sequenti conservat esse
+            <lb ed="#V" n="29"/>idem, ut conservatum in tempore
+            <lb ed="#V" n="30"/>illo essentialiter requireretur ad
+            <lb ed="#V" n="31"/>identitatem illius esse in instanti
+            <lb ed="#V" n="32"/>B, et tunc si non esset
+            conserva<lb ed="#V" n="33" break="no"/>tum in illo tempore, sed in primo,
+            <lb ed="#V" n="34"/>creatum in B non posset creari
+            <lb ed="#V" n="35"/>idem.
+          </p>
+          <p>
+            <lb ed="#V" n="36"/>Praeterea, diversitas posterioris
+            <lb ed="#V" n="37"/>non arguit diversitatem prioris
+            <lb ed="#V" n="38"/>essentialiter; sed illa instantia ad
+            <lb ed="#V" n="39"/>ipsum esse permanens sunt
+            poste<lb ed="#V" n="40" break="no"/>riora essentialiter; unde et illud
+            <lb ed="#V" n="41"/>esse manet idem in quibuscumque
+            <lb ed="#V" n="42"/>instantibus succedentibus; ergo
+            <lb ed="#V" n="43"/>sive fiat continuatio inter illa
+            in<lb ed="#V" n="44" break="no"/>stantia, sive non, non minus ipsum
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>esse poterit esse idem. Vel sic, si
+            <lb ed="#V" n="46"/>esse esset in 4, et in tempore
+            se<lb ed="#V" n="47" break="no"/>quenti, et in B, esset idem in 4, et
+            <lb ed="#V" n="48"/>in B; ergo si destruatur posterius
+            <lb ed="#V" n="49"/>eo quod est durare in tempore
+            in<lb ed="#V" n="50" break="no"/>termedio, adhuc non necessario ex
+            <lb ed="#V" n="51"/>hoc sequetur diversitas ejus in A
+            <lb ed="#V" n="52"/>et in B.
+          </p>
+          <p>
+            <lb ed="#V" n="53"/>Praeterea, ex illa radice, quod
+            <lb ed="#V" n="54"/>esse simpliciter interruptum vel
+            <lb ed="#V" n="55"/>destructum non potest redire idem
+            <lb ed="#V" n="56"/>sequuntur inconvenientia. Primo,
+            <lb ed="#V" n="57"/>quod Deus non posset brutum
+            re<lb ed="#V" n="58" break="no"/>suscitare idem numero, cujus
+            op<lb ed="#V" n="59" break="no"/>positum nonnunquam legitur
+            mi<lb ed="#V" n="60" break="no"/>raculose factum a Sanctis, ut patet
+            <lb ed="#V" n="61"/>de tauro, quem suscitavit
+            Sylve<lb ed="#V" n="62" break="no"/>ster in Legenda ejus; et hoc Deo
+            <lb ed="#V" n="63"/>negare esse possibile, videtur
+            ma<lb ed="#V" n="64" break="no"/>gnae infidelitatis, et tamen
+            sensi<lb ed="#V" n="65" break="no"/>tivae ejus est destructio et
+            inter<lb ed="#V" n="66" break="no"/>ruptio.
+          </p>
+          <p>
+            <lb ed="#V" n="67"/>Sequeretur etiam, quod omnia
+            <lb ed="#V" n="68"/>accidentia, quae corrumpuntur in
+            <lb ed="#V" n="69"/>corruptione hominis, vel ante
+            re<lb ed="#V" n="70" break="no"/>surrectionem, non possunt eadem
+            <lb ed="#V" n="71"/>numero redire; et tunc non habe.
+            <lb ed="#V" n="72"/>ret homo resuscitatus eamdem
+            <lb ed="#V" n="73"/>propriam passionem numero quam
+            <lb ed="#V" n="74"/>prius, quia illa propria passio non
+            <lb ed="#V" n="75"/>mansit post mortem, quia erat
+            <lb ed="#V" n="76"/>totius, ut totius, et non animae
+            <lb ed="#V" n="77"/>tantum. Consequens autem est
+            <lb ed="#V" n="78"/>impossibile, quod sit idem
+            subje<lb ed="#V" n="79" break="no"/>ctum specie, et tamen non habeat
+            <lb ed="#V" n="80"/>eamdem passionem. Sequeretur
+            <lb ed="#V" n="81"/>etiam de aliis accidentibus, quod
+            <lb ed="#V" n="82"/>potentiae animae, quae, secundum
+            <lb ed="#V" n="83"/>istum, sunt accidentia, cum non
+            <lb ed="#V" n="84"/>sint accidentia solius animae, sed
+            <lb ed="#V" n="85"/>totius compositi, secundum
+            Philo<lb ed="#V" n="86" break="no"/>sophum in principio de Sensu, et primo
+            <lb ed="#V" n="87"/>de Som. et Vig. quod non possent
+            <lb ed="#V" n="88"/>redire eadem; et ita homo non
+            <pb ed="#V" n="8"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>haberet eamdem potentiam
+            audi<lb ed="#V" n="2" break="no"/>tivam vel visivam, et sic de
+            singu<lb ed="#V" n="3" break="no"/>lis. Sequeretur etiam, quod homo
+            <lb ed="#V" n="4"/>non haberet eamdem quantitatem,
+            <lb ed="#V" n="5"/>quia illa non manet, nec in materia
+            <lb ed="#V" n="6"/>sola manente, nec in anima
+            intel<lb ed="#V" n="7" break="no"/>lectiva.
+          </p>
+          <p>
+            <lb ed="#V" n="8"/>In alio videtur peccare, quia
+            <lb ed="#V" n="9"/>non ponit totum esse hominis
+            ma<lb ed="#V" n="10" break="no"/>nere non interruptum. Primo,
+            <lb ed="#V" n="11"/>quia, ut probatum est prius,
+            enti<lb ed="#V" n="12" break="no"/>tas totalis interrumpitur. Secundo,
+            <lb ed="#V" n="13"/>quia esse animae intellectivae non
+            <lb ed="#V" n="14"/>est esse totale hominis, ut ipse
+            ac<lb ed="#V" n="15" break="no"/>cipit, quia omne ens habet aliquod
+            <lb ed="#V" n="16"/>esse proprium homo ut homo; est
+            <lb ed="#V" n="17"/>aliquod ens, non tantum anima;
+            <lb ed="#V" n="18"/>ergo habet aliquod esse proprium,
+            <lb ed="#V" n="19"/>et non tantum esse animae.
+          </p>
+          <p>
+            <lb ed="#V" n="20"/>Praeterea, iste in hoc contradicit
+            <lb ed="#V" n="21"/>sibi ipsi, quia alibi dicit quod
+            sta<lb ed="#V" n="22" break="no"/>tus animae in corpore est
+            perfe<lb ed="#V" n="23" break="no"/>ctior, quam status ejus extra
+            cor<lb ed="#V" n="24" break="no"/>pus, quia est pars compositi, et
+            <lb ed="#V" n="25"/>omnis pars materialis est
+            respe<lb ed="#V" n="26" break="no"/>ctu totius. Et tunc arguitur sic,
+            <lb ed="#V" n="27"/>quod habet totaliter idem esse
+            pro<lb ed="#V" n="28" break="no"/>prium, non est imperfectius ex
+            <lb ed="#V" n="29"/>hoc solo, quod non communicat
+            <lb ed="#V" n="30"/>alii illud esse; sed per te anima
+            to<lb ed="#V" n="31" break="no"/>taliter habet idem esse separata,
+            <lb ed="#V" n="32"/>quod conjuncta, imo esse, quod est
+            <lb ed="#V" n="33"/>totale esse hominis, quandoque
+            <lb ed="#V" n="34"/>communicatur corpori; ergo ipsa
+            <lb ed="#V" n="35"/>in nullo est imperfectior, pro eo
+            <lb ed="#V" n="36"/>quod non communicat idem esse
+            <lb ed="#V" n="37"/>corpori. Major apparet, quia
+            per<lb ed="#V" n="38" break="no"/>fectio naturaliter praesupponitur
+            <lb ed="#V" n="39"/>ei, quod est communicare
+            perfe<lb ed="#V" n="40" break="no"/>ctionem; ergo non est major vel
+            <lb ed="#V" n="41"/>minor per hoc quod communicat
+            <lb ed="#V" n="42"/>vel non communicat; et hoc
+            ma<lb ed="#V" n="43" break="no"/>xime sequitur, si per talem
+            com<cb ed="#V" n="b"/><lb ed="#V" n="44" break="no"/>municationem nullum aliud esse est
+            <lb ed="#V" n="45"/>totius quam istud idem.
+          </p>
+          <p>
+            <lb ed="#V" n="46"/>Praeterea, probatum est superius
+            <lb ed="#V" n="47"/>in materia de Eucharistia, quod in
+            ho<lb ed="#V" n="48" break="no"/>mine est alia forma substantialis
+            <lb ed="#V" n="49"/>ab anima intellectiva, et per
+            con<lb ed="#V" n="50" break="no"/>sequens cum cujuslibet formae sit
+            <lb ed="#V" n="51"/>dare esse, in anima intellectiva non
+            <lb ed="#V" n="52"/>est totale esse compositi. Et istud
+            <lb ed="#V" n="53"/>etiam potest adduci contra
+            pri<lb ed="#V" n="54" break="no"/>mum, quia illa forma
+            interrumpi<lb ed="#V" n="55" break="no"/>tur secundum esse, et tamen
+            redu<lb ed="#V" n="56" break="no"/>citur eadem.
+          </p>
+          <p>
+            <lb ed="#V" n="57"/>Ad probationem, quam innuit in
+            <lb ed="#V" n="58"/>contrarium, quod tunc unio
+            ani<lb ed="#V" n="59" break="no"/>mae et corporis esset accidentalis,
+            <lb ed="#V" n="60"/>consequentia est neganda, quia
+            si<lb ed="#V" n="61" break="no"/>cut unio non est nihil, sed alicujus
+            <lb ed="#V" n="62"/>ad aliquid, et per consequens est
+            <lb ed="#V" n="63"/>entis ad ens, ita est habentis esse
+            <lb ed="#V" n="64"/>ad habens esse, ( quia non capio
+            <lb ed="#V" n="65"/>quod aliquid sit ens extra causam
+            <lb ed="#V" n="66"/>suam, quin habeat esse proprium);
+            <lb ed="#V" n="67"/>ergo sicut ens est per se
+            componi<lb ed="#V" n="68" break="no"/>bile cum ente, sicut per se
+            recepti<lb ed="#V" n="69" break="no"/>vum cum per se recepto, ita et
+            <lb ed="#V" n="70"/>habens esse proprium cum habente
+            <lb ed="#V" n="71"/>esse proprium; nec est unio
+            acci<lb ed="#V" n="72" break="no"/>dentalis, quia istud est per se
+            per<lb ed="#V" n="73" break="no"/>fectibile, et illud per se perfectio,
+            <lb ed="#V" n="74"/>quia si habere esse tolleret per se
+            <lb ed="#V" n="75"/>rationem perfectibilis, ergo non
+            <lb ed="#V" n="76"/>posset aliquid esse per se
+            perfe<lb ed="#V" n="77" break="no"/>ctibile, nisi non ens.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d43q1-p3"> -->
+          <p>
+            <lb ed="#V" n="54" type="fixed=26"/>SCHOLIUM.
+            <lb ed="#V" n="55"/>Sententia AEgidii, per naturam nihil posse
+            <lb ed="#V" n="56"/>redire idem numero, quia non agit nisi per
+            <lb ed="#V" n="57"/>mutationem et motum; per Deum vero posse,
+            <lb ed="#V" n="58"/>quia non agit per mutationem vel motum.
+            <lb ed="#V" n="59"/>Refutatur primo, quia dubium est an natura
+            <lb ed="#V" n="60"/>possit idem numero reproducere, de quo
+            <lb ed="#V" n="61"/>quaest. 3. Secundo, non est necesse eamdem
+            <lb ed="#V" n="62"/>mutationem vel motum redire, ut redeat
+            <lb ed="#V" n="63"/>eadem forma. Ad aliud quod tangit AEgid.
+            <lb ed="#V" n="64"/>scilicet Deum agere in materiam, ut quid
+            <lb ed="#V" n="65"/>est, naturam non, explicat quem
+            apparen<lb ed="#V" n="66" break="no"/>tem sensum habere potest, de quo dist. 11.
+            <lb ed="#V" n="67"/>quaest. 2. et dist. 10. quaest. 4.
+          </p>
+          <p>
+            <lb ed="#V" n="68"/>(e) Aliter ponitur, quod quia
+            na<lb ed="#V" n="69" break="no"/>tura non agit, nisi per motum et
+            <lb ed="#V" n="70"/>mutationem, ideo non potest
+            redu<lb ed="#V" n="71" break="no"/>cere idem numero, quia motus vel
+            <lb ed="#V" n="72"/>mutatio non potest redire idem
+            <lb ed="#V" n="73"/>numero. Deus autem potest agere,
+            <lb ed="#V" n="74"/>non per motum, nec per
+            mutati<lb ed="#V" n="75" break="no"/>onem; et ideo per oppositum redit
+            <lb ed="#V" n="76"/>idem numero. Et ad hoc potest
+            <lb ed="#V" n="77"/>adduci aliud, quod tangit iste, quod
+            <lb ed="#V" n="78"/>quia Deus respicit ipsam
+            materi<lb ed="#V" n="79" break="no"/>am ut quid, potest in ipsam, ut in
+            <lb ed="#V" n="80"/>nullo modo distinctam, formam
+            <lb ed="#V" n="81"/>quamcumque imprimere, nam ut
+            <lb ed="#V" n="82"/>est quid, est omnino indistincta, et
+            <lb ed="#V" n="83"/>ita potest formam eamdem
+            sem<lb ed="#V" n="84" break="no"/>per imprimere, dum materia
+            ma<lb ed="#V" n="85" break="no"/>net eadem; materia autem ut sic,
+            <lb ed="#V" n="86"/>manet semper eadem; sed agens
+            <lb ed="#V" n="87"/>naturale non respicit materiam ut
+            <lb ed="#V" n="88"/>quid, ideo non potest indifferenter
+            <lb ed="#V" n="89"/>quamcumque formam inducere
+            <pb ed="#V" n="27"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>in ipsam quantumcumque
+            ma<lb ed="#V" n="2" break="no"/>nentem eamdem, et ita non
+            cam<lb ed="#V" n="3" break="no"/>dem formam inducere.
+          </p>
+          <p>
+            <lb ed="#V" n="4"/>Contra istud, pri mo ad
+            proposi<lb ed="#V" n="5" break="no"/>tum, falsum supponitur, scilicet
+            <lb ed="#V" n="6"/>Deus non agit per mutationem
+            <lb ed="#V" n="7"/>resuscitando, quod probatur, quia
+            <lb ed="#V" n="8"/>materia praefuit sub privatione
+            <lb ed="#V" n="9"/>formae, et fit sub forma; ergo per
+            <lb ed="#V" n="10"/>actionem agentis transit a
+            privati<lb ed="#V" n="11" break="no"/>one ad formam; sed transitus
+            ta<lb ed="#V" n="12" break="no"/>lis proprie est mutatio, quia tota
+            <lb ed="#V" n="13"/>ratio mutationis ibi salvatur. Quod
+            <lb ed="#V" n="14"/>autem dicit ex alia parte de agente
+            <lb ed="#V" n="15"/>naturali, conclusio dubia est, et
+            <lb ed="#V" n="16"/>tangetur quaest. 3. Sed ratio non
+            <lb ed="#V" n="17"/>concludit, quia non oportet, si
+            <lb ed="#V" n="18"/>posterius non possit redire idem;
+            <lb ed="#V" n="19"/>ergo nec prius, sed mutatio est
+            <lb ed="#V" n="20"/>posterior ipsa forma. Et
+            confirma<lb ed="#V" n="21" break="no"/>tur istud, quia de facto Deus
+            resu<lb ed="#V" n="22" break="no"/>scitans non reducit eamdem
+            muta<lb ed="#V" n="23" break="no"/>tionem numero, quia resuscitatio
+            <lb ed="#V" n="24"/>non erit eadem mutatio cum
+            gene<lb ed="#V" n="25" break="no"/>ratione, tamen eadem forma
+            nu<lb ed="#V" n="26" break="no"/>mero reducetur. Unde fallacia
+            <lb ed="#V" n="27"/>consequentis est ex distinctione
+            <lb ed="#V" n="28"/>mutationum, inferre distinctionem
+            <lb ed="#V" n="29"/>terminorum; e contrario enim
+            be<lb ed="#V" n="30" break="no"/>ne sequitur, quod si alia forma
+            <lb ed="#V" n="31"/>acquiritur, quod sit alia mutatio;
+            <lb ed="#V" n="32"/>sed eadem potest bene acquiri
+            <lb ed="#V" n="33"/>diversis mutationibus, sicut et
+            <lb ed="#V" n="34"/>idem ubi specie potest acquiri
+            diver<lb ed="#V" n="35" break="no"/>sis motibus localibus specie,
+            ut<lb ed="#V" n="36" break="no"/>pote motu circulari, et motu recto,
+            <lb ed="#V" n="37"/>qui adeo sunt alterius rationis, ut
+            <lb ed="#V" n="38"/>non sint comparabiles. 7. Phys.
+          </p>
+          <p>
+            <lb ed="#V" n="39"/>Augustinus etiam 3. de Trinit. c. 9.
+            <lb ed="#V" n="40"/>vult quod idem specie possit
+            gene<lb ed="#V" n="41" break="no"/>rari aequivoce et univoce, et tamen
+            <lb ed="#V" n="42"/>mutationes sunt alterius rationis.
+            <lb ed="#V" n="43"/>Probatio et iam adhoc antecedens,
+            <lb ed="#V" n="44"/>scilicet quod mutatio non potest
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>reduci eadem numero, non valet,
+            <lb ed="#V" n="46"/>quia etsi unitas totius ex partibus
+            <lb ed="#V" n="47"/>sit continuitas partis cum parte,
+            <lb ed="#V" n="48"/>tamen unitas sive identitas partis
+            <lb ed="#V" n="49"/>ad seipsam non est continuitas
+            <lb ed="#V" n="50"/>ejus ad aliam partem.
+          </p>
+          <p>
+            <lb ed="#V" n="51"/>Si ergo interruptio ponat non
+            <lb ed="#V" n="52"/>continuitatem posterioris ad
+            pri<lb ed="#V" n="53" break="no"/>us, non sequitur quod tollat
+            iden<lb ed="#V" n="54" break="no"/>titatem illius ad se ipsam. Et quod
+            <lb ed="#V" n="55"/>illa opinio tangit de respicere
+            ma<lb ed="#V" n="56" break="no"/>teriam ut quid est, tactum est
+            <lb ed="#V" n="57"/>supra in materia de Eucharistia dist. 11.
+            <lb ed="#V" n="58"/>art. 2. quaest. 1. Si enim aliquem
+            <lb ed="#V" n="59"/>intellectum bonum haberet
+            propo<lb ed="#V" n="60" break="no"/>sitio, forsan esset ille quod Deus
+            <lb ed="#V" n="61"/>non respicit materiam, ut ordine
+            <lb ed="#V" n="62"/>quodam transeuntem a forma in
+            <lb ed="#V" n="63"/>formam; quomodo agens naturale
+            <lb ed="#V" n="64"/>necessario respicit, quia non
+            po<lb ed="#V" n="65" break="no"/>test immediate transire de
+            quo<lb ed="#V" n="66" break="no"/>cumque in quodlibet. Sed haec
+            dif<lb ed="#V" n="67" break="no"/>ferentia nihil facit ad posse
+            redu<lb ed="#V" n="68" break="no"/>cere idem numero, vel non, quia
+            <lb ed="#V" n="69"/>ille ordo respicit formas secundum
+            <lb ed="#V" n="70"/>rationes specificas, non autem
+            <lb ed="#V" n="71"/>secundum identitatem vel
+            distin<lb ed="#V" n="72" break="no"/>ctionem numeralem earum, quia
+            <lb ed="#V" n="73"/>non potest statim succedere
+            for<lb ed="#V" n="74" break="no"/>mae vini, nisi aceti forma, et non e
+            <lb ed="#V" n="75"/>converso immediate; sed quod
+            <lb ed="#V" n="76"/>huic formae vini succedat, vel illi,
+            <lb ed="#V" n="77"/>indifferens est, sicut indifferenter
+            <lb ed="#V" n="78"/>ex hoc igne, vel illo generatur
+            <lb ed="#V" n="79"/>aqua; ergo agens respiciens
+            ordi<lb ed="#V" n="80" break="no"/>nem formarum in transmutatione,
+            <lb ed="#V" n="81"/>ita potest habere aliquid
+            praece<lb ed="#V" n="82" break="no"/>dens formam inducendam ab ipso,
+            <lb ed="#V" n="83"/>sicut si immediate ageret sine tali
+            <lb ed="#V" n="84"/>ordine, et per consequens, si
+            ab<lb ed="#V" n="85" break="no"/>solute sit sibi possibile reducere
+            <lb ed="#V" n="86"/>idem numero, non impedietur per
+            <lb ed="#V" n="87"/>hoc quod determinatur ad talem
+            <lb ed="#V" n="88"/>ordinem formarum in agendo.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d43q1-p4"> -->
+          <p>
+            <lb ed="#V" n="30" type="fixed=29"/>SCHOLIUM.
+            <lb ed="#V" n="31"/>Possibilitas reproducendi est ex
+            omnipo<lb ed="#V" n="32" break="no"/>tentia Dei, et non repugnantia creaturae, ut
+            <lb ed="#V" n="33"/>ostensum est ex auctoritate August. et
+            rati<lb ed="#V" n="34" break="no"/>one contra D. Thom. Potest fieri sine
+            muta<lb ed="#V" n="35" break="no"/>tione, si res annihiletur, cum mutatione, si
+            <lb ed="#V" n="36"/>corrumpatur.
+          </p>
+          <p>
+            <lb ed="#V" n="37"/>(f) Quantum igitur ad istum
+            arti<lb ed="#V" n="38" break="no"/>q. culum, dico quod possibilitas est
+            <lb ed="#V" n="39"/>ex parte Dei ex omnipotentia ejus
+            <lb ed="#V" n="40"/>(quod si sit possibile alii causae,
+            <lb ed="#V" n="41"/>de hoc non tracto hic, sed queest. 3.
+            <lb ed="#V" n="42"/>dicetur), et ex parte objecti est
+            <lb ed="#V" n="43"/>possibilitas simpliciter, quia non
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="44"/>includit contradictionem. Et hoc
+            <lb ed="#V" n="45"/>probatum est, et auctoritate et
+            ra<lb ed="#V" n="46" break="no"/>tione, et contra primam
+            opini<lb ed="#V" n="47" break="no"/>onem, et hoc, sive reducatur sine
+            <lb ed="#V" n="48"/>mutatione, sive per mutationem,
+            <lb ed="#V" n="49"/>quia utrumque est possibile, sicut
+            <lb ed="#V" n="50"/>argutum est contra secundam
+            opi<lb ed="#V" n="51" break="no"/>nionem.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d43q1-p5"> -->
+          <p>
+            <lb ed="#V" n="62" type="fixed=29"/>SCHOLIUM.
+            <lb ed="#V" n="63"/>Resurrectionem esse futuram ex tribus
+            <lb ed="#V" n="64"/>symbolis et Scriptura probat. Habetur etiam
+            <lb ed="#V" n="65"/>Exod. 3. Isai. 26. Ezechiel. 37. Jonae 2.
+            So<lb ed="#V" n="66" break="no"/>phon. 3. Esdr. 2. Luc. 20. ad Philipp. 3. 2.
+            <lb ed="#V" n="67"/>Cor. 4. 2. Tim. 2. Apoc. 20. Ad secu ndum
+            <lb ed="#V" n="68"/>coelum et elementa non esse substantialiter
+            <lb ed="#V" n="69"/>corrumpenda in fine mundi. Ita August. 20.
+            <lb ed="#V" n="70"/>Civit. 14. Hieron. in 65. Isai. Gregor. 17.
+            <lb ed="#V" n="71"/>mor. 5. D. Thom. in addit. quaest. 91. art. 4.
+          </p>
+          <p>
+            <lb ed="#V" n="72"/>(g) De secundo articulo, si
+            re<lb ed="#V" n="73" break="no"/>surrectionem fore, possit ostendi
+            <lb ed="#V" n="74"/>ratione naturali, de hoc statim
+            <lb ed="#V" n="75"/>in proxima quaestione. Sed pro
+            <lb ed="#V" n="76"/>nunc manifesta est conclusio ex
+            <lb ed="#V" n="77"/>veritate fidei. Hanc enim
+            verita<lb ed="#V" n="78" break="no"/>tem tanquam articulum fidei
+            ex<lb ed="#V" n="79" break="no"/>primit tam symbolum
+            Apostolo<lb ed="#V" n="80" break="no"/>rum: Carnis resurrectionem, quam
+            <lb ed="#V" n="81"/>symbolum Nicaenum: Et expecto
+            re<lb ed="#V" n="82" break="no"/>surrectionem mortuorum, quam
+            svm<lb ed="#V" n="83" break="no"/>bolum Athanasii: Omnes homines
+            re<lb ed="#V" n="84" break="no"/>surgere habent cum corporibus suis, etc.
+            <lb ed="#V" n="85"/>Istud autem valde expresse habetur
+            <pb ed="#V" n="30"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>in multis locis Scripturae, utpote
+            <lb ed="#V" n="2"/>Joann. 5. 11. 20. et 21. et Matth. 25. et
+            <lb ed="#V" n="3"/>Apost. 1. Corinth. 15. et 1. Thess. 4. et
+            <lb ed="#V" n="4"/>secundi Machab. 12. Nisi eos qui
+            cecide<lb ed="#V" n="5" break="no"/>rant, resurrecturos speraret.
+          </p>
+          <p>
+            <lb ed="#V" n="6"/>(h) Ad argumenta. Ad primum.
+            <lb ed="#V" n="7"/>Salomon fuit ibi concionator nunc
+            <lb ed="#V" n="8"/>allegans pro parte stultorum,
+            <lb ed="#V" n="9"/>nunc respondens secundum
+            senten<lb ed="#V" n="10" break="no"/>tiam sapientum, et illud dictum
+            <lb ed="#V" n="11"/>est concionando pro stultis. Sed
+            <lb ed="#V" n="12"/>contradicitur illi sententiae postea,
+            <lb ed="#V" n="13"/>cap. ult. Ibit homo in domum
+            ceternita<lb ed="#V" n="14" break="no"/>tis suce; finem loquendi omnes pariter
+            <lb ed="#V" n="15"/>audiamus. Deum time, et mandata ejus
+            <lb ed="#V" n="16"/>observa, hoc est enim omnis homo.
+          </p>
+          <p>
+            <lb ed="#V" n="17"/>Ad secundum, et si coelum
+            nun<lb ed="#V" n="18" break="no"/>quam atteretur quantum ad
+            sub<lb ed="#V" n="19" break="no"/>stantiam, tamen atteretur
+            quan<lb ed="#V" n="20" break="no"/>tum ad efficaciam, vel influentiam
+            <lb ed="#V" n="21"/>in ista inferiora, generando et
+            <lb ed="#V" n="22"/>corrumpendo, quia post judicium
+            <lb ed="#V" n="23"/>cessabit ista influentia, et quoad
+            <lb ed="#V" n="24"/>hoc intelligi potest illud 1.
+            Co<lb ed="#V" n="25" break="no"/>rinth. 7. Proeterit fiqura hujus mundi.
+            <lb ed="#V" n="26"/>Vel posset dici, quod loquitur de
+            <lb ed="#V" n="27"/>illo coelo, de quo loquitur Petrus
+            <lb ed="#V" n="28"/>in Canonica sua: Coeli transient, et
+            <lb ed="#V" n="29"/>elementa calore solventur, quod non
+            <lb ed="#V" n="30"/>intelligitur nisi de coelo
+            elemen<lb ed="#V" n="31" break="no"/>tari.
+          </p>
+          <p>
+            <lb ed="#V" n="32"/>Ad aliud, Philosophus ibi
+            distin<lb ed="#V" n="33" break="no"/>guit circulationem in corporibus
+            <lb ed="#V" n="34"/>coelestibus a circulatione in
+            cor<lb ed="#V" n="35" break="no"/>ruptibilibus, quia ibi substantia non
+            <lb ed="#V" n="36"/>corrumpitur per motum, et ideo
+            <lb ed="#V" n="37"/>redit eadem, non sicut accipiens
+            <lb ed="#V" n="38"/>esse per istum motum, sed fit
+            prae<lb ed="#V" n="39" break="no"/>sens eidem parti per motum
+            redu<lb ed="#V" n="40" break="no"/>centem. Sed circulatio in istis
+            <lb ed="#V" n="41"/>inferioribus est secundum
+            corru<lb ed="#V" n="42" break="no"/>ptionem formae substantialis, et
+            <lb ed="#V" n="43"/>reductionem ejus, et ideo non si
+            <lb ed="#V" n="44"/>redit idem numero. An autem
+            uni<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>versaliter neget idem numero
+            pos<lb ed="#V" n="46" break="no"/>se redire, de hoc quoest. 3.
+          </p>
+          <p>
+            <lb ed="#V" n="47"/>(i) Ad ultimum posset dici, quod
+            <lb ed="#V" n="48"/>compositum potest idem redire, 1
+            <lb ed="#V" n="49"/>licet non redeat unio eadem
+            par<lb ed="#V" n="50" break="no"/>tium, quia illa unio non est de
+            es<lb ed="#V" n="51" break="no"/>sentia totius, nec illa unio est illa
+            <lb ed="#V" n="52"/>entitas totalis, quae est ex partibus,
+            <lb ed="#V" n="53"/>nec forma illius entitatis. Sed quia
+            <lb ed="#V" n="54"/>unio est simpliciter necessario
+            re<lb ed="#V" n="55" break="no"/>quisita ad entitatem, totalem, et non
+            <lb ed="#V" n="56"/>nisi videtur aliquid esse idem
+            nu<lb ed="#V" n="57" break="no"/>mero, illud sit idem numero, quod
+            <lb ed="#V" n="58"/>necessario requiritur ad ipsum,
+            <lb ed="#V" n="59"/>ideo verius videtur, quod unio
+            redi<lb ed="#V" n="60" break="no"/>bit eadem, et hoc, si accipiatur pro
+            <lb ed="#V" n="61"/>illa relatione partium unitarum
+            <lb ed="#V" n="62"/>ad invicem, non autem pro ipsa
+            <lb ed="#V" n="63"/>passione, quae non manet nisi in
+            <lb ed="#V" n="64"/>instanti resuscitationis; illa enim
+            <lb ed="#V" n="65"/>potest poni alia, sicut et illa
+            mu<lb ed="#V" n="66" break="no"/>tatio est alia a generatione.
+          </p>
+          <p>
+            <lb ed="#V" n="67"/>Et cum arguitur, quod illa unio
+            <lb ed="#V" n="68"/>fuit interrupta, dico quod
+            inter<lb ed="#V" n="69" break="no"/>ruptum potest redire idem
+            nu<lb ed="#V" n="70" break="no"/>mero, et non tantum absolutum,
+            <lb ed="#V" n="71"/>sed respectus, si extrema ejus
+            <lb ed="#V" n="72"/>redeant eadem numero. Credo
+            <lb ed="#V" n="73"/>enim beatam Mariam habuisse
+            <lb ed="#V" n="74"/>eamdem relationem ad Filium,
+            <lb ed="#V" n="75"/>post passionem, quam habuit ante
+            <lb ed="#V" n="76"/>Christi passionem, et tamen fuit
+            <lb ed="#V" n="77"/>interrupta, et in morte Christi
+            <lb ed="#V" n="78"/>propter destructionem termini, et
+            <lb ed="#V" n="79"/>in morte Mariae propter
+            destru<lb ed="#V" n="80" break="no"/>ctionem fundamenti.
+          </p>
+          <p>
+            <lb ed="#V" n="81"/>Et si dicas, quod contradicere
+            <lb ed="#V" n="82"/>videtur illa responsio sibi ipsi,
+            <lb ed="#V" n="83"/>quia negat unionem passionem
+            <lb ed="#V" n="84"/>redire eadem, et tamen illa est
+            <lb ed="#V" n="85"/>necessaria ad fieri totius, et
+            secun<lb ed="#V" n="86" break="no"/>dum istud dictum non potest
+            ali<lb ed="#V" n="87" break="no"/>quid redire idem, nisi illud redeat
+            <lb ed="#V" n="88"/>idem, quod est necessarium ad esse
+            <pb ed="#V" n="31"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>ejus. Respondeo, esto, quod unio,
+            <lb ed="#V" n="2"/>ut est passio, sit necessaria ad
+            <lb ed="#V" n="3"/>fieri totius, sequitur quod non est
+            <lb ed="#V" n="4"/>idem fieri ipsius totius, nisi sit
+            <lb ed="#V" n="5"/>eadem unio, et concedo; et tunc
+            <lb ed="#V" n="6"/>vel neutrum erit idem, quod est
+            <lb ed="#V" n="7"/>probabile, quia illa unio, ut
+            di<lb ed="#V" n="8" break="no"/>ctum est, non erit eadem cum
+            ge<lb ed="#V" n="9" break="no"/>neratione hominis; vel utrumque
+            <lb ed="#V" n="10"/>poterit esse idem, quia non est
+            <lb ed="#V" n="11"/>ibi contradictio.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>
