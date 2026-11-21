@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 15, Quaestio 4</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 15, Quaestio 4</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x18">Vives, Paris, 1894, volume 18</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="391"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e4242"><!-- jdso8u-b4d15q4 -->
+        <head>Quaestio 4</head>
+        <head type="question-title">Utrum damnificans aliquem in bono famae teneatur ad restitutionem ita quod poenitere vere non possit nisi farnam restituat</head>
+        <!-- <div alias="scotus-d15q4-p1"> -->
+          <p>
+            <pb ed="#V" n="391"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1" type="fixed=391"/>QUAESTIO IV.
+            <lb ed="#V" n="2"/>Utrum damnificans aliquem in bono
+            <lb ed="#V" n="3"/>famce, teneatur ad restitutionem, ita
+            <lb ed="#V" n="4"/>quod poenitere vere non possit, nisi
+            <lb ed="#V" n="5"/>famam restituat?
+          </p>
+          <p>
+            <lb ed="#V" n="6"/>D. Thom. 2. 2. quaest. 61. art. 2. ubi Cajet.
+            <lb ed="#V" n="7"/>Salon, Aragon. Richard. hic art. 5. q. 3. Gabr.
+            <lb ed="#V" n="8"/>quaest. 16. art. 2. Soto 4. just. quaest. 6. art.
+            <lb ed="#V" n="9"/>3. Emmanuel 2. par. cap. 45. Navarr. cap. 18.
+            <lb ed="#V" n="10"/>lib. 2. cap. 4. Sylvest. ver. Datractio. Ang.
+            <lb ed="#V" n="11"/>ihi. Sayr. lib. 11. cap. 3. Lessius lib. 2. cap.11
+            <lb ed="#V" n="12"/>dub. 20.
+          </p>
+          <p>
+            <lb ed="#V" n="13"/>Quarto (a) quaeritur, utrum
+            <lb ed="#V" n="14"/>damnificans aliquem in bono
+            fa<lb ed="#V" n="15" break="no"/>mae, teneatur ad restitutionem, ita
+            <lb ed="#V" n="16"/>quod poenitere vere non possit,
+            <lb ed="#V" n="17"/>nisi famam restituat? Videtur
+            <lb ed="#V" n="18"/>quod non, Extra de Calumn. cap. 1.
+            <lb ed="#V" n="19"/>et 2. Infamis est denuntiator vel
+            <lb ed="#V" n="20"/>accusator falsi criminis; ergo
+            ne<lb ed="#V" n="21" break="no"/>gans verum crimen sibi
+            imposi<lb ed="#V" n="22" break="no"/>tum, injuste infamat accusantem,
+            <lb ed="#V" n="23"/>quia ostendit eum accusatorem
+            <lb ed="#V" n="24"/>falsi criminis; et tamen iste
+            ne<lb ed="#V" n="25" break="no"/>gans tale crimen sibi impositum,
+            <lb ed="#V" n="26"/>non tenetur famam restituere
+            ac<lb ed="#V" n="27" break="no"/>cusanti, quia magis videtur
+            accu<lb ed="#V" n="28" break="no"/>sans debere restituere famam
+            <lb ed="#V" n="29"/>accusato, cum non possit probare
+            <lb ed="#V" n="30"/>crimen sibi impositum.
+          </p>
+          <p>
+            <lb ed="#V" n="31"/>Item tenetur quilibet magis
+            ze<lb ed="#V" n="32" break="no"/>lare pro fama propria quam pro
+            <lb ed="#V" n="33"/>aliena, sicut magis diligere
+            se<lb ed="#V" n="34" break="no"/>ipsum quam proximum; sed
+            accu<lb ed="#V" n="35" break="no"/>satus in publico de crimine occulto
+            <lb ed="#V" n="36"/>non potest famam suam custodire
+            <lb ed="#V" n="37"/>illaesam, nisi directe alterum
+            dif<lb ed="#V" n="38" break="no"/>famando, negando scilicet crimen
+            <lb ed="#V" n="39"/>sibi impositum, et ita denotando
+            <lb ed="#V" n="40"/>eum delatorem falsi criminis;
+            er<lb ed="#V" n="41" break="no"/>go iste secundum rectam rationem
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="42"/>tenetur eum diffamare, licet
+            in<lb ed="#V" n="43" break="no"/>directe, et per consequens non
+            <lb ed="#V" n="44"/>restituere, quia in primo actu non
+            <lb ed="#V" n="45"/>egit injuste.
+          </p>
+          <p>
+            <lb ed="#V" n="46"/>Contra, Augustinus ad
+            Mace<lb ed="#V" n="47" break="no"/>donium epistola 2. et ponitur 14.
+            <lb ed="#V" n="48"/>quaest. 6. cap. 1. Si res: Non
+            dimitti<lb ed="#V" n="49" break="no"/>tur peccatum, nisi restituatur ablatum.
+            <lb ed="#V" n="50"/>si restitui potest.
+          </p>
+          <p>
+            <lb ed="#V" n="51"/>Item Proverb. 22. Melius est nomen
+            <lb ed="#V" n="52"/>bonum, quam divitiae multae; ergo plus
+            <lb ed="#V" n="53"/>laedit proximum, qui aufert ei
+            <lb ed="#V" n="54"/>nomen bonum, quam qui aufert
+            <lb ed="#V" n="55"/>divitias; si ergo ibi tenetur
+            secun<lb ed="#V" n="56" break="no"/>dum justitiam resituere, multo
+            <lb ed="#V" n="57"/>magis hic.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d15q4-p2"> -->
+          <p>
+            <lb ed="#V" n="5" type="fixed=392"/>SCHOLIUM.
+            <lb ed="#V" n="6"/>Hic duo dicit: Primum, imponentem
+            fal<lb ed="#V" n="7" break="no"/>sum crimen debere se retractare ita publice,
+            <lb ed="#V" n="8"/>sicut dixit. Ita D. Thom. 2. 2. quaest.62. art. 2.
+            <lb ed="#V" n="9"/>ad 2. Richard. hic art. 5. quaest. 3. Gabr.
+            <lb ed="#V" n="10"/>quaest. 16. art. 2. Soto 4. just. quaest. 6.
+            <lb ed="#V" n="11"/>art. 3. ad 4. Secundum, dicens tantum se
+            <lb ed="#V" n="12"/>audivisse talia crimina de aliquo, non
+            tene<lb ed="#V" n="13" break="no"/>tur ad restitutionem, quia vere famam non
+            <lb ed="#V" n="14"/>abstulit, si tamen praevidit auditores levi
+            <lb ed="#V" n="15"/>rumori credituros in gravem infamiam
+            <lb ed="#V" n="16"/>proximi, peccat mortaliter contra charitatem
+            <lb ed="#V" n="17"/>Adde extra litteram, si falso dixit se illa
+            <lb ed="#V" n="18"/>accepisse ex talibus fide dignis, quod peccat
+            <lb ed="#V" n="19"/>contra justitiam, quia tunc laedit vere
+            fa<lb ed="#V" n="20" break="no"/>mam proximi. Adde secundo teneri
+            infama<lb ed="#V" n="21" break="no"/>torem ad damna secuta ex infamia, ut si
+            <lb ed="#V" n="22"/>propterea perdidit infamatus beneficia, ex
+            <lb ed="#V" n="23"/>quaest. 2. fin. Adde tertio quandoque
+            addu<lb ed="#V" n="24" break="no"/>cendos esse testes, ut probes te falsum
+            dixis<lb ed="#V" n="25" break="no"/>se, quia tencris efficaciter te revocare.
+          </p>
+          <p>
+            <lb ed="#V" n="26"/>Respondeo (b), in gencre potest
+            <lb ed="#V" n="27"/>aliquis alium tripliciter diffamare;
+            <lb ed="#V" n="28"/>uno modo falsum crimen
+            impo<lb ed="#V" n="29" break="no"/>nendo; secundo modo verum
+            cri<lb ed="#V" n="30" break="no"/>men, tamen occultum, non servato
+            <lb ed="#V" n="31"/>ordine Juris, in publico
+            proponen<lb ed="#V" n="32" break="no"/>do; tertio modo verum crimen,
+            <lb ed="#V" n="33"/>sed occultum, in publico tamen
+            <lb ed="#V" n="34"/>sibi impositum negando, quia in
+            <lb ed="#V" n="35"/>hoc negans notat imponentem de
+            <lb ed="#V" n="36"/>calumnia.
+          </p>
+          <p>
+            <lb ed="#V" n="37"/>In (c) primo dico, quod oportet
+            <lb ed="#V" n="38"/>restituere famam, retractando
+            <lb ed="#V" n="39"/>verbum suum, vel quod sibi
+            impo<lb ed="#V" n="40" break="no"/>suit, et hoc ita publice, sicut sibi
+            <lb ed="#V" n="41"/>imposuit, quia alias non servat
+            <lb ed="#V" n="42"/>justitiam in reddendo proximo
+            <lb ed="#V" n="43"/>quod suum est.
+          </p>
+          <p>
+            <lb ed="#V" n="44"/>Et si objicitur, quod magis
+            tene<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>tur zelare pro fama sua quam
+            alie<lb ed="#V" n="46" break="no"/>na, non autem posset illi reddere
+            <lb ed="#V" n="47"/>suam famam, retractando verbum
+            <lb ed="#V" n="48"/>suum, nisi seipsum diffamaret;
+            <lb ed="#V" n="49"/>Respondeo, sicut dixi in prima
+            <lb ed="#V" n="50"/>quaestione, responsione ad sextum
+            <lb ed="#V" n="51"/>argumentum, quod bona corporis,
+            <lb ed="#V" n="52"/>vel exteriora, non sunt diligenda
+            <lb ed="#V" n="53"/>nisi in ordine ad bonum animae et
+            <lb ed="#V" n="54"/>ad Deum; hoc autem non est, nisi
+            <lb ed="#V" n="55"/>ut possint juste competere illi,
+            <lb ed="#V" n="56"/>qui diligit, et ideo sicut ibi de
+            di<lb ed="#V" n="57" break="no"/>lectione vitae propriae corporalis
+            <lb ed="#V" n="58"/>dixi, ita dico-hic de dilectione
+            fa<lb ed="#V" n="59" break="no"/>mae propriae, quod quilibet, cui
+            <lb ed="#V" n="60"/>potest juste competere in se fama,
+            <lb ed="#V" n="61"/>debet magis diligere illam quam
+            <lb ed="#V" n="62"/>alteri, cui non potest juste
+            compe<lb ed="#V" n="63" break="no"/>tere. Sed si sibi non potest
+            compe<lb ed="#V" n="64" break="no"/>tere nisi injuste, alteri autem juste,
+            <lb ed="#V" n="65"/>magis debet diligere alteri, cui
+            <lb ed="#V" n="66"/>juste convenit, quam sibi cui
+            inju<lb ed="#V" n="67" break="no"/>ste; et ita est hic, accusato enim
+            <lb ed="#V" n="68"/>de falso crimine, juste convenit
+            <lb ed="#V" n="69"/>fama; accusanti autem post talem
+            <lb ed="#V" n="70"/>accusationem, injuste, non solum,
+            <lb ed="#V" n="71"/>quia mentitus est in accusando,
+            <lb ed="#V" n="72"/>sed quia publice mentitus est, in
+            <lb ed="#V" n="73"/>quo sufficienter et judicabiliter se
+            <lb ed="#V" n="74"/>diffamavit. Et ideo postea directe
+            <lb ed="#V" n="75"/>ostendens innocentiam alterius,
+            <lb ed="#V" n="76"/>cui tenetur in hoc, et indirecte
+            <lb ed="#V" n="77"/>nocentiam sui, non tunc proprie
+            <lb ed="#V" n="78"/>diffamat se, sed tunc amovet
+            fal<lb ed="#V" n="79" break="no"/>sam laudem, qua iste post
+            accu<lb ed="#V" n="80" break="no"/>sationem mendacem, indignus est.
+          </p>
+          <p>
+            <lb ed="#V" n="81"/>Exemplum, aliquis fornicatur
+            <lb ed="#V" n="82"/>tribus videntibus; illi postea
+            accu<lb ed="#V" n="83" break="no"/>santes non diffamant illum, sed
+            <lb ed="#V" n="84"/>ipsemet se diffamavit in facto illo
+            <lb ed="#V" n="85"/>publico, qua breviter,
+            committen<lb ed="#V" n="86" break="no"/>do quodcumque crimen publice,
+            in<lb ed="#V" n="87" break="no"/>currit laesionem dignitatis, et sic
+            <lb ed="#V" n="88"/>amittit famam, quantum est in se;
+            <pb ed="#V" n="393"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>nec publicatio illa postea, per quam
+            <lb ed="#V" n="2"/>notificatur illa laesio, aufert sibi
+            <lb ed="#V" n="3"/>famam, sed tantummodo facit
+            de<lb ed="#V" n="4" break="no"/>venire magis in publicum illud,
+            <lb ed="#V" n="5"/>quod ex natura actus commissi
+            <lb ed="#V" n="6"/>prius simpliciter erat publicum.
+          </p>
+          <p>
+            <lb ed="#V" n="7"/>(d) Et si quaeratur, aliquis non
+            <lb ed="#V" n="8"/>imponit in publico tale crimen
+            <lb ed="#V" n="9"/>alii, sed mutat, vel indiscrete
+            lo<lb ed="#V" n="10" break="no"/>quitur, vel alicui coram multis
+            <lb ed="#V" n="11"/>narrat, tamen non tanquam sibi
+            <lb ed="#V" n="12"/>certum, sed sic se audivisse,
+            num<lb ed="#V" n="13" break="no"/>quid tenetur restituere?
+            Respon<lb ed="#V" n="14" break="no"/>deo, rara fides ideo est, quia multi
+            <lb ed="#V" n="15"/>multa loquuntur; et ideo dicens se
+            <lb ed="#V" n="16"/>tantum audivisse, nisi ex modo
+            <lb ed="#V" n="17"/>dicendi ostendat aliquam majorem
+            <lb ed="#V" n="18"/>certitudinem quam ex communi
+            <lb ed="#V" n="19"/>relatione, non aufert ex natura
+            <lb ed="#V" n="20"/>actus in opinione aliorum
+            fa<lb ed="#V" n="21" break="no"/>mam ipsi; quia si illi firmiter
+            <lb ed="#V" n="22"/>concipiant illum, de quo est
+            ser<lb ed="#V" n="23" break="no"/>mo, criminosum esse, leves sunt.
+            <lb ed="#V" n="24"/>quia qui cito credit, levis est corde.
+            <lb ed="#V" n="25"/>Ecclesiastici 19. Verumtamen,
+            <lb ed="#V" n="26"/>quia a scandalo pusillorum
+            opor<lb ed="#V" n="27" break="no"/>tet cavere, juxta illud Pauli 1.
+            <lb ed="#V" n="28"/>ad Corinth. Si esca scandalizat
+            fra<lb ed="#V" n="29" break="no"/>trem meum, non manducabo carnem in
+            <lb ed="#V" n="30"/>aeternum, et multi sunt tales
+            pu<lb ed="#V" n="31" break="no"/>silli, leves ad credendum mala,
+            <lb ed="#V" n="32"/>ideo est periculosum eis talia
+            <lb ed="#V" n="33"/>audita ex relatu eis referre; et
+            <lb ed="#V" n="34"/>si fiat hoc animo malo, laedendi
+            <lb ed="#V" n="35"/>scilicet illum de quo est sermo,
+            <lb ed="#V" n="36"/>non est facile excusare, quin sit
+            <lb ed="#V" n="37"/>contra charitatem, et per
+            conse<lb ed="#V" n="38" break="no"/>quens mortale, peccatum. Si
+            au<lb ed="#V" n="39" break="no"/>tem fiat coram talibus ex
+            in<lb ed="#V" n="40" break="no"/>consideratione, durum est quod
+            <lb ed="#V" n="41"/>exeat genus peccati venialis, quia
+            <lb ed="#V" n="42"/>lingua in lubrico posita est, et
+            <lb ed="#V" n="43"/>qui non offendit in verbo, hic per
+            fe<lb ed="#V" n="44" break="no"/>ctus est vir, Jacobi 3.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d15q4-p3"> -->
+          <p>
+            <lb ed="#V" n="75" type="fixed=398"/>SCHOLIUM.
+            <lb ed="#V" n="76"/>Qui imposuit publice verum crimen
+            occul<lb ed="#V" n="77" break="no"/>tum, non debet dicere se fuisse mentitum,
+            <lb ed="#V" n="78"/>sed quod male dixit, vel fatue, vel quid
+            <lb ed="#V" n="79"/>simile, quo satisfaciat. D. Thom. 2. 2. quaest.
+            <lb ed="#V" n="80"/>62. artic. 2. ad. 2. Gabr. hic quaest. 15. art.
+            <lb ed="#V" n="81"/>2. Angel. v. Detractio, num. 3. Sylvest.
+            <lb ed="#V" n="82"/>quaest. 4. Sotus 4. de just. quaest. 6. art. 3. ad
+            <lb ed="#V" n="83"/>4. Navar. cap. 18. num. 45. Si dicas quod
+            <lb ed="#V" n="84"/>ingeniosi statim capient aequivocationem,
+            <lb ed="#V" n="85"/>idem etiam dici posset, si secundum aliam
+            <lb ed="#V" n="86"/>sententiam, oporteret infamantem dicendo
+            <lb ed="#V" n="87"/>verum, se retractare. Adde sic infamantem
+            <lb ed="#V" n="88"/>teneri ad damna infamati. Petr. Navar. 1ib.
+            <pb ed="#V" n="399"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>2. c. 4. num. 443. Lessius lib. 2. cap. 11.
+            <lb ed="#V" n="2"/>dub. 20.
+          </p>
+          <p>
+            <lb ed="#V" n="3"/>De (e) secundo dico, quod non
+            <lb ed="#V" n="4"/>tenetur retractare verbum suum,
+            <lb ed="#V" n="5"/>quod proposuit in publico, quia
+            <lb ed="#V" n="6"/>-hoc faciendo mentiretur, cum sciat
+            <lb ed="#V" n="7"/>illud quod proposuit, esse verum;
+            <lb ed="#V" n="8"/>et non tenetur mentiri propter
+            <lb ed="#V" n="9"/>quodcumque bonum reddendum
+            <lb ed="#V" n="10"/>alii; sed tenetur alio modo licito
+            <lb ed="#V" n="11"/>reddere sibi famam, utpote per
+            <lb ed="#V" n="12"/>hujusmodi verba; non
+            creda<lb ed="#V" n="13" break="no"/>tis eum esse talem, male enim
+            <lb ed="#V" n="14"/>dixi, et fatue dixi; et haec quidem
+            <lb ed="#V" n="15"/>vera sunt: male dixi, fatue dixi,
+            <lb ed="#V" n="16"/>quia non servato ordine Juris;
+            <lb ed="#V" n="17"/>proposui etiam in publico, quod
+            <lb ed="#V" n="18"/>non est verum publicum; et
+            per<lb ed="#V" n="19" break="no"/>suasio ista: non reputetis istum
+            ma<lb ed="#V" n="20" break="no"/>lum, bona est, quia quilibet
+            praesu<lb ed="#V" n="21" break="no"/>mendus est bonus, donec probetur
+            <lb ed="#V" n="22"/>contrarium, juxta illud, Extra de
+            <lb ed="#V" n="23"/>scrutinio in ordine faciendo cap, unico:
+            <lb ed="#V" n="24"/>Humana fragilitas illum, quem indignum
+            <lb ed="#V" n="25"/>esse non novit, dignum debeat oestimare:
+            <lb ed="#V" n="26"/>sed iste non est probatus malus
+            <lb ed="#V" n="27"/>coram istis; ergo bonum est
+            per<lb ed="#V" n="28" break="no"/>suadere eis, quod ipsi non reputent
+            <lb ed="#V" n="29"/>eum indignum, nec malum.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d15q4-p4"> -->
+          <p>
+            <lb ed="#V" n="62" type="fixed=404"/>SCHOLIUM.
+            <lb ed="#V" n="63"/>Negantem crimen verum occultum, in
+            pu<lb ed="#V" n="64" break="no"/>blico sibi impositum, non teneri se
+            retracta<lb ed="#V" n="65" break="no"/>re, quia jus suum tuetur, donec juridice inter.
+            <lb ed="#V" n="66"/>rogetur, id est, a legitimo judice, praecedente
+            <lb ed="#V" n="67"/>semiplena probatione; de quibus constare
+            <lb ed="#V" n="68"/>debet reo, ex D. Thom. 2. 2. quaest. 69. art.
+            <lb ed="#V" n="69"/>1. et 2. Quod ait Doct. teneri talem ad
+            ali<lb ed="#V" n="70" break="no"/>qualem restitutionem accusanti, est tantum
+            <lb ed="#V" n="71"/>consilium charitatis, quia post docet eum
+            <lb ed="#V" n="72"/>non peccare contra justitiam vel veritatem,
+            <lb ed="#V" n="73"/>negando in publico quod commisit in
+            occul<lb ed="#V" n="74" break="no"/>to, in quo admittit licere aequivocare,
+            quan<lb ed="#V" n="75" break="no"/>do injuste interrogaris, et cogeris ad
+            respon<lb ed="#V" n="76" break="no"/>dendum. Quod docet D. Thom. 4. dist. 21.
+            <lb ed="#V" n="77"/>quaest. 3. Sancius citans multos 3. in Decal.
+            <lb ed="#V" n="78"/>cap. 6. Molin. tract. 4. disp. 44. Suar. tom.
+            <lb ed="#V" n="79"/>2. de relig. 1. 3. de jurament. cap. 10. et
+            <lb ed="#V" n="80"/>communis. Vide 3. dist. 38. Schol. ult. Si
+            <lb ed="#V" n="81"/>tamen interrogatus juridice neget crimen,
+            <lb ed="#V" n="82"/>tenetur restituere famam et damna
+            accusa<lb ed="#V" n="83" break="no"/>tori, D. Thom. 2. 2. quaest. 69. art. 1. ubi
+            <lb ed="#V" n="84"/>Salon. art. 2. Controv. 10. colligitur ex Scot.
+            <lb ed="#V" n="85"/>hic ad 2. Sotus de teg. secreto m. 2. q. 7.
+            <lb ed="#V" n="86"/>Nav. c. 25. n. 36.
+          </p>
+          <p>
+            <lb ed="#V" n="87"/>In tertio (f) membro dico
+            simili<lb ed="#V" n="88" break="no"/>ter, quod non tenetur retractare
+            <lb ed="#V" n="89"/>negationem suam, qua negavit in
+            <pb ed="#V" n="405"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>publico verum crimen sibi
+            impo<lb ed="#V" n="2" break="no"/>situm, quia non tenetur
+            quicum<lb ed="#V" n="3" break="no"/>que statim in judicio confiteri se
+            <lb ed="#V" n="4"/>reum, nondum convictus; tenetur
+            <lb ed="#V" n="5"/>tamen per quaedam verba sobria,
+            <lb ed="#V" n="6"/>ut dictum est in proximo articulo,
+            <lb ed="#V" n="7"/>restituere famam illi accusanti
+            <lb ed="#V" n="8"/>quem indirecte notavit de
+            calum<lb ed="#V" n="9" break="no"/>nia, dicendo, non habeatis eum pro
+            <lb ed="#V" n="10"/>calumniatore, quia credo quod
+            ha<lb ed="#V" n="11" break="no"/>buit bonam intentionem
+            proponen<lb ed="#V" n="12" break="no"/>do, vel forte se credidit probare
+            <lb ed="#V" n="13"/>intentum suum, et deceptus fuit.
+          </p>
+          <p>
+            <lb ed="#V" n="14"/>Sed de illo, qui negat tale crimen
+            <lb ed="#V" n="15"/>verum, sed privatum, in publico
+            <lb ed="#V" n="16"/>sibi oppositum, numquid peccat
+            <lb ed="#V" n="17"/>mortaliter? Videtur quod sic, quia
+            <lb ed="#V" n="18"/>mentitur, et quidem mendacio
+            per<lb ed="#V" n="19" break="no"/>nicioso, et Reipublicae, quia
+            Res<lb ed="#V" n="20" break="no"/>publica propter ejus mendacium
+            <lb ed="#V" n="21"/>publicum impeditur a punitione
+            <lb ed="#V" n="22"/>ejus justa, et personae accusanti,
+            <lb ed="#V" n="23"/>quia per hoc notatur de calumnia.
+            <lb ed="#V" n="24"/>Respondeo, juste, quod justum est,
+            <lb ed="#V" n="25"/>exequeris, Deuteron. 16. non ergo
+            <lb ed="#V" n="26"/>Respublica omnia mala debet
+            pu<lb ed="#V" n="27" break="no"/>nire, sed quae cum hoc, quod sunt
+            <lb ed="#V" n="28"/>punienda, potest ista potestas
+            ju<lb ed="#V" n="29" break="no"/>ste punire; talia autem sunt, quae
+            <lb ed="#V" n="30"/>coram judice saeculari sufficienter
+            <lb ed="#V" n="31"/>possunt probari; et ideo non
+            laedi<lb ed="#V" n="32" break="no"/>tur Respublica, si divinum
+            judi<lb ed="#V" n="33" break="no"/>cium excedat judicium ejus, ut
+            <lb ed="#V" n="34"/>aliqua reserventur divino judicio,
+            <lb ed="#V" n="35"/>super quae non potest esse justum
+            <lb ed="#V" n="36"/>judicium Reipublicae, quia homo
+            <lb ed="#V" n="37"/>videt ea quae parent, Deus autem intuetur
+            <lb ed="#V" n="38"/>cor, 1. Reg. 16.
+          </p>
+          <p>
+            <lb ed="#V" n="39"/>Per hoc patet ad objectionem,
+            <lb ed="#V" n="40"/>cum dicitur quod est contra
+            Rem<lb ed="#V" n="41" break="no"/>publicam, et cum dicitur quod est
+            <lb ed="#V" n="42"/>perniciosum contra accusantem.
+            <lb ed="#V" n="43"/>Dico quod non est verum, sed
+            ipse<lb ed="#V" n="44" break="no"/>met est sibi perniciosus, qui eo
+            mo<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>do proponit, quo non deberet
+            propo<lb ed="#V" n="46" break="no"/>nere, imo deberet non proponere;
+            <lb ed="#V" n="47"/>et ideo imputet sibi, si aliqua
+            infa<lb ed="#V" n="48" break="no"/>mia sequitur, quia ipse est causa,
+            <lb ed="#V" n="49"/>non autem ille negans, quia
+            defen<lb ed="#V" n="50" break="no"/>dit innocentiam suam in publico,
+            <lb ed="#V" n="51"/>ubi non est nocens, nec habendus
+            <lb ed="#V" n="52"/>est pro nocente, donec fuerit
+            con<lb ed="#V" n="53" break="no"/>victus.
+          </p>
+          <p>
+            <lb ed="#V" n="54"/>Sed remanet difficultas, si peccat
+            <lb ed="#V" n="55"/>mentiendo pro se? Durum
+            videre<lb ed="#V" n="56" break="no"/>tur, quod quilibet accusatus in
+            pu<lb ed="#V" n="57" break="no"/>blico ab uno statim teneretur de
+            <lb ed="#V" n="58"/>necessitate salutis in publico
+            con<lb ed="#V" n="59" break="no"/>fiteri illud, et sic statim exponere
+            <lb ed="#V" n="60"/>se patibulo in judicio sanguinis.
+            <lb ed="#V" n="61"/>Sed habendo oculum non tantum
+            <lb ed="#V" n="62"/>ad poenam, sed ad honestum et
+            <lb ed="#V" n="63"/>inhonestum, non apparet quod iste
+            <lb ed="#V" n="64"/>honeste, et secundum rectam
+            rati<lb ed="#V" n="65" break="no"/>onem debeat confiteri coram tali
+            <lb ed="#V" n="66"/>judice, quia ipse plusquam
+            qui<lb ed="#V" n="67" break="no"/>cumque alius accusans singularis
+            <lb ed="#V" n="68"/>auferret sibi famam, quia
+            confiten<lb ed="#V" n="69" break="no"/>ti contra se in judicio creditur.
+          </p>
+          <p>
+            <lb ed="#V" n="70"/>Quid ergo? Cauta est responsio
+            <lb ed="#V" n="71"/>Juristarum, nego proposita ut
+            <lb ed="#V" n="72"/>proponuntur; et haec quidem sine
+            <lb ed="#V" n="73"/>mendacio possunt dici in
+            proposi<lb ed="#V" n="74" break="no"/>to, quia proponuntur in publico,
+            <lb ed="#V" n="75"/>et ut publica, et publice probanda;
+            <lb ed="#V" n="76"/>sic autem negare ea potest quis, si
+            <lb ed="#V" n="77"/>scit ea non posse probari in
+            publi<lb ed="#V" n="78" break="no"/>co. Quod si judex urgeat eum, ut
+            <lb ed="#V" n="79"/>confiteatur propositum, vel ut
+            pu<lb ed="#V" n="80" break="no"/>blice neget? respondere posset,
+            <lb ed="#V" n="81"/>quod ipse respondit sufficienter ad
+            <lb ed="#V" n="82"/>accusationem, et sicut est modus
+            <lb ed="#V" n="83"/>Jurisperitis respondere, nec ab
+            <lb ed="#V" n="84"/>illa responsione vult declinare,
+            <lb ed="#V" n="85"/>faciat judex erga accusantem,
+            <lb ed="#V" n="86"/>quod Juris est.
+          </p>
+          <p>
+            <lb ed="#V" n="87"/>Sed (g) numquid si neget,
+            inten<lb ed="#V" n="88" break="no"/>dens tamen negare illud ut
+            propo<pb ed="#V" n="406"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>situm est, scilicet ut publicum,
+            <lb ed="#V" n="2"/>sicut Sacerdos facit de confesso,
+            <lb ed="#V" n="3"/>dicens, nihil mali scio istum
+            fecis<lb ed="#V" n="4" break="no"/>se, quia loquitur ut in publico,
+            <lb ed="#V" n="5"/>audivit autem in alio foro,
+            num<lb ed="#V" n="6" break="no"/>quid tenetur iste qui negavit
+            <lb ed="#V" n="7"/>de illa negatione poenitere?
+            Re<lb ed="#V" n="8" break="no"/>spondeo, bonarum mentium est culpam
+            <lb ed="#V" n="9"/>agnoscere, ubi culpa non est, dist. 5. Ad
+            <lb ed="#V" n="10"/>ejus, et intitulatur Gregorio; et ideo
+            <lb ed="#V" n="11"/>multo magis ubi dubitatur, an sit
+            <lb ed="#V" n="12"/>culpa, et qualis culpa, bonae
+            men<lb ed="#V" n="13" break="no"/>tis est culpam agnoscere; et ideo
+            <lb ed="#V" n="14"/>in tali casu tutum est post talem
+            <lb ed="#V" n="15"/>negationem poenitere indistincte
+            <lb ed="#V" n="16"/>de hoc, tanquam de tali quale est,
+            <lb ed="#V" n="17"/>utpote sub tali indistinctione, si
+            <lb ed="#V" n="18"/>mortale tanquam de mortali, si
+            <lb ed="#V" n="19"/>veniale tanquam de veniali.
+          </p>
+          <p>
+            <lb ed="#V" n="20"/>Ad (h) argumenta. Ad primum
+            <lb ed="#V" n="21"/>patet ex isto tertio articulo.
+          </p>
+          <p>
+            <lb ed="#V" n="22"/>Ad secundum, si arguitur de illo,
+            <lb ed="#V" n="23"/>qui non servato ordine justitiae in
+            <lb ed="#V" n="24"/>publi o accusatus negaverit,
+            con<lb ed="#V" n="25" break="no"/>cedo quod ille non tenetur
+            resti<lb ed="#V" n="26" break="no"/>tuere famam accusanti, imo
+            accu<lb ed="#V" n="27" break="no"/>sans accusato, et imputet accusans
+            <lb ed="#V" n="28"/>diffamationem sibi ipsi, quia et
+            <lb ed="#V" n="29"/>impudenter et injuste egit in
+            publi<lb ed="#V" n="30" break="no"/>co accusando privatum.
+          </p>
+          <p>
+            <lb ed="#V" n="31"/>Si autem (i) illud argumentum
+            <lb ed="#V" n="32"/>fiat de mendaciter accusante
+            inno<lb ed="#V" n="33" break="no"/>centem, qui non potest accusato
+            <lb ed="#V" n="34"/>reddere famam, nisi seipsum
+            infa<lb ed="#V" n="35" break="no"/>met, patet responsio ex primo
+            <lb ed="#V" n="36"/>articulo quaestionis, quia non est
+            <lb ed="#V" n="37"/>dignus fama post tale mendacium
+            <lb ed="#V" n="38"/>publicum; alius autem dignus est
+            <lb ed="#V" n="39"/>fama; ideo debet secundum
+            justi<lb ed="#V" n="40" break="no"/>tiam sibi reddi.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

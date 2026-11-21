@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 20, Quaestio 1</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 20, Quaestio 1</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x18">Vives, Paris, 1894, volume 18</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="682"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e4333"><!-- jdso8u-b4d20q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum poenitentia in extremis valeat ad salutem</head>
+        <!-- <div alias="scotus-d20q1-p1"> -->
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="41" type="fixed=682"/>QUAESTIO IINICA
+            <lb ed="#V" n="42"/>Utrum ptenitentia in extremis
+            va<lb ed="#V" n="43" break="no"/>leat ad salutem?
+          </p>
+          <p>
+            <lb ed="#V" n="44"/>Alens. 4. p. quaest. 157. memb. 2. et quaest. 70.
+            <lb ed="#V" n="45"/>n. 23. D. Thom. hic quaest 1. art. 1. quaest 1.
+            <lb ed="#V" n="46"/>et 3. p. quaest. 86. art. 1. Richard. hic art. 1.
+            <lb ed="#V" n="47"/>quaest. 1. Sotus dist. 15. quaest. 1. art. 2. et 1.
+            <lb ed="#V" n="48"/>de natura cap. 8. Medina C. 1 de poen. quaest.
+            <lb ed="#V" n="49"/>11. Vega lib. 13. in Trident. cap. 12. 13.
+          </p>
+          <p>
+            <lb ed="#V" n="50"/>Circa distinctionem vigesimam
+            <lb ed="#V" n="51"/>quaero, utrum poenitentia in
+            ex<lb ed="#V" n="52" break="no"/>tremis valeat ad salutem?
+            Vide<lb ed="#V" n="53" break="no"/>tur quod non. Augustinus in
+            <lb ed="#V" n="54"/>quodam sermone, et ponitur in
+            lit<lb ed="#V" n="55" break="no"/>tera, loquens de sic poenitente:
+            <lb ed="#V" n="56"/>Non proesumimus, quod bene hic exit.
+          </p>
+          <p>
+            <lb ed="#V" n="57"/>Idem, et ponitur in littera, et
+            <lb ed="#V" n="58"/>de poen. dist. 7. Periculosum est,
+            <lb ed="#V" n="59"/>et interitui vicinum, usque ad mortem
+            <lb ed="#V" n="60"/>procrastinare poenitentiae remedium. Ex
+            <lb ed="#V" n="61"/>hac auctoritate sic arguitur:
+            Pec<lb ed="#V" n="62" break="no"/>cat mortaliter, qui se exponit
+            <lb ed="#V" n="63"/>periculo mortis suae; sed talis
+            <lb ed="#V" n="64"/>est protrahens poenitentiam
+            us<lb ed="#V" n="65" break="no"/>que ad ultimum; ergo, etc.
+            Con<lb ed="#V" n="66" break="no"/>firmatur per illud Augustini in
+            <lb ed="#V" n="67"/>sermone Innocentum: Hac
+            animad<lb ed="#V" n="68" break="no"/>versione percutitur peccator, ut
+            mori<lb ed="#V" n="69" break="no"/>ens obliviscatur sui, qui dum viveret,
+            <lb ed="#V" n="70"/>oblitus est Dei.
+          </p>
+          <p>
+            <lb ed="#V" n="71"/>Item, Ecclesiast. 17. Vivus et
+            sa<lb ed="#V" n="72" break="no"/>nus confiteberis, adducit illud
+            Augu<lb ed="#V" n="73" break="no"/>stini: Age poenitentiam dum sanus es;
+            <lb ed="#V" n="74"/>si sic egisti, egisti quo tempore peccare
+            <lb ed="#V" n="75"/>potuisti. Si vis poenitere quando jam
+            <lb ed="#V" n="76"/>peccare non potes, peccata te dimiserunt,
+            <lb ed="#V" n="77"/>non tu illa. Ex hoc sic arguitur:
+            <lb ed="#V" n="78"/>nulla poenitentia sufficit ad
+            salu<lb ed="#V" n="79" break="no"/>tem. nisi sit voluntaria; sed
+            poeni<lb ed="#V" n="80" break="no"/>tens in extremis non dimittit
+            pec<lb ed="#V" n="81" break="no"/>cata sua, sed illa eum, secundum
+            <lb ed="#V" n="82"/>Augustinum; ergo, etc.
+          </p>
+          <p>
+            <pb ed="#V" n="683"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Item, nihil ordinandum est
+            <lb ed="#V" n="2"/>a legislatore, quod est occasio
+            <lb ed="#V" n="3"/>transgrediendi legem, et praecipue
+            <lb ed="#V" n="4"/>multis. Hoc patet, quia tunc
+            legis<lb ed="#V" n="5" break="no"/>lator aliquid faceret per se, quod
+            <lb ed="#V" n="6"/>esset in destructionem legis suae;
+            <lb ed="#V" n="7"/>sed poenitentiam serotinam valere
+            <lb ed="#V" n="8"/>est occasio continuandi peccatum
+            <lb ed="#V" n="9"/>pro tota vita; quis enim non
+            conti<lb ed="#V" n="10" break="no"/>nue peccaret per totam vitam, si
+            <lb ed="#V" n="11"/>brevis poenitentia in fine salvaret?
+            <lb ed="#V" n="12"/>ergo, etc,
+          </p>
+          <p>
+            <lb ed="#V" n="13"/>Item, nulli dimittitur peccatum
+            <lb ed="#V" n="14"/>mortale, nisi per aliquam poenam
+            <lb ed="#V" n="15"/>temporalem correspondentem
+            pec<lb ed="#V" n="16" break="no"/>cato; sed talis poenitens in
+            extre<lb ed="#V" n="17" break="no"/>mis nullam poenam solvit, vel
+            sal<lb ed="#V" n="18" break="no"/>tem non sufficientem, nec peccato
+            <lb ed="#V" n="19"/>correspondentem.
+          </p>
+          <p>
+            <lb ed="#V" n="20"/>Si dicatur quod poenam
+            tempora<lb ed="#V" n="21" break="no"/>lem debitam peccato in purgatorio
+            <lb ed="#V" n="22"/>solvet; contra, moriens in peccato
+            <lb ed="#V" n="23"/>mortali damnatur statim; ergo
+            <lb ed="#V" n="24"/>moriens in gratia statim
+            salvabi<lb ed="#V" n="25" break="no"/>tur, et per consequens nulla poena
+            <lb ed="#V" n="26"/>solvetur post hanc vitam.
+          </p>
+          <p>
+            <lb ed="#V" n="27"/>Contra, Augustinus de vera et
+            <lb ed="#V" n="28"/>falsa poenitentia dist. 7. et ponitur in
+            <lb ed="#V" n="29"/>littera: Poenitentia, si in extremo vitae
+            <lb ed="#V" n="30"/>hiatu advenerit, salvat et liberat. Quod
+            <lb ed="#V" n="31"/>probat subdens: Multum fuit sera
+            <lb ed="#V" n="32"/>latronis poenitentia, sed non fuit sera
+            <lb ed="#V" n="33"/>ejus indulgentia. De quo habetur
+            <lb ed="#V" n="34"/>Luc. 23. Probatur etiam per illud
+            <lb ed="#V" n="35"/>Ezech. 18. et 23. Quacumque hora
+            in<lb ed="#V" n="36" break="no"/>gemuerit peccator, etc.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d20q1-p2"> -->
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="42" type="fixed=683"/>SCHOLIUM.
+            <lb ed="#V" n="43"/>Poenitentia in extremis, si vera est, sive
+            <lb ed="#V" n="44"/>sit cum absolutione, sive sine illa,
+            <lb ed="#V" n="45"/>valet; quae tamen tunc apparet esse
+            ve<lb ed="#V" n="46" break="no"/>ra, suspecta est, et raro habenda pro
+            ve<lb ed="#V" n="47" break="no"/>ra. Et declarat utramque partem, et pro
+            <lb ed="#V" n="48"/>secunda, contra serotinam poenitentiam
+            af<lb ed="#V" n="49" break="no"/>fert quatuor fortia argumenta, quae vere
+            <lb ed="#V" n="50"/>sunt tremenda. Valere poenitentiam,
+            quo<lb ed="#V" n="51" break="no"/>cumque tempore, et post quotcumque, et
+            <lb ed="#V" n="52"/>qualiacumque peccata vere fiat, tenent
+            om<lb ed="#V" n="53" break="no"/>nes citati, et videtur haberi ex Lateran.
+            <lb ed="#V" n="54"/>c. Firmiter, de sum. Trin. et ex Trid. sess. 6.
+            <lb ed="#V" n="55"/>cap. 4. Est contra asserentes tot. et talia
+            pec<lb ed="#V" n="56" break="no"/>cata committi quandoque ab aliquo, quod
+            <lb ed="#V" n="57"/>amplius non sit ei poenitentia possibilis. Ita
+            <lb ed="#V" n="58"/>Henriq. quodl. 8. quaest. 1. Abul. in Exod.
+            <lb ed="#V" n="59"/>cap. 4. quaest. 12. Med. lib. 3. de recta in
+            <lb ed="#V" n="60"/>Deum fide cap. 1. Catharin. opusc. de
+            praede<lb ed="#V" n="61" break="no"/>stin. Roffen. art. 36. contra Lutherum.
+          </p>
+          <p>
+            <lb ed="#V" n="62"/>In ista (a) quaestione duae sunt
+            <lb ed="#V" n="63"/>conclusiones satis certae:
+            Poeni<lb ed="#V" n="64" break="no"/>tentia vera, sive interior sola,
+            si<lb ed="#V" n="65" break="no"/>ve exterior cum susceptione
+            Sa<lb ed="#V" n="66" break="no"/>cramenti Poenitentiae sufficit ad
+            <lb ed="#V" n="67"/>salutem alicujus in extremis.
+          </p>
+          <p>
+            <lb ed="#V" n="68"/>Secunda, quod poenitentia, quae
+            <lb ed="#V" n="69"/>videtur haberi in extremis, vix est
+            <lb ed="#V" n="70"/>vera poenitentia sufficiens ad
+            salu<lb ed="#V" n="71" break="no"/>tem, quia difficile tunc est habere
+            <lb ed="#V" n="72"/>veram poenitentiam.
+          </p>
+          <p>
+            <lb ed="#V" n="73"/>Primum patet per Augustinum,
+            <lb ed="#V" n="74"/>et ponitur in littera, quoniam
+            De<lb ed="#V" n="75" break="no"/>us semper potens est etiam in
+            <lb ed="#V" n="76"/>morte praemiare, quibus placet;
+            <lb ed="#V" n="77"/>cum ergo opus sit non hominis,
+            <lb ed="#V" n="78"/>sed Dei, fructuosa poenitentia,
+            in<lb ed="#V" n="79" break="no"/>spirare potest eam
+            quandocum<lb ed="#V" n="80" break="no"/>que vult sua misericordia; et per
+            <lb ed="#V" n="81"/>rationem patet, quia sive
+            poeniten<lb ed="#V" n="82" break="no"/>tia interior sola per modum
+            me<lb ed="#V" n="83" break="no"/>riti de congruo, disponat ad
+            ju<lb ed="#V" n="84" break="no"/>stificationem, sive Sacramentum
+            <pb ed="#V" n="684"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Poenitentiae per modum
+            Sacramen<lb ed="#V" n="2" break="no"/>ti operetur ad eamdem, si ab
+            ali<lb ed="#V" n="3" break="no"/>quo in extremis habeatur haec vel
+            <lb ed="#V" n="4"/>illa, habetur eadem ratio
+            perce<lb ed="#V" n="5" break="no"/>ptionis gratiae, quae et in alio
+            poe<lb ed="#V" n="6" break="no"/>nitente, et per consequens gratia
+            <lb ed="#V" n="7"/>percipietur, et sic salus.
+          </p>
+          <p>
+            <lb ed="#V" n="8"/>Secunda conclusio probatur
+            pri<lb ed="#V" n="9" break="no"/>mo, quia tunc impeditur usus
+            <lb ed="#V" n="10"/>liberi arbitrii, vel usus liber
+            rati<lb ed="#V" n="11" break="no"/>onis et voluntatis ex dolore vel
+            <lb ed="#V" n="12"/>timore inhaerentibus; non enim
+            <lb ed="#V" n="13"/>dico aliquem esse in extremis, qui
+            <lb ed="#V" n="14"/>gravatur morbo secundum
+            com<lb ed="#V" n="15" break="no"/>munem legem curabili, ut febre
+            <lb ed="#V" n="16"/>tertiana, vel hujusmodi, nec qui
+            <lb ed="#V" n="17"/>subito moritur, cujus mortis
+            ad<lb ed="#V" n="18" break="no"/>huc nulla apparet causa, sed qui
+            <lb ed="#V" n="19"/>ex causis evidentibus jam positis
+            <lb ed="#V" n="20"/>judicatus est proximus morti
+            se<lb ed="#V" n="21" break="no"/>cundum causas inferiores
+            operan<lb ed="#V" n="22" break="no"/>tes, ut in pluribus, utpote in
+            infir<lb ed="#V" n="23" break="no"/>mitate, quando jam attingit ad
+            <lb ed="#V" n="24"/>gradum desperatum judicio
+            medi<lb ed="#V" n="25" break="no"/>corum, vel in aliis periculis, ut
+            <lb ed="#V" n="26"/>submersione, et hujusmodi, statim
+            <lb ed="#V" n="27"/>imminet mors; et in istis, inquam,
+            <lb ed="#V" n="28"/>vel est maximus dolor in parte
+            <lb ed="#V" n="29"/>sensitiva, vel timor maximus. Et
+            <lb ed="#V" n="30"/>utraque passio vehemens nata est
+            <lb ed="#V" n="31"/>impedire liberum usum rationis et
+            <lb ed="#V" n="32"/>voluntatis, quia secundum
+            Augu<lb ed="#V" n="33" break="no"/>stinum 83. q.q. 36. Passiones causatce
+            <lb ed="#V" n="34"/>a tristantibus vel tristibus, plus movent
+            <lb ed="#V" n="35"/>quam passiones causatae a delectabilibus.
+            <lb ed="#V" n="36"/>Passio autem delectationis
+            vehe<lb ed="#V" n="37" break="no"/>mens quandoque impedit totaliter,
+            <lb ed="#V" n="38"/>vel fere, usum rationis, ut dicitur
+            <lb ed="#V" n="39"/>de Civit. Dei; actus autem
+            displicen<lb ed="#V" n="40" break="no"/>tiae de peccato, ad hoc quod sit
+            <lb ed="#V" n="41"/>sufficiens ad veram poenitentiam,
+            <lb ed="#V" n="42"/>sive intrinsecam solam, sive ad
+            <lb ed="#V" n="43"/>dignam susceptionem Sacramenti
+            <lb ed="#V" n="44"/>Poenitentiae, requirit liberum usum
+            <lb ed="#V" n="45"/>rationis et voluntatis.
+          </p>
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="46"/>Si dicas, quod dolor vel timor,
+            <lb ed="#V" n="47"/>qui inest, non totaliter impedit
+            <lb ed="#V" n="48"/>intellectum, vel voluntatem,
+            con<lb ed="#V" n="49" break="no"/>cedo; sed multum impedit, et per
+            <lb ed="#V" n="50"/>consequens remissius et
+            imperfe<lb ed="#V" n="51" break="no"/>ctius usus intellectus et voluntatis
+            <lb ed="#V" n="52"/>tunc potest haberi, qui vix sufficit
+            <lb ed="#V" n="53"/>ad displicentiam sufficientem et
+            <lb ed="#V" n="54"/>requisitam ad veram
+            poenitenti<lb ed="#V" n="55" break="no"/>am. Hanc rationem tangit
+            Augu<lb ed="#V" n="56" break="no"/>stinus in littera: Cum sera venit
+            poe<lb ed="#V" n="57" break="no"/>nitentia, tantus aliquando cruciatus ligat
+            <lb ed="#V" n="58"/>membra, et dolor sensum opprimit, ut
+            <lb ed="#V" n="59"/>vix homo aliquid cognoscere valeat.
+          </p>
+          <p>
+            <lb ed="#V" n="60"/>Secundo, ad hoc quod
+            displicen<lb ed="#V" n="61" break="no"/>tia valeat, et sit ordinata, oportet
+            <lb ed="#V" n="62"/>quod sit debite circumstantionata,
+            <lb ed="#V" n="63"/>et maxime circumstantia finis, et
+            <lb ed="#V" n="64"/>principii activi principalis, ut
+            sci<lb ed="#V" n="65" break="no"/>licet sit voluntaria propter Deum;
+            <lb ed="#V" n="66"/>sed difficile est tunc habere actum
+            <lb ed="#V" n="67"/>sic circumstantionatum, quia qui
+            <lb ed="#V" n="68"/>usque tunc fuit impoenitens, non
+            <lb ed="#V" n="69"/>videtur tunc extorquere a seipso
+            <lb ed="#V" n="70"/>displicentiam novam, nisi timore
+            <lb ed="#V" n="71"/>poenae imminentis; praesumitur
+            <lb ed="#V" n="72"/>enim, quod si remotus esset a
+            poe<lb ed="#V" n="73" break="no"/>na, sicut prius, non extorqueret
+            <lb ed="#V" n="74"/>a seipso illam displicentiam, sicut
+            <lb ed="#V" n="75"/>nec prius; tum quia saltem aliquid
+            <lb ed="#V" n="76"/>simpliciter involuntarium videtur
+            <lb ed="#V" n="77"/>causa istius displicentiae, nam
+            ex<lb ed="#V" n="78" break="no"/>pectatio mortis videtur causa istius
+            <lb ed="#V" n="79"/>displicentiae; illa autem est
+            in<lb ed="#V" n="80" break="no"/>voluntaria. Et quod non fit nisi ex
+            <lb ed="#V" n="81"/>suppositione cujusdam
+            involunta<lb ed="#V" n="82" break="no"/>rii, non est simpliciter
+            voluntari<lb ed="#V" n="83" break="no"/>um, sicut non omnino voluntarie
+            <lb ed="#V" n="84"/>projicit quis merces in mari, si
+            <lb ed="#V" n="85"/>non projicit nisi ex suppositione
+            <lb ed="#V" n="86"/>cujusdam periclitationis quam
+            <lb ed="#V" n="87"/>nollet; saltem quod non est nisi sit
+            <lb ed="#V" n="88"/>involuntarium, non est multum
+            <lb ed="#V" n="89"/>acceptum alii, nec multum videtur
+            <pb ed="#V" n="685"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>propter amorem ejus factum.
+          </p>
+          <p>
+            <lb ed="#V" n="2"/>Hanc rationem tangit
+            Augusti<lb ed="#V" n="3" break="no"/>nus in littera; Oportet non solum
+            <lb ed="#V" n="4"/>timere judicem, sed diligere; arbitrii
+            <lb ed="#V" n="5"/>enim libertatem quaerit, ut delere possit
+            <lb ed="#V" n="6"/>commissa, non necessitatem, charitatem,
+            <lb ed="#V" n="7"/>non timorem; non igitur timeat peenam,
+            <lb ed="#V" n="8"/>qui poenitet, sed anxietur pro gloria.
+          </p>
+          <p>
+            <lb ed="#V" n="9"/>Tertia ratio, quia habitus malus
+            <lb ed="#V" n="10"/>usque tunc continuatus multum
+            <lb ed="#V" n="11"/>retrahit ab actu poenitentiae. Et
+            <lb ed="#V" n="12"/>hanc rationem tangit Augustinus
+            <lb ed="#V" n="13"/>in littera: Cum filii, quos illicite
+            di<lb ed="#V" n="14" break="no"/>lexit, sint praesentes, uxor, et mundus ad
+            <lb ed="#V" n="15"/>se vocet, multos solet poenitentia serotina
+            <lb ed="#V" n="16"/>decipere. Intellige haec delectabilia
+            <lb ed="#V" n="17"/>esse praesentia in se, vel in
+            phan<lb ed="#V" n="18" break="no"/>tasmatibus vehementer impressis,
+            <lb ed="#V" n="19"/>et sive sic, sive sic, ex vehementia
+            <lb ed="#V" n="20"/>habitus continuati multum
+            incli<lb ed="#V" n="21" break="no"/>nant ad se inordinate amanda, et
+            <lb ed="#V" n="22"/>per consequens magnam faciunt
+            <lb ed="#V" n="23"/>difficultatem ad habendum
+            ma<lb ed="#V" n="24" break="no"/>gnam displicentiam de eis, ad hoc
+            <lb ed="#V" n="25"/>ut sit dispositio sufficiens ad
+            dele<lb ed="#V" n="26" break="no"/>tionem culpae.
+          </p>
+          <p>
+            <lb ed="#V" n="27"/>Quarto, quanto aliquis est minus
+            <lb ed="#V" n="28"/>dominus sui actus, tanto
+            requiri<lb ed="#V" n="29" break="no"/>tur intensior displicentia, ad hoc
+            <lb ed="#V" n="30"/>quod sit dispositio sufficiens ad
+            <lb ed="#V" n="31"/>deletionem culpae; iste autem
+            mi<lb ed="#V" n="32" break="no"/>nus est dominus, quia nullo modo
+            <lb ed="#V" n="33"/>est dominus actus exterioris ad
+            <lb ed="#V" n="34"/>peccandum. Requireretur igitur
+            <lb ed="#V" n="35"/>secundum strictam justitiam
+            in<lb ed="#V" n="36" break="no"/>tensior motus displicentiae ad
+            justi<lb ed="#V" n="37" break="no"/>ficationem ejus, quam ad
+            justifica<lb ed="#V" n="38" break="no"/>tionem sani, cum vix possit
+            habe<lb ed="#V" n="39" break="no"/>re aeque intensum.
+          </p>
+          <p>
+            <lb ed="#V" n="40"/>Et hanc rationem tangit
+            Augu<lb ed="#V" n="41" break="no"/>stinus in littera: Age poenitentiam
+            <lb ed="#V" n="42"/>dum sanus es; si sic agis securus es.
+            <lb ed="#V" n="43"/>quia poenitentiam egisti, quando peccare
+            <lb ed="#V" n="44"/>potuisti. Si vis agere poenitentiam, quando
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>jam peccare non potes, peccata te
+            dimit<lb ed="#V" n="46" break="no"/>tunt, non tu illa; ad minus non tu ita
+            <lb ed="#V" n="47"/>libere illa dimittis, sicut ille
+            sa<lb ed="#V" n="48" break="no"/>nus, et ideo quantum deficit in te
+            <lb ed="#V" n="49"/>de libertate, tantum secundum
+            ri<lb ed="#V" n="50" break="no"/>gorem requiritur in te motus
+            in<lb ed="#V" n="51" break="no"/>tensior, quem vix vel nunquam
+            <lb ed="#V" n="52"/>poteris habere.
+          </p>
+          <p>
+            <lb ed="#V" n="53"/>Ideo dicit Augustinus, quod
+            <lb ed="#V" n="54"/>magnum est, cui Deus tunc
+            inspi<lb ed="#V" n="55" break="no"/>rat (si quis est) veram
+            poenitenti<lb ed="#V" n="56" break="no"/>am, quia vix, vel nunquam est
+            ali<lb ed="#V" n="57" break="no"/>quis, qui habeat dispositionem de
+            <lb ed="#V" n="58"/>congruo, ut cui inspiretur.
+          </p>
+          <p>
+            <lb ed="#V" n="59"/>(b) Ex istis sequuntur duo
+            corol<lb ed="#V" n="60" break="no"/>laria: unum, quod sano
+            persu<lb ed="#V" n="61" break="no"/>adendum est, ut sanus poeniteat
+            <lb ed="#V" n="62"/>incutiendo sibi timorem, quam
+            <lb ed="#V" n="63"/>periculosum sit expectare
+            seroti<lb ed="#V" n="64" break="no"/>nam poenitentiam, propter rationes
+            <lb ed="#V" n="65"/>praedictas.
+          </p>
+          <p>
+            <lb ed="#V" n="66"/>Aliud corollarium, quod infirmo
+            <lb ed="#V" n="67"/>jam ad articulum istum deducto,
+            <lb ed="#V" n="68"/>suadendum est, ut secundum suam
+            <lb ed="#V" n="69"/>possibilitatem laboret ad
+            poeniten<lb ed="#V" n="70" break="no"/>tiam ordinatam, ut scilicet non
+            <lb ed="#V" n="71"/>obstante dolore vel timore, utatur
+            <lb ed="#V" n="72"/>ratione quantum potest, et nitatur
+            <lb ed="#V" n="73"/>habere displicentiam voluntariam
+            <lb ed="#V" n="74"/>propter finem debitum, scilicet
+            <lb ed="#V" n="75"/>propter Deum; et renitatur malae
+            <lb ed="#V" n="76"/>inclinationi habitus et
+            delectati<lb ed="#V" n="77" break="no"/>onum praesentium, et laboret ad
+            <lb ed="#V" n="78"/>displicentiam quantum poterit
+            ha<lb ed="#V" n="79" break="no"/>bere, licet brevem; et ne in
+            despe<lb ed="#V" n="80" break="no"/>rationem mittatur, extollenda est
+            <lb ed="#V" n="81"/>sibi Dei misericordia, proponendo
+            <lb ed="#V" n="82"/>sibi exemplum de latrone illo,
+            cu<lb ed="#V" n="83" break="no"/>jus fuit poenitentia sera, sed non
+            <lb ed="#V" n="84"/>sera indulgentia.
+          </p>
+          <p>
+            <lb ed="#V" n="85"/>Ad argumenta (c). Ad primum
+            <lb ed="#V" n="86"/>dico, quod praesumptio est
+            secun<lb ed="#V" n="87" break="no"/>dum ea quae eveniunt ut in
+            pluri<lb ed="#V" n="88" break="no"/>bus, et magis apparent consona
+            <pb ed="#V" n="686"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>rationi rectae ut in pluribus,
+            vide<lb ed="#V" n="2" break="no"/>tur difficile vel impossibile tali
+            <lb ed="#V" n="3"/>bene poenitere, propter rationes
+            <lb ed="#V" n="4"/>dictas; tamen ista praesumptio
+            <lb ed="#V" n="5"/>non concludit de necessitate, quia
+            <lb ed="#V" n="6"/>licet ut in paucioribus et
+            difficili<lb ed="#V" n="7" break="no"/>ter, possibile est oppositum
+            eve<lb ed="#V" n="8" break="no"/>nire, et ideo dicit Augustinus: Non
+            <lb ed="#V" n="9"/>dico, quod salvabitur, sed nec dico quod
+            <lb ed="#V" n="10"/>damnabitur, quia de neutro potest homo
+            <lb ed="#V" n="11"/>esse certus.
+          </p>
+          <p>
+            <lb ed="#V" n="12"/>Ad secundum concedo quod qui
+            <lb ed="#V" n="13"/>scienter exponit se periculo
+            salu<lb ed="#V" n="14" break="no"/>tis suae, peccat mortaliter; et ideo
+            <lb ed="#V" n="15"/>iste si aliquo actu elicto
+            determi<lb ed="#V" n="16" break="no"/>nat sibi nunquam poenitere, nisi in
+            <lb ed="#V" n="17"/>extremis, illo actu elicito exponit
+            <lb ed="#V" n="18"/>se periculo tali, et peccat
+            mortali<lb ed="#V" n="19" break="no"/>ter, sed etiam de illo peccato, si
+            <lb ed="#V" n="20"/>sic peccavit, possibile est ipsum
+            <lb ed="#V" n="21"/>poenitere in extremis, sicut et de
+            <lb ed="#V" n="22"/>aliis.
+          </p>
+          <p>
+            <lb ed="#V" n="23"/>Ad tertium dico quod quamdiu
+            <lb ed="#V" n="24"/>aliquis habet usum liberi arbitrii,
+            <lb ed="#V" n="25"/>potest peccare peccato interiori,
+            <lb ed="#V" n="26"/>licet non exteriori, saltem
+            com<lb ed="#V" n="27" break="no"/>placendo in peccatis jam prius
+            <lb ed="#V" n="28"/>commissis, et ita potest peccatum
+            <lb ed="#V" n="29"/>tunc dimittere per displicentiam
+            <lb ed="#V" n="30"/>de eis, licet necesse sit non
+            pecca<lb ed="#V" n="31" break="no"/>re peccato exteriori, sed etiam
+            <lb ed="#V" n="32"/>istud intantum potest esse sibi pro
+            <lb ed="#V" n="33"/>tunc voluntarium, ut habeat tunc
+            <lb ed="#V" n="34"/>voluntatem. Quod si posset tunc
+            <lb ed="#V" n="35"/>peccare peccato exteriori,
+            fuge<lb ed="#V" n="36" break="no"/>ret hoc omnino, et non tantum
+            <lb ed="#V" n="37"/>displicentiam, sed aliam
+            poeniten<lb ed="#V" n="38" break="no"/>tiam exteriorem habere de
+            pecca<lb ed="#V" n="39" break="no"/>tis prius commissis, saltem in
+            <lb ed="#V" n="40"/>voto, si supervivat.
+          </p>
+          <p>
+            <lb ed="#V" n="41"/>Ad aliud dico, quod legislator
+            <lb ed="#V" n="42"/>non debet ea praetermittere, quae
+            <lb ed="#V" n="43"/>secundum se sunt congrua in lege
+            <lb ed="#V" n="44"/>ordinata, licet aliquis ex illis
+            acci<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>piat occasionem delinquendi;
+            alio<lb ed="#V" n="46" break="no"/>quin nunquam Deus debuisset
+            in<lb ed="#V" n="47" break="no"/>stituisse poenitentiam aliquam
+            <lb ed="#V" n="48"/>in aliqua lege, quia quilibet potest
+            <lb ed="#V" n="49"/>ex hoc accipere occasionem
+            delin<lb ed="#V" n="50" break="no"/>quendi, quam non acciperet, si
+            <lb ed="#V" n="51"/>non posset postea poenitere. Nunc
+            <lb ed="#V" n="52"/>autem ad legem simpliciter
+            ordi<lb ed="#V" n="53" break="no"/>natam pro statu isto naturae lapsae
+            <lb ed="#V" n="54"/>requiritur quod poenitentia possit
+            <lb ed="#V" n="55"/>esse fructuosa, et qua ratione in
+            <lb ed="#V" n="56"/>quocumque instanti sanitatis, pari
+            <lb ed="#V" n="57"/>ratione et in extremis, imo magis
+            <lb ed="#V" n="58"/>est necessarium pro multis
+            imper<lb ed="#V" n="59" break="no"/>fectis, quod tunc possit valere.
+            Di<lb ed="#V" n="60" break="no"/>co igitur quod istud non est
+            occa<lb ed="#V" n="61" break="no"/>sio data a lege, sed tantum accepta
+            <lb ed="#V" n="62"/>ab imperfectis; secundum se autem
+            <lb ed="#V" n="63"/>est occasio servandi legem propter
+            <lb ed="#V" n="64"/>amorem legislatoris, qui tantae
+            <lb ed="#V" n="65"/>misericordiae est erga miseros, ut
+            <lb ed="#V" n="66"/>nunquam eis claudat sinum
+            mise<lb ed="#V" n="67" break="no"/>ricordiae suae.
+          </p>
+          <p>
+            <lb ed="#V" n="68"/>Potest confirmari responsio,
+            <lb ed="#V" n="69"/>quia quando ex aliquo directe
+            pro<lb ed="#V" n="70" break="no"/>venit majus bonum, quam
+            indire<lb ed="#V" n="71" break="no"/>cte tanquam ex occasione
+            acce<lb ed="#V" n="72" break="no"/>pta, proveniat malum, tunc illud
+            <lb ed="#V" n="73"/>faciendum est, et nullo modo
+            prae<lb ed="#V" n="74" break="no"/>termittendum propter talem
+            occa<lb ed="#V" n="75" break="no"/>sionem. Sed majus bonum est
+            <lb ed="#V" n="76"/>quosdam usque in finem malos per
+            <lb ed="#V" n="77"/>poenitentiam salvari, quam malum
+            <lb ed="#V" n="78"/>sit peccatum ex istius occasione
+            <lb ed="#V" n="79"/>factum, quia per istam
+            poenitenti<lb ed="#V" n="80" break="no"/>am multi finaliter attingunt ad
+            <lb ed="#V" n="81"/>terminum praedestinationis
+            divi<lb ed="#V" n="82" break="no"/>nae; per illam autem occasionem
+            <lb ed="#V" n="83"/>divinam nulli cadunt ab isto, et si
+            <lb ed="#V" n="84"/>aliquando peccant, tamen non
+            <lb ed="#V" n="85"/>peccato, quo finaliter damnentur.
+          </p>
+          <p>
+            <lb ed="#V" n="86"/>Ad aliud, concedo quod oportet
+            <lb ed="#V" n="87"/>istum alia poena puniri pro
+            pecca<lb ed="#V" n="88" break="no"/>to, sed hoc non debet sibi imponi
+            <pb ed="#V" n="687"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>hic, quia non potest illam hic
+            im<lb ed="#V" n="2" break="no"/>plere. Nec potest sibi imponi, quod
+            <lb ed="#V" n="3"/>tanto tempore stet in purgatorio,
+            <lb ed="#V" n="4"/>quia iste Sacerdos non habet
+            au<lb ed="#V" n="5" break="no"/>ctoritatem sibi infligendi illam
+            <lb ed="#V" n="6"/>poenam, sed proponenda est sibi
+            <lb ed="#V" n="7"/>poena correspondens peccatis tali
+            <lb ed="#V" n="8"/>modo, si sanus esses, talis
+            poeni<lb ed="#V" n="9" break="no"/>tentia esset tibi imponenda, quam
+            <lb ed="#V" n="10"/>si convalueris, studeas adimplere;
+            <lb ed="#V" n="11"/>sed nunc es in manu Domini,
+            con<lb ed="#V" n="12" break="no"/>fide de misericordia ejus, quia
+            et<lb ed="#V" n="13" break="no"/>si te puniat, tamen
+            misericordi<lb ed="#V" n="14" break="no"/>ter; vel in casu, ubi non potest
+            <lb ed="#V" n="15"/>protrahi multus sermo, non
+            opor<lb ed="#V" n="16" break="no"/>tet aliquam poenam sibi
+            specifi<lb ed="#V" n="17" break="no"/>care, sed tantum eum instruere
+            <lb ed="#V" n="18"/>de justitia Dei misericordis.
+          </p>
+          <p>
+            <lb ed="#V" n="19"/>Ad aliud quod objicitur contra
+            <lb ed="#V" n="20"/>responsionem, dico quod illud non
+            <lb ed="#V" n="21"/>est simile; moriens enim in
+            pec<lb ed="#V" n="22" break="no"/>cato mortali nihil haberet
+            retar<lb ed="#V" n="23" break="no"/>dativum a poena condigna; sed iste
+            <lb ed="#V" n="24"/>moriens in charitate, debitor
+            ta<lb ed="#V" n="25" break="no"/>men poenae pro peccatis commissis
+            <lb ed="#V" n="26"/>quorum poenitentiam non fecit,
+            <lb ed="#V" n="27"/>habet aliquid retardativum a
+            glo<lb ed="#V" n="28" break="no"/>ria, quia nullus dum est debitor
+            <lb ed="#V" n="29"/>alicujus poenae, potest glorificari,
+            <lb ed="#V" n="30"/>quia gloria sicut nec poenam
+            se<lb ed="#V" n="31" break="no"/>cum patitur, sic nec debitum poenae,
+            <lb ed="#V" n="32"/>quia nec simul, nec posterius
+            per<lb ed="#V" n="33" break="no"/>solvendae.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

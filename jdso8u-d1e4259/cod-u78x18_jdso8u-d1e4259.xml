@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 16, Quaestio 1</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 16, Quaestio 1</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x18">Vives, Paris, 1894, volume 18</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="416"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e4259"><!-- jdso8u-b4d16q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum ista tria 'contritio, confessio et satisfactio' sint partes poenitentiae</head>
+        <!-- <div alias="scotus-d16q1-p1"> -->
+          <p>
+            <lb ed="#V" n="47" type="fixed=416"/>QUAESTIO I.
+            <lb ed="#V" n="48"/>Utrum ista tria, contritio, confessio et
+            <lb ed="#V" n="49"/>satisfactio sint partes Paenitentice?
+          </p>
+          <p>
+            <lb ed="#V" n="50"/>Alens. 4. part. 66. per totum. D. Thom. 3. part.
+            <lb ed="#V" n="51"/>quaest. 84. art. 2. et 3. et quaest. 90. art. 2. et
+            <lb ed="#V" n="52"/>per totum D. Bonavent. hic dub. 1. Richard. art.
+            <lb ed="#V" n="53"/>1. quaest. 1. Marsil. 4. quaest. 10. Durand. 4. dist.
+            <lb ed="#V" n="54"/>14. quaest. 3. Suar. tom. 4. disp. 18. sect. 2.
+          </p>
+          <p>
+            <lb ed="#V" n="55"/>Circa istam distinctionem
+            quae<lb ed="#V" n="56" break="no"/>ro, utrum ista tria, contritio,
+            con<lb ed="#V" n="57" break="no"/>fessio et satisfactio sint partes
+            <lb ed="#V" n="58"/>poenitentiae? Probo quod non.
+            Pec<lb ed="#V" n="59" break="no"/>catum est simplex defectus; ergo
+            <lb ed="#V" n="60"/>potest competere sibi simplex
+            re<lb ed="#V" n="61" break="no"/>medium; poenitentia est tale
+            reme<lb ed="#V" n="62" break="no"/>dium; ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="63"/>Item, si essent partes
+            poeniten<lb ed="#V" n="64" break="no"/>tiae, aut ergo integrales aut
+            subje<lb ed="#V" n="65" break="no"/>tivae; et accipio integrales
+            commu<lb ed="#V" n="66" break="no"/>niter ad partes essentiales, et
+            <lb ed="#V" n="67"/>quantitativas. Non integrales, quia
+            <lb ed="#V" n="68"/>totum non praadicatur de tali
+            par<lb ed="#V" n="69" break="no"/>te; conteri autem est poenitere, et
+            <lb ed="#V" n="70"/>confiteri est poenitere, et
+            satisfa<lb ed="#V" n="71" break="no"/>cere est poenitere; ergo, etc. Nec
+            <lb ed="#V" n="72"/>sunt partes subjectivae, quia in
+            <lb ed="#V" n="73"/>qualibet parte subjectiva perfecte
+            <lb ed="#V" n="74"/>salvatur ratio totius sine alia
+            par<lb ed="#V" n="75" break="no"/>te; Socrates enim est perfecte
+            <lb ed="#V" n="76"/>homo, dato quod plures non essent
+            <lb ed="#V" n="77"/>in specie humana; sed in
+            contriti<lb ed="#V" n="78" break="no"/>one sine aliis non salvatur
+            perfe<lb ed="#V" n="79" break="no"/>cte ratio poenitentiae; ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="80"/>Item, si essent partes
+            Poeniten<lb ed="#V" n="81" break="no"/>tiae, aut poenitentiae virtutis, aut
+            <lb ed="#V" n="82"/>Poenitentiae Sacramenti. Non
+            pri<pb ed="#V" n="417"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>mum, quia poenitentia virtus est
+            <lb ed="#V" n="2"/>simplex forma in anima, quia
+            spi<lb ed="#V" n="3" break="no"/>ritualis, et per consequens
+            indivi<lb ed="#V" n="4" break="no"/>sibilis. Consimiliter confessio et
+            <lb ed="#V" n="5"/>satisfactio non sunt spiritualia,
+            <lb ed="#V" n="6"/>sed sensibilia extra mentem. Nec
+            <lb ed="#V" n="7"/>secundum, quia omne
+            Sacramen<lb ed="#V" n="8" break="no"/>tum est signum sensibile, vel
+            con<lb ed="#V" n="9" break="no"/>sistit in signo sensibili; contritio
+            <lb ed="#V" n="10"/>non est aliquid sensibile, sed
+            spiri<lb ed="#V" n="11" break="no"/>tuale quid in anima; ergo non est
+            <lb ed="#V" n="12"/>pars Sacramenti.
+          </p>
+          <p>
+            <lb ed="#V" n="13"/>Item, nulla pars est posterior
+            <lb ed="#V" n="14"/>naturali ordine suo toto; sed
+            Poe<lb ed="#V" n="15" break="no"/>nitentiam Sacramentum sequitur
+            <lb ed="#V" n="16"/>naturali ordine satisfactio; ergo,
+            <lb ed="#V" n="17"/>etc.
+          </p>
+          <p>
+            <lb ed="#V" n="18"/>Item, fructus non est pars ejus,
+            <lb ed="#V" n="19"/>cujus est fructus. Patet exemplo,
+            <lb ed="#V" n="20"/>ut pomum non est pars arboris;
+            <lb ed="#V" n="21"/>et ratione, quia fructus est
+            ulti<lb ed="#V" n="22" break="no"/>mum, quod expectatur de eo, cujus
+            <lb ed="#V" n="23"/>est fructus; nulla autem pars ejus
+            <lb ed="#V" n="24"/>est tale ultimum. Sed satisfactio
+            <lb ed="#V" n="25"/>est fructus poenitentiae, secundum
+            <lb ed="#V" n="26"/>glossam super illud Matth. 3. Facite
+            <lb ed="#V" n="27"/>dignos fructus poenitentiae; et
+            secun<lb ed="#V" n="28" break="no"/>dum sententiam Augustini de vera
+            <lb ed="#V" n="29"/>et falsa poenitentia; et ponitur in ista
+            <lb ed="#V" n="30"/>dist. cap. 2.
+          </p>
+          <p>
+            <lb ed="#V" n="31"/>Contra, Magister in littera, qui
+            <lb ed="#V" n="32"/>dicit, quod ad perfectionem
+            poeni<lb ed="#V" n="33" break="no"/>tentiae ista tria requiruntur, non
+            <lb ed="#V" n="34"/>autem requiruntur ad
+            perfecti<lb ed="#V" n="35" break="no"/>onem alicujus, intrinsece
+            loquen<lb ed="#V" n="36" break="no"/>do, plura, nisi sint aliquo modo
+            <lb ed="#V" n="37"/>partes ejus.
+          </p>
+          <p>
+            <lb ed="#V" n="38"/>SCHOLIUM.
+            <lb ed="#V" n="39"/>Exponit latius quatuor, de quibus actum
+            <lb ed="#V" n="40"/>est d. 14. q. 2. scilicet, imperare poenam,
+            <lb ed="#V" n="41"/>detestari malum, tristari de eo, hoc
+            accepta<lb ed="#V" n="42" break="no"/>re, et de eodem gaudere; et quomodo omnia
+            <lb ed="#V" n="43"/>ista possunt oriri ab habitu poenitendi; de
+            <lb ed="#V" n="44"/>quo ibi non egit.
+          </p>
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>Hic (a) intelligendum est, quod
+            <lb ed="#V" n="46"/>praeter istum modum, quo
+            accipi<lb ed="#V" n="47" break="no"/>tur Poenitentia pro Sacramento
+            <lb ed="#V" n="48"/>Poenitentiae, poenitentia, vel magis
+            <lb ed="#V" n="49"/>paenitere potest multipliciter aliter
+            <lb ed="#V" n="50"/>accipi. Sicut enim habetur ex
+            di<lb ed="#V" n="51" break="no"/>ctis dist. 14. q. 2. et 3. contingit
+            <lb ed="#V" n="52"/>habere justitiam quamdam
+            vindi<lb ed="#V" n="53" break="no"/>cativam peccati proprii; et
+            proxi<lb ed="#V" n="54" break="no"/>mum ei est actus proprius ejus
+            <lb ed="#V" n="55"/>elicitus, qui est quoddam velle
+            im<lb ed="#V" n="56" break="no"/>perativum poenae, ut culpam
+            vindi<lb ed="#V" n="57" break="no"/>cantis. In tertio gradu est effectus
+            <lb ed="#V" n="58"/>proximus istius actus eliciti, qui
+            ef<lb ed="#V" n="59" break="no"/>fectus est actus aliquis, vel actus
+            ali<lb ed="#V" n="60" break="no"/>qui, ad quem, vel ad quos sequitur
+            <lb ed="#V" n="61"/>poena vindicativa; non enim potest
+            <lb ed="#V" n="62"/>voluntas per actum volendi
+            impe<lb ed="#V" n="63" break="no"/>rare poenam, nisi prius imperando
+            <lb ed="#V" n="64"/>causam poenae, quia passiones non
+            <lb ed="#V" n="65"/>sunt in potestate voluntatis, nisi
+            <lb ed="#V" n="66"/>mediantibus actibus. Quarto et
+            <lb ed="#V" n="67"/>ultimo sequitur poena consequens
+            <lb ed="#V" n="68"/>istum actum imperatum ab actu
+            <lb ed="#V" n="69"/>elicito ipsius poenitentiae virtutis,
+            <lb ed="#V" n="70"/>et ista poena est effectus remotus
+            <lb ed="#V" n="71"/>illius actus eliciti.
+          </p>
+          <p>
+            <lb ed="#V" n="72"/>Patet autem distinctio istorum
+            <lb ed="#V" n="73"/>omnium per se posse separari ab
+            <lb ed="#V" n="74"/>invicem; potest enim virtus illa
+            <lb ed="#V" n="75"/>esse sine actu suo elicito. Patet de
+            <lb ed="#V" n="76"/>se, et e converso, quia, ut dictum
+            <lb ed="#V" n="77"/>est, primus actus conformis rectae
+            <lb ed="#V" n="78"/>rationi, natus generare virtutem,
+            <lb ed="#V" n="79"/>potest haberi antequam aliquid
+            <lb ed="#V" n="80"/>virtutis habeatur, quia est
+            genera<lb ed="#V" n="81" break="no"/>tivus primi gradus virtutis.
+            Con<lb ed="#V" n="82" break="no"/>similiter actus ille elicitus, qui est
+            <lb ed="#V" n="83"/>secundus, potest esse sine tertio,
+            <lb ed="#V" n="84"/>id est, sine actu imperato, quia
+            <lb ed="#V" n="85"/>non statim ad actum imperii in
+            <lb ed="#V" n="86"/>voluntate, sequitur actus, qui
+            im<lb ed="#V" n="87" break="no"/>peratur, quia voluntas imperans
+            <lb ed="#V" n="88"/>non est omnipotens, et e converso.
+            <pb ed="#V" n="418"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Tertium illud potest esse sine
+            se<lb ed="#V" n="2" break="no"/>cundo, scilicet actus aliquis
+            cau<lb ed="#V" n="3" break="no"/>sativus poenae sine actu voluntatis
+            <lb ed="#V" n="4"/>imperante actum istum, sicut
+            po<lb ed="#V" n="5" break="no"/>test habere quis detestationem
+            <lb ed="#V" n="6"/>peccati a se commissi, immediate
+            <lb ed="#V" n="7"/>ex contemplatione Dei, licet non
+            <lb ed="#V" n="8"/>imperet talem elici, vindicativum
+            <lb ed="#V" n="9"/>culpae.
+          </p>
+          <p>
+            <lb ed="#V" n="10"/>Potest etiam esse tertium sine
+            <lb ed="#V" n="11"/>quarto, quia non semper ad actus
+            <lb ed="#V" n="12"/>illos, qui essent nati generare
+            poe<lb ed="#V" n="13" break="no"/>nam, sequitur poena propter
+            ali<lb ed="#V" n="14" break="no"/>quam indispositionem forte in ipsa
+            <lb ed="#V" n="15"/>potentia susceptiva poenae, sicut
+            <lb ed="#V" n="16"/>non semper ad volitionem, vel
+            <lb ed="#V" n="17"/>odium peccati commissi sequitur
+            <lb ed="#V" n="18"/>tristitia, ut prius dictum est.
+          </p>
+          <p>
+            <lb ed="#V" n="19"/>Potest etiam quartum separari
+            <lb ed="#V" n="20"/>a tertio, quia illa poena potest esse
+            <lb ed="#V" n="21"/>sine actu illo ordinato, qui natus
+            <lb ed="#V" n="22"/>esset poenam illam causare, quia
+            <lb ed="#V" n="23"/>ille actus, ut ordinatus, non est
+            <lb ed="#V" n="24"/>causa praecisa generationis poenae
+            <lb ed="#V" n="25"/>illius; ergo istorum quodlibet sine
+            <lb ed="#V" n="26"/>quolibet esse potest, et quaelibet
+            <lb ed="#V" n="27"/>duo vel tria, sine quolibet vel
+            qui<lb ed="#V" n="28" break="no"/>buslibet aliis.
+          </p>
+          <p>
+            <lb ed="#V" n="29"/>Ad propositum de hoc vocabulo
+            <lb ed="#V" n="30"/>poenitere, proprie, ut dictum est
+            <lb ed="#V" n="31"/>prius, est poenam tenere; tenere autem
+            <lb ed="#V" n="32"/>includit et actionem tenentis,
+            sci<lb ed="#V" n="33" break="no"/>licet quod voluntarie teneat, et
+            <lb ed="#V" n="34"/>applicationem poenae sibi, quod in
+            <lb ed="#V" n="35"/>a se teneat. Potest ergo habitus ille
+            <lb ed="#V" n="36"/>dici poenitentia, quia quaedam
+            habi<lb ed="#V" n="37" break="no"/>tualis tenentia poenae, sicut
+            princi<lb ed="#V" n="38" break="no"/>pium habitualiter inclinans ad
+            in<lb ed="#V" n="39" break="no"/>fligendam sibi poenam voluntarie;
+            <lb ed="#V" n="40"/>et actus ejus potest dici poenitentia
+            <lb ed="#V" n="41"/>actualis, vel poenitere, quia
+            quod<lb ed="#V" n="42" break="no"/>dam velle inflictivum poenae
+            sibi<lb ed="#V" n="43" break="no"/>ipsi; et actus ille proximus
+            impe<lb ed="#V" n="44" break="no"/>ratus ab actu elicito istius, potest
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>dici poenitere, quia est voluntarie
+            <lb ed="#V" n="46"/>habere in se poenam, saltem in
+            <lb ed="#V" n="47"/>causa sua, nec aliter potest aeque
+            <lb ed="#V" n="48"/>principaliter voluntarie haberi,
+            <lb ed="#V" n="49"/>sicut in causa.
+          </p>
+          <p>
+            <lb ed="#V" n="50"/>Quartum, scilicet puniri poena
+            <lb ed="#V" n="51"/>sequente actum illum, non est
+            pro<lb ed="#V" n="52" break="no"/>prie paenitere, sed magis (ut ita
+            <lb ed="#V" n="53"/>dicam) poeniteri, id est, poena teneri,
+            <lb ed="#V" n="54"/>vel usitatius, puniri.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d16q1-p2"> -->
+          <p>
+            <lb ed="#V" n="8" type="fixed=419"/>SCHOLIUM.
+            <lb ed="#V" n="9"/>Contritio, confessio, satisfactio non sunt
+            <lb ed="#V" n="10"/>partes habitus poenitentiae, nec actus
+            impe<lb ed="#V" n="11" break="no"/>rativi poenae; sunt tamen partes poenitentiae,
+            <lb ed="#V" n="12"/>sumptae pro ea causa proxima poenae
+            infli<lb ed="#V" n="13" break="no"/>gendae, et etiam sumptae pro ipsa punitione,
+            <lb ed="#V" n="14"/>quia contritio seu nolitio peccati est causalis
+            <lb ed="#V" n="15"/>tentio tristitiae; confessio, verecundiae;
+            sa<lb ed="#V" n="16" break="no"/>tisfactio, afflictionis et laboris.
+          </p>
+          <p>
+            <lb ed="#V" n="17"/>Ad (b) propositum, tria praedicta
+            <lb ed="#V" n="18"/>nullo modo sunt partes poenitentiae
+            <lb ed="#V" n="19"/>virtutis, ut argutum est ad
+            prin<lb ed="#V" n="20" break="no"/>cipale, quia illud est quaedam
+            for<lb ed="#V" n="21" break="no"/>ma simplex in voluntate, ut
+            chari<lb ed="#V" n="22" break="no"/>tas, vel quaecumque alia justitia.
+            <lb ed="#V" n="23"/>Et per aliud patet, quia illud est
+            <lb ed="#V" n="24"/>permanens, sicut permanentia
+            <lb ed="#V" n="25"/>pertinet ad virtutem. Contritio
+            <lb ed="#V" n="26"/>autem, confessio et satisfactio
+            <lb ed="#V" n="27"/>sunt quaedam habentia esse in fieri:
+            <lb ed="#V" n="28"/>permanens autem non constat ex
+            <lb ed="#V" n="29"/>partibus habentibus esse in fieri.
+            <lb ed="#V" n="30"/>Item, ista duo ultima non sunt in
+            <lb ed="#V" n="31"/>voluntate, ut in subjecto, sed sunt
+            <lb ed="#V" n="32"/>quaedam exteriora.
+          </p>
+          <p>
+            <lb ed="#V" n="33"/>Consimiliter dico, quod non sunt
+            <lb ed="#V" n="34"/>partes poenitentiae secundo modo
+            <lb ed="#V" n="35"/>dictae, quia et actus ille est
+            qui<lb ed="#V" n="36" break="no"/>dam actus simplex, sicut est actus
+            <lb ed="#V" n="37"/>virtutis simplicis. Patet etiam ex
+            <lb ed="#V" n="38"/>alio, quia ille actus est immediate
+            <lb ed="#V" n="39"/>voluntatis, ut elicitus a voluntate;
+            <lb ed="#V" n="40"/>sed confessio et satisfactio non
+            <lb ed="#V" n="41"/>sunt actus immediate eliciti a
+            vo<lb ed="#V" n="42" break="no"/>luntate, sed imperati. Sed
+            loquen<lb ed="#V" n="43" break="no"/>do de poenitentia tertio modo,
+            sci<lb ed="#V" n="44" break="no"/>licet prout est causa proxima
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>ipsius poenae infligendae, quae causa
+            <lb ed="#V" n="46"/>est actus imperatus ab actu
+            poeni<lb ed="#V" n="47" break="no"/>tentiae virtutis, istius partes
+            pos<lb ed="#V" n="48" break="no"/>sunt poni ista tria.
+          </p>
+          <p>
+            <lb ed="#V" n="49"/>Et consimiliter istius quarti,
+            <lb ed="#V" n="50"/>quod est puniri, partes possunt
+            <lb ed="#V" n="51"/>poni tres poenae, quae
+            concomitan<lb ed="#V" n="52" break="no"/>tur istos tres actus; et hoc modo
+            <lb ed="#V" n="53"/>justitia commutativa universaliter
+            <lb ed="#V" n="54"/>respicit aequalitatem in
+            commuta<lb ed="#V" n="55" break="no"/>tione, non rei, sed magis
+            secun<lb ed="#V" n="56" break="no"/>dum rectam rationem; ergo hoc
+            <lb ed="#V" n="57"/>modo justitia punitiva, quae est
+            <lb ed="#V" n="58"/>quaedam commutativa in
+            puniti<lb ed="#V" n="59" break="no"/>one, respicit poenam aequalem, sive
+            <lb ed="#V" n="60"/>commensuratam illi culpae, et hoc,
+            <lb ed="#V" n="61"/>secundum rectam rationem illius
+            <lb ed="#V" n="62"/>legis, secundum quam ipsa est
+            <lb ed="#V" n="63"/>vindicativa. Lex autem illa,
+            secun<lb ed="#V" n="64" break="no"/>dum quam poenitentia virtus est
+            <lb ed="#V" n="65"/>vindicativa, dictat culpam debere
+            <lb ed="#V" n="66"/>ordinari, et per poenam
+            intrinse<lb ed="#V" n="67" break="no"/>cam tristitiae, et per poenam
+            ex<lb ed="#V" n="68" break="no"/>trinsecam duplicem, verecundiae
+            <lb ed="#V" n="69"/>scilicet et afflictionis sive laboris
+            <lb ed="#V" n="70"/>corporalis, sicut colligitur ex
+            di<lb ed="#V" n="71" break="no"/>versis Scripturis, quae continent
+            <lb ed="#V" n="72"/>legem illam; ergo illa poena, sive
+            <lb ed="#V" n="73"/>puniri, quod respondet culpae,
+            inte<lb ed="#V" n="74" break="no"/>gratur ex tribus poenis.
+          </p>
+          <p>
+            <lb ed="#V" n="75"/>Et consimiliter causa proxima
+            <lb ed="#V" n="76"/>istius poenae oportet quod
+            integre<lb ed="#V" n="77" break="no"/>tur ex causis propriis istarum
+            <lb ed="#V" n="78"/>poenarum. Causa autem propria
+            <lb ed="#V" n="79"/>tristitiae interioris est detestatio
+            <lb ed="#V" n="80"/>peccati commissi a se, sive
+            displi<lb ed="#V" n="81" break="no"/>centia de peccato. Et haec includit
+            <lb ed="#V" n="82"/>duas causas partiales, scilicet
+            con<lb ed="#V" n="83" break="no"/>siderationem peccati commissi,
+            <lb ed="#V" n="84"/>et nolitionem ejus, et inter istas
+            <lb ed="#V" n="85"/>principalior est causa nolitio;
+            <lb ed="#V" n="86"/>ipsa etiam posita necessario
+            <lb ed="#V" n="87"/>ponit aliam, non e converso.
+            <lb ed="#V" n="88"/>Iste ergo actus qui est prepria
+            <pb ed="#V" n="420"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>causa proxima tristitiae, dicitur
+            <lb ed="#V" n="2"/>contritio; secundus actus, qui est
+            <lb ed="#V" n="3"/>causa proxima erubescentiae vel
+            <lb ed="#V" n="4"/>verecundiae, dicitur confessio, ubi
+            <lb ed="#V" n="5"/>peccatum occultum propalatur
+            <lb ed="#V" n="6"/>homini. Tertia causa proxima,
+            <lb ed="#V" n="7"/>vel propria tertiae poenae, est
+            <lb ed="#V" n="8"/>opus aliquod laboriosum, vel
+            <lb ed="#V" n="9"/>poenale. Sicut ergo poena perfecta
+            <lb ed="#V" n="10"/>correspondens culpae secundum
+            <lb ed="#V" n="11"/>justitiam vindicativam, habet tres
+            <lb ed="#V" n="12"/>poenas partiales, quae sunt partes
+            <lb ed="#V" n="13"/>unius punitionis perfectae, eo
+            mo<lb ed="#V" n="14" break="no"/>do quo tres restitutiones essent
+            <lb ed="#V" n="15"/>partes unius restitutionis perfectae
+            <lb ed="#V" n="16"/>illi, qui fuisset tripliciter
+            damni<lb ed="#V" n="17" break="no"/>ficatus, ita tres actus, ad quos
+            <lb ed="#V" n="18"/>sequuntur istae tres poenae, sunt
+            <lb ed="#V" n="19"/>partes unius causae sufficientis
+            <lb ed="#V" n="20"/>proxime respectu poenae
+            condi<lb ed="#V" n="21" break="no"/>gnae.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d16q1-p3"> -->
+          <p>
+            <lb ed="#V" n="61" type="fixed=420"/>SCHOLIUM.
+            <lb ed="#V" n="62"/>Contritionem, confessionem et
+            satisfacti<lb ed="#V" n="63" break="no"/>onem esse essentialiter requisitas ad
+            Sacra<lb ed="#V" n="64" break="no"/>mentum Poenitentiae, non tamen esse proprie
+            <lb ed="#V" n="65"/>partes ejus. D. Thom. 3. part. quaest. 84.
+            <lb ed="#V" n="66"/>art. 2. et quaest. 90. et ibi ejus expos. Suar.
+            <lb ed="#V" n="67"/>disp. 18. sect. 2. et 3. multum sudant ut
+            <lb ed="#V" n="68"/>probent esse proprie partes. Sed non est
+            fa<lb ed="#V" n="69" break="no"/>cienda vis in verbo, cum de re constet;
+            tan<lb ed="#V" n="70" break="no"/>tum enim controvertitur de voce, an debeant
+            <lb ed="#V" n="71"/>vocari partes proprie, et Scotus in rigore
+            <lb ed="#V" n="72"/>putat quod non. Cui favet Trid. sess. 14.
+            <lb ed="#V" n="73"/>cap. 3. dicens tria praedicta esse quasi
+            ma<lb ed="#V" n="74" break="no"/>teriam, et ponens praecipuam vim in
+            abso<lb ed="#V" n="75" break="no"/>lutione; et similiter loquitur Concil. Colon.
+            <lb ed="#V" n="76"/>cap. 3. Dum ergo aliquando vocantur
+            <lb ed="#V" n="77"/>partes a Patribus, intelligunt per hoc, esse
+            <lb ed="#V" n="78"/>requisita necessaria ad Sacramentum.
+            Sco<lb ed="#V" n="79" break="no"/>tum sequuntur Gabriel hic q. 2.
+            Ma<lb ed="#V" n="80" break="no"/>jor quaest. 2. Cistercien. dist. 23. quaest. 2.
+            <lb ed="#V" n="81"/>art. 1. Bassol. Tartaret. Alm. Angles hic,
+            <lb ed="#V" n="82"/>et omnes Scotistae. Idem tenent omnes
+            asse<lb ed="#V" n="83" break="no"/>rentes poenitentiam supponere pro
+            absoluti<lb ed="#V" n="84" break="no"/>one, quos citavi dist. praeced. q. 4. Schol. 1.
+            <lb ed="#V" n="85"/>Cajet 3. part. quaest. 90. art. 1, ait sent.
+            <lb ed="#V" n="86"/>D. Thom. definitam in Flor. decret. Eug.
+            <lb ed="#V" n="87"/>sed magis favet Scoto, quia ait actus
+            poeni<lb ed="#V" n="88" break="no"/>tentis esse quasi materiam, quam leviter
+            Ca<lb ed="#V" n="89" break="no"/>jet. et ex suo capite definitionem conciliarem
+            <lb ed="#V" n="90"/>obtrudit.
+          </p>
+          <p>
+            <pb ed="#V" n="421"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>De poenitentiae (c) Sacramento
+            <lb ed="#V" n="2"/>dico, quod ista tria nullo modo sunt
+            <lb ed="#V" n="3"/>partes ejus, quia, ut dictum est
+            <lb ed="#V" n="4"/>dist. 14. poenitentia Sacramentum
+            <lb ed="#V" n="5"/>est illa absolutio Sacramentalis
+            <lb ed="#V" n="6"/>facta certis verbis, etc. Hujus
+            <lb ed="#V" n="7"/>autem nulla pars est contritio,
+            <lb ed="#V" n="8"/>quae est quoddam spirituale in
+            <lb ed="#V" n="9"/>anima, neque confessio, quia nihil
+            <lb ed="#V" n="10"/>est ipsius sententiae Sacerdotis,
+            <lb ed="#V" n="11"/>sed actus rei accusantis se; neque
+            <lb ed="#V" n="12"/>satisfactio, sed sequitur illam
+            ab<lb ed="#V" n="13" break="no"/>solutionem sacramentalem.
+          </p>
+          <p>
+            <lb ed="#V" n="14"/>Haec tamen tria ad
+            Sacramen<lb ed="#V" n="15" break="no"/>tum Poenitentiae ad hoc, ut digne
+            <lb ed="#V" n="16"/>recipiatur, requiruntur, vel
+            prae<lb ed="#V" n="17" break="no"/>via, vel sequentia. Simpliciter enim
+            <lb ed="#V" n="18"/>requiritur confessio, quia
+            Sacer<lb ed="#V" n="19" break="no"/>dos non absolvit reum, arbitrarie
+            <lb ed="#V" n="20"/>nisi prius reus sibi fuerit
+            accusa<lb ed="#V" n="21" break="no"/>tus in foro illo, non est etiam utilis
+            <lb ed="#V" n="22"/>illa absolutio, nisi praecedat in
+            con<lb ed="#V" n="23" break="no"/>fitente aliqua contritio vel
+            attri<lb ed="#V" n="24" break="no"/>tio. Partes istius distinctionis
+            <lb ed="#V" n="25"/>patent ex dictis supra; sufficit enim
+            <lb ed="#V" n="26"/>quod aliqua displicentia, licet
+            in<lb ed="#V" n="27" break="no"/>formis, praecedat, et tunc ille
+            <lb ed="#V" n="28"/>capax est absolutionis
+            sacramen<lb ed="#V" n="29" break="no"/>talis, et per illam fit contritio.
+          </p>
+          <p>
+            <lb ed="#V" n="30"/>Satisfactio (d) autem debet sequi
+            <lb ed="#V" n="31"/>Sacramentum Poenitentiae ad hoc.
+            <lb ed="#V" n="32"/>ut habeat efficaciam, et hoc in re
+            <lb ed="#V" n="33"/>vel in voto, nisi judex posset
+            per<lb ed="#V" n="34" break="no"/>pendere illas poenas alias
+            praece<lb ed="#V" n="35" break="no"/>dentes sufficere ad totalis poente
+            <lb ed="#V" n="36"/>solutionem. Ista enim sententia
+            <lb ed="#V" n="37"/>Sacerdotis sic absolvit, quod
+            ta<lb ed="#V" n="38" break="no"/>men ligat. Absolvit quidem a
+            <lb ed="#V" n="39"/>debito poenae aeternae, sed ligat
+            <lb ed="#V" n="40"/>ad solutionem poenae temporalis,
+            <lb ed="#V" n="41"/>nisi sit sufficienter jam soluta.
+            <lb ed="#V" n="42"/>Ipsa etiam vel nullo modo absolvit.
+            <lb ed="#V" n="43"/>vel saltem non efficaciter, nisi ille
+            <lb ed="#V" n="44"/>reus sit in se debito modo
+            disposi<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>tus, quia Sacramentum est signum
+            <lb ed="#V" n="46"/>absolutionis interioris, quae
+            inte<lb ed="#V" n="47" break="no"/>rior non concomitatur, nisi sit
+            de<lb ed="#V" n="48" break="no"/>bita dispositio in mente interius
+            <lb ed="#V" n="49"/>absolvendi.
+          </p>
+          <p>
+            <lb ed="#V" n="50"/>Ad argumenta, (e) ad primum,
+            <lb ed="#V" n="51"/>non sequitur, si peccatum sit
+            sim<lb ed="#V" n="52" break="no"/>plex, ergo remedium
+            vindicati<lb ed="#V" n="53" break="no"/>vum, vel vindicta poenae debet esse
+            <lb ed="#V" n="54"/>simplex. Juste enim potest
+            legis<lb ed="#V" n="55" break="no"/>lator statuere multas poenas
+            par<lb ed="#V" n="56" break="no"/>tiales correspondere, tanquam
+            <lb ed="#V" n="57"/>unam vindictam integram, uni
+            <lb ed="#V" n="58"/>peccato.
+          </p>
+          <p>
+            <lb ed="#V" n="59"/>Ad secundum dico, quod
+            poeni<lb ed="#V" n="60" break="no"/>tentia tertio modo dicta, vel poena
+            <lb ed="#V" n="61"/>pro quarto modo correspondens
+            <lb ed="#V" n="62"/>alicui peccato, potest accipi
+            du<lb ed="#V" n="63" break="no"/>pliciter. Uno modo pro tali
+            adae<lb ed="#V" n="64" break="no"/>quate correspondente, et sic unica
+            <lb ed="#V" n="65"/>poenitentia, et una poena
+            corre<lb ed="#V" n="66" break="no"/>spondent uni culpae; et illud, si
+            <lb ed="#V" n="67"/>habet partes, se habet ad illas
+            <lb ed="#V" n="68"/>sicut ad partes integrales. Alio
+            <lb ed="#V" n="69"/>modo potest accipi poenitentia
+            <lb ed="#V" n="70"/>tertio modo dicta, vel poena quarto
+            <lb ed="#V" n="71"/>modo pro generali ratione ejus,
+            <lb ed="#V" n="72"/>quod est tenere poenam, vel puniri
+            <lb ed="#V" n="73"/>pro culpa, licet non adaequate; et
+            <lb ed="#V" n="74"/>hoc modo est totum universale ad
+            <lb ed="#V" n="75"/>illas, quae sunt partes integrales
+            <lb ed="#V" n="76"/>primo modo.
+          </p>
+          <p>
+            <lb ed="#V" n="77"/>Hoc patet in exemplo: esto enim
+            <lb ed="#V" n="78"/>quod aliquis occidat alium, justa
+            <lb ed="#V" n="79"/>potest esse lex, quod poena
+            corpo<lb ed="#V" n="80" break="no"/>rali puniatur, et poena pecuniaria
+            <lb ed="#V" n="81"/>tradenda amicis occisi, et
+            utrum<lb ed="#V" n="82" break="no"/>que istorum est poena, et poena
+            <lb ed="#V" n="83"/>pro homicidio; et hoc modo poena
+            <lb ed="#V" n="84"/>pro homicidio potest dici
+            univer<lb ed="#V" n="85" break="no"/>salis respectu poenae corporalis, et
+            <lb ed="#V" n="86"/>poenae pecuniariae, quia utrunque
+            <lb ed="#V" n="87"/>istorum est poena, et pro isto
+            <lb ed="#V" n="88"/>peccato. Alio autem modo
+            accipi<lb ed="#V" n="89" break="no"/>endo poenam pro homicidicvro
+            <pb ed="#V" n="422"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>poena totali correspondente illi
+            <lb ed="#V" n="2"/>culpae, sic nec punitio corporalis
+            <lb ed="#V" n="3"/>tantum, nec pecuniaria tantum,
+            <lb ed="#V" n="4"/>est poena illa, sed quodlibet
+            isto<lb ed="#V" n="5" break="no"/>rum est pars integralis illius
+            <lb ed="#V" n="6"/>poenae.
+          </p>
+          <p>
+            <lb ed="#V" n="7"/>Et secundum hoc patet quomodo
+            <lb ed="#V" n="8"/>poenitentia praedicatur de quolibet
+            <lb ed="#V" n="9"/>istorum trium divisim, accipiendo
+            <lb ed="#V" n="10"/>pro tenentia alicujus poenae
+            corre<lb ed="#V" n="11" break="no"/>spondentis culpae, sed non
+            totali<lb ed="#V" n="12" break="no"/>ter adaequate; et quomodo ex alia
+            <lb ed="#V" n="13"/>parte, nullum istorum sine alio
+            <lb ed="#V" n="14"/>integrat poenitentiam, ut est
+            adae<lb ed="#V" n="15" break="no"/>quata culpae.
+          </p>
+          <p>
+            <lb ed="#V" n="16"/>Ad tertium patet, quod neque
+            <lb ed="#V" n="17"/>sunt partes Sacramenti
+            Poeniten<lb ed="#V" n="18" break="no"/>etiae, neque poenitentiae virtutis,
+            <lb ed="#V" n="19"/>nec etiam actus illius virtutis,
+            <lb ed="#V" n="20"/>sed actus imperati ab illa virtute,
+            <lb ed="#V" n="21"/>qui est actus proximus punitivus,
+            <lb ed="#V" n="22"/>et poenae concomitantes eos sunt
+            <lb ed="#V" n="23"/>partes effectus remoti actus
+            poe<lb ed="#V" n="24" break="no"/>nitentiae; tamen actus elicitus
+            poe<lb ed="#V" n="25" break="no"/>nitentiae posset aliquo modo dici
+            <lb ed="#V" n="26"/>habere partes istas, non
+            formali<lb ed="#V" n="27" break="no"/>ter, sed quasi causaliter, pro
+            quan<lb ed="#V" n="28" break="no"/>to ipse est aliquo modo
+            distin<lb ed="#V" n="29" break="no"/>ctus, ut imperat istam partem, et
+            <lb ed="#V" n="30"/>illam; et hoc modo remotissime
+            <lb ed="#V" n="31"/>possent dici partes ipsius
+            virtu<lb ed="#V" n="32" break="no"/>tis poenitentiae, ut inclinat ad
+            om<lb ed="#V" n="33" break="no"/>nes istas infligendas.
+          </p>
+          <p>
+            <lb ed="#V" n="34"/>Ad quartum dico, quod
+            poeniten<lb ed="#V" n="35" break="no"/>tiae virtutis, et actus ejus eliciti,
+            <lb ed="#V" n="36"/>et actus ejus imperati opus exterius
+            <lb ed="#V" n="37"/>laboriosum est fructus; et hoc
+            <lb ed="#V" n="38"/>modo debet intelligi de opere
+            exte<lb ed="#V" n="39" break="no"/>riori operato; et concedo quod
+            il<lb ed="#V" n="40" break="no"/>lud opus exterius non est pars
+            poe<lb ed="#V" n="41" break="no"/>nitentiae aliquo istorum trium
+            mo<lb ed="#V" n="42" break="no"/>dorum dictae, tamen est pars ejus,
+            <lb ed="#V" n="43"/>1od est puniri, quod est quartum
+            <lb ed="#V" n="44"/>Inte- illa prius numerata; et non
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>est inconveniens idem esse partem
+            <lb ed="#V" n="46"/>posterioris, et fructum prioris.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

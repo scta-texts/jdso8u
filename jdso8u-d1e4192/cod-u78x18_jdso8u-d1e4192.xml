@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 14, Quaestio 4</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 14, Quaestio 4</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x18">Vives, Paris, 1894, volume 18</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="139"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e4192"><!-- jdso8u-b4d14q4 -->
+        <head>Quaestio 4</head>
+        <head type="question-title">Utrum per sacramentum poenitentiae deleatur culpa</head>
+        <!-- <div alias="scotus-d14q4-p1"> -->
+          <p>
+            <lb ed="#V" n="18" type="fixed=139"/>QUAESTIO IV.
+            <lb ed="#V" n="19"/>Utrum per Sacramentum poenitentice
+            <lb ed="#V" n="20"/>deleatur culpa?
+          </p>
+          <p>
+            <lb ed="#V" n="21"/>Alens. 4. part. quaest. 80. memb. 1. D. Bonav.
+            <lb ed="#V" n="22"/>dist. 18. art. 2. quaest. 1. et 2. Richard. art.
+            <lb ed="#V" n="23"/>2. quaest. 1. D. Thom. quaest. 1. art. 3. et 3.
+            <lb ed="#V" n="24"/>part. q. 86. art. 6. Suar. tom. 4. disp. 16. sect.
+            <lb ed="#V" n="25"/>2. Bellarm. 2. de poen. c. 13. Magister dist. 16.
+            <lb ed="#V" n="26"/>et 18. tate Coccius 2. tom. lib. 7. art 1.
+          </p>
+          <p>
+            <lb ed="#V" n="27"/>Quarto quaero, (a) utrum per
+            <lb ed="#V" n="28"/>Sacramentum Poenitentiae deleatur
+            <lb ed="#V" n="29"/>culpa? Videtur quod non, quia
+            di<lb ed="#V" n="30" break="no"/>cit Psalm. Dixi, confitebor adversum
+            <lb ed="#V" n="31"/>me injustitiam meam Domino; ubi
+            <lb ed="#V" n="32"/>Cassiodorus: Magna pietas Dei, quod
+            <lb ed="#V" n="33"/>ad solam promissionem peccatum
+            dimit<lb ed="#V" n="34" break="no"/>tit. Votum enim pro operatione judicatur.
+            <lb ed="#V" n="35"/>Et Augustinus ibidem: nondum
+            pro<lb ed="#V" n="36" break="no"/>nuntiat, sed promittit se pronuntiaturum,
+            <lb ed="#V" n="37"/>et Deus dimittit; sed sine
+            pronuntia<lb ed="#V" n="38" break="no"/>tione non est Poenitentiae
+            Sacra<lb ed="#V" n="39" break="no"/>mentum.
+          </p>
+          <p>
+            <lb ed="#V" n="40"/>Item, Augustinus super illud
+            <lb ed="#V" n="41"/>Joan. II. de suscitatione Lazari,
+            <lb ed="#V" n="42"/>nemo potest confiteri, nisi suscitatus,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43"/>probat tripliciter: Primo, per
+            <lb ed="#V" n="44"/>suscitationem Lazari, qui prius
+            <lb ed="#V" n="45"/>suscitatus est, quam de
+            monumen<lb ed="#V" n="46" break="no"/>to eductus. Secundo per illud
+            Ec<lb ed="#V" n="47" break="no"/>clesiastici 17. A mortuo, velut qui non
+            <lb ed="#V" n="48"/>est, perit confessio. Tertio per illud
+            <lb ed="#V" n="49"/>Psalm.87. Numquid medici suscitabunt,
+            <lb ed="#V" n="50"/>et confitebuntur tibi.
+          </p>
+          <p>
+            <lb ed="#V" n="51"/>Item, si per Sacramentum
+            Poe<lb ed="#V" n="52" break="no"/>nitentiae dimittitur peccatum, cum
+            <lb ed="#V" n="53"/>sacerdos ministret Sacramentum,
+            <lb ed="#V" n="54"/>ergo sacerdos dimitteret
+            pecca<lb ed="#V" n="55" break="no"/>tum. Consequens est falsum per
+            <lb ed="#V" n="56"/>illud Hieronymi super Matth.
+            deci<lb ed="#V" n="57" break="no"/>mo sexto: Tibi dabo claves, etc. Hunc,
+            <lb ed="#V" n="58"/>inquit, locum non intelligentes quidam,
+            <lb ed="#V" n="59"/>aliquid sumunt de superbia
+            Pharisoeo<lb ed="#V" n="60" break="no"/>rum, ut damnare innoxios, vel solvere
+            <lb ed="#V" n="61"/>putent noxios, cum apud Dominum non
+            <lb ed="#V" n="62"/>sententia sacerdotum, sed reorum vita
+            <lb ed="#V" n="63"/>quaeratur; et hujusmodi
+            probatio<lb ed="#V" n="64" break="no"/>nem innuit subdens: In Levitico se
+            <lb ed="#V" n="65"/>ostendere sacerdotibus jubentur leprosi,
+            <lb ed="#V" n="66"/>quos illi non faciunt leprosos vel mundos,
+            <lb ed="#V" n="67"/>sed discernunt, qui mundi vel immund
+            <lb ed="#V" n="68"/>snnt; ita hic.
+          </p>
+          <p>
+            <lb ed="#V" n="69"/>Contra, Matth. decimo sexto:
+            <lb ed="#V" n="70"/>Quodcumque ligaveris super terram, etc.
+            <lb ed="#V" n="71"/>Item Joan. 20. Quorum remiseritis
+            <lb ed="#V" n="72"/>peccata, remittuntur eis, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="73"/>Hic sunt tria videnda: Primo,
+            <lb ed="#V" n="74"/>ratio hujus nominis Sacramentum
+            <lb ed="#V" n="75"/>Peenitentice. Secundo, quod illi
+            ratio<lb ed="#V" n="76" break="no"/>ni nominis aliquid subest. Tertio
+            <lb ed="#V" n="77"/>solutio quaestionis.
+          </p>
+          <p>
+            <lb ed="#V" n="78"/>De primo, pono hanc rationem
+            <lb ed="#V" n="79"/>nominis: Poenitentia est absolutio
+            ho<lb ed="#V" n="80" break="no"/>minis poenitentis, facta certis verbis, cum
+            <lb ed="#V" n="81"/>debita intentione, prolatis a sacerdote.
+            <lb ed="#V" n="82"/>jurisdictionem habente ex institutione
+            <lb ed="#V" n="83"/>divina, efficaciter significantibus
+            absolu<lb ed="#V" n="84" break="no"/>tionem animae a peccato.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d14q4-p2"> -->
+          <p>
+            <lb ed="#V" n="15" type="fixed=140"/>SCHOLIUM.
+            <lb ed="#V" n="16"/>Posita definitione nominis Sacramenti
+            <lb ed="#V" n="17"/>Poenitentiae, ostendit tali nomini posse
+            ali<lb ed="#V" n="18" break="no"/>quid subesse, de quo actum est sup. d. 2. et
+            <lb ed="#V" n="19"/>4. et d. 2. q. 1. et ponit congruentias
+            institu<lb ed="#V" n="20" break="no"/>tionis Poenitentiae, dicens doctrinam de hoc
+            <lb ed="#V" n="21"/>Sacramento similem esse doctrinae de
+            Sen<lb ed="#V" n="22" break="no"/>tentiis et Judiciis. Docet etiam Poenitentiam
+            <lb ed="#V" n="23"/>supponere pro absolutione; et idem habet
+            <lb ed="#V" n="24"/>infra dist. 16. q. 1. Sequuntur Major hic q.
+            <lb ed="#V" n="25"/>2. Gabr. q. art. 1. Dionys. Cister. dist. 23. q.
+            <lb ed="#V" n="26"/>2. Occham 4. quaest. 8. et 9. Bassol. hic q. 2.
+            <lb ed="#V" n="27"/>Alm. q. 4. et omnes Scotistae. D. Thom. 3.
+            <lb ed="#V" n="28"/>part. q. 84. art. 1. et ibi Cajet. aiunt
+            suppo<lb ed="#V" n="29" break="no"/>nere pro actibus poenitentis. Durand. hic q.
+            <lb ed="#V" n="30"/>3. et Suar. tom. 4. dist. 18. sect. 2. pro
+            acti<lb ed="#V" n="31" break="no"/>bus poenitentis et absolutione simul
+            suppo<lb ed="#V" n="32" break="no"/>nere volunt. Trid sess. 13. cap. 3. favet
+            Sco<lb ed="#V" n="33" break="no"/>to, dum ait praecipuam vim esse in verbis
+            <lb ed="#V" n="34"/>ministri.
+          </p>
+          <p>
+            <lb ed="#V" n="35"/>Quoad secundum (b) ostendo
+            pri<lb ed="#V" n="36" break="no"/>mo, quod possibile est huic
+            positi<lb ed="#V" n="37" break="no"/>oni nominis aliquid subesse;
+            se<lb ed="#V" n="38" break="no"/>cundo, quod congruit subesse; et
+            <lb ed="#V" n="39"/>tertio, quod aliquid subest.
+            Pri<lb ed="#V" n="40" break="no"/>mum ostenditur per hoc, quod
+            <lb ed="#V" n="41"/>possibile est Deo animam
+            absolve<lb ed="#V" n="42" break="no"/>re a peccato, juxta illud symboli;
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43"/>Remissionem peccatorum; et per
+            con<lb ed="#V" n="44" break="no"/>sequens possibile est instituere
+            <lb ed="#V" n="45"/>aliquod signum illius absolutionis.
+            <lb ed="#V" n="46"/>et hoc signum efficax, ut prius
+            <lb ed="#V" n="47"/>expositum est efficax, in materia
+            <lb ed="#V" n="48"/>de Sacramentis, in universali; et
+            <lb ed="#V" n="49"/>pari ratione verba quaecumque a
+            <lb ed="#V" n="50"/>quocumque ministro prolata; et
+            <lb ed="#V" n="51"/>tunc patet tota possibilitas illius
+            <lb ed="#V" n="52"/>rationis.
+          </p>
+          <p>
+            <lb ed="#V" n="53"/>Congruitas probatur quantum
+            <lb ed="#V" n="54"/>ad singulas particulas. Primo,
+            <lb ed="#V" n="55"/>quia congruum est aliquod esse
+            <lb ed="#V" n="56"/>signum sensibile istius
+            absolutio<lb ed="#V" n="57" break="no"/>nis a peccato, propter easdem
+            rati<lb ed="#V" n="58" break="no"/>ones, propter quas dictum est dist.
+            <lb ed="#V" n="59"/>1. de congruitate Sacramenti in
+            <lb ed="#V" n="60"/>communi. Et propter easdem
+            con<lb ed="#V" n="61" break="no"/>gruum est illud esse signum
+            insti<lb ed="#V" n="62" break="no"/>tutum a Deo, quia et magis
+            move<lb ed="#V" n="63" break="no"/>bit, et ducet intellectum in
+            certitu<lb ed="#V" n="64" break="no"/>dinem, et magis inclinabit affectum
+            <lb ed="#V" n="65"/>ad promptitudinem suscipiendi
+            <lb ed="#V" n="66"/>illud signum. Congruit etiam in
+            <lb ed="#V" n="67"/>proposito istud signum
+            absolutio<lb ed="#V" n="68" break="no"/>nis interioris institui in verbis
+            <lb ed="#V" n="69"/>significantibus absolutionem, ut
+            <lb ed="#V" n="70"/>signum repraesentet signatum.
+          </p>
+          <p>
+            <lb ed="#V" n="71"/>Et hoc est, quod dictum est in
+            <lb ed="#V" n="72"/>ratione Poenitentiae, quod poenitentia
+            <lb ed="#V" n="73"/>est absolutio, id est, quaedam
+            sen<lb ed="#V" n="74" break="no"/>tentia definitiva absolvens reum,
+            <lb ed="#V" n="75"/>non tamen sententia Judicis
+            prin<lb ed="#V" n="76" break="no"/>cipalis, sed Judicis secundarii vel
+            <lb ed="#V" n="77"/>commissarii. Potest enim quis ex
+            <lb ed="#V" n="78"/>commissione cognoscere in causa,
+            <lb ed="#V" n="79"/>et ita ex commissione sententiare,
+            <lb ed="#V" n="80"/>vel pro condemnatione rei, si
+            in<lb ed="#V" n="81" break="no"/>dignus est, vel pro ejus
+            absolutio<lb ed="#V" n="82" break="no"/>ne, si dignus sit. Congruit etiam,
+            <lb ed="#V" n="83"/>quod ista absolutio exterior fiat
+            <lb ed="#V" n="84"/>a sacerdote, quia congruit
+            ex<lb ed="#V" n="85" break="no"/>trema per medium reduci in
+            <lb ed="#V" n="86"/>extremum; et ita in Hierarchia
+            <pb ed="#V" n="141"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Ecclesiastica, extremos, scilicet
+            <lb ed="#V" n="2"/>peccatores, reduci in Deum per
+            <lb ed="#V" n="3"/>Hierarcham, id est, sacerdotem,
+            <lb ed="#V" n="4"/>sicut est in Ecclesia
+            trium<lb ed="#V" n="5" break="no"/>phante. Congruit etiam, quod
+            <lb ed="#V" n="6"/>a jurisdictionem habente, quia
+            <lb ed="#V" n="7"/>sententia a non suo Judice lata
+            <lb ed="#V" n="8"/>nulla est.
+          </p>
+          <p>
+            <lb ed="#V" n="9"/>Ex hoc (c) sequitur corollarium.
+            <lb ed="#V" n="10"/>quod doctrina de Sacramento
+            Poe<lb ed="#V" n="11" break="no"/>nitentiae subalternatur doctrinae
+            <lb ed="#V" n="12"/>de Judiciis, et etiam doctrinae de
+            <lb ed="#V" n="13"/>Sententiis. Pro quanto enim est in
+            <lb ed="#V" n="14"/>Ecclesia duplex forus, scilicet
+            pu<lb ed="#V" n="15" break="no"/>blicus et privatus, pro tanto est
+            <lb ed="#V" n="16"/>duplex judicium; et quantum ad
+            <lb ed="#V" n="17"/>aliquas regulas justitiae oportet
+            <lb ed="#V" n="18"/>esse convenientiam hic et ibi,
+            si<lb ed="#V" n="19" break="no"/>cut utraque definitio hic et ibi est
+            <lb ed="#V" n="20"/>actus justitiae. Et pro tanto potest
+            <lb ed="#V" n="21"/>Sacramentum Poenitentiae dici
+            Sa<lb ed="#V" n="22" break="no"/>cramentum judiciale, vel judicium
+            <lb ed="#V" n="23"/>sacramentale, et ex hoc quod
+            sa<lb ed="#V" n="24" break="no"/>cramentale est firmius, quia
+            ratio<lb ed="#V" n="25" break="no"/>nabilius quam aliquod judicium
+            <lb ed="#V" n="26"/>publicum.
+          </p>
+          <p>
+            <lb ed="#V" n="27"/>Et (d) ex hoc patet ratio, quare
+            <lb ed="#V" n="28"/>non est necesse esse ita praecisa
+            <lb ed="#V" n="29"/>verba in isto Sacramento, sicut in
+            <lb ed="#V" n="30"/>Baptismo, vel Eucharistia, quia
+            <lb ed="#V" n="31"/>sufficit, (e) quod exprimatur actus
+            <lb ed="#V" n="32"/>sententiae absolventis, sicut et in
+            <lb ed="#V" n="33"/>judicio publico non oportet esse
+            <lb ed="#V" n="34"/>limitata verba; ait enim unus de
+            <lb ed="#V" n="35"/>Theodoro martyre; Jubeo ignibus
+            <lb ed="#V" n="36"/>tradi; alter de Cypriano sancto,
+            <lb ed="#V" n="37"/>gladio animadverti placet.
+            Communi<lb ed="#V" n="38" break="no"/>ter (f) tamen ista verba sunt apta:
+            <lb ed="#V" n="39"/>Ego te absolvo; quaecumque alia
+            <lb ed="#V" n="40"/>praemittantur vel consequantur
+            <lb ed="#V" n="41"/>secundum diversam
+            consuetudi<lb ed="#V" n="42" break="no"/>nem in diversis Ecclesiis.
+          </p>
+          <p>
+            <lb ed="#V" n="43"/>Congruit etiam, quod
+            requira<lb ed="#V" n="44" break="no"/>tur intentio debita, ut supra
+            exposi<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>tum est in aliis Sacramentis.
+            Con<lb ed="#V" n="46" break="no"/>gruit etiam ex parte susceptivi,
+            <lb ed="#V" n="47"/>quod sit poenitens, id est, habens
+            <lb ed="#V" n="48"/>aliquam displicentiam de
+            pecca<lb ed="#V" n="49" break="no"/>to commisso; hoc enim videmus
+            <lb ed="#V" n="50"/>etiam in Judicibus temporalibus,
+            <lb ed="#V" n="51"/>quod protervum sententialiter
+            <lb ed="#V" n="52"/>condemnant; poenitentem vero suo
+            <lb ed="#V" n="53"/>modo absolvunt, id est, tanquam
+            <lb ed="#V" n="54"/>non reum, vel non puniendum
+            <lb ed="#V" n="55"/>sententiant.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d14q4-p3"> -->
+          <p>
+            <lb ed="#V" n="26" type="fixed=155"/>SCHOLIUM.
+            <lb ed="#V" n="27"/>De facto institutum esse Poenitentiae
+            Sa<lb ed="#V" n="28" break="no"/>cramentum. Quod probat ex locis Matth. et
+            <lb ed="#V" n="29"/>Joan. citatis in ratione ad oppositum, quae
+            <lb ed="#V" n="30"/>etiam ad idem citat Trid. sess. 14. cap. 6.
+            <lb ed="#V" n="31"/>Docent etiam PP. Hieron. lib. 1. contra
+            <lb ed="#V" n="32"/>Pelagian. Aug. epist. 180. Chrysost. 1ib. 3.
+            <lb ed="#V" n="33"/>de Sacerdotio. Ambros. 1. de poen. cap. 7.
+            <lb ed="#V" n="34"/>vide Bellarm. 1. de poen. cap. 10. Item solos
+            <lb ed="#V" n="35"/>Sacerdotes posse hoc Sacramentum
+            dispensa<lb ed="#V" n="36" break="no"/>re, cap. Firmiter, de sum. Trinit. et Trident.
+            <lb ed="#V" n="37"/>supr. de quo Coccius et Bellarm. citati.
+          </p>
+          <p>
+            <lb ed="#V" n="38"/>Tertio (g) dico, quod hoc
+            fa<lb ed="#V" n="39" break="no"/>ctum est. Cujus fundamentum
+            <lb ed="#V" n="40"/>accipitur ex auctoritatibus
+            addu<lb ed="#V" n="41" break="no"/>ctis ad oppositum, et quod a
+            Sa<lb ed="#V" n="42" break="no"/>cerdote solo possit dispensari,
+            ha<lb ed="#V" n="43" break="no"/>betur Extra de summa Trinit. et fide
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="44"/>Cathol. cap. firmiter. Et congruum
+            <lb ed="#V" n="45"/>est, ut idem habeat potestatem
+            <lb ed="#V" n="46"/>super corpus Christi verum et
+            <lb ed="#V" n="47"/>mysticum.
+          </p>
+          <p>
+            <lb ed="#V" n="48"/>Et ex hoc sequitur corollarium,
+            <lb ed="#V" n="49"/>quod nihil pertinens ad
+            Sacramen<lb ed="#V" n="50" break="no"/>tum Poenitentiae, potest a laico
+            <lb ed="#V" n="51"/>dispensari, sicut nec confectio
+            Eu<lb ed="#V" n="52" break="no"/>charistiae; et ideo confessio, quae
+            <lb ed="#V" n="53"/>est dispositio praevia ad
+            Sacramen<lb ed="#V" n="54" break="no"/>tum Poenitentiae, ut dicetur
+            postea<lb ed="#V" n="55" break="no"/>facta laico, nihil valet virtute ope,
+            <lb ed="#V" n="56"/>ris operati. Et adhuc dubium est,
+            <lb ed="#V" n="57"/>an sit in detrimentum salutis, quia
+            <lb ed="#V" n="58"/>illa revelatio non potest esse
+            con<lb ed="#V" n="59" break="no"/>fessionalis.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d14q4-p4"> -->
+          <p>
+            <lb ed="#V" n="32" type="fixed=157"/>SCHOLIUM.
+            <lb ed="#V" n="33"/>Sententia Magistri, Sacerdotem non tollere
+            <lb ed="#V" n="34"/>culpam per absolutionem. Hanc rejicit
+            Do<lb ed="#V" n="35" break="no"/>ctor, quia sic poenitentia non esset secunda
+            <lb ed="#V" n="36"/>tabula, contra Patres. Resolvit ergo
+            contri<lb ed="#V" n="37" break="no"/>tionem perfectam ante realem absolutionem,
+            <lb ed="#V" n="38"/>tollere culpam, si tamen dolor non sit
+            per<lb ed="#V" n="39" break="no"/>fectus, seu ( ut loquitur Scot.) meritum de
+            <lb ed="#V" n="40"/>congruo remissionis, requiritur realis
+            abso<lb ed="#V" n="41" break="no"/>lutio, et sic est duplex via salutis pro adultis
+            <lb ed="#V" n="42"/>quoad remissionem peccatorum. Ita Trid.
+            <lb ed="#V" n="43"/>sess. 14. cap. 4. 6. et can. 3. et sess. 13.
+            <lb ed="#V" n="44"/>cap. 7. et PP. quos citat Bellarm. 2. de poen.
+            <lb ed="#V" n="45"/>cap. 13. et Coccius sup.
+          </p>
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="46"/>Quantum (h) ad tertium
+            articu<lb ed="#V" n="47" break="no"/>lum videtur esse opinio Magistri
+            <lb ed="#V" n="48"/>dist. 18. c. 6. In solvendis culpis,
+            in<lb ed="#V" n="49" break="no"/>quit, et retinendis, ita operatur
+            Sacer<lb ed="#V" n="50" break="no"/>dos Evangelicus, et judicat, sicut olim
+            <lb ed="#V" n="51"/>legalis in illis, qui erant contaminati
+            <lb ed="#V" n="52"/>lepra, quee peccatum significat; et
+            pro<lb ed="#V" n="53" break="no"/>batur per illud Hieronymi, quod
+            <lb ed="#V" n="54"/>jam adductum est.
+          </p>
+          <p>
+            <lb ed="#V" n="55"/>Sed istud videtur nimis derogare
+            <lb ed="#V" n="56"/>Sacramento Poenitentiae. Nam
+            se<lb ed="#V" n="57" break="no"/>cundum hoc, per Sacramentum
+            <lb ed="#V" n="58"/>Poenitentiae nunquam deleretur
+            <lb ed="#V" n="59"/>peccatum, sed necesse esset prius
+            <lb ed="#V" n="60"/>deleri per contritionem, ad hoc
+            <lb ed="#V" n="61"/>quod digne susciperetur
+            Sacra<lb ed="#V" n="62" break="no"/>mentum poenitentiae, quia nullus
+            <lb ed="#V" n="63"/>digne ostenditur mundus a peccato,
+            <lb ed="#V" n="64"/>nisi prius sit immunis ab eo. Et
+            <lb ed="#V" n="65"/>sequeretur ulterius inconveniens,
+            <lb ed="#V" n="66"/>quod nunquam Sacramentum
+            Poe<lb ed="#V" n="67" break="no"/>nitentiae posset esse secunda
+            tabu<lb ed="#V" n="68" break="no"/>la, quia nunquam liberaret
+            nau<lb ed="#V" n="69" break="no"/>fragum a periculo submersionis.
+          </p>
+          <p>
+            <lb ed="#V" n="70"/>Dicitur (i) ergo, quod ita Deus
+            <lb ed="#V" n="71"/>requirit dispositionem de congruo
+            <lb ed="#V" n="72"/>ad hoc, ut peccatori conferat
+            gra<lb ed="#V" n="73" break="no"/>tiam per Sacramentum; et hoc,
+            <lb ed="#V" n="74"/>non quod alliget potentiam suam
+            <lb ed="#V" n="75"/>Sacramentis, quin tamen sine
+            dis<lb ed="#V" n="76" break="no"/>positione illa praevia et congrua,
+            <lb ed="#V" n="77"/>quae sufficeret, conferat per
+            Sa<lb ed="#V" n="78" break="no"/>cramentum gratiam; et haec est
+            <lb ed="#V" n="79"/>majoris misericordiae, scilicet
+            du<lb ed="#V" n="80" break="no"/>plicem viam instituere, per quam
+            <lb ed="#V" n="81"/>justificetur peccator, quam ipsum
+            <lb ed="#V" n="82"/>ad unam viam arctare. Sicut ergo
+            <lb ed="#V" n="83"/>adultus primam gratiam delentem
+            <lb ed="#V" n="84"/>originale potest habere duplici via
+            <lb ed="#V" n="85"/>vel ex bono motu disponente ad
+            <lb ed="#V" n="86"/>illam de congruo, vel ex
+            suscepti<lb ed="#V" n="87" break="no"/>one Baptismi; ita et in proposito.
+          </p>
+          <p>
+            <lb ed="#V" n="88"/>Hoc declaratur sic, quia ad
+            pri<lb ed="#V" n="89" break="no"/>mam suceptionem gratiae requiri t
+            <pb ed="#V" n="158"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>tur aliquis motus meritorius de
+            <lb ed="#V" n="2"/>congruo; ad secundam autem non
+            <lb ed="#V" n="3"/>requiritur, nisi voluntaria
+            susce<lb ed="#V" n="4" break="no"/>ptio Baptismi, et sine fictione, hoc
+            <lb ed="#V" n="5"/>est, cum intentione suscipiendi
+            <lb ed="#V" n="6"/>quod confert Ecclesia, et sine actu
+            <lb ed="#V" n="7"/>vel voluntate peccati mortalis, ita
+            <lb ed="#V" n="8"/>quod in primo requiritur aliquod
+            <lb ed="#V" n="9"/>opus intrinsecum aliquo modo
+            ac<lb ed="#V" n="10" break="no"/>ceptum tanquam meritum de
+            con<lb ed="#V" n="11" break="no"/>gruo; in secundo solum requiritur
+            <lb ed="#V" n="12"/>opus exterius, cum amotione
+            inte<lb ed="#V" n="13" break="no"/>rioris impedimenti.
+          </p>
+          <p>
+            <lb ed="#V" n="14"/>Non solum ergo attritus per
+            <lb ed="#V" n="15"/>aliquod tempus usque ad certum
+            <lb ed="#V" n="16"/>instans, in ultimo instanti recipit
+            <lb ed="#V" n="17"/>gratiam delentem peccatum,
+            tan<lb ed="#V" n="18" break="no"/>quam per virtutem meriti de
+            con<lb ed="#V" n="19" break="no"/>gruo, ut declaratum est in
+            soluti<lb ed="#V" n="20" break="no"/>one praecedente; sed non habens
+            <lb ed="#V" n="21"/>talem actum, qui sufficiat ad
+            me<lb ed="#V" n="22" break="no"/>ritum de congruo, sed tantum
+            ha<lb ed="#V" n="23" break="no"/>bens voluntatem suscipiendi
+            Sa<lb ed="#V" n="24" break="no"/>cramentum Ecclesiae, et sine obice
+            <lb ed="#V" n="25"/>peccati mortalis actualiter sibi
+            <lb ed="#V" n="26"/>facto, vel in voluntate inhaerentis,
+            <lb ed="#V" n="27"/>recipit non ex merito, sed ex pacto
+            <lb ed="#V" n="28"/>divino, effectum istius
+            Sacramen<lb ed="#V" n="29" break="no"/>ti, ut sic parum attritus, etiam
+            <lb ed="#V" n="30"/>attritione, quae non habet
+            rati<lb ed="#V" n="31" break="no"/>onem meriti ad remissionem
+            pec<lb ed="#V" n="32" break="no"/>cati, volens tamen recipere
+            Sacra<lb ed="#V" n="33" break="no"/>mentum Poenitentiae, sicut
+            dispen<lb ed="#V" n="34" break="no"/>satur in Ecclesia, et sine obice in
+            <lb ed="#V" n="35"/>voluntate peccati mortalis in actu
+            <lb ed="#V" n="36"/>in ultimo instanti illius
+            prolati<lb ed="#V" n="37" break="no"/>onis verborum, in quo scilicet est
+            <lb ed="#V" n="38"/>vis Sacramenti istius, recipiat
+            ef<lb ed="#V" n="39" break="no"/>fectum Sacramenti, scilicet
+            grati<lb ed="#V" n="40" break="no"/>am poenitentialem; non quidem ex
+            <lb ed="#V" n="41"/>merito, quia dispositio interior
+            <lb ed="#V" n="42"/>non erat sufficiens per modum
+            me<lb ed="#V" n="43" break="no"/>riti, sed ex pacto Dei assistentis
+            <lb ed="#V" n="44"/>Sacramento suo ad effectum illum,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>ad quem instituit Sacramentum.
+            <lb ed="#V" n="46"/>alioquin non appareret quomodo
+            <lb ed="#V" n="47"/>Sacramentum Poenitentiae esset
+            <lb ed="#V" n="48"/>secunda tabula, si nunquam per
+            <lb ed="#V" n="49"/>ipsum, ut Sacramentum est, posset
+            <lb ed="#V" n="50"/>recuperari secunda gratia
+            amis<lb ed="#V" n="51" break="no"/>sa, sed tantum per attritionem
+            <lb ed="#V" n="52"/>tanquam per praeviam
+            dispositi<lb ed="#V" n="53" break="no"/>onem, et per contritionem
+            tan<lb ed="#V" n="54" break="no"/>quam per dispositionem
+            comple<lb ed="#V" n="55" break="no"/>tivam.
+          </p>
+          <p>
+            <lb ed="#V" n="56"/>(j) Si quaeras, an Poeuitentia sit
+            <lb ed="#V" n="57"/>Sacramentum? Respondeo, vis fit
+            <lb ed="#V" n="58"/>in vocabulo, si poenitentia
+            accipi<lb ed="#V" n="59" break="no"/>atur ut in duabus quaestionibus
+            <lb ed="#V" n="60"/>praecedentibus, scilicet pro actuali
+            <lb ed="#V" n="61"/>poenae tenentia, secundum
+            quam<lb ed="#V" n="62" break="no"/>cumque illarum significationum,
+            <lb ed="#V" n="63"/>vel etiam pro habituali tenentia
+            <lb ed="#V" n="64"/>quae est virtus quaedam specialis,
+            <lb ed="#V" n="65"/>cujus actus est tenentia actualis.
+            <lb ed="#V" n="66"/>Juxta primam significationem
+            <lb ed="#V" n="67"/>non est poenitentia Sacramentum,
+            <lb ed="#V" n="68"/>quia non est signum sensibile,
+            <lb ed="#V" n="69"/>sed istis modis posset dici
+            Sacra<lb ed="#V" n="70" break="no"/>mentum Poenitentiae, intelligendo
+            <lb ed="#V" n="71"/>autem constructionem
+            transiti<lb ed="#V" n="72" break="no"/>vam, non intransitivam, sicut hic,
+            <lb ed="#V" n="73"/>creatura salis, nisi hic
+            aequivoce<lb ed="#V" n="74" break="no"/>tur nomen poenitentice.
+          </p>
+          <p>
+            <lb ed="#V" n="75"/>Ad primum argumentum,
+            conce<lb ed="#V" n="76" break="no"/>do juxta illas auctoritates Psalmi,
+            <lb ed="#V" n="77"/>Augustini, et Cassiodori, quod
+            <lb ed="#V" n="78"/>frequenter dimittitur peccatum
+            <lb ed="#V" n="79"/>per aliquem motum' attritionis
+            <lb ed="#V" n="80"/>tanquam per meritum de congruo,
+            <lb ed="#V" n="81"/>ante susceptionem Sacramenti
+            <lb ed="#V" n="82"/>poenitentiae, sicut in adulto
+            fre<lb ed="#V" n="83" break="no"/>quenter dimittitur originale ante
+            <lb ed="#V" n="84"/>susceptionem Baptismi. Nec
+            ta<lb ed="#V" n="85" break="no"/>men sequitur quod per
+            Sacramen<lb ed="#V" n="86" break="no"/>tum non dimittatur, quia si illa
+            <lb ed="#V" n="87"/>alia dimissio quandoque non adsit,
+            <pb ed="#V" n="159"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>sta non deficit; et illa minus
+            re<lb ed="#V" n="2" break="no"/>quirit, scilicet intentionem
+            susci<lb ed="#V" n="3" break="no"/>piendi Baptismum, sive
+            Sacramen<lb ed="#V" n="4" break="no"/>tum Poenitentiae sine obice contra
+            <lb ed="#V" n="5"/>effectum ejus.
+          </p>
+          <p>
+            <lb ed="#V" n="6"/>Ad secundum dico, quod duplex
+            <lb ed="#V" n="7"/>est confessio, laudis et fraudis.
+            <lb ed="#V" n="8"/>Confessione laudis nullus digne
+            <lb ed="#V" n="9"/>confitetur, nisi prius suscitatus,
+            <lb ed="#V" n="10"/>quia secundum Hieronymum in illa
+            <lb ed="#V" n="11"/>epistola: Cogitis me, Non est speciosa
+            <lb ed="#V" n="12"/>laus in ore peccatoris. Sed confessio
+            <lb ed="#V" n="13"/>fraudis accepta est Deo in ore
+            pec<lb ed="#V" n="14" break="no"/>catoris, hoc est, ejus qui adhuc est
+            <lb ed="#V" n="15"/>peccator, eo modo quo expositum
+            <lb ed="#V" n="16"/>est in prima quoest. istius dist.
+            pecca<lb ed="#V" n="17" break="no"/>tum manere post actum, dum
+            ta<lb ed="#V" n="18" break="no"/>men non sit peccator in voto, seu
+            <lb ed="#V" n="19"/>actu interiore vel exteriore.
+          </p>
+          <p>
+            <lb ed="#V" n="20"/>Concedo ergo quod ante
+            perce<lb ed="#V" n="21" break="no"/>ptionem dignam Poenitentiae,
+            opor<lb ed="#V" n="22" break="no"/>tet suscitari, vel simpliciter, et
+            <lb ed="#V" n="23"/>tunc per Poenitentiae Sacramentum
+            <lb ed="#V" n="24"/>non deletur peccatum, sed gratia
+            <lb ed="#V" n="25"/>quae infuit, augetur; vel suscitari
+            <lb ed="#V" n="26"/>secundum quid, scilicet, ut habeat
+            <lb ed="#V" n="27"/>aliqualem displicentiam de
+            pecca<lb ed="#V" n="28" break="no"/>tis, et propositum cavendi de
+            caete<lb ed="#V" n="29" break="no"/>ro, et velit suscipere
+            Sacramen<lb ed="#V" n="30" break="no"/>tum poenitentiae, in quo attritio fit
+            <lb ed="#V" n="31"/>contritio, et tunc suscitatur
+            sim<lb ed="#V" n="32" break="no"/>pliciter per Sacramentum; et
+            qui<lb ed="#V" n="33" break="no"/>dem est necessarium, ut dicetur
+            <lb ed="#V" n="34"/>dist. 17. sicut etiam dictum est
+            su<lb ed="#V" n="35" break="no"/>pra, quod justificato per
+            Bapti<lb ed="#V" n="36" break="no"/>mum flaminis, necessarius est
+            Ba<lb ed="#V" n="37" break="no"/>ptismus fluminis.
+          </p>
+          <p>
+            <lb ed="#V" n="38"/>(k) Cum objicitur de Lazaro,
+            <lb ed="#V" n="39"/>qui prius fuit suscitatus, quam
+            <lb ed="#V" n="40"/>solutus a vinculis, respondeo,
+            <lb ed="#V" n="41"/>reus obligatur debito poenae
+            aeter<lb ed="#V" n="42" break="no"/>nae, quo vinculo soluto obligandus
+            <lb ed="#V" n="43"/>est ad poenam temporalem. Prius
+            <lb ed="#V" n="44"/>autem suscitatur, quam obligatio
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>prima mutetur in secundam; vel,
+            <lb ed="#V" n="46"/>quod verius est, prius suscitatur,
+            <lb ed="#V" n="47"/>quam solvatur a secunda
+            obliga<lb ed="#V" n="48" break="no"/>tione. Et hoc modo ad Sacerdotes
+            <lb ed="#V" n="49"/>pertinet solvere, non simpliciter,
+            <lb ed="#V" n="50"/>sed pro parte poenae, quam possunt
+            <lb ed="#V" n="51"/>relaxare virtute clavium, de qua
+            <lb ed="#V" n="52"/>inferius dicetur; et sic Lazarus
+            <lb ed="#V" n="53"/>vivificatus a Christo, id est,
+            pec<lb ed="#V" n="54" break="no"/>cator a morte culpae per gratiam
+            <lb ed="#V" n="55"/>resuscitatus et solutus a carcere
+            <lb ed="#V" n="56"/>sepulchri, id est, peccator solutus
+            <lb ed="#V" n="57"/>a debito poenae inferni, relinquitur
+            <lb ed="#V" n="58"/>discipulis solvendus ab institis,
+            <lb ed="#V" n="59"/>id est, a poenis temporalibus, in
+            <lb ed="#V" n="60"/>quas commutatur poena aeterna,
+            <lb ed="#V" n="61"/>quas poenas temporales potest
+            <lb ed="#V" n="62"/>Sacerdos relaxare vel intendere,
+            <lb ed="#V" n="63"/>clave non errante.
+          </p>
+          <p>
+            <lb ed="#V" n="64"/>Ad (1) ultimum concedo, quod
+            <lb ed="#V" n="65"/>Sacerdos ita dimittit peccatum in
+            <lb ed="#V" n="66"/>Poenitentia, sicut in Baptismo, et
+            <lb ed="#V" n="67"/>ita absolvit sicut baptizat, quia
+            <lb ed="#V" n="68"/>utrobique simpliciter verum est
+            <lb ed="#V" n="69"/>quod ministrat Sacramentum;
+            <lb ed="#V" n="70"/>effectum autem Sacramenti
+            mi<lb ed="#V" n="71" break="no"/>nisterialiter causat, quia aliquid
+            <lb ed="#V" n="72"/>causat, ad quod secundum
+            disposi<lb ed="#V" n="73" break="no"/>tionem, seu pactionem Dei,
+            regu<lb ed="#V" n="74" break="no"/>lariter sequitur effectus
+            Sacra<lb ed="#V" n="75" break="no"/>menti.
+          </p>
+          <p>
+            <lb ed="#V" n="76"/>Ad illud Hieronymi respondeo,
+            <lb ed="#V" n="77"/>affirmativa illa vera est, scilicet,
+            <lb ed="#V" n="78"/>quod sicut Sacerdos legalis
+            osten<lb ed="#V" n="79" break="no"/>debat leprosos mundatos, sic
+            <lb ed="#V" n="80"/>Sacerdos Evangelicus ostendit
+            <lb ed="#V" n="81"/>peccatores justificatos; sed
+            nega<lb ed="#V" n="82" break="no"/>tiva, scilicet, quod non aliter
+            Sa<lb ed="#V" n="83" break="no"/>cerdos Evangelicus se habeat ad
+            <lb ed="#V" n="84"/>leprosos spiritualiter, quam
+            Sa<lb ed="#V" n="85" break="no"/>cerdos legalis ad leprosos
+            corpo<lb ed="#V" n="86" break="no"/>raliter, scilicet praecise ostendendo
+            <lb ed="#V" n="87"/>munditram hinc inde, falsa est. Et
+            <lb ed="#V" n="88"/>ratio est, quia non dedit Deus in
+            <pb ed="#V" n="160"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>veteri lege aliquam ceremoniam,
+            <lb ed="#V" n="2"/>vel purificationem, cui ministratae
+            <lb ed="#V" n="3"/>a ministro idoneo assistat
+            regula<lb ed="#V" n="4" break="no"/>riter ad mundandum lepram
+            cor<lb ed="#V" n="5" break="no"/>poralem; dedit autem in lege nova
+            <lb ed="#V" n="6"/>aliquod Sacramentum, cui ex
+            pa<lb ed="#V" n="7" break="no"/>cto regulariter assistit ad
+            mun<lb ed="#V" n="8" break="no"/>dandum spiritualiter, nisi
+            impe<lb ed="#V" n="9" break="no"/>diat obex contrariae voluntatis.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctiones 18 et 19, Quaestio 1</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctiones 18 et 19, Quaestio 1</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x18">Vives, Paris, 1894, volume 18</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="599"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e4305"><!-- jdso8u-b4d18-19q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum potestas clavium tantummodo se extendat ad poenam temporalem</head>
+        <!-- <div alias="scotus-d18-19q1-p1"> -->
+          <p>
+            <lb ed="#V" n="77" type="fixed=599"/>QUAESTIO UNICA.
+            <lb ed="#V" n="78"/>An potestas clavium tantummodo se
+            ex<lb ed="#V" n="79" break="no"/>tendat ad poenam temporalem?
+          </p>
+          <p>
+            <lb ed="#V" n="80"/>Alens. 4. part. quaest. 80. membr. 1. D. Bonay
+            <lb ed="#V" n="81"/>hic art. 2. quaest. 1. Richard. art. 2. quaest. 1.
+            <lb ed="#V" n="82"/>Gabr. quaest. 2. Major quaest. 2. D. Thom. in
+            <lb ed="#V" n="83"/>suppl. quaest. 18. art. 1. Suar. tom. 4. dist. 16.
+            <lb ed="#V" n="84"/>sect. 2. 3.
+          </p>
+          <p>
+            <lb ed="#V" n="85"/>In hac distinctione decima octava
+            <lb ed="#V" n="86"/>Magister tractat de potestate
+            cla<pb ed="#V" n="600"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>vium, et distinctione decima nona
+            <lb ed="#V" n="2"/>de collatione earum. Circa hanc
+            <lb ed="#V" n="3"/>decimam octavam distinctionem
+            <lb ed="#V" n="4"/>quaero: Utrum potestas clavium
+            <lb ed="#V" n="5"/>tantummodo se extendat ad poenam
+            <lb ed="#V" n="6"/>temporalem?
+          </p>
+          <p>
+            <lb ed="#V" n="7"/>Arguitur quod non, quia si sic,
+            <lb ed="#V" n="8"/>aut ad remittendum illam, aut ad
+            <lb ed="#V" n="9"/>infligendum. Non ad remittendum,
+            <lb ed="#V" n="10"/>quia tunc per frequentes
+            absoluti<lb ed="#V" n="11" break="no"/>ones posset tota poena debita
+            pec<lb ed="#V" n="12" break="no"/>cato remitti, et sic apud
+            quemcum<lb ed="#V" n="13" break="no"/>que Sacerdotem esset potestas
+            <lb ed="#V" n="14"/>absolvendi a poena et culpa per
+            <lb ed="#V" n="15"/>frequentes absolutiones, quod est
+            <lb ed="#V" n="16"/>inconveniens.
+          </p>
+          <p>
+            <lb ed="#V" n="17"/>Nec ad infligendum, quia tunc
+            <lb ed="#V" n="18"/>quilibet poenitens teneretur
+            adim<lb ed="#V" n="19" break="no"/>plere quamlibet poenam sibi
+            injun<lb ed="#V" n="20" break="no"/>ctam a Sacerdote, quod est falsum;
+            <lb ed="#V" n="21"/>quia si quis indiscrete imponat
+            <lb ed="#V" n="22"/>immoderatam poenam, de qua
+            poe<lb ed="#V" n="23" break="no"/>nitens potest scire quod est
+            im<lb ed="#V" n="24" break="no"/>proportionata culpae ( potest
+            uti<lb ed="#V" n="25" break="no"/>que scire ex Scriptura, quae
+            <lb ed="#V" n="26"/>continet correspondentiam
+            poena<lb ed="#V" n="27" break="no"/>rum ad culpas), non tenetur illam
+            <lb ed="#V" n="28"/>implere, quia non tenetur obedire
+            <lb ed="#V" n="29"/>inferiori contra voluntatem
+            supe<lb ed="#V" n="30" break="no"/>rioris; nec etiam praeter, quia
+            <lb ed="#V" n="31"/>non obedit inferiori, nisi propter
+            <lb ed="#V" n="32"/>voluntatem superioris; non est
+            <lb ed="#V" n="33"/>autem voluntas superioris, scilicet
+            <lb ed="#V" n="34"/>Dei, quod tanta poena infligatur
+            <lb ed="#V" n="35"/>pro tali culpa.
+            <lb ed="#V" n="36"/>3 Item Joann. 20. Quorum remiseritis
+            <lb ed="#V" n="37"/>peccata, etc. ergo potestas clavium
+            <lb ed="#V" n="38"/>Ecclesiae est ad peccata
+            dimitten<cb ed="#V" n="b"/><lb ed="#V" n="39" break="no"/>dum; non ergo extendit se praecise
+            <lb ed="#V" n="40"/>ad poenam temporalem.
+          </p>
+          <p>
+            <lb ed="#V" n="41"/>Contra, illa potestas clavium ad
+            <lb ed="#V" n="42"/>aliquid se extendit, sed non ad
+            <lb ed="#V" n="43"/>aliud quam ad poenam temporalem;
+            <lb ed="#V" n="44"/>ergo, etc. Major patet, quia
+            alio<lb ed="#V" n="45" break="no"/>quin non esset aliqua potestas.
+            <lb ed="#V" n="46"/>Minor probatur, quia non ad
+            re<lb ed="#V" n="47" break="no"/>missionem culpae, nec poenae
+            <lb ed="#V" n="48"/>aeternae, quia secundum Magistrum
+            <lb ed="#V" n="49"/>in littera, haec duo conveniunt
+            so<lb ed="#V" n="50" break="no"/>li Deo; ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="51"/>Item, ante usum clavium per
+            so<lb ed="#V" n="52" break="no"/>lam contritionem et propositum
+            <lb ed="#V" n="53"/>confitendi, remittitur peccatum,
+            <lb ed="#V" n="54"/>secundum Augustinum et Cassio
+            <lb ed="#V" n="55"/>dorum super illud Psalm. 31. Dixi
+            <lb ed="#V" n="56"/>confitebor, et tu remisisti, etc. ergo si
+            <lb ed="#V" n="57"/>usus clavium circa talem aliquid
+            <lb ed="#V" n="58"/>respiciat, hoc non est nisi ad
+            poe<lb ed="#V" n="59" break="no"/>nam temporalem.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d18-19q1-p2"> -->
+          <p>
+            <lb ed="#V" n="70" type="fixed=600"/>SCHOLIUM.
+            <lb ed="#V" n="71"/>Posita duplici ratione ad oppositum,
+            remit<lb ed="#V" n="72" break="no"/>tit conclusionem in dist. seq. ubi a num. 21.
+            <lb ed="#V" n="73"/>rem hanc tractat; et argumenta hic posita
+            <lb ed="#V" n="74"/>solvuntur ibi a num. 30.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

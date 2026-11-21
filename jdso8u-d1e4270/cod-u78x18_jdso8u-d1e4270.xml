@@ -1,0 +1,1111 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 16, Quaestio 2</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 16, Quaestio 2</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x18">Vives, Paris, 1894, volume 18</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="427"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e4270"><!-- jdso8u-b4d16q2 -->
+        <head>Quaestio 2</head>
+        <head type="question-title">Utrum remissio vel expulsio culpae et infusio gratiae sint una simplex mutatio</head>
+        <!-- <div alias="scotus-d16q2-p1"> -->
+          <p>
+            <lb ed="#V" n="7" type="fixed=427"/>QUAESTIO II.
+            <lb ed="#V" n="8"/>Utrum remisio vel expulsio culpae, et
+            in<lb ed="#V" n="9" break="no"/>fusio gratice sit una simpliciter
+            muta<lb ed="#V" n="10" break="no"/>tio?
+          </p>
+          <p>
+            <lb ed="#V" n="11"/>Alens. 4. part. quaest. 17. m. 4. art. 6. 8 2. alias
+            <lb ed="#V" n="12"/>quaest. 72. m. 1. D. Thom. 1. 2. quaest. 113.
+            <lb ed="#V" n="13"/>art. 1. D. Bonav. 4. dist. 17. 1. p. art. 1. q. 1.
+            <lb ed="#V" n="14"/>Richard. dist. 15. art. 1. q. 7. et dist. 17.
+            <lb ed="#V" n="15"/>art. 4. quaest. 2.
+            <lb ed="#V" n="16"/>Secundo quaero, utrum remissio
+            <lb ed="#V" n="17"/>vel expulsio culpae, et infusio
+            gra<lb ed="#V" n="18" break="no"/>tiae sint una simpliciter mutatio?
+          </p>
+          <p>
+            <lb ed="#V" n="19"/>Videtur quod non. Augustinus de
+            <lb ed="#V" n="20"/>vera et falsa poenitentia, et
+            poni<lb ed="#V" n="21" break="no"/>tur in littera hujus dist. cap. 2.
+            <lb ed="#V" n="22"/>Dolendum est peccatori, non solum quod
+            <lb ed="#V" n="23"/>peccavit, sed quia se virtute privavit. Ex
+            <lb ed="#V" n="24"/>quo sequitur, quod peccare non est
+            <lb ed="#V" n="25"/>se formaliter privare virtute, nec
+            <lb ed="#V" n="26"/>peccatum formaliter est privatio
+            <lb ed="#V" n="27"/>virtutis, sed infusio gratiae, quae
+            <lb ed="#V" n="28"/>est virtus; si est formaliter
+            expul<lb ed="#V" n="29" break="no"/>sio alicujus privationis, non est
+            <lb ed="#V" n="30"/>nisi privationis propriae; ergo non
+            <lb ed="#V" n="31"/>est ipsa expulsio culpae; ergo est
+            <lb ed="#V" n="32"/>alia materia doloris privatio
+            vir<lb ed="#V" n="33" break="no"/>tutis, et ipsa culpa; ergo per
+            op<lb ed="#V" n="34" break="no"/>positum expulsio culpae,
+            virtutis<lb ed="#V" n="35" break="no"/>que restitutio, est alia et alia
+            <lb ed="#V" n="36"/>materia gaudii.
+          </p>
+          <p>
+            <lb ed="#V" n="37"/>Item, in moralibus corruptio
+            <lb ed="#V" n="38"/>vitii est alia mutatio ab
+            inducti<lb ed="#V" n="39" break="no"/>one virtutis; ergo similiter hic.
+            <lb ed="#V" n="40"/>Probatio antecedentis: vitium est
+            <lb ed="#V" n="41"/>quaedam qualitas positiva, ut
+            timi<cb ed="#V" n="b"/><lb ed="#V" n="42" break="no"/>ditas, vel parcitas; non enim
+            om<lb ed="#V" n="43" break="no"/>nis carens fortitudine est timidus,
+            <lb ed="#V" n="44"/>sed habens habitum inclinantem
+            <lb ed="#V" n="45"/>ad timendum; nec omnis carens
+            li<lb ed="#V" n="46" break="no"/>eralitt e est parcus, sed qui
+            ac<lb ed="#V" n="47" break="no"/>quisivit habitum ex frequenter
+            <lb ed="#V" n="48"/>parce agere. Patet etiam
+            inducen<lb ed="#V" n="49" break="no"/>do in vitiis, quia extrema inclinant
+            <lb ed="#V" n="50"/>potentias virtualiter ad habitus
+            si<lb ed="#V" n="51" break="no"/>bi conformes, sicut media ad actus
+            <lb ed="#V" n="52"/>sibi conformes, et ista inclinatio
+            <lb ed="#V" n="53"/>non est per solam privationem;
+            <lb ed="#V" n="54"/>sed quando sunt formae positivae
+            <lb ed="#V" n="55"/>oppositae, quarum una succedit
+            <lb ed="#V" n="56"/>alii, sunt aliae mutationes, quia
+            <lb ed="#V" n="57"/>quatuor termini, ut patet in
+            al<lb ed="#V" n="58" break="no"/>terationibus a contrario in
+            contra<lb ed="#V" n="59" break="no"/>rium.
+          </p>
+          <p>
+            <lb ed="#V" n="60"/>Item, generatio et corruptio
+            <lb ed="#V" n="61"/>sunt duae mutationes propter
+            <lb ed="#V" n="62"/>quatuor terminos, scilicet duas
+            <lb ed="#V" n="63"/>privationes et duas formas; sed
+            <lb ed="#V" n="64"/>hic est corruptio peccati quod
+            <lb ed="#V" n="65"/>infuit, et quaedam generatio in
+            <lb ed="#V" n="66"/>esse gratuito, quando gratia
+            infun<lb ed="#V" n="67" break="no"/>ditur; ergo duae mutationes.
+          </p>
+          <p>
+            <lb ed="#V" n="68"/>Item, dispositio et illud ad quod
+            <lb ed="#V" n="69"/>disponit, non sunt idem; expulsio
+            <lb ed="#V" n="70"/>culpae disponit ad infusionem
+            gra<lb ed="#V" n="71" break="no"/>tiae. Probatio, quia per
+            expulsi<lb ed="#V" n="72" break="no"/>onem culpae est non inimicus, per
+            <lb ed="#V" n="73"/>infusionem vero gratiae est
+            ami<lb ed="#V" n="74" break="no"/>cus; sed non esse inimicum
+            dispo<lb ed="#V" n="75" break="no"/>nit ad esse amicum, et posset ex
+            <lb ed="#V" n="76"/>hoc formari ratio principalis, quia
+            <lb ed="#V" n="77"/>non est idem desinere esse
+            inimi<lb ed="#V" n="78" break="no"/>cum, et incipere esse amicum; sed
+            <lb ed="#V" n="79"/>per expulsionem culpae desinit
+            es<lb ed="#V" n="80" break="no"/>se inimicus, per infusionem
+            gra<lb ed="#V" n="81" break="no"/>tiae incipit esse amicus; ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="82"/>Contra, si expulsio culpae sit alia
+            <lb ed="#V" n="83"/>mutatio ab infusione gratiae, aut
+            <lb ed="#V" n="84"/>ergo erit mutatio positiva, vel
+            pri<lb ed="#V" n="85" break="no"/>vativa, vel (ut alii loquuntur)
+            de<pb ed="#V" n="428"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>perditiva, vel acquisitiva. Non
+            ac<lb ed="#V" n="2" break="no"/>quisitiva, quia mutationis
+            positi<lb ed="#V" n="3" break="no"/>vae terminus ad quem est aliquid
+            <lb ed="#V" n="4"/>positivum; illius autem
+            expul<lb ed="#V" n="5" break="no"/>sionis terminus ad quem positivus
+            <lb ed="#V" n="6"/>non est alius a gratia. Nec
+            priva<lb ed="#V" n="7" break="no"/>tiva, quia tunc terminus a quo
+            es<lb ed="#V" n="8" break="no"/>set positivus. Sed culpa non est
+            <lb ed="#V" n="9"/>aliquid positivum; ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="10"/>Item, si sit alia mutatio haec
+            <lb ed="#V" n="11"/>et illa, aliquem ordinem habebunt
+            <lb ed="#V" n="12"/>inter se prioris et posterioris,
+            <lb ed="#V" n="13"/>quia ordinantur ad eumdem
+            fi<lb ed="#V" n="14" break="no"/>nem, et non ex aequo, quia non
+            <lb ed="#V" n="15"/>aeque immediate attingunt illum:
+            <lb ed="#V" n="16"/>sed non est ibi dare ordinem:
+            <lb ed="#V" n="17"/>ergo, etc. Probatio minoris, quia
+            <lb ed="#V" n="18"/>si expulsio esset prior natura,
+            er<lb ed="#V" n="19" break="no"/>go in illo priori esset ille amicus.
+            <lb ed="#V" n="20"/>et tamen non amicus, quia non
+            <lb ed="#V" n="21"/>habens gratiam, sine qua nullus
+            <lb ed="#V" n="22"/>est amicus. Si etiam infusio gratiae
+            <lb ed="#V" n="23"/>esset prior in illo priori, esset
+            <lb ed="#V" n="24"/>amicus, quia habens gratiam, et
+            <lb ed="#V" n="25"/>tamen inimicus, quia habens
+            <lb ed="#V" n="26"/>adhuc culpam.
+          </p>
+          <p>
+            <lb ed="#V" n="27"/>SCHOLIUM.
+            <lb ed="#V" n="28"/>Remissionem culpae, infusionem gratiae
+            <lb ed="#V" n="29"/>non esse unam mutationem. Primo, quia
+            pri<lb ed="#V" n="30" break="no"/>mum plurificari potest cum unitate secundi.
+            <lb ed="#V" n="31"/>Secundo, potest primum esse sine secundo, et
+            <lb ed="#V" n="32"/>e contra. Tertio, formaliter non repugnant
+            <lb ed="#V" n="33"/>culpa et gratia, alias posset creatura
+            annihi<lb ed="#V" n="34" break="no"/>lare gratiam; sed unica mutatio tantum est
+            <lb ed="#V" n="35"/>inter formaliter repugnantia. Quarto, una
+            <lb ed="#V" n="36"/>privatio non est nisi a propria privatione ad
+            <lb ed="#V" n="37"/>propriam formam. Vide Scot. supra, d. 1.
+            <lb ed="#V" n="38"/>quaest. 6. 8 Contra istam. et dist. 14. q. 1.
+            <lb ed="#V" n="39"/>art. 2. et 2. dist. 28. quaest. 1.
+          </p>
+          <p>
+            <lb ed="#V" n="40"/>Respondeo (a), haec sit prima
+            <lb ed="#V" n="41"/>conclusio, quod infusio gratiae et
+            <lb ed="#V" n="42"/>expulsio culpae, seu magis
+            pro<lb ed="#V" n="43" break="no"/>prie loquendo, remissio culpae,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="44"/>non sunt simpliciter una mutatio.
+            <lb ed="#V" n="45"/>Hoc probatur quadrupliciter:
+            Pri<lb ed="#V" n="46" break="no"/>mo sic, idem simpliciter non
+            <lb ed="#V" n="47"/>potest plurificari, et non
+            plurifi<lb ed="#V" n="48" break="no"/>cari simul; et hoc accipiendo
+            uni<lb ed="#V" n="49" break="no"/>formiter identitatem et
+            plurifica<lb ed="#V" n="50" break="no"/>tionem, puta si realiter, realit er,
+            <lb ed="#V" n="51"/>et si ratione, ratione. Hoc enim
+            <lb ed="#V" n="52"/>includit oppositum primi
+            princi<lb ed="#V" n="53" break="no"/>pii, quia idem, ut est idem, esset
+            <lb ed="#V" n="54"/>unum et non unum; sed
+            remissi<lb ed="#V" n="55" break="no"/>ones culparum sunt multae, quando
+            <lb ed="#V" n="56"/>non est nisi una infusio gratiae; eo
+            <lb ed="#V" n="57"/>enim modo quo quis dicitur
+            pec<lb ed="#V" n="58" break="no"/>cator post actum peccati
+            trans<lb ed="#V" n="59" break="no"/>euntem, dicitur peccator a multis
+            <lb ed="#V" n="60"/>culpis postquam multas
+            commi<lb ed="#V" n="61" break="no"/>sit; et illarum quaelibet habet
+            pro<lb ed="#V" n="62" break="no"/>priam remissionem, quia quaelibet
+            <lb ed="#V" n="63"/>remissio posset esse sine alia, si
+            <lb ed="#V" n="64"/>tantum illam culpam commisisset,
+            <lb ed="#V" n="65"/>et non aliam.
+          </p>
+          <p>
+            <lb ed="#V" n="66"/>Item secundo sic: idem non
+            sepa<lb ed="#V" n="67" break="no"/>ratur ab eodem, accipiendo
+            uni<lb ed="#V" n="68" break="no"/>formiter identitatem et
+            separati<lb ed="#V" n="69" break="no"/>onem, puta si realiter, realiter,
+            <lb ed="#V" n="70"/>et si ratione, ratione ( quia etiam
+            <lb ed="#V" n="71"/>hoc includit oppositum primi
+            prin<lb ed="#V" n="72" break="no"/>cipii, scilicet quod idem, ut est
+            <lb ed="#V" n="73"/>idem, simul sit et non sit); sed
+            re<lb ed="#V" n="74" break="no"/>missio culpae et infusio gratiae
+            <lb ed="#V" n="75"/>possunt ab invicem separari.
+            Pro<lb ed="#V" n="76" break="no"/>batur tam comparando primum
+            <lb ed="#V" n="77"/>ad secundum, quam e converso;
+            <lb ed="#V" n="78"/>posset enim in statu innocentiae in
+            <lb ed="#V" n="79"/>genere humano, ( et ita factum
+            <lb ed="#V" n="80"/>est in Angelis, qui non
+            peccave<lb ed="#V" n="81" break="no"/>runt) gratia infundi absque culpae
+            <lb ed="#V" n="82"/>remissione, quia nulla culpa
+            in<lb ed="#V" n="83" break="no"/>fuit. Similiter potest culpa
+            remit<lb ed="#V" n="84" break="no"/>ti absque hoc quod gratia
+            infunda<lb ed="#V" n="85" break="no"/>tur; potest enim Deus de
+            poten<lb ed="#V" n="86" break="no"/>tia absoluta hominem creare in
+            <lb ed="#V" n="87"/>puris naturalibus sine culpa et
+            si<pb ed="#V" n="429"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>ne gratia; ergo et post lapsum
+            ta<lb ed="#V" n="2" break="no"/>lem reparare, et ita remittere
+            cul<lb ed="#V" n="3" break="no"/>pam sine infusione gratiae.
+            Evi<lb ed="#V" n="4" break="no"/>dentia istius rationis patet supra
+            <lb ed="#V" n="5"/>in quaestione de Circumcisione, dist. 1.
+          </p>
+          <p>
+            <lb ed="#V" n="6"/>Tertio sic: culpa et gratia non
+            <lb ed="#V" n="7"/>sunt formaliter opposita, nec
+            for<lb ed="#V" n="8" break="no"/>maliter repugnantia. Probatio,
+            <lb ed="#V" n="9"/>quia tunc agens effective vel
+            de<lb ed="#V" n="10" break="no"/>fective potens super esse unius,
+            <lb ed="#V" n="11"/>posset effective vel defective
+            <lb ed="#V" n="12"/>super non esse alterius, ut patet
+            <lb ed="#V" n="13"/>universaliter in
+            incompossibili<lb ed="#V" n="14" break="no"/>bus. Voluntas autem creata potest
+            <lb ed="#V" n="15"/>effective vel defective super esse
+            <lb ed="#V" n="16"/>culpae, quia ab ipsa est culpa;
+            er<lb ed="#V" n="17" break="no"/>go ipsa posset effective vel
+            defe<lb ed="#V" n="18" break="no"/>ctive super non esse gratiae, quod
+            <lb ed="#V" n="19"/>est falsum, quia gratia non
+            de<lb ed="#V" n="20" break="no"/>stuitur nisi annihiletur; sed
+            cre<lb ed="#V" n="21" break="no"/>atura non potest aliquid
+            annihila<lb ed="#V" n="22" break="no"/>re. Patet ergo prima propositio,
+            <lb ed="#V" n="23"/>scilicet quod non est formaliter
+            <lb ed="#V" n="24"/>repugnantia inter culpam et
+            gra<lb ed="#V" n="25" break="no"/>tiam; sed non est unica mutatio ab
+            <lb ed="#V" n="26"/>aliquo, ut a termino a quo, ad aliud
+            <lb ed="#V" n="27"/>ut ad terminum ad quem, nisi illa
+            <lb ed="#V" n="28"/>sint formaliter repugnantia;
+            er<lb ed="#V" n="29" break="no"/>go, etc,
+          </p>
+          <p>
+            <lb ed="#V" n="30"/>Quarto sic: una mutatio non
+            <lb ed="#V" n="31"/>est ad formam positivam, nisi a
+            <lb ed="#V" n="32"/>propria privatione ejus; culpa, ut
+            <lb ed="#V" n="33"/>ab ea post actum dicitur aliquis
+            <lb ed="#V" n="34"/>peccator, non est propria privatio
+            <lb ed="#V" n="35"/>gratiae, quia unica gratia non
+            ha<lb ed="#V" n="36" break="no"/>bet nisi unicam privationem;
+            <lb ed="#V" n="37"/>multae autem sunt culpae hoc
+            mo<lb ed="#V" n="38" break="no"/>do, ut dictum est in prima ratione.
+            <lb ed="#V" n="39"/>Nec valet instantia contra
+            majo<lb ed="#V" n="40" break="no"/>rem, quod aliqua mutatio habet
+            <lb ed="#V" n="41"/>utrumque terminum positivum,
+            <lb ed="#V" n="42"/>quia istius mutationis, quae est ad
+            <lb ed="#V" n="43"/>gratiam, per se terminus a quo est
+            <lb ed="#V" n="44"/>privatio, et per consequens
+            pro<lb ed="#V" n="45" break="no"/>pria privatio termini ad quem.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d16q2-p2"> -->
+          <p>
+            <lb ed="#V" n="63" type="fixed=473"/>SCHOLIUM.
+            <lb ed="#V" n="64"/>Remissionem culpae et infusionem
+            gra<lb ed="#V" n="65" break="no"/>tiae non esse duas mutationes reales, quia
+            <lb ed="#V" n="66"/>prima non est realis, quia non est ad formam
+            <lb ed="#V" n="67"/>positivam, nec necessario tollit positivum
+            <lb ed="#V" n="68"/>reale; et hic habes ex Scoto rectitudinem
+            <lb ed="#V" n="69"/>non esse quid reale. Declarat hic Doctor quod
+            <lb ed="#V" n="70"/>dist. 14. quaest. 1. art. 1. dixit de macula
+            <lb ed="#V" n="71"/>manente post actum peccati, negans eam
+            <lb ed="#V" n="72"/>dari, et intelligit per eam aliquid reale, a
+            <lb ed="#V" n="73"/>quo daretur mutatio realis ad ejus carentiam.
+            <lb ed="#V" n="74"/>Ex quo patet Doct. non negare maculam, seu
+            <lb ed="#V" n="75"/>habituale peccatum manere in vero sensu, id
+            <lb ed="#V" n="76"/>est, ipsum actuale non remissum; sed tantum
+            <lb ed="#V" n="77"/>negat aliquid medium reale inter actuale, et
+            <lb ed="#V" n="78"/>relationem ad poenam; de quo notavi dist. 14.
+            <lb ed="#V" n="79"/>q. 1. art. 1. Longam habet disputationem, an
+            <lb ed="#V" n="80"/>daretur transitus a contradictorio in
+            contra<lb ed="#V" n="81" break="no"/>dictorium, sine mutatione, si Deus remitteret
+            <lb ed="#V" n="82"/>peccatum, sine ullo positivo posito in
+            pecca<lb ed="#V" n="83" break="no"/>tore; et hic videtur negare mutationem etiam
+            <lb ed="#V" n="84"/>rationis in hoc transitu. In primo tamen
+            <lb ed="#V" n="85"/>dist. 30. n. 11. et alibi saepius eam admittit,
+            <lb ed="#V" n="86"/>sed concordia facilis est, quia hic ad
+            muta<lb ed="#V" n="87" break="no"/>tionem rationis petit mutationem realem in
+            <lb ed="#V" n="88"/>altero extremorum, alibi non.
+          </p>
+          <p>
+            <lb ed="#V" n="89"/>Secunda (b) conclusio est haec;
+            <lb ed="#V" n="90"/>Infusio gratiae et remissio culpae
+            <pb ed="#V" n="474"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>non sunt duae mutationes reales.
+            <lb ed="#V" n="2"/>Hoc probatur, quia infusio gratiae
+            <lb ed="#V" n="3"/>est mutatio realis, quia est inter
+            <lb ed="#V" n="4"/>privationem formae realis ad
+            for<lb ed="#V" n="5" break="no"/>mam illam; remissio autem culpae
+            <lb ed="#V" n="6"/>non est mutatio realis; ergo, etc.
+            <lb ed="#V" n="7"/>Major hujus est probata, et ex
+            <lb ed="#V" n="8"/>hoc patet, quia hic est una
+            muta<lb ed="#V" n="9" break="no"/>tio realis. Minor indiget
+            probati<lb ed="#V" n="10" break="no"/>one. Ubi est (c) intelligendum, quod
+            <lb ed="#V" n="11"/>si poneretur peccatum actuale, esse
+            <lb ed="#V" n="12"/>corruptionem vel privationem
+            for<lb ed="#V" n="13" break="no"/>maliter alicujus gradus naturae, vel
+            <lb ed="#V" n="14"/>rectitudinis naturalis, vel
+            cujus<lb ed="#V" n="15" break="no"/>cumque positivi proprii, tunc
+            ex<lb ed="#V" n="16" break="no"/>pulsio culpae esset restitutio istius
+            <lb ed="#V" n="17"/>positivi, quod culpa privabat; et
+            <lb ed="#V" n="18"/>tunc posset illa expulsio esse
+            mu<lb ed="#V" n="19" break="no"/>tatio realis et positiva a
+            priva<lb ed="#V" n="20" break="no"/>tione rectitudinis hujus ad ipsam
+            <lb ed="#V" n="21"/>rectitudinem. Sed hoc est
+            impro<lb ed="#V" n="22" break="no"/>batum 2. lib. dist. 35. quia natura
+            <lb ed="#V" n="23"/>intellectualis est incorruptibilis
+            <lb ed="#V" n="24"/>per quamcumque actionem sui; et
+            <lb ed="#V" n="25"/>sicut tota natura, ita et
+            quicum<lb ed="#V" n="26" break="no"/>que gradus, quia si unus gradus
+            <lb ed="#V" n="27"/>posset corrumpi ab illa natura
+            <lb ed="#V" n="28"/>per aliquam actionem sui,
+            seque<lb ed="#V" n="29" break="no"/>retur quod per actiones aliquoties
+            <lb ed="#V" n="30"/>iteratas posset totaliter
+            corrum<lb ed="#V" n="31" break="no"/>pi. Unde illud Augustini Enchir.
+            <lb ed="#V" n="32"/>Peccatum in tantum est malum,
+            inquan<lb ed="#V" n="33" break="no"/>tum adimit de bono, debet intelligi
+            <lb ed="#V" n="34"/>non quod adimat de bonitate
+            natu<lb ed="#V" n="35" break="no"/>rae in esse primo, quia defectus
+            ef<lb ed="#V" n="36" break="no"/>fectus contingentis non repugnat
+            <lb ed="#V" n="37"/>esse quia, nec repugnat effectui
+            <lb ed="#V" n="38"/>contingenti, cui magis videretur
+            <lb ed="#V" n="39"/>repugnare; sed debet intelligi de
+            <lb ed="#V" n="40"/>adimere bonum in actu secundo,
+            <lb ed="#V" n="41"/>non quidem quod inest, sed quod
+            <lb ed="#V" n="42"/>deberet inesse.
+          </p>
+          <p>
+            <lb ed="#V" n="43"/>Si etiam (d) poneretur, quod
+            ali<lb ed="#V" n="44" break="no"/>qua macula remaneat in anima,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>propria peccato actuali, et quod
+            <lb ed="#V" n="46"/>illa expelleretur in poenitentia,
+            <lb ed="#V" n="47"/>tunc posset poni remissio culpae
+            <lb ed="#V" n="48"/>mutatio realis ab illa culpa ad
+            ca<lb ed="#V" n="49" break="no"/>rentiam ejus; sed hoc est
+            impro<lb ed="#V" n="50" break="no"/>batum supra dist. 14. quoest. 1. art. 1.
+            <lb ed="#V" n="51"/>ubi ostensum est, quod post actum
+            <lb ed="#V" n="52"/>culpae transeuntem interiorem et
+            <lb ed="#V" n="53"/>exteriorem, praeter injustitiam
+            <lb ed="#V" n="54"/>habitualem, quae est carentia
+            gra<lb ed="#V" n="55" break="no"/>tiae, et unica, in una anima, non
+            <lb ed="#V" n="56"/>remanet aliqua injustitia actualis
+            <lb ed="#V" n="57"/>propria, a qua dicatur peccator
+            <lb ed="#V" n="58"/>tali peccato, quia non est
+            imme<lb ed="#V" n="59" break="no"/>diate receptiva illius obliquitatis,
+            <lb ed="#V" n="60"/>quae nata est esse in peccato
+            ac<lb ed="#V" n="61" break="no"/>tuali, sed tantum mediante actu,
+            <lb ed="#V" n="62"/>in quo proximo sit illa obliquitas;
+            <lb ed="#V" n="63"/>ergo post actum transeuntem
+            <lb ed="#V" n="64"/>tantum remanet anima obligata
+            <lb ed="#V" n="65"/>ad poenam propriam
+            correspon<lb ed="#V" n="66" break="no"/>dentem illi culpae commissae; et
+            <lb ed="#V" n="67"/>ista obligatio dicitur reatus ille,
+            <lb ed="#V" n="68"/>qui manet in anima, postquam
+            <lb ed="#V" n="69"/>transit actus peccati intrinseci et
+            <lb ed="#V" n="70"/>extrinseci.
+          </p>
+          <p>
+            <lb ed="#V" n="71"/>Ex (e) hoc potest probari minor
+            <lb ed="#V" n="72"/>rationis illius praeacceptae sic:
+            <lb ed="#V" n="73"/>obligatio ad poenam pro culpa
+            <lb ed="#V" n="74"/>commissa non est aliquid reale in
+            <lb ed="#V" n="75"/>anima post actum praeteritum, sed
+            <lb ed="#V" n="76"/>est tantum relatio rationis in
+            <lb ed="#V" n="77"/>objecto volito, ut volitum est;
+            <lb ed="#V" n="78"/>ergo remissio, quae est ab
+            obliga<lb ed="#V" n="79" break="no"/>tione ista ad non obligationem,
+            <lb ed="#V" n="80"/>non est mutatio realis.
+            Conse<lb ed="#V" n="81" break="no"/>quentia patet, quia non est
+            muta<lb ed="#V" n="82" break="no"/>tio realis, nisi sit in terminum
+            <lb ed="#V" n="83"/>realem positivum, vel privationem
+            <lb ed="#V" n="84"/>realem. Antecedens declaratur,
+            <lb ed="#V" n="85"/>quia sicut volitum a me, per hoc
+            <lb ed="#V" n="86"/>quod est a me volitum, nullam
+            <lb ed="#V" n="87"/>habet formam realem novam
+            ab<lb ed="#V" n="88" break="no"/>solutam vel relativam, sed tantum
+            <pb ed="#V" n="475"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>relationem rationis
+            corresponden<lb ed="#V" n="2" break="no"/>tem reali volitioni in me, ita per
+            <lb ed="#V" n="3"/>hoc quod aliquis est volitus vel
+            <lb ed="#V" n="4"/>ordinatus ad poenam voluntate
+            di<lb ed="#V" n="5" break="no"/>vina, postquam commisit culpam,
+            <lb ed="#V" n="6"/>cum culpa non remaneat, nec
+            <lb ed="#V" n="7"/>aliquod reale positivum, vel
+            pri<lb ed="#V" n="8" break="no"/>vativum, nec alia relatio realis
+            <lb ed="#V" n="9"/>fundata super culpam remanebit,
+            <lb ed="#V" n="10"/>sed tantum rationis; et hoc
+            indiffe<lb ed="#V" n="11" break="no"/>renter accipiendo relationem
+            rati<lb ed="#V" n="12" break="no"/>onis pro objecto volito, sicut pro
+            <lb ed="#V" n="13"/>objecto intellecto, ut dictum est in
+            <lb ed="#V" n="14"/>primo lib. dist. 45. quaest. 1. quia non
+            <lb ed="#V" n="15"/>magis est realis collatio objecti
+            <lb ed="#V" n="16"/>voliti per actum voluntatis ad
+            <lb ed="#V" n="17"/>aliud quam comparatio objecti
+            <lb ed="#V" n="18"/>intellecti ad aliud per actum
+            <lb ed="#V" n="19"/>intellectus.
+          </p>
+          <p>
+            <lb ed="#V" n="20"/>Contra hoc (f), non est
+            transi<lb ed="#V" n="21" break="no"/>tus a contradictorio in
+            contradi<lb ed="#V" n="22" break="no"/>ctorium sine aliqua mutatione;
+            <lb ed="#V" n="23"/>sed quando isti remittitur culpa,
+            <lb ed="#V" n="24"/>est transitus talis, quia ante
+            remis<lb ed="#V" n="25" break="no"/>sionem iste est ordinatus ad poenam
+            <lb ed="#V" n="26"/>et dignus poena, et post non;
+            er<lb ed="#V" n="27" break="no"/>go, etc. Major patet, quia si nulla
+            <lb ed="#V" n="28"/>est mutatio, non est ratio quare
+            <lb ed="#V" n="29"/>magis nunc pars una
+            contradicti<lb ed="#V" n="30" break="no"/>onis est vera quam alia, et prius
+            <lb ed="#V" n="31"/>alia vera magis quam nunc; et
+            <lb ed="#V" n="32"/>potest haec probatio ulterius
+            dedu<lb ed="#V" n="33" break="no"/>ci, quod talis transitus non potest
+            <lb ed="#V" n="34"/>esse sine mutatione reali, quia
+            <lb ed="#V" n="35"/>mutatio rationis oportet quod
+            re<lb ed="#V" n="36" break="no"/>ducatur ad aliquam mutationem
+            <lb ed="#V" n="37"/>realem. Minor probatur, quia
+            an<lb ed="#V" n="38" break="no"/>tequam culpa remittatur, iste est
+            <lb ed="#V" n="39"/>ordinatus ad poenam et dignus
+            <lb ed="#V" n="40"/>poena; quando remittitur, non
+            or<lb ed="#V" n="41" break="no"/>dinatur ad poenam, nec dignus
+            <lb ed="#V" n="42"/>poena.
+          </p>
+          <p>
+            <lb ed="#V" n="43"/>Et confirmatur, quia ante
+            remis<lb ed="#V" n="44" break="no"/>sionem, intellectus divinus scit
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>ipsum esse puniendum; ergo illud
+            <lb ed="#V" n="46"/>scitum est verum; post
+            remissi<lb ed="#V" n="47" break="no"/>onem autem scit illum non esse
+            <lb ed="#V" n="48"/>puniendum; ergo illud est verum,
+            <lb ed="#V" n="49"/>ergo est transitus. Et potest argui
+            <lb ed="#V" n="50"/>ex conclusione probata ulterius,
+            <lb ed="#V" n="51"/>quia cum ista mutatio non sit in
+            <lb ed="#V" n="52"/>voluntate divina, nec in actu ejus,
+            <lb ed="#V" n="53"/>ergo erit in isto cui culpa
+            remit<lb ed="#V" n="54" break="no"/>titur, et per consequens remissio
+            <lb ed="#V" n="55"/>culpae in isto, secundum propriam
+            <lb ed="#V" n="56"/>rationem ejus est aliqua mutatio.
+          </p>
+          <p>
+            <lb ed="#V" n="57"/>Respondeo (g), hic primo
+            viden<lb ed="#V" n="58" break="no"/>dum est aliquid de voluntate
+            cre<lb ed="#V" n="59" break="no"/>ata, postea ad propositum
+            appli<lb ed="#V" n="60" break="no"/>candum. Voluntas autem creata,
+            <lb ed="#V" n="61"/>licet non possit simul velle
+            affir<lb ed="#V" n="62" break="no"/>mationem et negationem eidem
+            <lb ed="#V" n="63"/>pro simul, tamen potest non
+            si<lb ed="#V" n="64" break="no"/>mul velle illa eidem pro simul,
+            <lb ed="#V" n="65"/>scilicet per diversos actus sibi
+            in<lb ed="#V" n="66" break="no"/>vicem succedentes, et potest simul
+            <lb ed="#V" n="67"/>velle illa eidem non pro simul,
+            <lb ed="#V" n="68"/>et hoc eidem nullo modo in se
+            va<lb ed="#V" n="69" break="no"/>riato ante terminum volitionis.
+            <lb ed="#V" n="70"/>Patet, si simul consideret idem pro
+            <lb ed="#V" n="71"/>diversis nunc, et pro illis
+            opposi<lb ed="#V" n="72" break="no"/>ta sibi competere, sed nec necesse
+            <lb ed="#V" n="73"/>est illud cui vult affirmationem et
+            <lb ed="#V" n="74"/>negationem, pro diversis nunc
+            va<lb ed="#V" n="75" break="no"/>riari ex illa volitione, nisi illa sit
+            <lb ed="#V" n="76"/>causa sufficiens illorum
+            opposito<lb ed="#V" n="77" break="no"/>rum, et sit volitio absoluta, non
+            <lb ed="#V" n="78"/>conditionata. Si enim non posset
+            <lb ed="#V" n="79"/>esse causa illorum, et sit volitio
+            <lb ed="#V" n="80"/>absoluta, utpote si ambo non sint
+            <lb ed="#V" n="81"/>causabilia extra, quia sunt tantum
+            <lb ed="#V" n="82"/>entia rationis, ut volo huic
+            do<lb ed="#V" n="83" break="no"/>minium, vel aliquid tale, quod
+            <lb ed="#V" n="84"/>non est causabile realiter in illo;
+            <lb ed="#V" n="85"/>vel si illud volitum isti est
+            cau<lb ed="#V" n="86" break="no"/>sabile, non tamen ab hac
+            volun<lb ed="#V" n="87" break="no"/>tate, ut volo isti beatitudinem, quae
+            <lb ed="#V" n="88"/>est quoddam reale causabile in
+            <pb ed="#V" n="476"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>isto, non tamen a voluntate mea.
+            <lb ed="#V" n="2"/>Si etiam sit causabile realiter in
+            <lb ed="#V" n="3"/>isto, et a voluntate mea imperante
+            <lb ed="#V" n="4"/>causabile illud, velim tamen isti
+            <lb ed="#V" n="5"/>conditionaliter pro 4, et
+            opposi<lb ed="#V" n="6" break="no"/>tum pro B conditionaliter, nec
+            <lb ed="#V" n="7"/>oportet hoc oppositum pro 4, nec
+            <lb ed="#V" n="8"/>illud pro B inesse isti, nisi
+            con<lb ed="#V" n="9" break="no"/>ditio stet pro utroque vel altero.
+          </p>
+          <p>
+            <lb ed="#V" n="10"/>Ad propositum, quaecumque
+            ab<lb ed="#V" n="11" break="no"/>soluta objecta, exceptis peccatis et
+            <lb ed="#V" n="12"/>generaliter inordinate volitis,
+            vo<lb ed="#V" n="13" break="no"/>luntas creata potest velle pro
+            eo<lb ed="#V" n="14" break="no"/>dem nunc, vel pro alio et alio, et hoc,
+            <lb ed="#V" n="15"/>sive uno actu, sive diversis,
+            volun<lb ed="#V" n="16" break="no"/>tas divina potest uno actu vel
+            eli<lb ed="#V" n="17" break="no"/>dem pro eisdem nunc una volitione
+            <lb ed="#V" n="18"/>realiter, sed diversis secundum
+            <lb ed="#V" n="19"/>rationem, quia voluntatem esse
+            <lb ed="#V" n="20"/>limitatam ad aliqua objecta
+            secun<lb ed="#V" n="21" break="no"/>daria praecise, ita quod in alia non
+            <lb ed="#V" n="22"/>possit, est imperfectionis in
+            volun<lb ed="#V" n="23" break="no"/>tate; et per consequens pro diversis
+            <lb ed="#V" n="24"/>instantibus potest velle
+            affirmati<lb ed="#V" n="25" break="no"/>onem et negationem isti nullo
+            mo<lb ed="#V" n="26" break="no"/>do in se variato ante actum
+            voliti<lb ed="#V" n="27" break="no"/>onis; et hoc magis potest, quam
+            <lb ed="#V" n="28"/>voluntas creata, quia minus
+            <lb ed="#V" n="29"/>dependet aeternum a temporali,
+            <lb ed="#V" n="30"/>quam actus temporalis a
+            tempo<lb ed="#V" n="31" break="no"/>rali, imo non dependet. Quod si
+            <lb ed="#V" n="32"/>illa affirmatio et negatio, qua vult
+            <lb ed="#V" n="33"/>illa voluntas isti non variato in
+            <lb ed="#V" n="34"/>se, unum pro 4, et alterum pro B
+            <lb ed="#V" n="35"/>sint simpliciter causabilia, quia
+            <lb ed="#V" n="36"/>sunt realia, sequitur quod sunt
+            cau<lb ed="#V" n="37" break="no"/>sabilia a voluntate divina, quia est
+            <lb ed="#V" n="38"/>omnipotens. Sed si non sint
+            causa<lb ed="#V" n="39" break="no"/>bilia, vel voluntas illa velit tantum
+            <lb ed="#V" n="40"/>alterum, vel ambo conditionaliter,
+            <lb ed="#V" n="41"/>sequitur quod illa voluntas volet
+            <lb ed="#V" n="42"/>isti unum oppositum pro 4, et
+            ali<lb ed="#V" n="43" break="no"/>ud pro B, et sine omni istius
+            muta<lb ed="#V" n="44" break="no"/>tione, sine etiam omni mutatione
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>sui in se, et in actu suo, et sine
+            <lb ed="#V" n="46"/>mutatione objecti, ut objectum est,
+            <lb ed="#V" n="47"/>quia et volitio et objectum ut
+            vo<lb ed="#V" n="48" break="no"/>luntati objicitur, habet esse in
+            aeter<lb ed="#V" n="49" break="no"/>nitate, nec posset objectum variari,
+            <lb ed="#V" n="50"/>ut objicitur actui sine variatione
+            <lb ed="#V" n="51"/>actus.
+          </p>
+          <p>
+            <lb ed="#V" n="52"/>Ex hoc ergo sequitur quod
+            vo<lb ed="#V" n="53" break="no"/>luntas divina potest velle isti
+            affir<lb ed="#V" n="54" break="no"/>mationem (dicatur C) pro instanti
+            <lb ed="#V" n="55"/>4, et eidem negationem (dicatur D)
+            <lb ed="#V" n="56"/>pro instanti B absque omni
+            muta<lb ed="#V" n="57" break="no"/>tione in voluntate divina, vel in
+            ob<lb ed="#V" n="58" break="no"/>jecto, ut objectum est, vel aliquo
+            <lb ed="#V" n="59"/>extra; et hoc si inter illa opposita
+            <lb ed="#V" n="60"/>non sit nata esse mutatio, puta
+            <lb ed="#V" n="61"/>quia affirmatio non est, nisi tantum
+            <lb ed="#V" n="62"/>affirmatio rationis, et per
+            conse<lb ed="#V" n="63" break="no"/>quens negatio est tantum negatio
+            <lb ed="#V" n="64"/>entis rationis; vel si voluntas non
+            <lb ed="#V" n="65"/>velit illa, nisi tantum
+            conditionali<lb ed="#V" n="66" break="no"/>ter, vel ambo, vel alterum. Sed
+            <lb ed="#V" n="67"/>quia nullum ens rationis est
+            no<lb ed="#V" n="68" break="no"/>vum, nisi per novum actum
+            vo<lb ed="#V" n="69" break="no"/>luntatis vel intellectus, ista
+            condi<lb ed="#V" n="70" break="no"/>tio, scilicet de ente rationis, non
+            <lb ed="#V" n="71"/>salvat transitum a contradictorio
+            <lb ed="#V" n="72"/>in contradictorium sine
+            mutati<lb ed="#V" n="73" break="no"/>one, licet non inter illa quae sunt
+            <lb ed="#V" n="74"/>rationis, tamen inter actum et
+            <lb ed="#V" n="75"/>non actum; propter ergo
+            omnipo<lb ed="#V" n="76" break="no"/>tentiam voluntatis divinae, nullo
+            <lb ed="#V" n="77"/>modo potest velle isti C pro 4,
+            <lb ed="#V" n="78"/>et D pro B sine mutatione aliqua in
+            <lb ed="#V" n="79"/>isto. Et hoc si velit illa volitione
+            <lb ed="#V" n="80"/>efficaci et absoluta; sed si velit
+            <lb ed="#V" n="81"/>ambo, vel alterum conditionaliter,
+            <lb ed="#V" n="82"/>et conditio non existat, nec tunc
+            <lb ed="#V" n="83"/>requiritur mutatio; voluntas
+            au<lb ed="#V" n="84" break="no"/>tem creata, quia non est
+            omnipo<lb ed="#V" n="85" break="no"/>tens, potest absolute velle eidem
+            <lb ed="#V" n="86"/>non variato C pro 4, et D pro B,
+            <lb ed="#V" n="87"/>et sine aliqua mutatione
+            praece<lb ed="#V" n="88" break="no"/>dente vel sequente.
+          </p>
+          <p>
+            <pb ed="#V" n="477"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Ad (h) formam ergo rationis
+            <lb ed="#V" n="2"/>concedo majorem, proprie
+            accipi<lb ed="#V" n="3" break="no"/>endo transitum; sed minorem isto
+            <lb ed="#V" n="4"/>modo nego, quia voluntas divina
+            <lb ed="#V" n="5"/>pro instanti pro quo iste peccat,
+            <lb ed="#V" n="6"/>et pro toto tempore habito usque
+            <lb ed="#V" n="7"/>ad instans B, vult illum esse
+            puni<lb ed="#V" n="8" break="no"/>endum, non prout puniendum est
+            <lb ed="#V" n="9"/>participium futuri temporis
+            pas<lb ed="#V" n="10" break="no"/>sivi, sed prout est nomen, id
+            <lb ed="#V" n="11"/>est, vult illum esse dignum puniri,
+            <lb ed="#V" n="12"/>quod nihil aliud est nisi velle
+            pu<lb ed="#V" n="13" break="no"/>nire istum pro tunc, et hoc
+            voli<lb ed="#V" n="14" break="no"/>tione conditionata, videlicet si fiat
+            <lb ed="#V" n="15"/>in termino; vel si in instanti B
+            poe<lb ed="#V" n="16" break="no"/>niteat, vult istum pro tunc, et pro
+            <lb ed="#V" n="17"/>toto tempore habito usque ad
+            in<lb ed="#V" n="18" break="no"/>stans novi peccati non esse
+            puni<lb ed="#V" n="19" break="no"/>endum, quod est velle istum
+            condi<lb ed="#V" n="20" break="no"/>onabiliter non punire, si fiat in
+            <lb ed="#V" n="21"/>termino. Hic ergo non est
+            transi<lb ed="#V" n="22" break="no"/>tus aliquis ab uno opposito in
+            <lb ed="#V" n="23"/>aliud oppositum, sed hic est
+            cir<lb ed="#V" n="24" break="no"/>ca idem objectum velle
+            conditi<lb ed="#V" n="25" break="no"/>onatum affirmationis pro uno
+            in<lb ed="#V" n="26" break="no"/>stanti, et velle conditionatum
+            <lb ed="#V" n="27"/>negationis pro alio instanti; et
+            <lb ed="#V" n="28"/>ista duo velle in aeternitate simul
+            <lb ed="#V" n="29"/>stant, et circa objectum in
+            aeterni<lb ed="#V" n="30" break="no"/>tate volitum, licet non pro
+            aeter<lb ed="#V" n="31" break="no"/>nitate, sed pro alio et alio nunc.
+          </p>
+          <p>
+            <lb ed="#V" n="32"/>Per hoc patet ad illam
+            probati<lb ed="#V" n="33" break="no"/>onem de intellectu divino, qui scit
+            <lb ed="#V" n="34"/>istum ante remissionem esse
+            di<lb ed="#V" n="35" break="no"/>gnum poena, et post remissionem
+            <lb ed="#V" n="36"/>non esse dignum, hoc enim non
+            <lb ed="#V" n="37"/>est aliud, quam scire istum esse
+            <lb ed="#V" n="38"/>ordinatum ad poenam per actum
+            <lb ed="#V" n="39"/>voluntatis conditionatum pro illo
+            <lb ed="#V" n="40"/>instanti, pro quo sic est ordinatus,
+            <lb ed="#V" n="41"/>et non ordinatum pro illo instanti,
+            <lb ed="#V" n="42"/>pro quo sic non est ordinatus.
+          </p>
+          <p>
+            <lb ed="#V" n="43"/>Si (i) arguas, quod omnimoda
+            <lb ed="#V" n="44"/>simultas est incompossibilis, quia
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>tunc simul vellet opposita, et pro
+            <lb ed="#V" n="46"/>simul; necessario ergo requiritur
+            <lb ed="#V" n="47"/>ibi ultra aliqua successio, et pro
+            <lb ed="#V" n="48"/>tanto aliqua mutatio. Respondeo,
+            <lb ed="#V" n="49"/>non requiritur aliqua successio
+            <lb ed="#V" n="50"/>actus ad actum, neque actus, ut
+            <lb ed="#V" n="51"/>tendit super objectum, ad actum,
+            <lb ed="#V" n="52"/>ut tendit super aliud objectum quia
+            <lb ed="#V" n="53"/>in aeternitate tendit super
+            utrum<lb ed="#V" n="54" break="no"/>que, sed nec successio unius
+            obje<lb ed="#V" n="55" break="no"/>cti ad alterum in se extra, quia
+            <lb ed="#V" n="56"/>non requiritur ad istam Dei
+            voli<lb ed="#V" n="57" break="no"/>tionem existentia rei extra, sicut
+            <lb ed="#V" n="58"/>nec temporale ad aeternum; sed
+            <lb ed="#V" n="59"/>requiritur ibi aliqua successio
+            eo<lb ed="#V" n="60" break="no"/>rum, quae sunt objecta in esse
+            obje<lb ed="#V" n="61" break="no"/>ctivo. Nec hoc est idem sic habere
+            <lb ed="#V" n="62"/>ordinem, et habere ordinem in
+            ob<lb ed="#V" n="63" break="no"/>jici, quia prius ut prius, et
+            poste<lb ed="#V" n="64" break="no"/>rius ut posterius possunt simul
+            <lb ed="#V" n="65"/>intelligi, ita quod in objici ipsi
+            in<lb ed="#V" n="66" break="no"/>tellectui non habet ordinem, et
+            <lb ed="#V" n="67"/>tamen ordo est ipsorum, ut sunt
+            <lb ed="#V" n="68"/>objecta, scilicet in esse eorum
+            ob<lb ed="#V" n="69" break="no"/>jectivo. Nec ex isto ordine
+            obje<lb ed="#V" n="70" break="no"/>ctorum in esse objectivo sequitur
+            <lb ed="#V" n="71"/>aliqua mutatio, quia oppositum
+            <lb ed="#V" n="72"/>non succedit opposito, neque in
+            co<lb ed="#V" n="73" break="no"/>gnosci, neque in esse.
+          </p>
+          <p>
+            <lb ed="#V" n="74"/>Si (k) arguas contra hoc, quia
+            <lb ed="#V" n="75"/>semper stat difficultas rationis,
+            <lb ed="#V" n="76"/>quia primo est una pars
+            contra<lb ed="#V" n="77" break="no"/>dictionis vera, scilicet, iste est
+            <lb ed="#V" n="78"/>ordinatus ad poenam; secundo,
+            al<lb ed="#V" n="79" break="no"/>tera, scilicet, iste non est
+            ordina<lb ed="#V" n="80" break="no"/>tus ad poenam; sed non est
+            transi<lb ed="#V" n="81" break="no"/>tus a contradictorio in
+            contradi<lb ed="#V" n="82" break="no"/>ctorium sine mutatione; ergo, etc.
+            <lb ed="#V" n="83"/>Respondeo in aeternitate haec est
+            <lb ed="#V" n="84"/>vera, iste pro A est ordinatus ad
+            <lb ed="#V" n="85"/>poenam, et iste pro B non est
+            <lb ed="#V" n="86"/>ordinatus ad poenam. Nec ista sunt
+            <lb ed="#V" n="87"/>contradictoria simul vera, nec
+            <lb ed="#V" n="88"/>succedentia sibi invicem in
+            verita<pb ed="#V" n="478"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>te, sed illa pro quibus affirmatio et
+            <lb ed="#V" n="2"/>negatio denotantur inesse,
+            appre<lb ed="#V" n="3" break="no"/>henduntur ut succedentia sibi
+            re<lb ed="#V" n="4" break="no"/>aliter vel possibiliter. Vel aliter,
+            <lb ed="#V" n="5"/>nihil aliud est, iste est nunc ordi
+            <lb ed="#V" n="6"/>natus ad poenam, nisi iste est
+            <lb ed="#V" n="7"/>volitus ad poenam pro 4, si tunc
+            <lb ed="#V" n="8"/>judicetur, et iste postea non est
+            <lb ed="#V" n="9"/>ordinatus ad poenam, id est, iste
+            <lb ed="#V" n="10"/>non est volitus ad poenam pro B, si
+            <lb ed="#V" n="11"/>tunc judicetur, et haec non sunt
+            <lb ed="#V" n="12"/>contradictoria. Quod autem
+            utra<lb ed="#V" n="13" break="no"/>que volitio ista pertinens ad
+            reten<lb ed="#V" n="14" break="no"/>tionem et remissionem culpae, non
+            <lb ed="#V" n="15"/>sit nisi conditionata, patet, quia si
+            <lb ed="#V" n="16"/>vellet absolute peccatorem, statim
+            <lb ed="#V" n="17"/>cum peccat, punire, statim
+            puni<lb ed="#V" n="18" break="no"/>ret.
+          </p>
+          <p>
+            <lb ed="#V" n="19"/>Contra totum istum processum
+            <lb ed="#V" n="20"/>de diversis nunc, pro quibus est
+            <lb ed="#V" n="21"/>offensa et remissio, arguitur, quia
+            <lb ed="#V" n="22"/>Deus posset Angelo peccanti in
+            <lb ed="#V" n="23"/>aevo existenti absque omni
+            tempo<lb ed="#V" n="24" break="no"/>re remittere offensam; et tunc non
+            <lb ed="#V" n="25"/>esset dare talia diversa nunc, pro
+            <lb ed="#V" n="26"/>quibus esset culpa et remissio,
+            <lb ed="#V" n="27"/>maxime si ponatur aevum
+            indivisi<lb ed="#V" n="28" break="no"/>bile.
+          </p>
+          <p>
+            <lb ed="#V" n="29"/>Si dicatur, quod tunc esset aliud
+            <lb ed="#V" n="30"/>aevum culpae, et tunc desineret
+            es<lb ed="#V" n="31" break="no"/>se adveniente remissione, contra,
+            <lb ed="#V" n="32"/>quia alterum istorum duorum, vel
+            <lb ed="#V" n="33"/>culpa, vel remissio est tantum
+            pri<lb ed="#V" n="34" break="no"/>vatio, et ita non habet proprium
+            <lb ed="#V" n="35"/>aevum. Comparando etiam ad
+            <lb ed="#V" n="36"/>aevum Angeli manentis primo sub
+            <lb ed="#V" n="37"/>culpa, postea sub remissione, et
+            <lb ed="#V" n="38"/>in illo aevo eodem, et pro illo
+            in<lb ed="#V" n="39" break="no"/>stanti essent illa duo opposita.
+            <lb ed="#V" n="40"/>Responsio istius quaeratur 2. lib.
+            <lb ed="#V" n="41"/>dist. 2. quoest. de successione aevi.
+          </p>
+          <p>
+            <lb ed="#V" n="42"/>Sed (1) esto, quod Deus remittat
+            <lb ed="#V" n="43"/>isto modo culpam post offensam
+          </p>
+          <p>
+            <lb ed="#V" n="44"/>sine omni mutatione, sive in actu,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>sive in objecto, ut objectum est,
+            <lb ed="#V" n="46"/>sive in objecto, ut extra, nonne
+            <lb ed="#V" n="47"/>huic actui remissionis
+            correspon<lb ed="#V" n="48" break="no"/>det in Petro cui remittitur extra
+            <lb ed="#V" n="49"/>aliqua mutatio rationis? Videtur
+            <lb ed="#V" n="50"/>quod sic, quia alioquin non
+            ma<lb ed="#V" n="51" break="no"/>gis esset Petrus absolutus seu
+            <lb ed="#V" n="52"/>reconciliatus post remissionem
+            <lb ed="#V" n="53"/>quam ante. Quod si
+            correspon<lb ed="#V" n="54" break="no"/>det, de illa erit quaestio, an sit
+            <lb ed="#V" n="55"/>eadem cum illa gratificatione,
+            <lb ed="#V" n="56"/>an alia.
+          </p>
+          <p>
+            <lb ed="#V" n="57"/>Potest dici, quod ubi actus, in
+            <lb ed="#V" n="58"/>quo objectum habet esse rationis,
+            <lb ed="#V" n="59"/>potest esse terminus mutationis
+            <lb ed="#V" n="60"/>realis, ibi potest objectum mutari
+            <lb ed="#V" n="61"/>mutatione rationis, sicut lapis
+            po<lb ed="#V" n="62" break="no"/>test fieri de non intellecto
+            intelle<lb ed="#V" n="63" break="no"/>ctus a me, quia intellectio ejus
+            <lb ed="#V" n="64"/>in me potest esse nova; sed ubi
+            <lb ed="#V" n="65"/>actus nullo modo est terminus
+            <lb ed="#V" n="66"/>mutationis realis, ibi objectum
+            <lb ed="#V" n="67"/>ut in actu, non potest mutari
+            mu<lb ed="#V" n="68" break="no"/>tatione rationis. Hujusmodi est
+            <lb ed="#V" n="69"/>velle divinum, et per consequens
+            <lb ed="#V" n="70"/>Petrus, ut est objectum istius
+            <lb ed="#V" n="71"/>actus, quia ut extra habens esse
+            <lb ed="#V" n="72"/>novum, non habet noviter
+            rati<lb ed="#V" n="73" break="no"/>onem objecti, sed uniformiter in
+            <lb ed="#V" n="74"/>aeternitate, et ita nulla videtur
+            <lb ed="#V" n="75"/>esse concedenda mutatio, nec rei,
+            <lb ed="#V" n="76"/>nec rationis in Petro, quando
+            di<lb ed="#V" n="77" break="no"/>citur culpa sibi esse remissa.
+            <lb ed="#V" n="78"/>Concomitatur (m) tamen ibi
+            re<lb ed="#V" n="79" break="no"/>missionem illam activam Dei, et
+            <lb ed="#V" n="80"/>passivam secundum dici in Petro,
+            <lb ed="#V" n="81"/>quaedam mutatio realis, et hoc
+            <lb ed="#V" n="82"/>semper de potentia ordinata quae
+            <lb ed="#V" n="83"/>est ad gratificandum Petrum, quia
+            <lb ed="#V" n="84"/>de potentia ordinata nulli
+            remit<lb ed="#V" n="85" break="no"/>tit Deus pro 4, quin illum pro
+            <lb ed="#V" n="86"/>tunc gratificet; sed de potentia
+            <lb ed="#V" n="87"/>absoluta, et in re extra, et in
+            <lb ed="#V" n="88"/>actu intra pro aeternitate possent
+            <pb ed="#V" n="479"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>ista separari, ut scilicet
+            remit<lb ed="#V" n="2" break="no"/>teret Petro in 4, adveniente 4,
+            <lb ed="#V" n="3"/>quod non est nisi actus immanens
+            <lb ed="#V" n="4"/>Deo, et tamen non gratificaret
+            <lb ed="#V" n="5"/>ipsum in A, aliquo actu transeunte
+            <lb ed="#V" n="6"/>extra, si in aeternitate vellet
+            re<lb ed="#V" n="7" break="no"/>mittere in 4, et tamen non vellet
+            <lb ed="#V" n="8"/>in aeternitate gratificare pro 4,
+            <lb ed="#V" n="9"/>quia primum nihil dicit, nisi
+            ne<lb ed="#V" n="10" break="no"/>gationem actus positivi, qui est
+            <lb ed="#V" n="11"/>velle punire, secundum autem dicit
+            <lb ed="#V" n="12"/>actum alium positivum.
+          </p>
+          <p>
+            <lb ed="#V" n="13"/>Et si objicias, quod non potest
+            <lb ed="#V" n="14"/>aliter se habere Petrus ad
+            divi<lb ed="#V" n="15" break="no"/>nam voluntatem, ut punitivam,
+            <lb ed="#V" n="16"/>vel non punitivam, nisi quia aliter
+            <lb ed="#V" n="17"/>se habet secundum aliquid aliud.
+            <lb ed="#V" n="18"/>puta quia acceptus, vel non
+            acce<lb ed="#V" n="19" break="no"/>ptus, quia objectum non variatum
+            <lb ed="#V" n="20"/>in se secundum aliquid prius actu,
+            <lb ed="#V" n="21"/>non aliter objicitur volitioni
+            divi<lb ed="#V" n="22" break="no"/>nae. Haec est falsa, quia voluntas
+            <lb ed="#V" n="23"/>nostra potest alio actu aliter se
+            <lb ed="#V" n="24"/>habere ad objectum uniformiter
+            <lb ed="#V" n="25"/>se habens in se ante actum, et
+            <lb ed="#V" n="26"/>posset, si semper haberet eumdem
+            <lb ed="#V" n="27"/>actum contingenter transeuntem
+            <lb ed="#V" n="28"/>super objecta secundaria.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d16q2-p3"> -->
+          <p>
+            <lb ed="#V" n="20" type="fixed=491"/>SCHOLIUM.
+            <lb ed="#V" n="21"/>Ad primum, peccatum non esse
+            privati<lb ed="#V" n="22" break="no"/>onem gratiae, de quo late 2. d. 37. quaest. 1.
+            <lb ed="#V" n="23"/>Ad secundum, corruptionem vitii et
+            genera<lb ed="#V" n="24" break="no"/>tionem virtutis esse duas mutationes;
+            re<lb ed="#V" n="25" break="no"/>missionem culpae et dationem gratiae, unam.
+            <lb ed="#V" n="26"/>Ad tertium, quomodo remissio culpae non est
+            <lb ed="#V" n="27"/>mutatio; dequo Schol. praeced. et seq.
+          </p>
+          <p>
+            <lb ed="#V" n="28"/>Ad (n) argumenta. Ad primum
+            <lb ed="#V" n="29"/>concedo, quod peccatum non est
+            <lb ed="#V" n="30"/>formaliter privatio gratiae, ut
+            pro<lb ed="#V" n="31" break="no"/>barunt aliquae rationes ad primam
+            <lb ed="#V" n="32"/>conclusionem. Et ex hoc patet,
+            <lb ed="#V" n="33"/>quod inductio gratiae et cujuslibet
+            <lb ed="#V" n="34"/>virtutis, non est formaliter
+            expul<lb ed="#V" n="35" break="no"/>sio culpae. Sed si ex illa
+            auctorita<lb ed="#V" n="36" break="no"/>te velis probare duas esse
+            mutati<lb ed="#V" n="37" break="no"/>ones, infusionem et expulsionem,
+            <lb ed="#V" n="38"/>per hoc quod peccare et gratiam
+            <lb ed="#V" n="39"/>corrumpi sunt duae mutationes,
+            <lb ed="#V" n="40"/>ergo a simili in proposito, dico
+            <lb ed="#V" n="41"/>quod consequentia non valet, quia
+            <lb ed="#V" n="42"/>illa culpa, ad quam est motus
+            pec<cb ed="#V" n="b"/><lb ed="#V" n="43" break="no"/>cati, vel peccandi, non manet
+            us<lb ed="#V" n="44" break="no"/>que ad infusionem gratiae, nec
+            eti<lb ed="#V" n="45" break="no"/>am tunc posset esse terminus a quo
+            <lb ed="#V" n="46"/>propriae mutationis; sed illa culpa
+            <lb ed="#V" n="47"/>transeunte manet sola obligatio in
+            <lb ed="#V" n="48"/>isto, ut est objectum secundarium
+            <lb ed="#V" n="49"/>voluntatis divinae, et illa in
+            justi<lb ed="#V" n="50" break="no"/>ficatione non potest esse terminus
+            <lb ed="#V" n="51"/>a quo alicujus mutationis propriae.
+          </p>
+          <p>
+            <lb ed="#V" n="52"/>Ad secundum, patet quare sunt
+            <lb ed="#V" n="53"/>ibi duae mutationes in moralibus,
+            <lb ed="#V" n="54"/>quia sunt ibi quatuor termini, duo
+            <lb ed="#V" n="55"/>positivi reales, et duo privativi
+            re<lb ed="#V" n="56" break="no"/>ales; non sic hic. Per idem patet ad
+            <lb ed="#V" n="57"/>illud de generatione et
+            corrupti<lb ed="#V" n="58" break="no"/>one.
+          </p>
+          <p>
+            <lb ed="#V" n="59"/>Ad ultimum de dispositione ad
+            <lb ed="#V" n="60"/>formam ad quam disponit, dico
+            <lb ed="#V" n="61"/>quod ista remissio privativa, quae
+            <lb ed="#V" n="62"/>est carentia obligationis ad
+            poe<lb ed="#V" n="63" break="no"/>nam, non est aliqua dispositio
+            re<lb ed="#V" n="64" break="no"/>alis ad amicitiam seu gratiam, et
+            <lb ed="#V" n="65"/>ideo ipsa remissio accepta quasi
+            <lb ed="#V" n="66"/>terminata ad hanc carentiam, non
+            <lb ed="#V" n="67"/>est aliqua mutatio realis. Si ergo
+            <lb ed="#V" n="68"/>accipias, quod remissio mutatio
+            <lb ed="#V" n="69"/>est dispositio ad illam
+            mutati<lb ed="#V" n="70" break="no"/>onem, quae est infusio gratiae,
+            ne<lb ed="#V" n="71" break="no"/>go, quia remissio non est aliqua
+            <lb ed="#V" n="72"/>mutatio, neque activa, neque
+            pas<lb ed="#V" n="73" break="no"/>siva, nec rei, nec rationis.
+          </p>
+          <p>
+            <lb ed="#V" n="74"/>Et per eadem posset
+            responde<lb ed="#V" n="75" break="no"/>ri ad quatuor rationes positas ad
+            <lb ed="#V" n="76"/>primam conclusionem in
+            soluti<lb ed="#V" n="77" break="no"/>one quaestionis, si tamen illae ab
+            <lb ed="#V" n="78"/>aliquo extenderentur ad
+            proban<lb ed="#V" n="79" break="no"/>dum quod sunt duae mutationes,
+            <lb ed="#V" n="80"/>quod negatum est in secunda
+            con<lb ed="#V" n="81" break="no"/>clusione. Major enim primae
+            rati<lb ed="#V" n="82" break="no"/>onis, si sic accipiatur, quidquid
+            <lb ed="#V" n="83"/>multiplicatur vel plurificatur in
+            <lb ed="#V" n="84"/>sua entitate tali quali, est aliud
+            <lb ed="#V" n="85"/>realiter ab illo quod non
+            plurifica<lb ed="#V" n="86" break="no"/>tur in sua entitate, falsa est, nisi
+            <pb ed="#V" n="492"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>sit ens reale; et ideo remissiones
+            <lb ed="#V" n="2"/>quae plurificantur taliter qualiter,
+            <lb ed="#V" n="3"/>sunt entes, quia tantum rationis
+            <lb ed="#V" n="4"/>entia sunt, et infusio gratiae est
+            <lb ed="#V" n="5"/>una; non sequitur quod illae sint
+            <lb ed="#V" n="6"/>aliae mutationes ab illa; sed bene
+            <lb ed="#V" n="7"/>sequitur, quod non sunt eadem
+            <lb ed="#V" n="8"/>sibi, quia universaliter
+            plurifica<lb ed="#V" n="9" break="no"/>tum in sua entitate tali quali, non
+            <lb ed="#V" n="10"/>est idem non plurificato, accipiendo
+            <lb ed="#V" n="11"/>similem plurificationem hinc inde.
+          </p>
+          <p>
+            <lb ed="#V" n="12"/>Consimiliter major secundae
+            ra<lb ed="#V" n="13" break="no"/>tionis, quidquid separatur ab alio
+            <lb ed="#V" n="14"/>in suo esse, est aliud realiter ab
+            <lb ed="#V" n="15"/>illo, falsa est, nisi sit in suo esse
+            <lb ed="#V" n="16"/>ens reale. Tertia ratio et quarta
+            <lb ed="#V" n="17"/>non probant pluralitatem istorum
+            <lb ed="#V" n="18"/>tanquam duarum mutationum, sed
+            <lb ed="#V" n="19"/>tantum, quia illa mutatio, quae est
+            <lb ed="#V" n="20"/>ad gratiam, non habet pro per se
+            <lb ed="#V" n="21"/>termino a quo culpam, quod
+            con<lb ed="#V" n="22" break="no"/>cedo.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d16q2-p4"> -->
+          <p>
+            <lb ed="#V" n="73" type="fixed=492"/>SCHOLIUM.
+            <lb ed="#V" n="74"/>Ad primum, admittit remissionem culpae
+            <lb ed="#V" n="75"/>esse mutationem rationis (de quo obscure
+            <lb ed="#V" n="76"/>locutus est n. 15.) quatenus peccator transit
+            <lb ed="#V" n="77"/>a nunc, in quo est obligatus ad poenam, ad
+            <lb ed="#V" n="78"/>nunc, in quo caret illa obligatione. Ad
+            se<lb ed="#V" n="79" break="no"/>cundum, gratiam prius intentione dari, sed
+            <lb ed="#V" n="80"/>prius executione culpam tolli.
+          </p>
+          <p>
+            <lb ed="#V" n="81"/>Ad rationes (o) in oppositum. Ad
+            <lb ed="#V" n="82"/>primam dico, quod sicut reatus,
+            <lb ed="#V" n="83"/>vel planius obligatio ad poenam,
+            <lb ed="#V" n="84"/>quae sola manet post transitum
+            ac<lb ed="#V" n="85" break="no"/>tus interioris et exterioris in
+            pec<pb ed="#V" n="493"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>cato, est ens, quia rationis, et sic
+            <lb ed="#V" n="2"/>est ens positivum, et per
+            conse<lb ed="#V" n="3" break="no"/>quens non reatus, vel non
+            obliga<lb ed="#V" n="4" break="no"/>tio, vel non debitum, est privatio
+            <lb ed="#V" n="5"/>entis rationis; et ita si esset
+            ali<lb ed="#V" n="6" break="no"/>cubi transitus rationis ab
+            obligati<lb ed="#V" n="7" break="no"/>one ad non obligationem, illa esset
+            <lb ed="#V" n="8"/>mutatio rationis privativa, vel
+            de<lb ed="#V" n="9" break="no"/>perditiva; sed illa nusquam est,
+            <lb ed="#V" n="10"/>in actu voluntatis divinae, nec in
+            <lb ed="#V" n="11"/>objecto, ut objectum est, nec in
+            <lb ed="#V" n="12"/>objecto, ut extra, nisi dicatur,
+            <lb ed="#V" n="13"/>quod pro tanto est in objecto
+            ex<lb ed="#V" n="14" break="no"/>tra, pro quanto illud objectum est
+            <lb ed="#V" n="15"/>in illo nunc, pro quo actus
+            volun<lb ed="#V" n="16" break="no"/>tatis divinae respicit illud
+            obje<lb ed="#V" n="17" break="no"/>ctum; et tunc objectum extra
+            <lb ed="#V" n="18"/>transire a non esse in isto nunc, ad
+            <lb ed="#V" n="19"/>esse in illo nunc, est concomitanter
+            <lb ed="#V" n="20"/>mutari mutatione rationis ab
+            obli<lb ed="#V" n="21" break="no"/>gatione ad non obligationem; cum
+            <lb ed="#V" n="22"/>ergo arguis, quod non sit mutatio
+            <lb ed="#V" n="23"/>deperditiva, quia terminus ejus
+            <lb ed="#V" n="24"/>a quo non est aliquid positivum,
+            ne<lb ed="#V" n="25" break="no"/>go. Nec tamen culpa est aliquid
+            <lb ed="#V" n="26"/>positivum, nec illa manet, sed
+            <lb ed="#V" n="27"/>obligatio sequens commissionem
+            <lb ed="#V" n="28"/>culpae est aliquid positivum, et illa
+            <lb ed="#V" n="29"/>remanet.
+          </p>
+          <p>
+            <lb ed="#V" n="30"/>Secundum argumentum de
+            pri<lb ed="#V" n="31" break="no"/>ori et posteriori ponderatur ab
+            <lb ed="#V" n="32"/>aliquibus in ista materia, quia
+            po<lb ed="#V" n="33" break="no"/>nendo distinctionem istorum
+            tan<lb ed="#V" n="34" break="no"/>quam mutationum, quaerunt
+            ordi<lb ed="#V" n="35" break="no"/>nem inter ea. Breviter dico, quod
+            <lb ed="#V" n="36"/>secundum Philosophum 5. Metaph.
+            <lb ed="#V" n="37"/>cap. de Priori, et 9. Metaph. cap. 7.
+            <lb ed="#V" n="38"/>s aliqua sunt priora generatione,
+            <lb ed="#V" n="39"/>aliqua perfectione; et istae
+            priori<lb ed="#V" n="40" break="no"/>tates communiter e converso se
+            <lb ed="#V" n="41"/>habent; in via enim generationis
+            <lb ed="#V" n="42"/>imperfectiora sunt priora. Hoc
+            <lb ed="#V" n="43"/>modo dico, quod si expulsio culpae
+            <lb ed="#V" n="44"/>esset aliquod ens, et infusio
+            gra<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>tiae; via generationis prior esset
+            <lb ed="#V" n="46"/>expulsio culpae. Sed e converso,
+            <lb ed="#V" n="47"/>via perfectionis prior esset infusio
+            <lb ed="#V" n="48"/>gratiae, quia immediatior ipsi fini,
+            <lb ed="#V" n="49"/>quod est simpliciter perfectum in
+            <lb ed="#V" n="50"/>isto ordine. Similiter de prioritate
+            <lb ed="#V" n="51"/>consequentiae patet, quod
+            imper<lb ed="#V" n="52" break="no"/>fectius est prius, sicut animal est
+            <lb ed="#V" n="53"/>prius secundum consequentiam,
+            <lb ed="#V" n="54"/>quam homo, et universaliter
+            conse<lb ed="#V" n="55" break="no"/>quens est imperfectius quam
+            ante<lb ed="#V" n="56" break="no"/>cedens; sic eo modo, quo esset
+            con<lb ed="#V" n="57" break="no"/>sequentia inter ista, expulsio
+            seque<lb ed="#V" n="58" break="no"/>retur ad infusionem gratiae, non e
+            <lb ed="#V" n="59"/>converso. Non enim sunt opposita
+            <lb ed="#V" n="60"/>immediata simpliciter ex natura
+            ex<lb ed="#V" n="61" break="no"/>tremorum, sed ex institutione
+            di<lb ed="#V" n="62" break="no"/>vina; et non sequitur inductio uni.
+            <lb ed="#V" n="63"/>us ad amotionem alterius, nisi in
+            <lb ed="#V" n="64"/>oppositis immediatis secundum se.
+          </p>
+          <p>
+            <lb ed="#V" n="65"/>Sed an gratiam sequatur
+            expul<lb ed="#V" n="66" break="no"/>sio culpae, dubium est, cum non
+            <lb ed="#V" n="67"/>sint formaliter opposita, ut
+            proba<lb ed="#V" n="68" break="no"/>tum est in tertia ratione et prima
+            <lb ed="#V" n="69"/>conclusione solutionis. Sed posset
+            <lb ed="#V" n="70"/>dici negando illud, quia
+            contra<lb ed="#V" n="71" break="no"/>dictio est esse amicum Deo, et
+            <lb ed="#V" n="72"/>non amicum; per gratiam est
+            ami<lb ed="#V" n="73" break="no"/>cus, per culpam vero inimicus;
+            er<lb ed="#V" n="74" break="no"/>go, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="75"/>Sed hoc non cogit, quia amicitia
+            <lb ed="#V" n="76"/>per gratiam est ordinari ad vitam
+            <lb ed="#V" n="77"/>aeternam; inimicitia per culpam
+            <lb ed="#V" n="78"/>est ordinari ad poenam condignam.
+            <lb ed="#V" n="79"/>Haec possunt simul stare, licet
+            <lb ed="#V" n="80"/>non pro eodem nunc, saltem
+            quo<lb ed="#V" n="81" break="no"/>modocumque sint opposita, magis
+            <lb ed="#V" n="82"/>videtur formalis consequentia ad
+            <lb ed="#V" n="83"/>inesse gratiam non inesse culpam,
+            <lb ed="#V" n="84"/>quam e converso, quia in secundo
+            <lb ed="#V" n="85"/>antecedens nullo modo ponit
+            con<lb ed="#V" n="86" break="no"/>sequens.
+            <lb ed="#V" n="87"/>Sed si quaeratur de prioritate
+            <lb ed="#V" n="88"/>causalitatis inter ista, respondeo,
+            <pb ed="#V" n="494"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>non est quaestio; nec enim ista
+            ne<lb ed="#V" n="2" break="no"/>gatio obligationis, quae non est
+            <lb ed="#V" n="3"/>nisi negatio entis rationis, causa
+            <lb ed="#V" n="4"/>est gratiae, nec e converso, quia
+            <lb ed="#V" n="5"/>sola voluntas divina ex sua
+            justi<lb ed="#V" n="6" break="no"/>tia determinat illa mobligationem,
+            <lb ed="#V" n="7"/>sed ex misericordia non
+            obligati<lb ed="#V" n="8" break="no"/>onem.
+          </p>
+          <p>
+            <lb ed="#V" n="9"/>Si quaeras, quem ordinem habent
+            <lb ed="#V" n="10"/>ista, scilicet gratia et non culpa,
+            <lb ed="#V" n="11"/>ut sunt objecta secundaria divinae
+            <lb ed="#V" n="12"/>voluntatis? respondeo, sicut
+            di<lb ed="#V" n="13" break="no"/>ctum est lib. 1. dist. 41. quoest. de
+            Prae<lb ed="#V" n="14" break="no"/>destinatione, eo modo quo est ordo
+            <lb ed="#V" n="15"/>volitionis divinae ad objecta
+            secun<lb ed="#V" n="16" break="no"/>daria. Prius enim vult propinquius
+            <lb ed="#V" n="17"/>fini, et ita simpliciter prius vult
+            <lb ed="#V" n="18"/>isti pro 4, postquam scilicet
+            pec<lb ed="#V" n="19" break="no"/>cavit, gratiam, quam non
+            vindi<lb ed="#V" n="20" break="no"/>care, loquendo de prioritate
+            inten<lb ed="#V" n="21" break="no"/>tionis; sed exequendo vult e
+            con<lb ed="#V" n="22" break="no"/>verso; sicut enim prius vult istum
+            <lb ed="#V" n="23"/>habere merita quam gloriam, ita
+            <lb ed="#V" n="24"/>vult prius ordine executionis isti
+            <lb ed="#V" n="25"/>non inesse culpam, quam inesse
+            <lb ed="#V" n="26"/>gratiam.
+          </p>
+          <p>
+            <lb ed="#V" n="27"/>Vel si dicatur, quod per inesse,
+            <lb ed="#V" n="28"/>vel non inesse nihil ponitur in isto
+            <lb ed="#V" n="29"/>extra, sed tantum, ut est objectum
+            <lb ed="#V" n="30"/>voluntatis divinae, potest dici
+            con<lb ed="#V" n="31" break="no"/>sequenter, quod haec objecta
+            se<lb ed="#V" n="32" break="no"/>cundum perfectionem habent
+            ordi<lb ed="#V" n="33" break="no"/>nem quemdam, ut in ea tendit
+            <lb ed="#V" n="34"/>voluntas divina, sed secundum
+            <lb ed="#V" n="35"/>causalitatem vel generationem
+            <lb ed="#V" n="36"/>nullum ordinem habent.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>
