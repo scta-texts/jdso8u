@@ -1,0 +1,970 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 49, Pars 2, Quaestio 1</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 49, Pars 2, Quaestio 1</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x21">Vives, Paris, 1894, volume 21</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="447"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e5153"><!-- jdso8u-b4d49p2q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum corpus hominis beati post resurrectionem erit impassibile</head>
+        <!-- <div alias="scotus-d49q13-p1"> -->
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="40" type="fixed=447"/>QUAESTIO XIII
+            <lb ed="#V" n="41"/>Utrum corpus hominis beati post
+            resur<lb ed="#V" n="42" break="no"/>rectionem erit impassibile?
+          </p>
+          <p>
+            <lb ed="#V" n="43"/>D. Thom. in add. quaest. 82. art. 1. et 4. d. 44.
+            <lb ed="#V" n="44"/>quaest. 2. art. 1. Richard. hic a. 4. q. 1. 2. 3.
+            <lb ed="#V" n="45"/>D. Bonavent. 2. part. art. 2. quaest. 1. Durand.
+            <lb ed="#V" n="46"/>quaest. 5. et disp. 43 q. 4. Soto hic q. 4.
+            <lb ed="#V" n="47"/>Suar. 3. part. tom. 2. disp. 48. sect. 2. 3. Vide
+            <lb ed="#V" n="48"/>Scot 9. Met. q. 14. et in Theor. 8 Non potest
+            <lb ed="#V" n="49"/>probari hominem sine...
+          </p>
+          <p>
+            <lb ed="#V" n="50"/>(a) Utrum corpus hominis beati
+            <lb ed="#V" n="51"/>post resurrectionem erit
+            impassi<lb ed="#V" n="52" break="no"/>bile? Quod non. Gregorius super
+            <lb ed="#V" n="53"/>illud Joann. 20. Infer digitum tuum
+            <lb ed="#V" n="54"/>huc, etc. Corrumpi necesse est, quod
+            pal<lb ed="#V" n="55" break="no"/>patur; corpus gloriosum erit
+            palpa<lb ed="#V" n="56" break="no"/>bile, sicut corpus Christi fuit, sicut
+            <lb ed="#V" n="57"/>apparet Luc. 24. Palpate et videte, etc.
+            <lb ed="#V" n="58"/>Praeterea, si illud corpus sit
+            im<lb ed="#V" n="59" break="no"/>passibile, ergo beatus non potest
+            <lb ed="#V" n="60"/>sentire aliquod sensibile;
+            conse<lb ed="#V" n="61" break="no"/>quens est falsum, quia sensatio,
+            <lb ed="#V" n="62"/>cum sit operatio perfecta animalis,
+            <lb ed="#V" n="63"/>non deerit homini beato.
+            Conse<lb ed="#V" n="64" break="no"/>quentia probatur, quia omne
+            sen<lb ed="#V" n="65" break="no"/>sitivum potest corrumpi ab
+            excel<lb ed="#V" n="66" break="no"/>lenti sensibili; quod corrumpitur
+            <lb ed="#V" n="67"/>ab excellenti, patitur ab inferiori,
+            <lb ed="#V" n="68"/>sicut quod corrumpitur a
+            calidis<lb ed="#V" n="69" break="no"/>simo, patitur a minus calido.
+          </p>
+          <p>
+            <lb ed="#V" n="70"/>Praeterea, nullum violentum est
+            <lb ed="#V" n="71"/>perpetuum; sed corpus illud, cum
+            <lb ed="#V" n="72"/>sit mixtum, habet in se quatuor
+            <lb ed="#V" n="73"/>elementa, quorum quodlibet
+            prae<lb ed="#V" n="74" break="no"/>ter unum, est extra regionem
+            su<lb ed="#V" n="75" break="no"/>am propriam; ergo violenter, et
+            <lb ed="#V" n="76"/>per consequens aliquando redibit
+            <lb ed="#V" n="77"/>ad locum proprium, et ita totum
+            <lb ed="#V" n="78"/>corrumpetur.
+          </p>
+          <p>
+            <lb ed="#V" n="79"/>Praeterea, 1. de Coel. et mund.
+            ar<lb ed="#V" n="80" break="no"/>guit Philosophus contra
+            Plato<lb ed="#V" n="81" break="no"/>nem: Coelum non potest esse
+            cor<pb ed="#V" n="448"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>ruptibile, et tamen ab alio
+            perpe<lb ed="#V" n="2" break="no"/>tuari, quia non potest aliquid esse
+            <lb ed="#V" n="3"/>ex se passibile et corruptibile, et
+            <lb ed="#V" n="4"/>tamen ab alio perpetuari. A simili
+            <lb ed="#V" n="5"/>potest argui de illo corpore. Hoc
+            <lb ed="#V" n="6"/>etiam vult Commentator 11. Met.
+            <lb ed="#V" n="7"/>ubi vult quod solus motus potest
+            <lb ed="#V" n="8"/>esse possibilis, et tamen ab alio
+            <lb ed="#V" n="9"/>perpetuari.
+          </p>
+          <p>
+            <lb ed="#V" n="10"/>Oppositum 1. ad Corinth. 15.
+            <lb ed="#V" n="11"/>Mortale hoc induet immortalitatem, hoc
+            <lb ed="#V" n="12"/>est, incorruptibilitatem. Et iterum
+            <lb ed="#V" n="13"/>ibidem: Seminatur corpus animale,
+            <lb ed="#V" n="14"/>surget corpus spirituale.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d49q13-p2"> -->
+          <p>
+            <lb ed="#V" n="56" type="fixed=448"/>SCHOLIUM.
+            <lb ed="#V" n="57"/>Corpus beati futurum impassibile, ex
+            ra<lb ed="#V" n="58" break="no"/>tione ad oppositum, ex 1. Corinth. 15. et
+            col<lb ed="#V" n="59" break="no"/>ligitur ex Rom. 6. Luc. 24. Matth. 25. et
+            <lb ed="#V" n="60"/>Apoc. 7. et 22. et Patres docent, August. 20.
+            <lb ed="#V" n="61"/>civit. 18. in Enchir. cap. 90. 91. Tertul. de
+            <lb ed="#V" n="62"/>resurr. cap. 51. et 1. 5. cont. Marcion. c. 10.
+            <lb ed="#V" n="63"/>exponens id 1. Corinth. 15. Oportet
+            corrupti<lb ed="#V" n="64" break="no"/>bile, etc. Greg.14. Mor. 29. alias 31. Cvrill.
+            Je<lb ed="#V" n="65" break="no"/>ros. catech. 18. Hieron. in Amos. 5. Lactant.
+            <lb ed="#V" n="66"/>lib. 7. divin. instit. cap. 46. Probat Doctor
+            <lb ed="#V" n="67"/>late qualitates sequentes mixtionem
+            mansu<lb ed="#V" n="68" break="no"/>ras in corpore glorioso, atque adeo
+            impassi<lb ed="#V" n="69" break="no"/>bilitas non potest esse ex carentia harum.
+          </p>
+          <p>
+            <lb ed="#V" n="70"/>(b) Respondeo, patet quod ita
+            <lb ed="#V" n="71"/>est, ex praecedenti quaestione,
+            <lb ed="#V" n="72"/>quia homo non potest esse beatus
+            <lb ed="#V" n="73"/>in vita mortali; totus autem homo
+            <lb ed="#V" n="74"/>erit beatus, quia totus meruit;
+            er<lb ed="#V" n="75" break="no"/>go totum erit beatum in corpore
+            <lb ed="#V" n="76"/>immortali. Probatur hoc etiam,
+            <lb ed="#V" n="77"/>quia homo beatus habebit
+            perfe<lb ed="#V" n="78" break="no"/>ctionem, quae competit suae
+            natu<lb ed="#V" n="79" break="no"/>rae; talis est immortalitas, quia
+            <lb ed="#V" n="80"/>animae immortali non repugnat
+            <lb ed="#V" n="81"/>perpetuo perficere suum
+            perfecti<lb ed="#V" n="82" break="no"/>bile. Unde sicut ex immortalitate
+            <lb ed="#V" n="83"/>animae concluditur resurrectio,
+            <lb ed="#V" n="84"/>ita probabiliter concluditur ex
+            ea<lb ed="#V" n="85" break="no"/>dem immortalitas hominis, et per
+            <pb ed="#V" n="449"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>consequens corporis, et ita
+            impas<lb ed="#V" n="2" break="no"/>sibilitas, loquendo de passione
+            re<lb ed="#V" n="3" break="no"/>ali, ut distinguitur contra
+            passi<lb ed="#V" n="4" break="no"/>onem intentionalem, de qua
+            tange<lb ed="#V" n="5" break="no"/>tur respondendo ad secundum
+            <lb ed="#V" n="6"/>argumentum.
+          </p>
+          <p>
+            <lb ed="#V" n="7"/>(c) Sed de causa impassibilitatis
+            <lb ed="#V" n="8"/>dubium est. Non enim est per hoc
+            <lb ed="#V" n="9"/>quod qualitates consequentes
+            mix<lb ed="#V" n="10" break="no"/>tum non maneant in corpore illo
+            <lb ed="#V" n="11"/>tunc, quia tunc non maneret illud
+            <lb ed="#V" n="12"/>corpus mixtum, nec etiam esset
+            <lb ed="#V" n="13"/>proportionatum animae, sicut nec
+            <lb ed="#V" n="14"/>modo anima posset animare
+            ele<lb ed="#V" n="15" break="no"/>mentum; nec per hoc quod illae
+            <lb ed="#V" n="16"/>qualitates non manebunt
+            contra<lb ed="#V" n="17" break="no"/>riae, quia cum forma sit contraria
+            <lb ed="#V" n="18"/>formae in specie sua, si tunc
+            re<lb ed="#V" n="19" break="no"/>manebunt in corpore eaedem
+            qua<lb ed="#V" n="20" break="no"/>litates in specie, quae et nunc,
+            se<lb ed="#V" n="21" break="no"/>quitur quod erunt contrariae,
+            sic<lb ed="#V" n="22" break="no"/>ut et nunc.
+          </p>
+          <p>
+            <lb ed="#V" n="23"/>Nec valet illa ratio ad
+            proban<lb ed="#V" n="24" break="no"/>dum quod non sunt contrariae, quia
+            <lb ed="#V" n="25"/>contraria nata sunt fieri circa
+            <lb ed="#V" n="26"/>1. idem, et per consequens sibi
+            suc<lb ed="#V" n="27" break="no"/>cedere in codem; ibi autem non
+            <lb ed="#V" n="28"/>succedit una qualitas alteri; et
+            <lb ed="#V" n="29"/>ideo tolletur ratio contrarietatis.
+            <lb ed="#V" n="30"/>Primo quidem non valet, quia
+            cir<lb ed="#V" n="31" break="no"/>culus est probando praemissam
+            <lb ed="#V" n="32"/>per conclusionem. Secundo, male
+            <lb ed="#V" n="33"/>intelligitur illa descriptio
+            contra<lb ed="#V" n="34" break="no"/>riorum, quia illud non debet
+            intel<lb ed="#V" n="35" break="no"/>ligi de quibuscumque contrariis
+            <lb ed="#V" n="36"/>acceptis secundum numerum, nec
+            <lb ed="#V" n="37"/>de quocumque eodem secundum
+            <lb ed="#V" n="38"/>numerum, sed de contrariis
+            secun<lb ed="#V" n="39" break="no"/>dum speciem acceptis, et de eodem
+            <lb ed="#V" n="40"/>secundum speciem, et si de codem
+            <lb ed="#V" n="41"/>secundum numerum, non omni,
+            <lb ed="#V" n="42"/>sed aliquo. Haec patent, quia albedo
+            <lb ed="#V" n="43"/>illa, quae nunc est in illo, et
+            nigre<lb ed="#V" n="44" break="no"/>do quae est in illo, nunquam
+            suc<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>cedunt sibi; ergo nec hic, alioquin
+            <lb ed="#V" n="46"/>alterum illorum migraret; sed
+            <lb ed="#V" n="47"/>circa istud, aliqua albedo et
+            <lb ed="#V" n="48"/>aliqua nigredo possunt sibi
+            succe<lb ed="#V" n="49" break="no"/>dere, non tamen circa omne
+            sub<lb ed="#V" n="50" break="no"/>jectum, quia tunc nullum
+            subje<lb ed="#V" n="51" break="no"/>ctum determinaret sibi alterum
+            <lb ed="#V" n="52"/>contrariorum. Nec potest tertio
+            <lb ed="#V" n="53"/>poni quod non sit hoc susceptivum
+            <lb ed="#V" n="54"/>natum tunc recipere contrarium
+            <lb ed="#V" n="55"/>post contrarium, quia
+            suscepti<lb ed="#V" n="56" break="no"/>vum manet idem quod nunc, et per
+            <lb ed="#V" n="57"/>consequens susceptivum ejusdem
+            <lb ed="#V" n="58"/>naturae secundum speciem.
+          </p>
+          <p>
+            <lb ed="#V" n="59"/>Si dicatur quod tunc manet sine
+            <lb ed="#V" n="60"/>privatione, nunc cum privatione;
+            <lb ed="#V" n="61"/>contra, hoc contradictionem
+            in<lb ed="#V" n="62" break="no"/>cludit, privationem formae tolli a
+            <lb ed="#V" n="63"/>subjecto, nisi ipsa forma insit,
+            <lb ed="#V" n="64"/>quia aptitudo suscipiendi non
+            po<lb ed="#V" n="65" break="no"/>test tolli, manente natura
+            susce<lb ed="#V" n="66" break="no"/>ptivi; carentia autem, quam addit
+            <lb ed="#V" n="67"/>privatio ultra aptitudinem, non
+            <lb ed="#V" n="68"/>potest tolli, nisi manente illo
+            cu<lb ed="#V" n="69" break="no"/>jus est carentia.
+          </p>
+          <p>
+            <lb ed="#V" n="70"/>Si dicas, forma superior tollit
+            <lb ed="#V" n="71"/>privationem formarum
+            inferi<lb ed="#V" n="72" break="no"/>orum, sicut forma coeli, formarum
+            <lb ed="#V" n="73"/>corruptibilium; contra, non
+            tolli<lb ed="#V" n="74" break="no"/>tur carentia, nisi sicut ponitur
+            <lb ed="#V" n="75"/>habitus; superior autem non
+            in<lb ed="#V" n="76" break="no"/>cludit inferiorem in se sub propria
+            <lb ed="#V" n="77"/>ratione, sed tantum virtualiter;
+            <lb ed="#V" n="78"/>ergo non tollit carentiam ejus sub
+            <lb ed="#V" n="79"/>propria ratione; ergo nec
+            priva<lb ed="#V" n="80" break="no"/>tionem ejus, si sit nata inesse.
+          </p>
+          <p>
+            <lb ed="#V" n="81"/>Hoc etiam specialiter patet in
+            <lb ed="#V" n="82"/>proposito, quia nobilissima forma,
+            <lb ed="#V" n="83"/>quae tunc erit in toto, erit anima
+            <lb ed="#V" n="84"/>intellectiva; ipsa autem tunc erit
+            <lb ed="#V" n="85"/>eadem quae et nunc, et aeque
+            per<lb ed="#V" n="86" break="no"/>fecta substantialiter; ergo tunc
+            <lb ed="#V" n="87"/>non tollet privationem, sicut nec
+            <lb ed="#V" n="88"/>nunc.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d49q13-p3"> -->
+          <p>
+            <lb ed="#V" n="38" type="fixed=451"/>SCHOLIUM.
+            <lb ed="#V" n="39"/>Impassibilitatem non oriri ex adaequata
+            <lb ed="#V" n="40"/>proportione qualitatum corporis gloriosi, ita
+            <lb ed="#V" n="41"/>ut non possint agere in se mutuo, tum quia
+            <lb ed="#V" n="42"/>non dabitur talis qualitatum aequalitas, quia
+            <lb ed="#V" n="43"/>est contra naturam corporis mixti; tum
+            eti<lb ed="#V" n="44" break="no"/>am quia si daretur, adhuc staret
+            passibili<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>tas ab agente extrinseco. Item non oriri ex
+            <lb ed="#V" n="46"/>dominio animae super corpus, tum quia
+            <lb ed="#V" n="47"/>nullam habet repugnantiam ad qualitates
+            <lb ed="#V" n="48"/>corruptivas, tum etiam quia causae
+            natu<lb ed="#V" n="49" break="no"/>rales quoad suas actiones non subsunt
+            ani<lb ed="#V" n="50" break="no"/>mae, nec supremo Angelo, modo sint debite
+            <lb ed="#V" n="51"/>applicatae.
+          </p>
+          <p>
+            <lb ed="#V" n="52"/>(d) Unde ergo erit illa
+            impas<lb ed="#V" n="53" break="no"/>sibilitas? Respondeo, ex parte
+            <lb ed="#V" n="54"/>susceptivi non potest inveniri
+            ali<lb ed="#V" n="55" break="no"/>qua causa intrinseca hujus
+            impas<lb ed="#V" n="56" break="no"/>sibilitatis; vel ergo invenietur ex
+            <lb ed="#V" n="57"/>defectu agentis, vel ex
+            impedimen<lb ed="#V" n="58" break="no"/>to agentis absolute, scilicet tam
+            <lb ed="#V" n="59"/>intrinseci quam extrinseci. Ex
+            <lb ed="#V" n="60"/>parte agentis non potest poni
+            de<lb ed="#V" n="61" break="no"/>fectus, quia omnipotentiae
+            passi<lb ed="#V" n="62" break="no"/>vae correspondet aliqua activa, vel
+            <lb ed="#V" n="63"/>intrinseca, vel extrinseca; agentis
+            <lb ed="#V" n="64"/>tamen intrinseci forte posset poni
+            <lb ed="#V" n="65"/>impotentia, ponendo qualitates
+            il<lb ed="#V" n="66" break="no"/>las in corpore esse reductas ad
+            <lb ed="#V" n="67"/>tantam aequalitatem, ut una non
+            <lb ed="#V" n="68"/>posset esset principium agendi in
+            <lb ed="#V" n="69"/>alteram. Hoc persuadetur, quia
+            <lb ed="#V" n="70"/>non obstante contrarietate
+            ele<lb ed="#V" n="71" break="no"/>mentorum, si essent accepta in
+            <lb ed="#V" n="72"/>tanta quantitate molis et virtutis,
+            <lb ed="#V" n="73"/>quod nullum eorum posset aliquod
+            <lb ed="#V" n="74"/>aliud, vel aliqua alia vincere, vel
+            <lb ed="#V" n="75"/>ab alio, vel ab aliis vinci, et sic
+            <lb ed="#V" n="76"/>proportionata includerentur
+            per<lb ed="#V" n="77" break="no"/>petuo in quocumque corpore,
+            <lb ed="#V" n="78"/>nunquam esset ibi corruptio
+            alicu<lb ed="#V" n="79" break="no"/>jus illorum, quia etsi contrarietas,
+            <lb ed="#V" n="80"/>tamen proportionata aequalitas.
+            <lb ed="#V" n="81"/>Consimiliter videtur nunc esse in
+            <lb ed="#V" n="82"/>elementis; quare enim ignis non
+            <lb ed="#V" n="83"/>comburit omnia elementa, cum sit
+            <lb ed="#V" n="84"/>majoris activitatis, non videtur
+            <lb ed="#V" n="85"/>ratio, nisi ex proportione vel
+            <lb ed="#V" n="86"/>adaequatione aliorum in resistendo
+            <lb ed="#V" n="87"/>virtuti suae in agendo, saltem
+            con<lb ed="#V" n="88" break="no"/>currente coelo cooperante aliis in
+            <lb ed="#V" n="89"/>resistendo.
+          </p>
+          <p>
+            <pb ed="#V" n="452"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Sed quia illa causa forte supponit
+            <lb ed="#V" n="2"/>falsum, non enim erunt tunc
+            qua<lb ed="#V" n="3" break="no"/>litates ita reductae ad aequalitatem
+            <lb ed="#V" n="4"/>in tantum, ut nulla possit esse
+            <lb ed="#V" n="5"/>principium agendi in aliam, quia
+            <lb ed="#V" n="6"/>necesse est in mixto aliquas
+            quali<lb ed="#V" n="7" break="no"/>tates dominari, etiam in virtute;
+            <lb ed="#V" n="8"/>quod apparet, quia corpus
+            huma<lb ed="#V" n="9" break="no"/>num magis est fluxibile secundum
+            <lb ed="#V" n="10"/>partes materiales, quam corpus
+            <lb ed="#V" n="11"/>alicujus animati vel inanimati
+            in<lb ed="#V" n="12" break="no"/>ferioris, quod non est nisi ex
+            do<lb ed="#V" n="13" break="no"/>minio alicujus qualitatis, quod
+            <lb ed="#V" n="14"/>exigit animal.
+          </p>
+          <p>
+            <lb ed="#V" n="15"/>Similiter, ista causa non posset
+            <lb ed="#V" n="16"/>ponere impassibilitatem respectu
+            <lb ed="#V" n="17"/>extrinseci corruptivi, et ideo si
+            <lb ed="#V" n="18"/>corruptionem ab intrinseco
+            ex<lb ed="#V" n="19" break="no"/>cluderet, adhuc esset diminuta; et
+            <lb ed="#V" n="20"/>ideo oportet ponere
+            impassibilita<lb ed="#V" n="21" break="no"/>tem per aliquod impediens
+            passio<lb ed="#V" n="22" break="no"/>nem corruptivam; tale (e) autem
+            <lb ed="#V" n="23"/>impediens potest poni, vel
+            positi<lb ed="#V" n="24" break="no"/>vum, vel privativum. Positivum
+            <lb ed="#V" n="25"/>duplex, anima, vel dos in corpore.
+            <lb ed="#V" n="26"/>Privativum duplex, cessatio motus
+            <lb ed="#V" n="27"/>coelestis, et non cooperatio Dei
+            <lb ed="#V" n="28"/>cum causa secunda corruptiva.
+            <lb ed="#V" n="29"/>(f) Pro primo arguitur, quia
+            ani<lb ed="#V" n="30" break="no"/>ma constituta est in medio inter
+            <lb ed="#V" n="31"/>Deum et creaturam corporalem;
+            <lb ed="#V" n="32"/>sicut ergo tunc ipsa erit perfecte
+            <lb ed="#V" n="33"/>subjecta Deo, tanquam suo
+            supe<lb ed="#V" n="34" break="no"/>riori, ita perfecte tunc
+            dominabi<lb ed="#V" n="35" break="no"/>tur suo corpori inferiori.
+          </p>
+          <p>
+            <lb ed="#V" n="36"/>Contra hoc, anima non
+            repu<lb ed="#V" n="37" break="no"/>gnat istis qualitatibus, etiam
+            in<lb ed="#V" n="38" break="no"/>quantum contrariae, et non
+            redu<lb ed="#V" n="39" break="no"/>ctae ad medium in quo sunt
+            acti<lb ed="#V" n="40" break="no"/>vae. Patet, quia supponit eas in
+            <lb ed="#V" n="41"/>suo susceptivo, et nihil repugnat
+            <lb ed="#V" n="42"/>ei, quod exigit in suo susceptivo;
+            <lb ed="#V" n="43"/>nec etiam repugnat effectibus
+            illa<lb ed="#V" n="44" break="no"/>rum, quia si illae agant mutuo,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>non agunt; nisi actione univoca
+            <lb ed="#V" n="46"/>saltem effectus illi non repugnant
+            <lb ed="#V" n="47"/>animae usque ad magnam
+            intensi<lb ed="#V" n="48" break="no"/>onem, quia stant cum anima nunc,
+            <lb ed="#V" n="49"/>licet intendantur usque ad
+            ma<lb ed="#V" n="50" break="no"/>gnum gradum; ergo nec tunc
+            re<lb ed="#V" n="51" break="no"/>pugnabunt animae, ut est forma
+            <lb ed="#V" n="52"/>informans.
+          </p>
+          <p>
+            <lb ed="#V" n="53"/>Si ergo dicatur, quod anima
+            <lb ed="#V" n="54"/>prohibet tunc actionem illarum
+            <lb ed="#V" n="55"/>qualitatum, non propter
+            repu<lb ed="#V" n="56" break="no"/>gnantiam sui ad actionem illam,
+            <lb ed="#V" n="57"/>sed propter imperium sui per
+            <lb ed="#V" n="58"/>actum voluntatis suae, quia ex
+            <lb ed="#V" n="59"/>dominio pleno super corpus, hoc
+            <lb ed="#V" n="60"/>non videtur probabile, quia
+            supre<lb ed="#V" n="61" break="no"/>mus Angelus per solum
+            impe<lb ed="#V" n="62" break="no"/>rium voluntatis suae non potest
+            <lb ed="#V" n="63"/>impedire actionem alicujus causae
+            <lb ed="#V" n="64"/>naturalis; causae enim corporales
+            <lb ed="#V" n="65"/>non obediunt Angelis ad nutum,
+            <lb ed="#V" n="66"/>quantum ad actionem et
+            alteratio<lb ed="#V" n="67" break="no"/>nem earum.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d49q13-p4"> -->
+          <p>
+            <pb ed="#V" n="457"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1" type="fixed=457"/>SCHOLIUM.
+            <lb ed="#V" n="2"/>Impassibilitatem non consistere in
+            qualita<lb ed="#V" n="3" break="no"/>te aliqua prohibente corruptionem, nec a tali
+            <lb ed="#V" n="4"/>oriri posse: est contra Henr. et D. Thom. 1.
+            <lb ed="#V" n="5"/>part. quaest. 97. art. 1. ( sed non loquitur
+            cla<lb ed="#V" n="6" break="no"/>re de hoc) et communem recentiorum.
+            Pro<lb ed="#V" n="7" break="no"/>bat Doctor tribus rationibus. Rejicit etiam
+            <lb ed="#V" n="8"/>sententiam Philosophorum, qui dicerent
+            <lb ed="#V" n="9"/>quod impassibilitas oriretur ex cessatione
+            <lb ed="#V" n="10"/>motus coeli, quia motus coeli per accidens
+            <lb ed="#V" n="11"/>tantum requiritur ad alios motus et actiones,
+            <lb ed="#V" n="12"/>de quo dist. 48. quaest. 2. num. 14.
+          </p>
+          <p>
+            <lb ed="#V" n="13"/>(g) Pro secunda via, scilicet pro
+            <lb ed="#V" n="14"/>dote, arguitur per illud ad
+            Diosco<lb ed="#V" n="15" break="no"/>rum, tam potentem fecit animam
+            <lb ed="#V" n="16"/>Deus, ut ex ejus plena felicitate
+            <lb ed="#V" n="17"/>redundet in corpus sanitas
+            perpe<lb ed="#V" n="18" break="no"/>tua, et vigor incorruptibilis.
+            Mo<lb ed="#V" n="19" break="no"/>dus ponendi est talis: Sicut
+            duri<lb ed="#V" n="20" break="no"/>ties est quaedam impassibilitas,
+            <lb ed="#V" n="21"/>scilicet prohibens quamdam
+            passi<lb ed="#V" n="22" break="no"/>onem, puta faciliter scindi, sic
+            <lb ed="#V" n="23"/>possibile est aliquam esse
+            qualita<lb ed="#V" n="24" break="no"/>tem prohibentem omnem
+            passi<lb ed="#V" n="25" break="no"/>onem corruptivam.
+          </p>
+          <p>
+            <lb ed="#V" n="26"/>Contra hoc, illa qualitas non
+            <lb ed="#V" n="27"/>est qualitas coelestis, tum quia nec
+            <lb ed="#V" n="28"/>perspicuitas, nec lux, nec lumen;
+            <lb ed="#V" n="29"/>tum quia corpus humanum cum
+            <lb ed="#V" n="30"/>sit mixtum, non est capax
+            qualita<lb ed="#V" n="31" break="no"/>tis coelestis; vel ergo erit qualitas
+            <lb ed="#V" n="32"/>elementaris, vel proprie mixta;
+            <lb ed="#V" n="33"/>sed sive sic, sive sic, non impediet
+            <lb ed="#V" n="34"/>omnem actionem vel passionem.
+            <lb ed="#V" n="35"/>Patet in exemplo, quia durities
+            <lb ed="#V" n="36"/>licet prohibeat incisionem, non
+            <lb ed="#V" n="37"/>tamen combustionem, vel aliam
+            <lb ed="#V" n="38"/>passionem destructivam. Hoc
+            eti<lb ed="#V" n="39" break="no"/>am probatur per rationem, quia
+            <lb ed="#V" n="40"/>omnes formae ejusdem susceptivi
+            <lb ed="#V" n="41"/>proximi sunt ejusdem generis
+            <lb ed="#V" n="42"/>Physici, ex 5. et 10. Metaph. Sed
+            <lb ed="#V" n="43"/>omnes tales sunt contrariae, vel
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="44"/>mediae, ut habetur in eodem 10.
+            om<lb ed="#V" n="45" break="no"/>nes autem hujusmodi non
+            prohi<lb ed="#V" n="46" break="no"/>bent actionem mutuam, imo sunt
+            <lb ed="#V" n="47"/>principia actionis mutuae; ergo
+            <lb ed="#V" n="48"/>illa qualitas, si est elementaris
+            <lb ed="#V" n="49"/>vel mixti, et per consequens
+            ejus<lb ed="#V" n="50" break="no"/>dem susceptivi, non prohibebit
+            om<lb ed="#V" n="51" break="no"/>nem passionem corruptivam, sed
+            <lb ed="#V" n="52"/>magis erit principium agendi vel
+            <lb ed="#V" n="53"/>patiendi.
+          </p>
+          <p>
+            <lb ed="#V" n="54"/>Praeterea, illa qualitas aut
+            repu<lb ed="#V" n="55" break="no"/>gnat aliis qualitatibus, et tunc non
+            <lb ed="#V" n="56"/>prohibet omnem actionem, quia
+            <lb ed="#V" n="57"/>est ejusdem generis; aut non
+            re<lb ed="#V" n="58" break="no"/>pugnat, et tunc non prohibet
+            acti<lb ed="#V" n="59" break="no"/>onem alicujus illarum in aliam,
+            <lb ed="#V" n="60"/>quia illae aliae sunt inter se
+            repu<lb ed="#V" n="61" break="no"/>gnantes, et ita principia mutuo
+            <lb ed="#V" n="62"/>agendi, et ita nulli earum actionum
+            <lb ed="#V" n="63"/>repugnat.
+          </p>
+          <p>
+            <lb ed="#V" n="64"/>Pro tertia opinione arguitur:
+            <lb ed="#V" n="65"/>Ablato primo, aufertur quodlibet
+            <lb ed="#V" n="66"/>posterius; coelestis est primus
+            mo<lb ed="#V" n="67" break="no"/>tuum. 8. Phys. ergo illo cessante,
+            <lb ed="#V" n="68"/>nullus erit alius motus.
+          </p>
+          <p>
+            <lb ed="#V" n="69"/>Contra hoc est articulus: Stante
+            <lb ed="#V" n="70"/>coelo, approximato igne stupoe, quod ignis
+            <lb ed="#V" n="71"/>non corrumpit stupam, est error.
+            Prae<lb ed="#V" n="72" break="no"/>terea per rationem, Philosophus 2.
+            <lb ed="#V" n="73"/>de Generatione: Motus pro tanto est
+            <lb ed="#V" n="74"/>generationis causa, quia adducit
+            <lb ed="#V" n="75"/>generans; ergo tantummodo facit
+            <lb ed="#V" n="76"/>ad praesentiam vel ad
+            approxima<lb ed="#V" n="77" break="no"/>tionem generantis respectu
+            mate<lb ed="#V" n="78" break="no"/>riae; ergo si sine motu haberetur
+            <lb ed="#V" n="79"/>eadem praesentia vel
+            approxima<lb ed="#V" n="80" break="no"/>tio, aeque foret generatio.
+            Exem<lb ed="#V" n="81" break="no"/>plum hujus, si subito per
+            potenti<lb ed="#V" n="82" break="no"/>am divinam Sol fieret in medio,
+            <lb ed="#V" n="83"/>sicut fit nunc per motum, eodem
+            <lb ed="#V" n="84"/>modo illuminaret et calefaceret
+            <lb ed="#V" n="85"/>supposita, sicut nunc calefacit, imo
+            <lb ed="#V" n="86"/>fortius tunc, quia non cessaret
+            <lb ed="#V" n="87"/>agere, quousque totaliter
+            corrupis<pb ed="#V" n="458"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>set sibi suppositum, si posset
+            cor<lb ed="#V" n="2" break="no"/>rumpere; nunc autem, quia non
+            <lb ed="#V" n="3"/>moratur super passum
+            supposi<lb ed="#V" n="4" break="no"/>tum, minus agit efficaciter in
+            ip<lb ed="#V" n="5" break="no"/>sum.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d49q13-p5"> -->
+          <p>
+            <lb ed="#V" n="78" type="fixed=463"/>SCHOLIUM.
+            <lb ed="#V" n="79"/>Sententia Doctoris, impassibilitatem oriri
+            <lb ed="#V" n="80"/>ex manutenentia Dei, non permittentis ut ab
+            <lb ed="#V" n="81"/>aliquo laedantur vel corrumpantur corpora
+            <lb ed="#V" n="82"/>gloriosa, sicut non permisit pueros laedi ab
+            <lb ed="#V" n="83"/>igne Babylonico; ita Durand. hic quaest. 5.
+            <lb ed="#V" n="84"/>et dist. 44. quaest. 4. Soto hic q. 4. et tribuit
+            <lb ed="#V" n="85"/>D. Thom. in add. quaest. 83. art. 1. et
+            vide<lb ed="#V" n="86" break="no"/>tur expresse Aug. ep. 146. Movet tria
+            argu<lb ed="#V" n="87" break="no"/>menta in contrarium, et solvit optime.
+          </p>
+          <p>
+            <pb ed="#V" n="464"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>(h) Dico ergo quod causa
+            impas<lb ed="#V" n="2" break="no"/>sibilitatis est voluntas divina non
+            <lb ed="#V" n="3"/>coagens causae secundae
+            corrupti<lb ed="#V" n="4" break="no"/>vae, et per hoc, est illud
+            impassi<lb ed="#V" n="5" break="no"/>bile, non potentia remota, sed
+            pro<lb ed="#V" n="6" break="no"/>pinqua; non a causa intrinseca,
+            <lb ed="#V" n="7"/>sed extrinseca impediente, sicut
+            <lb ed="#V" n="8"/>dictum est de impeccabilitate supra
+            <lb ed="#V" n="9"/>dist. ista, quaestione de securitate;
+            <lb ed="#V" n="10"/>exemplum hujus de igne in
+            cami<lb ed="#V" n="11" break="no"/>no, qui non egit ad consumptionem
+            <lb ed="#V" n="12"/>trium puerorum, non quidem per
+            <lb ed="#V" n="13"/>aliquam impassibilitatem
+            intrinse<lb ed="#V" n="14" break="no"/>cam pueris, nec ex carentia
+            poten<lb ed="#V" n="15" break="no"/>tiae passivae, nec ex contrario
+            in<lb ed="#V" n="16" break="no"/>trinseco impediente, sed quia Deus
+            <lb ed="#V" n="17"/>ex voluntate sua non cooperatur
+            <lb ed="#V" n="18"/>ad illam actionem.
+          </p>
+          <p>
+            <lb ed="#V" n="19"/>(1) Contra hoc, tunc
+            impassibili<lb ed="#V" n="20" break="no"/>tas non esset dos corporis beati,
+            <lb ed="#V" n="21"/>quia dos est aliquid intrinsecum
+            <lb ed="#V" n="22"/>ei, cujus est; istud autem Deum
+            <lb ed="#V" n="23"/>velle prohibere causas secundas,
+            <lb ed="#V" n="24"/>ne corrumpant, non est aliquid
+            <lb ed="#V" n="25"/>intrinsecum isti; consequens est
+            <lb ed="#V" n="26"/>falsum, quia videtur contra
+            aucto<lb ed="#V" n="27" break="no"/>ritatem Augustini ad Dioscorum
+            <lb ed="#V" n="28"/>supra adductam.
+          </p>
+          <p>
+            <lb ed="#V" n="29"/>Praeterea, secundum illam
+            posi<lb ed="#V" n="30" break="no"/>tionem aeque erit dos
+            impassibili<lb ed="#V" n="31" break="no"/>tatis in elementis, sicut in corpore
+            <lb ed="#V" n="32"/>Petri; aeque etiam in corporibus
+            <lb ed="#V" n="33"/>damnatorum, quia tam elementa
+            <lb ed="#V" n="34"/>quam corpora damnatorum
+            prae<lb ed="#V" n="35" break="no"/>servabuntur tunc a corruptione.
+            <lb ed="#V" n="36"/>Praeterea tertio, tunc videtur esse
+            <lb ed="#V" n="37"/>miraculum in illa praeservatione,
+            <lb ed="#V" n="38"/>sicut fuit in custodiendo tres
+            pu<lb ed="#V" n="39" break="no"/>eros a laesione; non videtur autem
+            <lb ed="#V" n="40"/>quod opera perpetua divina sint
+            <lb ed="#V" n="41"/>miraculosa juxta illud Augustini
+            <lb ed="#V" n="42"/>de Civit. Sic Deus res quas condidit
+            <lb ed="#V" n="43"/>administrat, ut eas agere proprios motus
+            <lb ed="#V" n="44"/>sinat.
+          </p>
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>Ad primum illorum, bene potest
+            <lb ed="#V" n="46"/>dos non inesse realiter personae
+            do<lb ed="#V" n="47" break="no"/>tatae, sicut sponsae non inest illud
+            <lb ed="#V" n="48"/>quod sibi datum est a sponso, quod
+            <lb ed="#V" n="49"/>consuevit aliquando dici dos, sicut
+            <lb ed="#V" n="50"/>habetur Gen. 34. ubi ait Sichem
+            <lb ed="#V" n="51"/>Jacob et filiis ejus: Augete dotem et
+            <lb ed="#V" n="52"/>munera postulate. Etiamsi dos dicatur
+            <lb ed="#V" n="53"/>illud, quod datur a patre sponsae,
+            <lb ed="#V" n="54"/>sponso quidem quantum ad usum,
+            <lb ed="#V" n="55"/>sed remanet penes sponsam
+            pro<lb ed="#V" n="56" break="no"/>prietas, sicut nunc usitate dicitur
+            <lb ed="#V" n="57"/>dos; patet quod illud non inest
+            <lb ed="#V" n="58"/>realiter nec sponsae, nec sponso,
+            <lb ed="#V" n="59"/>sed tantummodo aliquo modo
+            ha<lb ed="#V" n="60" break="no"/>bitum ratione nuptiarum; et ita
+            <lb ed="#V" n="61"/>ratione nuptiarum spiritualium
+            <lb ed="#V" n="62"/>consummandarum in
+            resurrecti<lb ed="#V" n="63" break="no"/>one dabitur cuicumque beato pro
+            <lb ed="#V" n="64"/>dote, ista assistentia divina
+            prae<lb ed="#V" n="65" break="no"/>servans ipsum ab omni
+            corrupti<lb ed="#V" n="66" break="no"/>vo, licet illa custodia non insit
+            <lb ed="#V" n="67"/>realiter ipsi custodito.
+          </p>
+          <p>
+            <lb ed="#V" n="68"/>Aliter potest dici quod sicut
+            do<lb ed="#V" n="69" break="no"/>tatus habet jus in illo, quod
+            assi<lb ed="#V" n="70" break="no"/>gnatur sibi pro dote, ita hic beatus
+            <lb ed="#V" n="71"/>ex meritis habet jus in ista divina
+            <lb ed="#V" n="72"/>custodia sibi impendenda, et istud
+            <lb ed="#V" n="73"/>jus praeservationis corporis ab
+            <lb ed="#V" n="74"/>omni corruptivo per divinam
+            cu<lb ed="#V" n="75" break="no"/>stodiam est dos in beato, et
+            secun<lb ed="#V" n="76" break="no"/>dum corpus, quia est ad tutelam
+            <lb ed="#V" n="77"/>corporis.
+          </p>
+          <p>
+            <lb ed="#V" n="78"/>Ad aliud, patet ex hoc, quia neci
+            <lb ed="#V" n="79"/>elementa habent jus, ut
+            praeser<lb ed="#V" n="80" break="no"/>ventur a corruptione, nec corpora
+            <lb ed="#V" n="81"/>damnatorum; imo illa
+            praeservan<lb ed="#V" n="82" break="no"/>tur ad afflictionem propter
+            deme<lb ed="#V" n="83" break="no"/>rita praecedentia; ista autem
+            pro<lb ed="#V" n="84" break="no"/>pter merita praeterita habent jus
+            <lb ed="#V" n="85"/>istud, et hoc ad commodum
+            illo<lb ed="#V" n="86" break="no"/>rum corporum. Et secundum hoc
+            <lb ed="#V" n="87"/>potest dici ad illam auctoritatem
+            <lb ed="#V" n="88"/>Augustini allegatam, quod illa
+            <pb ed="#V" n="465"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>sanitas et vigor derivatur lab
+            ani<lb ed="#V" n="2" break="no"/>ma in corpus, quia est quaedam
+            <lb ed="#V" n="3"/>ordinabilitas ut conservetur et
+            <lb ed="#V" n="4"/>vigor et sanitas a Deo; et ille ordo
+            <lb ed="#V" n="5"/>est corporis, ut praeservetur ex
+            <lb ed="#V" n="6"/>hoc quod est animatum tali anima,
+            <lb ed="#V" n="7"/>quae anima fuit principium
+            meren<lb ed="#V" n="8" break="no"/>di talem sanitatem conservari a
+            <lb ed="#V" n="9"/>Deo suo corpori; ita quod nihil
+            ali<lb ed="#V" n="10" break="no"/>ud est dicere illam incorruptionem
+            <lb ed="#V" n="11"/>derivari ab anima in corpus, quam
+            <lb ed="#V" n="12"/>quod istud praemium, id est,
+            sani<lb ed="#V" n="13" break="no"/>tas conservata, est praemium
+            in<lb ed="#V" n="14" break="no"/>corruptibilis corporis, mediante
+            <lb ed="#V" n="15"/>anima, quae sicut erat principalior
+            <lb ed="#V" n="16"/>in merendo, ita principalius in
+            <lb ed="#V" n="17"/>natura praemiatur.
+          </p>
+          <p>
+            <lb ed="#V" n="18"/>(k) Ad tertium dico, quod magis
+            <lb ed="#V" n="19"/>naturale est coagere corpori beati
+            <lb ed="#V" n="20"/>ad conservationem ejus, contra
+            <lb ed="#V" n="21"/>contrarium corrumpens, quam
+            <lb ed="#V" n="22"/>coagere contrario in
+            corrumpen<lb ed="#V" n="23" break="no"/>do, quia causa superior perfectius
+            <lb ed="#V" n="24"/>agit cum secunda perfectiori. Et
+            <lb ed="#V" n="25"/>licet hoc nunc esset miraculum de
+            <lb ed="#V" n="26"/>corpore alicujus justi, quia nunc
+            <lb ed="#V" n="27"/>est tempus mutationis et actionis
+            <lb ed="#V" n="28"/>mutuae in corporibus, tamen tunc
+            <lb ed="#V" n="29"/>erit status quietis et
+            immuta<lb ed="#V" n="30" break="no"/>tionis in corporibus, et pro tunc
+            <lb ed="#V" n="31"/>erit naturale, sive consuetum
+            se<lb ed="#V" n="32" break="no"/>cundum communem concursum,
+            <lb ed="#V" n="33"/>quod agat ad quietem, sicut nunc
+            <lb ed="#V" n="34"/>ad motum.
+          </p>
+          <p>
+            <lb ed="#V" n="35"/>(1) Ad rationes pro tribus
+            posi<lb ed="#V" n="36" break="no"/>tionibus illis. Ad primam de
+            domi<lb ed="#V" n="37" break="no"/>nio animae super corpus,
+            respon<lb ed="#V" n="38" break="no"/>deo, Deus tunc non faciet
+            volunta<lb ed="#V" n="39" break="no"/>tem animae omnipotentem, et ideo
+            <lb ed="#V" n="40"/>nec potentem facere quidquid volet
+            <lb ed="#V" n="41"/>fieri, sed sufficit sibi quod quidquid
+            <lb ed="#V" n="42"/>volet fieri, fiet; et sic corpus suum
+            <lb ed="#V" n="43"/>perfecte subdetur voluntati suae,
+            <lb ed="#V" n="44"/>hoc est, erit sicut volet, sicut ipsa
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>subditur Deo; sed ipsa subditio
+            <lb ed="#V" n="46"/>corporis sui erit effective a
+            volun<lb ed="#V" n="47" break="no"/>tate divina. Ad rationem pro
+            se<lb ed="#V" n="48" break="no"/>cunda, dictum est quomodo
+            intel<lb ed="#V" n="49" break="no"/>ligitur Augustinus de illa dote,
+            <lb ed="#V" n="50"/>quod est jus quoddam in corpore,
+            <lb ed="#V" n="51"/>inquantum est animatum tali
+            ani<lb ed="#V" n="52" break="no"/>ma ad talem praeservationem
+            pas<lb ed="#V" n="53" break="no"/>sivam ab omni corruptione.
+          </p>
+          <p>
+            <lb ed="#V" n="54"/>Ad tertiam, concedo quod motus
+            <lb ed="#V" n="55"/>coeli habet aliquam primitatem
+            <lb ed="#V" n="56"/>ad alios, utpote uniformitatis
+            <lb ed="#V" n="57"/>et velocitatis, sed non primitatem
+            <lb ed="#V" n="58"/>causalitatis, nisi inquantum
+            addu<lb ed="#V" n="59" break="no"/>cit generans, quod est per
+            acci<lb ed="#V" n="60" break="no"/>dens, sicut motus ignis ad lignum
+            <lb ed="#V" n="61"/>haberet primitatem ad
+            combusti<lb ed="#V" n="62" break="no"/>onem ligni; sine tali autem primo
+            <lb ed="#V" n="63"/>bene potest esse posterius, si
+            ali<lb ed="#V" n="64" break="no"/>quis suppleat vicem talis primi.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d49q13-p6"> -->
+          <p>
+            <lb ed="#V" n="47" type="fixed=470"/>SCHOLIUM.
+            <lb ed="#V" n="48"/>Circa solutionem secundi docet quod beati
+            <lb ed="#V" n="49"/>habebunt illas sensationes, qui nihil habent
+            <lb ed="#V" n="50"/>imperfectionis comitantis. De visu docent
+            <lb ed="#V" n="51"/>August. 22. civit. 30. Chrysost. epist. 5.
+            <lb ed="#V" n="52"/>ad Theodorum, Greg. 8. mor. 27. alias 31.
+            <lb ed="#V" n="53"/>qui etiam dicunt videre beatos usque ad
+            in<lb ed="#V" n="54" break="no"/>terna viscera, aliorum corpora; et in hac
+            <lb ed="#V" n="55"/>visione, prout ad Christi corpus terminatur
+            <lb ed="#V" n="56"/>praecipuam corporis beatitudinem
+            consi<lb ed="#V" n="57" break="no"/>stere, docent Cyprian. serm. de Nativit.
+            <lb ed="#V" n="58"/>Christ. et August. de spir. et anima cap. 4.
+            <lb ed="#V" n="59"/>et in manual. cap. 26. De auditu idem tenent
+            <lb ed="#V" n="60"/>communiter Theologi cum Doctore hic, et
+            <lb ed="#V" n="61"/>D. Thom. dist. 44. quaest. 2. art. 2. et constat
+            <lb ed="#V" n="62"/>ex conversatione Christi post
+            resurrecti<lb ed="#V" n="63" break="no"/>onem cum Apostolis; docet August. in id
+            <lb ed="#V" n="64"/>Psalm. 149. exuttabunt sancti, Laurent.
+            <lb ed="#V" n="65"/>Just. de discipl. et perfect. Mon. cap. 23.
+            <lb ed="#V" n="66"/>licet D. Bonavent. hic art. 3. quaest. 1.
+            dubi<lb ed="#V" n="67" break="no"/>tet. De odoratu nihil est certum; tamen
+            Au<lb ed="#V" n="68" break="no"/>gust. seu actor lib. de Spir. et anima c. 58.
+            <lb ed="#V" n="69"/>idem asserit, quod de visu et auditu,
+            cum<lb ed="#V" n="70" break="no"/>que constet corpora varia Sanctorum
+            se<lb ed="#V" n="71" break="no"/>pulta, suavem odorem saepius emisisse, id
+            <lb ed="#V" n="72"/>concedendum est corporibus gloriosis. De
+            <lb ed="#V" n="73"/>gustu Doctor hic dubitat, et de tactu non
+            lo<lb ed="#V" n="74" break="no"/>quit ur. Tamen auctus horum competere
+            bea<lb ed="#V" n="75" break="no"/>tis tenent Anselm. de similit. cap. 57. et
+            <lb ed="#V" n="76"/>Laurent. Just. de disciplina et perfect. c. 23.
+            <lb ed="#V" n="77"/>et colligitur ex Propero, lib. 1. de vita
+            con<lb ed="#V" n="78" break="no"/>templ, cap. 4. Ad tertium, quod ait esse
+            <lb ed="#V" n="79"/>simpliciter naturale, quod aqua sit sursum,
+            <lb ed="#V" n="80"/>ne detur vacuum, intelligit esse naturale
+            <lb ed="#V" n="81"/>respectu universi, non respectu aquae, ut
+            <lb ed="#V" n="82"/>constat ex ratione, quam subdit, et intento
+            <lb ed="#V" n="83"/>solutionis. Et quia 3. dist. 27. num. 13.
+            ex<lb ed="#V" n="84" break="no"/>presse docet aquam non inclinari sursum,
+            <lb ed="#V" n="85"/>ne detur vacuum, quia ejus forma est
+            natu<lb ed="#V" n="86" break="no"/>ralis determinata; ad deorsum per hoc
+            faci<lb ed="#V" n="87" break="no"/>le concorda apparentem contradictionem
+            <lb ed="#V" n="88"/>inter haec duo loca.
+          </p>
+          <p>
+            <lb ed="#V" n="89"/>(m) Ad rationes principales. Ad
+            <lb ed="#V" n="90"/>primam, si concedatur auctoritas
+            <lb ed="#V" n="91"/>Gregorii, quae tamen non videtur
+            <lb ed="#V" n="92"/>necessaria, quare enim non posset
+            <pb ed="#V" n="471"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>palpari coelum a digito ibi
+            existen<lb ed="#V" n="2" break="no"/>te, hoc modo intelligendo
+            palpati<lb ed="#V" n="3" break="no"/>onem, quod illud corpus subtiliter
+            <lb ed="#V" n="4"/>resisteret tractui; licet non
+            immu<lb ed="#V" n="5" break="no"/>tando per aliquam qualitatem
+            sen<lb ed="#V" n="6" break="no"/>sibilem sibi derelictam, utpote, nec
+            <lb ed="#V" n="7"/>ut durum, nec ut molle, nec ut
+            <lb ed="#V" n="8"/>calidum, nec ut frigidum, etc.
+            <lb ed="#V" n="9"/>Quod autem palpatur secundum
+            <lb ed="#V" n="10"/>aliquam qualitatem sensibilem
+            <lb ed="#V" n="11"/>immutando tactum, bene est
+            cor<lb ed="#V" n="12" break="no"/>ruptibile, sibi derelictum, et ita
+            <lb ed="#V" n="13"/>non plus sequitur, nisi quod illud
+            <lb ed="#V" n="14"/>corpus, si non praeservaretur
+            <lb ed="#V" n="15"/>a Deo, esset passibile passione
+            <lb ed="#V" n="16"/>corruptiva.
+          </p>
+          <p>
+            <lb ed="#V" n="17"/>(n) Ad secundum dicitur, quod
+            <lb ed="#V" n="18"/>omnes sensus beati erunt in actu
+            <lb ed="#V" n="19"/>suo. Ratio est ad hoc, quia quaelibet
+            <lb ed="#V" n="20"/>sensatio est propria perfectio
+            <lb ed="#V" n="21"/>sensitivi. Tamen non video
+            neces<lb ed="#V" n="22" break="no"/>sitatem, quod sensus pertinentes
+            <lb ed="#V" n="23"/>ad nutritionem tunc sint in actibus
+            <lb ed="#V" n="24"/>suis, cum tunc nutritio non sit
+            <lb ed="#V" n="25"/>necessaria, quia non erit corpus
+            <lb ed="#V" n="26"/>animale, id est, indigens alimentis.
+            <lb ed="#V" n="27"/>Aliqui tamen bene possunt poni
+            <lb ed="#V" n="28"/>in actibus suis, quorum actus
+            <lb ed="#V" n="29"/>non requirunt imperfectionem
+            <lb ed="#V" n="30"/>concomitantem, sicut visus et
+            <lb ed="#V" n="31"/>auditus, qui sunt magis
+            spiritua<lb ed="#V" n="32" break="no"/>les; de visu nullus dubitat, nec de
+            <lb ed="#V" n="33"/>auditu, si est ibi sonus et
+            possibi<lb ed="#V" n="34" break="no"/>lis multiplicari, et immutare
+            audi<lb ed="#V" n="35" break="no"/>tum.
+          </p>
+          <p>
+            <lb ed="#V" n="36"/>Cum arguitur quod talis
+            immu<lb ed="#V" n="37" break="no"/>tatio non est sine immutatione
+            <lb ed="#V" n="38"/>reali corruptiva, nego, quia
+            ali<lb ed="#V" n="39" break="no"/>quando est major immutatio
+            in<lb ed="#V" n="40" break="no"/>tentionalis, et minor realis, et e
+            <lb ed="#V" n="41"/>converso, ut dictum est alias in
+            <lb ed="#V" n="42"/>isto 4. dist. 44. quoest. 3.
+          </p>
+          <p>
+            <lb ed="#V" n="43"/>Ad probationem, excellens sensibile,
+            <lb ed="#V" n="44"/>etc. concedo quod nunc concurrunt
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>illae duae immutationes simul, quia
+            <lb ed="#V" n="46"/>activum est potens agere utraque
+            <lb ed="#V" n="47"/>actione, et passivum vel idem, vel
+            <lb ed="#V" n="48"/>conjunctim est, vel receptivum
+            <lb ed="#V" n="49"/>utriusque actionis; et ideo nunc
+            <lb ed="#V" n="50"/>utraque actio simul est in eodem
+            <lb ed="#V" n="51"/>passo, vel in utroque passo,
+            simi<lb ed="#V" n="52" break="no"/>liter conjuncto, licet quandoque
+            <lb ed="#V" n="53"/>una major, et alia minor,
+            secun<lb ed="#V" n="54" break="no"/>dum dispositionem passi ad hanc
+            <lb ed="#V" n="55"/>vel illam; tunc autem non
+            praeser<lb ed="#V" n="56" break="no"/>vabit Deus organa sensuum ab una
+            <lb ed="#V" n="57"/>passione eorum, quia non est ad
+            <lb ed="#V" n="58"/>perfectionem eorum sic
+            praeserva<lb ed="#V" n="59" break="no"/>ri; praeservabit autem totum
+            cor<lb ed="#V" n="60" break="no"/>pus ab alia actione, quia hoc est
+            <lb ed="#V" n="61"/>ad bene esse, quod corpus meruit
+            <lb ed="#V" n="62"/>mediante anima, vel anima ipsi
+            <lb ed="#V" n="63"/>corpori, vel totum ipsi corpori
+            <lb ed="#V" n="64"/>principalius per animam.
+          </p>
+          <p>
+            <lb ed="#V" n="65"/>(o) Ad tertium, si negatur
+            ele<lb ed="#V" n="66" break="no"/>menta esse realiter in mixto,
+            pa<lb ed="#V" n="67" break="no"/>tet responsio. Si autem non
+            nega<lb ed="#V" n="68" break="no"/>tur, dico quod illud est simpliciter
+            <lb ed="#V" n="69"/>violentum, quod opponitur
+            simpli<lb ed="#V" n="70" break="no"/>citer naturali, et magis violentum,
+            <lb ed="#V" n="71"/>quod opponitur perfectiori
+            natu<lb ed="#V" n="72" break="no"/>rali, et minus, quod minus
+            natura<lb ed="#V" n="73" break="no"/>1i. Exemplum, aquam esse
+            sur<lb ed="#V" n="74" break="no"/>sum, ut salvetur plenum in
+            univer<lb ed="#V" n="75" break="no"/>so, non est simpliciter violentum,
+            <lb ed="#V" n="76"/>imo si tunc descenderet, relicto,
+            <lb ed="#V" n="77"/>vacuo superius, esset simpliciter
+            <lb ed="#V" n="78"/>violentum, et secundum quid
+            natu<lb ed="#V" n="79" break="no"/>rale, quia natura totius universi
+            ma<lb ed="#V" n="80" break="no"/>gis est principium naturalitatis,
+            <lb ed="#V" n="81"/>quam natura ista particularis, et
+            <lb ed="#V" n="82"/>magis naturale est, quod tali toti
+            <lb ed="#V" n="83"/>convenit, quam quod proprie huic
+            <lb ed="#V" n="84"/>parti. Corpus autem mixtum, et
+            <lb ed="#V" n="85"/>maxime humanum perfectius
+            quod<lb ed="#V" n="86" break="no"/>dam est naturale quocumque
+            ele<lb ed="#V" n="87" break="no"/>mentorum; et ideo quod naturale
+            <lb ed="#V" n="88"/>est illi corpori, hoc est simpliciter
+            <pb ed="#V" n="472"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>magis naturale, quam quod esset
+            <lb ed="#V" n="2"/>naturale unicuique elementorum
+            <lb ed="#V" n="3"/>secundum se. Magis ergo naturale
+            <lb ed="#V" n="4"/>est, quod conservetur corpus
+            ho<lb ed="#V" n="5" break="no"/>minis, et elementa violenter in eo
+            <lb ed="#V" n="6"/>quam quod violenter dissolvatur
+            <lb ed="#V" n="7"/>corpus hominis, et unumquodque
+            <lb ed="#V" n="8"/>elementum sua naturalitate tendat
+            <lb ed="#V" n="9"/>in suum proprium locum.
+          </p>
+          <p>
+            <lb ed="#V" n="10"/>Ista autem propositio, nullum
+            <lb ed="#V" n="11"/>violentum perpetuum, non est
+            neces<lb ed="#V" n="12" break="no"/>saria Theologis, loquendo de
+            vio<lb ed="#V" n="13" break="no"/>rlento contra naturam
+            particula<lb ed="#V" n="14" break="no"/>,rem hujus, quia Deus potest
+            con<lb ed="#V" n="15" break="no"/>servare aliquod particulare
+            perpe<lb ed="#V" n="16" break="no"/>tuo sub opposito ejus, ad quod
+            <lb ed="#V" n="17"/>naturaliter inclinatur. Sed apud
+            <lb ed="#V" n="18"/>Aristotelem erat vera, quia omni
+            <lb ed="#V" n="19"/>potentiae passivae ponit in tota
+            <lb ed="#V" n="20"/>coordinatione causarum
+            activa<lb ed="#V" n="21" break="no"/>rum correspondere aliquam
+            cau<lb ed="#V" n="22" break="no"/>sam, quae aliquando necessario
+            <lb ed="#V" n="23"/>reduceret eam ad actum; ergo illa
+            <lb ed="#V" n="24"/>potentia naturalis aliquando
+            redu<lb ed="#V" n="25" break="no"/>ceretur ad actum, et ita violentum
+            <lb ed="#V" n="26"/>sibi oppositum corrumpetur.
+          </p>
+          <p>
+            <lb ed="#V" n="27"/>(p) Ad aliud de 1. Coeli et mundi.
+            <lb ed="#V" n="28"/>respondeo, quando actus repugnat
+            <lb ed="#V" n="29"/>actui, licet possibilitas ad illum
+            <lb ed="#V" n="30"/>actum stet cum illo, et magis cum
+            <lb ed="#V" n="31"/>possibilitate ad illum, tamen
+            pos<lb ed="#V" n="32" break="no"/>sibilitas ad istum non stat cum
+            <lb ed="#V" n="33"/>necessitate illius, quia si ille est
+            <lb ed="#V" n="34"/>necessarius, iste est impossibilis,
+            <lb ed="#V" n="35"/>quia repugnans necessario est
+            <lb ed="#V" n="36"/>impossibile. Ideo si Plato dixit
+            coe<lb ed="#V" n="37" break="no"/>lum contingenter se habere ad
+            <lb ed="#V" n="38"/>corrumpi vel deficere, et etiam
+            <lb ed="#V" n="39"/>contingenter ad perpetuo servari
+            <lb ed="#V" n="40"/>a Deo, nihil valet ratio contra
+            <lb ed="#V" n="41"/>ipsum, quod posito possibili
+            sequi<lb ed="#V" n="42" break="no"/>tur incompossibilitas, quia in
+            <lb ed="#V" n="43"/>talibus, ubi uterque actus est
+            con<lb ed="#V" n="44" break="no"/>tingens divisim, ex positione
+            pos<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>sibilis in esse, non surgit nova
+            im<lb ed="#V" n="46" break="no"/>possibilitas.
+          </p>
+          <p>
+            <lb ed="#V" n="47"/>Exemplum, curram cras, possum
+            <lb ed="#V" n="48"/>non currere cras, ponatur in esse,
+            <lb ed="#V" n="49"/>nulla incompossibilitas oritur. Si
+            <lb ed="#V" n="50"/>autem posuit alterum dictorum
+            <lb ed="#V" n="51"/>necessarium esse, vel probetur
+            <lb ed="#V" n="52"/>quod ex possibilitate, quam
+            con<lb ed="#V" n="53" break="no"/>cedit, sequatur gratia materiae,
+            <lb ed="#V" n="54"/>necessitas, tunc ponendo aliud
+            pos<lb ed="#V" n="55" break="no"/>sibile in esse, non habetur nova
+            in<lb ed="#V" n="56" break="no"/>compossibilitas; sed quae nunc est
+            <lb ed="#V" n="57"/>manifesta inter inesse necessarium,
+            <lb ed="#V" n="58"/>et non esse oppositum, prius fuit
+            <lb ed="#V" n="59"/>inter non esse necessarium et
+            pos<lb ed="#V" n="60" break="no"/>sibile.
+          </p>
+          <p>
+            <lb ed="#V" n="61"/>Et hoc modo debet exponi ratio
+            <lb ed="#V" n="62"/>Aristotelis; vel si accipiendo
+            <lb ed="#V" n="63"/>a Platone, si dedit quod coelum
+            <lb ed="#V" n="64"/>necessario perpetuabitur a Deo, et
+            <lb ed="#V" n="65"/>tunc ponere in esse illam, possibile
+            <lb ed="#V" n="66"/>est coelum corrumpi vel desinere,
+            <lb ed="#V" n="67"/>sequitur impossibile, non propter
+            <lb ed="#V" n="68"/>positionem possibilis, quia
+            com<lb ed="#V" n="69" break="no"/>parando ad oppositum
+            necessari<lb ed="#V" n="70" break="no"/>um, non est nova
+            incompossibili<lb ed="#V" n="71" break="no"/>tas; vel si non dedit, probandum
+            <lb ed="#V" n="72"/>est sequi ex dato, quod quidem
+            <lb ed="#V" n="73"/>verum est secundum Philosophum,
+            <lb ed="#V" n="74"/>quia secundum eum nono
+            Metaphysi<lb ed="#V" n="75" break="no"/>coe, quodcumque sempiternum est
+            <lb ed="#V" n="76"/>necessarium, et ita si potest esse
+            <lb ed="#V" n="77"/>sempiternum, necessarium est
+            <lb ed="#V" n="78"/>sempiternum; et ita Commentator
+            <lb ed="#V" n="79"/>pertractare videtur rationem
+            il<lb ed="#V" n="80" break="no"/>lam de coelo et mundo, quia
+            natu<lb ed="#V" n="81" break="no"/>ra mutaretur, si de possibili fieret
+            <lb ed="#V" n="82"/>sempiternum, vel duae naturae
+            op<lb ed="#V" n="83" break="no"/>positae simul essent in eodem,
+            <lb ed="#V" n="84"/>quod expositum est dist. 8. 1. quoest.
+            <lb ed="#V" n="85"/>ult.
+          </p>
+          <p>
+            <lb ed="#V" n="86"/>Aliter probatur sequi ex dato,
+            <lb ed="#V" n="87"/>quia Deus quidquid immediate agit,
+            <lb ed="#V" n="88"/>necessario agit secundum
+            Philoso<pb ed="#V" n="473"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>phum; ex hoc procedit in princ. 8.
+            <lb ed="#V" n="2"/>Physic. Et haec secunda probatio
+            <lb ed="#V" n="3"/>concludit aliam necessitatem, quia
+            <lb ed="#V" n="4"/>inevitabilitatis, quam prima, quae
+            <lb ed="#V" n="5"/>concludit aliquam necessitatem
+            <lb ed="#V" n="6"/>intrinsecam. Secundo modo
+            mo<lb ed="#V" n="7" break="no"/>tus coeli est necessarius, non primo
+            <lb ed="#V" n="8"/>modo, 11. Metaphys. utroque modo
+            <lb ed="#V" n="9"/>deducendo necessitatem ex actu.
+            <lb ed="#V" n="10"/>vel possibili dato a Platone.
+            Posi<lb ed="#V" n="11" break="no"/>tio alterius possibilis in esse
+            mani<lb ed="#V" n="12" break="no"/>festat positionem esse
+            inconve<lb ed="#V" n="13" break="no"/>nientem, quia includentem
+            contra<lb ed="#V" n="14" break="no"/>dictionem, quia sicut nunc est
+            <lb ed="#V" n="15"/>contradictio actus ad necessitatem,
+            <lb ed="#V" n="16"/>ita prius fuit possibilis ad eamdem,
+            <lb ed="#V" n="17"/>licet minus manifesta.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

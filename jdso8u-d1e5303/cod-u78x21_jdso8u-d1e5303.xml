@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 49, Pars 1, Quaestio 12</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 49, Pars 1, Quaestio 12</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x21">Vives, Paris, 1894, volume 21</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="439"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e5303"><!-- jdso8u-b4d49p1q12 -->
+        <head>Quaestio 12</head>
+        <head type="question-title">Utrum in vita mortali possit consequi beatitudinem</head>
+        <!-- <div alias="scotus-d49q12-p1"> -->
+          <p>
+            <lb ed="#V" n="53" type="fixed=439"/>QUAESTIO XII.
+            <lb ed="#V" n="54"/>Utrum in vita mortali possit consequi
+            <lb ed="#V" n="55"/>beatitudinem?
+          </p>
+          <p>
+            <lb ed="#V" n="56"/>Tertul. lib. 1. contra Praxeam cap. 4. Athan.
+            <lb ed="#V" n="57"/>serm. contra Arian. Richard. hic art. 1. q. 6.
+            <lb ed="#V" n="58"/>Vasquez 1. part. dist. 55. cap. 4. exposit. in id
+            <lb ed="#V" n="59"/>Exod 33. Non videbit me homo. et in id 1.
+            <lb ed="#V" n="60"/>Tim. 6. Quem nemo hominum vidit. Aug.
+            <lb ed="#V" n="61"/>Chrysost. Anselmus, Hieron. Isidor citandi in
+            <lb ed="#V" n="62"/>Schot.
+          </p>
+          <p>
+            <lb ed="#V" n="63"/>(i) Utrum homo in vita mortali
+            <lb ed="#V" n="64"/>possit consequi beatitudinem? non
+            <lb ed="#V" n="65"/>enim idem est quaerere hoc, et
+            u<lb ed="#V" n="66" break="no"/>trum ex puris naturalibus possit
+            <lb ed="#V" n="67"/>consequi beatitudinem? Et
+            argu<lb ed="#V" n="68" break="no"/>itur quod sic: Christus habuit
+            be<lb ed="#V" n="69" break="no"/>atitudinem in vita ista, et tamen
+            <lb ed="#V" n="70"/>vere erat homo mortalis;
+            er<lb ed="#V" n="71" break="no"/>go, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="72"/>Item, Augustinus 83. quoest. quoest.
+            <lb ed="#V" n="73"/>antepenultima ad Orosium, dicit de
+            <lb ed="#V" n="74"/>raptu Pauli, quod vidit Deum eo
+            <lb ed="#V" n="75"/>modo quo beati vident in patria, et
+            <lb ed="#V" n="76"/>tamen erat in corpore mortali. Et
+            <lb ed="#V" n="77"/>licet visio illa fuerit quasi
+            hora<lb ed="#V" n="78" break="no"/>ria, potuisset Deus illam
+            conser<lb ed="#V" n="79" break="no"/>vasse et continuasse per totam
+            vi<lb ed="#V" n="80" break="no"/>tam ejus; ergo posset homo
+            con<lb ed="#V" n="81" break="no"/>sequi beatitudinem in vita
+            mor<lb ed="#V" n="82" break="no"/>tali.
+          </p>
+          <p>
+            <lb ed="#V" n="83"/>Praeterea, illud, quod non est
+            <lb ed="#V" n="84"/>susceptivum beatitudinis, non
+            im<lb ed="#V" n="85" break="no"/>pedit ad beatitudinem aliquid
+            bea<lb ed="#V" n="86" break="no"/>tificabile beatificari; sed corpus
+            <lb ed="#V" n="87"/>non est beatificabile, quia non est
+            <lb ed="#V" n="88"/>conjungibile ultimo bonc
+            simpli<pb ed="#V" n="440"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>citer; ergo sive mortale, sive non
+            <lb ed="#V" n="2"/>mortale, non impedit animam
+            <lb ed="#V" n="3"/>beatificari; ergo in vita ista potest.
+          </p>
+          <p>
+            <lb ed="#V" n="4"/>Praeterea, homo naturaliter ap.
+            <lb ed="#V" n="5"/>petit beatitudinem, et si non
+            <lb ed="#V" n="6"/>potest eam consequi, nisi moriatur,
+            <lb ed="#V" n="7"/>debet homo appetere naturaliter
+            <lb ed="#V" n="8"/>mori, quia eodem appetitu
+            appe<lb ed="#V" n="9" break="no"/>titur aliquid, et fugitur impediens;
+            <lb ed="#V" n="10"/>ergo homo naturaliter fugeret
+            <lb ed="#V" n="11"/>vitam mortalem, quod est contra
+            <lb ed="#V" n="12"/>Apostolum, 2. ad Cor. 5. Nolumus
+            <lb ed="#V" n="13"/>expoliari, sed supervestiri.
+          </p>
+          <p>
+            <lb ed="#V" n="14"/>Ultimo arguitur sic: Illud quod
+            <lb ed="#V" n="15"/>immediate in vita ista potest
+            co<lb ed="#V" n="16" break="no"/>gnosci, potest immediate diligi, et
+            <lb ed="#V" n="17"/>sic potest diligens ipso frui et esse
+            <lb ed="#V" n="18"/>beatus; sed in vita mortali potest
+            <lb ed="#V" n="19"/>Deus immediate cognosci per
+            <lb ed="#V" n="20"/>actum fidei; ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="21"/>Contra, Augustinus. 13. de Trin.
+            <lb ed="#V" n="22"/>cap. 8. probat quod cum
+            mortalita<lb ed="#V" n="23" break="no"/>te non potest esse beatitudo, quia
+            <lb ed="#V" n="24"/>tunc posset beatitudo amitti per
+            <lb ed="#V" n="25"/>mortem, et hoc sciret homo, quod
+            <lb ed="#V" n="26"/>moreretur. Tunc arguit, aut
+            vo<lb ed="#V" n="27" break="no"/>lens amitteret, aut nolens, aut nec
+            <lb ed="#V" n="28"/>sic, nec sic. Si volens, jam non
+            <lb ed="#V" n="29"/>esset illud summe volibile. Si
+            no<lb ed="#V" n="30" break="no"/>lens, ergo timeret, et sic
+            tristare<lb ed="#V" n="31" break="no"/>tur. Si nec sic, nec sic, ergo non
+            <lb ed="#V" n="32"/>curaret de maximo bono suo,
+            <lb ed="#V" n="33"/>quod est inconveniens; ergo in vita
+            <lb ed="#V" n="34"/>mortali non potest homo esse
+            <lb ed="#V" n="35"/>beatus. Item Exodi 33. dicitur.
+            <lb ed="#V" n="36"/>Non videbit me homo, et vivet. Ibi
+            <lb ed="#V" n="37"/>Glossa est pro hoc.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d49q12-p2"> -->
+          <p>
+            <lb ed="#V" n="48" type="fixed=440"/>SCHOLIUM.
+            <lb ed="#V" n="49"/>Non repugnare simpliciter ex parte
+            agen<lb ed="#V" n="50" break="no"/>tis Dei, nec ex parte passi, scilicet hominis,
+            <lb ed="#V" n="51"/>aliquem in hac vita mortali beari,
+            ex<lb ed="#V" n="52" break="no"/>plicat clare, ac etiam qualis est repugnantia
+            <lb ed="#V" n="53"/>inter beatitudinem, et hanc vitam, dicens
+            <lb ed="#V" n="54"/>esse virtualem, quia effectus repugnant,
+            <lb ed="#V" n="55"/>scilicet immortalitas et mortalitas. Paulum
+            <lb ed="#V" n="56"/>vidisse divinam essentiam tenent Chrysost.
+            <lb ed="#V" n="57"/>hom. 26. in 2. ad Cor. August. 12. de Gen.
+            <lb ed="#V" n="58"/>ad lit. cap. 27. 28. et 1. 83. quaest. 81.
+            <lb ed="#V" n="59"/>Anselm. in 2. Cor. 12. D. Thom. 2. 2. q. 175.
+            <lb ed="#V" n="60"/>art. 4. Scot. 2. dist. 3. quaest. 9. Negat. id de
+            <lb ed="#V" n="61"/>Paulo Hieron. dial. 3. contra Pelag. fin. et
+            <lb ed="#V" n="62"/>Isidor. lib. 1. de sum. bono, et alii.
+          </p>
+          <p>
+            <lb ed="#V" n="63"/>(k) Respondeo et dico quod ad
+            <lb ed="#V" n="64"/>istam quaestionem potest esse
+            du<lb ed="#V" n="65" break="no"/>plex intellectus; vel utrum homo
+            <lb ed="#V" n="66"/>in actibus, quos modo experimur
+            <lb ed="#V" n="67"/>in nobis, possit in vita ista
+            beatifi<lb ed="#V" n="68" break="no"/>cari; et dixisset Philosophus quod
+            <lb ed="#V" n="69"/>sic, et quod alia notitia et dilectio
+            <lb ed="#V" n="70"/>clara et immediata non fuisset
+            <lb ed="#V" n="71"/>possibilis homini, per rationem
+            <lb ed="#V" n="72"/>naturalem investigando; sed hoc
+            <lb ed="#V" n="73"/>fuit superius reprobatum; tum
+            <lb ed="#V" n="74"/>quia totum ens est objectum suum,
+            <lb ed="#V" n="75"/>et per consequens non quietatur
+            <lb ed="#V" n="76"/>nisi in cognitione summi
+            intelligi<lb ed="#V" n="77" break="no"/>bilis in se; tum quia cognitio
+            in<lb ed="#V" n="78" break="no"/>tuitiva competit sensui circa
+            ob<lb ed="#V" n="79" break="no"/>jectum suum; ergo et intellectui
+            <lb ed="#V" n="80"/>circa suum, et sic ratio naturalis
+            <lb ed="#V" n="81"/>docet, quod Deus immediate et
+            <lb ed="#V" n="82"/>nude poterit cognosci, et per
+            con<lb ed="#V" n="83" break="no"/>sequens diligi ab homine.
+          </p>
+          <p>
+            <lb ed="#V" n="84"/>Alius intellectus posset esse,
+            <pb ed="#V" n="441"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>de utrum in vita mortali aliis actibus
+            <lb ed="#V" n="2"/>quam modo experimur, posset
+            ho<lb ed="#V" n="3" break="no"/>mo fieri beatus. Ad quod dico quod
+            <lb ed="#V" n="4"/>impossibilitas aliquid recipiendi in
+            <lb ed="#V" n="5"/>subjecto praeexistente, potest esse
+            <lb ed="#V" n="6"/>ex duobus, vel ex parte agentis,
+            <lb ed="#V" n="7"/>vel ex parte passi. Ex parte passi
+            <lb ed="#V" n="8"/>dupliciter, vel quia simpliciter
+            re<lb ed="#V" n="9" break="no"/>pugnat passo, sicut lapidi
+            sapien<lb ed="#V" n="10" break="no"/>tem esse; vel secundum quid, sicut
+            <lb ed="#V" n="11"/>objecto existenti sub uno
+            contra<lb ed="#V" n="12" break="no"/>rio, repugnat pro tunc esse sub
+            <lb ed="#V" n="13"/>opposito.
+          </p>
+          <p>
+            <lb ed="#V" n="14"/>De istis ergo tribus est
+            viden<lb ed="#V" n="15" break="no"/>dum, primo ex parte agentis. Si
+            <lb ed="#V" n="16"/>enim dispositio praevia non
+            requi<lb ed="#V" n="17" break="no"/>ritur ad esse beatum, sicut lumen
+            <lb ed="#V" n="18"/>gloriae, tunc agenti ut agens est,
+            <lb ed="#V" n="19"/>non repugnat plus modo dare
+            bea<lb ed="#V" n="20" break="no"/>titudinem, quam in alia vita; si
+            <lb ed="#V" n="21"/>dispositio requiritur, potest illam
+            <lb ed="#V" n="22"/>dispositionem primo dare, et illa
+            <lb ed="#V" n="23"/>data, beatitudinem conferre, sicut
+            <lb ed="#V" n="24"/>post mortem; nulla enim est
+            im<lb ed="#V" n="25" break="no"/>possibilitas simpliciter, sed solum
+            <lb ed="#V" n="26"/>quia caret illa dispositione modo;
+            <lb ed="#V" n="27"/>sic ergo non est impossibilitas ex
+            <lb ed="#V" n="28"/>parte agentis.
+          </p>
+          <p>
+            <lb ed="#V" n="29"/>De impossibilitate ex parte
+            pas<lb ed="#V" n="30" break="no"/>si, patet quod non est
+            impossibili<lb ed="#V" n="31" break="no"/>tas simpliciter ex natura sua; tunc
+            <lb ed="#V" n="32"/>enim nunquam posset recipere
+            <lb ed="#V" n="33"/>beatitudinem; ergo si est
+            repu<lb ed="#V" n="34" break="no"/>gnantia modo, hoc est ratione
+            alicu<lb ed="#V" n="35" break="no"/>jus quod est in passo, cum quo non
+            <lb ed="#V" n="36"/>potest esse beatitudo, et si est
+            ali<lb ed="#V" n="37" break="no"/>quid tale impediens, hoc erit
+            mor<lb ed="#V" n="38" break="no"/>talitas; talis autem repugnantia
+            <lb ed="#V" n="39"/>mortalitatis ad beatitudinem non
+            <lb ed="#V" n="40"/>est formalis repugnantia, tunc
+            <lb ed="#V" n="41"/>enim in Christo non potuissent
+            <lb ed="#V" n="42"/>fuisse simul, quod non est verum.
+          </p>
+          <p>
+            <lb ed="#V" n="43"/>Qualis ergo est ista
+            repugnan<lb ed="#V" n="44" break="no"/>tia inter illa duo? Dicendum quod
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>non omnis oppositio est formalis,
+            <lb ed="#V" n="46"/>sed quaedam virtualis, ut si aliqua
+            <lb ed="#V" n="47"/>forma nata est facere aliquem
+            ef<lb ed="#V" n="48" break="no"/>fectum, effectus oppositus illi
+            ef<lb ed="#V" n="49" break="no"/>fectui opponitur causae effectus
+            <lb ed="#V" n="50"/>virtualiter. Exemplum, ignis non
+            <lb ed="#V" n="51"/>solum repugnat formae gravis, sed
+            <lb ed="#V" n="52"/>effectui ejus, quod est ferri
+            deor<lb ed="#V" n="53" break="no"/>sum; causa enim virtualiter
+            conti<lb ed="#V" n="54" break="no"/>net effectum oppositum illi
+            effe<lb ed="#V" n="55" break="no"/>ctui, et naturaliter sequeretur,
+            <lb ed="#V" n="56"/>nisi esset impediens. Repugnat
+            <lb ed="#V" n="57"/>ergo ut in pluribus mortalitas
+            <lb ed="#V" n="58"/>beatitudini, non formaliter, sed
+            <lb ed="#V" n="59"/>quia effectus unius repugnat
+            effe<lb ed="#V" n="60" break="no"/>ctui alterius, et per consequens
+            <lb ed="#V" n="61"/>causa illius effectus; beatitudo
+            <lb ed="#V" n="62"/>enim est causa immortalitatis in
+            <lb ed="#V" n="63"/>anima; mortalitas igitur
+            repu<lb ed="#V" n="64" break="no"/>gnat beatitudini, quia repugnat
+            <lb ed="#V" n="65"/>ejus effectui.
+          </p>
+          <p>
+            <lb ed="#V" n="66"/>Cum ergo naturaliter appetitus
+            <lb ed="#V" n="67"/>sensitivus in homine mortali
+            <lb ed="#V" n="68"/>inclinetur ad delectabile, et
+            appe<lb ed="#V" n="69" break="no"/>titus sensitivus natus est
+            appeti<lb ed="#V" n="70" break="no"/>tum intellectivum inclinare,
+            be<lb ed="#V" n="71" break="no"/>atitudo autem non compatitur in
+            <lb ed="#V" n="72"/>appetitu intellectivo aliquam
+            de<lb ed="#V" n="73" break="no"/>ordinationem, nec in sensitivo,
+            <lb ed="#V" n="74"/>quia summa delectatio amovet
+            <lb ed="#V" n="75"/>omnem tristitiam, non solum
+            op<lb ed="#V" n="76" break="no"/>positam, sed contingentem; et per
+            <lb ed="#V" n="77"/>consequens non sinitur appetitus
+            <lb ed="#V" n="78"/>sensitivus habere tristitiam circa
+            <lb ed="#V" n="79"/>passionem, et sic mortalis
+            impe<lb ed="#V" n="80" break="no"/>ditur ab effectu, qui naturaliter
+            <lb ed="#V" n="81"/>natus est consequi; et per
+            conse<lb ed="#V" n="82" break="no"/>quens repugnat mortalitati
+            beati<lb ed="#V" n="83" break="no"/>tudo ratione repugnantiae
+            effe<lb ed="#V" n="84" break="no"/>ctuum naturaliter consequentium.
+          </p>
+          <p>
+            <lb ed="#V" n="85"/>Alio modo potest aliter signari
+            <lb ed="#V" n="86"/>repugnantia, quia licet corpus non
+            <lb ed="#V" n="87"/>sit beatificabile beatitudine
+            pro<lb ed="#V" n="88" break="no"/>prie dicta, sicut loquitur
+            Augusti<pb ed="#V" n="442"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>nus ad Dioscorum, quae scilicet est
+            <lb ed="#V" n="2"/>in actu intellectus et voluntatis,
+            <lb ed="#V" n="3"/>tamen est secundum quid
+            beatifica<lb ed="#V" n="4" break="no"/>bile, et sive illa beatitudo
+            corpo<lb ed="#V" n="5" break="no"/>ris sit immediate a Deo, sive ex
+            <lb ed="#V" n="6"/>redundantia beatitudinis animae,
+            <lb ed="#V" n="7"/>tamen ordo est ibi, quod beatitudo
+            <lb ed="#V" n="8"/>animae non est omnino perfecta
+            <lb ed="#V" n="9"/>sine illa corporis. Cum ergo
+            beati<lb ed="#V" n="10" break="no"/>tudo corporis non possit stare
+            <lb ed="#V" n="11"/>cum vita mortali, repugnat
+            effe<lb ed="#V" n="12" break="no"/>ctui perfectae beatitudinis esse in
+            <lb ed="#V" n="13"/>vita mortali. Patet ergo quod
+            <lb ed="#V" n="14"/>sine miraculo non potest esse
+            <lb ed="#V" n="15"/>beatitudo in vita mortali, et non
+            <lb ed="#V" n="16"/>solum in hoc quod detur
+            beatitu<lb ed="#V" n="17" break="no"/>do, est miraculum, sed quia res
+            <lb ed="#V" n="18"/>naturalis impeditur ab effectu suo
+            <lb ed="#V" n="19"/>naturaliter consequente, non
+            ta<lb ed="#V" n="20" break="no"/>men per agens naturale
+            contra<lb ed="#V" n="21" break="no"/>rium.
+          </p>
+          <p>
+            <lb ed="#V" n="22"/>(1) Sed non videtur quod sufficiat
+            <lb ed="#V" n="23"/>repugnantia, quae dicta est; est
+            <lb ed="#V" n="24"/>enim repugnantia alicujus ad
+            op<lb ed="#V" n="25" break="no"/>positum sui effectus. Si enim
+            obje<lb ed="#V" n="26" break="no"/>ctum beatificum esset modo
+            prae<lb ed="#V" n="27" break="no"/>sens sub illa ratione animae,
+            im<lb ed="#V" n="28" break="no"/>mutaret animam, et videret clare,
+            <lb ed="#V" n="29"/>sicut post vitam illam, et ita modo
+            <lb ed="#V" n="30"/>impediretur effectus naturalis
+            ap<lb ed="#V" n="31" break="no"/>petitus sensitivi et intellectivi,
+            <lb ed="#V" n="32"/>sicut in alia vita impedirentur;
+            <lb ed="#V" n="33"/>ergo eadem ratione, sine majori
+            <lb ed="#V" n="34"/>repugnantia posset modo aliquis
+            <lb ed="#V" n="35"/>esse beatus, si Deus daret
+            beatitu<lb ed="#V" n="36" break="no"/>dinem sicut tunc.
+          </p>
+          <p>
+            <lb ed="#V" n="37"/>Et confirmatur, quia circa idem
+            <lb ed="#V" n="38"/>objectum eadem natura semper
+            <lb ed="#V" n="39"/>habet eumdem actum specie; ergo
+            <lb ed="#V" n="40"/>sicut tunc, et modo.
+          </p>
+          <p>
+            <lb ed="#V" n="41"/>Dicendum, quod non est simile,
+            <lb ed="#V" n="42"/>quia in vita mortali causa
+            natu<lb ed="#V" n="43" break="no"/>ralis semper agit effectum suum,
+            <lb ed="#V" n="44"/>nisi per contrarium impediatur;
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>et si suspendatur actio ista aliter,
+            <lb ed="#V" n="46"/>quam per oppositum, miraculum
+            <lb ed="#V" n="47"/>est, et tale dicitur Deus non posse
+            <lb ed="#V" n="48"/>de lege communi. In vita autem
+            <lb ed="#V" n="49"/>immortali non talis erit necessitas
+            <lb ed="#V" n="50"/>respectu effectus naturalis, quia
+            <lb ed="#V" n="51"/>Deus pro statu isto disposuit
+            re<lb ed="#V" n="52" break="no"/>bus coagere, et actiones proprias
+            <lb ed="#V" n="53"/>eis sinere habere, secundum
+            Au<lb ed="#V" n="54" break="no"/>gustinum 7. de Civit. Dei, cap. 30.
+            <lb ed="#V" n="55"/>In statu autem illo non coaget eis
+            <lb ed="#V" n="56"/>ad corruptionem mutuam, et ad
+            <lb ed="#V" n="57"/>multos alios effectus; et ideo non
+            <lb ed="#V" n="58"/>est miraculum, si tunc non habent
+            <lb ed="#V" n="59"/>effectus suos, maxime
+            imperfe<lb ed="#V" n="60" break="no"/>ctos.
+          </p>
+          <p>
+            <lb ed="#V" n="61"/>Ad secundum dicendum, quod
+            li<lb ed="#V" n="62" break="no"/>cet idem sit objectum potentiae et
+            <lb ed="#V" n="63"/>naturae ejusdem in se et absolute,
+            <lb ed="#V" n="64"/>considerando tamen objectum illud
+            <lb ed="#V" n="65"/>sic materialiter idem, bene
+            distin<lb ed="#V" n="66" break="no"/>guitur secundum diversos status
+            <lb ed="#V" n="67"/>et dispositiones potentiae; unde
+            <lb ed="#V" n="68"/>objectum proprium unius
+            sta<lb ed="#V" n="69" break="no"/>tus et alterius differunt plus quam
+            <lb ed="#V" n="70"/>specie. Similiter aliud et aliud
+            <lb ed="#V" n="71"/>est lumen hic et ibi, et ideo actus
+            <lb ed="#V" n="72"/>sunt diversi specie. Alia diversitas
+            <lb ed="#V" n="73"/>potest ibi assignari, quia actus
+            <lb ed="#V" n="74"/>abstractivus et intuitivus differunt
+            <lb ed="#V" n="75"/>specie, quia aliud et aliud est ibi
+            <lb ed="#V" n="76"/>movens; hic enim movet species
+            <lb ed="#V" n="77"/>similis rei; ibi autem movet res
+            <lb ed="#V" n="78"/>praesens in se.
+          </p>
+          <p>
+            <lb ed="#V" n="79"/>(m) Ex dictis possunt solvi et
+            in<lb ed="#V" n="80" break="no"/>telligi omnes auctoritates
+            Sancto<lb ed="#V" n="81" break="no"/>rum; repugnat enim non solum
+            <lb ed="#V" n="82"/>quia miraculum esset, si Deus
+            da<lb ed="#V" n="83" break="no"/>ret beatitudinem, sed aliud
+            mira<lb ed="#V" n="84" break="no"/>culum requireretur, scilicet
+            su<lb ed="#V" n="85" break="no"/>spensio miraculosa potentiae
+            na<lb ed="#V" n="86" break="no"/>turalis ab effectu suo naturali; et
+            <lb ed="#V" n="87"/>ideo dicitur, quod de lege
+            commu<lb ed="#V" n="88" break="no"/>ni non posset esse.
+          </p>
+          <p>
+            <pb ed="#V" n="443"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>(n) Ad argumenta. Ad primum
+            <lb ed="#V" n="2"/>de Christo, dicendum quod semper
+            <lb ed="#V" n="3"/>fuit miraculum usque ad mortem
+            <lb ed="#V" n="4"/>quod simul fuerunt beatitudo et
+            <lb ed="#V" n="5"/>mortalitas, propter repugnantiam
+            <lb ed="#V" n="6"/>effectuum, et sicut hic dolor
+            par<lb ed="#V" n="7" break="no"/>tis sensitivae redundabat usque ad
+            <lb ed="#V" n="8"/>superiorem partem animae, illud
+            <lb ed="#V" n="9"/>fuit miraculum contra effectum
+            <lb ed="#V" n="10"/>beatitudinis.
+          </p>
+          <p>
+            <lb ed="#V" n="11"/>(o) Ad aliud de Paulo, concedo
+            <lb ed="#V" n="12"/>quod non simpliciter est, nec fuit
+            <lb ed="#V" n="13"/>repugnantia, et sic Deus
+            miracu<lb ed="#V" n="14" break="no"/>lose potuisset continuasse, sed hoc
+            <lb ed="#V" n="15"/>non est de lege communi.
+          </p>
+          <p>
+            <lb ed="#V" n="16"/>Ad aliud, cum dicitur, corpus non
+            <lb ed="#V" n="17"/>est susceptivum beatitudinis,
+            con<lb ed="#V" n="18" break="no"/>cedo, talis qualis anima; est
+            ta<lb ed="#V" n="19" break="no"/>men susceptivum et productivum
+            <lb ed="#V" n="20"/>alicujus effectus, cui repugnat
+            ef<lb ed="#V" n="21" break="no"/>fectus beatitudinis, et e converso.
+          </p>
+          <p>
+            <lb ed="#V" n="22"/>Ad aliud de vita fugienda,
+            con<lb ed="#V" n="23" break="no"/>cede quod vita ista inquantum vita
+            <lb ed="#V" n="24"/>non repugnat beatitudini; sed hoc
+            <lb ed="#V" n="25"/>est solum inquantum est mortalis,
+            <lb ed="#V" n="26"/>et sic nullus appetit dissolvi, sed
+            <lb ed="#V" n="27"/>supervestiri, hoc est, magis
+            appe<lb ed="#V" n="28" break="no"/>tit quod semper possit esse
+            im<lb ed="#V" n="29" break="no"/>mortalis vita sua.
+          </p>
+          <p>
+            <lb ed="#V" n="30"/>Ad aliud de cognitione et
+            dilecti<lb ed="#V" n="31" break="no"/>one Dei immediata, dico quod
+            <lb ed="#V" n="32"/>potest cognosci et diligi hic
+            im<lb ed="#V" n="33" break="no"/>mediate, tamen in communi et
+            <lb ed="#V" n="34"/>confuse; talis autem dilectio et
+            <lb ed="#V" n="35"/>notitia non est ultima beatitudo
+            <lb ed="#V" n="36"/>possibilis homini, sicut prius
+            di<lb ed="#V" n="37" break="no"/>ctum est, sed consistit in
+            cogniti<lb ed="#V" n="38" break="no"/>one intuitiva clara et dilectione
+            <lb ed="#V" n="39"/>correspondente.
+          </p>
+          <p>
+            <lb ed="#V" n="40"/>Ex hoc sequitur corollarium,
+            <lb ed="#V" n="41"/>quod cum anima non potest esse
+            <lb ed="#V" n="42"/>perfecte beata conjuncta corpori
+            <lb ed="#V" n="43"/>mortali, appetit perfecte
+            beatifica<lb ed="#V" n="44" break="no"/>ri, et per consequens appetit esse
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>conjuncta corpori, sed immortali,
+            <lb ed="#V" n="46"/>quia tunc perfecte erit beata, non
+            <lb ed="#V" n="47"/>tamen corpus erit beatum
+            sim<lb ed="#V" n="48" break="no"/>pliciter, sed fruens et intelligens,
+            <lb ed="#V" n="49"/>sicut loquitur Augustinus ad
+            Di<lb ed="#V" n="50" break="no"/>oscorum, de beatitudine naturae,
+            <lb ed="#V" n="51"/>et beatitudine secundum quid, quae
+            <lb ed="#V" n="52"/>consistit in actu secundo, quia
+            cor<lb ed="#V" n="53" break="no"/>pus, ut est distinctum contra
+            ani<lb ed="#V" n="54" break="no"/>mam, nullum habet actum
+            secun<lb ed="#V" n="55" break="no"/>dum. Consistit ergo beatitudo
+            cor<lb ed="#V" n="56" break="no"/>poris in esse primo, ut est
+            perfecti<lb ed="#V" n="57" break="no"/>bile ab anima beata; et hoc
+            pro<lb ed="#V" n="58" break="no"/>pter duo, vel propter majorem
+            <lb ed="#V" n="59"/>perfectionem animae in operando,
+            <lb ed="#V" n="60"/>vel propter majorem perfectionem
+            <lb ed="#V" n="61"/>corporis ab anima, quia materia
+            <lb ed="#V" n="62"/>est propter formam, et non e
+            con<lb ed="#V" n="63" break="no"/>verso. Et quia ista perfectio
+            corpo<lb ed="#V" n="64" break="no"/>ris ponitur esse in quatuor
+            doti<lb ed="#V" n="65" break="no"/>bus, ideo quaeritur:
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

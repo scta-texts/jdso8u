@@ -1,0 +1,965 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 49, Pars 2, Quaestio 2</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 49, Pars 2, Quaestio 2</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x21">Vives, Paris, 1894, volume 21</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="473"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e5308"><!-- jdso8u-b4d49p2q2 -->
+        <head>Quaestio 2</head>
+        <head type="question-title">Utrum corpora beatorum erunt agilia</head>
+        <!-- <div alias="scotus-d49q14-p1"> -->
+          <p>
+            <lb ed="#V" n="81" type="fixed=473"/>QUAESTIO XIV.
+            <lb ed="#V" n="82"/>Utrum corpora beatorum erunt agilia?
+          </p>
+          <p>
+            <lb ed="#V" n="83"/>D. Thom. in addit. quaest. 84. art. 1. et 4. d. 44.
+            <lb ed="#V" n="84"/>quaest. 2. art. 3. Richard. hic art. 3. quaest. 7.
+            <pb ed="#V" n="474"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Major, quaest. 18. D. Bonavent. 2. part. a. 4.
+            <lb ed="#V" n="2"/>quaest. 1. et 2. Gabriel dist. 44. quaest. 2. a. 2
+            <lb ed="#V" n="3"/>Suar. 3. part. tom. 2. disp. 48. sess. 4. Vide
+            <lb ed="#V" n="4"/>Scot. 9. Metaphys, quaest. 14.
+          </p>
+          <p>
+            <lb ed="#V" n="5"/>Utrum corpora beatorum erunt
+            <lb ed="#V" n="6"/>agilia? Videtur quod non, quia
+            ni<lb ed="#V" n="7" break="no"/>hil erit ibi frustra. Sed agilitas
+            <lb ed="#V" n="8"/>poneretur ibi frustra, quia non
+            po<lb ed="#V" n="9" break="no"/>neretur, nisi propter motum
+            loca<lb ed="#V" n="10" break="no"/>lem, qui non erit ibi; tum quia
+            om<lb ed="#V" n="11" break="no"/>nis motus ut sic, est actus entis
+            <lb ed="#V" n="12"/>imperfecti, quia entis in potentia;
+            <lb ed="#V" n="13"/>sed beati non erunt imperfecti;
+            <lb ed="#V" n="14"/>ergo, etc. tum quia primus motus
+            <lb ed="#V" n="15"/>non erit, qui est causa aliorum
+            <lb ed="#V" n="16"/>motuum; tum quia tempus non
+            <lb ed="#V" n="17"/>erit; omnis autem motus est in
+            <lb ed="#V" n="18"/>tempore.
+          </p>
+          <p>
+            <lb ed="#V" n="19"/>Praeterea, si haberent corpora
+            <lb ed="#V" n="20"/>resurgentium agilitatem, non
+            indi<lb ed="#V" n="21" break="no"/>gerent alio motore ad judicium, vel
+            <lb ed="#V" n="22"/>adjutore ad movendum; sed hoc
+            <lb ed="#V" n="23"/>non est verum, quia secundum
+            <lb ed="#V" n="24"/>Apostolum rapientur ab Angelis in
+            <lb ed="#V" n="25"/>nubibus obviam Christo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="26"/>Praeterea, beati secundum
+            meri<lb ed="#V" n="27" break="no"/>ta sua erunt indeterminata
+            appro<lb ed="#V" n="28" break="no"/>ximatione ad Christum; sed illi,
+            <lb ed="#V" n="29"/>qui erunt propinquiores, nollent
+            <lb ed="#V" n="30"/>moveri ad locum remotiorem, quia
+            <lb ed="#V" n="31"/>amitterent eorum praemium in
+            <lb ed="#V" n="32"/>parte, ad tempus; nec e converso,
+            <lb ed="#V" n="33"/>quia eorum meritis non congruit.
+          </p>
+          <p>
+            <lb ed="#V" n="34"/>Praeterea 2. de Coel. quanto aliqua
+            <lb ed="#V" n="35"/>sunt perfectiora, tanto paucioribus
+            <lb ed="#V" n="36"/>operationibus attingunt
+            perfecti<lb ed="#V" n="37" break="no"/>onem suam; sed tunc erunt beati,
+            <lb ed="#V" n="38"/>et corpora eorum perfectissima;
+            <lb ed="#V" n="39"/>ergo non indigent motu locali, ut
+            <lb ed="#V" n="40"/>sic operentur diversimode ad suam
+            <lb ed="#V" n="41"/>perfectam beatitudinem
+            conse<lb ed="#V" n="42" break="no"/>quendam.
+          </p>
+          <p>
+            <lb ed="#V" n="43"/>Contra, Sap. 3. dicitur, quod
+            tan<lb ed="#V" n="44" break="no"/>quam scintillae in arundineto discurrent.
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>Et Isai. 40. Qui sperant in Domino,
+            <lb ed="#V" n="46"/>mutabunt fortitudinem, assument pennas
+            <lb ed="#V" n="47"/>sicut aquilae, current et non laborabunt,
+            <lb ed="#V" n="48"/>ambulabunt et non deficient.
+          </p>
+          <p>
+            <lb ed="#V" n="49"/>SCHOLIUM.
+            <lb ed="#V" n="50"/>In quolibet sensitivo esse duos motus:
+            al<lb ed="#V" n="51" break="no"/>terum provenientem ab elemento
+            praedomi<lb ed="#V" n="52" break="no"/>nante, ut descendere in gravi, alterum ab
+            <lb ed="#V" n="53"/>anima, ut progredi. Differunt tripliciter:
+            <lb ed="#V" n="54"/>Primo ratione principiorum diversorum.
+            <lb ed="#V" n="55"/>Secundo, primus motus non sequitur
+            cogni<lb ed="#V" n="56" break="no"/>tionem, sed appetitum naturalem, et ideo
+            <lb ed="#V" n="57"/>semper est ad unum situm. Secundus, quia
+            <lb ed="#V" n="58"/>sequitur cognitionem, non est semper ad
+            <lb ed="#V" n="59"/>unum situm vel locum. Tertio, mobile a
+            pri<lb ed="#V" n="60" break="no"/>mo motu, non potest se sistere, a secundo
+            <lb ed="#V" n="61"/>sic. Describit agilitatem, ad quam duo
+            re<lb ed="#V" n="62" break="no"/>quiruntur, scilicet perfectio virtutis motivae,
+            <lb ed="#V" n="63"/>et dispositio corporis, ne motui locali
+            resi<lb ed="#V" n="64" break="no"/>stat.
+          </p>
+          <p>
+            <lb ed="#V" n="65"/>(a) Respondeo, hic sunt breviter
+            <lb ed="#V" n="66"/>quatuor vel quinque videnda per
+            <lb ed="#V" n="67"/>ordinem.
+          </p>
+          <p>
+            <lb ed="#V" n="68"/>Primum est (b), quod in homine
+            <lb ed="#V" n="69"/>et in quolibet composito sensitivo,
+            <lb ed="#V" n="70"/>est duplex motus: Unus secundum
+            <lb ed="#V" n="71"/>exigentiam elementi
+            praedominan<lb ed="#V" n="72" break="no"/>tis secundum quantitatem, sicut
+            <lb ed="#V" n="73"/>motus deorsum propter
+            praedomi<lb ed="#V" n="74" break="no"/>nantiam terrae in corpore humano
+            <lb ed="#V" n="75"/>secundum quantitatem; alius est
+            <lb ed="#V" n="76"/>motus non ratione talis elementi
+            <lb ed="#V" n="77"/>praedominantis, sed ratione, qua
+            <lb ed="#V" n="78"/>animatum est, et est motus
+            pro<lb ed="#V" n="79" break="no"/>gressivus.
+          </p>
+          <p>
+            <lb ed="#V" n="80"/>Differunt autem isti motus
+            se<lb ed="#V" n="81" break="no"/>cundum tria: Uno modo ex parte
+            <lb ed="#V" n="82"/>principiorum, quia principium
+            <lb ed="#V" n="83"/>unius motus est mixtum per
+            na<lb ed="#V" n="84" break="no"/>turam elementi praedominantis;
+            <lb ed="#V" n="85"/>et ideo post mortem, quando
+            ma<lb ed="#V" n="86" break="no"/>xime illud elementum
+            praedomina<lb ed="#V" n="87" break="no"/>tur, redditur corpus gravius;
+            prin<lb ed="#V" n="88" break="no"/>cipium autem alterius motus est in
+            <lb ed="#V" n="89"/>anima.
+          </p>
+          <p>
+            <pb ed="#V" n="475"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Secundo differunt, quia motus
+            <lb ed="#V" n="2"/>qui consequitur animatum ratione
+            <lb ed="#V" n="3"/>corporis, non sequitur
+            cogniti<lb ed="#V" n="4" break="no"/>onem, sed appetitum naturalem
+            <lb ed="#V" n="5"/>illius corporis, et ideo est ad
+            <lb ed="#V" n="6"/>unum, sicut appetitus naturalis ad
+            <lb ed="#V" n="7"/>unum determinatur. Alius autem
+            <lb ed="#V" n="8"/>motus, qui est ratione animae,
+            se<lb ed="#V" n="9" break="no"/>quitur apprehensionem, quae non
+            <lb ed="#V" n="10"/>est semper respectu unius loci et
+            <lb ed="#V" n="11"/>situs, sed nunc respectu unius,
+            <lb ed="#V" n="12"/>nunc respectu alterius; ideo
+            appe<lb ed="#V" n="13" break="no"/>titus animalis sequens cognitionem
+            <lb ed="#V" n="14"/>non est respectu unius situs,
+            pro<lb ed="#V" n="15" break="no"/>pter quod ille motus non est
+            sem<lb ed="#V" n="16" break="no"/>per secundum eumdem situm, nec
+            <lb ed="#V" n="17"/>semper ad eumdem locum. Tertio
+            <lb ed="#V" n="18"/>differunt, quia animalia in illo
+            mo<lb ed="#V" n="19" break="no"/>tu, cujus anima est principium,
+            <lb ed="#V" n="20"/>possunt se sistere per intrinsecum;
+            <lb ed="#V" n="21"/>brutum enim, quamvis non
+            mo<lb ed="#V" n="22" break="no"/>veatur libere, potest tamen cum
+            <lb ed="#V" n="23"/>alio occurrente apprehenso se
+            <lb ed="#V" n="24"/>sistere; sed in alio motu non
+            po<lb ed="#V" n="25" break="no"/>test se sistere, sicut nec
+            elemen<lb ed="#V" n="26" break="no"/>tum praedominans in ipso potest
+            <lb ed="#V" n="27"/>se sistere in motu suo.
+          </p>
+          <p>
+            <lb ed="#V" n="28"/>(c) Secundo videnda est ratio
+            <lb ed="#V" n="29"/>nominis agilitatis, et dico quod
+            ra<lb ed="#V" n="30" break="no"/>tio ejus in communi est, quod
+            agi<lb ed="#V" n="31" break="no"/>litas est habilitas in aliquo ad
+            <lb ed="#V" n="32"/>prompte movendum se, eo motu
+            <lb ed="#V" n="33"/>cujus principium est anima.
+            Cor<lb ed="#V" n="34" break="no"/>pus enim agile movet se secundum
+            <lb ed="#V" n="35"/>locum, non motu naturali, cujus
+            <lb ed="#V" n="36"/>principium est elementum
+            praedo<lb ed="#V" n="37" break="no"/>minans, sed anima, quorum
+            motu<lb ed="#V" n="38" break="no"/>um differentia patet ex articulo
+            <lb ed="#V" n="39"/>praecedente; et quia agilitas non
+            <lb ed="#V" n="40"/>potest esse in aliquo toto ad
+            faci<lb ed="#V" n="41" break="no"/>liter movendum se, nisi
+            concur<lb ed="#V" n="42" break="no"/>rente virtute motiva et mobili, ideo
+            <lb ed="#V" n="43"/>ad rationem agilitatis in speciali
+            <lb ed="#V" n="44"/>requiritur perfectio virtutis
+            moti<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>vae in anima, et congrua
+            disposi<lb ed="#V" n="46" break="no"/>tio, non repugnans isti motui ex
+            <lb ed="#V" n="47"/>parte corporis. Est ergo in speciali
+            <lb ed="#V" n="48"/>agilitas habilitas in aliquo toto ad
+            <lb ed="#V" n="49"/>prompte movendum se secundum
+            <lb ed="#V" n="50"/>locum ex perfectione virtutis
+            mo<lb ed="#V" n="51" break="no"/>tivae animae, et congrua
+            disposi<lb ed="#V" n="52" break="no"/>tione corporis.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d49q14-p2"> -->
+          <p>
+            <lb ed="#V" n="24" type="fixed=476"/>SCHOLIUM.
+            <lb ed="#V" n="25"/>Animam posse movere non organice.
+            Pri<lb ed="#V" n="26" break="no"/>mo, quia corpus potest, licet non
+            progres<lb ed="#V" n="27" break="no"/>sive, tendere in suum locum, et aliud sibi
+            <lb ed="#V" n="28"/>annexum eo trahere. Secundo, hoc non
+            re<lb ed="#V" n="29" break="no"/>pugnat animae ratione intellectualitatis, alias
+            <lb ed="#V" n="30"/>et Angelo; nec ratione imperfectionis, quia
+            <lb ed="#V" n="31"/>perfectiores actus ei conveniunt, scilicet
+            vel<lb ed="#V" n="32" break="no"/>le et intelligere. Tertio, corpora gloriosa sic
+            <lb ed="#V" n="33"/>movebuntur juxta id: Ambulabunt et non
+            de<lb ed="#V" n="34" break="no"/>ficient, et non nisi ab anima, de quo supra
+            <lb ed="#V" n="35"/>dist. 10. quaest. 7. Ostendit utrumque
+            moven<lb ed="#V" n="36" break="no"/>di modum ab una eademque virtute motiva
+            <lb ed="#V" n="37"/>esse posse, licet eadem potentia operativa
+            <lb ed="#V" n="38"/>non posset esse organica, et non organica
+            si<lb ed="#V" n="39" break="no"/>mul, quod optime explicat.
+          </p>
+          <p>
+            <lb ed="#V" n="40"/>(d) Tertio videndum est de illa
+            <lb ed="#V" n="41"/>virtute animae motiva, de qua
+            cer<lb ed="#V" n="42" break="no"/>tum est et manifestum quod est ad
+            <lb ed="#V" n="43"/>unum modum movendi corpus; sed
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="44"/>quod habet alium modum movendi
+            <lb ed="#V" n="45"/>corpus, non est ita manifestum;
+            <lb ed="#V" n="46"/>est enim virtus in anima ad
+            mo<lb ed="#V" n="47" break="no"/>vendum corpus organice per
+            mo<lb ed="#V" n="48" break="no"/>dum aliarum partium
+            organica<lb ed="#V" n="49" break="no"/>rum, sicut patet in motu
+            pro<lb ed="#V" n="50" break="no"/>gressivo, ubi una pars
+            move<lb ed="#V" n="51" break="no"/>tur, mota alia per virtutem
+            mo<lb ed="#V" n="52" break="no"/>tivam animae. Sed quod habeat
+            <lb ed="#V" n="53"/>alium modum movendi, aut quod
+            <lb ed="#V" n="54"/>in anima sit virtus alia ad
+            mo<lb ed="#V" n="55" break="no"/>vendum alio modo quam organice,
+            <lb ed="#V" n="56"/>ipsum corpus, non est ita
+            manife<lb ed="#V" n="57" break="no"/>stum, nec in homine, nec in aliis
+            <lb ed="#V" n="58"/>animalibus, in quibus manifestum
+            <lb ed="#V" n="59"/>est quod in anima est virtus ad
+            <lb ed="#V" n="60"/>movendum organice corpus, ut
+            <lb ed="#V" n="61"/>mota una parte, quiescat alia,
+            se<lb ed="#V" n="62" break="no"/>cundum quod determinatur a
+            Phi<lb ed="#V" n="63" break="no"/>losopho in libro de motu animalium;
+            <lb ed="#V" n="64"/>sed in quod anima hominis sit
+            vir<lb ed="#V" n="65" break="no"/>tus motiva alio modo movendi,
+            <lb ed="#V" n="66"/>non est manifestum.
+          </p>
+          <p>
+            <lb ed="#V" n="67"/>Sed tamen inquiritur per
+            rati<lb ed="#V" n="68" break="no"/>onem, scilicet ex conditione
+            ani<lb ed="#V" n="69" break="no"/>mae; primo quia videtur
+            inconve<lb ed="#V" n="70" break="no"/>niens, quod anima in aliquo loco
+            <lb ed="#V" n="71"/>existens non posset se movere de
+            <lb ed="#V" n="72"/>illo, quia sic quantum ad hoc esset
+            <lb ed="#V" n="73"/>imperfectior quam corpus, quod
+            <lb ed="#V" n="74"/>potest moveri de loco, quamvis
+            <lb ed="#V" n="75"/>non libere, nec progressive; et
+            <lb ed="#V" n="76"/>praecipue secundo est
+            inconveni<lb ed="#V" n="77" break="no"/>ens hoc propter hanc rationem:
+            <lb ed="#V" n="78"/>Illud agens potest in aliquem
+            ter<lb ed="#V" n="79" break="no"/>minum, quod potest habere in
+            vir<lb ed="#V" n="80" break="no"/>tute sua activa terminum illum.
+            <lb ed="#V" n="81"/>Sed terminus motus localis non
+            <lb ed="#V" n="82"/>est nisi ubi, et ille terminus est
+            im<lb ed="#V" n="83" break="no"/>perfectior termino cujuscumque
+            <lb ed="#V" n="84"/>alterius motus; et ideo nullum
+            <lb ed="#V" n="85"/>est corpus ita imperfectum, quod
+            <lb ed="#V" n="86"/>non habet in virtute istum
+            termi<lb ed="#V" n="87" break="no"/>num, et similiter ad movendum
+            <pb ed="#V" n="477"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>aliud ad istum terminum, quia
+            la<lb ed="#V" n="2" break="no"/>pis trahit secum ad locum suum
+            <lb ed="#V" n="3"/>aliud si sibi conjungatur. Cum
+            er<lb ed="#V" n="4" break="no"/>go anima sit susceptiva istius
+            ter<lb ed="#V" n="5" break="no"/>mini, quia est in loco definitive,
+            <lb ed="#V" n="6"/>et per consequens sibi competit ubi
+            <lb ed="#V" n="7"/>definitive, oportet quod habeat in
+            <lb ed="#V" n="8"/>virtute sua activa istum
+            termi<lb ed="#V" n="9" break="no"/>num; ergo anima separata potest
+            <lb ed="#V" n="10"/>se, et aliud corpus movere de loco
+            <lb ed="#V" n="11"/>ad locum, non tamen organice,
+            <lb ed="#V" n="12"/>quia anima non habet organa de
+            <lb ed="#V" n="13"/>se; ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="14"/>Et confirmatur, si repugnat
+            ani<lb ed="#V" n="15" break="no"/>mae separatae movere se, et aliud
+            <lb ed="#V" n="16"/>corpus, aut hoc esset ex
+            intelle<lb ed="#V" n="17" break="no"/>ctualitate sua, aut propter
+            imper<lb ed="#V" n="18" break="no"/>fectionem suam; non primo modo,
+            <lb ed="#V" n="19"/>quia movere se, et aliud corpus,
+            <lb ed="#V" n="20"/>convenit naturae intellectuali, ut
+            <lb ed="#V" n="21"/>Angelo, qui potest movere se et
+            <lb ed="#V" n="22"/>coelum; nec secundo modo, quia
+            <lb ed="#V" n="23"/>convenit corpori, quod est ens
+            im<lb ed="#V" n="24" break="no"/>perfectum. Similiter anima habet
+            <lb ed="#V" n="25"/>in virtute sua formam
+            perfecti<lb ed="#V" n="26" break="no"/>orem, scilicet intelligere et velle;
+            <lb ed="#V" n="27"/>non ergo sibi repugnat ratione
+            <lb ed="#V" n="28"/>imperfectionis.
+          </p>
+          <p>
+            <lb ed="#V" n="29"/>Praeterea, corpora glorificata
+            <lb ed="#V" n="30"/>post resurrectionem movebuntur
+            <lb ed="#V" n="31"/>ab anima, et non organice, sed
+            to<lb ed="#V" n="32" break="no"/>tum corpus simul movebitur, non
+            <lb ed="#V" n="33"/>una parte mota, et alia quiescente
+            <lb ed="#V" n="34"/>quia ambulabunt et non deficient; haec
+            <lb ed="#V" n="35"/>autem motio simul totius corporis
+            <lb ed="#V" n="36"/>non est per organa; ergo in anima
+            <lb ed="#V" n="37"/>est virtus alia quam illa, quae
+            <lb ed="#V" n="38"/>potest movere organice.
+          </p>
+          <p>
+            <lb ed="#V" n="39"/>(e) Sed estne una et eadem virtus
+            <lb ed="#V" n="40"/>cum alia? Si esset eadem, tunc
+            pos<lb ed="#V" n="41" break="no"/>set dici quod anima posset modo
+            <lb ed="#V" n="42"/>movere corpus non organice, nisi
+            <lb ed="#V" n="43"/>esset impedita. Videtur autem
+            <lb ed="#V" n="44"/>quod sit alia virtus, quia videtur
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>quod virtus organica, et non
+            orga<lb ed="#V" n="46" break="no"/>nica sit alia et alia virtus, ut patet
+            <lb ed="#V" n="47"/>in intellectu et sensu, et de appetitu
+            <lb ed="#V" n="48"/>intellectivo et sensitivo; ergo
+            si<lb ed="#V" n="49" break="no"/>militer in proposito virtus
+            orga<lb ed="#V" n="50" break="no"/>nica et non organica est alia et
+            <lb ed="#V" n="51"/>alia virtus.
+          </p>
+          <p>
+            <lb ed="#V" n="52"/>Verumtamen non videtur mihi
+            <lb ed="#V" n="53"/>ponendum, eam aliam virtutem
+            <lb ed="#V" n="54"/>a motiva organice, quia nunquam
+            <lb ed="#V" n="55"/>est ponenda pluralitas sine
+            neces<lb ed="#V" n="56" break="no"/>sitate; sed non est necesse ponere
+            <lb ed="#V" n="57"/>duplicem virtutem motivam in
+            <lb ed="#V" n="58"/>anima respectu corporis sui
+            mo<lb ed="#V" n="59" break="no"/>vendi; potest enim uterque motus
+            <lb ed="#V" n="60"/>salvari ponendo eamdem virtutem
+            <lb ed="#V" n="61"/>motivam in anima; ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="62"/>Assumptum declaro sic: Aliqua
+            <lb ed="#V" n="63"/>perfectio potest competere animae
+            <lb ed="#V" n="64"/>secundum se, secundum quam est
+            <lb ed="#V" n="65"/>principium alicujus effectus; non
+            <lb ed="#V" n="66"/>tamen potest ipsum exequi in
+            re<lb ed="#V" n="67" break="no"/>motiori, nisi exequatur effectum
+            <lb ed="#V" n="68"/>illum in propinquiori, sicut
+            ani<lb ed="#V" n="69" break="no"/>ma non potest animare partem
+            <lb ed="#V" n="70"/>remotiorem a corde, nec dare sibi
+            <lb ed="#V" n="71"/>vitam organice, nisi det cordi
+            vi<lb ed="#V" n="72" break="no"/>tam, quo mediante influat vitam
+            <lb ed="#V" n="73"/>in caeteras partes magis distantes,
+            <lb ed="#V" n="74"/>sicut patet per Philosophum in
+            <lb ed="#V" n="75"/>lib. de Animalibus, et hoc est, quia
+            <lb ed="#V" n="76"/>cor est magis dispositum ad
+            susce<lb ed="#V" n="77" break="no"/>ptionem vitae, qua alia pars. A
+            si<lb ed="#V" n="78" break="no"/>mili ergo, licet aliqua potentia in
+            <lb ed="#V" n="79"/>anima sit ad causandum motum
+            <lb ed="#V" n="80"/>in corpore, tamen impossibile est,
+            <lb ed="#V" n="81"/>quod causet in parte remotiori
+            <lb ed="#V" n="82"/>minus disposita, nisi causet illum
+            <lb ed="#V" n="83"/>in parte propinquiori magis
+            dis<lb ed="#V" n="84" break="no"/>posita; et ideo pro aliquo statu in
+            <lb ed="#V" n="85"/>quo pars propinqua est magis
+            dis<lb ed="#V" n="86" break="no"/>posita quam remotior, non potest
+            <lb ed="#V" n="87"/>anima causare motum in
+            remoti<lb ed="#V" n="88" break="no"/>ori parte, nisi prius in
+            propin<pb ed="#V" n="478"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>quiori causet motum. Si autem
+            <lb ed="#V" n="2"/>ista eadem virtus possit habere
+            <lb ed="#V" n="3"/>partem remotam ita dispositam,
+            <lb ed="#V" n="4"/>sicut propinquam, potest pro illo
+            <lb ed="#V" n="5"/>statu immediate causare motum
+            <lb ed="#V" n="6"/>in quamlibet partem; sed exequi
+            <lb ed="#V" n="7"/>motum in parte remotiori
+            me<lb ed="#V" n="8" break="no"/>diante propinquiori, est movere
+            <lb ed="#V" n="9"/>organice, aeque autem immediate
+            <lb ed="#V" n="10"/>causare non organice; ergo eadem
+            <lb ed="#V" n="11"/>virtus animae, quae movet
+            organi<lb ed="#V" n="12" break="no"/>ce, potest movere totum corpus
+            <lb ed="#V" n="13"/>non organice pro statu illo, in quo
+            <lb ed="#V" n="14"/>omnes partes erunt aeque
+            disposi<lb ed="#V" n="15" break="no"/>tae ad recipiendum motum.
+          </p>
+          <p>
+            <lb ed="#V" n="16"/>Et secundum hoc est dicendum,
+            <lb ed="#V" n="17"/>quod est eadem virtus, quae modo
+            <lb ed="#V" n="18"/>movet corpus organice, et post
+            <lb ed="#V" n="19"/>resurrectionem movebit non
+            or<lb ed="#V" n="20" break="no"/>ganice; inconveniens enim est
+            <lb ed="#V" n="21"/>quod homo careat nunc aliqua
+            <lb ed="#V" n="22"/>perfectione secundum totam suam
+            <lb ed="#V" n="23"/>speciem, quae sibi naturaliter
+            con<lb ed="#V" n="24" break="no"/>gruit, et cum illa virtus, qua
+            ani<lb ed="#V" n="25" break="no"/>ma post resurrectionem movebit
+            <lb ed="#V" n="26"/>corpus, sit sibi naturalis, quia
+            <lb ed="#V" n="27"/>nulla potentia animae tunc dabitur
+            <lb ed="#V" n="28"/>nova, sequitur quod nunc habet
+            <lb ed="#V" n="29"/>illam potentiam, et quod illa
+            vir<lb ed="#V" n="30" break="no"/>tus sive potentia nunc in vita
+            mor<lb ed="#V" n="31" break="no"/>tali non impeditur a suo effectu,
+            <lb ed="#V" n="32"/>sed tantum in modo causandi
+            effe<lb ed="#V" n="33" break="no"/>ctum suum.
+          </p>
+          <p>
+            <lb ed="#V" n="34"/>Exemplum, si ex falsa
+            hypothe<lb ed="#V" n="35" break="no"/>si ponatur, quod omnes partes
+            <lb ed="#V" n="36"/>corporis essent aeque dispositae ad
+            <lb ed="#V" n="37"/>recipiendum motum, sive vitam,
+            <lb ed="#V" n="38"/>anima aeque daret esse vitale
+            cuili<lb ed="#V" n="39" break="no"/>bet parti, et hoc aeque immediate;
+            <lb ed="#V" n="40"/>sed quia non sunt aeque dispositae,
+            <lb ed="#V" n="41"/>non potest causare vitam in parte
+            <lb ed="#V" n="42"/>remotiori, nisi prius causet in
+            <lb ed="#V" n="43"/>parte propinquiori, sic in proposito
+            <lb ed="#V" n="44"/>movere organice et non organice.
+          </p>
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>Sed tunc restat respondere ad
+            <lb ed="#V" n="46"/>instantiam prius factam, quomodo
+            <lb ed="#V" n="47"/>possibile sit, quod eadem potentia
+            <lb ed="#V" n="48"/>motiva sit organica et non
+            orga<lb ed="#V" n="49" break="no"/>nica, cum hoc non conveniat aliis
+            <lb ed="#V" n="50"/>potentiis, nec apprehensivae, nec
+            <lb ed="#V" n="51"/>appetitivae. Praeterea, secundum
+            <lb ed="#V" n="52"/>responsionem dictam, potentia
+            <lb ed="#V" n="53"/>motiva in homine secundum se
+            <lb ed="#V" n="54"/>non est organica, sed per accidens,
+            <lb ed="#V" n="55"/>ut quia pars una modo magis
+            dis<lb ed="#V" n="56" break="no"/>posita quam alia, ideo magis
+            mo<lb ed="#V" n="57" break="no"/>vet, et prius partem
+            propinquio<lb ed="#V" n="58" break="no"/>rem quam remotiorem minus
+            dis<lb ed="#V" n="59" break="no"/>positam.
+          </p>
+          <p>
+            <lb ed="#V" n="60"/>Ad primum, respondeo quod
+            po<lb ed="#V" n="61" break="no"/>tentia operativa non potest eadem
+            <lb ed="#V" n="62"/>existens esse organica et non
+            or<lb ed="#V" n="63" break="no"/>ganica, quia potentia operativa et
+            <lb ed="#V" n="64"/>organica est illa cujus operatio
+            <lb ed="#V" n="65"/>per se et primo recipitur in toto
+            <lb ed="#V" n="66"/>composito ex organo, et illa
+            po<lb ed="#V" n="67" break="no"/>tentia et operatio quae sic primo
+            <lb ed="#V" n="68"/>recipitur in toto, contradictio est,
+            <lb ed="#V" n="69"/>quod recipiatur in parte primo, ut
+            <lb ed="#V" n="70"/>quod visio recipiatur in anima
+            se<lb ed="#V" n="71" break="no"/>parata, et quod anima separata
+            <lb ed="#V" n="72"/>dicatur videns. Unde quando totum
+            <lb ed="#V" n="73"/>est immediatum susceptivum
+            alicu<lb ed="#V" n="74" break="no"/>jus formae, non una pars mediante
+            <lb ed="#V" n="75"/>alia, tunc impossibile est, quod
+            <lb ed="#V" n="76"/>illa forma recipiatur in altera
+            <lb ed="#V" n="77"/>parte. Non autem sic est, quando
+            <lb ed="#V" n="78"/>totum recipit mediante una parte,
+            <lb ed="#V" n="79"/>ut corpus recipit albedinem
+            me<lb ed="#V" n="80" break="no"/>diante superficie; nunc autem
+            po<lb ed="#V" n="81" break="no"/>tentia operativa recipit suam
+            ope<lb ed="#V" n="82" break="no"/>rationem. Si ergo posset esse non
+            <lb ed="#V" n="83"/>organica, tunc reciperet
+            operati<lb ed="#V" n="84" break="no"/>onem, quae primo nata est recipi
+            <lb ed="#V" n="85"/>in toto, quod includit
+            contradicti<lb ed="#V" n="86" break="no"/>onem; et ideo eadem potentia
+            ope<lb ed="#V" n="87" break="no"/>rativa non potest esse organica
+            <lb ed="#V" n="88"/>et non organica.
+          </p>
+          <p>
+            <pb ed="#V" n="479"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Sed de potentia activa, sive
+            fa<lb ed="#V" n="2" break="no"/>ctiva non est inconveniens, quod
+            <lb ed="#V" n="3"/>eadem existens sit organica et non
+            <lb ed="#V" n="4"/>organica, quia illa potentia non
+            <lb ed="#V" n="5"/>causat actum informantem se, sed
+            <lb ed="#V" n="6"/>effectum in alio; ideo non
+            sequi<lb ed="#V" n="7" break="no"/>tur contradictio, quod sit organica
+            <lb ed="#V" n="8"/>agendo mediante aliquo organo, et
+            <lb ed="#V" n="9"/>non organica agendo immediate
+            <lb ed="#V" n="10"/>per propriam virtutem sine aliquo
+            <lb ed="#V" n="11"/>organo. Nunc autem movere non
+            <lb ed="#V" n="12"/>est operatio, nec causatur in illo
+            <lb ed="#V" n="13"/>necessario, in quo est potentia
+            <lb ed="#V" n="14"/>motiva, et ideo ponitur motiva
+            al<lb ed="#V" n="15" break="no"/>terius, et non est potentia
+            opera<lb ed="#V" n="16" break="no"/>tiva, sed est potentia factiva, quae
+            <lb ed="#V" n="17"/>causat motum in alio; et talis
+            po<lb ed="#V" n="18" break="no"/>tentia potest esse causativa motus
+            <lb ed="#V" n="19"/>in pluribus partibus immediate, si
+            <lb ed="#V" n="20"/>omnes sint aeque dispositae ad
+            re<lb ed="#V" n="21" break="no"/>ceptionem motus, et tunc movet
+            <lb ed="#V" n="22"/>non organice. Si autem non sint
+            <lb ed="#V" n="23"/>omnes aeque dispositae, tunc potest
+            <lb ed="#V" n="24"/>movere unam partem corporis
+            <lb ed="#V" n="25"/>mediante alia, et sic movet
+            orga<lb ed="#V" n="26" break="no"/>niae, et sic anima separata potest
+            <lb ed="#V" n="27"/>movere corpus suum immediate,
+            <lb ed="#V" n="28"/>utpote cadaver, quia non excedit
+            <lb ed="#V" n="29"/>virtutem suam motivam; et
+            simi<lb ed="#V" n="30" break="no"/>liter quando est in corpore, potest
+            <lb ed="#V" n="31"/>movere organice, ideo ex parte
+            <lb ed="#V" n="32"/>sui habet virtutem movendi
+            orga<lb ed="#V" n="33" break="no"/>niae et non organice. Patet ergo
+            <lb ed="#V" n="34"/>quare est impossibile de potentia
+            <lb ed="#V" n="35"/>apprehensiva et appetitiva quod
+            <lb ed="#V" n="36"/>t eadem potentia sit organica et non
+            <lb ed="#V" n="37"/>organica, quia sunt potentiae
+            ope<lb ed="#V" n="38" break="no"/>rativae; non autem est impossibile
+            <lb ed="#V" n="39"/>de potentia motiva, quae non est
+            <lb ed="#V" n="40"/>operativa, sed factiva.
+          </p>
+          <p>
+            <lb ed="#V" n="41"/>Ad secundum, dicendum quod
+            <lb ed="#V" n="42"/>actio non potest esse aeque primo
+            <lb ed="#V" n="43"/>totius et partis; et ideo cum
+            ani<lb ed="#V" n="44" break="no"/>ma potest movere per se et
+            pri<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>mo totum corpus, et partem ejus,
+            <lb ed="#V" n="46"/>ut quando perficiet corpus post
+            <lb ed="#V" n="47"/>resurrectionem, necesse est dicere
+            <lb ed="#V" n="48"/>quod totum compositum ex
+            orga<lb ed="#V" n="49" break="no"/>no, et potentia motiva animae non
+            <lb ed="#V" n="50"/>primo movet, sed per se, non
+            pri<lb ed="#V" n="51" break="no"/>mo, ipsa autem anima primo;
+            sic<lb ed="#V" n="52" break="no"/>ut ignis dicitur calefacere per
+            ca<lb ed="#V" n="53" break="no"/>lorem per se, tamen calor primo
+            <lb ed="#V" n="54"/>calefacit, quia calefaceret, si esset
+            <lb ed="#V" n="55"/>separatus, sic totum compositum
+            <lb ed="#V" n="56"/>ex anima et organo dicitur movere,
+            <lb ed="#V" n="57"/>et per se, et denominatur ab
+            acti<lb ed="#V" n="58" break="no"/>one, quae primo convenit animae,
+            <lb ed="#V" n="59"/>quae moveret aeque primo omnes
+            <lb ed="#V" n="60"/>partes, si essent aeque dispositae
+            <lb ed="#V" n="61"/>ad motum; et similiter cum non
+            <lb ed="#V" n="62"/>sit major ratio, quare in una
+            par<lb ed="#V" n="63" break="no"/>te cordis moveat aliam partem
+            <lb ed="#V" n="64"/>quam in alia parte, cum totum cor
+            <lb ed="#V" n="65"/>sit uniforme secundum partes,
+            vi<lb ed="#V" n="66" break="no"/>detur quod anima primo moveat
+            <lb ed="#V" n="67"/>non organice aliquam partem, et
+            <lb ed="#V" n="68"/>concedo quod accidit animae, quod
+            <lb ed="#V" n="69"/>per unam partem quiescentem
+            <lb ed="#V" n="70"/>moveat aliam. Et ideo dico, quod
+            <lb ed="#V" n="71"/>primo et per se non est organica,
+            <lb ed="#V" n="72"/>potest tamen denominari
+            quaecum<lb ed="#V" n="73" break="no"/>que pars alia composita a motu,
+            <lb ed="#V" n="74"/>et dici principium motus
+            denomi<lb ed="#V" n="75" break="no"/>native, ut cor ex anima et parte
+            <lb ed="#V" n="76"/>illa cordis dicitur per se movere
+            <lb ed="#V" n="77"/>aliam partem.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d49q14-p3"> -->
+          <p>
+            <lb ed="#V" n="49" type="fixed=486"/>SCHOLIUM.
+            <lb ed="#V" n="50"/>Per nullam qualitatem reddi corpus beati
+            <lb ed="#V" n="51"/>agile ad movendum se ad omnem locum et
+            <lb ed="#V" n="52"/>situm, probat quatuor rationibus claris.
+          </p>
+          <p>
+            <lb ed="#V" n="53"/>(f) Quarto est videndum de illa
+            <lb ed="#V" n="54"/>dispositione ex parte corporis,
+            <lb ed="#V" n="55"/>quae requiritur ad agilitatem, et
+            <lb ed="#V" n="56"/>est hic una opinio, quae ponit quod
+            <lb ed="#V" n="57"/>illa dispositio ex parte corporis
+            <lb ed="#V" n="58"/>est aliqua qualitas, per quam
+            cor<lb ed="#V" n="59" break="no"/>pus redditur habile, ut moveatur
+            <lb ed="#V" n="60"/>ab anima secundum ejus virtutem
+            <lb ed="#V" n="61"/>motivam; et per illam qualitatem,
+            <lb ed="#V" n="62"/>ut dicunt, auferuntur illa, quae
+            <lb ed="#V" n="63"/>modo impediunt, ne corpus
+            facili<lb ed="#V" n="64" break="no"/>ter moveatur ab anima sine
+            labo<lb ed="#V" n="65" break="no"/>re, unde aufertur gravitas quae
+            im<lb ed="#V" n="66" break="no"/>pedit.
+          </p>
+          <p>
+            <lb ed="#V" n="67"/>Et probatur per Augustinum 21.
+            <lb ed="#V" n="68"/>de Civ. Dei cap. 10. ubi dicit, quod
+            <lb ed="#V" n="69"/>tunc pondus grave corporis
+            aufe<lb ed="#V" n="70" break="no"/>retur.
+          </p>
+          <p>
+            <lb ed="#V" n="71"/>(g) Istam opinionem non
+            intelli<lb ed="#V" n="72" break="no"/>go, quia quod maneat corpus
+            ho<lb ed="#V" n="73" break="no"/>minis, et dominetur in eo terra,
+            <lb ed="#V" n="74"/>et tamen non maneat gravitas, est
+            <lb ed="#V" n="75"/>omnino inconveniens, sicut dicere,
+            <lb ed="#V" n="76"/>quod fiat Sol, vel aliud corpus
+            coe<lb ed="#V" n="77" break="no"/>leste, et dominetur in ipso terra,
+            <lb ed="#V" n="78"/>et quod non maneat gravitas,
+            ma<lb ed="#V" n="79" break="no"/>nente terra, esset idem dicere
+            sic<lb ed="#V" n="80" break="no"/>ut quod remaneret lapis, et non
+            <lb ed="#V" n="81"/>esset durus; non video ergo, quod
+            <lb ed="#V" n="82"/>per illam qualitatem tollatur
+            gra<lb ed="#V" n="83" break="no"/>vitas; anima enim humana non
+            <lb ed="#V" n="84"/>perficit corpus quocumque modo
+            <lb ed="#V" n="85"/>dispositum, si enim esset corpus
+            <lb ed="#V" n="86"/>hominis ita densum, sicut aurum,
+            <lb ed="#V" n="87"/>non esset perfectibile ab anima, ita
+            <pb ed="#V" n="487"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>si non haberet gravitatem, et
+            ali<lb ed="#V" n="2" break="no"/>as qualitates naturales suas, non
+            <lb ed="#V" n="3"/>esset perfectibile ab anima.
+          </p>
+          <p>
+            <lb ed="#V" n="4"/>Praeterea, corpus hominis non
+            <lb ed="#V" n="5"/>est capax levitatis, quia quando
+            <lb ed="#V" n="6"/>aliquid determinat sibi unum
+            op<lb ed="#V" n="7" break="no"/>positorum, alterum oppositorum
+            <lb ed="#V" n="8"/>non potest sibi inesse, nec per se,
+            <lb ed="#V" n="9"/>nec per accidens; ergo si corpus
+            hu<lb ed="#V" n="10" break="no"/>manum est receptivum qualitatis,
+            <lb ed="#V" n="11"/>quae repugnat gravitati, non esset
+            <lb ed="#V" n="12"/>determinatum naturaliter ad
+            gra<lb ed="#V" n="13" break="no"/>vitatem, quod apparet falsum;
+            <lb ed="#V" n="14"/>ergo per talem formam non erit
+            <lb ed="#V" n="15"/>corpus hominis agile.
+          </p>
+          <p>
+            <lb ed="#V" n="16"/>Praeterea, illa qualitas si
+            pona<lb ed="#V" n="17" break="no"/>tur, non erit qualitas aliqua
+            coe<lb ed="#V" n="18" break="no"/>lestis; ergo vel est qualitas mixti
+            <lb ed="#V" n="19"/>vel elementaris; sed nulla talis
+            <lb ed="#V" n="20"/>qualitas potest dare agilitatem
+            <lb ed="#V" n="21"/>corpori, ut moveatur ad omnem
+            <lb ed="#V" n="22"/>differentiam positionis, et ad
+            om<lb ed="#V" n="23" break="no"/>nem locum, quod tamen bene beati
+            <lb ed="#V" n="24"/>possunt facere.
+          </p>
+          <p>
+            <lb ed="#V" n="25"/>Praeterea, si aliqua qualitas
+            po<lb ed="#V" n="26" break="no"/>natur, poneretur propter
+            agilita<lb ed="#V" n="27" break="no"/>tem ad motum respectu ubi; ergo
+            <lb ed="#V" n="28"/>determinat ad ubi. Sed omnis
+            for<lb ed="#V" n="29" break="no"/>ma determinans ad ubi, determinat
+            <lb ed="#V" n="30"/>ad determinatum ubi, ut ad ubi, ad
+            <lb ed="#V" n="31"/>quod determinat elementum
+            prae<lb ed="#V" n="32" break="no"/>dominans in mixto; ergo illa
+            qua<lb ed="#V" n="33" break="no"/>litas sic determinans ad ubi, magis
+            <lb ed="#V" n="34"/>addet fatigationem quam
+            agilita<lb ed="#V" n="35" break="no"/>tem ad motum; unde non video
+            <lb ed="#V" n="36"/>quomodo una qualitas possit dare
+            <lb ed="#V" n="37"/>agilitatem ad omne ubi sursum et
+            <lb ed="#V" n="38"/>deorsum. Ergo cum qualitas
+            nobi<lb ed="#V" n="39" break="no"/>lior, quae est charitas inclinans ad
+            <lb ed="#V" n="40"/>actionem, inclinet ad
+            determina<lb ed="#V" n="41" break="no"/>tam actionem, sive operationem,
+            <lb ed="#V" n="42"/>et naturaliter omnis forma, quae
+            <lb ed="#V" n="43"/>inclinat ad motum, inclinat ad
+            de<lb ed="#V" n="44" break="no"/>terminatum motum, non videtur
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>quod per talem qualitatem habet
+            <lb ed="#V" n="46"/>corpus beati agilitatem ad motum,
+            <lb ed="#V" n="47"/>quia non est determinatum ad
+            ali<lb ed="#V" n="48" break="no"/>quod ubi.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d49q14-p4"> -->
+          <p>
+            <lb ed="#V" n="74" type="fixed=489"/>SCHOLIUM.
+            <lb ed="#V" n="75"/>Dotem agilitatis esse intentionem et
+            perfe<lb ed="#V" n="76" break="no"/>ctionem majorem virtutis motivae cum
+            amo<lb ed="#V" n="77" break="no"/>tione duplicis impedimenti corporis ad
+            mo<lb ed="#V" n="78" break="no"/>tum, et collatione bonorum spirituum
+            vita<lb ed="#V" n="79" break="no"/>lium. De hac docte agunt Patres in 1. Cor.
+            <lb ed="#V" n="80"/>15. August. 13. civit. 18. et lib. 20. cap. 18. et
+            <lb ed="#V" n="81"/>epist. 79. Hilar. in id Psalm. 138. Si sumpsero
+            <lb ed="#V" n="82"/>pennas, etc. Vide Simanc. de cathol. institut.
+            <lb ed="#V" n="83"/>cap. 37. num. 6.
+          </p>
+          <p>
+            <lb ed="#V" n="84"/>(h) Respondeo ergo quantum ad
+            <lb ed="#V" n="85"/>istum articulum, et dico quod
+            pro<lb ed="#V" n="86" break="no"/>portionata agilitas, quae
+            requiri<lb ed="#V" n="87" break="no"/>tur ad motum beati, potest esse
+            <lb ed="#V" n="88"/>sine supernaturali quocumque
+            ad<pb ed="#V" n="490"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>dito corpori vel animae; non enim
+            <lb ed="#V" n="2"/>oportet ex parte animae, nisi quod
+            <lb ed="#V" n="3"/>virtus motiva fiat perfectior, et
+            <lb ed="#V" n="4"/>quod resistentia accidentalis ex
+            <lb ed="#V" n="5"/>parte corporis tollatur, et
+            utrum<lb ed="#V" n="6" break="no"/>que potest fieri sine supernaturali
+            <lb ed="#V" n="7"/>addito, quia quod modo in anima
+            <lb ed="#V" n="8"/>virtus non est sufficiens ad motum,
+            <lb ed="#V" n="9"/>hoc est, vel quia est impedita
+            <lb ed="#V" n="10"/>a corpore, vel quia in se est
+            dimi<lb ed="#V" n="11" break="no"/>nuta, et cum est separata aut
+            uni<lb ed="#V" n="12" break="no"/>ta corpori glorioso, intenditur,
+            <lb ed="#V" n="13"/>sicut virtus beati visiva intenditur
+            <lb ed="#V" n="14"/>resumpto corpore glorioso, quia,
+            <lb ed="#V" n="15"/>ut videtur, tunc poterit sine
+            diffi<lb ed="#V" n="16" break="no"/>cultate visibile quodcumque videre
+            <lb ed="#V" n="17"/>inspiciendo. Potest ergo potentia
+            <lb ed="#V" n="18"/>motiva in anima intendi ad
+            gra<lb ed="#V" n="19" break="no"/>dum perfectum, quod sufficiat ad
+            <lb ed="#V" n="20"/>movendum corpus illud sine
+            fati<lb ed="#V" n="21" break="no"/>gatione, nec tamen erit nova
+            po<lb ed="#V" n="22" break="no"/>tentia, sicut nec virtus visiva
+            in<lb ed="#V" n="23" break="no"/>tensa in beato et non beato, est
+            <lb ed="#V" n="24"/>alia potentia visiva.
+          </p>
+          <p>
+            <lb ed="#V" n="25"/>Ex parte autem passi, scilicet
+            <lb ed="#V" n="26"/>corporis mobilis, amovebitur
+            du<lb ed="#V" n="27" break="no"/>plex impedimentum: Unum ex
+            par<lb ed="#V" n="28" break="no"/>te organorum virtutis motivae,
+            <lb ed="#V" n="29"/>quod est in juncturis et nervis, quo
+            <lb ed="#V" n="30"/>impedimento remoto, fit
+            trahibili<lb ed="#V" n="31" break="no"/>tas et applicabilitas major in eis;
+            <lb ed="#V" n="32"/>et amotio istius impedimenti
+            ma<lb ed="#V" n="33" break="no"/>xime requiritur ad agilitatem in
+            <lb ed="#V" n="34"/>motu progressivo, ad quem movet
+            <lb ed="#V" n="35"/>potentia motiva organice. Aliud
+            <lb ed="#V" n="36"/>impedimentum est in toto
+            corpo<lb ed="#V" n="37" break="no"/>re, quod est repletum humoribus
+            <lb ed="#V" n="38"/>grossis et spiritibus, et caput
+            fu<lb ed="#V" n="39" break="no"/>mositatibus, et multis talibus,
+            <lb ed="#V" n="40"/>quae reddunt hominem pigrum,
+            <lb ed="#V" n="41"/>et quae non pertinent ad
+            verita<lb ed="#V" n="42" break="no"/>tem humanae naturae; haec
+            au<lb ed="#V" n="43" break="no"/>tem amovebuntur, et spiritus
+            bo<lb ed="#V" n="44" break="no"/>ni et subtiles dabuntur
+            corpori<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>bus gloriosis, per quae reddetur
+            <lb ed="#V" n="46"/>corpus multum agile ad motum,
+            <lb ed="#V" n="47"/>sicut patet per oppositum de
+            cor<lb ed="#V" n="48" break="no"/>pore mortuo, quod efficitur
+            gra<lb ed="#V" n="49" break="no"/>vius, non quia plus de quantitate
+            <lb ed="#V" n="50"/>aut materia apponatur, sed quia
+            <lb ed="#V" n="51"/>spiritus vitales corrumpuntur, et
+            <lb ed="#V" n="52"/>humores grossi inducuntur.
+          </p>
+          <p>
+            <lb ed="#V" n="53"/>Quinto ex dictis patet responsio
+            <lb ed="#V" n="54"/>ad quaestionem, quod beatus habens
+            <lb ed="#V" n="55"/>suum corpus gloriosum, habebit
+            <lb ed="#V" n="56"/>agilitatem et promptitudinem ad
+            <lb ed="#V" n="57"/>movendum; quae agilitas non est
+            <lb ed="#V" n="58"/>per aliquam qualitatem
+            superna<lb ed="#V" n="59" break="no"/>turalem corpori superadditam,
+            de<lb ed="#V" n="60" break="no"/>fluentem ab anima, sed est
+            pro<lb ed="#V" n="61" break="no"/>pter intensionem virtutis motivae
+            <lb ed="#V" n="62"/>ex parte animae, et propter
+            amo<lb ed="#V" n="63" break="no"/>tionem duplicis impedimenti ex
+            <lb ed="#V" n="64"/>parte corporis, et collationem
+            bo<lb ed="#V" n="65" break="no"/>norum spirituum suhtilium in
+            cor<lb ed="#V" n="66" break="no"/>pore.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d49q14-p5"> -->
+          <p>
+            <lb ed="#V" n="85" type="fixed=491"/>SCHOLIUM.
+            <lb ed="#V" n="86"/>Solvit argumenta allata, et alia quae hic
+            <lb ed="#V" n="87"/>ponit pro sententia ponente agilitatem oriri
+            <pb ed="#V" n="492"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>ex qualitate tollente gravitatem, et reddente
+            <lb ed="#V" n="2"/>corpus habile ad omnem motum, et ostendit
+            <lb ed="#V" n="3"/>non obstante gravitate, corpus beati
+            natura<lb ed="#V" n="4" break="no"/>liter quiescere sursum.
+          </p>
+          <p>
+            <lb ed="#V" n="5"/>(1) Ad illud quod objicitur de
+            Au<lb ed="#V" n="6" break="no"/>gustino, quod grave pondus
+            aufe<lb ed="#V" n="7" break="no"/>retur, dico quod corporis pondus
+            <lb ed="#V" n="8"/>aggravans aufertur: Corpus enim
+            <lb ed="#V" n="9"/>quod corrumpitur aggravat animam; et
+            <lb ed="#V" n="10"/>ideo hoc pondus aggravans
+            aufer<lb ed="#V" n="11" break="no"/>tur, non tamen omnino gravitas
+            <lb ed="#V" n="12"/>corporis aufertur; requiritur enim
+            <lb ed="#V" n="13"/>gravitas ad hoc, quod sit corpus
+            <lb ed="#V" n="14"/>perfectibile ab anima, et non
+            levi<lb ed="#V" n="15" break="no"/>tas. Unde sicut Philosophus dicit
+            <lb ed="#V" n="16"/>de coelo, quod si esset una stella
+            <lb ed="#V" n="17"/>addita aut amota, non moveretur
+            <lb ed="#V" n="18"/>ab Intelligentia, ita si corpus fieret
+            <lb ed="#V" n="19"/>leve, non esset perfectibile ab
+            ani<lb ed="#V" n="20" break="no"/>ma, nec anima compararetur ad
+            <lb ed="#V" n="21"/>ipsum ut motrix, unde videmus,
+            <lb ed="#V" n="22"/>quod levitas in aliquibus impedit
+            <lb ed="#V" n="23"/>motum.
+          </p>
+          <p>
+            <lb ed="#V" n="24"/>Quando etiam arguunt, quod si
+            <lb ed="#V" n="25"/>corpus gloriosum esset grave,
+            qui<lb ed="#V" n="26" break="no"/>esceret in centro, et violenter
+            <lb ed="#V" n="27"/>esset alibi, ut sursum in coelo;
+            <lb ed="#V" n="28"/>praeterea, si esset grave, tunc
+            <lb ed="#V" n="29"/>anima continue movendo ipsum,
+            <lb ed="#V" n="30"/>fatigaretur.
+          </p>
+          <p>
+            <lb ed="#V" n="31"/>Ad primum dico, quod quandosunt
+            <lb ed="#V" n="32"/>aliquae potentiae ordinatae,
+            natura<lb ed="#V" n="33" break="no"/>litas potentiae superioris est major,
+            <lb ed="#V" n="34"/>quam potentiae inferioris, ut patet
+            <lb ed="#V" n="35"/>de sensu tactus, qui naturaliter
+            se<lb ed="#V" n="36" break="no"/>cundum propriam inclinationem
+            <lb ed="#V" n="37"/>delectaretur in sensibili vel
+            tangi<lb ed="#V" n="38" break="no"/>bili, et similiter gustus, qui tamen
+            <lb ed="#V" n="39"/>in beatis non habent hujusmodi
+            <lb ed="#V" n="40"/>actus, ut gustandi et comedendi;
+            <lb ed="#V" n="41"/>nec tamen sunt ibi violenter sine
+            <lb ed="#V" n="42"/>actibus suis, quia sequuntur
+            incli<lb ed="#V" n="43" break="no"/>nationem appetitus superioris, ut
+            <lb ed="#V" n="44"/>voluntatis; sic etiam est cum
+            gra<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>ve ascendit, ne fiat vacuum, et
+            sic<lb ed="#V" n="46" break="no"/>ut est in majori mundo, ita in
+            mi<lb ed="#V" n="47" break="no"/>nori. Unde naturalius est corpori
+            <lb ed="#V" n="48"/>perfici ab anima, et quod fiat
+            con<lb ed="#V" n="49" break="no"/>veniens perfectibile ejus, et quod
+            <lb ed="#V" n="50"/>moveatur motu competenti animae,
+            <lb ed="#V" n="51"/>quam quod moveatur motu
+            pro<lb ed="#V" n="52" break="no"/>prio ad centrum; et ideo secundum
+            <lb ed="#V" n="53"/>inclinationem naturae superioris
+            <lb ed="#V" n="54"/>quiesceret naturaliter, sed
+            secun<lb ed="#V" n="55" break="no"/>dum quid innaturaliter.
+          </p>
+          <p>
+            <lb ed="#V" n="56"/>Quando etiam dicitur, quod
+            ani<lb ed="#V" n="57" break="no"/>ma fatigaretur, dico quod non,
+            <lb ed="#V" n="58"/>quia non vincitur, nec est
+            contra<lb ed="#V" n="59" break="no"/>ria actio a corpore, quae esset cum
+            <lb ed="#V" n="60"/>fatigatione. Et ex hoc sequitur
+            <lb ed="#V" n="61"/>unum corollarium, quod Sancti in
+            <lb ed="#V" n="62"/>patria non habebunt situm in
+            coe<lb ed="#V" n="63" break="no"/>lo, nisi erectum, non autem
+            ses<lb ed="#V" n="64" break="no"/>sionis, nam inclinatio partium
+            <lb ed="#V" n="65"/>videtur repugnare agilitati. Sed
+            <lb ed="#V" n="66"/>erectio sive statio videtur esse
+            <lb ed="#V" n="67"/>situs conveniens corpori,
+            inquan<lb ed="#V" n="68" break="no"/>tum est instrumentum animae,
+            <lb ed="#V" n="69"/>quia tunc magis aptum est, et
+            <lb ed="#V" n="70"/>promptum ad operationem, unde
+            <lb ed="#V" n="71"/>et jacere magis videtur esse situs
+            <lb ed="#V" n="72"/>naturalis corpori humano quam
+            <lb ed="#V" n="73"/>sedere, quod includit curvitatem
+            <lb ed="#V" n="74"/>partium. Et confirmatur per
+            Au<lb ed="#V" n="75" break="no"/>gustinum in lib. de Symbolo, ubi
+            ex<lb ed="#V" n="76" break="no"/>ponens illum articulum: Sedens ad
+            <lb ed="#V" n="77"/>dexteram Patris, vult quod non debet
+            <lb ed="#V" n="78"/>intelligi de sessione corporali:
+            Ste<lb ed="#V" n="79" break="no"/>phanus enim vidit Jesum stantem.
+          </p>
+          <p>
+            <lb ed="#V" n="80"/>(k) Ad primam rationem
+            principa<lb ed="#V" n="81" break="no"/>lem, dicendum quod aliquid est ita
+            <lb ed="#V" n="82"/>perfectum, quod propter sui
+            perfe<lb ed="#V" n="83" break="no"/>ctionem non recipit ulteriorem
+            <lb ed="#V" n="84"/>perfectionem, sicut Deus; et aliqua
+            <lb ed="#V" n="85"/>sunt ita imperfecta, quod
+            pro<lb ed="#V" n="86" break="no"/>pter sui imperfectionem non
+            pos<lb ed="#V" n="87" break="no"/>sunt recipere perfectionem, sicut
+            <lb ed="#V" n="88"/>accidentia ultima, ut respectus;
+            <pb ed="#V" n="493"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>alia sunt entia media, quae cum
+            <lb ed="#V" n="2"/>perfectione sua sunt in potentia
+            <lb ed="#V" n="3"/>ad perfectionem aliam, et talia
+            <lb ed="#V" n="4"/>sunt omnia entia absoluta citra
+            <lb ed="#V" n="5"/>Deum. Concedo ergo quod illud
+            <lb ed="#V" n="6"/>quod movetur, est in potentia ad
+            <lb ed="#V" n="7"/>ulteriorem perfectionem; ut ad
+            <lb ed="#V" n="8"/>terminum motus, et quatenus
+            ca<lb ed="#V" n="9" break="no"/>ret illo, est imperfectum, et sic
+            <lb ed="#V" n="10"/>corpus gloriosum, cum non sit
+            <lb ed="#V" n="11"/>ens infinitum, aliquam
+            imperfe<lb ed="#V" n="12" break="no"/>sctionem habet, et movetur ad
+            ter<lb ed="#V" n="13" break="no"/>minum, per quem terminum
+            ac<lb ed="#V" n="14" break="no"/>quiritur sibi aliqua perfectio,
+            qua<lb ed="#V" n="15" break="no"/>tenus per motum conjungitur ad
+            <lb ed="#V" n="16"/>aliquod corpus circa quod
+            opera<lb ed="#V" n="17" break="no"/>tur, nunc circa unum, nunc circa
+            <lb ed="#V" n="18"/>aliud, laudando beatitudinem et
+            <lb ed="#V" n="19"/>sapientiam in Deo; unde concedo
+            <lb ed="#V" n="20"/>quod ille motus sit alicujus, quod
+            <lb ed="#V" n="21"/>est secundum quid imperfectum.
+            <lb ed="#V" n="22"/>Ad aliam probationem dicendum,
+            <lb ed="#V" n="23"/>quod cessatio motus coeli non est
+            <lb ed="#V" n="24"/>causa cessationis in omnibus aliis
+            <lb ed="#V" n="25"/>motibus, sed dicitur esse primus
+            se<lb ed="#V" n="26" break="no"/>cundum aliquam praeeminentiam,
+            <lb ed="#V" n="27"/>et non secundum essentialem
+            de<lb ed="#V" n="28" break="no"/>pendentiam ad ipsum. Ad aliud
+            di<lb ed="#V" n="29" break="no"/>cendum, quod non erit tunc
+            tem<lb ed="#V" n="30" break="no"/>pus, quia non erit aliquis unus
+            <lb ed="#V" n="31"/>motus primus uniformis, nec beati
+            <lb ed="#V" n="32"/>tunc uniformiter movebuntur, sed
+            <lb ed="#V" n="33"/>velociter et agiliter secundum
+            me<lb ed="#V" n="34" break="no"/>rita sua.
+          </p>
+          <p>
+            <lb ed="#V" n="35"/>(1) Ad aliud, dicendum quod in
+            <lb ed="#V" n="36"/>-instanti resurrectionis, sicut fient
+            <lb ed="#V" n="37"/>corpora gloriosa, et habebunt
+            do<lb ed="#V" n="38" break="no"/>tem agilitatis, sic per dotem illam
+            <lb ed="#V" n="39"/>rapientur obviam Christo. Et si
+            <lb ed="#V" n="40"/>portabuntur ab Angelis, vel
+            ra<lb ed="#V" n="41" break="no"/>pientur in nubibus, non sequetur
+            <lb ed="#V" n="42"/>aliqua imperfectio, vel violentia
+            <lb ed="#V" n="43"/>in corporibus; hoc enim fiet ad re
+            <lb ed="#V" n="44"/>verentiam, non ad supplendam
+            in<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>digentiam, vel imperfectionem
+            <lb ed="#V" n="46"/>virtutis motivae in eis.
+          </p>
+          <p>
+            <lb ed="#V" n="47"/>Ad aliud dicendum, quod licet
+            <lb ed="#V" n="48"/>beati erunt in determinata
+            appro<lb ed="#V" n="49" break="no"/>ximatione ad Christum, tamen
+            <lb ed="#V" n="50"/>non minuetur eorum beatitudo
+            <lb ed="#V" n="51"/>accidentalis, cum aliquantulum
+            <lb ed="#V" n="52"/>recedunt, quia recedunt secundum
+            <lb ed="#V" n="53"/>libitum suum, sicut modo aliqui
+            <lb ed="#V" n="54"/>habent propinquitatem ad Regem
+            <lb ed="#V" n="55"/>in camera, vel extra in aula.
+          </p>
+          <p>
+            <lb ed="#V" n="56"/>Ad aliud, dicendum quod beati
+            <lb ed="#V" n="57"/>non habebunt omnem
+            perfecti<lb ed="#V" n="58" break="no"/>onem accidentalem, et ideo per
+            <lb ed="#V" n="59"/>operationem suam poterunt eam
+            <lb ed="#V" n="60"/>acquirere secundum libertatem
+            <lb ed="#V" n="61"/>voluntatis suae.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

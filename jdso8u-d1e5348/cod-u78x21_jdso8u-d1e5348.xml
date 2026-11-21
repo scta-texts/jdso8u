@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 50, Quaestio 5</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 50, Quaestio 5</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x21">Vives, Paris, 1894, volume 21</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="549"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e5348"><!-- jdso8u-b4d50q5 -->
+        <head>Quaestio 5</head>
+        <head type="question-title">Utrum beatitudo omnium beatorum sit aequalis</head>
+        <!-- <div alias="scotus-d50q5-p1"> -->
+          <p>
+            <lb ed="#V" n="72" type="fixed=549"/>QUAESTIO V.
+            <lb ed="#V" n="73"/>Utrum beatitudo omnium beatorum sit
+            <lb ed="#V" n="74"/>aequalis?
+          </p>
+          <p>
+            <lb ed="#V" n="75"/>D. Thom. 1. part. quaest. 12. art. 6. D.
+            Bona<lb ed="#V" n="76" break="no"/>vent. 4. dist. 49. 1. part. art. 1. quaest. 6.
+            Ri<lb ed="#V" n="77" break="no"/>chard. art. 2. quaest. 8. Gabr. quaest. 2. art. 3.
+            <lb ed="#V" n="78"/>Bassol. quaest. 2. Durand. quaest. 2. Sotus
+            <pb ed="#V" n="550"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>quaest. 3. art. 2. Suar, 1. part. tr. 1. lib. 2.
+            <lb ed="#V" n="2"/>cap. 21. Vasq. 1. part. dist. 47.
+          </p>
+          <p>
+            <lb ed="#V" n="3"/>(h) Juxta hoc quaeritur, utrum
+            <lb ed="#V" n="4"/>beatitudo omnium beatorum sit
+            <lb ed="#V" n="5"/>aequalis? Videtur quod sic, quia
+            <lb ed="#V" n="6"/>dicitur in Matth. 20. Singuli
+            accepe<lb ed="#V" n="7" break="no"/>runt singulos denarios; aequale enim
+            <lb ed="#V" n="8"/>donum erit in Ecclesia militante,
+            <lb ed="#V" n="9"/>quantum ad numerum; ergo non
+            <lb ed="#V" n="10"/>potest intelligi secundum
+            extensi<lb ed="#V" n="11" break="no"/>onem, ergo secundum
+            intensi<lb ed="#V" n="12" break="no"/>onem.
+          </p>
+          <p>
+            <lb ed="#V" n="13"/>Praeterea, fruitio sequitur
+            visi<lb ed="#V" n="14" break="no"/>onem; sed non vident Deum
+            in<lb ed="#V" n="15" break="no"/>aequaliter; ergo nec fruuntur eo
+            <lb ed="#V" n="16"/>inaequaliter. Quod non videant
+            <lb ed="#V" n="17"/>Deum inaequaliter, patet per
+            Au<lb ed="#V" n="18" break="no"/>gustinum 83. quaestionum quaestione 32.
+            <lb ed="#V" n="19"/>ubi dicit quod unus non intelligit
+            <lb ed="#V" n="20"/>melius rem quam alius, quia qui
+            <lb ed="#V" n="21"/>aliter intelligit rem quam est,
+            <lb ed="#V" n="22"/>fallitur; igitur cum secundum eum
+            <lb ed="#V" n="23"/>ibidem, beati intelligant Deum, et
+            <lb ed="#V" n="24"/>videant, sicut est, ergo non potest
+            <lb ed="#V" n="25"/>inaequaliter videri.
+          </p>
+          <p>
+            <lb ed="#V" n="26"/>Praeterea, Augustinus super
+            Joan<lb ed="#V" n="27" break="no"/>nem homil. 66. dicit, et ponitur in
+            <lb ed="#V" n="28"/>littera: Omnium erit par gaudium
+            er<lb ed="#V" n="29" break="no"/>go par beatitudo; gaudium enim
+            <lb ed="#V" n="30"/>vel est idem quod operatio, vel
+            <lb ed="#V" n="31"/>consequitur operationem, quia
+            <lb ed="#V" n="32"/>aequalem operationem sequitur
+            <lb ed="#V" n="33"/>aequalis delectatio.
+          </p>
+          <p>
+            <lb ed="#V" n="34"/>Contra, Joan. 14. dicit Salvator:
+            <lb ed="#V" n="35"/>4.In domo Patris mei mansiones multae
+            <lb ed="#V" n="36"/>sunt, et loquitur de beatis
+            secun<lb ed="#V" n="37" break="no"/>dum Augustinum. Praeterea,
+            Apo<lb ed="#V" n="38" break="no"/>stolus prima ad Corinth. c. 15.
+            <lb ed="#V" n="39"/>Sicut differt stella a stella claritate, etc.
+            <lb ed="#V" n="40"/>Psalm. 61. dicitur. Reddes unicuique
+            <lb ed="#V" n="41"/>secundum opera sua; sed opera sunt
+            <lb ed="#V" n="42"/>inaequalia, etc.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d50q5-p2"> -->
+          <p>
+            <lb ed="#V" n="48" type="fixed=550"/>SCHOLIUM.
+            <lb ed="#V" n="49"/>Positis rationibus pro utraque parte,
+            re<lb ed="#V" n="50" break="no"/>solvit quaesitum quaest. seq. num. 2. et solvit
+            <lb ed="#V" n="51"/>argumenta hic posita ibi num. 10.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

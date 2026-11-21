@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 50, Quaestio 3</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 50, Quaestio 3</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x21">Vives, Paris, 1894, volume 21</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="543"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e5338"><!-- jdso8u-b4d50q3 -->
+        <head>Quaestio 3</head>
+        <head type="question-title">Utrum beati videant poenas damnatorum</head>
+        <!-- <div alias="scotus-d50q3-p1"> -->
+          <p>
+            <lb ed="#V" n="54" type="fixed=543"/>QUAESTIO III.
+            <lb ed="#V" n="55"/>Utrum beati videant poenas damnatorum?
+          </p>
+          <p>
+            <lb ed="#V" n="56"/>D. Thom. hic quaest. 1. art. 5. D. Bonav. 1. part.
+            <lb ed="#V" n="57"/>art. 1. quaest. 3. Richard. art. 3. quaest. 3.
+            <lb ed="#V" n="58"/>Soto quaest. unic. art. 6. con. 3. Bassol. q. 3.
+            <lb ed="#V" n="59"/>Vide Scot. in Theor. S Non omne agens est
+            <lb ed="#V" n="60"/>praesens.
+          </p>
+          <p>
+            <lb ed="#V" n="61"/>Utrum beati videant poenas
+            dam<lb ed="#V" n="62" break="no"/>natorum? Videtur quod non, quia
+            <lb ed="#V" n="63"/>si viderent aliquid, esset eis ratio
+            <lb ed="#V" n="64"/>videndi. Sed nihil potest eis esse
+            <lb ed="#V" n="65"/>ratio videndi eas, quia non essentia
+            <lb ed="#V" n="66"/>divina, quia ipsa non repraesentat
+            <lb ed="#V" n="67"/>omnia ut distincta, quia ipsa est
+            <lb ed="#V" n="68"/>indeterminata ad omnes creaturas:
+            <lb ed="#V" n="69"/>nec proprietas personalis, quia illa
+            <lb ed="#V" n="70"/>non est communis tribus. Ratio
+            <lb ed="#V" n="71"/>autem cognoscendi est communis
+            <lb ed="#V" n="72"/>tribus. Nec alius respectus ad
+            ex<lb ed="#V" n="73" break="no"/>tra, quia ille non potest esse
+            cogni<lb ed="#V" n="74" break="no"/>tus, nisi prius sint cognita
+            ex<lb ed="#V" n="75" break="no"/>trema; ergo cum nihil aliud sit in
+            <lb ed="#V" n="76"/>divinis, nisi aliquod illorum, et
+            <lb ed="#V" n="77"/>perilla non cognoscunt, ergo non
+            <lb ed="#V" n="78"/>possunt cognoscere.
+          </p>
+          <p>
+            <lb ed="#V" n="79"/>Praeterea, nihil cognoscitur nisi
+            <lb ed="#V" n="80"/>quod habet ideam in Deo; poena
+            <lb ed="#V" n="81"/>autem est quoddam malum; ergo
+            <lb ed="#V" n="82"/>non habet in Deo ideam; ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="83"/>Praeterea, si vident poenas
+            dam<lb ed="#V" n="84" break="no"/>natorum, vel volunt eas, vel nolunt.
+            <lb ed="#V" n="85"/>Si volunt, ergo videntur crudeles.
+            <pb ed="#V" n="544"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Si nolunt, et non possunt
+            subleva<lb ed="#V" n="2" break="no"/>re, ergo cadit in eis tristitia, quod
+            <lb ed="#V" n="3"/>est inconveniens; ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="4"/>Contra, Gregorius in Dialogo, et
+            <lb ed="#V" n="5"/>ponit Magister in littera.
+          </p>
+          <p>
+            <lb ed="#V" n="6"/>SCHOLIUM.
+            <lb ed="#V" n="7"/>Beatos non videre damnatorum poenas
+            sen<lb ed="#V" n="8" break="no"/>sibiliter ob nimiam distantiam, nec etiam eas
+            <lb ed="#V" n="9"/>intelligere intuitive in genere proprio, si
+            <lb ed="#V" n="10"/>requiratur proportionata distantia ad
+            intelle<lb ed="#V" n="11" break="no"/>ctionem, de quo 2. dist. 9. quaest. 2. possunt
+            <lb ed="#V" n="12"/>tamen eas videre in Verbo, id est, in essentia
+            <lb ed="#V" n="13"/>divina, quia haec sine ulla determinatione
+            <lb ed="#V" n="14"/>superaddita, licet illimitata et indifferens sit,
+            <lb ed="#V" n="15"/>determinate omnia repraesentat, et
+            contin<lb ed="#V" n="16" break="no"/>genter, ut vult respectu aliorum intellectuum
+            <lb ed="#V" n="17"/>a suo, ostendit contradictoria, contraria et
+            <lb ed="#V" n="18"/>disparata, de quo 1. distinct. 7. et dist. 28.
+            <lb ed="#V" n="19"/>quaest. 3.
+          </p>
+          <p>
+            <lb ed="#V" n="20"/>(a) Respondeo, hic primo est
+            vi<lb ed="#V" n="21" break="no"/>dendum, utrum videant, vel
+            co<lb ed="#V" n="22" break="no"/>gnoscant illas poenas in genere
+            <lb ed="#V" n="23"/>proprio. Secundo, utrum in Verbo.
+            <lb ed="#V" n="24"/>Patet quod non videant visione
+            <lb ed="#V" n="25"/>sensibili, quia nec est distantia
+            de<lb ed="#V" n="26" break="no"/>bita; similiter si requiratur
+            distan<lb ed="#V" n="27" break="no"/>tia debita inter intellectum et
+            ob<lb ed="#V" n="28" break="no"/>jectum, etiam non cognoscunt,
+            <lb ed="#V" n="29"/>quia non est distantia
+            proportio<lb ed="#V" n="30" break="no"/>nata inter potentiam existentem
+            <lb ed="#V" n="31"/>coelo empyreo, et objectum in
+            <lb ed="#V" n="32"/>inferno. Sic ergo patet, quod non
+            <lb ed="#V" n="33"/>in genere proprio.
+          </p>
+          <p>
+            <lb ed="#V" n="34"/>(b) Remanet ergo quaestio, si in
+            <lb ed="#V" n="35"/>Verbo cognoscant eas, ubi prima
+            <lb ed="#V" n="36"/>difficultas est, quid est ratio
+            co<lb ed="#V" n="37" break="no"/>gnoscendi eis illas poenas in Deo?
+            <lb ed="#V" n="38"/>Et dico quod est essentia divina,
+            <lb ed="#V" n="39"/>nen respectus, nec personale
+            ali<lb ed="#V" n="40" break="no"/>quod. Probatio, quando causa est
+            <lb ed="#V" n="41"/>illimitata ex perfectione sua ad
+            <lb ed="#V" n="42"/>plures effectus in se, ex se est
+            de<lb ed="#V" n="43" break="no"/>terminatissima determinatione
+            ex<lb ed="#V" n="44" break="no"/>cludente contradictionem, vel
+            in<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>differentiam ad contradictoria, ad
+            <lb ed="#V" n="46"/>quodcumque illorum plurium.
+            <lb ed="#V" n="47"/>Probo, quia si esset tantum illius,
+            <lb ed="#V" n="48"/>esset determinata ad illud; sed:
+            <lb ed="#V" n="49"/>quod extendit se etiam ad aliud
+            <lb ed="#V" n="50"/>causandum, nihil diminuit de
+            vir<lb ed="#V" n="51" break="no"/>tute sua respectu illius, nec
+            impe<lb ed="#V" n="52" break="no"/>dit determinationem sui respectu
+            <lb ed="#V" n="53"/>illius, tunc arguitur:
+          </p>
+          <p>
+            <lb ed="#V" n="54"/>Si aliqua essentia esset
+            determi<lb ed="#V" n="55" break="no"/>nata ad repraesentandum tantum
+            <lb ed="#V" n="56"/>hanc essentiam, illa esset
+            deter<lb ed="#V" n="57" break="no"/>minata duplici determinatione ad
+            <lb ed="#V" n="58"/>contradictoria, et determinatione
+            <lb ed="#V" n="59"/>ad alia; sed essentia divina est
+            illi<lb ed="#V" n="60" break="no"/>mitata ad omnia entia, et est ad
+            <lb ed="#V" n="61"/>quodlibet illorum determinata
+            de<lb ed="#V" n="62" break="no"/>determinatione excludente
+            indiffe<lb ed="#V" n="63" break="no"/>rentiam ad contradictoria, ut
+            <lb ed="#V" n="64"/>ostensum est in primo libro; ergo
+            <lb ed="#V" n="65"/>per hoc quod extendit se, et est
+            <lb ed="#V" n="66"/>illimitata ad plura, nihil tollitur
+            <lb ed="#V" n="67"/>sibi de perfectione respectu illius,
+            <lb ed="#V" n="68"/>vel cujuslibet illorum in se; et ideo
+            <lb ed="#V" n="69"/>sine omni determinatione, et omni
+            <lb ed="#V" n="70"/>determinante, re vel ratione,
+            co<lb ed="#V" n="71" break="no"/>gnoscibilis est ex se, et ratio
+            co<lb ed="#V" n="72" break="no"/>gnoscendi omnium ad quae est.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d50q3-p2"> -->
+          <p>
+            <lb ed="#V" n="40" type="fixed=545"/>SCHOLIUM.
+            <lb ed="#V" n="41"/>Poenas privativas damnatorum, ut damni
+            <lb ed="#V" n="42"/>et culpae (haec lato modo poena dicitur) non
+            <lb ed="#V" n="43"/>posse videri, secundum speciem, ut loquitur
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="44"/>August. 1. ita, ut habeant proprias ideas in
+            <lb ed="#V" n="45"/>Deo, reliquas poenas positivas, de quibus
+            su<lb ed="#V" n="46" break="no"/>pra dist. 44. quaest. 2. sic videri posse, quia
+            <lb ed="#V" n="47"/>habent in eo ideas, et de facto videntur,
+            se<lb ed="#V" n="48" break="no"/>cundum Greg. hom. 40. in Luc. et Mag. hic,
+            <lb ed="#V" n="49"/>qui dicit esse commune Sanctorum; et
+            colli<lb ed="#V" n="50" break="no"/>gitur ex Isai. ult. Non erit in voluntate
+            be<lb ed="#V" n="51" break="no"/>atorum complacentia de miseria damnatorum
+            <lb ed="#V" n="52"/>qua talis, imo conditionate vellent eos
+            libera<lb ed="#V" n="53" break="no"/>tos, si Deo placeret, complacebunt tamen in
+            <lb ed="#V" n="54"/>justitia judicis, inflictiva poenarum.
+          </p>
+          <p>
+            <lb ed="#V" n="55"/>(c) Secundo est videndum
+            quomo<lb ed="#V" n="56" break="no"/>do hoc est, an poena habeat ideam
+            <lb ed="#V" n="57"/>in Deo? Dico secundum
+            Augusti<lb ed="#V" n="58" break="no"/>num nono de Trinitate, capitulo decimo,
+            <lb ed="#V" n="59"/>quod aliquid est cognoscibile
+            se<lb ed="#V" n="60" break="no"/>cundum speciem, et aliquid
+            secun<lb ed="#V" n="61" break="no"/>dum privationem; cognitio
+            secun<lb ed="#V" n="62" break="no"/>dum speciem est ejus rei, quae
+            <lb ed="#V" n="63"/>cognoscitur in se; secundum
+            pri<lb ed="#V" n="64" break="no"/>vationem cognoscitur, quod
+            co<lb ed="#V" n="65" break="no"/>gnoscitur per aliud; et idem dicit
+            <lb ed="#V" n="66"/>Philosophus quarto, septimo et nono
+            <lb ed="#V" n="67"/>Metaphysicae, quod privatio
+            cogno<lb ed="#V" n="68" break="no"/>scitur per habitum.
+          </p>
+          <p>
+            <lb ed="#V" n="69"/>Tunc dicitur ad propositum,
+            <lb ed="#V" n="70"/>quod poena damnatorum est
+            multi<lb ed="#V" n="71" break="no"/>plex, quaedam poena damni,
+            caren<lb ed="#V" n="72" break="no"/>tia scilicet visionis divinae; alia
+            <lb ed="#V" n="73"/>est tristitia de ipsa poena; tertia,
+            <lb ed="#V" n="74"/>tristitia de culpa, non ut est
+            offen<lb ed="#V" n="75" break="no"/>siva Dei, sed ut est causa poenae;
+            <lb ed="#V" n="76"/>quarta est tristitia de igne
+            conti<lb ed="#V" n="77" break="no"/>nente perpetuo; quinta de igne
+            <lb ed="#V" n="78"/>immutante et retinente intellectum
+            <lb ed="#V" n="79"/>damnatorum in perpetua
+            conside<lb ed="#V" n="80" break="no"/>ratione sua; tertia tristitia,
+            scili<lb ed="#V" n="81" break="no"/>cet de culpa, inquantum est
+            pecca<lb ed="#V" n="82" break="no"/>tum, est vermis conscientiae.
+          </p>
+          <p>
+            <lb ed="#V" n="83"/>Si ergo est quaestio de poena
+            <lb ed="#V" n="84"/>damni, quae est carentia visionis
+            <lb ed="#V" n="85"/>divinae, sive de culpa, quae est
+            cau<lb ed="#V" n="86" break="no"/>sa poenae, sic dico quod non vident
+            <lb ed="#V" n="87"/>in essentia divina, quia nec habent
+            <lb ed="#V" n="88"/>ideam in Deo, nec imitantur ideam,
+            <pb ed="#V" n="546"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>quia nec in se, nec in aliquo gradu
+            <lb ed="#V" n="2"/>entis sunt, nec per consequens
+            <lb ed="#V" n="3"/>imitantur illam in aliquo gradu,
+            <lb ed="#V" n="4"/>-et ita non est ratio cognoscendi
+            <lb ed="#V" n="5"/>in essentia divina secundum
+            spe<lb ed="#V" n="6" break="no"/>ciem, quia non habent propriam
+            <lb ed="#V" n="7"/>ideam in Deo, sed secundum
+            simi<lb ed="#V" n="8" break="no"/>litudinem per aliud. Si autem est
+            <lb ed="#V" n="9"/>quaestio de tristitiis aliis, tunc
+            di<lb ed="#V" n="10" break="no"/>co quod illae cognoscuntur
+            secun<lb ed="#V" n="11" break="no"/>dum speciem, quia sunt vere entia
+            <lb ed="#V" n="12"/>positiva, quae habent propriam
+            <lb ed="#V" n="13"/>ideam in Deo.
+          </p>
+          <p>
+            <lb ed="#V" n="14"/>Sed quid facit idea, si ponatur
+            <lb ed="#V" n="15"/>ad cognitionem et visionem illam?
+            <lb ed="#V" n="16"/>Dico quod si idea ponitur
+            respe<lb ed="#V" n="17" break="no"/>ctus essentiae divinae ad extra,
+            co<lb ed="#V" n="18" break="no"/>gnitio illorum ad quae est
+            respe<lb ed="#V" n="19" break="no"/>ctus ille, necessario
+            praesupponi<lb ed="#V" n="20" break="no"/>tur; essentia enim nunquam est
+            <lb ed="#V" n="21"/>comparata, nisi prius intelligatur
+            <lb ed="#V" n="22"/>illud ad quod fit comparatio; non
+            <lb ed="#V" n="23"/>enim fit comparatio ad ignotum.
+            <lb ed="#V" n="24"/>Per quid ergo cognoscuntur illa,
+            <lb ed="#V" n="25"/>ad quae comparatur? non per
+            co<lb ed="#V" n="26" break="no"/>gnitionem illius respectus;
+            opor<lb ed="#V" n="27" break="no"/>tet ergo quod per illam essentiam,
+            <lb ed="#V" n="28"/>quae perfectissime omnia
+            reprae<lb ed="#V" n="29" break="no"/>sentat, quae ut sic repraesentans
+            <lb ed="#V" n="30"/>illa ut objecta cognita, habet
+            ra<lb ed="#V" n="31" break="no"/>tionem ideae.
+          </p>
+          <p>
+            <lb ed="#V" n="32"/>Et si arguatur, quod hoc non
+            <lb ed="#V" n="33"/>potest esse, quia illud quod sic se.
+            <lb ed="#V" n="34"/>habet in ratione cogniti est
+            dedu<lb ed="#V" n="35" break="no"/>ctum, vel abstractum ab alio; ergo
+            <lb ed="#V" n="36"/>habet necessario exemplar, a quo
+            <lb ed="#V" n="37"/>vel unde productum est, sub
+            rati<lb ed="#V" n="38" break="no"/>one propria et determinata, et hoc
+            <lb ed="#V" n="39"/>habet rationem ideae. Dico quod
+            <lb ed="#V" n="40"/>falsum est, imo ipsa essentia est
+            <lb ed="#V" n="41"/>exemplar illimitatum. Et ista est
+            <lb ed="#V" n="42"/>prima ratio in esse cognito, non
+            <lb ed="#V" n="43"/>autem alia ratio, quae prius det esse
+            <lb ed="#V" n="44"/>cognitum, ut dictum est in primo
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>libro. Et haec magis determinate
+            <lb ed="#V" n="46"/>repraesentat, quam aliquid
+            limita<lb ed="#V" n="47" break="no"/>tum nedum extra existens, imo
+            <lb ed="#V" n="48"/>quam aliquid intra. Illo modo
+            lo<lb ed="#V" n="49" break="no"/>quebatur Augustinus, quia ipse
+            <lb ed="#V" n="50"/>loquebatur de ideis sicut Plato;
+            <lb ed="#V" n="51"/>Plato autem ponebat eas 'in mente
+            <lb ed="#V" n="52"/>divina, sicut per se entia.
+          </p>
+          <p>
+            <lb ed="#V" n="53"/>(q) Sed de tertio principali,
+            sci<lb ed="#V" n="54" break="no"/>licet quomodo se habet voluntas
+            <lb ed="#V" n="55"/>beatorum ad ipsas poenas
+            damna<lb ed="#V" n="56" break="no"/>torum, non credo quod
+            consolen<lb ed="#V" n="57" break="no"/>tur absolute de poenis eorum
+            <lb ed="#V" n="58"/>quia nec Deus, qui est judex,
+            <lb ed="#V" n="59"/>inferens poenam, consolatur
+            abso<lb ed="#V" n="60" break="no"/>lute, ut patet per Isaiam: Heu me
+            <lb ed="#V" n="61"/>consolabor super inimicos meos;
+            obje<lb ed="#V" n="62" break="no"/>ctum enim circa quod ordinatur,
+            <lb ed="#V" n="63"/>est natura nuda, et illam non
+            or<lb ed="#V" n="64" break="no"/>dinat ad poenam nisi propter
+            rati<lb ed="#V" n="65" break="no"/>onem mali; non ergo gaudent de
+            <lb ed="#V" n="66"/>eis, nisi propter justitiam judicis,
+            <lb ed="#V" n="67"/>si est, imo quia est volita ab eis,
+            <lb ed="#V" n="68"/>aliud autem, ut culpa, est nolitum
+            <lb ed="#V" n="69"/>ab eis.
+          </p>
+          <p>
+            <lb ed="#V" n="70"/>Aliter tamen est in eis velle quam
+            <lb ed="#V" n="71"/>in Deo, quia Deus est judex
+            volun<lb ed="#V" n="72" break="no"/>tarie inferens; sed eis non est nisi
+            <lb ed="#V" n="73"/>velle complacentiae, inquantum est
+            <lb ed="#V" n="74"/>determinatum a justa voluntate
+            <lb ed="#V" n="75"/>divina, et si placeret Deo, vellent
+            <lb ed="#V" n="76"/>liberationem eorum, vel saltem
+            <lb ed="#V" n="77"/>non displiceret eis, si placeret Deo;
+            <lb ed="#V" n="78"/>et sic patet quod non acceptant
+            <lb ed="#V" n="79"/>poenam ut primum objectum, sed
+            <lb ed="#V" n="80"/>ut est a justitia divina inflicta
+            <lb ed="#V" n="81"/>eis.
+          </p>
+          <p>
+            <lb ed="#V" n="82"/>Alii textus sic sunt. De tertio
+            prin<lb ed="#V" n="83" break="no"/>cipali, scilicet quomodo voluntas
+            <lb ed="#V" n="84"/>beatorum se habet ad istas poenas
+            <lb ed="#V" n="85"/>damnatorum, nec video, nec scio,
+            <lb ed="#V" n="86"/>quomodo vel ipsi, vel Deus
+            gaude<lb ed="#V" n="87" break="no"/>ant, vel consolentur de poenis
+            co<lb ed="#V" n="88" break="no"/>rum. Unde Deus dicit Isaiae 1. per
+            <pb ed="#V" n="547"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>modum plangentis: Heu consolabor
+            <lb ed="#V" n="2"/>super hostibus meis. Unde cum dicit
+            <lb ed="#V" n="3"/>heu, non dicit nisi quasi dolendo,
+            <lb ed="#V" n="4"/>quia Deus est, cui proprium est misereri
+            <lb ed="#V" n="5"/>semper et parcere, nec laetatur in
+            <lb ed="#V" n="6"/>perditione malorum morientium;
+            <lb ed="#V" n="7"/>unde non ordinat aliquos ad
+            poe<lb ed="#V" n="8" break="no"/>nam, nisi quadam ratione
+            neces<lb ed="#V" n="9" break="no"/>sitatis in natura, eo quod non
+            <lb ed="#V" n="10"/>potest aliter ordinare salvo ordine
+            <lb ed="#V" n="11"/>justitiae, qua ordinari debet culpa
+            <lb ed="#V" n="12"/>sub poena; non tamen est volitum
+            <lb ed="#V" n="13"/>simpliciter, nec a Deo, nec a
+            be<lb ed="#V" n="14" break="no"/>atis, sed tantum est volitum
+            se<lb ed="#V" n="15" break="no"/>cundum quid; gaudent enim
+            pro<lb ed="#V" n="16" break="no"/>pter justitiam inquantum natura
+            <lb ed="#V" n="17"/>existens sub culpa ordinatur per
+            <lb ed="#V" n="18"/>poenam.
+          </p>
+          <p>
+            <lb ed="#V" n="19"/>Sciendum tamen, quod aliter
+            <lb ed="#V" n="20"/>debet gaudere judex de poena juste
+            <lb ed="#V" n="21"/>inflicta, quam alius, cujus non
+            <lb ed="#V" n="22"/>interest; unde Deus acceptat
+            <lb ed="#V" n="23"/>damnatorum poenam, quia justa
+            <lb ed="#V" n="24"/>est, et fit in vindictam offensae
+            <lb ed="#V" n="25"/>judicis, et ideo ejus interest habere
+            <lb ed="#V" n="26"/>majorem complacentiam
+            infligen<lb ed="#V" n="27" break="no"/>do juste poenam, quam debeant
+            <lb ed="#V" n="28"/>habere beati, quia alii beati minus
+            <lb ed="#V" n="29"/>debent habere de complacentia, eo
+            <lb ed="#V" n="30"/>quod ad eos non pertinet vindicta,
+            <lb ed="#V" n="31"/>imo si placeret Deo, vellent eorum
+            <lb ed="#V" n="32"/>liberationem, vel saltem non
+            dis<lb ed="#V" n="33" break="no"/>pliceret eis liberatio eorum.
+            Un<lb ed="#V" n="34" break="no"/>de Deus acceptat id quod justum
+            <lb ed="#V" n="35"/>est in se; seu beati acceptant illud
+            <lb ed="#V" n="36"/>pro tanto, ut est ordinatum et
+            <lb ed="#V" n="37"/>inflictum a Deo.
+          </p>
+          <p>
+            <lb ed="#V" n="38"/>(e) Sed eritne tristitia in eis in
+            <lb ed="#V" n="39"/>videndo poenas damnatorum
+            pro<lb ed="#V" n="40" break="no"/>pter illud nolle? Dico quod non,
+            <lb ed="#V" n="41"/>quia beati omnia vident in Deo
+            <lb ed="#V" n="42"/>sicut in primo objecto eorum
+            voli<lb ed="#V" n="43" break="no"/>to, et volunt quod Deus vult;
+            vi<lb ed="#V" n="44" break="no"/>dent autem Deum velle poenas
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>eorum, et intelligere eas, ideo
+            <lb ed="#V" n="46"/>volunt eas intelligere ut Deus, et
+            <lb ed="#V" n="47"/>velle, ut Deus vult eas; et ideo
+            <lb ed="#V" n="48"/>poena illa non est eis ut objec um
+            <lb ed="#V" n="49"/>nolitum, sed volitum; tamen si
+            <lb ed="#V" n="50"/>placeret Deo, absolute nollent,
+            <lb ed="#V" n="51"/>nec tamen propter hoc est tristitia
+            <lb ed="#V" n="52"/>in eis, quia voluntas eorum non
+            <lb ed="#V" n="53"/>est capax tristitiae propter
+            delecta<lb ed="#V" n="54" break="no"/>tionem perfectam, quae impedit
+            <lb ed="#V" n="55"/>omnem tristitiam, non solum
+            oppo<lb ed="#V" n="56" break="no"/>sitam, sed quamcumque
+            contingen<lb ed="#V" n="57" break="no"/>tem. Nec est etiam ista nolitio, nisi
+            <lb ed="#V" n="58"/>conditionalis, scilicet si Deus
+            vel<lb ed="#V" n="59" break="no"/>let, et ideo non sequitur tristitia,
+            <lb ed="#V" n="60"/>quia talis nolitio non est sufficiens
+            <lb ed="#V" n="61"/>causa tristitiae.
+          </p>
+          <p>
+            <lb ed="#V" n="62"/>(f) Ad argumenta. Ad primum.
+            <lb ed="#V" n="63"/>nego majorem, quando dicis quod
+            <lb ed="#V" n="64"/>essentia non potest esse ratio
+            co<lb ed="#V" n="65" break="no"/>gnoscendi. Et ad probationem,
+            <lb ed="#V" n="66"/>quando dicis quod est
+            indetermi<lb ed="#V" n="67" break="no"/>nata, dico quod verum est, non
+            <lb ed="#V" n="68"/>tamen in determinatione, quae est
+            <lb ed="#V" n="69"/>cum potentialitate quadam ad
+            <lb ed="#V" n="70"/>contradictoria, quae est
+            imperfe<lb ed="#V" n="71" break="no"/>ctionis; et isto modo materia est
+            <lb ed="#V" n="72"/>indeterminata ad formas, et genus
+            <lb ed="#V" n="73"/>ad species, et de ista verum est,
+            <lb ed="#V" n="74"/>quod non sufficit ad determinatam
+            <lb ed="#V" n="75"/>cognitionem. Sed alia est
+            indeter<lb ed="#V" n="76" break="no"/>minatio et illimitatio activa, et
+            <lb ed="#V" n="77"/>actualitatis, et talis est sufficiens
+            <lb ed="#V" n="78"/>ratio et causandi et cognoscendi;
+            <lb ed="#V" n="79"/>sic essentia divina est
+            indetermi<lb ed="#V" n="80" break="no"/>nata propter illimitationem suae
+            <lb ed="#V" n="81"/>perfectionis. Illud autem
+            indeter<lb ed="#V" n="82" break="no"/>minatum, quod propter suam
+            illi<lb ed="#V" n="83" break="no"/>mitationem est perfectius, quam
+            <lb ed="#V" n="84"/>determinatum determinatione
+            op<lb ed="#V" n="85" break="no"/>posita, bene potest esse ratio
+            de<lb ed="#V" n="86" break="no"/>terminatae cognitionis, sicut esset
+            <lb ed="#V" n="87"/>unius tantum; sic autem essentia
+            <lb ed="#V" n="88"/>divina sic se habet ad omnia
+            co<lb ed="#V" n="89" break="no"/>gnoscibilia.
+          </p>
+          <p>
+            <pb ed="#V" n="548"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Ad aliud dico, quod non habet
+            <lb ed="#V" n="2"/>ideam; cognoscitur tamen per
+            ha<lb ed="#V" n="3" break="no"/>bitum, sicut privatio habet
+            cogno<lb ed="#V" n="4" break="no"/>sci.
+          </p>
+          <p>
+            <lb ed="#V" n="5"/>Ad tertium dico, quod volunt
+            <lb ed="#V" n="6"/>eas, sed non primo, quia volunt
+            <lb ed="#V" n="7"/>quidquid Deus vult, et si etiam
+            il<lb ed="#V" n="8" break="no"/>las poenas volunt, non tamen
+            pro<lb ed="#V" n="9" break="no"/>pter hoc sunt crudeles, quia
+            no<lb ed="#V" n="10" break="no"/>lunt prima nolitione, nec tamen
+            <lb ed="#V" n="11"/>propter hoc tristantur, quia
+            appe<lb ed="#V" n="12" break="no"/>titus eorum non est capax
+            tristi<lb ed="#V" n="13" break="no"/>tiae, ut dictum est, sed vultu divino
+            <lb ed="#V" n="14"/>satiantur.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

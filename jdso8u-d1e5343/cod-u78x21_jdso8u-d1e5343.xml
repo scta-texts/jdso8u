@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 50, Quaestio 4</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 50, Quaestio 4</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x21">Vives, Paris, 1894, volume 21</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="549"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e5343"><!-- jdso8u-b4d50q4 -->
+        <head>Quaestio 4</head>
+        <head type="question-title">Utrum poena omnium damnatorum sit aequalis</head>
+        <!-- <div alias="scotus-d50q4-p1"> -->
+          <p>
+            <lb ed="#V" n="5" type="fixed=549"/>QUAESTIO IV.
+            <lb ed="#V" n="6"/>Utrum poena omnium damnatorum sit
+            <lb ed="#V" n="7"/>aequalis?
+          </p>
+          <p>
+            <lb ed="#V" n="8"/>Alensis 3. part. quaest. 41. m. 4. et quaest. 61.
+            <lb ed="#V" n="9"/>m. 3. Richard. art. 5. quaest. ult. Sotus quaest.
+            <lb ed="#V" n="10"/>un. art. 4. Vasq. 1. 2. disp. 100. cap. 3. et 5.
+            <lb ed="#V" n="11"/>Assor. tom 1. lib. 4. cap. 24. Suar. tom. 4.
+            <lb ed="#V" n="12"/>disp. 12. sect. 2. Abul. in 25. Matt h. 639.
+            <lb ed="#V" n="13"/>(g) Ultimo quoad totum quartum
+            <lb ed="#V" n="14"/>istum quaeritur, utrum poena
+            om<lb ed="#V" n="15" break="no"/>nium damnatorum sit aequalis?
+          </p>
+          <p>
+            <lb ed="#V" n="16"/>Videtur quod sic. Poena essentialis
+            <lb ed="#V" n="17"/>damnatorum est poena damni, quae
+            <lb ed="#V" n="18"/>consistit in carentia divinae
+            visi<lb ed="#V" n="19" break="no"/>onis; carentia vero est privatio;
+            <lb ed="#V" n="20"/>sed privatio non recipit magis et
+            <lb ed="#V" n="21"/>minus; ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="22"/>Item ignis, qui facit poenam
+            sen<lb ed="#V" n="23" break="no"/>sus, omnium erit idem; sed agens
+            <lb ed="#V" n="24"/>naturale agit secundum ultimum
+            <lb ed="#V" n="25"/>potentiae suae in omne in quod
+            <lb ed="#V" n="26"/>agit; ergo aequaliter patientur,
+            <lb ed="#V" n="27"/>quia in omnibus poena aequalis
+            <lb ed="#V" n="28"/>erit, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="29"/>Item, si poena unius esset minor
+            <lb ed="#V" n="30"/>quam poena alterius, tunc poena
+            <lb ed="#V" n="31"/>pejoris esset major, quam minus
+            <lb ed="#V" n="32"/>mali; sed hoc est falsum, ergo, etc.
+            <lb ed="#V" n="33"/>Consequentia patet, falsitas
+            con<lb ed="#V" n="34" break="no"/>sequentis probatur, quia major
+            <lb ed="#V" n="35"/>poena est majus bonum, quia poena
+            <lb ed="#V" n="36"/>est aliquod positivum, et per
+            con<lb ed="#V" n="37" break="no"/>sequens bonum, quia a Deo, et sic
+            <lb ed="#V" n="38"/>si daretur paena major pejori, plus
+            <lb ed="#V" n="39"/>daretur sibi de bono.
+          </p>
+          <p>
+            <lb ed="#V" n="40"/>Praeterea, si illa poena esset sic
+            <lb ed="#V" n="41"/>diversa in diversis secundum
+            ma<cb ed="#V" n="b"/><lb ed="#V" n="42" break="no"/>gis et minus, tunc deberet plus
+            <lb ed="#V" n="43"/>attendi majoritas vel minoritas
+            <lb ed="#V" n="44"/>secundum extensionem quam
+            se<lb ed="#V" n="45" break="no"/>cundum intensionem. Probo, ex
+            <lb ed="#V" n="46"/>hoc debet attendi gravitas poenae,
+            <lb ed="#V" n="47"/>ex quo gravitas culpae; gravitas
+            <lb ed="#V" n="48"/>autem culpae attenditur penes
+            infi<lb ed="#V" n="49" break="no"/>nitatem; ergo et poenae. Sed hoc
+            <lb ed="#V" n="50"/>non potest esse secundum
+            inten<lb ed="#V" n="51" break="no"/>sionem; ergo quoad extensionem;
+            <lb ed="#V" n="52"/>ergo in poenis non est diversitas
+            <lb ed="#V" n="53"/>inaequalitatis, quia quaelibet
+            infi<lb ed="#V" n="54" break="no"/>nita extensive, et per consequens
+            <lb ed="#V" n="55"/>omnium hominum erit aequalis.
+          </p>
+          <p>
+            <lb ed="#V" n="56"/>Contra, Apoc. 18. dicitur:
+            Quan<lb ed="#V" n="57" break="no"/>tum glorificavit se, et in deliciis, etc. Et
+            <lb ed="#V" n="58"/>in Psalm. 61. dicitur: Reddes
+            unicui<lb ed="#V" n="59" break="no"/>que secundum opera sua.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d50q4-p2"> -->
+          <p>
+            <lb ed="#V" n="67" type="fixed=549"/>SCHOLIUM.
+            <lb ed="#V" n="68"/>Posita ratione ad oppositum pro sententia
+            <lb ed="#V" n="69"/>vera quaest. resolvit in quaest. ult. hujus a
+            <lb ed="#V" n="70"/>num. 12. et argumenta hic posita, diluit ibi
+            <lb ed="#V" n="71"/>a num. 16.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

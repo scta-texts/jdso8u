@@ -1,0 +1,981 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 50, Quaestio 6</title>
+        <author ref="#Scotus">John Duns Scotus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 50, Quaestio 6</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x21">Vives, Paris, 1894, volume 21</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="550"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jdso8u-d1e5353"><!-- jdso8u-b4d50q6 -->
+        <head>Quaestio 6</head>
+        <head type="question-title">Utrum beatitudo corporum erit aequalis</head>
+        <!-- <div alias="scotus-d50q6-p1"> -->
+          <p>
+            <lb ed="#V" n="52" type="fixed=550"/>QUAESTIO VI.
+            <lb ed="#V" n="53"/>Utrum beatitudo corporum erit aequalis?
+          </p>
+          <p>
+            <lb ed="#V" n="54"/>D. Thom. in add. quaest. 82. art. 1. et q. 95.
+            <lb ed="#V" n="55"/>art. 1. et dist. 49. q. 4. art. 1. ubi Richard.
+            <lb ed="#V" n="56"/>art. 4. q. 2. D. Bonav. 1. part. art. 2. q. 2.
+            <lb ed="#V" n="57"/>Bassol q. 2. Suar. 1. part. tract. 1. lib. 2.
+            <lb ed="#V" n="58"/>cap. 20. et 3. part. tom. disp. 48. sect. 3.
+            En<lb ed="#V" n="59" break="no"/>riq. lib. ult. cap. 26. num. 1.
+          </p>
+          <p>
+            <lb ed="#V" n="60"/>Juxta hoc quaeritur, utrum
+            be<lb ed="#V" n="61" break="no"/>atitudo corporum erit aequalis?
+            <lb ed="#V" n="62"/>Videtur quod sic. Primo de
+            impas<lb ed="#V" n="63" break="no"/>sibilitate, impassibilitas est
+            priva<lb ed="#V" n="64" break="no"/>tio; sed privatio non recipit magis
+            <lb ed="#V" n="65"/>et minus; ergo nec
+            impassibili<lb ed="#V" n="66" break="no"/>tas.
+          </p>
+          <p>
+            <lb ed="#V" n="67"/>Praeterea, quod non in
+            subtili<lb ed="#V" n="68" break="no"/>tate, quia subtilitas est
+            possibi<lb ed="#V" n="69" break="no"/>litas coexistendi unum corpus cum
+            <lb ed="#V" n="70"/>alio pro libito voluntatis animae
+            <lb ed="#V" n="71"/>informantis ipsum; sed aequaliter
+            <lb ed="#V" n="72"/>omne corpus beatum habet
+            possi<lb ed="#V" n="73" break="no"/>bilitatem talem; ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="74"/>Contra, 1. ad Corinth. cap. 15.
+            <lb ed="#V" n="75"/>Stella differt a stella in claritate; sic
+            <lb ed="#V" n="76"/>erit resurrectio mortuorum.
+          </p>
+          <p>
+            <lb ed="#V" n="77"/>SCHOLIUM.
+            <lb ed="#V" n="78"/>Resolvit primo quaest. secundam, id est,
+            <lb ed="#V" n="79"/>quintam hujus dist. per 6. concl. Prima est,
+            <pb ed="#V" n="551"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>dari posse inaequalitatem beatitudinis in
+            ea<lb ed="#V" n="2" break="no"/>dem specie, quia potest quietari appetitus
+            <lb ed="#V" n="3"/>naturalis beati, licet non habeat, quantum
+            <lb ed="#V" n="4"/>capere potest, et solvit argumenta duo in
+            <lb ed="#V" n="5"/>oppositum. Dari de facto illam
+            inaequalita<lb ed="#V" n="6" break="no"/>tem in beatis, constat ex locis adductis q. 5
+            <lb ed="#V" n="7"/>August. lib. de sancta Virg. cap. 16. et
+            <lb ed="#V" n="8"/>tract. 67. in Joann. Cvrill. ibi lib. 9. cap. 31.
+            <lb ed="#V" n="9"/>Nazian. orat. 16. Cyprian. lib. de habitu
+            <lb ed="#V" n="10"/>Virg. fin. Ambr. lib. de bona morte, cap. 12.
+            <lb ed="#V" n="11"/>Greg. 4. dial. 26. qui sic exponunt locum
+            <lb ed="#V" n="12"/>Joan. 14. In domo Patris mei, etc. Et eodem
+            <lb ed="#V" n="13"/>modo exponunt Patres illum locum 1.
+            Co<lb ed="#V" n="14" break="no"/>rinth. 15. Sicut stella, etc. definitur in Flor.
+            <lb ed="#V" n="15"/>in litteris unionis.
+          </p>
+          <p>
+            <lb ed="#V" n="16"/>(i) Respondeo, et primo ad
+            se<lb ed="#V" n="17" break="no"/>cundam quaestionem, circa quam
+            <lb ed="#V" n="18"/>sex sunt videnda. Primo quomodo
+            <lb ed="#V" n="19"/>potest stare inaequalitas in eadem
+            <lb ed="#V" n="20"/>specie; secundo, unde est ista
+            in<lb ed="#V" n="21" break="no"/>aequalitas; tertio, quod non potest
+            <lb ed="#V" n="22"/>absolute esse ex parte potentiae
+            <lb ed="#V" n="23"/>passivae; quarto, quod est ex
+            acti<lb ed="#V" n="24" break="no"/>vo, et qualiter; quinto, utrum ex
+            <lb ed="#V" n="25"/>natura voluntatis, vel habitus;
+            sex<lb ed="#V" n="26" break="no"/>to ex his, quae inaequaliter
+            fruun<lb ed="#V" n="27" break="no"/>tur Deo.
+          </p>
+          <p>
+            <lb ed="#V" n="28"/>(k) De primo, quod inaequalitas
+            <lb ed="#V" n="29"/>possit esse in eadem specie in
+            be<lb ed="#V" n="30" break="no"/>atitudine, videtur esse
+            contradi<lb ed="#V" n="31" break="no"/>ctio, quia beatitudo includit
+            qui<lb ed="#V" n="32" break="no"/>etationem appetitus naturalis in
+            <lb ed="#V" n="33"/>quolibet beato. Sed appetitus
+            na<lb ed="#V" n="34" break="no"/>turalis in quolibet individuo est ad
+            <lb ed="#V" n="35"/>perfectionem summam possibilem
+            <lb ed="#V" n="36"/>in illa specie; ergo si appetitus
+            <lb ed="#V" n="37"/>talis quietatur, non nisi per
+            sum<lb ed="#V" n="38" break="no"/>mum possibile in specie; ergo hoc
+            <lb ed="#V" n="39"/>erit aequale in omnibus, quia
+            appe<lb ed="#V" n="40" break="no"/>titus naturalis est aequalis in
+            om<lb ed="#V" n="41" break="no"/>nibus; ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="42"/>Praeterea, appetitus liber
+            conso<lb ed="#V" n="43" break="no"/>nus appetitui naturali, rectus est.
+            <lb ed="#V" n="44"/>Probo, consonans recto, rectum
+            <lb ed="#V" n="45"/>est; appetitus naturalis est rectus,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="46"/>quia Deus est causa illius in
+            natu<lb ed="#V" n="47" break="no"/>ra, qui non potest esse causa, nisi
+            <lb ed="#V" n="48"/>recta et recti. Sed appetitus
+            natu<lb ed="#V" n="49" break="no"/>ralis est ad summam perfectionem
+            <lb ed="#V" n="50"/>possibilem in specie; ergo et
+            vo<lb ed="#V" n="51" break="no"/>luntas libera, si est recta, erit ad
+            <lb ed="#V" n="52"/>summam perfectionem in specie.
+            <lb ed="#V" n="53"/>Sed nullus est beatus, nisi qui
+            ha<lb ed="#V" n="54" break="no"/>bet quidquid vult recte; ergo
+            nul<lb ed="#V" n="55" break="no"/>lus erit beatus, nisi habeat
+            sum<lb ed="#V" n="56" break="no"/>mam perfectionem, quae est
+            possi<lb ed="#V" n="57" break="no"/>bilis in specie.
+          </p>
+          <p>
+            <lb ed="#V" n="58"/>(1) Respondeo, quod inaequalitas
+            <lb ed="#V" n="59"/>potest stare cum beatitudine in
+            <lb ed="#V" n="60"/>eadem specie. Probo, non oportet
+            <lb ed="#V" n="61"/>quod appetitus naturalis habeat
+            <lb ed="#V" n="62"/>omnem perfectionem cujus est
+            <lb ed="#V" n="63"/>summe capax; patet de gravi,
+            <lb ed="#V" n="64"/>quod est capax esse summe,
+            deor<lb ed="#V" n="65" break="no"/>sum, scilicet in centro, non tamen
+            <lb ed="#V" n="66"/>omne grave esse in centro, et si
+            <lb ed="#V" n="67"/>tolleretur impedimentum, esset
+            <lb ed="#V" n="68"/>summe deorsum, et tamen non
+            po<lb ed="#V" n="69" break="no"/>test esse, sed facit se deorsum
+            <lb ed="#V" n="70"/>quantum potest, et ibi quiescit, et
+            <lb ed="#V" n="71"/>ideo sufficit, quod grave quietetur
+            <lb ed="#V" n="72"/>eo modo quo gravitas est
+            principi<lb ed="#V" n="73" break="no"/>um intrinsecum ad quiet ationem.
+            <lb ed="#V" n="74"/>Est autem sic principium, quod
+            <lb ed="#V" n="75"/>stante eadem perfectione naturae,
+            <lb ed="#V" n="76"/>ad quam est major intentio
+            natu<lb ed="#V" n="77" break="no"/>rae, majorem habet perfectionem,
+            <lb ed="#V" n="78"/>et hoc sive sit ab extrinseco
+            per<lb ed="#V" n="79" break="no"/>fectivo eorum, sive ab extrinseco,
+            <lb ed="#V" n="80"/>quod est natura universalis; hoc
+            <lb ed="#V" n="81"/>autem est, ut illa, quae sunt magis
+            <lb ed="#V" n="82"/>gravia, quietentur magis deorsum.
+            <lb ed="#V" n="83"/>unde snfficit minus gravi, quod
+            <lb ed="#V" n="84"/>quietetur in superficie terrae.
+          </p>
+          <p>
+            <lb ed="#V" n="85"/>Sic est etiam in proposito, quod
+            <lb ed="#V" n="86"/>licet appetitus naturalis
+            naturali<lb ed="#V" n="87" break="no"/>ter inclinet ad summam
+            perfecti<lb ed="#V" n="88" break="no"/>onem, justitia tamen distributiva
+            <lb ed="#V" n="89"/>in Deo, quae ordinat omnia
+            pro<pb ed="#V" n="552"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>pter seipsam, ordinat sic homines
+            <lb ed="#V" n="2"/>ad beatitudinem, ut haec perfectio
+            <lb ed="#V" n="3"/>detur propter meritum, non
+            pro<lb ed="#V" n="4" break="no"/>pter appetitum naturalem, et quia
+            <lb ed="#V" n="5"/>inaequalia possunt esse merita in
+            <lb ed="#V" n="6"/>eadem specie hominum, per
+            con<lb ed="#V" n="7" break="no"/>sequens, et perfectio potest esse
+            <lb ed="#V" n="8"/>inaequalis.
+          </p>
+          <p>
+            <lb ed="#V" n="9"/>Ad primum argumentum dico,
+            <lb ed="#V" n="10"/>quod totalis appetitus quietatur.
+            <lb ed="#V" n="11"/>ut est consonus voluntati, sive
+            re<lb ed="#V" n="12" break="no"/>gulae superiori, non quod tantum
+            <lb ed="#V" n="13"/>accipiat, quantum capere posset;
+            <lb ed="#V" n="14"/>nihilominus tamen quietatur, quia
+            <lb ed="#V" n="15"/>attingit quantum natus est
+            attin<lb ed="#V" n="16" break="no"/>gere per dispositionem illam
+            me<lb ed="#V" n="17" break="no"/>diam, sine qua non erit conjunctio
+            <lb ed="#V" n="18"/>ad illam causam; hujus autem
+            <lb ed="#V" n="19"/>dispositio est per merita
+          </p>
+          <p>
+            <lb ed="#V" n="20"/>Ad secundum dico, quod
+            appeti<lb ed="#V" n="21" break="no"/>tus liber tunc est rectus, quando
+            <lb ed="#V" n="22"/>est consonus regulae divinae, et
+            <lb ed="#V" n="23"/>huic appetitui naturali hujus
+            sup<lb ed="#V" n="24" break="no"/>positi, modo ita est, quod quando
+            <lb ed="#V" n="25"/>aliquid habet duas regulas, si, ut
+            <lb ed="#V" n="26"/>comparatur ad superiorem
+            regu<lb ed="#V" n="27" break="no"/>lam, est conforme ei, tunc
+            sim<lb ed="#V" n="28" break="no"/>pliciter est rectum; si, ut
+            compa<lb ed="#V" n="29" break="no"/>ratur ad inferiorem regulam, est
+            <lb ed="#V" n="30"/>ei conforme, est secundum quid
+            <lb ed="#V" n="31"/>rectum. Sed beatus non vult
+            habe<lb ed="#V" n="32" break="no"/>re majorem beatitudinem, quam
+            <lb ed="#V" n="33"/>Deus vult eum habere, et hoc dico
+            <lb ed="#V" n="34"/>actu elicito; ergo tunc simpliciter
+            <lb ed="#V" n="35"/>appetitus est rectus, non autem
+            <lb ed="#V" n="36"/>quantum inclinat naturalis
+            appeti<lb ed="#V" n="37" break="no"/>tus, et si conformaretur sibi in
+            <lb ed="#V" n="38"/>hoc, non divinae regulae, jam esset
+            <lb ed="#V" n="39"/>simpliciter malus, et secundum
+            <lb ed="#V" n="40"/>quid rectus.
+          </p>
+          <p>
+            <lb ed="#V" n="41"/>Et quando dicis, quod tunc
+            appe<lb ed="#V" n="42" break="no"/>titus naturalis esset malus, dico
+            <lb ed="#V" n="43"/>quod non; appetitus enim
+            natura<lb ed="#V" n="44" break="no"/>lis est ad hoc ad quod datus est,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>nec propter hoc malus est;
+            appe<lb ed="#V" n="46" break="no"/>titus enim naturalis tactivus non
+            <lb ed="#V" n="47"/>est propter hoc malus, quod non
+            <lb ed="#V" n="48"/>potest non delectari in tangibili
+            <lb ed="#V" n="49"/>convenienti, quia hoc non est in
+            <lb ed="#V" n="50"/>potestate sua; sed hoc in appetitu
+            <lb ed="#V" n="51"/>libero esset malum, quia est in
+            po<lb ed="#V" n="52" break="no"/>testate sua non delectari; et ideo
+            <lb ed="#V" n="53"/>appetitus naturalis in hoc non
+            <lb ed="#V" n="54"/>est rectus, quia appetit illud quod
+            <lb ed="#V" n="55"/>Deus vult ipsum appetere. Non
+            <lb ed="#V" n="56"/>enim potest absolute appetere,
+            <lb ed="#V" n="57"/>quod Deus vult, sicut liber, nec
+            <lb ed="#V" n="58"/>tamen appetit contra Deum, quia
+            <lb ed="#V" n="59"/>Deus ordinat eum sic appetere.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d50q6-p2"> -->
+          <p>
+            <lb ed="#V" n="55" type="fixed=554"/>SCHOLIUM.
+            <lb ed="#V" n="56"/>Secunda conclusio, inaequalitatem
+            beatitu<lb ed="#V" n="57" break="no"/>dinis non proyenire ex parte objecti, quia
+            <lb ed="#V" n="58"/>est infinitum. Tertia conclusio, non provenire
+            <lb ed="#V" n="59"/>ex parte potentiae passivae, quia haec est ad
+            <lb ed="#V" n="60"/>totam perfectionem eamdem in specie, in
+            <lb ed="#V" n="61"/>quocumque individuo; provenit tamen ex
+            <lb ed="#V" n="62"/>meritis ut ex dispositione praevia, ex 1.
+            <lb ed="#V" n="63"/>Cor. 13. 2. Cor.9. Matth. 13. et 19. et 25.
+            Quar<lb ed="#V" n="64" break="no"/>ta conclusio, provenire ex parte activi
+            ex<lb ed="#V" n="65" break="no"/>trinseci et intrinseci, quia Deus non coaget
+            <lb ed="#V" n="66"/>inaequaliter ad beatitudinem, nisi praehabeat
+            <lb ed="#V" n="67"/>in beato dispositionem vel concausam
+            in<lb ed="#V" n="68" break="no"/>aequalem; dispositio haec est 1.
+          </p>
+          <p>
+            <lb ed="#V" n="69"/>(m) Secundo est videndum, unde
+            <lb ed="#V" n="70"/>sit illa inaequalitas; oportet enim
+            <lb ed="#V" n="71"/>quod sit vel a potentia passiva vel
+            <lb ed="#V" n="72"/>activa, vel ab objecto beatitudinis,
+            <lb ed="#V" n="73"/>si potentia sit neutra; sed non
+            po<lb ed="#V" n="74" break="no"/>test esse ab objecto. Probatio,
+            ob<lb ed="#V" n="75" break="no"/>jectum beatitudinis non potest
+            <lb ed="#V" n="76"/>esse objectum beati, nisi ut
+            infini<lb ed="#V" n="77" break="no"/>tum in perfectione; infinitum ut
+            <lb ed="#V" n="78"/>infinitum in perfectione non potest
+            <lb ed="#V" n="79"/>esse inaequale; ergo ex parte
+            ob<lb ed="#V" n="80" break="no"/>jecti non potest esse inaequalitas.
+            <lb ed="#V" n="81"/>Major probata est in primo libro, et
+            <lb ed="#V" n="82"/>modo etiam probatur: Impossibile
+            <lb ed="#V" n="83"/>est potentiam quietari perfecte,
+            <lb ed="#V" n="84"/>nisi in optimo, in quo salvatur
+            ra<lb ed="#V" n="85" break="no"/>tio objecti sui. Sed totum ens est
+            <lb ed="#V" n="86"/>objectum voluntatis sub ratione
+            <lb ed="#V" n="87"/>boni, et intellectus sub ratione
+            ve<pb ed="#V" n="555"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>ri; ergo intellectus et voluntas non
+            <lb ed="#V" n="2"/>quietantur nisi ubi est objectum
+            su<lb ed="#V" n="3" break="no"/>um in summa sua perfectione; sed
+            <lb ed="#V" n="4"/>in nullo finito potest esse in
+            sum<lb ed="#V" n="5" break="no"/>ma sua perfectione; ergo non
+            <lb ed="#V" n="6"/>nisi in infinito. Minor probatur,
+            <lb ed="#V" n="7"/>enti ut ens non repugnat esse
+            <lb ed="#V" n="8"/>infinitum, ut probatum est libro
+            pri<lb ed="#V" n="9" break="no"/>mo; ergo, etc. Patet ergo quod ex
+            <lb ed="#V" n="10"/>parte objecti non potest esse ista
+            <lb ed="#V" n="11"/>inaequalitas, quia secundum totum
+            <lb ed="#V" n="12"/>secundu a rem et rationem
+            objici<lb ed="#V" n="13" break="no"/>tur objectum.
+          </p>
+          <p>
+            <lb ed="#V" n="14"/>Tertia conclusio est, quod non
+            <lb ed="#V" n="15"/>potest esse ista inaequalitas ex
+            par<lb ed="#V" n="16" break="no"/>te potentiae passivae absolutae,
+            cu<lb ed="#V" n="17" break="no"/>jus ratio est, quaecumque potentia
+            <lb ed="#V" n="18"/>passiva in specie est ad
+            perfecti<lb ed="#V" n="19" break="no"/>onem totam eamdem in specie
+            ab<lb ed="#V" n="20" break="no"/>solute, in quocumque individuo,
+            <lb ed="#V" n="21"/>propter dispositionem tamen, ut
+            <lb ed="#V" n="22"/>puta propter merita, ut disposita
+            <lb ed="#V" n="23"/>sic potest esse inaequalis respectu
+            <lb ed="#V" n="24"/>perfectionis in diversis individuis
+            <lb ed="#V" n="25"/>in eadem specie. Sed ista non
+            suf<lb ed="#V" n="26" break="no"/>ficit, quia non manet cum effectu.
+            <lb ed="#V" n="27"/>scilicet beatitudine, nec est causa
+            <lb ed="#V" n="28"/>principalis, sed est tantum
+            praevi<lb ed="#V" n="29" break="no"/>um ad effectum, non autem manet
+            <lb ed="#V" n="30"/>quando inest.
+            <lb ed="#V" n="31"/>Quarta conclusio est, quod est
+            <lb ed="#V" n="32"/>ex parte activi; activum autem
+            <lb ed="#V" n="33"/>potest poni vel intrinsecum vel
+            <lb ed="#V" n="34"/>extrinsecum; si ponatur
+            extrinse<lb ed="#V" n="35" break="no"/>cum, impossibile est quod ponatur
+            <lb ed="#V" n="36"/>inaequale in se, sed quia tantum
+            <lb ed="#V" n="37"/>inaequaliter agit; non autem potest
+            <lb ed="#V" n="38"/>inaequaliter agere, vel saltem non
+            <lb ed="#V" n="39"/>agit inaequaliter, nisi quia
+            disposi<lb ed="#V" n="40" break="no"/>tio praevia est inaequalis ( nisi forte
+            <lb ed="#V" n="41"/>diceres, quod agit inaequaliter sine
+            <lb ed="#V" n="42"/>dispositione, quia agit sicut vult,
+            <lb ed="#V" n="43"/>et non secundum justitiam
+            distri<lb ed="#V" n="44" break="no"/>butivam), tunc enim non est causa
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>quare unus minus, vel plus habeat
+            <lb ed="#V" n="46"/>quam alius, nisi quia vult uni dari
+            <lb ed="#V" n="47"/>plus quam alteri, et si esset agens
+            <lb ed="#V" n="48"/>necessarium, ut poneret
+            Philoso<lb ed="#V" n="49" break="no"/>phus, quod ageret necessitate
+            natu<lb ed="#V" n="50" break="no"/>rae, sequeretur quod causaret in
+            <lb ed="#V" n="51"/>quolibet, quantum posset capere
+            <lb ed="#V" n="52"/>natura illa.
+          </p>
+          <p>
+            <lb ed="#V" n="53"/>Si autem ponatur principium
+            <lb ed="#V" n="54"/>activum intrinsecum, aliqualiter
+            <lb ed="#V" n="55"/>videtur probabile, quod sit
+            chari<lb ed="#V" n="56" break="no"/>tas; non enim videtur poni propter
+            <lb ed="#V" n="57"/>aliud, nisi propter principium
+            ac<lb ed="#V" n="58" break="no"/>tivum; non enim videtur facere ad
+            <lb ed="#V" n="59"/>passionem, nec frustra ponitur;
+            er<lb ed="#V" n="60" break="no"/>go habet rationem principii
+            acti<lb ed="#V" n="61" break="no"/>vi. Sed non potest habere rationem
+            <lb ed="#V" n="62"/>principii activi, nisi potentia sit
+            <lb ed="#V" n="63"/>activa, quam habilitat ad agendum,
+            <lb ed="#V" n="64"/>quae potentia est voluntas. Si sic,
+            <lb ed="#V" n="65"/>tunc facile est videre quomodo est
+            <lb ed="#V" n="66"/>inaequalitas, non solum in actione,
+            <lb ed="#V" n="67"/>sed etiam in ipso principio activo
+            <lb ed="#V" n="68"/>est inaequalitas,ut patet; voluntas
+            <lb ed="#V" n="69"/>enim, et charitas in diversis
+            se<lb ed="#V" n="70" break="no"/>cundum perfectionem, possunt es
+            <lb ed="#V" n="71"/>se inaequales.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d50q6-p3"> -->
+          <p>
+            <lb ed="#V" n="38" type="fixed=556"/>SCHOLIUM.
+            <lb ed="#V" n="39"/>Quinta conclusio, voluntatem inaequalem,
+            <lb ed="#V" n="40"/>supposito quod sit activa, facere
+            inaequali<lb ed="#V" n="41" break="no"/>tatem effective physice, in beatitudine. Si
+            <lb ed="#V" n="42"/>tamen nobilior voluntas unius beati haberet
+            <lb ed="#V" n="43"/>aequalem gratiam cum ignobiliori voluntate
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="44"/>alterius, non exiret in actum secundum
+            to<lb ed="#V" n="45" break="no"/>tum conatum, Deo sic ordinante, ut gloria
+            <lb ed="#V" n="46"/>correspondeat meritis. Eamdem doctrinam
+            <lb ed="#V" n="47"/>tenet 3. dist. 13. quaest. 3. ad arg. de
+            in<lb ed="#V" n="48" break="no"/>aequalitate actuum supernaturalium ratione
+            <lb ed="#V" n="49"/>inaequalitatis potentiae naturalis. Et idem
+            do<lb ed="#V" n="50" break="no"/>cet Richard. dist. 49. art. 2. quaest. 8. Gabr.
+            <lb ed="#V" n="51"/>q. 2. art. 3. Durand. 3. dist. 14. quaest. 1.
+            <lb ed="#V" n="52"/>et Palud. ibi; pro opposito clamant
+            Thomi<lb ed="#V" n="53" break="no"/>stae 1. part. quaest. 12. art. 6. sed frustra.
+            <lb ed="#V" n="54"/>Sexta conclusio, quod beati de facto
+            inaequa<lb ed="#V" n="55" break="no"/>les sunt in gloria, ut probatum est scholio
+            <lb ed="#V" n="56"/>primo; non est tamen necesse nullos esse
+            <lb ed="#V" n="57"/>aequales in ea, quia verisimile est, parvulos
+            <lb ed="#V" n="58"/>et martyres innocentes aequales esse, ac
+            non<lb ed="#V" n="59" break="no"/>nullos adultos aequalia habere merita.
+          </p>
+          <p>
+            <lb ed="#V" n="60"/>(n) Quinta conclusio sequitur ex
+            <lb ed="#V" n="61"/>illa quarta, quia si voluntas est
+            <lb ed="#V" n="62"/>causa inaequalitatis, quia est
+            prin<lb ed="#V" n="63" break="no"/>cipium activum inaequale, tunc
+            <lb ed="#V" n="64"/>erit inaequalitas in beatitudine in
+            <lb ed="#V" n="65"/>naturalibus. Si autem inaequalitas
+            <lb ed="#V" n="66"/>sit per habitum charitatis, tunc
+            <lb ed="#V" n="67"/>videtur quod nobilior voluntas, si
+            <lb ed="#V" n="68"/>non habet aequalem habitum
+            cha<lb ed="#V" n="69" break="no"/>ritatis, non potest aequaliter
+            age<lb ed="#V" n="70" break="no"/>re, sicut ignobilior, quod videtur
+            <lb ed="#V" n="71"/>inconveniens.
+          </p>
+          <p>
+            <lb ed="#V" n="72"/>(o) Respondeo ad hoc, quod sive
+            <lb ed="#V" n="73"/>sit voluntas aequalis, charitas vero
+            <lb ed="#V" n="74"/>inaequalis, sive charitas aequalis,
+            <lb ed="#V" n="75"/>et voluntas inaequalis, potest
+            ta<lb ed="#V" n="76" break="no"/>men in aequalem actum; probo,
+            <lb ed="#V" n="77"/>in effectu potest esse perfectio
+            ali<lb ed="#V" n="78" break="no"/>qua, non solum a prima causa,
+            <lb ed="#V" n="79"/>sed etiam a secunda.
+          </p>
+          <p>
+            <lb ed="#V" n="80"/>Sed dices, si sit aequalis charitas,,
+            <lb ed="#V" n="81"/>ita quod habens voluntatem
+            igno<lb ed="#V" n="82" break="no"/>biliorem habet tantam charitatem,
+            <lb ed="#V" n="83"/>quantam habens nobiliorem
+            volun<lb ed="#V" n="84" break="no"/>tatem; et habens nobiliorem,
+            ha<lb ed="#V" n="85" break="no"/>bet simplicem charitatem, et est
+            <lb ed="#V" n="86"/>causa aequalis actus tunc, quantum
+            <lb ed="#V" n="87"/>est ex parte actus charitatis,
+            ta<lb ed="#V" n="88" break="no"/>men quantum est ex parte actus
+            <pb ed="#V" n="557"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>voluntatis, qui habet voluntatem
+            <lb ed="#V" n="2"/>nobiliorem, habet perfectiorem
+            ac<lb ed="#V" n="3" break="no"/>tum; et tunc cum charitas sit
+            ra<lb ed="#V" n="4" break="no"/>tio merendi, sequitur quod
+            in<lb ed="#V" n="5" break="no"/>aequaliter meriti erunt aequaliter
+            <lb ed="#V" n="6"/>beati.
+          </p>
+          <p>
+            <lb ed="#V" n="7"/>Respondeo, et dico quod est
+            aequa<lb ed="#V" n="8" break="no"/>litas quantitatis in illis in specie
+            <lb ed="#V" n="9"/>actus, tamen est inaequalitas
+            pro<lb ed="#V" n="10" break="no"/>portionis; inferior enim voluntas
+            <lb ed="#V" n="11"/>agit secundum totum suum
+            cona<lb ed="#V" n="12" break="no"/>tum, sed voluntas nobilior non, et
+            <lb ed="#V" n="13"/>sic secundum hoc non dabitur
+            tan<lb ed="#V" n="14" break="no"/>ta charitatis uni, sicut alteri
+            pro<lb ed="#V" n="15" break="no"/>portionaliter.
+          </p>
+          <p>
+            <lb ed="#V" n="16"/>Sed argues, ille qui habet
+            nobi<lb ed="#V" n="17" break="no"/>liorem voluntatem, et minorem
+            <lb ed="#V" n="18"/>s charitatem, non habet aequalem
+            be<lb ed="#V" n="19" break="no"/>atitudinem aequali actu. Dico quod
+            <lb ed="#V" n="20"/>primo sunt aequales in merendo
+            <lb ed="#V" n="21"/>aequalitate quantitatis, non
+            aequa<lb ed="#V" n="22" break="no"/>litate proportionis, quae attenditur
+            <lb ed="#V" n="23"/>ssecundum majorem conatum, vel
+            <lb ed="#V" n="24"/>minorem; ideo charitas
+            inaequali<lb ed="#V" n="25" break="no"/>ter inaequalitate proportionis
+            tri<lb ed="#V" n="26" break="no"/>buitur eis, beatitudo tamen
+            aequa<lb ed="#V" n="27" break="no"/>liter aequalitate quantitatis.
+          </p>
+          <p>
+            <lb ed="#V" n="28"/>(p) Ex hoc patet sextum, quod
+            <lb ed="#V" n="29"/>scilicet inaequaliter fruuntur Deo.
+            <lb ed="#V" n="30"/>Sed quid, voluntne aequaliter
+            bo<lb ed="#V" n="31" break="no"/>num suum, et alteri bono bonum
+            <lb ed="#V" n="32"/>suum majus, vel inaequaliter?
+            Vi<lb ed="#V" n="33" break="no"/>detur quod non, quia majus
+            bo<lb ed="#V" n="34" break="no"/>num est magis diligendum; sed
+            bo<lb ed="#V" n="35" break="no"/>num beatissimae Virginis est majus
+            <lb ed="#V" n="36"/>quam bonum Lini; ergo beatus
+            <lb ed="#V" n="37"/>Linus magis diligit bonum Beatae
+            <lb ed="#V" n="38"/>Virginis, quam suum sibi; et si
+            <lb ed="#V" n="39"/>sic, cum dilectionem sequatur
+            gau<lb ed="#V" n="40" break="no"/>dium, tunc tantum gaudebit, imo
+            <lb ed="#V" n="41"/>plus de bono alterius, qui habet
+            <lb ed="#V" n="42"/>majus gaudium quam de bono suo,
+            <lb ed="#V" n="43"/>quod est minus.
+          </p>
+          <p>
+            <lb ed="#V" n="44"/>Respondeo, unusquisque citra
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>Deum plus diligit se quam alium,
+            <lb ed="#V" n="46"/>et ad hoc tenetur, quia post Deum
+            <lb ed="#V" n="47"/>minus tenetur odire se, quam
+            ali<lb ed="#V" n="48" break="no"/>quem alium, et magis diligere
+            <lb ed="#V" n="49"/>se, quam aliquem alium, quia si
+            <lb ed="#V" n="50"/>non, tunc non teneretur magis
+            vi<lb ed="#V" n="51" break="no"/>tare peccatum in se, quam in
+            qua<lb ed="#V" n="52" break="no"/>cumque creatura, quod est
+            fal<lb ed="#V" n="53" break="no"/>sum; in nullo enim tantum debet
+            <lb ed="#V" n="54"/>fugere peccatum, sicut in se, et
+            <lb ed="#V" n="55"/>pro tanto magis tenetur sibi
+            dili<lb ed="#V" n="56" break="no"/>gere Deum amore commodi, quam
+            <lb ed="#V" n="57"/>Beatae Virgini.
+          </p>
+          <p>
+            <lb ed="#V" n="58"/>Ad rationem, quando dicitur
+            <lb ed="#V" n="59"/>majus bonum, etc. dico quod
+            ve<lb ed="#V" n="60" break="no"/>rum est, caeteris paribus; hic
+            au<lb ed="#V" n="61" break="no"/>tem non sunt caetera paria;
+            exclu<lb ed="#V" n="62" break="no"/>so igitur simpliciter optimo,
+            fal<lb ed="#V" n="63" break="no"/>sum est, quod omne melius sit
+            ma<lb ed="#V" n="64" break="no"/>gis diligendum, nisi sit aequalis
+            <lb ed="#V" n="65"/>unitas utriusque boni ad
+            diligen<lb ed="#V" n="66" break="no"/>tem, quia dilectio fundatur in
+            uni<lb ed="#V" n="67" break="no"/>tate.
+          </p>
+          <p>
+            <lb ed="#V" n="68"/>Aliter potest dici, quod verum
+            <lb ed="#V" n="69"/>est extensive, non intensive; vult
+            <lb ed="#V" n="70"/>enim Beatae Virgini bonum, quod
+            <lb ed="#V" n="71"/>est majus, et sibi suum, tamen
+            <lb ed="#V" n="72"/>vult bonum suum intensiori actu,
+            <lb ed="#V" n="73"/>quam Beatae Virgini suum bonum,
+            <lb ed="#V" n="74"/>licet plura bona velit Beatae
+            Vir<lb ed="#V" n="75" break="no"/>gini.
+          </p>
+          <p>
+            <lb ed="#V" n="76"/>Sed quid, eritne adhuc propter
+            <lb ed="#V" n="77"/>hoc aequale gaudium, quia vult illi
+            <lb ed="#V" n="78"/>bonum suum, quod est majus et
+            <lb ed="#V" n="79"/>sibi ipsi bonum suum, quod est
+            mi<lb ed="#V" n="80" break="no"/>nus? Videtur quod sic, quia vult
+            <lb ed="#V" n="81"/>illi majus bonum quam sibi, quod
+            <lb ed="#V" n="82"/>bonum etiam evenit sibi; sed de hoc
+            <lb ed="#V" n="83"/>generatur gaudium; ergo habebit
+            <lb ed="#V" n="84"/>gaudium tantum, vel plus de bono
+            <lb ed="#V" n="85"/>alterius, sicut de suo.
+          </p>
+          <p>
+            <lb ed="#V" n="86"/>Respondeo, gaudium majus non
+            <lb ed="#V" n="87"/>semper provenit ex volito magis
+            <lb ed="#V" n="88"/>bono, sed ex intensiori actu
+            vo<pb ed="#V" n="558"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>lendi bonum volitum; sed bonum
+            <lb ed="#V" n="2"/>suum est magis volitum intense,
+            <lb ed="#V" n="3"/>quam alterius; ergo ex hoc majus
+            <lb ed="#V" n="4"/>gaudium est.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d50q6-p4"> -->
+          <p>
+            <lb ed="#V" n="9" type="fixed=567"/>SCHOLIUM.
+            <lb ed="#V" n="10"/>Per denarium in parabola Matthaei, Patres
+            <lb ed="#V" n="11"/>intelligunt vitam aeternam. Greg. hom. 16.
+            <lb ed="#V" n="12"/>in Ezechiel. Nazianz. orat. 40. August.
+            ho<lb ed="#V" n="13" break="no"/>mil. 59. de verbo dom. Hieron. 2. contra
+            <lb ed="#V" n="14"/>Jovin. et in illum locum, ubi etiam
+            An<lb ed="#V" n="15" break="no"/>selm. Chrysost. et alii. Doctor etiam exponit
+            <lb ed="#V" n="16"/>de essentia divina, sed in idem fere
+            inci<lb ed="#V" n="17" break="no"/>dit.
+          </p>
+          <p>
+            <lb ed="#V" n="18"/>(q) Ad argumenta illius
+            quaesti<lb ed="#V" n="19" break="no"/>onis. Ad primum, quod singuli
+            re<lb ed="#V" n="20" break="no"/>cipiunt singulos denarios, etc.
+            Di<lb ed="#V" n="21" break="no"/>citur quod verum est, et
+            exponi<lb ed="#V" n="22" break="no"/>tur de vita aeterna, quam quilibet
+            <lb ed="#V" n="23"/>accipit. Aliter expono, quod ille
+            <lb ed="#V" n="24"/>denarius est essentia divina, quae
+            <lb ed="#V" n="25"/>est idem objectum omnium
+            beato<lb ed="#V" n="26" break="no"/>rum, et datur omnibus sub
+            aequa<lb ed="#V" n="27" break="no"/>li ratione, quia infinita ex parte
+            <lb ed="#V" n="28"/>objecti.
+          </p>
+          <p>
+            <lb ed="#V" n="29"/>Ad secundum dico, quod omnes
+            <lb ed="#V" n="30"/>illae propositiones sunt truncatae;
+            <lb ed="#V" n="31"/>adverbium enim, nisi habeat
+            parti<lb ed="#V" n="32" break="no"/>cipium vel verbum, semper est
+            <lb ed="#V" n="33"/>truncata locutio, sive incongrua:
+            <lb ed="#V" n="34"/>sic est propositio haec in proposito,
+            <lb ed="#V" n="35"/>qui intelligit, rem aliter quam est,
+            <lb ed="#V" n="36"/>fallitur. Haec enim alietas potest
+            <lb ed="#V" n="37"/>poni circa actum intelligendi, et
+            <lb ed="#V" n="38"/>sic est propositio falsa, quia
+            <lb ed="#V" n="39"/>omnis intellectus creatus
+            intel<lb ed="#V" n="40" break="no"/>ligit rem aliter quam est, quia
+            <lb ed="#V" n="41"/>intellectio est accidens, intellectus
+            <lb ed="#V" n="42"/>autem potest esse aliqua
+            substan<cb ed="#V" n="b"/><lb ed="#V" n="43" break="no"/>tia, et sic non est propositio
+            Au<lb ed="#V" n="44" break="no"/>gustini alia ab illa Philosophi, ab
+            <lb ed="#V" n="45"/>eo quod res est, vel non est, oratio dicitur
+            <lb ed="#V" n="46"/>vera vel falsa. Potest etiam poni
+            <lb ed="#V" n="47"/>circa rem, quae intelligitur, et sic,
+            <lb ed="#V" n="48"/>intellectus, si rem aliter intelligit
+            <lb ed="#V" n="49"/>quam sit, falsum intelligit, et
+            se<lb ed="#V" n="50" break="no"/>cundum hoc illud aliter dicit
+            mo<lb ed="#V" n="51" break="no"/>dum circa objectum, et sic, qui
+            <lb ed="#V" n="52"/>intelligit rem aliter quam est,
+            fal<lb ed="#V" n="53" break="no"/>litur, quia non intelligit eam;
+            ni<lb ed="#V" n="54" break="no"/>hilominus tamen unus potest
+            ha<lb ed="#V" n="55" break="no"/>bere clariorem modum intelligendi
+            <lb ed="#V" n="56"/>alio.
+          </p>
+          <p>
+            <lb ed="#V" n="57"/>Ad aliud dico, quod non est par
+            <lb ed="#V" n="58"/>fruitio, nec par gaudium, nec etiam
+            <lb ed="#V" n="59"/>par amor concupiscentiae, nec
+            <lb ed="#V" n="60"/>etiam par delectatio sequens, licet
+            <lb ed="#V" n="61"/>enim sit de paribus, non tamen
+            <lb ed="#V" n="62"/>pari affectu. Inteliigit ergo
+            Augu<lb ed="#V" n="63" break="no"/>stinus extensive, non intensive,
+            <lb ed="#V" n="64"/>quia quilibet gaudebit de quolibet
+            <lb ed="#V" n="65"/>et de omnibus, de quibus alius
+            <lb ed="#V" n="66"/>gaudebit.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d50q6-p5"> -->
+          <p>
+            <lb ed="#V" n="74" type="fixed=567"/>SCHOLIUM.
+            <lb ed="#V" n="75"/>Resolvit tertiam quaest. quae est ultima
+            to<lb ed="#V" n="76" break="no"/>tius operis. Si teneatur dotes esse qualitates,
+            <lb ed="#V" n="77"/>erunt inaequales secundum diversitatem
+            me<lb ed="#V" n="78" break="no"/>ritorum. Si vero impassibilitas sit
+            extrinse<lb ed="#V" n="79" break="no"/>ca Dei manutenentia, ut dictum est d.
+            prae<lb ed="#V" n="80" break="no"/>ced. quaest. 13. et subtilitas sit Dei decretum
+            <lb ed="#V" n="81"/>de non concurrendo ad resistendum
+            penetra<lb ed="#V" n="82" break="no"/>tioni, vel de ea facienda ad nutum beati,
+            <lb ed="#V" n="83"/>ut dictum est ibi quaest. 16. nulla erit in eis
+            <lb ed="#V" n="84"/>inaequalitas. Similiter resolvit de aequalitate
+            <pb ed="#V" n="568"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>agilitatis, juxta varias opin. de ea ibi q. 14.
+            <lb ed="#V" n="2"/>de claritate vero, si est tantum perfectus
+            <lb ed="#V" n="3"/>color, de quo ibi constat posse esse
+            inaequa<lb ed="#V" n="4" break="no"/>lem.
+          </p>
+          <p>
+            <lb ed="#V" n="5"/>(x) Ad tertiam quaestionem,
+            di<lb ed="#V" n="6" break="no"/>cendum quod si illae beatitudines
+            <lb ed="#V" n="7"/>corporis ponuntur qualitates
+            ab<lb ed="#V" n="8" break="no"/>solutae positivae, tunc erunt
+            inae<lb ed="#V" n="9" break="no"/>quales, quia sive perficiant corpus
+            <lb ed="#V" n="10"/>suum ex redundantia animae ad
+            <lb ed="#V" n="11"/>corpus, sive a Deo immediate,
+            dif<lb ed="#V" n="12" break="no"/>ferunt tamen secundum merita,
+            <lb ed="#V" n="13"/>quia merita sunt inaequalia, etiam
+            <lb ed="#V" n="14"/>cum beatitudo animarum sit
+            inae<lb ed="#V" n="15" break="no"/>qualis, illae qualitates erunt
+            inae<lb ed="#V" n="16" break="no"/>quales. Si autem impassibilitas est
+            <lb ed="#V" n="17"/>solum possibilitas non patiendi
+            <lb ed="#V" n="18"/>corpus passione abjiciente a
+            sub<lb ed="#V" n="19" break="no"/>stantia, Deo praeservante, ut visum
+            <lb ed="#V" n="20"/>est prius, et si subtilitas est
+            <lb ed="#V" n="21"/>possibilitas essendi corpus cum
+            <lb ed="#V" n="22"/>alio corpore pro libito
+            volunta<lb ed="#V" n="23" break="no"/>tis animae suae, tunc videtur
+            <lb ed="#V" n="24"/>de his, quod non recipiunt
+            in<lb ed="#V" n="25" break="no"/>aequalitatem, quia omnia corpora
+            <lb ed="#V" n="26"/>aequaliter praeservantur a
+            passi<lb ed="#V" n="27" break="no"/>one, et aequaliter possunt esse cum
+            <lb ed="#V" n="28"/>alio corpore; agilitas vero, si est
+            <lb ed="#V" n="29"/>in corporibus qualitas
+            proporti<lb ed="#V" n="30" break="no"/>onis, posset esse aequalis. Si vero
+            <lb ed="#V" n="31"/>est secundum quod
+            proportionan<lb ed="#V" n="32" break="no"/>tur virtuti animae, et illa potest
+            <lb ed="#V" n="33"/>esse inaequalis, sic et agilitas. De
+            <lb ed="#V" n="34"/>claritate, si est tantum perfectus
+            <lb ed="#V" n="35"/>color in gradu perfecto, non est
+            <lb ed="#V" n="36"/>dubium quin sit inaequalis.
+          </p>
+          <p>
+            <lb ed="#V" n="37"/>Ad argumenta. Duo prima
+            pro<lb ed="#V" n="38" break="no"/>cedunt de impassibilitate et
+            subti<lb ed="#V" n="39" break="no"/>litatc; patet in corpore quaestionis
+            <lb ed="#V" n="40"/>quid sit dicendum. Ad illud in
+            op<lb ed="#V" n="41" break="no"/>positum de claritate, concedo.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d50q6-p6"> -->
+          <p>
+            <lb ed="#V" n="79" type="fixed=568"/>SCHOLIUM.
+            <lb ed="#V" n="80"/>Ad primam quaest. quae est quarta hujus,
+            <lb ed="#V" n="81"/>declarat in quo sit inaequalitas poenae damni
+            <lb ed="#V" n="82"/>et videtur totam inaequalitatem ejus reduce,
+            <pb ed="#V" n="569"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>re ad nolitionem, atque adeo ipsam
+            priva<lb ed="#V" n="2" break="no"/>tionem meram ubique esse aequalem. Ita
+            se<lb ed="#V" n="3" break="no"/>quuntur Doctorem Angles, q. de sacr. poen.
+            <lb ed="#V" n="4"/>art. ult. diff. 2. Bassol. hic q. 2. a. 2.
+            Praete<lb ed="#V" n="5" break="no"/>rea Doctor 2. d. 37. q. 1. S Ex ista n. 9. et
+            <lb ed="#V" n="6"/>quodl. 18. art. 3. S Ex isto, docet privationes
+            <lb ed="#V" n="7"/>secundum se non dicere magis, nec minus,
+            <lb ed="#V" n="8"/>sed eas esse pejores, quae melioribus
+            recti<lb ed="#V" n="9" break="no"/>tu dinibus specie, vel numero privant; et
+            <lb ed="#V" n="10"/>infra ad secundum, ait privationem
+            es<lb ed="#V" n="11" break="no"/>se majorem, quia privat majori bono, vel
+            <lb ed="#V" n="12"/>quia magis involuntaria; et hanc opin. de
+            <lb ed="#V" n="13"/>aequalitate poenae damni in omnibus tenent
+            <lb ed="#V" n="14"/>Alens. 3. p. q. 57. m. 3. D. Bonavent.4. d. 22.
+            <lb ed="#V" n="15"/>a. 1. q. 2. Vasq. 1. 2. d. 100. c. 3. et 5. citans
+            <lb ed="#V" n="16"/>Durand. et Palud. Assor. tom 1. lib. 4. c. 24.
+            <lb ed="#V" n="17"/>Oppositum tenent Richardus hic art. 5. q.
+            <lb ed="#V" n="18"/>ult. Soto q. unic. art. 4. Suar. tom. 4. disp. 12
+            <lb ed="#V" n="19"/>sect. 2. ubi modum explicandi Doctoris
+            <lb ed="#V" n="20"/>sequitur, sed tacito ejus nomine.
+          </p>
+          <p>
+            <lb ed="#V" n="21"/>(s) Ad primam quaestionem
+            <lb ed="#V" n="22"/>concedo, quod damnati erunt
+            misc<lb ed="#V" n="23" break="no"/>ri, miseria scilicet animae et
+            cor<lb ed="#V" n="24" break="no"/>poris, et ita est duplex miseria,
+            <lb ed="#V" n="25"/>sicut et beati sunt beati in anima
+            <lb ed="#V" n="26"/>et corpore; miseria autem animae
+            <lb ed="#V" n="27"/>est in duplici poena, scilicet damni
+            <lb ed="#V" n="28"/>et vermis. De poena damni dico,
+            <lb ed="#V" n="29"/>quod non est solum carentia, quia
+            <lb ed="#V" n="30"/>sic non esset poena, sed carentia est
+            <lb ed="#V" n="31"/>boni apti nati inesse, et
+            convenien<lb ed="#V" n="32" break="no"/>tis, quod debet inesse, non boni
+            <lb ed="#V" n="33"/>remoti, sed propinqui, nec cum
+            <lb ed="#V" n="34"/>hoc toto esset illa carentia poena,
+            <lb ed="#V" n="35"/>nisi esset nolita, et idco oportet
+            <lb ed="#V" n="36"/>quod sit carentia involuntaria; sic
+            <lb ed="#V" n="37"/>autem potest dupliciter intelligi
+            <lb ed="#V" n="38"/>inaequalis. Primo, quia esset
+            ca<lb ed="#V" n="39" break="no"/>rentia inaequalis, quia inaequaliter
+            <lb ed="#V" n="40"/>ordinati ad beatitudinem, quia
+            <lb ed="#V" n="41"/>ad alios et alios gradus
+            beatitudi<lb ed="#V" n="42" break="no"/>nis. Similiter potest esse
+            inaequa<lb ed="#V" n="43" break="no"/>litas involuntaria, quia magis
+            <lb ed="#V" n="44"/>vellet minus bonum suum quam
+            <lb ed="#V" n="45"/>alterius.
+          </p>
+          <p>
+            <lb ed="#V" n="46"/>Sed qualiter erit illa inaequalitas
+            <lb ed="#V" n="47"/>in illis? Dico quod erit secundum
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="48"/>inaequalitatem culpae, quia qui
+            ha<lb ed="#V" n="49" break="no"/>bet graviorem, habebit carentiam,
+            <lb ed="#V" n="50"/>majoris boni, ad quod fuit
+            ordina<lb ed="#V" n="51" break="no"/>tus. Probo, quanto actus elicitur
+            <lb ed="#V" n="52"/>cum majori conatu, tanto debet
+            <lb ed="#V" n="53"/>habere majorem rectitudinem, et
+            <lb ed="#V" n="54"/>per consequens, tanto magis debet
+            <lb ed="#V" n="55"/>ordinari ad majus praemium; qui
+            <lb ed="#V" n="56"/>ergo gravius peccat, privat se
+            <lb ed="#V" n="57"/>majori bonc; et sic patet
+            secun<lb ed="#V" n="58" break="no"/>dum primum modum quomodo
+            po<lb ed="#V" n="59" break="no"/>test poena damni essc inaequalis.
+          </p>
+          <p>
+            <lb ed="#V" n="60"/>Ex alia parte, quanto aliquis
+            <lb ed="#V" n="61"/>gravius peccat, tanto magis
+            dimit<lb ed="#V" n="62" break="no"/>titur affectioni commodi, et
+            priva<lb ed="#V" n="63" break="no"/>tur affectione justitiae, et per
+            con<lb ed="#V" n="64" break="no"/>sequens erit magis nolens
+            pecca<lb ed="#V" n="65" break="no"/>tum suum, inquantum est causa
+            <lb ed="#V" n="66"/>poenae; ergo magis habebit de
+            noli<lb ed="#V" n="67" break="no"/>tione quam alius, quanto magis
+            <lb ed="#V" n="68"/>habet de affectione commodi.
+          </p>
+          <p>
+            <lb ed="#V" n="69"/>(t) Contra, si ille qui fuit major
+            <lb ed="#V" n="70"/>peccator, magis diligit se, et sic
+            <lb ed="#V" n="71"/>magis tristatur de damno suo,
+            ta<lb ed="#V" n="72" break="no"/>men quantum diligit se, magis
+            de<lb ed="#V" n="73" break="no"/>lectabitu r probo, si talis magis
+            <lb ed="#V" n="74"/>diligit se, et voluntaric operatur
+            <lb ed="#V" n="75"/>circa se ut objectum dilectionis
+            <lb ed="#V" n="76"/>suae, ut puta circa objectum
+            be<lb ed="#V" n="77" break="no"/>atissimum, et sic tunc aliqua
+            de<lb ed="#V" n="78" break="no"/>lectatio erit in eis, quod est
+            incon<lb ed="#V" n="79" break="no"/>veniens.
+          </p>
+          <p>
+            <lb ed="#V" n="80"/>Respondeo, si quilibet damnatus,
+            <lb ed="#V" n="81"/>et praecise Daemones possent stare
+            <lb ed="#V" n="82"/>in quieta cognitione sua, et
+            dilecti<lb ed="#V" n="83" break="no"/>onc sua perpetua, et non
+            determi<lb ed="#V" n="84" break="no"/>narentur ab hoc vel ab alio,
+            repu<lb ed="#V" n="85" break="no"/>tarent se beatos beatitudine
+            natu<lb ed="#V" n="86" break="no"/>rali, et idco in cognitione sua
+            <lb ed="#V" n="87"/>maxime quiescerent; et credo quod
+            <lb ed="#V" n="88"/>quia ab hoc impediuntur, quod est
+            <lb ed="#V" n="89"/>eis maxima poena.
+          </p>
+          <p>
+            <lb ed="#V" n="90"/>Et tunc ad rationem dicendum,
+            <lb ed="#V" n="91"/>quod nullus potest stare absolute
+            <pb ed="#V" n="570"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>in cognitione et consideratione
+            <lb ed="#V" n="2"/>sua, sed tantum, ut est terminus
+            <lb ed="#V" n="3"/>cujusdam alterius, scilicet inferni,
+            <lb ed="#V" n="4"/>vel carentiae, vel privationis tanti
+            <lb ed="#V" n="5"/>boni commodi; sicut infirmus
+            con<lb ed="#V" n="6" break="no"/>siderat se, non tamen delectatur,
+            <lb ed="#V" n="7"/>quia non considerat se, nisi ut est
+            <lb ed="#V" n="8"/>terminus concupitae sanitatis, qua
+            <lb ed="#V" n="9"/>caret, quam si obtinere non
+            po<lb ed="#V" n="10" break="no"/>test, amplius tristatur et
+            puni<lb ed="#V" n="11" break="no"/>tur; et tunc dico, quod diligens se
+            <lb ed="#V" n="12"/>ad habendum aliquid, quod
+            nun<lb ed="#V" n="13" break="no"/>quam poterit habere, illa dilectio
+            <lb ed="#V" n="14"/>est causa moeroris et tristitiae.
+          </p>
+        <!-- </div>
+    <div alias="scotus-d50q6-p7"> -->
+          <p>
+            <lb ed="#V" n="10" type="fixed=572"/>SCHOLIUM.
+            <lb ed="#V" n="11"/>Poenam vermis, quae est tristitia de
+            pecca<lb ed="#V" n="12" break="no"/>tis non p. opter Deum, sed quatenus privant
+            <lb ed="#V" n="13"/>bono commodi, docet esse inaequalem,
+            secun<lb ed="#V" n="14" break="no"/>dum inaequalitatem culpae, de quo supra
+            <lb ed="#V" n="15"/>d. 44. q. 2. Item, poenam ignis esse
+            inaequa<lb ed="#V" n="16" break="no"/>lem, quatenus inaequaliter immutabit
+            poten<lb ed="#V" n="17" break="no"/>tias. Et ponit tres modos dicendi, an ista
+            inae<lb ed="#V" n="18" break="no"/>qualitas erit per inaequalitatem ignis
+            com<lb ed="#V" n="19" break="no"/>burentis in se, vel in applicatione, vel sine
+            <lb ed="#V" n="20"/>illa inaequalitate per alium modum possibi:
+            <lb ed="#V" n="21"/>lem ei, cujus judicia sunt abyssus multa,
+            <lb ed="#V" n="22"/>cui sit laus, honor, virtus, gloria, per
+            infi<lb ed="#V" n="23" break="no"/>nita saeculorum saecula. Amen.
+          </p>
+          <p>
+            <lb ed="#V" n="24"/>(u) De poena vermis dico, sicut
+            <lb ed="#V" n="25"/>de prima. Illa enim poena vermis
+            <lb ed="#V" n="26"/>s erit quaedam tristitia, et continuus
+            <lb ed="#V" n="27"/>remorsus conscientiae, et ista
+            poe<lb ed="#V" n="28" break="no"/>na erit eis inaequalis, sicut
+            tristi<lb ed="#V" n="29" break="no"/>tia, qua nollent isti mala pati, est
+            <lb ed="#V" n="30"/>eis inaequalis, ut dictum est supra,
+            <lb ed="#V" n="31"/>inquantum tollit ab eis bonum
+            <lb ed="#V" n="32"/>commodi; sic enim habebunt
+            re<lb ed="#V" n="33" break="no"/>morsum majorem vel minorem,
+            <lb ed="#V" n="34"/>sccundum proportionem culpae,
+            <lb ed="#V" n="35"/>sicut de peccato graviori infligitur
+            <lb ed="#V" n="36"/>eis gravior poena.
+          </p>
+          <p>
+            <lb ed="#V" n="37"/>Si quaeras vel dicas, quod isti
+            <lb ed="#V" n="38"/>sunt aequales in naturalibus,
+            inae<lb ed="#V" n="39" break="no"/>quales tamen in conatu
+            volunta<lb ed="#V" n="40" break="no"/>tis ad peccandum; ergo debetur
+            <lb ed="#V" n="41"/>eis poena aequalis propter
+            aequali<lb ed="#V" n="42" break="no"/>tatem in naturalibus, vel
+            inaequa<lb ed="#V" n="43" break="no"/>lis propter majorem vel minorem
+            <lb ed="#V" n="44"/>conatum. Respondeo, sicut supra
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>de beatitudine, non enim est
+            aequa<lb ed="#V" n="46" break="no"/>lis beatitudo propter aequalitatem
+            <lb ed="#V" n="47"/>in naturalibus, nec propter
+            aequa<lb ed="#V" n="48" break="no"/>litatem boni actus eliciti; sed
+            se<lb ed="#V" n="49" break="no"/>cundum quod est major conatus in
+            <lb ed="#V" n="50"/>hoc quam in illo, secundum hoc
+            <lb ed="#V" n="51"/>est majus meritum, et majus
+            prae<lb ed="#V" n="52" break="no"/>mium; sic in proposito, licet
+            vo<lb ed="#V" n="53" break="no"/>luntates peccantium, et actus
+            fu<lb ed="#V" n="54" break="no"/>erint aequales, non tamen aeque
+            <lb ed="#V" n="55"/>fuit in eis culpa, quia non fuit in
+            <lb ed="#V" n="56"/>quolibet aequalis conatus in
+            pec<lb ed="#V" n="57" break="no"/>cato; quare nec aequalis poena in
+            <lb ed="#V" n="58"/>puniendo.
+          </p>
+          <p>
+            <lb ed="#V" n="59"/>(v) De poena ignis dico, quod
+            <lb ed="#V" n="60"/>ignis immutat sensum, et
+            median<lb ed="#V" n="61" break="no"/>te sensu immutat appetitum
+            sen<lb ed="#V" n="62" break="no"/>sitivum, et mediante illo,
+            volunta<lb ed="#V" n="63" break="no"/>tem, et inaequaliter objectum
+            po<lb ed="#V" n="64" break="no"/>test esse. Sed eritne ista
+            inaequa<lb ed="#V" n="65" break="no"/>lis immutatio, vel quia ignis in se
+            <lb ed="#V" n="66"/>est inaequalis, vel quia corpora
+            <lb ed="#V" n="67"/>inaequaliter immutantur ab eis?
+          </p>
+          <p>
+            <lb ed="#V" n="68"/>Dico quod si illa corpora
+            dam<lb ed="#V" n="69" break="no"/>nata erunt sine motu locali, ita
+            <lb ed="#V" n="70"/>quod non movebuntur de loco ad
+            <lb ed="#V" n="71"/>locum, tunc afflictiva erunt
+            inae<lb ed="#V" n="72" break="no"/>qualia; et hoc est rationabilius,
+            <lb ed="#V" n="73"/>quod sint inaequalia quam
+            aequa<lb ed="#V" n="74" break="no"/>lia, quia sic sunt pauciora
+            mi<lb ed="#V" n="75" break="no"/>racula in damnatione eorum. Si
+            <lb ed="#V" n="76"/>enim est afflictivum aequale, et
+            <lb ed="#V" n="77"/>tamen unus minus, et alius magis
+            <lb ed="#V" n="78"/>punitur, erit ibi perpetuum
+            mira<lb ed="#V" n="79" break="no"/>culum. Si autem sunt mobiles, et
+            <lb ed="#V" n="80"/>transferantur de loco ad locum,
+            <lb ed="#V" n="81"/>tunc possunt transferri de uno
+            <lb ed="#V" n="82"/>afflictivo in uno gradu, ad aliud
+            <lb ed="#V" n="83"/>afflictivum in alio gradu,
+            secun<lb ed="#V" n="84" break="no"/>dum illud Job: Transibunt ab aquis
+            <lb ed="#V" n="85"/>nivium ad calorem nimium. Vel si erit
+            <lb ed="#V" n="86"/>aequale, potest dici quod est eis
+            <lb ed="#V" n="87"/>intrinsecum afflictivum eorum,
+            <lb ed="#V" n="88"/>vel perpetuo contiguativum, sicut
+            <pb ed="#V" n="573"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>concederetur modo de Daemonibus,
+            <lb ed="#V" n="2"/>et ad hoc videtur esse
+            Augusti<lb ed="#V" n="3" break="no"/>nus 12. De Civit. Dei cap. 16. in
+            qua<lb ed="#V" n="4" break="no"/>dam auctoritate, quae sic incipit:
+            <lb ed="#V" n="5"/>Non est negandum.
+          </p>
+          <p>
+            <lb ed="#V" n="6"/>(X) Ad argumentum primum
+            di<lb ed="#V" n="7" break="no"/>co, quod ratione habitus, quem
+            <lb ed="#V" n="8"/>negat privatio, non est major una
+            <lb ed="#V" n="9"/>quam alia, sed ratione malitiae et
+            <lb ed="#V" n="10"/>majoris boni, quod privat, potest
+            <lb ed="#V" n="11"/>esse major, quia privatio majoris
+            <lb ed="#V" n="12"/>boni; vel potest dici quod est
+            <lb ed="#V" n="13"/>inaequalis inquantum
+            involunta<lb ed="#V" n="14" break="no"/>ria.
+          </p>
+          <p>
+            <lb ed="#V" n="15"/>(y) Ad secundum patet
+            respon<lb ed="#V" n="16" break="no"/>sio. (z) Ad tertium dico, quod
+            se<lb ed="#V" n="17" break="no"/>cundum justitiam distributivam
+            <lb ed="#V" n="18"/>non potest dari pejori plus de bono,
+            <lb ed="#V" n="19"/>si est simpliciter magis bonum et
+            <lb ed="#V" n="20"/>huic; si vero non est bonum huic,
+            <lb ed="#V" n="21"/>est tamen bonum simpliciter,
+            ma<lb ed="#V" n="22" break="no"/>jus bene potest dari; et sic est de
+            <lb ed="#V" n="23"/>poena in proposito.
+          </p>
+          <p>
+            <lb ed="#V" n="24"/>Ad ultimum, nego quod excessus
+            <lb ed="#V" n="25"/>in poena debeat attendi secundum
+            <lb ed="#V" n="26"/>quantitatem extensionis, quia per
+            <lb ed="#V" n="27"/>se culpae correspondet poena
+            se<lb ed="#V" n="28" break="no"/>cundum intensionem, secundum
+            <lb ed="#V" n="29"/>justitiam distributivam. Unde
+            (sic<lb ed="#V" n="30" break="no"/>ut dixi supra) Deus posset
+            infli<lb ed="#V" n="31" break="no"/>gere poenam aliquam, quae si
+            <lb ed="#V" n="32"/>tantum per momentum durarct,
+            <lb ed="#V" n="33"/>sufficienter tamen puniret
+            pecca<lb ed="#V" n="34" break="no"/>tum; nec forte duratic poenae cadit
+            <lb ed="#V" n="35"/>sub demerito, sicut nec duratio
+            <lb ed="#V" n="36"/>beatitudinis sub merito, sed
+            rati<lb ed="#V" n="37" break="no"/>one liberalitatis.
+          </p>
+          <p>
+            <lb ed="#V" n="38"/>Et quando dicis, quod gravitas
+            <lb ed="#V" n="39"/>accipit extensionem in peccato,
+            <lb ed="#V" n="40"/>quia secundum infinitatem, et
+            se<lb ed="#V" n="41" break="no"/>cundum hoc correspondet poena,
+            <lb ed="#V" n="42"/>dico quod peccatum non dicitur
+            <lb ed="#V" n="43"/>infinitum, nisi quia separat ab
+            in<lb ed="#V" n="44" break="no"/>finito, non quod formaliter malitia
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>sit infinita, quia talis, et tanta
+            <lb ed="#V" n="46"/>est, quanta est bonitas, quae nata
+            <lb ed="#V" n="47"/>fuisset inesse illi actui, si
+            secun<lb ed="#V" n="48" break="no"/>cundum debitas circumstantias
+            <lb ed="#V" n="49"/>fuisset elicitus; sed haec non
+            fuis<lb ed="#V" n="50" break="no"/>set infinita, nec possibile fuisset
+            es<lb ed="#V" n="51" break="no"/>se infinitam, nisi pro tanto, quia
+            <lb ed="#V" n="52"/>conjungit infinito. Hoc patet de
+            <lb ed="#V" n="53"/>fide ad Petrum circa medium, et
+            <lb ed="#V" n="54"/>ideo poena durat, quia peccatum
+            <lb ed="#V" n="55"/>in eis durat. Unde dicit:
+            Permanen<lb ed="#V" n="56" break="no"/>te in eis injustee affectionis malo,
+            per<lb ed="#V" n="57" break="no"/>manet in eis justae retributionis damnato,
+            <lb ed="#V" n="58"/>a qua nos custodire dignetur, qui
+            <lb ed="#V" n="59"/>est benedictus in saecula
+            saeculo<lb ed="#V" n="60" break="no"/>rum. Amen.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>
